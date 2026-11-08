@@ -29,3 +29,7 @@ No se publican respuestas esperadas, tests, herramientas internas, rutas privada
 ## Estado
 
 Preparación documental local. La URL de Pages está prevista como https://pedenry.github.io/normativa-abierta/ y queda pendiente de verificación del despliegue. No se declara éxito de publicación.
+
+## Resultado observado
+
+Publicación verificada posteriormente: commit de contenido `d6424d99a5e406c002bc3aa5360ba20a306b6788`, Pages activo en https://pedenry.github.io/normativa-abierta/ (workflow SUCCESS `42523296620`, pusher real `pedenry`). El detalle y los pendientes están en el handoff.

@@ -1,8 +1,10 @@
 # Normativa Abierta
 
+**[Abrir consulta publicada](https://pedenry.github.io/normativa-abierta/)** · [Mapa del repositorio](https://github.com/pedenry/normativa-abierta/tree/main/contenido) · [Changelog](changelog/) · [Licencias](LICENCIAS.md)
+
 Objetivo futuro: normativa de edificación más allá del CTE, con cobertura real y trazable. Hoy el paquete publicable contiene **31 PDF redistribuibles**: **15 disposiciones legales** (Parte I, los 11 DB, RD 314/2006, RITE y RSCIEI) más **16 guías con permiso editorial expreso**. El inventario de trabajo tiene 88 fuentes, pero **50 PDF privados no se incluyen**; otras 7 fuentes son sólo fichas HTML. No es «toda la normativa».
 
-Estado publicado: **1582 páginas** y **3033 segmentos** de los 31 documentos. Navegación: `index.html` → `site/materia` → documento → apartado/página. Contenido en `contenido/docs/{ID}/{versión_SHA}/`; índices y manifiestos en `contenido/indice/` y cada documento; condiciones en `LICENCIAS.md` y `licencias/`; cambios en `changelog/`.
+Estado publicado y verificado: **1582 páginas** y **3033 segmentos** de los 31 documentos. Navegación: `index.html` → `site/materia` → documento → apartado/página. Contenido en `contenido/docs/{ID}/{versión_SHA}/`; índices y manifiestos en `contenido/indice/` y cada documento; condiciones en `LICENCIAS.md` y `licencias/`; cambios en `changelog/`.
 
 ## Uso desde un modelo
 
@@ -24,4 +26,6 @@ Límites: segmentación y jerarquía automáticas no verificadas humanamente; ce
 
 ## Publicación
 
-URL de Pages prevista: https://pedenry.github.io/normativa-abierta/ — **pendiente de verificación del despliegue actual**. Entrada relativa: `index.html`. Sin publicación de tests, respuestas esperadas, herramientas internas ni rutas privadas.
+Publicado y verificado en https://pedenry.github.io/normativa-abierta/ (commit de contenido `d6424d99a5e406c002bc3aa5360ba20a306b6788`; Pages workflow SUCCESS `42523296620`; pusher real `pedenry`). La compatibilidad real en ChatGPT/Claude sigue sin probarse. Entrada relativa: `index.html`. Sin publicación de tests, respuestas esperadas, herramientas internas ni rutas privadas.
+
+La insignia de GitHub puede autodetectar «MIT» por `LICENSE-CODE`; **no es una licencia global**: sólo cubre el código original, no normativa ni documentos de terceros. Los derechos se rigen por cada fuente en `LICENCIAS.md`.

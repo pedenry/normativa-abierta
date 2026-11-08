@@ -7,8 +7,8 @@ usuario_github_verificado: pedenry (id 35270581)
 solicitante: usuario humano de la sesión en contexto pedenry
 ejecutor: Codex mediante GitHub CLI
 herramienta: OpenCode con NaN; modelo nan/deepseek-v4-flash verificado por tool run
-commits: pendiente del primer commit; este registro se consulta en el historial
-estado: paquete estable preparado localmente; despliegue pendiente
+commits: contenido estable d6424d99a5e406c002bc3aa5360ba20a306b6788; este registro se consulta en el historial
+estado: publicado y verificado; commit sólo-docs posterior pendiente
 ---
 
 ## Hechos verificados
@@ -19,6 +19,7 @@ estado: paquete estable preparado localmente; despliegue pendiente
 - Validación local estable: 31/31 con documento, páginas, citas y versión; 6/6 condiciones de fuente; 12/12 variantes por fuente. Legacy léxico 27/31, con flags SA01, SI01, T02, T07 visibles.
 - Baseline B: mediana 1,01059; flujo rico CLI 1.979.859 total / 2.133.119 base; no es consumo real de modelo.
 - Comparación A PDF multimodal vs preparado: no medida; sin API pagada. El preprocesado ya existe y evita reextracción.
+- Publicación observada: commit d6424d99a5e406c002bc3aa5360ba20a306b6788; pusher real `pedenry`; Pages workflow SUCCESS (`actions/runs/42523296620`); URL https://pedenry.github.io/normativa-abierta/ verificada el 2026-11-08T22:06:52+01:00. PDF de fuente con SHA original y JSON F correctos; 31 PDF y 0 `site/consulta` ni `herramientas`.
 
 ## Límites registrados
 
@@ -26,4 +27,4 @@ La ruta experimental estática midió 10/12 variantes y no se incluye. El protot
 
 ## Verificación
 
-Documentos preparados para el commit; la URL de Pages y el SHA observado del commit se completarán después del push. La publicación no se declara completada en este registro.
+Documentos preparados para el commit; la URL de Pages y el SHA observado del commit se completaron tras el push. La publicación queda verificada; el commit sólo-docs posterior se trazará por el historial.
