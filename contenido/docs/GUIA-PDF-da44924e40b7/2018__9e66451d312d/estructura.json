@@ -1,0 +1,395 @@
+{
+ "id": "GUIA-PDF-da44924e40b7",
+ "version": "2018",
+ "metodo": "lineas",
+ "apartados": [
+  {
+   "id_tecnico": "a0001",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "Portada y páginas previas",
+   "seccion_estimada": "Portada y páginas previas",
+   "parent_id": null,
+   "titulo": "Portada y páginas previas",
+   "nivel": 0,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0001__portada-y-paginas-previas.md",
+   "archivo_json": "apartado/a0001__portada-y-paginas-previas.json",
+   "sha256_texto": "326523fdf531de68c05263ed49036e4bf929fbf8858bf155d1fa92fdca7ba353",
+   "caracteres": 68,
+   "primera_linea": "Fecha de intervención: 2018 · Coste de ejecución material:  12.700 €"
+  },
+  {
+   "id_tecnico": "a0002",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "Portada y páginas previas / SELLADO + VENTILACIÓN MECÁNICA DE LOS LOCALES HABITABLES",
+   "seccion_estimada": "Portada y páginas previas",
+   "parent_id": "a0001",
+   "titulo": "SELLADO + VENTILACIÓN MECÁNICA DE LOS LOCALES HABITABLES",
+   "nivel": 3,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0002__sellado-ventilacion-mecanica-de-los-locales-habitables.md",
+   "archivo_json": "apartado/a0002__sellado-ventilacion-mecanica-de-los-locales-habitables.json",
+   "sha256_texto": "4c8c957310699e4ada2d77b5f098724ba1e1a4c67d86bac564e8aefdf442ac39",
+   "caracteres": 412,
+   "primera_linea": "SELLADO + VENTILACIÓN MECÁNICA DE LOS LOCALES HABITABLES"
+  },
+  {
+   "id_tecnico": "a0003",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "parent_id": null,
+   "titulo": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "nivel": 1,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "referencias",
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [
+    "DB HS6"
+   ],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0003__1-descripcion-del-edificio.md",
+   "archivo_json": "apartado/a0003__1-descripcion-del-edificio.json",
+   "sha256_texto": "319976aac7044f92855a91dbbe4ab624e59ba71cd7dec2494639515651eea4a5",
+   "caracteres": 631,
+   "primera_linea": "1. DESCRIPCIÓN DEL EDIFICIO"
+  },
+  {
+   "id_tecnico": "a0004",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO / EJEMPLO A2+C1",
+   "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "parent_id": "a0003",
+   "titulo": "EJEMPLO A2+C1",
+   "nivel": 3,
+   "paginas": [
+    1,
+    2
+   ],
+   "etiquetas_impresas": [
+    null,
+    "2"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0004__ejemplo-a2-c1.md",
+   "archivo_json": "apartado/a0004__ejemplo-a2-c1.json",
+   "sha256_texto": "95f32b851ed0d849e94c5da1b017b4d8336dfde974b5686deed360f92142e05d",
+   "caracteres": 269,
+   "primera_linea": "EJEMPLO A2+C1"
+  },
+  {
+   "id_tecnico": "a0005",
+   "ruta_oficial": "3",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "3. DIAGNÓSTICO",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": null,
+   "titulo": "3. DIAGNÓSTICO",
+   "nivel": 1,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0005__3-diagnostico.md",
+   "archivo_json": "apartado/a0005__3-diagnostico.json",
+   "sha256_texto": "d31a778d915b25f8fbcc19bf207334385d288a5de051f37f1df6a8672face7a0",
+   "caracteres": 1009,
+   "primera_linea": "3. DIAGNÓSTICO"
+  },
+  {
+   "id_tecnico": "a0006",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "3. DIAGNÓSTICO / Puntos críticos en el cerramiento",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": "a0005",
+   "titulo": "Puntos críticos en el cerramiento",
+   "nivel": 3,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0006__puntos-criticos-en-el-cerramiento.md",
+   "archivo_json": "apartado/a0006__puntos-criticos-en-el-cerramiento.json",
+   "sha256_texto": "3260d7be03a6b9b38c40990354047d3a4d4c6e99ac5c94f3423dcbf45e4657b2",
+   "caracteres": 224,
+   "primera_linea": "Puntos críticos en el cerramiento"
+  },
+  {
+   "id_tecnico": "a0007",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "3. DIAGNÓSTICO / Ventilación",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": "a0005",
+   "titulo": "Ventilación",
+   "nivel": 3,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0007__ventilacion.md",
+   "archivo_json": "apartado/a0007__ventilacion.json",
+   "sha256_texto": "1195b04e6601ccc55f07d3e3d64f742a7efa11db444e67ce829e7138fcad767b",
+   "caracteres": 792,
+   "primera_linea": "Ventilación"
+  },
+  {
+   "id_tecnico": "a0008",
+   "ruta_oficial": "2",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "seccion_estimada": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "parent_id": null,
+   "titulo": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "nivel": 1,
+   "paginas": [
+    2,
+    3
+   ],
+   "etiquetas_impresas": [
+    "2",
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0008__2-eleccion-de-la-solucion.md",
+   "archivo_json": "apartado/a0008__2-eleccion-de-la-solucion.json",
+   "sha256_texto": "a79e272b12d4e50ee82fb7003625784c2d064c01d05cba3adbac82381decb581",
+   "caracteres": 1937,
+   "primera_linea": "2. ELECCIÓN DE LA SOLUCIÓN"
+  },
+  {
+   "id_tecnico": "a0009",
+   "ruta_oficial": "4",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "4. DISEÑO",
+   "seccion_estimada": "4. DISEÑO",
+   "parent_id": null,
+   "titulo": "4. DISEÑO",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0009__4-diseno.md",
+   "archivo_json": "apartado/a0009__4-diseno.json",
+   "sha256_texto": "5434dbb9110314174419af1be58d9f50a39e85a659b0ad68bc6c210419229575",
+   "caracteres": 2132,
+   "primera_linea": "4. DISEÑO"
+  },
+  {
+   "id_tecnico": "a0010",
+   "ruta_oficial": "5",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "5. EJECUCIÓN",
+   "seccion_estimada": "5. EJECUCIÓN",
+   "parent_id": null,
+   "titulo": "5. EJECUCIÓN",
+   "nivel": 1,
+   "paginas": [
+    3,
+    4
+   ],
+   "etiquetas_impresas": [
+    "3",
+    "4"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0010__5-ejecucion.md",
+   "archivo_json": "apartado/a0010__5-ejecucion.json",
+   "sha256_texto": "05d8f79c94f441785723143ce667216d7f8d841f59e6c4d4a01c6851653f2e71",
+   "caracteres": 454,
+   "primera_linea": "5. EJECUCIÓN"
+  },
+  {
+   "id_tecnico": "a0011",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "5. EJECUCIÓN / A2+C14 6. EFECTIVIDAD",
+   "seccion_estimada": "5. EJECUCIÓN",
+   "parent_id": "a0010",
+   "titulo": "A2+C14 6. EFECTIVIDAD",
+   "nivel": 3,
+   "paginas": [
+    4
+   ],
+   "etiquetas_impresas": [
+    "4"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0011__a2-c14-6-efectividad.md",
+   "archivo_json": "apartado/a0011__a2-c14-6-efectividad.json",
+   "sha256_texto": "28c9745cd71f624459a66b5b6da2a3032704fe55ad3717db857ac2ebd75430af",
+   "caracteres": 142,
+   "primera_linea": "A2+C14 6. EFECTIVIDAD"
+  },
+  {
+   "id_tecnico": "a0012",
+   "ruta_oficial": "401",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "401 a 295 Bq/m3.",
+   "seccion_estimada": "401 a 295 Bq/m3.",
+   "parent_id": null,
+   "titulo": "401 a 295 Bq/m3.",
+   "nivel": 1,
+   "paginas": [
+    4,
+    5
+   ],
+   "etiquetas_impresas": [
+    "4",
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0012__401-a-295-bq-m3.md",
+   "archivo_json": "apartado/a0012__401-a-295-bq-m3.json",
+   "sha256_texto": "c996d0500015c3f0ef738b165a61664ca7326b7f9391f9593ac253825d486090",
+   "caracteres": 582,
+   "primera_linea": "401 a 295 Bq/m3."
+  },
+  {
+   "id_tecnico": "a0013",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "401 a 295 Bq/m3. / A2+C15",
+   "seccion_estimada": "401 a 295 Bq/m3.",
+   "parent_id": "a0012",
+   "titulo": "A2+C15",
+   "nivel": 3,
+   "paginas": [
+    5
+   ],
+   "etiquetas_impresas": [
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0013__a2-c15.md",
+   "archivo_json": "apartado/a0013__a2-c15.json",
+   "sha256_texto": "2d5fa9159fb8ad6fc0b7050ee354e0e1cb73234fad6d41f19da810d9ae01f526",
+   "caracteres": 568,
+   "primera_linea": "A2+C15"
+  },
+  {
+   "id_tecnico": "a0014",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "401 a 295 Bq/m3. / sección HS6 Protección frente a la exposición al radón.",
+   "seccion_estimada": "401 a 295 Bq/m3.",
+   "parent_id": "a0012",
+   "titulo": "sección HS6 Protección frente a la exposición al radón.",
+   "nivel": 2,
+   "paginas": [
+    5
+   ],
+   "etiquetas_impresas": [
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0014__seccion-hs6-proteccion-frente-a-la-exposicion-al-radon.md",
+   "archivo_json": "apartado/a0014__seccion-hs6-proteccion-frente-a-la-exposicion-al-radon.json",
+   "sha256_texto": "18846a73dbcf83878933d5ab9065e2021e0f47c0044221880030603a5075c22a",
+   "caracteres": 3162,
+   "primera_linea": "sección HS6 Protección frente a la exposición al radón."
+  }
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo"
+}

@@ -1,0 +1,98 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0057",
+  "ruta_oficial": null,
+  "ruta_semantica": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "titulo": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "nivel": 2,
+  "parent_id": null,
+  "seccion_estimada": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 12,
+   "bbox": [
+    72.0,
+    71.0,
+    551.9,
+    221.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "294b954a0754be7753e41d85c2975b3ce802faf1b4091159074444b43ececf06",
+   "literal": "Artículo 10. Exigencias básicas de seguridad estructural (SE)"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0023",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "Artículo 10",
+   "DB SE",
+   "DB-SE-A",
+   "DB-SE-AE",
+   "DB-SE-F",
+   "DB-SE-M"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades / Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+   "seccion_estimada": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d7c143342ea92ff19416a37541f06f3202d5f363150ace7fbcdc80b19692dabc"
+ },
+ "paginas": [
+  12
+ ],
+ "etiquetas_impresas": [
+  "12"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Artículo 10. Exigencias básicas de seguridad estructural (SE)\n1. El objetivo del requisito básico \"Seguridad estructural\" consiste en asegurar que el edificio tiene un\ncomportamiento estructural adecuado frente a las acciones e influencias previsibles a las que pueda\nestar sometido durante su construcción y uso previsto.\n2. Para satisfacer este objetivo, los edificios se proyectarán, fabricarán, construirán y mantendrán de for-\nma que cumplan con una fiabilidad adecuada las exigencias básicas que se establecen en los aparta-\ndos siguientes.\n3. Los Documentos Básicos “DB SE Seguridad Estructural”, “DB-SE-AE Acciones en la edificación”, “DB-\nSE-C Cimientos”, “DB-SE-A Acero”, “DB-SE-F Fábrica” y “DB-SE-M Madera”, especifican parámetros\nobjetivos y procedimientos cuyo cumplimiento asegura la satisfacción de las exigencias básicas y la\nsuperación de los niveles mínimos de calidad propios del requisito básico de seguridad estructural.\n4. Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 10",
+  "DB SE",
+  "DB-SE-A",
+  "DB-SE-AE",
+  "DB-SE-F",
+  "DB-SE-M"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0058",
+  "a0059"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

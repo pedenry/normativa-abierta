@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0015",
+  "ruta_oficial": "3.1.1",
+  "ruta_semantica": "3.1.1 Valores de la sobrecarga",
+  "titulo": "3.1.1 Valores de la sobrecarga",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.1 Valores de la sobrecarga",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    70.9,
+    214.9,
+    249.8,
+    228.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "dc0548baceee5e4341e7995d8ff84c6ec350d5c5aeef3813f3fcf8949e288281",
+   "literal": "3.1.1 Valores de la sobrecarga"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0011",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.1 Valores de la sobrecarga",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso / 3.1.1 Valores de la sobrecarga",
+   "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5405fd277fa4b2768b8423544ef518390241b28eb33521e9bc6c1d611b81d2d4"
+ },
+ "paginas": [
+  9,
+  10
+ ],
+ "etiquetas_impresas": [
+  "9",
+  "10"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.1.1 Valores de la sobrecarga\n1\nPor lo general, los efectos de la sobrecarga de uso pueden simularse por la aplicación de una carga\ndistribuida uniformemente. De acuerdo con el uso que sea fundamental en cada zona del mismo,\ncomo valores característicos se adoptarán los de la Tabla 3.1. Dichos valores incluyen tanto los\nefectos derivados del uso normal, personas, mobiliario, enseres, mercancías habituales, contenido\nde los conductos, maquinaria y en su caso vehículos, así como las derivadas de la utilización poco\nhabitual, como acumulación de personas, o de mobiliario con ocasión de un traslado.\n2\nAsimismo, para comprobaciones locales de capacidad portante, debe considerase una carga con-\ncentrada actuando en cualquier punto de la zona. Dicha carga se considerará actuando simultá-\nneamente con la sobrecarga uniformemente distribuida en las zonas de uso de tráfico y aparca-\nmiento de vehículos ligeros, y de forma independiente y no simultánea con ella en el resto de los\ncasos.\nDichas carga concentrada se considerará aplicadas sobre el pavimento acabado en una superficie\ncuadrada de 200 mm en zonas uso de de tráfico y aparcamiento y de 50 mm de lado en el resto de\nlos casos.\nTabla 3.1. Valores característicos de las sobrecargas de uso\nCategoría de uso\nSubcategorías de uso\nCarga\nuniforme\n[kN/m2]\nCarga\nconcentrada\n[kN]\nA1\nViviendas y zonas de habitaciones en, hospi-\ntales y hoteles\n2\n2\nA\nZonas residenciales\nA2\nTrasteros\n3\n2\nB\nZonas administrativas\n2\n2\nC1\nZonas con mesas y sillas\n3\n4\nC2\nZonas con asientos fijos\n4\n4\nC3\nZonas sin obstáculos que impidan el libre\nmovimiento de las personas como vestíbulos\nde edificios públicos, administrativos, hoteles;\nsalas de exposición en museos; etc.\n5\n4\nC4\nZonas destinadas a gimnasio u actividades\nfísicas\n5\n7\nC\nZonas de acceso al\npúblico (con la excep-\nción de las superficies\npertenecientes a las\ncategorías A, B, y D)\nC5\nZonas de aglomeración (salas de conciertos,\nestadios, etc)\n5\n4\nD1\nLocales comerciales\n5\n4\nD\nZonas comerciales\nD2\nSupermercados, hipermercados o grandes\nsuperficies\n5\n7\nE\nZonas de tráfico y de aparcamiento para vehículos ligeros (peso total < 30 kN)\n2\n20 (1)\nF\nCubiertas transitables accesibles sólo privadamente (2)\n1\n2\nCubiertas con inclinación inferior a 20º\n1(4) (6)\n2\nG1(7)\nCubiertas ligeras sobre correas (sin forjado) (5)\n0,4(4)\n1\nG\nCubiertas accesibles\núnicamente para con-\nservación (3)\nG2\nCubiertas con inclinación superior a 40º\n0\n2\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 6\n(1) Deben descomponerse en dos cargas concentradas de 10 kN separadas entre si 1,8 m.Alternativamente dichas cargas se\npodrán sustituir por una sobrecarga uniformemente distribuida en la totalidad de la zona de 3,0 kN/m\n2 para el cálculo de ele-\nmentos secundarios, como nervios o viguetas, doblemente apoyados, de 2,0 kN/m\n2 para el de losas, forjados reticulados o ner-\nvios de forjados continuos, y de 1,0 kN/m\n2 para el de elementos primarios como vigas, ábacos de soportes, soportes o zapatas.\n(2)En cubiertas transitables de uso público, el valor es el correspondiente al uso de la zona desde la cual se accede.\n(3) Para cubiertas con un inclinación entre 20º y 40º, el valor de qk se determina por interpolación lineal entre los valores corres-\npondientes a las subcategorías G1 y G2.\n(4)  El valor indicado se refiere a la proyección horizontal de la superficie de la cubierta.\n(5) Se entiende por cubierta ligera aquella cuya carga permanente debida únicamente a su cerramiento no excede de 1 kN/m\n2.\n(6)Se puede adoptar un área tributaria inferior a la total de la cubierta, no menor que 10 m\n2 y situada en la parte más desfavorable\nde la misma, siempre que la solución adoptada figure en el plan de mantenimiento del edificio.\n(7)Esta sobrecarga de uso no se considera concomitante con el resto de acciones variables.\n3\nEn las zonas de acceso y evacuación de los edificios de las zonas de categorías A y B, tales como\nportales, mesetas y escaleras, se incrementará el valor correspondiente a la zona servida en 1\nkN/m2.\n4\nPara su comprobación local, los balcones volados de toda clase de edificios se calcularán con la\nsobrecarga de uso correspondiente a la categoría de uso con la que se comunique, más una sobre-\ncarga lineal actuando en sus bordes de 2 kN/m.\n5\nPara las zonas de almacén o biblioteca, se consignará en la memoria del proyecto y en las instruc-\nciones de uso y mantenimiento el valor de sobrecarga media, y en su caso, distribución de carga,\npara la que se ha calculado la zona, debiendo figurar en obra una placa con dicho valor\n6\nEn porches, aceras y espacios de tránsito situados sobre un elemento portante o sobre un terreno\nque desarrolla empujes sobre otro elementos  estructurales, se considerará una sobrecarga de uso\nde 1 kN/m2 si se trata de espacios privados y de 3 kN/m2  si son de acceso público.\n7\nLos valores indicados ya incluyen el efecto de la alternancia de carga, salvo en el caso de elemen-\ntos críticos, como vuelos, o en el de zonas de aglomeración.\n8\nA los efectos de combinación de acciones, las sobrecargas de cada tipo de uso tendrán la conside-\nración de acciones diferentes. Los items dentro de cada subcategoría de la tabla 3.1 son tipos dis-\ntintos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0009_t01.json",
+  "../tabla/p0010_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0009.png",
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

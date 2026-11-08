@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0084",
+  "ruta_oficial": "7.3.1.1",
+  "ruta_semantica": "7.3.1.1 Generalidades",
+  "titulo": "7.3.1.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.3.1.1 Generalidades",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 41,
+   "bbox": [
+    70.9,
+    421.2,
+    178.8,
+    431.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "30e752419b4b7feb1a263029534be544a4fe80d754de260944ae4c1037cad132",
+   "literal": "7.3.1.1 Generalidades"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0088",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.3.1.1 Generalidades",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.3 Enlaces 7.3.1 Enlace entre muros y forjados / 7.3.1.1 Generalidades",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e48d0e6131d02c52663ed64f8634a05aef2c4121abe2d89d78c8a0ab4bdc9943"
+ },
+ "paginas": [
+  41
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "7.3.1.1 Generalidades\n1\nCuando se considere que los muros están arriostrados por los forjados, se enlazarán a éstos de forma\nque se puedan transmitir las acciones laterales.\n2\nLas acciones laterales se transmitirán a los elementos arriostrantes o a través de la propia estructura\nde los forjados (monolíticos) o mediante vigas perimetrales capaces de absorber los momentos y\ncortantes resultantes.\n3\nLas acciones laterales se pueden transmitir mediante conexiones específicas (entre muros y forjados)\no por rozamiento.\n4\nCuando un forjado carga sobre un muro, la longitud de apoyo será la estructuralmente necesaria pero\nnunca menor de 65 mm (teniendo en cuenta las tolerancias de fabricación y de montaje).\n5\nLas llaves de muros capuchinos se dispondrán de modo que queden suficientemente recibidas en\nambas hojas (se considerará satisfecha esta prescripción si se cumple la norma UNE-EN 845-\n1:2014), y su forma y disposición será tal que el agua no pueda pasar por las llaves de una hoja a\notra.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0041.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

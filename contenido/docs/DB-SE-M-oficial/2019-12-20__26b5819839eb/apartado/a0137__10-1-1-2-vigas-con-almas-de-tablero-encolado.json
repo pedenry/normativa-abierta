@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0137",
+  "ruta_oficial": "10.1.1.2",
+  "ruta_semantica": "10.1.1.2  Vigas con almas de tablero encolado",
+  "titulo": "10.1.1.2  Vigas con almas de tablero encolado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.1.1.2  Vigas con almas de tablero encolado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 77,
+   "bbox": [
+    70.9,
+    348.4,
+    290.9,
+    358.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ce76df451732e484a6bbaca3f2fc538162bb3ffe3dcd5c0dbae49a0b892717d0",
+   "literal": "10.1.1.2  Vigas con almas de tablero encolado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0158",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 6.3.2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.1.1.2  Vigas con almas de tablero encolado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.1.1  Vigas mixtas de madera y tablero encoladas 10.1.1.1  Principios generales / 10.1.1.2  Vigas con almas de tablero encolado",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f55553489ece82269e465066de0bcae7fd9cb126d8259802a0b601dd54cc7ed2"
+ },
+ "paginas": [
+  77,
+  78,
+  79
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "10.1.1.2  Vigas con almas de tablero encolado\n1\nEste tipo de viga está formada por almas de tablero estructural y alas encoladas, de madera aserra-\nda, laminada encolada o microlaminada. En este apartado se consideran las vigas de sección en I\n(doble T) y la viga-cajón. (Véase figura 10.1).\n3\nFigura 10.1 Vigas en I ó doble T y cajón de alma delgada formada por tableros\n2\nTensiones normales en las alas\nLas tensiones normales en las alas, considerando una ley de deformación unitaria longitudinal plana\nde la sección de la viga (véase figura 10.1) deben cumplir las siguientes condiciones:\nf,c,max,d fm,d\n(10.3)\nf,t,max,d fm,d\n(10.4)\nf,c,d kc fc,0,d\n(10.5)\nf,t,d ft,0,d\n(10.6)\nsiendo:\n\nDocumentoBásico SE-M Madera\nSE-M 72\nf,c,max,d\ntensión de cálculo a compresión en la fibra extrema comprimida del ala;\nf,t,max,d\ntensión de cálculo a tracción en la fibra extrema traccionada del ala;\nf,c,d\nvalor medio de la tensión de cálculo a compresión en el ala;\nf,t,d\nvalor medio de la tensión de cálculo a tracción en el ala;\nkc\ncoeficiente de pandeo lateral del ala comprimida de la viga, para el caso en que la pieza\nno está atada. Puede obtenerse para vigas cajón, como se indica en el apartado 6.3.2.2.,\necuación (6.32), para kc,z, partiendo en este caso de:\nb\nL\n.\n12\nc\nz\nrel\n\n\n(10.7)\ndonde:\nLc\ndistancia entre las secciones que tienen impedida la deformación lateral en el ala compri-\nmida;\nb\nancho definido en la figura 10.1;\nfm,d\nresistencia de cálculo a flexión del material de para las alas;\nfc,0,d\nresistencia de cálculo a compresión paralela del material de las alas;\nft,0,d\nresistencia de cálculo a tracción paralela del material de las alas;\nLa comprobación estricta de f,c,d, pertece al ámbito de la estabilidad lateral en flexión, no en flexo-\ncompresión; y ya que en el diagrama de tensiones normales mostrado en la figura 10.1 no se está\nconsiderando ningún axil.\n3\nTensiones normales en el alma:\na) las tensiones normales en el alma deben cumplir las siguientes condiciones:\nw,c,max,d fc,w,d\n(10.8)\nw,t,max,d ft,w,d\n(10.9)\nsiendo:\nw,c,max,d  tensión de cálculo a compresión en el alma debida a la flexión;\nw,t,max,d\ntensión de cálculo a tracción en el alma debida a la flexión;\nfc,w,d\nresistencia de cálculo a compresión en el alma en flexión;\nft,w,d\nresistencia de cálculo a tracción en el alma en flexión.\nb) salvo que se conozcan las resistencias a compresión y a tracción del tablero trabajando de can-\nto, los valores de fc,w,d  y ft,w,d deben tomarse igual a la resistencia de compresión y tracción del\ntablero trabajando de tabla.\n4\nAbolladura del alma.\nDebe verificarse que:\nw\nw\nb\n70\nh\n\n\n(10.10)\ny\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nw\nw\nw\nd\n,\n0,\nv\nw\nc,f\nt,f\n2\nw\nw\nw\nd\n,\n0\n,v\nw\nc,f\nt,f\nw\nw\nSd\n,\nw\n,v\nb·\n70\nh\nb·\n35\npara\nf·\nh\n)\nh\nh\n·(\n5,0\n1\n·\nb·\n35\nb·\n35\nh\npara\nf·\nh\n)\nh\nh\n·(\n5,0\n1\n·\nh·\nb\nF\n(10.11)\n(10.12)\nsiendo:\nhw, bw, hf,c y hf,t\ncantos y anchos definidos en la figura 10.1;\nFv,w,Sd\nesfuerzo cortante de cálculo, actuando en cada alma;\nfv,0,d (=fv,p,0,d)\nresistencia de cálculo a cortante de cizalladura del tablero del alma.\n5\nSuperficies críticas a tensiones tangenciales de rodadura.\nEn las secciones 1-1 de la figura 10.1, superficie de contacto tablero-madera, debe verificarse que:\n\n\n\nef\nf\nd\n90\nv\nb·\n4\nh\npara\nf\n(10.13)\n\nDocumentoBásico SE-M Madera\nSE-M 73\n(10.14)\nsiendo:\nmedio,d\ntensión tangencial de cálculo en la superficie de contacto tablero-madera admitiendo una\ndistribución uniforme de las tensiones tangenciales;\nfv,90,d\n(=fv,r,p,d)resistencia de cálculo a cortante de rodadura en el tablero;\nw\nef\nb\nb\n\nen vigas cajón;\n2\n/\nb\nb\nw\nef\nen secciones en doble te;\nhf\nindistintamente hf,c o hf,t, (figura 10.1)\n6\nPara la determinación de la tensión media de rodadura medio,d en vigas mixtas de alma delgada en-\ncolada, tipo doble T, figura 10.1, se tomará la mas desfavorable de las expresiones siguientes:\ny\nc,f\ny\nSd\n,\nw\n,\nv\nd\n,\nmedio\nI\nh\n2\nS\nF\n\n\n\n\n\nsi   hf,c < hf,t\n(10.15)\ny\nt,f\ny\nSd\n,\nw\n,\nv\nd\n,\nmedio\nI\nh\n2\nS\nF\n\n\n\n\n\nsi   hf,c hf,t\n(10.16)\nsiendo:\nFv,w,S,d\nesfuerzo cortante de cálculo;\nSy\nmomento estático del ala de la sección homogeneizada, respecto al eje y;\nIy\nmomento de inercia de la sección homogeneizada respecto al eje y;\nhf,c  y  hf,t\ncantos de las alas (figura 10.1).",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.3.2.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0077.png",
+  "../figura/p0078.png",
+  "../figura/p0079.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

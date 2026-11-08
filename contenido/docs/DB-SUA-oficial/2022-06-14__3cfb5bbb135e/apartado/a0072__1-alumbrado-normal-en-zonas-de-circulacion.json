@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0072",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada / 1 Alumbrado normal en zonas de circulación",
+  "titulo": "1 Alumbrado normal en zonas de circulación",
+  "nivel": 2,
+  "parent_id": "a0070",
+  "seccion_estimada": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 21,
+   "bbox": [
+    70.9,
+    246.3,
+    396.6,
+    261.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "8cd6ab740f4f74a61952bf7953bb3733627d068e3346e02208247ae40874cee3",
+   "literal": "1 Alumbrado normal en zonas de circulación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0041",
+  "parent_id_original": "a0070",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Alumbrado normal en zonas de circulación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0070",
+   "ruta_semantica": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada / 1 Alumbrado normal en zonas de circulación",
+   "seccion_estimada": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5536cd68455d972913ddf6fcc3245fe95753b1682ca40ef29093bc3bbeef3a9f"
+ },
+ "paginas": [
+  21
+ ],
+ "etiquetas_impresas": [
+  "21"
+ ],
+ "tipos": [],
+ "texto": "Alumbrado normal en zonas de circulación\n1\nEn cada zona se dispondrá una instalación de alumbrado capaz de proporcionar, una iluminancia\nmínima de 20 lux en zonas exteriores y de 100 lux en zonas interiores, excepto aparcamientos inte-\nriores en donde será de 50 lux, medida a nivel del suelo.\nEl factor de uniformidad media será del 40% como mínimo.\n2\nEn las zonas de los establecimientos de uso Pública Concurrenciaen las que la actividad se desarro-\nlle con un nivel bajo de iluminación, como es el caso de los cines, teatros, auditorios, discotecas,\netc., se dispondrá una iluminación de balizamiento en las rampas y en cada uno de los peldaños de\nlas escaleras.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

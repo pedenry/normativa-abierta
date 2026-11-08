@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0048",
+  "ruta_oficial": "5.3",
+  "ruta_semantica": "5.3 Estabilidad lateral global",
+  "titulo": "5.3 Estabilidad lateral global",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.3 Estabilidad lateral global",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 26,
+   "bbox": [
+    74.1,
+    624.9,
+    238.9,
+    638.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f22c47c85c4692b5288485f0fd66abe94c2a048f617d648f30cab8bb959c343e",
+   "literal": "5.3 Estabilidad lateral global"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0052",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB SE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3 Estabilidad lateral global",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.3 Estabilidad lateral global",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9838e237c5f1347ad7816c3aa3cc99b5a279b90ef0554576186cde822b528c54"
+ },
+ "paginas": [
+  26,
+  27
+ ],
+ "etiquetas_impresas": [
+  "26",
+  "27"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "5.3 Estabilidad lateral global\n1\nTodo edificio debe contar con los elementos necesarios para materializar una trayectoria clara de\nlas fuerzas horizontales, de cualquier dirección en planta, hasta la cimentación.\n2\nLa citada trayectoria puede basarse en la capacidad a flexión de las barras y uniones (pórticos rígi-\ndos), o en la capacidad a axil de sistemas triangulados dispuestos específicamente (por ejemplo:\ncruces de San Andrés, triangulaciones en K, X, V, etc) denominados usualmente arriostramientos.\n3\nPara arriostrar, pueden usarse pantallas horizontales (diafragmas rígidos o forjados) o verticales\n(cerramientos o particiones de fábrica, chapa conformada, paneles, muros de hormigón, etc),\nsiempre que:\n\nDocumentoBásico SE-A Acero\nSE-A-25\na)\nse pueda asegurar su permanencia durante el periodo de servicio del edificio y se proyecten\ncorrectamente en cuanto a su trabajo conjunto, mediante una adecuada interacción de la es-\ntructura principal con la de arriostramiento acorde con los cálculos realizados, y su conexión a\nla cimentación o su punto preciso de interrupción;\nb)\nse consideren los posibles esfuerzos sobre la estructura debidos a la coacción de la libre de-\nformación de los propios cerramientos o particiones por efectos térmicos o reológicos (coac-\nción impuesta por la propia estructura);\nc)\nse asegure la resistencia de los medios de conexión a la estructura;\nd)\nasí se haga constar expresamente en la memoria del proyecto.\n4\nTodos los elementos del esquema resistente ante acciones horizontales se proyectarán con la re-\nsistencia adecuada a los esfuerzos generados, y con la rigidez suficiente para:\na)\nsatisfacer los estados límites de servicio establecidos en DB SE.\nb)\ngarantizar la intraslacionalidad en los casos en los que constituya una de las hipótesis de aná-\nlisis.\n5\nCuando el esquema resistente ante acciones horizontales se base en sistemas triangulados o en\npantallas o núcleos de hormigón de rigidez que aportan al menos el 80% de la rigidez frente a des-\nplazamientos horizontales en una dirección, se dice que la estructura está arriostrada en dicha di-\nrección. En este caso es admisible suponer que todas las acciones horizontales son resistidas ex-\nclusivamente por el sistema de arriostramiento y, además, considerar la estructura como intrasla-\ncional. Por debajo de toda planta, hacen falta al menos tres planos de arriostramiento no paralelos\nni concurrentes, complementados con un forjado o cubierta rígido en su plano, para poder concluir\nque dicha planta está completamente arriostrada en todas direcciones.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0026.png",
+  "../figura/p0027.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0049"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

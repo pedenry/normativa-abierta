@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0191",
+  "ruta_oficial": "3.2.1.5.2",
+  "ruta_semantica": "3.2.1.5.2 Sistemas de reducción de la presión",
+  "titulo": "3.2.1.5.2 Sistemas de reducción de la presión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.2.1.5.2 Sistemas de reducción de la presión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 87,
+   "bbox": [
+    70.9,
+    282.8,
+    293.9,
+    294.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a3452fa9a7d75ae0192deb72519008e17738e75fac66ca3852d5b8b9f7eb2532",
+   "literal": "3.2.1.5.2 Sistemas de reducción de la presión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2.1.5.2 Sistemas de reducción de la presión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Diseño / 3.2 Elementos que componen la instalación 3.2.1 Red de agua fría / 3.2.1.5.2 Sistemas de reducción de la presión",
+   "seccion_estimada": "3 Diseño",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "433e6d71ea7cba614486bdf1aa262dabded9e9b9d380fb7b2a5541f57908594f"
+ },
+ "paginas": [
+  87
+ ],
+ "etiquetas_impresas": [
+  "87"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.2.1.5.2 Sistemas de reducción de la presión\n1\nDeben instalarse válvulas limitadoras de presión en el ramal o derivación pertinente para que no se\nsupere la presión de servicio máxima establecida en 2.1.3.\n2\nCuando se prevean incrementos significativos en la presión de red deben instalarse válvulas limita-\ndoras de tal forma que no se supere la presión máxima de servicio en los puntos de utilización.\n3.2.1.6\nSistemas de tratamiento de agua",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0197",
+   "ruta_oficial": "3.2.2",
+   "titulo": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)",
+   "archivo_json": "a0197__3-2-2-instalaciones-de-agua-caliente-sanitaria-acs.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0087.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

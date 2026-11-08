@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0027",
+  "ruta_oficial": "3.5.1",
+  "ruta_semantica": "3.5.1 Determinación de la carga de nieve",
+  "titulo": "3.5.1 Determinación de la carga de nieve",
+  "nivel": 1,
+  "parent_id": "a0026",
+  "seccion_estimada": "3.5.1 Determinación de la carga de nieve",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    70.9,
+    702.4,
+    305.1,
+    715.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+   "literal": "3.5.1 Determinación de la carga de nieve"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0024",
+  "parent_id_original": "a0026",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.5.1 Determinación de la carga de nieve",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0026",
+   "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve / 3.5.1 Determinación de la carga de nieve",
+   "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "49e86ea1ef5189164b524fde6684455540338b651d0315f88a785fd2cded72fb"
+ },
+ "paginas": [
+  14,
+  15
+ ],
+ "etiquetas_impresas": [
+  "14",
+  "15"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.5.1 Determinación de la carga de nieve\n1\nEn cubiertas planas de edificios de pisos situados en localidades de altitud inferior a 1.000 m, es\nsuficiente considerar una carga de nieve de 1,0 kN/m2. En otros casos o en estructuras ligeras, sen-\nsibles a carga vertical, los valores pueden obtenerse como se indica a continuación.\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 11\n2\nComo valor de carga de nieve por unidad de superficie en proyección horizontal, qn, puede tomarse:\nq n = µ · s k\n(3.2)\nsiendo:\nµ\ncoeficiente de forma de la cubierta según 3.5.3\nsk\nel valor característico de la carga de nieve sobre un terreno horizontal según 3.5.2\n3\nCuando la construcción esté protegida de la acción de viento, el valor de carga de nieve podrá re-\nducirse en un 20%. Si se encuentra en un emplazamiento fuertemente expuesto, el valor deberá\naumentarse en un 20%.\n4\nPara el cálculo de los elementos volados de la cubierta de edificios situados en altitudes superiores\na 1.000 m debe considerarse, además de la carga superficial de nieve, una carga lineal pn, en el\nborde del elemento, debida a la formación de hielo, que viene dada por la expresión (donde k = 3\nmetros):\np n = k ·µ2 · s k\n(3.3)\n5\nLa carga que actúa sobre elementos que impidan el deslizamiento de la nieve, se puede deducir a\npartir de la masa de nieve que puede deslizar. A estos efectos se debe suponer que el coeficiente\nde rozamiento entre la nieve y la cubierta es nulo.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0015_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0014.png",
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

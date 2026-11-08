@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0186",
+  "ruta_oficial": "10.8.3.1",
+  "ruta_semantica": "10.8.3.1 Oxicorte",
+  "titulo": "10.8.3.1 Oxicorte",
+  "nivel": 1,
+  "parent_id": "a0185",
+  "seccion_estimada": "10.8.3.1 Oxicorte",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 120,
+   "bbox": [
+    74.1,
+    314.9,
+    156.4,
+    326.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "074b7aab6219f71d573c48640917f440f4fcb66512425b21170cec28f5b3c3dd",
+   "literal": "10.8.3.1 Oxicorte"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0180",
+  "parent_id_original": "a0185",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.8.3.1 Oxicorte",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0185",
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.8 Control de fabricación en taller / 10.8.3 Ensayos de procedimiento. / 10.8.3.1 Oxicorte",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9db1be2002dd64c5ccba0d7044a962a60294057720bf46a16d045767b4cf062d"
+ },
+ "paginas": [
+  120,
+  121
+ ],
+ "etiquetas_impresas": [
+  "120",
+  "121"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.8.3.1 Oxicorte\n1\nLa capacidad del proceso debe comprobarse periódicamente produciendo cuatro muestras de los\nensayos de procedimiento:\na)\nuna muestra de corte recto del material de mayor espesor cortado;\nb)\nuna muestra de corte recto del material de menor espesor cortado;\nc)\nuna muestra de esquina viva;\nd)\nun arco curvado.\n2\nSobre cada una de las dos muestras rectas, en una longitud no inferior a 200 mm se evaluará la\nsuperficie, de forma que la desviación del ángulo recto en el corte (u) en mm y la profundidad de\nlas estrías en las caras de la chapa oxicortada (Rz) en micras, cumplan:\nu <  1 + 0,015 a\nRz <  110 + 1,8 a\nsiendo\na\nespesor del material en mm.\n3\nEl valor de Rz será el valor medio de las amplitudes (z) de cinco longitudes individuales de medi-\nción (véase figura 10.2).\nFigura 10.2 Bordes oxicortados. Profundidad de las estrías\n\nDocumentoBásico SE-A Acero\nSE-A-119",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0120.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

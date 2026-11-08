@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0025",
+  "ruta_oficial": "2.3",
+  "ruta_semantica": "2.3 Capacidad portante",
+  "titulo": "2.3 Capacidad portante",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.3 Capacidad portante",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 7,
+   "bbox": [
+    70.9,
+    631.2,
+    206.3,
+    643.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b778f8d742db7b2f71bf15cb14afd4e7bda5ed8ec0aebdad4e4a4fff3ee9a40d",
+   "literal": "2.3 Capacidad portante"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0026",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3 Capacidad portante",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Bases de cálculo 2.1 Generalidades / 2.3 Capacidad portante",
+   "seccion_estimada": "2 Bases de cálculo 2.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7cc0e5e3b99d646979c84fd8c67397b1f1568993d6f2d7c49517f47983feed57"
+ },
+ "paginas": [
+  7,
+  8
+ ],
+ "etiquetas_impresas": [
+  "3",
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.3 Capacidad portante\n1\nEn los análisis de comportamiento de muros en estado límite de rotura se podrá adoptar un diagrama\nde tensión a deformación del tipo rígido-plástico.\n2\nEl coeficiente parcial de seguridad para acciones de pretensado, después de las pérdidas será igual\na 1,00.\n3\nLa comprobación del estado límite último de anclaje en elementos sometidos a efectos locales de\npretensado, se realizará para el valor de carga última de los tendones.\n\nDocumento Básico SE-F Fábrica\nSE-F-4",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0007.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

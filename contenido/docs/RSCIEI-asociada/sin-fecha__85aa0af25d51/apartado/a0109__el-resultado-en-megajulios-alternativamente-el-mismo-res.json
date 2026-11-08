@@ -1,0 +1,86 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0109",
+  "ruta_oficial": null,
+  "ruta_semantica": "el resultado en megajulios. Alternativamente, el mismo resultado se obtiene multiplicando Qs por A.",
+  "titulo": "el resultado en megajulios. Alternativamente, el mismo resultado se obtiene multiplicando Qs por A.",
+  "nivel": 1,
+  "parent_id": "a0108",
+  "seccion_estimada": "el resultado en megajulios. Alternativamente, el mismo resultado se obtiene multiplicando Qs por A.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 52,
+   "bbox": [
+    90.7,
+    90.1,
+    506.7,
+    118.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "558f13fc5b7fecc5f49e7e3de9b3044fb4eebd9f4165fb2b43e25bc2c2b39ec2",
+   "literal": "el resultado en megajulios. Alternativamente, el mismo resultado se obtiene multiplicando Qs por A."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0108",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "el resultado en megajulios. Alternativamente, el mismo resultado se obtiene multiplicando Qs por A.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0108",
+   "ruta_semantica": "ANEXO I / el resultado en megajulios. Alternativamente, el mismo resultado se obtiene multiplicando Qs por A.",
+   "seccion_estimada": "ANEXO I",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fbe7a4a94d4e6795f12062eff770163d4cfd4af85695bc9c673086047f33bded"
+ },
+ "paginas": [
+  52
+ ],
+ "etiquetas_impresas": [
+  "52"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "el resultado en megajulios. Alternativamente, el mismo resultado se obtiene multiplicando Qs por A.\npor A.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0052_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0052.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

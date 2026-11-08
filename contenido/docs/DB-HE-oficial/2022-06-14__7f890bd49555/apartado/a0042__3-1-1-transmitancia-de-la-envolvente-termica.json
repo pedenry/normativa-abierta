@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0042",
+  "ruta_oficial": "3.1.1",
+  "ruta_semantica": "3.1.1 Transmitancia de la envolvente térmica",
+  "titulo": "3.1.1 Transmitancia de la envolvente térmica",
+  "nivel": 1,
+  "parent_id": "a0038",
+  "seccion_estimada": "3.1.1 Transmitancia de la envolvente térmica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 16,
+   "bbox": [
+    56.7,
+    76.5,
+    300.5,
+    88.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "29db06f7c7072c6ef051cc640598834f4e41c36641c490d72d78aefe8bd11687",
+   "literal": "3.1.1 Transmitancia de la envolvente térmica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0031",
+  "parent_id_original": "a0038",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.1 Transmitancia de la envolvente térmica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0038",
+   "ruta_semantica": "Anejo H / Sección HE 1 Condiciones para el control de la demanda energética / 3.1.1 Transmitancia de la envolvente térmica",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2b2a62da8f54d4a9943b42d60d3e5b01f074a993a7e03ece671230de8acf24a8"
+ },
+ "paginas": [
+  16,
+  17
+ ],
+ "etiquetas_impresas": [
+  "16",
+  "17"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.1.1 Transmitancia de la envolvente térmica\n1\nLa transmitancia térmica (U) de cada elemento perteneciente a la envolvente térmica no superará el valor\nlímite (Ulim) de la tabla 3.1.1.a-HE1:\nTabla 3.1.1.a - HE1     Valores límite de transmitancia térmica, Ulim [W/m²K]\nElemento\nZona climática de invierno\nα\nA\nB\nC\nD\nE\nMuros y suelos en contacto con el aire exterior (US, UM)\n0,80\n0,70\n0,56\n0,49 0,41 0,37\nCubiertas en contacto con el aire exterior (UC)\n0,55\n0,50\n0,44\n0,40 0,35 0,33\nMuros, suelos y cubiertas en contacto con espacios no\nhabitables o con el terreno (UT)\nMedianerías o particiones interiores pertenecientes a la\nenvolvente térmica (UMD)\n0,90\n0,80\n0,75\n0,70 0,65 0,59\nHuecos (conjunto de marco, vidrio y, en su caso, cajón de\npersiana) (UH)*\n3,2\n2,7\n2,3\n2,1\n1,8\n1,80\nPuertas con superficie semitransparente igual o inferior al\n50%\n5,7\n*Los huecos con uso de escaparate en unidades de uso con actividad comercial pueden incrementar el valor\nde UH en un 50%.\n2\nEn el caso de reformas, el valor límite (Ulim) de la tabla 3.1.1.a-HE1 será de aplicación únicamente a\naquellos elementos de la envolvente térmica:\na) que se sustituyan, incorporen, o modifiquen sustancialmente;\nb) que vean modificadas sus condiciones interiores o exteriores como resultado de la intervención,\ncuando estas supongan un incremento de las necesidades energéticas del edificio.\nAsimismo, en reformas se podrán superar los valores de la tabla 3.1.1.a-HE1 cuando el coeficiente global\nde transmisión de calor (K) obtenido considerando la transmitancia térmica final de los elementos\nafectados no supere el obtenido aplicando los valores de la tabla.\n3\nEl coeficiente global de transmisión de calor a través de la envolvente térmica (K) del edificio, o parte\ndel mismo, con uso residencial privado, no superará el valor límite (Klim) obtenido de la tabla 3.1.1.b-\nHE1:\nTabla 3.1.1.b - HE1    Valor límite Klim [W/m²K] para uso residencial privado\nCompacidad\nV/A [m³/m2]\nZona climática de invierno\nα\nA\nB\nC\nD\nE\nEdificios nuevos y ampliaciones\nV/A ≤ 1\n0,67\n0,60\n0,58\n0,53\n0,48\n0,43\nV/A ≥ 4\n0,86\n0,80\n0,77\n0,72\n0,67\n0,62\nCambios de uso.\nReformas en las que se renueve más\ndel 25% de la superficie total de la\nenvolvente térmica final del edificio\nV/A ≤ 1\n1,00\n0,87\n0,83\n0,73\n0,63\n0,54\nV/A ≥ 4\n1,07\n0,94\n0,90\n0,81\n0,70\n0,62\nLos valores límite de las compacidades intermedias (1<V/A<4) se obtienen por interpolación.\nEn el caso de ampliaciones los valores límite se aplicarán sólo en caso de que la superficie o el volumen construido\nse incrementen más del 10%.\n4\nEl coeficiente global de transmisión de calor a través de la envolvente térmica (K) del edificio, o parte del\nmismo, con uso distinto al residencial privado no superará el valor límite (Klim) obtenido de la tabla 3.1.1.c-\nHE1:\n\nDocumento Básico HE Ahorro de energía\nHE 1. Condiciones para el control de la demanda energética\n17\nTabla 3.1.1.c - HE1    Valor límite Klim [W/m²K] para uso distinto del residencial privado\nCompacidad\nV/A [m³/m2]\nZona climática de invierno\nα\nA\nB\nC\nD\nE\nEdificios nuevos.\nAmpliaciones.\nCambios de uso.\nReformas en las que se renueve más\ndel 25% de la superficie total de la\nenvolvente térmica final del edificio\nV/A ≤ 1\n0,96\n0,81\n0,76\n0,65\n0,54\n0,43\nV/A ≥ 4\n1,12\n0,98\n0,92\n0,82\n0,70\n0,59\nLos valores límite de las compacidades intermedias (1<V/A<4) se obtienen por interpolación.\nEn el caso de ampliaciones los valores límite se aplicarán sólo en caso de que la superficie o el volumen\nconstruido se incrementen más del 10%.\nLas unidades de uso con actividad comercial cuya compacidad V/A sea mayor que 5 se eximen del cumplimiento\nde los valores de esta tabla.\n5\nLos elementos con soluciones constructivas diseñadas para reducir la demanda energética, tales como\ninvernaderos adosados, muros parietodinámicos, muros Trombe, etc., cuyas prestaciones o\ncomportamiento térmico no se describen adecuadamente mediante la transmitancia térmica, están\nexcluidos de las comprobaciones relativas a la transmitancia térmica (U) y no se contabilizan para el\ncoeficiente global de transmisión de calor (K) definidos en este apartado.\n6\nAlternativamente, los edificios o, cuando se trate de intervenciones parciales en edificios existentes, las\npartes de los mismos sobre las que se intervenga, cuyas demandas de calefacción y refrigeración sean\nmenores, en ambos casos, de 15 kWh/m2, podrán excluirse del cumplimiento del coeficiente global de\ntransmisión de calor a través de la envolvente térmica (K).",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0016_t01.json",
+  "../tabla/p0017_t01.json",
+  "../tabla/p0017_t02.json",
+  "../tabla/p0017_t03.json"
+ ],
+ "figuras": [
+  "../figura/p0016.png",
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

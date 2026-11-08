@@ -1,0 +1,189 @@
+---
+
+documento: "DB-HE Ahorro de energía"
+id: "DB-HE-oficial"
+capa: "oficial"
+version: "2022-06-14"
+id_tecnico: "a0074"
+ruta_oficial: null
+ruta_semantica: "Anejo A. Terminología"
+parent_id: null
+nivel: 1
+titulo: "Anejo A. Terminología"
+paginas_fisicas: "42-45"
+paginas_impresas: "42-45"
+sha256_documento: "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05"
+tipos: "referencias"
+seccion_estimada: "Anejo A. Terminología"
+titulo_navegacion: "Anejo A. Terminología"
+ruta_fuente: "candidato_tipografico_plano"
+clasificacion_navegacion: "encabezado"
+es_encabezado_navegacion: true
+sha256_body_normativo: "369856b2d3e1372f23db82e0842135493317548303ffd1f2341fe321b2f996ec"
+referencias_auto_md: "sin_cambio_en_MD; usar referencias_filtradas del JSON"
+---
+
+# a0074 Anejo A. Terminología
+
+Anejo A. Terminología
+42
+Potencia del conjunto lámpara más equipo auxiliar: potencia nominal de entrada del conjunto equipo
+auxiliar-lámpara, donde el equipo auxiliar constituye el conjunto de equipos eléctricos o electrónicos asociados
+a la lámpara, diferentes para cada tipo de lámpara, destinados al encendido y control de las condiciones de
+funcionamiento de una lámpara.
+Potencia total del conjunto lámpara más equipo auxiliar: potencia máxima de entrada de los circuitos
+equipo auxiliar-lámpara, medidos en las condiciones definidas en las normas UNE-EN 50294:1999 y UNE-EN
+60923:2006.
+Producto:forma final de un material listo para su uso, de forma y dimensiones dadas y que incluye cualquier
+recubrimiento o revestimiento.
+Puente térmico: zona de la envolvente térmica del edificio en la que se evidencia una variación de la
+uniformidad de la construcción, ya sea por un cambio del espesor del cerramiento o de los materiales
+empleados, por la penetración completa o parcial de elementos constructivos con diferente conductividad, por
+la diferencia entre el área externa e interna del elemento, etc., que conllevan una minoración de la resistencia
+térmica respecto al resto del cerramiento.
+Los puentes térmicos son partes sensibles de los edificios donde aumenta la probabilidad de producción de
+condensaciones.
+Los puentes térmicos más comunes son:
+a) Puentes térmicos integrados en los cerramientos:
+i) pilares integrados en los cerramientos de las fachadas;
+ii) contorno de huecos y lucernarios;
+iii) cajas de persianas;
+iv) otros puentes térmicos integrados;
+b) Puentes térmicos formados por encuentro de cerramientos:
+i) frentes de forjado en las fachadas;
+ii) uniones de cubiertas con fachadas;
+iii) cubiertas con pretil;
+iv) cubiertas sin pretil;
+v) uniones de fachadas con cerramientos en contacto con el terreno;
+vi) unión de fachada con losa o solera;
+vii) unión de fachada con muro enterrado o pantalla;
+c) Esquinas o encuentros de fachadas, que, dependiendo de la posición del ambiente exterior se
+subdividen en:
+i) esquinas entrantes;
+ii) esquinas salientes;
+d) Encuentros de voladizos con fachadas;
+e) Encuentros de tabiquería interior con cerramientos exteriores.
+Puente térmico lineal: puente térmico con una sección transversal uniforme a lo largo de una dirección.
+Recinto: espacio del edificio limitado por cerramientos, particiones o cualquier otro elemento separador.
+Recinto habitable: recinto interior destinado al uso de personas cuya densidad de ocupación y tiempo de
+estancia exigen unas condiciones acústicas, térmicas y de salubridad adecuadas. Se consideran recintos
+habitables los siguientes:
+a) habitaciones y estancias (dormitorios, comedores, bibliotecas, salones, etc.) en edificios
+residenciales;
+b) aulas, bibliotecas, despachos, en edificios de uso docente;
+c) quirófanos, habitaciones, salas de espera, en edificios de uso sanitario;
+d) oficinas, despachos; salas de reunión, en edificios de uso administrativo;
+e) cocinas, baños, aseos, pasillos y distribuidores, en edificios de cualquier uso;
+f) zonas comunes de circulación en el interior de los edificios;
+
+Documento Básico HE Ahorro de energía
+Anejo A. Terminología
+43
+g) cualquier otro con un uso asimilable a los anteriores.
+Se consideran recintos no habitables aquellos no destinados al uso permanente de personas o cuya
+ocupación, por ser ocasional o excepcional y por ser bajo el tiempo de estancia, sólo exige unas condiciones
+de salubridad adecuadas. En esta categoría se incluyen explícitamente como no habitables los garajes,
+trasteros, las salas técnicas, y desvanes no acondicionados, y sus zonas comunes.
+Relación del cambio de aire: relación entre el flujo de aire a través de la envolventetérmica de la
+construcción y su volumen interno. En el ámbito de este DB se emplea el valor obtenido para una presión
+diferencial a través de la envolvente de 50 Pa, n50.
+Salas Técnicas: salas donde se ubican instalaciones que dan servicio al edificio como sala de calderas, sala
+de bombeo, centros de transformación, sala de cuadros eléctricos, sala de contadores, sala de sistemas de
+alimentación ininterrumpidas o cualquier sala de máquinas, así como salas de fotocopiadoras o reprografía,
+sala de fax, centralita telefónica, salas de mensajería y empaquetado.
+Sistema de alimentación específico de vehículo eléctrico(SAVE): conjunto de equipos montados con el
+fin de suministrar energía eléctrica para la recarga de un vehículo eléctrico, incluyendo protecciones de la
+estación de recarga, el cable de conexión (con conductores de fase, neutro y protección) la base de toma de
+corriente o el conector y, en su caso, un convertidor alterna-continua. Este sistema permitirá en su caso la
+comunicación entre el vehículo eléctrico y la instalación fija.
+Sistema de control y regulación: conjunto de dispositivos, cableado y componentes destinados a controlar
+de forma automática o manual el encendido y apagado o el flujo luminoso de una instalación de iluminación.
+Se distinguen 4 tipos fundamentales:
+a) regulación y control bajo demanda del usuario, por interruptor manual, pulsador, potenciómetro o mando
+a distancia;
+b) regulación de iluminación artificial según aporte de luz natural por ventanas, cristaleras o lucernarios;
+c) control del encendido y apagado según presencia en la zona;
+d) regulación y control por sistema centralizado de gestión.
+Sistema de aprovechamiento de la luz natural: conjunto de dispositivos, cableado y componentes
+destinados a regular de forma automática el flujo luminoso de una instalación de iluminación, en función del
+flujo luminoso aportado a la zona por la luz natural, de tal forma ambos flujos aporten un nivel de iluminación
+fijado en un punto, donde se encontraría el sensor de luz. Existen 2 tipos fundamentales de regulación:
+a) regulación todo/nada: la iluminación se enciende o se apaga por debajo o por encima de un nivel de
+iluminación prefijado;
+b) regulación progresiva: la iluminación se va ajustando progresivamente según el aporte de luz natural
+hasta conseguir el nivel de iluminación prefijado.
+Sistema de detección de presencia: conjunto de dispositivos, cableado y componentes destinados a
+controlar de forma automática, el encendido y apagado de una instalación de iluminación en función de
+presencia o no de personas en la zona. Existen 4 tipos fundamentales de detección:
+a) infrarrojos;
+b) acústicos por ultrasonido;
+c) por microondas;
+d) híbrido de los anteriores.
+Sistema de temporización: conjunto de dispositivos, cableado y componentes destinados a controlar de
+forma automática, el apagado de una instalación de iluminación en función de un tiempo de encendido
+prefijado.
+Sistema dimensional: sistema que determina el método para determinar la longitud (u otra magnitud)
+característica de un elemento constructivo.
+Sistema urbano de calefacción (o sistema urbano de refrigeración): distribución de energía térmica en
+forma de vapor, agua caliente o fluidos refrigerantes, desde una fuente central de producción a través de una
+red hacia múltiples edificios o emplazamientos, para la calefacción o refrigeración de espacios o procesos.
+Solicitaciones exteriores: acciones exteriores al edificio que tienen efecto sobre el comportamiento térmico
+del mismo. Comprende, fundamentalmente, las cargas térmicas debidas al clima.
+
+Documento Básico HE Ahorro de energía
+Anejo A. Terminología
+44
+Para caracterizar estas acciones a efectos de cálculo, se definen, diversas zonas climáticas en función de
+unas necesidades convencionales de calefacción y refrigeración.
+Solicitaciones interiores: acciones interiores al edificio que tienen efecto sobre el comportamiento térmico
+del mismo. Comprende, fundamentalmente, las cargas térmicas, dependientes del uso, debidas a los aportes
+de energía de los ocupantes, equipos e iluminación.
+Se caracterizan mediante un perfil de uso que describe, hora a hora, para un año tipo y para cada tipo de
+espacio:
+a) la carga interna debida a la ocupación (sólo espacios habitables);
+b) la carga interna debida a la iluminación;
+c) la carga interna debida a los equipos.
+Suelo: cerramiento horizontal o ligeramente inclinado que esté en contacto por su cara inferior con el aire,
+con el terreno, o con un espacio no habitable.
+Temperatura de consigna: temperatura o rango de temperaturas consideradas en el cálculo de la demanda
+energética que fija el límite de temperatura interior a partir del cual operan los sistemas de acondicionamiento
+del edificio, requiriendo aportes energéticos.
+Transmitancia térmica (U): flujo de calor, en régimen estacionario, para un área y diferencia de temperaturas
+unitarias de los medios situados a cada lado del elemento que se considera. Se expresa en W/m2K.
+Transmitancia térmica lineal: flujo de calor, en régimen estacionario, para una longitud y diferencia de
+temperaturas unitarias de los medios situados a cada lado del puente térmico que se considera.
+Unidad de uso: edificio o parte de él destinada a un uso específico, en la que sus usuarios están vinculados
+entre sí bien por pertenecer a una misma unidad familiar, empresa, corporación; o bien por formar parte de
+un grupo o colectivo que realiza la misma actividad. En el ámbito de este Documento Básico, se consideran
+unidades de uso diferentes, entre otras, las siguientes:
+a) en edificios de vivienda, cada una de las viviendas.
+b) en edificios de otros usos, cada uno de los establecimientos o locales comerciales independientes.
+Uso residencial privado: Edificio o zona destinada a alojamiento permanente, cualquiera que sea el tipo de
+edificio: vivienda unifamiliar, edificio de pisos o de apartamentos, etc, tanto de promoción pública como privada.
+Valor de eficiencia energética de la instalación (VEEI): valor que mide la eficiencia energética de una
+instalación de iluminación de un espacio o local con un determinado uso y por tanto, con unos parámetros de
+iluminación acordes con el mismo. En este valor de eficiencia no se incluyen las instalaciones de iluminación
+de escaparates o espacios destinados a exponer productos al público (zonas expositivas), las
+correspondientes al alumbrado de emergencia o a la iluminación de las unidades de uso residencial privado.
+Se expresa en W/m2 por cada 100 lux y se obtiene mediante la expresión
+VEEI = 100 · P / (S · Em)
+donde
+P  es la potencia de la lámpara más el equipo auxiliar [W],
+S  es la superficie iluminada [m²],
+Em es la iluminancia media horizontal mantenida [lux].
+Vehículo eléctrico: vehículo de motor equipado de un grupo de propulsión con al menos un mecanismo
+eléctrico no periférico que funciona como convertidor de energía y está dotado de un sistema recargable de
+almacenamiento de energía eléctrica, que puede recargarse desde el exterior.
+Zona climática: zona para la que se definen unas solicitaciones exteriores comunes. Se identifica mediante
+una letra, correspondiente a la zona climática de invierno, y un número, correspondiente a la zona climática
+de verano.
+Además de los que puedan establecer documentos reconocidos elaborados por las Comunidades Autónomas,
+el Anejo B permite determinar la zona climática de cada localidad, y su clima de referencia.
+Zona común: Zona o zonas que dan servicio a varias unidades de uso.
+
+Documento Básico HE Ahorro de energía
+
+## Referencias detectadas (literal)
+
+- DB se
+- UNE-EN

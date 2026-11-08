@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0162",
+  "ruta_oficial": null,
+  "ruta_semantica": "Mantenimiento y conservación",
+  "titulo": "Mantenimiento y conservación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Mantenimiento y conservación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 74,
+   "bbox": [
+    70.9,
+    635.4,
+    310.5,
+    651.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9018ba7bb60b0f692cf7f2af94a7aadd92240cbb14cfb3b87ec2fd65b696cf07",
+   "literal": "Mantenimiento y conservación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Mantenimiento y conservación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS3 / sección del DB no se prescriben pruebas finales. / Mantenimiento y conservación",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "01cf6038a7e0c452a51bdb11b9c4c2dc28d803bc0bc21f4320c2ca4fd287aa6a"
+ },
+ "paginas": [
+  74,
+  75
+ ],
+ "etiquetas_impresas": [
+  "74",
+  "75"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Mantenimiento y conservación\n1\nDeben realizarse las operaciones de mantenimiento que, junto con su periodicidad, se incluyen en\nla tabla 7.1 y las correcciones pertinentes en el caso de que se detecten defectos.\nTabla 7.1 Operaciones de mantenimiento\nOperación\nPeriodicidad\nConductos\nLimpieza\n1 año\nComprobación de la estanquidad aparente\n5\naños\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n75\nAberturas\nLimpieza",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0074_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0074.png",
+  "../figura/p0075.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0096",
+  "ruta_oficial": "7.2.2.2",
+  "ruta_semantica": "7.2.2.2 Frecuencia de oscilación",
+  "titulo": "7.2.2.2 Frecuencia de oscilación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.2.2.2 Frecuencia de oscilación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 57,
+   "bbox": [
+    74.1,
+    120.9,
+    229.2,
+    132.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "05f931de15700d4fa9f8bfc90e063b39da012f2845818c50938f8e1e616d9f08",
+   "literal": "7.2.2.2 Frecuencia de oscilación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0094",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.2.2.2 Frecuencia de oscilación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Estados límite de servicio / 7.2 Vibraciones 7.2.1 Generalidades / 7.2.2 Vibraciones transitorias en forjados 7.2.2.1 Percepción humana / 7.2.2.2 Frecuencia de oscilación",
+   "seccion_estimada": "7 Estados límite de servicio",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1ddfdcac90c192cfc06945d79ae9661641b253cf74b9298c3b0517cc472480f7"
+ },
+ "paginas": [
+  57
+ ],
+ "etiquetas_impresas": [
+  "57"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "7.2.2.2 Frecuencia de oscilación\n1\nLa frecuencia de oscilación de un forjado podrá ser evaluada mediante cualquier método dinámico\ncapaz de representar adecuadamente las características elásticas e inerciales de la estructura.\n2\nA falta de un análisis más detallado, la frecuencia de oscilación de un forjado podrá estimarse a\npartir de la frecuencia propia de una viga hipotética cuyas características se basan en las siguien-\ntes hipótesis:\n-\nLa viga se considera mixta, independientemente del modo de construcción del forjado (con o\nsin conexión entre vigas metálicas y losa)\n-\nEl ancho eficaz de la losa equivale a la separación s de las vigas metálicas.\n-\nEn caso de una losa aligerada (por ejemplo un forjado mixto donde las piezas proporcionan un\naligeramiento), ésta se considera con un espesor equivalente al de una losa maciza de peso\nidéntico.\n3\nLa frecuencia propia del primer modo de vibración f1 de una viga biapoyada podrá determinarse\nsegún la relación:\n4\nb\na\n1\nL·\nm\nI\nE\n2\nf\nπ\n=\n(7.1)\nsiendo\nE\nmódulo de elasticidad del acero\nIb\nmomento de inercia de la sección mixta definida en 7.2.2.2. (2)\nm\nmasa por unidad de longitud de la viga en oscilación, incluyendo el peso propio de la viga\nde acero y la de losa, las cargas permanentes y una parte de la sobrecarga (valor casi per-\nmanente)\nL\nluz de la viga biapoyada\nLas vigas continuas se podrán tratar, en primera aproximación, como vigas biapoyadas ya que los\nvanos adyacentes al vano analizado oscilan en sentido opuesto.\n4\nEn forjados con dos niveles de vigas (jácenas sobre las que se apoyan las correas perpendicula-\nres, que a su vez forman los apoyos de la losa), la frecuencia propia del sistema es más pequeña\nque la de un forjado equivalente pero con un solo nivel de vigas, ya que la rigidez del conjunto del\nsistema es mayor. A falta de un análisis más detallado, la frecuencia propia de un forjado con dos\nniveles de vigas se podrá estimar a partir de la relación:\n2\njac\n,1\n2\ncor\n,1\n2\nsis\n,1\nf\n1\nf\n1\nf\n1\n+\n=\n(7.2)\nsiendo\nf1,sis\nfrecuencia propia del primer modo de vibración del sistema (forjado)\nf1,cor\nfrecuencia propia del primer modo de vibración de la correa considerando indeformables\nlas jácenas perpendiculares en las que se apoya.\nf1,jac\nfrecuencia propia de la jácena",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0057_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0057.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

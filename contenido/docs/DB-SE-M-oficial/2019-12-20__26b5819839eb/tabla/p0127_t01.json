@@ -1,0 +1,122 @@
+{
+ "indice": 1,
+ "pagina": 127,
+ "etiqueta_impresa": null,
+ "bbox": [
+  83.7,
+  187.8,
+  544.7,
+  763.6
+ ],
+ "filas": 5,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "1,5A f\nR max net,t t,0,k\nbs,Rk 0,7A f (H.1)\nnet,v v,k\nsiendo:\nA L t\nnet,t net,t (H.2)\n L t modosdefallo(e,f,j/l,k,m)\nA   net,v\nnet,v L (L 2t ) restantesmodosdefallo (H.3)\n net,v net,t ef\ny,\nL l\nnet,v v,i (H.4)\ni\nL l\nnet,t t,i (H.5)\ni",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "- para placas de acero delgadas;",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "0,4t (a)\n1\n\nt  M\nef 1,4 y,Rk (b) (H.6)\n\nf d\n h,k",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "- para placas de acero gruesas;",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 1,
+   "texto": " M\n 2 y,Rk (d)(h)\n f d\nh,k\nt \nef   M y,Rk 1 (H.7)\nt 2 (c)(g)\n 1  f dt 12 \n  h,k \nsiendo:\nF valor característico de la capacidad de carga por arranque de un bloque;\nbs,k\nA sección neta transversal perpendicular a la fibra;\nnet,t\nA sección neta de cortante paralela a la fibra;\nnet,v\nL anchura neta de la sección transversal perpendicular a la fibra;\nnet,t\nL longitud neta del área de rotura en cortante;\nnet,v\nl , l longitudes definidas en la figura H.1;\nv,i t,i\nt profundidad eficaz, que depende del modo de fallo, figura 8.3;\nef\nt espesor de la pieza de madera, o profundidad de penetración del medio de fijación;\nM momento plástico característico;\ny,Rk\nd diámetro del elemento de fijación;\nf resistencia característica a tracción paralela;\nt,0,k\nf resistencia característica a cortante;\nv,k\nf resistencia característica a aplastamiento de la pieza de madera.\nh,k",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "1,5A f\nR max net,t t,0,k\nbs,Rk 0,7A f (H.1)\nnet,v v,k\nsiendo:\nA L t\nnet,t net,t (H.2)\n L t modosdefallo(e,f,j/l,k,m)\nA   net,v\nnet,v L (L 2t ) restantesmodosdefallo (H.3)\n net,v net,t ef\ny,\nL l\nnet,v v,i (H.4)\ni\nL l\nnet,t t,i (H.5)\ni",
+  ""
+ ],
+ "header": {
+  "names": [
+   "En uniones entre madera y acero con una componente de la fuerza paralela a la fibra situada cerca de la testa de la pieza, el valor característico de la capacidad de carga en el modo de fallo por corta- dura de un bloque (fallo del perímetro del grupo de elementos de fijación), como se muestra en las figuras H.1 y H.2, se obtiene por la expresión siguiente:",
+   ""
+  ],
+  "external": true
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96A9F0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96BC80>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96B890>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96ACC0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB969D30>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96AC60>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB969850>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0127.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

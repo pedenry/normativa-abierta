@@ -1,0 +1,177 @@
+{
+ "indice": 2,
+ "pagina": 86,
+ "etiqueta_impresa": "86",
+ "bbox": [
+  201.1,
+  599.9,
+  394.2,
+  640.8
+ ],
+ "filas": 4,
+ "columnas": 4,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Nivel de riesgo intrínseco",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Tipo A\nH",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Tipo B",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 3,
+   "texto": "Tipo C",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Riesgo bajo.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "R 60",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "R 30",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 3,
+   "texto": "R 30",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Riesgo medio.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "R 90",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "R 30",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 3,
+   "texto": "R 30",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "Riesgo alto.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "R 120",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 2,
+   "texto": "R 30",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 3,
+   "texto": "R 30",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Nivel de riesgo intrínseco",
+  "Tipo A\nH",
+  "Tipo B",
+  "Tipo C"
+ ],
+ "header": {
+  "names": [
+   "Nivel de riesgo intrínseco",
+   "Tipo A\nH",
+   "Tipo B",
+   "Tipo C"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97FCE0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA14F50>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC79340>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC79C40>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC7A5D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC7B6B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC79CD0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC79CA0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC79010>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC793D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC79C10>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC785C0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC7B020>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC7A090>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC782C0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBC7A450>"
+  ]
+ ],
+ "notas_adyacentes": [
+  "Nota: Para poder aplicar esta tabla en edificios AH, la estructura de cubierta considerada\ndebe ser independiente respecto de los otros establecimientos."
+ ],
+ "imagen_pagina": "figura/p0086.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

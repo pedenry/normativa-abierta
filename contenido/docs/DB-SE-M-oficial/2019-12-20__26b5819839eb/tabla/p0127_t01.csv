@@ -1,0 +1,62 @@
+"1,5A f
+R max net,t t,0,k
+bs,Rk 0,7A f (H.1)
+net,v v,k
+siendo:
+A L t
+net,t net,t (H.2)
+ L t modosdefallo(e,f,j/l,k,m)
+A   net,v
+net,v L (L 2t ) restantesmodosdefallo (H.3)
+ net,v net,t ef
+y,
+L l
+net,v v,i (H.4)
+i
+L l
+net,t t,i (H.5)
+i",
+- para placas de acero delgadas;,
+,"0,4t (a)
+1
+
+t  M
+ef 1,4 y,Rk (b) (H.6)
+
+f d
+ h,k"
+- para placas de acero gruesas;,
+," M
+ 2 y,Rk (d)(h)
+ f d
+h,k
+t 
+ef   M y,Rk 1 (H.7)
+t 2 (c)(g)
+ 1  f dt 12 
+  h,k 
+siendo:
+F valor característico de la capacidad de carga por arranque de un bloque;
+bs,k
+A sección neta transversal perpendicular a la fibra;
+net,t
+A sección neta de cortante paralela a la fibra;
+net,v
+L anchura neta de la sección transversal perpendicular a la fibra;
+net,t
+L longitud neta del área de rotura en cortante;
+net,v
+l , l longitudes definidas en la figura H.1;
+v,i t,i
+t profundidad eficaz, que depende del modo de fallo, figura 8.3;
+ef
+t espesor de la pieza de madera, o profundidad de penetración del medio de fijación;
+M momento plástico característico;
+y,Rk
+d diámetro del elemento de fijación;
+f resistencia característica a tracción paralela;
+t,0,k
+f resistencia característica a cortante;
+v,k
+f resistencia característica a aplastamiento de la pieza de madera.
+h,k"

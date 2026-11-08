@@ -1,0 +1,184 @@
+{
+ "indice": 2,
+ "pagina": 71,
+ "etiqueta_impresa": "71",
+ "bbox": [
+  94.9,
+  508.5,
+  542.1,
+  603.1
+ ],
+ "filas": 3,
+ "columnas": 6,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Clase de tiro",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 3,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 4,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 5,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "T-1",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 3,
+   "texto": "T-2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 4,
+   "texto": "T-3",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 5,
+   "texto": "T-4",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Caudal de aire en el tramo del conducto en l/s",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "q  100\nvt\n100 q  300\nvt\n300 q  500\nvt\n500 q  750\nvt\n750 q  1 000\nvt",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "1 x 225 1 x 400 1 x 625 1 x 625\n1 x 400 1 x 625 1 x 625 1 x 900\n1 x 625 1 x 900 1 x 900 2 x 900\n1 x 625 1 x 900 1 x 900 + 1 x 625 3 x 900\n1 x 900 1 x 900 + 1 x 625 2 x 900 3 x 900 + 1 x 625",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 3,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 4,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 5,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "",
+  "Clase de tiro",
+  "",
+  "",
+  ""
+ ],
+ "header": {
+  "names": [
+   "Tabla 4.2",
+   "",
+   "Secciones del conducto de extracción en cm2",
+   "",
+   "",
+   ""
+  ],
+  "external": true
+ },
+ "header_rows": 2,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1CB90>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1D340>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1D850>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1ECF0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1DF10>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1CEC0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1F770>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1EA80>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1FEF0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0071.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

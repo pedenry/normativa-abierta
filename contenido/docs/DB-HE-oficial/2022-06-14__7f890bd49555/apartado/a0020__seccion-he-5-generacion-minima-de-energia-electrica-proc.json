@@ -1,0 +1,74 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0020",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p7",
+  "titulo": "Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p7",
+  "clasificacion_navegacion": "fragmento_indice",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "entrada_de_indice",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p7",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 Junio 2022 / Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes",
+   "seccion_estimada": "14 Junio 2022",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7ee10daf434b2541e99a090d39ff910e815095896fe2e58f073254db7a3e0156"
+ },
+ "paginas": [
+  7
+ ],
+ "etiquetas_impresas": [
+  "7"
+ ],
+ "tipos": [],
+ "texto": "Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes\nrenovables  ................................................................................................................... 31\n1\nÁmbito de aplicación ................................................................................................................... 31\n2\nCaracterización de la exigencia .................................................................................................. 31\n3\nCuantificación de la exigencia .................................................................................................... 31\n4\nJustificación de la exigencia ....................................................................................................... 31\n5\nConstrucción, mantenimiento y conservación ......................................................................... 32\n5.1\nEjecución ............................................................................................................................ 32\n5.2\nControl de la ejecución de la obra ...................................................................................... 32\n5.3\nControl de la obra terminada .............................................................................................. 32\n5.4\nMantenimiento y conservación del edificio ......................................................................... 32",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": null,
+   "titulo": "VI Términos y definiciones",
+   "archivo_json": "a0018__vi-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

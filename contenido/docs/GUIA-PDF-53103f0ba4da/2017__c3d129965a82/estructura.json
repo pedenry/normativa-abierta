@@ -1,0 +1,588 @@
+{
+ "id": "GUIA-PDF-53103f0ba4da",
+ "version": "2017",
+ "metodo": "lineas",
+ "apartados": [
+  {
+   "id_tecnico": "a0001",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "Portada y páginas previas",
+   "seccion_estimada": "Portada y páginas previas",
+   "parent_id": null,
+   "titulo": "Portada y páginas previas",
+   "nivel": 0,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0001__portada-y-paginas-previas.md",
+   "archivo_json": "apartado/a0001__portada-y-paginas-previas.json",
+   "sha256_texto": "7e98cbfaf6798a6cf0fe13ee771eabb41d7f5aa6dd8b846daf12ec2bb7cad69f",
+   "caracteres": 67,
+   "primera_linea": "Fecha de intervención: 2017 · Coste de ejecución material:  2.500 €"
+  },
+  {
+   "id_tecnico": "a0002",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "Portada y páginas previas / SELLADO + DESPRESURIZACIÓN CON RED DE TUBOS",
+   "seccion_estimada": "Portada y páginas previas",
+   "parent_id": "a0001",
+   "titulo": "SELLADO + DESPRESURIZACIÓN CON RED DE TUBOS",
+   "nivel": 3,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0002__sellado-despresurizacion-con-red-de-tubos.md",
+   "archivo_json": "apartado/a0002__sellado-despresurizacion-con-red-de-tubos.json",
+   "sha256_texto": "75750dd4a5c18bcf481991d3a6b60c2c5575b97480f0b8672bc8ed69969b1376",
+   "caracteres": 633,
+   "primera_linea": "SELLADO + DESPRESURIZACIÓN CON RED DE TUBOS"
+  },
+  {
+   "id_tecnico": "a0003",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "parent_id": null,
+   "titulo": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "nivel": 1,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "referencias",
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [
+    "DB HS6"
+   ],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0003__1-descripcion-del-edificio.md",
+   "archivo_json": "apartado/a0003__1-descripcion-del-edificio.json",
+   "sha256_texto": "e778eaddc4fa568132faeecd740fe4d7f49bbd087b8dbdd1126317007abca4bd",
+   "caracteres": 325,
+   "primera_linea": "1. DESCRIPCIÓN DEL EDIFICIO"
+  },
+  {
+   "id_tecnico": "a0004",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO / EJEMPLO A2+B3",
+   "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "parent_id": "a0003",
+   "titulo": "EJEMPLO A2+B3",
+   "nivel": 3,
+   "paginas": [
+    1,
+    2
+   ],
+   "etiquetas_impresas": [
+    null,
+    "2"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0004__ejemplo-a2-b3.md",
+   "archivo_json": "apartado/a0004__ejemplo-a2-b3.json",
+   "sha256_texto": "a1b54e9cfc48b0c40f470fc2cad547e21a77c77f03451e324a4d9bc01d3d9f0f",
+   "caracteres": 440,
+   "primera_linea": "EJEMPLO A2+B3"
+  },
+  {
+   "id_tecnico": "a0005",
+   "ruta_oficial": "3",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "3. DIAGNÓSTICO",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": null,
+   "titulo": "3. DIAGNÓSTICO",
+   "nivel": 1,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0005__3-diagnostico.md",
+   "archivo_json": "apartado/a0005__3-diagnostico.json",
+   "sha256_texto": "5dd59cad3e890e90fe511edd131ba31cffc012b2df26b48172d5d6cbf9a87b44",
+   "caracteres": 811,
+   "primera_linea": "3. DIAGNÓSTICO"
+  },
+  {
+   "id_tecnico": "a0006",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "3. DIAGNÓSTICO / Movilidad del aire en el sustrato",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": "a0005",
+   "titulo": "Movilidad del aire en el sustrato",
+   "nivel": 3,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0006__movilidad-del-aire-en-el-sustrato.md",
+   "archivo_json": "apartado/a0006__movilidad-del-aire-en-el-sustrato.json",
+   "sha256_texto": "89d390d05df01310e8b6aa9e327bbb672394d45c862d0abc6cb88f315af8b637",
+   "caracteres": 815,
+   "primera_linea": "Movilidad del aire en el sustrato"
+  },
+  {
+   "id_tecnico": "a0007",
+   "ruta_oficial": "2",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "seccion_estimada": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "parent_id": null,
+   "titulo": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "nivel": 1,
+   "paginas": [
+    2,
+    3
+   ],
+   "etiquetas_impresas": [
+    "2",
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0007__2-eleccion-de-la-solucion.md",
+   "archivo_json": "apartado/a0007__2-eleccion-de-la-solucion.json",
+   "sha256_texto": "1574cf5134980456e632cbbcc72d2c86d27ca9d5f48a26dfd7cc8268fafe1e4b",
+   "caracteres": 1919,
+   "primera_linea": "2. ELECCIÓN DE LA SOLUCIÓN"
+  },
+  {
+   "id_tecnico": "a0008",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1   baldosa de terrazo 2    mortero de cemento",
+   "seccion_estimada": "1   baldosa de terrazo 2    mortero de cemento",
+   "parent_id": null,
+   "titulo": "1   baldosa de terrazo 2    mortero de cemento",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0008__1-baldosa-de-terrazo-2-mortero-de-cemento.md",
+   "archivo_json": "apartado/a0008__1-baldosa-de-terrazo-2-mortero-de-cemento.json",
+   "sha256_texto": "aec2fc3335f972cefa93b26879ca6adb323cce63bbf55920253736205c34c900",
+   "caracteres": 70,
+   "primera_linea": "1   baldosa de terrazo 2    mortero de cemento"
+  },
+  {
+   "id_tecnico": "a0009",
+   "ruta_oficial": "3",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "3  solera 4   grava",
+   "seccion_estimada": "3  solera 4   grava",
+   "parent_id": null,
+   "titulo": "3  solera 4   grava",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0009__3-solera-4-grava.md",
+   "archivo_json": "apartado/a0009__3-solera-4-grava.json",
+   "sha256_texto": "03a7ea36e672cc585e9ab9d02b2c421f4550f849b6a13be0f971ddb75a6b4428",
+   "caracteres": 29,
+   "primera_linea": "3  solera 4   grava"
+  },
+  {
+   "id_tecnico": "a0010",
+   "ruta_oficial": "5",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "5   terreno",
+   "seccion_estimada": "5   terreno",
+   "parent_id": null,
+   "titulo": "5   terreno",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0010__5-terreno.md",
+   "archivo_json": "apartado/a0010__5-terreno.json",
+   "sha256_texto": "4821e96201dd703eda9f93eaa0f80d2ba23aa829af96318c23d133fd32c2f8b3",
+   "caracteres": 740,
+   "primera_linea": "5   terreno"
+  },
+  {
+   "id_tecnico": "a0011",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "5   terreno / Puntos críticos en el cerramiento",
+   "seccion_estimada": "5   terreno",
+   "parent_id": "a0010",
+   "titulo": "Puntos críticos en el cerramiento",
+   "nivel": 3,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0011__puntos-criticos-en-el-cerramiento.md",
+   "archivo_json": "apartado/a0011__puntos-criticos-en-el-cerramiento.json",
+   "sha256_texto": "f5d115e7918786a63a0ac1ff1c9dce7cc3ae7e7fd2e1bf77bd9b9d7ded8a40e9",
+   "caracteres": 222,
+   "primera_linea": "Puntos críticos en el cerramiento"
+  },
+  {
+   "id_tecnico": "a0012",
+   "ruta_oficial": "4",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "4. DISEÑO",
+   "seccion_estimada": "4. DISEÑO",
+   "parent_id": null,
+   "titulo": "4. DISEÑO",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0012__4-diseno.md",
+   "archivo_json": "apartado/a0012__4-diseno.json",
+   "sha256_texto": "a4e6818773d8cc4e48c745220b9366c8f707247c4ddcaaad69e0b0e18c2df2f7",
+   "caracteres": 662,
+   "primera_linea": "4. DISEÑO"
+  },
+  {
+   "id_tecnico": "a0013",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1   pavimento 2   solera",
+   "seccion_estimada": "1   pavimento 2   solera",
+   "parent_id": null,
+   "titulo": "1   pavimento 2   solera",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0013__1-pavimento-2-solera.md",
+   "archivo_json": "apartado/a0013__1-pavimento-2-solera.json",
+   "sha256_texto": "807093cea4e83eff525733e4883b52b75c63860b6c385a04a5ae430ee30fb10e",
+   "caracteres": 35,
+   "primera_linea": "1   pavimento 2   solera"
+  },
+  {
+   "id_tecnico": "a0014",
+   "ruta_oficial": "3",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "3   tubo perforado rodeado de capa de grava 4  tubo sin perforaciones",
+   "seccion_estimada": "3   tubo perforado rodeado de capa de grava 4  tubo sin perforaciones",
+   "parent_id": null,
+   "titulo": "3   tubo perforado rodeado de capa de grava 4  tubo sin perforaciones",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0014__3-tubo-perforado-rodeado-de-capa-de-grava-4-tubo-sin-per.md",
+   "archivo_json": "apartado/a0014__3-tubo-perforado-rodeado-de-capa-de-grava-4-tubo-sin-per.json",
+   "sha256_texto": "7480ccf6e6cc137233127a54dd3bd3a73b4449798259895f2b6c123d56a90f6d",
+   "caracteres": 95,
+   "primera_linea": "3   tubo perforado rodeado de capa de grava 4  tubo sin perforaciones"
+  },
+  {
+   "id_tecnico": "a0015",
+   "ruta_oficial": "5",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "5   extractor 6   salida condensados",
+   "seccion_estimada": "5   extractor 6   salida condensados",
+   "parent_id": null,
+   "titulo": "5   extractor 6   salida condensados",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0015__5-extractor-6-salida-condensados.md",
+   "archivo_json": "apartado/a0015__5-extractor-6-salida-condensados.json",
+   "sha256_texto": "e45661809b2f5c26f4036e6bfca146af2d410cd7553056eca485caca25abdd27",
+   "caracteres": 59,
+   "primera_linea": "5   extractor 6   salida condensados"
+  },
+  {
+   "id_tecnico": "a0016",
+   "ruta_oficial": "7",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "7   conducto de extracción 8   boca de expulsión",
+   "seccion_estimada": "7   conducto de extracción 8   boca de expulsión",
+   "parent_id": null,
+   "titulo": "7   conducto de extracción 8   boca de expulsión",
+   "nivel": 1,
+   "paginas": [
+    3,
+    4
+   ],
+   "etiquetas_impresas": [
+    "3",
+    "4"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0016__7-conducto-de-extraccion-8-boca-de-expulsion.md",
+   "archivo_json": "apartado/a0016__7-conducto-de-extraccion-8-boca-de-expulsion.json",
+   "sha256_texto": "1b3782c28a1a1c1278bd5425d4b8107e150813228847943bf0a46ec0495d2a3a",
+   "caracteres": 1146,
+   "primera_linea": "7   conducto de extracción 8   boca de expulsión"
+  },
+  {
+   "id_tecnico": "a0017",
+   "ruta_oficial": "5",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "5. EJECUCIÓN",
+   "seccion_estimada": "5. EJECUCIÓN",
+   "parent_id": null,
+   "titulo": "5. EJECUCIÓN",
+   "nivel": 1,
+   "paginas": [
+    4
+   ],
+   "etiquetas_impresas": [
+    "4"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0017__5-ejecucion.md",
+   "archivo_json": "apartado/a0017__5-ejecucion.json",
+   "sha256_texto": "572a88c5b67c46b10c9aa90f67316c1fa3c2740198450e4e504a0d8592f1bc2d",
+   "caracteres": 670,
+   "primera_linea": "5. EJECUCIÓN"
+  },
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1   tubo perforado",
+   "seccion_estimada": "1   tubo perforado",
+   "parent_id": null,
+   "titulo": "1   tubo perforado",
+   "nivel": 1,
+   "paginas": [
+    4,
+    5
+   ],
+   "etiquetas_impresas": [
+    "4",
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0018__1-tubo-perforado.md",
+   "archivo_json": "apartado/a0018__1-tubo-perforado.json",
+   "sha256_texto": "860e67eb30142b0dcb4a493429d368c99856c0a2e4f9743cd54384f591391f1f",
+   "caracteres": 213,
+   "primera_linea": "1   tubo perforado"
+  },
+  {
+   "id_tecnico": "a0019",
+   "ruta_oficial": "6",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "6. EFECTIVIDAD",
+   "seccion_estimada": "6. EFECTIVIDAD",
+   "parent_id": null,
+   "titulo": "6. EFECTIVIDAD",
+   "nivel": 1,
+   "paginas": [
+    5,
+    6
+   ],
+   "etiquetas_impresas": [
+    "5",
+    "6"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0019__6-efectividad.md",
+   "archivo_json": "apartado/a0019__6-efectividad.json",
+   "sha256_texto": "5827bfb13d0a51b6dd7592a06a2a703a9477a9f399088201e6c5055dd6308d70",
+   "caracteres": 423,
+   "primera_linea": "6. EFECTIVIDAD"
+  },
+  {
+   "id_tecnico": "a0020",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "6. EFECTIVIDAD / A2+B36",
+   "seccion_estimada": "6. EFECTIVIDAD",
+   "parent_id": "a0019",
+   "titulo": "A2+B36",
+   "nivel": 3,
+   "paginas": [
+    6
+   ],
+   "etiquetas_impresas": [
+    "6"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0020__a2-b36.md",
+   "archivo_json": "apartado/a0020__a2-b36.json",
+   "sha256_texto": "2a622192757bc08f44ea216c0d1c66f40e7aeadeb69e69d7fb851b71c211396d",
+   "caracteres": 568,
+   "primera_linea": "A2+B36"
+  },
+  {
+   "id_tecnico": "a0021",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "6. EFECTIVIDAD / sección HS6 Protección frente a la exposición al radón.",
+   "seccion_estimada": "6. EFECTIVIDAD",
+   "parent_id": "a0019",
+   "titulo": "sección HS6 Protección frente a la exposición al radón.",
+   "nivel": 2,
+   "paginas": [
+    6
+   ],
+   "etiquetas_impresas": [
+    "6"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0021__seccion-hs6-proteccion-frente-a-la-exposicion-al-radon.md",
+   "archivo_json": "apartado/a0021__seccion-hs6-proteccion-frente-a-la-exposicion-al-radon.json",
+   "sha256_texto": "c4725847787a48abb2634866990d0804075b6ad12ba8a62fcc749f2192ac160e",
+   "caracteres": 3265,
+   "primera_linea": "sección HS6 Protección frente a la exposición al radón."
+  }
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo"
+}

@@ -1,0 +1,121 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0063",
+  "ruta_oficial": "4.2.2.1.4",
+  "ruta_semantica": "4.2.2.1.4 Estabilidad global",
+  "titulo": "4.2.2.1.4 Estabilidad global",
+  "nivel": 1,
+  "parent_id": "a0059",
+  "seccion_estimada": "4.2.2.1.4 Estabilidad global",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    70.9,
+    72.4,
+    201.0,
+    82.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e705dc5451a91bb17e695a005dc12fae9a34fa4827102422fbcd857966dc9c90",
+   "literal": "4.2.2.1.4 Estabilidad global"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0074",
+  "parent_id_original": "a0059",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2.2.1.4 Estabilidad global",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0059",
+   "ruta_semantica": "Anejo G. Normas de referencia / 4.2.2 Verificaciones / 4.2.2.1 Estados límite últimos / 4.2.2.1.4 Estabilidad global",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "96aa1a5ac7971629ee15a0da16286d3dc2ec9aabb3f69445ffb3644d40592077"
+ },
+ "paginas": [
+  31
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.2.2.1.4 Estabilidad global\n1\nUn edificio podrá fallar globalmente, sin que se produzcan antes otros fallos locales, cuando se\nforme una superficie de rotura continua (superficie de deslizamiento) que englobe una parte o toda\nla cimentación, y en la que los esfuerzos de corte alcancen el valor de la resistencia al corte del te-\nrreno.\n2\nEste tipo de rotura es típico en cimientos próximos a la coronación de taludes de excavación o re-\nlleno, o en medias laderas, particularmente si éstas presentan una estabilidad natural precaria.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

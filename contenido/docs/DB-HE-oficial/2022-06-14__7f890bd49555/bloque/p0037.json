@@ -1,0 +1,245 @@
+{
+ "documento": null,
+ "pagina": 37,
+ "etiqueta_impresa": "37",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.1,
+    39.2,
+    375.7,
+    48.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HE Ahorro de energía",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    255.7,
+    51.4,
+    341.9,
+    60.3
+   ],
+   "tipo": "texto",
+   "texto": "Anejo A. Terminología",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    293.2,
+    796.9,
+    304.3,
+    805.8
+   ],
+   "tipo": "texto",
+   "texto": "37",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    92.7,
+    76.4,
+    541.4,
+    168.0
+   ],
+   "tipo": "texto",
+   "texto": "Hx\ncorresponde al coeficiente de transferencia de calor del elemento x perteneciente a la\nenvolvente térmica (incluyendo sus puentes térmicos). Se incluyen aquellos elementos en\ncontacto con el terreno, con el ambiente exterior, y se excluyen aquellos en contacto con otros\nedificios u otros espacios adyacentes;\nAint\nes el área de intercambio de la envolvente térmica obtenida como suma de los distintos\ncomponentes considerados en la transmisión de calor. Excluye, por tanto, las áreas de\nelementos de la envolvente térmica en contacto con edificios o espacios adyacentes exteriores\na la envolvente térmica.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    56.7,
+    178.3,
+    541.4,
+    201.1
+   ],
+   "tipo": "texto",
+   "texto": "De forma simplificada, puede calcularse este parámetro a partir de las transmitancias térmicas y superficies\nde los elementos de la envolvente térmica y de un factor de ajuste:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    56.7,
+    211.4,
+    362.0,
+    222.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "K= Σx  btr,x  [ Σi Ax,i Ux,i  +  Σk  lx,k  ψx,k +  Σj xx,j ]  /   Σx Σi  btr,x  Ax,i",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    56.7,
+    232.9,
+    92.8,
+    244.0
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    92.7,
+    249.4,
+    541.4,
+    260.5
+   ],
+   "tipo": "texto",
+   "texto": "btr,x  es el factor de ajuste para los elementos de la envolvente. Su valor es 1 excepto para elementos",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    92.7,
+    260.9,
+    541.4,
+    356.1
+   ],
+   "tipo": "texto",
+   "texto": "en contacto con edificios o espacios adyacentes exteriores a la envolvente térmica, donde toma\nel valor 0;\nAx,i\nes el área de intercambio del elemento de la envolvente térmica considerado;\nUx,i\nes el valor de la transmitancia térmica del elemento de la envolvente térmica considerado;\nlx,k\nes la longitud del puente térmico considerado;\nψx,k\nes el valor de la transmitancia térmica lineal del puente térmico considerado;\nxx,j\nes la transmitancia puntual del puente térmico considerado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    56.7,
+    366.3,
+    541.4,
+    400.5
+   ],
+   "tipo": "texto",
+   "texto": "En el cálculo simplificado no se considera la transmitancia y superficie de las soluciones constructivas\ndiseñadas para reducir las necesidades energéticas (invernaderos adosados, muros parietodinámicos, muros\nTrombe, etc).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    56.7,
+    410.8,
+    541.4,
+    482.5
+   ],
+   "tipo": "texto",
+   "texto": "Compacidad (V/A): Relación entre el volumen encerrado por la envolvente térmica (V) del edificio (o parte\ndel edificio) y la suma de las superficies de intercambio térmico con el aire exterior o el terreno de dicha\nenvolvente térmica (A = ΣAi). Se expresa en m³/m².\nPor tanto, para el cálculo de la compacidad, se excluye el cómputo del área de los cerramientos y de las\nparticiones interiores en contacto con otros edificios o con espacios adyacentes exteriores a la envolvente\ntérmica.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    56.7,
+    492.8,
+    541.4,
+    538.5
+   ],
+   "tipo": "texto",
+   "texto": "Condiciones operacionales: conjunto de temperaturas de consigna definidas para un espacio habitable\nacondicionado. Está compuesto por un conjunto de temperaturas de consigna, que definen la temperatura de\nactivación de los equipos de calefacción (consigna baja) y de refrigeración (consigna alta). Las condiciones\noperacionales para espacios de uso residencial privado serán las especificadas en el Anejo D.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    56.7,
+    548.8,
+    541.4,
+    594.6
+   ],
+   "tipo": "texto",
+   "texto": "Consumo (energético): energía que es necesario suministrar a los sistemas (existentes o supuestos) para\natender los servicios de calefacción, refrigeración, ventilación, ACS, control de la humedad y, en edificios de\nuso distinto al residencial privado, de iluminación, del edificio, teniendo en cuenta la eficiencia de los sistemas\nempleados. Se expresa con unidades kW·h/m2.año.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    56.7,
+    604.8,
+    541.4,
+    627.6
+   ],
+   "tipo": "texto",
+   "texto": "Puede expresarse como consumo de energía final (por vector energético) o consumo de energía primaria y\nreferirse al conjunto de los servicios (total) o a un servicio específico.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    56.7,
+    637.8,
+    541.4,
+    672.0
+   ],
+   "tipo": "texto",
+   "texto": "Consumo de energía primaria no renovable (Cep,nren): parte no renovable de la energía primaria que es\nnecesario suministrar a los sistemas. Se determina teniendo en cuenta el valor del coeficiente de paso del\ncomponente no renovable de cada vector energético.",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    56.7,
+    682.3,
+    544.1,
+    705.0
+   ],
+   "tipo": "texto",
+   "texto": "Consumo de energía primaria total (Cep,tot): valor global de la energía primaria que es necesario suministrar\na los sistemas. Incluye tanto la energía suministrada y la producida in situ, como la extraída del medioambiente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    56.7,
+    715.3,
+    541.4,
+    761.0
+   ],
+   "tipo": "texto",
+   "texto": "Control solar (qsol;jul):  Es la relación entre las ganancias solares para el mes de julio (Qsol;jul) de  los huecos\npertenecientes a la envolvente térmica con sus protecciones solares móviles activadas, y la superficie útil de\nlos espacios habitables incluidos dentro de la envolvente térmica (Autil). Puede aplicarse al edificio o a parte\ndel mismo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    56.7,
+    767.3,
+    443.6,
+    778.5
+   ],
+   "tipo": "texto",
+   "texto": "Para su cálculo de forma simplificada, se considera nula la energía reirradiada al cielo.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

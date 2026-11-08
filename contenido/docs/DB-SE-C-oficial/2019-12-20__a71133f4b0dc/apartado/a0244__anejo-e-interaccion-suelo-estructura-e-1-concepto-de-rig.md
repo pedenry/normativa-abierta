@@ -1,0 +1,67 @@
+---
+
+documento: "DB-SE-C Cimientos"
+id: "DB-SE-C-oficial"
+capa: "oficial"
+version: "2019-12-20"
+id_tecnico: "a0244"
+ruta_oficial: null
+ruta_semantica: "Fragmento de PDF p130"
+parent_id: null
+nivel: 1
+titulo: "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura"
+paginas_fisicas: "130-131"
+paginas_impresas: "None-None"
+sha256_documento: "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e"
+tipos: "figuras"
+seccion_estimada: "Fragmento de PDF p130"
+titulo_navegacion: "Fragmento de PDF p130"
+ruta_fuente: "fragmento_sin_jerarquia"
+clasificacion_navegacion: "no_encabezado"
+es_encabezado_navegacion: false
+sha256_body_normativo: "33c812a7c61fd171b8b08071812f80b1aa4a64179c219a9088b83bf30a7bbca4"
+---
+
+# a0244 Fragmento de PDF p130
+
+Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura
+E.1 Concepto de rigidez relativa terreno-estructura
+1
+Para ilustrar el fenómeno de la interacción, la Figura E.1 a) muestra el caso sencillo de una zapata,
+infinitamente flexible, apoyada directamente sobre la superficie de un terreno horizontal, sobre la
+que se aplica una presión uniforme. Por efecto de ésta, el terreno y la zapata sufrirán un asiento,
+que resultará mayor en el centro que en los extremos y no se limitará al área cargada, sino que se
+extenderá a ambos lados de ella hasta una cierta distancia. Por ser infinitamente flexible, la zapata
+no será capaz de soportar momentos flectores y, en consecuencia, la distribución de presiones con
+que el terreno reaccionará será idéntica a la distribución uniforme de presiones colocada sobre la
+zapata.
+2
+Si por el contrari, la zapata fuera infinitamente rígida (véase Figura E.1 b), el asiento de la zapata
+sería uniforme. En casos intermedios de rigidez, el valor medio del asiento podrá ser similar al ante-
+rior, pero su distribución estará, evidentemente, condicionada por la rigidez del cimiento. Así, bajo
+los extremos de la zapata (zonas AB y CD), el asiento será mayor que el correspondiente a la zapa-
+ta flexible; mientras que en el centro (zona BC), el asiento será menor. En consecuencia, las pre-
+siones de respuesta del terreno en los extremos de la zapata rígida serán superiores a las corres-
+pondientes a la zapata flexible y, por el contrario, en su centro serán menores. Resulta así una dis-
+tribución no uniforme de presiones, caracterizada por unos valores máximos en los extremos y un
+valor mínimo en el centro.
+Figura E.1. Distribución de presiones en cimentaciones flexibles y rígidas
+3
+Si el terreno se considerara elástico y de resistencia indefinida, la presión bajo los bordes A y D de
+la zapata rígida sería infinita. Dado que la resistencia del terreno es limitada, dichas presiones po-
+drán ser elevadas, pero tendrán un valor finito. En el caso de arcillas (véase Figura E.2.a), la distri-
+bución de presiones será en general muy semejante a la teórica del ejemplo anterior. Sin embargo,
+la resistencia limitada del terreno producirá en los extremos unas zonas de plastificación que ate-
+
+Documento Básico SE-C Cimientos
+SE-C-126
+nuarán las presiones de borde y las redistribuirá hacia el centro de la zapata. En el caso de arenas,
+dado que la falta de confinamiento en el borde de la zapata, supuesta ésta en superficie, no permiti-
+ría el desarrollo de presiones elevadas, la distribución tomará en general la forma parabólica que se
+indica en la Figura E.2.b.
+Figura E.2. Distribución de presiones en zapatas rígidas sobre arcillas y arenas
+
+## Figuras / fórmulas
+
+- figura/p0130.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0131.png (página visual; fórmulas extraídas pendientes de verificación)

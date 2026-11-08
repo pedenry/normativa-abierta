@@ -1,0 +1,146 @@
+---
+
+documento: "RSCIEI"
+id: "RSCIEI-asociada"
+capa: "asociada"
+version: "2025-04-10"
+id_tecnico: "a0144"
+ruta_oficial: null
+ruta_semantica: "Fragmento de PDF p101"
+parent_id: null
+nivel: 1
+titulo: "anexo puedan tener zonas con superficies horizontales previstas para el paso de personas"
+paginas_fisicas: "101-103"
+paginas_impresas: "101-103"
+sha256_documento: "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7"
+tipos: "referencias, figuras"
+seccion_estimada: "Fragmento de PDF p101"
+titulo_navegacion: "Fragmento de PDF p101"
+ruta_fuente: "fragmento_sin_jerarquia"
+clasificacion_navegacion: "no_encabezado"
+es_encabezado_navegacion: false
+sha256_body_normativo: "dfaf66af33d1f83e92c4ff545aa9b3a9ce8d724e473eb1fbbb29beacde1d78e8"
+referencias_auto_md: "sin_cambio_en_MD; usar referencias_filtradas del JSON"
+---
+
+# a0144 Fragmento de PDF p101
+
+> Reglamentacion asociada al CTE (no es un Documento Basico).
+
+anexo puedan tener zonas con superficies horizontales previstas para el paso de personas
+que, sin llegar a considerarse plantas del edificio como tal, tengan algunas características
+similares a ellas. Estas zonas se pueden clasificar como pasos elevados o entreplantas, tal y
+como se define a continuación:
+a) Paso elevado: Sistema de almacenamiento que dispone de uno o varios niveles
+transitables superiores que permiten acceder a la estantería en toda su altura. Puede estar
+ocupado por el personal que manipula las cargas.
+b) Entreplanta sobre estanterías: Sistema de almacenamiento que permite crear
+superficies diáfanas en altura, soportado por las propias estanterías y con capacidad para
+soportar una sobrecarga de uso o las acciones de otras instalaciones fijadas sobre ellas.
+Este sistema está soportado por una estantería que pertenece a otro sistema de almacenaje.
+Puede estar ocupado por el personal que manipula las cargas.
+c) Entreplanta sobre pilares: Sistema de almacenamiento sobre pilares, que permite
+crear superficies diáfanas en altura, con capacidad para soportar una sobrecarga de uso o
+las acciones de otras instalaciones fijadas sobre ellas. Este sistema está formado por pilares
+en los cuales se fija un entramado horizontal, sobre el que apoya el piso o superficie útil.
+Puede estar ocupado por el personal que manipula las cargas.
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+Página 101
+
+Figura 4.2 Clasificación de los pasos elevados y entreplantas
+2.2 Requisitos.
+En el caso de existir entreplantas o pasos elevados en un edificio de un establecimiento
+industrial, se aplicarán las siguientes consideraciones:
+a) Toda entreplanta o paso elevado donde exista un puesto de trabajo fijo o cuyo colapso
+pueda ocasionar daños personales (por ejemplo, un puesto de trabajo bajo la entreplanta),
+comprometer la estabilidad global, la evacuación o la compartimentación, será considerada
+estructura portante y, por tanto, deberá cumplir con las condiciones de la tabla 2.5.1,
+«Resistencia al fuego mínima de los elementos estructurales principales con función
+portante», del anexo II. A estos efectos, la estructura portante a considerar son los soportes
+de dichos pasos o entreplantas, sus suelos o forjados y escaleras de acceso. Asimismo, las
+escaleras de acceso deberán cumplir las condiciones establecidas para los recorridos de
+evacuación.
+b) Toda entreplanta o paso elevado destinado únicamente a almacenamiento donde no
+exista un puesto fijo de trabajo y su ocupación sea puntual, pero cuya densidad de
+ocupación sea mayor a 1 persona por cada 5 m2 o cuya superficie total supere los 50 m2
+(incluyendo las zonas transitables y zonas destinadas a almacenamiento) deberá ser
+considerada origen de evacuación y cumplir con las condiciones de la tabla 2.5.1 del anexo
+II. Asimismo, las escaleras de acceso deberán cumplir las condiciones establecidas para los
+recorridos de evacuación.
+c) En el resto de casos (entreplantas o pasos elevados destinados únicamente a
+almacenamiento donde no exista un puesto fijo de trabajo ni encima ni debajo, su ocupación
+sea puntual, la densidad de ocupación no sea mayor a 1 persona por cada 5 m2 y su
+superficie total no supere los 50 m2) serán considerados almacenamiento y, por lo tanto, se
+deberá cumplir únicamente con los requisitos establecidos para los sistemas de almacenaje.
+d) Como alternativa a la resistencia al fuego requerida en los párrafos a) y b) anteriores,
+se podrá optar por no justificar la resistencia al fuego de la estructura portante de la
+entreplanta o paso elevado cuando estén situados en edificios de tipo B o C (o AH o AV si
+dicha estructura es independiente a la del edificio) y además todo el sector de incendio
+considerado disponga de un sistema fijo de extinción automática (el cual debe proteger todos
+los niveles y debe ser eficaz para lograr la refrigeración de la estructura) y un sistema para el
+control de humos y de calor según el apartado 8.3 del anexo III. La adopción de estas
+medidas será aplicable únicamente en entreplantas o pasos elevados cuya configuración
+permita una rápida disipación del calor y humo y el correcto funcionamiento de los sistemas
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+Página 102
+
+de extinción. Además, la longitud de los recorridos de evacuación con origen en dichas
+zonas no debe superar la indicada en la tabla 2.3.1 del anexo II, no siendo aplicable en este
+caso la nota 4 de dicha tabla.
+e) En los casos a), b) y d) la superficie de los pasos o entreplantas computa junto con la
+del sector de incendios en el que estén situados y, además, deben dotarse dichas zonas de
+las instalaciones de protección contra incendios recogidas en el anexo III.
+f) Respecto a las clases de reacción al fuego de los elementos constructivos de las
+entreplantas y pasos elevados, se aplicarán los mismos requisitos que se piden a suelos y
+techos en la tabla 2.1.4 del anexo II.
+g) A efectos de la aplicación del anexo II, los edificios con entreplantas o pasos elevados
+no se pueden considerar como edificios de una sola planta, salvo que la superficie de estos
+sea poco relevante respecto a la superficie total del sector (entendiendo como tal, a aquella
+que ocupe menos del 15 % de la superficie del sector).
+3. Espacios abiertos ocupados por estructuras sustentantes de cerramientos formados
+por elementos textiles.
+3.1 Los espacios abiertos ocupados por estructuras sustentantes de cerramientos
+formados por elementos textiles tanto en la cubierta como en el cerramiento perimetral, tales
+como carpas, deberán cumplir con las mismas condiciones que aplican a las áreas de
+incendio (configuración tipo D) en los anexos II y III, teniendo en cuenta las siguientes
+particularidades:
+a) En lo relativo al anexo II, sección 5 («Resistencia estructural al incendio»), las
+estructuras sustentantes de cerramientos formados por elementos textiles, serán al menos R
+30, excepto cuando se demuestre que el elemento textil, además de ser nivel T2 conforme a
+la norma UNE-EN 15619 o C-s2,d0 conforme a la UNE-EN 13501-1, presenta, en todas sus
+capas de cubrición, una perforación de superficie igual o mayor que 20 cm2 tras el ensayo
+definido en la norma UNE-EN 14115.
+b) En lo relativo a la evacuación de ocupantes y alumbrado de emergencia, deberán
+cumplirse requisitos análogos a los exigidos para los edificios, según lo indicado en sus
+respectivos apartados de los anexos II y III.
+c) En lo relativo al anexo III, apartado 8, «Sistemas para el control de humos y de calor»,
+deben disponerse de dichos sistemas cuando allí se determine en función de la superficie y
+nivel de riesgo. Alternativamente, en sustitución de estos sistemas, podrá admitirse que
+existan huecos o zonas abiertas (permanentemente abiertas o de apertura manual o
+automática) en la estructura que permitan la evacuación rápida de los humos en caso de
+inicio de un incendio, debiéndose justificar que se permite la evacuación del humo durante
+las primeras etapas de este.
+d) Se aplicarán las distancias perimetrales fijadas en el anexo II, sección 1, apartado 1.5,
+letra a), entre el perímetro de la estructura sustentante y los edificios u otros
+establecimientos colindantes.
+e) El resto de requisitos a cumplir serán análogos a los aplicables a áreas de incendio
+(configuración tipo D) en los anexos II y III.
+3.2 En el caso de estructuras con cerramientos mixtos, es decir, que estén formadas
+conjuntamente por partes con cerramientos textiles y partes con cerramientos rígidos
+(elementos constructivos no textiles), siempre que la cubierta sea en su totalidad de
+cerramiento textil (pudiendo ser los cerramientos perimetrales rígidos) y teniendo una única
+planta sin elementos intermedios y un único sector de incendios, se clasificarán como
+configuración tipo C, debiendo cumplir con las características de esta configuración según el
+
+## Referencias detectadas (literal)
+
+- UNE-EN
+- apartado 1.5
+- apartado 8
+- apartado 8.3
+
+## Figuras / fórmulas
+
+- figura/p0102.png (página visual; fórmulas extraídas pendientes de verificación)

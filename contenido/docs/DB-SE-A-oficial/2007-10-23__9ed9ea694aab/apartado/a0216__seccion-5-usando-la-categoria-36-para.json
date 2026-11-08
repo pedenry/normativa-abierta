@@ -1,0 +1,80 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0216",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p160",
+  "titulo": "sección 5 usando la categoría 36* para",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p160",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p160",
+  "referencias_filtradas": [
+   "EN 1994"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Fatiga. Método de las curvas S-N C.1 Generalidades / sección 5 usando la categoría 36* para",
+   "seccion_estimada": "Anejo C. Fatiga. Método de las curvas S-N C.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7d212a6a5a008f0dcf366bdfa3e0282b049ec3da10dd232a1e07377b8fc64b0f"
+ },
+ "paginas": [
+  160,
+  161
+ ],
+ "etiquetas_impresas": [
+  "160",
+  "161"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "sección 5 usando la categoría 36* para\ncategoría 36* para\n∆σW  y la 80 para ∆τW.\nA continuación se cal-\ncula la fisuración de la\nraíz calculando ∆σ en\nlas placas portantes\nDetalles 1) a 3)\nLa desalineación de\nlas placas portantes\nno debe superar el\n15% del espesor de la\nplaca intermedia\nSegún el\ndetalle 1\nUniones soldadas\ncon cubrejunta\n4) Unión soldada en\nángulo con cubrejun-\nta\n45*\nCubrejunta\n5) Unión soldada en\nángulo con cubrejun-\nta\n∆σ en la placa princi-\npal se calcula basán-\ndose en el área mos-\ntrada en el croquis.\n∆σ se calcula en las\nplacas cubrejunta\nDetalles 4) y 5)\nFinal del cordón a\nmás de 10 mm del ex-\ntremo de la placa.\nDebe comprobarse\n(usando el detalle 8)\nla fisuración a cortan-\nte en la soldadura\ntc < t\ntc≥ t\n56*\nt ≤ 20\n--\n50\n20 < t ≤\n30\nt ≤ 20\n45\n30 < t ≤\n50\n20 < t ≤ 30\n40\nt > 50\n30 < t ≤ 50\n36\n--\nt > 50\nPlatabandas en vi-\ngas y vigas armadas\n6) Zonas extremas\nde platabandas sen-\ncillas o múltiples con\no sin soldadura fron-\ntal\n6) Si la platabanda es\nmás ancha que el ala,\nse precisa un cordón\nfrontal. Esta soldadura\ndebe depositarse cui-\ndadosamente para\neliminar rebajes. La\nlongitud máxima de la\nplatabanda es de 300\nmm. Para casquillos\nmás cortos consúltese\nel detalle 1)\n56\n7) Cubrejuntas en vi-\ngas y vigas armadas\n7) Cordón frontal de-\npositado y rebajado.\nAdemás, si tc > 20 mm\nel frente de la placa\nen el extremo de con-\ntacto con una pen-\ndiente < ¼\n\nDocumentoBásico SE-A Acero\nSE-A-159\n80\nm = 5\n8) Cordones en án-\ngulo continuos trans-\nmitiendo un flujo de\ncortante, tal como en\nun alma soldada a\nun ala en vigas ar-\nmadas\nCordón en ángulo\ncon cubrejunta.\n8) ∆τ se calcula a par-\ntir del área de gargan-\nta del cordón\n9) ∆τ se calcula a par-\ntir del área de gargan-\nta considerando la\nlongitud total de la\nsoldadura. El final de\nlos cordones a más\nde\n10 mm del borde de la\nplaca\nVéase\nEN 1994-\n2 (90 m =\n8)\nConectadores de\ncorte\n10) Para uso en es-\ntructuras mixtas\n10) ∆τ se calcula en la",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "EN 1994"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0160.png",
+  "../figura/p0161.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

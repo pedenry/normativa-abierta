@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0058",
+  "ruta_oficial": "3.1.4.1.2",
+  "ruta_semantica": "3.1.4.1.2  Encuentros con los conductos de instalaciones",
+  "titulo": "3.1.4.1.2  Encuentros con los conductos de instalaciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.4.1.2  Encuentros con los conductos de instalaciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 32,
+   "bbox": [
+    72.1,
+    630.8,
+    346.3,
+    641.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a82bf68d01111e4685e3804f0ff7fa93db8f833965459c0f1a48b7f3a68474ce",
+   "literal": "3.1.4.1.2  Encuentros con los conductos de instalaciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.4.1.2  Encuentros con los conductos de instalaciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.1.4  Condiciones de diseño de las uniones entre elementos constructivos / 3.1.4.1  Elementos de separación verticales 3.1.4.1.1  Encuentros con los forjados, las fachadas y la tabiquería / 3.1.4.1.2  Encuentros con los conductos de instalaciones",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e177102544f96b226950e27f02a3a472490118067800ed17129d7e93138cd908"
+ },
+ "paginas": [
+  32
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "3.1.4.1.2  Encuentros con los conductos de instalaciones\nCuando un conducto de instalaciones colectivas se adose a un elemento de separación vertical, se re-\nvestirá de tal forma que no disminuya el aislamiento acústico del elemento de separación y se garantice\nla continuidad de la solución constructiva.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,2171 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "paginas_pdf": 46,
+ "fuente_toc": "fitz.get_toc:solo_marcadores",
+ "metodo": "lineas_bloque_literal",
+ "generado_por": "navegacion.py",
+ "generado_utc": "2026-11-08T15:01:55+00:00",
+ "nodos": [
+  {
+   "id_navegacion": "n0001",
+   "titulo_literal": "Anejo B. Notaciones y unidades",
+   "nivel": 1,
+   "pagina": 3,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    325.4,
+    226.3,
+    338.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "4b6c3842c75afe94c0415d840adb61191e40dccebabd9280736d5b712f45f639",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0002",
+   "titulo_literal": "Anejo D. Acción del viento",
+   "nivel": 1,
+   "pagina": 3,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    383.4,
+    200.0,
+    396.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "4b6c3842c75afe94c0415d840adb61191e40dccebabd9280736d5b712f45f639",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0003",
+   "titulo_literal": "1 Generalidades",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    183.0,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "1",
+   "sha256_texto_pagina": "8c35b5f6f94cbd4faac3c19e9e69e329d72aa7c6b13322ba9c29d5533a161ee2",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0004",
+   "titulo_literal": "1.1 Ámbito de aplicación",
+   "nivel": 2,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    119.6,
+    215.0,
+    133.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0003",
+   "ruta_literal": "1.1",
+   "sha256_texto_pagina": "8c35b5f6f94cbd4faac3c19e9e69e329d72aa7c6b13322ba9c29d5533a161ee2",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0005",
+   "titulo_literal": "2 Acciones permanentes",
+   "nivel": 1,
+   "pagina": 7,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    239.8,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "2",
+   "sha256_texto_pagina": "80ea4509bbdb8a8039ed5465a3d7e0158e80e0f317bde16add5592b95bb36960",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0006",
+   "titulo_literal": "2.1 Peso propio",
+   "nivel": 2,
+   "pagina": 7,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    119.6,
+    167.0,
+    133.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0005",
+   "ruta_literal": "2.1",
+   "sha256_texto_pagina": "80ea4509bbdb8a8039ed5465a3d7e0158e80e0f317bde16add5592b95bb36960",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0007",
+   "titulo_literal": "2.2 Pretensado",
+   "nivel": 2,
+   "pagina": 7,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    488.4,
+    159.6,
+    501.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0005",
+   "ruta_literal": "2.2",
+   "sha256_texto_pagina": "80ea4509bbdb8a8039ed5465a3d7e0158e80e0f317bde16add5592b95bb36960",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0012"
+  },
+  {
+   "id_navegacion": "n0008",
+   "titulo_literal": "2.3 Acciones del terreno",
+   "nivel": 2,
+   "pagina": 7,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    533.7,
+    212.9,
+    547.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0005",
+   "ruta_literal": "2.3",
+   "sha256_texto_pagina": "80ea4509bbdb8a8039ed5465a3d7e0158e80e0f317bde16add5592b95bb36960",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0013"
+  },
+  {
+   "id_navegacion": "n0009",
+   "titulo_literal": "3 Acciones variables",
+   "nivel": 1,
+   "pagina": 9,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    217.3,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "3",
+   "sha256_texto_pagina": "dc0548baceee5e4341e7995d8ff84c6ec350d5c5aeef3813f3fcf8949e288281",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0010",
+   "titulo_literal": "3.1 Sobrecarga de uso",
+   "nivel": 2,
+   "pagina": 9,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    119.6,
+    205.7,
+    133.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0009",
+   "ruta_literal": "3.1",
+   "sha256_texto_pagina": "dc0548baceee5e4341e7995d8ff84c6ec350d5c5aeef3813f3fcf8949e288281",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0011",
+   "titulo_literal": "3.1.1 Valores de la sobrecarga",
+   "nivel": 3,
+   "pagina": 9,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    214.9,
+    249.8,
+    228.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0010",
+   "ruta_literal": "3.1.1",
+   "sha256_texto_pagina": "dc0548baceee5e4341e7995d8ff84c6ec350d5c5aeef3813f3fcf8949e288281",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0015"
+  },
+  {
+   "id_navegacion": "n0012",
+   "titulo_literal": "3.1.2 Reducción de sobrecargas",
+   "nivel": 3,
+   "pagina": 10,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    440.8,
+    257.6,
+    454.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0010",
+   "ruta_literal": "3.1.2",
+   "sha256_texto_pagina": "4bedfeb3e8042209ab19e71ce9f2e4d0f5393bc3c4a98aee3e61558a393498db",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0016"
+  },
+  {
+   "id_navegacion": "n0013",
+   "titulo_literal": "3.2 Acciones sobre barandillas y elementos divisorios",
+   "nivel": 2,
+   "pagina": 10,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    719.5,
+    386.4,
+    732.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0009",
+   "ruta_literal": "3.2",
+   "sha256_texto_pagina": "4bedfeb3e8042209ab19e71ce9f2e4d0f5393bc3c4a98aee3e61558a393498db",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0017"
+  },
+  {
+   "id_navegacion": "n0014",
+   "titulo_literal": "3.3 Viento",
+   "nivel": 2,
+   "pagina": 11,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    299.9,
+    130.9,
+    313.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0009",
+   "ruta_literal": "3.3",
+   "sha256_texto_pagina": "b1100b8ccb578b71aaab1f43f3d6c8af9f6eebbefa439664d40df0f1097484d4",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0015",
+   "titulo_literal": "3.3.1 Generalidades",
+   "nivel": 3,
+   "pagina": 11,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    325.7,
+    190.3,
+    339.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0014",
+   "ruta_literal": "3.3.1",
+   "sha256_texto_pagina": "b1100b8ccb578b71aaab1f43f3d6c8af9f6eebbefa439664d40df0f1097484d4",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0016",
+   "titulo_literal": "3.3.2 Acción del viento",
+   "nivel": 3,
+   "pagina": 11,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    472.9,
+    203.6,
+    486.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0014",
+   "ruta_literal": "3.3.2",
+   "sha256_texto_pagina": "b1100b8ccb578b71aaab1f43f3d6c8af9f6eebbefa439664d40df0f1097484d4",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0019"
+  },
+  {
+   "id_navegacion": "n0017",
+   "titulo_literal": "3.3.3 Coeficiente de exposición",
+   "nivel": 3,
+   "pagina": 12,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    151.4,
+    252.4,
+    164.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0014",
+   "ruta_literal": "3.3.3",
+   "sha256_texto_pagina": "c283e7d1e73c8bcf47a7732cd73b6400c98a48d795500253bcdc1f417458e8b0",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0021"
+  },
+  {
+   "id_navegacion": "n0018",
+   "titulo_literal": "3.3.4 Coeficiente eólico de edificios de pisos",
+   "nivel": 3,
+   "pagina": 12,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    491.1,
+    328.3,
+    504.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0014",
+   "ruta_literal": "3.3.4",
+   "sha256_texto_pagina": "c283e7d1e73c8bcf47a7732cd73b6400c98a48d795500253bcdc1f417458e8b0",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0022"
+  },
+  {
+   "id_navegacion": "n0019",
+   "titulo_literal": "3.3.5 Coeficiente eólico de naves y construcciones diáfanas",
+   "nivel": 3,
+   "pagina": 13,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    157.4,
+    415.6,
+    170.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0014",
+   "ruta_literal": "3.3.5",
+   "sha256_texto_pagina": "bf9cf74a5dac191832e76483ecf0e4838988ecc81d9f63e9058eda82231d5256",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0023"
+  },
+  {
+   "id_navegacion": "n0020",
+   "titulo_literal": "3.4 Acciones térmicas",
+   "nivel": 2,
+   "pagina": 14,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    69.5,
+    200.3,
+    82.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0009",
+   "ruta_literal": "3.4",
+   "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0021",
+   "titulo_literal": "3.4.1 Generalidades",
+   "nivel": 3,
+   "pagina": 14,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    95.3,
+    190.3,
+    108.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0020",
+   "ruta_literal": "3.4.1",
+   "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0022",
+   "titulo_literal": "3.4.2 Cálculo de la acción térmica",
+   "nivel": 3,
+   "pagina": 14,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    288.5,
+    265.7,
+    301.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0020",
+   "ruta_literal": "3.4.2",
+   "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0025"
+  },
+  {
+   "id_navegacion": "n0023",
+   "titulo_literal": "3.5 Nieve",
+   "nivel": 2,
+   "pagina": 14,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    572.6,
+    126.3,
+    586.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0009",
+   "ruta_literal": "3.5",
+   "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0026"
+  },
+  {
+   "id_navegacion": "n0024",
+   "titulo_literal": "3.5.1 Determinación de la carga de nieve",
+   "nivel": 3,
+   "pagina": 14,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    702.4,
+    305.1,
+    715.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0023",
+   "ruta_literal": "3.5.1",
+   "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0027"
+  },
+  {
+   "id_navegacion": "n0025",
+   "titulo_literal": "3.5.2 Carga de nieve sobre un terreno horizontal",
+   "nivel": 3,
+   "pagina": 15,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    298.7,
+    349.0,
+    312.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0023",
+   "ruta_literal": "3.5.2",
+   "sha256_texto_pagina": "aa8f76409dbd8cd869eae0ac67ba5b6f74254fe415147db0af155fc34ac871d8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0028"
+  },
+  {
+   "id_navegacion": "n0026",
+   "titulo_literal": "3.5.3 Coeficiente de forma",
+   "nivel": 3,
+   "pagina": 15,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    698.8,
+    222.9,
+    712.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0023",
+   "ruta_literal": "3.5.3",
+   "sha256_texto_pagina": "aa8f76409dbd8cd869eae0ac67ba5b6f74254fe415147db0af155fc34ac871d8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0029"
+  },
+  {
+   "id_navegacion": "n0027",
+   "titulo_literal": "3.5.4 Acumulación de nieve",
+   "nivel": 3,
+   "pagina": 16,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    408.5,
+    230.9,
+    421.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0023",
+   "ruta_literal": "3.5.4",
+   "sha256_texto_pagina": "3c6704b68beb7b6e67354d97150c694c1b1235f0fc1c91a2cb1801e53e6f086f",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0030"
+  },
+  {
+   "id_navegacion": "n0028",
+   "titulo_literal": "4 Acciones accidentales",
+   "nivel": 1,
+   "pagina": 17,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    240.6,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "4",
+   "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0029",
+   "titulo_literal": "4.1 Sismo",
+   "nivel": 2,
+   "pagina": 17,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    119.6,
+    130.3,
+    133.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0028",
+   "ruta_literal": "4.1",
+   "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0030",
+   "titulo_literal": "4.2 Incendio",
+   "nivel": 2,
+   "pagina": 17,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    176.4,
+    143.6,
+    189.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0028",
+   "ruta_literal": "4.2",
+   "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0032"
+  },
+  {
+   "id_navegacion": "n0031",
+   "titulo_literal": "4.3 Impacto",
+   "nivel": 2,
+   "pagina": 17,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    314.2,
+    143.6,
+    327.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0028",
+   "ruta_literal": "4.3",
+   "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0032",
+   "titulo_literal": "4.3.1 Generalidades",
+   "nivel": 3,
+   "pagina": 17,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    340.0,
+    187.0,
+    353.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0031",
+   "ruta_literal": "4.3.1",
+   "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0033",
+   "titulo_literal": "4.3.2 Impacto de vehículos",
+   "nivel": 3,
+   "pagina": 17,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    527.8,
+    229.7,
+    541.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0031",
+   "ruta_literal": "4.3.2",
+   "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0034"
+  },
+  {
+   "id_navegacion": "n0034",
+   "titulo_literal": "4.4. Otras acciones accidentales",
+   "nivel": 2,
+   "pagina": 18,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    146.0,
+    259.0,
+    159.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0028",
+   "ruta_literal": "4.4",
+   "sha256_texto_pagina": "a7d407cc4b9dc3a96870017c4bef68ccad25a2c309f463710268e759440a4aec",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0035"
+  },
+  {
+   "id_navegacion": "n0035",
+   "titulo_literal": "Anejo A. Terminología",
+   "nivel": 1,
+   "pagina": 19,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    223.3,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "ee191eb64fe3d9199f14af1cbec54e4dcb5ea47f372f8aa6720b43efff2ae7a5",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0036"
+  },
+  {
+   "id_navegacion": "n0036",
+   "titulo_literal": "Anejo B. Notaciones y unidades",
+   "nivel": 1,
+   "pagina": 21,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    288.0,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "8ea1ad8eb0dc4f4815c43ae5805da9e686c2fa5f6b05ef18160cd5f4f762b725",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0037",
+   "titulo_literal": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno",
+   "nivel": 1,
+   "pagina": 23,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    517.3,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "4726a16c3775ca277cfaf63509131315a634e22bc70bd2c78be2b07bb1d40a13",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0039"
+  },
+  {
+   "id_navegacion": "n0038",
+   "titulo_literal": "Anejo D. Acción del viento",
+   "nivel": 1,
+   "pagina": 27,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    251.4,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "d1fc3566741dd3f9ea493a9ec92c85d4f609d8e382e33cfd06896404f0844c78",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0039",
+   "titulo_literal": "Anejo E. Datos climáticos",
+   "nivel": 1,
+   "pagina": 45,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    81.5,
+    246.0,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "7c82a92d94016c5beaf08f3067849e88c160814cbf6a558a38ffe2811a682670",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0043"
+  }
+ ],
+ "descartados": [],
+ "paginas_indice_detectadas": [],
+ "clasificacion_apartados": {
+  "a0001": {
+   "clasificacion": "fragmento_portada",
+   "es_encabezado_navegacion": false,
+   "motivo": "fragmento_portada",
+   "pagina": 1,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p1",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Portada y páginas previas",
+    "seccion_estimada": "Portada y páginas previas",
+    "nivel": 0,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p1",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p1",
+   "nivel": 1
+  },
+  "a0002": {
+   "clasificacion": "fragmento_portada",
+   "es_encabezado_navegacion": false,
+   "motivo": "fragmento_portada",
+   "pagina": 1,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p1",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Portada y páginas previas / Documento BásicoSE-AE",
+    "seccion_estimada": "Portada y páginas previas",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p1",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p1",
+   "nivel": 1
+  },
+  "a0003": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 3,
+    "bbox": [
+     70.9,
+     67.8,
+     338.8,
+     113.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "4b6c3842c75afe94c0415d840adb61191e40dccebabd9280736d5b712f45f639",
+    "literal": "1 Generalidades"
+   },
+   "titulo_navegacion": "1 Generalidades",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "1 Generalidades",
+    "seccion_estimada": "1 Generalidades",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "1 Generalidades",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "1 Generalidades",
+   "nivel": 1
+  },
+  "a0004": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 3,
+    "bbox": [
+     70.9,
+     117.4,
+     214.4,
+     142.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "4b6c3842c75afe94c0415d840adb61191e40dccebabd9280736d5b712f45f639",
+    "literal": "2 Acciones permanentes"
+   },
+   "titulo_navegacion": "2 Acciones permanentes",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Acciones permanentes",
+    "seccion_estimada": "2 Acciones permanentes",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2 Acciones permanentes",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2 Acciones permanentes",
+   "nivel": 1
+  },
+  "a0005": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p3",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Acciones variables",
+    "seccion_estimada": "3 Acciones variables",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p3",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p3",
+   "nivel": 1
+  },
+  "a0006": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p3",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Acciones accidentales",
+    "seccion_estimada": "4 Acciones accidentales",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p3",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p3",
+   "nivel": 1
+  },
+  "a0007": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p3",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo A. Terminología Anejo B. Notaciones y unidades",
+    "seccion_estimada": "Anejo A. Terminología Anejo B. Notaciones y unidades",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p3",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p3",
+   "nivel": 1
+  },
+  "a0008": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p3",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno Anejo D. Acción del viento",
+    "seccion_estimada": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno Anejo D. Acción del viento",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p3",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p3",
+   "nivel": 1
+  },
+  "a0009": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p3",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo E. Datos climáticos",
+    "seccion_estimada": "Anejo E. Datos climáticos",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p3",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p3",
+   "nivel": 1
+  },
+  "a0010": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "ambito_global_verificado",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 5,
+    "bbox": [
+     70.9,
+     81.5,
+     183.0,
+     97.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "8c35b5f6f94cbd4faac3c19e9e69e329d72aa7c6b13322ba9c29d5533a161ee2",
+    "literal": "1 Generalidades 1.1 Ámbito de aplicación"
+   },
+   "titulo_navegacion": "1 Generalidades 1.1 Ámbito de aplicación",
+   "scope": "global",
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "raiz_ambito_global",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación",
+    "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación",
+   "ruta_fuente": "ambito_global_verificado",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación",
+   "nivel": 1
+  },
+  "a0011": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 7,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p7",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Acciones permanentes 2.1 Peso propio",
+    "seccion_estimada": "2 Acciones permanentes 2.1 Peso propio",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p7",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p7",
+   "nivel": 1
+  },
+  "a0012": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 7,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 7,
+    "bbox": [
+     70.9,
+     488.4,
+     159.6,
+     501.8
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "80ea4509bbdb8a8039ed5465a3d7e0158e80e0f317bde16add5592b95bb36960",
+    "literal": "2.2 Pretensado"
+   },
+   "titulo_navegacion": "2.2 Pretensado",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0007",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Acciones permanentes 2.1 Peso propio / 2.2 Pretensado",
+    "seccion_estimada": "2 Acciones permanentes 2.1 Peso propio",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2.2 Pretensado",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2.2 Pretensado",
+   "nivel": 1
+  },
+  "a0013": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 7,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 7,
+    "bbox": [
+     70.9,
+     533.7,
+     212.9,
+     547.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "80ea4509bbdb8a8039ed5465a3d7e0158e80e0f317bde16add5592b95bb36960",
+    "literal": "2.3 Acciones del terreno"
+   },
+   "titulo_navegacion": "2.3 Acciones del terreno",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0008",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Acciones permanentes 2.1 Peso propio / 2.3 Acciones del terreno",
+    "seccion_estimada": "2 Acciones permanentes 2.1 Peso propio",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2.3 Acciones del terreno",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2.3 Acciones del terreno",
+   "nivel": 1
+  },
+  "a0014": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 9,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p9",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso",
+    "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p9",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p9",
+   "nivel": 1
+  },
+  "a0015": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 9,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 9,
+    "bbox": [
+     70.9,
+     214.9,
+     249.8,
+     228.3
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "dc0548baceee5e4341e7995d8ff84c6ec350d5c5aeef3813f3fcf8949e288281",
+    "literal": "3.1.1 Valores de la sobrecarga"
+   },
+   "titulo_navegacion": "3.1.1 Valores de la sobrecarga",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0011",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso / 3.1.1 Valores de la sobrecarga",
+    "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.1.1 Valores de la sobrecarga",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.1.1 Valores de la sobrecarga",
+   "nivel": 1
+  },
+  "a0016": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 10,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 10,
+    "bbox": [
+     70.9,
+     440.8,
+     257.6,
+     454.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "4bedfeb3e8042209ab19e71ce9f2e4d0f5393bc3c4a98aee3e61558a393498db",
+    "literal": "3.1.2 Reducción de sobrecargas"
+   },
+   "titulo_navegacion": "3.1.2 Reducción de sobrecargas",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0012",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso / 3.1.2 Reducción de sobrecargas",
+    "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.1.2 Reducción de sobrecargas",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.1.2 Reducción de sobrecargas",
+   "nivel": 1
+  },
+  "a0017": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 10,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 10,
+    "bbox": [
+     70.9,
+     719.5,
+     386.4,
+     732.9
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "4bedfeb3e8042209ab19e71ce9f2e4d0f5393bc3c4a98aee3e61558a393498db",
+    "literal": "3.2 Acciones sobre barandillas y elementos divisorios"
+   },
+   "titulo_navegacion": "3.2 Acciones sobre barandillas y elementos divisorios",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0013",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso / 3.2 Acciones sobre barandillas y elementos divisorios",
+    "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.2 Acciones sobre barandillas y elementos divisorios",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.2 Acciones sobre barandillas y elementos divisorios",
+   "nivel": 1
+  },
+  "a0018": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 11,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p11",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso / 3.3 Viento 3.3.1 Generalidades",
+    "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p11",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p11",
+   "nivel": 1
+  },
+  "a0019": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 11,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 11,
+    "bbox": [
+     70.9,
+     472.9,
+     203.6,
+     486.3
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "b1100b8ccb578b71aaab1f43f3d6c8af9f6eebbefa439664d40df0f1097484d4",
+    "literal": "3.3.2 Acción del viento"
+   },
+   "titulo_navegacion": "3.3.2 Acción del viento",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0016",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso / 3.3 Viento 3.3.1 Generalidades / 3.3.2 Acción del viento",
+    "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.2 Acción del viento",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.2 Acción del viento",
+   "nivel": 1
+  },
+  "a0020": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 11,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p11",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p11",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p11",
+   "nivel": 1
+  },
+  "a0021": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 12,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 12,
+    "bbox": [
+     70.9,
+     151.4,
+     252.4,
+     164.8
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "c283e7d1e73c8bcf47a7732cd73b6400c98a48d795500253bcdc1f417458e8b0",
+    "literal": "3.3.3 Coeficiente de exposición"
+   },
+   "titulo_navegacion": "3.3.3 Coeficiente de exposición",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0017",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.3.3 Coeficiente de exposición",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.3 Coeficiente de exposición",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.3 Coeficiente de exposición",
+   "nivel": 1
+  },
+  "a0022": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 12,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 12,
+    "bbox": [
+     70.9,
+     491.1,
+     328.3,
+     504.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "c283e7d1e73c8bcf47a7732cd73b6400c98a48d795500253bcdc1f417458e8b0",
+    "literal": "3.3.4 Coeficiente eólico de edificios de pisos"
+   },
+   "titulo_navegacion": "3.3.4 Coeficiente eólico de edificios de pisos",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0018",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.3.4 Coeficiente eólico de edificios de pisos",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.4 Coeficiente eólico de edificios de pisos",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.4 Coeficiente eólico de edificios de pisos",
+   "nivel": 1
+  },
+  "a0023": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 13,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 13,
+    "bbox": [
+     70.9,
+     157.4,
+     415.6,
+     170.8
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "bf9cf74a5dac191832e76483ecf0e4838988ecc81d9f63e9058eda82231d5256",
+    "literal": "3.3.5 Coeficiente eólico de naves y construcciones diáfanas"
+   },
+   "titulo_navegacion": "3.3.5 Coeficiente eólico de naves y construcciones diáfanas",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0019",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.3.5 Coeficiente eólico de naves y construcciones diáfanas",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.5 Coeficiente eólico de naves y construcciones diáfanas",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.5 Coeficiente eólico de naves y construcciones diáfanas",
+   "nivel": 1
+  },
+  "a0024": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 14,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p14",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.4 Acciones térmicas 3.4.1 Generalidades",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p14",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p14",
+   "nivel": 1
+  },
+  "a0025": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 14,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 14,
+    "bbox": [
+     70.9,
+     288.5,
+     265.7,
+     301.9
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+    "literal": "3.4.2 Cálculo de la acción térmica"
+   },
+   "titulo_navegacion": "3.4.2 Cálculo de la acción térmica",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0022",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.4 Acciones térmicas 3.4.1 Generalidades / 3.4.2 Cálculo de la acción térmica",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.4.2 Cálculo de la acción térmica",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.4.2 Cálculo de la acción térmica",
+   "nivel": 1
+  },
+  "a0026": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 14,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 14,
+    "bbox": [
+     70.9,
+     572.6,
+     126.3,
+     586.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+    "literal": "3.5 Nieve"
+   },
+   "titulo_navegacion": "3.5 Nieve",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0023",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.5 Nieve",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.5 Nieve",
+   "nivel": 1
+  },
+  "a0027": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 14,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 14,
+    "bbox": [
+     70.9,
+     702.4,
+     305.1,
+     715.8
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+    "literal": "3.5.1 Determinación de la carga de nieve"
+   },
+   "titulo_navegacion": "3.5.1 Determinación de la carga de nieve",
+   "scope": null,
+   "parent_id_anterior": "a0026",
+   "navegacion_id": "n0024",
+   "parent_id_original": "a0026",
+   "parent_id": "a0026",
+   "parent_motivo": "parent_original_encabezado_anterior",
+   "extraccion_anterior": {
+    "parent_id": "a0026",
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve / 3.5.1 Determinación de la carga de nieve",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.5.1 Determinación de la carga de nieve",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.5.1 Determinación de la carga de nieve",
+   "nivel": 1
+  },
+  "a0028": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 15,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 15,
+    "bbox": [
+     70.9,
+     298.7,
+     349.0,
+     312.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "aa8f76409dbd8cd869eae0ac67ba5b6f74254fe415147db0af155fc34ac871d8",
+    "literal": "3.5.2 Carga de nieve sobre un terreno horizontal"
+   },
+   "titulo_navegacion": "3.5.2 Carga de nieve sobre un terreno horizontal",
+   "scope": null,
+   "parent_id_anterior": "a0026",
+   "navegacion_id": "n0025",
+   "parent_id_original": "a0026",
+   "parent_id": "a0026",
+   "parent_motivo": "parent_original_encabezado_anterior",
+   "extraccion_anterior": {
+    "parent_id": "a0026",
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve / 3.5.2 Carga de nieve sobre un terreno horizontal",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.5.2 Carga de nieve sobre un terreno horizontal",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.5.2 Carga de nieve sobre un terreno horizontal",
+   "nivel": 1
+  },
+  "a0029": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 15,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 15,
+    "bbox": [
+     70.9,
+     698.8,
+     222.9,
+     712.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "aa8f76409dbd8cd869eae0ac67ba5b6f74254fe415147db0af155fc34ac871d8",
+    "literal": "3.5.3 Coeficiente de forma"
+   },
+   "titulo_navegacion": "3.5.3 Coeficiente de forma",
+   "scope": null,
+   "parent_id_anterior": "a0026",
+   "navegacion_id": "n0026",
+   "parent_id_original": "a0026",
+   "parent_id": "a0026",
+   "parent_motivo": "parent_original_encabezado_anterior",
+   "extraccion_anterior": {
+    "parent_id": "a0026",
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve / 3.5.3 Coeficiente de forma",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.5.3 Coeficiente de forma",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.5.3 Coeficiente de forma",
+   "nivel": 1
+  },
+  "a0030": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 16,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 16,
+    "bbox": [
+     70.9,
+     408.5,
+     230.9,
+     421.9
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "3c6704b68beb7b6e67354d97150c694c1b1235f0fc1c91a2cb1801e53e6f086f",
+    "literal": "3.5.4 Acumulación de nieve"
+   },
+   "titulo_navegacion": "3.5.4 Acumulación de nieve",
+   "scope": null,
+   "parent_id_anterior": "a0026",
+   "navegacion_id": "n0027",
+   "parent_id_original": "a0026",
+   "parent_id": "a0026",
+   "parent_motivo": "parent_original_encabezado_anterior",
+   "extraccion_anterior": {
+    "parent_id": "a0026",
+    "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve / 3.5.4 Acumulación de nieve",
+    "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.5.4 Acumulación de nieve",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.5.4 Acumulación de nieve",
+   "nivel": 1
+  },
+  "a0031": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 17,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p17",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Acciones accidentales 4.1 Sismo",
+    "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p17",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p17",
+   "nivel": 1
+  },
+  "a0032": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 17,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 17,
+    "bbox": [
+     70.9,
+     176.4,
+     143.6,
+     189.8
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+    "literal": "4.2 Incendio"
+   },
+   "titulo_navegacion": "4.2 Incendio",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0030",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Acciones accidentales 4.1 Sismo / 4.2 Incendio",
+    "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.2 Incendio",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.2 Incendio",
+   "nivel": 1
+  },
+  "a0033": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 17,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p17",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Acciones accidentales 4.1 Sismo / 4.3 Impacto 4.3.1 Generalidades",
+    "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p17",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p17",
+   "nivel": 1
+  },
+  "a0034": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 17,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 17,
+    "bbox": [
+     70.9,
+     527.8,
+     229.7,
+     541.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+    "literal": "4.3.2 Impacto de vehículos"
+   },
+   "titulo_navegacion": "4.3.2 Impacto de vehículos",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0033",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Acciones accidentales 4.1 Sismo / 4.3 Impacto 4.3.1 Generalidades / 4.3.2 Impacto de vehículos",
+    "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.3.2 Impacto de vehículos",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.3.2 Impacto de vehículos",
+   "nivel": 1
+  },
+  "a0035": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 18,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 18,
+    "bbox": [
+     70.9,
+     146.0,
+     259.0,
+     159.4
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "a7d407cc4b9dc3a96870017c4bef68ccad25a2c309f463710268e759440a4aec",
+    "literal": "4.4. Otras acciones accidentales"
+   },
+   "titulo_navegacion": "4.4. Otras acciones accidentales",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0034",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Acciones accidentales 4.1 Sismo / 4.4. Otras acciones accidentales",
+    "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.4. Otras acciones accidentales",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.4. Otras acciones accidentales",
+   "nivel": 1
+  },
+  "a0036": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 19,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 19,
+    "bbox": [
+     70.9,
+     81.5,
+     223.3,
+     97.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "ee191eb64fe3d9199f14af1cbec54e4dcb5ea47f372f8aa6720b43efff2ae7a5",
+    "literal": "Anejo A. Terminología"
+   },
+   "titulo_navegacion": "Anejo A. Terminología",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0035",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo A. Terminología",
+    "seccion_estimada": "Anejo A. Terminología",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Anejo A. Terminología",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 1
+  },
+  "a0037": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 21,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p21",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo B. Notaciones y unidades B.1 Notaciones",
+    "seccion_estimada": "Anejo B. Notaciones y unidades B.1 Notaciones",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p21",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p21",
+   "nivel": 1
+  },
+  "a0038": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 21,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p21",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo B. Notaciones y unidades B.1 Notaciones / B.3 Unidades",
+    "seccion_estimada": "Anejo B. Notaciones y unidades B.1 Notaciones",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p21",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p21",
+   "nivel": 1
+  },
+  "a0039": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 23,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 23,
+    "bbox": [
+     70.9,
+     81.5,
+     517.3,
+     97.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "4726a16c3775ca277cfaf63509131315a634e22bc70bd2c78be2b07bb1d40a13",
+    "literal": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno"
+   },
+   "titulo_navegacion": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0037",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno",
+    "seccion_estimada": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Anejo C. Prontuario de pesos y coeficientes de rozamiento interno",
+   "nivel": 1
+  },
+  "a0040": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 27,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p27",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D. Acción del viento D.1 Presión dinámica",
+    "seccion_estimada": "Anejo D. Acción del viento D.1 Presión dinámica",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p27",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p27",
+   "nivel": 1
+  },
+  "a0041": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 28,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 28,
+    "bbox": [
+     70.9,
+     129.1,
+     244.3,
+     142.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "b785912fd41fef0be0bf8898975acb6f93548d0f1882cd8c5390b683d31cf98f",
+    "literal": "D.2 Coeficiente de exposición"
+   },
+   "titulo_navegacion": "D.2 Coeficiente de exposición",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D. Acción del viento D.1 Presión dinámica / D.2 Coeficiente de exposición",
+    "seccion_estimada": "Anejo D. Acción del viento D.1 Presión dinámica",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.2 Coeficiente de exposición",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.2 Coeficiente de exposición",
+   "nivel": 1
+  },
+  "a0042": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 28,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 28,
+    "bbox": [
+     70.9,
+     435.5,
+     279.1,
+     448.9
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "b785912fd41fef0be0bf8898975acb6f93548d0f1882cd8c5390b683d31cf98f",
+    "literal": "D.3 Coeficientes de presión exterior"
+   },
+   "titulo_navegacion": "D.3 Coeficientes de presión exterior",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D. Acción del viento D.1 Presión dinámica / D.3 Coeficientes de presión exterior",
+    "seccion_estimada": "Anejo D. Acción del viento D.1 Presión dinámica",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.3 Coeficientes de presión exterior",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.3 Coeficientes de presión exterior",
+   "nivel": 1
+  },
+  "a0043": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 45,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 45,
+    "bbox": [
+     70.9,
+     81.5,
+     246.0,
+     97.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "7c82a92d94016c5beaf08f3067849e88c160814cbf6a558a38ffe2811a682670",
+    "literal": "Anejo E. Datos climáticos"
+   },
+   "titulo_navegacion": "Anejo E. Datos climáticos",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0039",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo E. Datos climáticos",
+    "seccion_estimada": "Anejo E. Datos climáticos",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Anejo E. Datos climáticos",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Anejo E. Datos climáticos",
+   "nivel": 1
+  }
+ },
+ "referencias_db": {
+  "conservadas": [
+   "DB-SE",
+   "DB-SE-C",
+   "EN 1991"
+  ],
+  "descartadas": [
+   {
+    "literal": "DB-SI\n2",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "nota": "copia derivada y auditable; el texto y las listas originales no se modifican"
+ },
+ "advertencias": [
+  "Solo se listan nodos cuyo literal se ha localizado en la página; el resto queda en descartados y no se presenta como capítulo.",
+  "La jerarquía procede del nivel literal del marcador o de la numeración literal; no se infieren padres no documentados.",
+  "Sin verificación humana: no se marca 'verified' ni certificación."
+ ]
+}

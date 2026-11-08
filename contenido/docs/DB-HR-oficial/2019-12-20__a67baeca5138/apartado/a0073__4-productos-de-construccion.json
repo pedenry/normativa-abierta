@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0073",
+  "ruta_oficial": "4",
+  "ruta_semantica": "4   Productos de construcción",
+  "titulo": "4   Productos de construcción",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4   Productos de construcción",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 37,
+   "bbox": [
+    70.9,
+    147.3,
+    274.1,
+    162.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "5d3b1d21a087704ae8c3b2c1737afa17bf504dffeb6a8c5780a8ade16d676878",
+   "literal": "4   Productos de construcción"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0005",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4   Productos de construcción",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4   Productos de construcción",
+   "seccion_estimada": "4   Productos de construcción",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1e8e9db8d3f29ef5f533f83125b99480a9403fca4ac7876675ddf92661e2f951"
+ },
+ "paginas": [
+  37
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [],
+ "texto": "Documento Básico HR - Protección frente al ruido\nHR-31\n2\nLas puertas de acceso al ascensor en los distintos pisos tendrán topes elásticos que aseguren la\npráctica anulación del impacto contra el marco en las operaciones de cierre.\n3\nEl cuadro de mandos, que contiene los relés de arranque y parada, estará montado elásticamente\nasegurando un aislamiento adecuado de los ruidos de impactos y de las vibraciones.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

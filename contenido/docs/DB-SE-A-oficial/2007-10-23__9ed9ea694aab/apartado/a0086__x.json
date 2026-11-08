@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0086",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p48",
+  "titulo": "( )",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p48",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p48",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección en doble T / ( )",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b2422ec3177ce4e305e301d025730a185c2be346645f7b27696d80c1708458e3"
+ },
+ "paginas": [
+  48,
+  49,
+  50
+ ],
+ "etiquetas_impresas": [
+  "48",
+  "49",
+  "50"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "( )\n)\na\nm\nm\n1\nt\n2\ns\n2\n1\ns\ny\n≤\n+\n+\n⋅\n⋅\n+\n=\nl\n-\nCaso b): carga (o reacción) transferida de un ala al otro a través del alma. En caso de haber\ncortantes, se considera la fuerza concentrada de mayor valor de las dos.\n2\nF\na\nd\n2\n5,3\nk\n\n\n\n\n\n\n+\n=\n( )\n)\na\nm\nm\n1\nt\n2\ns\n2\n1\ns\ny\n≤\n+\n+\n⋅\n⋅\n+\n=\nl\n\nDocumentoBásico SE-A Acero\nSE-A-47\n-\nCaso c): carga (o reacción) aplicada a un ala cerca de una sección extrema no rigidizada y\nequilibrada por un cortante en la otra sección.\n6\nd\nc\ns\n6\n2\nk\ns\nF\n≤\n\n\n\n\n\n\n+\n+\n=\n( )\n)\n3\ny\n2\ny\n1\ny\ny\n,\n,\nMin\nl\nl\nl\nl\n=\nviniendo cada coeficiente dado por las expresiones:\nw\nyw\nf\nyf\n1\nt\nf\nb\nf\nm\n⋅\n⋅\n=\n\n\n\n≤\nλ\n>\nλ\n\n\n\n\n\n\n=\n5,0\nsi\n0\n5,0\nsi\nt\nd\n02\n,0\nm\nF\nF\nf\n2\n(cabe aproximar\nF\nλcon la obtenida usando m2=0 para aproximar\ny\nl)\n2\n1\nf\neff\n1\ny\nm\nm\nt\n+\n+\n= l\nl\n2\n2\nf\neff\n1\nf\neff\n2\ny\nm\nt\n2\nm\nt\n+\n\n\n\n\n\n\n+\n+\n=\nl\nl\nl\n( )\n)\n2\n1\nf\ns\n3\ny\nm\nm\n1\nt\n2\ns\n+\n+\n⋅\n+\n=\nl\nc\ns\nd\nf\n2\nt\nE\nk\ns\ny\n2\nF\neff\n+\n≤\n⋅\n⋅\n⋅\n⋅\n=\nl\ndonde\nsS\nlongitud de la entrega rígida de la carga (véase la figura 6.7);\ntw\nespesor del alma;\ntf\nespesor del ala;\nfyw\ntensión de límite elástico del alma;\nfyb\ntensión de límite elástico del ala;\nE\nmódulo de elasticidad;\nd\ncanto del alma.\nFigura 6.6 Modos de transferencia de cargas concentradas o reacciones\n4\nSi la carga concentrada actúa en el eje de una sección sometida a esfuerzos axiles y de flexión\nque produzcan una tensión σx,Ed en el punto del ala situado bajo la carga, debe verificarse que:\n4\n,1\nf\n8,0\nF\nF\n0\nM\nyf\nEd\n,x\nRd\n,\nb\nEd\n≤\n\n\n\n\n\n\nγ\nσ\n⋅\n+\n(6.48)\n\nDocumentoBásico SE-A Acero\nSE-A-48\nFigura 6.7 Ancho de la entrega rígida de una carga sobre un ala",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0048_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0048.png",
+  "../figura/p0049.png",
+  "../figura/p0050.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0050",
+  "ruta_oficial": "4.2.2",
+  "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 4 Escaleras y rampas / 4.2 Escaleras de uso general / 4.2.2 Tramos",
+  "titulo": "4.2.2 Tramos",
+  "nivel": 4,
+  "parent_id": "a0049",
+  "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 12,
+   "bbox": [
+    70.9,
+    606.5,
+    145.2,
+    617.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "b030d8191effcd6071aa0c18021426affaa109f40ceeb5be274488d1f386358d",
+   "literal": "4.2.2 Tramos"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0021",
+  "parent_id_original": "a0049",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2.2 Tramos",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0049",
+   "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 4 Escaleras y rampas / 4.2 Escaleras de uso general / 4.2.2 Tramos",
+   "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "77cec4ea1d1785ec06bd4bfe85b29aa5788d015c73bc90ef74a52a8a6c050c50"
+ },
+ "paginas": [
+  12
+ ],
+ "etiquetas_impresas": [
+  "12"
+ ],
+ "tipos": [
+  "excepciones",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Documento Básico SUA Seguridad de utilización y accesibilidad\nSUA 1. Seguridad frente al riesgo de caídas\n12\nFigura 4.2 Configuración de los peldaños.\n2\nNo se admite bocel. En las escaleras previstas para evacuación ascendente, así como cuando no\nexista un itinerario accesible alternativo, deben disponerse tabicas y éstas serán verticales o inclina-\ndas formando un ángulo que no exceda de 15º con la vertical (véase figura 4.2).\nFigura 4.3 Escalera con trazado curvo.\n3\nEn tramos curvos, la huella medirá 28 cm, como mínimo, a una distancia de 50 cm del borde interior\ny 44 cm, como máximo, en el borde exterior (véase figura 4.3). Además, se cumplirá la relación indi-\ncada en el punto 1 anterior a 50 cm de ambos extremos. La dimensión de toda huella se medirá, en\ncada peldaño, según la dirección de la marcha.\n4\nLa medida de la huella no incluirá la proyección vertical de la huella del peldaño superior.\n4.2.2\nTramos\n1\nExcepto en los casos admitidos en el punto 3 del apartado 2 de esta Sección, cada tramo tendrá 3\npeldaños como mínimo. La máxima altura que puede salvar un tramo es 2,25 m en zonas de uso pú-\nblico, así como siempre que no se disponga ascensor como alternativa a la escalera, y 3,20 m en los\ndemás casos.\n2\nLos tramos podrán ser rectos, curvos o mixtos, excepto en zonas de hospitalización y tratamientos\nintensivos, en escuelas infantiles y en centros de enseñanza primaria o secundaria, donde los tramos\núnicamente pueden ser rectos.\n3\nEntre dos plantas consecutivas de una misma escalera, todos los peldaños tendrán la misma contra-\nhuella y todos los peldaños de los tramos rectos tendrán la misma huella. Entre dos tramos consecu-\ntivos de plantas diferentes, la contrahuella no variará más de 1 cm.\nEn tramos mixtos, la huella medida en el eje del tramo en las partes curvas no será menor que la\nhuella en las partes rectas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0038",
+   "ruta_oficial": "2",
+   "titulo": "2 Discontinuidades en el pavimento",
+   "archivo_json": "a0038__2-discontinuidades-en-el-pavimento.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0012.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

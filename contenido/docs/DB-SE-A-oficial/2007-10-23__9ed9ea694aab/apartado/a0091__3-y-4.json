@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0091",
+  "ruta_oficial": "3",
+  "ruta_semantica": "3 y 4",
+  "titulo": "3 y 4",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3 y 4",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 52,
+   "bbox": [
+    82.0,
+    257.4,
+    93.1,
+    282.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d0cad7be589eff713aff96b235e7848c05700f342e8302adee2f5e6a25d16aa3",
+   "literal": "3 y 4"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 y 4",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 y 4",
+   "seccion_estimada": "3 y 4",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9043d80da6ff007a0d943ec0b0417a6e429b13d7382ae81d152f560834d1bcad"
+ },
+ "paginas": [
+  52,
+  53,
+  55
+ ],
+ "etiquetas_impresas": [
+  "52",
+  "53",
+  "55"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "3 y 4\nTodas\nRd\n.\nC\ny\nEd\ny\nN\nN\n6,0\n1\nχ\n⋅\nλ\n⋅\n+\nRd\n.\nC\nz\nEd\nz\nN\nN\n6,0\n1\nχ\n⋅\nλ\n⋅\n+\n(\n)\nRd\n,\nC\nz\nEd\nmLT\nz\nN\nN\n25\n,0\nc\n05\n,0\n1\nχ\n−\nλ\n⋅\n−\nsiendo\ny\nλ y\nz\nλ       valores de las esbelteces reducidas para los ejes y – y y z – z, no mayores que 1,00.\n1\nM\ny\n*\nRd\n.\nC\nf\nA\nN\nγ\n⋅\n=\n\nDocumentoBásico SE-A Acero\nSE-A-51\nTabla 6.10 Coeficientes del momento equivalente\nFactor de momento flector\nEje de flexión\nPuntos arriostrados en dirección\ncm,y\ny–y\nz - z\ncm,z\nz - z\ny–y\ncm,LT\ny – y\ny–y\nDiagrama de Flectores\nFactor de momento uniforme equivalente\ncm,y = cm,i ( i =y )\ncm,z = cm,i ( i =z )\ncm,LT = cm,i ( i =LT )\nMomentos de extremo\n4\n,0\n4\n,0\n6,0\nc\ni,\nm\n≥\nψ\n⋅\n+\n=\ncm,i = 0,9\nMomento debido a cargas laterales coplanarias\ncm,i = 0,95\n4\n,0\n8,0\n1,0\nc\ni.\nm\n≥\nα\n⋅\n−\n=\nsi\n0\n1\n≤\nα\n≤\n−\n4\n,0\n8,0\n2,0\nc\ni.\nm\n≥\nα\n⋅\n+\n=\nsi\n1\n0\n≤\nα\n≤\nMomentos debidos a cargas laterales y momentos de ex-\ntremos\nh\ni.\nm\n05\n,0\n95\n,0\nc\nα\n⋅\n+\n=\ncon\n1\n1\nh≤\nα\n≤\n−\n\nDocumentoBásico SE-A Acero\nSE-A-53",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0052.png",
+  "../figura/p0053.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,298 @@
+{
+ "documento": null,
+ "pagina": 32,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    797.9,
+    320.2,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE - 26",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    72.5,
+    440.3,
+    140.4
+   ],
+   "tipo": "texto",
+   "texto": "Ctot\ncoste total\nCb\ncoste del proyecto y de la ejecución\nCm\ncoste previsto para la inspección, al mantenimiento y la demolición\nCf\ncoste del fallo\nPf\nprobabilidad de fallo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    144.3,
+    541.3,
+    242.2
+   ],
+   "tipo": "texto",
+   "texto": "La suma (Pf · Cf) se debe establecer para todas las situaciones de riesgo independientes y todos\nlos posibles mecanismos de fallo.\nEsta representación del coste total tiene un alto grado de simplificación y se debe detallar más a\nefectos de su aplicación práctica.\n3\nEn los casos en los que el fallo (colapso) estructural pueda afectar a las personas (caso normal),\nademás de los criterios económicos, la estructura deberá cumplir con los requisitos relacionados\ncon la fiabilidad mínima. En estos casos, la optimización condicional se puede llevar a cabo para la\nrelación (C.8), siempre y cuando se cumpla con los requisitos deducidos de (C.6) y (C.7).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    246.1,
+    474.0,
+    257.5
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn algunos casos, el coste del riesgo ((Pf · Cf)) puede estar cubierto por un seguro.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    268.8,
+    189.8,
+    278.8
+   ],
+   "tipo": "texto",
+   "texto": "C.4.3 Valores numéricos",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    285.5,
+    541.3,
+    307.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "1\nLos valores numéricos relativos a la fiabilidad de una estructura se expresan a menudo en términos\ndel índice de fiabilidad, β, relacionado con la probabilidad de fallo, Pf, a través de",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    95.9,
+    311.8,
+    534.8,
+    328.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\nf\n-1 P\n - \n\n\n(C.9)",
+   "tamano": 12.8,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.6,
+    337.4,
+    538.5,
+    358.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "La tabla C.1 contiene valores numéricos para la relación entre el índice de fiabilidad, β, y la probabi-\nlidad de fallo, Pf.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    124.4,
+    363.1,
+    489.1,
+    372.1
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.1\nRelación entre el índice de fiabilidad, b, y la probabilidad de fallo, Pf",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    92.8,
+    380.0,
+    523.6,
+    390.2
+   ],
+   "tipo": "texto",
+   "texto": "Pf\n10-1\n10-2\n10-3\n10-4\n10-5\n10-6\n10-7",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    94.3,
+    397.6,
+    522.1,
+    409.0
+   ],
+   "tipo": "texto",
+   "texto": "\n1,3\n2,3\n3,1\n3,7\n4,2\n4,7\n5,2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    417.0,
+    541.3,
+    605.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos valores numéricos de la probabilidad de fallo (y de los correspondientes índices de fiabilidad) a\nlos que hacen referencia los principios de C.3 y que se pueden determinar según los métodos men-\ncionados en C.5, representan valores nominales y no describen la frecuencia real de fallos estructu-\nrales. Las diferencias sustanciales entre la probabilidad de fallo nominal y la frecuencia real de fa-\nllos estructurales se debe por un lado a que en realidad los fallos son debidos, en muchos casos, a\nerrores humanos y, por otro lado, a las simplificaciones introducidas a través de los modelos.\nDebido a que las probabilidades de fallo se deben interpretar como valores nominales, las probabi-\nlidades de fallo admisibles deben basarse en los resultados de una calibración. El empleo de valo-\nres de este tipo para caracterizar la fiabilidad requerida de una estructura está relacionado con un\nconjunto coherente y específico de modelos probabilistas y de modelos estructurales. No es admi-\nsible el empleo de valores calibrados para la probabilidad de fallo admisible (o para el índice de fia-\nbilidad requerido) en combinación con otros modelos, ya que conduce a resultados distorsionados\nen cuanto al nivel de fiabilidad.\n3\nLa tabla C.2 representa valores calibrados para el índice de fiabilidad requerido, referidos a todo el\nperiodo de servicio de la estructura, en función de las consecuencias de un fallo estructural y del\ncoste relativo de un incremento de la fiabilidad.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    94.4,
+    609.7,
+    537.8,
+    618.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.2 Valores nominales, referidos a todo el periodo de servicio, para el índice de fiabilidad reque-",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    296.2,
+    620.1,
+    318.2,
+    629.1
+   ],
+   "tipo": "texto",
+   "texto": "rido",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    637.1,
+    154.7,
+    670.1
+   ],
+   "tipo": "texto",
+   "texto": "Coste relativo\npara incrementar\nla fiabilidad",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    262.0,
+    637.1,
+    445.3,
+    647.0
+   ],
+   "tipo": "texto",
+   "texto": "Consecuencias de un fallo estructural",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    176.4,
+    655.1,
+    516.7,
+    665.0
+   ],
+   "tipo": "texto",
+   "texto": "despreciables\npequeñas\nmoderadas\ngrandes",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    678.2,
+    504.2,
+    688.2
+   ],
+   "tipo": "texto",
+   "texto": "elevado\n0\n1,5\n2,3\n3,1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    695.8,
+    504.2,
+    705.7
+   ],
+   "tipo": "texto",
+   "texto": "moderado\n1,3\n2,3\n3,1\n3,8",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    713.3,
+    504.2,
+    723.2
+   ],
+   "tipo": "texto",
+   "texto": "bajo\n2,3\n3,1\n3,8\n4,3",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    93.6,
+    731.3,
+    541.3,
+    767.2
+   ],
+   "tipo": "texto",
+   "texto": "Los valores de la tabla C.2 se han deducido aplicando los métodos de los valores de cálculo (C.6),\nadoptando las siguientes hipótesis para las funciones de distribución de los modelos probabilistas:\na)\nmodelos de resistencia\nlognormal o Weibull",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,131 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0110",
+  "ruta_oficial": "5.1.2.2.5",
+  "ruta_semantica": "5.1.2.2.5 Pilotes hormigonados “in situ”",
+  "titulo": "5.1.2.2.5 Pilotes hormigonados “in situ”",
+  "nivel": 1,
+  "parent_id": "a0105",
+  "seccion_estimada": "5.1.2.2.5 Pilotes hormigonados “in situ”",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 49,
+   "bbox": [
+    70.9,
+    277.9,
+    262.6,
+    287.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "379db29439afb1e223ee92919167b382d5ad9bacdd75fb91d8b8f80eb58dfeef",
+   "literal": "5.1.2.2.5 Pilotes hormigonados “in situ”"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0128",
+  "parent_id_original": "a0105",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado\n5.4.1.1",
+   "apartado 5.4"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "5.1.2.2.5 Pilotes hormigonados “in situ”",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0105",
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 5.1.2 Tipologías 5.1.2.1 Por la forma de trabajo / 5.1.2.2 Por el tipo de pilote / 5.1.2.2.5 Pilotes hormigonados “in situ”",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8882841f4e3aa78f3ecb376fe45e165482f3eb45c97df4cd110220085f4a9214"
+ },
+ "paginas": [
+  49
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "5.1.2.2.5 Pilotes hormigonados “in situ”\n1\nA efectos de este DB se diferencian los siguientes tipos: pilotes de desplazamiento con azuche,\npilotes de desplazamiento con tapón de gravas, pilotes de extracción con entubación recuperable,\npilotes de extracción con camisa perdida, pilotes de extracción sin entubación con lodos tixotrópi-\ncos, pilotes barrenados sin entubación, pilotes barrenados, hormigonados por el tubo central de la\nbarrena y pilotes de desplazamiento por rotación.\n2\nPara los pilotes hormigonados “in situ” se tendrán en cuenta las siguientes consideraciones:\na)\ndiámetro < 0,45 m: no se deben ejecutar pilotes aislados, salvo en elementos de poca respon-\nsabilidad en los que un posible fallo del elemento de cimentación no tenga una repercusión\nsignificativa;\nb)\n0,45 m < diámetro < 1,00 m; se podrán realizar pilotes aislados siempre que se realice un\narriostramiento en dos direcciones ortogonales y se asegure la integridad del pilote en toda su\nlongitud de acuerdo con los métodos de control recogidos en el apartado 5.4;\nc)\ndiámetro > 1,00 m; se podrán realizar pilotes aislados sin necesidad de arriostramiento siem-\npre y cuando se asegure la integridad del pilote en toda su longitud de acuerdo con los méto-\ndos de control recogidos en el apartado 5.4 y el pilote se arme para las excentricidades permi-\ntidas y momentos resultantes.\n3\nPara la selección del tipo de pilote se tendrán en cuenta las indicaciones recogidas en el apartado\n5.4.1.1.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "apartado\n5.4.1.1",
+  "apartado 5.4"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

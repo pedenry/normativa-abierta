@@ -1,0 +1,94 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0311",
+  "ruta_oficial": "3.2",
+  "ruta_semantica": "3.2 Espacio de contención ventilado",
+  "titulo": "3.2 Espacio de contención ventilado",
+  "nivel": 1,
+  "parent_id": "a0308",
+  "seccion_estimada": "3.2 Espacio de contención ventilado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 140,
+   "bbox": [
+    70.9,
+    350.3,
+    283.7,
+    363.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9d0b0171e81d2a8e1c34dcb533e9109cce61e3b48d6c50127e6fbf0c9c8aa61c",
+   "literal": "3.2 Espacio de contención ventilado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0308",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB HS3",
+   "RITE",
+   "apartado 3.2.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2 Espacio de contención ventilado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0308",
+   "ruta_semantica": "3 Verificación y justificación del cumplimiento de la exigencia / 3.2 Espacio de contención ventilado",
+   "seccion_estimada": "3 Verificación y justificación del cumplimiento de la exigencia",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5115253a6e4338f5ff37a64b276a5097ed717be936b71b6bf6780088f93f70d9"
+ },
+ "paginas": [
+  140,
+  141
+ ],
+ "etiquetas_impresas": [
+  "140",
+  "141"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.2 Espacio de contención ventilado\n1\nEl espacio de contención estará constituido por una cámara de aire, pudiendo ser ésta vertical u\nhorizontal en función del cerramiento a proteger, o por un local no habitable. Este espacio dispondrá\nen todo caso de ventilación natural o mecánica.\n2\nPara asegurar la ventilación, el espacio de contención deberá conectarse con el exterior mediante\naberturas de ventilación que deberán mantenerse libres de obstrucciones.\n3\nPara la ventilación natural de una cámara de aire horizontal, salvo que se cuente con estudios\nespecíficos que permitan otra distribución, las aberturas de ventilación se dispondrán en todas las\nfachadas de forma homogénea, siendo el área del conjunto de aberturas de al menos 10 cm2 por\nmetro lineal del perímetro de la cámara. En el caso de superficies de menos de 100 m2, las\naberturas podrán disponerse en la misma fachada siempre que ningún punto de la cámara diste\nmás de 10 m de alguna de ellas. Si hay obstáculos a la libre circulación del aire en el interior de la\ncámara, se dispondrán aberturas que la permitan.\n4\nPara la ventilación natural de una cámara de aire vertical, salvo que se cuente con estudios\nespecíficos que permitan otra distribución, se dispondrán aberturas de ventilación en la parte\nsuperior de dicha cámara, colocadas de forma próxima a la cara exterior del muro a proteger, de\nmanera que el conjunto de aberturas sea de, al menos, 10 cm2 por metro lineal.\n5\nEn el caso de emplear locales no habitables como espacios de contención, se considera que la\nventilación necesaria establecida por el DB HS3 o por el RITE, según corresponda, es suficiente.\n6\nEn el caso de edificios existentes en los que no exista cámara de aire se podrá implementar una\ncámara que, aunque no tenga las mismas características de la cámara descrita anteriormente,\nmejore la protección frente al radón. En este caso la cámara podría construirse por el interior del\ncerramiento en contacto con el terreno, debiendo ser continua y abarcando toda la superficie a\nproteger. Además, deberá estar comunicada con el exterior y disponer de una altura o espesor de al\nmenos 5 cm.\n7\nLa eficacia de la solución se deberá comprobar experimentalmente con mediciones de\nconcentración de radón posteriores a la intervención de acuerdo al apéndice C.\n\nDocumento Básico HS Salubridad\nHS 6 Protección frente a la exposición al radón\n141\n8\nCuando no se cumplan las condiciones necesarias para el establecimiento de ventilación natural o\nse considere necesario aumentar la eficacia de la instalación en el caso de que las mediciones de\nconcentración de radón posteriores a la intervención no ofrezcan valores aceptables, se dispondrán\nextractores mecánicos. En este caso las aberturas se dimensionarán según las características\nespecíficas de la cámara y las aberturas de admisión se situarán lo más lejos posible de la abertura\nde extracción para facilitar la ventilación del espacio. Las bocas de expulsión estarán situadas\nconforme a lo especificado en el apartado 3.2.1 del DB HS3, excepto lo relativo a la disposición en\ncubierta, que se considera opcional.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB HS3",
+  "RITE",
+  "apartado 3.2.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0140.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

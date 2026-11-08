@@ -1,0 +1,76 @@
+---
+
+documento: "DB-SI Seguridad en caso de incendio"
+id: "DB-SI-oficial"
+capa: "oficial"
+version: "2025-03-04"
+id_tecnico: "a0131"
+ruta_oficial: null
+ruta_semantica: "Uso Docente"
+parent_id: "a0119"
+nivel: 2
+titulo: "Uso Docente"
+paginas_fisicas: "50-50"
+paginas_impresas: "50-50"
+sha256_documento: "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105"
+tipos: "referencias"
+seccion_estimada: "Uso Docente"
+titulo_navegacion: "Uso Docente"
+ruta_fuente: "toc_verificado_literal"
+clasificacion_navegacion: "encabezado"
+es_encabezado_navegacion: true
+sha256_body_normativo: "6c364900c276391adda2b0b22736a167a0651de66a37695ea4e944719d776e29"
+referencias_auto_md: "sin_cambio_en_MD; usar referencias_filtradas del JSON"
+---
+
+# a0131 Uso Docente
+
+Documento Básico SI en caso de Incendio
+Anejo A. Terminología
+50
+Uso Administrativo
+Edificio, establecimiento o zona en el que se desarrollan actividades de gestión o de servicios en cual-
+quiera de sus modalidades, como por ejemplo, centros de la administración pública, bancos, despachos
+profesionales, oficinas, etc.
+Uso Almacén
+Edificio o establecimiento destinado de forma principal al almacenamiento de materiales o productos.
+También se consideran de uso almacén las zonas destinadas de forma principal al almacenamiento de
+materiales o productos siempre que tengan una carga de fuego total ponderada y corregida (QT), calcu-
+lada según el anexo I del RSCIEI, igual o superior a tres millones de megajulios. No obstante, los locales
+de riesgo especial enunciados en la tabla 2.1 de la Sección SI 1, no se considerarán zonas de uso alma-
+cén salvo en las situaciones indicadas en la propia tabla.
+Uso Aparcamiento
+Edificio, establecimiento o zona independiente o accesoria de otro uso principal, destinado a estaciona-
+miento de vehículos y cuya superficie construida exceda de 100 m2, incluyendo las dedicadas a revisio-
+nes tales como lavado, puesta a punto, montaje de accesorios, comprobación de neumáticos y faros,
+etc., que no requieran la manipulación de productos o de útiles de trabajo que puedan presentar riesgo
+adicional y que se produce habitualmente en la reparación propiamente dicha. Se excluyen de este uso
+los garajes, cualquiera que sea su superficie, de una vivienda unifamiliar, así como los aparcamientos en
+espacios exteriores del entorno de los edificios, aunque sus plazas estén cubiertas.
+Dentro de este uso, se denominan aparcamientos robotizados aquellos en los que el movimiento de los
+vehículos, desde el acceso hasta las plazas de aparcamiento, únicamente se realiza mediante sistemas
+mecánicos y sin presencia ni intervención directa de personas, exceptuando la actuación ocasional de
+personal de mantenimiento. En dichos aparcamientos no es preciso cumplir las condiciones de evacua-
+ción que se establecen en este DB SI, aunque deben disponer de los medios de escape en caso de
+emergencia para dicho personal que en cada caso considere adecuados la autoridad de control compe-
+tente.
+Uso Comercial
+Edificio, establecimiento o zona cuya actividad principal es la venta de productos directamente al público
+o la prestación de servicios relacionados con los mismos, incluyendo, tanto las tiendas y los grandes
+almacenes, los cuales suelen constituir un único establecimiento con un único titular, como los centros
+comerciales, los mercados, las galerías comerciales, etc.
+También se consideran de uso Comercial aquellos establecimientos en los que se prestan directamente
+al público determinados servicios no necesariamente relacionados con la venta de productos, pero cuyas
+características constructivas y funcionales, las del riesgo derivado de la actividad y las de los ocupantes
+se puedan asimilar más a las propias de este uso que a las de cualquier otro. Como ejemplos de dicha
+asimilación pueden citarse las lavanderías, los salones de peluquería, etc.
+Uso Docente
+Edificio, establecimiento o zona destinada a docencia, en cualquiera de sus niveles: escuelas infantiles,
+centros de enseñanza primaria, secundaria, universitaria o formación profesional. No obstante, los esta-
+blecimientos docentes que no tengan la característica propia de este uso (básicamente, el predominio de
+actividades en aulas de elevada densidad de ocupación) deben asimilarse a otros usos.
+
+## Referencias detectadas (literal)
+
+- DB SI
+- RSCIEI

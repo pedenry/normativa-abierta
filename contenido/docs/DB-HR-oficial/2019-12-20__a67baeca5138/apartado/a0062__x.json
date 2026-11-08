@@ -1,0 +1,78 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0062",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p34",
+  "titulo": " ",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p34",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p34",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.2  Tiempo de reverberación y absorción acústica 3.2.1  Datos previos y procedimiento /  ",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d629df465a543925a32293a40db5031ef4ccd0346ac839376a474efbce7d80c1"
+ },
+ "paginas": [
+  34
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": " \n\n=\n=\n(3.26)\nsiendo\ni,\nm\n\ncoeficiente de absorción acústica medio de cada paramento, para las bandas de tercio de\noctava centradas en las frecuencias de 500, 1000 y 2000 Hz;\nSi\nárea de paramento cuyo coeficiente de absorción es i, [m2];\nj,\nm\nAo\nárea de absorción acústica equivalente media de cada mueble fijo absorbente diferente [m2];\nV\nvolumen del recinto, [m3].\nm\nm\ncoeficiente de absorción acústica medio en el aire, para las frecuencias de 500, 1000 y 2000\nHz y de valor 0,006 m-1.\nEl término\nV\nmm \n\n4\nes despreciable en los recintos de volumen menor que 250 m3.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

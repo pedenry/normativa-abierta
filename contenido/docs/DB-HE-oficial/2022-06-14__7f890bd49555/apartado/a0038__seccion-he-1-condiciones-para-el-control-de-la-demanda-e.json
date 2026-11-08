@@ -1,0 +1,88 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0038",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección HE 1 Condiciones para el control de la demanda energética",
+  "titulo": "Sección HE 1 Condiciones para el control de la demanda energética",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección HE 1 Condiciones para el control de la demanda energética",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    56.7,
+    76.6,
+    472.1,
+    209.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d17c7df69749d110a49917c7f857c3386120be3289a068c990124caedce00a18",
+   "literal": "Sección HE 1 Condiciones para el control de la demanda energética"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0026",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección HE 1 Condiciones para el control de la demanda energética",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo H / Sección HE 1 Condiciones para el control de la demanda energética",
+   "seccion_estimada": "Anejo H",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5149536235c60a6cfa5d935fd0bd3d1d3fd9f2395d66a4f5aecdf4bdde0d11d8"
+ },
+ "paginas": [
+  15
+ ],
+ "etiquetas_impresas": [
+  "15"
+ ],
+ "tipos": [],
+ "texto": "Sección HE 1 Condiciones para el control de la demanda energética\nCondiciones para el control de la demanda energética\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0039",
+  "a0040",
+  "a0041",
+  "a0042",
+  "a0043",
+  "a0044",
+  "a0045",
+  "a0046"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

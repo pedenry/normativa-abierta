@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0152",
+  "ruta_oficial": "10.1.1",
+  "ruta_semantica": "10.1.1 Identificación de los materiales",
+  "titulo": "10.1.1 Identificación de los materiales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.1.1 Identificación de los materiales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 111,
+   "bbox": [
+    74.1,
+    436.3,
+    255.9,
+    447.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "25dbe4549264e5b1819c91d63a36ce39b5875616b41e5416fc9f6429286ba729",
+   "literal": "10.1.1 Identificación de los materiales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0142",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.1.1 Identificación de los materiales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.1.1 Identificación de los materiales",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "63417faa15c4afeec3359b20b8ae25987fd353e6905ee49a2bba719b8ca60154"
+ },
+ "paginas": [
+  111
+ ],
+ "etiquetas_impresas": [
+  "111"
+ ],
+ "tipos": [],
+ "texto": "10.1.1 Identificación de los materiales\n1\nLas características de los materiales suministrados deben estar documentadas de forma que pue-\ndan compararse con los requisitos establecidos en el pliego de condiciones. Además, los materia-\nles deben poderse identificar en todas las etapas de fabricación, de forma única y por un sistema\napropiado.\n2\nLa identificación puede basarse en registros documentados para lotes de producto asignados a un\nproceso común de producción, pero cada componente debe tener una marca duradera, distingui-\nble, que no le produzca daño y resulte visible tras el montaje.\n3\nEn general y salvo que lo prohíba el pliego de condiciones, están permitidos los números estampa-\ndos y las marcas punzonadas para el marcado, pero no las entalladuras cinceladas. En todo caso\nel pliego de condiciones debe indicar todas las zonas en que no se permita el uso de estampado-\nras, troqueles o punzones para realizar marcas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0100",
+  "ruta_oficial": "5",
+  "ruta_semantica": "5 Construcción",
+  "titulo": "5 Construcción",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5 Construcción",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 40,
+   "bbox": [
+    70.9,
+    633.6,
+    179.2,
+    649.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9306cb525f531d185e2e9abd867118b06df10d0648bf3a7f609be00099dd1741",
+   "literal": "5 Construcción"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "artículo 6"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5 Construcción",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Construcción",
+   "seccion_estimada": "5 Construcción",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0ac1c87608fd9d4bf1cad21729a52fd4b5d4f736a5ec27ce61bb54e5a3919661"
+ },
+ "paginas": [
+  40
+ ],
+ "etiquetas_impresas": [
+  "40"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "5 Construcción\n1\nEn el proyecto se definirán y justificarán las características técnicas mínimas que deben reunir los\nproductos, así como las condiciones de ejecución de cada unidad de obra, con las verificaciones y\ncontroles especificados para comprobar su conformidad con lo indicado en dicho proyecto, según lo\nindicado en el artículo 6 de la parte I del CTE.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "artículo 6"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0101",
+  "a0113",
+  "a0114"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

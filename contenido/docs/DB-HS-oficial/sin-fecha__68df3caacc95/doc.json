@@ -1,0 +1,1663 @@
+{
+ "id": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "layer": "oficial",
+ "scope": "Salubridad",
+ "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+ "landing": "https://www.codigotecnico.org/DocumentosCTE/Salubridad.html",
+ "version_label_literal": "Do\n \nSa\n \nHS 1\nHS 2\nHS 3\nHS 4\nHS 5\nHS 6\n \n \n \n \n \n \n \n \n \n \n \n \n \n \nMINISTE\nDE VIVIENDA\nY AGEN\n \n \n \n \nocu\nlubr\n  Protecc\n Recogi\n3  Calidad\n4  Sumini\n5 Evacua\n6 Protecc\nERIO  \nNDA URBANA \nume\nidad\nción fren\nida y ev\nd del air\nistro de \nación de\nción fren\nento\nd \nnte a la \nacuació\nre interio\nagua \ne aguas\nnte a la \n \n14 junio 20\no Bá\nhumeda\nón de res\nor \nexposic\n022 \násic\nad \nsiduos \nción al ra\nco H\nadón \nHS \n2",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "version_detectada": {
+  "corta": "2022-06-14",
+  "evidence_sha": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "literal": "14 junio 2022",
+  "tipo": "fecha_portada_cotejada_visualmente",
+  "nota": "Portada cotejada visualmente: 14 junio 2022; el raw tiene glifos duplicados y se conserva sin sobrescribir.",
+  "fuente": "cotejo_visual_verificado",
+  "dir": "2022-06-14__68df3caacc95"
+ },
+ "version_semantic_label": null,
+ "correccion_boe": null,
+ "fecha_comentarios": null,
+ "consolidation_update_date": null,
+ "fecha_notas": "Portada cotejada visualmente: 14 junio 2022; el raw tiene glifos duplicados y se conserva sin sobrescribir.",
+ "version_fuente": "cotejo_visual_verificado",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "pdf_nombre": "DB-HS-oficial-68df3caacc.pdf",
+ "paginas_pdf": 184,
+ "paginas_manifiesto": 184,
+ "license_status": "art13 disposicion legal",
+ "license_evidence": null,
+ "creditos": null,
+ "motivo_distribucion": "disposición legal (art. 13 TRLPI)",
+ "normativo": true,
+ "distribute": true,
+ "nota_capa": "",
+ "ambito_literal": {
+  "id_tecnico": "a0016",
+  "ruta_oficial": null,
+  "titulo": "II Ámbito de aplicación",
+  "texto": "II Ámbito de aplicación\nÁmbito de aplicación\nEl ámbito de aplicación en este DB se especifica, para cada sección de las que se compone el mismo,\nen sus respectivos apartados.\nEl contenido de este DB se refiere únicamente a las exigencias básicas relacionadas con el requisito\nbásico \"Higiene, salud y protección del medio ambiente\". También deben cumplirse las exigencias\nbásicas de los demás requisitos básicos, lo que se posibilita mediante la aplicación del DB\ncorrespondiente a cada uno de ellos."
+ },
+ "toc": [
+  {
+   "nivel": 1,
+   "titulo": "DB HS junio 2022",
+   "pagina": 1
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección HS1",
+   "pagina": 10
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección HS2",
+   "pagina": 52
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección HS3",
+   "pagina": 63
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección HS4",
+   "pagina": 81
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección HS5",
+   "pagina": 111
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección HS6",
+   "pagina": 138
+  }
+ ],
+ "metodo_segmentacion": "toc+lineas",
+ "cobertura_caracteres_apartados": 0.939,
+ "referencias_globales": [
+  "Artículo 13",
+  "DB\nHS3",
+  "DB HE",
+  "DB HE1",
+  "DB HR",
+  "DB HS",
+  "DB HS3",
+  "DB HS4",
+  "DB HS5",
+  "DB SE",
+  "DB se",
+  "DB-HE",
+  "DB-HS",
+  "DB-SE-AE",
+  "DB-SI",
+  "EN 877",
+  "RITE",
+  "Real Decreto\n140/2003",
+  "Real Decreto 1317/1989",
+  "Real Decreto 1371/2007",
+  "Real Decreto 140/2003",
+  "Real Decreto 314/2006",
+  "Real Decreto 410/2010",
+  "Real Decreto 450/2022",
+  "Real Decreto 732/2019",
+  "Real Decreto 865/2003",
+  "UNE\n127916",
+  "UNE\nEN",
+  "UNE 100",
+  "UNE 100030",
+  "UNE 100151",
+  "UNE 100156",
+  "UNE 100171",
+  "UNE 10242",
+  "UNE 127100",
+  "UNE 127916",
+  "UNE 136020",
+  "UNE 1507",
+  "UNE 19",
+  "UNE 19049-1",
+  "UNE 20",
+  "UNE 41",
+  "UNE CEN",
+  "UNE EN",
+  "UNE EN-772",
+  "UNE ENV",
+  "UNE correspondientes",
+  "UNE-CEN",
+  "UNE-EN",
+  "apartado\n2.2.3.1",
+  "apartado\n2.3.2",
+  "apartado\n2.4.2",
+  "apartado 2",
+  "apartado 2.1.1",
+  "apartado 2.1.2",
+  "apartado 2.1.3",
+  "apartado 2.2",
+  "apartado 2.2.1",
+  "apartado 2.2.2",
+  "apartado 2.2.3",
+  "apartado 2.3.1",
+  "apartado 2.3.3",
+  "apartado 2.3.3.2",
+  "apartado 2.3.3.5",
+  "apartado 2.4.3",
+  "apartado 2.4.4",
+  "apartado 2.4.4.1.2",
+  "apartado 2.4.4.2.9",
+  "apartado 3",
+  "apartado 3.1",
+  "apartado 3.1.2",
+  "apartado 3.2",
+  "apartado 3.2.1",
+  "apartado 3.3",
+  "apartado 4",
+  "apartado 4.2",
+  "apartado 5",
+  "apartado 5.1.3.1",
+  "apartado 5.4.3",
+  "apartado 6",
+  "apartado 6.3.2",
+  "apartado 7",
+  "artículo 13",
+  "artículo 5",
+  "artículo 6",
+  "artículo 7"
+ ],
+ "tablas_por_pagina": {
+  "1": [
+   {
+    "indice": 1,
+    "filas": 20,
+    "columnas": 9
+   }
+  ],
+  "11": [
+   {
+    "indice": 1,
+    "filas": 5,
+    "columnas": 3
+   }
+  ],
+  "12": [
+   {
+    "indice": 1,
+    "filas": 7,
+    "columnas": 7
+   }
+  ],
+  "15": [
+   {
+    "indice": 1,
+    "filas": 5,
+    "columnas": 3
+   }
+  ],
+  "16": [
+   {
+    "indice": 1,
+    "filas": 8,
+    "columnas": 7
+   },
+   {
+    "indice": 2,
+    "filas": 8,
+    "columnas": 6
+   }
+  ],
+  "20": [
+   {
+    "indice": 1,
+    "filas": 6,
+    "columnas": 2
+   }
+  ],
+  "29": [
+   {
+    "indice": 1,
+    "filas": 4,
+    "columnas": 2
+   },
+   {
+    "indice": 2,
+    "filas": 20,
+    "columnas": 6
+   }
+  ],
+  "38": [
+   {
+    "indice": 1,
+    "filas": 6,
+    "columnas": 3
+   }
+  ],
+  "39": [
+   {
+    "indice": 1,
+    "filas": 6,
+    "columnas": 4
+   },
+   {
+    "indice": 2,
+    "filas": 11,
+    "columnas": 4
+   }
+  ],
+  "45": [
+   {
+    "indice": 1,
+    "filas": 5,
+    "columnas": 2
+   }
+  ],
+  "53": [
+   {
+    "indice": 1,
+    "filas": 7,
+    "columnas": 3
+   }
+  ],
+  "54": [
+   {
+    "indice": 1,
+    "filas": 6,
+    "columnas": 3
+   }
+  ],
+  "57": [
+   {
+    "indice": 1,
+    "filas": 8,
+    "columnas": 4
+   }
+  ],
+  "64": [
+   {
+    "indice": 1,
+    "filas": 6,
+    "columnas": 5
+   },
+   {
+    "indice": 2,
+    "filas": 5,
+    "columnas": 2
+   }
+  ],
+  "65": [
+   {
+    "indice": 1,
+    "filas": 4,
+    "columnas": 3
+   }
+  ],
+  "70": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 2
+   }
+  ],
+  "71": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 3
+   },
+   {
+    "indice": 2,
+    "filas": 3,
+    "columnas": 6
+   },
+   {
+    "indice": 3,
+    "filas": 3,
+    "columnas": 14
+   }
+  ],
+  "72": [
+   {
+    "indice": 1,
+    "filas": 27,
+    "columnas": 4
+   }
+  ],
+  "74": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 2
+   }
+  ],
+  "82": [
+   {
+    "indice": 1,
+    "filas": 21,
+    "columnas": 6
+   }
+  ],
+  "90": [
+   {
+    "indice": 1,
+    "filas": 4,
+    "columnas": 11
+   }
+  ],
+  "91": [
+   {
+    "indice": 1,
+    "filas": 17,
+    "columnas": 4
+   },
+   {
+    "indice": 2,
+    "filas": 2,
+    "columnas": 2
+   }
+  ],
+  "92": [
+   {
+    "indice": 1,
+    "filas": 1,
+    "columnas": 2
+   },
+   {
+    "indice": 2,
+    "filas": 7,
+    "columnas": 4
+   }
+  ],
+  "94": [
+   {
+    "indice": 1,
+    "filas": 14,
+    "columnas": 12
+   }
+  ],
+  "103": [
+   {
+    "indice": 1,
+    "filas": 10,
+    "columnas": 4
+   },
+   {
+    "indice": 2,
+    "filas": 5,
+    "columnas": 4
+   }
+  ],
+  "117": [
+   {
+    "indice": 1,
+    "filas": 8,
+    "columnas": 3
+   },
+   {
+    "indice": 2,
+    "filas": 7,
+    "columnas": 4
+   },
+   {
+    "indice": 3,
+    "filas": 13,
+    "columnas": 6
+   }
+  ],
+  "118": [
+   {
+    "indice": 1,
+    "filas": 11,
+    "columnas": 8
+   },
+   {
+    "indice": 2,
+    "filas": 14,
+    "columnas": 6
+   }
+  ],
+  "119": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 2
+   },
+   {
+    "indice": 2,
+    "filas": 3,
+    "columnas": 2
+   },
+   {
+    "indice": 3,
+    "filas": 9,
+    "columnas": 4
+   }
+  ],
+  "120": [
+   {
+    "indice": 1,
+    "filas": 3,
+    "columnas": 2
+   }
+  ],
+  "121": [
+   {
+    "indice": 1,
+    "filas": 14,
+    "columnas": 11
+   },
+   {
+    "indice": 2,
+    "filas": 12,
+    "columnas": 4
+   }
+  ],
+  "122": [
+   {
+    "indice": 1,
+    "filas": 16,
+    "columnas": 12
+   },
+   {
+    "indice": 2,
+    "filas": 2,
+    "columnas": 2
+   }
+  ],
+  "125": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 8
+   }
+  ],
+  "143": [
+   {
+    "indice": 1,
+    "filas": 9,
+    "columnas": 3
+   }
+  ],
+  "146": [
+   {
+    "indice": 1,
+    "filas": 69,
+    "columnas": 8
+   }
+  ],
+  "147": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "148": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "149": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "150": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "151": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "152": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "153": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "154": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "155": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "156": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "157": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "158": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "159": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "160": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "161": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "162": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "163": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "164": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "165": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "166": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "167": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "168": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "169": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "170": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "171": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "172": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "173": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "174": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "175": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "176": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "177": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "178": [
+   {
+    "indice": 1,
+    "filas": 94,
+    "columnas": 8
+   }
+  ],
+  "179": [
+   {
+    "indice": 1,
+    "filas": 93,
+    "columnas": 8
+   }
+  ]
+ },
+ "figuras": [
+  {
+   "pagina": 1,
+   "motivos": [
+    "tablas",
+    "dibujos:111",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0001.png"
+  },
+  {
+   "pagina": 3,
+   "motivos": [
+    "dibujos:86"
+   ],
+   "archivo": "figura/p0003.png"
+  },
+  {
+   "pagina": 4,
+   "motivos": [
+    "dibujos:32"
+   ],
+   "archivo": "figura/p0004.png"
+  },
+  {
+   "pagina": 10,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0010.png"
+  },
+  {
+   "pagina": 11,
+   "motivos": [
+    "tablas",
+    "dibujos:21"
+   ],
+   "archivo": "figura/p0011.png"
+  },
+  {
+   "pagina": 12,
+   "motivos": [
+    "tablas",
+    "dibujos:49",
+    "formulas"
+   ],
+   "archivo": "figura/p0012.png"
+  },
+  {
+   "pagina": 13,
+   "motivos": [
+    "dibujos:492"
+   ],
+   "archivo": "figura/p0013.png"
+  },
+  {
+   "pagina": 15,
+   "motivos": [
+    "tablas",
+    "dibujos:583"
+   ],
+   "archivo": "figura/p0015.png"
+  },
+  {
+   "pagina": 16,
+   "motivos": [
+    "tablas",
+    "dibujos:99",
+    "formulas"
+   ],
+   "archivo": "figura/p0016.png"
+  },
+  {
+   "pagina": 17,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0017.png"
+  },
+  {
+   "pagina": 18,
+   "motivos": [
+    "dibujos:534"
+   ],
+   "archivo": "figura/p0018.png"
+  },
+  {
+   "pagina": 19,
+   "motivos": [
+    "dibujos:2606"
+   ],
+   "archivo": "figura/p0019.png"
+  },
+  {
+   "pagina": 20,
+   "motivos": [
+    "tablas",
+    "dibujos:31",
+    "imagen_incrustada",
+    "formulas"
+   ],
+   "archivo": "figura/p0020.png"
+  },
+  {
+   "pagina": 23,
+   "motivos": [
+    "formulas"
+   ],
+   "archivo": "figura/p0023.png"
+  },
+  {
+   "pagina": 24,
+   "motivos": [
+    "dibujos:1063"
+   ],
+   "archivo": "figura/p0024.png"
+  },
+  {
+   "pagina": 25,
+   "motivos": [
+    "dibujos:906"
+   ],
+   "archivo": "figura/p0025.png"
+  },
+  {
+   "pagina": 26,
+   "motivos": [
+    "dibujos:982"
+   ],
+   "archivo": "figura/p0026.png"
+  },
+  {
+   "pagina": 27,
+   "motivos": [
+    "dibujos:317"
+   ],
+   "archivo": "figura/p0027.png"
+  },
+  {
+   "pagina": 28,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0028.png"
+  },
+  {
+   "pagina": 29,
+   "motivos": [
+    "tablas",
+    "dibujos:104"
+   ],
+   "archivo": "figura/p0029.png"
+  },
+  {
+   "pagina": 31,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0031.png"
+  },
+  {
+   "pagina": 33,
+   "motivos": [
+    "dibujos:766"
+   ],
+   "archivo": "figura/p0033.png"
+  },
+  {
+   "pagina": 34,
+   "motivos": [
+    "dibujos:419"
+   ],
+   "archivo": "figura/p0034.png"
+  },
+  {
+   "pagina": 35,
+   "motivos": [
+    "dibujos:295"
+   ],
+   "archivo": "figura/p0035.png"
+  },
+  {
+   "pagina": 36,
+   "motivos": [
+    "dibujos:313"
+   ],
+   "archivo": "figura/p0036.png"
+  },
+  {
+   "pagina": 38,
+   "motivos": [
+    "tablas",
+    "dibujos:721"
+   ],
+   "archivo": "figura/p0038.png"
+  },
+  {
+   "pagina": 39,
+   "motivos": [
+    "tablas",
+    "dibujos:31"
+   ],
+   "archivo": "figura/p0039.png"
+  },
+  {
+   "pagina": 40,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0040.png"
+  },
+  {
+   "pagina": 44,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0044.png"
+  },
+  {
+   "pagina": 45,
+   "motivos": [
+    "tablas",
+    "dibujos:28"
+   ],
+   "archivo": "figura/p0045.png"
+  },
+  {
+   "pagina": 51,
+   "motivos": [
+    "dibujos:359"
+   ],
+   "archivo": "figura/p0051.png"
+  },
+  {
+   "pagina": 52,
+   "motivos": [
+    "dibujos:5"
+   ],
+   "archivo": "figura/p0052.png"
+  },
+  {
+   "pagina": 53,
+   "motivos": [
+    "tablas",
+    "dibujos:8"
+   ],
+   "archivo": "figura/p0053.png"
+  },
+  {
+   "pagina": 54,
+   "motivos": [
+    "tablas",
+    "dibujos:156"
+   ],
+   "archivo": "figura/p0054.png"
+  },
+  {
+   "pagina": 55,
+   "motivos": [
+    "dibujos:209"
+   ],
+   "archivo": "figura/p0055.png"
+  },
+  {
+   "pagina": 56,
+   "motivos": [
+    "dibujos:291"
+   ],
+   "archivo": "figura/p0056.png"
+  },
+  {
+   "pagina": 57,
+   "motivos": [
+    "tablas",
+    "dibujos:17"
+   ],
+   "archivo": "figura/p0057.png"
+  },
+  {
+   "pagina": 58,
+   "motivos": [
+    "dibujos:7"
+   ],
+   "archivo": "figura/p0058.png"
+  },
+  {
+   "pagina": 59,
+   "motivos": [
+    "dibujos:8"
+   ],
+   "archivo": "figura/p0059.png"
+  },
+  {
+   "pagina": 60,
+   "motivos": [
+    "dibujos:10"
+   ],
+   "archivo": "figura/p0060.png"
+  },
+  {
+   "pagina": 64,
+   "motivos": [
+    "tablas",
+    "dibujos:36"
+   ],
+   "archivo": "figura/p0064.png"
+  },
+  {
+   "pagina": 65,
+   "motivos": [
+    "tablas",
+    "dibujos:404"
+   ],
+   "archivo": "figura/p0065.png"
+  },
+  {
+   "pagina": 66,
+   "motivos": [
+    "dibujos:245"
+   ],
+   "archivo": "figura/p0066.png"
+  },
+  {
+   "pagina": 67,
+   "motivos": [
+    "dibujos:66"
+   ],
+   "archivo": "figura/p0067.png"
+  },
+  {
+   "pagina": 68,
+   "motivos": [
+    "dibujos:683"
+   ],
+   "archivo": "figura/p0068.png"
+  },
+  {
+   "pagina": 69,
+   "motivos": [
+    "dibujos:401"
+   ],
+   "archivo": "figura/p0069.png"
+  },
+  {
+   "pagina": 70,
+   "motivos": [
+    "tablas",
+    "dibujos:582"
+   ],
+   "archivo": "figura/p0070.png"
+  },
+  {
+   "pagina": 71,
+   "motivos": [
+    "tablas",
+    "dibujos:143",
+    "formulas"
+   ],
+   "archivo": "figura/p0071.png"
+  },
+  {
+   "pagina": 72,
+   "motivos": [
+    "tablas",
+    "dibujos:38"
+   ],
+   "archivo": "figura/p0072.png"
+  },
+  {
+   "pagina": 74,
+   "motivos": [
+    "tablas",
+    "dibujos:11"
+   ],
+   "archivo": "figura/p0074.png"
+  },
+  {
+   "pagina": 75,
+   "motivos": [
+    "dibujos:16"
+   ],
+   "archivo": "figura/p0075.png"
+  },
+  {
+   "pagina": 76,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0076.png"
+  },
+  {
+   "pagina": 82,
+   "motivos": [
+    "tablas",
+    "dibujos:59"
+   ],
+   "archivo": "figura/p0082.png"
+  },
+  {
+   "pagina": 83,
+   "motivos": [
+    "dibujos:604"
+   ],
+   "archivo": "figura/p0083.png"
+  },
+  {
+   "pagina": 84,
+   "motivos": [
+    "dibujos:1567"
+   ],
+   "archivo": "figura/p0084.png"
+  },
+  {
+   "pagina": 87,
+   "motivos": [
+    "dibujos:5206"
+   ],
+   "archivo": "figura/p0087.png"
+  },
+  {
+   "pagina": 90,
+   "motivos": [
+    "tablas",
+    "dibujos:35"
+   ],
+   "archivo": "figura/p0090.png"
+  },
+  {
+   "pagina": 91,
+   "motivos": [
+    "tablas",
+    "dibujos:40"
+   ],
+   "archivo": "figura/p0091.png"
+  },
+  {
+   "pagina": 92,
+   "motivos": [
+    "tablas",
+    "dibujos:21"
+   ],
+   "archivo": "figura/p0092.png"
+  },
+  {
+   "pagina": 94,
+   "motivos": [
+    "tablas",
+    "dibujos:22"
+   ],
+   "archivo": "figura/p0094.png"
+  },
+  {
+   "pagina": 103,
+   "motivos": [
+    "tablas",
+    "dibujos:15"
+   ],
+   "archivo": "figura/p0103.png"
+  },
+  {
+   "pagina": 107,
+   "motivos": [
+    "dibujos:11"
+   ],
+   "archivo": "figura/p0107.png"
+  },
+  {
+   "pagina": 110,
+   "motivos": [
+    "dibujos:2971"
+   ],
+   "archivo": "figura/p0110.png"
+  },
+  {
+   "pagina": 111,
+   "motivos": [
+    "dibujos:5"
+   ],
+   "archivo": "figura/p0111.png"
+  },
+  {
+   "pagina": 112,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0112.png"
+  },
+  {
+   "pagina": 116,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0116.png"
+  },
+  {
+   "pagina": 117,
+   "motivos": [
+    "tablas",
+    "dibujos:116"
+   ],
+   "archivo": "figura/p0117.png"
+  },
+  {
+   "pagina": 118,
+   "motivos": [
+    "tablas",
+    "dibujos:98"
+   ],
+   "archivo": "figura/p0118.png"
+  },
+  {
+   "pagina": 119,
+   "motivos": [
+    "tablas",
+    "dibujos:41"
+   ],
+   "archivo": "figura/p0119.png"
+  },
+  {
+   "pagina": 120,
+   "motivos": [
+    "tablas",
+    "dibujos:21"
+   ],
+   "archivo": "figura/p0120.png"
+  },
+  {
+   "pagina": 121,
+   "motivos": [
+    "tablas",
+    "dibujos:75"
+   ],
+   "archivo": "figura/p0121.png"
+  },
+  {
+   "pagina": 122,
+   "motivos": [
+    "tablas",
+    "dibujos:43"
+   ],
+   "archivo": "figura/p0122.png"
+  },
+  {
+   "pagina": 123,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0123.png"
+  },
+  {
+   "pagina": 124,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0124.png"
+  },
+  {
+   "pagina": 125,
+   "motivos": [
+    "tablas",
+    "dibujos:15"
+   ],
+   "archivo": "figura/p0125.png"
+  },
+  {
+   "pagina": 126,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0126.png"
+  },
+  {
+   "pagina": 128,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0128.png"
+  },
+  {
+   "pagina": 129,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0129.png"
+  },
+  {
+   "pagina": 130,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0130.png"
+  },
+  {
+   "pagina": 131,
+   "motivos": [
+    "dibujos:5"
+   ],
+   "archivo": "figura/p0131.png"
+  },
+  {
+   "pagina": 136,
+   "motivos": [
+    "dibujos:3288"
+   ],
+   "archivo": "figura/p0136.png"
+  },
+  {
+   "pagina": 140,
+   "motivos": [
+    "dibujos:7",
+    "formulas"
+   ],
+   "archivo": "figura/p0140.png"
+  },
+  {
+   "pagina": 143,
+   "motivos": [
+    "tablas",
+    "dibujos:85"
+   ],
+   "archivo": "figura/p0143.png"
+  },
+  {
+   "pagina": 146,
+   "motivos": [
+    "tablas",
+    "dibujos:1275"
+   ],
+   "archivo": "figura/p0146.png"
+  },
+  {
+   "pagina": 147,
+   "motivos": [
+    "tablas",
+    "dibujos:1761"
+   ],
+   "archivo": "figura/p0147.png"
+  },
+  {
+   "pagina": 148,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0148.png"
+  },
+  {
+   "pagina": 149,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0149.png"
+  },
+  {
+   "pagina": 150,
+   "motivos": [
+    "tablas",
+    "dibujos:1739"
+   ],
+   "archivo": "figura/p0150.png"
+  },
+  {
+   "pagina": 151,
+   "motivos": [
+    "tablas",
+    "dibujos:1743"
+   ],
+   "archivo": "figura/p0151.png"
+  },
+  {
+   "pagina": 152,
+   "motivos": [
+    "tablas",
+    "dibujos:1707"
+   ],
+   "archivo": "figura/p0152.png"
+  },
+  {
+   "pagina": 153,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0153.png"
+  },
+  {
+   "pagina": 154,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0154.png"
+  },
+  {
+   "pagina": 155,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0155.png"
+  },
+  {
+   "pagina": 156,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0156.png"
+  },
+  {
+   "pagina": 157,
+   "motivos": [
+    "tablas",
+    "dibujos:1707"
+   ],
+   "archivo": "figura/p0157.png"
+  },
+  {
+   "pagina": 158,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0158.png"
+  },
+  {
+   "pagina": 159,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0159.png"
+  },
+  {
+   "pagina": 160,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0160.png"
+  },
+  {
+   "pagina": 161,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0161.png"
+  },
+  {
+   "pagina": 162,
+   "motivos": [
+    "tablas",
+    "dibujos:1707"
+   ],
+   "archivo": "figura/p0162.png"
+  },
+  {
+   "pagina": 163,
+   "motivos": [
+    "tablas",
+    "dibujos:1743"
+   ],
+   "archivo": "figura/p0163.png"
+  },
+  {
+   "pagina": 164,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0164.png"
+  },
+  {
+   "pagina": 165,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0165.png"
+  },
+  {
+   "pagina": 166,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0166.png"
+  },
+  {
+   "pagina": 167,
+   "motivos": [
+    "tablas",
+    "dibujos:1699"
+   ],
+   "archivo": "figura/p0167.png"
+  },
+  {
+   "pagina": 168,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0168.png"
+  },
+  {
+   "pagina": 169,
+   "motivos": [
+    "tablas",
+    "dibujos:1722"
+   ],
+   "archivo": "figura/p0169.png"
+  },
+  {
+   "pagina": 170,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0170.png"
+  },
+  {
+   "pagina": 171,
+   "motivos": [
+    "tablas",
+    "dibujos:1734"
+   ],
+   "archivo": "figura/p0171.png"
+  },
+  {
+   "pagina": 172,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0172.png"
+  },
+  {
+   "pagina": 173,
+   "motivos": [
+    "tablas",
+    "dibujos:1707"
+   ],
+   "archivo": "figura/p0173.png"
+  },
+  {
+   "pagina": 174,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0174.png"
+  },
+  {
+   "pagina": 175,
+   "motivos": [
+    "tablas",
+    "dibujos:1725"
+   ],
+   "archivo": "figura/p0175.png"
+  },
+  {
+   "pagina": 176,
+   "motivos": [
+    "tablas",
+    "dibujos:1716"
+   ],
+   "archivo": "figura/p0176.png"
+  },
+  {
+   "pagina": 177,
+   "motivos": [
+    "tablas",
+    "dibujos:1730"
+   ],
+   "archivo": "figura/p0177.png"
+  },
+  {
+   "pagina": 178,
+   "motivos": [
+    "tablas",
+    "dibujos:1739"
+   ],
+   "archivo": "figura/p0178.png"
+  },
+  {
+   "pagina": 179,
+   "motivos": [
+    "tablas",
+    "dibujos:1712"
+   ],
+   "archivo": "figura/p0179.png"
+  }
+ ],
+ "formulas": {
+  "paginas": [
+   12,
+   16,
+   20,
+   23,
+   71,
+   140
+  ],
+  "nota": "Texto de fórmulas extraído automáticamente: pendiente de verificación; consulte la imagen completa de la página. No se genera LaTeX."
+ },
+ "procedencia": {
+  "tipo": "PDF descargado del portal/BOE",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "pdf_nombre": "DB-HS-oficial-68df3caacc.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "landing": "https://www.codigotecnico.org/DocumentosCTE/Salubridad.html",
+  "copia_fiel": "fuente.pdf",
+  "nota": "Consérvese la URL oficial para versiones mutables."
+ },
+ "corpus_propio": true,
+ "conteos": {
+  "paginas": 184,
+  "apartados": 341,
+  "bloques": 2447,
+  "tablas": 83,
+  "figuras": 117,
+  "paginas_png": 117,
+  "caracteres": 484158
+ },
+ "figuras_nota": "'figuras'/'paginas_png' cuentan páginas PNG renderizadas (no el número de figuras normativas).",
+ "tablas_pendientes_geometria": [],
+ "paginas_grafico_sin_celdas": [],
+ "nota_fallback_grafico": "Páginas gráficas de contexto escaso: sin enumeración de trazos ni tabla; PNG y PDF obligatorios; no son tablas validadas.",
+ "umbral_segmentos_tablas": 2000,
+ "metodo_tablas": "find_tables(use_layout=False, refine=True); guardián de segmentos antes de intentar celdas",
+ "segmentation_version": 2,
+ "advertencias": [
+  "Extracción automática; el cotejo humano está pendiente.",
+  "Semántica y tablas no equivalen a validación exhaustiva."
+ ],
+ "generado_por": "build.py",
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo",
+ "nota_segmentacion": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

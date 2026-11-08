@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0056",
+  "ruta_oficial": "6.2.2",
+  "ruta_semantica": "6.2.2 Términos de sección",
+  "titulo": "6.2.2 Términos de sección",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.2 Términos de sección",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 32,
+   "bbox": [
+    78.0,
+    73.4,
+    205.3,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b2275f795d997f7a2a46d6f3b52b7cd035d8ec1d85eb6605944f81db3142a3f2",
+   "literal": "6.2.2 Términos de sección"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0062",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.2 Términos de sección",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.2 Resistencia de las secciones 6.2.1 Bases / 6.2.2 Términos de sección",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b34e3d7f389870829cb2c1642dd376e17addfbfafdc256290b788a11c2ecd837"
+ },
+ "paginas": [
+  32
+ ],
+ "etiquetas_impresas": [
+  "32"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.2.2 Términos de sección\n1\nComo sección de cálculo, A, para las clases 1, 2 y 3, se tomará la total y para la 4, la neta o eficaz\n2\nEn el cálculo de las características de la sección no se considerará ningún tipo de recubrimiento,\naunque sea metálico (tratamientos de galvanizado).\n3\nEl área neta, Aneta de una sección es la que se obtiene descontando de la nominal el área de los\nagujeros y rebajes. Cuando los agujeros se dispongan al tresbolillo el área a descontar será la\nmayor de:\nc)\nla de agujeros y rebajes que coincidan en la sección recta;\nd)\nla de todos los agujeros situados en cualquier línea quebrada, restando el producto s2·t/(4·p)\npor cada espacio entre agujeros (figura 6.2, donde t es el espesor de la chapa agujereada).\nEn el caso de agujeros en angulares, el espaciado “p” entre agujeros se mide según indica la\nfigura 6.2.\nFigura 6.2",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0032.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

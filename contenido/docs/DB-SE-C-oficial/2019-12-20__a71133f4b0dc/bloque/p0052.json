@@ -1,0 +1,271 @@
+{
+ "documento": null,
+ "pagina": 52,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-47",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    72.5,
+    466.4,
+    97.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo\ni\ncada una de las unidades geotécnicas consideradas a lo largo del pilote;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    93.6,
+    100.7,
+    485.9,
+    112.2
+   ],
+   "tipo": "texto",
+   "texto": "\n0,25 en arcillas y limos blandos; 0,1 en arenas flojas y 0,8 en arenas densas;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    116.1,
+    541.3,
+    190.9
+   ],
+   "tipo": "texto",
+   "texto": "’vi\nla tensión efectiva en el punto del fuste considerado.\n6\nCuando el rozamiento negativo no se desarrolle en su totalidad a lo largo del fuste, podrán em-\nplearse métodos de cálculo que consideren deformaciones relativas entre el suelo y el pilote para\ncuantificar la profundidad hasta la que se produce.\n7\nLos pilotes exteriores de los grupos de pilotes deben considerarse sometidos al mismo rozamiento\nnegativo que si estuviesen aislados, especialmente los situados en las esquinas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    212.7,
+    389.7,
+    224.7
+   ],
+   "tipo": "titulo",
+   "texto": "5.2.3 Empujes horizontales causados por sobrecargas",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    229.3,
+    541.3,
+    374.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nCuando existan suelos blandos en profundidad, las cargas colocadas en superficie producen des-\nplazamientos horizontales del terreno que pueden afectar negativamente a las cimentaciones pró-\nximas pilotadas. Por tanto, si en ese tipo de terreno se proyecta un edificio contiguo a una construc-\nción pilotada, debe evitarse una cimentación superficial.\n2\nLos pilotes ejecutados en taludes pueden estar sometidos también a cargas horizontales importan-\ntes.\n3\nA efectos de este DB podrá prescindirse de la consideración de los empujes horizontales sobre los\npilotes siempre que la máxima componente de estos empujes sea inferior al 10% de la carga verti-\ncal compatible con ella.\n4\nEl estudio del efecto de los empujes horizontales requiere un análisis de interacción terreno-pilote,\nque será necesario realizar con tanto más detalle cuanto más crítico resulte el problema. Para el\ncálculo se podrá seguir el método simplificado que se indica a continuación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    386.2,
+    469.2,
+    396.1
+   ],
+   "tipo": "texto",
+   "texto": "5.2.3.1 Método simplificado para la consideración del empuje horizontal en pilotes",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    401.8,
+    415.4,
+    411.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl empuje horizontal se estimará de acuerdo con la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    94.3,
+    419.3,
+    542.5,
+    429.2
+   ],
+   "tipo": "texto",
+   "texto": "ph = pv – 2 cu\n(5.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    436.7,
+    541.3,
+    585.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo\npv\nla presión vertical en la parte superior del estrato blando, considerando un reparto a 30º\nde las presiones en superficie.\ncu\nla resistencia al corte sin drenaje.\n2\nSe supondrá que cada pilote soporta una carga por unidad de longitud igual al valor menor de los\nsiguientes:\na)\nPp = ph · S, siendo S la separación entre ejes de pilotes;\nb)\nPp = ph · 3D, siendo D el diámetro del pilote;\nc)\nPp = ph · H, siendo H el espesor del estrato blando.\n3\nCuando existan varias filas de pilotes se podrá suponer que los esfuerzos se distribuyen entre las\nsucesivas filas de acuerdo con la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    141.6,
+    609.8,
+    148.3,
+    619.8
+   ],
+   "tipo": "texto",
+   "texto": "S",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    95.6,
+    594.1,
+    542.5,
+    613.9
+   ],
+   "tipo": "texto",
+   "texto": "P\np\np\np\nh\n'\nh\n\n\n(5.6)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    93.6,
+    638.0,
+    396.5,
+    655.8
+   ],
+   "tipo": "texto",
+   "texto": "que se aplicará de forma sucesiva\nS",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    296.4,
+    630.0,
+    390.2,
+    655.8
+   ],
+   "tipo": "texto",
+   "texto": "P\np\np\n;.......,\nS",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    249.5,
+    630.0,
+    300.5,
+    648.0
+   ],
+   "tipo": "texto",
+   "texto": "P\np\np",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    338.5,
+    627.7,
+    402.0,
+    649.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nn\np\n1\nn\nh\nn\nh",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    255.6,
+    627.7,
+    303.6,
+    649.9
+   ],
+   "tipo": "texto",
+   "texto": "'\np\n'\nh\n''\nh",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    263.5,
+    626.7,
+    408.9,
+    648.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    660.2,
+    541.3,
+    748.2
+   ],
+   "tipo": "texto",
+   "texto": "4\nUna vez calculado el valor de Pp se obtendrán los valores de los momentos flectores en los pilotes\ncomo una viga, suponiendo, según los casos, las condiciones en los apoyos que se reflejan en la\nFigura 5.4 y que se concretan en:\na)\nempotramiento en cabeza;\nb)\nempotramiento a 0,5 m en la capa resistente inferior;\nc)\nempotramiento a 1 m en capas resistentes situadas por encima de la capa blanda si su espe-\nsor es superior a 8 diámetros, en caso contrario se considerará como una articulación (apoyo).",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

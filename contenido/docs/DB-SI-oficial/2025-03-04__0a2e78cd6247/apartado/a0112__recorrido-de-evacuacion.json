@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0112",
+  "ruta_oficial": null,
+  "ruta_semantica": "Recorrido de evacuación",
+  "titulo": "Recorrido de evacuación",
+  "nivel": 2,
+  "parent_id": "a0105",
+  "seccion_estimada": "Recorrido de evacuación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 47,
+   "bbox": [
+    70.9,
+    71.0,
+    192.7,
+    82.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "399aeaccf62ce3888bdaf095b4e9e5eabb0da111ad451dcbce3522bdc6b8bd35",
+   "literal": "Recorrido de evacuación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0067",
+  "parent_id_original": "a0105",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Apartado 3",
+   "DB-SUA 7",
+   "apartado 4.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Recorrido de evacuación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0105",
+   "ruta_semantica": "Anejo A. Terminología / Recorrido de evacuación",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ad9add2a192154fc76cff78900ad3ad14aed459683bb77753d119374ec04f5ac"
+ },
+ "paginas": [
+  47
+ ],
+ "etiquetas_impresas": [
+  "47"
+ ],
+ "tipos": [
+  "excepciones",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Documento Básico SI en caso de Incendio\nAnejo A. Terminología\n47\nRecorrido de evacuación\nRecorrido que conduce desde un origen de evacuación hasta una salida de planta, situada en la misma\nplanta considerada o en otra, o hasta una salida de edificio. Conforme a ello, una vez alcanzada una\nsalida de planta, la longitud del recorrido posterior no computa a efectos del cumplimiento de los límites a\nlos recorridos de evacuación.\nLa longitud de los recorridos por pasillos, escaleras y rampas, se medirá sobre el eje de los mismos. No\nse consideran válidos los recorridos por escaleras mecánicas, ni aquellos en los que existan tornos u\notros elementos que puedan dificultar el paso. Los recorridos por rampas y pasillos móviles se conside-\nran válidos cuando no sea posible su utilización por personas que trasladen carros para el transporte de\nobjetos y estén provistos de un dispositivo de parada que pueda activarse bien manualmente, o bien\nautomáticamente por un sistema de detección y alarma.\nLos recorridos que tengan su origen en zonas habitables o de uso Aparcamiento no pueden atravesar las\nzonas de riesgo especial definidas en SI 1.2. Un recorrido de evacuación desde zonas habitables puede\natravesar una zona de uso Aparcamiento o sus vestíbulos de independencia, únicamente cuando sea un\nrecorrido alternativo a alguno no afectado por dicha circunstancia.\nEn uso Aparcamiento los recorridos de evacuación deben discurrir por las calles de circulación de\nvehículos, o bien por itinerarios peatonales protegidos frente a la invasión de vehículos, conforme se\nestablece en el Apartado 3 del DB-SUA 7.\nEn establecimientos de uso Comercial cuya superficie construida destinada al público exceda de 400 m2,\nlos recorridos de evacuación deben transcurrir, excepto en sus diez primeros metros, por pasillos defini-\ndos en proyecto, delimitados por elementos fijos o bien señalizados en el suelo de forma clara y perma-\nnente conforme a lo establecido en SI 3-7.2 y cuyos tramos comprendidos entre otros pasillos transver-\nsales no excedan de 20 m.\nEn establecimientos comerciales en los que esté previsto el uso de carros para transporte de productos, los\npuntos de paso a través de cajas de cobro no pueden considerarse como elementos de la evacuación. En\ndichos casos se dispondrán salidas intercaladas en la batería de cajas, dimensionadas según se establece\nen el apartado 4.2 de la Sección SI 3 y separadas de tal forma que no existan más de diez cajas entre dos\nsalidas consecutivas. Cuando la batería cuente con menos de diez cajas, se dispondrán dos salidas, como\nmínimo, situadas en los extremos de la misma. Cuando cuente con menos de cinco cajas, se dispondrá\nuna salida situada en un extremo de la batería.\nEn los establecimientos en los que no esté previsto el uso de carros, los puntos de paso a través de las\ncajas podrán considerarse como elementos de evacuación, siempre que su anchura libre sea 0,70m, como\nmínimo.\nExcepto en el caso de los aparcamientos, de las zonas de ocupación nula y de las zonas ocupadas úni-\ncamente por personal de mantenimiento o de control de servicios, no se consideran válidos los recorri-\ndos que precisen salvar, en sentido ascendente, una altura mayor que la indicada en la tabla que se\nincluye a continuación.\nUso previsto y zona\nMáxima altura salvada\nHasta una salida de\nplanta\nHasta el espacio\nexterior seguro\nEn general, exceptuando los casos que se indican a continuación.\n4 m\n6 m\nHospitalario, en zonas de hospitalización o tratamiento intensivo\nDocente, escuela infantil o enseñanza primaria\n1 m (1)\n2 m (1)\n(1)No se limita en zonas de tratamiento intensivo con radioterapia.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Apartado 3",
+  "DB-SUA 7",
+  "apartado 4.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0047.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

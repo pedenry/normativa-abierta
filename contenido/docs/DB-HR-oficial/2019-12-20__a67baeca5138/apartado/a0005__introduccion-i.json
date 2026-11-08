@@ -1,0 +1,71 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0005",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p3",
+  "titulo": "Introducción I",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p3",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p3",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Introducción / Introducción I",
+   "seccion_estimada": "Introducción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7fceaba5885a2deb82423ff15bfc5840bc57da3569cb3ee9b8dfe405d476bfeb"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Introducción I\nI",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0076",
+  "ruta_oficial": null,
+  "ruta_semantica": "D.6 Evaluación cualitativa",
+  "titulo": "D.6 Evaluación cualitativa",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "D.6 Evaluación cualitativa",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 43,
+   "bbox": [
+    70.9,
+    692.1,
+    225.0,
+    704.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "67375cc08d416c707a0ad6f8bc1cb961dce75cb6415a9fe2ef7480307917cf68",
+   "literal": "D.6 Evaluación cualitativa"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.6 Evaluación cualitativa",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.6 Evaluación cualitativa",
+   "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "64c19573c5202b6d3f8c88370be91b4e0e2f6f6bd7d0e2c8b4e2e4cdf362da0a"
+ },
+ "paginas": [
+  43,
+  44
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [],
+ "texto": "D.6 Evaluación cualitativa\nD.6.1 Capacidad portante\n1\nPuede suponerse que un edificio que haya sido dimensionado y construido de acuerdo con las re-\nglas de normas antiguas, tendrá una capacidad portante adecuada, si se cumplen las siguientes\ncondiciones:\n\nDocumento Básico SE Seguridad Estructural\nSE - 38\na)\nel edificio se ha utilizado durante un periodo de tiempo suficientemente largo sin que se hayan\nproducido daños o anomalías (desplazamientos, deformaciones, fisuras, corrosión, etc.);\nb)\nuna inspección detallada no revele ningún indicio de daños o deterioro;\nc)\nla revisión del sistema constructivo permita asegurar una transmisión adecuada de las fuerzas,\nespecialmente a través de los detalles críticos;\nd)\nteniendo en cuenta el deterioro previsible así como el programa de mantenimiento previsto se\npuede anticipar una durabilidad adecuada;\ne)\ndurante un periodo de tiempo suficientemente largo no se han producido cambios que pudie-\nran haber incrementado las acciones sobre el edificio o haber afectado su durabilidad;\nf)\ndurante el periodo de servicio restante no se prevean cambios que pudieran incrementar las\nacciones sobre el edificio o afectar su durabilidad de manera significativa.\n2\nUna evaluación cualitativa de la capacidad portante de un edificio existente puede ser insuficiente\npara situaciones de dimensionado extraordinarias.\n3\nEl comportamiento de un edificio cuya capacidad portante haya sido evaluada cualitativamente se\ncontrolará periódicamente durante el periodo de servicio restante. Para ello se emplearan los me-\ndios que se estimen necesarios, dependiendo de las características de la estructura, así como de\nlas acciones e influencias que actúen sobre ella y de su estado.\nD.6.2 Aptitud al servicio\n1\nUn edificio que haya sido dimensionado y construido de acuerdo con las reglas de normas antiguas\npodrá considerarse apto para el servicio, si se cumplen las siguientes condiciones:\na)\nel edificio se ha comportado satisfactoriamente durante un periodo de tiempo suficientemente\nlargo sin que se han producido daños o anomalías, y sin que se han producido deformaciones\no vibraciones excesivas;\nb)\nuna inspección detallada, no revela ningún indicio de daños o deterioro, ni de deformaciones,\ndesplazamientos o vibraciones excesivas;\nc)\ndurante el periodo de servicio restante no se prevean cambios que puedan alterar significati-\nvamente las acciones sobre el edificio o afectar su durabilidad;\nd)\nteniendo en cuenta el deterioro previsible así como el programa de mantenimiento previsto se\npueda anticipar una adecuada durabilidad.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

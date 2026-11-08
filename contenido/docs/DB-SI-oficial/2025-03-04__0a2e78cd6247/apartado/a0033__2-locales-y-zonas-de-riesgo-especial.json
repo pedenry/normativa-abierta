@@ -1,0 +1,111 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0033",
+  "ruta_oficial": "2",
+  "ruta_semantica": "2 Locales y zonas de riesgo especial",
+  "titulo": "2 Locales y zonas de riesgo especial",
+  "nivel": 2,
+  "parent_id": "a0032",
+  "seccion_estimada": "2 Locales y zonas de riesgo especial",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    70.9,
+    604.6,
+    343.0,
+    620.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "8945e32d36e14986f6bdb8809527432f9581a2e3bc08e5ddcca5cfd6fc89ffe5",
+   "literal": "2 Locales y zonas de riesgo especial"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0011",
+  "parent_id_original": "a0032",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "RD 1027/2007",
+   "RITE",
+   "RSCIEI"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "2 Locales y zonas de riesgo especial",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0032",
+   "ruta_semantica": "15 < h ≤ 28 m / 2 Locales y zonas de riesgo especial",
+   "seccion_estimada": "15 < h ≤ 28 m",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "639229c88ee913adb40cd6c91ef64ae1a05994eecbc666fd846db8044e76e091"
+ },
+ "paginas": [
+  13,
+  14,
+  15
+ ],
+ "etiquetas_impresas": [
+  "13",
+  "14",
+  "15"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Locales y zonas de riesgo especial\n1\nLos locales y zonas de riesgo especial integrados en los edificios se clasifican conforme los grados\nde riesgo alto, medio y bajo según los criterios que se establecen en la tabla 2.1. Los locales y las\nzonas así clasificados deben cumplir las condiciones que se establecen en la tabla 2.2.\n2\nLos locales destinados a albergar instalaciones y equipos regulados por reglamentos específicos,\ntales como transformadores, maquinaria de aparatos elevadores, calderas, depósitos de combusti-\nble, contadores de gas o electricidad, etc. se rigen, además, por las condiciones que se establecen\nen dichos reglamentos.Las condiciones de ventilación de los locales y de los equipos exigidas por\ndicha reglamentación deberán solucionarse de forma compatible con las de compartimentación esta-\nblecidas en este DB.\nA los efectos de este DB se excluyen los equipos situados en las cubiertas de los edificios, aunque\nestén protegidos mediante elementos de cobertura.\n\nDocumento Básico SI Seguridad en caso de Incendio\nSI 1. Propagación interior\n14\nTabla 2.1 Clasificación de los locales y zonas de riesgo especial integrados en edificios\nUso previsto del edificio o establecimiento\n-\nUso del local o zona\nTamaño del local o zona\nS = superficie construida\nV = volumen construido\nQ T = carga de fuego total ponderada y corregida\n[MJ], calculada según el anexo I del RSCIEI\nRiesgo bajo\nRiesgo medio\nRiesgo alto\nEn cualquier edificio o establecimiento:\n-\nTalleres de mantenimiento, almacenes de elemen-\ntos combustibles (p. e.: mobiliario, lencería, limpie-\nza, etc.) archivos de documentos, depósitos de li-\nbros, etc. (1)\n100<V≤ 200 m3\n200<V≤ 400 m3\nV>400 m3\n-\nAlmacén de residuos\n5<S≤15 m2\n15<S ≤30 m2\nS>30 m2\n-\nAparcamiento de vehículos cuya superficie S no\nexceda de 100 m2 o integrado en una vivienda uni-\nfamiliar.\nEn todo caso\n-\nCocinas según potencia instalada P(2)(3)\n20<P≤30 kW\n30<P≤50 kW\nP>50 kW\n-\nLavanderías. Vestuarios de personal. Camerinos(4)\n20<S≤100 m2\n100<S≤200 m2\nS>200 m2\n-\nSalas de calderas con potencia útil nominal P\n70<P≤200 kW\n200<P≤600 kW\nP>600 kW\n-\nSalas de máquinas de instalaciones de climatiza-\nción (según Reglamento de Instalaciones Térmicas\nen los edificios, RITE, aprobado por RD 1027/2007,\nde 20 de julio, BOE 2007/08/29)\nEn todo caso\n-\nSalas de maquinaria frigorífica: refrigerante amonia-\nco\nEn todo caso\nrefrigerante halogenado\nP≤400 kW\nP>400 kW\n-\nAlmacén de combustible sólido para calefacción\nS≤3 m2\nS>3 m2\n-\nLocal de contadores de electricidad y de cuadros\ngenerales de distribución\nEn todo caso\n-\nCentro de transformación\n-\naparatos con aislamiento dieléctrico seco o\nlíquido con punto de inflamación mayor que\n300ºC\nEn todo caso\n-\naparatos con aislamiento dieléctrico con\npunto de inflamación que no exceda de\n300ºC y potencia instalada P: total\nP<2 520 kVA\n2520<P<4000 kVA\nP>4 000 kVA\nen cada transformador\nP<630 kVA\n630<P<1000 kVA\nP>1 000 kVA\n-\nSala de maquinaria de ascensores\nEn todo caso\n-\nSala de grupo electrógeno\nEn todo caso\nResidencial Vivienda\n-\nTrasteros(5)\n50<S≤100 m2\n100<S≤500 m2\nS>500 m2\n\nDocumento Básico SI Seguridad en caso de Incendio\nSI 1. Propagación interior\n15",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "RD 1027/2007",
+  "RITE",
+  "RSCIEI"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png",
+  "../figura/p0014.png",
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0034",
+  "a0035",
+  "a0036",
+  "a0037",
+  "a0038"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

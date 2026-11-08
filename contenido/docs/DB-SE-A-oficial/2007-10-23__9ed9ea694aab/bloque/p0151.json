@@ -1,0 +1,569 @@
+{
+ "documento": null,
+ "pagina": 151,
+ "etiqueta_impresa": "151",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    298.2,
+    792.0,
+    335.6,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-149",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    441.4,
+    84.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nEl valor de cálculo de la carrera de tensiones nominales se calcula mediante:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    102.8,
+    87.3,
+    235.2,
+    119.8
+   ],
+   "tipo": "texto",
+   "texto": "(\n)\n(\n)\nk\nFf\nn\n2\n1\n2\n,\nE\nFf",
+   "tamano": 11.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    102.8,
+    97.0,
+    230.6,
+    104.4
+   ],
+   "tipo": "texto",
+   "texto": "k\nFf\nn\n2\n1\n2\n,\nE\nFf",
+   "tamano": 6.6,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    216.8,
+    107.5,
+    224.2,
+    118.0
+   ],
+   "tipo": "texto",
+   "texto": "Q",
+   "tamano": 9.5,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    220.1,
+    92.1,
+    227.4,
+    102.6
+   ],
+   "tipo": "texto",
+   "texto": "Q",
+   "tamano": 9.5,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    98.6,
+    106.5,
+    207.1,
+    118.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γ\nτ\n∆\nλ\nλ\nλ\n=\nτ\n∆\nγ",
+   "tamano": 9.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    98.6,
+    91.1,
+    210.3,
+    102.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γ\nσ\n∆\nλ\nλ\nλ\n=\nσ\n∆\nγ",
+   "tamano": 9.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    164.7,
+    108.5,
+    174.2,
+    120.8
+   ],
+   "tipo": "texto",
+   "texto": "L",
+   "tamano": 9.5,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    166.3,
+    93.1,
+    175.8,
+    105.3
+   ],
+   "tipo": "texto",
+   "texto": "L",
+   "tamano": 9.5,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    236.0,
+    98.8,
+    540.7,
+    110.0
+   ],
+   "tipo": "texto",
+   "texto": "(C.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    96.8,
+    128.0,
+    129.1,
+    139.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    99.2,
+    142.6,
+    541.4,
+    193.9
+   ],
+   "tipo": "texto",
+   "texto": "(\n)\n(\n)\nk\nFf\nk\nFf\nQ\n,\nQ\nγ\nτ\n∆\nγ\nσ\n∆\nla carrera de tensiones causada por las cargas de fatiga especificadas\npara el edificio en concreto e incluidas en su acta de utilización (según DB SE). La\nespecificación de dichas cargas incluirá en sus valores para el cálculo el coeficiente\nparcial de seguridad γFf;",
+   "tamano": 10.6,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    97.5,
+    199.3,
+    434.4,
+    212.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "λi\nfactores de daño equivalente que dependen del espectro de cálculo.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    74.1,
+    217.8,
+    541.4,
+    263.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nPara uniones de perfiles huecos mediante soldadura se utiliza el cálculo en tensiones geométricas,\ndefinidas como las máximas tensiones principales en el material base adyacente a la raíz de la\nsoldadura, teniendo en cuenta los efectos de concentración de tensiones debidas a la geometría\nparticular del detalle en estudio. En este caso, el valor de la carrera nominal modificada es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    98.6,
+    263.2,
+    540.7,
+    284.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "(\n)\n*\n2\n,\nE\nFf\n1\n2\n,\nE\nFf\nk\nσ\n∆\nγ\n=\nσ\n∆\nγ\n(C.6)",
+   "tamano": 12.8,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.8,
+    292.8,
+    129.1,
+    304.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    98.6,
+    312.0,
+    538.6,
+    324.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "*\n2\n,\nE\nFf\nσ\n∆\nγ\nvalor de la carrera de tensiones calculada con un modelo simplificado de nudos arti-",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    156.0,
+    327.3,
+    196.0,
+    338.5
+   ],
+   "tipo": "texto",
+   "texto": "culados;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    97.5,
+    344.7,
+    392.3,
+    356.7
+   ],
+   "tipo": "texto",
+   "texto": "k1\nfactor de amplificación dado en las tablas anteriores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    74.1,
+    362.3,
+    541.4,
+    396.4
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn los detalles que no incluyen soldaduras o cuando éstas han sido sometidas a un tratamiento de\nalivio de tensiones, se puede considerar una carrera efectiva de tensión formada por la parte de\ntracción de la real y únicamente el 60% de la de compresión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    74.1,
+    402.8,
+    541.5,
+    436.9
+   ],
+   "tipo": "texto",
+   "texto": "5\nEl efecto escala para espesores mayores de 25 mm del material base en el que puede iniciarse y\npropagarse una fisura debe considerarse en los casos indicados en las tablas de categorías de de-\ntalle. La resistencia a la fatiga viene dada por:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    98.7,
+    443.0,
+    540.7,
+    457.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "C\ns\nred\n,\nC\nk\nσ\n∆\n=\nσ\n∆\n(C.7)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    96.8,
+    465.3,
+    129.1,
+    476.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    96.8,
+    482.5,
+    541.5,
+    517.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆σC\nvalor dado como categoría de detalle en dichas tablas y ks el coeficiente minorador de la re-\nsistencia a fatiga por efecto escala, para espesores mayores de 25 mm, indicado en las\nmismas.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 26,
+   "bbox": [
+    74.1,
+    531.1,
+    208.1,
+    542.3
+   ],
+   "tipo": "texto",
+   "texto": "C.3.3 Resistencia a la fatiga",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 27,
+   "bbox": [
+    74.1,
+    550.8,
+    541.5,
+    598.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia a la fatiga en tensiones nominales se define mediante las curvas S-N de las figuras\nC.1 y C.2 que se aplican a cada categoría del detalle. Esta se designa mediante un número que\nrepresenta en N/mm2 los valores de referencia ∆σc o ∆τc para la resistencia a fatiga a 2 millones de\nciclos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    96.8,
+    604.5,
+    541.4,
+    627.2
+   ],
+   "tipo": "texto",
+   "texto": "Las curvas de las figuras C.1 y C.2 se definen para tensiones nominales de amplitud constante\nmediante las expresiones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    98.3,
+    634.0,
+    540.7,
+    647.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "10\n5\nN\npara\n3\nm\ncon\n10\n2\nN\n6\n6\nm\nC\nR\nm\nR\n⋅\n≤\n=\n⋅\nσ\n∆\n=\nσ\n∆\n(figura C.1)\n(C.8)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 30,
+   "bbox": [
+    98.5,
+    655.1,
+    540.7,
+    668.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "8\n6\nm\nC\nR\nm\nR\n10\nN\npara\n5\nm\ncon\n10\n2\nN\n≤\n=\n⋅\nτ\n∆\n=\nτ\n∆\n(figura C.2)\n(C.9)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 31,
+   "bbox": [
+    96.8,
+    675.6,
+    129.1,
+    686.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    166.0,
+    707.4,
+    170.5,
+    714.4
+   ],
+   "tipo": "texto",
+   "texto": "C",
+   "tamano": 6.3,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    139.4,
+    694.0,
+    151.1,
+    701.0
+   ],
+   "tipo": "texto",
+   "texto": "m\n/\n1",
+   "tamano": 6.3,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    109.5,
+    697.1,
+    165.6,
+    721.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "D\n5\n2\nσ\n∆\n",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 35,
+   "bbox": [
+    125.3,
+    696.5,
+    139.2,
+    721.2
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    98.5,
+    696.5,
+    540.7,
+    712.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "\n=\nσ\n∆\nlímite de fatiga de amplitud constante (figura C.1)\n(C.10)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 37,
+   "bbox": [
+    180.8,
+    744.6,
+    185.8,
+    752.4
+   ],
+   "tipo": "texto",
+   "texto": "C",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    152.8,
+    729.8,
+    165.5,
+    737.6
+   ],
+   "tipo": "texto",
+   "texto": "m\n/\n1",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    109.4,
+    733.1,
+    180.2,
+    760.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "L\n100\n2\nτ\n∆\n",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 40,
+   "bbox": [
+    126.3,
+    732.5,
+    152.3,
+    760.0
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 41,
+   "bbox": [
+    98.6,
+    732.5,
+    541.0,
+    750.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "\n=\nτ\n∆\nlímite de truncamiento (figura C.2)\n(C.11)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

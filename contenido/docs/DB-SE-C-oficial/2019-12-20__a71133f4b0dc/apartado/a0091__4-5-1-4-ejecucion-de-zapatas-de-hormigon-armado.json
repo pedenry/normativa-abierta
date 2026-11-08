@@ -1,0 +1,117 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0091",
+  "ruta_oficial": "4.5.1.4",
+  "ruta_semantica": "4.5.1.4 Ejecución de zapatas de hormigón armado.",
+  "titulo": "4.5.1.4 Ejecución de zapatas de hormigón armado.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.5.1.4 Ejecución de zapatas de hormigón armado.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 43,
+   "bbox": [
+    70.9,
+    311.4,
+    315.4,
+    321.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6bfb29d3de16465a5a3013efa20f9d21e4e3050b444ad21af59a829d15821b44",
+   "literal": "4.5.1.4 Ejecución de zapatas de hormigón armado."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0105",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.5.1.4 Ejecución de zapatas de hormigón armado.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Condiciones constructivas 4.5.1 Zapatas / 4.5.1.4 Ejecución de zapatas de hormigón armado.",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c55b24d5ef9bf55f2b668d4b19de5a82bf8af6714537d349ff69c668e96a6a60"
+ },
+ "paginas": [
+  43
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [],
+ "texto": "4.5.1.4 Ejecución de zapatas de hormigón armado.\n1\nEl recubrimiento mínimo de la armadura se ajustará a las especificaciones de la EHE.\n2\nLas armaduras verticales de los pilares deben penetrar en la zapata hasta el nivel de la capa inferior\nde armadura de ésta.\n3\nLas zapatas se hormigonarán a sección de excavación completa, después de la limpieza del fondo,\nsi las paredes de la excavación presentan una cohesión suficiente. En caso contrario, el hormigo-\nnado se ejecutará entre encofrados que eviten los desprendimientos.\n4\nSi el nivel de fabricación del hormigón es superior al de hormigonado de las zapatas, la colocación\ndel hormigón se efectuará mediante los dispositivos necesarios para evitar la caída libre del hormi-\ngón. La colocación directa no debe hacerse más que entre niveles de aprovisionamiento y de eje-\ncución sensiblemente equivalentes.\n5\nNo debe circularse sobre el hormigón fresco.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

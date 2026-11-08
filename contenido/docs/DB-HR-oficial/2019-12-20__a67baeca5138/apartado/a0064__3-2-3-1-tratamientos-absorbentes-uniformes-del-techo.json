@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0064",
+  "ruta_oficial": "3.2.3.1",
+  "ruta_semantica": "3.2.3.1  Tratamientos absorbentes uniformes del techo",
+  "titulo": "3.2.3.1  Tratamientos absorbentes uniformes del techo",
+  "nivel": 1,
+  "parent_id": "a0063",
+  "seccion_estimada": "3.2.3.1  Tratamientos absorbentes uniformes del techo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    70.9,
+    458.9,
+    332.7,
+    470.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d5502e99ebe77e405b8b93ff5fe9c5dcf232c669760c6a7d1217a3c96cb5f3ee",
+   "literal": "3.2.3.1  Tratamientos absorbentes uniformes del techo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0063",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2.3.1  Tratamientos absorbentes uniformes del techo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0063",
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.2  Tiempo de reverberación y absorción acústica 3.2.1  Datos previos y procedimiento / 3.2.3  Método de cálculo simplificado del tiempo de reverberación. Tratamientos absorbentes de los paramentos / 3.2.3.1  Tratamientos absorbentes uniformes del techo",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7736ee96b9f59526a3b3be34ca69eca6920c8d5ef6c04884f8a093fd5ff57ad7"
+ },
+ "paginas": [
+  34,
+  35
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "3.2.3.1  Tratamientos absorbentes uniformes del techo\nLas ecuaciones que figuran a continuación expresan el valor mínimo del coeficiente de absorción acústi-\nca medio, αm,t, del material o del techo suspendido para los casos siguientes:\na)\naulas de volumen hasta 350 m3:\ni)\nsin butacas tapizadas:\n\n\n\n\n\n\n\n\n−\n\n=\n\nt\nt,\nm\nS\n12\n,0\n23\n,0\nh\n(3.27)\nii)\ncon butacas tapizadas fijas:\n26\n,0\nS\n12\n,0\n32\n,0\nh\nt\nt,\nm\n−\n\n\n\n\n\n\n\n\n−\n\n=\n\n(3.28)\nb)\nrestaurantes y comedores:\n\n\n\n\n\n\n−\n\n=\n\nt\nt,\nm\nS\n12\n,0\n18\n,0\nh\n(3.29)\nsiendo\nh\naltura libre del recinto, [m];\nSt\nárea del techo, [m2].\n\nDocumento Básico HR - Protección frente al ruido\nHR-29",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,105 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0121",
+  "ruta_oficial": "8.8.1",
+  "ruta_semantica": "8.8.1 Basas de soportes",
+  "titulo": "8.8.1 Basas de soportes",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "8.8.1 Basas de soportes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 77,
+   "bbox": [
+    74.1,
+    588.0,
+    190.8,
+    599.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d05fa73d1dae1caa2ce3d3d5c456b3e82989dff9b032da66cfb06627f067c929",
+   "literal": "8.8.1 Basas de soportes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0121",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 8.5"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.8.1 Basas de soportes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / 8.8.1 Basas de soportes",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "31929481cedc39b973e04f1bbeea10e8feae09622398ec0b486c1a31c44e090e"
+ },
+ "paginas": [
+  77,
+  78,
+  79,
+  80,
+  81
+ ],
+ "etiquetas_impresas": [
+  "77",
+  "78",
+  "79",
+  "80",
+  "81"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "8.8.1 Basas de soportes\nLa comprobación de la unión de un elemento metálico a otro de hormigón, como son las basas de so-\nportes, requiere verificar la existencia de resistencia suficiente frente a los esfuerzos transmitidos en la\nregión de contacto, considerando, tanto la resistencia del hormigón de dicha región, como la de los ele-\nmentos metálicos que materializan el contacto.\n1\nLos soportes distribuirán los esfuerzos de compresión, transmitidos por las zonas comprimidas del\npilar, sobre una superficie suficiente de hormigón por medio de elementos de transición, como son\nlas basas, para que no se supere la resistencia de cálculo de éste. La basa asentará directamente\nsobre el hormigón, o mejor aún, sobre un mortero de nivelación sin retracción interpuesto entre\nambos materiales. En los casos en que pueda asegurarse la inexistencia de tracciones en el\narranque se podrá disponer una placa en el extremo del soporte que sirva de apoyo directo de éste\na la basa. En tal caso, en la región en que ambas placas se superpongan se podrá adoptar como\nespesor equivalente el valor:\n\nDocumentoBásico SE-A Acero\nSE-A-76\n,\nt\nt\nt\n2\n2\n2\n1\neq\n+\n=\n(8.28)\nsiempre que la diferencia entre ambos espesores no supere un tercio del espesor mayor.\n2\nSe dispondrán, si es necesario, pernos de anclaje para resistir las tracciones producidas en las zo-\nnas traccionadas del pilar, si existen, debidas a fuerzas de arrancamiento o a momentos.\n3\nPara asegurar la resistencia de esferzos tangentes, como cortantes o momentos torsores, y en ca-\nso de no disponerse de elementos específicos para ello, tales como topes o conectadores de cor-\ntante, se debe justificar la capacidad resistente en la sección de contacto entre el soporte y el hor-\nmigón mediante:\na)\nel rozamiento entre la placa base y el hormigón;\nb)\nla resistencia a cortante de los pernos de anclaje;\n4\nLa comprobación de resistencia de la superficie de hormigón frente a las tensiones de contacto, y\nla de las regiones circundantes en la masa de éste para los esfuerzos internos necesarios para\nequilibrar los de contacto se realizará de acuerdo a la instrucción aplicable a los elementos estruc-\nturales de hormigón armado.\n5\nEl área eficaz –y las correspondientes tensiones- de contacto queda definida por la superficie com-\nprimida que se define a continuación, las secciones de acero correspondientes a los pernos de an-\nclaje destinados a trabajar en tracción o cortadura, y a las de los elementos de cortante, si existen.\nLa región de contacto en compresión, o área eficaz de apoyo de la basa, dependiente del espesor\nde ésta, estará formada por la región de basa limitada por segmentos de recta paralelos a las ca-\nras de los perfiles que forman la sección de arranque del soporte, a una distancia máxima c de di-\nchas caras, distancia que se define a continuación. Se considera la región que permite establecer,\njunto con las tracciones en los pernos de anclaje, si existen, una configuración de esfuerzos en\nequilibrio con los del axil y momento de cálculo del soporte en el arranque. La tracción de los per-\nnos no superará los valores de resistencia deducibles según el apartado 8.5, considerando los es-\nfuerzos cortantes que deban resistir. Cada región comprimida puede interpretarse en sección como\nuna T invertida en la que las chapas que forman el perfil rigidizan la placa que forma la basa (figura\n8.12.a).\nLa distancia máxima c citada más arriba será:\njd\nyd\nf\n3\nf\nt\nc≤\n(8.29)\ny la resistencia en compresión del hormigón de cada rectángulo eficaz en que puede descompo-\nnerse la región de contacto comprimida será:\nef\nef\njd\nRd\n,c\nl\nb\nf\nF\n=\n(8.30)\nsiendo\nt\nespesor de la basa,\nfyd\nresistencia de cálculo del acero de la basa, con γM=1,1.\nfjd\nresistencia portante de la superficie de asiento, de valor definido en la instrucción de hormi-\ngón. Para el caso de apoyos sobre macizos, que aseguran un confinamiento al hormigón, di-\ncha resistencia puede alcanzar el valor:\ncd\nck\nj\nj\njd\nf\n3,3\nf\nk\nf\n≤\nβ\n=\n,\n(8.31)\nβj\nel coeficiente de la unión. Puede tomarse β=2/3 siempre que la resistencia característica del\nmortero de nivelación no sea inferior a 0,2 veces la resistencia característica del hormigón, y\nque su espesor no sea superior a 0,2 veces el ancho menor de la basa.\nfcd\nvalor de cálculo de la resistencia a compresión del hormigón sobre probeta cilíndrica, de\nacuerdo a la instrucción aplicable al hormigón armado.\nkj\nfactor de concentración, dependiente del área portante equivalente de hormigón, de valor\n\nDocumentoBásico SE-A Acero\nSE-A-77\n5\nab\nb\na\nk\n1\n1\nj\n≤\n=\n,\n(8.32)\na, b dimensiones de la placa de asiento\na1, b1:  dimensiones delárea portante equivalente, (figura 8.12.b) cuyos valores serán los más pe-\nqueños de los obtenidos de la tabla 8.2.\nFigura 8.12 Basas de soportes\nTabla 8.2 Dimensiones del área portante equivalente\na1\nb1\na1 = a + 2 ar\na1 = 5 a\na1 = a + h\na 1 = 5 b1 pero a1 ≥ a\nb1 = b + 2 br\nb1 = 5 b\nb1 = b + h\nb1 = 5 a1 pero b1≥ b\nlef, bef: longitud y anchura eficaces de cada región en comprimida de la basa, que se determinará si-\nguiendo lo indicado en la figura 8.12\n6\nResistencia a Cortante:\nEn el caso de existir elementos de cortante, la resistencia de cálculo corresponderá a la aportada\npor éstos. En caso de no existir, se considerarán:\nZapata de hormigón\n≤c\n≤c\n≤c\nc\nc\nc\nbef\nbef\nc\nc\ntw\nbef\nlef\nbef\nc\nc\nlef\ntf\nh\nb1\nb\nbr\na\nar\na1\na)   Area eficaz de la basa en compresión\nb)   Area portante  equivalente\narea eficaz y superficie ineficaz\n\nDocumentoBásico SE-A Acero\nSE-A-78\na)\nLa resistencia de cálculo por rozamiento entre la placa base y el hormigón o mortero de nive-\nlación, será:\nSd\n,c\nd\n,f\nRd\n,f\nN\nC\nF\n=\n(8.33)\nsiendo\nCf,d\ncoeficiente de rozamiento entre la placa base y el hormigón, que podrá tomar los va-\nlores siguientes:\n–\npara mortero de cemento y arena\ncf,d = 0,20;\n–\npara morteros especiales y para el caso de contacto directo con el hormigón,\ncf,d = 0,30.\nNc,Sd\nfuerza de cálculo a compresión transmitida por el pilar.\nb)\nLa resistencia a cortante de un perno de anclaje Fvb,Rd será el menor de los valores dados por:\ni)\nla resistencia del perno;\nii)\nel valor:\n2\nM\ns\nub\nb\nRd\n,\nvb\nA\nf\nF\nγ\nα\n=\n(8.34)\nsiendo\n2\nM\nγ\n= 1,25\nb\nα= 0,44-0,0003 fyb\nfyb\nlímite elástico del acero del perno en N/mm2, (la expresión 0,0003 en αb tiene di-\nmensiones de mm2/N).\nfub\nresistencia última del acero del perno\nAs\nárea resistente a tracción del perno.\nc)\nEn el caso de no disponer de elementos especiales para transmitir el cortante, la resistencia\nde cálculo a cortante será:\nRd\n,\nvb\nRd\n,f\nRd\n,\nv\nnF\nF\nF\n+\n=\n(8.35)\nsiendo\nn\nnúmero de pernos de la placa base.\n7\nResistencia de los elementos de contacto:\nLos esfuerzos atribuídos a los pernos –tracciones y cortaduras- y a la superficie comprimida defini-\nda en 8.8.1.5, en equilibrio establecido por procedimientos elásticos o plásticos con las solicitacio-\nnes de la unión, deberán ser resistidos por dichos pernos, y por la basa metálica de acuerdo a los\nsiguientes criterios:\na)\nLos pernos se comprobarán de acuerdo al apartado 8.5 considerando como valor de Fv,Rd el\nobtenido para Fvb,Rd en la expresión 8.34 del apartado anterior.\nb)\nLos pernos se anclarán mediante patilla, placa arandela, etc., y se comprobará el anlaje se-\ngún lo establecido en la instrucción aplicable al hormigón armado.\nc)\nLa placa metálica que forma la basa –la placa equivalente en su caso- se comprobará en rotu-\nra  por flexión, sometida a las presiones de valor fjd –o menores si así se ha establecido en la\nconfiguración de equilibrio- y coaccionada en su desplazamiento por las chapas que confor-\nman la sección de arranque del pilar.\nd)\nLa capacidad resistente a momento flector Mp,Rd por unidad de longitud en una línea de rotura\nde la basa se determinará de acuerdo a la expresión\n\nDocumentoBásico SE-A Acero\nSE-A-79\n4\nf\nt\nM\nyd\n2\nRd\n,\np\n=\n(8.36)\ne)\nPara aproximar las posiciones de las resultantes de las fuerzas normales a la superficie de\ncontacto pueden usarse los criterios de la figura 8.13.\nFigura 8.13 Resistencia a fuerzas axiles y momentos. Brazos de palanca\n8\nLa rigidez rotacional inicial Sj,ini  de la unión puede determinarse de acuerdo a 8.3 a partir de la de\nlos componentes básicos que se definen a continuación, mediante la expresión",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.5"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0079_t01.json",
+  "../tabla/p0079_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0077.png",
+  "../figura/p0078.png",
+  "../figura/p0079.png",
+  "../figura/p0080.png",
+  "../figura/p0081.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

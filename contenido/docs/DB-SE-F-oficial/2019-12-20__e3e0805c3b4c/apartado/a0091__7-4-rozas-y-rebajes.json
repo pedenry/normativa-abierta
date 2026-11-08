@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0091",
+  "ruta_oficial": "7.4",
+  "ruta_semantica": "7.4 Rozas y rebajes",
+  "titulo": "7.4 Rozas y rebajes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.4 Rozas y rebajes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    463.7,
+    188.4,
+    475.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1faa43d099691adb7f84c02f7778d1ca27b8e2f69d49775e1c8daefff5c7d37a",
+   "literal": "7.4 Rozas y rebajes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0096",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.4 Rozas y rebajes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.4 Rozas y rebajes",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "186c5c0f0d1284dcd8311335541ebf02144ba920487d6d1e0ab2139a6c78130b"
+ },
+ "paginas": [
+  42
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "7.4 Rozas y rebajes\n1\nEn muros de carga, para la ejecución de rozas y rebajes, se debe contar con las órdenes del director\nde obra, bien expresas o bien por referencia a detalles del proyecto.\n2\nLa ejecución de rozas tendrá en cuenta la no afectación a elementos estructurales asociados al muro,\ntales como dinteles, anclajes entre piezas o armaduras de refuerzo de cualquier tipo, debiendo en\nestos casos no producirse discontinuidades ni merma de resistencia de los mismos como resultado\nde ellos.\n3\nEn muros de ejecución reciente, debe esperarse a que el mortero de unión entre piezas haya endu-\nrecido debidamente y a que se haya producido la correspondiente adherencia entre mortero y pieza.\n4\nNo se realizarán rozas en las zonas provistas de armadura.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

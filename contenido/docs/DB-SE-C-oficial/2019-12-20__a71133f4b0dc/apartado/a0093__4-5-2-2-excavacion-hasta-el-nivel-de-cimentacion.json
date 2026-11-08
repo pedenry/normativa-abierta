@@ -1,0 +1,119 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0093",
+  "ruta_oficial": "4.5.2.2",
+  "ruta_semantica": "4.5.2.2 Excavación hasta el nivel de cimentación",
+  "titulo": "4.5.2.2 Excavación hasta el nivel de cimentación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.5.2.2 Excavación hasta el nivel de cimentación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 43,
+   "bbox": [
+    70.9,
+    569.2,
+    305.3,
+    579.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6bfb29d3de16465a5a3013efa20f9d21e4e3050b444ad21af59a829d15821b44",
+   "literal": "4.5.2.2 Excavación hasta el nivel de cimentación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0108",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.5.2.2 Excavación hasta el nivel de cimentación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 4.5.2 Losas de cimentación 4.5.2.1 Generalidades / 4.5.2.2 Excavación hasta el nivel de cimentación",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5942af89abcb3ba292c81caf5bd867fbbc0676e0a96f97ef0ee034abc5ec095e"
+ },
+ "paginas": [
+  43,
+  44
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "5"
+ ],
+ "tipos": [],
+ "texto": "4.5.2.2 Excavación hasta el nivel de cimentación\n1\nSi en el terreno se puede producir sifonamiento (limos, arenas finas, etc.), el agotamiento debe\nefectuarse desde pozos filtrantes y nunca desde sumideros. Para ello se tendrá en cuenta el conte-\nnido de los apartados 6.3.2.2.2 y 7.4.3.\n2\nSi el terreno está constituido por arcilla, al menos la solera de asiento debe echarse inmediata-\nmente después de terminada la excavación, de la misma manera que se ha indicado para el caso\nde zapatas. Si esto no puede realizarse, la excavación debe dejarse de 10 a 15 cm por encima de\nla cota definitiva de cimentación hasta el momento en que todo esté preparado para hormigonar.\n3\nLa excavación que se realiza para losas con cota de cimentación profunda trae aparejado un levan-\ntamiento del fondo de la excavación. Si la excavación se efectúa en arena por encima de la capa\nfreática, el levantamiento del fondo es tan pequeño que normalmente puede despreciarse.\n4\nEn una arcilla blanda, el levantamiento del fondo puede, en principio, calcularse por la teoría de la\nelasticidad. Los resultados de este cálculo deben considerarse como levantamiento máximo, res-\npecto al cual deben tomarse las precauciones oportunas.\n\nDocumento Básico SE-C Cimientos\nSE-C-39\n5\nSi la arcilla situada debajo del fondo de una excavación contiene un gran número de capas conti-\nnuas de limo grueso o de arena, el contenido de humedad de la arcilla puede llegar a aumentar lo\nsuficiente como para que la mayor parte del levantamiento se produzca por hinchamiento.\n6\nSi la profundidad de la excavación a cielo abierto para sótanos es importante, el fondo de la exca-\nvación puede resultar inestable y romper por levantamiento, cualesquiera que sean la resistencia y\nel tipo de entibación utilizado para las paredes laterales. En este caso debe comprobarse la estabi-\nlidad del fondo de la excavación tal y como se indica en 6.3.2.2.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

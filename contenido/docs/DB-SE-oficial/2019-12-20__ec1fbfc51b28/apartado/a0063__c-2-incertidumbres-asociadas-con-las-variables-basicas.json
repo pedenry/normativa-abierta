@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0063",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.2 Incertidumbres asociadas con las variables básicas",
+  "titulo": "C.2 Incertidumbres asociadas con las variables básicas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.2 Incertidumbres asociadas con las variables básicas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 27,
+   "bbox": [
+    70.9,
+    426.9,
+    391.7,
+    438.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b8ade02373a37baa6d94cb8af03e2bb73029c75aa0d1273fdff41a70ab38aa25",
+   "literal": "C.2 Incertidumbres asociadas con las variables básicas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.2 Incertidumbres asociadas con las variables básicas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.2 Incertidumbres asociadas con las variables básicas",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2c138993c0ff67e890097b33e667ca1129d1a691324eb03a54449f9dcb8f21b1"
+ },
+ "paginas": [
+  27,
+  28,
+  29
+ ],
+ "etiquetas_impresas": [
+  null,
+  "4",
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "C.2 Incertidumbres asociadas con las variables básicas\nC.2.1 Fuentes de incertidumbres\n1\nSe pueden distinguir tres tipos de incertidumbres asociadas con las variables básicas:\na)\nla variabilidad aleatoria inherente al modelo;\nb)\nlas incertidumbres debidas a la falta de conocimientos;\nc)\nlas incertidumbres estadísticas.\nA su vez, cada uno de estos tipos de incertidumbres se puede subdividir.\n2\nLa variabilidad aleatoria inherente se puede dividir en incertidumbres de dos categorías, según es-\ntén o no afectadas por actividades humanas.\nMuchos parámetros relativos a las acciones pertenecen a la segunda categoría, por ejemplo la ve-\nlocidad del viento o la carga de nieve sobre el terreno. También existen parámetros de resistencia\ncorrespondientes a esta segunda categoría, por ejemplo los parámetros de resistencia de un te-\nrreno.\nEjemplos correspondientes al primer tipo de incertidumbres son la resistencia de los materiales\nconstructivos (por ejemplo hormigón o acero) o las dimensiones de elementos estructurales. Estas\nincertidumbres se pueden reducir mediante métodos de fabricación o de producción más avanza-\ndos, o a través de métodos de control adecuados.\n3\nLas incertidumbres debidas a la falta de conocimientos se pueden subdividir en dos categorías, las\nrelativas a las incertidumbres de los modelos, y las que dependen de la evolución futura de ciertos\nparámetros.\nLas incertidumbres de los modelos, que se pueden referir tanto a los modelos de las acciones y de\nsus efectos como a los modelos de resistencia, se pueden reducir a través de la mejora de los co-\nnocimientos mediante ensayos o investigaciones teóricas.\nA la segunda categoría pertenecen, por ejemplo, las incertidumbres sobre la evolución futura de las\nsobrecargas. Las posibilidades de reducción de estas incertidumbres son más reducidas.\n\nDocumento Básico SE Seguridad Estructural\nSE - 22\n4\nLas incertidumbres estadísticas están asociadas con la evaluación estadística de los resultados de\nensayos, mediciones u otras observaciones, y pueden ser debidas a:\na)\nla falta de identificación y de distinción entre diferentes poblaciones estadísticas;\nb)\nun número limitado de resultados que conduce a incertidumbres en la obtención de los pará-\nmetros estadísticos (por ejemplo del valor medio o de la desviación típica);\nc)\nla no consideración de las variaciones sistemáticas de las variables analizadas (por ejemplo de\nparámetros climáticos);\nd)\nuna extrapolación excesiva de la información estadística;\ne)\nla no consideración de posibles correlaciones;\nf)\nel empleo de distribuciones estadísticas para la descripción de incertidumbres cuyo origen sólo\nen parte es estadístico.\nNormalmente, las incertidumbres estadísticas se pueden reducir a través de un mayor número de\nensayos u observaciones.\nC.2.2 Obtención de datos básicos\n1\nLos valores numéricos de los parámetros que caractericen un modelo y sus incertidumbres se pue-\nden obtener por las siguientes vías:\na)\nmediciones u observaciones;\nb)\nanálisis;\nc)\nadopción de decisiones.\nCon frecuencia, los valores numéricos de los parámetros se obtienen combinando datos obtenidos\npor diferentes vías. La resistencia a tracción del hormigón se puede determinar a partir de la medi-\nción de su resistencia a compresión y un análisis mediante una función de conversión; la sobrecar-\nga de un puente grúa se establece mediante decisión y las fuerzas dinámicas adicionales se pue-\nden determinar mediante análisis; las sobrecargas en edificios se pueden determinar mediante ob-\nservación en combinación con una hipótesis sobre la evolución futura.\n2\nLas variables básicas que tengan en cuenta las incertidumbres se caracterizarán mediante paráme-\ntros tales como el valor medio, la desviación típica, las correlaciones con otras variables y el tipo de\ndistribución estadística. En los casos en los que los valores numéricos de estos parámetros se de-\nterminen de acuerdo con C.2.2(1a) o C.2.2(1b), el procedimiento incluirá un análisis estadístico de\nlos datos y los resultados se representarán en términos estadísticos.\nSi por el contrario los valores numéricos de los parámetros de las variables básicas se determinan\nde acuerdo con C.2.2(1c) no es posible, normalmente, una representación directa en términos esta-\ndísticos. No obstante, a efectos de la aplicación de los métodos probabilistas, también a estas va-\nriables se les deben asignar parámetros estadísticos.\n3\nLas incertidumbres debidas a errores tales como los errores de medición o los efectos de escala, se\nevitarán mediante la adopción de medidas adecuadas como por ejemplo una gestión eficaz de la\ncalidad del proceso de obtención de los datos básicos.\nC.2.3 Selección de distribuciones estadísticas\n1\nEn muchos casos, el número reducido de datos disponibles no permite determinar de manera\ninequívoca una función de distribución estadística. Por este motivo, se seleccionará una distribución\nque tenga unas características apropiadas en relación con la variable básica considerada, teniendo\nen cuenta el posible sesgo.\n2\nPara las acciones permanentes se puede adoptar una distribución normal, siempre y cuando la\nposibilidad de que se produzcan valores negativos no resulte contradictoria con otras hipótesis y no\npueda ser la causa de resultados erróneos. En caso contrario, resultará más conveniente adoptar\nuna distribución del tipo logarítmica normal, Weibull, Gamma, o de valores extremos.\nPara las acciones variables, resulta más conveniente adoptar una distribución del tipo logarítmica\nnormal, Weibull, Gamma, o de valores extremos, particularmente si la distribución debe representar\nun valor máximo en un determinado periodo de tiempo.\n3\nPara las propiedades de los materiales y para las dimensiones, suele ser adecuada una distribución\ndel tipo normal o logarítmica normal. Si, debido a motivos físicos u otras circunstancias, no se pue-\nden producir valores negativos, resulta preferible una distribución logarítmica normal.\n\nDocumento Básico SE Seguridad Estructural\nSE - 23",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

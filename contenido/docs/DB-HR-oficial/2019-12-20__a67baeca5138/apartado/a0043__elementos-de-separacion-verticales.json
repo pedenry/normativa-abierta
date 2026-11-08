@@ -1,0 +1,106 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0043",
+  "ruta_oficial": null,
+  "ruta_semantica": "Elementos de separación verticales",
+  "titulo": "Elementos de separación verticales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Elementos de separación verticales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 17,
+   "bbox": [
+    76.3,
+    97.5,
+    383.8,
+    118.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "84be9f8fb2cd617fd5bae60328855636a069994670283ed7aa50ea436f97e181",
+   "literal": "Elementos de separación verticales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 3.1.2.3.1",
+   "apartado 3.1.2.3.5"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Elementos de separación verticales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / Elementos de separación verticales",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ff890f2c2ce0d59a8be9bd10c3bafc5b57ad957c89f514d4e2e303962197c48a"
+ },
+ "paginas": [
+  17,
+  18
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Elementos de separación verticales\nTipo\nElemento\nbase(1)(2)\n(Eb - Ee)\nTrasdosado(3)\n(Tr)\n(en función de la tabiquería)\nTabiquería de fábrica o\npaneles prefabricados pe-\nsados (4)\nTabiquería de entramado\nautoportante\nm\nRA\nRA\nRA\nkg/m2\ndBA\ndBA\ndBA\nTIPO 1\nUna hoja o dos hojas\nde fábrica con\nTrasdosado\n67\n33\n16(8) (11)\n120\n38\n14(8) (11)\n150(7)\n41(7)\n16(8)\n13(11)\n180\n45\n13\n9(11)\n(12)(11)\n200\n46\n11(11)\n10(13)\n(10)(11)\n250\n51\n6(13)\n4(13)\n(8)(13)\n300\n52\n3(13)\n3(13)\n(8)(13)\n8\n(9)\n300(7)\n55(7)\n-\n-\n350\n55\n5 (13)\n0(13)\n(6)(13)\n(8)(11)\n400\n57\n0(13)\n2 (13)\n(6)(13)\n0 (13)\n(6)(13)\nTIPO 2\nDos hojas de fábrica\ncon\nbandas elásticas\nperimétricas\n130(5)\n54(5)\n-\n-\n170(5)\n54(5)\n-\n-\n(200)(6)\n(61)(6)\n-\n-\nTIPO 3\nEntramado autopor-\ntante\n44(12)\n58(12)\n(52)(9)\n(64)(9)\n(60)(10)\n(68)(10)\n(1)\nEn el caso de elementos de separación verticales de dos hojas de fábrica, el valor de m corresponde al de la suma de las\nmasas por unidad de superficie de las hojas y el valor de RA corresponde al del conjunto.\n(2)\nLos elementos de separación verticales deben cumplir simultáneamente los valores de masa por unidad de superficie, m\ny de índice global de reducción acústica, ponderado A, RA.\n(3)\nEl valor de la mejora del índice global de reducción acústica, ponderado A, RA, corresponde al de un trasdosado insta-\nlado sobre un elemento base de masa mayor o igual a la que figura en la tabla 3.2.\n(4)\nLa columna tabiquería de fábrica o paneles prefabricados pesados se aplica indistintamente a todos los tipos de tabique-\nría de fábrica o paneles prefabricadospesados incluidos en el apartado 3.1.2.3.1.\n(5)\nLa masa por unidad de superficie de cada hoja que tenga bandas elásticas perimétricas no será mayor que 150 kg/m2 y\nen el caso de los elementos de tipo 2 que tengan bandas elásticas perimétricas únicamente en una de sus hojas, la hoja\nque apoya directamente sobre el forjado debe tener un índice global de reducción acústica, ponderado A, RA, de al me-\nnos 42 dBA.\n(6)\nEsta solución es válida únicamente para tabiquería de entramado autoportante o de fábrica o paneles prefabricados pe-\nsados con bandas elásticas en la base, dispuestas tanto en la tabiquería del recinto de instalaciones, como en la del re-\ncinto protegido inmediatamente superior. Por otra parte, esta solución no es válida cuando acometan a medianerías o fa-\nchadas de una sola hoja ventiladas o que tengan en aislamiento por el exterior.\n\nDocumento Básico HR - Protección frente al ruido\nHR-12\nLa masa por unidad de superficie de cada hoja que tenga bandas elásticas perimétricas no será mayor que 150 kg/m2 y\nen el caso de los elementos de tipo 2 que tengan bandas elásticas perimétricas únicamente en una de sus hojas, la hoja\nque apoya directamente sobre el forjado debe tener un índice global de reducción acústica, ponderado A, RA, de al me-\nnos 45 dBA.\n(7)\nEsta solución es válida si se disponen bandas elásticas en los encuentros del elemento de separación vertical con la ta-\nbiquería de fábrica que acomete al elemento, ya sea ésta con apoyo directo o con bandas elásticas.\n(8)\nEstas soluciones no son válidas si acometen a una fachada o medianería de una hoja de fábrica o ventilada con la hoja\ninterior de fábrica o de hormigón.\n(9)\nEsta solución de tipo 3 es válida para recintos de instalaciones o de actividad si se cumplen las condiciones siguientes:\n−\nSe dispone en el recinto de instalaciones o recinto de actividad y en el recinto habitable o recinto protegido co-\nlindante horizontalmente un suelo flotante con una mejora del índice global de reducción acústica, ponderado\nA, RA mayor o igual que 6dBA;\n−\nAdemás, debe disponerse en el recinto de instalaciones o recinto de actividad un techo suspendido con una\nmejora del índice global de reducción acústica, ponderado A, RA mayor o igual que:\ni.\n6dBA, si el recinto de instalaciones es interior o el elemento de separación vertical acomete a una\nfachada ligera, con hoja interior de entramado autoportante;\nii.\n12dBA, si el elemento de separación vertical de tipo 3 acomete a una medianería ofachada pesada\ncon hoja interior de entramado autoportante.\nIndependientemente de lo especificado en esta nota, los suelos flotantes y los techos suspendidos deben cumplir lo es-\npecificado en el apartado 3.1.2.3.5.\n(10)\nSolución válida si el forjado que separa el recinto de instalaciones o recinto de actividad de un recinto protegido o habita-\nble tiene una masa por unidad de superficie mayor que 400 kg/m2.\n(11)\nValores aplicables en combinación con un forjado de masa por unidad de superficie, m, de al menos 250kg/m2 y un suelo\nflotante, tanto en el recinto emisor como en el recinto receptor, con una mejora del índice global de reducción acústica,\nponderado A, RA mayor o igual que 4dBA;\n(12)\nValores aplicables en combinación con un forjado de masa por unidad de superficie, m, de al menos 200kg/m2 y un suelo\nflotante y un techo suspendido, tanto en el recinto emisor como en el recinto receptor, con una mejora del índice global\nde reducción acústica, ponderado A, RA mayor o igual que 10dBA y 6dBA respectivamente;\n(13)\nValores aplicables en combinación con un forjado de masa por unidad de superficie, m, de al menos 175kg/m2.\nIndependientemente de los especificado en las notas 10, 11 y 12, los suelos flotantes y los techos suspendidos deben cumplir\nlo especificado en el apartado 3.1.2.3.5.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3.1.2.3.1",
+  "apartado 3.1.2.3.5"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0017_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0044",
+  "a0045",
+  "a0046"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0241",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.4 Geofísica",
+  "titulo": "C.4 Geofísica",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.4 Geofísica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 115,
+   "bbox": [
+    70.9,
+    601.8,
+    173.2,
+    615.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c4d82f1043bd1a9cbcc0075aa8f526ec8ef596329ffff2ad4aefb262d5db67dd",
+   "literal": "C.4 Geofísica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE 83988-2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.4 Geofísica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Técnicas de prospección C.1 Calicatas / C.4 Geofísica",
+   "seccion_estimada": "Anejo C. Técnicas de prospección C.1 Calicatas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7e69501ef1f8a99ae690a937ce55f03ffa143cb40e20c99664f5a6a3e57c4366"
+ },
+ "paginas": [
+  115,
+  116,
+  118
+ ],
+ "etiquetas_impresas": [
+  "5",
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "C.4 Geofísica\n1\nCuando se trate de grandes superficies a construir, y con el fin de obtener información complemen-\ntaria que ayude a distribuir los puntos de reconocimiento así como la profundidad a alcanzar en ca-\nda uno de ellos, se podrán utilizar las siguientes técnicas:\na)\nsísmica de refracción: para obtener información sobre la profundidad a la que se encuentran el\nnivel freático y la unidad geotécnica resistente, siempre y cuando se trate de formaciones rela-\ntivamente horizontales (buzamiento inferior a 15º) y la velocidad, vp, de las ondas P aumente\ncon la profundidad. El valor vp que se obtenga en cada una de las capas analizadas podrá uti-\nlizarse para estimar su grado de ripabilidad;\nb)\nresistividad eléctrica: técnica SEV “sondeo eléctrico vertical” para obtener información sobre la\nprofundidad del nivel freático y los espesores de las distintas capas horizontales del terreno\n(UNE 83988-2:2014). Técnica tomografía eléctrica para identificar los diferentes niveles del\n\nDocumento Básico SE-C Cimientos\nSE-C-111\nsubsuelo y sus cambios laterales, identificación del nivel freático (detección de cavidades o\ndesarrollos cársticos);\nc)\notras técnicas geofísicas tales como Geo-radar (para obtener información sobre servicios ente-\nrrados, conducciones, depósitos, fluidos, nivel freático, unidades geológicas y cambios latera-\nles de las litologías), magnetometría, VLF, calicateo electromagnético, gravimetría, etc.; que\npuedan aportar una información adicional.\n2\nEn zonas cársticas o cuando se sospeche la existencia de cavidades relativamente superficiales se\npodrán utilizar, además de las antes mencionadas, técnicas microgravimétricas siempre y cuando\nse den las condiciones ambientales adecuadas y se utilicen equipos que permitan expresar los per-\nfiles finales de las anomalías de Bouguer en unidades de 10-7 m/s2.\n3\nLa realización, procesado e interpretación de los trabajos recogidos en los tres apartados anteriores\nse llevarán a cabo teniendo en cuenta las ventajas y limitaciones que entraña el uso de técnicas\ngeofísicas e integrando los resultados en el marco geológico, geotécnico y morfológico del área es-\ntudiada.\n4\nEn zonas sísmicas y para edificios de los tipos C-1 y C-2 se recomienda la utilización de ensayos\n“down-hole” o “cross-hole” (norma ASTM: D 4428/D4428M-14) con el fin de identificar la velocidad\nde propagación vs de las ondas S que permite clasificar las distintas unidades geotécnicas de\nacuerdo con la Norma de Construcción Sismorresistente NCSE vigente. Para edificios de los tipos\nC-2 y C-3 será obligatoria la realización de dicho tipo de ensayos cuando la aceleración sísmica bá-\nsica sea superior a 0,08 g.\n5\nLos ensayos “cross-hole” y “down-hole” podrán también utilizarse para caracterizar la deformabili-\ndad de arcillas preconsolidadas y suelos con un porcentaje apreciable de grava gruesa, cantos y\nbolos, tal y como se indica en el capítulo 4.\n6\nCon el fin de contribuir a una mejor definición de los perfiles geotécnicos del terreno mejorando las\ncorrelaciones que se puedan establecer entre sus distintas unidades geotécnicas, para la realiza-\nción del estudio geotécnico se podrá exigir la testificación geofísica de los sondeos que se realicen,\ndebiendo para ello elegir la combinación más adecuada de las siguientes diagrafías:\na)\ngamma-natural;\nb)\ngamma-gamma;\nc)\nneutrón-neutrón;\nd)\nresistividad y potencial espontáneo;\ne)\nsónica;\nf)\ntérmica.\n\nDocumento Básico SE-C Cimientos\nSE-C-113",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE 83988-2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0118.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

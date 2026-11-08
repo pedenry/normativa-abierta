@@ -1,0 +1,296 @@
+{
+ "documento": null,
+ "pagina": 34,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    797.9,
+    320.2,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE - 28",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.2,
+    476.7,
+    82.2
+   ],
+   "tipo": "texto",
+   "texto": "C.5.3 Transformación de problemas variables en problemas invariables en el tiempo",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    88.9,
+    541.3,
+    292.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe pueden distinguir dos tipos de problemas variables en el tiempo:\na)\nfallos debidos a una sobrecarga;\nb)\nfallos por acumulación de daños (por ejemplo fatiga, corrosión).\nLa dependencia del tiempo se debe a la variabilidad en el tiempo de las acciones e influencias y/o\nde la resistencia (mecanismos de deterioro).\nEn general, las acciones, influencias o resistencias que sean variables en el tiempo, se deben re-\npresentar a través de procesos estocásticos.\n2\nEn el caso de un fallo debido a una sobrecarga, el proceso puede ser sustituido por una distribución\nprobabilista representando la incertidumbre para el periodo de tiempo para el que se debe determi-\nnar la probabilidad de fallo.\nA estos efectos, el valor medio se podrá adoptar como el valor máximo esperado en el periodo de\nreferencia. Para la incertidumbre aleatoria se podrá adoptar la correspondiente al valor máximo es-\nperado.\n3\nLa función empleada para describir un fallo por fatiga se podrá expresar, por ejemplo, en los térmi-\nnos de las curvas SN y de la regla de Palmaren-Miner. De esta manera, y si se refiere a un deter-\nminado periodo de tiempo, la función es invariable en el tiempo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    308.3,
+    459.1,
+    320.3
+   ],
+   "tipo": "texto",
+   "texto": "C.6 Métodos basados en la determinación de los valores de cálculo",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    331.7,
+    172.1,
+    341.6
+   ],
+   "tipo": "texto",
+   "texto": "C.6.1 Generalidades",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    348.2,
+    541.3,
+    392.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl estado límite considerado podrá establecerse mediante un modelo de cálculo en términos de una\no varias funciónes g(...) de un conjunto de variables X1, X2, ... Xn relativas a las acciones, las carac-\nterísticas de los materiales, etc. En este caso, la condición de ausencia del fallo de la estructura\nasociado con el estado límite considerado, se podrá expresar en la forma",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.2,
+    395.6,
+    534.7,
+    412.7
+   ],
+   "tipo": "texto",
+   "texto": "\n\n0\n X\n...,\n ,\nX\n ,\nX\ng\nn\n2\n1\n\n(C.13)",
+   "tamano": 12.9,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    421.2,
+    541.3,
+    442.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nA efectos de la verificación del estado límite considerado, la condición (C.13) se podrá expresar en\ntérminos de los valores de cálculo de las variables",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.2,
+    445.7,
+    534.7,
+    462.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n0\nx\n...,\n ,\nx\n ,\nx\ng\nnd\nd\n2\nd\n1\n\n(C.14)",
+   "tamano": 12.9,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.6,
+    471.2,
+    457.0,
+    481.2
+   ],
+   "tipo": "texto",
+   "texto": "x1d, x2d, ..., xnd\nvalores de cálculo de las variables X1, X2, ..., Xn (según C.6.2).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    492.6,
+    302.7,
+    502.6
+   ],
+   "tipo": "texto",
+   "texto": "C.6.2 Valores de cálculo según el método FORM",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    509.3,
+    321.8,
+    548.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor de cálculo xid de la variable Xi depende de:\na)\nlos parámetros de la variable Xi;\nb)\nel tipo de distribución probabilista supuesta;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    93.6,
+    552.1,
+    538.6,
+    574.9
+   ],
+   "tipo": "texto",
+   "texto": "c)\nel índice de fiabilidad, , requerido para el estado límite y la situación de dimensionado consi-\nderados;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    578.8,
+    538.6,
+    616.2
+   ],
+   "tipo": "texto",
+   "texto": "d)\nun factor i que describe la sensibilidad de la probabilidad de fallo, asociada con el estado lími-\nte y la situación de dimensionado considerados, con respecto a la variación de Xi.\n2\nPara una distribución arbitraria F(xi), los valores de cálculo se definen por",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    95.9,
+    619.3,
+    534.7,
+    636.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n\n\n\n\ni\nid\nx\nF\n(C.15)",
+   "tamano": 12.8,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    97.9,
+    644.8,
+    352.3,
+    654.7
+   ],
+   "tipo": "texto",
+   "texto": "Para variables Xi con una distribución normal, se obtiene",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.6,
+    657.7,
+    534.7,
+    674.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\ni\ni\ni\nid\nV\n1\nx\n\n\n\n\n\n\n\n(C.16)",
+   "tamano": 12.9,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    93.6,
+    682.6,
+    128.0,
+    694.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    93.6,
+    697.9,
+    361.3,
+    738.2
+   ],
+   "tipo": "texto",
+   "texto": "i\nvalor medio de la variable Xi\nVi\ncoeficiente de variación de la variable Xi.\nPara variables Xi con una distribución lognormal, se obtiene",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    96.6,
+    743.3,
+    174.2,
+    761.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\ni\ni\ne\nx\ni\nid",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    113.5,
+    745.7,
+    534.7,
+    759.4
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n\n\n\n(C.17)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

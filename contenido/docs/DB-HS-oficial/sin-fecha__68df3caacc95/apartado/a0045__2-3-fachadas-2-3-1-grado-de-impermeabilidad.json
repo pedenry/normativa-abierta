@@ -1,0 +1,98 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0045",
+  "ruta_oficial": "2.3",
+  "ruta_semantica": "Fragmento de PDF p18",
+  "titulo": "2.3 Fachadas 2.3.1 Grado de impermeabilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p18",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p18",
+  "referencias_filtradas": [
+   "DB SE"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.3 Fachadas 2.3.1 Grado de impermeabilidad",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b95e96f02c309669c17eca9c12d5fe7bedc7c17c5be8aac9e5f3196d718477fa"
+ },
+ "paginas": [
+  18,
+  19
+ ],
+ "etiquetas_impresas": [
+  "18",
+  "19"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2.3 Fachadas 2.3.1 Grado de impermeabilidad\n2.3.1 Grado de impermeabilidad\n1\nEl grado de impermeabilidad mínimo exigido a las fachadas frente a la penetración de las precipita-\nciones se obtiene en la tabla 2.5 en función de la zona pluviométrica de promedios y del grado de\nexposición al viento correspondientes al lugar de ubicación del edificio. Estos parámetros se deter-\nminan de la siguiente forma:\na)\nla zona pluviométrica de promedios se obtiene de la figura 2.4;\nb)\nel grado de exposición al viento se obtiene en la tabla 2.6 en función de la altura de coronación\ndel edificio sobre el terreno, de la zona eólica correspondiente al punto de ubicación, obtenida\nde la figura 2.5, y de la clase del entorno en el que está situado el edificio que será E0 cuando\nse trate de un terreno tipo I, II o III y E1 en los demás casos, según la clasificación establecida\nen el DB SE:\nTerreno tipo I: Borde del mar o de un lago con una zona despejada de agua en la dirección del\nviento de una extensión mínima de 5 km.\nTerreno tipo II: Terreno rural llano sin obstáculos ni arbolado de importancia.\nTerreno tipo III: Zona rural accidentada o llana con algunos obstáculos aislados tales como ár-\nboles o construcciones pequeñas.\nTerreno tipo IV: Zona urbana, industrial o forestal.\nTerreno tipo V: Centros de negocio de grandes ciudades, con profusión de edificios en altura.\nTabla 2.5 Grado de impermeabilidad mínimo exigido a las fachadas\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n19",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0018.png",
+  "../figura/p0019.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0046",
+  "a0047",
+  "a0048",
+  "a0049",
+  "a0050",
+  "a0051",
+  "a0052",
+  "a0053",
+  "a0054",
+  "a0055",
+  "a0056",
+  "a0057",
+  "a0058",
+  "a0059",
+  "a0060",
+  "a0061",
+  "a0062",
+  "a0063"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

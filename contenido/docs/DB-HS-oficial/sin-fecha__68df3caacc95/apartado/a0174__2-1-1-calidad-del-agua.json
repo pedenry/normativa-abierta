@@ -1,0 +1,100 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0174",
+  "ruta_oficial": "2.1.1",
+  "ruta_semantica": "2.1.1 Calidad del agua",
+  "titulo": "2.1.1 Calidad del agua",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.1.1 Calidad del agua",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 81,
+   "bbox": [
+    70.9,
+    598.6,
+    181.5,
+    609.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c103619d3c23aa19bf7b1251cb1f80e8fd9732ab19f81d610544c31512127bbe",
+   "literal": "2.1.1 Calidad del agua"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "Real Decreto 140/2003"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.1.1 Calidad del agua",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Caracterización y cuantificación de las exigencias 2.1 Propiedades de la instalación / 2.1.1 Calidad del agua",
+   "seccion_estimada": "2 Caracterización y cuantificación de las exigencias 2.1 Propiedades de la instalación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "988b08d7eb167a7e96c4832b920979f1c20d1d746c8857128c7be516c59f4d41"
+ },
+ "paginas": [
+  81,
+  82
+ ],
+ "etiquetas_impresas": [
+  "81",
+  "82"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.1.1 Calidad del agua\n1\nEl agua de la instalación debe cumplir lo establecido en la legislación vigente sobre el agua para\nconsumo humano.\n2\nLas compañías suministradoras facilitarán los datos de caudal y presión que servirán de base para\nel dimensionado de la instalación.\n3\nLos materiales que se vayan a utilizar en la instalación, en relación con su afectación al agua que\nsuministren, deben ajustarse a los siguientes requisitos:\na)\npara las tuberías y accesorios deben emplearse materiales que no produzcan concentraciones\nde sustancias nocivas que excedan los valores permitidos por la el Real Decreto 140/2003, de\n7 de febrero;\nb)\nno deben modificar la potabilidad, el olor, el color ni el sabor del agua;\nc)\ndeben ser resistentes a la corrosión interior;\nd)\ndeben ser capaces de funcionar eficazmente en las condiciones de servicio previstas;\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n82\ne)\nno deben presentar incompatibilidad electroquímica entre sí;\nf)\ndeben ser resistentes a temperaturas de hasta 40ºC, y a las temperaturas exteriores de su en-\ntorno inmediato;\ng)\ndeben ser compatibles con el agua suministrada y no deben favorecer la migración de sustan-\ncias de los materiales en cantidades que sean un riesgo para la salubridad y limpieza del agua\nde consumo humano;\nh)\nsu envejecimiento, fatiga, durabilidad y las restantes características mecánicas, físicas o quí-\nmicas, no deben disminuir la vida útil prevista de la instalación.\n4\nPara cumplir las condiciones anteriores pueden utilizarse revestimientos, sistemas de protección o\nsistemas de tratamiento de agua.\n5\nLa instalación de suministro de agua debe tener características adecuadas para evitar el desarrollo\nde gérmenes patógenos y no favorecer el desarrollo de la biocapa (biofilm).",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto 140/2003"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0177",
+   "ruta_oficial": "2.1.4",
+   "titulo": "2.1.4 Mantenimiento",
+   "archivo_json": "a0177__2-1-4-mantenimiento.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0082_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0082.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,97 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0102",
+  "ruta_oficial": "7.3.2",
+  "ruta_semantica": "7.3.2 Resistencia de cálculo a deslizamiento",
+  "titulo": "7.3.2 Resistencia de cálculo a deslizamiento",
+  "nivel": 1,
+  "parent_id": "a0100",
+  "seccion_estimada": "7.3.2 Resistencia de cálculo a deslizamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 59,
+   "bbox": [
+    74.1,
+    607.9,
+    286.4,
+    619.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f654c57e22f3a8dfd25889ccd069de315305ed9a44dd11e39111eedbfac7ebce",
+   "literal": "7.3.2 Resistencia de cálculo a deslizamiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0100",
+  "parent_id_original": "a0100",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-ENV",
+   "apartado 7.3.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.3.2 Resistencia de cálculo a deslizamiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0100",
+   "ruta_semantica": "7 Estados límite de servicio / 7.3 Deslizamiento de uniones / 7.3.2 Resistencia de cálculo a deslizamiento",
+   "seccion_estimada": "7 Estados límite de servicio",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c894b7b1554d799ddf20af8301ebeaedd623c76c51c653c7c0acb9e9c1145678"
+ },
+ "paginas": [
+  59,
+  60,
+  61
+ ],
+ "etiquetas_impresas": [
+  "59",
+  "60",
+  "61"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "7.3.2 Resistencia de cálculo a deslizamiento\n1\nLa resistencia de cálculo a deslizamiento de un tornillo pretensado, se tomará como:\nCd\n.\np\n3\nM\ns\nRd\n.s\nF\nn\nk\nF\nγ\nµ\n=\n(7.7)\nsiendo\nγM3 = 1,1\n(en uniones híbridas constituidas por tornillos de alta resistencia y soldadura\ntrabajando conjuntamente se adoptará el valor 1,25);\nFp.Cd fuerza de pretensado del tornillo (véase apartado 7.3.1);\nn\nnúmero de superficies de rozamiento;\n\nDocumentoBásico SE-A Acero\nSE-A-58\nkS\ncoeficiente que toma los siguientes valores:\nkS = 1,00\npara agujeros con medidas normales;\nkS = 0,85\npara agujeros con sobremedidas o rasgados cortos;\nkS = 0,70\npara agujeros rasgados largos;\nµ\ncoeficiente de rozamiento, que tomará los siguientes valores (que se corresponden con las\ncategorías A a D de la tabla 7 de la UNE-ENV 1090-1:1997).\nµ = 0,50\npara superficies tratadas con chorro de granalla o arena, y\npara superficies tratadas con chorro de granalla o arena y posterior tratamiento\ncon aluminio;\nµ = 0,40\npara superficies tratadas con chorro de granalla o arena y pintadas con un silica-\nto alcalino de zinc;\nµ = 0,30\npara superficies limpiadas a cepillo metálico o con llama, con eliminación de par-\ntes oxidadas;\nµ = 0,20\npara superficies no tratadas.\n2\nCuando actúen simultáneamente sobre el tornillo esfuerzos de tracción y cortante la expresión de\nla resistencia de cálculo a deslizamiento es:\n(\n)\n3\nM\nser\n.\nEd\n.t\nCd\n.\np\ns\nRd\n.s\nF\n8,0\nF\nn\nk\nF\nγ\n−\nµ\n=\n(7.8)\nsiendo\nFt.Ed.ser esfuerzo axil de cálculo en servicio por tornillo, al que en su caso se añadirán las tracciones\ndebidas al efecto palanca (figura 8.1).\n3\nLa resistencia al deslizamiento no se reducirá cuando las tracciones en los tornillos provengan de\nun momento y estén equilibradas por una fuerza de contacto igual en la zona comprimida.\n\nDocumentoBásico SE-A Acero\nSE-A-59",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-ENV",
+  "apartado 7.3.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0059.png",
+  "../figura/p0060.png",
+  "../figura/p0061.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

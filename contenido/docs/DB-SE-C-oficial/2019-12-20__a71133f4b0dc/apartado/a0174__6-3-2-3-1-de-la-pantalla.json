@@ -1,0 +1,127 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0174",
+  "ruta_oficial": "6.3.2.3.1",
+  "ruta_semantica": "6.3.2.3.1 De la pantalla",
+  "titulo": "6.3.2.3.1 De la pantalla",
+  "nivel": 1,
+  "parent_id": "a0173",
+  "seccion_estimada": "6.3.2.3.1 De la pantalla",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 82,
+   "bbox": [
+    70.9,
+    681.6,
+    179.9,
+    691.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0e94d6fdb22d34c0e6fc84e6849ed29576de789a5c9a84e6ded6f2ccfe42a9b4",
+   "literal": "6.3.2.3.1 De la pantalla"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0200",
+  "parent_id_original": "a0173",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 6.2",
+   "apartado 6.3.2.2.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.3.1 De la pantalla",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0173",
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). /  / 6.3.2.3 Esfuerzos y deformaciones / 6.3.2.3.1 De la pantalla",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dfc762fda4a5e008094cd12e4af25dc643b340d23468158af20c7dcf0216ce4e"
+ },
+ "paginas": [
+  82,
+  83
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "6.3.2.3.1 De la pantalla\n1\nLos esfuerzos sobre una pantalla son los que resultan de los empujes del terreno y las reacciones\nen los elementos de sujeción a que está sometida en cada una de sus fases. A su vez, los empujes\nunitarios del terreno y las fuerzas de sujeción son función de la deformación de la pantalla, de la\npropia naturaleza del terreno y de las características fuerza deformación de los elementos de suje-\nción. En su determinación se tomarán en consideración el proceso de excavación, el tipo de suje-\nción, el instante de su introducción, etc.\n\nDocumento Básico SE-C Cimientos\nSE-C-78\n2\nEl cálculo de esfuerzos podrá efectuarse a partir de las leyes de empujes unitarios definidas en el\napartado 6.2, empleadas en las comprobaciones de estabilidad por métodos de equilibrio límite y de\nlas reacciones de los elementos de sujeción deducidas en tales comprobaciones. Con este proce-\ndimiento no se tiene en cuenta más que de forma cualitativa la rigidez de la pantalla con relación a\nsu empotramiento en el terreno y a las condiciones de sujeción y, de ningún modo, las propiedades\nde deformación del terreno.\n3\nLa determinación de los esfuerzos sobre la pantalla debe llevarse a cabo para todas las fases de\nejecución de la excavación o del edificio, que impliquen una variación de los empujes del terreno o\nde las fuerzas de sujeción. Podrán omitirse aquellas fases en que pueda demostrarse \"a priori\" que\nlos esfuerzos son inferiores a los que se producirán en otras.\n4\nDeberá efectuarse un estudio más detallado empleando modelos basados en el coeficiente de ba-\nlasto o modelos de elementos finitos o diferencias finitas en los siguientes casos:\na)\ncuando existan edificios o servicios próximos especialmente sensibles a los movimientos;\nb)\ncuando no exista experiencia en obras similares.\n5\nEstos métodos se describen en el apartado 6.3.2.2.3 y se desarrollan en el anejo F.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.2",
+  "apartado 6.3.2.2.3"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

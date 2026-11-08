@@ -1,0 +1,427 @@
+{
+ "documento": null,
+ "pagina": 77,
+ "etiqueta_impresa": "77",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    192.5,
+    35.9,
+    419.3,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo E. Resistencia al fuego de las estructuras de madera",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "77",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    94.6,
+    74.6,
+    138.3,
+    83.5
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    94.6,
+    86.5,
+    247.9,
+    96.6
+   ],
+   "tipo": "texto",
+   "texto": "k\ndensidad característica en kg/m3",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    99.5,
+    226.9,
+    123.6
+   ],
+   "tipo": "texto",
+   "texto": "hp\nespesor del tablero en mm",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    130.0,
+    541.3,
+    164.1
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn el caso de muros o forjados formados por tableros unidos a un entramado de madera (ver figura\nE.2 c), el tiempo de inicio de carbonización tch de los elementos del entramado protegido puede ob-\ntenerse mediante la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    121.1,
+    192.1,
+    125.0,
+    199.9
+   ],
+   "tipo": "texto",
+   "texto": "0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    94.2,
+    176.4,
+    125.7,
+    198.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "p\nch\nβ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    90.7,
+    171.2,
+    520.9,
+    191.1
+   ],
+   "tipo": "texto",
+   "texto": "h\n=\nt\n- 4\n(E.8)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    88.8,
+    207.5,
+    123.9,
+    218.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    88.8,
+    225.0,
+    410.6,
+    236.1
+   ],
+   "tipo": "texto",
+   "texto": "hp espesor del tablero, en caso de varias capas el espesor total, [mm];",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    88.8,
+    242.4,
+    379.5,
+    253.5
+   ],
+   "tipo": "texto",
+   "texto": "ß0 velocidad de carbonización básica de cálculo (ver tabla E.3).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    260.0,
+    538.6,
+    294.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nPara los casos de elementos protegidos mediante mantas de lana de roca, que cumplan las especifi-\ncaciones del párrafo 1 b) del apartado E.2.3.2.1, el tiempo para el que se produce el inicio de la car-\nbonización tch, puede obtenerse de la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    90.7,
+    299.0,
+    520.9,
+    318.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\nins\nins\nch\n20\nh\n07\n,0\nt\n\n\n\n(E.9)",
+   "tamano": 11.7,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    88.8,
+    325.5,
+    123.9,
+    336.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    88.8,
+    343.0,
+    337.5,
+    354.1
+   ],
+   "tipo": "texto",
+   "texto": "hins\nespesor del material aislante en milímetros;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.8,
+    360.2,
+    321.8,
+    372.4
+   ],
+   "tipo": "texto",
+   "texto": "ins\ndensidad del material aislante en kg/m3.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    378.8,
+    541.4,
+    412.8
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn el caso de elementos protegidos con una capa de paneles de yeso de tipo A, F o H, situados lejos\nde juntas entre paneles, o en las cercanías de juntas selladas o con aperturas menores de 2 mm, el\ntiempo de inicio de la carbonización, tch, en minutos, se obtiene de la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    88.8,
+    419.1,
+    526.4,
+    430.2
+   ],
+   "tipo": "texto",
+   "texto": "tch = 2,8hp-14\n(E.10)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    88.8,
+    436.7,
+    541.4,
+    459.4
+   ],
+   "tipo": "texto",
+   "texto": "Si el elemento protegido se encuentra cerca de juntas sin sellar, de espesor mayor de 2 mm, tch debe\ncalcularse según la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.8,
+    465.7,
+    526.4,
+    476.8
+   ],
+   "tipo": "texto",
+   "texto": "tch = 2,8hp-23\n(E.11)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    70.9,
+    483.2,
+    541.0,
+    517.3
+   ],
+   "tipo": "texto",
+   "texto": "5\nEn el caso de revestimientos compuestos por dos capas de paneles de yeso, se pueden emplear las\nexpresiones (E.10) y (E.11) siempre que las dos capas permanezcan unidas y su fallo se produzca\nde manera simultánea. La cercanía a las juntas entre paneles se evaluará en la capa exterior.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    530.6,
+    354.2,
+    541.7
+   ],
+   "tipo": "texto",
+   "texto": "E.2.3.2.3 Tiempos de fallo de revestimientos de protección",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    70.9,
+    550.3,
+    509.0,
+    561.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl fallo del revestimiento de protección contra el fuego puede ocurrir por los siguiente motivos:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    88.8,
+    567.8,
+    420.0,
+    578.9
+   ],
+   "tipo": "texto",
+   "texto": "a) carbonización o degradación mecánica del material del revestimiento;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    88.8,
+    585.2,
+    540.9,
+    596.3
+   ],
+   "tipo": "texto",
+   "texto": "b) insuficiente longitud de penetración de los elementos de fijación en la zona no carbonizada de la",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    108.1,
+    596.7,
+    147.6,
+    607.8
+   ],
+   "tipo": "texto",
+   "texto": "madera;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    88.8,
+    614.2,
+    404.0,
+    625.4
+   ],
+   "tipo": "texto",
+   "texto": "c)\nseparación o distancias inadecuadas de los elementos de fijación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    70.9,
+    631.8,
+    541.3,
+    677.3
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn el caso de revestimientos de protección contra el fuego mediante tableros derivados de la madera\ny tableros de madera maciza o placas de yeso de tipo A o H, se considerará como tiempo de fallo del\nrevestimiento, tf, el tiempo para el que se produce el inicio de la carbonización del elemento protegi-\ndo, tch (ver apartado E.2.3.2.2).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    70.9,
+    683.7,
+    538.6,
+    706.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nEl tiempo de fallo por degradación mecánica del material de los paneles de yeso de tipo F debe de-\nterminarse mediante ensayos y será proporcionado por el fabricante.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    70.9,
+    712.8,
+    541.0,
+    746.9
+   ],
+   "tipo": "texto",
+   "texto": "4\nPara evitar el fallo por insuficiente longitud de penetración de los elementos de fijación en la zona no\ncarbonizada, la, esta longitud será al menos de 10 mm. La longitud requerida del elemento de fijación\nse determinara mediante la expresión siguiente,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    90.2,
+    752.1,
+    526.4,
+    766.1
+   ],
+   "tipo": "texto",
+   "texto": "l\nd\nh =\nl\na\nn,\nchar\np\nreq\n,f\n\n\n(E.12)",
+   "tamano": 10.4,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

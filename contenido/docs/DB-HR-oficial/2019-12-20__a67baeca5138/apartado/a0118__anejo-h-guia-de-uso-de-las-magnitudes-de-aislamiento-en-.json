@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0118",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias",
+  "titulo": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 69,
+   "bbox": [
+    70.9,
+    95.3,
+    542.6,
+    127.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "66d50742b85e93878d5d4a09615a417affab466b58ca1acc60df07b938ab5a17",
+   "literal": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0031",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias",
+   "seccion_estimada": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9a9ed346cd96fad8a56c23ccb6eab636184fad44ecf226a790de4650da9ea7bc"
+ },
+ "paginas": [
+  69
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias\ncon las exigencias",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0069_t01.json",
+  "../tabla/p0069_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0069.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0119",
+  "a0120"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

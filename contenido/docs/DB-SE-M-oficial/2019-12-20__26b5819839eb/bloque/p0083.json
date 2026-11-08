@@ -1,0 +1,453 @@
+{
+ "documento": null,
+ "pagina": 83,
+ "etiqueta_impresa": "2",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 77",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    88.8,
+    72.5,
+    538.6,
+    82.4
+   ],
+   "tipo": "texto",
+   "texto": "g) la distancia libre entre cordones, a, no es superior a 3 veces el espesor del cordón, h, en sopor-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    106.9,
+    84.0,
+    521.0,
+    93.9
+   ],
+   "tipo": "texto",
+   "texto": "tes con separadores y no superior a 6 veces el espesor del cordón en soportes con presillas;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    88.8,
+    101.4,
+    522.8,
+    111.3
+   ],
+   "tipo": "texto",
+   "texto": "h) los esfuerzos de los separadores y presillas se calculan de acuerdo con el apartado 10.2.1.3;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    118.3,
+    426.1,
+    128.9
+   ],
+   "tipo": "texto",
+   "texto": "i)\nla dimensión del separador, l2, cumple la condición siguiente: l2 /a  1,5;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    135.8,
+    412.7,
+    146.4
+   ],
+   "tipo": "texto",
+   "texto": "j)\nla dimensión de la presilla, l2, cumple la condición siguiente: l2 /a  2;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    153.9,
+    541.3,
+    163.9
+   ],
+   "tipo": "texto",
+   "texto": "k) existen como mínimo 4 clavos o 2 pernos con conectores en cada plano de cortante. En uniones",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    106.9,
+    165.5,
+    538.5,
+    186.9
+   ],
+   "tipo": "texto",
+   "texto": "clavadas existen al menos 4 clavos situados en una fila en cada extremo, en la dirección longitu-\ndinal del soporte.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    201.4,
+    209.8,
+    211.3
+   ],
+   "tipo": "texto",
+   "texto": "10.2.1.2  Capacidad de carga",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    219.9,
+    538.6,
+    241.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe tomará, como capacidad de carga del soporte, la que resulte menor de calcular a pandeo respec-\nto a las dos direcciones principales (véase figura 10.3):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    88.8,
+    248.9,
+    447.7,
+    258.8
+   ],
+   "tipo": "texto",
+   "texto": "a) Pandeo con desplazamiento en la dirección y (flectando respecto al eje z-z).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    106.6,
+    266.4,
+    541.3,
+    287.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Cada cordón se comprobará para resistir la carga Fc /n (n, número de cordones y Fc,, carga axial\nconcéntrica) aplicando la ecuación (6.30).",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    88.8,
+    295.4,
+    447.7,
+    305.4
+   ],
+   "tipo": "texto",
+   "texto": "b) Pandeo con desplazamiento en la dirección z (flectando respecto al eje y-y).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    106.6,
+    312.9,
+    201.0,
+    322.9
+   ],
+   "tipo": "texto",
+   "texto": "Debe cumplirse que:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    109.8,
+    326.1,
+    541.3,
+    339.2
+   ],
+   "tipo": "texto",
+   "texto": "f\nk\nd\no,\nc,\nc\nd\no,\nc,\n\n\n(10.29)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    108.1,
+    344.9,
+    142.8,
+    354.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    143.0,
+    378.2,
+    149.7,
+    388.2
+   ],
+   "tipo": "texto",
+   "texto": "A",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    130.1,
+    362.9,
+    146.8,
+    378.9
+   ],
+   "tipo": "texto",
+   "texto": "F\n =",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    150.4,
+    381.2,
+    158.2,
+    388.2
+   ],
+   "tipo": "texto",
+   "texto": "tot",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    109.8,
+    366.1,
+    541.3,
+    380.6
+   ],
+   "tipo": "texto",
+   "texto": "Sd\nc,\nd\no,\nc,\n\n(10.30)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    108.1,
+    393.3,
+    538.6,
+    449.3
+   ],
+   "tipo": "texto",
+   "texto": "Fc,Sd\nvalor de cálculo de la carga axial concéntrica aplicada;\nAtot\nárea total de la sección transversal (véase figura 10.3);\nfc,0,d\nresistencia de cálculo a compresión paralela a la fibra de la madera del cordón;\nkc\ncoeficiente de pandeo determinado según la ecuación (6.32) correspondiente a la es-\nbeltez eficaz, ef , que se establece a continuación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    109.8,
+    456.1,
+    541.3,
+    480.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n2\n1\n2\nef\n2\nn\n+\n =\n(10.31)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    108.1,
+    486.8,
+    538.6,
+    521.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\n\nesbeltez mecánica de un soporte de sección maciza con la misma longitud (l), el mis-\nmo área (Atot) y el mismo momento de inercia (Itot), es decir:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    115.1,
+    529.7,
+    143.6,
+    554.3
+   ],
+   "tipo": "texto",
+   "texto": "I\nA\n l =",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    141.5,
+    547.3,
+    149.3,
+    554.3
+   ],
+   "tipo": "texto",
+   "texto": "tot",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    109.8,
+    532.8,
+    541.3,
+    544.9
+   ],
+   "tipo": "texto",
+   "texto": "tot\n\n(10.32)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    108.1,
+    559.7,
+    538.5,
+    581.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nesbeltez mecánica de los cordones. Se tomará para 1 el mayor de los dos valores si-\nguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    109.8,
+    587.8,
+    541.3,
+    610.8
+   ],
+   "tipo": "texto",
+   "texto": "h\nl\n12\n =\n1\n1\n\n(10.33)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    109.8,
+    616.8,
+    138.9,
+    628.5
+   ],
+   "tipo": "texto",
+   "texto": "30\n =\n 1\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    141.1,
+    628.9,
+    538.8,
+    638.9
+   ],
+   "tipo": "texto",
+   "texto": "(10.34)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    108.1,
+    642.5,
+    297.5,
+    676.2
+   ],
+   "tipo": "texto",
+   "texto": "l1 y h\nsegún figura 10.2;\nn\nnúmero de cordones;\n\nfactor obtenido de la Tabla 10.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    264.0,
+    677.3,
+    348.0,
+    697.3
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 10.2 Factor ",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 33,
+   "bbox": [
+    70.9,
+    699.3,
+    527.6,
+    750.5
+   ],
+   "tipo": "texto",
+   "texto": "Duración de la carga (1)\nUnión de los separadores\nUnión de las presillas\nEncolados\nCon clavos\nCon pernos y conectores\nEncoladas\nClavadas\nPermanente/larga\n1\n4\n3,5\n3\n6\nMedia/corta\n1\n3\n2,5\n2\n4,5\n(1) Véase Clase de duración de la carga en el apartado 2.2.2.1",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

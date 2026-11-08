@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0218",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p82",
+  "titulo": "Anejo E. Resistencia al fuego de las estructuras de madera",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p82",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p82",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c54b6413a316a8662e20530f3cf446a7b3814d3fd3b9a9b1d0404d732cd2b7af"
+ },
+ "paginas": [
+  82
+ ],
+ "etiquetas_impresas": [
+  "82"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo E. Resistencia al fuego de las estructuras de madera\n82\n2\nA los efectos del cálculo del factor de forma definido en el anejo D de este Documento, las superfi-\ncies de acero en contacto con la madera pueden considerarse no expuestas al fuego.\nE.4.3.2 Uniones protegidas\n1\nLas placas de acero utilizadas como piezas laterales pueden considerarse protegidas si están total-\nmente recubiertas por madera o productos derivados de la madera cuyo espesor mínimo sea igual a\nafi de acuerdo con la ecuación E.14 con tfi,d = 5 min.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0082.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0219",
+  "a0220",
+  "a0227"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0138",
+  "ruta_oficial": "8.9.3",
+  "ruta_semantica": "8.9.3 Soldaduras",
+  "titulo": "8.9.3 Soldaduras",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.9.3 Soldaduras",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 99,
+   "bbox": [
+    74.1,
+    303.2,
+    156.5,
+    314.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d13349a1b28f2b918c0ba77fd86a4b903fd3d771d2746171a55d271c7f03bdfa",
+   "literal": "8.9.3 Soldaduras"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0132",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.9.3 Soldaduras",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.9 Uniones de perfiles huecos en las vigas de celosía 8.9.1 Alcance y campo de aplicación / 8.9.3 Soldaduras",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ba120af1bebb4d786ef2bfdf4d2ab5b86bc9acd20a650ed67ec296e12ff17620"
+ },
+ "paginas": [
+  99
+ ],
+ "etiquetas_impresas": [
+  "99"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.9.3 Soldaduras\n1\nSe debe soldar todo el perímetro de la sección con una soldadura a tope, en ángulo, o una combi-\nnación de ambas. Sin embargo, en los nudos con solape parcial, sólo es necesario soldar la parte\nescondida de la unión cuando los valores de los axiles son tales que las componentes perpendicu-\nlares al cordón no difieren en más de un 20%.\n2\nLa resistencia de cálculo de la soldadura por unidad de longitud sobre el perímetro de la unión no\ndebe ser inferior a la resistencia de cálculo a tracción de la sección transversal de la barra por uni-\ndad de longitud del perímetro. Se exceptúan aquellos casos en que puedan justificarse técnica-\nmente soldaduras más pequeñas considerando tanto la resistencia del nudo como su capacidad de\ndeformación y/o su capacidad de giro.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0099.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

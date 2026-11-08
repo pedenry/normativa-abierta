@@ -1,0 +1,75 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0168",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p80",
+  "titulo": "dal de ventilación de los locales habitables de las viviendas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p80",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p80",
+  "referencias_filtradas": [
+   "DB HE1",
+   "apartado 2"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Apéndice C Condiciones de diseño para la determinación del cau- / dal de ventilación de los locales habitables de las viviendas",
+   "seccion_estimada": "Apéndice C Condiciones de diseño para la determinación del cau-",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e0ed8ee971d72d639aa2128c75b03cb46ef3e38941bc6795eae2db343dda9cb6"
+ },
+ "paginas": [
+  80
+ ],
+ "etiquetas_impresas": [
+  "80"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "dal de ventilación de los locales habitables de las viviendas\n1\nEn este apéndice se establecen las condiciones de diseño para la evaluación del cumplimiento de la\nexigencia establecida en el apartado 2, párrafo 1 de esta sección relativa a la concentración de CO2,\nen el caso de que no se empleen los caudales constantes establecidos en la tabla 2.1.\n2\nLas concentraciones de CO2 de la exigencia deben cumplirse para las siguientes condiciones de\ndiseño:\na)\ngeneración de CO2 de 19 l/h·ocupante, salvo que se diferencie entre periodos de sueño y de\nvigilia con generaciones de 12 l/h·ocupante y 19 l/h·ocupante de CO2, respectivamente;\nb)\nnúmero de ocupantes, a efectos de generación de CO2, de 2 para viviendas con un único dor-\nmitorio, 3 para viviendas con 2 dormitorios y 4 para viviendas con 3 o más dormitorios. Los\nocupantes se sitúan en los distintos locales de la vivienda en función del escenario de ocupa-\nción;\nc)\nescenario de ocupación acorde con las siguientes condiciones:\ni) periodos de sueño para cada uno de los ocupantes de 8 horas ininterrumpidas desde las\n24:00 horas a las 08:00 en los dormitorios;\nii) ausencias diurnas de la vivienda:\n\nde lunes a viernes una ausencia de 13 horas al día para uno de los ocupantes y de 8\nhoras al día para el resto;\n\nlos sábados y los domingos dos ausencias de 2 horas de duración por cada ocupante y\ndía;\niii) 2 ocupantes en el dormitorio principal y 1 ocupante en cada uno de los demás dormitorios. Al\nlimitarse el número máximo de ocupantes a 4, si la vivienda dispone de más de 3 dormitorios\nno todos los dormitorios están ocupados. En este caso, el sistema de ventilación debe ser\ncapaz de cumplir con las exigencias establecidas en el apartado 2, párrafo 1 de esta sección\nindependientemente de en qué dormitorio se sitúen el ocupante tercero y cuarto y qué dormi-\ntorios queden sin ocupación;\niv) estancia simultánea de todos los ocupantes en la sala de estar o comedor de al menos 2 ho-\nras continuas de lunes a viernes y de al menos 4 horas continuas los sábados y los domin-\ngos;\nv) estancias de cada ocupante de media hora continua al día en uno de los baños. Si el siste-\nma de ventilación es sensible a la presencia de los ocupantes en los baños o aseos, 2 es-\ntancias breves diarias de cada ocupante de 5 minutos a alguno de ellos. Estas estancias\nbreves puede considerarse que no interrumpen la continuidad de la estancia en la sala de\nestar o comedor;\nvi) el resto de horas de ocupación se distribuyen entre los locales habitables de la vivienda con-\nforme a las necesidades consideradas en cada caso;\nd)\npuertas de las distintas estancias cerradas.\n3\nSi no se dispone de valores de concentración de CO2 en el aire exterior en el emplazamiento del\nedificio, se considera una media anual de 400 ppm.\n4\nEn ausencia de datos climáticos representativos en el emplazamiento del edificio, puede emplearse\nel clima de referencia de la zona climática según el apéndice B del DB HE1.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB HE1",
+  "apartado 2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

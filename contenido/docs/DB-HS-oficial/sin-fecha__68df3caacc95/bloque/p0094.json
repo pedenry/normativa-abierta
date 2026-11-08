@@ -1,0 +1,413 @@
+{
+ "documento": null,
+ "pagina": 94,
+ "etiqueta_impresa": "94",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.1,
+    36.2,
+    367.7,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HS Salubridad",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    257.6,
+    45.4,
+    354.1,
+    54.3
+   ],
+   "tipo": "texto",
+   "texto": "HS 4 Suministro de agua",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    795.4,
+    311.6,
+    805.7
+   ],
+   "tipo": "texto",
+   "texto": "94",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    79.3,
+    78.2,
+    281.5,
+    89.4
+   ],
+   "tipo": "texto",
+   "texto": "4.5.2.3\nCálculo del depósito de presión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    94.6,
+    541.5,
+    157.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara la presión máxima se adoptará un valor que limite el número de arranques y paradas del grupo\nde forma que se prolongue lo más posible la vida útil del mismo. Este valor estará comprendido en-\ntre 2 y 3 bar por encima del valor de la presión mínima.\n2\nEl cálculo de su volumen se hará con la fórmula siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    94.9,
+    158.1,
+    541.5,
+    250.2
+   ],
+   "tipo": "texto",
+   "texto": "Vn  =  Pb x Va / Pa\n(4.2)\nsiendo\nVn\nes el volumen útil del depósito de membrana;\nPb\nes la presión absoluta mínima;\nVa\nes el volumen mínimo de agua;\nPa\nes la presión absoluta máxima.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    260.6,
+    358.2,
+    271.8
+   ],
+   "tipo": "texto",
+   "texto": "4.5.3  Cálculo del diámetro nominal del reductor de presión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    277.1,
+    541.4,
+    299.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl diámetro nominal se establecerá aplicando los valores especificados en la tabla 4.5 en función\ndel caudal máximo simultáneo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    131.0,
+    303.0,
+    481.1,
+    322.2
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.5 Valores del diámetro nominal en función del caudal máximo simultáneo",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    134.9,
+    323.1,
+    448.6,
+    338.1
+   ],
+   "tipo": "texto",
+   "texto": "Diámetro nominal\nCaudal máximo simultáneo",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    304.9,
+    335.3,
+    316.9,
+    344.2
+   ],
+   "tipo": "texto",
+   "texto": "dm",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    316.9,
+    334.0,
+    464.1,
+    344.2
+   ],
+   "tipo": "texto",
+   "texto": "3/s\nm",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    464.1,
+    334.0,
+    476.2,
+    344.2
+   ],
+   "tipo": "texto",
+   "texto": "3/h",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    164.2,
+    348.0,
+    473.3,
+    356.9
+   ],
+   "tipo": "texto",
+   "texto": "15\n0,5\n1,8",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    164.2,
+    360.2,
+    473.3,
+    369.1
+   ],
+   "tipo": "texto",
+   "texto": "20\n0,8\n2,9",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    164.2,
+    372.4,
+    473.3,
+    381.3
+   ],
+   "tipo": "texto",
+   "texto": "25\n1,3\n4,7",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    164.2,
+    384.6,
+    473.3,
+    393.5
+   ],
+   "tipo": "texto",
+   "texto": "32\n2,0\n7,2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    164.2,
+    396.8,
+    473.3,
+    405.7
+   ],
+   "tipo": "texto",
+   "texto": "40\n2,3\n8,3",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    164.2,
+    409.0,
+    475.5,
+    417.9
+   ],
+   "tipo": "texto",
+   "texto": "50\n3,6\n13,0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    164.2,
+    421.2,
+    475.5,
+    430.1
+   ],
+   "tipo": "texto",
+   "texto": "65\n6,5\n23,0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    164.2,
+    433.4,
+    475.5,
+    442.3
+   ],
+   "tipo": "texto",
+   "texto": "80\n9,0\n32,0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    162.0,
+    445.6,
+    475.5,
+    454.5
+   ],
+   "tipo": "texto",
+   "texto": "100\n12,5\n45,0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    162.0,
+    457.8,
+    475.5,
+    466.7
+   ],
+   "tipo": "texto",
+   "texto": "125\n17,5\n63,0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    162.0,
+    470.0,
+    475.5,
+    478.9
+   ],
+   "tipo": "texto",
+   "texto": "150\n25,0\n90,0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    162.0,
+    482.2,
+    477.7,
+    491.1
+   ],
+   "tipo": "texto",
+   "texto": "200\n40,0\n144,0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    494.4,
+    477.7,
+    529.8
+   ],
+   "tipo": "texto",
+   "texto": "250\n75,0\n270,0\n2\nNunca se calcularán en función del diámetro nominal de las tuberías.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    70.9,
+    540.2,
+    409.9,
+    551.4
+   ],
+   "tipo": "texto",
+   "texto": "4.5.4 Dimensionado de los sistemas y equipos de tratamiento de agua",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 27,
+   "bbox": [
+    79.3,
+    561.7,
+    389.9,
+    572.9
+   ],
+   "tipo": "texto",
+   "texto": "4.5.4.1  Determinación del tamaño de los aparatos dosificadores",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    70.9,
+    578.1,
+    541.4,
+    675.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl tamaño apropiado del aparato se tomará en función del caudal punta en la instalación, así como\ndel consumo mensual medio de agua previsto, o en su defecto se tomará como base un consumo\nde agua previsible de 60 m3 en 6 meses, si se ha de tratar tanto el agua fría como el ACS, y de 30\nm3 en 6 meses si sólo ha de ser tratada el agua destinada a la elaboración de ACS.\n2\nEl límite de trabajo superior del aparato dosificador, en m3/h, debe corresponder como mínimo al\ncaudal máximo simultáneo o caudal punta de la instalación.\n3\nEl volumen de dosificación por carga, en m3, no debe sobrepasar el consumo de agua previsto en 6\nmeses.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    79.3,
+    686.2,
+    422.6,
+    697.3
+   ],
+   "tipo": "texto",
+   "texto": "4.5.4.2\nDeterminación del tamaño de los equipos de descalcificación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 30,
+   "bbox": [
+    70.9,
+    702.6,
+    361.4,
+    713.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe tomará como caudal mínimo 80 litros por persona y día.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

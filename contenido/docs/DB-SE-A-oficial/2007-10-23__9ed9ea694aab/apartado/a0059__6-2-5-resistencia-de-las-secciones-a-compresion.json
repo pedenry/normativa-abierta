@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0059",
+  "ruta_oficial": "6.2.5",
+  "ruta_semantica": "6.2.5 Resistencia de las secciones a compresión",
+  "titulo": "6.2.5 Resistencia de las secciones a compresión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.5 Resistencia de las secciones a compresión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 33,
+   "bbox": [
+    78.0,
+    243.2,
+    311.5,
+    254.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7b2c3517e8afe6db01bcf6c28a0fec903313ddc051e7986bbc1839bce06bc08f",
+   "literal": "6.2.5 Resistencia de las secciones a compresión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0065",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.5 Resistencia de las secciones a compresión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.2 Resistencia de las secciones 6.2.1 Bases / 6.2.5 Resistencia de las secciones a compresión",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "799bb022625a687f3ab4d6c07158cadca0d2cd79f68d9484be0ac27d88c024ba"
+ },
+ "paginas": [
+  33
+ ],
+ "etiquetas_impresas": [
+  "33"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.2.5 Resistencia de las secciones a compresión\n1\nLa resistencia de las secciones a compresión, Nc,Rd, será\na)\nla resistencia plástica de la sección bruta (ecuación 6.2) para las secciones de clases 1 a 3;\nb)\nla resistencia de la sección eficaz para las secciones de clase 4:\nyd\nef\nRd\n,\nu\nf\nA\nN\n⋅\n=\n(6.6)\n2\nSe descontará el área de los agujeros cuando no se dispongan los correspondientes tornillos o\ncuando se trate de agujeros rasgados o sobredimensionados.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0033.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

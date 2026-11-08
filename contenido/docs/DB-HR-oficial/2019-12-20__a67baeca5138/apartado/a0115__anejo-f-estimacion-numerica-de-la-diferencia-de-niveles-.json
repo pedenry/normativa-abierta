@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0115",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo F. Estimación numérica de la diferencia de niveles debido a la forma de la fachada",
+  "titulo": "Anejo F. Estimación numérica de la diferencia de niveles debido a la forma de la fachada",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo F. Estimación numérica de la diferencia de niveles debido a la forma de la fachada",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 65,
+   "bbox": [
+    70.9,
+    95.3,
+    542.3,
+    127.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "a458fb55d7d0c793a6372b093bebc2a7ce660f1514a1500318a735c3757a92cf",
+   "literal": "Anejo F. Estimación numérica de la diferencia de niveles debido a la forma de la fachada"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0029",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo F. Estimación numérica de la diferencia de niveles debido a la forma de la fachada",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. Estimación numérica de la diferencia de niveles debido a la forma de la fachada",
+   "seccion_estimada": "Anejo F. Estimación numérica de la diferencia de niveles debido a la forma de la fachada",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e9a476c802706e46426f5798690f31ae9407e6992d8efcbdd900f9034c21e255"
+ },
+ "paginas": [
+  65,
+  67
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo F. Estimación numérica de la diferencia de niveles debido a la forma de la fachada\nforma de la fachada\nTabla F.1 Diferencia de niveles debida a la forma de la fachada para las diferentes formas de la fachada y\ndistintas orientaciones de la fuente acústica\n∆Lfs\nen dB\n1\nplano de facha-\nda\n2\ngalería\n3\ngalería\n4\ngalería\n5\ngalería\nAbsorción acús-\ntica del techo\n(αm)\nNo se aplica\n≤0,3\n0,6\n≥0,9\n≤0,3\n0,6\n≥0,9\n≤0,3\n0,6\n≥0,9\n≤0,3\n0,6\n≥0,9\nLínea de mira\nsobre la fachada:\n<1,5 m\n0\n-1\n-1\n0\n-1\n-1\n0\n0\n0\n1\nNo se aplica\n1,5-2,5 m\n0\nNo se aplica\n-1\n0\n2\n0\n1\n3\n> 2,5 m\n0\n1\n1\n2\n2\n2\n3\n3\n4\n6\n∆Lfs\ndB\n6\nbalconada\n7\nbalconada\n8\nbalconada\n9\nterraza\nBarandilla abierta\nBarandilla\ncerrada\nAbsorción acús-\ntica del techo\n(m)\n≤0,3\n0,6\n≥0,9\n≤0,3\n0,6\n≥0,9\n≤0,3\n0,6\n≥0,9\n≤0,3\n0,6\n≥0,9\n≤0,3\n0,6\n≥0,9\nLínea de mira\nsobre la fachada:\n<1,5 m\n-1\n-1\n0\n0\n0\n1\n1\n1\n2\n1\n1\n1\n3\n3\n3\n1,5-2,5 m\n-1\n1\n3\n0\n2\n4\n1\n1\n2\n3\n4\n5\n5\n6\n7\n> 2,5 m\n1\n2\n3\n2\n3\n4\n1\n1\n2\n4\n4\n5\n6\n6\n7\nfuente de ruido\nabsorción del techo\naltura de la línea de mira\nplano de la fachada\nFigura F.1 Línea de mira sobre la fachada\n\nDocumento Básico HR - Protección frente al ruido\nHR G-1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0065_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0065.png",
+  "../figura/p0067.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

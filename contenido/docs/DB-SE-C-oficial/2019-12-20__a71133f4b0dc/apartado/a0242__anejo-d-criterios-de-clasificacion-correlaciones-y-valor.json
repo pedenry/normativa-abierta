@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0242",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo D. Criterios de clasificación, correlaciones y valores orientati- vos tabulados de referencia",
+  "titulo": "Anejo D. Criterios de clasificación, correlaciones y valores orientati- vos tabulados de referencia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo D. Criterios de clasificación, correlaciones y valores orientati- vos tabulados de referencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 118,
+   "bbox": [
+    70.9,
+    75.0,
+    524.8,
+    105.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d2284b80f466fbc1e5360da35e4d9513e4b439bedb82e492f26d7838fafc4544",
+   "literal": "Anejo D. Criterios de clasificación, correlaciones y valores orientati- vos tabulados de referencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0272",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo D. Criterios de clasificación, correlaciones y valores orientati- vos tabulados de referencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D. Criterios de clasificación, correlaciones y valores orientati- vos tabulados de referencia",
+   "seccion_estimada": "Anejo D. Criterios de clasificación, correlaciones y valores orientati- vos tabulados de referencia",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dabb9fe0a2bfe25e786c94713374b8708fd72c69504d8ae9dc9dff96409ecac0"
+ },
+ "paginas": [
+  118
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo D. Criterios de clasificación, correlaciones y valores orientati- vos tabulados de referencia\nvos tabulados de referencia",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0118.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0243"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

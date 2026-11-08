@@ -1,0 +1,98 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0197",
+  "ruta_oficial": "11",
+  "ruta_semantica": "Fragmento de PDF p125",
+  "titulo": "11 Tolerancias 11.1 Tolerancias de fabricación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p125",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p125",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "11 Tolerancias 11.1 Tolerancias de fabricación",
+   "seccion_estimada": "11 Tolerancias 11.1 Tolerancias de fabricación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "558eea5c50cd51ee25e75a872ef8f591f8a887a3891d3b766b84e5aa6f10b391"
+ },
+ "paginas": [
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131
+ ],
+ "etiquetas_impresas": [
+  "125",
+  "126",
+  "127",
+  "128",
+  "129",
+  "130",
+  "131"
+ ],
+ "tipos": [
+  "notas",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "11 Tolerancias 11.1 Tolerancias de fabricación\n11.1 Tolerancias de fabricación\n1\nEn este capítulo se definen tipos de desviaciones geométricas correspondientes a estructuras de\nedificación, y los valores máximos admisibles para tales desviaciones, debiéndose identificar en el\npliego de condiciones los requisitos de tolerancia admitidos en el caso de ser diferentes a los aquí\nestablecidos.\n2\nEn general, al incorporar un elemento a un componente prefabricado, se le aplicarán las desviacio-\nnes correspondientes al producto completo.\nPerfiles en doble T soldados\nAltura del perfil:\n- para h≤900 mm                         ∆=±3 mm\n- para 900 mm<h≤900 mm          ∆=±5 mm\n- para h>1800 mm                       ∆=+8 mm -5 mm\nAnchura b1 o b2:\n- para b1<300 mm                       ∆=±3 mm\n- para b1≤300 mm                       ∆=±5 mm\nPosición del alma:                      ∆=±5 mm\nFalta de perpendicularidad:  ∆= el mayor de: 100\nb\ny 5 mm\nFalta de planeidad:                ∆= el mayor de: 100\nb\ny 3 mm\nNota: si la viga (de alma llena) va a utilizarse como una viga\ncarril, el ala o cabeza superior debe de tener una desviación\nmenor que ±1 mm sobre una anchura igual al ancho del carril\n+20 mm\n\nDocumentoBásico SE-A Acero\nSE-A-124\nSecciones en cajón\nDesviación ∆ en las anchuras de una chapa individual:\n- para b<300 mm                         ∆=±3 mm\n- para b≥300 mm                         ∆=±5 mm\nDiferencia entre distancias de diagonales nominalmente\nsimilares:\n∆=(d1-d2) con d1≥d2\n∆= el mayor de:\n\n\n\n\n\n\n\n\n\n\n\n\n+\nmm\n5\n400\nd\nd\n2\n1\nDesviación ∆ de la rectitud en el plano de la chapa:\n∆= el mayor de:\n\n\n\n\n\n\n\n\n\n\n\n\nmm\n3\n250\nb\nDesviación ∆ de la rectitud normal al plano de la chapa:\n∆= el mayor de:\n\n\n\n\n\n\n\n\n\n\n\n\nmm\n3\n500\nb\nDistorsión ∆ en la anchura de la chapa o longitud de refe-\nrencia:\n∆= el mayor de:\n\n\n\n\n\n\n\n\n\n\n\n\nmm\n3\n250\nb\n\nDocumentoBásico SE-A Acero\nSE-A-125\nComponentes estructurales\nLongitud medida en el eje central o en la esquina de\nun encuentro entre chapas:\n- longitud exacta: ∆=±(2+L/5000) en mm\n- componentes con ambos extremos acabados para\napoyo de contacto total incluyendo chapas de ex-\ntremo si procede: ∆=±1 mm\nPlaneidad en ambos ejes:\n∆= el mayor de:\n\n\n\n\n\n\n\n\n\n\n\n\nmm\n3\n1000\nL\nContraflecha f en el medio de la longitud medida\ncon la horizontal del alma:\n∆= el mayor de:\n\n\n\n\n\n\n\n\n\n\n\n\nmm\n6\n1000\nL\nPerpendicularidad al eje longitudinal:\n- No acabado para apoyo de contacto total:\n∆=±D/300\n- Acabado para apoyo de contacto total: ∆=±D/1000\nVerticalidad del alma en los soportes para compo-\nnentes sin rigidizadores de apoyo:\n∆= el mayor de:\n\n\n\n\n\n\n\n\n\n\n\n\nmm\n3\n300\nh\n\nDocumentoBásico SE-A Acero\nSE-A-126\nAlmas y rigidizadores\nLas desviaciones admitidas para la distorsión del alma, son aplicables también para la distorsión\ndel ala.\nDistorsión ∆ en la altura del alma o en la longitud de\nreferencia:\n∆= el mayor de: 150\nd\ny 3 mm\nDesviación ∆ de la rectitud en el plano del alma:\n∆= el mayor de: 250\nd\ny 3 mm\nDesviación ∆ de rectitud normal (perpendicular) al\nplano del alma:\n∆= el mayor de: 500\nd\ny 3 mm\nDesviación ∆ de la posición prevista: ∆=± 3 mm\nExcentricidad e entre un par de rigidizadores: e= t/2\nAgujeros y entalladuras, bordes y espesor de chapa en uniones atornilladas.\nLa desviación de un eje central de un agujero individual de su posición prevista dentro de un grupo\nde agujeros no será mayor de 2 mm Se podrá rectificar un agujero 0,5 mm como máximo para ser\nalineado.\nLa diferencia de espesor entre chapas que forman una sola capa, no debe ser superior a 2 mm en\ngeneral o 1 mm si se usan tornillos pretensados (véase figura), pudiéndose incorporar para su\ncumplimiento chapas de forro de acero de espesor no superior de 2 mm.\nTamaño de los agujeros en mm\n\nDocumentoBásico SE-A Acero\nSE-A-127\nTabla 11.1 Tamaño nominal de agujeros\nTipo de agujero\nM12\nM14\nM16 a M22\nM24\nM27 y mayor\nRedondo normal y en ranura\n(en anchura)\n1\n1\n2\n2\n3\nRedondo sobredimensionado\n3\n4\n4\n6\n8\nEn ranura cortos (en sentido\nlongitudinal de la pieza)\n4\n4\n6\n8\n10\nLa longitud nominal de los agujeros en ranura no debe ser superior a 2,5 veces el diámetro nominal del tornillo\nDesviación ∆ de un grupo de agujeros de su po-\nsición prevista:\n- dimensión a:                                    ∆=± 5 mm\n- dimensión b:                                    ∆=± 2 mm\n- dimensión c:                                    ∆=± 5 mm\n- dimensión d: cuando h≤1000 mm   ∆=± 5 mm\ncuando h>1000 mm    ∆=± 4 mm\nDesviación ∆ de las dimensiones principales de\nla entalladura:\n- dimensión d:                          ∆=± 2 mm-0 mm\n- dimensión l:                           ∆=± 2 mm-0 mm\nDesviación ∆ de un borde cortado de la forma a\n90º:                                                      ∆=+0,1 t\nEmpalmes y placas de asiento de pilares.\nLa excentricidad no intencionada de un pilar en un empalme o en una placa de asiento no superará\nel valor de 5 mm. Las desviaciones admitidas para las placas de asiento se aplicarán también a las\nplacas de capitel.\nComponentes de celosías\nLas desviaciones de los componentes de celosía fabricados no deben exceder los valores que se\ndan en la figura\nDesviaciones para la excentricidad de nudo en\ncomponentes de celosía fabricados:\n- dimensión del rectángulo(panel)  p:  ∆ = ± 5 mm\n- dimensión acumulada ∑p:  ∆ = ± 10 mm\n- rectitud del arriostramiento:\n∆= el mayor de:\n\n\n\n\n\n\n\n\n\n\n\n\nmm\n6\n500\nL\nDesviaciones para la excentricidad de nudo en\ncomponentes de celosía fabricados:\n- excentricidad en el nudo: ∆*=B/20+ 5 mm\n- B es la dimensión característica de la sección\ntransversal de arriostramiento.\n\nDocumentoBásico SE-A Acero\nSE-A-128\nDesviaciones para componentes de celosía fa-\nbricados de sección transversal total después del\nsoldeo:\nD: altura (canto)\nW: anchura\nX: diagonal\nD≤ 300 mm:                                ∆=± 3 mm\n300<D<1000 mm                        ∆=± 5 mm\nD≥ 1000 mm:                              ∆=± 10 mm\nY análogamente con respecto a W y X sustitu-\nyendo a D\n\nDocumentoBásico SE-A Acero\nSE-A-129",
+ "notas": [
+  "Nota: si la viga (de alma llena) va a utilizarse como una viga"
+ ],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0129_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0125.png",
+  "../figura/p0126.png",
+  "../figura/p0127.png",
+  "../figura/p0128.png",
+  "../figura/p0129.png",
+  "../figura/p0130.png",
+  "../figura/p0131.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0198"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

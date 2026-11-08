@@ -1,0 +1,109 @@
+{
+ "indice": 1,
+ "pagina": 65,
+ "etiqueta_impresa": "65",
+ "bbox": [
+  157.6,
+  85.0,
+  437.7,
+  106.1
+ ],
+ "filas": 2,
+ "columnas": 4,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Nivel de riesgo intrínseco",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Tipo A\nH",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Tipo B",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 3,
+   "texto": "Tipo C",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Riesgo alto.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "EI 120",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "EI 30",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 3,
+   "texto": "EI 30",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Nivel de riesgo intrínseco",
+  "Tipo A\nH",
+  "Tipo B",
+  "Tipo C"
+ ],
+ "header": {
+  "names": [
+   "Nivel de riesgo intrínseco",
+   "Tipo A\nH",
+   "Tipo B",
+   "Tipo C"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC020710>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC0222D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC020FE0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC023170>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC022750>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC0201D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC0236B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC022720>"
+  ]
+ ],
+ "notas_adyacentes": [
+  "Nota 5: Los ascensores que comuniquen sectores de incendio diferentes estarán\ncompartimentados. Los ascensores dispondrán en cada acceso, o bien de puertas E 30 o\nbien de un vestíbulo de independencia con una puerta EI2 30-C5. Cuando, considerando dos\nsectores, el más bajo sea un sector de riesgo bajo nivel 1, o bien si no lo es, se opte por\ndisponer en el más bajo tanto una puerta EI2 30-C5 de acceso al vestíbulo de independencia\ndel ascensor, como una puerta E 30 de acceso al ascensor, en el sector más alto no se\nprecisa ninguna de dichas medidas."
+ ],
+ "imagen_pagina": "figura/p0065.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

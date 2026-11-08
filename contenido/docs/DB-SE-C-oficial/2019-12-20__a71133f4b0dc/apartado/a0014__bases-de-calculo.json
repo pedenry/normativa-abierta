@@ -1,0 +1,123 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0014",
+  "ruta_oficial": null,
+  "ruta_semantica": "Bases de cálculo",
+  "titulo": "Bases de cálculo",
+  "nivel": 1,
+  "parent_id": "a0010",
+  "seccion_estimada": "Bases de cálculo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 6,
+   "bbox": [
+    70.9,
+    82.0,
+    227.7,
+    96.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7eb80e295b3854b373a85146a2df74e026d4e7ca17fa7ec2532b4e8ba81edf6d",
+   "literal": "Bases de cálculo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0010",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Bases de cálculo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0010",
+   "ruta_semantica": "Anejo G. Normas de referencia / Bases de cálculo",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b8ab9ab712bf28726ac2839332b61c032926f9ecee59cd2c27fe949f8628512e"
+ },
+ "paginas": [
+  6
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Bases de cálculo\n2.1\nGeneralidades\n1\nEste apartado se refiere a los aspectos propios de la cimentación, como complemento a los princi-\npios y reglas establecidos con carácter general en DB-SE.\n2\nEl comportamiento de la cimentación debe comprobarse frente a la capacidad portante (Resistencia\ny estabilidad) y la aptitud al servicio. A estos efectos se distinguirá, respectivamente, entre estados\nlímite últimos y estados límite de servicio.\n3\nLas comprobaciones de la capacidad portante y de la aptitud al servicio de la cimentación se efec-\ntuarán para las situaciones de dimensionado que sean pertinentes.\n4\nSe tendrán en cuenta los efectos que, dependiendo del tiempo, pueden afectar a la capacidad por-\ntante o aptitud de servicio la cimentación comprobando su comportamiento frente a:\na)\nacciones físicas o químicas que pueden conducir a procesos de deterioro;\nb)\ncargas variables repetidas que puedan conducir a mecanismos de fatiga del terreno;\nc)\nlas verificaciones de los estados límites de la cimentación relacionados con los efectos que\ndependen del tiempo deben estar en concordancia con el periodo de servicio de la construc-\nción.\n5\nLas situaciones de dimensionado de la cimentación se seleccionarán para todas las circunstancias\nigualmente probables en las que la cimentación tengan que cumplir su función, teniendo en cuenta\nlas características de la obra y las medidas adoptadas para atenuar riesgos o asegurar un adecua-\ndo comportamiento tales como las actuaciones sobre el nivel freático.\n6\nLas situaciones de dimensionado se clasifican en:\na)\nsituaciones persistentes, que se refieren a las condiciones normales de uso;\nb)\nsituaciones transitorias, que se refieren a unas condiciones aplicables durante un tiempo limi-\ntado, tales como situaciones sin drenaje o de corto plazo durante la construcción;\nc)\nsituaciones extraordinarias, que se refieren a unas condiciones excepcionales en las que se\npuede encontrar, o a las que puede estar expuesto el edificio, incluido el sismo.\n7\nLas condiciones que aseguren el buen comportamiento de los cimientos se deben mantener duran-\nte la vida útil del edificio, teniendo en cuenta la evolución de las condiciones iniciales y su interac-\nción con la estructura\n8\nLo indicado en este capítulo para las cimentaciones de los edificios es análogamente de aplicación\na los elementos de contención, con las particularidades que se indican en el capítulo 6.\n2.2",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

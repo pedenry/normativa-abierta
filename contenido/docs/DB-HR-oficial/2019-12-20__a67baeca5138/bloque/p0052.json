@@ -1,0 +1,179 @@
+{
+ "documento": null,
+ "pagina": 52,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    215.0,
+    35.9,
+    396.9,
+    46.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HR - Protección frente al ruido",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    290.7,
+    797.1,
+    323.7,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "HR A-10",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.3,
+    411.2,
+    93.8
+   ],
+   "tipo": "texto",
+   "texto": "Nivel de potencia acústica, LW: Se define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.7,
+    107.1,
+    136.4,
+    122.7
+   ],
+   "tipo": "texto",
+   "texto": "0\nW\nW",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    72.2,
+    95.5,
+    541.5,
+    113.1
+   ],
+   "tipo": "texto",
+   "texto": "W\nlg\n10\nL\n\n=\n     [dB]\n(A.20)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    124.2,
+    541.4,
+    273.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nW\npotencia acústica considerada, [W];\nW0\npotencia acústica de referencia, de valor 10-12 W.\nNivel de presión de ruido de impactos estandarizado, L’nT: Nivel de presión sonora medio, en dB, en\nel recinto receptor normalizado a un tiempo de reverberación de 0,5 s, cuando el elemento constructivo\nde separación respecto al recinto emisor es excitado por la máquina de impactos normalizada. Es fun-\nción de la frecuencia.\nSe define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    80.0,
+    286.6,
+    149.2,
+    302.2
+   ],
+   "tipo": "texto",
+   "texto": "0\nnT\nT",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    72.2,
+    275.0,
+    541.5,
+    292.6
+   ],
+   "tipo": "texto",
+   "texto": "T\nlg\n10\nL\n'L\n\n−\n=\n     [dB]\n(A.21)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    303.8,
+    541.4,
+    475.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nL\nnivel medio de presión sonora en el recinto receptor, [dB];\nT\ntiempo de reverberación del recinto receptor, [s];\nT0\ntiempo de reverberación de referencia; su valor es T0=0,5 s.\nNivel de presión de ruido de impactos normalizado de un elemento constructivo horizontal, Ln:\nNivel de presión sonora medio en el recinto receptor referido a una absorción de 10 m2, con el elemento\nconstructivo horizontal montado como elemento de separación respecto al recinto superior. Tal elemento\nes excitado por la máquina de impactos normalizada, en condiciones de ensayo en laboratorio (carencia\nde transmisiones indirectas). Es función de la frecuencia.\nSe define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    72.2,
+    477.6,
+    541.5,
+    503.2
+   ],
+   "tipo": "texto",
+   "texto": "10\nA\nlg\n10\nL\nLn\n\n+\n=\n     [dB]\n(A.22)",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    514.7,
+    541.4,
+    698.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nL\nnivel medio de presión de ruido de impactos en el recinto receptor, [dB];\nA\nárea de absorción equivalente del recinto receptor, [m2].\nNivel global de presión de ruido de impactos normalizado medido in situ, L’n,w: Es el valor a 500 Hz\nde la curva de referencia ajustada a los valores experimentales de nivel de presión de ruido de impactos\nnormalizado, L’n. Si los niveles experimentales están dados para bandas de octava, el valor a 500 Hz se\nreduce en 5 dB.\nNivel de presión de ruido de impactos normalizado medido in situ, L’n: Es el nivel de presión sonora\nmedio en el recinto receptor normalizado a una absorción acústica de 10 m2, cuando el elemento cons-\ntructivo de separación respecto al recinto superior es excitado por la máquina de impactos normalizada.\nEs función de la frecuencia.\nSe define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    72.2,
+    700.1,
+    541.5,
+    725.7
+   ],
+   "tipo": "texto",
+   "texto": "10\nA\nlg\n10\nL\n'L n\n\n+\n=\n     [dB]\n(A.23)",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    725.7,
+    103.2,
+    759.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

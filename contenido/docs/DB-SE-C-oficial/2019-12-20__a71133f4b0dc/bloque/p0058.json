@@ -1,0 +1,375 @@
+{
+ "documento": null,
+ "pagina": 58,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-53",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    116.9
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn los casos en los que este aspecto no resulte crítico, los asientos se calcularán tanto para el pilo-\nte aislado como teniendo en cuenta el efecto grupo, debiéndose cumplir que los valores así estima-\ndos deben ser menores que los límites admisibles para los estados límite de servicio. En el anejo\nF2.6. se indica un método para la estimación de asientos en pilotes.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    128.4,
+    231.9,
+    138.4
+   ],
+   "tipo": "texto",
+   "texto": "5.3.7.2 Movimientos horizontales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    144.0,
+    541.3,
+    229.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLos movimientos horizontales deben estudiarse en aquellos casos en los que se analice el compor-\ntamiento de los pilotes frente a esfuerzos horizontales.\n2\nSi el movimiento horizontal de la cimentación pilotada resulta ser un aspecto crítico del problema en\nestudio, será conveniente hacer pruebas de campo para estimarlos.\n3\nSe comprobará que los movimientos horizontales sean inferiores a los límites admisibles para los\nestados límite de servicio. En el anejo F.2.7. se indica un método simplificado para su estimación,\ndistinguiendo entre pilote aislado y efecto grupo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    250.7,
+    285.1,
+    262.7
+   ],
+   "tipo": "titulo",
+   "texto": "5.3.8 Consideraciones estructurales",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    267.4,
+    538.5,
+    288.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn el análisis de los estados límite últimos se tendrá en cuenta que las acciones en el pilote pue-\nden llegar a provocar el agotamiento de la capacidad estructural de su sección resistente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    300.2,
+    187.5,
+    310.2
+   ],
+   "tipo": "texto",
+   "texto": "5.3.8.1 Tope estructural",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    315.7,
+    541.3,
+    447.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl tope estructural o carga nominal es el valor de cálculo de la capacidad resistente del pilote. Se\ndebe comprobar que, la solicitación axil sobre cada pilote, no supere este tope. Como tales solicita-\nciones deben compararse con los valores de los efectos de las acciones definidos en el apartado\n2.3.2.2.\n2\nEl tope estructural depende de:\na)\nla sección transversal del pilote;\nb)\nel tipo de material del pilote;\nc)\nel procedimiento de ejecución;\nd)\nel terreno.\n3\nLos valores del tope estructural se adoptarán de acuerdo con la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    94.3,
+    454.0,
+    542.4,
+    465.5
+   ],
+   "tipo": "texto",
+   "texto": "Qtope =  . A\n(5.14)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.6,
+    473.0,
+    125.9,
+    483.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.6,
+    486.8,
+    288.1,
+    526.4
+   ],
+   "tipo": "texto",
+   "texto": "\nla tensión del pilote (tabla 5.1)\nA\nel área de la sección transversal",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    152.4,
+    530.7,
+    459.6,
+    539.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 5.1. Valores recomendados para el tope estructural de los pilotes",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    78.7,
+    546.7,
+    492.2,
+    557.1
+   ],
+   "tipo": "texto",
+   "texto": "Procedimiento\nTipo de pilote\nValores de  (Mpa)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    101.4,
+    589.8,
+    141.5,
+    598.8
+   ],
+   "tipo": "texto",
+   "texto": "Hincados",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    168.7,
+    565.2,
+    485.0,
+    574.2
+   ],
+   "tipo": "texto",
+   "texto": "Hormigón pretensado o postesado\n0,30 (fck – 0,9 fp)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    168.7,
+    581.7,
+    466.5,
+    590.7
+   ],
+   "tipo": "texto",
+   "texto": "Hormigón armado\n0,30 fck",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    168.7,
+    598.0,
+    466.5,
+    607.0
+   ],
+   "tipo": "texto",
+   "texto": "Metálicos\n0,30 fyk",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    168.7,
+    614.3,
+    454.8,
+    623.3
+   ],
+   "tipo": "texto",
+   "texto": "Madera\n5",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    78.7,
+    630.9,
+    482.8,
+    640.1
+   ],
+   "tipo": "texto",
+   "texto": "Tipo de apoyo",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    78.7,
+    647.3,
+    496.1,
+    656.5
+   ],
+   "tipo": "texto",
+   "texto": "Suelo firme\nRoca",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    94.6,
+    696.4,
+    147.6,
+    706.1
+   ],
+   "tipo": "texto",
+   "texto": "Perforados(1)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    168.7,
+    664.3,
+    487.7,
+    673.3
+   ],
+   "tipo": "texto",
+   "texto": "Entubados\n5\n6",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    168.7,
+    680.7,
+    487.7,
+    689.7
+   ],
+   "tipo": "texto",
+   "texto": "Lodos\n4\n5",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    168.7,
+    697.1,
+    487.7,
+    706.1
+   ],
+   "tipo": "texto",
+   "texto": "En seco\n4\n5",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    168.7,
+    713.4,
+    486.6,
+    722.4
+   ],
+   "tipo": "texto",
+   "texto": "Barrenados sin control de parámetros\n3,5\n-",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    168.7,
+    729.7,
+    486.6,
+    738.7
+   ],
+   "tipo": "texto",
+   "texto": "Barrenados con control de parámetros\n4\n-",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    79.4,
+    745.5,
+    538.8,
+    763.5
+   ],
+   "tipo": "texto",
+   "texto": "(1) Con un control adecuado de la integridad, los pilotes perforados podrán ser utilizados con topes estructurales un 25% mayo-\nres.",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

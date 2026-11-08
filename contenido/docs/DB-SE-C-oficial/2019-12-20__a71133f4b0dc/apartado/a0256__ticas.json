@@ -1,0 +1,74 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0256",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p145",
+  "titulo": "ticas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p145",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p145",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "30 < IP < 50 / ticas",
+   "seccion_estimada": "30 < IP < 50",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "62836cf4d9cc5939adad2a116979e83f3faaed2273bc55fb637dac698ec8950f"
+ },
+ "paginas": [
+  145,
+  146
+ ],
+ "etiquetas_impresas": [
+  null,
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "ticas\n1\nCuando se utilizan métodos basados en la teoría de la plasticidad, y para la obtención aproximada\nde la resistencia unitaria por punta y por fuste, se tendrá en cuenta si se trata de suelos granulares\no suelos finos.\nF.2.1.1 Suelos granulares\n1\nLa resistencia unitaria de hundimiento por punta de pilotes en suelos granulares se podrá estimar\ncon la expresión siguiente:\nqp = fp· ’vp ·Nq 20 MPa\n(F.30)\nsiendo\nfp = 3\npara pilotes hincados;\nfp = 2,5\npara pilotes hormigonados in situ;\n'vp\nla presión vertical efectiva al nivel de la punta antes de instalar el pilote;\nNq\nel factor de capacidad de carga definido por la expresión\ne\n.\nsen\n- 1\nsen\n+\n1\ntg\n\n\n\n\n, donde  es el\nángulo de rozamiento interno del suelo.\n2\nDada la dificultad de obtener muestras inalteradas de suelos granulares, para hallar el valor de  en\nlaboratorio, se recomienda proceder a su determinación mediante correlaciones con ensayos”in si-\ntu” de penetración debidamente contrastadas (véase tablas 4.1 y 4.2, figuras D.1 y D.2).\n\nDocumento Básico SE-C Cimientos\nSE-C-141\n3\nLa resistencia unitaria por fuste en suelos granulares se podrá estimar con la expresión siguiente:\nkPa\n120\ntg\nf\nk f\n'\nv\nf\n\n\n\n\n\n\n\n\n(F.31)\nsiendo\n'v\nla presión vertical efectiva al nivel considerado;\nKf\nel coeficiente de empuje horizontal;\nf\nel factor de reducción del rozamiento del fuste;\n\nel ángulo de rozamiento interno del suelo granular.\n4\nPara pilotes hincados se tomará Kf = 1 y para pilotes perforados se tomará Kf = 0,75. Para pilotes\nhíbridos, ejecutados con ayudas que reducen el desplazamiento del terreno, se tomará un valor in-\ntermedio en función de la magnitud de esa ayuda.\n5\nPara pilotes de hormigón \"in situ\" o de madera se tomará f=1. Para pilotes prefabricados de hormi-\ngón se tomará f = 0,9 y para pilotes de acero en el fuste se tomará f = 0,8.\nF.2.1.2 Suelos finos\n1\nLa carga de hundimiento de pilotes verticales en suelos limosos o arcillosos, evaluada mediante\nfórmulas estáticas, debe calcularse en dos situaciones que corresponden al hundimiento sin drenaje\no a corto plazo y el hundimiento con drenaje o a largo plazo.\n2\nLa resistencia unitaria de hundimiento por punta a corto plazo se podrá obtener mediante la expre-\nsión siguiente:\nqp  = Np cu\n(F.32)\nsiendo\ncu\nla resistencia al corte sin drenaje del suelo limoso o arcilloso, teniendo en cuenta la pre-\nsión de confinamiento al nivel de la punta (entorno comprendido entre dos diámetros por\nencima y dos diámetros por debajo de ella) obtenida en célula triaxial o, en su caso, en-\nsayo de compresión simple.\nNp\ndepende del empotramiento del pilote, pudiéndose adoptar un valor igual a 9.\n3\nLa resistencia unitaria de hundimiento por fuste a corto plazo será:\n)\nkPa\nen\nc\ny\n(\nc\n100\nc\n100\nu\nf\nu\nu\nf\n\n\n\n\n(F.33)\n4\nEn pilotes con fuste de acero en suelos finos, el valor de f a corto plazo se afectará por un coefi-\nciente reductor de 0,8.\n5\nPara determinar la resistencia de hundimiento a largo plazo, se utilizará el ángulo de rozamiento\nefectivo deducido de los ensayos de laboratorio, despreciando el valor de la cohesión. Para ello se\nutilizarán las expresiones (F.30) y (F.31) correspondientes a suelos granulares.\n6\nLa resistencia unitaria por fuste a largo plazo f no superará, salvo justificación, al valor límite de 0,1\nMPa.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0145.png",
+  "../figura/p0146.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

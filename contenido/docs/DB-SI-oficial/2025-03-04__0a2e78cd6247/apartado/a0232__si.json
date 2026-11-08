@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0232",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p86",
+  "titulo": "SI",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p86",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p86",
+  "referencias_filtradas": [
+   "DBSI",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo SI G Normas relacionadas con la aplicación del DB SI / SI",
+   "seccion_estimada": "Anejo SI G Normas relacionadas con la aplicación del DB SI",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fbd1bbb85786cd2a89eb73d940d920c466a33eef58b21ab3af19a702d9d5d176"
+ },
+ "paginas": [
+  86
+ ],
+ "etiquetas_impresas": [
+  "86"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "SI\n1\nReacción al fuego\n2\nResistencia al fuego y Eurocódigos\n3\nInstalaciones para control del humo y del calor (Especificaciones)\n4\nHerrajes y dispositivos de apertura para puertas resistentes al fuego\n5\nSeñalización\n6\nOtras materias\nEste anejo recoge la referencia completa de las normas citadas en el articulado del DBSI, dichas normas\nestán señaladas en este anejo con un asterisco. Además, a título informativo, se recogen otras normas\nrelacionadas con la aplicación del DBSI.\n1\nReacción al fuego\nUNE-EN 1021\nMobiliario. Valoración de la inflamabilidad del mobiliario tapi-\nzado\n*UNE-EN 1021-1:2015\nParte 1: fuente de ignición: cigarrillo en combustión.\n*UNE-EN 1021-2:2015\nParte 2: Fuente de ignición: llama equivalente a una cerilla.\nUNE-EN 1101:1996\nTextiles y productos textiles. Comportamiento al fuego. Cortinas y\nCortinajes. Procedimiento detallado para determinar la inflamabili-\ndad de probetas orientadas verticalmente (llama pequeña).\n(+UNE-EN 1101:1996/A1: 2005)\nUNE-EN 13501\nClasificación en función del comportamiento frente al fuego\nde los productos de construcción y elementos para la edifica-\nción\nUNE-EN 13501-1:2007+A1:2010\nParte 1: Clasificación a partir de datos obtenidos en ensayos de\nreacción al fuego.\nUNE-EN 13501-5:2019\nParte 5: Clasificación a partir de datos obtenidos en ensayos de\ncubiertas ante la acción de un fuego exterior.\n*UNE-EN 14115:2002\nTextiles. Comportamiento al fuego de materiales para carpas,\ntiendas de campaña de grandes dimensiones y productos relacio-\nnados. Facilidad de ignición.\nUNE-EN 13772:2011\nTextiles y productos textiles. Comportamiento al fuego. Cortinas y\nCortinajes. Medición de la propagación de la llama de probetas\norientadas verticalmente frente a una fuente de ignición de llama\ngrande.\n*UNE-EN 13773:2003\nTextiles y productos textiles. Comportamiento al fuego. Cortinas y\ncortinajes. Esquema de clasificación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DBSI",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

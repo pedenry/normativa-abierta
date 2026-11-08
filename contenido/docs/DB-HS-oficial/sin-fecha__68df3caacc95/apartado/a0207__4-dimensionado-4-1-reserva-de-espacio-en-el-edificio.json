@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0207",
+  "ruta_oficial": "4",
+  "ruta_semantica": "Fragmento de PDF p90",
+  "titulo": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p90",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p90",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6a0b593c4452900c8cfe3a54bdfb85fb5a165b5ff9c66d17f2f59eb0b2187126"
+ },
+ "paginas": [
+  90
+ ],
+ "etiquetas_impresas": [
+  "90"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4 Dimensionado 4.1 Reserva de espacio en el edificio\n4.1 Reserva de espacio en el edificio\n1\nEn los edificios dotados con contador general único se preverá un espacio para un armario o una\ncámara para alojar el contador general de las dimensiones indicadas en la tabla 4.1.\nTabla 4.1 Dimensiones del armario y de la arqueta para el contador general\nDimensiones en\nmm\nDiámetro nominal del contador en mm\nArmario\nCámara\n15\n20\n25\n32\n40\n50\n65\n80\n100\n125\n150\nLargo\n600\n600\n900\n900\n1300\n2100\n2100\n2200\n2500\n3000\n3000\nAncho\n500\n500\n500\n500\n600\n700\n700\n800\n800\n800\n800\nAlto\n200\n200\n300\n300\n500\n700\n700\n800\n900\n1000\n1000",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0090_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0090.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0208",
+  "a0211",
+  "a0212",
+  "a0216"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

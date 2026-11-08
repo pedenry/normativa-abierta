@@ -1,0 +1,244 @@
+{
+ "documento": null,
+ "pagina": 24,
+ "etiqueta_impresa": "4",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-20",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.4,
+    250.0
+   ],
+   "tipo": "texto",
+   "texto": "4\nSe considerarán bordes libres los de huecos con altura libre mayor que 1/4 de la altura de piso, o\nanchura libre mayor que 1/4 de la longitud del muro, o área mayor de 1/10 de la del muro.\n5\nLa altura de cálculo, hd, de un paño de muro de altura h, longitud L, y grueso t, puede determinarse a\npartir de lo establecido en el Anejo E. De manera simplificada es:\na)  Para un muro arriostrado sólo en cabeza y base, (caso 1),  hd = h. Si se arriostra mediante forjados\nde hormigón armado con una entrega de al menos 2t/3 y 85 mm, y la excentricidad de la compresión\nen cabeza es menor de 0,25 t, (caso 2) puede tomarse hd = 0,75·h\nb)  Un muro, de espesor t, arriostrado en un sólo borde vertical, con L ≥ 15 t, o en los dos bordes\nverticales con L ≥ 30 t, se tratará como muro arriostrado sólo en cabeza y base.\nc)\nEn los muros arriostrados en la cabeza y pie, y en uno o dos bordes verticales, el valor es el de\nla tabla 5.1, función del caso de los bordes horizontales.\nd)  Para un muro libre en cabeza hd= 2·h. Si está arriostrado en algún borde vertical, el valor será el\ndoble del establecido en la tabla 5.1 según corresponde, para el caso 1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    110.5,
+    253.3,
+    504.4,
+    263.3
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 5.1 Valores de hd/h para paños arriostrados en al menos los dos bordes horizontales",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    275.5,
+    267.8,
+    518.2,
+    275.8
+   ],
+   "tipo": "texto",
+   "texto": "h/L\n0\n1\n2\n3\n5",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    76.3,
+    280.6,
+    525.9,
+    295.0
+   ],
+   "tipo": "texto",
+   "texto": "y un borde vertical\ncaso 1\n1,00\n0,90\n0,70\n0,50\n0,30",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    269.8,
+    293.2,
+    525.9,
+    301.3
+   ],
+   "tipo": "texto",
+   "texto": "caso 2\n0,75\n0,75\n0,70\n0,60\n0,50",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    76.3,
+    305.9,
+    525.9,
+    320.3
+   ],
+   "tipo": "texto",
+   "texto": "y los dos bordes verticales\ncaso 1\n1,00\n0,50\n0,25\n0,18\n0,10",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    269.8,
+    318.6,
+    525.9,
+    326.7
+   ],
+   "tipo": "texto",
+   "texto": "caso 2\n0,75\n0,50\n0,25\n0,18\n0,10",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    365.3,
+    249.9,
+    375.2
+   ],
+   "tipo": "texto",
+   "texto": "5.2.5 Espesor de cálculo de un muro",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    382.0,
+    541.4,
+    444.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl espesor de cálculo, td, de un muro de una hoja, doblado, o de tendel hueco, es el real, o si es\npreciso descontar rozas o rebajes, el residual.\n2\nCuando el espesor residual del muro sea menor que la mitad de su espesor real, ese borde se con-\nsiderará libre a efectos de determinar la altura eficaz.\n3\nEn un muro capuchino con ambas hojas enlazadas según el apartado 8.2 el espesor eficaz es :",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    95.4,
+    452.1,
+    541.4,
+    466.0
+   ],
+   "tipo": "texto",
+   "texto": "3\n3\n2\n3\n1\nd\nt·\nk\nt\nt\n\n\n(5.14)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    93.6,
+    472.6,
+    541.4,
+    523.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nt1, t2  los espesores de las hojas, siendo t1, el de la hoja cargada, tomando t2 no mayor que t1.\nk\nla relación del módulo de elasticidad de la hoja descargada respecto al de la cargada, pero no\nmayor que 1,0",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    534.4,
+    199.3,
+    544.3
+   ],
+   "tipo": "texto",
+   "texto": "5.2.6 Esbeltez de un muro",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    550.4,
+    526.2,
+    561.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa esbeltez geométrica, de un muro es la relación: hd/td.  Esta relación no será mayor que 27.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    573.1,
+    203.3,
+    583.1
+   ],
+   "tipo": "texto",
+   "texto": "5.2.7 Cargas concentradas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    589.8,
+    541.4,
+    673.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn todo muro que esté solicitado por una carga concentrada, (figura 5.7), la tensión de cálculo alcan-\nzada sobre la superficie de aplicación no será mayor que la resistencia de cálculo del material en el\nque apoya.\n2\nEn un muro realizado con ladrillo macizo siempre que no sea de tendeles huecos, la resistencia de\ncálculo a compresión de la superficie de aplicación se puede incrementar por un factor . El valor de\n puede tomarse, de manera simplificada, de la ecuación (5.15), o de la formulación indicada en el\nAnejo F.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    677.1,
+    541.4,
+    746.5
+   ],
+   "tipo": "texto",
+   "texto": " = (1,1 + a/h ) < 1,4\n(5.15)\ndonde:\na\nla distancia del borde del área cargada al borde vertical del muro más próximo);\nh\nla altura del paño hasta el nivel en que se aplica la carga.\n3\nLa excentricidad de la carga en su acometida al muro no será mayor de t/4.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

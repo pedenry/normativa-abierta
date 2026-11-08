@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0078",
+  "ruta_oficial": null,
+  "ruta_semantica": "D.8 Medidas",
+  "titulo": "D.8 Medidas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "D.8 Medidas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 45,
+   "bbox": [
+    70.9,
+    135.7,
+    144.3,
+    147.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1b953db4671c597702d87b566c1a0d7c78056353104002dfaa547f3ef116a4ea",
+   "literal": "D.8 Medidas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.8 Medidas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.8 Medidas",
+   "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7e3f4c4ef3887dbdb775b74b5287974e28e206fb7dced83ca5f7a1b955f0a405"
+ },
+ "paginas": [
+  45
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "D.8 Medidas\nD.8.1 Medidas de aseguramiento estructural\n1\nEn el momento en el que la evaluación realizada así lo aconseje, especialmente en los casos en los\nque no se pueda demostrar una seguridad adecuada, se adoptarán medidas de aseguramiento es-\ntructural del edificio, tales como la restricción del uso del mismo, el apeo provisional de elementos\nestructurales, la puesta fuera de servicio y cierre de la obra o la evacuación de las zonas que pudie-\nran estar afectadas por un posible derrumbe, según corresponda. El objetivo de las medidas de\naseguramiento será primordialmente la protección inmediata de las personas o del medio ambiente.\nD.8.2 Medidas técnico-administrativas\n1\nEn función de los resultados obtenidos en una evaluación y para controlar, modificar o atenuar los\nriesgos de origen estructural, puede resultar adecuada la adopción de medidas técnico – adminis-\ntrativas como el control (permanente o periódico) del comportamiento estructural o de las condicio-\nnes de utilización, la limitación en la utilización del edificio, la instalación de dispositivos automáticos\nde aviso o de control activo, la puesta a punto de medidas de emergencia o la introducción de es-\nquemas de evacuación. Dichas medidas se establecerán para cada caso, teniendo en cuenta la im-\nportancia de la obra, el riesgo para las personas o para el medio ambiente, el modo de rotura previ-\nsible (dúctil o frágil), las posibilidades de control y limitación de los daños, las distintas alternativas\ntécnicamente viables y el costo absoluto o relativo al incremento de seguridad.\nD.8.3 Medidas constructivas.\n1\nSegún los resultados de la evaluación, puede resultar necesaria la adopción de medidas constructi-\nvas que incrementen la seguridad estructural de forma que se cumplan las exigencias acordes con\nlos objetivos establecidos para el periodo de servicio futuro, tales como el incremento o reducción\nde la resistencia de elementos o de secciones, de la rigidez o de la masa, el incremento de la capa-\ncidad de deformación, la instalación de amortiguadores o el cambio del sistema estático.\n2\nLos elementos de refuerzo de una estructura se dimensionarán según las especificaciones para el\ndimensionado estructural de edificios de nueva construcción. Alternativamente, las verificaciones re-\nlativas a los elementos de refuerzo se podrán basar en una aplicación directa de los métodos de\nanálisis de la seguridad.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,80 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0149",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p70",
+  "titulo": "Dimensionado 4.1 Aberturas de ventilación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p70",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p70",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS3 / 3.2 Condiciones particulares de los elementos / Dimensionado 4.1 Aberturas de ventilación",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0f10ba2bd7b491baae8eee75728fdaf64416092853641bdb9906b34b8dfd7143"
+ },
+ "paginas": [
+  70,
+  71
+ ],
+ "etiquetas_impresas": [
+  "70",
+  "71"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Dimensionado 4.1 Aberturas de ventilación\n4.1 Aberturas de ventilación\n1\nEl área efectiva total de las aberturas de ventilación de cada local debe ser como mínimo la mayor\nde las que se obtienen mediante las fórmulas que figuran en la tabla 4.1.\nTabla 4.1 Área efectiva de las aberturas de ventilación de un local en cm2\nAberturas\nde ventila-\nAberturas de admisión\n4·qv ó\n4·qva\nAberturas de extracción\n4·qv ó\n4·qve\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n71\nAberturas de paso\n70 cm2 ó\n8·qvp\nAberturas mixtas (1)\n8·qv\n(1) El área efectiva total de las aberturas mixtas de cada zona opuesta de fachada y de la zona equidistante debe ser co-\nmo mínimo el área total exigida.\nsiendo\nqv\ncaudal de ventilación mínimo exigido del local [l/s], obtenido de las tablas 2.1 o 2.2 o del\ncálculo realizado para cumplir la exigencia.\nqva\ncaudal de ventilación correspondiente a cada abertura de admisión del local calculado por\nun procedimiento de equilibrado de caudales de admisión y de extracción y con una hipó-\ntesis de circulación del aire según la distribución de los locales, [l/s].\nqve\ncaudal de ventilación correspondiente a cada abertura de extracción del local calculado por\nun procedimiento de equilibrado de caudales de admisión y de extracción y con una hipó-\ntesis de circulación del aire según la distribución de los locales, [l/s].\nqvp\ncaudal de ventilación correspondiente a cada abertura de paso del local calculado por un\nprocedimiento de equilibrado de caudales de admisión y de extracción y con una hipótesis\nde circulación del aire según la distribución de los locales, [l/s].",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0070_t01.json",
+  "../tabla/p0071_t01.json",
+  "../tabla/p0071_t02.json",
+  "../tabla/p0071_t03.json"
+ ],
+ "figuras": [
+  "../figura/p0070.png",
+  "../figura/p0071.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

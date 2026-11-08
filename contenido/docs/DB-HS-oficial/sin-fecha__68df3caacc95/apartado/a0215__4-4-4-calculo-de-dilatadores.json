@@ -1,0 +1,96 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0215",
+  "ruta_oficial": "4.4.4",
+  "ruta_semantica": "4.4.4 Cálculo de dilatadores",
+  "titulo": "4.4.4 Cálculo de dilatadores",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.4.4 Cálculo de dilatadores",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 92,
+   "bbox": [
+    70.9,
+    666.4,
+    208.7,
+    677.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b33c98dbda7bc78b2086297a5225e7980ecdecfac7e892f606e9253348b789ef",
+   "literal": "4.4.4 Cálculo de dilatadores"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE 100156",
+   "UNE ENV"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.4.4 Cálculo de dilatadores",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio / 4.4 Dimensionado de las redes de ACS 4.4.1 Dimensionado de las redes de impulsión de ACS / 4.4.4 Cálculo de dilatadores",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ca2191a7f0b69f72bc7090331baae204f69ab58bd72ef24e1cdf56ea57dcd0a7"
+ },
+ "paginas": [
+  92,
+  93
+ ],
+ "etiquetas_impresas": [
+  "92",
+  "93"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.4.4 Cálculo de dilatadores\n1\nEn los materiales metálicos se podrá aplicar lo especificado en la norma UNE 100156:2014 IN y\npara los materiales termoplásticos lo indicado en la norma UNE ENV 12 108:2015 IN.\n2\nEn todo tramo recto sin conexiones intermedias con una longitud superior a 25 m se deben adoptar\nlas medidas oportunas para evitar posibles tensiones excesivas de la tubería, motivadas por las\ncontracciones y dilataciones producidas por las variaciones de temperatura. El mejor punto para co-\nlocarlos se encuentra equidistante de las derivaciones más próximas en los montantes.\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n93",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE 100156",
+  "UNE ENV"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0092_t01.json",
+  "../tabla/p0092_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0092.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

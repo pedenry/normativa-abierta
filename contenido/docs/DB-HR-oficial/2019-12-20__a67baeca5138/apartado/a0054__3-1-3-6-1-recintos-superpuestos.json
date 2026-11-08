@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0054",
+  "ruta_oficial": "3.1.3.6.1",
+  "ruta_semantica": "3.1.3.6.1  Recintos superpuestos",
+  "titulo": "3.1.3.6.1  Recintos superpuestos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.3.6.1  Recintos superpuestos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 30,
+   "bbox": [
+    72.1,
+    573.2,
+    230.1,
+    584.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9156d65751da7d2be7767973b6cd55a24cc137dc899387c556e17ca796b61ed5",
+   "literal": "3.1.3.6.1  Recintos superpuestos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.3.6.1  Recintos superpuestos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos /   / 3.1.3.6.1  Recintos superpuestos",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c63b909be5779afb9187263a44cb439a6cab7b45f959df1a735a00c7f2db284d"
+ },
+ "paginas": [
+  30,
+  31
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.1.3.6.1  Recintos superpuestos\n1\nEl nivel global de presión de ruido de impactos normalizado viene dado por:\n\n\n\n\n\n\n\n\n+\n\n=\n\n=\nn\n1\nj\nij,\nw\n,n\nL\n1,\n0\nd\n,\nw\n,n\nL\n1,\n0\nw\n,n\n10\n10\nlg\n10\n'L\n[dB]\n(3.21)\nsiendo\nLn,w,d nivel global de presión de ruido de impactos normalizado, debido a la transmisión directa,\n[dB];\nLn,w,ij\nnivel global de presión de ruido de impactos normalizado, debido a la transmisión indirecta, o\npor flancos, [dB];\nRecintos superpuestos\nRecintos con una arista horizontal común\nRecintos adyacentes\n\nDocumento Básico HR - Protección frente al ruido\nHR-25\nn\nnúmero de flancos o de elementos de flanco, generalmente 4.\n2\nLa transmisión directa vale:\nw\n,d\nw\nw\n,n\nd\n,\nw\n,n\nL\nL\nL\nL\n\n\n=\n-\n-\n[dB]\n(3.22)\nsiendo\nLn,w,\nnivel global de presión de ruido de impactos normalizado, [dB];\nLw\nreducción del nivel global de presión de ruido de impactos por revestimiento del lado de la\nemisión, (p.e. suelos flotantes), [dB];\nLd,w  reducción del nivel global de presión de ruido de impactos por revestimiento del lado de la\nrecepción, (p.e. techos suspendidos), [dB].\n3\nLa transmisión indirecta desde el elemento i al j vale:\n0\nij\ni\nij\nA\n,j\nA\n,j\nA\n,i\nw\nw\n,\nn\nij,\nw\n,\nn\nll\nS\nlg\n10\nK\nR\n2\nR\nR\nL\nL\nL\n\n−\n−\n\n−\n−\n+\n\n−\n=\n[dB]\n(3.23)\nsiendo\nLn,w\nnivel global de presión de ruido de impactos normalizado, [dB];\nLw\nreducción del nivel global de presión de ruido de impactos por revestimiento, colocado en es-\nte caso, del lado de la emisión, (p.e. suelos flotantes), [dB];\nRA\níndice global de reducción acústica de un elemento, ponderado A,  [dBA];\nRj,A\nmejora del índice global de reducción acústica por revestimiento del elemento j, [dB];\nKij\níndice de reducción de vibraciones para cada camino de transmisión del elemento i al j, [dB];\nSi\nárea del elemento excitado, [m2];\nlij\nlongitud común de la arista de unión entre el elemento i y el j, [m];\nl0\nlongitud de la arista de unión de referencia de valor 1 m, [m].",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0030.png",
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

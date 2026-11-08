@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0025",
+  "ruta_oficial": "2.3.2",
+  "ruta_semantica": "2.3.2 Efecto de las acciones",
+  "titulo": "2.3.2 Efecto de las acciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.3.2 Efecto de las acciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 8,
+   "bbox": [
+    70.9,
+    73.4,
+    206.1,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "35acd50fc9c7c1ae6bad473528bc8eac6c99b29132b7ae7aa550080ae5a7216b",
+   "literal": "2.3.2 Efecto de las acciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0028",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB SE 4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3.2 Efecto de las acciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Bases de cálculo 2.1 Generalidades / 2.3 Estados límite últimos 2.3.1 Condiciones que deben verificarse / 2.3.2 Efecto de las acciones",
+   "seccion_estimada": "2 Bases de cálculo 2.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "39c41a4e1cd57328891e5cea69dae1fa64b98367d27450e74d498f1028048fab"
+ },
+ "paginas": [
+  8
+ ],
+ "etiquetas_impresas": [
+  "8"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2.3.2 Efecto de las acciones\nPara cada situación de dimensionado, los valores de cálculo del efecto de las acciones se obten-\ndrán mediante las reglas de combinación indicadas en DB SE 4.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SE 4"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0008.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

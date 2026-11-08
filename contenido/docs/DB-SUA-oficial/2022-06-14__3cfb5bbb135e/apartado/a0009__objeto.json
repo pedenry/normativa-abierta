@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0009",
+  "ruta_oficial": null,
+  "ruta_semantica": "Objeto",
+  "titulo": "Objeto",
+  "nivel": 1,
+  "parent_id": "a0007",
+  "seccion_estimada": "Objeto",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    116.8,
+    154.5,
+    132.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5101f3aff7c0eb3520907cbf63ba6cd24ae93d9ee0ef9856c88d6f5ea7dc61ff",
+   "literal": "Objeto"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0007",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "artículo 12"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "Objeto",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0007",
+   "ruta_semantica": "Introducción / I Objeto / Objeto",
+   "seccion_estimada": "Introducción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "16daeea544653da5f26d0f0e61e83971c7e420ba9f92296e9f50acab55000814"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Objeto\nEste Documento Básico (DB) tiene por objeto establecer reglas y procedimientos que permiten cumplir\nlas exigencias básicas de seguridad de utilización y accesibilidad. Las secciones de este DB se corres-\nponden con las exigencias básicas SUA 1 a SUA 9. La correcta aplicación de cada Sección supone el\ncumplimiento de la exigencia básica correspondiente. La correcta aplicación del conjunto del DB supone\nque se satisface el requisito básico \"Seguridad de utilización y accesibilidad”.\nTanto el objetivo del requisito básico \"Seguridad de utilización y accesibilidad\", como las exigencias bási-\ncas se establecen en el artículo 12 de la Parte I de este CTE y son los siguientes:",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "artículo 12"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

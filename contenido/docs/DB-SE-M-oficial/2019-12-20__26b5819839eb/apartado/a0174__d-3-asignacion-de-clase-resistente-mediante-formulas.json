@@ -1,0 +1,97 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0174",
+  "ruta_oficial": null,
+  "ruta_semantica": "D.3 Asignación de clase resistente mediante fórmulas",
+  "titulo": "D.3 Asignación de clase resistente mediante fórmulas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "D.3 Asignación de clase resistente mediante fórmulas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 113,
+   "bbox": [
+    70.9,
+    559.4,
+    381.7,
+    571.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "413dbf5f7a2de6156cf9d3540714d43a097479f7992587f91c92ba48100c0db0",
+   "literal": "D.3 Asignación de clase resistente mediante fórmulas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "EN 14080",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.3 Asignación de clase resistente mediante fórmulas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D: Asignación de clase resistente. Madera laminada encolada D.1 Generalidades / D.3 Asignación de clase resistente mediante fórmulas",
+   "seccion_estimada": "Anejo D: Asignación de clase resistente. Madera laminada encolada D.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9a1a655451eca13d1960650ed7b8053bfb4f4fafbc34c9d4cb9a59862d1e0317"
+ },
+ "paginas": [
+  113,
+  114
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "D.3 Asignación de clase resistente mediante fórmulas\n1\nLa asignación de clase resistente a la madera laminada encolada se obtiene, en este caso, mediante\ncálculo aplicando las expresiones matemáticas que figuran en la norma UNE-EN 14080:2013; para lo\ncual es preciso conocer, previamente, los valores característicos de las propiedades de la madera\naserrada a emplear en las láminas, de acuerdo con lo establecido en el anejo E.\n2\nEn madera laminada combinada las expresiones se aplican a las propiedades de las partes indivi-\nduales de la sección transversal. El análisis de las tensiones puede realizarse basándose en la hipó-\ntesis de la deformación plana de la sección. La comprobación de la resistencia debe realizarse en\ntodos los puntos relevantes de la sección transversal.\n3\nLos valores de las propiedades obtenidos mediante las expresiones que figuran en la norma UNE-\nEN 14080:2013 deben ser superiores o iguales a los correspondientes a la clase resistente a asig-\nnar.\n\nDocumentoBásico SE-M Madera\nSE-M 108\nTabla D.1. Propiedades de la madera laminada encolada calculadas a partir de las propiedades de las lámi-\nnas fabricadas con madera de coníferas de clase resistente C24\nPropiedades\nExpresión y valor obtenido\nResistencia, en N/mm2\n- Flexión\nfm,g,k\nfm,g,k = 7 + 1,15 ft,0,k = 23,1\n- Tracción paralela\nft,0,g,k\nft,0,g,k =  5 + 0,8 ft,0,k= 16,2\n- Tracción perpendicular\nft,90,g,k\nft,90,g,k = 0,2 + 0,015ft,0,k= 0,4\n- Compresión paralela\nfc,0,g,k\nfc,0,g,k = 7,2 (ft,0,k)0,45= 23,6\n- Compresión perpendicular\nfc,90,g,k\nfc,90,g,k = 0,7 (ft,0,k)0,5 = 2,6\n- Cortante\nfv,g,k\nfv,g,k = 0,32 (ft,0,k)0,8= 2,6\nRigidez, en kN/mm2\n- Módulo de elasticidadparalelo medio\nE0,g,medio\nE0,g,medio  = 1,05 E0,medio= 11,55\n- Módulo de elasticidad paralelo 50percentil\nE0,g,k\nE0,g,k =  0,85 E0,medio= 9,35\n- Módulo de elasticidad perpendicular medio\nE90,g,medio\nE90,g,medio = 0,035 E0,medio= 0,385\n- Módulo de elasticidad transversal medio\nGg, medio\nGg, medio = 0,065 E0,medio= 0,715\nDensidad, en kg/m3\n- Densidad característica\ng,k\ng,k   = 1,10k = 385",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "EN 14080",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0114_t01.json",
+  "../tabla/p0114_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0114.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

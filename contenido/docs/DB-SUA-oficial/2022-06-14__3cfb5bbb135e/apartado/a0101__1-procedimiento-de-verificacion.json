@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0101",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo / 1 Procedimiento de verificación",
+  "titulo": "1 Procedimiento de verificación",
+  "nivel": 2,
+  "parent_id": "a0100",
+  "seccion_estimada": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    227.8,
+    309.4,
+    243.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "2c5884a56b741dc5c26dfe0e509a486a413339f12b572ed4174aae7bfe753450",
+   "literal": "1 Procedimiento de verificación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0067",
+  "parent_id_original": "a0100",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Procedimiento de verificación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0100",
+   "ruta_semantica": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo / 1 Procedimiento de verificación",
+   "seccion_estimada": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "65cbb7251dcb5439e2390dede12e4cfdb1f541431d0738f66d46d43ad8483bde"
+ },
+ "paginas": [
+  28,
+  29
+ ],
+ "etiquetas_impresas": [
+  "28",
+  "29"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Procedimiento de verificación\n1\nSerá necesaria la instalación de un sistema de protección contra el rayo, en los términos que se es-\ntablecen en el apartado 2, cuando la frecuencia esperada de impactos Ne sea mayor que el riesgo\nadmisible Na.\n2\nLos edificios en los que se manipulen sustancias tóxicas, radioactivas, altamente inflamables o ex-\nplosivas y los edificios cuya altura sea superior a 43 m dispondrán siempre de sistemas de protec-\nción contra el rayo de eficiencia E superior o igual a 0,98, según lo indicado en el apartado 2.\n3\nLa frecuencia esperada de impactos, Ne, puede determinarse mediante la expresión:\n6\n1\ne\ng\ne\n10\nC\nA\nN\nN\n\n\n[nº impactos/año]\n(1.1)\nsiendo:\nNg densidad de impactos sobre el terreno (nº impactos/año,km2), obtenida según la figura 1.1;\nFigura 1.1 Mapa de densidad de impactos sobre el terreno Ng\nAe: superficie de captura equivalente del edificio aislado en m2, que es la delimitada por una línea\ntrazada a una distancia 3H de cada uno de los puntos del perímetro del edificio, siendo H la altu-\nra del edificio en el punto del perímetro considerado.\nC1: coeficiente relacionado con el entorno, según la tabla 1.1.\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad\nSUA 8. Seguridad frente al riesgo causado por la acción del rayo\n29\nTabla 1.1 Coeficiente C1\nSituación del edificio\nC1\nPróximo a otros edificios o árboles de la misma altura o más altos\n0,5\nRodeado de edificios más bajos\n0,75\nAislado\n1\nAislado sobre una colina o promontorio\n2\n4\nEl riesgo admisible, Na, puede determinarse mediante la expresión:\n3\n5\n4\n3\n2\na\n10\nC\nC\nC\nC\n5,5\nN\n\n\n(1.2)\nsiendo:\nC2 coeficiente en función del tipo de construcción, conforme a la tabla 1.2;\nC3 coeficiente en función del contenido del edificio, conforme a la tabla 1.3;\nC4 coeficiente en función del uso del edificio, conforme a la tabla 1.4;\nC5 coeficiente en función de la necesidad de continuidad en las actividades que se desarrollan en el\nedificio, conforme a la tabla 1.5.\nTabla 1.2 Coeficiente C2\nCubierta metálica\nCubierta de hormigón\nCubierta de madera\nEstructura metálica\n0,5\n1\n2\nEstructura de hormigón\n1\n1\n2,5\nEstructura de madera\n2\n2,5\n3\nTabla 1.3 Coeficiente C3\nEdificio con contenido inflamable\n3\nOtros contenidos\n1\nTabla 1.4 Coeficiente C4\nEdificios no ocupados normalmente\n0,5\nUsos Pública Concurrencia, Sanitario, Comercial, Docente\n3\nResto de edificios\n1\nTabla 1.5 Coeficiente C5\nEdificios cuyo deterioro pueda interrumpir un servicio imprescindible (hospitales,\nbomberos, ...) o pueda ocasionar un impacto ambiental grave\n5\nResto de edificios\n1\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png",
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

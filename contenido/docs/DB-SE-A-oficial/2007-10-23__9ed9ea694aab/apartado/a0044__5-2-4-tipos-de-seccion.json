@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0044",
+  "ruta_oficial": "5.2.4",
+  "ruta_semantica": "5.2.4 Tipos de sección",
+  "titulo": "5.2.4 Tipos de sección",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.4 Tipos de sección",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 19,
+   "bbox": [
+    74.1,
+    432.8,
+    183.1,
+    444.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f530b1f361d6dbfcfe9fa89d8b80252a70b987ed7f561588f4c5aa3f2bdd36a4",
+   "literal": "5.2.4 Tipos de sección"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0050",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.4 Tipos de sección",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.2 Modelos del comportamiento estructural 5.2.1 Hipótesis / 5.2.4 Tipos de sección",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a11521426ae17479f0ecfade62b180508ae535f4ede9ae9035aa3af0661404e5"
+ },
+ "paginas": [
+  19,
+  20,
+  21
+ ],
+ "etiquetas_impresas": [
+  "19",
+  "20",
+  "21"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.2.4 Tipos de sección\n1\nSegún la capacidad de deformación y de desarrollo de la resistencia plástica de los elementos pla-\nnos comprimidos de una sección solicitada por un momento flector, esta se clasifica en una de las\ncuatro clases siguientes:\nTabla 5.1 Clasificación de secciones transversales solicitadas por momentos flectores\nClase 1: Plástica\nPermiten la formación de la rótula plástica con la capacidad de rotación sufi-\nciente para la redistribución de momentos.\nClase 2: Compacta\nPermiten el desarrollo del momento plástico con una capacidad de rotación limi-\ntada.\nClase 3: Semicompacta o\nElástica\nEn la fibra más comprimida se puede alcanzar el límite elástico del acero pero\nla abolladura impide el desarrollo del momento plástico\nClase 4: Esbelta\nLos elementos total o parcialmente comprimidos de las secciones esbeltas se\nabollan entes de alcanzar el límite elástico en la fibra más comprimida.\n2\nPara la verificación de la seguridad estructural se deberá emplear uno de los métodos de cálculo\ndefinidos en la tabla 5.2, en concordancia con la clase de las secciones transversales.\n\nDocumentoBásico SE-A Acero\nSE-A-18\nTabla 5.2 Métodos de cálculo\nClase de sección\nMétodo para la determinación de las so-\nlicitaciones\nMétodo para la determinación de\nla resistencia de las secciones\nPlástica\nPlástico o Elástico\nPlástico o Elástico\nCompacta\nElástico\nPlástico o Elástico\nSemicompacta\nElástico\nElástico\nEsbelta\nElástico con posible reducción de rigidez\nElástico con resistencia reducida\n3\nPara definir las Clases 1, 2 y 3 se utilizan en los elementos comprimidos de las secciones los lími-\ntes de las tablas 5.3 y 5.4. Como cada elemento comprimido de una sección (ala o alma) puede\npertenecer a clases diferentes, se asignará a la sección la clase menos favorable. Se consideran\nde Clase 4 los elementos que sobrepasan los límites para la Clase 3.\n4\nLas reglas del presente DB también son aplicables a los perfiles conformados en frío y de chapas\nplegadizas. El espesor, t, de estos elementos se deberá elegir teniendo en cuenta las condiciones\nde transporte, de puesta en obra y de utilización, así como los riesgos de deformaciones locales.\nSuponiendo que la protección contra la corrosión esté asegurada, se deberá respetar un espesor\nmínimo de 0,75 mm (espesor neto del acero, sin la capa de protección).\n5\nPara evitar ondulaciones no deseadas, las esbelteces geométricas de los elementos planos que\nforman la sección transversal de un perfil conformado en frío o de chapa plegada deberán limitarse\nsegún las indicaciones de la tabla 5.5.\n\nDocumentoBásico SE-A Acero\nSE-A-19\nTabla 5.3 Límites de esbeltez para elementos planos, apoyados en dos bordes, total o parcialmente\ncomprimidos\nGeometría\nSolicitación\nElemento plano\nLímite de esbeltez: c/t máximo\nCompresión +\nTracción -\nClase 1\nClase 2\nClase 3\nCompresión\n33ε\n38 ε\n42 ε\nFlexión simple\n72 ε\n83 ε\n124 ε\nFlexocompresión\nψ ≥ -1\n1\n13\n396\n−\nα\nε\nα≥0,5\n1\n13\n456\n−\nα\nε\nα≥0,5\nψ\n+\nε\n33\n,0\n67\n,0\n42\nFlexotracción1)\nψ ≤ -1\nα\nε\n36\nα≤0,5\nα\nε\n5,\n41\nα≤0,5\nψ\n−\nψ\n−\nε\n)\n1\n(\n62\nCaso especial:",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0019.png",
+  "../figura/p0020.png",
+  "../figura/p0021.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

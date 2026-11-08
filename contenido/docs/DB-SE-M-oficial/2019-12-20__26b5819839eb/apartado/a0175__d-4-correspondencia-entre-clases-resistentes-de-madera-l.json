@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0175",
+  "ruta_oficial": null,
+  "ruta_semantica": "D.4 Correspondencia entre clases resistentes de madera laminada encolada y madera aserrada",
+  "titulo": "D.4 Correspondencia entre clases resistentes de madera laminada encolada y madera aserrada",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "D.4 Correspondencia entre clases resistentes de madera laminada encolada y madera aserrada",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 114,
+   "bbox": [
+    70.9,
+    351.2,
+    518.3,
+    377.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ec97338201feba64aebaee852a5dca67489b571c8c45ad77b33951ec86f50864",
+   "literal": "D.4 Correspondencia entre clases resistentes de madera laminada encolada y madera aserrada"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.4 Correspondencia entre clases resistentes de madera laminada encolada y madera aserrada",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D: Asignación de clase resistente. Madera laminada encolada D.1 Generalidades / D.4 Correspondencia entre clases resistentes de madera laminada encolada y madera aserrada",
+   "seccion_estimada": "Anejo D: Asignación de clase resistente. Madera laminada encolada D.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3c623e108f308c200982bd56d7549a04eb3ffe13bba9b86896c3d978ce95aca1"
+ },
+ "paginas": [
+  114,
+  115
+ ],
+ "etiquetas_impresas": [
+  null,
+  "750"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "D.4 Correspondencia entre clases resistentes de madera laminada encolada y madera aserrada\nmadera aserrada\n1\nEn la tabla D.2 se indican algunas correspondencias conocidas entre las clases resistentes de la\nmadera laminada encolada y las clases resistentes de la madera aserrada con las que se fabrican\nlas láminas.\nTabla D.2 Correspondencias conocidas entre Clases Resistentes de madera laminada encolada y de madera\naserrada\nClases resistentes\nMadera laminada encolada homogénea\nGL24h\nGL28h\nGL32h\n- Todas las láminas\nC24\nC30\nC40\nMadera laminada encolada combinada\nGL24c\nGL28c\nGL32c\n- Láminas externas (1)\nC24\nC30\nC40\n- Láminas internas\nC18\nC24\nC30\n(1) Los requisitos se aplican al sexto del canto extremo de cada lado con un mínimo de 2 láminas.\n\nDocumentoBásico SE-M Madera\nSE-M 109",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0114_t01.json",
+  "../tabla/p0114_t02.json",
+  "../tabla/p0115_t01.json",
+  "../tabla/p0115_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0114.png",
+  "../figura/p0115.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

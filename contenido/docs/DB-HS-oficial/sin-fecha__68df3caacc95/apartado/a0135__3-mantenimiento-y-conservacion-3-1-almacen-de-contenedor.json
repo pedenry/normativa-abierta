@@ -1,0 +1,76 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0135",
+  "ruta_oficial": "3",
+  "ruta_semantica": "Fragmento de PDF p57",
+  "titulo": "3 Mantenimiento y conservación 3.1 Almacén de contenedores de edificio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p57",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p57",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Mantenimiento y conservación 3.1 Almacén de contenedores de edificio",
+   "seccion_estimada": "3 Mantenimiento y conservación 3.1 Almacén de contenedores de edificio",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "929b5a81087cbcc56042ce0936d449b2ff76facb344b52efe504faf881d34882"
+ },
+ "paginas": [
+  57
+ ],
+ "etiquetas_impresas": [
+  "57"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3 Mantenimiento y conservación 3.1 Almacén de contenedores de edificio\n3.1 Almacén de contenedores de edificio\n1\nDeben señalizarse correctamente los contenedores, según la fracción correspondiente, y el alma-\ncén de contenedores. En el interior del almacén de contenedores deben disponerse en un soporte\nindeleble, junto con otras normas de uso y mantenimiento, instrucciones para que cada fracción se\nvierta en el contenedor correspondiente.\n2\nDeben realizarse las operaciones de mantenimiento que, junto con su periodicidad, se incluyen en\nla tabla 3.1.\nTabla 3.1 Operaciones de mantenimiento\nOperación\nPeriodicidad\nLimpieza de los contenedores\nDesinfección de los contenedores\nLimpieza del suelo del almacén\nLavado con manguera del suelo del almacén\nLimpieza de las paredes, puertas, ventanas, etc.\nLimpieza general de las paredes y techos del almacén, incluidos los elementos del\nsistema de ventilación, las luminarias, etc.\nDesinfección, desinsectación y desratización del almacén de contenedores\n3\n1,5\n1\n2\n4\n6\n1,5\ndías\nmeses\ndía\nsemanas\nsemanas\nmeses\nmeses",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0057_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0057.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0136"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

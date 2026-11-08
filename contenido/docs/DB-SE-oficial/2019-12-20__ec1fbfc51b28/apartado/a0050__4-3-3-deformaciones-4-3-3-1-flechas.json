@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0050",
+  "ruta_oficial": "4.3.3",
+  "ruta_semantica": "Fragmento de PDF p18",
+  "titulo": "4.3.3 Deformaciones 4.3.3.1 Flechas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p18",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p18",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones / 4.3.3 Deformaciones 4.3.3.1 Flechas",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "26a2b9e56572ab690283a045dbc0e3185662b10c9cf3dcc5ef42eeea1a41c961"
+ },
+ "paginas": [
+  18,
+  19
+ ],
+ "etiquetas_impresas": [
+  null,
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.3.3 Deformaciones 4.3.3.1 Flechas\n4.3.3.1 Flechas\n1\nCuando se considere la integridad de los elementos constructivos, se admite que la estructura hori-\nzontal de un piso o cubierta es suficientemente rígida si, para cualquiera de sus piezas, ante cual-\nquier combinación de acciones característica, considerando sólo las deformaciones que se produ-\ncen después de la puesta en obra del elemento, la flecha relativa es menor que:\na)\n1/500 en pisos con tabiques frágiles (como los de gran formato, rasillones, o placas) o pavi-\nmentos rígidos sin juntas;\nb)\n1/400 en pisos con tabiques ordinarios o pavimentos rígidos con juntas;\nc)\n1/300 en el resto de los casos.\n2\nCuando se considere el confort de los usuarios, se admite que la estructura horizontal de un piso o\ncubierta es suficientemente rígida si, para cualquiera de sus piezas, ante cualquier combinación de\nacciones característica, considerando solamente las acciones de corta duración, la flecha relativa,\nes menor que 1/350.\n3\nCuando se considere la apariencia de la obra, se admite que la estructura horizontal de un piso o\ncubierta es suficientemente rígida si, para cualquiera de sus piezas, ante cualquier combinación de\nacciones casi permanente, la flecha relativa es menor que 1/300.\n\nDocumento Básico SE Seguridad Estructural\nSE - 13\n4\nLas condiciones anteriores deben verificarse entre dos puntos cualesquiera de la planta, tomando\ncomo luz el doble de la distancia entre ellos. En general, será suficiente realizar dicha comproba-\nción en dos direcciones ortogonales.\n5\nEn los casos en los que los elementos dañables (por ejemplo tabiques, pavimentos) reaccionan de\nmanera sensible frente a las deformaciones (flechas o desplazamientos horizontales) de la estructu-\nra portante, además de la limitación de las deformaciones se adoptarán medidas constructivas\napropiadas para evitar daños. Estas medidas resultan particularmente indicadas si dichos elemen-\ntos tienen un comportamiento frágil.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0019.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0051"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

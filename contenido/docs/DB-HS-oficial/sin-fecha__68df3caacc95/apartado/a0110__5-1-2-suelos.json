@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0110",
+  "ruta_oficial": "5.1.2",
+  "ruta_semantica": "5.1.2 Suelos",
+  "titulo": "5.1.2 Suelos",
+  "nivel": 1,
+  "parent_id": "a0101",
+  "seccion_estimada": "5.1.2 Suelos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    696.9,
+    134.9,
+    708.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "93711787a76f1d0fe221159ea2f5b2769f8ccaf81250e4ec29125702942200d8",
+   "literal": "5.1.2 Suelos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0101",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.2 Suelos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0101",
+   "ruta_semantica": "5 Construcción / 5.1 Ejecución / 5.1.2 Suelos",
+   "seccion_estimada": "5 Construcción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a369828b7fcab2f8509ad258f501d872f591a9ca9fca1e26789bc8d7e05812ad"
+ },
+ "paginas": [
+  42,
+  43
+ ],
+ "etiquetas_impresas": [
+  "42",
+  "43"
+ ],
+ "tipos": [],
+ "texto": "5.1.2 Suelos\n5.1.2.1\nCondiciones de los pasatubos\n1\nLos pasatubos deben ser flexibles para absorber los movimientos previstos y estancos.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n43\n5.1.2.2\nCondiciones de las láminas impermeabilizantes\n1\nLas láminas deben aplicarse en unas condiciones térmicas ambientales que se encuentren dentro\nde los márgenes prescritos en las correspondientes especificaciones de aplicación.\n2\nLas láminas deben aplicarse cuando el suelo esté suficientemente seco de acuerdo con las corres-\npondientes especificaciones de aplicación.\n3\nLas láminas deben aplicarse de tal forma que no entren en contacto materiales incompatibles quí-\nmicamente.\n4\nDeben respetarse en las uniones de las láminas los solapos mínimos prescritos en las correspon-\ndientes especificaciones de aplicación.\n5\nLa superficie donde va a aplicarse la impermeabilización no debe presentar algún tipo de resaltos\nde materiales que puedan suponer un riesgo de punzonamiento.\n6\nDeben aplicarse imprimaciones sobre los hormigones de regulación o limpieza y las cimentaciones\nen el caso de aplicar láminas adheridas y en el perímetro de fijación en el caso de aplicar láminas\nno adheridas.\n7\nEn la aplicación de las láminas impermeabilizantes deben colocarse bandas de refuerzo en los\ncambios de dirección.\n5.1.2.3\nCondiciones de las arquetas\n1\nDeben sellarse todas las tapas de arquetas al propio marco mediante bandas de caucho o similares\nque permitan el registro.\n5.1.2.4\nCondiciones del hormigón de limpieza\n1\nEl terreno inferior de las soleras y placas drenadas debe compactarse y tener como mínimo una\npendiente del 1%.\n2\nCuando deba colocarse una lamina impermeabilizante sobre el hormigón de limpieza del suelo o de\nla cimentación, la superficie de dicho hormigón debe allanarse.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

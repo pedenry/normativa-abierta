@@ -1,0 +1,127 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0151",
+  "ruta_oficial": "6.1.1.3",
+  "ruta_semantica": "6.1.1.3 Pantallas de tablestacas",
+  "titulo": "6.1.1.3 Pantallas de tablestacas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.1.1.3 Pantallas de tablestacas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 65,
+   "bbox": [
+    70.9,
+    665.6,
+    224.8,
+    675.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "98cdd521b3bba1176a1622088f7da89049698e81d81aa6e81a5b977436665eec",
+   "literal": "6.1.1.3 Pantallas de tablestacas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0175",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.1.1.3 Pantallas de tablestacas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Definiciones y tipologías 6.1.1 Pantallas / 6.1.1.3 Pantallas de tablestacas",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e38094d0fb3fd44f4e5ac7444dca28b3d7cd3e005d532f197a199d5338b50f64"
+ },
+ "paginas": [
+  65,
+  66
+ ],
+ "etiquetas_impresas": [
+  null,
+  "10"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.1.1.3 Pantallas de tablestacas\n1\nSe consideran como tales las alineaciones de paneles prefabricados o tablestacas, que se hincan\nen el terreno a golpes o por vibración para constituir, debidamente enlazadas, pantallas resistentes\no de impermeabilización, que sirvan de protección para la ejecución de otras obras.\n2\nLos tipos de tablestacas considerados en este DB son:\na)\ntablestacas de hormigón armado o pretensado;\nb)\ntablestacas de acero. Éstas a causa de su menor sección se hincan más fácilmente que las\ntablestacas de hormigón armado, originando menores vibraciones en el terreno.\n\nDocumento Básico SE-C Cimientos\nSE-C-61",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0065_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0065.png",
+  "../figura/p0066.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

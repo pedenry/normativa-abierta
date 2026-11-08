@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0185",
+  "ruta_oficial": null,
+  "ruta_semantica": "D.2.2 Soportes / D.2.2.1 Soportes de estructuras arriostradas",
+  "titulo": "D.2.2.1 Soportes de estructuras arriostradas",
+  "nivel": 4,
+  "parent_id": "a0186",
+  "seccion_estimada": "D.2.2 Soportes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 70,
+   "bbox": [
+    70.9,
+    694.0,
+    284.8,
+    705.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "c395b469b28e8d88d5e1667a8dc46e56aeecc2dade4a7ba0715bec8c4aeb6f74",
+   "literal": "D.2.2.1 Soportes de estructuras arriostradas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0122",
+  "parent_id_original": "a0186",
+  "parent_motivo": "parent_toc_verificado_con_pagina",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.2.2.1 Soportes de estructuras arriostradas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0186",
+   "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.1 Generalidades / D.2 Método simplificado de cálculo D.2.1 Vigas y tirantes / D.2.2.1 Soportes de estructuras arriostradas",
+   "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cde80c83c0d04dbf36abbd594f056ad761c88007c55f5d86199b3866ee73a195"
+ },
+ "paginas": [
+  70
+ ],
+ "etiquetas_impresas": [
+  "70"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Documento Básico SI en caso de Incendio\nAnejo D. Resistencia al fuego de los elementos de acero\n70\nTabla D.1. Coeficiente de protección, d/p(m2K/W) de vigas y tirantes\nTiempo estándar\nde resistencia al\nfuego\nFactor de\nforma\nAm/V (m-1)\nCoeficiente de sobredimensionado >fi\n0,70 >fi 0,60\n0,60 >fi 0,50\n0,50 >fi 0,40\nR 30\n30\n0,05\n0,00(1)\n0,00(1)\n50\n0,05\n0,05\n100\n150\n200\n250\n0,10\n0,10\n300\nR 60\n30\n0,05\n0,05\n0,05\n50\n100\n0,10\n0,10\n0,10\n150\n200\n0,15\n250\n0,15\n300\nR 90\n30\n0,05\n0,05\n0,05\n50\n0,15\n0,10\n100\n0,10\n150\n0,15\n0,15\n200\n250\n0,20\n300\n0,20\nR 120\n30\n0,10\n0,05\n0,05\n50\n0,10\n0,10\n0,10\n100\n0,15\n0,15\n0,15\n150\n0,20\n0,20\n200\n0,20\n250\n0,25\n300\n0,25\nR 180\n30\n0,10\n0,10\n0,10\n50\n0,15\n0,15\n0,15\n100\n0,25\n0,20\n0,20\n150\n0,25\n0,25\n200\n0,30\n250\n0,30\n300\n0,30\nR 240\n30\n0,15\n0,15\n0,10\n50\n0,20\n0,20\n0,15\n100\n0,30\n0,25\n0,25\n150\n-\n0,30\n0,30\n200\n-\n250\n-\n300\n(1)\nPerfiles de acero sin revestir",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0070_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0070.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

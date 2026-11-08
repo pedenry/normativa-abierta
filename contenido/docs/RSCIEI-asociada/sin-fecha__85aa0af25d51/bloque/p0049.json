@@ -1,0 +1,218 @@
+{
+ "documento": null,
+ "pagina": 49,
+ "etiqueta_impresa": "49",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    90.7,
+    84.1,
+    507.4,
+    134.4
+   ],
+   "tipo": "texto",
+   "texto": "ii. En el caso de almacenamientos, debe indicarse el número máximo de palets o\nunidades de almacenamiento previstos y debe acompañarse de planos de la distribución en\nplanta de las zonas y superficies de almacenamiento y de las secciones que reflejen las\nalturas máximas de almacenamiento.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    90.7,
+    132.1,
+    507.3,
+    160.0
+   ],
+   "tipo": "texto",
+   "texto": "iii. Los valores del poder calorífico, qi, de cada material combustible, pueden deducirse\nde la tabla 1.3.3, o ser obtenidos de otras fuentes de información, cuyo uso debe justificarse.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    90.7,
+    157.7,
+    507.4,
+    280.0
+   ],
+   "tipo": "texto",
+   "texto": "iv. Los elementos y productos constructivos que forman parte del sector o área de\nincendio (tales como los presentes en las paredes o techos) también deben considerarse\nmateriales combustibles e incluirse en el cálculo. El cálculo de su poder calorífico se puede\nrealizar según la sistemática recogida en la norma UNE-EN ISO 1716, o bien, usando otras\nfuentes de referencia de reconocido prestigio, de forma justificada. Como excepción, en el\ncaso de que el elemento constructivo esté separado del interior del sector por una capa\nresistente al fuego al menos EI 30, este puede no contabilizarse en el cálculo. Además, no\nes necesario considerar los materiales de construcción incombustibles (por ejemplo,\nhormigón o acero) ni aquellos cuya carga de fuego no sea relevante en comparación con la\ncarga total del sector.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    90.7,
+    277.7,
+    507.3,
+    330.7
+   ],
+   "tipo": "texto",
+   "texto": "v. Los valores del coeficiente de peligrosidad por combustibilidad, Ci, de cada material\ncombustible pueden deducirse de la tabla 1.3.2, o de otras fuentes de información de\nreconocido prestigio cuyo uso debe justificarse. Alternativamente, también se puede usar la\ntabla 1.3.3, donde se incluyen valores de Ci de algunos materiales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    90.7,
+    328.9,
+    507.4,
+    445.7
+   ],
+   "tipo": "texto",
+   "texto": "vi. El valor del coeficiente R puede deducirse de la tabla 1.3.4.\nvii. El cálculo de Qs puede simplificarse descartando de la fórmula los materiales no\nrepresentativos por su escaso aporte a dicho valor. En el caso de aplicar dichas\nsimplificaciones, en ningún caso el valor calculado de Qs deberá desviarse más del 10 % del\ntotal que se obtendría si se hubieran tomado en consideración todos los materiales\ndescartados. Además, en el caso de no conocer los valores exactos de un determinado\nmaterial (Gi, qi) podrán usarse estimaciones aproximadas y coeficientes de seguridad,\nsiempre que se justifique su utilización y procedencia, y que el cálculo obtenido de Qs es\nigual o superior al que se obtendría si se usaran los valores exactos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    90.7,
+    449.4,
+    507.4,
+    477.3
+   ],
+   "tipo": "texto",
+   "texto": "3.2.2 Cálculo de Qs a partir de los datos de densidad de carga de fuego de las zonas con\nactividades de fabricación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    90.7,
+    481.0,
+    507.3,
+    532.9
+   ],
+   "tipo": "texto",
+   "texto": "De forma alternativa al método de cálculo de Qs del apartado 3.2.1, para sectores o\náreas de incendio con actividades específicas de fabricación y otros procesos similares, tales\ncomo producción, transformación, reparación o cualquier otra actividad distinta al\nalmacenamiento, puede usarse la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    222.5,
+    541.1,
+    372.8,
+    572.8
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    107.7,
+    582.9,
+    140.0,
+    597.2
+   ],
+   "tipo": "texto",
+   "texto": "Donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    90.7,
+    600.9,
+    507.4,
+    642.4
+   ],
+   "tipo": "texto",
+   "texto": "Qs, Ci, R y A tienen el mismo significado que en el apartado 3.2.1.\nqsi: densidad de carga de fuego de cada zona con actividad (i) diferente según los\ndistintos procesos que se realizan en el sector de incendio, en MJ/m2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    107.7,
+    640.1,
+    492.9,
+    655.5
+   ],
+   "tipo": "texto",
+   "texto": "Si: superficie construida de cada zona con actividad (i) diferente, en metros cuadrados.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    107.7,
+    659.7,
+    204.4,
+    674.0
+   ],
+   "tipo": "texto",
+   "texto": "Detalles a considerar:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    90.7,
+    677.7,
+    507.4,
+    768.9
+   ],
+   "tipo": "texto",
+   "texto": "i. Los valores de la densidad de carga de fuego media, qsi, pueden obtenerse tomando\ncomo referencia la tabla 1.3.5, donde se muestran valores medios para ciertas actividades\ncomunes. Cuando no aparezca el valor de qsi de una actividad, o el valor que aparece no se\najuste al caso concreto, se deberá usar el valor de la actividad más asimilable, o en su\ndefecto, calcular su valor basándose en los materiales existentes. En todo caso, será\nresponsabilidad del proyectista asegurarse de que los valores de qsi utilizados son correctos\ny se ajustan a cada situación concreta, y en su caso, incrementar dichos valores o añadir los",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    207.7,
+    27.8,
+    387.6,
+    45.0
+   ],
+   "tipo": "texto",
+   "texto": "BOLETÍN OFICIAL DEL ESTADO",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    226.5,
+    43.5,
+    368.8,
+    57.8
+   ],
+   "tipo": "texto",
+   "texto": "LEGISLACIÓN CONSOLIDADA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    277.4,
+    802.3,
+    317.9,
+    815.2
+   ],
+   "tipo": "texto",
+   "texto": "Página 49",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

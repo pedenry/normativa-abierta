@@ -1,0 +1,80 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0059",
+  "ruta_oficial": "3.1.4.2",
+  "ruta_semantica": "Fragmento de PDF p32",
+  "titulo": "3.1.4.2  Elementos de separación horizontales 3.1.4.2.1  Encuentros con los elementos verticales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p32",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p32",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.1.4  Condiciones de diseño de las uniones entre elementos constructivos / 3.1.4.2  Elementos de separación horizontales 3.1.4.2.1  Encuentros con los elementos verticales",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5425a0e3b551705c2fe3806ca26c37e16aacd3e1354482716f1af82959957679"
+ },
+ "paginas": [
+  32,
+  33
+ ],
+ "etiquetas_impresas": [
+  null,
+  "1"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.1.4.2  Elementos de separación horizontales 3.1.4.2.1  Encuentros con los elementos verticales\n3.1.4.2.1  Encuentros con los elementos verticales\n\nDocumento Básico HR - Protección frente al ruido\nHR-27\n1\nDeben eliminarse los contactos entre el suelo flotante y los elementos de separación verticales,\npilares y tabiques con apoyo directo; para ello, se interpondrá entre ambos una capa de material\nelástico o del mismo material aislante a ruido de impactos del suelo flotante.\n2\nLos techos suspendidos o los suelos registrables no serán continuos entre dos recintos pertene-\ncientes a unidades de uso diferentes. La cámara de aire entre el forjado y un techo suspendido o un\nsuelo registrable debe interrumpirse o cerrarse cuando el techo suspendido o el suelo registrable\nacometa a un elemento de separación vertical entre unidades de uso diferentes.\n3.1.4.2.2  Encuentros con los conductos de instalaciones\n1\nEn el caso de que un conducto de instalaciones, por ejemplo, de instalaciones hidráulicas o de ven-\ntilación, atraviese un elemento de separación horizontal, se recubrirá y se sellarán las holguras de\nlos huecos efectuados en el forjado para paso del conducto con un material elástico que garantice\nla estanquidad e impida el paso de vibraciones a la estructura del edificio.\n2\nDeben eliminarse los contactos entre el suelo flotante y los conductos de instalaciones que discu-\nrran bajo él. Para ello, los conductos se revestirán de un material elástico.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0033.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

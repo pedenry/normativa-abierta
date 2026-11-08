@@ -1,0 +1,101 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0047",
+  "ruta_oficial": "4",
+  "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 4 Escaleras y rampas",
+  "titulo": "4 Escaleras y rampas",
+  "nivel": 2,
+  "parent_id": "a0036",
+  "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    70.9,
+    236.1,
+    241.1,
+    251.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "fce3d82252dfa154cbfea1ef27bdfb19cd6e29570e63be5744f026c707ad75cd",
+   "literal": "4 Escaleras y rampas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0017",
+  "parent_id_original": "a0036",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4 Escaleras y rampas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0036",
+   "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 4 Escaleras y rampas",
+   "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3935c4ca3396710a78975bce0366aaf5a3626ce78beca0df1824cc16f47c0544"
+ },
+ "paginas": [
+  11
+ ],
+ "etiquetas_impresas": [
+  "11"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Escaleras y rampas\n4.1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0038",
+   "ruta_oficial": "2",
+   "titulo": "2 Discontinuidades en el pavimento",
+   "archivo_json": "a0038__2-discontinuidades-en-el-pavimento.json"
+  },
+  {
+   "id_tecnico": "a0050",
+   "ruta_oficial": "4.2.2",
+   "titulo": "4.2.2 Tramos",
+   "archivo_json": "a0050__4-2-2-tramos.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0011.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0048",
+  "a0049",
+  "a0054",
+  "a0058"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

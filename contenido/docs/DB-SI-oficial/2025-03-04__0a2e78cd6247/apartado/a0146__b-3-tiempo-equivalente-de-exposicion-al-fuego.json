@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0146",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego / B.3 Tiempo equivalente de exposición al fuego",
+  "titulo": "B.3 Tiempo equivalente de exposición al fuego",
+  "nivel": 2,
+  "parent_id": "a0144",
+  "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 53,
+   "bbox": [
+    70.9,
+    545.7,
+    395.8,
+    561.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "cd4835f35d749e59548863c589ce0f54b9ce37f77e5c089b3975f5088d577065",
+   "literal": "B.3 Tiempo equivalente de exposición al fuego"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0097",
+  "parent_id_original": "a0144",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.3 Tiempo equivalente de exposición al fuego",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0144",
+   "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego / B.3 Tiempo equivalente de exposición al fuego",
+   "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e699a6153501c3985c1a954c562af1293d36eda4dfa30b8b26a848c333af31f6"
+ },
+ "paginas": [
+  53,
+  54
+ ],
+ "etiquetas_impresas": [
+  "53",
+  "54"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "B.3 Tiempo equivalente de exposición al fuego\n1\nPara elementos estructurales de hormigón armado o acero puede tomarse como valor de cálculo del\ntiempo equivalente, en minutos:\nte,d  =   kb ·wf ·kc\n· qf,d\n(B.2)\nsiendo:\nkb coeficiente de conversión en función de las propiedades térmicas de la envolvente del sector;\nque puede tomarse igual a 0,07. El anejo F de la norma UNE EN 1991-1-2:2004 aporta valores\nmás precisos.\nwf  coeficiente de ventilación en función de la forma y tamaño del sector.\nkc\ncoeficiente de corrección según el material estructural (Tabla B.1).\nqf,d valor de cálculode la densidad de carga de fuego en función del uso del sector, en MJ/m2, obte-\nnida según se indica en el apartado B.4.\n\nDocumento Básico SI en caso de Incendio\nAnejo C. Resistencia al fuego de las estructuras de hormigón armado\n54\n2\nEl coeficiente de ventilación wf se calcula como:\nwf = (6/H)0,3·[0,62 + 90(0,4 -\nv\n)4/(1 + bv\nh\n)]  0,5\n[-]\n(B.3)\nsiendo:\nv\n=Av/Af\nrelación entre la superficie de las aberturas en fachada y la superficie del suelo del sec-\ntor,\ncon los límites 0,025 <\nv\n < 0,25\n(B.4)\nh\n=Ah/Af\nrelación entre la superficie de las aberturas en el techo, Ah, y la superficie construida del\nsuelo del sector\nbv\n=12,5 (1 + 10\nv\n -\nv\n\n2 ) ≥ 10\n(B.5)\nH\naltura del sector de incendio [m]\nPara sectores pequeños (Af <100 m2), sin aberturas en el techo, el coeficiente wf se puede calcular\naproximadamente como:\nwf = O-½ ·Af/At\n(B.6)\nsiendo:\nO = Av\nh / At",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0054_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0054.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0147"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

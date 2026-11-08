@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0030",
+  "ruta_oficial": "3.5.4",
+  "ruta_semantica": "3.5.4 Acumulación de nieve",
+  "titulo": "3.5.4 Acumulación de nieve",
+  "nivel": 1,
+  "parent_id": "a0026",
+  "seccion_estimada": "3.5.4 Acumulación de nieve",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 16,
+   "bbox": [
+    70.9,
+    408.5,
+    230.9,
+    421.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3c6704b68beb7b6e67354d97150c694c1b1235f0fc1c91a2cb1801e53e6f086f",
+   "literal": "3.5.4 Acumulación de nieve"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0027",
+  "parent_id_original": "a0026",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.5.4 Acumulación de nieve",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0026",
+   "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve / 3.5.4 Acumulación de nieve",
+   "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6df66986761c1138c298c0fc60a01f166a2a32499bf8dd72f3a3ac588959180c"
+ },
+ "paginas": [
+  16,
+  17
+ ],
+ "etiquetas_impresas": [
+  "16",
+  "17"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.5.4 Acumulación de nieve\n1\nAdicionalmente, en los faldones limitados inferiormente por limatesas y cuyo coeficiente de forma,\nµ, sea menor que la unidad, descargan parte de la nieve aguas abajo. Tal descarga ocasiona acu-\nmulaciones de nieve si hay discontinuidades como limahoyas o cambios de nivel en esa dirección.\nLa descarga total por unidad de longitud, pd, puede evaluarse como:\npd = (1-µ)·L·sk\n(3.4)\nsiendo:\nL\nproyección horizontal media de la recta de máxima pendiente del faldón.\n2\nLa acumulación de nieve sobre una discontinuidad (limahoya o cambio de nivel) aguas abajo del\nfaldón se simula mediante una carga lineal, pa, de valor:\npa = min (µi, 1) · pd\n(3.5)\nque puede suponerse repartida uniformemente en un ancho no mayor que 2,0 m a un lado u otro de\nla limahoya o del cambio de nivel.\n3\nSi queda descarga por repartir (pd > pa), se considerará otra discontinuidad más debajo sometida a\nla carga restante, y así sucesivamente hasta repartir la totalidad de la descarga o llegar al perímetro\ndel edificio. En cualquier caso, la suma de todas las cargas sobre discontinuidades no será mayor\nque la descarga total del faldón.\n4\nSobre cada discontinuidad se sumarán, en su caso, las descargas que puedan provenir de los dis-\ntintos faldones que haya aguas arriba.\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 13",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0016.png",
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,60 @@
+{
+ "documento": "GUIA-PDF-f3314b0414fe",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon Fichas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__e58e54b822cf",
+ "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+ "apartado": {
+  "id_tecnico": "a0233",
+  "ruta_oficial": null,
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO / EJEMPLO A1+B3",
+  "titulo": "EJEMPLO A1+B3",
+  "nivel": 3,
+  "parent_id": "a0232",
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO"
+ },
+ "paginas": [
+  64,
+  65
+ ],
+ "etiquetas_impresas": [
+  "64",
+  "65"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "EJEMPLO A1+B3\nA1+B3\nFigura 1 - Fachada y planta baja de la vivienda\ngaraje\nEfectividad\nCoste\nCoste por superficie\n93%\n5.620€\n102€/m2\n\n2\nEjemplo A1+B3 • Barrera frente al radón + despresurización con red de tubos\nA1+B32",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0064_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0064.png",
+  "../figura/p0065.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon+Fichas.pdf",
+  "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0232",
+  "nivel": 3,
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO / EJEMPLO A1+B3"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

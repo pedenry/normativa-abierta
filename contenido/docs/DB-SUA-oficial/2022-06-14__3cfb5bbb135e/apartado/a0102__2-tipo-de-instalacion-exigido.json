@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0102",
+  "ruta_oficial": "2",
+  "ruta_semantica": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo / 2 Tipo de instalación exigido",
+  "titulo": "2 Tipo de instalación exigido",
+  "nivel": 2,
+  "parent_id": "a0100",
+  "seccion_estimada": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 29,
+   "bbox": [
+    70.9,
+    616.9,
+    289.9,
+    632.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "ce63f429f32bf2d779ae6b7e963be4ca84645fd655c195c8911132959c0ec8df",
+   "literal": "2 Tipo de instalación exigido"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0068",
+  "parent_id_original": "a0100",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2 Tipo de instalación exigido",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0100",
+   "ruta_semantica": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo / 2 Tipo de instalación exigido",
+   "seccion_estimada": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "481e7a1b63bbabf3d5310d84da8989b259a591706de78d13923b40b1c7ea5115"
+ },
+ "paginas": [
+  29,
+  30
+ ],
+ "etiquetas_impresas": [
+  "29",
+  "30"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Tipo de instalación exigido\n1\nLa eficacia E requerida para una instalación de protección contra el rayo se determina mediante la\nsiguiente fórmula:\ne\na\nN\nN\n1\nE\n\n\n(2.1)\n2\nLa tabla 2.1 indica el nivel de protección correspondiente a la eficiencia requerida. Las características\ndel sistema para cada nivel de protección se describen en el Anexo SUA B:\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad\nSUA 8. Seguridad frente al riesgo causado por la acción del rayo\n30\nTabla 2.1 Componentes de la instalación",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0029.png",
+  "../figura/p0030.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0103"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

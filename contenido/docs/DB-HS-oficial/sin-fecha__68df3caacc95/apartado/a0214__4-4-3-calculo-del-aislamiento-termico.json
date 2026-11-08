@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0214",
+  "ruta_oficial": "4.4.3",
+  "ruta_semantica": "4.4.3 Cálculo del aislamiento térmico",
+  "titulo": "4.4.3 Cálculo del aislamiento térmico",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.4.3 Cálculo del aislamiento térmico",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 92,
+   "bbox": [
+    70.9,
+    605.5,
+    252.2,
+    616.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b33c98dbda7bc78b2086297a5225e7980ecdecfac7e892f606e9253348b789ef",
+   "literal": "4.4.3 Cálculo del aislamiento térmico"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "RITE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.4.3 Cálculo del aislamiento térmico",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio / 4.4 Dimensionado de las redes de ACS 4.4.1 Dimensionado de las redes de impulsión de ACS / 4.4.3 Cálculo del aislamiento térmico",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ec76c7f3e6e8ecc5820d18c8e79067b5d763e83c3a8520ad3f2bd0746455565c"
+ },
+ "paginas": [
+  92
+ ],
+ "etiquetas_impresas": [
+  "92"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.4.3 Cálculo del aislamiento térmico\n1\nEl espesor del aislamiento de las conducciones, tanto en la ida como en el retorno, se dimensionará\nde acuerdo a lo indicado en el Reglamento de Instalaciones Térmicas en los Edificios RITE y sus\nInstrucciones Técnicas complementarias ITE.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "RITE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0092_t01.json",
+  "../tabla/p0092_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0092.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

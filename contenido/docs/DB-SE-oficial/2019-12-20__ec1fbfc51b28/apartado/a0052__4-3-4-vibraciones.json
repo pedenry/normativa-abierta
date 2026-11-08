@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0052",
+  "ruta_oficial": "4.3.4",
+  "ruta_semantica": "4.3.4 Vibraciones",
+  "titulo": "4.3.4 Vibraciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3.4 Vibraciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 19,
+   "bbox": [
+    70.9,
+    525.1,
+    155.4,
+    535.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9220aa2f58a066b6f22aebccfc526dec8a3ba31bc9de2fa8818718c63d594d75",
+   "literal": "4.3.4 Vibraciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0054",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.4 Vibraciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones / 4.3.4 Vibraciones",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "109dca303c52b2f7a4aac863c37856a97413896036ac484db72ec875178853a9"
+ },
+ "paginas": [
+  19,
+  20
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "1"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.3.4 Vibraciones\n1\nUn edificio se comporta adecuadamente ante vibraciones debidas a acciones dinámicas, si la fre-\ncuencia de la acción dinámica (frecuencia de excitación) se aparta suficientemente de sus frecuen-\ncias propias.\n2\nEn el cálculo de la frecuencia propia se tendrán en cuenta las posibles contribuciones de los cerra-\nmientos, separaciones, tabiquerías, revestimientos, solados y otros elementos constructivos, así\ncomo la influencia de la variación del módulo de elasticidad y, en el caso de los elementos de hor-\nmigón, la de la fisuración.\n3\nSi las vibraciones pueden producir el colapso de la estructura portante (por ejemplo debido a fenó-\nmenos de resonancia, o a la pérdida de la resistencia por fatiga) se tendrá en cuenta en la verifica-\nción de la capacidad portante, tal como se establece en el DB respectivo.\n4\nSe admite que una planta de piso susceptible de sufrir vibraciones por efecto rítmico de las perso-\nnas, es suficientemente rígida, si la frecuencia propia es mayor de:\na) 8 Hz, en gimnasios y polideportivos;\nb) 7Hz en salas de fiesta y locales de pública concurrencia sin asientos fijos;\nc) 3,4  Hz en locales de espectáculos con asientos fijos.\n\nDocumento Básico SE Seguridad Estructural\nSE - 14",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0019.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

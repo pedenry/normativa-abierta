@@ -1,0 +1,127 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0016",
+  "ruta_oficial": "2.2.1.2",
+  "ruta_semantica": "2.2.1.2 Estados límite últimos",
+  "titulo": "2.2.1.2 Estados límite últimos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2.1.2 Estados límite últimos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 6,
+   "bbox": [
+    70.9,
+    662.0,
+    215.3,
+    672.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7eb80e295b3854b373a85146a2df74e026d4e7ca17fa7ec2532b4e8ba81edf6d",
+   "literal": "2.2.1.2 Estados límite últimos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0026",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE",
+   "apartado 3.2.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2.1.2 Estados límite últimos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Método de los estados límite 2.2.1 Estados límite / 2.2.1.2 Estados límite últimos",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2f492e81e1846ee0d1902c2f2f7cfd35f0d0e133b17cd4782c33a95174ca6217"
+ },
+ "paginas": [
+  6,
+  7
+ ],
+ "etiquetas_impresas": [
+  "2",
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "2.2.1.2 Estados límite últimos\n1\nSe considerarán estados límite últimos todos aquellos clasificados como tales en el apartado 3.2.1\ndel DB-SE.\n2\nComo estados límite últimos deben considerarse los debidos a:\na)\npérdida de la capacidad portante del terreno de apoyo de la cimentación por hundimiento, des-\nlizamiento o vuelco, u otros indicados en los capítulos correspondientes;\nb)\npérdida de la estabilidad global del terreno en el entorno próximo a la cimentación;\nc)\npérdida de la capacidad resistente de la cimentación por fallo estructural;\n\nDocumento Básico SE-C Cimientos\nSE-C-2\nd)\nfallos originados por efectos que dependen del tiempo (durabilidad del material de la cimenta-\nción, fatiga del terreno sometido a cargas variables repetidas).",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE",
+  "apartado 3.2.1"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

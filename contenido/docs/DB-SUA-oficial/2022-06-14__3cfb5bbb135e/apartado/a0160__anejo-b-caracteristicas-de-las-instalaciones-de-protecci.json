@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0160",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo B. Características de las instalaciones de protección frente al rayo",
+  "titulo": "Anejo B. Características de las instalaciones de protección frente al rayo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo B. Características de las instalaciones de protección frente al rayo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 45,
+   "bbox": [
+    166.2,
+    48.3,
+    445.6,
+    57.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0c82407f75c1a70afe096ee93584be278cb181ae18ad4bbbacfc4348508c3023",
+   "literal": "Anejo B. Características de las instalaciones de protección frente al rayo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo B. Características de las instalaciones de protección frente al rayo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo B. Características de las instalaciones de protección frente al rayo",
+   "seccion_estimada": "Anejo B. Características de las instalaciones de protección frente al rayo",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "37397fc51447f91d7eb70d527548b487a448905a175a94865c18f6cba4fde154"
+ },
+ "paginas": [
+  45
+ ],
+ "etiquetas_impresas": [
+  "45"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo B. Características de las instalaciones de protección frente al rayo\n45\nFigura B.4 Volumen protegido por pararrayos con dispositivo de cebado",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0045.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0161",
+  "a0162",
+  "a0163"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

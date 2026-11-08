@@ -1,0 +1,125 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0170",
+  "ruta_oficial": "6.3.2.2.8",
+  "ruta_semantica": "6.3.2.2.8 Estabilidad de las edificaciones próximas",
+  "titulo": "6.3.2.2.8 Estabilidad de las edificaciones próximas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.2.2.8 Estabilidad de las edificaciones próximas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 82,
+   "bbox": [
+    70.9,
+    271.0,
+    313.2,
+    280.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0e94d6fdb22d34c0e6fc84e6849ed29576de789a5c9a84e6ded6f2ccfe42a9b4",
+   "literal": "6.3.2.2.8 Estabilidad de las edificaciones próximas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0196",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 6.3.1.2",
+   "apartado 6.3.2.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.2.8 Estabilidad de las edificaciones próximas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). /  / 6.3.2.2.8 Estabilidad de las edificaciones próximas",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0da08aab8b0703ce7556a97c45816bd23a568c8a4f515d9a5d81b277bf89c869"
+ },
+ "paginas": [
+  82
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "6.3.2.2.8 Estabilidad de las edificaciones próximas\n1\nSi existen edificios medianeros con los límites de una excavación hecha al abrigo de una pantalla, o\nen sus proximidades, debe considerarse su existencia como una sobrecarga en los cálculos de los\nempujes, véase 6.2.7. Asimismo, debe comprobarse para cada una de las fases de ejecución tanto\nde la pantalla en si como de la excavación, que los movimientos horizontales y verticales a que se\nvea sometido el terreno en el trasdós, sobre el que se encuentren cimentados los edificios mediane-\nros o próximos, no son lo suficientemente importantes como para hacer peligrar la estabilidad de los\nmismos o ser causa de agrietamientos, inclinaciones, etc. En el apartado 6.3.1.2 se definen los cri-\nterios en cuanto a los movimientos y deformaciones horizontales y verticales máximos admisibles\nde edificios o servicios próximos a elementos de contención y en el apartado 6.3.2.3, los procedi-\nmientos para evaluar estos movimientos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.3.1.2",
+  "apartado 6.3.2.3"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

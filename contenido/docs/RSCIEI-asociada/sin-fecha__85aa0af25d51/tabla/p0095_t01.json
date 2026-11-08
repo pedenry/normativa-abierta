@@ -1,0 +1,111 @@
+{
+ "indice": 1,
+ "pagina": 95,
+ "etiqueta_impresa": "95",
+ "bbox": [
+  222.7,
+  196.4,
+  372.5,
+  236.0
+ ],
+ "filas": 4,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Nivel de riesgo intrínseco",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Tipo de BIE",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Riesgo bajo.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "25 mm",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Riesgo medio.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "25 mm (1)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "Riesgo alto.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "45 mm (2)",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Nivel de riesgo intrínseco",
+  "Tipo de BIE"
+ ],
+ "header": {
+  "names": [
+   "Nivel de riesgo intrínseco",
+   "Tipo de BIE"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB98A6F0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90E600>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90DFA0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90DDC0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90C2F0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90FA70>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90FA10>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90EC90>"
+  ]
+ ],
+ "notas_adyacentes": [
+  "Notas de la tabla:",
+  "Nota 1: En lugares que previamente tuvieran instaladas BIE de 45 mm (en caso de\nreformas) se admitirán estas como válidas, sin necesidad de sustituirlas por BIE de 25 mm.",
+  "Nota 2: Se admitirá instalar BIE de 25 mm con toma adicional de 45 mm y en dicho caso\nse considerará a los efectos de cálculo hidráulico como BIE de 45 mm, debiendo\ndimensionarse para funcionar con los requerimientos de caudales y presiones de ambos\ntipos de BIE."
+ ],
+ "imagen_pagina": "figura/p0095.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

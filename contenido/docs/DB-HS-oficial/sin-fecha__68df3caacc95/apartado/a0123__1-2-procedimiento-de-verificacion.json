@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0123",
+  "ruta_oficial": "1.2",
+  "ruta_semantica": "1.2 Procedimiento de verificación",
+  "titulo": "1.2 Procedimiento de verificación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1.2 Procedimiento de verificación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 52,
+   "bbox": [
+    70.9,
+    376.8,
+    267.8,
+    390.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f01db6b34d2660438844308a90e34f26773f995dd7d38fce0afaf010ff1f7b2f",
+   "literal": "1.2 Procedimiento de verificación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 2",
+   "apartado 3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1.2 Procedimiento de verificación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación / 1.2 Procedimiento de verificación",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cbc2a740662f781edcf62d0482c361ea37db7296a50f7fd6085f68946d81c31e"
+ },
+ "paginas": [
+  52
+ ],
+ "etiquetas_impresas": [
+  "52"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "1.2 Procedimiento de verificación\n1\nPara la aplicación de esta sección debe seguirse la secuencia de verificaciones que se expone a\ncontinuación.\n2\nCumplimiento de las condiciones de diseño y dimensionado del apartado 2 relativas al sistema de\nalmacenamiento y traslado de residuos:\na)\nla existencia del almacén de contenedores de edificio y las condiciones relativas al mismo,\ncuando el edificio esté situado en una zona en la que exista recogida puerta a puerta de algu-\nna de las fracciones de los residuos ordinarios;\nb)\nla existencia de la reserva de espacio y las condiciones relativas al mismo, cuando el edificio\nesté situado en una zona en la que exista recogida centralizada con contenedores de calle de\nsuperficie de alguna de las fracciones de los residuos ordinarios;\nc)\nlas condiciones relativas a la instalación de traslado por bajantes, en el caso de que se haya\ndispuesto ésta;\nd)\nla existencia del espacio de almacenamiento inmediato y las condiciones relativas al mismo.\n3\nCumplimiento de las condiciones de mantenimiento y conservación del apartado 3.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2",
+  "apartado 3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0052.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

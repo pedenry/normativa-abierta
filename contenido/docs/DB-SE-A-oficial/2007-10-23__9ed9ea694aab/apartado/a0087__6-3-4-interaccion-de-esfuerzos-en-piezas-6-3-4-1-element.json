@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0087",
+  "ruta_oficial": "6.3.4",
+  "ruta_semantica": "Fragmento de PDF p50",
+  "titulo": "6.3.4 Interacción de esfuerzos en piezas 6.3.4.1 Elementos flectados y traccionados",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p50",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p50",
+  "referencias_filtradas": [
+   "apartado 6.3.3.2"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección en doble T / 6.3.4 Interacción de esfuerzos en piezas 6.3.4.1 Elementos flectados y traccionados",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dd60f6b635fecaf2546f98967d2ddafe7724a31e66a21fe0fb848a0451c5ebba"
+ },
+ "paginas": [
+  50
+ ],
+ "etiquetas_impresas": [
+  "50"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.3.4 Interacción de esfuerzos en piezas 6.3.4.1 Elementos flectados y traccionados\n6.3.4.1 Elementos flectados y traccionados\n1\nEn las piezas solicitadas por una combinación de un momento flector y un esfuerzo axil de trac-\nción, se comprobará, además de la resistencia a flexotracción de sus secciones, tal como se indi-\nca en 6.2.8, su resistencia frente al pandeo lateral considerando el esfuerzo axil y el momento\nflector como un efecto vectorial.\nLa tensión combinada en la fibra extrema comprimida se determina mediante:\nA\nN\n8,0\nW\nM\nEd\n,t\ncom\nEd\nEd\n,\ncom\n⋅\n−\n=\nσ\n(6.49)\nsiendo\nWcom momento resistente de la sección referido a la fibra extrema comprimida;\nNt,Ed\nvalor de cálculo del axil de tracción;\nMEd\nvalor de cálculo del momento flector;\nA\nárea bruta de la sección.\nLa comprobación se lleva a cabo utilizando un flector efectivo Mef,Sd\nEd\n,\ncom\ncom\nEd\n,\nef\nW\nM\nσ\n⋅\n=\n(6.50)\ny la resistencia de cálculo al pandeo lateral indicada en el apartado 6.3.3.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.3.3.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0050.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0088"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0147",
+  "ruta_oficial": "3.1.4.2",
+  "ruta_semantica": "3.1.4.2 Medios de ventilación mecánica",
+  "titulo": "3.1.4.2 Medios de ventilación mecánica",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.4.2 Medios de ventilación mecánica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 67,
+   "bbox": [
+    70.9,
+    669.7,
+    257.2,
+    680.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a376e313fc8d289bf5865c1380f79f7d039a5f7874773740e3794d9d00cc21b2",
+   "literal": "3.1.4.2 Medios de ventilación mecánica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.4.2 Medios de ventilación mecánica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS3 / 1.2 Procedimiento de verificación / Diseño 3.1 Condiciones generales de los sistemas de ventilación / 3.1.4.2 Medios de ventilación mecánica",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "44f5c27d27ab8a40fa1e1e5c81fdd2773574e59d2e58fd5a5a83381829793ea7"
+ },
+ "paginas": [
+  67,
+  68
+ ],
+ "etiquetas_impresas": [
+  "67",
+  "68"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.1.4.2 Medios de ventilación mecánica\n1\nLa ventilación debe ser para uso exclusivo del aparcamiento, salvo cuando los trasteros estén situa-\ndos en el propio recinto del aparcamiento, en cuyo caso la ventilación puede ser conjunta, respetan-\ndo en todo caso la posible compartimentación de los trasteros como zona de riesgo especial, con-\nforme al SI 1-2.\n2\nLa ventilación debe realizarse por depresión y puede utilizarse una de las siguientes opciones:\na)\ncon extracción mecánica;\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n68\nb)\ncon admisión y extracción mecánica.\n3\nDebe evitarse que se produzcan estancamientos de los gases contaminantes y para ello, las aber-\nturas de ventilación deben disponerse de la forma indicada a continuación o de cualquier otra que\nproduzca el mismo efecto:\na)\nhaya una abertura de admisión y otra de extracción por ca-\nda 100 m2 de superficie útil;\nb)\nla separación entre aberturas de extracción más próximas\nsea menor que 10 m.\n4\nComo mínimo deben emplazarse dos terceras partes de las\naberturas de extracción a una distancia del techo menor o igual\na 0,5 m.\n5\nEn los aparcamientos compartimentados en los que la ventila-\nción sea conjunta deben disponerse las aberturas de admisión\nen los compartimentos y las de extracción en las zonas de circu-\nlación comunes de tal forma que en cada compartimento se dis-\nponga al menos una abertura de admisión.\n6\nEn aparcamientos con 15 o más plazas se dispondrán en cada\nplanta al menos dos redes de conductos de extracción dotadas\ndel correspondiente aspirador mecánico.\n7\nEn los aparcamientos que excedan de cinco plazas o de 100 m2\nútiles debe disponerse un sistema de detección de monóxido de\ncarbono en cada planta que active automáticamente el o los as-\npiradores mecánicos cuando se alcance una concentración de\n50 ppm. en aparcamientos donde se prevea que existan em-\npleados y una concentración de 100 ppm. en caso contrario.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0067.png",
+  "../figura/p0068.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

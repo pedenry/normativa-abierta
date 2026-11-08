@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0130",
+  "ruta_oficial": "2.2.2",
+  "ruta_semantica": "2.2.2 Condiciones particulares de las bajantes",
+  "titulo": "2.2.2 Condiciones particulares de las bajantes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2.2 Condiciones particulares de las bajantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 54,
+   "bbox": [
+    70.9,
+    615.7,
+    296.0,
+    626.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0d6afda2e223fb246998970afc95e7b190b9008ac8f8c92c32bd0407c39e7317",
+   "literal": "2.2.2 Condiciones particulares de las bajantes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2.2 Condiciones particulares de las bajantes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva / 2.2 Instalaciones de traslado por bajantes 2.2.1 Condiciones generales / 2.2.2 Condiciones particulares de las bajantes",
+   "seccion_estimada": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "287cba336e4d548bb0cf34672367e50e1c6b05e1787a0663139112c0ef63709e"
+ },
+ "paginas": [
+  54,
+  55
+ ],
+ "etiquetas_impresas": [
+  "54",
+  "55"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.2.2 Condiciones particulares de las bajantes\n1\nLas bajantes deben ser metálicas o de cualquier material de clase de\nreacción al fuego A1, impermeable, anticorrosivo, imputrescible y resis-\ntente a los golpes. Las superficies interiores deben ser lisas.\n2\nLas bajantes deben separarse del resto de los recintos del edificio me-\ndiante muros que en función de las características de resistencia a fuego\nsean de clase EI-120.\n3\nLas bajantes deben disponerse verticalmente, aunque pueden realizarse\ncambios de dirección respecto a la vertical no mayores que 30º. Para evitar los ruidos producidos\npor una velocidad excesiva en la caída de los residuos, cada 10 m de conducto debe disponerse\nuna acodadura con cuatro codos de 15º cada uno como máximo según la figura 2.1, o adoptarse\notra solución que produzca el mismo efecto.\n\nDocumento Básico HS Salubridad\nHS 2 Recogida y evacuación de residuos\n55\n4\nLas bajantes deben tener un diámetro de 450 mm como mínimo.\n5\nLas bajantes de los sistemas de traslado por gravedad deben ventilarse por el extremo superior con\nun aspirador estático y, en dicho extremo, debe disponerse una toma de agua con racor para man-\nguera y una compuerta para limpieza dotada de cierre hermético y cerradura.\n6\nLas bajantes de los sistemas neumáticos deben conectarse a un conducto de ventilación de una",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0054_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0054.png",
+  "../figura/p0055.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

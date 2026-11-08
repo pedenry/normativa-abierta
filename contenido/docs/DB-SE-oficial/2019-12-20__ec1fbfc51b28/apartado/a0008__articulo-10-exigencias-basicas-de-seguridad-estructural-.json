@@ -1,0 +1,105 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0008",
+  "ruta_oficial": null,
+  "ruta_semantica": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "titulo": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    248.3,
+    365.1,
+    258.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+   "literal": "Artículo 10. Exigencias básicas de seguridad estructural (SE)"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0003",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "Artículo 10",
+   "DB-SE",
+   "DB-SE-A",
+   "DB-SE-AE",
+   "DB-SE-C",
+   "DB-SE-F",
+   "DB-SE-M"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+   "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e8389622e7f1eee552bebba14b7663e8fd17647a3c9d013d5351b755905bd533"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Artículo 10. Exigencias básicas de seguridad estructural (SE)\n1. El objetivo del requisito básico \"Seguridad estructural\" consiste en asegurar que el edificio tiene un\ncomportamiento estructural adecuado frente a las acciones einfluencias previsibles a las que pueda\nestar sometido durante su construcción y usoprevisto.\n2. Para satisfacer este objetivo, los edificios se proyectarán, fabricarán, construirán y mantendrán de\nforma que cumplan con una fiabilidad adecuadalas exigencias básicas que se establecen en los\napartados siguientes.\n3. Los Documentos Básicos “DB-SE Seguridad Estructural”, “DB-SE-AE Acciones en la Edificación”,\n“DB-SE-C Cimientos”, “DB-SE-A Acero”, “DB-SE-F Fábrica” y “DB-SE-M Madera”, especifican pará-\nmetros objetivos y procedimientos cuyo cumplimiento asegura la satisfacción de las exigencias bási-\ncas y la superación de los niveles mínimos de calidad propios del requisito básico de seguridad es-\ntructural.\n10.1.\nExigencia básica SE 1: Resistencia y estabilidad\nLa resistencia y la estabilidad serán las adecuadas para que no se generen riesgos indebidos,de forma\nque se mantenga la resistencia y la estabilidad frente a las acciones e influencias previsibles durante las\nfases de construcción y usos previstos de los edificios, y que un evento extraordinariono produzca con-\nsecuencias desproporcionadas respecto a la causa original y se facilite el mantenimiento previsto.\n10.2.\nExigencia básica SE 2: Aptitud al servicio\nLa aptitud al servicio será conforme con el uso previsto del edificio, de forma que no se produzcan de-\nformaciones inadmisibles, se limite a un nivel aceptable la probabilidad de un comportamiento dinámico\ninadmisible y no se produzcan degradaciones o anomalías inadmisibles.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 10",
+  "DB-SE",
+  "DB-SE-A",
+  "DB-SE-AE",
+  "DB-SE-C",
+  "DB-SE-F",
+  "DB-SE-M"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0009",
+  "a0010",
+  "a0011",
+  "a0012"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

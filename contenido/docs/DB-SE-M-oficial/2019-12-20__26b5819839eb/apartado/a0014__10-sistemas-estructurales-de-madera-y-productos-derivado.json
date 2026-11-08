@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0014",
+  "ruta_oficial": "10",
+  "ruta_semantica": "10 Sistemas estructurales de madera y productos derivados",
+  "titulo": "10 Sistemas estructurales de madera y productos derivados",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10 Sistemas estructurales de madera y productos derivados",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    70.9,
+    98.0,
+    354.0,
+    111.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7a4b2b548967157b2ea95b4dee692a48f8b7452e4e467b22e1cbd20039b61b14",
+   "literal": "10 Sistemas estructurales de madera y productos derivados"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0011",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10 Sistemas estructurales de madera y productos derivados",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Sistemas estructurales de madera y productos derivados",
+   "seccion_estimada": "10 Sistemas estructurales de madera y productos derivados",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4e4b022a815f8484fb729bbdad790aad9a0a0500ea91df7f6d2764c82c2fe029"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "10 Sistemas estructurales de madera y productos derivados\n10.1 Vigas mixtas\n10.2 Soportes compuestos\n10.3 Celosías\n10.4 Diafragmas\n10.5 Arriostramientos",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

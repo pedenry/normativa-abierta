@@ -1,0 +1,141 @@
+{
+ "documento": null,
+ "pagina": 99,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-94",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    237.1,
+    84.7
+   ],
+   "tipo": "titulo",
+   "texto": "7.2.2 Estados límite últimos",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    96.1,
+    198.6,
+    106.1
+   ],
+   "tipo": "texto",
+   "texto": "7.2.2.1 Taludes en suelos",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    111.7,
+    541.3,
+    170.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe analizarán todas aquellas configuraciones potenciales de inestabilidad que sean relevantes. La\nverificación de estos estados límite para cada situación de dimensionado se hará utilizando la ex-\npresión (2.2), y los coeficientes de seguridad parciales para la resistencia del terreno y para los\nefectos de las acciones siguientes:\n2\nSe adoptarán en los cálculos, en ausencia de construcciones afectadas por el talud:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.9,
+    174.5,
+    336.4,
+    186.0
+   ],
+   "tipo": "texto",
+   "texto": "R = 1,5\npara situaciones persistentes y transitorias;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.9,
+    189.9,
+    292.0,
+    201.4
+   ],
+   "tipo": "texto",
+   "texto": "R = 1,1\npara situaciones extraordinarias.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    205.1,
+    541.3,
+    418.9
+   ],
+   "tipo": "texto",
+   "texto": "E = F = M= 1\n3\nEn el cálculo de los estados límite últimos se harán intervenir, según proceda para la situación de\ndimensionado pertinente, los siguientes elementos:\na)\nestratificación del terreno;\nb)\npresencia y orientación de las posibles discontinuidades mecánicas;\nc)\nfuerzas de filtración y distribución de presiones intersticiales en el entorno del talud;\nd)\nforma de inestabilidad (superficie circular o compuesta de deslizamiento, posible basculamien-\nto de estratos, flujo) a corto y largo plazo;\ne)\nparámetros mecánicos de resistencia asociados al problema;\nf)\nmétodo de análisis adoptado (especialmente, el método numérico en que se base el programa\nde ordenador empleado);\ng)\ngeometría global del problema, en el caso en que se separe de las hipótesis bidimensionales y\nrequiera un análisis tridimensional.\n4\nEn general las soluciones de estabilización de taludes en suelos combinarán geometría y drenaje\nde trasdós del talud.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    430.4,
+    264.7,
+    440.4
+   ],
+   "tipo": "texto",
+   "texto": "7.2.2.2 Taludes de excavación en rocas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    446.0,
+    541.3,
+    727.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe estudiarán posibles modos de inestabilidad traslacionales o rotacionales asociados a:\na)\nbloques o cuñas limitados por discontinuidades;\nb)\nconjunto de la masa rocosa.\n2\nTambién se analizará la posible existencia de basculamiento de estratos o caída de bloques.\n3\nLos análisis de estabilidad estarán basados en un conocimiento adecuado de las familias de discon-\ntinuidades que afecten al macizo rocoso y en la resistencia a cortante de las discontinuidades y po-\nsible evolución de la resistencia a cortante de la matriz de roca.\n4\nSe tendrá en cuenta que en rocas muy densamente fracturadas y en rocas blandas o suelos ce-\nmentados las superficies potenciales de inestabilidad pueden tener directrices próximas a la forma\ncircular como en los suelos cohesivos.\n5\nLa distribución de presiones intersticiales en discontinuidades podrán suponerse triangulares, con\nvalor nulo en contacto a la atmósfera.\n6\nSe tendrá en cuenta que la situación anterior puede verse modificada muy desfavorablemente por\nel efecto de heladas que obturen la posible salida del agua al exterior.\n7\nLa prevención de basculamiento de estratos y, en algún caso favorable, la de caída de bloque o\ncuñas podrá conseguirse combinando bulonado y drenaje.\n8\nEn vaciados, la prevención de caída de bloques requerirá la utilización adecuada de mallas de re-\ntención.\n9\nEn taludes de viales de las zonas urbanizadas podrán disponerse, cerca de su pie, mallas especia-\nles de absorción de energía cinética, para detener y sujetar bloques. Tanto éstas últimas como los\nfosos o cunetones de recogida de piedras habrán de dimensionarse previo análisis de las posibles\ntrayectorias de las piedras en su caída.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

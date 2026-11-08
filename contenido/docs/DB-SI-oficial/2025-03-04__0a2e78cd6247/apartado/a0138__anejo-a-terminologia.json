@@ -1,0 +1,97 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0138",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología",
+  "titulo": "Anejo A. Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 51,
+   "bbox": [
+    262.2,
+    47.3,
+    349.5,
+    56.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4e0a0ae808759669783a6faed40d87ec811307eb2609fd19247a64a8b5e3b5ba",
+   "literal": "Anejo A. Terminología"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo A. Terminología",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3b7f42ecada687c49239996b646c470aaba4b7c989c49f305ce192b4fa87d490"
+ },
+ "paginas": [
+  51
+ ],
+ "etiquetas_impresas": [
+  "51"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo A. Terminología\n51\nUso Hospitalario\nEdificio o establecimiento destinado a asistencia sanitaria con hospitalización de 24 horas y que está\nocupados por personas que, en su mayoría, son incapaces de cuidarse por sí mismas, tales como hospi-\ntales, clínicas, sanatorios, residencias geriátricas, etc.\nLas zonas de dichos edificios o establecimientos destinadas a asistencia sanitaria de carácter ambulato-\nrio (despachos médicos, consultas, áreas destinadas al diagnóstico y tratamiento, etc.) así como a los\ncentros con dicho carácter en exclusiva, deben cumplir las condiciones correspondientes al uso Adminis-\ntrativo.\nUso Residencial Público\nEdificio o establecimiento destinado a proporcionar alojamiento temporal, regentado por un titular de la\nactividad diferente del conjunto de los ocupantes y que puede disponer de servicios comunes, tales co-\nmo limpieza, comedor, lavandería, locales para reuniones y espectáculos, deportes, etc. Incluye a los\nhoteles, hostales, residencias, pensiones, apartamentos turísticos, etc.\nUso Residencial Vivienda\nEdificio o zona destinada a alojamiento permanente, cualquiera que sea el tipo de edificio: vivienda uni-\nfamiliar, edificio de pisos o de apartamentos, etc.\nVentilación forzada\nExtracción de humos mediante el uso de ventiladores mecánicos.\nVentilación natural\nExtracción de humos basada en la fuerza ascensional de éstos debida a la diferencia de densidades\nentre masas de aire a diferentes temperaturas.\nVestíbulo de independencia\nRecinto de uso exclusivo para circulación situado entre dos o más recintos o zonas con el fin de aportar\nuna mayor garantía de compartimentación contra incendios y que únicamente puede comunicar con los\nrecintos o zonas a independizar, con aseos de planta y con ascensores. Cumplirán las siguientes condicio-\nnes:\n-\nSus paredes serán EI 120. Sus puertas de paso entre los recintos o zonas a independizar tendrán la\ncuarta parte de la resistencia al fuego exigible al elemento compartimentador que separa dichos recin-\ntos y al menos EI2 30-C5.\n-\nLos vestíbulos de independencia de las escaleras especialmente protegidas dispondrán de protección\nfrente al humo conforme a alguna de las alternativas establecidas para dichas escaleras.\n-\nLos que sirvan a uno o a varios locales de riesgo especial, según lo establecido en el apartado 2 de la",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0112",
+   "ruta_oficial": null,
+   "titulo": "Recorrido de evacuación",
+   "archivo_json": "a0112__recorrido-de-evacuacion.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0139",
+  "a0140",
+  "a0141",
+  "a0142"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,325 @@
+{
+ "documento": null,
+ "pagina": 47,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 41",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    262.4,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "7  Estados límite de servicio",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    134.9,
+    217.7,
+    146.9
+   ],
+   "tipo": "titulo",
+   "texto": "7.1  Deformación diferida",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    155.7,
+    484.9,
+    167.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa componente diferida de un desplazamiento, dif, se determina a partir de la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    173.9,
+    183.5,
+    185.4
+   ],
+   "tipo": "texto",
+   "texto": "dif = ini·2·kdef (7.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    192.8,
+    123.8,
+    202.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    209.7,
+    225.8,
+    221.1
+   ],
+   "tipo": "texto",
+   "texto": "ini\ndesplazamiento elástico;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    88.8,
+    227.9,
+    538.7,
+    251.6
+   ],
+   "tipo": "texto",
+   "texto": "2\ncoeficiente de simultaneidad que se obtien de la tabla 4.2 del DB SE. Para las cargas perma-\nnentes, se adoptará 2=1;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    88.8,
+    259.1,
+    422.6,
+    269.0
+   ],
+   "tipo": "texto",
+   "texto": "kdef factor de fluencia en función de la clase de servicio (véase tabla 7.1);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    276.6,
+    541.3,
+    310.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nLas deformaciones diferidas deben evaluarse bajo la combinación de acciones que corresponda\nsegún lo definido en el DB SE, apartado 4.3.3. En el caso de la combinación casi permanente, sólo\nse multiplicará una vez por el factor 2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    146.4,
+    324.9,
+    467.9,
+    333.9
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 7.1  Valores de kdef para madera y productos derivados de la madera",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    335.4,
+    516.4,
+    405.9
+   ],
+   "tipo": "texto",
+   "texto": "Material\nTipo de producto\nClase de servicio\n1\n2\n3\nMadera maciza\n0,60\n0,80\n2,00\nMadera laminada encolada\n0,60\n0,80\n2,00\nMadera microlaminada (LVL)\n0,60\n0,80\n2,00\nTablero contrachapado\nUNE-EN\n636:2012+A1:2015",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    407.5,
+    516.4,
+    535.9
+   ],
+   "tipo": "texto",
+   "texto": "Parte 1\n0,80\n-\n-\nParte 2\n0,80\n1,00\n-\nParte 3\n0,80\n1,00\n2,50\nTablero de virutas orientadas (OSB)\nUNE-EN 300:2007\nOSB/2\n2,25\n-\n-\nOSB/3, OSB/4\n1,50\n2,25\n-\nTablero de partículas\nUNE-EN 312:2010\nParte 4\n2,25\n-\n-\nParte 5\n2,25\n3,00\n-\nParte 6\n1,5\n-\n-\nParte 7\n1,50\n2,25\n-\nTablero de fibras duro\nUNE-EN 622-",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    273.8,
+    532.2,
+    508.3,
+    545.7
+   ],
+   "tipo": "texto",
+   "texto": "2:2004",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    547.5,
+    509.7,
+    577.6
+   ],
+   "tipo": "texto",
+   "texto": "HB.LA\n2,25\n-\n-\nHB.HLS\n2,25\n3,00\n-\nTablero de fibras semiduro\nUNE-EN 622-",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    273.8,
+    573.9,
+    508.3,
+    587.3
+   ],
+   "tipo": "texto",
+   "texto": "3:2005",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    589.1,
+    509.7,
+    619.2
+   ],
+   "tipo": "texto",
+   "texto": "MBH.LA\n3,00\n-\n-\nMBH.HLS\n3,00\n4,00\n-\nTablero de fibras de densidad media (DM)\nUNE-EN 622-",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    273.8,
+    615.5,
+    508.3,
+    628.9
+   ],
+   "tipo": "texto",
+   "texto": "5:2010",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    268.2,
+    630.7,
+    509.7,
+    650.1
+   ],
+   "tipo": "texto",
+   "texto": "MDF.LA\n2,25\n-\n-\nMDF.HLS\n2,25\n3,00\n-",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    652.3,
+    312.0,
+    665.7
+   ],
+   "tipo": "texto",
+   "texto": "Tablero de fibras blando\nUNE-EN 622-",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    273.8,
+    657.1,
+    509.7,
+    670.6
+   ],
+   "tipo": "texto",
+   "texto": "4:2010\n3,00\n4,00\n-",
+   "tamano": 8.5,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    693.2,
+    541.3,
+    714.6
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn los casos en los que la tabla 7.1 no indica un valor de kdef, el tipo de material correspondiente no\npodrá utilizarse en dicha clase de servicio.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    70.9,
+    733.4,
+    265.1,
+    745.4
+   ],
+   "tipo": "titulo",
+   "texto": "7.2  Deslizamiento de las uniones",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  }
+ ],
+ "error_tablas": null
+}

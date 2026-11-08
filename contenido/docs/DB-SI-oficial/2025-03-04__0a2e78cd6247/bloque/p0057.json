@@ -1,0 +1,482 @@
+{
+ "documento": null,
+ "pagina": 57,
+ "etiqueta_impresa": "57",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    172.5,
+    35.9,
+    439.3,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "57",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.2,
+    537.8,
+    86.8
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    120.3,
+    206.8,
+    135.9
+   ],
+   "tipo": "titulo",
+   "texto": "C.1  Generalidades",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    146.4,
+    541.2,
+    168.9
+   ],
+   "tipo": "texto",
+   "texto": "En este anejo se establecen métodos simplificados y tablas que permiten determinar la resistencia de los\nelementos de hormigón ante la acción representada por la curva normalizada tiempo-temperatura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    184.2,
+    541.0,
+    218.6
+   ],
+   "tipo": "texto",
+   "texto": "Los elementos estructurales deben diseñarse de forma que, ante el desconchado (spalling) del hormi-\ngón, el fallo por anclaje o por pérdida de capacidad de giro tenga una menor probabilidad de aparición\nque el fallo por flexión, por esfuerzo cortante o por cargas axiles.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    253.9,
+    162.3,
+    269.5
+   ],
+   "tipo": "titulo",
+   "texto": "C.2  Tablas",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    290.0,
+    192.4,
+    303.4
+   ],
+   "tipo": "texto",
+   "texto": "C.2.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    311.9,
+    538.7,
+    345.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nMediante las tablas y apartados siguientes puede obtenerse la resistencia de los elementos estructu-\nrales a la acción representada por la curva normalizada tiempo-temperatura de los elementos estruc-\nturales, en función de sus dimensiones y de la distancia mínima equivalente al eje de las armaduras.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    352.4,
+    541.4,
+    374.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nPara aplicación de las tablas, se define como distancia mínima equivalente al eje am, a efectos de\nresistencia al fuego, al valor",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    105.0,
+    375.9,
+    201.3,
+    416.7
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n\n\n",
+   "tamano": 17.4,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    158.4,
+    406.1,
+    175.1,
+    413.6
+   ],
+   "tipo": "texto",
+   "texto": "yki\nsi",
+   "tamano": 6.8,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    95.9,
+    388.9,
+    194.3,
+    411.8
+   ],
+   "tipo": "texto",
+   "texto": "si\nsi\nyki\nsi\nm\nf\nA",
+   "tamano": 9.7,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    90.3,
+    383.9,
+    521.4,
+    403.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Δa\na\nf\nA\na\n(C.1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    88.8,
+    422.9,
+    123.9,
+    434.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    88.8,
+    440.2,
+    348.4,
+    451.3
+   ],
+   "tipo": "texto",
+   "texto": "Asi área de cada una de las armaduras i, pasiva o activa;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.8,
+    457.7,
+    538.6,
+    468.8
+   ],
+   "tipo": "texto",
+   "texto": "asi distancia del eje de cada una de las armaduras i, al paramento expuesto más próximo, conside-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    108.1,
+    469.4,
+    448.4,
+    480.5
+   ],
+   "tipo": "texto",
+   "texto": "rando los revestimientos en las condiciones que ms adelante se establecen;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    88.8,
+    486.8,
+    355.5,
+    497.9
+   ],
+   "tipo": "texto",
+   "texto": "fyki resistencia característica del acero de las armaduras i.;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    88.8,
+    504.1,
+    538.7,
+    516.3
+   ],
+   "tipo": "texto",
+   "texto": "asi corrección debida a las diferentes temperaturas críticas del acero y a las condiciones particula-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    108.1,
+    516.4,
+    541.4,
+    575.3
+   ],
+   "tipo": "texto",
+   "texto": "res de exposición al fuego, conforme a los valores de la tabla C.1, siendo fi el coeficiente de so-\nbredimensionado de la sección en estudio, definido en el apartado 6 del SI6. Las correcciones\npara valores de fi inferiores a 0,6 en vigas, losas y forjados, sólo podrán considerarse cuando\ndichos elementos estén sometidos a cargas distribuidas de forma sensiblemente uniforme. Para\nvalores intermedios se puede interpolar linealmente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    238.6,
+    588.1,
+    373.4,
+    599.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.1. Valores de asi (mm)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    134.3,
+    624.1,
+    145.7,
+    635.0
+   ],
+   "tipo": "texto",
+   "texto": "fi",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    191.4,
+    605.9,
+    458.6,
+    615.9
+   ],
+   "tipo": "texto",
+   "texto": "Acero de armar\nAcero de pretensar",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    169.1,
+    622.6,
+    216.3,
+    643.3
+   ],
+   "tipo": "texto",
+   "texto": "Vigas(1) y\nlosas (forja-",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    183.9,
+    643.7,
+    203.9,
+    653.7
+   ],
+   "tipo": "texto",
+   "texto": "dos)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    230.9,
+    628.1,
+    283.5,
+    638.1
+   ],
+   "tipo": "texto",
+   "texto": "Resto de los",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    244.2,
+    638.5,
+    270.3,
+    648.5
+   ],
+   "tipo": "texto",
+   "texto": "casos",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    301.1,
+    623.1,
+    519.3,
+    633.4
+   ],
+   "tipo": "texto",
+   "texto": "Vigas(1) y losas (forjados)\nResto de los casos",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    306.4,
+    640.7,
+    531.4,
+    650.7
+   ],
+   "tipo": "texto",
+   "texto": "Barras\nAlambres\nBarras\nAlambres",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    129.2,
+    658.0,
+    200.3,
+    673.0
+   ],
+   "tipo": "texto",
+   "texto": "0,4\n+5",
+   "tamano": 12.1,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    253.5,
+    678.1,
+    261.0,
+    688.2
+   ],
+   "tipo": "texto",
+   "texto": "0",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    315.7,
+    661.3,
+    392.3,
+    671.3
+   ],
+   "tipo": "texto",
+   "texto": "-5\n-10",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    132.5,
+    678.1,
+    519.4,
+    689.0
+   ],
+   "tipo": "texto",
+   "texto": "-10\n-15\n0,5\n0\n-10\n-15",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    132.5,
+    695.9,
+    392.3,
+    705.9
+   ],
+   "tipo": "texto",
+   "texto": "0,6\n-5\n-15\n-20",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    70.9,
+    712.3,
+    540.8,
+    755.6
+   ],
+   "tipo": "texto",
+   "texto": "(1)\nEn el caso de armaduras situadas en las esquinas de vigas con una sola capa de armadura se reducirán los\nvalores de asi en 10 mm, cuando el ancho de las mismas sea inferior a los valores de bmin especificados en la\ncolumna 3 de la tabla C.3.",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

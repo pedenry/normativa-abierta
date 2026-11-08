@@ -1,0 +1,442 @@
+{
+ "documento": null,
+ "pagina": 64,
+ "etiqueta_impresa": "64",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-62",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    83.5,
+    292.6,
+    94.6
+   ],
+   "tipo": "texto",
+   "texto": "8.3.1 Clasificación de las uniones por rigidez.",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    102.9,
+    217.9,
+    114.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nNominalmente articuladas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    96.8,
+    120.3,
+    538.6,
+    154.6
+   ],
+   "tipo": "texto",
+   "texto": "Son aquellas en las que no se desarrollan momentos significativos que puedan afectar a los miem-\nbros de la estructura. Serán capaces de transmitir las fuerzas y de soportar las rotaciones obteni-\ndas en el cálculo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    160.8,
+    136.3,
+    172.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nRígidas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    178.4,
+    541.4,
+    224.1
+   ],
+   "tipo": "texto",
+   "texto": "Son aquellas cuya deformación (movimientos relativos entre los extremos de las piezas que unen)\nno tiene una influencia significativa sobre la distribución de esfuerzos en la estructura ni sobre su\ndeformación global. Deben ser capaces de transmitir las fuerzas y momentos obtenidos en el cál-\nculo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    74.1,
+    230.3,
+    158.5,
+    241.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nSemirrígidas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    96.8,
+    247.8,
+    541.4,
+    293.5
+   ],
+   "tipo": "texto",
+   "texto": "Son aquellas que no corresponden a ninguna de las categorías anteriores. Establecerán la interac-\nción prevista (basada, por ejemplo en las características momento rotación de cálculo) entre los\nmiembros de la unión y serán capaces de transmitir las fuerzas y momentos obtenidas en el cálcu-\nlo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    307.0,
+    339.1,
+    318.1
+   ],
+   "tipo": "texto",
+   "texto": "8.3.2 Límites establecidos para algunos tipos de unión.",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.1,
+    326.3,
+    204.6,
+    337.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara uniones viga-pilar:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    96.8,
+    343.8,
+    375.4,
+    355.8
+   ],
+   "tipo": "texto",
+   "texto": "a)\nUnión rígida. Si la rigidez inicial de la unión, Sj,ini, cumple:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    160.7,
+    380.7,
+    164.4,
+    388.0
+   ],
+   "tipo": "texto",
+   "texto": "b",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    128.1,
+    367.2,
+    170.5,
+    386.3
+   ],
+   "tipo": "texto",
+   "texto": "b\nb\nini\n,j\nL",
+   "tamano": 9.3,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    120.9,
+    362.4,
+    540.7,
+    379.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "EI\nk\nS\n≥\n(8.3)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    119.5,
+    395.3,
+    151.8,
+    406.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    120.9,
+    412.7,
+    534.9,
+    424.7
+   ],
+   "tipo": "texto",
+   "texto": "kb =\n8 para pórticos de estructuras arriostradas frente a acciones horizontales (Ver 5.3.5);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    120.9,
+    430.0,
+    491.8,
+    443.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "kb =\n25 para otros pórticos, siempre que en cada planta se verifique Kb/Kc ≥ 0,1;",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    120.9,
+    448.5,
+    541.4,
+    471.2
+   ],
+   "tipo": "texto",
+   "texto": "Kb\nvalor medio de la relación EIb/Lb de todas las vigas en la planta en que se encuentra\nla unión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    120.9,
+    477.5,
+    446.0,
+    489.4
+   ],
+   "tipo": "texto",
+   "texto": "Kc\nvalor medio de la relación EIc/Lc de todos los pilares de la planta;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    120.9,
+    495.0,
+    308.9,
+    506.9
+   ],
+   "tipo": "texto",
+   "texto": "Ib\nmomento de inercia de cada viga;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    120.9,
+    512.5,
+    479.6,
+    524.5
+   ],
+   "tipo": "texto",
+   "texto": "Ic\nmomento de inercia de cada pilar en la dirección de flexión considerada;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    120.9,
+    530.0,
+    322.7,
+    541.9
+   ],
+   "tipo": "texto",
+   "texto": "Lb\nluz (entre ejes de pilar) de cada viga;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    120.9,
+    547.5,
+    241.1,
+    559.4
+   ],
+   "tipo": "texto",
+   "texto": "Lc\naltura de la planta.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    96.8,
+    565.0,
+    474.8,
+    577.0
+   ],
+   "tipo": "texto",
+   "texto": "b)\nUniones nominalmente articuladas. Si la rigidez inicial de la unión, Sj,ini, cumple:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    160.4,
+    600.8,
+    163.8,
+    607.7
+   ],
+   "tipo": "texto",
+   "texto": "b",
+   "tamano": 6.2,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    127.7,
+    588.2,
+    171.0,
+    606.0
+   ],
+   "tipo": "texto",
+   "texto": "b\nini\n,j\nL",
+   "tamano": 8.8,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    120.8,
+    583.5,
+    540.7,
+    599.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "EI\n5,0\nS\n≤\n(8.4)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    96.8,
+    615.0,
+    541.4,
+    637.6
+   ],
+   "tipo": "texto",
+   "texto": "c)\nUniones semirrígidas. La rigidez inicial de la unión se encuentra en la zona intermedia entre\nlos límites establecidos para uniones rígidas y articulaciones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    96.8,
+    644.0,
+    358.4,
+    655.2
+   ],
+   "tipo": "texto",
+   "texto": "d)\nEn defecto de análisis más precisos se considerarán:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    119.5,
+    661.5,
+    538.6,
+    684.1
+   ],
+   "tipo": "texto",
+   "texto": "i)\n articuladas (excéntricamente), las uniones por soldadura del alma de una viga metá-\nlica en doble T sin unión de las alas al pilar,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    119.5,
+    690.5,
+    541.4,
+    713.2
+   ],
+   "tipo": "texto",
+   "texto": "ii)\narticuladas (viga continua sobre apoyo posiblemente excéntrico), las uniones de vigas\nplanas de hormigón armado en continuidad sobre pilar metálico,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    119.5,
+    719.4,
+    541.4,
+    753.7
+   ],
+   "tipo": "texto",
+   "texto": "iii)\nrígidas, las uniones soldadas de vigas en doble T a soportes en las que se materialice\nla continuidad de las alas a través del pilar mediante rigidizadores de dimensiones aná-\nlogas a las de las alas.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

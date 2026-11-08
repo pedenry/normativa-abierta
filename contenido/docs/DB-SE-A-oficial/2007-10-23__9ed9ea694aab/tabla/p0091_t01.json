@@ -1,0 +1,63 @@
+{
+ "indice": 1,
+ "pagina": 91,
+ "etiqueta_impresa": "91",
+ "bbox": [
+  123.1,
+  303.4,
+  323.5,
+  318.8
+ ],
+ "filas": 1,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "M\nj,b1,Ed",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "M\nj,b2,Ed",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "M\nj,b1,Ed",
+  "2",
+  "M\nj,b2,Ed"
+ ],
+ "header": {
+  "names": [
+   "M\nj,b1,Ed",
+   "2",
+   "M\nj,b2,Ed"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB975910>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9771A0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9775C0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0091.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

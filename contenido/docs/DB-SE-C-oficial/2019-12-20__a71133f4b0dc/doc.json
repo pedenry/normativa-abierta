@@ -1,0 +1,1019 @@
+{
+ "id": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "layer": "oficial",
+ "scope": "Seguridad Estructural",
+ "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+ "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+ "version_label_literal": "Ministerio de Fomento \nSecretaría de Estado de Infraestructuras, Transporte y Vivienda \nSecretaría General de Vivienda \nDirección General de Arquitectura, Vivienda y Suelo \n \n \n20 diciembre 2019 \n \nDocumento Básico SE-C\n \nSeguridad estructural \nCimientos",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "version_detectada": {
+  "corta": "2019-12-20",
+  "dir": "2019-12-20__a71133f4b0dc",
+  "tipo": "fecha completa",
+  "literal": "20 diciembre 2019",
+  "fuente": "cover_text(fecha completa)",
+  "nota": "fecha detectada en texto literal; conservar portada"
+ },
+ "version_semantic_label": null,
+ "correccion_boe": null,
+ "fecha_comentarios": null,
+ "consolidation_update_date": null,
+ "fecha_notas": null,
+ "version_fuente": "cover_text(fecha completa)",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "pdf_nombre": "DB-SE-C-oficial-a71133f4b0.pdf",
+ "paginas_pdf": 165,
+ "paginas_manifiesto": 165,
+ "license_status": "art13 disposicion legal",
+ "license_evidence": null,
+ "creditos": null,
+ "motivo_distribucion": "disposición legal (art. 13 TRLPI)",
+ "normativo": true,
+ "distribute": true,
+ "nota_capa": "",
+ "ambito_literal": {
+  "id_tecnico": "a0012",
+  "ruta_oficial": null,
+  "titulo": "Ámbito de aplicación",
+  "texto": "Ámbito de aplicación\n1\nEl ámbito de aplicación de este DB-C es el de la seguridad estructural, capacidad portante y aptitud\nal servicio, de los elementos de cimentación y, en su caso, de contención de todo tipo de edificios,\nen relación con el terreno, independientemente de lo que afecta al elemento propiamente dicho, que\nse regula en los Documentos Básicos relativos a la seguridad estructural de los diferentes materia-\nles o la instrucción EHE.\n1.2"
+ },
+ "toc": [],
+ "metodo_segmentacion": "lineas",
+ "cobertura_caracteres_apartados": 0.977,
+ "referencias_globales": [
+  "DB SE-C",
+  "DB se",
+  "DB-HS",
+  "DB-SE",
+  "DB-SE-C",
+  "Real Decreto\n1627/1997",
+  "Real Decreto 1371/2007",
+  "Real Decreto 314/2006",
+  "Real Decreto 732/2019",
+  "UNE\nEN",
+  "UNE 103101",
+  "UNE 103102",
+  "UNE 103103",
+  "UNE 103104",
+  "UNE 103108",
+  "UNE 103200",
+  "UNE 103202",
+  "UNE 103204",
+  "UNE 103301",
+  "UNE 103400",
+  "UNE 103401",
+  "UNE 103405",
+  "UNE 103406",
+  "UNE 103500",
+  "UNE 103501",
+  "UNE 103600",
+  "UNE 103601",
+  "UNE 103602",
+  "UNE 146510",
+  "UNE 22381",
+  "UNE 22950-1",
+  "UNE 22950-2",
+  "UNE 80303-1",
+  "UNE 80303-2",
+  "UNE 83988-2",
+  "UNE EN",
+  "UNE-EN",
+  "UNE-ENV",
+  "UNE103108",
+  "UNE103301",
+  "UNE103401",
+  "UNE103405",
+  "apartado\n2.2",
+  "apartado\n2.3.2.2",
+  "apartado\n2.4.2.5",
+  "apartado\n3.2.2",
+  "apartado\n3.3.2.4",
+  "apartado\n3.3.4",
+  "apartado\n5.3.7",
+  "apartado\n5.3.8",
+  "apartado\n5.4.1.1",
+  "apartado\n6.3.1.2",
+  "apartado\n6.3.2.3",
+  "apartado\n6.3.3.3",
+  "apartado 2",
+  "apartado 2.2",
+  "apartado 2.2.1.2",
+  "apartado 2.2.1.3",
+  "apartado 2.3.2",
+  "apartado 2.3.2.2",
+  "apartado 2.3.2.3",
+  "apartado 2.4.2.4",
+  "apartado 2.4.2.5",
+  "apartado 2.4.2.6",
+  "apartado 2.4.3",
+  "apartado 3.2.1",
+  "apartado 3.3.2.1",
+  "apartado 3.3.2.2",
+  "apartado 3.4",
+  "apartado 4.1.1",
+  "apartado 4.2.1.2",
+  "apartado 4.2.3.1",
+  "apartado 4.2.4",
+  "apartado 4.3",
+  "apartado 4.3.1.3",
+  "apartado 4.3.2",
+  "apartado 4.3.3",
+  "apartado 4.3.4",
+  "apartado 4.4",
+  "apartado 5.2.3",
+  "apartado 5.3.3",
+  "apartado 5.3.4",
+  "apartado 5.3.5",
+  "apartado 5.3.6",
+  "apartado 5.3.7",
+  "apartado 5.4",
+  "apartado 5.4.1.1.1",
+  "apartado 6.2",
+  "apartado 6.2.2",
+  "apartado 6.3.1",
+  "apartado 6.3.1.2",
+  "apartado 6.3.2.1",
+  "apartado 6.3.2.2",
+  "apartado 6.3.2.2.2",
+  "apartado 6.3.2.2.3",
+  "apartado 6.3.2.3",
+  "apartado 6.3.3.2",
+  "apartado 7.2",
+  "une los"
+ ],
+ "tablas_por_pagina": {
+  "40": [
+   {
+    "indice": 1,
+    "filas": 1,
+    "columnas": 2
+   }
+  ],
+  "51": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 2
+   }
+  ],
+  "65": [
+   {
+    "indice": 1,
+    "filas": 3,
+    "columnas": 3
+   }
+  ],
+  "72": [
+   {
+    "indice": 1,
+    "filas": 1,
+    "columnas": 2
+   }
+  ],
+  "81": [
+   {
+    "indice": 1,
+    "filas": 6,
+    "columnas": 3
+   }
+  ],
+  "120": [
+   {
+    "indice": 1,
+    "filas": 8,
+    "columnas": 2
+   }
+  ],
+  "125": [
+   {
+    "indice": 1,
+    "filas": 6,
+    "columnas": 4
+   },
+   {
+    "indice": 2,
+    "filas": 3,
+    "columnas": 4
+   }
+  ],
+  "151": [
+   {
+    "indice": 1,
+    "filas": 5,
+    "columnas": 3
+   }
+  ],
+  "152": [
+   {
+    "indice": 1,
+    "filas": 6,
+    "columnas": 3
+   }
+  ],
+  "161": [
+   {
+    "indice": 1,
+    "filas": 1,
+    "columnas": 2
+   }
+  ]
+ },
+ "figuras": [
+  {
+   "pagina": 1,
+   "motivos": [
+    "dibujos:22"
+   ],
+   "archivo": "figura/p0001.png"
+  },
+  {
+   "pagina": 9,
+   "motivos": [
+    "formulas"
+   ],
+   "archivo": "figura/p0009.png"
+  },
+  {
+   "pagina": 10,
+   "motivos": [
+    "dibujos:3",
+    "formulas"
+   ],
+   "archivo": "figura/p0010.png"
+  },
+  {
+   "pagina": 11,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0011.png"
+  },
+  {
+   "pagina": 12,
+   "motivos": [
+    "dibujos:78"
+   ],
+   "archivo": "figura/p0012.png"
+  },
+  {
+   "pagina": 13,
+   "motivos": [
+    "dibujos:286"
+   ],
+   "archivo": "figura/p0013.png"
+  },
+  {
+   "pagina": 14,
+   "motivos": [
+    "dibujos:24"
+   ],
+   "archivo": "figura/p0014.png"
+  },
+  {
+   "pagina": 15,
+   "motivos": [
+    "dibujos:48"
+   ],
+   "archivo": "figura/p0015.png"
+  },
+  {
+   "pagina": 16,
+   "motivos": [
+    "dibujos:23"
+   ],
+   "archivo": "figura/p0016.png"
+  },
+  {
+   "pagina": 17,
+   "motivos": [
+    "dibujos:29"
+   ],
+   "archivo": "figura/p0017.png"
+  },
+  {
+   "pagina": 18,
+   "motivos": [
+    "dibujos:25"
+   ],
+   "archivo": "figura/p0018.png"
+  },
+  {
+   "pagina": 19,
+   "motivos": [
+    "dibujos:11"
+   ],
+   "archivo": "figura/p0019.png"
+  },
+  {
+   "pagina": 20,
+   "motivos": [
+    "dibujos:44"
+   ],
+   "archivo": "figura/p0020.png"
+  },
+  {
+   "pagina": 21,
+   "motivos": [
+    "dibujos:15"
+   ],
+   "archivo": "figura/p0021.png"
+  },
+  {
+   "pagina": 24,
+   "motivos": [
+    "dibujos:858"
+   ],
+   "archivo": "figura/p0024.png"
+  },
+  {
+   "pagina": 25,
+   "motivos": [
+    "dibujos:298"
+   ],
+   "archivo": "figura/p0025.png"
+  },
+  {
+   "pagina": 26,
+   "motivos": [
+    "dibujos:989"
+   ],
+   "archivo": "figura/p0026.png"
+  },
+  {
+   "pagina": 27,
+   "motivos": [
+    "dibujos:10181"
+   ],
+   "archivo": "figura/p0027.png"
+  },
+  {
+   "pagina": 28,
+   "motivos": [
+    "dibujos:974"
+   ],
+   "archivo": "figura/p0028.png"
+  },
+  {
+   "pagina": 30,
+   "motivos": [
+    "dibujos:3885"
+   ],
+   "archivo": "figura/p0030.png"
+  },
+  {
+   "pagina": 31,
+   "motivos": [
+    "dibujos:690"
+   ],
+   "archivo": "figura/p0031.png"
+  },
+  {
+   "pagina": 32,
+   "motivos": [
+    "dibujos:1329"
+   ],
+   "archivo": "figura/p0032.png"
+  },
+  {
+   "pagina": 33,
+   "motivos": [
+    "dibujos:102"
+   ],
+   "archivo": "figura/p0033.png"
+  },
+  {
+   "pagina": 35,
+   "motivos": [
+    "dibujos:3449"
+   ],
+   "archivo": "figura/p0035.png"
+  },
+  {
+   "pagina": 36,
+   "motivos": [
+    "dibujos:516"
+   ],
+   "archivo": "figura/p0036.png"
+  },
+  {
+   "pagina": 37,
+   "motivos": [
+    "dibujos:6"
+   ],
+   "archivo": "figura/p0037.png"
+  },
+  {
+   "pagina": 38,
+   "motivos": [
+    "dibujos:238",
+    "formulas"
+   ],
+   "archivo": "figura/p0038.png"
+  },
+  {
+   "pagina": 39,
+   "motivos": [
+    "dibujos:63"
+   ],
+   "archivo": "figura/p0039.png"
+  },
+  {
+   "pagina": 40,
+   "motivos": [
+    "tablas",
+    "dibujos:10"
+   ],
+   "archivo": "figura/p0040.png"
+  },
+  {
+   "pagina": 47,
+   "motivos": [
+    "dibujos:5177"
+   ],
+   "archivo": "figura/p0047.png"
+  },
+  {
+   "pagina": 48,
+   "motivos": [
+    "dibujos:9"
+   ],
+   "archivo": "figura/p0048.png"
+  },
+  {
+   "pagina": 50,
+   "motivos": [
+    "dibujos:3256"
+   ],
+   "archivo": "figura/p0050.png"
+  },
+  {
+   "pagina": 51,
+   "motivos": [
+    "tablas",
+    "dibujos:23544"
+   ],
+   "archivo": "figura/p0051.png"
+  },
+  {
+   "pagina": 52,
+   "motivos": [
+    "dibujos:5"
+   ],
+   "archivo": "figura/p0052.png"
+  },
+  {
+   "pagina": 53,
+   "motivos": [
+    "dibujos:4884"
+   ],
+   "archivo": "figura/p0053.png"
+  },
+  {
+   "pagina": 55,
+   "motivos": [
+    "dibujos:604",
+    "formulas"
+   ],
+   "archivo": "figura/p0055.png"
+  },
+  {
+   "pagina": 56,
+   "motivos": [
+    "dibujos:5"
+   ],
+   "archivo": "figura/p0056.png"
+  },
+  {
+   "pagina": 58,
+   "motivos": [
+    "dibujos:31"
+   ],
+   "archivo": "figura/p0058.png"
+  },
+  {
+   "pagina": 61,
+   "motivos": [
+    "dibujos:30"
+   ],
+   "archivo": "figura/p0061.png"
+  },
+  {
+   "pagina": 63,
+   "motivos": [
+    "formulas"
+   ],
+   "archivo": "figura/p0063.png"
+  },
+  {
+   "pagina": 65,
+   "motivos": [
+    "tablas",
+    "dibujos:27"
+   ],
+   "archivo": "figura/p0065.png"
+  },
+  {
+   "pagina": 66,
+   "motivos": [
+    "dibujos:2034"
+   ],
+   "archivo": "figura/p0066.png"
+  },
+  {
+   "pagina": 67,
+   "motivos": [
+    "dibujos:128"
+   ],
+   "archivo": "figura/p0067.png"
+  },
+  {
+   "pagina": 69,
+   "motivos": [
+    "dibujos:776",
+    "formulas"
+   ],
+   "archivo": "figura/p0069.png"
+  },
+  {
+   "pagina": 70,
+   "motivos": [
+    "dibujos:769",
+    "formulas"
+   ],
+   "archivo": "figura/p0070.png"
+  },
+  {
+   "pagina": 71,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0071.png"
+  },
+  {
+   "pagina": 72,
+   "motivos": [
+    "tablas",
+    "dibujos:3938"
+   ],
+   "archivo": "figura/p0072.png"
+  },
+  {
+   "pagina": 73,
+   "motivos": [
+    "dibujos:15"
+   ],
+   "archivo": "figura/p0073.png"
+  },
+  {
+   "pagina": 74,
+   "motivos": [
+    "dibujos:1099"
+   ],
+   "archivo": "figura/p0074.png"
+  },
+  {
+   "pagina": 75,
+   "motivos": [
+    "dibujos:1212"
+   ],
+   "archivo": "figura/p0075.png"
+  },
+  {
+   "pagina": 76,
+   "motivos": [
+    "dibujos:3383"
+   ],
+   "archivo": "figura/p0076.png"
+  },
+  {
+   "pagina": 79,
+   "motivos": [
+    "dibujos:18024"
+   ],
+   "archivo": "figura/p0079.png"
+  },
+  {
+   "pagina": 80,
+   "motivos": [
+    "dibujos:18672"
+   ],
+   "archivo": "figura/p0080.png"
+  },
+  {
+   "pagina": 81,
+   "motivos": [
+    "tablas",
+    "dibujos:892"
+   ],
+   "archivo": "figura/p0081.png"
+  },
+  {
+   "pagina": 89,
+   "motivos": [
+    "dibujos:8294"
+   ],
+   "archivo": "figura/p0089.png"
+  },
+  {
+   "pagina": 90,
+   "motivos": [
+    "dibujos:918"
+   ],
+   "archivo": "figura/p0090.png"
+  },
+  {
+   "pagina": 91,
+   "motivos": [
+    "dibujos:2186"
+   ],
+   "archivo": "figura/p0091.png"
+  },
+  {
+   "pagina": 92,
+   "motivos": [
+    "dibujos:567"
+   ],
+   "archivo": "figura/p0092.png"
+  },
+  {
+   "pagina": 93,
+   "motivos": [
+    "dibujos:1319"
+   ],
+   "archivo": "figura/p0093.png"
+  },
+  {
+   "pagina": 95,
+   "motivos": [
+    "dibujos:11"
+   ],
+   "archivo": "figura/p0095.png"
+  },
+  {
+   "pagina": 96,
+   "motivos": [
+    "dibujos:63"
+   ],
+   "archivo": "figura/p0096.png"
+  },
+  {
+   "pagina": 105,
+   "motivos": [
+    "formulas"
+   ],
+   "archivo": "figura/p0105.png"
+  },
+  {
+   "pagina": 106,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0106.png"
+  },
+  {
+   "pagina": 118,
+   "motivos": [
+    "dibujos:30"
+   ],
+   "archivo": "figura/p0118.png"
+  },
+  {
+   "pagina": 119,
+   "motivos": [
+    "dibujos:63"
+   ],
+   "archivo": "figura/p0119.png"
+  },
+  {
+   "pagina": 120,
+   "motivos": [
+    "tablas",
+    "dibujos:103"
+   ],
+   "archivo": "figura/p0120.png"
+  },
+  {
+   "pagina": 121,
+   "motivos": [
+    "dibujos:28"
+   ],
+   "archivo": "figura/p0121.png"
+  },
+  {
+   "pagina": 122,
+   "motivos": [
+    "dibujos:34"
+   ],
+   "archivo": "figura/p0122.png"
+  },
+  {
+   "pagina": 123,
+   "motivos": [
+    "dibujos:40"
+   ],
+   "archivo": "figura/p0123.png"
+  },
+  {
+   "pagina": 124,
+   "motivos": [
+    "dibujos:32"
+   ],
+   "archivo": "figura/p0124.png"
+  },
+  {
+   "pagina": 125,
+   "motivos": [
+    "tablas",
+    "dibujos:90"
+   ],
+   "archivo": "figura/p0125.png"
+  },
+  {
+   "pagina": 126,
+   "motivos": [
+    "dibujos:47"
+   ],
+   "archivo": "figura/p0126.png"
+  },
+  {
+   "pagina": 127,
+   "motivos": [
+    "dibujos:955"
+   ],
+   "archivo": "figura/p0127.png"
+  },
+  {
+   "pagina": 128,
+   "motivos": [
+    "dibujos:624"
+   ],
+   "archivo": "figura/p0128.png"
+  },
+  {
+   "pagina": 130,
+   "motivos": [
+    "dibujos:835"
+   ],
+   "archivo": "figura/p0130.png"
+  },
+  {
+   "pagina": 131,
+   "motivos": [
+    "dibujos:1224"
+   ],
+   "archivo": "figura/p0131.png"
+  },
+  {
+   "pagina": 132,
+   "motivos": [
+    "dibujos:428"
+   ],
+   "archivo": "figura/p0132.png"
+  },
+  {
+   "pagina": 133,
+   "motivos": [
+    "dibujos:662"
+   ],
+   "archivo": "figura/p0133.png"
+  },
+  {
+   "pagina": 134,
+   "motivos": [
+    "dibujos:1351"
+   ],
+   "archivo": "figura/p0134.png"
+  },
+  {
+   "pagina": 135,
+   "motivos": [
+    "dibujos:2910"
+   ],
+   "archivo": "figura/p0135.png"
+  },
+  {
+   "pagina": 136,
+   "motivos": [
+    "dibujos:1127"
+   ],
+   "archivo": "figura/p0136.png"
+  },
+  {
+   "pagina": 138,
+   "motivos": [
+    "dibujos:1147"
+   ],
+   "archivo": "figura/p0138.png"
+  },
+  {
+   "pagina": 139,
+   "motivos": [
+    "dibujos:14"
+   ],
+   "archivo": "figura/p0139.png"
+  },
+  {
+   "pagina": 140,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0140.png"
+  },
+  {
+   "pagina": 141,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0141.png"
+  },
+  {
+   "pagina": 142,
+   "motivos": [
+    "dibujos:1813"
+   ],
+   "archivo": "figura/p0142.png"
+  },
+  {
+   "pagina": 143,
+   "motivos": [
+    "dibujos:155"
+   ],
+   "archivo": "figura/p0143.png"
+  },
+  {
+   "pagina": 144,
+   "motivos": [
+    "dibujos:6"
+   ],
+   "archivo": "figura/p0144.png"
+  },
+  {
+   "pagina": 145,
+   "motivos": [
+    "dibujos:31"
+   ],
+   "archivo": "figura/p0145.png"
+  },
+  {
+   "pagina": 146,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0146.png"
+  },
+  {
+   "pagina": 148,
+   "motivos": [
+    "dibujos:69"
+   ],
+   "archivo": "figura/p0148.png"
+  },
+  {
+   "pagina": 149,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0149.png"
+  },
+  {
+   "pagina": 150,
+   "motivos": [
+    "dibujos:1119"
+   ],
+   "archivo": "figura/p0150.png"
+  },
+  {
+   "pagina": 151,
+   "motivos": [
+    "tablas",
+    "dibujos:5601"
+   ],
+   "archivo": "figura/p0151.png"
+  },
+  {
+   "pagina": 152,
+   "motivos": [
+    "tablas",
+    "dibujos:944"
+   ],
+   "archivo": "figura/p0152.png"
+  },
+  {
+   "pagina": 153,
+   "motivos": [
+    "dibujos:803"
+   ],
+   "archivo": "figura/p0153.png"
+  },
+  {
+   "pagina": 154,
+   "motivos": [
+    "dibujos:13",
+    "formulas"
+   ],
+   "archivo": "figura/p0154.png"
+  },
+  {
+   "pagina": 155,
+   "motivos": [
+    "dibujos:19"
+   ],
+   "archivo": "figura/p0155.png"
+  },
+  {
+   "pagina": 156,
+   "motivos": [
+    "dibujos:2612"
+   ],
+   "archivo": "figura/p0156.png"
+  },
+  {
+   "pagina": 157,
+   "motivos": [
+    "dibujos:1344"
+   ],
+   "archivo": "figura/p0157.png"
+  },
+  {
+   "pagina": 158,
+   "motivos": [
+    "dibujos:885"
+   ],
+   "archivo": "figura/p0158.png"
+  },
+  {
+   "pagina": 159,
+   "motivos": [
+    "dibujos:873"
+   ],
+   "archivo": "figura/p0159.png"
+  },
+  {
+   "pagina": 160,
+   "motivos": [
+    "dibujos:970"
+   ],
+   "archivo": "figura/p0160.png"
+  },
+  {
+   "pagina": 161,
+   "motivos": [
+    "tablas",
+    "dibujos:752"
+   ],
+   "archivo": "figura/p0161.png"
+  }
+ ],
+ "formulas": {
+  "paginas": [
+   9,
+   10,
+   38,
+   55,
+   63,
+   69,
+   70,
+   105,
+   154
+  ],
+  "nota": "Texto de fórmulas extraído automáticamente: pendiente de verificación; consulte la imagen completa de la página. No se genera LaTeX."
+ },
+ "procedencia": {
+  "tipo": "PDF descargado del portal/BOE",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "pdf_nombre": "DB-SE-C-oficial-a71133f4b0.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+  "copia_fiel": "fuente.pdf",
+  "nota": "Consérvese la URL oficial para versiones mutables."
+ },
+ "corpus_propio": true,
+ "conteos": {
+  "paginas": 165,
+  "apartados": 267,
+  "bloques": 2467,
+  "tablas": 11,
+  "figuras": 104,
+  "paginas_png": 104,
+  "caracteres": 432140
+ },
+ "figuras_nota": "'figuras'/'paginas_png' cuentan páginas PNG renderizadas (no el número de figuras normativas).",
+ "tablas_pendientes_geometria": [],
+ "paginas_grafico_sin_celdas": [],
+ "nota_fallback_grafico": "Páginas gráficas de contexto escaso: sin enumeración de trazos ni tabla; PNG y PDF obligatorios; no son tablas validadas.",
+ "umbral_segmentos_tablas": 2000,
+ "metodo_tablas": "find_tables(use_layout=False, refine=True); guardián de segmentos antes de intentar celdas",
+ "segmentation_version": 2,
+ "advertencias": [
+  "Extracción automática; el cotejo humano está pendiente.",
+  "Semántica y tablas no equivalen a validación exhaustiva."
+ ],
+ "generado_por": "build.py",
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo",
+ "nota_segmentacion": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

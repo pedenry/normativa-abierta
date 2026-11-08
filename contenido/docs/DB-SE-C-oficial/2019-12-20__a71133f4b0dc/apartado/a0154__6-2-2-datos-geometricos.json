@@ -1,0 +1,117 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0154",
+  "ruta_oficial": "6.2.2",
+  "ruta_semantica": "6.2.2 Datos geométricos",
+  "titulo": "6.2.2 Datos geométricos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.2 Datos geométricos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 68,
+   "bbox": [
+    70.9,
+    488.1,
+    217.7,
+    500.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0de048a2d7b2f1f41a9250487277fda3ac15dcfed37bc79673d4019491f4e368",
+   "literal": "6.2.2 Datos geométricos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0179",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.2 Datos geométricos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 6.2.2 Datos geométricos",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2e90891343f33f62cd3f2f6ae46c496b99bee76740e57d416fda16b6c195670c"
+ },
+ "paginas": [
+  68
+ ],
+ "etiquetas_impresas": [
+  "5"
+ ],
+ "tipos": [],
+ "texto": "6.2.2 Datos geométricos\n1\nLa confirmación geométrica de cálculo debe tomar en consideración las variaciones futuras previsi-\nbles del nivel del terreno, especialmente en coronación o en el pie del elemento de contención.\n2\nEn cálculos de estados límite últimos en los que la estabilidad del elemento de contención dependa\nde la resistencia del terreno frente al mismo, la cota del suelo estabilizante debe reducirse del valor\nnominal en un valor a, que se definirá tomando en consideración el grado de control existente so-\nbre la permanencia de dicho material. En general y salvo justificación, se considerarán los siguien-\ntes valores de a:\na)\npantallas: se considerará un valor de a igual al 10% de la altura de la pantalla sobre el fondo\nde excavación, con un máximo de 0,5m;\nb)\nmuros: se considerará un valor de a igual al 10% de la distancia entre el plano de apoyo y el\nfondo de excavación, con un máximo de 0,5m.\n3\nPodrán emplearse valores inferiores de a, o incluso 0, cuando pueda garantizarse la permanencia\nen el tiempo del terreno. Por el contrario, deben emplearse valores superiores de a si la geometría\ndel terreno en el fondo de la excavación es especialmente dudosa.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

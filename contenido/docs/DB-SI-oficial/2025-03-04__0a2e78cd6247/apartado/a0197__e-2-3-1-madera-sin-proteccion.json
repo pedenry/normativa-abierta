@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0197",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.2.3 Velocidad de carbonización nominal de cálculo / E.2.3.1 Madera sin protección",
+  "titulo": "E.2.3.1 Madera sin protección",
+  "nivel": 4,
+  "parent_id": "a0199",
+  "seccion_estimada": "E.2.3 Velocidad de carbonización nominal de cálculo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 74,
+   "bbox": [
+    70.9,
+    580.3,
+    218.1,
+    591.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "4c752a58026e13254e02cfd47704397fc7384f91618a38240bd24394dddcec7c",
+   "literal": "E.2.3.1 Madera sin protección"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0131",
+  "parent_id_original": "a0199",
+  "parent_motivo": "parent_toc_verificado_con_pagina",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.2.3.1 Madera sin protección",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0199",
+   "ruta_semantica": "Anejo SI E Resistencia al fuego de las estructuras de madera / E.2 Método de la sección reducida E.2.1 Generalidades / E.2.3.1 Madera sin protección",
+   "seccion_estimada": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7a3c5c50bb6bbe3f62873131247e4f908dd2dea681f2bf3d60af04ecb563e4b7"
+ },
+ "paginas": [
+  74
+ ],
+ "etiquetas_impresas": [
+  "74"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Documento Básico SI en caso de Incendio\nAnejo E. Resistencia al fuego de las estructuras de madera\n74\nb) que la resistencia de cálculo y los parámetros de cálculo de la rigidez se consideran constantes\ndurante el incendio, tomando como tales los valores característicos multiplicados por el siguiente\nfactor kfi :\npara: madera maciza\nkfi = 1,25\nmadera laminada encolada\nkfi = 1,15\ntableros derivados de la madera\nkfi = 1,15\nmadera microlaminada (LVL)\nkfi = 1,10\nuniones con elementos laterales de madera y tableros derivados de la madera\nkfi = 1,15\nuniones con placas de acero externas\nkfi = 1,05\nc)\nque el factor de modificación Kmod en situación de incendio se tomará igual a la unidad.\n2\nEn este método se consideran las siguientes hipótesis implícitas:\n-\nSe analizan, a estos efectos, solamente los elementos estructurales individualmente en lugar de\nla estructura global.\n-\nLas condiciones de contorno y apoyo, para el elemento estructural, se corresponden con las\nadoptadas para temperatura normal.\n-\nNo es necesario considerar las dilataciones térmicas en los elementos de madera, aunque sí en\notros materiales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0074_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0074.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

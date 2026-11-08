@@ -1,0 +1,71 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0247",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p133",
+  "titulo": "E.4 Otros factores a considerar en la interacción suelo-estructura E.4.1 Influencia del tipo de terreno",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p133",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p133",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura / E.4 Otros factores a considerar en la interacción suelo-estructura E.4.1 Influencia del tipo de terreno",
+   "seccion_estimada": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "26fc4bb3cb285303da8fd2171124dcb1187d6c0ddad1af4821967d44c0fc2627"
+ },
+ "paginas": [
+  133
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E.4 Otros factores a considerar en la interacción suelo-estructura E.4.1 Influencia del tipo de terreno\nE.4.1 Influencia del tipo de terreno\n1\nDado que el tipo de terreno puede condicionar la distribución de presiones bajo la cimentación, este\nefecto podrá tenerse en cuenta, a juicio del proyectista, en casos especiales de cimentaciones de\ngran rigidez sobre terrenos arcillosos sobreconsolidados.\n2\nLos cimientos sobre suelos arcillosos saturados que bajo el efecto de las solicitaciones de la estruc-\ntura puedan quedar sometidos a un proceso de asiento diferido en el tiempo, deben ser objeto de\nun estudio especial. En dicho estudio se debe considerar el asentamiento tras la construcción del\nedificio así como el asiento diferido originado a lo largo del proceso de consolidación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0133.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

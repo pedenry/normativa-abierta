@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0052",
+  "ruta_oficial": "5",
+  "ruta_semantica": "Fragmento de PDF p23",
+  "titulo": "5  Análisis estructural 5.1  Principios generales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p23",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p23",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5  Análisis estructural 5.1  Principios generales",
+   "seccion_estimada": "5  Análisis estructural 5.1  Principios generales",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bfb63d0a4b54150694858201139f1e4352f3f2e0e0c5790ce1b83f6bfa26fca4"
+ },
+ "paginas": [
+  23
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5  Análisis estructural 5.1  Principios generales\n5.1  Principios generales\n1\nPara el análisis relativo a situaciones de dimensionado transitorias y permanentes, se considerarán\nlos siguiente valores para los módulo de elasticidad longitudinal Ed, o transversal Gd.\na) En comprobaciones de estado límite de servicio y estado límite último en régimen lineal (sin ana-\nlizar la estabiliad global o local):\nEd = Emedio\n(5.1)\nGd = Gmedio\n(5.2)\nsiendo:\nGmedio ;Emedio\nvalores medios según los datos del material.\nb) En comprobaciones de estado límite ultimo relativas a estabilidad o en general en comprobacio-\nnes realizadas en segundo orden\nEd = Ek\n(5.3)\nGd = Gk\n(5.4)\nsiendo:\nGk ;Ek\nvalor correspondiente al 5% percentil de la propiedad de rigidez.\n2\nPara el análisis relativo a situaciones de dimensionado extraordinarias, se considerará el siguiente\nvalor para los módulo de elasticidad longitudinal Ed, o transversal Gd:\nEd = Emedio\n(5.5)\nGd = Gmedio\n(5.6)\n3\nEn el análisis de estructuras compuestas por barras (es decir, elementos en los que predomina una\ndirección sobre las otras con una relación mínima entre largo y canto de 6), formando estructuras\ntrianguladas o estructuras de nudos rígidos o semirrígidos, y para el cálculo de solicitaciones globa-\nles (cortante, momento y axil) de la barra, se considerará válida la hipótesis de que el material es isó-\ntropo, elástico y lineal, considerando las deformaciones  instantaneas o a largo plazo a través de los\nmódulos descritos anteriormente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0053",
+  "a0054"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

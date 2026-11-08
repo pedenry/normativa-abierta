@@ -1,0 +1,88 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0098",
+  "ruta_oficial": null,
+  "ruta_semantica": "CAPÍTULO V. Actuación en caso de incendio",
+  "titulo": "CAPÍTULO V. Actuación en caso de incendio",
+  "nivel": 2,
+  "parent_id": null,
+  "seccion_estimada": "CAPÍTULO V. Actuación en caso de incendio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 43,
+   "bbox": [
+    267.9,
+    561.1,
+    327.4,
+    575.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "53afb95119374f05c9bf473321d95b89892b5bd4de79efc6de8c4b3a9c541e06",
+   "literal": "CAPÍTULO V. Actuación en caso de incendio"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0040",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE 192005-1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "CAPÍTULO V. Actuación en caso de incendio",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "CAPÍTULO IV / CAPÍTULO V. Actuación en caso de incendio",
+   "seccion_estimada": "CAPÍTULO IV",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2f3d2f1961b59f377fc0aba5ec263612c97a23c33b7df663a026a078a9c5ab31"
+ },
+ "paginas": [
+  43
+ ],
+ "etiquetas_impresas": [
+  "43"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "e) En el caso de que se haya usado alguna de las soluciones recogidas en los artículos\n5.1.b) o 5.3, se comprobará que se siguen cumpliendo las condiciones específicas recogidas\nen el proyecto. En el caso de haber usado diseño prestacional, además se comprobará que\nlas condiciones funcionamiento y uso, así como el resto de consideraciones previstas\ndurante el diseño, siguen siendo conformes.\nLas inspecciones se realizarán siguiendo los procedimientos establecidos en la norma\nUNE 192005-1 en todo lo que no contradiga al presente reglamento, u otras especificaciones\nque aporten un nivel de seguridad equivalente a esta, o bien, el protocolo equivalente que\ncada comunidad autónoma tenga establecido.\n3. De dichas inspecciones se levantará un acta, firmada por la persona inspectora del\norganismo de control y por el titular de la instalación, quienes conservarán una copia, que\nestará a disposición del órgano competente en materia de industria de la correspondiente\ncomunidad autónoma o de las ciudades de Ceuta y Melilla.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE 192005-1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0099",
+  "a0100"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

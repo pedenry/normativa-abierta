@@ -1,0 +1,90 @@
+{
+ "documento": "RD-314-2006-oficial",
+ "code": "RD-314-2006",
+ "title": "Real Decreto 314/2006: aprobación y Parte I del CTE",
+ "capa": "oficial",
+ "scope": "Marco legal y Parte I",
+ "version": "2022-06-15",
+ "version_dir": "2022-06-15__298090e145f5",
+ "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+ "apartado": {
+  "id_tecnico": "a0060",
+  "ruta_oficial": null,
+  "ruta_semantica": "CÓDIGO TÉCNICO DE LA EDIFICACIÓN (CTE). PARTE II",
+  "titulo": "CÓDIGO TÉCNICO DE LA EDIFICACIÓN (CTE). PARTE II",
+  "nivel": 2,
+  "parent_id": "a0059",
+  "seccion_estimada": "CÓDIGO TÉCNICO DE LA EDIFICACIÓN (CTE). PARTE II",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 26,
+   "bbox": [
+    188.5,
+    84.1,
+    406.8,
+    98.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "0fde77589795a091871746e3703f31d65c34a0e8b7811abe732f396808ffa9ff",
+   "literal": "CÓDIGO TÉCNICO DE LA EDIFICACIÓN (CTE). PARTE II"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0033",
+  "parent_id_original": "a0059",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "CÓDIGO TÉCNICO DE LA EDIFICACIÓN (CTE). PARTE II",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0059",
+   "ruta_semantica": "ANEJO III / CÓDIGO TÉCNICO DE LA EDIFICACIÓN (CTE). PARTE II",
+   "seccion_estimada": "ANEJO III",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e6339d316c64da6f5a2d0c8924c40a339608e2555eea1d55a9cdd0ef8c1cd223"
+ },
+ "paginas": [
+  26
+ ],
+ "etiquetas_impresas": [
+  "26"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "CÓDIGO TÉCNICO DE LA EDIFICACIÓN (CTE)\nPARTE II\nEn suplemento aparte se publica la Parte II del Código Técnico de la Edificación, que se ha\nomitido. Puede consultarse la página web del Código Técnico de la Edificación.\nEste documento es de carácter informativo y no tiene valor jurídico.\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 26",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0059",
+   "ruta_oficial": "ANEJO-III",
+   "titulo": "ANEJO III",
+   "archivo_json": "a0059__anejo-iii.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0026.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515",
+  "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0086",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+  "titulo": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 25,
+   "bbox": [
+    70.9,
+    71.3,
+    399.9,
+    107.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "2ca84e9641b4f11d0b0c07dccb7ae953130b7e0d629e660455bdf0b099de743e",
+   "literal": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0050",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+   "seccion_estimada": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7400591152b33fcc0443bf8e68495a998af094f864394deab2d99b411e50329b"
+ },
+ "paginas": [
+  25
+ ],
+ "etiquetas_impresas": [
+  "25"
+ ],
+ "tipos": [],
+ "texto": "Sección SUA 6 Seguridad frente al riesgo de ahogamiento\nSeguridad frente al riesgo de ahogamiento\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0091",
+   "ruta_oficial": "1.4",
+   "titulo": "1.4 Escaleras",
+   "archivo_json": "a0091__1-4-escaleras.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0087",
+  "a0092"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

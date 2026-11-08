@@ -1,0 +1,350 @@
+{
+ "documento": null,
+ "pagina": 40,
+ "etiqueta_impresa": "1",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-35",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    452.5,
+    84.7
+   ],
+   "tipo": "titulo",
+   "texto": "4.3.4 Presiones verticales admisibles para cimentaciones en roca",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    96.1,
+    249.1,
+    106.1
+   ],
+   "tipo": "texto",
+   "texto": "4.3.4.1 Dimensionado según normas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    111.7,
+    541.3,
+    179.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn los casos de edificaciones sencillas con cargas de trabajo no muy elevadas, una primera apro-\nximación en la determinación de las presiones admisibles frente al hundimiento y asientos podrá\nllevarse a cabo siguiendo normas de uso habitual, en los que se fijan mediante reglas sencillas las\ncargas admisibles que, en la realidad, se han seleccionado con gran prudencia y se encuentran\nmuy alejadas de las condiciones de hundimiento. A estos efectos se podrán utilizar los valores indi-\ncados en la tabla D.25.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    190.7,
+    249.6,
+    200.6
+   ],
+   "tipo": "texto",
+   "texto": "4.3.4.2 Cálculo analítico simplificado",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    206.3,
+    541.3,
+    331.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn casos de rocas de muy baja resistencia a la compresión simple (qu<2,5 MPa; tabla D.9) o fuer-\ntemente diaclasadas (RQD<25; tabla D.16), o que estén bastante o muy meteorizadas (tabla D.5,\ngrado de meteorización mayor que IV), se considerará la roca como si se tratase de un suelo y se\nrecurrirá a los procedimientos de verificación correspondientes que se dan en este DB.\n2\nEn rocas más duras, menos diaclasadas y menos alteradas que lo indicado en el párrafo preceden-\nte, y cuando se cumplan las siguientes condiciones, se podrá determinar la presión admisible de\nservicio qd mediante la expresión (4.11).\na)\nla superficie de la roca es esencialmente horizontal sin problemas de inestabilidad lateral;\nb)\nla carga no tiene componente tangencial, o ésta es inferior al 10% de la carga normal;\nc)\nen rocas sedimentarias los estratos deben ser horizontales o subhorizontales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.0,
+    338.4,
+    542.4,
+    351.8
+   ],
+   "tipo": "texto",
+   "texto": "u\nsp\nd\nq·\nK\nq\n\n(4.11)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    361.2,
+    379.2,
+    385.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nqu\nla resistencia a la compresión simple de la roca sana",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    125.2,
+    420.9,
+    182.2,
+    445.3
+   ],
+   "tipo": "texto",
+   "texto": "s\na\n300\n1\n10",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    159.7,
+    408.2,
+    166.4,
+    418.2
+   ],
+   "tipo": "texto",
+   "texto": "B",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    95.5,
+    393.9,
+    165.8,
+    424.4
+   ],
+   "tipo": "texto",
+   "texto": "s\n3\nsp\nK",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    149.3,
+    425.9,
+    154.8,
+    437.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    116.9,
+    398.8,
+    190.1,
+    421.9
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    516.4,
+    393.2,
+    542.4,
+    403.2
+   ],
+   "tipo": "texto",
+   "texto": "(4.12)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    454.2,
+    541.3,
+    568.9
+   ],
+   "tipo": "texto",
+   "texto": "s\nespaciamiento de las discontinuidades; s > 300 mm\nB\nanchura del cimiento en m; 0,05 < s/B < 2\na\napertura de las discontinuidades; a< 5 mm en junta limpia, a< 25 mm en junta rellena con\nsuelo o con fragmentos de roca alterada; siendo 0 < a/s < 0,02\n3\nA efectos de verificación del estado límite último de hundimiento el valor de qd determinado a través\nde la expresión (4.11) puede considerarse que lleva incorporado un coeficiente de seguridad R =3.\nPara la comprobación del asiento se podrá recurrir al empleo de formulaciones elásticas. Los módu-\nlos de deformación a emplear habrán de ser representativos del macizo.\n4\nDe forma orientativa, para rocas con índice RMR < 50 se podrá emplear la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    95.5,
+    576.9,
+    212.2,
+    605.4
+   ],
+   "tipo": "texto",
+   "texto": "40\n10\nRMR\n10\n.\nmacizo\nE",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    139.2,
+    575.4,
+    542.4,
+    601.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n (GPa)\n(4.13)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    93.6,
+    613.4,
+    125.9,
+    623.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    93.6,
+    627.3,
+    221.3,
+    638.8
+   ],
+   "tipo": "texto",
+   "texto": " = 0,1 para qu  = 1 MPa;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    93.6,
+    642.5,
+    221.3,
+    654.0
+   ],
+   "tipo": "texto",
+   "texto": " = 0,2 para qu  = 4 MPa;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    93.6,
+    657.8,
+    226.8,
+    669.2
+   ],
+   "tipo": "texto",
+   "texto": " = 0,3 para qu  = 10 MPa;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    93.6,
+    673.0,
+    226.8,
+    684.5
+   ],
+   "tipo": "texto",
+   "texto": " = 0,7 para qu  = 50 MPa;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    93.6,
+    688.4,
+    232.5,
+    699.8
+   ],
+   "tipo": "texto",
+   "texto": " = 1,0 para qu  > 100 MPa.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    70.9,
+    713.7,
+    364.0,
+    727.8
+   ],
+   "tipo": "titulo",
+   "texto": "4.4\nAsiento de las cimentaciones directas",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    732.4,
+    541.3,
+    753.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa estimación de los asientos producidos por una cimentación directa requiere generalmente la\ndeterminación de la distribución de presiones verticales originadas por las cargas en el terreno, lo",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

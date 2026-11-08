@@ -1,0 +1,390 @@
+{
+ "documento": null,
+ "pagina": 92,
+ "etiqueta_impresa": "92",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-90",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    96.8,
+    73.4,
+    541.4,
+    107.5
+   ],
+   "tipo": "texto",
+   "texto": "d)\nEn el caso de chapa frontal prolongada sin rigidizador en la zona exterior, se considerará el\nala de la viga como alma de la T para el cálculo de las longitudes eficaces, comprobándose\nademás con:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    120.8,
+    113.6,
+    541.0,
+    127.7
+   ],
+   "tipo": "texto",
+   "texto": "p\nef\nb\n5,0\nl\n=\n(8.67)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    119.5,
+    135.9,
+    151.8,
+    147.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    119.5,
+    153.3,
+    333.8,
+    165.3
+   ],
+   "tipo": "texto",
+   "texto": "bp\nancho de la chapa frontal (figura 8.19).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    119.5,
+    170.9,
+    541.3,
+    205.0
+   ],
+   "tipo": "texto",
+   "texto": "El comportamiento, a efectos de cálculo, de la chapa frontal se asimila al de un conjunto de\ncasquillos en T equivalentes con las longitudes eficaces y criterios expuestos en este aparta-\ndo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.8,
+    211.4,
+    541.5,
+    257.1
+   ],
+   "tipo": "texto",
+   "texto": "e)\nEn el caso de tornillos del ala del pilar adyacentes a un rigidizador o aquellos tornillos de la\nchapa frontal que se encuentran por debajo del ala a tracción de la viga, se podrán aumentar\nlas longitudes eficaces en función de la geometría, siempre que se utilicen valores sanciona-\ndos experimentalmente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    74.1,
+    263.1,
+    541.4,
+    298.3
+   ],
+   "tipo": "texto",
+   "texto": "8\nSi la tensión normal, σn, en el ala del pilar, debida a su esfuerzo axil y momento flector, supera los\n180 N/ mm2 en el emplazamiento de la zona solicitada a tracción, el valor del momento plástico, Mp,\nse reducirá utilizando el factor:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    127.1,
+    312.6,
+    188.1,
+    330.1
+   ],
+   "tipo": "texto",
+   "texto": "1\n360\nf\n2",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    98.0,
+    305.3,
+    153.7,
+    322.9
+   ],
+   "tipo": "texto",
+   "texto": "180\nf\n2\nk",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    135.2,
+    324.7,
+    138.4,
+    331.8
+   ],
+   "tipo": "texto",
+   "texto": "y",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    103.3,
+    310.1,
+    181.2,
+    330.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "n\ny\nr\n≤\n−",
+   "tamano": 9.2,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    109.4,
+    304.3,
+    541.0,
+    322.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "σ\n−\n−\n=\n    (fy y σn en N/mm2)\n(8.68)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    74.1,
+    339.9,
+    538.6,
+    374.2
+   ],
+   "tipo": "texto",
+   "texto": "9\nLa resistencia de cálculo de la zona de tracción se determinará a partir de las resistencias de las fi-\nlas de tornillos que se encuentren traccionados y debe estar en equilibrio con la resistencia de cál-\nculo de la zona de compresión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    74.1,
+    380.4,
+    541.5,
+    437.7
+   ],
+   "tipo": "texto",
+   "texto": "10\nSe supondrá que la resistencia de cálculo eficaz de cada fila de tornillos actúa en el eje de la fila.\nSu valor se obtendrá estableciendo el equilibrio entre las resistencias obtenidas para el ala del pilar\ny la chapa frontal, lo que se podrá lograr realizando una redistribución entre filas con comporta-\nmiento análogo (sin pasar un ala o rigidizador) y, si es necesario, realizando una reducción de di-\nchos valores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.1,
+    443.9,
+    406.9,
+    455.1
+   ],
+   "tipo": "texto",
+   "texto": "11\nLa resistencia del alma del pilar sin rigidizar a tracción transversal es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    143.2,
+    483.3,
+    152.8,
+    491.1
+   ],
+   "tipo": "texto",
+   "texto": "0\nM",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    103.4,
+    467.3,
+    161.3,
+    483.2
+   ],
+   "tipo": "texto",
+   "texto": "ef\nwc\ny\nRd\n.t",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    98.0,
+    462.1,
+    540.7,
+    489.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "b\nt\nf\nF\nγ\n=\n(8.69)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    96.8,
+    498.5,
+    129.1,
+    509.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    96.8,
+    515.9,
+    541.5,
+    550.2
+   ],
+   "tipo": "texto",
+   "texto": "bef\nanchura efectiva del alma que debe tomarse igual a la longitud eficaz total lef del ala del pilar\nen flexión correspondiente a la disposición de los tornillos en la zona de la unión solicitada a\ntracción;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    96.8,
+    556.4,
+    304.9,
+    568.4
+   ],
+   "tipo": "texto",
+   "texto": "twc\nespesor del alma del pilar (figura 8.19).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    96.8,
+    573.9,
+    538.7,
+    608.1
+   ],
+   "tipo": "texto",
+   "texto": "El alma se puede reforzar mediante una chapa de refuerzo o rigidizadores (figura 8.19). En este úl-\ntimo caso, la resistencia de cálculo del alma será, como mínimo, igual a la del ala de la viga, siem-\npre que los rigidizadores cumplan las siguientes condiciones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    96.8,
+    614.4,
+    541.5,
+    648.6
+   ],
+   "tipo": "texto",
+   "texto": "a)\nel espesor de los rigidizadores no debe ser menor que el de las alas de la viga y la longitud de\nlos mismos ls debe cubrir totalmente la longitud del alma del pilar correspondiente a las longi-\ntudes eficaces de las zonas traccionada y comprimida de la unión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    96.8,
+    654.9,
+    442.9,
+    666.1
+   ],
+   "tipo": "texto",
+   "texto": "b)\nla clase de acero de los rigidizadores no debe ser inferior a la de la viga;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    96.8,
+    672.5,
+    541.5,
+    695.1
+   ],
+   "tipo": "texto",
+   "texto": "c)\nlas soldaduras de unión con las alas deben resistir los esfuerzos transversales que éstas\ntransmiten;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    96.8,
+    701.4,
+    541.4,
+    724.2
+   ],
+   "tipo": "texto",
+   "texto": "d)\nla soldadura de unión con el alma debe resistir los esfuerzos que se transmitan desde el ala\nde la viga hasta el alma del pilar.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    74.1,
+    730.4,
+    541.4,
+    753.1
+   ],
+   "tipo": "texto",
+   "texto": "12\nResistencia de la zona solicitada a compresión. La resistencia de cálculo a aplastamiento del alma\nsin rigidizar del pilar, viene dada por:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0195",
+  "ruta_oficial": "10.8.6",
+  "ruta_semantica": "10.8.6 Tratamiento de protección.",
+  "titulo": "10.8.6 Tratamiento de protección.",
+  "nivel": 1,
+  "parent_id": "a0182",
+  "seccion_estimada": "10.8.6 Tratamiento de protección.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 122,
+   "bbox": [
+    74.1,
+    523.9,
+    235.8,
+    535.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "63f87fd3a64cc1e4ab4c8abc06c2ad577643d804d16d6d924f32a7ff76477807",
+   "literal": "10.8.6 Tratamiento de protección."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0189",
+  "parent_id_original": "a0182",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.8.6 Tratamiento de protección.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0182",
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.8 Control de fabricación en taller / 10.8.6 Tratamiento de protección.",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "56b0a6cbeaa2c78dfbda2792f46a22d6dc66b65733650717e862207a17b52ab9"
+ },
+ "paginas": [
+  122
+ ],
+ "etiquetas_impresas": [
+  "122"
+ ],
+ "tipos": [],
+ "texto": "10.8.6 Tratamiento de protección.\n1\nSi se emplea el proceso de limpieza por chorreado, se comprobará la idoneidad del proceso cada\ntres meses, seleccionando al menos, cuatro puntos que distan entre sí 300 mm. Si el proceso no\nresulta conforme, no se utilizará hasta que no sea corregido.\n2\nSe realizará una inspección visual de la superficie para garantizar que se cumplen los requisitos\ndel fabricante del recubrimiento. Las áreas que resulten no conformes, se volverán a preparar y se-\nrán evaluadas de nuevo.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0196"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

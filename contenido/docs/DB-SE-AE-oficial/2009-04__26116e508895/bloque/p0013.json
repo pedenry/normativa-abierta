@@ -1,0 +1,194 @@
+{
+ "documento": null,
+ "pagina": 13,
+ "etiqueta_impresa": "13",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    210.5,
+    36.2,
+    401.2,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-AE Acciones en la edificación",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    795.0,
+    322.7,
+    806.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-AE 9",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    69.3,
+    541.4,
+    92.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn edificios con cubierta plana la acción del viento sobre la misma, generalmente de succión, opera\nhabitualmente del lado de la seguridad, y se puede despreciar.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    98.3,
+    541.4,
+    144.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nPara análisis locales de elementos de fachada o cerramiento, tales como carpinterías, acristala-\nmientos, aplacados, anclajes, o correas, la acción de viento se determinará como resultante de la\nque existe en cada punto, a partir de los coeficientes eólicos que se establecen en el Anejo D.3 en\nel sentido indicado anteriormente",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    157.4,
+    415.6,
+    170.8
+   ],
+   "tipo": "titulo",
+   "texto": "3.3.5 Coeficiente eólico de naves y construcciones diáfanas",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    176.1,
+    541.5,
+    233.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn naves y construcciones diáfanas, sin forjados que conecten las fachadas, la acción de viento\ndebe individualizarse en cada elemento de superficie exterior. Cuando en al menos dos de los lados\ndel edificio (fachadas o cubiertas) el área total de los huecos exceda el 30% del área total del lado\nconsiderado, la acción del viento se determina considerando la estructura como una marquesina o\nuna pared libre.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    239.6,
+    541.4,
+    296.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nA efectos del cálculo de la estructura, del lado de la seguridad se podrá utilizar la resultante en cada\nplano de fachada o cubierta de los valores del Anejo D.3, que recogen el pésimo en cada punto de-\nbido a varias direcciones de viento. A los efectos locales, tales como correas, paneles de cerra-\nmiento, o anclajes, deben utilizarse los valores correspondientes a la zona o zonas en que se en-\ncuentra ubicado dicho elemento.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    303.1,
+    538.6,
+    325.8
+   ],
+   "tipo": "texto",
+   "texto": "3\nSi el edificio presenta grandes huecos la acción de viento genera, además de presiones en el exte-\nrior, presiones en el interior, que se suman a las anteriores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.6,
+    332.1,
+    541.4,
+    423.8
+   ],
+   "tipo": "texto",
+   "texto": "El coeficiente eólico de presión interior, cpi, se considera único en todos los en todos los paramentos\ninteriores del edificio que delimitan la zona afectada por la fachada o cubierta que presenta grandes\nhuecos. Para la determinación de la presión interior, en edificios de una sola planta, se considerará\ncomo coeficiente de exposición el correspondiente a la altura del punto medio del hueco, salvo que\nexista un hueco dominante, en cuyo caso el coeficiente de exposición será el correspondiente a la\naltura media de dicho hueco. Si el edificio tiene varias plantas se considerara la altura media de la\nplanta analizada. Un hueco se considera dominante si su área es por lo menos diez veces superior\na la suma de las áreas de los huecos restantes.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    430.1,
+    541.4,
+    490.3
+   ],
+   "tipo": "texto",
+   "texto": "4\nCuando el área de las aberturas de una fachada sea el doble de las aberturas en el resto de las\nfachadas del edificio, se tomará cpi = 0,75cpe; si es el triple cpi = 0,9cpe siendo cpe el coeficiente eóli-\nco de presión exterior. En casos intermedios se interpolará linealmente. En otro caso se tomarán los\nvalores de la tabla 3.6",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    96.1,
+    490.6,
+    525.6,
+    513.6
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 3.6 Coeficientes de presión interior\nÁrea de huecos en zonas de succión respecto al área total de huecos del edificio\nEsbeltez en el",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    89.1,
+    511.8,
+    517.3,
+    532.1
+   ],
+   "tipo": "texto",
+   "texto": "plano\nparalelo al viento\n0,0\n0,1\n0,2\n0,3\n0,4\n0,5\n0,6\n0,7\n0,8\n0,9\n1",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    533.0,
+    522.6,
+    576.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤1\n0,7\n0,7\n0,6\n0,4\n0,3\n0,1\n0,0\n-0,1\n-0,3\n-0,4\n-0,5\n≥4\n0,5\n0,5\n0,4\n0,3\n0,2\n0,1\n0,0\n-0,1\n-0,2\n-0,3\n-0,3",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    155.5,
+    673.2,
+    456.7,
+    683.2
+   ],
+   "tipo": "texto",
+   "texto": "Fig. 3.1 Presiones ejercidas por el viento en una construcción diáfana",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

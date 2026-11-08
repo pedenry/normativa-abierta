@@ -1,0 +1,88 @@
+{
+ "indice": 2,
+ "pagina": 119,
+ "etiqueta_impresa": "119",
+ "bbox": [
+  94.0,
+  397.6,
+  541.4,
+  472.9
+ ],
+ "filas": 3,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Máxima superficie de cubierta en proyección horizontal (m2)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Diámetro nominal del canalón\n(mm)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Pendiente del canalón\n0.5 % 1 % 2 % 4 %",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "35 45 65 95\n60 80 115 165\n90 125 175 255\n185 260 370 520\n335 475 670 930",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "100\n125\n150\n200\n250",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Máxima superficie de cubierta en proyección horizontal (m2)",
+  "Diámetro nominal del canalón\n(mm)"
+ ],
+ "header": {
+  "names": [
+   "Máxima superficie de cubierta en proyección horizontal (m2)",
+   "Diámetro nominal del canalón\n(mm)"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB910410>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB911F10>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB910D40>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB910530>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB912EA0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0119.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

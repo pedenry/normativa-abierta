@@ -1,0 +1,94 @@
+{
+ "documento": "RITE-asociada",
+ "code": "RITE",
+ "title": "DB-HE2 RITE",
+ "capa": "asociada",
+ "scope": "Ahorro de energía",
+ "version": "2022-08-02",
+ "version_dir": "sin-fecha__ad1680c83bf4",
+ "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+ "apartado": {
+  "id_tecnico": "a0029",
+  "ruta_oficial": null,
+  "ruta_semantica": "Artículo 3. Responsabilidad de su aplicación.",
+  "titulo": "Artículo 3. Responsabilidad de su aplicación.",
+  "nivel": 3,
+  "parent_id": "a0025",
+  "seccion_estimada": "Artículo 3. Responsabilidad de su aplicación.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    90.7,
+    131.4,
+    296.3,
+    145.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "00e16aadbfa679de6e1720820b891bac56a96e7876b6af062b1d7ed5dbe3132a",
+   "literal": "Artículo 3. Responsabilidad de su aplicación."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0015",
+  "parent_id_original": "a0025",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Artículo 3",
+   "RITE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 3. Responsabilidad de su aplicación.",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0025",
+   "ruta_semantica": "ANEXO / Artículo 3. Responsabilidad de su aplicación.",
+   "seccion_estimada": "ANEXO",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "97f5f889f73e8fad595bb65b236ca6737e9bf6243e35bbf7cebfcb304a2fe01e"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Artículo 3.  Responsabilidad de su aplicación.\nQuedan responsabilizados del cumplimiento del RITE, los agentes que participan en el\ndiseño y dimensionado, ejecución, mantenimiento e inspección de estas instalaciones, así\ncomo las entidades e instituciones que intervienen en el visado, supervisión o informe de los\nproyectos o memorias técnicas y los titulares y usuarios de las mismas, según lo establecido\nen este reglamento.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 3",
+  "RITE"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0036",
+   "ruta_oficial": null,
+   "titulo": "Artículo 9. Términos y definiciones.",
+   "archivo_json": "a0036__articulo-9-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2007/07/20/1027/con",
+  "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

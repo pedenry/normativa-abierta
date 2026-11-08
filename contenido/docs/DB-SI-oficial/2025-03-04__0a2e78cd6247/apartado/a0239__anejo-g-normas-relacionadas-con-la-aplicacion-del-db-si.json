@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0239",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p92",
+  "titulo": "Anejo G. Normas relacionadas con la aplicación del DB SI",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p92",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p92",
+  "referencias_filtradas": [
+   "UNE 23034",
+   "UNE 23035",
+   "UNE 23035-1",
+   "UNE 23035-2",
+   "UNE 23035-3",
+   "UNE 23035-4",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB SI\n92",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas relacionadas con la aplicación del DB SI",
+   "seccion_estimada": "Anejo G. Normas relacionadas con la aplicación del DB SI",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7856d95f9ddae1cfff5a468ecccafb92008cf70e7c2b35cba8cf261c3be3c9a4"
+ },
+ "paginas": [
+  92
+ ],
+ "etiquetas_impresas": [
+  "92"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo G. Normas relacionadas con la aplicación del DB SI\n92\n*UNE-EN 1158:2003\nHerrajes para la edificación. Dispositivos de coordinación de puer-\ntas. Requisitos y métodos de ensayo.\nUNE-EN 1191:2013\nVentanas y puertas. Resistencia a aperturas y cierres repetidos.\nMétodo de ensayo.\nUNE-EN 13637:2016\nHerrajes para la edificación. Sistemas de salida controlados eléc-\ntricamente para su uso en recorridos de evacuación. Requisitos y\nmétodos de ensayo.\nUNE-EN 16034:2015\nPuertas peatonales, industriales, comerciales, de garaje y venta-\nnas practicables. Norma de producto, características de presta-\nción. Características de resistencia al fuego y/o control de humo.\nUNE-EN 23740-1:2016\nSeguridad contra incendios. Elementos de cerramiento de huecos.\nRequisitos específicos de instalación, uso, mantenimiento. Parte 1:\nPuertas cortafuego.\n5\nSeñalización\n*UNE 23034:1988\nSeguridad contra incendios. Señalización de seguridad. Vías de\nevacuación.\nUNE 23035\nSeguridad contra incendios. Señalización fotoluminiscente\n*UNE 23035-1:2003\nParte 1: Medida y calificación.\n*UNE 23035-2:2003\nParte 2: Medida de productos en el lugar de utilización.\n*UNE 23035-3:2003\nParte 3: Señalizaciones y balizamientos luminiscentes.\n*UNE 23035-4:2003\nParte 4: Condiciones generales. Mediciones y clasificación.\n6\nOtras materias\nUNE-EN ISO 13943:2018\nSeguridad contra incendio. Vocabulario.\nUNE-EN ISO 16730-1:2017\nIngeniería de seguridad contra incendios - Procedimientos y requi-\nsitos para la verificación y la validación de métodos de cálculo.\nParte 1: Generalidades.\nUNE-EN ISO 16733-1:2017\nIngeniería de seguridad contra incendios - Selección de escena-\nrios de fuego de diseño y fuegos de diseño. Parte 1: Selección de\nescenarios de fuego de diseño.\nUNE-EN ISO 23932:2017\nIngeniería de seguridad contra incendios. Principios generales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SI\n92",
+  "UNE 23034",
+  "UNE 23035",
+  "UNE 23035-1",
+  "UNE 23035-2",
+  "UNE 23035-3",
+  "UNE 23035-4",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

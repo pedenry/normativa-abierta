@@ -1,0 +1,96 @@
+{
+ "documento": "RITE-asociada",
+ "code": "RITE",
+ "title": "DB-HE2 RITE",
+ "capa": "asociada",
+ "scope": "Ahorro de energía",
+ "version": "2022-08-02",
+ "version_dir": "sin-fecha__ad1680c83bf4",
+ "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+ "apartado": {
+  "id_tecnico": "a0031",
+  "ruta_oficial": null,
+  "ruta_semantica": "Artículo 5. Remisión a normas.",
+  "titulo": "Artículo 5. Remisión a normas.",
+  "nivel": 3,
+  "parent_id": "a0025",
+  "seccion_estimada": "Artículo 5. Remisión a normas.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    90.7,
+    376.1,
+    234.1,
+    390.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "00e16aadbfa679de6e1720820b891bac56a96e7876b6af062b1d7ed5dbe3132a",
+   "literal": "Artículo 5. Remisión a normas."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0017",
+  "parent_id_original": "a0025",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Artículo 5",
+   "RITE",
+   "UNE correspondientes"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 5. Remisión a normas.",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0025",
+   "ruta_semantica": "ANEXO / Artículo 5. Remisión a normas.",
+   "seccion_estimada": "ANEXO",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7b718641dc8a7a0ff6a22d095e1c51dc4c7685e8893c4d055e0db81835aa152a"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Artículo 5.  Remisión a normas.\n1. Las Instrucciones técnicas pueden establecer la aplicación obligatoria, voluntaria, o\ncomo simple referencia a normas UNE u otras reconocidas internacionalmente, de manera\ntotal o parcial, a fin de facilitar su adaptación al estado de la técnica en cada momento.\n2. Cuando una Instrucción técnica haga referencia a una norma determinada, la versión\naparecerá especificada, y será esta la que deba ser utilizada, aun existiendo una nueva\nversión, excepto cuando se trate de normas UNE correspondientes a normas EN o EN ISO\ncuya referencia haya sido publicada en el Diario Oficial de la Unión Europea en el marco de\nla aplicación del Reglamento (UE) n.º 305/2011 del Parlamento Europeo y del Consejo, de 9\nde marzo de 2011, por el que se establecen condiciones armonizadas para la\ncomercialización de productos de construcción y se deroga la Directiva 89/106/CEE del\nConsejo, en cuyo caso la cita debe relacionarse con la versión de dicha referencia.\n3. En el apéndice 2 se recoge el listado de todas las normas de referencia citadas en el\ntexto del RITE, identificadas por su título, numeración y año de edición.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 5",
+  "RITE",
+  "UNE correspondientes"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0036",
+   "ruta_oficial": null,
+   "titulo": "Artículo 9. Términos y definiciones.",
+   "archivo_json": "a0036__articulo-9-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2007/07/20/1027/con",
+  "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

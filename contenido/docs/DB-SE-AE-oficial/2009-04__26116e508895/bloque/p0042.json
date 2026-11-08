@@ -1,0 +1,207 @@
+{
+ "documento": null,
+ "pagina": 42,
+ "etiqueta_impresa": "42",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    210.5,
+    36.2,
+    401.2,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-AE Acciones en la edificación",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.0,
+    795.0,
+    324.9,
+    806.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-AE 38",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    69.3,
+    101.9,
+    79.4
+   ],
+   "tipo": "texto",
+   "texto": "Notas:",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    93.6,
+    82.7,
+    541.1,
+    93.9
+   ],
+   "tipo": "texto",
+   "texto": "- El grado de obstrucción del flujo del viento por debajo de una marquesina se caracteriza mediante el factor",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    105.0,
+    93.7,
+    538.5,
+    115.2
+   ],
+   "tipo": "texto",
+   "texto": "de obstrucción, ϕ, definido como la relación entre el área obstruida y el área de la sección total bajo la mar-\nquesina. Ambas áreas se consideran en un plano perpendicular a la dirección del viento.",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    93.6,
+    121.3,
+    541.1,
+    132.5
+   ],
+   "tipo": "texto",
+   "texto": "-  Los coeficientes de presión tienen en cuenta los efectos del viento actuando sobre ambas superficies, la",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    105.0,
+    132.6,
+    541.1,
+    163.5
+   ],
+   "tipo": "texto",
+   "texto": "superior y la inferior. Un valor negativo del coeficiente indica que la acción del viento tiende a levantar la\nmarquesina, y un valor positivo lo contrario. Por regla general, a efectos del dimensionado de las marquesi-\nnas se deberán considerar ambas situaciones.",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.6,
+    169.6,
+    541.1,
+    181.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Los coeficientes de presión, cρ,10, representan la máxima presión localizada sobre un área de por lo menos",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    105.0,
+    179.8,
+    538.6,
+    202.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "10 m2. Los coeficientes de presión, cρ,10, se podrán emplear en el dimensionado de los elementos de cober-\ntura y de sus fijaciones.",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    93.6,
+    208.3,
+    538.6,
+    219.5
+   ],
+   "tipo": "texto",
+   "texto": "- A efectos del dimensionado de la estructura, la resultante de la acción del viento sobre cada uno de los fal-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    105.0,
+    219.6,
+    541.1,
+    239.9
+   ],
+   "tipo": "texto",
+   "texto": "dones se admitirá actuando en su centro. Además, se considerará también la situación en la que el viento\nactúa únicamente sobre uno de los dos faldones.",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.6,
+    246.3,
+    541.1,
+    257.5
+   ],
+   "tipo": "texto",
+   "texto": "- Para factores de obstrucción con 0<ϕ<1, los coeficientes de sustentación y de fuerza se podrán determinar",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    105.0,
+    257.5,
+    224.0,
+    267.6
+   ],
+   "tipo": "texto",
+   "texto": "mediante interpolación lineal.",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    93.6,
+    273.9,
+    541.1,
+    285.1
+   ],
+   "tipo": "texto",
+   "texto": "- A sotavento del punto de máxima obstrucción, se emplearán los valores de los coeficientes de sustentación",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    105.0,
+    284.9,
+    306.0,
+    296.1
+   ],
+   "tipo": "texto",
+   "texto": "correspondientes a un factor de obstrucción  ϕ=0.",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

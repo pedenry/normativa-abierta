@@ -1,0 +1,336 @@
+{
+ "documento": null,
+ "pagina": 38,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 32",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    76.4,
+    74.1,
+    535.4,
+    95.5
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 6.2 Valores del coeficiente v para vigas de sección constante con diferentes condiciones de carga y",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    238.4,
+    96.9,
+    373.4,
+    105.9
+   ],
+   "tipo": "texto",
+   "texto": "de restricción en los extremos.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    152.4,
+    110.3,
+    457.1,
+    120.6
+   ],
+   "tipo": "texto",
+   "texto": "Tipo de carga y viga\nv =Lef / L",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    416.4,
+    134.8,
+    457.1,
+    145.1
+   ],
+   "tipo": "texto",
+   "texto": "v  = 1,00",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    416.4,
+    169.6,
+    457.1,
+    179.9
+   ],
+   "tipo": "texto",
+   "texto": "v  = 0,95",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    415.0,
+    204.2,
+    458.6,
+    214.6
+   ],
+   "tipo": "texto",
+   "texto": "v = 0,8/",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    387.8,
+    218.3,
+    485.6,
+    228.6
+   ],
+   "tipo": "texto",
+   "texto": " = 1,35 - 1,4 x(L - x)/L2",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    416.4,
+    255.0,
+    457.1,
+    265.3
+   ],
+   "tipo": "texto",
+   "texto": "v  = 2,00",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    416.5,
+    304.6,
+    456.9,
+    314.9
+   ],
+   "tipo": "texto",
+   "texto": "v = 1,20",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    416.5,
+    340.7,
+    456.9,
+    351.0
+   ],
+   "tipo": "texto",
+   "texto": "v = 1,70",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    416.5,
+    376.4,
+    456.9,
+    386.8
+   ],
+   "tipo": "texto",
+   "texto": "v = 0,40",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    416.5,
+    431.0,
+    456.9,
+    441.4
+   ],
+   "tipo": "texto",
+   "texto": "v = 0,25",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    463.7,
+    540.8,
+    495.8
+   ],
+   "tipo": "texto",
+   "texto": "Los valores que se dan en esta tabla son válidos para una viga cargada en su centro de gravedad y con la torsión impedida en los\napoyos. Si la carga se aplica en el borde comprimido la longitud eficaz Lef se incrementará en 2h y si es aplicada en el borde trac-\ncionado se reducirá en 0,5h, siendo h el canto de la pieza.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    501.2,
+    343.5,
+    509.2
+   ],
+   "tipo": "texto",
+   "texto": "T: sección central con desplazamiento lateral impedido en el borde superior.",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    536.4,
+    541.3,
+    604.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos ejemplos indicados en la tabla 6.2 tienen impedido el desplazamiento lateral en los apoyos y en\nlos dos últimos casos representados, también, en un punto intermedio. Generalmente, el sistema de\narriostramiento en vigas de cierta luz inmoviliza varios puntos intermedios y no son aplicables direc-\ntamente estos casos. En el caso de vigas biapoyadas esta comprobación se realiza para el tramo\narriostrado, donde el  momento es mayor, tomándose como distancia entre secciones arriostradas la\ncorrespondiente al tramo central, con v=1, como si el momento fuera constante.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    619.2,
+    409.4,
+    629.2
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3.3  Comprobación de piezas de directriz recta y sección constante",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    637.7,
+    479.3,
+    647.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa comprobación a vuelco lateral no será necesaria en vigas que cumplan la condición",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    88.8,
+    654.5,
+    136.4,
+    666.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "rel,m≤0,75",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    673.4,
+    232.3,
+    683.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nVuelco lateral en flexión simple.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    88.8,
+    690.9,
+    262.2,
+    700.9
+   ],
+   "tipo": "texto",
+   "texto": "Debe cumplirse la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    88.8,
+    704.8,
+    541.3,
+    729.7
+   ],
+   "tipo": "texto",
+   "texto": "m,d  kcrit · fm,d\n (6.40)\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    89.0,
+    734.5,
+    248.6,
+    745.9
+   ],
+   "tipo": "texto",
+   "texto": "m,d\ntensión de cálculo a flexión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    89.0,
+    751.4,
+    264.0,
+    761.4
+   ],
+   "tipo": "texto",
+   "texto": "fm,d.\nresistencia de cálculo a flexión;",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

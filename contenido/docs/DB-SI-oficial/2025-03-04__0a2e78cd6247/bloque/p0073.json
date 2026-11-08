@@ -1,0 +1,286 @@
+{
+ "documento": null,
+ "pagina": 73,
+ "etiqueta_impresa": "73",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    192.5,
+    35.9,
+    419.3,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo E. Resistencia al fuego de las estructuras de madera",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "73",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    95.2,
+    478.8,
+    110.8
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    144.3,
+    206.8,
+    159.9
+   ],
+   "tipo": "titulo",
+   "texto": "E.1 Generalidades",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    168.5,
+    541.4,
+    202.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn este anejo se establecen un método simplificado de cálculo que permite determinar la resistencia\nde los elementos estructurales de madera ante la acción representada por la curva normalizada\ntiempo-temperatura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    230.8,
+    318.0,
+    246.5
+   ],
+   "tipo": "titulo",
+   "texto": "E.2 Método de la sección reducida",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    267.0,
+    192.4,
+    280.4
+   ],
+   "tipo": "texto",
+   "texto": "E.2.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    288.9,
+    541.4,
+    323.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa comprobación de la capacidad portante de un elemento estructural de madera se realiza por los\nmétodos establecidos en DB SE-M, teniendo en cuenta las reglas simplificadas para el análisis de\nelementos establecidos en E.3, y considerando:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    88.8,
+    329.3,
+    541.4,
+    340.4
+   ],
+   "tipo": "texto",
+   "texto": "a) una sección reducida de madera, obtenida eliminando de la sección inicial la profundidad eficaz",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    108.1,
+    340.8,
+    538.6,
+    363.5
+   ],
+   "tipo": "texto",
+   "texto": "de carbonización, def, en las caras expuestas, alcanzada durante el periodo de tiempo conside-\nrado;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    109.8,
+    370.5,
+    520.9,
+    383.2
+   ],
+   "tipo": "texto",
+   "texto": "d\nk +\nd\n =\nd\n0\n0\nn\nchar,\nef\n ·\n(E.1)",
+   "tamano": 10.4,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    108.1,
+    390.9,
+    143.2,
+    402.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    108.1,
+    408.4,
+    540.9,
+    419.5
+   ],
+   "tipo": "texto",
+   "texto": "dchar,n profundidad carbonizada nominal de cálculo, se determinará de acuerdo con el apartado",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    124.8,
+    419.9,
+    153.7,
+    431.0
+   ],
+   "tipo": "texto",
+   "texto": "E.2.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    108.1,
+    437.5,
+    240.3,
+    448.6
+   ],
+   "tipo": "texto",
+   "texto": "d0\nde valor igual a 7 mm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    108.1,
+    454.9,
+    541.3,
+    523.4
+   ],
+   "tipo": "texto",
+   "texto": "k0\nde valor igual a 1 para un tiempo, t, mayor o igual a 20 minutos y t/20 para tiempos infe-\nriores, en el caso de superficies no protegidas o superficies protegidas cuyo tiempo del\ninicio de la carbonización, tch, sea menor o igual que 20 minutos. Para superficies prote-\ngidas cuyo tiempo del inicio de la carbonización, tch, sea mayor que 20 minutos se consi-\nderará que k0 varía linealmente desde cero hasta uno durante el intervalo de tiempo\ncomprendido entre cero y tch, siendo constante e igual a uno a partir de dicho punto.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    233.8,
+    536.6,
+    369.4,
+    676.3
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    246.8,
+    691.6,
+    371.9,
+    700.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nSuperficie inicial del elemento",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    246.8,
+    703.8,
+    367.0,
+    712.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nLímite de la sección residual",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    246.8,
+    716.1,
+    359.9,
+    725.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nLímite de la sección eficaz",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    191.9,
+    730.2,
+    420.1,
+    740.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura E.1. Definición de la sección residual y eficaz.",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

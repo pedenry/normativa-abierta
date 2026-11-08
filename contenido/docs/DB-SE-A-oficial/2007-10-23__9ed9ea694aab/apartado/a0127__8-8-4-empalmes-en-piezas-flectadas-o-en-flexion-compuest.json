@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0127",
+  "ruta_oficial": "8.8.4",
+  "ruta_semantica": "8.8.4 Empalmes en piezas flectadas o en flexión compuesta",
+  "titulo": "8.8.4 Empalmes en piezas flectadas o en flexión compuesta",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "8.8.4 Empalmes en piezas flectadas o en flexión compuesta",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 85,
+   "bbox": [
+    74.1,
+    349.7,
+    359.8,
+    360.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "280f12b354654ba44111ac57264947c0adfa61fdc919fa8f771e554a8e317c7b",
+   "literal": "8.8.4 Empalmes en piezas flectadas o en flexión compuesta"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0124",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.8.4 Empalmes en piezas flectadas o en flexión compuesta",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / 8.8.4 Empalmes en piezas flectadas o en flexión compuesta",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4d0a72b51067acdc0c9b934d82c1badda3927a064da59080f7ce993585440e47"
+ },
+ "paginas": [
+  85,
+  86,
+  87
+ ],
+ "etiquetas_impresas": [
+  "85",
+  "86",
+  "87"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "8.8.4 Empalmes en piezas flectadas o en flexión compuesta\n1\nCon cubrejuntas:\na)\nEmpalme con cubrejuntas de alma.\nSe diseñarán para resistir un momento mayor que el momento de cálculo de la viga en la po-\nsición correspondiente a la sección media del empalme. La distribución de esfuerzos entre\ntornillos en estado límite último se podrá realizar de forma plástica o elástica (de forma pro-\nporcional a la distancia desde el centro de giro). Se utilizará distribución elástica en el caso de\nuniones pretensadas en las que se deba impedir el desplazamiento en estado límite último y\nsi la resistencia de cálculo a cortante, Fv.Rd, del tornillo es menor que la resistencia de cálculo\na aplastamiento, Fb.Rd, de las chapas que une.\nb)\nEmpalme con cubrejuntas en ala y alma.\nSe considera que es una unión rígida. Puede admitirse un reparto del axil proporcional al área\nde la sección de cada cubrejuntas, que el cortante se resiste por las cubrejuntas del alma, y el\nmomento flector se reparte entre las cubrejuntas de las alas, y del alma, de forma proporcio-\nnal a sus inercias respecto del eje de flexión. Los tornillos de las alas se comprobarán para\nsoportar las fuerzas correspondientes al momento flector atribuído a las alas, junto con su par-\nte del axil. Los tornillos de las cubrejuntas del alma, se comprobarán para los esfuerzos de és-\ntas siguiendo lo indicado en el punto a) anterior.\np\np\ne\ne\nw\nrótulas plásticas  (bisagras o charnelas)\nm\ne\nQ\nQ\ne\nm\nFt,Rd\nFt,Rd\nFd\ntw\nFd\na\nc\nb    (en algunos casos\nrepresenta la longitud\neficaz en flexión lef)\nr\ntf\n\nDocumentoBásico SE-A Acero\nSE-A-84\nFigura 8.16 Empalmes con cubrejuntas\n2\nCon chapa frontal.\nEl fallo de la unión se produce, como en el caso de las uniones en T del apartado anterior, y de-\npendiendo de la rigidez de la chapa, por rotura a tracción de los tornillos sin o con formación simul-\ntanea de charnelas en la chapa, o bien por formación de dos charnelas en la chapa. La resistencia\nde la unión a cortante podrá calcularse como si no existiese el momento flector. Se podrá realizar\nel cálculo siguiendo lo indicado más adelante para las uniones entre viga y pilar con chapa frontal\natornillada. En el caso de elementos unidos con tornillos iguales sin pretensar, que sean suficien-\ntemente rígidos o dispongan de suficientes rigidizadores para poder considerarlos como indefor-\nmables, el cálculo puede efectuarse de la forma siguiente:\nLa posición de la línea neutra se obtiene elásticamente (figura 8.17.a), resultando la ecuación:\nd\nb\nc\nc\n1\n=\n(8.53)\nsiendo\nc, c1 y b\ndimensiones de la sección equivalente, representadas en la figura 8.17;\nd\nancho del área equivalente de sección de los tornillos, dada por:\n∑\n⋅\n=\np\nn\nA\nd\n(8.54)\ndonde\nA\nárea de un tornillo;\nn\nnúmero de tornillos.\ncon cubrejuntas de alma\ncon cubrejuntas de alas y alma. (puede llevar cu-\nbrejuntas interiores en las alas)\nc\nc\nMd\nVd\nMd\nVd\nc\nc\n\nDocumentoBásico SE-A Acero\nSE-A-85",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0085_t01.json",
+  "../tabla/p0086_t01.json",
+  "../tabla/p0086_t02.json",
+  "../tabla/p0087_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0085.png",
+  "../figura/p0086.png",
+  "../figura/p0087.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

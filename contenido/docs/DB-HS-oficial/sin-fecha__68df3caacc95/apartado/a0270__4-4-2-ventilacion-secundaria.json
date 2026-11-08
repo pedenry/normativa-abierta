@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0270",
+  "ruta_oficial": "4.4.2",
+  "ruta_semantica": "Fragmento de PDF p120",
+  "titulo": "4.4.2 Ventilación secundaria",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p120",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p120",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 4.4 Dimensionado de las redes de ventilación 4.4.1 Ventilación primaria / 4.4.2 Ventilación secundaria",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "94d27ce6d25e9b6b4442178dfb12d69881af55d1d70d546d04fd154560861cb2"
+ },
+ "paginas": [
+  120,
+  121
+ ],
+ "etiquetas_impresas": [
+  "120",
+  "121"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.4.2 Ventilación secundaria\n1\nDebe tener un diámetro uniforme en todo su recorrido.\n2\nCuando existan desviaciones de la bajante, la columna de ventilación correspondiente al tramo\nanterior a la desviación se dimensiona para la carga de dicho tramo, y la correspondiente al tramo\nposterior a la desviación se dimensiona para la carga de toda la bajante.\n3\nEl diámetro de la tubería de unión entre la bajante y la columna de ventilación debe ser igual al de\nla columna.\n4\nEl diámetro de la columna de ventilación debe ser al menos igual a la mitad del diámetro de la ba-\njante a la que sirve\n5\nLos diámetros nominales de la columna de ventilación secundaria se obtienen de la tabla 4.10 en\nfunción del diámetro de la bajante, del número de UD y de la longitud efectiva.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n121\nTabla 4.10 Dimensionado de la columna de ventilación secundaria\nDiámetro de la bajante (mm)\nUD\nMáxima longitud efectiva (m)\n32\n2\n9\n40\n8\n15\n45\n50\n10\n24\n9\n7\n30\n14\n40\n63\n19\n40\n13\n10\n38\n32\n100\n90\n75\n27\n10\n25\n68\n130\n54\n8\n20\n63\n120\n90\n65\n153\n14\n12\n30\n26\n93\n58\n175\n145\n110\n180\n15\n56\n97\n290\n360\n10\n51\n79\n270\n740\n8\n48\n73\n220\n125\n300\n540\n1.100\n6\n45\n42\n40\n65\n57\n47\n100\n85\n70\n300\n250\n210\n160\n696\n32\n47\n100\n340\n1.048\n31\n40\n90\n310\n1.960\n25\n34\n60\n220\n200\n1.000\n1.400\n2.200\n3.600\n28\n25\n19\n18\n37\n30\n22\n20\n202\n185\n157\n150\n380\n360\n330\n250\n250\n2.500\n3.800\n5.600\n10\n18\n16\n14\n75\n40\n25\n150\n105\n75\n315\n4.450\n7\n8\n15\n6.508\n6\n7\n12\n9.046\n5\n6\n10\n32\n40\n50\n63\n65\n80\n100\n125\n150\n200\nDiámetro de la columna de ventilación secundaria (mm)\n6\nEn el caso de conexiones a la columna de ventilación en cada planta, los diámetros de esta se ob-\ntienen en la tabla 4.11 en función del diámetro de la bajante:\nTabla 4.11 Diámetros de columnas de ventilación secundaria con uniones en cada planta\nDiámetro de la bajante (mm)\nDiámetro de la columna de ventilación (mm)\n40\n32\n50\n32\n63\n40\n75\n40\n90\n50\n110\n63\n125\n75\n160\n90\n200\n110\n250\n125\n315\n160",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0120_t01.json",
+  "../tabla/p0121_t01.json",
+  "../tabla/p0121_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0120.png",
+  "../figura/p0121.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

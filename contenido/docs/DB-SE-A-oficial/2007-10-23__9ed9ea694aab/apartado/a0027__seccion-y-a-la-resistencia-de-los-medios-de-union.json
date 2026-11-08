@@ -1,0 +1,72 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0027",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p8",
+  "titulo": "sección, y a la resistencia de los medios de unión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p8",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p8",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Bases de cálculo 2.1 Generalidades / sección, y a la resistencia de los medios de unión",
+   "seccion_estimada": "2 Bases de cálculo 2.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5caabcc787e839ac0b5b0619d186c6acb50f3257fb281b354cc8dc164e15d123"
+ },
+ "paginas": [
+  8
+ ],
+ "etiquetas_impresas": [
+  "8"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "sección, y a la resistencia de los medios de unión\nd)\nγM3 = 1,1\ncoeficiente parcial para la resistencia al deslizamiento de uniones con tornillos\npretensados en Estado Límite de Servicio.\nγM3 = 1,25\ncoeficiente parcial para la resistencia al deslizamiento de uniones con tornillos\npretensazos en Estado Límite de Último.\nγM3 = 1,4\ncoeficiente parcial para la resistencia al deslizamiento de uniones con tornillos\npretensazos y agujeros rasgados o con sobremedida.\n2\nLos coeficientes parciales para la resistencia frente a la fatiga están definidos en el Anejo C.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0008.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

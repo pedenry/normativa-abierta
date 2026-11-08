@@ -1,0 +1,221 @@
+{
+ "documento": null,
+ "pagina": 56,
+ "etiqueta_impresa": "56",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.1,
+    39.2,
+    375.7,
+    48.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HE Ahorro de energía",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    179.4,
+    51.4,
+    418.1,
+    60.3
+   ],
+   "tipo": "texto",
+   "texto": "Anejo H. Determinación de la permeabilidad al aire del edificio",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    293.2,
+    796.9,
+    304.3,
+    805.8
+   ],
+   "tipo": "texto",
+   "texto": "56",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    56.7,
+    88.6,
+    536.9,
+    106.5
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo H Determinación de la permeabilidad al aire del edificio",
+   "tamano": 16.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 4,
+   "bbox": [
+    56.7,
+    116.8,
+    541.4,
+    128.0
+   ],
+   "tipo": "texto",
+   "texto": "La determinación de la permeabilidad al aire del edificio debe realizarse con alguno de los métodos siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    56.7,
+    152.4,
+    280.1,
+    165.8
+   ],
+   "tipo": "titulo",
+   "texto": "1\nDeterminación mediante ensayo",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 6,
+   "bbox": [
+    56.7,
+    171.1,
+    541.4,
+    205.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor de la relación del cambio de aire a 50 Pa, n50 mediante ensayo se obtendrá a partir del método\n1 ó 2 de la norma UNE-EN ISO 9972:2019 Prestaciones térmicas de los edificios. Determinación de la\npermeabilidad al aire de los edificios. Método de presurización con ventilador.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    56.7,
+    229.7,
+    358.8,
+    243.1
+   ],
+   "tipo": "titulo",
+   "texto": "2\nDeterminación mediante valores de referencia",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 8,
+   "bbox": [
+    56.7,
+    248.3,
+    541.4,
+    283.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor de la relación del cambio de aire a 50 Pa, n50, mediante valores de referencia, se obtendrá a\npartir de la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    56.7,
+    284.2,
+    386.7,
+    309.0
+   ],
+   "tipo": "texto",
+   "texto": "n50 = 0,629 · (Co · Ao + Ch · Ah) / Vint",
+   "tamano": 11.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    56.7,
+    309.3,
+    541.4,
+    436.7
+   ],
+   "tipo": "texto",
+   "texto": "donde:\nn50\nes el valor de la relación del cambio de aire a 50Pa;\nVint\nes el volumen interno de la envolvente térmica, en [m3];\nCo\nes el coeficiente de caudal de aire de la parte opaca de la envolvente térmica,\nexpresada a 100 Pa, en [m3/hm2], obtenido de la tabla a-Anejo H;\nAo\nes la superficie de la parte opaca de la envolvente térmica en contacto con el aire exterior, en\n[m2];\nCh\nes la permeabilidad de los huecos de la envolvente térmica, expresada a 100Pa, en\n[m3/hm2], según su valor de ensayo;\nAh\nes la superficie de los huecos de la envolvente térmica, en [m²].",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    145.9,
+    446.9,
+    454.4,
+    456.9
+   ],
+   "tipo": "texto",
+   "texto": "Tabla a-Anejo H. Valores de referencia del coeficiente de caudal de aire",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    154.7,
+    456.9,
+    443.2,
+    467.3
+   ],
+   "tipo": "texto",
+   "texto": "para la parte opaca de la envolvente térmica,  Co [m3/h·m2] (100 Pa)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    208.8,
+    477.4,
+    414.5,
+    487.5
+   ],
+   "tipo": "texto",
+   "texto": "Tipo de edificio\nCo",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    133.3,
+    493.1,
+    414.4,
+    503.1
+   ],
+   "tipo": "texto",
+   "texto": "Nuevo o existente con permeabilidad mejorada\n16",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    56.7,
+    507.3,
+    414.5,
+    528.9
+   ],
+   "tipo": "texto",
+   "texto": "Existente\n29",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

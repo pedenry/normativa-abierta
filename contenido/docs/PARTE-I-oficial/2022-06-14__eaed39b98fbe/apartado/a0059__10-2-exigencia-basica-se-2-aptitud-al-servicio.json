@@ -1,0 +1,79 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0059",
+  "ruta_oficial": "10.2",
+  "ruta_semantica": "Artículo 10. Exigencias básicas de seguridad estructural (SE) / 10.2. Exigencia básica SE 2: Aptitud al servicio",
+  "titulo": "10.2. Exigencia básica SE 2: Aptitud al servicio",
+  "nivel": 3,
+  "parent_id": "a0057",
+  "seccion_estimada": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 12,
+   "bbox": [
+    72.0,
+    311.9,
+    551.9,
+    361.5
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "294b954a0754be7753e41d85c2975b3ce802faf1b4091159074444b43ececf06",
+   "literal": "10.2. Exigencia básica SE 2: Aptitud al servicio"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0025",
+  "parent_id_original": "a0057",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2. Exigencia básica SE 2: Aptitud al servicio",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0057",
+   "ruta_semantica": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades / Artículo 10. Exigencias básicas de seguridad estructural (SE) / 10.2. Exigencia básica SE 2: Aptitud al servicio",
+   "seccion_estimada": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0b9d0162bef4e9228914f2a074c23e5e65073d4349f0d7682aeba7b36107f86e"
+ },
+ "paginas": [
+  12
+ ],
+ "etiquetas_impresas": [
+  "12"
+ ],
+ "tipos": [],
+ "texto": "10.2. Exigencia básica SE 2: Aptitud al servicio\nLa aptitud al servicio será conforme con el uso previsto del edificio, de forma que no se produzcan defor-\nmaciones inadmisibles, se limite a un nivel aceptable la probabilidad de un comportamiento dinámico\ninadmisible y no se produzcan degradaciones o anomalías inadmisibles.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0028",
+  "ruta_oficial": "2.3",
+  "ruta_semantica": "2.3 Instrucciones de uso y plan de mantenimiento",
+  "titulo": "2.3 Instrucciones de uso y plan de mantenimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.3 Instrucciones de uso y plan de mantenimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    70.9,
+    448.5,
+    358.3,
+    460.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f617b30541bcc420297411ebf5071e00e27d4f22c6e2641742411023ca33df63",
+   "literal": "2.3 Instrucciones de uso y plan de mantenimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0024",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3 Instrucciones de uso y plan de mantenimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Documentación 2.1 Documentación del proyecto / 2.3 Instrucciones de uso y plan de mantenimiento",
+   "seccion_estimada": "2 Documentación 2.1 Documentación del proyecto",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "83704ce5f2a4bc50a12fa7d29730d7cf67fb04128b7e16a7d36eb21ed2830f5e"
+ },
+ "paginas": [
+  10,
+  11
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [],
+ "texto": "2.3 Instrucciones de uso y plan de mantenimiento\n1\nEn las instrucciones de uso se recogerá toda la información necesaria para que el uso del edificio\nsea conforme a las hipótesis adoptadas en las bases de cálculo.\n2\nDe toda la información acumulada sobre una obra, las instrucciones de uso incluirán aquellas que\nresulten de interés para la propiedad y para los usuarios, que como mínimo será:\na)\nlas acciones permanentes;\nb)\nlas sobrecargas de uso;\nc)\nlas deformaciones admitidas, incluidas las del terreno, en su caso;\nd)\nlas condiciones particulares de utilización, como el respeto a las señales de limitación de so-\nbrecarga, o el mantenimiento de las marcas o bolardos que definen zonas con requisitos es-\npeciales al respecto;\ne)\nen su caso, las medidas adoptadas para reducir los riesgos de tipo estructural.\n3\nEl plan de mantenimiento, en lo correspondiente a los elementos estructurales, se establecerá en\nconcordancia con las bases de cálculo y con cualquier información adquirida durante la ejecución\nde la obra que pudiera ser de interés, e identificará:\na)\nel tipo de los trabajos de mantenimiento a llevar a cabo;\nb)\nlista de los puntos que requieran un mantenimiento particular;\nc)\nel alcance, la realización y la periodicidad de los trabajos de conservación;\nd)\nun programa de revisiones.\n\nDocumento Básico SE Seguridad Estructural\nSE - 5",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

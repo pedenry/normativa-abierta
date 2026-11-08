@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0061",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes",
+  "titulo": "Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes",
+  "nivel": 1,
+  "parent_id": "a0054",
+  "seccion_estimada": "Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    56.7,
+    76.6,
+    538.6,
+    227.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "717f4e39d6fdb935dab808d0a99e430fc2d8523011a1b198d6e96f79b7b4eedc",
+   "literal": "Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0054",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0054",
+   "ruta_semantica": "5 Construcción, mantenimiento y conservación / Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes",
+   "seccion_estimada": "5 Construcción, mantenimiento y conservación",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d91d634590af43313450d6e4d849f38e08d56e7c0ab237496b32934e2894e684"
+ },
+ "paginas": [
+  31
+ ],
+ "etiquetas_impresas": [
+  "31"
+ ],
+ "tipos": [],
+ "texto": "Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes\nGeneración mínima de energía eléctrica procedente de fuentes",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0062",
+  "a0063",
+  "a0064",
+  "a0065",
+  "a0066"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

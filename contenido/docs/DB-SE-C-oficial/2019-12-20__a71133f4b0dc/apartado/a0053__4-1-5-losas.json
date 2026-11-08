@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0053",
+  "ruta_oficial": "4.1.5",
+  "ruta_semantica": "4.1.5 Losas",
+  "titulo": "4.1.5 Losas",
+  "nivel": 1,
+  "parent_id": "a0010",
+  "seccion_estimada": "4.1.5 Losas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 27,
+   "bbox": [
+    70.9,
+    358.9,
+    144.3,
+    370.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "fafe353299ec4001699efc5036c7852295d889c5dd2ac4b5bbf70592edbf2bc7",
+   "literal": "4.1.5 Losas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0063",
+  "parent_id_original": "a0010",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.1.5 Losas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0010",
+   "ruta_semantica": "Anejo G. Normas de referencia / 4.1.5 Losas",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "33b654bf56ff4e0913bcef2753dabb366588ba917df464031b38b5a5ac829333"
+ },
+ "paginas": [
+  27,
+  28
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.1.5 Losas\n1\nSe podrán emplear en los casos indicados en el apartado anterior o cuando el área cubierta por\nposibles cimentaciones aisladas o por emparrillados cubra un porcentaje elevado de la superficie de\nocupación en planta del edificio.\n2\nLas losas de cimentación pueden ser de los siguientes tipos: continua y uniforme, con refuerzos\nbajo pilares, con pedestales, con sección en cajón, nervada, aligerada. Figura 4.6\n3\nLa losa recogerá los elementos estructurales del edificio y cubrirá el área disponible, dando así lu-\ngar a la mínima presión unitaria, pero a la máxima anchura de cimentación. Especialmente en el\ncaso de suelos compresibles de gran espesor, estas consideraciones pueden dar lugar a asientos\nconsiderables a no ser que se planteen compensaciones de cargas (véase el párrafo 6 de este\napartado).\n\nDocumento Básico SE-C Cimientos\nSE-C-23\nFigura 4.6. Tipos de losas de cimentación\n4\nLas losas de cimentación se utilizarán preferentemente para reducir los asientos diferenciales en\nterrenos heterogéneos, o cuando exista una variabilidad importante de cargas entre apoyos cerca-\nnos. El sistema de cimentación por losa tiende a integrar estas heterogeneidades, aunque a cambio\nde una distribución irregular de las presiones sobre el terreno.\n5\nTambién podrá ser conveniente una solución mediante losa cuando, aunque el terreno de apoyo\nsea homogéneo y resistente, el edificio contenga sótanos y su cota inferior se sitúe por debajo del\nnivel freático. En estos casos se debe tener en cuenta los posibles empujes ascensionales del agua\nsubálvea (subpresión) y los requisitos de estanquidad necesarios.\n6\nCuando el edificio vaya a disponer de sótanos y se vaya a cimentar por medio de losa, es posible\nque el peso de las tierras excavadas sea semejante al peso total del edificio. En ese caso, la pre-\nsión unitaria neta que transmitirá la losa al terreno será del mismo orden de magnitud que la presión\nefectiva preexistente, y los asientos serán probablemente de pequeña entidad. Esta situación parti-\ncular se denomina cimentación compensada.\n7\nLa cimentación compensada de edificios con zonas de diferente altura (y por tanto de peso) podrá\nrequerir la disposición de un número variable de sótanos distribuidos de forma proporcional al nú-\nmero de plantas a construir por encima de la superficie del terreno. En estas circunstancias será\npreciso disponer juntas estructurales debidamente tratadas entre las diferentes zonas del edificio, e\nintentar que el centro de gravedad de las acciones de la estructura en cada zona coincida con el\ncentro de gravedad de las losas, de forma que se reduzca cualquier tendencia al giro. Asimismo se-\nrá necesario analizar con detalle los asientos inducidos sobre las construcciones colindantes.\n4.2",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0027.png",
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

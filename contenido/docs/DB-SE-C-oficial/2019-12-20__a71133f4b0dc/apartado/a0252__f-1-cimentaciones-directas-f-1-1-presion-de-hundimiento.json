@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0252",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p138",
+  "titulo": "F.1. Cimentaciones directas F.1.1 Presión de hundimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p138",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p138",
+  "referencias_filtradas": [
+   "apartado 4.2.3.1",
+   "apartado 4.3.1.3"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención / F.1. Cimentaciones directas F.1.1 Presión de hundimiento",
+   "seccion_estimada": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5f4737db178612b2d1bb3e55a860f7b979501de5af13d00e1150daf8320b10a4"
+ },
+ "paginas": [
+  138,
+  139,
+  140,
+  141
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "F.1. Cimentaciones directas F.1.1 Presión de hundimiento\nF.1.1 Presión de hundimiento\n1\nLa expresión (4.8) consta de tres sumandos que se denominan respectivamente, al igual que los\nfactores de capacidad de carga, término de cohesión, de sobrecarga y de peso específico. Cada\nuno de los sumandos representa la contribución de las citadas variables (ck, q0k, k) a la resistencia.\n2\nEn especial cuando las cimentaciones sean someras, se debe considerar prudentemente la conve-\nniencia de emplear el término de sobrecarga, debiendo asegurar en caso afirmativo que las hipóte-\nsis realizadas se mantendrán durante la vida útil de la construcción. (véase E.4.3)\nF.1.1.1 Coeficientes correctores o de influencia\nF.1.1.1.1 Influencia de la resistencia al corte del terreno situado sobre la base de la cimentación\n(coeficientes d)\n1\nCuando la base de la cimentación se sitúa a cierta profundidad D bajo la superficie del terreno\n(véase Figura F.1), la superficie de rotura teórica, asociada al estado límite último de hundimiento,\nha de movilizar la resistencia al corte del terreno situado por encima y alrededor de la cimentación.\nPara tener en cuenta este efecto, que obviamente aumenta la presión de hundimiento disponible, se\nemplearán los coeficientes de corrección dc, dq, dg.\nFigura F.1. Profundidad “D” a considerar en la determinación de la presión de hundimiento\na)\nCoeficiente corrector del factor Nc:\nEn la Figura F.2 se recoge el coeficiente de corrección (dc) a aplicar al término de cohesión en fun-\nción de la relación profundidad/ancho de la cimentación.\n\nDocumento Básico SE-C Cimientos\nSE-C-134\nFigura F.2. Coeficiente de corrección (dc) \n*)\nB\n/\nD\n(\narctg\n·\n34\n,0\n1\ndc\n\n\nb)\nCoeficiente corrector del factor Nq:\n1\nd\n:\n0\npara\n;\n*\nB\nD\narctan\n)\nsen\n1\n(\nN\nN\n2\n1\nd\nq\nk\n2\nk\nc\nq\nq\n\n\n\n\n\n\n\n(F.1)\ndonde el valor de D a introducir en la ecuación no será superior a 2B*.\nEl valor de\nc\nq\nN\nN\npuede considerarse igual que tg K, con un valor aproximado de 0,2\nc)\nCoeficiente corrector del factor N:\n1\nd\n\n\n(F.2)\n2\nEl proyectista considerará prudentemente la inclusión de estos coeficientes de corrección. No se\ndeben tener en cuenta en el caso de construir zapatas poco profundas en terrenos arcillosos, de\nplasticidad elevada, que en épocas secas puedan desarrollar grietas por retracción. En estas cir-\ncunstancias no podría contarse con la resistencia al corte del terreno situado sobre la base de la\ncimentación, ya que sería nula en la dirección a favor de los planos de las grietas.\n3\nNo se deben emplear los factores de corrección anteriores para profundidades de cimentación D\n(véase Figura F.1) bajo la superficie del terreno menores de 2 m. Tampoco se deben considerar en\ncimentaciones cercanas a taludes o cuando no se pueda garantizar la permanencia, en el tiempo,\ndel terreno situado por encima de la base de cimentación.\nF.1.1.1.2 Influencia de la forma de la cimentación (coeficientes s).\n1\nEl efecto de la forma del cimiento se podrá tener en cuenta mediante los factores de corrección que\na continuación se indican:\na)\ncoeficiente corrector del factor Nc:\nsc = 1,20 para zapata circular\n*\nL\n*\nB\n·\n2,0\n1\nsc\n\n\npara zapata rectangular\n(F.3)\nb)\ncoeficiente corrector del factor Nq:\nsq= 1,20 para zapata circular\n*\nL\n*\nB\n·\ntg\n·\n5,1\n1\ns\nk\nq\n\n\n\npara zapata rectangular\n(F.4)\nc)\ncoeficiente corrector del factor N:\ns=0,6 para zapata circular\n*\nL\n*\nB\n·\n3,0\n1\ns\n\n\n\npara zapata rectangular\n(F.5)\nF.1.1.1.3 Influencia de la inclinación de la resultante de las acciones sobre la cimentación (coefi-\ncientes i)\n1\nLos coeficientes a aplicar por efecto de la existencia de componentes horizontales de cargas sobre\nla zapata se podrán obtener de las siguientes expresiones:\na)\ncoeficiente corrector del factor Nc:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nk\nc\nk\nq\nq\nq\nc\nc\n*·\nL\n*·\nB\nH\n1\n1\n·\n5,0\ni:\n0\npara\n;\n1\nN\n1\nN\n·\ni\ni\n(F.6)\nb)\ncoeficiente corrector del factor Nq:\n)\ntg\n1\n·(\n)\ntg\n·\n7,0\n1\n(\ni\nL\n3\nB\nq\n\n\n\n\n\n(F.7)\nc)\ncoeficiente corrector del factor N:\n\nDocumento Básico SE-C Cimientos\nSE-C-135\n)\ntg\n1\n·(\n)\ntg\n1\n(\ni\nL\n3\nB\n\n\n\n\n\n\n(F.8)\ndonde , B, L son los ángulos de desviación de la resultante de las acciones respecto a la vertical\ndefinidos en el párrafo 7 del apartado 4.3.1.3.\n2\nCuando se pueda asegurar una cierta cohesión “c” en el contacto de la cimentación con el terreno\nse podrá emplear un ángulo * menor, dado por la expresión;\nk\nk\ntg\n·\nV\nc\n*·\nL\n*·\nB\n1\ntg\n*\ntg\n\n\n\n\n\n(F.9)\n3\nCuando la componente horizontal de la resultante sea menor del 10% de la vertical, se podrá tomar\nic = iq = i=1.\nF.1.1.1.4 Influencia de la proximidad de un talud a la cimentación (coeficientes t)\n1\nCuando el terreno situado junto a la cimentación no sea horizontal, sino que presente una incli-\nnación descendente de ángulo  respecto a la horizontal, se podrán emplear los siguientes factores\nde corrección:\na)\ncoeficiente corrector del término Nc:\nk\ntg\n2\nc\ne\nt\n\n\n\n\n(F.10)\nb)\ncoeficiente corrector del término Nq:\n\n\n\n2\nsen\n1\nt q\n(F.11)\nc)\ncoeficiente corrector del término N:\n\n\n\n\n2\nsen\n1\nt\n(F.12)\ndonde  es el ángulo de inclinación expresado en radianes.\n2\nEn situaciones de dimensionado transitorias en condiciones sin drenaje, el efecto de la inclinación\ndel terreno podrá tenerse en cuenta calculando la presión de hundimiento como si la superficie del\nsuelo fuera horizontal, reduciéndola posteriormente en un valor 2··cu.\n3\nCuando el ángulo de inclinación del terreno sea superior a ’/2 debe llevarse a cabo un estudio\nespecífico de estabilidad global.\n4\nCuando el ángulo de inclinación del terreno sea menor o igual a 5º, se podrá tomar tc = tq = t=1.\nF.1.1.2 Presión de hundimiento en condiciones de carga sin drenaje\n1\nCuando sean de aplicación situaciones de dimensionado transitorias de carga sin drenaje (véase\napartado 4.2.3.1), la presión de hundimiento (ecuación 4.8) podrá expresarse en términos de ten-\nsiones totales, en cuyo caso la resistencia al corte del terreno vendrá representada por un ángulo\nde rozamiento interno k=0 y una resistencia al corte sin drenaje ck=cu.\n2\nLos factores de capacidad de carga para esta situación de dimensionado serán:\nNq = 1\nNc = 5,14\nN = 0\n3\nEl valor de qok a considerar en el cálculo será la presión vertical total debida a la sobrecarga (de\ntierras u otras) al del nivel de la base de la cimentación y alrededor de ésta.\n4\nEn el caso de que la resistencia al corte sin drenaje, cu, del terreno aumente con la profundidad, z,\nsiguiendo una ley lineal del tipo cu = co + m z, donde c0 es la resistencia al corte sin drenaje en su-\nperficie, se podrá adoptar para la determinación de la presión de hundimiento la resistencia al corte\nsin drenaje a una profundidad B/4 bajo la cimentación, siempre que dicho valor no resulte superior a\n2·c0.\n5\nA efectos prácticos, para el cálculo de la presión admisible se podrá considerar que el coeficiente\nR\n sólo afecta al término de la cohesión.\n\nDocumento Básico SE-C Cimientos\nSE-C-136\nF.1.1.3 Presión de hundimiento en tensiones efectivas\n1\nPara situaciones de dimensionado en las que puedan suponerse disipados los excesos de presión\nintersticial generados por las acciones actuantes sobre la cimentación, la presión de hundimiento\n(ecuación 4.8) se expresará en términos de tensiones efectivas.\n2\nAunque no resulta habitual, también será de aplicación la formulación en tensiones efectivas en\nsituaciones transitorias en las que la disipación de presiones intersticiales no se haya producido\n(carga sin drenaje) o sea parcial. En estos casos, será necesario determinar previamente el régi-\nmen de presión intersticial correspondiente.\n3\nLa resistencia al corte del terreno vendrá expresada por el ángulo de rozamiento interno efectivo\n(k= ’) y la cohesión efectiva (ck=c’).\n4\nLos factores de capacidad de carga se podrán obtener de las siguientes expresiones:\n'\ntg\n·\ne\n·'\nsen\n1\n'\nsen\n1\nq\nN\n\n\n\n\n\n\n\n(F.13)\n'\ncotg\n)·\n1\nq\nN\n(\nc\nN\n\n\n\n(F.14)\n'\ntg\n)·\n1\nq\nN\n(\n5\n,1\nN\n\n\n\n\n(F.15)\n5\nEl valor de qok a considerar en cálculo será la presión vertical efectiva debida a la sobrecarga al\nnivel de la base de la cimentación y alrededor de ésta.\n6\nEl valor del peso específico del terreno k a introducir en la formulación analítica será el que re-\npresente el estado de presiones efectivas por debajo del cimiento, siendo:\na)\nel peso específico aparente, ap, si el nivel freático se encuentra a una profundidad mayor que\nel ancho B* bajo la base de la cimentación;\nb)\nel peso específico sumergido, ', si el nivel freático está situado en o por encima de la base de\nla cimentación;\nc)\nun peso específico intermedio, interpolado linealmente según la expresión (F.16) si el nivel\nfreático está comprendido entre los indicados anteriormente\n\n'\nB\nz\n'\nap\nk\n\n\n\n\n\n\n\n(F.16)\nsiendo\nz\nla distancia a la que se encuentra el nivel freático por debajo de la base de la cimenta-\nción.\nd)\nSi existiera un flujo de agua ascendente, de gradiente iv, el valor característico del peso espe-\ncífico de cálculo será:\nk =’ – iv·w\n(F.17)\nsiendo\n'\nel peso específico sumergido del terreno;\nw\nel peso específico del agua;\niv\nel gradiente vertical medio en la zona de espesor 1,5B* bajo la base de la cimentación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.2.3.1",
+  "apartado 4.3.1.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0138.png",
+  "../figura/p0139.png",
+  "../figura/p0140.png",
+  "../figura/p0141.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

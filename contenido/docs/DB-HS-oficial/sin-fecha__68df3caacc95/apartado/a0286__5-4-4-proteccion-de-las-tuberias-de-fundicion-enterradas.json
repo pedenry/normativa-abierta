@@ -1,0 +1,80 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0286",
+  "ruta_oficial": "5.4.4",
+  "ruta_semantica": "Fragmento de PDF p127",
+  "titulo": "5.4.4 Protección de las tuberías de fundición enterradas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p127",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p127",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.4  Ejecución de albañales y colectores 5.4.1 Ejecución de la red horizontal colgada / 5.4.4 Protección de las tuberías de fundición enterradas",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b5dd4429cb45547c8dc217ab0e3822b0cc3fbb4b16e27f665ff106766d2f0b84"
+ },
+ "paginas": [
+  127,
+  128
+ ],
+ "etiquetas_impresas": [
+  "127",
+  "128"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.4.4 Protección de las tuberías de fundición enterradas\n1\nEn general se seguirán las instrucciones dadas para las demás tuberías en cuanto a su enterra-\nmiento, con las prescripciones correspondientes a las protecciones a tomar relativas a las caracte-\nrísticas de los terrenos particularmente agresivos.\n2\nSe definirán como terrenos particularmente agresivos los que presenten algunas de las característi-\ncas siguientes:\na)\nbaja resistividad: valor inferior a 1.000  x cm;\nb)\nreacción ácida: pH < 6;\nc)\ncontenido en cloruros superior a 300 mg por kg de tierra;\nd)\ncontenido en sulfatos superior a 500 mg por kg de tierra;\ne)\nindicios de sulfuros;\nf)\ndébil valor del potencial redox: valor inferior a +100 mV.\n3\nEn este caso, se podrá evitar su acción mediante la aportación de tierras químicamente neutras o\nde reacción básica (por adición de cal), empleando tubos con revestimientos especiales y emplean-\ndo protecciones exteriores mediante fundas de film de polietileno.\n4\nEn éste último caso, se utilizará tubo de PE de 0,2 mm de espesor y de diámetro superior al tubo de\nfundición. Como complemento, se utilizará alambre de acero con recubrimiento plastificador y tiras\nadhesivas de film de PE de unos 50 mm de ancho.\n5\nLa protección de la tubería se realizará durante su montaje, mediante un primer tubo de PE que\nservirá de funda al tubo de fundición e irá colocado a lo largo de éste dejando al descubierto sus ex-\ntremos y un segundo tubo de 70 cm de longitud, aproximadamente, que hará de funda de la unión.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n128",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0128.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

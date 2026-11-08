@@ -1,0 +1,101 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0068",
+  "ruta_oficial": "6.1.9",
+  "ruta_semantica": "6.1.9  Torsión",
+  "titulo": "6.1.9  Torsión",
+  "nivel": 1,
+  "parent_id": "a0059",
+  "seccion_estimada": "6.1.9  Torsión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 32,
+   "bbox": [
+    70.9,
+    242.0,
+    138.3,
+    252.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0fdef166f1134371199f69086910716f12f132b475a3b403bccc41adcd530f15",
+   "literal": "6.1.9  Torsión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0079",
+  "parent_id_original": "a0059",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 6.1.8"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.1.9  Torsión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0059",
+   "ruta_semantica": "6  Estados límite últimos / 6.1  Agotamiento de secciones sometidas a tensiones orientadas según las di- recciones principales / 6.1.9  Torsión",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1365801800e0b0caecdebc22d5ce0c421b561c1b8ce71504e6daf1eb63e8f41b"
+ },
+ "paginas": [
+  32
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "6.1.9  Torsión\n1\nDebe cumplirse la siguiente condición:\ntor,d kforma·fv,d\n(6.14)\nsiendo:\ntor,d\ntensión tangencial de cálculo debida a la torsión;\nfv,d\nresistencia de cálculo a cortante, definida en el apartado 6.1.8;\nkforma\nfactor que depende de la forma de la sección transversal:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nb)\n(h\nr\nrectangula",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.1.8"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0032.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

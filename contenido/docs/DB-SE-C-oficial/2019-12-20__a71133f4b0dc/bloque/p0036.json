@@ -1,0 +1,140 @@
+{
+ "documento": null,
+ "pagina": 36,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-31",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    105.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn el caso de cimentaciones en roca se podrá aplicar el contenido del apartado 4.3.4 para obtener\ndirectamente la carga admisible, considerándose comprobado de esta forma el estado límite último\nde hundimiento.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    116.9,
+    262.5,
+    126.8
+   ],
+   "tipo": "texto",
+   "texto": "4.3.1.3 Área equivalente de un cimiento",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    132.5,
+    541.3,
+    324.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl área equivalente de un cimiento es la máxima sección cobaricéntrica con la componente vertical\nde la resultante de la solicitación en la base del cimiento.\n2\nCuando para cualquier situación de dimensionado exista excentricidad de la resultante de las ac-\nciones respecto al centro geométrico del cimiento, se deben realizar las comprobaciones pertinen-\ntes de los estados últimos de hundimiento, adoptando un cimiento equivalente de las siguientes di-\nmensiones (véase Figura 4.12):\na)\nancho equivalente, B*  = B - 2·eB\n      (4.2)\nb)\nlargo equivalente,  L*  = L - 2·eL\n      (4.3)\nsiendo\neB y eL\nlas excentricidades según las dos direcciones ortogonales de la zapata, supuesta de\nsección rectangular en planta (véase Figura 4.12).\n3\nLos cimientos no rectangulares podrán asimilarse a otros similares conservando la misma superficie\ny el mismo momento de inercia respecto al eje del momento resultante.\n4\nCalculadas esas dimensiones equivalentes se obtendrá el valor de la presión total bruta media,\ndefinida por:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    85.3,
+    339.7,
+    138.0,
+    357.5
+   ],
+   "tipo": "texto",
+   "texto": "*\nL\n*·\nB",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    89.8,
+    331.9,
+    542.5,
+    352.1
+   ],
+   "tipo": "texto",
+   "texto": "V\nqb \n(4.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    364.9,
+    541.3,
+    464.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nV\nla componente vertical de la resultante de las acciones en la base del cimiento, incluyen-\ndo el peso de éste y de aquello que gravite libremente sobre él.\n5\nEn zapatas rectangulares se podrá tomar como sección equivalente la sección real si la excentrici-\ndad de la resultante es menor de 1/20 del lado respectivo.\n6\nCuando la cimentación incluya elementos estructurales destinados a centrar la resultante de las\nacciones sobre aquella (vigas centradoras, tirantes, contribución de forjados, etc.), el área equiva-\nlente de la cimentación podrá ser la definida por sus dimensiones reales en planta.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    104.6,
+    704.6,
+    507.4,
+    725.5
+   ],
+   "tipo": "texto",
+   "texto": "Figura 4.12. Definición de zapata equivalente para la comprobación de estados límite últimos.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    729.7,
+    541.3,
+    764.0
+   ],
+   "tipo": "texto",
+   "texto": "7\nTambién habrá de determinarse, para cada situación de dimensionado, el ángulo “” que mide la\ndesviación de la resultante de las acciones con respecto a la vertical, así como sus componentes\nsegún dos direcciones ortogonales:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

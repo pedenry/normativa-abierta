@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0038",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p21",
+  "titulo": "B.3 Unidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p21",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p21",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo B. Notaciones y unidades B.1 Notaciones / B.3 Unidades",
+   "seccion_estimada": "Anejo B. Notaciones y unidades B.1 Notaciones",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6a3c085d4ec81847a613ab1d93235862c2c3a6c57b010b5cb37f80a9dc3bdbf4"
+ },
+ "paginas": [
+  21,
+  23
+ ],
+ "etiquetas_impresas": [
+  "21",
+  "23"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "B.3 Unidades\n1\nSe utiliza el Sistema Internacional de Unidades de Medida, SI.\n2\nPara los cálculos se recomienda el uso de las unidades siguientes:\n- Fuerzas y cargas:\nkN, kN/m, kN/m²\n- Masa:\nkg;\n- Longitud:\nm, mm;\n- Tensiones:\nN/mm²; kN/m2\n- Momentos:\nkN·m.\n3\nA efectos prácticos se podrá considerar la siguiente correspondencia entre las unidades de fuerza\nde los sistemas MKS y SI: 1 kilopondio [1 kp] = 10 Newton [10 N].\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 19",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0023_t01.json",
+  "../tabla/p0023_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0021.png",
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

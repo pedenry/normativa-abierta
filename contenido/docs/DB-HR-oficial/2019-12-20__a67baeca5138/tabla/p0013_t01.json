@@ -1,0 +1,89 @@
+{
+ "indice": 1,
+ "pagina": 13,
+ "etiqueta_impresa": null,
+ "bbox": [
+  67.3,
+  132.1,
+  542.3,
+  267.6
+ ],
+ "filas": 2,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "TIPO 1",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "TIPO 2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "TIPO 3",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "TIPO 1",
+  "TIPO 2",
+  "TIPO 3"
+ ],
+ "header": {
+  "names": [
+   "TIPO 1",
+   "TIPO 2",
+   "TIPO 3"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBDCD370>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBDCC620>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBDCC650>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBDCD7F0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBDCD2E0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBDCC4D0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0013.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

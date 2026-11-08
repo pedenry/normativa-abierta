@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0257",
+  "ruta_oficial": null,
+  "ruta_semantica": "F.2.2 Determinación de la resistencia de hundimiento mediante ensayos de pe- netración “in situ”",
+  "titulo": "F.2.2 Determinación de la resistencia de hundimiento mediante ensayos de pe- netración “in situ”",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "F.2.2 Determinación de la resistencia de hundimiento mediante ensayos de pe- netración “in situ”",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 146,
+   "bbox": [
+    70.9,
+    601.5,
+    525.3,
+    627.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d1228af58273cc4ac5feb8ba4a68c049af991f4523c89af15a4aed7616b5043b",
+   "literal": "F.2.2 Determinación de la resistencia de hundimiento mediante ensayos de pe- netración “in situ”"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "F.2.2 Determinación de la resistencia de hundimiento mediante ensayos de pe- netración “in situ”",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "30 < IP < 50 / F.2.2 Determinación de la resistencia de hundimiento mediante ensayos de pe- netración “in situ”",
+   "seccion_estimada": "30 < IP < 50",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e59444d87716adaf058fa679381899869439f1d1f5e23829393c5b01e4e3de69"
+ },
+ "paginas": [
+  146,
+  147,
+  148
+ ],
+ "etiquetas_impresas": [
+  "3",
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "F.2.2 Determinación de la resistencia de hundimiento mediante ensayos de pe- netración “in situ”\nnetración “in situ”\nF.2.2.1 Métodos basados en el ensayo SPT\n1\nEl método de evaluación de la seguridad frente a hundimiento de pilotes basado en el SPT es válido\npara pilotes perforados y para pilotes hincados en suelos granulares, que no tengan gran propor-\nción de gravas gruesas cantos ó bolos (<30% de tamaño mayor de 2 cm) que pueda desvirtuar el\nresultado del ensayo, en base a la heterogeneidad de los registros obtenidos.\n2\nLa resistencia unitaria por punta se puede evaluar, para pilotes hincados, con la expresión:\n(MPa)\nN\nf =\nq\nN\np\n(F.34)\nsiendo\nfN = 0,4\npara pilotes hincados\n\nDocumento Básico SE-C Cimientos\nSE-C-142\nfN = 0,2\npara pilotes hormigonados in situ\nN\nel valor medio de NSPT. A estos efectos se obtendrá la media en la zona activa inferior y\nla media en la zona pasiva superior. El valor de N a utilizar será la media de las dos an-\nteriores. (véase Figura 5.5)\n3\nLa resistencia por fuste en un determinado nivel dentro del terreno, para un pilote hincado, se podrá\nconsiderar igual a:\nf  = 2,5 NSPT  (kPa)\n(F.35)\nEn este caso, NSPT es el valor del SPT al nivel considerado.\n4\nEn cualquier caso no se utilizarán, a efectos de estos cálculos, índices NSPT superiores a 50.\n5\nPara el caso de pilotes metálicos la resistencia por fuste se reducirá al 80% del valor correspondien-\nte a los pilotes de hormigón.\n6\nEn suelos cohesivos, con una resistencia a la compresión simple, qu, mayor de 0,1 MPa, se podrán\nutilizar, a efectos orientativos, correlaciones entre los ensayos SPT y CPT (penetrómetro estático),\nsuficientemente justificadas.\nF.2.2.2 Métodos basados en los ensayos continuos de penetración dinámica\n1\nSi en un suelo se dispone de resultados de ensayos penetrométricos dinámicos continuos, se pue-\nden traducir los resultados correspondientes a índices SPT, y utilizar después el método basado en\nel ensayo SPT.\n2\nDada la posible variación en las correlaciones existentes entre unos y otros ensayos de penetra-\nción, las correlaciones deben justificarse con la experiencia local o disponer, en su caso para la\nobra concreta, de ensayos de contraste que refuercen esta correlación.\nF.2.2.3 Método basado en ensayos penetrométricos estáticos\n1\nCon los penetrómetros estáticos se puede medir, de manera continua, la resistencia unitaria en la\npunta del cono \"qc\" y también en su fuste \"f\" en cualquier tipo de suelo, dependiendo de la potencia\ndel equipo de ensayo.\n2\nEl valor de \"q*c\" a utilizar será la media del valor medio de qc correspondiente a la zona activa infe-\nrior y del valor medio de qc correspondiente a la zona pasiva superior. (véase Figura 5.5).\n3\nLa carga unitaria de hundimiento por punta del pilote, se supondrá igual al 80% del valor así de-\nterminado. Esto es:\nqp = fq·q*c\n(F.36)\nsiendo\nfq=0,5\npara pilotes hincados\nfq=0,4\npara pilotes hormigonados in situ\nPara pilotes de diámetro mayor que 0,5 m, se debe utilizar una estimación conservadora de la me-\ndia a la hora de evaluar qp en el entorno de la punta, se recomienda adoptar el valor mínimo medido\nen esa zona.\n4\nSi en el ensayo penetrométrico no se ha medido la resistencia unitaria por fuste, se debe suponer\nque tal valor es igual a 1/200 de la resistencia por punta a ese mismo nivel, si el suelo es granular, e\nigual a 1/100, si el suelo es cohesivo. En cualquier caso, la resistencia por fuste obtenida de esta\nmanera indirecta no será superior a 0,1 MPa.\nF.2.2.4 Métodos basados en ensayos presiómetricos\n1\nLos presiómetros o dilatómetros miden la presión horizontal necesaria en la pared de un sondeo\npara plastificar el terreno. De manera aproximada, se podrá suponer:\nqp = K (pl – Kopo)\n(F.37)\nsiendo\npl\nla presión límite del ensayo presiométrico\npo\nla presión efectiva vertical al nivel de la cimentación en el entorno del apoyo (antes de\ncargar).\nKo\nel coeficiente de empuje al reposo. En general Ko = 0,5.\n\nDocumento Básico SE-C Cimientos\nSE-C-143\nK\nun coeficiente de proporcionalidad que depende de la geometría del cimiento y del tipo\nde terreno.\nEl valor de K puede tomarse igual a 3,2 en suelos granulares, e igual a 1,5 en suelos cohesivos.\n2\nEl valor de \"pl\" a utilizar en la expresión (F.37) debe ser la media de los valores medios correspon-\ndientes a las zonas activa y pasiva en el entorno de la punta.\n3\nComo resistencia unitaria por fuste se podrá tomar el siguiente valor:\nf = 10",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0146.png",
+  "../figura/p0148.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

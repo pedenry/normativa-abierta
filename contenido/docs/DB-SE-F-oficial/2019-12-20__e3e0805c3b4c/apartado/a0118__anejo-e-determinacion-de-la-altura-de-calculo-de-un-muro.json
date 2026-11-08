@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0118",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo E. Determinación de la altura de cálculo de un muro",
+  "titulo": "Anejo E. Determinación de la altura de cálculo de un muro",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo E. Determinación de la altura de cálculo de un muro",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 63,
+   "bbox": [
+    70.9,
+    96.9,
+    462.4,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1db8f4febe754e0c03cca375a16a76a59e0a4b514f12854fbbd35a6d8c7d3873",
+   "literal": "Anejo E. Determinación de la altura de cálculo de un muro"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0125",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo E. Determinación de la altura de cálculo de un muro",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Determinación de la altura de cálculo de un muro",
+   "seccion_estimada": "Anejo E. Determinación de la altura de cálculo de un muro",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "41c19988158dbed73c4b8356f661b4d36b2560db4b1495d4535365507390365e"
+ },
+ "paginas": [
+  63,
+  65
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo E. Determinación de la altura de cálculo de un muro\n1\nLa altura de cálculo hd de un muro puede tomarse igual a:\nhd = n h\n(E.1)\ndonde:\nh\nes la altura libre de piso,\nn\nes el factor de reducción dependiente del número n de bordes arriostrados, de valor:\na) Para un muro arriostrado sólo en cabeza y pie, en general, 2 = 1,0. Si se arriostra mediante\nforjados de hormigón armado con una entrega de al menos 2t/3 y 85 mm, y la excentricidad\nde la compresión en cabeza es menor de 0,25 t, puede tomarse 2 = 0,75.\nb) Un muro, de espesor t, arriostrado en un sólo borde vertical, con L ≥ 15 t, o en los dos bordes\nverticales con L ≥ 30 t, se tratará como muro arriostrado sólo en cabeza y pie.\nc) En los muros arriostrados en cabeza y pie, y en un borde vertical (con el otro borde libre), el\nvalor de 3 puede tomarse de las ecuaciones (E.2) y (E.3):\na)\npara h≤3,5L\n2\n2\n2\n3\nL\n3\nh\n1\n1\n\n\n\n\n\n\n\n\n(E.2)\nb)\npara h>3,5L\nh\nL\n5,1\n3\n\n(E.3)\nsiendo:\nh\nla altura libre del muro\nL\nla longitud del muro\nd) En los muros arriostrados en los cuatro bordes, el valor de 4 puede tomarse de las ecua-\nciones (E.4) y (E.5)\na)\npara h≤1,15L\n2\n2\n2\n4\nL\nh\n1\n1\n\n\n\n\n\n\n\n\n(E.4)\nb)\npara h>1,15L\nh\nL\n5,0\n4\n\n(E.5)\ne) Para un muro libre en cabeza 1 = 2,0. Si está arriostrado en algún borde vertical, el valor\nde  será el doble del establecido en las ecuaciones (E.2) a (E.5), según corresponde, para\n2 = 1,00\n\nDocumento Básico SE-F Fábrica\nSE-F-61",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0063.png",
+  "../figura/p0065.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

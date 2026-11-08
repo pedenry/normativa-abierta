@@ -1,0 +1,72 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0188",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p116",
+  "titulo": "GL36c",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p116",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p116",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / GL36c",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8a87b12347c04cabc1a2f1352fa6c8bcd437f05864bb9a651c8cea83697ffa16"
+ },
+ "paginas": [
+  116
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "GL36c\nResistencia (característica), en N/mm²\n- Flexión\nfm,g,,k\n24\n28\n32\n36\n- Tracción paralela\nft,0,g,k\n14\n16,5\n19,5\n22,5\n- Tracción perpendicular.\nft,90,g,k\n0,35\n0,4\n0,45\n0,5\n- Compresión paralela\nfc,0,g,k\n21\n24\n26,5\n29\n- Compresión perpendicular\nfc,90,g,k\n2,4\n2,7\n3,0\n3,3\n- Cortante\nfv,g,k\n2,2\n2,7\n3,2\n3,8\nRigidez, en kN/mm²\n- Módulo de elasticidad\nparalelo medio\nE0,g,medio\n11,6\n12,6\n13,7\n14,7\n- Módulo de elasticidad\nparalelo 5º-percentíl\nE0,g,k\n9,4\n10,2\n11,1\n11,9\n- Módulo de elasticidad\nperpendicular medio\nE90,g,medio\n0,32\n0,39\n0,42\n0,46\n- Módulo transversal medio\nGg,,medio\n0,59\n0,72\n0,78\n0,85\nDensidad, en kg/m3\n- Densidad característica\ng,k\n350\n380\n410\n430",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0116.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

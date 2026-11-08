@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0067",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.5 Determinación de probabilidades de fallo",
+  "titulo": "C.5 Determinación de probabilidades de fallo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.5 Determinación de probabilidades de fallo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 33,
+   "bbox": [
+    70.9,
+    240.2,
+    331.1,
+    252.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "cc4bd1dc1cdf060215257e8cf73e62b705a8b41c178a4f8a59de7392aa3aafd6",
+   "literal": "C.5 Determinación de probabilidades de fallo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.5 Determinación de probabilidades de fallo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.5 Determinación de probabilidades de fallo",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b8774745be8e901d7c79a9d79442c162f8c9e0ce03db353c3faf9296f628d1e3"
+ },
+ "paginas": [
+  33,
+  34
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "C.5 Determinación de probabilidades de fallo\nC.5.1 Problemática general\n1\nEn términos generales, la determinación de la probabilidad de fallo requiere establecer la probabili-\ndad\n \n\n \n\n \n\nT\n0,\nt\npara\n0\nt,\nX\ng\nP\nP\nij\nf\n\n\n\n\n\n(C.10)\nsiendo\ngij\nfunciones de fallo (Funciones Límite) en el espacio de las variables básicas\ni\nnúmero del modo de fallo\nj\nnúmero del elemento.\n0\ng1i\n,\n0\ng 2\ni\n, etc. especifica una secuencia de fallo estructural para un determinado modo de fa-\nllo, i.\n2\nLa dependencia del tiempo puede estar relacionada con las acciones e influencias, o con la resis-\ntencia (por ejemplo debido a un mecanismo de deterioro).\n3\nAlgunas de las variables X pueden ser funciones del tiempo y de coordenadas espaciales.\nC.5.2 Problemas invariables en el tiempo\n1\nEn los casos en los que todas las variables X puedan considerarse invariables en el tiempo, la pro-\nbabilidad de fallo, Pf, se determina a partir de la relación\n\n\n\nDF\nx\nf\nx\nd\nx\nf\nP\n(C.11)\nsiendo\n\nx\nfx\nfunción de densidad de probabilidad conjunta de las variables aleatorias básicas X (no\nprocesos aleatorios)\nDF\ndominio de fallo\nEn general, los dominios de fallo quedan definidos por las intersecciones y uniones de los dominios\ncaracterizados por:\n\n0\nX\ngij\n\n(C.12)\n2\nLos valores numéricos de la probabilidad de fallo se pueden determinar mediante:\na)\nmétodos analíticos exactos;\nb)\nmétodos de integración numérica;\nc)\nmétodos analíticos aproximados (FORM: First Order Reliability Method; FOSM: First Order Se-\ncond Moment Method; SORM: Second Order Reliability Method);\nd)\nmétodos de simulación.\nEn algunos casos se puede emplear una combinación de los diferentes métodos.\n\nDocumento Básico SE Seguridad Estructural\nSE - 28\nC.5.3 Transformación de problemas variables en problemas invariables en el tiempo\n1\nSe pueden distinguir dos tipos de problemas variables en el tiempo:\na)\nfallos debidos a una sobrecarga;\nb)\nfallos por acumulación de daños (por ejemplo fatiga, corrosión).\nLa dependencia del tiempo se debe a la variabilidad en el tiempo de las acciones e influencias y/o\nde la resistencia (mecanismos de deterioro).\nEn general, las acciones, influencias o resistencias que sean variables en el tiempo, se deben re-\npresentar a través de procesos estocásticos.\n2\nEn el caso de un fallo debido a una sobrecarga, el proceso puede ser sustituido por una distribución\nprobabilista representando la incertidumbre para el periodo de tiempo para el que se debe determi-\nnar la probabilidad de fallo.\nA estos efectos, el valor medio se podrá adoptar como el valor máximo esperado en el periodo de\nreferencia. Para la incertidumbre aleatoria se podrá adoptar la correspondiente al valor máximo es-\nperado.\n3\nLa función empleada para describir un fallo por fatiga se podrá expresar, por ejemplo, en los térmi-\nnos de las curvas SN y de la regla de Palmaren-Miner. De esta manera, y si se refiere a un deter-\nminado periodo de tiempo, la función es invariable en el tiempo.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0033.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

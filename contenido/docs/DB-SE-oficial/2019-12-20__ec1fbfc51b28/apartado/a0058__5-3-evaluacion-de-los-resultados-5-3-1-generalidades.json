@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0058",
+  "ruta_oficial": "5.3",
+  "ruta_semantica": "Fragmento de PDF p21",
+  "titulo": "5.3 Evaluación de los resultados 5.3.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p21",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p21",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades / 5.3 Evaluación de los resultados 5.3.1 Generalidades",
+   "seccion_estimada": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "29cdaf8a50d4dd18849d9a5174d44e0e89c487c4b991d7e67fd7f48a9eb6fca8"
+ },
+ "paginas": [
+  21,
+  22
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "5.3 Evaluación de los resultados 5.3.1 Generalidades\n5.3.1 Generalidades\n1\nLa determinación del valor de cálculo de la resistencia de un elemento estructural o de un material\nmediante ensayos se basa en que la resistencia de la probeta empleada se representa a través de\nuna única variable y en que el tipo de rotura contemplado es determinante en todos los ensayos.\n2\nEl valor de cálculo de la resistencia, Rd, se determinará según la siguiente expresión:\nRd\nM\nest\nk,\nd\nm\nR\nR\n\n\n\n\n\n(5.1)\n\nDocumento Básico SE Seguridad Estructural\nSE - 16\nsiendo\nRk,est\nestimación del valor característico de la resistencia, Rk, determinada a partir de los resul-\ntados experimentales según la expresión (5.2) ó (5.3);\nM\ncoeficiente parcial para la resistencia del material, se adoptará el valor que, según los\ndocumentos básicos correspondientes, se emplee para el material y el mecanismo de ro-\ntura considerados;\nm\nvalor medio del factor de conversión\nRd\ncoeficiente de incertidumbre para el modelo de resistencia.\n3\nEn aquellos casos en los que se estime que la diferencia entre los ensayos y los casos reales es\ndemasiado grande, será necesario un estudio más detallado para el establecimiento del valor del\ncoeficiente M.\n4\nEl coeficiente de incertidumbre para el modelo de resistencia, Rd, tiene en cuenta el carácter aleato-\nrio del factor de conversión, , con respecto a las diferencias desconocidas entre las condiciones\ndel ensayo y las condiciones en obra. Los valores de m y Rd se definirán en cada caso, teniendo\nen cuenta los objetivos de los ensayos, el estado límite considerado, el mecanismo de rotura, la in-\nformación disponible sobre la fabricación de las probetas y los elementos reales, así como las con-\ndiciones de la obra. Los valores adoptados para el coeficiente de incertidumbre Rd no serán inferio-\nres a la unidad.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0022_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0021.png",
+  "../figura/p0022.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0059"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

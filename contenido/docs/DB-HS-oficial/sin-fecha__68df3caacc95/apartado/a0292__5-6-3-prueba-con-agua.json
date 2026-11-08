@@ -1,0 +1,78 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0292",
+  "ruta_oficial": "5.6.3",
+  "ruta_semantica": "Fragmento de PDF p130",
+  "titulo": "5.6.3 Prueba con agua",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p130",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p130",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.6 Pruebas 5.6.1 Pruebas de estanqueidad parcial / 5.6.3 Prueba con agua",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "50854aa9cfad86f56271191d4c2348d2ad62a077b5d56495a2170399a5d98efb"
+ },
+ "paginas": [
+  130
+ ],
+ "etiquetas_impresas": [
+  "130"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.6.3 Prueba con agua\n1\nLa prueba con agua se efectuará sobre las redes de evacuación de aguas residuales y pluviales.\nPara ello, se taponarán todos los terminales de las tuberías de evacuación, excepto los de cubierta,\ny se llenará la red con agua hasta rebosar.\n2\nLa presión a la que debe estar sometida cualquier parte de la red no debe ser inferior a 0,3 bar, ni\nsuperar el máximo de 1 bar.\n3\nSi el sistema tuviese una altura equivalente más alta de 1 bar, se efectuarán las pruebas por fases,\nsubdividiendo la red en partes en sentido vertical.\n4\nSi se prueba la red por partes, se hará con presiones entre 0,3 y 0,6 bar, suficientes para detectar\nfugas.\n5\nSi la red de ventilación está realizada en el momento de la prueba, se le someterá al mismo régi-\nmen que al resto de la red de evacuación.\n6\nLa prueba se dará por terminada solamente cuando ninguna de las uniones acusen pérdida de\nagua.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0130.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0148",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego / B.4 Valor de cálculo de la densidad de carga de fuego",
+  "titulo": "B.4 Valor de cálculo de la densidad de carga de fuego",
+  "nivel": 2,
+  "parent_id": "a0144",
+  "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 55,
+   "bbox": [
+    70.9,
+    71.1,
+    442.6,
+    86.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "090241a298d4a356ee56b645aac4247b577375bd2e441a1fb38d36bb4954d9de",
+   "literal": "B.4 Valor de cálculo de la densidad de carga de fuego"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0098",
+  "parent_id_original": "a0144",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.4 Valor de cálculo de la densidad de carga de fuego",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0144",
+   "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego / B.4 Valor de cálculo de la densidad de carga de fuego",
+   "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6893a1b385f39be9c72a19c67c79f77731776ae2c48aa4482ee384d640e5be5a"
+ },
+ "paginas": [
+  55,
+  56
+ ],
+ "etiquetas_impresas": [
+  "55",
+  "56"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "B.4 Valor de cálculo de la densidad de carga de fuego\n1\nEl valor de cálculo de la densidad de carga de fuego se determina en función del valor característico\nde la carga de fuego del sector, así como de la probabilidad de activación y de las previsibles conse-\ncuencias del incendio, como:\nqf,d =q f,km\n1\nq\n\n2\nq\n\nn\n\nc\n\n(B.7)\nsiendo:\nqf,k valor característico de la densidad de carga de fuego, según B.5;\nm\ncoeficiente de combustión que tiene en cuenta la fracción del combustible que arde en el incen-\ndio. En los casos en los que el material incendiado sea de tipo celulósico (madera, papel, tejidos,\netc.) puede tomarse m= 0,8. Cuando se trate de otro tipo de material y no se conozca su coefi-\nciente de combustión puede tomarse m=1 del lado de la seguridad.\n1\nq\n\ncoeficiente que tiene en cuenta el riesgo de iniciación debido al tamaño del sector,\n2\nq\n\ncoeficiente que tiene en cuenta el riesgo de iniciación debido al tipo de uso o actividad;\nn\n coeficiente que tiene en cuenta las medidas activas voluntarias existentes,\nn\n=\n1,\nn\n\n2\nn\n\n3\nn\n\nc\n coeficiente de corrección según las consecuencias del incendio.\n2\nLos valores de\n1\nq\n\nse dan en la tabla B.2, pudiéndose obtener valores intermedios por interpolación\nlineal.\nTabla B.2. Valores del coeficiente\n1\nq\n\npor el riesgo de iniciación debido al tamaño del sector\nSuperficie del sector Af  [m2]\nRiesgo de iniciación\n1\nq\n\n<20\n1,00\n25\n1,10\n250\n1,50\n2 500\n1,90\n5 000\n2,00\n>10 000\n2,13\n3\nLos valores de\n2\nq\n\npueden obtenerse de la tabla B.3.\nTabla B.3. Valores del coeficiente\n2\nq\n\npor el riesgo de iniciación debido al uso o actividad\nActividad\nRiesgo de iniciación\n2\nq\n\nVivienda, Administrativo, Residencial, Docente\n1,00\nComercial, Aparcamiento, Hospitalario, Pública concurrencia\n1,25\nLocales de riesgo especial bajo\n1,25\nLocales de riesgo especial medio\n1,40\nLocales de riesgo especial alto\n1,60\n4\nLos valores de\ni,n\n\npueden obtenerse de la tabla B.4.\n\nDocumento Básico SI en caso de Incendio",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0055.png",
+  "../figura/p0056.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,417 @@
+{
+ "documento": null,
+ "pagina": 116,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    286.9,
+    797.9,
+    324.7,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 110",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    248.4,
+    84.7
+   ],
+   "tipo": "titulo",
+   "texto": "E.2 Madera laminada encolada",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 3,
+   "bbox": [
+    72.1,
+    101.2,
+    530.0,
+    122.6
+   ],
+   "tipo": "texto",
+   "texto": "E.2.1 Valores de las propiedades asociadas a cada clase resistente de la madera laminada enco-\nlada",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    132.2,
+    538.6,
+    165.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn la tabla E.3, se indican los valores de las propiedades de resistencia, rigidez y densidad asocia-\ndas a cada clase resistente de madera laminada encolada homogénea y en la tabla E.4 para la ma-\ndera laminada encolada combinada.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    72.8,
+    179.8,
+    536.6,
+    188.8
+   ],
+   "tipo": "texto",
+   "texto": "Tabla E.3 Madera laminada encolada homogénea. Valores de las propiedades asociadas a cada Clase Resis-",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    294.0,
+    190.1,
+    318.0,
+    199.1
+   ],
+   "tipo": "texto",
+   "texto": "tente",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    201.0,
+    519.0,
+    230.1
+   ],
+   "tipo": "texto",
+   "texto": "Propiedades\nClase Resistente\nGL24h\nGL28h\nGL32h\nGL36h\nResistencia (característica), en N/mm²",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    234.3,
+    511.5,
+    242.6
+   ],
+   "tipo": "texto",
+   "texto": "- Flexión\nfm,g,,k\n24\n28\n32\n36",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    246.4,
+    511.5,
+    254.7
+   ],
+   "tipo": "texto",
+   "texto": "- Tracción paralela\nft,0,g,k\n16,5\n19,5\n22,5\n26",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    258.6,
+    512.6,
+    267.0
+   ],
+   "tipo": "texto",
+   "texto": "- Tracción perpendicular\nft,90,g,k\n0,4\n0,45\n0,5\n0,6",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    270.9,
+    511.5,
+    279.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Compresión paralela\nfc,0,g,k\n24\n26,5\n29\n31",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    283.0,
+    512.6,
+    291.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Compresión perpendicular\nfc,90,g,k\n2,7\n3,0\n3,3\n3,6",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    295.2,
+    512.6,
+    303.6
+   ],
+   "tipo": "texto",
+   "texto": "- Cortante\nfv,g,k\n2,7\n3,2\n3,8\n4,3",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    307.8,
+    507.1,
+    316.0
+   ],
+   "tipo": "texto",
+   "texto": "Rigidez, en kN/mm²",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    320.2,
+    514.8,
+    337.4
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nparalelo medio\nE0,g,medio\n11,6\n12,6\n13,7\n14,7",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    341.6,
+    514.8,
+    358.8
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nparalelo 50-percentíl\nE0,g,k\n9,4\n10,2\n11,1\n11,9",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    362.9,
+    514.8,
+    380.2
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nperpendicular medio\nE90,g,medio\n0,39\n0,42\n0,46\n0,49",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    384.4,
+    514.8,
+    392.7
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo transversal medio\nGg,,medio\n0,72\n0,78\n0,85\n0,91",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    396.2,
+    507.1,
+    405.0
+   ],
+   "tipo": "texto",
+   "texto": "Densidad, en kg/m3",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    408.6,
+    513.7,
+    418.2
+   ],
+   "tipo": "texto",
+   "texto": "Densidad característica\ng,k\n380\n410\n430\n450",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    170.9,
+    422.7,
+    441.0,
+    462.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla E.4 Madera laminada encolada combinada.\nValores de las propiedades asociadas a cada Clase Resistente",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    464.5,
+    523.9,
+    578.4
+   ],
+   "tipo": "texto",
+   "texto": "Propiedades\nClase Resistente\nGL24c\nGL28c\nGL32c\nGL36c\nResistencia (característica), en N/mm²\n- Flexión\nfm,g,,k\n24\n28\n32\n36\n- Tracción paralela\nft,0,g,k\n14\n16,5\n19,5\n22,5\n- Tracción perpendicular.\nft,90,g,k\n0,35\n0,4\n0,45\n0,5\n- Compresión paralela\nfc,0,g,k\n21\n24\n26,5\n29\n- Compresión perpendicular\nfc,90,g,k\n2,4\n2,7\n3,0\n3,3\n- Cortante\nfv,g,k\n2,2\n2,7\n3,2\n3,8\nRigidez, en kN/mm²\n- Módulo de elasticidad\nparalelo medio\nE0,g,medio\n11,6\n12,6\n13,7\n14,7",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    70.9,
+    579.6,
+    517.5,
+    596.8
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nparalelo 5º-percentíl\nE0,g,k\n9,4\n10,2\n11,1\n11,9",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    70.9,
+    598.0,
+    517.5,
+    615.3
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nperpendicular medio\nE90,g,medio\n0,32\n0,39\n0,42\n0,46",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    616.4,
+    517.5,
+    644.2
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo transversal medio\nGg,,medio\n0,59\n0,72\n0,78\n0,85\nDensidad, en kg/m3\n- Densidad característica\ng,k\n350\n380\n410\n430",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    70.9,
+    660.3,
+    145.7,
+    672.3
+   ],
+   "tipo": "titulo",
+   "texto": "E.3 Tableros",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 27,
+   "bbox": [
+    70.9,
+    681.8,
+    541.3,
+    714.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn los apartados E.3.1 a E.3.3 se establecen los valores de las propiedades de resistencia, rigidez y\ndensidad asociados a los tipos de tableros y al ambiente en el que se utilizan. Los ambientes se co-\nrresponden con:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    88.8,
+    722.3,
+    379.2,
+    732.2
+   ],
+   "tipo": "texto",
+   "texto": "a) ambiente seco:\nClase de servicio 1, y clase de uso 1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    88.8,
+    739.8,
+    376.5,
+    749.7
+   ],
+   "tipo": "texto",
+   "texto": "b) ambiente húmedo:\nClase de servicio 2, y clase de uso 1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    88.8,
+    757.3,
+    430.3,
+    767.3
+   ],
+   "tipo": "texto",
+   "texto": "c) ambiente exterior:\nExposición a la intemperie clases de uso 1, 2 y 3",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

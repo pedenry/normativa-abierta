@@ -1,0 +1,322 @@
+{
+ "documento": null,
+ "pagina": 75,
+ "etiqueta_impresa": "75",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    192.5,
+    35.9,
+    419.3,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo E. Resistencia al fuego de las estructuras de madera",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "75",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    94.6,
+    74.0,
+    143.0,
+    84.0
+   ],
+   "tipo": "texto",
+   "texto": "Frondosas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    94.6,
+    90.2,
+    519.4,
+    100.5
+   ],
+   "tipo": "texto",
+   "texto": "Madera maciza o laminada encolada de frondosas con densidad característica de 290 kg/m3 (1)\n0,70",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    94.6,
+    106.7,
+    519.4,
+    117.6
+   ],
+   "tipo": "texto",
+   "texto": "Madera maciza o laminada encolada de frondosas con densidad característica  450 kg/m3\n0,55",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    94.6,
+    123.6,
+    510.7,
+    133.9
+   ],
+   "tipo": "texto",
+   "texto": "Madera microlaminada",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    94.6,
+    140.0,
+    519.4,
+    151.0
+   ],
+   "tipo": "texto",
+   "texto": "Con una densidad característica  480 kg/m3\n0,70",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    94.6,
+    157.3,
+    442.3,
+    166.6
+   ],
+   "tipo": "texto",
+   "texto": "(1)\nPara densidad característica comprendida entre 290 y 450 kg/m3, se interpolará linealmente",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    177.4,
+    221.3,
+    188.5
+   ],
+   "tipo": "texto",
+   "texto": "E.2.3.2 Madera con protección",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    203.9,
+    187.9,
+    215.0
+   ],
+   "tipo": "texto",
+   "texto": "E.2.3.2.1 Generalidades",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    223.6,
+    541.3,
+    246.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara elementos de madera protegidos (ver figura E.2), la velocidad de carbonización nominal de\ncálculo varia durante el tiempo de exposición al fuego, debiendo considerarse los siguientes casos:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    88.8,
+    252.5,
+    538.7,
+    263.6
+   ],
+   "tipo": "texto",
+   "texto": "a) Si el inicio de la carbonización del elemento se produce por el fallo de la protección deben con-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    108.1,
+    264.0,
+    541.3,
+    344.1
+   ],
+   "tipo": "texto",
+   "texto": "siderarse las siguientes fases. El inicio de la carbonización se retrasa hasta el momento en que\nse produce el fallo de la protección, tf. A partir de este momento debe considerarse una veloci-\ndad de carbonización nominal igual al doble de la establecida en la tabla E.1 para madera sin\nprotección, hasta que se alcance una profundidad carbonizada nominal de cálculo igual al menor\nde los dos valores siguientes: 25mm o la profundidad carbonizada nominal de cálculo de una\nsuperficie no protegida. En la fase posterior a dicho instante, se considerará como velocidad de\ncarbonización nominal la correspondiente a la madera sin protección.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    88.8,
+    350.6,
+    540.8,
+    361.7
+   ],
+   "tipo": "texto",
+   "texto": "b) Si el inicio de la carbonización del elemento se produce antes del fallo de la protección deben",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    108.1,
+    362.1,
+    541.4,
+    476.6
+   ],
+   "tipo": "texto",
+   "texto": "considerarse las siguientes fases. Una primera fase hasta el momento en que se inicia la carbo-\nnización del elemento, tch. A partir de este momento y hasta que se produzca el fallo de la pro-\ntección, tf, debe considerarse una velocidad de carbonización nominal igual a la establecida en\nla  tabla E.1 para madera sin protección multiplicada por un coeficiente reductor k2, función del\ntipo de protección. A partir de este momento, debe considerarse una velocidad de carbonización\nnominal igual al doble de la establecida en la  tabla E.1 para madera sin protección, hasta que\nse alcance una profundidad carbonizada nominal de cálculo igual al menor de los dos valores si-\nguientes: 25mm o la profundidad carbonizada nominal de cálculo de una superficie no protegida.\nEn la fase posterior a dicho instante, se considerará como velocidad de carbonización nominal la\ncorrespondiente a la madera sin protección.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    108.1,
+    483.1,
+    541.2,
+    528.7
+   ],
+   "tipo": "texto",
+   "texto": "Cuando el elemento esté protegido con mantas de lana de roca con un espesor mayor o igual a\n20 mm. y una densidad mayor o igual a 26 kg/m3 que se mantengan con cohesión hasta 1000\nºC, los valores de k2 pueden tomarse de la tabla E.2 Para espesores comprendidos entre 20 y\n45mm puede interpolarse linealmente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    145.0,
+    541.9,
+    467.0,
+    551.9
+   ],
+   "tipo": "texto",
+   "texto": "Tabla E.2. Valores de k2 para madera protegida por mantas de lana de roca",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    234.1,
+    558.6,
+    495.1,
+    568.6
+   ],
+   "tipo": "texto",
+   "texto": "Espesor hins [mm]\nk2",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    267.4,
+    575.8,
+    493.4,
+    585.8
+   ],
+   "tipo": "texto",
+   "texto": "20\n1",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    264.9,
+    591.9,
+    497.1,
+    602.9
+   ],
+   "tipo": "texto",
+   "texto": "45\n0,6",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    108.1,
+    627.2,
+    538.6,
+    649.8
+   ],
+   "tipo": "texto",
+   "texto": "Si el elemento se protege con una única capa de placas de yeso de tipo F, el factor de correc-\nción k2 viene dado por la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    108.1,
+    656.1,
+    201.8,
+    667.2
+   ],
+   "tipo": "texto",
+   "texto": "k2=1-0,018hp\n(E.3)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    108.1,
+    673.6,
+    353.6,
+    684.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo hp el espesor en milímetros de la capa de yeso.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    108.1,
+    691.2,
+    541.3,
+    713.8
+   ],
+   "tipo": "texto",
+   "texto": "La expresión (E.3) es válida para protecciones compuestas de por capas de yeso, siempre que\nla exterior sea de tipo F y la interior de tipo A o H.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

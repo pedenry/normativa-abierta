@@ -1,0 +1,95 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0027",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Fragmento de PDF p7",
+  "titulo": "1   Generalidades 1.1  Procedimiento de verificación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p7",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p7",
+  "referencias_filtradas": [
+   "apartado\n2.2",
+   "apartado 2.1",
+   "apartado 2.3",
+   "apartado 3.1.2",
+   "apartado 3.1.3",
+   "apartado 3.1.4",
+   "apartado 3.2",
+   "apartado 3.3",
+   "apartado 4",
+   "apartado 5",
+   "apartado 6"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1   Generalidades 1.1  Procedimiento de verificación",
+   "seccion_estimada": "1   Generalidades 1.1  Procedimiento de verificación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fc6bc2f94ff6d04df295e55cfe899f6a0e91b199857cbf6c8e1ce1e64e8c3cdd"
+ },
+ "paginas": [
+  7,
+  8
+ ],
+ "etiquetas_impresas": [
+  "3",
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "1   Generalidades 1.1  Procedimiento de verificación\n1.1  Procedimiento de verificación\n1\nPara satisfacer las exigencias del CTE en lo referente a la protección frente al ruido deben:\na)\nalcanzarse los valores límite de aislamiento acústico a ruido aéreo y no superarse los valores\nlímite de nivel de presión de ruido de impactos (aislamiento acústico a ruido de impactos) que\nse establecen en el apartado 2.1;\nb)\nno superarse los valores límite de tiempo de reverberación que se establecen en el apartado\n2.2;\nc)\ncumplirse las especificaciones del apartado 2.3 referentes al ruido y a las vibraciones de las\ninstalaciones.\n2\nPara la correcta aplicación de este documento debe seguirse la secuencia de verificaciones que se\nexpone a continuación:\na)\ncumplimiento de las condiciones de diseño y de dimensionado del aislamiento acústico a ruido\naéreo y del aislamiento acústico a ruido de impactos de los recintos de los edificios; esta verifi-\ncación puede llevarse a cabo por cualquiera de los procedimientos siguientes:\ni)\nmediante la opción simplificada, comprobando que se adopta alguna de las soluciones de\naislamiento propuestas en el apartado 3.1.2.\nii)\nmediante la opción general, aplicando los métodos de cálculo especificados para cada ti-\npo de ruido, definidos en el apartado 3.1.3;\nIndependientemente de la opción elegida, deben cumplirse las condiciones de diseño de las\nuniones entre elementos constructivos especificadas en el apartado 3.1.4.\nb)\ncumplimiento de las condiciones de diseño y dimensionado del tiempo de reverberación y de\nabsorción acústica de los recintos afectados por esta exigencia, mediante la aplicación del mé-\ntodo de cálculo especificado en el apartado 3.2.\nc)\ncumplimiento de las condiciones de diseño y dimensionado del apartado 3.3 referentes al ruido\ny a las vibraciones de las instalaciones.\nd)\ncumplimiento de las condiciones relativas a los productos de construcción expuestas en el\napartado 4.\ne)\ncumplimiento de las condiciones de construcción expuestas en el apartado 5.\nf)\ncumplimiento de las condiciones de mantenimiento y conservación expuestas en el apartado 6.\n3\nPara satisfacer la justificación documental del proyecto, deben cumplimentarse las fichas justificati-\nvas del Anejo K, que se incluirán en la memoria del proyecto.\n\nDocumento Básico HR - Protección frente al ruido\nHR-2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado\n2.2",
+  "apartado 2.1",
+  "apartado 2.3",
+  "apartado 3.1.2",
+  "apartado 3.1.3",
+  "apartado 3.1.4",
+  "apartado 3.2",
+  "apartado 3.3",
+  "apartado 4",
+  "apartado 5",
+  "apartado 6"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

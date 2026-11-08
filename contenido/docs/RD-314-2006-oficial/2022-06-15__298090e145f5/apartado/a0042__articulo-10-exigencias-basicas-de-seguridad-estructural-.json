@@ -1,0 +1,97 @@
+{
+ "documento": "RD-314-2006-oficial",
+ "code": "RD-314-2006",
+ "title": "Real Decreto 314/2006: aprobación y Parte I del CTE",
+ "capa": "oficial",
+ "scope": "Marco legal y Parte I",
+ "version": "2022-06-15",
+ "version_dir": "2022-06-15__298090e145f5",
+ "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+ "apartado": {
+  "id_tecnico": "a0042",
+  "ruta_oficial": null,
+  "ruta_semantica": "Capítulo 3. Exigencias básicas / Artículo 10. Exigencias básicas de seguridad estructural (SE).",
+  "titulo": "Artículo 10. Exigencias básicas de seguridad estructural (SE).",
+  "nivel": 3,
+  "parent_id": "a0038",
+  "seccion_estimada": "Capítulo 3. Exigencias básicas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    90.7,
+    335.4,
+    371.4,
+    349.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "9bd7728ce207b3763dc4e1a9da8d43ae8709de1025deb56d58115654afe0b0c4",
+   "literal": "Artículo 10. Exigencias básicas de seguridad estructural (SE)."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0024",
+  "parent_id_original": "a0038",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Artículo 10",
+   "DB SE",
+   "DB-SE-A",
+   "DB-SE-AE",
+   "DB-SE-C",
+   "DB-SE-F",
+   "DB-SE-M"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 10. Exigencias básicas de seguridad estructural (SE).",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0038",
+   "ruta_semantica": "CAPÍTULO 3 / Artículo 10. Exigencias básicas de seguridad estructural (SE).",
+   "seccion_estimada": "CAPÍTULO 3",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "21d8b5f0f32a0938f93272fc6d8bea7b4ed653cb9e535cc8961346e8e8aee9ec"
+ },
+ "paginas": [
+  15
+ ],
+ "etiquetas_impresas": [
+  "15"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Artículo 10.  Exigencias básicas de seguridad estructural (SE).\n1. El objetivo del requisito básico «Seguridad estructural» consiste en asegurar que el\nedificio tiene un comportamiento estructural adecuado frente a las acciones e influencias\nprevisibles a las que pueda estar sometido durante su construcción y uso previsto.\n2. Para satisfacer este objetivo, los edificios se proyectarán, fabricarán, construirán y\nmantendrán de forma que cumplan con una fiabilidad adecuada las exigencias básicas que\nse establecen en los apartados siguientes.\n3. Los Documentos Básicos «DB SE Seguridad Estructural», «DB-SE-AE Acciones en la\nedificación», «DB-SE-C Cimientos», «DB-SE-A Acero», «DB-SE-F Fábrica» y «DB-SE-M\nMadera», especifican parámetros objetivos y procedimientos cuyo cumplimiento asegura la\nsatisfacción de las exigencias básicas y la superación de los niveles mínimos de calidad\npropios del requisito básico de seguridad estructural.\n4. Las estructuras de hormigón están reguladas por la Instrucción de Hormigón\nEstructural vigente.\n10.1 Exigencia básica SE 1: Resistencia y estabilidad: la resistencia y la estabilidad\nserán las adecuadas para que no se generen riesgos indebidos, de forma que se mantenga\nla resistencia y la estabilidad frente a las acciones e influencias previsibles durante las fases\nde construcción y usos previstos de los edificios, y que un evento extraordinario no produzca\nconsecuencias desproporcionadas respecto a la causa original y se facilite el mantenimiento\nprevisto.\n10.2 Exigencia básica SE 2: Aptitud al servicio: la aptitud al servicio será conforme con el\nuso previsto del edificio, de forma que no se produzcan deformaciones inadmisibles, se limite\na un nivel aceptable la probabilidad de un comportamiento dinámico inadmisible y no se\nproduzcan degradaciones o anomalías inadmisibles.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 10",
+  "DB SE",
+  "DB-SE-A",
+  "DB-SE-AE",
+  "DB-SE-C",
+  "DB-SE-F",
+  "DB-SE-M"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515",
+  "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

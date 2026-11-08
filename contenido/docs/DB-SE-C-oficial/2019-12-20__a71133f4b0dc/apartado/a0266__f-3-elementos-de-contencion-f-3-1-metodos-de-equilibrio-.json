@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0266",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p157",
+  "titulo": "F.3. Elementos de contención F.3.1 Métodos de equilibrio límite para estudio de la estabilidad de la pantalla",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p157",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p157",
+  "referencias_filtradas": [
+   "apartado 6.2"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 · (pl – Ko po) / F.3. Elementos de contención F.3.1 Métodos de equilibrio límite para estudio de la estabilidad de la pantalla",
+   "seccion_estimada": "1 · (pl – Ko po)",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2cce7e3b83527a8ef700647937454b5642239c3cb6c2717cb174605ef2e20050"
+ },
+ "paginas": [
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  164
+ ],
+ "etiquetas_impresas": [
+  "3",
+  "4",
+  null,
+  null,
+  "1",
+  "2",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "F.3. Elementos de contención F.3.1 Métodos de equilibrio límite para estudio de la estabilidad de la pantalla\nF.3.1 Métodos de equilibrio límite para estudio de la estabilidad de la pantalla\n1\nLa comprobación de la estabilidad propia de la pantalla puede hacerse por el método del equilibrio\nlímite, suponiendo que es una estructura rígida y que se produce la rotura del terreno en la base de\nla pantalla, a ambos lados de la misma.\n2\nLos empujes del terreno y del agua sobre la pantalla se determinan según los criterios definidos en\nel apartado 6.2, tomando en consideración la posible presencia de edificaciones o servicios próxi-\nmos a coronación.\n3\nLos empujes del terreno no deben ser inferiores, en ningún caso, a 0,25·´v, siendo·´v la presión\nefectiva vertical en cada capa del terreno.\n\nDocumento Básico SE-C Cimientos\nSE-C-153\n4\nLos cálculos se podrán efectuar, en las fases intermedias de la excavación o de la construcción del\nedificio, considerando los valores representativos de las acciones y los valores característicos de\nlos parámetros del terreno. En el intradós se considerará únicamente una fracción del empuje pasi-\nvo (ya que los corrimientos que serian necesarios para su movilización completa son demasiado\ngrandes). En la elección de dicha fracción del empuje pasivo va implícito el coeficiente de seguridad\nde la estabilidad de la pantalla. Se tomarán los empujes activos sin afectar por ningún coeficiente\nde seguridad y los pasivos disminuidos, con relación a los de cálculo, por el coeficiente, E, definido\nen la tabla 2.1.\n5\nSe plantean las siguientes alternativas para el estudio de la pantalla:\na)\npantalla en voladizo;\nb)\npantalla con un punto de sujeción;\nc)\npantalla con más de un punto de sujeción;\nF.3.1.1 Pantalla en voladizo\n1\nEn la Figura F.11a se representa la deformada de la pantalla y las leyes de empujes unitarios a\nambos lados de la misma, supuesto un terreno homogéneo sin cohesión y sin agua así como sin\nconstrucciones ni servicios en su entorno.\nFigura F.11. Pantalla en voladizo\n2\nEn la Figura F.11b se representan las leyes de empujes simplificadas por encima del punto P de\nmomento nulo, y la resultante R de los empujes por debajo de dicho punto que se supone actuando\nen P.\n3\nEl planteamiento del equilibrio de fuerzas y momentos con el diagrama de la Figura F.11b, permite\ndeterminar las dos incógnitas R y to. En general, será suficiente establecer la nulidad de los momen-\ntos en P, con lo que se obtendrá to.\n4\nPara determinar el empotramiento total de la pantalla, to + t, para que sea estable, se podrá aplicar\nla regla empírica:\nt = 0,2 to\n(F.62)\n5\nEste exceso de profundidad por debajo del punto de momento nulo es suficiente para que pueda\ndesarrollarse la fuerza R necesaria para mantener el equilibrio.\n6\nLa magnitud de los empujes del terreno y del agua puede determinarse por medio de los criterios\ndefinidos en el apartado 6.2, no debiendo ser inferior el empuje unitario obtenido, a 0,25·´v.\n7\nSi la pantalla es de tablestacas metálicas, el ángulo de rozamiento del terreno con la pantalla se\nconsiderará nulo. En cualquier otro caso no debe tomarse mayor de los dos tercios del ángulo de\nrozamiento interno del terreno.\n8\nEl rozamiento de la pantalla con el terreno en el intradós (lado de los empujes pasivos) se conside-\nrará nulo.\n9\nEn el cálculo de los empujes se tendrán en cuenta las sobrecargas de cualquier tipo que puedan\nexistir sobre el terreno en el trasdós de la pantalla.\n10\nEl coeficiente E de minoración del empuje pasivo se define en la tabla 2.1.\n11\nSi la excavación se hace por debajo del nivel freático se considerará, a cada lado de la pantalla, la\ncorrespondiente ley de presiones intersticiales y de empujes del terreno, en términos de tensiones\nefectivas.\n\nDocumento Básico SE-C Cimientos\nSE-C-154\nF.3.1.2 Pantalla con un punto de sujeción próximo a coronación\n1\nSe plantean dos posibles métodos de análisis:\na)\nmétodo de “base libre”;\nb)\nmétodo de “base empotrada”.\n2\nLa rotura por rotación o traslación de la pantalla con un punto de sujeción puede efectuarse en la\nhipótesis de que todos los corrimientos de la pantalla, en la parte empotrada, tienen el mismo senti-\ndo (hacia el lado de la excavación). Este procedimiento se conoce con el nombre de \"base libre\".\n3\nEn la Figura F.12a se representa la deformada de la pantalla y las leyes de empujes unitarios, acti-\nvos en el trasdós y pasivos en el intradós por debajo del fondo de excavación; en la Figura F.12b se\nrepresentan las leyes de empujes simplificadas.\nFigura F.12. Pantalla con un punto de sujeción y base libre\n4\nLa magnitud de los empujes puede determinarse por medio de los criterios definidos para pantallas\nen voladizo y en el apartado 6.2, no debiendo ser inferior, el empuje unitario obtenido, a 0,25·´v\n5\nEl coeficiente E de minoración del empuje pasivo se define en la tabla 2.1.\n6\nEl planteamiento del equilibrio de fuerzas y momentos permite determinar las dos únicas incógnitas,\nla fuerza de sujeción F y la profundidad de empotramiento to, estrictamente necesaria para la estabi-\nlidad. Como profundidad real de empotramiento debe tomarse:\nto + 0,2 to\n(F.63)\n7\nOtra posible alternativa de cálculo consiste en el método de la \"base empotrada\". Este método toma\nen consideración el hecho de que, cuando la profundidad de empotramiento aumenta, aparece un\ncierto empotramiento en la base. Utiliza la hipótesis de Blum (el punto de momento nulo coincide\naproximadamente con el punto de empuje nulo). En la Figura F.13a se representan la deformada y\nlas leyes de empujes, en el caso de suelo homogéneo, sin cohesión y sin agua. En la Figura F.13b\nse representan las leyes de empujes unitarios simplificadas, y en la Figura F.13c, las que se consi-\nderan para el planteamiento del equilibrio, junto con las fuerzas F, de sujeción y R, resultante de\nempujes por debajo del punto P, que se requieren para establecerlo. Se ha representado la ley de\nempujes resultante y puede apreciarse que tiene valor nulo en un cierto punto O (en el cual, el em-\npuje activo en el trasdós iguala al pasivo afectado por el coeficiente de seguridad en el intradós),\npor debajo del nivel de excavación.\n\nDocumento Básico SE-C Cimientos\nSE-C-155\nFigura F.13. Pantalla con un solo punto de sujeción y base empotrada\n8\nEn este caso el número de incógnitas es de tres (to, F y R), mientras que el de ecuaciones estáticas\nes de dos (equilibrio de resultante y de momentos). Para resolver el problema se hace uso de una\nhipótesis auxiliar, muy aproximada a la realidad, consistente en suponer que el momento de la fuer-\nza de sujeción en el punto O es igual y contrario al de los empujes unitarios por encima de dicho\npunto, con relación al mismo. O lo que es lo mismo, que el momento flector de la pantalla en el pun-\nto O es nulo. Esta hipótesis proporciona la tercera ecuación necesaria.\n9\nPara determinar el empotramiento total de la pantalla, to + t, para que sea estable, se aplica la regla\nempírica:\nt = 0,2 to\n(F.64)\n10\nEste exceso de profundidad por debajo del punto de corrimiento nulo es suficiente para que pueda\ndesarrollarse la fuerza R necesaria para mantener el equilibrio.\nF.3.1.3 Pantalla con más de un punto de sujeción\n1\nEl problema de la estabilidad es estáticamente indeterminado, aún en el caso de que la pantalla se\nproyecte sin soporte fijo en la zona de empotramiento. Los empujes sobre la pantalla se definirán\nsegún los criterios definidos en el apartado 6.2.\n2\nEn cuanto a las fuerzas de sujeción, será necesario hacer hipótesis suplementarias razonables,\nsobre qué parte de los empujes activos absorbe cada anclaje o elemento de sujeción, siendo con-\nveniente efectuar los cálculos por procedimientos que tomen en consideración la interacción terreno\n- pantalla (basados en el modelo de Winkler o mediante métodos de elementos finitos o diferencias\nfinitas).\n3\nLa deformada real, en cada caso, dependerá de la magnitud de los empujes (o de la naturaleza del\nterreno), de la flexibilidad de la pantalla, del tipo de sujeción y del momento en que empiece a ac-\ntuar con relación a la excavación.\nF.3.1.4 Métodos basados en el modelo de Winkler para el estudio de la estabilidad de la pantalla\n1\nLa pantalla se modeliza como una viga elástica sobre muelles.\n2\nEn la Figura F.14a se esquematiza una pantalla con el terreno modelado mediante una serie de\nmuelles y en la Figura F.14b la ley empuje del terreno – deformación (tensión, desplazamiento) que\ndebe definirse para cada uno de ellos.\n\nDocumento Básico SE-C Cimientos\nSE-C-156\nDESPLAZAMIENTO\nTENSION\n(a)\n(b)\nEstado pasivo\nEstado en reposo\nEstado activo\nFigura F.14. Pantalla modelada como viga elástica sobre muelles\n3\nEl estudio geotécnico debe proporcionar la información necesaria para definir la ley tensión - des-\nplazamiento de cada uno de los muelles, mediante:\na) coeficientes de balasto;\nb) coeficientes de empuje activo y pasivo;\nc) empuje al reposo (incluyendo los empujes debidos al terreno y al agua).\n4\nEl coeficiente de balasto kh se define como el cociente entre la presión horizontal (q) aplicada sobre\nun determinado punto del terreno en el paramento de la pantalla y el desplazamiento horizontal ()\nexperimentado por dicho punto:\n\nq\nkh\n(F.65)\n5\nEl coeficiente de balasto, así definido, tiene unidades de densidad.\n6\nEl coeficiente de balasto no es un parámetro intrínseco del material y en su definición debe tomarse\nen consideración la geometría y características de la pantalla y el nivel de excavación.\n7\nLa estimación del coeficiente de balasto podrá realizarse:\na)\na partir de correlaciones suficientemente contrastadas con parámetros geotécnicos del terreno;\nb)\na partir de la determinación de parámetros de deformabilidad representativos del terreno en la\nzona de influencia de la pantalla, ya sea mediante ensayos in situ o de laboratorio, y el poste-\nrior cálculo geotécnico para estimar movimientos en función del nivel de tensiones en la panta-\nlla.\n8\nPodrán considerarse valores del coeficiente de balasto diferentes en las ramas de carga y descar-\nga.\n9\nLos elementos de apoyo se modelarán mediante muelles caracterizados con sus leyes tensión -\ndesplazamiento.\n10\nLos cálculos se efectuarán considerando los valores representativos de las acciones y los valores\ncaracterísticos de los parámetros del terreno.\n11\nEste método de análisis permite estudiar pantallas con varios niveles de apuntalamiento o anclaje y\nconsiderar en el cálculo el proceso de ejecución. Asimismo, permite estimar el movimiento horizon-\ntal de la pantalla.\n12\nDeberá comprobarse que el cociente entre el empuje pasivo total y el movilizado, E, es superior a\n0,6 (pasivo movilizado inferior al 60%) en situaciones permanentes o transitorias y a 0,8 (pasivo\nmovilizado inferior al 80%) en situaciones extraordinarias (tabla 2.1).\nF.3.1.5 Métodos basados en modelos de elementos finitos o diferencias finitas para el estudio de\nla estabilidad de la pantalla\n1\nEl cálculo de la pantalla podrá efectuarse empleando modelos de elementos finitos o diferencias\nfinitas, considerando el comportamiento del terreno según un modelo elastoplástico.\n\nDocumento Básico SE-C Cimientos\nSE-C-157\n2\nLa caracterización de los materiales en los cálculos tensodeformacionales debe ajustarse a partir de\nexperiencias comparables, con el mismo modelo de cálculo. La deformabilidad adoptada para los\nmateriales debe evaluarse tomando en consideración su nivel de deformación.\n3\nEl cálculo debe efectuarse con programas suficientemente contrastados en este tipo de estudios, y\nen su caso, deben efectuarse análisis de contraste con procedimientos clásicos.\n4\nLa pantalla se modelará como una viga elástica con unos elementos de interface que deben carac-\nterizar el contacto terreno - pantalla.\n5\nLas herramientas de cálculo deben eliminar las tracciones tanto en el terreno como en los elemen-\ntos de interface.\n6\nEl estudio geotécnico debe proporcionar los parámetros necesarios para definir el comportamiento\ntensodeformacional de los distintos niveles de terreno afectados por la obra.\n7\nLos cálculos se efectuarán considerando los valores representativos de las acciones y los valores\ncaracterísticos de los parámetros del terreno.\n8\nEste método de análisis permite estudiar pantallas con varios niveles de apuntalamiento o anclaje y\nconsiderar, en el cálculo, el proceso de ejecución. Asimismo permite estimar el movimiento de la\npantalla y de los elementos de cimentación o servicios próximos.\n9\nLa estabilidad de la pantalla debe comprobarse por uno de los dos procedimientos siguientes:\na)\nefectuando los cálculos minorando los parámetros resistentes del terreno. Se considerarán\ncoeficientes de seguridad, M, de 1,5 en situación permanente o transitoria y 1,2 en situación\nextraordinaria (tabla 2.1);\nb)\ncalculando directamente el coeficiente de seguridad, M, que debe ser superior a 1,5 en situa-\nción permanente o transitoria y a 1,2 en situación extraordinaria.\n\nDocumento Básico SE-C Cimientos\nSE-C-159",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0161_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0157.png",
+  "../figura/p0158.png",
+  "../figura/p0159.png",
+  "../figura/p0160.png",
+  "../figura/p0161.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

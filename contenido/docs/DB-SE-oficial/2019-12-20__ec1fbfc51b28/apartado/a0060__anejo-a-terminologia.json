@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0060",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A Terminología",
+  "titulo": "Anejo A Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 23,
+   "bbox": [
+    70.9,
+    96.9,
+    219.6,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6aa63935914708a279f9187bb695856fcca9d5615fdf635deefcab0c85a042ad",
+   "literal": "Anejo A Terminología"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0066",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo A Terminología",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A Terminología",
+   "seccion_estimada": "Anejo A Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dce5475ae5ef56655e855ed804abfe3929e99ef9bfa6432c08455cefaa9e1f9f"
+ },
+ "paginas": [
+  23,
+  25
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo A Terminología\n1\nLos términos que aquí figuran se utilizan en este DB-SE así como en los otros documentos básicos\nde seguridad estructural, conforme al significado y a las condiciones que se establecen. En el Anejo\nIII de la Parte I pueden consultarse otros términos y definiciones generales utilizados en el conjunto\ndel CTE. El resto de los DB de índole estructural contienen las definiciones de otros términos técni-\ncos específicos.\nAcción accidental: acción con una pequeña probabilidad de ocurrencia, generalmente de corta du-\nración y con efectos importantes.\nAcción fija: Acción que tiene una distribución fija sobre el edificio y cuya magnitud y dirección están\ndeterminadas de forma inequívoca para el conjunto de la obra.\nAcción libre: Acción que puede tener cualquier punto de aplicación, sin límites dados.\nAcción permanente: Acción cuya variación en magnitud con el tiempo es despreciable, o cuya va-\nriación es monótona hasta que se alcance un determinado valor límite.\nAcción variable: Acción cuya variación en el tiempo no es monótona ni despreciable respecto al\nvalor medio.\nAcciones:\na) Fuerza aplicada sobre el edificio (acción directa).\nb) Deformación impuesta o aceleración causada por, ejemplo, por cambios de temperatura, va-\nriaciones de humedad, asientos diferenciales o terremotos (acción indirecta).\nAnálisis estructural: Procedimiento o algoritmo para determinar los efectos de las acciones.\nCombinación de acciones: Conjunto de acciones utilizadas para la comprobación de los requisitos\nestructurales.\nEfectos de las acciones: El efecto de las acciones en elementos estructurales, por ejemplo, es-\nfuerzos, momentos, tensiones, deformaciones, o en toda la estructura, como por ejemplo, rotación,\ndesviación.\nElemento estructural: Parte físicamente distinguible de una estructura, como por ejemplo, una vi-\nga, una losa, un pilote.\nEstado límite: Estado más allá del que no se satisfacen los requisitos estructurales.\nEstado límite de servicio: Estado más allá del que no se satisfacen los requisitos de servicio esta-\nblecidos.\nEstado límite último: Estado asociado al colapso o a otra forma similar de fallo estructural.\nEstructura: Conjunto de elementos, conectados entre ellos, cuya misión consiste en resistir las ac-\nciones previsibles y en proporcionar rigidez.\nFlecha relativa: Descenso máximo de vano respecto al extremo de la pieza que lo tenga menor,\ndividida por la luz del tramo. En el caso de voladizos se considerara como luz el doble del vuelo.\nModelo estructural: Idealización del sistema estructural utilizada para el análisis, cálculo y verifica-\nción.\nRiesgo: Medida del alcance del peligro que representa un evento no deseado para las personas.\nUn riesgo se expresa en términos de la probabilidad vinculada a las consecuencias de dicho even-\nto.\nSituación extraordinaria: Situación que incluye unas condiciones excepcionales para el edificio.\nSituación persistente: Situación que es relevante durante un periodo de tiempo similar al periodo\nde servicio del edificio.\nSistema estructural: Elementos resistentes de la construcción y forma en la que se considera que\ntrabajan.\nValor característico: Es el principal valor representativo de una variable.\nValor de cálculo: Valor obtenido de multiplicar el valor representativo por el coeficiente parcial de\nseguridad.\n\nDocumento Básico SE Seguridad Estructural\nSE - 19",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

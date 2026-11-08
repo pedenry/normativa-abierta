@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0142",
+  "ruta_oficial": "8.9.5.2",
+  "ruta_semantica": "8.9.5.2 Secciones rectangulares",
+  "titulo": "8.9.5.2 Secciones rectangulares",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.9.5.2 Secciones rectangulares",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 101,
+   "bbox": [
+    74.1,
+    480.3,
+    228.2,
+    491.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "8b409dc4190264b9cf0fb8b4d1508e08dbf0785b43684946a3c12477ad37fd47",
+   "literal": "8.9.5.2 Secciones rectangulares"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0136",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.9.5.2 Secciones rectangulares",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.9 Uniones de perfiles huecos en las vigas de celosía 8.9.1 Alcance y campo de aplicación / 8.9.5 Nudos soldados entre barras de alma y cordones de sección cuadrada o rectangular 8.9.5.1 Barras de alma de sección cuadrada o circular y cordones de sección cuadrada / 8.9.5.2 Secciones rectangulares",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9bbb275b785f51dc87c495f473b291a9f80db06e9f7da30438ad59938be2abb6"
+ },
+ "paginas": [
+  101,
+  102,
+  103
+ ],
+ "etiquetas_impresas": [
+  "101",
+  "102",
+  "103"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "8.9.5.2 Secciones rectangulares\n1\nLas resistencias de cálculo de los nudos entre secciones huecas rectangulares y de los nudos en-\ntre secciones huecas cuadradas fuera del campo de validez de la tabla 8.3 deben basarse en los\ncriterios siguientes:\na)\nfallo por plastificación de la superficie o de la sección transversal del cordón;\nb)\ninicio de una fisura que conduzca a la rotura de las barras (punzonamiento por esfuerzo cor-\ntante);\nc)\nfisuración en las soldaduras o en las barras de alma (reducción de la anchura eficaz);\nd)\nhundimiento o pandeo local de las paredes laterales del cordón bajo la barra de alma solicita-\nda a compresión;\ne)\npandeo local en las zonas solicitadas a compresión de las barras;\nf)\nfallo por esfuerzo cortante del cordón;\nLa figura 8.25 ilustra los modos de fallo.\n\nDocumentoBásico SE-A Acero\nSE-A-100\nTabla 8.3 Campo de aplicación de la tabla 8.4 para nudos soldados entre barras de alma de sección\ncuadrada o circular y cordones de sección cuadrada\nParámetros de nudo (i=1 ó 2, j = barra de alma solapada)\ni\ni\ni\ni\nt\nd\no\nt\nb\nTipo de\nnudo\no\ni\no\ni\nb\nd\no\nb\nb\nCompresión\nTracción\nt\nb\no\no\nj\ni\nj\ni\n1\n2\n1\nt\nt\ny\nb\nb\no\nb 2\nb\nb+\nSeparación\no\nsolape\nNudos en T, Y\no X\n0,85\nb\nb\n25\n,0\no\ni≤\n≤\n35\nt\nb\n10\no\no≤\n≤\nNudo en K\ncon separa-\nción\nNudo en N\ncon separa-\nción\n0,35\nb\nb\no\ni≥\ny\no\no\no\ni\nt\nb\n0,01\n0,1\nb\nb\n+\n≥\ny1\ni\ni\nf\nE\n1,25\nt\nb≤\ny\n35\nt\nb\ni\ni≤\n35\nt\nb\n15\no\no≤\n≤\n1,3\nb 2\nb\nb\n6,0\n1\n2\n1\n≤\n+\n≤\n2\n1\no\no\nt\nt\ng\n)\n-\n1,5(1\nb\ng\npero\n)\n-\n0,5(1\nb\ng\n+\n≥\nβ\n≤\nβ\n≥\nNudo en K\ncon solape\nNudo en N\ncon solape\n0,25\nb\nb\no\ni≥\ny1\ni\ni\nf\nE\n1,1\nt\nb≤\n35\nt\nb\ni\ni≤\n40\nt\nb\no\no≤\n1,0\nt\nt\n0,75\nb\nb\nj\ni\nj\ni\n≤\n≤\n%\n25\nov≥\nλ\n%\n100\nov≤\nλ\nBarra de alma\nde sección\ncircular\n0,8\nb\nd\n4\n.\n0\no\ni≤\n≤\ny1\ni\ni\nf\nE\n1,5\nt\nb≤\n50\nt\nd\ni\ni≤\nLas mismas limitaciones que las antes citadas\npero sustituyendo bi por di  y bj por dj\nFuera de estos límites de parámetros, la resistencia del nudo puede calcularse como si el cordón tuviera una sección rectangu-\nlar.\n\nDocumentoBásico SE-A Acero\nSE-A-101\nTabla 8.4 Resistencias de cálculo de nudos soldados entre riostras de sección hueca circular o cua-\ndrada y un cordón de sección cuadrada\nTipo de nudo\nResistencia de cálculo i = 1 ó 2, j = barra solapada\nNudos en X, Y y T\nPlastificación de la cara del cordón\nβ≤ 0,85",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0102_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0101.png",
+  "../figura/p0102.png",
+  "../figura/p0103.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

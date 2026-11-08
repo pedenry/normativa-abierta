@@ -1,0 +1,101 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0264",
+  "ruta_oficial": null,
+  "ruta_semantica": "F.2.7 Estimación de movimientos horizontales en pilotes",
+  "titulo": "F.2.7 Estimación de movimientos horizontales en pilotes",
+  "nivel": 1,
+  "parent_id": "a0258",
+  "seccion_estimada": "F.2.7 Estimación de movimientos horizontales en pilotes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 153,
+   "bbox": [
+    70.9,
+    455.1,
+    397.2,
+    467.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "62e11d89035ac595a5415ef9e6cf2333c55f7b978042a9cbbecb4c4f1150ddad",
+   "literal": "F.2.7 Estimación de movimientos horizontales en pilotes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0258",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "F.2.7 Estimación de movimientos horizontales en pilotes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0258",
+   "ruta_semantica": "1 · (pl – Ko po) / F.2.7 Estimación de movimientos horizontales en pilotes",
+   "seccion_estimada": "1 · (pl – Ko po)",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0cbfa418b13e1633f812874271b5161519bfc30f946a484f3b9eb262b572558b"
+ },
+ "paginas": [
+  153,
+  154,
+  155,
+  156
+ ],
+ "etiquetas_impresas": [
+  null,
+  "4",
+  "9",
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "F.2.7 Estimación de movimientos horizontales en pilotes\nF.2.7.1 Pilote aislado\n1\nPara el cálculo de los movimientos horizontales del pilote se podrá utilizar la teoría de la “viga elás-\ntica” o del “coeficiente de balasto”.\n2\nAunque las soluciones \"exactas\" de este problema están bien resueltas mediante ábacos y curvas,\nen el presente DB se admitirá como suficientemente preciso utilizar la solución aproximada que se\nesquematiza en la Figura F.8.\n3\nEn la solución aproximada de la Figura F.8 la parte del pilote que queda dentro del terreno queda\nsustituida, a efectos del cálculo de esfuerzos y movimientos al nivel del terreno, por una varilla rígi-\nda de longitud L, sujeta a su base mediante un resorte vertical, otro horizontal y otro de giro, tal co-\nmo se indica en la figura.\nFigura F.8. Barra equivalente para el cálculo de movimientos\n\nDocumento Básico SE-C Cimientos\nSE-C-149\n4\nLa línea de terreno, a efectos de cálculo de movimientos horizontales o de esfuerzos en el pilote,\nsegún la Figura F.8, debe fijarse con prudencia. Se despreciará la colaboración de zonas que sean\nespecialmente blandas o deformables en comparación con el terreno inmediato inferior.\n5\nLos valores de los parámetros del pilote equivalente se pueden obtener de las siguientes expresio-\nnes:\nT\nT\nln\n15\n,0\n10\n,1\nL\n2\n\n\n\n\n\n\n\nl\n 0,8 T\n(F.49)\n3\n2\nh\nT\nEI\nT\nln\n20\n,0\n68\n,0\nK\n\n\n\n\n\n\n\n\n\nl\n\n3\nT\nEI\n(F.50)\nT\nEI\nT\nln\n20\n,0\n3,0\nK\n2\n\n\n\n\n\n\n\n\n\n\nl\n 0,6\nT\nEI\n(F.51)\nv\nK  =\n)1\n(\nAE\nR\n40\nD\n1\n2\n1\nck\n\n\n\n\n\n\n\n\n\nl\nl\n(F.52)\nsiendo\nL\nla longitud del empotramiento equivalente\n1\nl\nla longitud del pilote fuera del terreno\n2\nl\nla longitud enterrada del pilote\nT\nla longitud elástica del pilote\nA\nel área de la sección transversal del pilote\nE\nel módulo de elasticidad del material que forma el pilote\nI\nel momento de inercia respecto a un eje de giro perpendicular al plano de estudio\n\nel parámetro definido en la expresión (F.45)\n6\nPara estimar la presión horizontal que se opone al movimiento del pilote a cierta profundidad (ph) se\npodrá utilizar la teoría del coeficiente de balasto. Según esta teoría el valor de ph viene dado por la\nexpresión:\nph = Ks\n(F.53)\nsiendo\nKs\nel módulo de balasto horizontal del pilote;\n\nel desplazamiento horizontal del pilote.\n7\nEl módulo de balasto Ks tiene dimensiones de fuerza dividida por longitud al cubo y se debe es-\ntimar por alguno de los procedimientos que se citan a continuación:\na)\nmediante pruebas de carga horizontal, debidamente interpretadas;\nb)\nmediante información local, debidamente contrastada;\nc)\nen función del resultado de ensayos presiométricos o dilatométricos realizados en sondeos;\nd)\nmediante correlaciones empíricas.\n8\nCuando se utilicen los resultados de ensayos presiométricos, se determinará el módulo de balasto\nhorizontal mediante la expresión :\nD\nE\n·\nK\np\ns\n\n\n(F.54)\nsiendo\nEp\nel módulo presiométrico\nD\nel diámetro del pilote ≥ 0,3 m\n\nun factor adimensional que depende del tipo de terreno y oscila entre 1,5 para arcillas y 3\npara suelos granulares.\n\nDocumento Básico SE-C Cimientos\nSE-C-150\n9\nCuando se utilicen correlaciones empíricas para determinar el coeficiente de balasto se distinguirá\nentre:\na)\narenas;\nb)\narcillas.\n10\nEn arenas se podrá admitir que el módulo de balasto depende no sólo de la profundidad z, sino\ntambién del diámetro del pilote, D según indica la expresión:\nD\nz\n·\nn\nK\nh\ns\n(F.55)\nsiendo\nnh\nel valor de la tabla F.5.\nTabla F.5.- Valores de \"nh\" en MPa/m3\nCompacidad de la arena\nSituación respecto al nivel freático\nPor encima\nPor debajo\nFloja\n2\n1,2\nMedia\n5\n3\nCompacta\n10\n6\nDensa\n20\n12\n11\nPodrá adoptarse como longitud elástica del pilote, T, el valor adimensional definido por la expresión:\n\n\n\n\n\n\n\nh\n1/5\nn\nEI\nT\n(F.56)\nsiendo\nE, I\nlos definidos anteriormente;\nnh\nel valor definido en la tabla F.5\n12\nEn arcillas se podrá suponer que el módulo de balasto es proporcional a su resistencia al corte sin\ndrenaje, cu, e inversamente proporcional al diámetro del pilote, D, según indica la expresión (F.57):\nD\nC\n67\nK\nu\ns\n(F.57)\n13\nEn estos casos podrá adoptarse como “longitud elástica” del pilote T, el valor adimensional definido\npor la expresión:\n\n\n\n\n\n\n\ns\n1/4\nDK\nEI\nT\n(F.58)\nsiendo\nE, I, D, Ks  los definidos anteriormente;\nF.2.7.2 Efecto grupo\n1\nPara estimar el movimiento horizontal del grupo, en aquellos casos en los que no resulte crítico, se\npodrá considerar cada pilote del grupo sustituido, en su parte enterrada, por una varilla rígida virtual\nsoportada por los resortes indicados en la Figura F.8, pero afectando a la longitud elástica estimada\nen la hipótesis de \"pilote aislado\" por un coeficiente de mayoración, m, tal y como se indica en la\nexpresión (F.59):\nT (pilote dentro del grupo) = m . T (pilote aislado)\n(F.59)\n2\nPara espaciamientos entre pilotes superiores a 2,5 D y para pilotes cuya longitud dentro del terreno\nsea superior a 2,5 T, y a falta de datos concretos más fiables, se pueden utilizar los siguientes valo-\nres de m. (véase  Figura F.9)\n\nDocumento Básico SE-C Cimientos\nSE-C-151\n2\n1\nS\nD\n5,0\n1\nm\n\n\n\n\n\n\n\n\n 1,10                                   Primera fila\n(F.60)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n2\n2\n1\nS\nD\n1\n·\nS\nD\n5,0\n1\nm\n 1,30          Filas siguientes\n(F.61)\nsiendo\nD\nel diámetro del pilote\nS\nla separación entre ejes\n1\nDIRECCION DEL\nESFUERZO HORIZONTAL\nPRINCIPAL\nS\n2\nS\nD\nFILA 1ª\nFigura F.9. Consideración del efecto grupo en la rigidez transversal para el cálculo de movimientos\nhorizontales",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0153.png",
+  "../figura/p0154.png",
+  "../figura/p0155.png",
+  "../figura/p0156.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-9331dbd90a12",
+ "code": "GUIA",
+ "title": "Solucion A3 Puertas estancas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__2c714344d97c",
+ "sha256": "2c714344d97ca6ec91d2b86a0134e36187d3f648d968039eb82045f16bb06f82",
+ "apartado": {
+  "id_tecnico": "a0009",
+  "ruta_oficial": "3",
+  "ruta_semantica": "3 \t puerta 4 \t cerco",
+  "titulo": "3 \t puerta 4 \t cerco",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3 \t puerta 4 \t cerco"
+ },
+ "paginas": [
+  2
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3 \t puerta 4 \t cerco\n4 \t cerco\nFigura 3 - \u0007Juntas elásticas verticales sujetas mediante un perfil fijo (arriba)\ny directamente al cerco (abajo)\n1\n3\n2\n3\n1\nCuando la apertura entre la hoja de la puerta y el cer­\nco no permita la disposición de una junta, ésta se po­\ndrá colocar con ayuda de un perfil fijo. Los sistemas\nde cepillo sujetos a la hoja de la puerta no son lo sufi­\ncientemente eficientes, por lo que no se recomienda\nsu uso.\nEn el caso de trampillas la solución dependerá de su\nfrecuencia de uso. Si es esporádico, lo más eficiente\nserá su sellado, pero si es frecuente lo más adecuado\nserá implementar soluciones similares a las descritas\npara puertas.\nFigura 4 - \u0007Junta elástica horizontal sujeta a un perfil fijo al pavimento\n1   \tjunta 2 \t perfil fijo\n2 \t perfil fijo",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0002_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0002.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Solucion_A3_Puertas_estancas.pdf",
+  "sha256": "2c714344d97ca6ec91d2b86a0134e36187d3f648d968039eb82045f16bb06f82",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": null,
+  "nivel": 1,
+  "seccion_estimada": "3 \t puerta 4 \t cerco",
+  "ruta_semantica": "3 \t puerta 4 \t cerco"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

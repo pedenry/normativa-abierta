@@ -1,0 +1,125 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0075",
+  "ruta_oficial": "4.3.2.1",
+  "ruta_semantica": "4.3.2.1 Expresión analítica básica",
+  "titulo": "4.3.2.1 Expresión analítica básica",
+  "nivel": 1,
+  "parent_id": "a0074",
+  "seccion_estimada": "4.3.2.1 Expresión analítica básica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 37,
+   "bbox": [
+    70.9,
+    319.2,
+    234.1,
+    329.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a960b1e36aecdaff619b53871404a33284df0aa5ee9b3e6c88d3844845b95a62",
+   "literal": "4.3.2.1 Expresión analítica básica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0087",
+  "parent_id_original": "a0074",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.2.1 Expresión analítica básica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0074",
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 4.3.2 Determinación de la presión de hundimiento mediante métodos analíticos. / 4.3.2.1 Expresión analítica básica",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "67bae95d79d5bc76f5a4afef1e89d5d9252a60728b6d850de38a9d81eac3d0b6"
+ },
+ "paginas": [
+  37,
+  38
+ ],
+ "etiquetas_impresas": [
+  "5",
+  "1"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "4.3.2.1 Expresión analítica básica\n1\nLa presión de hundimiento de una cimentación directa vendrá definida por la ecuación (4.8). Podrá\nexpresarse en presiones totales o efectivas, brutas o netas.\n\n\n\n\n\n\n\n\n\nt\ni\ns\nd\nN\n*\nB\n2\n1\nt\ni\ns\nd\nN\nq\nt\ni\ns\nd\nN\nc\nq\nK\nq\nq\nq\nq\nq\nK\n0\nc\nc\nc\nc\nc\nK\nh\n(4.8)\nsiendo\nqh\nla presión vertical de hundimiento o resistencia característica del terreno Rk;\nq0K\nla presión vertical característica alrededor del cimiento al nivel de su base;\ncK\nel valor característico de la cohesión del terreno;\nB*\nel ancho equivalente del cimiento;\nK\nel peso específico característico del terreno por debajo de la base del cimiento;\nNc, Nq, N los factores de capacidad de carga. Son adimensionales y dependen exclusivamente del\nvalor característico del ángulo de rozamiento interno característico del terreno (k). Se\ndenominan respectivamente factor de cohesión, de sobrecarga y de peso específico;\ndc, dq, d\nlos coeficientes correctores de influencia para considerar la resistencia al corte del te-\nrreno situado por encima y alrededor de la base del cimiento. Se denominan factores de\nprofundidad;\nsc, sq, s\nlos coeficientes correctores de influencia para considerar la forma en planta del cimiento;\nic, iq, i\nlos coeficientes correctores de influencia para considerar el efecto de la inclinación de la\nresultante de las acciones con respecto a la vertical;\ntc, tq, t\nlos coeficientes correctores de influencia para considerar la proximidad del cimiento a un\ntalud.\n2\nLos parámetros característicos de la resistencia al corte del terreno (ck, k) deben ser representati-\nvos, para cada situación de dimensionado, de la resistencia del terreno en una profundidad com-\nprendida, al menos, entre vez y vez y media el ancho real de la cimentación (B), a contar desde la\nbase de ésta.\n3\nLa expresión (4.8) se podrá ampliar con factores de influencia adicionales para tener en cuenta la\nexistencia de una capa rígida a escasa profundidad bajo la cimentación, la inclinación de la base de\nla zapata, etc. Los factores a emplear en estos casos deben encontrarse suficientemente justifica-\ndos y documentados, y se ajustarán a los criterios comúnmente aceptados en Mecánica del Suelo.\n4\nEl desarrollo de los coeficientes correctores de influencia figura en el Anejo F\n5\nA efectos prácticos, si el terreno es uniforme (de peso específico aparente aproximado ’ = 18\nkN/m3) y si la cimentación se encuentra por encima del nivel freático, sobre terreno horizontal, se\n\nDocumento Básico SE-C Cimientos\nSE-C-33\npodrán tomar los valores de la presión de hundimiento (qh) que figuran en la tabla 4.3, válidos para\nzapatas rectangulares de ancho equivalente comprendido entre 1 y 3 m.\nTabla 4.3. Presiones de hundimiento para zapatas 1≤ B* ≤3, (kN/m2)\nB* / L* = 1\nB* / L* = 0,5\nB* / L* = 0,25\nB* / L* = 0\nD (m)\nD (m)\nD (m)\nD (m)\n\n(º)\nck\n(kN/m2)\n0\n1\n2\n0\n1\n2\n0\n1\n2\n0\n1\n2\n0º\n50\n310\n385\n450\n280\n355\n420\n270\n340\n400\n255\n325\n385\n100\n615\n750\n860\n565\n690\n790\n540\n660\n755\n515\n630\n720\n150\n925\n1120\n1265\n850\n1025\n1160\n810\n980\n1110\n770\n935\n1060\n15º\n10\n145\n255\n375\n140\n245\n360\n135\n240\n355\n130\n235\n350\n20\n280\n410\n545\n260\n390\n520\n250\n375\n510\n240\n365\n495\n20º\n10\n215\n385\n570\n210\n375\n560\n205\n370\n555\n200\n365\n550\n20\n395\n595\n805\n370\n570\n775\n360\n555\n760\n350\n540\n745\n25º\n10\n335\n605\n915\n330\n600\n905\n330\n595\n900\n330\n595\n895\n20\n580\n900\n1240\n560\n870\n1205\n550\n855\n1185\n535\n840\n1165\n30º\n0\n190\n580\n1055\n230\n620\n1095\n250\n640\n1115\n270\n660\n1135\n10\n550\n1010\n1530\n560\n1015\n1530\n565\n1015\n1530\n570\n1020\n1530\n35º\n0\n425\n1135\n1990\n520\n1225\n2085\n565\n1270\n2130\n610\n1320\n2175\nsiendo\nD\nla profundidad definida en el Anejo F",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0037.png",
+  "../figura/p0038.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

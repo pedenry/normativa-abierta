@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0118",
+  "ruta_oficial": "APÉNDICE-C",
+  "ruta_semantica": "Apéndice C Cálculo del caudal de drenaje",
+  "titulo": "Apéndice C Cálculo del caudal de drenaje",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Apéndice C Cálculo del caudal de drenaje",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 51,
+   "bbox": [
+    70.9,
+    95.3,
+    356.9,
+    110.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3ed610992e926dfb836cd40c2732facf10c06d9572371b548c1ea602233f68eb",
+   "literal": "Apéndice C Cálculo del caudal de drenaje"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Apéndice C Cálculo del caudal de drenaje",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Apéndice C Cálculo del caudal de drenaje",
+   "seccion_estimada": "Apéndice C Cálculo del caudal de drenaje",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fe8c70c74e69695b213156b734aa29151212315a655b718de1c6570ad0d84b04"
+ },
+ "paginas": [
+  51
+ ],
+ "etiquetas_impresas": [
+  "51"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Apéndice C Cálculo del caudal de drenaje\n1\nEl caudal de drenaje por metro lineal de muro en m3/(s.m) debido al encuentro con una capa freáti-\nca, q, se obtiene por el procedimiento que se expone a continuación (Véase la figura C.1).\na) Cuando el arranque del muro coincide o está por debajo de la cara superior de una capa im-\npermeable el caudal se obtiene mediante la fórmula C.1 o la fórmula C.2\n10\n)\nNF\nP\n(\nK\nq\ns\n\n\n(C.1)",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0051.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0119"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

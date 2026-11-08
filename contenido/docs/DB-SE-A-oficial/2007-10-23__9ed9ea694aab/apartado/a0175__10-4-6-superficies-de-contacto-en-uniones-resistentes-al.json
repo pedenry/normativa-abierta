@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0175",
+  "ruta_oficial": "10.4.6",
+  "ruta_semantica": "10.4.6 Superficies de contacto en uniones resistentes al deslizamiento",
+  "titulo": "10.4.6 Superficies de contacto en uniones resistentes al deslizamiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.4.6 Superficies de contacto en uniones resistentes al deslizamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 117,
+   "bbox": [
+    74.1,
+    489.3,
+    411.4,
+    500.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0a7ab2980a695ebb8a961ccaca69b4373c9084f0093a5430a37162aa8fea933b",
+   "literal": "10.4.6 Superficies de contacto en uniones resistentes al deslizamiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0169",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.4.6 Superficies de contacto en uniones resistentes al deslizamiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.4 Uniones atornilladas 10.4.1 Utilización de tornillos / 10.4.6 Superficies de contacto en uniones resistentes al deslizamiento",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "df85089d4ac41582a6ca46aa6baa6adf5377ed2f7ef514028dfb21db49f2047d"
+ },
+ "paginas": [
+  117
+ ],
+ "etiquetas_impresas": [
+  "117"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.4.6 Superficies de contacto en uniones resistentes al deslizamiento\n1\nSe puede preparar una superficie de contacto para producir la clase de superficie especificada en\nel pliego de condiciones, pudiéndose utilizar tratamientos o recubrimientos garantizados por ensa-\nyos que se especifiquen en el citado pliego.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0117.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

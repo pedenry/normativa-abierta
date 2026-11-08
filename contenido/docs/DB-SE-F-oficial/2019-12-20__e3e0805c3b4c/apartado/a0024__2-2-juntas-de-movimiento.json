@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0024",
+  "ruta_oficial": "2.2",
+  "ruta_semantica": "2.2 Juntas de movimiento",
+  "titulo": "2.2 Juntas de movimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2 Juntas de movimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 7,
+   "bbox": [
+    70.9,
+    179.6,
+    224.4,
+    191.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b778f8d742db7b2f71bf15cb14afd4e7bda5ed8ec0aebdad4e4a4fff3ee9a40d",
+   "literal": "2.2 Juntas de movimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0025",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2 Juntas de movimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Bases de cálculo 2.1 Generalidades / 2.2 Juntas de movimiento",
+   "seccion_estimada": "2 Bases de cálculo 2.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "181716a2a4c884f52003970aaf0c44b168c8b8f138b1848f9a3425df87b45ca7"
+ },
+ "paginas": [
+  7
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "2.2 Juntas de movimiento\n1\nSe dispondrán juntas de movimiento para permitir dilataciones térmicas y por humedad, fluencia y\nretracción, las deformaciones por flexión y los efectos de las tensiones internas producidas por cargas\nverticales o laterales, sin que la fábrica sufra daños, teniendo en cuenta, para las fábricas sustentadas,\nlas distancias indicadas en la tabla 2.1. Dichas distancias corresponden a edificios de planta rectan-\ngular o concentrada. Si la planta tiene forma asimétrica, con alas en forma de L, U, etc, cuyas longitu-\ndes sean mayores que la mitad de las indicadas, se dispondrán juntas en las proximidades de los\npuntos de encuentro de las mismas. Siempre que sea posible la junta se proyectará con solape (véase\nfigura 2.1).\nTabla 2.1 Distancia máxima entre juntas de movimiento de fábricas sustentadas\nTipo de fábrica\nDistancia entre\nlas juntas (m)\nde piedra natural\n30\nde piezas de hormigón celular en autoclave\n22\nde piezas de hormigón ordinario\n20\nde piedra artificial\n20\nde piezas de árido ligero ( excepto piedra pómez o arcilla expandida)\n20\nde piezas de hormigón ligerode piedra pómez o arcilla expandida\n15\nde ladrillo cerámico (1)\nRetracción final del mortero\n(mm/m)\nExpansión final por\nhumedad de la pieza\ncerámica (mm/m)\n≤ 0,15\n≤ 0,15\n30\n≤ 0,20\n≤ 0,30\n20\n≤ 0,20\n≤ 0,50\n15\n≤ 0,20\n≤ 0,75\n12\n≤ 0,20\n≤ 1,00\n8\n(1) Puede interpolarse linealmente\nFigura 2.1 Junta de movimiento con solape. Esquema en planta",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0007.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

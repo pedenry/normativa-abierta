@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0038",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pública concurrencia",
+  "titulo": "Pública concurrencia",
+  "nivel": 1,
+  "parent_id": "a0033",
+  "seccion_estimada": "Pública concurrencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    70.9,
+    502.9,
+    164.5,
+    512.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d0f13a9c38e48f9c21df0adbfc03077a206017958cc9f79cd872352798631342",
+   "literal": "Pública concurrencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0033",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB SI",
+   "RSCIEI",
+   "apartado 3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Pública concurrencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0033",
+   "ruta_semantica": "15 < h ≤ 28 m / 2 Locales y zonas de riesgo especial / Pública concurrencia",
+   "seccion_estimada": "15 < h ≤ 28 m",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "deaee2767b32332bcc330d4d3cbbea93519688d1587378288fc6eefa45e7eaa9"
+ },
+ "paginas": [
+  15
+ ],
+ "etiquetas_impresas": [
+  "15"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Pública concurrencia\n-\nTaller o almacén de decorados, de vestuario, etc.\n100<V≤200 m3\nV>200 m3\n(1)\nEn el supuesto de que estos locales tengan más de 500 m3y una carga de fuego total ponderada y corregida (QT), calculada\nsegún el anexo I del RSCIEI, igual o superior a 3 x 106 MJ, se considerarán zonas de uso Almacén.\n(2)\nPara la determinación de la potencia instalada sólo se considerarán los aparatos directamente destinados a la preparación de\nalimentos y susceptibles de provocar ignición. Las freidoras y las sartenes basculantes se computarán a razón de 1 kW por\ncada litro de capacidad, independientemente de la potencia que tengan. En usos distintos de Hospitalario y Residencial Públi-\nco no se consideran locales de riesgo especial las cocinas cuyos aparatos estén protegidos con un sistema automático de ex-\ntinción, aunque incluso en dicho caso les es de aplicación lo que se establece en la nota (3). En el capítulo 1 de la Sección SI4\nde este DB, se establece que dicho sistema debe existir cuando la potencia instalada exceda de 50 kW.\n(3)\nLos sistemas de extracción de los humos de las cocinas que conforme a lo establecido en este DB SI deban clasificarse como\nlocal de riesgo especial deben cumplir además las siguientes condiciones especiales:\n-\nLas campanas deben estar separadas al menos 50 cm de cualquier material que no sea A1.\n-\nLos conductos deben ser independientes de toda otra extracción o ventilación y exclusivos para cada cocina. Deben\ndisponer de registros para inspección y limpieza en los cambios de dirección con ángulos mayores que 30 y cada 3 m\ncomo máximo de tramo horizontal. Los conductos que discurran por el interior del edificio, así como los que discurran\npor fachadas a menos de 1,50 m de distancia de zonas de la misma que no sean al menos EI 30 o de balcones, terrazas\no huecos practicables tendrán una clasificación EI 30.\nNo deben existir compuertas cortafuego en el interior de este tipo de conductos, por lo que su paso a través de elemen-\ntos de compartimentación de sectores de incendio se debe resolver de la forma que se indica en el apartado 3 de esta",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SI",
+  "RSCIEI",
+  "apartado 3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

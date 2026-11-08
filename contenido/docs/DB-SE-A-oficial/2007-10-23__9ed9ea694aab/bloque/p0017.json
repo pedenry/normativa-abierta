@@ -1,0 +1,234 @@
+{
+ "documento": null,
+ "pagina": 17,
+ "etiqueta_impresa": "17",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-15",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    97.6,
+    219.7,
+    113.2
+   ],
+   "tipo": "titulo",
+   "texto": "5 Análisis estructural",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    135.7,
+    180.1,
+    149.1
+   ],
+   "tipo": "titulo",
+   "texto": "5.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    157.2,
+    541.4,
+    202.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn general la comprobación ante cada estado límite se realiza en dos fases: determinación de los\nefectos de las acciones, o análisis (esfuerzos y desplazamientos de la estructura) y comparación\ncon la correspondiente limitación, o verificación (resistencias y flechas o vibraciones admisibles\nrespectivamente). Son admisibles los siguientes procedimientos:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.8,
+    209.3,
+    541.4,
+    232.0
+   ],
+   "tipo": "texto",
+   "texto": "a)\nlos basados en métodos incrementales que, en régimen no lineal, adecuen las características\nelásticas de secciones y elementos al nivel de esfuerzos actuantes.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    238.2,
+    541.5,
+    283.9
+   ],
+   "tipo": "texto",
+   "texto": "b)\nlos basados en métodos de cálculo en capacidad, que parten para el dimensionado de deter-\nminados elementos (normalmente los que presentan formas frágiles de fallo, como las unio-\nnes) no de los esfuerzos obtenidos en el análisis global sino de los máximos esfuerzos que\nles puedan ser transmitidos desde los elementos dúctiles (normalmente las barras) aledaños.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    74.1,
+    301.4,
+    329.6,
+    314.8
+   ],
+   "tipo": "titulo",
+   "texto": "5.2 Modelos del comportamiento estructural",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 8,
+   "bbox": [
+    74.1,
+    330.1,
+    146.9,
+    341.3
+   ],
+   "tipo": "texto",
+   "texto": "5.2.1 Hipótesis",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    349.5,
+    541.4,
+    395.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl análisis se lleva a cabo de acuerdo con hipótesis simplificadoras mediante modelos, congruen-\ntes entre sí, adecuados al estado límite a comprobar y de diferente nivel de detalle, que permitan\nobtener esfuerzos y desplazamientos en las piezas de la estructura y en sus uniones entre sí y con\nlos cimientos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.1,
+    401.6,
+    541.5,
+    493.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nNormalmente se utilizarán modelos elásticos y lineales en las comprobaciones frente a estados lí-\nmite de servicio. Frente a estados límite últimos pueden emplearse siempre modelos elásticos, si\nbien se acepta en este DB en determinadas ocasiones el uso de cualquier procedimiento que dé\ncomo resultado un conjunto de esfuerzos en equilibrio con las acciones consideradas, como es el\ncaso en el análisis global si las secciones críticas corresponden a la clase 1 (5.2.4), o en la com-\nprobación de nudos o de secciones de las clases 1 y 2. En estos casos el análisis puede llevarse a\ncabo en régimen elástico, elástico con redistribución de momentos, elastoplástico, rígido-plástico o\ncualquier combinación coherente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    74.1,
+    499.5,
+    541.4,
+    522.3
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn todos los casos es necesario considerar el efecto de las posibles no linealidades geométricas\ny/o mecánicas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.1,
+    535.6,
+    190.3,
+    546.8
+   ],
+   "tipo": "texto",
+   "texto": "5.2.2 Modelos de piezas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    74.1,
+    555.0,
+    541.3,
+    589.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa piezas de acero se representarán mediante modelos unidimensionales o bidimensionales de\nacuerdo a sus dimensiones relativas. En el caso en que la relación entre las dos dimensiones fun-\ndamentales de la pieza sea menor o igual que 2, deberán usarse modelos bidimensionales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    74.1,
+    595.5,
+    541.5,
+    652.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nLas luces de cálculo de las piezas unidimensionales serán las distancias entre ejes de enlace. En\npiezas formando parte de entramados o pórticos estos ejes coinciden con las intersecciones de la\ndirectriz de la pieza con las de las adyacentes. En piezas embutidas en apoyos rígidos de dimen-\nsión importante en relación con su canto, puede situarse idealmente el eje en el interior del apoyo a\nmedio canto de distancia respecto del borde libre.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    74.1,
+    659.0,
+    541.5,
+    693.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn el análisis global de la estructura las piezas se representarán considerando sus secciones bru-\ntas, salvo en los casos indicados en 5.2.4, o cuando la reducción de una sección o de su eficacia\npueda afectar significativamente al modelo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.1,
+    699.5,
+    541.3,
+    722.2
+   ],
+   "tipo": "texto",
+   "texto": "4\nLa rigidez en torsión de las piezas puede ser ignorada en el análisis en los casos en que no resulte\nimprescindible para el equilibrio.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

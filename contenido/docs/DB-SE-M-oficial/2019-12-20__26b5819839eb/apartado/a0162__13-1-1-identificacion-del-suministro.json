@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0162",
+  "ruta_oficial": "13.1.1",
+  "ruta_semantica": "13.1.1  Identificación del suministro",
+  "titulo": "13.1.1  Identificación del suministro",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "13.1.1  Identificación del suministro",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 97,
+   "bbox": [
+    70.9,
+    163.2,
+    242.7,
+    173.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "384a1b978653a2d625f4b3adbe855558b61e9000d431894b081e8895c6792f14",
+   "literal": "13.1.1  Identificación del suministro"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0191",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "13.1.1  Identificación del suministro",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "13  Control 13.1  Suministro y recepción de los productos / 13.1.1  Identificación del suministro",
+   "seccion_estimada": "13  Control 13.1  Suministro y recepción de los productos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5093427985182c9eb54a05f508463467b2a676e0eb2ee0b1cda9bb57789024fa"
+ },
+ "paginas": [
+  97,
+  98
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "13.1.1  Identificación del suministro\n1\nEn el albarán de suministro o, en su caso, en documentos aparte, el suministrador facilitará, al me-\nnos, la siguiente información para la identificación de los materiales y de los elementos estructurales:\na) con carácter general:\n\nnombre y dirección de la empresa suministradora;\n\nnombre y dirección de la fábrica o del aserradero, según corresponda;\n\nfecha del suministro;\n\ncantidad suministrada;\n\ndistintivo de calidad del producto, en su caso.\nb) con carácter específico:\ni)\nmadera aserrada:\n\nespecie botánica y clase resistente (la clase resistente puede declararse indirectamente\nmediante la calidad con indicación de la norma de clasificación resistente empleada);\n\ndimensiones nominales;\n\ncontenido de humedad o indicación de acuerdo con la norma de clasificación correspon-\ndiente.\nii)\ntablero:\n\ntipo de tablero estructural según norma UNE (con declaración de los valores de las pro-\npiedades de resistencia, rigidez y densidad asociadas al tipo de tablero estructural);\n\ndimensiones nominales.\niii)\nelemento estructural de madera laminada encolada:\n\ntipo de elemento estructural y clase resistente (de la madera laminada encolada em-\npleada);\n\ndimensiones nominales;\n\nmarcado según UNE-EN 14080:2013.\niv)\notros elementos estructurales realizados en taller:\n\ntipo de elemento estructural y declaración de la capacidad portante del elemento con in-\ndicación de las condiciones de apoyo (o los valores de las propiedades de resistencia,\nrigidez y densidad de los materiales que lo conforman);\n\ndimensiones nominales.\nv)\nmadera y productos derivados de la madera tratados con productos protectores:\n\ncertificado del tratamiento en el que debe figurar:\n-\nla identificación del aplicador;\n-\nla especie de madera tratada;\n-\nel protector empleado y su número de registro;\n-\nel método de aplicación empleado;\n\nDocumentoBásico SE-M Madera\nSE-M 92\n-\nla clase de uso que cubre;\n-\nla retención del producto protector\n-\nla fecha del tratamiento;\n-\nprecauciones a tomar ante mecanizaciones posteriores al tratamiento;\n-\ninformaciones complementarias, en su caso.\nvi)\nelementos mecánicos de fijación:\n\ntipo (clavo sin o con resaltos, tirafondo, pasador, perno o grapa) y resistencia caracterís-\ntica a tracción del acero y tipo de protección contra la corrosión;\n\ndimensiones nominales;\n\ndeclaración, cuando proceda, de los valores característicos de resistencia al aplasta-\nmiento y momento plástico para uniones madera-madera, madera-tablero y madera-\nacero.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

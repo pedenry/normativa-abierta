@@ -1,0 +1,85 @@
+{
+ "documento": "RD-314-2006-oficial",
+ "code": "RD-314-2006",
+ "title": "Real Decreto 314/2006: aprobación y Parte I del CTE",
+ "capa": "oficial",
+ "scope": "Marco legal y Parte I",
+ "version": "2022-06-15",
+ "version_dir": "2022-06-15__298090e145f5",
+ "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+ "apartado": {
+  "id_tecnico": "a0028",
+  "ruta_oficial": null,
+  "ruta_semantica": "Capítulo 1. Disposiciones generales / Artículo 3. Contenido del CTE.",
+  "titulo": "Artículo 3. Contenido del CTE.",
+  "nivel": 3,
+  "parent_id": "a0025",
+  "seccion_estimada": "Capítulo 1. Disposiciones generales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    90.7,
+    305.4,
+    232.4,
+    319.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "7d8f98ea8a62289e6ef83532890cde61ae2f78b4b6c80ba8812e27e4eb0b4fd9",
+   "literal": "Artículo 3. Contenido del CTE."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0015",
+  "parent_id_original": "a0025",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "artículo 17"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 3. Contenido del CTE.",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0025",
+   "ruta_semantica": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación. / Capítulo 1. Disposiciones generales / Artículo 3. Contenido del CTE.",
+   "seccion_estimada": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "27675c4ea19ad889f34b76a2070f3e3d5237ceb42d9648baee7f7e283d0ccfb6"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "En las intervenciones en los edificios existentes no se podrán reducir las condiciones\npreexistentes relacionadas con las exigencias básicas, cuando dichas condiciones sean\nmenos exigentes que las establecidas en los documentos básicos del Código Técnico de la\nEdificación, salvo que en éstos se establezca un criterio distinto. Las que sean más\nexigentes, únicamente podrán reducirse hasta los niveles de exigencia que establecen los\ndocumentos básicos.\n4. En las intervenciones en edificios existentes el proyectista deberá indicar en la\ndocumentación del proyecto si la intervención incluye o no actuaciones en la estructura\npreexistente; entendiéndose, en caso negativo, que las obras no implican el riesgo de daño\ncitado en el artículo 17.1,a) de la Ley 38/1999, de 5 de noviembre, de Ordenación de la\nEdificación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "artículo 17"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515",
+  "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

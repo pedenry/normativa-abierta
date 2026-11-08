@@ -1,0 +1,58 @@
+{
+ "documento": "GUIA-PDF-a5d4ef5252ba",
+ "code": "GUIA",
+ "title": "IEE 2016",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "2016-11-01",
+ "version_dir": "2016-11-01__813669d3066c",
+ "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+ "apartado": {
+  "id_tecnico": "a0030",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo 1. Parte IV del Informe de Evaluación del Edificio / INFORME DE EVALUACIÓN DEL EDIFICIO.",
+  "titulo": "INFORME DE EVALUACIÓN DEL EDIFICIO.",
+  "nivel": 3,
+  "parent_id": "a0029",
+  "seccion_estimada": "Anejo 1. Parte IV del Informe de Evaluación del Edificio"
+ },
+ "paginas": [
+  42
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "INFORME DE EVALUACIÓN DEL EDIFICIO.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0042_t01.json",
+  "../tabla/p0042_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0042.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/IEE_2016.pdf",
+  "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0029",
+  "nivel": 3,
+  "seccion_estimada": "Anejo 1. Parte IV del Informe de Evaluación del Edificio",
+  "ruta_semantica": "Anejo 1. Parte IV del Informe de Evaluación del Edificio / INFORME DE EVALUACIÓN DEL EDIFICIO."
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,140 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0131",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección 2. Propagación exterior",
+  "titulo": "Sección 2. Propagación exterior",
+  "nivel": 1,
+  "parent_id": "a0128",
+  "seccion_estimada": "Sección 2. Propagación exterior",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 68,
+   "bbox": [
+    221.5,
+    565.0,
+    373.8,
+    579.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "23e52b31c0ee5546f9abdb294c3f98072d8009783e8d891f80457ec3f6f3389d",
+   "literal": "Sección 2. Propagación exterior"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0128",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 1.2",
+   "apartado 1.5",
+   "apartado 1.5.",
+   "apartado 2.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección 2. Propagación exterior",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0128",
+   "ruta_semantica": "ANEXO II / Sección 2. Propagación exterior",
+   "seccion_estimada": "ANEXO II",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "21c5e92037dbc0a3d86212fae7c36144256948e81636a1a0fffbbe7f5e1bb8db"
+ },
+ "paginas": [
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79
+ ],
+ "etiquetas_impresas": [
+  "68",
+  "69",
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "tipos": [
+  "notas",
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Sección 2. Propagación exterior\n1. Medianerías, muros, forjados y fachadas de edificios.\n1.1 Con el fin de limitar el riesgo de propagación del incendio en edificios a otros\nestablecimientos, la resistencia al fuego mínima de los elementos separadores de los\nsectores de incendio del establecimiento considerado con los otros establecimientos, tales\ncomo medianeras, muros, cerramientos o forjados, será la siguiente:\nTabla 2.2.1\nResistencia al fuego de los elementos separadores con otros establecimientos\nNivel de riesgo intrínseco\nRiesgo bajo.\nEI 120\nRiesgo medio.\nEI 180\nRiesgo alto.\nEI 240\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 68\n\nNotas de la tabla:\nNota 1: E = Integridad al paso de llamas y gases calientes, I = Aislamiento térmico, R =\nCapacidad portante (valores expresados en minutos).\nNota 2: En el caso de que los elementos separadores tengan también función portante,\ntendrán como mínimo los valores de REI respectivos, según los valores indicados en la\ntabla.\nNota 3: A las puertas que actúen como elementos separadores se les aplicarán las\nmismas consideraciones que aparecen en la nota 3 de la tabla 2.1.2.\nNota 4: En el caso de dos establecimientos colindantes (típicamente en edificios\nadyacentes o cercanos, en configuraciones tipo B) donde existan dos muros o cerramientos\njuntos, o bien a una distancia de separación de hasta 3 metros entre ellos, se admitirá que la\nresistencia al fuego del muro o cerramiento del establecimiento industrial considerado se\nreduzca a los valores indicados en la tabla 2.1.2, debiendo tener en todo caso un valor como\nmínimo de EI 120 independientemente de su nivel de riesgo intrínseco. Por otro lado, no\nserá de aplicación este requisito cuando la distancia de separación sea superior a 3 metros,\nlibre de mercancías combustibles o elementos intermedios susceptibles de propagar el\nincendio, en cuyo caso no será necesaria una resistencia mínima.\n1.2 En el caso de que dos edificios de un mismo establecimiento industrial estén a una\ndistancia de separación igual o inferior a 3 metros, se considerarán como un mismo sector\nde incendio a no ser que existan elementos separadores entre ambos que cumplan con los\nrequisitos de muro separador entre sectores de incendio, según lo establecido en la tabla\n2.1.2 (o bien, en la tabla 2.1.3 en el caso de que aplique la nota 4 de la tabla 2.1.2 en ambos\nedificios).\n1.3 Con el fin de limitar el riesgo de propagación exterior horizontal del incendio a través\nde la fachada entre sectores de incendio de un mismo establecimiento industrial, o hacia otro\nestablecimiento, o bien, hacia una escalera protegida o pasillo protegido, se aplicarán las\nsiguientes consideraciones:\na) Cuando un elemento constructivo que compartimenta sectores de incendio acometa\nen una fachada, en un mismo establecimiento industrial, la resistencia al fuego (EI, o bien,\nREI en los elementos que tengan función portante) de dicha fachada será, al menos, igual al\n50 % de la exigida a aquel elemento constructivo, en una franja cuya anchura será tal que\nlos puntos de la fachada que no alcancen los valores de resistencia al fuego indicados,\ndeberán estar separados como mínimo una distancia «d» en proyección horizontal, en\nfunción del ángulo «α» formado por los planos exteriores de dicha fachada, de la siguiente\nmanera:\nd = 3 – (α/90)\nDonde «d» es la distancia de separación (en metros) y «α» el ángulo formado por los\nplanos exteriores de la fachada (entre 90° y 180°).\nTabla 2.2.2\nValores de «d» para varios ángulos «α»\nα\n90°\n(fachadas perpendiculares)135°\n180°\n(fachada plana)\nd (m)\n2,00\n1,50\n1,00\nNota: Para fachadas con ángulo α>180° se podrán aplicar las mismas distancias que las\nfijadas para fachadas planas. Para fachadas con ángulo α<90°, ver condiciones en letra c).\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 69\n\nFigura 2.1: Compartimentación entre dos sectores con fachada plana (α=180°)\nFigura 2.2: Compartimentación entre dos sectores con fachadas en ángulo α=135°\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 70\n\nFigura 2.3: Compartimentación entre dos sectores con fachadas perpendiculares (α=90°)\nEn fachadas planas, la distancia «d» podrá reducirse si existen elementos verticales\nsalientes aptos para impedir el paso de las llamas que aseguren una correcta\ncompartimentación. En este caso, la distancia «d» podrá reducirse en la dimensión del citado\nsaliente.\nFigura 2.4: Compartimentación con fachada plana (α=180°) y saliente vertical\nb) Cuando se trate de establecimientos diferentes, los puntos de la fachada del\nestablecimiento considerado que no alcancen los valores de resistencia al fuego indicados,\ncumplirán la distancia mínima de «d» (determinada según lo indicado anteriormente, tabla\n2.2.2) en proyección horizontal hasta el punto de intersección entre ambas fachadas.\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 71\n\nFigura 2.5: Compartimentación entre dos establecimientos con fachada lisa (α=180°)\nFigura 2.6: Compartimentación entre dos establecimientos con fachadas en ángulo α=135°\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 72\n\nFigura 2.7: Compartimentación entre dos establecimientos con fachadas perpendiculares\n(α=90°)\nAlternativamente a lo indicado aquí, podrá aceptarse reducir la distancia hasta la\nindicada en la letra a) anterior, siempre que haya un acuerdo vinculante y permanente en el\ntiempo entre ambos establecimientos para mantener la resistencia al fuego en dichas\ndistancias (que deberá ser, al menos, EI t/2 del sector del establecimiento con mayores\nexigencias).\nc) Cuando se trate de fachadas entre dos establecimientos diferentes que formen un\nángulo inferior a 90°, o bien, de fachadas enfrentadas a una distancia de separación de\nhasta 3 metros, dichas partes de las fachadas separadas a una distancia igual o inferior a 3\nmetros se considerarán como muros colindantes y se aplicará lo dispuesto en la nota 4 de la\ntabla 2.2.1.\nFigura 2.8: Compartimentación entre dos establecimientos con fachadas en ángulo α<90°\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 73\n\nEn el caso de que dichas fachadas pertenezcan al mismo establecimiento industrial, se\naplicará lo dispuesto en el apartado 1.2.\n1.4 Con el fin de limitar el riesgo de propagación exterior vertical del incendio a través de\nla fachada entre sectores de incendio de un mismo establecimiento industrial, o hacia otro\nestablecimiento, o bien, hacia una escalera protegida o pasillo protegido, se aplicarán las\nsiguientes consideraciones:\nCuando un forjado que compartimenta sectores de incendio acometa a una fachada, la\nresistencia al fuego (EI, o bien, REI en los elementos que tengan función portante) de esta\nserá, al menos, igual al 50 % de la exigida a dicho elemento constructivo, en una franja cuya\naltura será, como mínimo, de 1 metro, medida sobre el plano de la fachada.\nFigura 2.9: Compartimentación vertical\nEn caso de existir elementos salientes aptos para impedir el paso de las llamas, la altura\nde dicha franja podrá reducirse en la dimensión del citado saliente.\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 74\n\nFigura 2.10: Compartimentación vertical con saliente horizontal en fachada\n1.5 La clase de reacción al fuego de los sistemas constructivos de fachada que ocupen\nmás del 10 % de su superficie será, como mínimo, y en función de la altura total de la\nfachada:\na) D-s3,d0 en fachadas de altura hasta 10 metros;\nb) C-s3,d0 en fachadas de altura hasta 18 metros;\nc) B-s3,d0 en fachadas de altura superior a 18 metros.\nDicha clasificación debe considerar la condición de uso final del sistema constructivo\nincluyendo aquellos materiales que constituyan capas contenidas en el interior de la solución\nde fachada y que no estén protegidas por una capa que sea EI 30 como mínimo.\n1.6 Los sistemas de aislamiento situados en el interior de cámaras ventiladas deben\ntener al menos la siguiente clasificación de reacción al fuego en función de la altura total de\nla fachada:\na) D-s3,d0 en fachadas de altura hasta 10 metros;\nb) B-s3,d0 en fachadas de altura hasta 28 metros;\nc) A2-s3,d0 en fachadas de altura superior a 28 metros.\nDebe limitarse el desarrollo vertical de las cámaras ventiladas de fachada en continuidad\ncon los forjados resistentes al fuego que separan sectores de incendio. La inclusión de\nbarreras E 30 se puede considerar un procedimiento válido para limitar dicho desarrollo\nvertical.\n1.7 En aquellas fachadas de altura igual o inferior a 18 metros cuyo arranque inferior sea\naccesible al público desde la rasante exterior o desde una cubierta, la clase de reacción al\nfuego, tanto de los sistemas constructivos mencionados en el apartado 1.5 como de aquellos\nsituados en el interior de cámaras ventiladas en su caso, debe ser al menos B-s3,d0 hasta\nuna altura de 3,5 metros como mínimo.\n2. Cubiertas de edificios.\n2.1 Con el fin de limitar el riesgo de propagación exterior del incendio por la cubierta,\ncuando un elemento constructivo de compartimentación de sectores de incendio de un\nestablecimiento acometa a la cubierta, la resistencia al fuego (EI, o REI en los elementos\nque tengan función portante) de esta será, al menos, igual a la mitad de la exigida a aquel\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 75\n\nelemento constructivo, en una franja cuya anchura sea igual a 1 metro repartido entre ambos\nsectores.\nFigura 2.11: Compartimentación en cubierta\n2.2 Cuando una medianería o muros colindantes entre dos establecimientos diferentes\nacometan a la cubierta, la resistencia al fuego (EI, o REI en los elementos que tengan\nfunción portante) de esta será, al menos, igual a la mitad de la exigida a aquellos elementos\nconstructivos, en una franja cuya anchura sea igual a 1 metro en cada uno de los\nestablecimientos.\nFigura 2.12: Compartimentación en cubierta entre dos establecimientos\nAlternativamente, podrá aceptarse reducir la distancia hasta la indicada el apartado 2.1\nanterior, siempre que haya un acuerdo vinculante y permanente en el tiempo entre ambos\nestablecimientos para mantener la resistencia al fuego en dichas distancias (que deberá ser,\nal menos, EI t/2 del sector del establecimiento con mayores exigencias).\n2.3 Como alternativa a las condiciones anteriores, puede optarse por prolongar la\nmedianería o el elemento compartimentador un metro por encima del acabado de la cubierta.\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 76\n\nFigura 2.13: Compartimentación en cubierta por medio de elemento compartimentador\nvertical\n2.4 Cuando no sean posibles las opciones anteriores (en reformas de edificios ya\nexistentes), la compartimentación podrá estar formada por una barrera horizontal de un\nmetro de ancho, situada por debajo de la cubierta, fijada a la medianería y de, al menos, la\nmitad de la resistencia al fuego exigida a aquel elemento constructivo. En dicho caso, la\nbarrera no se instalará en ningún caso a una distancia mayor de 40 cm de la parte inferior de\nla cubierta y debe garantizarse su permanencia en caso de colapso de partes de la cubierta\nno resistentes al fuego. Por encima de dicha franja no podrá haber elementos constructivos\no materiales susceptibles de trasmitir el incendio.\nFigura 2.14: Compartimentación en cubierta por medio de barrera debajo de la cubierta\n2.5 En el encuentro entre una cubierta y una fachada que pertenezcan a sectores de\nincendio o a establecimientos diferentes, la altura «h» sobre la cubierta a la que deberá estar\ncualquier zona de la fachada cuya resistencia al fuego no sea, al menos, el 50 % del EI del\nelemento constructivo, será la que se indica a continuación, en función de la distancia «d» de\nla fachada, en proyección horizontal, a la que esté cualquier zona de la cubierta cuya\nresistencia al fuego tampoco alcance dicho valor.\nTabla 2.2.3\nValores de la altura «h» en función de la distancia «d»\nd (m)≥2,502,001,751,501,251,000,750,500\nh (m)\n0\n1,001,502,002,503,003,504,005,00\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 77\n\nFigura 2.15: Encuentro cubierta-fachada\n2.6 En el encuentro entre una cubierta y una fachada que pertenezcan a sectores de\nincendio o a establecimientos diferentes, cuando dicha fachada tenga zonas cuya resistencia\nal fuego sea inferior al 50 % del EI del elemento constructivo, los materiales que ocupen más\ndel 10 % del revestimiento o acabado exterior de las zonas de cubierta situadas a menos de\n5 metros de distancia de la proyección vertical de cualquier zona de fachada que esté por\nencima de dicha cubierta, deben pertenecer a la clase de reacción al fuego BROOF (t1),\nincluidos los posibles lucernarios, claraboyas y cualquier otro elemento de iluminación o\nventilación.\nEste requisito no será de aplicación en el caso de que la cubierta y la fachada formen\nparte de edificios distintos, separados a más de 3 metros entre ambos.\nFigura 2.16: Reacción al fuego de la cubierta, en el encuentro cubierta-fachada\n3. Propagación exterior de los establecimientos industriales ubicados en espacios\nabiertos.\n3.1 Las áreas de incendio ubicadas en espacios abiertos de configuración tipo D\n(excepto las de riesgo bajo nivel 1) deberán:\na) Estar separadas de los establecimientos colindantes por una distancia entre los\nmateriales combustibles almacenados y el límite del establecimiento según se indica en el\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 78\n\napartado 1.5.a) de la Sección 1, salvo que la normativa urbanística aplicable garantice dicha\ndistancia entre el área de incendio y el lindero, o bien,\nb)\nestar\nseparadas\nde\nlos\nestablecimientos\ncolindantes\npor\nelementos\ncompartimentadores que aseguren una resistencia al fuego mínima de EI 120, 180 o 240\npara áreas de riesgo bajo, medio o alto respectivamente, con las mismas consideraciones\nque aparecen en el apartado 1.5.b) de la Sección 1.\n3.2 En el caso de que tengan algunas zonas cubiertas o zonas con cerramientos\nlaterales asimilables a fachadas, deberán cumplirse los requisitos de los apartados 1 y 2\nanteriores que les sean aplicables.",
+ "notas": [
+  "Notas de la tabla:",
+  "Nota 1: E = Integridad al paso de llamas y gases calientes, I = Aislamiento térmico, R =",
+  "Nota 2: En el caso de que los elementos separadores tengan también función portante,",
+  "Nota 3: A las puertas que actúen como elementos separadores se les aplicarán las",
+  "Nota 4: En el caso de dos establecimientos colindantes (típicamente en edificios",
+  "Nota: Para fachadas con ángulo α>180° se podrán aplicar las mismas distancias que las"
+ ],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 1.2",
+  "apartado 1.5",
+  "apartado 1.5.",
+  "apartado 2.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0068_t01.json",
+  "../tabla/p0069_t01.json",
+  "../tabla/p0077_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0068.png",
+  "../figura/p0069.png",
+  "../figura/p0070.png",
+  "../figura/p0071.png",
+  "../figura/p0072.png",
+  "../figura/p0073.png",
+  "../figura/p0074.png",
+  "../figura/p0075.png",
+  "../figura/p0076.png",
+  "../figura/p0077.png",
+  "../figura/p0078.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

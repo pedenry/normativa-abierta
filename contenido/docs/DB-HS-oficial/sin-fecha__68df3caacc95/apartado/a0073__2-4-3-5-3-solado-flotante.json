@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0073",
+  "ruta_oficial": "2.4.3.5.3",
+  "ruta_semantica": "2.4.3.5.3 Solado flotante",
+  "titulo": "2.4.3.5.3 Solado flotante",
+  "nivel": 1,
+  "parent_id": "a0066",
+  "seccion_estimada": "2.4.3.5.3 Solado flotante",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    70.9,
+    620.1,
+    188.6,
+    631.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3f13241009135c86f7d972d0b3978e68ace8cc84c81962de4661d1286f60d597",
+   "literal": "2.4.3.5.3 Solado flotante"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0066",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.3.5.3 Solado flotante",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0066",
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.4 Cubiertas 2.4.1 Grado de impermeabilidad / 2.4.3 Condiciones de los componentes / 2.4.3.5.3 Solado flotante",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "39b12b44965516c1f8760cd64a957bac470a26eb841cae79c75bee233b988b16"
+ },
+ "paginas": [
+  31,
+  32
+ ],
+ "etiquetas_impresas": [
+  "31",
+  "32"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.4.3.5.3 Solado flotante\n1\nEl solado flotante puede ser de piezas apoyadas sobre soportes, baldosas sueltas con aislante tér-\nmico incorporado u otros materiales de características análogas.\n2\nLas piezas apoyadas sobre soportes deben disponerse horizontalmente. Los soportes deben estar\ndiseñados y fabricados expresamente para este fin, deben tener una plataforma de apoyo para re-\npartir las cargas y deben disponerse sobre la capa separadora en el plano inclinado de escorrentía.\nLas piezas deben ser resistentes a los esfuerzos de flexión a los que vayan a estar sometidos.\n3\nLas piezas o baldosas deben colocarse con junta abierta.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n32",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

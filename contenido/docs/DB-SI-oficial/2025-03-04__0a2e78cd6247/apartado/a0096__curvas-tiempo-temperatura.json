@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0096",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo SI A Terminología / Curvas tiempo-temperatura",
+  "titulo": "Curvas tiempo-temperatura",
+  "nivel": 2,
+  "parent_id": "a0091",
+  "seccion_estimada": "Anejo SI A Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 43,
+   "bbox": [
+    70.9,
+    627.1,
+    204.4,
+    638.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "b47fde011342a157ba81acffb52e134c71da7ed48bb935f55abb21cf82f7ba88",
+   "literal": "Curvas tiempo-temperatura"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0052",
+  "parent_id_original": "a0091",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Curvas tiempo-temperatura",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0091",
+   "ruta_semantica": "Anejo SI A Terminología / Curvas tiempo-temperatura",
+   "seccion_estimada": "Anejo SI A Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6f9d7b991cd9323b4513bd0b58ddd6768e22c53d7e225f648d505458d8a7a141"
+ },
+ "paginas": [
+  43
+ ],
+ "etiquetas_impresas": [
+  "43"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Documento Básico SI en caso de Incendio\nAnejo A. Terminología\n43\nAtrio\nEspacio diáfano con altura equivalente a la de varias plantas del edificio comunicadas con dicho espacio\nmediante huecos, ventanas, balcones, pasillos abiertos, etc. Parte del perímetro del atrio puede también\nestar formado por muros ciegos o por fachadas del edificio.\nCaja escénica\nVolumen construido que abarca desde su nivel inferior hasta la cubierta de un edificio conformando un\nescenario de teatro, sala de ópera, etc. equipado con decorados, tramoyas, mecanismos y foso, de for-\nma que constituye un sector de incendio que cumpla las siguientes condiciones especiales:\n-\nDebe estar compartimentado respecto de la sala de espectadores mediante elementos EI 120 excep-\nto en la boca de la escena, la cual se puede cerrar mediante un telón EI 60 de material incombustible\ncuyo tiempo de cierre no excede de 30 s y puede soportar una presión de 0,4 kN/m2 en ambos senti-\ndos sin que su funcionamiento se vea afectado.\n-\nEl cierre del telón debe ser automático, pero también debe poder activarse manualmente desde dos\npuntos, uno situado en el escenario y otro en lugar de acceso seguro, fuera del espacio del escena-\nrio. Cuando se ponga en funcionamiento, se debe activar una señal óptica de advertencia en el es-\ncenario. Debe disponer de una cortina de agua de activación automática y manual desde el escena-\nrio y desde otro punto situado en lugar de acceso seguro.\n-\nDebe disponer de vestíbulos de independencia en toda comunicación con la sala de espectadores.\n-\nEncima de la escena sólo deben existir locales técnicos que sirvan para uso directo de la escena.\n-\nEl recorrido de evacuación desde cualquier punto del escenario hasta alguna salida del sector no\ndebe exceder de 25 m y las puertas de salida deben abrir en el sentido de la evacuación.\n-\nLas pasarelas, galerías o similares existentes para uso de actores o empleados deben disponer de\nsalidas de evacuación.\n-\nLas pasarelas y escaleras del escenario deben tener una anchura de 0,80 m, como mínimo.\n-\nLa parte superior de la caja escénica debe disponer de un sistema adecuado para la eliminación del\nhumo en caso de incendio.\nCarga de fuego\nSuma de las energías caloríficas que se liberan en la combustión de todos los materiales combustibles\nexistentes en un espacio (contenidos del edificio y elementos constructivos) (UNE-EN 1991-1-2:2004).\nCurva normalizada tiempo-temperatura\nCurva nominal que representa un modelo de fuego totalmente desarrollado en un sector de incendio\n(UNE-EN 1991-1-2:2004).\nCurvas tiempo-temperatura\nTemperatura del aire en la proximidad de las superficies de un elemento, en función del tiempo. Pueden\nser:\na) Nominales: curvas convencionales adoptadas para clasificar o verificar la resistencia al fuego, por\nejemplo, la curva normalizada tiempo-temperatura, la curva de fuego exterior o la curva de fuego de\nhidrocarburos;\nb) Paramétricas:determinadas a partir de modelos de fuego y de los parámetros físicos específicos que\ndefinen las condiciones del sectorde incendio (UNE-EN 1991-1-2:2004).",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

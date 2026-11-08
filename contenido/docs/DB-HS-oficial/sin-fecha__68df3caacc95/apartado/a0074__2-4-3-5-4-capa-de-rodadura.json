@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0074",
+  "ruta_oficial": "2.4.3.5.4",
+  "ruta_semantica": "2.4.3.5.4 Capa de rodadura",
+  "titulo": "2.4.3.5.4 Capa de rodadura",
+  "nivel": 1,
+  "parent_id": "a0066",
+  "seccion_estimada": "2.4.3.5.4 Capa de rodadura",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 32,
+   "bbox": [
+    70.9,
+    81.2,
+    201.3,
+    92.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b9a48477242a0e8c41a63e93a1ec2b9a30e4dd00f4e24f181a72f29902254530",
+   "literal": "2.4.3.5.4 Capa de rodadura"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0066",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.3.5.4 Capa de rodadura",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0066",
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.4 Cubiertas 2.4.1 Grado de impermeabilidad / 2.4.3 Condiciones de los componentes / 2.4.3.5.4 Capa de rodadura",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "91d2a499739da7cb29b856c062b54f9006b57a47f62171f93efebb5c595f0f29"
+ },
+ "paginas": [
+  32
+ ],
+ "etiquetas_impresas": [
+  "32"
+ ],
+ "tipos": [],
+ "texto": "2.4.3.5.4 Capa de rodadura\n1\nLa capa de rodadura puede ser aglomerado asfáltico, capa de hormigón, adoquinado u otros mate-\nriales de características análogas.\n2\nCuando el aglomerado asfáltico se vierta en caliente directamente sobre la impermeabilización, el\nespesor mínimo de la capa de aglomerado debe ser 8 cm.\n3\nCuando el aglomerado asfáltico se vierta sobre una capa de mortero dispuesta sobre la impermea-\nbilización, debe interponerse entre estas dos capas una capa separadora para evitar la adherencia\nentre ellas de 4 cm de espesor como máximo y armada de tal manera que se evite su fisuración.\nEsta capa de mortero debe aplicarse sobre el impermeabilizante en los puntos singulares que estén\nimpermeabilizados.\n2.4.3.6\nTejado\n1\nDebe estar constituido por piezas de cobertura tales como tejas, pizarra, placas, etc. El solapo de\nlas piezas debe establecerse de acuerdo con la pendiente del elemento que les sirve de soporte y\nde otros factores relacionados con la situación de la cubierta, tales como zona eólica, tormentas y\naltitud topográfica.\n2\nDebe recibirse o fijarse al soporte una cantidad de piezas suficiente para garantizar su estabilidad\ndependiendo de la pendiente de la cubierta, la altura máxima del faldón, el tipo de piezas y el sola-\npo de las mismas, así como de la ubicación del edificio.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0137",
+  "ruta_oficial": null,
+  "ruta_semantica": "Apéndice A Terminología",
+  "titulo": "Apéndice A Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Apéndice A Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 59,
+   "bbox": [
+    70.9,
+    95.3,
+    252.0,
+    110.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d23b5ac5f1d5fd53cf35cc0710dbb3c602a79078e82b1a2136c645e1e830eb7f",
+   "literal": "Apéndice A Terminología"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Apéndice A Terminología",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Apéndice A Terminología",
+   "seccion_estimada": "Apéndice A Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "13535fe51c43f33984fbbdcb989b997ba206da3deb964df6047e743fab7a903b"
+ },
+ "paginas": [
+  59,
+  60,
+  61,
+  62
+ ],
+ "etiquetas_impresas": [
+  "59",
+  "60",
+  "61",
+  "62"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Apéndice A Terminología\nAlmacenamiento inmediato: almacenamiento temporal de las fracciones de los residuos en el interior\nde las unidades de uso para reducir la frecuencia del traslado a mano hasta los puntos de recogida.\nBajante: conducto vertical que sirve para el traslado por gravedad o neumático de los residuos desde las\ncompuertas de vertido hasta los contenedores de edificio o las estaciones de carga, respectivamente.\nContenedores de calle: contenedores de recogida públicos dispuestos en la calle para los residuos\ngenerados en edificios de su entorno. Estos contenedores pueden ser de superficie, en cuyo caso los\nusuarios depositan los residuos directamente en ellos, o subterráneos, que disponen de un buzón colo-\ncado en la superficie para la introducción de los residuos.\nContenedores de edificio: contenedores de recogida privados para los residuos generados en una o\nvarias viviendas y que se sitúan en el almacén de contenedores de edificio. En estos contenedores se\ndepositan los residuos a través de bajantes o a mano.\nContenedores de recogida: contenedores utilizados para depositar las distintas fracciones de los resi-\nduos ordinarios generados, a fin de facilitar su traslado y su carga en los camiones del servicio de reco-\ngida.\nEstación de carga: parte de la instalación de recogida neumática situada en la parte inferior de la bajan-\nte o de la compuerta de vertido exterior que las conecta con el tramo subterráneo horizontal de la red de\ntuberías. Generalmente consta de un tramo vertical, válvula de residuos, válvula de aire, indicadores de\nnivel e instrumentación de enclavamiento y control. La función del tramo vertical es el agrupamiento de\nlas bolsas. La válvula de residuos se sitúa en la parte inferior del tramo vertical y permite la retención y la\nexpedición de los residuos de acuerdo con las órdenes de control. La válvula de aire es transversal a la\ntubería y permite la entrada de aire para el transporte.\nFactor de contenedor: factor que se define mediante la siguiente expresión:\nCC\nSC\nCf\n(A.1)\nsiendo\nCf el factor de contenedor [m2/l];\nSC la superficie necesaria para el almacenamiento y maniobra de cada contenedor de edificio [m2];\nCC la capacidad de cada contenedor [l].\nEn la tabla A.1 se incluyen los factores de contenedor correspondientes a los contenedores de edificio\nhabituales.\nTabla A.1 Factor de contenedor\nCC\nen l\nSC\nen m2\nCf\nen m2/l\n120\n240\n330\n600\n800\n1.100\n0,6\n1,0\n1,2\n2,0\n2,4\n3,0\n0,0050\n0,0042\n0,0036\n0,0033\n0,0030\n0,0027\nFactor de fracción: factor que se define mediante la siguiente expresión:\nf\nf\nf\nf\nC\nG\nT\nF\n\n\n\n(A.2)\nsiendo\nFf\nel factor de fracción [m2/persona];\nTf\nel período de recogida de la fracción [días];\nGf\nel volumen generado de la fracción por persona y día [dm3/(persona·día)], que equivale a los si-\nguientes valores:\nPapel / cartón\n1,55\nEnvases ligeros\n8,40\nMateria orgánica 1,50\nVidrio\n0,48\nVarios\n1,50\n\nDocumento Básico HS Salubridad\nHS 2 Recogida y evacuación de residuos\n60\nCf el factor de contenedor [m2/l].\nEl factor de fracción se utiliza para determinar el espacio que debe reservarse en los edificios situados\nen las zonas en las que exista recogida centralizada con contenedores de calle de superficie, por lo que\nse desconocen los valores de Tf y Cf que se deberían utilizar en el caso de establecerse una recogida\npuerta a puerta. Por ello, y a falta de estos datos reales, se toman los valores establecidos en la tabla\nA.2.\nTabla A.2 Factor de fracción\nFracción\nTf\nen días\nGf\nen\ndm3/(persona·día)\nCf\nen m2/l\nFf\nen m2/persona\nPapel / cartón\nEnvases ligeros\nMateria orgánica\nVidrio\nVarios\n7\n2\n1\n7\n7\n1,55\n8,40\n1,50\n0,48\n1,50\n0,0036\n0,039\n0,060\n0,005\n0,012\n0,038\nRecogida neumática: sistema en el que los residuos se almacenan en estaciones de carga que se ali-\nmentan a través de compuertas de vertido o buzones situados en espacios comunes o públicos. Los\nresiduos almacenados se aspiran intermitentemente desde una instalación central que da servicio a un\nconjunto de edificios y se depositan en los contenedores de transporte situados en ella.\nRecogida centralizada: sistema en el que el servicio de recogida retira los residuos de los contenedores\nde calle, tanto los de superficie como los subterráneos.\nRecogida puerta a puerta: sistema en el que el servicio de recogida retira los residuos de los contene-\ndores de edificio, bien accediendo al almacén de los mismos, bien directamente en la vía pública a don-\nde los sacan los usuarios.\nResiduo: (de acuerdo con la Ley 10/1998, de 21 de Abril, de Residuos. Normas reguladoras de los resi-\nduos) cualquier sustancia u objeto perteneciente a alguna de las categorías que figuran en el anejo de\ndicha ley, del cual su poseedor se desprenda o del que tenga la intención u obligación de desprenderse.\nEn todo caso tendrán esta consideración los que figuren en la Lista Europea de Residuos (LER), apro-\nbada por las Instituciones Comunitarias.\nResiduos ordinarios: parte de los residuosurbanos generada en los edificios, con excepción de:\na)\nanimales domésticos muertos, muebles y enseres;\nb)\nresiduos y escombros procedentes de obras menores de construcción y reparación domicilia-\nria.\nLas fracciones y los componentes principales de estos residuos se detallan en la tabla A.3.\nTabla A.3 Fracciones y componentes principales de los residuos ordinarios\nFracción\nComponentes\nEnvases ligeros\nBolsas de plástico\nBotellas y garrafas de plástico\nBrics\nEnvases de plástico\nLatas metálicas\nMateria orgánica\nCorcho\nRestos de comidas\nRestos de preparación de comidas\nServilletas de papel y papel de cocina usados\nPapel y cartón\nDiarios y revistas\nEmbalajes de cartón\nEnvases de cartón\nHojas de publicidad\nPapel de oficina\nVidrio\nBotellas\nBotes\nVarios (1)\nCenizas\nCuero\nGoma, caucho\nMaderas\nPañales\n(1)\nCuando alguna fracción no se separa se deposita en la fracción varios.\n\nDocumento Básico HS Salubridad\nHS 2 Recogida y evacuación de residuos\n61\nResiduos urbanos: (de acuerdo con la Ley 10/1998, de 21 de Abril 1998, de Residuos. Normas regula-\ndoras de los residuos) los generados en los domicilios particulares, comercios, oficinas y servicios, así\ncomo todos aquellos que no tengan la calificación de peligrosos y que por su naturaleza o composición\npuedan asimilarse a los producidos en los anteriores lugares o actividades. Tendrán también la conside-\nración de residuos urbanos los siguientes:\na)\nresiduos procedentes de la limpieza de vías públicas, zonas verdes, áreas recreativas y pla-\nyas;\nb)\nanimales domésticos muertos, así como muebles, enseres y vehículos abandonados;\nc)\nresiduos y escombros procedentes de obras menores de construcción y reparación domicilia-\nria.\nServicio de recogida: servicio encargado de recoger los residuos generados en los edificios y transpor-\ntarlos hasta las instalaciones de reciclaje, valorización o eliminación. Este servicio lo presta habitualmen-\nte la administración municipal, bien directamente bien a través de empresas contratadas; aunque en\nalgunos casos lo hace una agrupación de municipios o una administración supramunicipal.\n\nDocumento Básico HS Salubridad\nHS 2 Recogida y evacuación de residuos\n62",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0059.png",
+  "../figura/p0060.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

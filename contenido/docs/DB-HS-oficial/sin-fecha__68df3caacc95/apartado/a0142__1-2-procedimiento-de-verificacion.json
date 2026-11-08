@@ -1,0 +1,98 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0142",
+  "ruta_oficial": "1.2",
+  "ruta_semantica": "1.2 Procedimiento de verificación",
+  "titulo": "1.2 Procedimiento de verificación",
+  "nivel": 1,
+  "parent_id": "a0139",
+  "seccion_estimada": "1.2 Procedimiento de verificación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 63,
+   "bbox": [
+    70.9,
+    388.3,
+    267.6,
+    401.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a395c0b39733513e5aaf4cc8bec45cac4974242395ed3bf86f8fcfa92af23081",
+   "literal": "1.2 Procedimiento de verificación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0139",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2",
+   "apartado 3",
+   "apartado 4",
+   "apartado 5",
+   "apartado 6",
+   "apartado 7"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1.2 Procedimiento de verificación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0139",
+   "ruta_semantica": "Sección HS3 / 1.2 Procedimiento de verificación",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "48e11ed7dd7f8804d57aaa14629ee4bc8cb4a56cd31fc1e8a5f2995d1d9f3bf8"
+ },
+ "paginas": [
+  63
+ ],
+ "etiquetas_impresas": [
+  "63"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "1.2 Procedimiento de verificación\n1\nPara la aplicación de esta sección debe seguirse la secuencia de verificaciones que se expone a\ncontinuación.\n2\nCumplimiento de las condiciones establecidas en el apartado 2.\n3\nCumplimiento de las condiciones de diseño del sistema de ventilación del apartado 3:\na)\npara cada tipo de local, el tipo de ventilación y las condiciones relativas a los medios deventi-\nlación, ya sea natural, mecánica o híbrida;\nb)\nlas condiciones relativas a los elementos constructivos siguientes:\ni)\naberturas y bocas de ventilación;\nii)\nconductos de admisión;\niii)\nconductos de extracción para ventilación híbrida;\niv)\nconductos de extracción para ventilación mecánica;\nv)\naspiradores híbridos, aspiradores mecánicos y extractores;\nvi)\nventanas y puertas exteriores.\n4\nCumplimiento de las condiciones de dimensionado del apartado 4 relativas a los elementos cons-\ntructivos.\n5\nCumplimiento de las condiciones de los productos de construcción del apartado 5.\n6\nCumplimiento de las condiciones de construcción del apartado 6.\n7\nCumplimiento de las condiciones de mantenimiento y conservación del apartado 7.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2",
+  "apartado 3",
+  "apartado 4",
+  "apartado 5",
+  "apartado 6",
+  "apartado 7"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0143",
+  "a0144"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

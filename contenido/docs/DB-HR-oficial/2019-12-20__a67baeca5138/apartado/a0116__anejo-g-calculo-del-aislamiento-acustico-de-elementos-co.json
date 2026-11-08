@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0116",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos",
+  "titulo": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 67,
+   "bbox": [
+    70.9,
+    95.3,
+    542.6,
+    127.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "923edc877542853cb43c64377aabf8191fe922ace9a0350628cc0329c7045d12",
+   "literal": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0030",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos",
+   "seccion_estimada": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7696469d0f879760321e7ece2f2dda83f607d4fdddff0b1553091e78850cb005"
+ },
+ "paginas": [
+  67
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos\nmixtos\n1\nEl índice global de reducción acústica de elementos constructivos mixtos (aislamiento mixto) se\ncalcula mediante:\n\n\n\n\n\n\n−\n=",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0067.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0117"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

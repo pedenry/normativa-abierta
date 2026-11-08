@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0033",
+  "ruta_oficial": null,
+  "ruta_semantica": "Cuantificación de la exigencia",
+  "titulo": "Cuantificación de la exigencia",
+  "nivel": 1,
+  "parent_id": "a0030",
+  "seccion_estimada": "Cuantificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    56.7,
+    639.0,
+    267.4,
+    652.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9a67316ba280691108c738a9e679db742f0934a996c7dcd2812b221014a86d52",
+   "literal": "Cuantificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0030",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Cuantificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0030",
+   "ruta_semantica": "Anejo H / Sección HE 0 Limitación del consumo energético / Cuantificación de la exigencia",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ec522da2162c9eefa5f05ef61958b8402dac055e6c99f43962f7ad39241986d3"
+ },
+ "paginas": [
+  9,
+  10
+ ],
+ "etiquetas_impresas": [
+  "9",
+  "10"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Cuantificación de la exigencia\n3.1\nConsumo de energía primaria no renovable\n1\nEl consumo de energía primaria no renovable (Cep,nren) de los espacios contenidos en el interior de la\nenvolvente térmica del edificio o, en su caso, de la parte del edificio considerada, no superará el valor\nlímite (Cep,nren,lim) obtenido de la tabla 3.1.a-HE0 o la tabla 3.1.b-HE0:\n\nDocumento Básico HE Ahorro de energía\nHE 0. Limitación del consumo energético\n10\nTabla 3.1.a - HE0\nValor límite Cep,nren,lim [kW·h/m2·año] para uso residencial privado\nZona climática de invierno\nα\nA\nB\nC\nD\nE\nEdificios nuevos y ampliaciones\n20\n25\n28\n32\n38\n43\nCambios de uso a residencial\nprivado y reformas\n40\n50\n55\n65\n70\n80\nEn territorio extrapeninsular (Illes Balears, Canarias, Ceuta y Melilla) se multiplicarán los valores\nde la tabla por 1,25\nTabla 3.1.b - HE0\nValor límite Cep,nren,lim [kW·h/m2·año] para uso distinto del residencial privado\nZona climática de invierno\nα\nA\nB\nC\nD\nE\n70 + 8 · CFI\n55 + 8 · CFI\n50 + 8 · CFI\n35 + 8 · CFI\n20 + 8 · CFI\n10 + 8 · CFI\nCFI: Carga interna media[W/m2]\nEn territorio extrapeninsular (Illes Balears, Canarias, Ceuta y Melilla) se multiplicarán los valores\nresultantes por 1,40\n2\nEn edificios que tengan unidades de uso residencial privado junto a otras de distinto uso, el valor límite\ndel consumo de energía primaria no renovable (Cep,nren,lim) se deberá aplicar de forma independiente a\ncada una de las partes del edificio con uso diferenciado.\n3.2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0010_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

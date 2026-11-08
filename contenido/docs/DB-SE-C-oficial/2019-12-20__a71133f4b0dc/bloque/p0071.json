@@ -1,0 +1,246 @@
+{
+ "documento": null,
+ "pagina": 71,
+ "etiqueta_impresa": "9",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-66",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.8,
+    541.3,
+    220.2
+   ],
+   "tipo": "texto",
+   "texto": "9\nEl ángulo  puede ser positivo o negativo según el movimiento relativo del relleno respecto del ele-\nmento de contención. Usualmente   0 (componente de rozamiento hacia abajo); pero pueden\nexistir combinaciones de fuerzas que alteren el signo de , por lo que en estos casos especiales\ndeben comprobarse las hipótesis adoptadas sobre la dirección de la fuerza de rozamiento.\n10\nEn pantallas de pilotes se calculará el empuje activo sobre la superficie total de la pantalla.\n11\nEn pantallas de pilotes con separación entre ejes inferior a 3 veces su diámetro, se considerará el\nempuje pasivo sobre la superficie total de la pantalla de pilotes como si se tratara de una pantalla\ncontinua.\n12\nPara separaciones entre ejes de pilotes superiores a 3 veces el diámetro del pilote, el empuje pa-\nsivo se calculará sobre la superficie proyectada de cada pilote. Para profundidades superiores a 1,5\nveces el diámetro del pilote se considerarán valores del empuje pasivo sobre dicha superficie, tri-\nples a los definidos anteriormente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    242.0,
+    379.9,
+    254.0
+   ],
+   "tipo": "titulo",
+   "texto": "6.2.4 Cálculo del coeficiente de empuje en reposo Ko",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    258.6,
+    541.3,
+    340.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEs difícil su determinación por depender de los esfuerzos tectónicos a los que haya estado someti-\ndo el terreno en su historia geológica, del grado de consolidación y de la compacidad alcanzada por\nel terreno natural o artificialmente. A falta de una valoración basada en la experiencia local, ensayos\n“in situ”, información geológica u otras, puede estimarse con los siguientes criterios:\na)\nPara una superficie de terreno horizontal, el coeficiente Ko de empuje en reposo, que expresa\nla relación entre las tensiones efectivas horizontal y vertical (esto es, el peso de las tierras), se\npuede determinar mediante:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    116.3,
+    344.3,
+    539.1,
+    370.2
+   ],
+   "tipo": "texto",
+   "texto": "K0 = (1 – sen ’)·(Roc)½\n       (6.9)\nsiendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    116.3,
+    374.1,
+    538.5,
+    411.5
+   ],
+   "tipo": "texto",
+   "texto": "’\nel ángulo de rozamiento interno efectivo del terreno\nRoc  la razón de sobreconsolidación definida en el anejo A de este DB. La fórmula no se de-\nbería utilizar para valores extremadamente altos de Roc, superiores a 25-30.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.6,
+    415.4,
+    541.3,
+    490.2
+   ],
+   "tipo": "texto",
+   "texto": "b)\nSi el terreno se eleva a partir del muro con un ángulo i  ' con respecto a la horizontal, la\ncomponente horizontal del empuje de tierras efectivo σ'ho se puede relacionar con la tensión\nefectiva debida al peso por la relación Koi que es igual a:\nKoi = K0·(1 – sen i)\n     (6.10)\nLa dirección del empuje de tierras se puede suponer, entonces, paralela a la superficie del te-\nrreno.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    512.0,
+    415.1,
+    524.0
+   ],
+   "tipo": "titulo",
+   "texto": "6.2.5 Empujes del terreno sobre el elemento de contención",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    528.6,
+    538.4,
+    550.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara calcular los empujes del terreno sobre un elemento de contención o viceversa puede supo-\nnerse la siguiente ley de empujes unitarios:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.6,
+    553.9,
+    536.3,
+    579.7
+   ],
+   "tipo": "texto",
+   "texto": "h = K · ´z + uz\n    (6.11)\nsiendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.6,
+    583.6,
+    376.4,
+    609.5
+   ],
+   "tipo": "texto",
+   "texto": "h\ntensión horizontal total a la profundidad considerada\nK\nel coeficiente de empuje correspondiente",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    95.3,
+    614.5,
+    390.8,
+    628.5
+   ],
+   "tipo": "texto",
+   "texto": "'\nz\n\nla tensión efectiva vertical a la profundidad considerada",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    634.1,
+    538.5,
+    670.0
+   ],
+   "tipo": "texto",
+   "texto": "uz\nla presión intersticial a la profundidad considerada.\n2\nSi existe una sobrecarga uniforme q sobre el terreno, ésta se puede sustituir por una altura de tie-\nrras equivalente He:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    94.8,
+    675.8,
+    539.1,
+    699.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\nq\ne\nH\n     (6.12)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    93.6,
+    706.6,
+    510.3,
+    716.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    720.4,
+    491.6,
+    746.3
+   ],
+   "tipo": "texto",
+   "texto": "  el peso especifico aparente de las tierras.\n3\nEn este caso los empujes unitarios sobre el muro se incrementarán, en toda la altura, en:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    90.6,
+    750.0,
+    536.3,
+    765.7
+   ],
+   "tipo": "texto",
+   "texto": "e\nH\n·\n·\nK\nh\n\n\n\n    (6.13)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

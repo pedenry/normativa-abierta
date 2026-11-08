@@ -1,0 +1,75 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0047",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p22",
+  "titulo": "Sección HE 2 Condiciones de las instalaciones térmicas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p22",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p22",
+  "referencias_filtradas": [
+   "RITE"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo H / Sección HE 2 Condiciones de las instalaciones térmicas",
+   "seccion_estimada": "Anejo H",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "21d1f7fe34c9b34090d5cbd215468e1bbcd76839da6f5b8e3a2a5442ab16426e"
+ },
+ "paginas": [
+  22,
+  23
+ ],
+ "etiquetas_impresas": [
+  "22",
+  "23"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Sección HE 2 Condiciones de las instalaciones térmicas\nCondiciones de las instalaciones térmicas\nLas instalaciones térmicas de las que dispongan los edificios serán apropiadas para lograr el bienestar térmico\nde sus ocupantes. Esta exigencia se desarrolla actualmente en el vigente Reglamento de Instalaciones\nTérmicas en los Edificios (RITE), y su aplicación quedará definida en el proyecto del edificio.\n\nDocumento Básico HE Ahorro de energía\nHE 3. Condiciones de las instalaciones de iluminación\n23",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "RITE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

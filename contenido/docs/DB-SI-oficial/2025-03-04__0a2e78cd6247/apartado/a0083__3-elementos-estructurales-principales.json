@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0083",
+  "ruta_oficial": "3",
+  "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 3 Elementos estructurales principales",
+  "titulo": "3 Elementos estructurales principales",
+  "nivel": 2,
+  "parent_id": "a0080",
+  "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    70.9,
+    151.1,
+    350.8,
+    166.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "6cd241503b247435b6ad181f46965069b886cdf2200f3c0e113e5f1b3104bbf4",
+   "literal": "3 Elementos estructurales principales"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0040",
+  "parent_id_original": "a0080",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Elementos estructurales principales",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0080",
+   "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 3 Elementos estructurales principales",
+   "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "74a5ff92e1bc76ba67c36ac60d2ad18e8e1319316c0758633d7e73406282a8d8"
+ },
+ "paginas": [
+  39,
+  40
+ ],
+ "etiquetas_impresas": [
+  "39",
+  "40"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Elementos estructurales principales\n1\nSe considera que la resistencia al fuego de un elemento estructural principal del edificio (incluidos\nforjados, vigas y soportes), es suficiente si:\na) alcanza la clase indicada en la tabla 3.1 o 3.2 que representa el tiempo en minutos de resisten-\ncia ante la acción representada por la curva normalizada tiempo temperatura, o\nb) soporta dicha acción durante el tiempo equivalente de exposición al fuego indicado en el anejo\nB.\nTabla 3.1 Resistenciaal fuego suficiente de los elementos estructurales\nUso del sector de incendio considerado(1)\nPlantas\nde sótano\nPlantas sobre rasante\naltura de evacuación del\nedificio\n≤15 m\n≤28 m\n>28 m\nVivienda unifamiliar(2)\nR 30\nR 30\n-\n-\nResidencial Vivienda, Residencial Público, Docente, Administrativo\nR 120\nR 60\nR 90\nR 120\nComercial, Pública concurrencia, Hospitalario\nR 120(3)\nR 90\nR 120\nR 180\nAparcamiento (edificio de uso exclusivo o situado sobre otro uso)\nR 90\nAparcamiento (situado bajo un uso distinto)\nR 120(4)\n(1)\nLa resistencia al fuego suficiente R de los elementos estructurales de un suelo que separa sectores de incendio es\nfunción del uso del sector inferior. Los elementos estructurales de suelos que no delimitan un sector de incendios, sino\nque están contenidos en él, deben tener al menos la resistencia al fuego suficiente R que se exija para el uso de dicho\nsector\n(2)\nEn viviendas unifamiliares agrupadas o adosadas, los elementos que formen parte de la estructura común tendrán la\nresistencia al fuego exigible a edificios de uso Residencial Vivienda.\n(3)\nR 180 si la altura de evacuación del edificio excede de 28 m.\n(4)\nR 180 cuando se trate de aparcamientos robotizados.\nTabla 3.2  Resistencia al fuego suficiente de los elementos estructurales de zonas de riesgo es-\npecial integradas en los edificios(1)\nRiesgo especial bajo\nR 90\nRiesgo especial medio\nR 120\nRiesgo especial alto\nR 180\n(1)\nNo será inferior al de la estructura portante de la planta del edificio excepto cuando la zona se encuentre bajo una cu-\nbierta no prevista para evacuación y cuyo fallo no suponga riesgo para la estabilidad de otras plantas ni para la compar-\ntimentación contra incendios, en cuyo caso puede ser R 30.\nLa resistencia al fuego suficiente R de los elementos estructurales de un suelo de una zona de riesgo especial es fun-\nción del uso del espacio existente bajo dicho suelo\n2\nLa estructura principal de las cubiertas ligeras no previstas para ser utilizadas en la evacuación de\nlos ocupantes y cuya altura respecto de la rasante exterior no exceda de 28 m, así como los elemen-\ntos que únicamente sustenten dichas cubiertas, podrán ser R 30 cuando su fallo no pueda ocasionar\ndaños graves a los edificios o establecimientos próximos, ni comprometer la estabilidad de otras\nplantas inferiores o la compartimentación de los sectores de incendio. A tales efectos, puede enten-\n\nDocumento Básico SI en caso de Incendio\nSI 6. Resistencia al fuego de la estructura\n40\nderse como ligera aquella cubierta cuya carga permanente debida únicamente a su cerramiento no\nexceda de 1 kN/m².\n3\nLos elementos estructurales de una escalera protegida o de un pasillo protegido que estén conteni-\ndos en el recinto de éstos, serán como mínimo R 30. Cuando se trate de escaleras especialmente\nprotegidas no se exige resistencia al fuego a los elementos estructurales.\n4",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0039.png",
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

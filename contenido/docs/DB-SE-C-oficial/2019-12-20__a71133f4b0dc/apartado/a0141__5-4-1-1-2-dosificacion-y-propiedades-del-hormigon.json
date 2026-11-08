@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0141",
+  "ruta_oficial": "5.4.1.1.2",
+  "ruta_semantica": "5.4.1.1.2 Dosificación y propiedades del hormigón",
+  "titulo": "5.4.1.1.2 Dosificación y propiedades del hormigón",
+  "nivel": 1,
+  "parent_id": "a0139",
+  "seccion_estimada": "5.4.1.1.2 Dosificación y propiedades del hormigón",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 61,
+   "bbox": [
+    70.9,
+    72.4,
+    311.5,
+    82.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c47182d22b59292d91e86bd2ce721d626cafc527d8d40c9b485a97d3d17fd2a3",
+   "literal": "5.4.1.1.2 Dosificación y propiedades del hormigón"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0163",
+  "parent_id_original": "a0139",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4.1.1.2 Dosificación y propiedades del hormigón",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0139",
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Condiciones constructivas y de control 5.4.1 Condiciones constructivas / 5.4.1.1 Pilotes hormigonados “in situ” / 5.4.1.1.2 Dosificación y propiedades del hormigón",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "54ec109f94489c896d55ccbfdd21d716e8d2310b9fe9f347d6ec64795ac20937"
+ },
+ "paginas": [
+  61
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "notas",
+  "figuras"
+ ],
+ "texto": "5.4.1.1.2 Dosificación y propiedades del hormigón\n1\nEl hormigón de los pilotes deberá poseer:\na)\nalta capacidad de resistencia contra la segregación;\nb)\nalta plasticidad y buena cohesión;\nc)\nbuena fluidez;\nd)\ncapacidad de autocompactación;\ne)\nsuficiente trabajabilidad durante el proceso de vertido, incluida la retirada, en su caso, de entu-\nbados provisionales.\n2\nEn la tabla 5.2 se recogen los criterios de contenido mínimo de cemento, relación agua/cemento y\ncontenido mínimo de finos.\nTabla 5.2. Dosificaciones de amasado\nContenido de cemento\n- vertido en seco\n- hormigonado sumergido\n 325 Kg/m3\n 375 Kg/m3\nRelación agua-cemento (A/C)\n 0,6\nContenido de finos d  0,125 mm (cemento incluido)\n- árido grueso d  8 mm\n- árido grueso d  8 mm\n 400 kg/m3\n 450 kg/m3\n3\nEn la tabla 5.3 se recogen los valores de consistencia del hormigón, según diferentes condiciones\nde colocación.\nTabla 5.3. Consistencia del hormigón\nAsientos de cono de Abrams mm\nCondiciones típicas de uso (ejemplos)\n130  H  180\nHormigón vertido en seco\nH  160\nHormigón bombeado o bien hormigón sumergido, vertido bajo agua\ncon tubo tremie\nH  180\nHormigón sumergido, vertido bajo fluido estabilizador con tubo tremie\nNota.- Los valores medidos del asiento (H) deben redondearse a los 10 mm\n4\nEn el caso de que las dosificaciones de amasado y los valores de consistencia establecidos en las\ntablas 5.2 y 5.3 no den una mezcla de alta densidad, se puede ajustar el contenido de cemento y la\nconsistencia.\n5\nSe ha de asegurar que la docilidad y fluidez se mantiene durante todo el proceso de hormigonado,\npara garantizar que no se produzcan fenómenos de atascos en el tubo Tremie, discontinuidades en\nel hormigón o bolsas de hormigón segregado o mezclado con el lodo de perforación. Durante 4 ho-\nras y, al menos durante todo el periodo de hormigonado de cada pilote, la consistencia del hormi-\ngón dispuesto deberá mantenerse en un cono de Abrams no inferior a 100mm.\n6\nSe debe proporcionar una adecuada protección a través del diseño de la mezcla o de camisas per-\ndidas, contra la agresividad del suelo o de los acuíferos.",
+ "notas": [
+  "Nota.- Los valores medidos del asiento (H) deben redondearse a los 10 mm"
+ ],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0061.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

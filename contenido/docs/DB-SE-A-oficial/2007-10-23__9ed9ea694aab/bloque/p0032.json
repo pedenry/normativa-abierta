@@ -1,0 +1,337 @@
+{
+ "documento": null,
+ "pagina": 32,
+ "etiqueta_impresa": "32",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-30",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    78.0,
+    73.4,
+    205.3,
+    84.6
+   ],
+   "tipo": "texto",
+   "texto": "6.2.2 Términos de sección",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.0,
+    92.9,
+    539.2,
+    104.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nComo sección de cálculo, A, para las clases 1, 2 y 3, se tomará la total y para la 4, la neta o eficaz",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    78.0,
+    110.4,
+    541.4,
+    133.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn el cálculo de las características de la sección no se considerará ningún tipo de recubrimiento,\naunque sea metálico (tratamientos de galvanizado).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    78.0,
+    139.4,
+    541.4,
+    173.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nEl área neta, Aneta de una sección es la que se obtiene descontando de la nominal el área de los\nagujeros y rebajes. Cuando los agujeros se dispongan al tresbolillo el área a descontar será la\nmayor de:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    100.7,
+    179.9,
+    385.7,
+    191.1
+   ],
+   "tipo": "texto",
+   "texto": "c)\nla de agujeros y rebajes que coincidan en la sección recta;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    100.7,
+    195.6,
+    541.4,
+    243.0
+   ],
+   "tipo": "texto",
+   "texto": "d)\nla de todos los agujeros situados en cualquier línea quebrada, restando el producto s2·t/(4·p)\npor cada espacio entre agujeros (figura 6.2, donde t es el espesor de la chapa agujereada).\nEn el caso de agujeros en angulares, el espaciado “p” entre agujeros se mide según indica la\nfigura 6.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    287.0,
+    409.8,
+    332.1,
+    419.9
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.2",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    78.0,
+    433.3,
+    293.7,
+    444.5
+   ],
+   "tipo": "texto",
+   "texto": "6.2.3 Resistencia de las secciones a tracción",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    78.0,
+    452.7,
+    538.6,
+    475.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nComo resistencia de las secciones a tracción, Nt,Rd, puede emplearse la plástica de la sección bru-\nta sin superar la última de la sección neta:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    124.6,
+    481.5,
+    541.0,
+    495.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "yd\nRd\n,\npl\nRd\n,t\nf\nA\nN\nN\n⋅\n=\n≤\n(6.2)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    124.6,
+    504.4,
+    541.0,
+    518.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "ud\nneta\nRd\n,\nu\nRd\n,t\nf\nA\n9,0\nN\nN\n⋅\n⋅\n=\n≤\n(6.3)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    78.0,
+    526.7,
+    538.6,
+    549.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nCuando se proyecte conforme a criterios de capacidad, la resistencia última de la sección neta se-\nrá mayor que la plástica de la sección bruta.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    78.0,
+    555.7,
+    541.4,
+    578.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn las secciones extremas en las que se practican los agujeros y rebajes de alas requeridos para\nla unión, se comprobará el desgarro del alma según se indica en el apartado 8.5.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    78.0,
+    591.8,
+    279.3,
+    603.0
+   ],
+   "tipo": "texto",
+   "texto": "6.2.4 Resistencia de las secciones a corte",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    78.0,
+    611.2,
+    541.4,
+    634.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl esfuerzo cortante de cálculo VEd será menor que la resistencia de las secciones a cortante,\nVc,Rd, que, en ausencia de torsión, será igual a la resistencia plástica:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    165.4,
+    659.4,
+    171.0,
+    670.6
+   ],
+   "tipo": "texto",
+   "texto": "3",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    102.7,
+    641.7,
+    162.3,
+    661.1
+   ],
+   "tipo": "texto",
+   "texto": "f\nA\nV",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    109.1,
+    646.9,
+    541.0,
+    662.9
+   ],
+   "tipo": "texto",
+   "texto": "yd\nV\nRd\n,\npl\n⋅\n=\n(6.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    100.7,
+    678.2,
+    419.2,
+    689.4
+   ],
+   "tipo": "texto",
+   "texto": "donde el término relativo al área a cortante tiene los siguientes valores:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    101.4,
+    695.6,
+    439.1,
+    707.6
+   ],
+   "tipo": "texto",
+   "texto": "-\nPerfiles en I o H cargados paralelamente al alma: AV = A - 2btf + (tw+2r)tf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    117.0,
+    713.1,
+    324.7,
+    725.1
+   ],
+   "tipo": "texto",
+   "texto": "(Como simplificación se puede tomar Av = htw)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    101.4,
+    730.7,
+    423.2,
+    742.6
+   ],
+   "tipo": "texto",
+   "texto": "-\nPerfiles en U cargados paralelamente al alma: AV = A - 2btf + (tw+r1)tf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    117.0,
+    748.1,
+    324.7,
+    760.1
+   ],
+   "tipo": "texto",
+   "texto": "(Como simplificación se puede tomar Av = htw)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

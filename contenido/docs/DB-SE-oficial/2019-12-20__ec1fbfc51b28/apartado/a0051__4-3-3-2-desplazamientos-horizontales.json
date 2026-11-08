@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0051",
+  "ruta_oficial": "4.3.3.2",
+  "ruta_semantica": "4.3.3.2 Desplazamientos horizontales",
+  "titulo": "4.3.3.2 Desplazamientos horizontales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3.3.2 Desplazamientos horizontales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 19,
+   "bbox": [
+    70.9,
+    177.2,
+    250.5,
+    187.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9220aa2f58a066b6f22aebccfc526dec8a3ba31bc9de2fa8818718c63d594d75",
+   "literal": "4.3.3.2 Desplazamientos horizontales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0053",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.3.2 Desplazamientos horizontales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones / 4.3.3 Deformaciones 4.3.3.1 Flechas / 4.3.3.2 Desplazamientos horizontales",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7d177a3a9b2faf2fe718699745da84ff4f2df1a5ae6fe9da3cd92e9b6aa304ab"
+ },
+ "paginas": [
+  19
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.3.3.2 Desplazamientos horizontales\n1\nCuando se considere la integridad de los elementos constructivos, susceptibles de ser dañados por\ndesplazamientos horizontales, tales como tabiques o fachadas rígidas, se admite que la estructura\nglobal tiene suficiente rigidez lateral, si ante cualquier combinación de acciones característica, el\ndesplome (véase figura 4.1) es menor de:\na)\ndesplome total: 1/500 de la altura total del edificio;\nb)\ndesplome local: 1/250 de la altura de la planta, en cualquiera de ellas.\n2\nCuando se considere la apariencia de la obra, se admite que la estructura global tiene suficiente\nrigidez lateral, si ante cualquier combinación de acciones casi permanente, el desplome relativo\n(véase figura 4.1) es menor que 1/250.\n3\nEn general es suficiente que dichas condiciones se satisfagan en dos direcciones sensiblemente\nortogonales en planta.\nFigura 4.1 Desplomes",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0019.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

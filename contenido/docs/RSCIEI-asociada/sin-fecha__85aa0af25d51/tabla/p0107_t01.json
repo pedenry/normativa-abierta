@@ -1,0 +1,89 @@
+{
+ "indice": 1,
+ "pagina": 107,
+ "etiqueta_impresa": "107",
+ "bbox": [
+  99.3,
+  738.0,
+  495.9,
+  777.3
+ ],
+ "filas": 3,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Documento",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Título",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "UNE-ISO 23932:2017",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "Ingeniería de seguridad contra incendios. Principios generales.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "UNE-ISO 16733-1:2017",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "Ingeniería de seguridad contra incendios. Selección de escenarios de fuego de\ndiseño y fuegos de diseño. Parte 1: Selección de escenarios de fuego de diseño.",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Documento",
+  "Título"
+ ],
+ "header": {
+  "names": [
+   "Documento",
+   "Título"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90D6D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90D400>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90E9F0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90FC50>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90DB50>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA158E0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0107.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

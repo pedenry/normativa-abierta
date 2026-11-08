@@ -1,0 +1,88 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0258",
+  "ruta_oficial": "3.3.2",
+  "ruta_semantica": "3.3.2 Elementos especiales",
+  "titulo": "3.3.2 Elementos especiales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3.2 Elementos especiales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 114,
+   "bbox": [
+    70.9,
+    583.7,
+    227.3,
+    597.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "601e3237b97515f4cc19acbe3fd43cd796f35ea21dcbff2a076c0047587fd613",
+   "literal": "3.3.2 Elementos especiales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3.2 Elementos especiales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación / 3.3.2 Elementos especiales",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fbce6c912653e4a8d9fb98be2dd38d8a4cc5cf3d7b7d47ac8d396a4bad06ec12"
+ },
+ "paginas": [
+  114,
+  115
+ ],
+ "etiquetas_impresas": [
+  "114",
+  "115"
+ ],
+ "tipos": [],
+ "texto": "3.3.2 Elementos especiales\n3.3.2.1\nSistema de bombeo y elevación\n1\nCuando la red interior o parte de ella se tenga que disponer por debajo de la cota del punto de\nacometida debe preverse un sistema de bombeo y elevación. A este sistema de bombeo no deben\nverter aguas pluviales, salvo por imperativos de diseño del edificio, tal como sucede con las aguas\nque se recogen en patios interiores o rampas de acceso a garajes-aparcamientos, que quedan a un\nnivel inferior a la cota de salida por gravedad. Tampoco deben verter a este sistema las aguas resi-\nduales procedentes de las partes del edificio que se encuentren a un nivel superior al del punto de\nacometida.\n2\nLas bombas deben disponer de una protección adecuada contra las materias sólidas en suspen-\nsión. Deben instalarse al menos dos, con el fin de garantizar el servicio de forma permanente en\ncasos de avería, reparaciones o sustituciones. Si existe un grupo electrógeno en el edificio, las\nbombas deben conectarse a él, o en caso contrario debe disponerse uno para uso exclusivo o una\nbatería adecuada para una autonomía de funcionamiento de al menos 24 h.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n115\n3\nLos sistemas de bombeo y elevación se alojarán en pozos de bombeo dispuestos en lugares de\nfácil acceso para su registro y mantenimiento.\n4\nEn estos pozos no deben entrar aguas que contengan grasas, aceites, gasolinas o cualquier líquido\ninflamable.\n5\nDeben estar dotados de una tubería de ventilación capaz de descargar adecuadamente el aire del\ndepósito de recepción.\n6\nEl suministro eléctrico a estos equipos debe proporcionar un nivel adecuado de seguridad y conti-\nnuidad de servicio, y debe ser compatible con las características de los equipos (frecuencia, tensión\nde alimentación, intensidad máxima admisible de las líneas, etc.).\n7\nCuando la continuidad del servicio lo haga necesario (para evitar, por ejemplo, inundaciones, con-\ntaminación por vertidos no depurados o imposibilidad de uso de la red de evacuación), debe dispo-\nnerse un sistema de suministro eléctrico autónomo complementario.\n8\nEn su conexión con el sistema exterior de alcantarillado debe disponerse un bucle antirreflujo de las\naguas por encima del nivel de salida del sistema general de desagüe.\n3.3.2.2\nVálvulas antirretorno de seguridad\n1\nDeben instalarse válvulas antirretorno de seguridad para prevenir las posibles inundaciones cuando\nla red exterior de alcantarillado se sobrecargue, particularmente en sistemas mixtos (doble clapeta\ncon cierre manual), dispuestas en lugares de fácil acceso para su registro y mantenimiento.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

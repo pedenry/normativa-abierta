@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": null,
+  "ruta_semantica": "Comercial",
+  "titulo": "Comercial",
+  "nivel": 1,
+  "parent_id": "a0033",
+  "seccion_estimada": "Comercial",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    70.9,
+    260.7,
+    117.0,
+    270.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d0f13a9c38e48f9c21df0adbfc03077a206017958cc9f79cd872352798631342",
+   "literal": "Comercial"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0033",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Comercial",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0033",
+   "ruta_semantica": "15 < h ≤ 28 m / 2 Locales y zonas de riesgo especial / Comercial",
+   "seccion_estimada": "15 < h ≤ 28 m",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "87bec9db96d60763fba7664fe5dee4327b704eff64b014d1e09b720a18c6b53b"
+ },
+ "paginas": [
+  15
+ ],
+ "etiquetas_impresas": [
+  "15"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Comercial\n-\nAlmacenes en los que la densidad de carga de\nfuego ponderada y corregida (QS) aportada por los\nproductos almacenados sea(6)\n425<QS≤850\nMJ/m2\n850<QS≤3.400\nMJ/m2\nQS>3.400 MJ/m2\nLa superficie construida de los locales así clasifica-\ndos no debe exceder de la siguiente:\n-\nen recintos no situados por debajo de la\nplanta de salida del edificio\ncon instalación automática de extinción\nS< 2.000 m2\nS<600 m2\nS<25 m2 y altura\nde evacuación\n<15 m\nsin instalación automática de extinción\nS<1.000 m2\nS<300 m2\nno se admite\n-\nen recintos situados por debajo de la planta\nde salida del edificio\ncon instalación automática de extinción\n<800 m2\nno se admite\nno se admite\nsin instalación automática de extinción\n<400 m2\nno se admite\nno se admite",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

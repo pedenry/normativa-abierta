@@ -1,0 +1,121 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0055",
+  "ruta_oficial": "4.2.1.1",
+  "ruta_semantica": "4.2.1.1 Concepto de hundimiento",
+  "titulo": "4.2.1.1 Concepto de hundimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2.1.1 Concepto de hundimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    396.6,
+    232.5,
+    406.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "434d17d493ecd9cebdc16a079f5c2b0d3bd1737bbfb5cb0d239d117fa4612aaa",
+   "literal": "4.2.1.1 Concepto de hundimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0066",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2.1.1 Concepto de hundimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Análisis y dimensionado 4.2.1 Criterios básicos / 4.2.1.1 Concepto de hundimiento",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c74a8d3a115d1ace5ac03727b53f2e328ef6762edf798e9b8b807dc9a293c8c3"
+ },
+ "paginas": [
+  28
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.2.1.1 Concepto de hundimiento\n1\nEn un cimiento, la aplicación de una carga vertical creciente V, da lugar a un asiento creciente, (Fi-\ngura 4.7). Las diversas formas que pueden adoptar las curvas presión–asiento dependen en gene-\nral de la forma y tamaño de la zapata, de la naturaleza y resistencia del suelo y de la carga aplicada\n(tipo, velocidad de aplicación, frecuencia, etc.).\nFigura 4.7. Concepto de presión de hundimiento\n2\nMientras la carga V sea pequeña o moderada, el asiento crecerá de manera aproximadamente pro-\nporcional a la carga aplicada. Sin embargo, si la carga V sigue aumentando, la pendiente de la rela-\nción asiento-carga se acentuará, llegando finalmente a una situación en la que puede sobrepasarse\nla capacidad portante del terreno, agotando su resistencia al corte y produciéndose movimientos\ninadmisibles, situación que se identifica con el hundimiento.\n3\nLa carga V para la cual se alcanza el hundimiento es función de la resistencia al corte del terreno,\nde las dimensiones y forma de la cimentación, de la profundidad a la que está situada, del peso es-\npecífico del terreno y de las condiciones del agua subálvea.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

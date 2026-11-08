@@ -1,0 +1,101 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0074",
+  "ruta_oficial": "6.2.4",
+  "ruta_semantica": "6.2.4  Tracción perpendicular y cortante combinados",
+  "titulo": "6.2.4  Tracción perpendicular y cortante combinados",
+  "nivel": 1,
+  "parent_id": "a0070",
+  "seccion_estimada": "6.2.4  Tracción perpendicular y cortante combinados",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    70.9,
+    82.3,
+    324.4,
+    92.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "08ed3b1414e9d761c3b685d6e4dc0dc7797d2bdbc00accdcd3e2313f88404589",
+   "literal": "6.2.4  Tracción perpendicular y cortante combinados"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0084",
+  "parent_id_original": "a0070",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.4  Tracción perpendicular y cortante combinados",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0070",
+   "ruta_semantica": "6  Estados límite últimos / 6.2  Solicitaciones combinadas en sección constante / 6.2.4  Tracción perpendicular y cortante combinados",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4e410a82752ef98a04d9ddf3687174f7eba32dea25436c28e72591ba419499ae"
+ },
+ "paginas": [
+  34
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "6.2.4  Tracción perpendicular y cortante combinados\n1\nDebe cumplirse la siguiente condición:\n1\nf\nk\n+\nf\nvol\nd\n,\n90\n,t\nd\n,\n90\n,t\nd\nv,\nd\n\n\n\n(6.21)\nsiendo:\nd\ntensión de cálculo a cortante;\nfv,d\nresistencia de cálculo a cortante;\nt,90,d\ntensión de cálculo a tracción perpendicular a la fibra;\nft,90,d\nresistencia de cálculo a tracción perpendicular a la fibra;\nkvol\nfactor de volumen definido en el apartado 2.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

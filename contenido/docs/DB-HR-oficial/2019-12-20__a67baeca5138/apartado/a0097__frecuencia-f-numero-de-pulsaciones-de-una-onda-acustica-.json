@@ -1,0 +1,96 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0097",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología / Frecuencia, f: Número de pulsaciones de una onda acústica sinusoidal ocurridas en un segundo.",
+  "titulo": "Frecuencia, f: Número de pulsaciones de una onda acústica sinusoidal ocurridas en un segundo.",
+  "nivel": 2,
+  "parent_id": "a0092",
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 48,
+   "bbox": [
+    70.9,
+    420.4,
+    541.4,
+    650.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "2650681e234d51608c45c5d14325151d60caa5636b1d8569ce9777bacce127e0",
+   "literal": "Frecuencia, f: Número de pulsaciones de una onda acústica sinusoidal ocurridas en un segundo."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0013",
+  "parent_id_original": "a0092",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Frecuencia, f: Número de pulsaciones de una onda acústica sinusoidal ocurridas en un segundo.",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0092",
+   "ruta_semantica": "Anejo A. Terminología / Frecuencia, f: Número de pulsaciones de una onda acústica sinusoidal ocurridas en un segundo.",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2c438638a2f825ad11924aec577679e21cd94f06bf765a55f6b871ff82316603"
+ },
+ "paginas": [
+  48,
+  49,
+  50
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Documento Básico HR - Protección frente al ruido\nHR A-6\nEspectro normalizado del ruido ferroviario o de estaciones ferroviarias, ponderado A: Representa-\nción, en forma numérica, de los valores de presión sonora, ponderados A, correspondientes a ruido fe-\nrroviario en las frecuencias en bandas de tercios de octava y de octavas.\nTabla A.4 Valores del espectro normalizado de ruido ferroviario o de estaciones ferroviarias, ponderado A.\nfi\nHz\nLAef,i\ndBA\nfi\nHz\nLAef,i\ndBA\n100\n125\n160\n-20\n-20\n-18\n800\n1000\n1250\n-9\n-8\n-9\n200\n250\n315\n-16\n-15\n-14\n1600\n2000\n2500\n-10\n-11\n-13\n400\n500\n630\n-13\n-12\n-11\n3150\n4000\n5000\n-15\n-16\n-18\nEspectro normalizado del ruido rosa, ponderado A: Representación, en forma numérica, de los valo-\nres de presión sonora, ponderados A, correspondientes a ruido rosa normalizado en las frecuencias en\nbandas de tercios de octava y de octavas.\nTabla A.5 Valores del espectro normalizado de ruido rosa, ponderado A.\nfi\nHz\nLAr,i\ndBA\nfi\nHz\nLAr,i\ndBA\n100\n125\n160\n-30,1\n-27,1\n-24,4\n800\n1000\n1250\n-11,8\n-11,0\n-10,4\n200\n250\n315\n-21,9\n-19,6\n-17,6\n1600\n2000\n2500\n-10,0\n-9,8\n-9,7\n400\n500\n630\n-15,8\n-14,2\n-12,9\n3150\n4000\n5000\n-9,8\n-10\n-10,5\nEstancias: Recintos protegidos tales como: salones, comedores, bibliotecas...etc. en edificios de uso\nresidencial y despachos, salas de reuniones, salas de lectura...etc. en edificios de otros usos.\nFachada: Cerramiento perimétrico del edificio, vertical o con inclinación no mayor que 60º sobre la hori-\nzontal, que lo separa del exterior. Incluye tanto el muro de fachada como los huecos (puertas exteriores y\nventanas).\nFachada ligera: Fachada continua y anclada a una estructura auxiliar, cuya masa por unidad de superfi-\ncie es menor que 200 kg/m2.\nFrecuencia, f: Número de pulsaciones de una onda acústica sinusoidal ocurridas en un segundo.\nÍndice de reducción acústica aparente, R’: Aislamiento acústico, en dB, de un elemento constructivo\nmedido in situ, incluidas las transmisiones indirectas. Es función de la frecuencia.\nSe define mediante la expresión siguiente:\nA\nS\nlg\n10\nL\nL\n'\nR\n2\n1\n\n+\n−\n=\n[dB]\n(A.10)\nsiendo\nL1\nnivel medio de presión sonora en el recinto emisor, [dB];\nL2\nnivel medio de presión sonora en el recinto receptor, [dB];\nS\nárea del elemento constructivo, [m2];\nA\nárea de absorción acústica equivalente del recinto receptor, [m2].\n\nDocumento Básico HR - Protección frente al ruido\nHR A-7\nÍndice de reducción acústica de un elemento constructivo, R: Aislamiento acústico, en dB, de un\nelemento constructivo medido en laboratorio. Es función de la frecuencia.\nSe define mediante la expresión siguiente:\nA\nS\nlg\n10\nL\nL\nR\n2\n1\n\n+\n−\n=\n[dB]\n(A.11)\nsiendo\nL1\nnivel medio de presión sonora en el recinto emisor, [dB];\nL2\nnivel medio de presión sonora en el recinto receptor, [dB];\nS\nárea del elemento constructivo, [m2];\nA\nárea de absorción acústica equivalente del recinto receptor, [m2].\nÍndice de reducción acústica por vía indirecta, Rij: Diferencia entre los niveles sonoros de los recintos\nemisor y receptor, debida a la transmisión acústica por vía indirecta o por flancos.\nÍndice de reducción de vibraciones para caminos de transmisión sobre uniones de elementos\nconstructivos, Kij:. Diferencia entre los niveles medios de velocidad entre ambos lados de la unión,\npromediada en las dos direcciones, normalizada a la longitud de la unión y a la longitud de absorción\nequivalente de los elementos a cada lado. Es una magnitud relacionada con la transmisión de energía en\nuna unión de dos elementos constructivos\nSe define mediante la expresión siguiente:\ndB\n0\nD\n;\ndB\na\na\nl\nlg\n10\nD\nK\nsitu\n,ij,v\nsitu\n,j\nsitu\n,i\nij\nsitu\n,ij,v\nij\n\n\n\n+\n=\n[dB]\n(A.12)\nsiendo\nsitu\n,ij,v\nD\ndiferencia de niveles de velocidad promediada en los dos sentidos de propagación para cada\ncamino de transmisión ij sobre la unión, [dB];\nai, situ\nlongitud de absorción equivalente del elemento i medida in situ, [m];\naj, situ\nlongitud de absorción equivalente del elemento j medida in situ, [m];\nlij\nlongitud común de la arista de unión entre el elemento i y el j, [m].\nComo primera aproximación las longitudes de absorción equivalente pueden tomarse como\nai, situ= Si / l0 y aj, situ= Sj / l0, para todo tipo de elementos, con la longitud de acoplamiento de referencia l0\n=1 m. Para uniones en las que los elementos de flanco tengan un contacto reducido con el elemento de\nseparación, sólo se considerará la transmisión Ff cuyo valor no será menor que el valor Kij,min, cuya ex-\npresión viene dada por:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n+\n\n\n=\nj\ni\n0\nij\nmin\n,ij\nS\n1\nS\n1\nl\nl\nlg\n10\nK\n[dB]\n(A.13)\nsiendo\nij\ncaminos de transmisión Ff, Fd o Df;\nl0 = 1 m longitud de la arista de unión de referencia;\nSi\nárea del elemento excitado i (forjado), [m2];\nSj\nárea del elemento radiante j en el recinto receptor, [m2].\n\nDocumento Básico HR - Protección frente al ruido\nHR A-8\nÍndice de ruido día, Ld*: Índice de ruido asociado a la molestia durante el periodo día y definido como el\nnivel sonoro medio a largo plazo, ponderado A, determinado a lo largo de todos los periodos día de un\naño. Se expresa en dBA.\nÍndice global de reducción acústica aparente, ponderado A, de un elemento constructivo, R’A:\nValoración global, en dBA, del índice de reducción acústica aparente, R’, para un ruido incidente rosa,\nnormalizado, ponderado A.\nSe define mediante la expresión siguiente:",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0048_t01.json",
+  "../tabla/p0048_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0048.png",
+  "../figura/p0049.png",
+  "../figura/p0050.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0098"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

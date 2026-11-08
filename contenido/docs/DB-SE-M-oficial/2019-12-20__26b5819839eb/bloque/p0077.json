@@ -1,0 +1,221 @@
+{
+ "documento": null,
+ "pagina": 77,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 71",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    479.5,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "10  Sistemas estructurales de madera y productos derivados",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    134.9,
+    177.6,
+    146.9
+   ],
+   "tipo": "titulo",
+   "texto": "10.1  Vigas mixtas",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    163.2,
+    317.2,
+    173.2
+   ],
+   "tipo": "texto",
+   "texto": "10.1.1  Vigas mixtas de madera y tablero encoladas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    189.8,
+    213.1,
+    199.8
+   ],
+   "tipo": "texto",
+   "texto": "10.1.1.1  Principios generales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    208.3,
+    538.6,
+    241.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara el cálculo de las tensiones se admiten leyes lineales de variación de deformaciones longitudina-\nles unitarias ε; lo cual supone que se consideran las secciones como mixtas sin que existan desliza-\nmientos entre almas y alas en los planos de encolado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    248.9,
+    541.3,
+    304.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nA efectos de cálculos de las tensiones normales y tangenciales se admite, para piezas de relación\nluz/canto menor o igual que 25 y de una longitud menor de 12m, las fórmulas clásicas de resistencia\nde materiales considerando la sección compuesta (sin considerar por tanto deslizamientos entre al-\nmas y alas en los planos de encolado), teniendo en cuenta la diferencia entre. los módulos de elasti-\ncidad longitudinales de la madera y el tablero.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    312.3,
+    541.3,
+    333.8
+   ],
+   "tipo": "texto",
+   "texto": "3\nNo todas las colas son igual de rígidas, y que cada vez se usan más las colas con cierta capacidad\nde plastificación; apareciendo con ello la posibilidad de un deslizamiento local en el plano de la cola.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    348.4,
+    290.9,
+    358.3
+   ],
+   "tipo": "texto",
+   "texto": "10.1.1.2  Vigas con almas de tablero encolado",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    366.8,
+    541.3,
+    399.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEste tipo de viga está formada por almas de tablero estructural y alas encoladas, de madera aserra-\nda, laminada encolada o microlaminada. En este apartado se consideran las vigas de sección en I\n(doble T) y la viga-cajón. (Véase figura 10.1).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    119.2,
+    597.9,
+    475.1,
+    629.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nFigura 10.1 Vigas en I ó doble T y cajón de alma delgada formada por tableros",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    630.5,
+    307.2,
+    664.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nTensiones normales en las alas",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    88.8,
+    672.1,
+    541.3,
+    693.6
+   ],
+   "tipo": "texto",
+   "texto": "Las tensiones normales en las alas, considerando una ley de deformación unitaria longitudinal plana\nde la sección de la viga (véase figura 10.1) deben cumplir las siguientes condiciones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    88.9,
+    697.4,
+    541.3,
+    747.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "f,c,max,d  fm,d\n(10.3)\nf,t,max,d  fm,d\n(10.4)\nf,c,d      kc fc,0,d\n(10.5)\nf,t,d      ft,0,d\n(10.6)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    88.9,
+    753.1,
+    123.6,
+    763.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

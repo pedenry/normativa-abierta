@@ -1,0 +1,117 @@
+{
+ "documento": null,
+ "pagina": 5,
+ "etiqueta_impresa": "5",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    292.1,
+    798.0,
+    319.6,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-1",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    186.9,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "1 Generalidades",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    126.8,
+    218.4,
+    138.8
+   ],
+   "tipo": "titulo",
+   "texto": "1.1 Ámbito de aplicación",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    145.3,
+    541.5,
+    345.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl campo de aplicación de este DB es el de la verificación de la seguridad estructural de muros resis-\ntentes en la edificación realizados a partir de piezas relativamente pequeñas, comparadas con las\ndimensiones de los elementos, asentadas mediante mortero, tales como fábricas de ladrillo, bloques\nde hormigón y de cerámica aligerada, y fábricas de piedra, incluyendo el caso de que contengan\narmaduras activas o pasivas en los morteros o refuerzos de hormigón armado.\n2\nQuedan excluidos de este DB los muros de carga que carecen de elementos destinados a asegurar\nla continuidad con los forjados (encadenados), tanto los que confían la estabilidad al rozamiento de\nlos extremos de las viguetas, como los que confían la estabilidad exclusivamente a su grueso o a su\nvinculación a otros muros perpendiculares sin colaboración de los forjados. También quedan exclui-\ndas aquellas fábricas construidas con piezas colocadas “en seco” (sin mortero en las juntas horizon-\ntales) y las de piedra cuyas piezas no son regulares (mampuestos) o no se asientan sobre tendeles\nhorizontales, y aquellas en las que su grueso se consigue a partir de rellenos amorfos entre dos hojas\nde sillares\n3\nLa satisfacción de otros requisitos (aislamiento térmico, acústico, o resistencia al fuego,) quedan fuera\ndel alcance de este DB. Los aspectos relativos a la fabricación, montaje, control de calidad, conser-\nvación y mantenimiento se tratan en la medida necesaria para indicar las exigencias que se deben\ncumplir en concordancia con las bases de cálculo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    361.1,
+    236.3,
+    373.1
+   ],
+   "tipo": "titulo",
+   "texto": "1.2 Consideraciones previas",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    379.7,
+    541.5,
+    536.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEste DB establece condiciones tanto para elementos de fábrica sustentante, la que forma parte de la\nestructura general del edificio, como para elementos de fábrica sustentada, destinada sólo a soportar\nlas acciones directamente aplicadas sobre ella, y que debe transmitir a la estructura general.\n2\nEl tipo estructural de referencia de fábrica sustentante es el de por muros de carga en dos direcciones,\nbien portantes, en los que se sustentan los forjados, o bien de arriostramiento, con forjados solidarios\nmediante encadenados resistentes a la tracción, a la flexión y al cortante (normalmente de hormigón\narmado), y monolíticos, sea a partir de una losa de hormigón in situ o de otro procedimiento que tenga\nlos mismos efectos.\n3\nLa fábrica sustentada debe enlazarse con la estructura general de modo adecuado a la transmisión\ncitada, y construirse de manera que respete las condiciones supuestas en ambos elementos.\n4\nLas limitaciones generales establecidas a las deformaciones estructurales no protegen a la fábrica\nsustentada del efecto que en ella introduce la deformación de la estructura que la soporta. En particu-\nlar:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    541.1,
+    541.4,
+    649.1
+   ],
+   "tipo": "texto",
+   "texto": "a)\nNo evitan que la fábrica supuestamente sustentada, debido a su mayor rigidez, pase a ser sus-\ntentadora ni tampoco que las acciones térmicas y reológicas que actúan sobre la fábrica susten-\ntada, si son coaccionados por la estructura general, se traduzcan en tensiones para dicha fá-\nbrica.\nb)\nCuando el vínculo entre fábrica y estructura permita la interacción entre ambas, deben conside-\nrarse los esfuerzos que, por este motivo, se ocasionarán sobre la fábrica, para proceder a su\ndimensionado y comprobación de acuerdo con este DB.\n5\nPara hormigones y aceros de armar, en todo lo que no contradiga este DB, será de aplicación la\ninstrucción de hormigón estructural EHE.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

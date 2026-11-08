@@ -1,0 +1,906 @@
+{
+ "documento": null,
+ "pagina": 41,
+ "etiqueta_impresa": "41",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-39",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    78.0,
+    73.3,
+    541.4,
+    119.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn vigas planas trianguladas formadas por perfiles huecos de cordones continuos y diagonales y\nmontantes soldados de forma continua en todo el perímetro, se podrán tomar como longitudes de\npandeo las definidas en el apartado anterior, aplicando el factor 0,9 a los cordones, y 0,75 a los\nmontantes y diagonales.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.0,
+    132.5,
+    204.7,
+    143.7
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2.5 Pilares de edificios",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    78.0,
+    151.8,
+    541.5,
+    197.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa longitud de pandeo Lk de un tramo de pilar de longitud L unido rígidamente a las demás piezas\nde un pórtico intraslacional o de un pórtico traslacional en cuyo análisis se haya empleado un mé-\ntodo de segundo orden que no considere las imperfecciones de los propios pilares, o el método de\nmayoración de acciones horizontales descrito en 5.3.1, puede obtenerse del cociente:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    119.8,
+    199.7,
+    307.9,
+    231.5
+   ],
+   "tipo": "texto",
+   "texto": "(\n)\n(\n)\n1\n247\n,0\n364\n,0\n2\n265\n,0\n145\n,0\n1\nL\nL",
+   "tamano": 11.7,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    199.8,
+    225.6,
+    288.9,
+    232.3
+   ],
+   "tipo": "texto",
+   "texto": "2\n1\n2\n1",
+   "tamano": 6.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    126.2,
+    210.6,
+    300.0,
+    230.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\n1\n2\n1\nk\n≤\nη\nη\n⋅\n−\nη\n+\nη\n⋅\n−",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    102.1,
+    203.8,
+    541.0,
+    222.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η\nη\n⋅\n−\nη\n+\nη\n⋅\n+\n=\n=\nβ\n(6.24)",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    78.0,
+    239.8,
+    541.4,
+    274.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa longitud de pandeo de un tramo de pilar unido rígidamente a las demás piezas de un pórtico\ntraslacional en cuyo análisis no se hayan contemplado los efectos de segundo orden puede obte-\nnerse del cociente:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    118.8,
+    278.5,
+    287.1,
+    310.0
+   ],
+   "tipo": "texto",
+   "texto": "(\n)\n(\n)\n1\n6,0\n8,0\n1\n12\n,0\n2,0\n1\nL\nL",
+   "tamano": 11.7,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    191.5,
+    304.1,
+    266.0,
+    310.8
+   ],
+   "tipo": "texto",
+   "texto": "2\n1\n2\n1",
+   "tamano": 6.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    125.0,
+    289.2,
+    279.7,
+    309.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\n1\n2\n1\nk\n≥\nη\nη\n⋅\n+\nη\n+\nη\n⋅\n−",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    102.1,
+    282.5,
+    541.0,
+    301.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η\nη\n⋅\n−\nη\n+\nη\n⋅\n−\n=\n=\nβ\n(6.25)",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    100.7,
+    318.5,
+    331.4,
+    330.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Los cocientes β pueden obtenerse en la figura 6.4.",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    118.2,
+    514.3,
+    128.0,
+    523.9
+   ],
+   "tipo": "texto",
+   "texto": "0,0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    118.2,
+    479.9,
+    128.0,
+    489.5
+   ],
+   "tipo": "texto",
+   "texto": "0,2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    118.2,
+    445.4,
+    128.0,
+    455.0
+   ],
+   "tipo": "texto",
+   "texto": "0,4",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    118.2,
+    411.0,
+    128.0,
+    420.6
+   ],
+   "tipo": "texto",
+   "texto": "0,6",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    118.2,
+    376.6,
+    128.0,
+    386.2
+   ],
+   "tipo": "texto",
+   "texto": "0,8",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    118.2,
+    342.1,
+    128.0,
+    351.8
+   ],
+   "tipo": "texto",
+   "texto": "1,0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    127.3,
+    521.3,
+    309.2,
+    530.9
+   ],
+   "tipo": "texto",
+   "texto": "0,0\n0,2\n0,4\n0,6\n0,8\n1,0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    102.2,
+    429.7,
+    113.1,
+    437.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η2",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    214.6,
+    531.5,
+    221.9,
+    542.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η1",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    156.4,
+    483.3,
+    170.0,
+    492.9
+   ],
+   "tipo": "texto",
+   "texto": "0,55",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    168.4,
+    471.3,
+    182.0,
+    480.9
+   ],
+   "tipo": "texto",
+   "texto": "0,57",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    183.9,
+    455.8,
+    197.5,
+    465.4
+   ],
+   "tipo": "texto",
+   "texto": "0,60",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    202.8,
+    436.8,
+    216.5,
+    446.4
+   ],
+   "tipo": "texto",
+   "texto": "0,65",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    221.8,
+    417.9,
+    235.4,
+    427.5
+   ],
+   "tipo": "texto",
+   "texto": "0,70",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    240.7,
+    399.0,
+    254.3,
+    408.6
+   ],
+   "tipo": "texto",
+   "texto": "0,75",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    256.2,
+    383.5,
+    269.8,
+    393.1
+   ],
+   "tipo": "texto",
+   "texto": "0,80",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    283.7,
+    355.9,
+    297.3,
+    365.6
+   ],
+   "tipo": "texto",
+   "texto": "0,90",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    328.2,
+    514.3,
+    338.0,
+    523.9
+   ],
+   "tipo": "texto",
+   "texto": "0,0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    328.2,
+    479.9,
+    338.0,
+    489.5
+   ],
+   "tipo": "texto",
+   "texto": "0,2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    328.2,
+    445.4,
+    338.0,
+    455.0
+   ],
+   "tipo": "texto",
+   "texto": "0,4",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    328.2,
+    411.0,
+    338.0,
+    420.6
+   ],
+   "tipo": "texto",
+   "texto": "0,6",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    328.2,
+    376.6,
+    338.0,
+    386.2
+   ],
+   "tipo": "texto",
+   "texto": "0,8",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    328.2,
+    342.1,
+    338.0,
+    351.8
+   ],
+   "tipo": "texto",
+   "texto": "1,0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    337.3,
+    521.3,
+    519.2,
+    530.9
+   ],
+   "tipo": "texto",
+   "texto": "0,0\n0,2\n0,4\n0,6\n0,8\n1,0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    312.2,
+    429.7,
+    323.1,
+    437.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η2",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 40,
+   "bbox": [
+    424.6,
+    531.5,
+    431.9,
+    542.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η1",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 41,
+   "bbox": [
+    366.5,
+    485.1,
+    376.3,
+    494.7
+   ],
+   "tipo": "texto",
+   "texto": "1,1",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    395.6,
+    454.1,
+    409.2,
+    463.7
+   ],
+   "tipo": "texto",
+   "texto": "1,25",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    428.5,
+    423.1,
+    438.3,
+    432.7
+   ],
+   "tipo": "texto",
+   "texto": "1,5",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 44,
+   "bbox": [
+    450.7,
+    399.0,
+    464.3,
+    408.6
+   ],
+   "tipo": "texto",
+   "texto": "1,75",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 45,
+   "bbox": [
+    467.6,
+    386.9,
+    471.5,
+    396.5
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 46,
+   "bbox": [
+    481.9,
+    359.3,
+    499.1,
+    379.3
+   ],
+   "tipo": "texto",
+   "texto": "2,5\n3",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 47,
+   "bbox": [
+    507.2,
+    347.3,
+    511.1,
+    356.9
+   ],
+   "tipo": "texto",
+   "texto": "5",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 48,
+   "bbox": [
+    100.7,
+    546.7,
+    469.6,
+    555.6
+   ],
+   "tipo": "texto",
+   "texto": "Intraslacional 6.3.2.5-1\nTraslacional 6.3.2.5-2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 49,
+   "bbox": [
+    172.1,
+    561.9,
+    447.1,
+    572.0
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.4 Cocientes de longitud de pandeo a longitud de barra",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 50,
+   "bbox": [
+    78.0,
+    595.5,
+    393.4,
+    608.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "3\nLos coeficientes de distribución η1 y η2 anteriores se obtienen de:",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 51,
+   "bbox": [
+    133.1,
+    664.4,
+    210.7,
+    672.2
+   ],
+   "tipo": "texto",
+   "texto": "22\n21\n2\nc",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 52,
+   "bbox": [
+    108.8,
+    649.8,
+    185.0,
+    664.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nc\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 53,
+   "bbox": [
+    131.7,
+    634.4,
+    206.8,
+    642.2
+   ],
+   "tipo": "texto",
+   "texto": "12\n11\n1\nc",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 54,
+   "bbox": [
+    108.2,
+    619.9,
+    182.5,
+    634.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nc\n1",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 55,
+   "bbox": [
+    125.3,
+    659.2,
+    201.7,
+    670.3
+   ],
+   "tipo": "texto",
+   "texto": "K\nK\nK\nK",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 56,
+   "bbox": [
+    151.1,
+    644.6,
+    179.9,
+    655.7
+   ],
+   "tipo": "texto",
+   "texto": "K\nK",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 57,
+   "bbox": [
+    124.0,
+    629.2,
+    198.4,
+    640.4
+   ],
+   "tipo": "texto",
+   "texto": "K\nK\nK\nK",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 58,
+   "bbox": [
+    149.2,
+    614.7,
+    178.0,
+    625.8
+   ],
+   "tipo": "texto",
+   "texto": "K\nK",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 59,
+   "bbox": [
+    140.3,
+    658.2,
+    193.4,
+    670.4
+   ],
+   "tipo": "texto",
+   "texto": "+\n+\n+",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 60,
+   "bbox": [
+    102.4,
+    643.6,
+    171.6,
+    662.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "+\n=\nη",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 61,
+   "bbox": [
+    139.0,
+    628.2,
+    190.0,
+    640.5
+   ],
+   "tipo": "texto",
+   "texto": "+\n+\n+",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 62,
+   "bbox": [
+    102.4,
+    613.7,
+    169.6,
+    632.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "+\n=\nη",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 63,
+   "bbox": [
+    214.7,
+    636.7,
+    541.0,
+    648.0
+   ],
+   "tipo": "texto",
+   "texto": "(6.26)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 64,
+   "bbox": [
+    100.7,
+    679.0,
+    133.0,
+    690.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 65,
+   "bbox": [
+    100.7,
+    696.5,
+    380.4,
+    708.5
+   ],
+   "tipo": "texto",
+   "texto": "Kc\ncoeficiente de rigidez EI/L del tramo de pilar analizado;",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 66,
+   "bbox": [
+    100.7,
+    714.0,
+    537.1,
+    726.0
+   ],
+   "tipo": "texto",
+   "texto": "Ki\ncoeficiente de rigidez EI/L del siguiente tramo de pilar en el nudo i, nulo caso de no existir;",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 67,
+   "bbox": [
+    100.7,
+    731.5,
+    420.9,
+    743.4
+   ],
+   "tipo": "texto",
+   "texto": "Kij\ncoeficiente de rigidez eficaz de la viga en el nudo i, y posición j.",
+   "tamano": 10.1,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

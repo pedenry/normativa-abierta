@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0206",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología",
+  "titulo": "Anejo A. Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 141,
+   "bbox": [
+    74.1,
+    97.6,
+    226.5,
+    113.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "cce4f93854073fd80fb3f9805d1527c76bad730d1b7a7d5fcf81fd4dacb0186e",
+   "literal": "Anejo A. Terminología"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0207",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB SE"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "Anejo A. Terminología",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f3f9d35ae717c79301fa0caf3f4a585fabb63e17e21f69a203d8ea2038a8ceca"
+ },
+ "paginas": [
+  141,
+  143
+ ],
+ "etiquetas_impresas": [
+  "141",
+  "143"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo A. Terminología\n1\nLos términos utilizados en este DB se ajustan a las definiciones contenidas en el DB SE.\n2\nUnión de fuerza: la destinada a transmitir los esfuerzos resultantes del análisis global entre los dis-\ntintos elementos de la estructura.\n3\nUnión de atado: la que no se proyecta con tal finalidad sino con la de mantener unidos y en su po-\nsición inicial tales elementos.\n4\nEmpalme: unión de fuerza entre piezas en prolongación.\n5\nDaño de fatiga: en un elemento estructural es el debido a la iniciación y/o propagación de fisuras\nprovocadas por la fluctuación repetida de tensiones.\n6\nControl de calidad: conjunto de actividades que, desarrolladas a lo largo de todo el proceso de\nconstrucción, tienen como objetivo comprobar que el edificio cumple lo especificado en este DB\n(bien de forma directa bien mediante referencia a otros documentos), así como lo contenido en el\npliego de condiciones\n\nDocumentoBásico SE-A Acero\nSE-A-141",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SE",
+  "DB se"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

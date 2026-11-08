@@ -1,0 +1,634 @@
+{
+ "documento": null,
+ "pagina": 37,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.9,
+    35.3,
+    366.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 31",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    82.3,
+    209.4,
+    92.3
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3  Vuelco lateral de vigas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    109.0,
+    239.9,
+    118.9
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3.1  Consideraciones generales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    127.4,
+    541.3,
+    160.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nNo será necesaria la comprobación a vuelco lateral en aquellas vigas o piezas en las que se impide\nel desplazamiento lateral de la pieza de forma continua o casi continua (como en el caso de diafrag-\nmas definido en 10.4.1.2).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    168.0,
+    538.5,
+    189.3
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn este apartado se incluye la comprobación al vuelco lateral por torsión para los dos casos siguien-\ntes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    196.9,
+    346.2,
+    206.9
+   ],
+   "tipo": "texto",
+   "texto": "a) flexión respecto al eje fuerte (y-y), con momento My,d;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    214.4,
+    397.2,
+    224.4
+   ],
+   "tipo": "texto",
+   "texto": "b) flexión My,d combinada con un esfuerzo axial de compresión Nc,d.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    238.9,
+    169.3,
+    248.9
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3.2  Definiciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    257.4,
+    207.8,
+    267.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEsbeltez relativa a flexión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    88.8,
+    274.3,
+    507.2,
+    285.7
+   ],
+   "tipo": "texto",
+   "texto": "La esbeltez relativa a flexión, rel,m, de una viga se determina mediante la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    92.5,
+    300.6,
+    136.8,
+    320.0
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    136.8,
+    313.3,
+    153.9,
+    320.3
+   ],
+   "tipo": "texto",
+   "texto": "crit\nm,",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    98.2,
+    295.4,
+    541.3,
+    312.4
+   ],
+   "tipo": "texto",
+   "texto": "k\nm,\nm\nrel,\nf\n =\n (6.36)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    91.3,
+    327.2,
+    126.0,
+    337.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    90.1,
+    342.7,
+    277.7,
+    352.7
+   ],
+   "tipo": "texto",
+   "texto": "fm,k\nresistencia característica a flexión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    90.1,
+    357.4,
+    541.3,
+    391.9
+   ],
+   "tipo": "texto",
+   "texto": "m,crit\ntensión crítica a flexión calculada de acuerdo con la teoría de la estabilidad elástica, utilizando\nlos valores característicos de los módulos de elasticidad, que en piezas de directriz recta y\nsección constante puede obtenerse a partir de la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    224.4,
+    422.7,
+    267.5,
+    429.6
+   ],
+   "tipo": "texto",
+   "texto": "y\nef\nv",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    223.1,
+    406.6,
+    286.6,
+    413.6
+   ],
+   "tipo": "texto",
+   "texto": "tor\nk,\n0\nz\nk,\n0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    176.3,
+    422.7,
+    179.8,
+    429.6
+   ],
+   "tipo": "texto",
+   "texto": "y",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    131.8,
+    407.1,
+    263.8,
+    427.8
+   ],
+   "tipo": "texto",
+   "texto": "crit\n,y\ncrit\n,\nm\nW\nL",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    216.1,
+    401.7,
+    278.3,
+    411.7
+   ],
+   "tipo": "texto",
+   "texto": "I\nG\nI\nE",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    166.7,
+    417.8,
+    176.1,
+    427.8
+   ],
+   "tipo": "texto",
+   "texto": "W",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    161.2,
+    402.2,
+    169.5,
+    412.2
+   ],
+   "tipo": "texto",
+   "texto": "M",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    218.4,
+    416.3,
+    252.6,
+    427.7
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    125.5,
+    400.2,
+    541.3,
+    420.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n\n\n\n(6.37)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    123.8,
+    438.5,
+    158.5,
+    448.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    125.3,
+    453.9,
+    375.6,
+    463.9
+   ],
+   "tipo": "texto",
+   "texto": "E0,k\nmódulo de elasticidad longitudinal característico;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    125.3,
+    469.4,
+    373.0,
+    479.4
+   ],
+   "tipo": "texto",
+   "texto": "G0,k\nmódulo de elasticidad transversal característico;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    125.3,
+    484.3,
+    541.3,
+    507.1
+   ],
+   "tipo": "texto",
+   "texto": "v\ncoeficiente que define la longitud eficaz a vuelco lateral. Depende de las condiciones\nde apoyo y de la ley de cargas, tabla 6.2;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    125.3,
+    512.7,
+    343.3,
+    522.7
+   ],
+   "tipo": "texto",
+   "texto": "Iz\nmomento de inercia respecto al eje débil;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    125.3,
+    528.2,
+    244.3,
+    538.2
+   ],
+   "tipo": "texto",
+   "texto": "Itor\nmódulo de torsión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    125.3,
+    543.7,
+    348.6,
+    553.7
+   ],
+   "tipo": "texto",
+   "texto": "Lef\nlongitud eficaz de vuelco lateral de la viga:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    125.3,
+    558.4,
+    541.3,
+    569.9
+   ],
+   "tipo": "texto",
+   "texto": "Lef = v·L\n(6.38)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    123.6,
+    575.5,
+    156.6,
+    585.5
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    123.6,
+    591.0,
+    209.6,
+    600.9
+   ],
+   "tipo": "texto",
+   "texto": "L\nluz de la viga;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    123.6,
+    605.7,
+    541.3,
+    628.7
+   ],
+   "tipo": "texto",
+   "texto": "v\ncoeficiente que depende de las condiciones de carga y de la restricción de los extremos,\nobtenido según tabla 6.2;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    124.9,
+    634.2,
+    325.1,
+    644.1
+   ],
+   "tipo": "texto",
+   "texto": "Wy  módulo resistente respecto al eje fuerte.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    88.8,
+    650.6,
+    541.3,
+    672.1
+   ],
+   "tipo": "texto",
+   "texto": "La tensión crítica de flexión en piezas de madera de conífera de directriz recta y sección rectangular,\npuede obtenerse a partir de la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    160.8,
+    695.2,
+    186.4,
+    705.2
+   ],
+   "tipo": "texto",
+   "texto": "h\nL",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    131.3,
+    679.8,
+    185.1,
+    697.4
+   ],
+   "tipo": "texto",
+   "texto": "b\nE\n78\n,0",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 41,
+   "bbox": [
+    167.3,
+    700.1,
+    173.1,
+    707.1
+   ],
+   "tipo": "texto",
+   "texto": "ef",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    102.1,
+    677.5,
+    189.6,
+    705.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nk,\n0\ncrit\n,\nm\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    95.5,
+    678.3,
+    541.3,
+    697.4
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n(6.39)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 44,
+   "bbox": [
+    90.1,
+    711.7,
+    124.8,
+    721.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 45,
+   "bbox": [
+    93.8,
+    727.2,
+    328.9,
+    737.1
+   ],
+   "tipo": "texto",
+   "texto": "E0,k  módulo de elasticidad longitudinal característico;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 46,
+   "bbox": [
+    93.8,
+    742.7,
+    215.3,
+    752.6
+   ],
+   "tipo": "texto",
+   "texto": "b\nanchura de la sección;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 47,
+   "bbox": [
+    93.8,
+    758.3,
+    237.7,
+    768.2
+   ],
+   "tipo": "texto",
+   "texto": "h\naltura (canto) de la sección.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

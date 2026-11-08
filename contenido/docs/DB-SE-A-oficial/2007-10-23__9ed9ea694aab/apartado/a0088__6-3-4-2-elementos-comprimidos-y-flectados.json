@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0088",
+  "ruta_oficial": "6.3.4.2",
+  "ruta_semantica": "6.3.4.2 Elementos comprimidos y flectados",
+  "titulo": "6.3.4.2 Elementos comprimidos y flectados",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.4.2 Elementos comprimidos y flectados",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 50,
+   "bbox": [
+    78.0,
+    469.6,
+    285.4,
+    480.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ae9f382b2be8ec1c558b33e35b1c22057813f9753f2e38b8311ff7299e598a92",
+   "literal": "6.3.4.2 Elementos comprimidos y flectados"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0087",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.4.2 Elementos comprimidos y flectados",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección en doble T / 6.3.4 Interacción de esfuerzos en piezas 6.3.4.1 Elementos flectados y traccionados / 6.3.4.2 Elementos comprimidos y flectados",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ddc8951524c3a3d72df4a629195e950ba3ab4be065b7c7d7d33a57edbb1ee8da"
+ },
+ "paginas": [
+  50,
+  51,
+  52
+ ],
+ "etiquetas_impresas": [
+  "50",
+  "51",
+  "52"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.3.4.2 Elementos comprimidos y flectados\n1\nA menos que se lleve a cabo un estudio más preciso mediante el procedimiento general descrito\nen 5.4, las comprobaciones de estabilidad de pieza se realizarán aplicando las fórmulas que se\nindican a continuación, distinguiendo entre las que sean sensibles o no a la torsión (por ejemplo\nsecciones abiertas o cerradas respectivamente).\nLa comprobación se llevará a cabo con las fórmulas siguientes:\nPara toda pieza:\n1\nf\nW\nN\ne\nM\nc\nk\nf\nW\nN\ne\nM\nc\nk\nf\nA\nN\nyd\nz\nEd\nz,\nN\nEd\n,z\nz,\nm\nz\nz\nyd\ny\nLT\nEd\ny,\nN\nEd\n,y\ny,\nm\ny\nyd\n*\ny\nEd\n≤\n⋅\n⋅\n+\n⋅\n⋅\n⋅\nα\n+\n⋅\nχ\n⋅\n+\n⋅\n⋅\n+\n⋅\n⋅\nχ\n(6.51)\nAdemás, sólo en piezas no susceptibles de pandeo por torsión\n1\nf\nW\nN\ne\nM\nc\nk\nf\nW\nN\ne\nM\nc\nk\nf\nA\nN\nyd\nz\nEd\nz,\nN\nEd\n,z\nz,\nm\nz\nyd\ny\nEd\ny,\nN\nEd\n,y\ny,\nm\ny\ny\nyd\n*\nz\nEd\n≤\n⋅\n⋅\n+\n⋅\n⋅\n+\n⋅\n⋅\n+\n⋅\n⋅\n⋅\nα\n+\n⋅\n⋅\nχ\n(6.52)\nAdemás, sólo en piezas susceptibles de pandeo por torsión\n1\nf\nW\nN\ne\nM\nc\nk\nf\nW\nN\ne\nM\nk\nf\nA\nN\nyd\nz\nEd\nz,\nN\nEd\n,z\nz,\nm\nz\nyd\ny\nLT\nEd\ny,\nN\nEd\n,y\nyLT\nyd\n*\nz\nEd\n≤\n⋅\n⋅\n+\n⋅\n⋅\n+\n⋅\nχ\n⋅\n+\n⋅\n+\n⋅\n⋅\nχ\n(6.53)\ndonde\n\nDocumentoBásico SE-A Acero\nSE-A-49\nNEd, My,Ed, Mz,Ed son los valores de la fuerza axial y de los momentos de cálculo de mayor valor\nabsoluto de la pieza,\n1\nM\ny\nyd\n/\nf\nf\nγ\n=\n,\nlos valores de A*; Wy; Wz;\ny\nα;\nz\nα; eN,y; eN,z están indicados en la tabla 6.8;\nχy y χz\nson los coeficientes de pandeo en cada dirección;\nLT\nχ\nes el coeficiente de pandeo lateral, según 6.3.3; se tomará igual a 1,00 en piezas no\nsusceptibles de pandeo por torsión.\neN,y y eN,z\ndesplazamientos del centro de gravedad de la sección transversal efectiva con res-\npecto a la posición del centro de gravedad de la sección transversal bruta, en piezas\ncon secciones de clase 4.\nLos coeficientes ky, kz, kyLT se indican en la tabla 6.9.\nLos factores de momento flector uniforme equivalente cm,y,  cm,z, cmLT se obtienen de la tabla 6.10\nen función de la forma del diagrama de momentos flectores entre puntos arriostrados tal como se\nindica en la tabla.\nEn las barras de pórticos de estructuras sin arriostrar con longitudes de pandeo superiores a la de\nlas propias barras debe tomarse:\ncm = 0,9\n(6.53)\nTabla 6.8 Términos de comprobación, según peor clase de sección en la pieza\nClase\nA*\nWy\nWz\nαy\nαz\neN,y\neN,z\n1\nA\ny,\npl\nW\nz,\npl\nW\n0,6\n0,6\n0\n0\n2\nA\ny,\npl\nW\nz,\npl\nW\n0,6\n0,6\n0\n0\n3\nA\ny,\nel\nW\nz,\nel\nW\n0,8\n1\n0\n0\n4\nAeff\ny,\neff\nW\nz,\neff\nW\n0,8\n1\nSegún pieza\ny tensiones\nSegún pieza\ny tensiones\n\nDocumentoBásico SE-A Acero\nSE-A-50\nTabla 6.9 Coeficientes de interacción según peor clase de sección en la pieza\nCla-\nse\nTipo de\nsec-\nción\nky\nkz\nkyLT\nI, H,\nabier-\ntas",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0050.png",
+  "../figura/p0051.png",
+  "../figura/p0052.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

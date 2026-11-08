@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0065",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.4 Niveles de fiabilidad",
+  "titulo": "C.4 Niveles de fiabilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.4 Niveles de fiabilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    70.9,
+    109.7,
+    211.7,
+    121.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f603731973b1a13d2d6dfca1bd0886e635b33de56c5ec1c53559996f12c74ba1",
+   "literal": "C.4 Niveles de fiabilidad"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.4 Niveles de fiabilidad",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.4 Niveles de fiabilidad",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2c9583202663acbc07f1e3b77bfa4a68cd1dfb78e6b2311f178a5a28547f888d"
+ },
+ "paginas": [
+  31,
+  32
+ ],
+ "etiquetas_impresas": [
+  "3",
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "C.4 Niveles de fiabilidad\nC.4.1 Seguridad de las personas\n1\nLa fiabilidad estructural está relacionada, en primer lugar, con la posibilidad de que se produzcan\ndaños personales (muertos, heridos) como consecuencia de un colapso.\nSe puede determinar un valor máximo aceptable para la probabilidad de fallo a partir de una compa-\nración con los riesgos mortales asociados con otras actividades de la vida diaria (por ejemplo viajar\nen coche). A estos efectos, se debe distinguir entre los riesgos mortales desde el punto de vista de\nlas personas como individuos (riesgo mortal individual) y desde el punto de vista de la sociedad\n(riesgo colectivo para las personas).\n2\nPara el riesgo mortal individual asociado con el colapso de las estructuras se podría asumir un valor\nadmisible que esté aproximadamente dos órdenes de magnitud por debajo del valor total del riesgo\nmortal individual asociado con accidentes en general.\nLa probabilidad de fallo admisible para una estructura depende de la probabilidad condicional de\nque una persona muera dado el colapso de esta estructura, y del riesgo mortal individual admisible\nasociado a los edificios\nP(f | año)·P(d | f)  ≤ ri,adm\n(C.6)\nsiendo\nP(f  año) probabilidad de fallo de la estructura para un periodo de referencia de un año\nP(d  f)\nprobabilidad de que un usuario del edificio, presente en el momento del colapso, en-\ncuentre la muerte, dado el colapso del edificio (probabilidad condicional)\nri,adm\nriesgo mortal individual admisible, asociado con el comportamiento estructural, expresa-\ndo en términos de [(número de muertos) / (106 · año)].\n3\nEl requisito (C.6) se refiere a un periodo de un año y se debería considerar como un valor medio\nsobre un determinado periodo de referencia (por ejemplo el periodo de servicio previsto o, alternati-\nvamente, un periodo del orden de 10 a 20 años). En términos generales, serían aceptables desvia-\nciones de este valor medio anual. Sin embargo, sólo se podrían aceptar valores superiores, para un\nperiodo de tiempo mucho más breve que el periodo de referencia.\n4\nDesde el punto de vista social, se deben evitar accidentes (frecuentes) con un gran número de\nmuertos. A estos efectos, se deberá cumplir la condición\nP(f | año) ≤ A·N-\n(C.7)\nsiendo\nP(f | año) probabilidad de fallo de la estructura para un periodo de referencia de un año\nN\nnúmero supuesto de muertos\nA\nconstante (por ejemplo A = 0,01 a 0,1)\n\nconstante (por ejemplo  = 1 a 2)\n5\nSe puede admitir una probabilidad de fallo estructural que supere el valor más restrictivo de los\ndeducidos de las condiciones (C.6) y (C.7) si se adoptan medidas de protección específicas (por\nejemplo un plan de evacuación en caso de emergencia), con el fin de cumplir con los requisitos re-\nlativos a el riesgo mortal individual y el riesgo colectivo para las personas.\nC.4.2 Optimización económica\n1\nDesde el punto de vista económico, el nivel de fiabilidad requerido se puede determinar estable-\nciendo un equilibrio entre las consecuencias de un fallo estructural de un edificio y el coste de las\nmedidas de protección y de seguridad.\n2\nEl objetivo de una optimización económica consiste en minimizar el coste total acumulado durante\nel periodo de servicio previsto. Formalmente, el coste total se puede representar mediante la rela-\nción\nCtot = Cb + Cm + (Pf · Cf)\n(C.8)\nsiendo\n\nDocumento Básico SE Seguridad Estructural\nSE - 26\nCtot\ncoste total\nCb\ncoste del proyecto y de la ejecución\nCm\ncoste previsto para la inspección, al mantenimiento y la demolición\nCf\ncoste del fallo\nPf\nprobabilidad de fallo\nLa suma (Pf · Cf) se debe establecer para todas las situaciones de riesgo independientes y todos\nlos posibles mecanismos de fallo.\nEsta representación del coste total tiene un alto grado de simplificación y se debe detallar más a\nefectos de su aplicación práctica.\n3\nEn los casos en los que el fallo (colapso) estructural pueda afectar a las personas (caso normal),\nademás de los criterios económicos, la estructura deberá cumplir con los requisitos relacionados\ncon la fiabilidad mínima. En estos casos, la optimización condicional se puede llevar a cabo para la\nrelación (C.8), siempre y cuando se cumpla con los requisitos deducidos de (C.6) y (C.7).\n4\nEn algunos casos, el coste del riesgo ((Pf · Cf)) puede estar cubierto por un seguro.\nC.4.3 Valores numéricos\n1\nLos valores numéricos relativos a la fiabilidad de una estructura se expresan a menudo en términos\ndel índice de fiabilidad, β, relacionado con la probabilidad de fallo, Pf, a través de",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0031.png",
+  "../figura/p0032.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

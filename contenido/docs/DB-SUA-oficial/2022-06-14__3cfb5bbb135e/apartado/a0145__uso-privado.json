@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0145",
+  "ruta_oficial": null,
+  "ruta_semantica": "Uso privado",
+  "titulo": "Uso privado",
+  "nivel": 2,
+  "parent_id": "a0139",
+  "seccion_estimada": "Uso privado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    70.9,
+    640.2,
+    134.3,
+    651.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "6bc0a1025fbd9f8d9e752055d384704c3006676ece644923d6f9ab9f6124165e",
+   "literal": "Uso privado"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0107",
+  "parent_id_original": "a0139",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB SI",
+   "DB-SUA"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Uso privado",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0139",
+   "ruta_semantica": "Anejo A. Terminología / Uso privado",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "35bea66d277cf3c58547e84755bfddb1e93e3ffffa06c6cb4c04aca18967f1b3"
+ },
+ "paginas": [
+  39
+ ],
+ "etiquetas_impresas": [
+  "39"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Documento Básico SUA Seguridad de utilización y accesibilidad\nAnejo A. Terminología\n39\nUso Administrativo\nEdificio, establecimiento o zona en la que se desarrollan actividades de gestión o de servicios en cual-\nquiera de sus modalidades, como por ejemplo, centros de la administración pública, bancos, despachos\nprofesionales, oficinas, etc.\nTambién se consideran dentro de este uso los establecimientos destinados a otras actividades, cuando\nsus características constructivas y funcionales, el riesgo derivado de la actividad y las características de\nlos ocupantes se puedan asimilar a este uso mejor que a cualquier otro. Como ejemplo de dicha asimila-\nción pueden citarse los centros docentes en régimen de seminario, etc.\nA diferencia del uso Administrativo definido en el anejo A de Terminología del DB SI, los consultorios, los\ncentros de análisis clínicos y los ambulatorios cumplirán las condiciones establecidas para el uso Sanita-\nrio en este DB.\nUso Aparcamiento\nEdificio, establecimiento o zona independiente o accesoria de otro uso principal, destinado a estaciona-\nmiento de vehículos y cuya superficie construida exceda de 100 m2, incluyendo las dedicadas a revisio-\nnes tales como lavado, puesta a punto, montaje de accesorios, comprobación de neumáticos y faros,\netc., que no requieran la manipulación de productos o de útiles de trabajo que puedan presentar riesgo\nadicional y que se produce habitualmente en la reparación propiamente dicha. Se excluyen de este uso\nlos garajes, cualquiera que sea su superficie, de una vivienda unifamiliar, así como del ámbito de aplica-\nción del DB-SUA, los aparcamientos robotizados.\nUso Comercial\nEdificio o establecimiento cuya actividad principal es la venta de productos directamente al público o la\nprestación de servicios relacionados con los mismos, incluyendo, tanto las tiendas y a los grandes alma-\ncenes, los cuales suelen constituir un único establecimiento con un único titular, como los centros co-\nmerciales, los mercados, las galerías comerciales, etc.\nTambién se consideran de uso Comercial aquellos establecimientos en los que se prestan directamente\nal público determinados servicios no necesariamente relacionados con la venta de productos, pero cuyas\ncaracterísticas constructivas y funcionales, las del riesgo derivado de la actividad y las de los ocupantes\nse puedan asimilar más a las propias de este uso que a las de cualquier otro. Como ejemplos de dicha\nasimilación pueden citarse las lavanderías, los salones de peluquería, etc.\nUso Docente\nEdificio, establecimiento o zona destinada a docencia en cualquiera de sus niveles: escuelas infantiles,\ncentros de enseñanza primaria, secundaria, universitaria o formación profesional. No obstante, los esta-\nblecimientos docentes que no tengan la característica propia de este uso (básicamente, el predominio de\nactividades en aulas de elevada densidad de ocupación) deben asimilarse a otros usos.\nUso general\nUtilización de las zonas o elementos que no sean de uso restringido.\nUso privado\nZonas o elementos que no sean de uso público, tales como:\n-\nen uso Administrativo las áreas de trabajo e instalaciones que no presten servicios directos al públi-\nco;\n-\nen uso Aparcamiento los aparcamientos privados;\n-\nen uso Comercial y uso Pública Concurrencia las zonas de no acceso al público como trastiendas,\nalmacenes, camerinos, oficinas, etc.;\n-\nen uso Docente los despachos, etc.;",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SI",
+  "DB-SUA"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

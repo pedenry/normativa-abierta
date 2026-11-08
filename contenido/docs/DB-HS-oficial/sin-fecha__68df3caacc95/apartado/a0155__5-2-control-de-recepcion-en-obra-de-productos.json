@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0155",
+  "ruta_oficial": "5.2",
+  "ruta_semantica": "5.2 Control de recepción en obra de productos",
+  "titulo": "5.2 Control de recepción en obra de productos",
+  "nivel": 1,
+  "parent_id": "a0139",
+  "seccion_estimada": "5.2 Control de recepción en obra de productos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 73,
+   "bbox": [
+    70.9,
+    320.4,
+    343.1,
+    333.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5da867dbdf4dea3f0b683094156ab8813d75383fe9042ed23588d74090b2f118",
+   "literal": "5.2 Control de recepción en obra de productos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0139",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "artículo 7"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2 Control de recepción en obra de productos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0139",
+   "ruta_semantica": "Sección HS3 / 5.2 Control de recepción en obra de productos",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a2f0f4c0424ad7b7f5f117822e83fdcec9260bb488faea356145a19b6942bc2c"
+ },
+ "paginas": [
+  73
+ ],
+ "etiquetas_impresas": [
+  "73"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "5.2 Control de recepción en obra de productos\n1\nEn el pliego de condiciones del proyecto deben indicarse las condiciones particulares de control\npara la recepción de los productos, incluyendo los ensayos necesarios para comprobar que los\nmismos reúnen las características exigidas en los apartados anteriores.\n2\nDebe comprobarse que los productos recibidos:\na)\ncorresponden a los especificados en el pliego de condiciones del proyecto;\nb)\ndisponen de la documentación exigida;\nc)\nestán caracterizados por las propiedades exigidas;\nd)\nhan sido ensayados, cuando así se establezca en el pliego de condiciones o lo determine el di-\nrector de la ejecución de la obra con el visto bueno del director de obra, con la frecuencia es-\ntablecida.\n3\nEn el control deben seguirse los criterios indicados en el artículo 7.2 de la parte I del CTE.\n6",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "artículo 7"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0156"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

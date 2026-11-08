@@ -1,0 +1,88 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0133",
+  "ruta_oficial": "2.2.4",
+  "ruta_semantica": "2.2.4 Condiciones particulares de las estaciones de carga de los sistemas neumáticos",
+  "titulo": "2.2.4 Condiciones particulares de las estaciones de carga de los sistemas neumáticos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2.4 Condiciones particulares de las estaciones de carga de los sistemas neumáticos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 56,
+   "bbox": [
+    70.9,
+    253.4,
+    486.6,
+    264.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "390222c127f960f14aedd5d62ab9559d53e620a3042f639dacce7dc903b49c41",
+   "literal": "2.2.4 Condiciones particulares de las estaciones de carga de los sistemas neumáticos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE 20"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2.4 Condiciones particulares de las estaciones de carga de los sistemas neumáticos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva / sección no menor que 350 cm2. / 2.2.4 Condiciones particulares de las estaciones de carga de los sistemas neumáticos",
+   "seccion_estimada": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1b85370e0291616cc9d5de77cd36ce457bfc116e7563a77fb37ef2ad2b6e82d0"
+ },
+ "paginas": [
+  56
+ ],
+ "etiquetas_impresas": [
+  "56"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2.2.4 Condiciones particulares de las estaciones de carga de los sistemas neumáticos\n1\nLa estación de carga debe disponer de un tramo vertical de 2,5 m de bajante para almacenamiento\nde los residuos, una válvula de residuos situada en el extremo inferior del tramo vertical y una vál-\nvula de aire situada a la misma altura que la válvula de residuos.\n2\nLas estaciones de carga deben situarse en un recinto que tenga las siguientes características:\na)\nlos cerramientos deben dimensionarse para una depresión de 2,95 kPa como mínimo;\nb)\ndebe disponer de una iluminación artificial que proporcione 100 lux como mínimo a una altura\nrespecto del suelo de 1 m y de una base de enchufe fija 16A 2p+T según UNE 20.315:1994;\nc)\ndebe disponer de una puerta de acceso batiente hacia fuera;\nd)\nel revestimiento de las paredes y el suelo debe ser impermeable y fácil de limpiar y el de aquel\núltimo debe ser además antideslizante; los encuentros entre las paredes y el suelo deben ser\nredondeados;\ne)\ndebe contar al menos con una toma de agua dotada de válvula de cierre y un desagüe antimú-\nridos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE 20"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0056.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

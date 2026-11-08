@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0143",
+  "ruta_oficial": null,
+  "ruta_semantica": "Caracterización y cuantificación de la exigencia",
+  "titulo": "Caracterización y cuantificación de la exigencia",
+  "nivel": 1,
+  "parent_id": "a0142",
+  "seccion_estimada": "Caracterización y cuantificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 63,
+   "bbox": [
+    70.9,
+    683.2,
+    423.4,
+    698.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a395c0b39733513e5aaf4cc8bec45cac4974242395ed3bf86f8fcfa92af23081",
+   "literal": "Caracterización y cuantificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0142",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Caracterización y cuantificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0142",
+   "ruta_semantica": "Sección HS3 / 1.2 Procedimiento de verificación / Caracterización y cuantificación de la exigencia",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1878a075b3d39c595c76e8465d8c037521509f690f7cec6adf58364177db90a1"
+ },
+ "paginas": [
+  63,
+  64,
+  65
+ ],
+ "etiquetas_impresas": [
+  "63",
+  "64",
+  "65"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Caracterización y cuantificación de la exigencia\n1\nEn los locales habitables de las viviendas debe aportarse un caudal de aire exterior suficiente para\nconseguir que en cada local la concentración media anual de CO2 sea menor que 900 ppm y que el\nacumulado anual de CO2 que exceda 1.600 ppm sea menor que 500.000 ppm·h, en ambos casos\ncon las condiciones de diseño del apéndice C.\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n64\n2\nAdemás, el caudal de aire exterior aportado debe ser suficiente para eliminar los contaminantes no\ndirectamente relacionados con la presencia humana. Esta condición se considera satisfecha con el\nestablecimiento de un caudal mínimo de 1,5 l/s por local habitable en los periodos de no ocupación.\n3\nLas dos condiciones anteriores se consideran satisfechas con el establecimiento de una ventilación\nde caudal constante acorde con la tabla 2.1.\nTabla 2.1 Caudales mínimos para ventilación de caudal constante en locales habitables\nCaudal mínimo qv en l/s\nTipo de vivienda\nLocales secos (1)(2)\nLocales húmedos (2)\nDormitorio\nprincipal\nResto de\ndormitorios\nSalas de estar y\ncomedores (3)\nMínimo en\ntotal\nMínimo por\nlocal\n0 ó 1 dormitorios\n8\n-\n6\n12\n6\n2 dormitorios\n8\n4\n8\n24\n7\n3 o más dormitorios\n8\n4\n10\n33\n8\n(1)En los locales secos de las viviendas destinados a varios usos se considera el caudal correspondiente al uso para el que\nresulte un caudal mayor\n(2)Cuando en un mismo local se den usos de local seco y húmedo, cada zona debe dotarse de su caudal correspondiente\n(3)Otros locales pertenecientes a la vivienda con usos similares (salas de juego, despachos, etc.)\n4\nEn la zona de cocción de las cocinas debe disponerse un sistema que permita extraer los contami-\nnantes que se producen durante su uso, de forma independiente a la ventilación general de los loca-\nles habitables. Esta condición se considera satisfecha si se dispone de un sistema en la zona de\ncocción que permita extraer un caudal mínimo de 50 l/s.\n5\nPara los locales no habitables incluidos en el ámbito de aplicación debe aportarse al menos el cau-\ndal de aire exterior suficiente para eliminar los contaminantes propios del uso de cada local. En el\ncaso de trasteros, sus zonas comunes y almacenes de residuos los contaminantes principales son\nla humedad, los olores y los compuestos orgánicos volátiles. En el caso de los aparcamientos y ga-\nrajes son el monóxido de carbono y los óxidos de nitrógeno.\n6\nEsta condición se considera satisfecha si el sistema de ventilación es capaz de establecer al menos\nlos caudales de ventilación de la tabla 2.2., ya sea mediante ventilación de caudal constante o venti-\nlación de caudal variable controlada mediante detectores de presencia, detectores de contaminan-\ntes, programación temporal u otro tipo de sistema.\nTabla 2.2 Caudalesde ventilación mínimos en locales no habitables\nCaudal mínimo qv en l/s\nLocales\nPor m2 útil\nEn función de\notros parámetros\nTrasteros y sus zonas comunes\n0,7\nAparcamientos y garajes\n120 por plaza\nAlmacenes de residuos\n10\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n65\n3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0064_t01.json",
+  "../tabla/p0064_t02.json",
+  "../tabla/p0065_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0064.png",
+  "../figura/p0065.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

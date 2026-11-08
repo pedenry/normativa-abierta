@@ -1,0 +1,80 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0195",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p117",
+  "titulo": "> 40",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p117",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p117",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / > 40",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f6f62fef73e4fbcca70d3b319abb586f9571d3d4a02a479f5ee64e6d57b96c4d"
+ },
+ "paginas": [
+  117
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "> 40\nResistencia (característica), en N/mm2\n- Flexión\nfm,p,k\n14,2\n12,5\n10,8\n9,2\n7,5\n5,8\n- Tracción\nft,p,k\n8,9\n7,9\n6,9\n6,1\n5,0\n4,4\n- Compresión\nfc,p,k\n12,0\n11,1\n9,6\n9,0\n7,6\n6,1\n- Cortante, en el grueso\nfv,p,k\n6,6\n6,1\n5,5\n4,8\n4,4\n4,2\n- Cortante, en el plano\nfr,p,k\n1,8\n1,6\n1,4\n1,2\n1,1\n1,0\nRigidez (media), en N/mm2\n- A flexión\nEm,p\n3200\n2900\n2700\n2400\n2100\n1800\n- A tracción\nEt,p\n1800\n1700\n1600\n1400\n1200\n1100\n- A compresión\nEc,p\n1800\n1700\n1600\n1400\n1200\n1100\n- A cortante, en el grueso\nGv,p\n860\n830\n770\n680\n600\n550\nDensidad, en kg/m3\n- Característica\np,k\n650\n600\n550\n550\n500\n500\nTabla E.6 Tableros de partículas estructurales para su uso en ambiente húmedo (UNE-EN 312:2010, tipo P5).",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0117_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0117.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

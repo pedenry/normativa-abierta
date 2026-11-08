@@ -1,0 +1,153 @@
+{
+ "documento": null,
+ "pagina": 165,
+ "etiqueta_impresa": "165",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    298.2,
+    792.0,
+    335.6,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-163",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    87.5,
+    184.1,
+    100.9
+   ],
+   "tipo": "texto",
+   "texto": "C.4 Comprobación",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    109.2,
+    541.4,
+    143.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nSon admisibles los formatos de acumulación de daño o de carrera equivalente. Comprende los si-\nguientes pasos, cada uno de los cuales se reflejará en el apartado correspondiente de la memoria\ndel proyecto:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    96.8,
+    149.7,
+    541.4,
+    195.4
+   ],
+   "tipo": "texto",
+   "texto": "a)\ndefinición del registro elemental de cargas (por ejemplo, cada pasada del carro en un puente\ngrúa) y del número de veces que se repite a lo largo de la vida útil de la estructura. La defini-\nción del registro de cargas y del número de repeticiones vendrá dada en cada caso por las\nespecificaciones particulares del sistema;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.8,
+    201.6,
+    541.5,
+    270.3
+   ],
+   "tipo": "texto",
+   "texto": "b)\ndefinición de los detalles estructurales a comprobar (por ejemplo, los cordones de ala de un\nempalme soldado en una viga carrilera) y obtención del registro elemental de tensiones (por\nejemplo, las tensiones normales en las alas en la sección del citado empalme). El procedi-\nmiento de cálculo de tensiones seguirá lo establecido en los apartados precedentes y tendrá\nen cuenta, cuando proceda, los posibles efectos de amplificación por el carácter dinámico de\nlas acciones;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    276.6,
+    541.4,
+    333.9
+   ],
+   "tipo": "texto",
+   "texto": "c)\ndeterminación del número de ciclos y de su amplitud (carrera). Son aceptables los métodos de\n“vaciado de la alberca” o de “flujo de agua”. No es necesario considerar los ciclos cuyas carre-\nras sean inferiores al límite de corte. El resultado de esta operación, ponderado por el número\nde veces que se repite el ciclo de carga a lo largo de la vida útil de la estructura, se representa\nen forma de espectro;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.8,
+    340.1,
+    320.2,
+    351.3
+   ],
+   "tipo": "texto",
+   "texto": "d)\ndibujo del espectro de amplitudes (carreras);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    96.8,
+    357.6,
+    541.4,
+    393.4
+   ],
+   "tipo": "texto",
+   "texto": "e)\nobtención, para cada carrera de tensiones, del número de ciclos hasta fallo. Entrando en las\ncurvas S-N correspondientes al detalle analizado con la carrera de tensión de cálculo (multi-\nplicada por γFf) se obtiene el número de ciclos a fallo NRi;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.8,
+    398.9,
+    440.2,
+    410.1
+   ],
+   "tipo": "texto",
+   "texto": "f)\nobtención del daño acumulado conforme a la regla de Palmgren- Miner.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.1,
+    416.4,
+    541.4,
+    450.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nUna vez obtenido el daño total el criterio de comprobación puede formularse en daño (simplemente\ncomprobar que el daño acumulado sea inferior a la unidad) o en la carrera equivalente de tensio-\nnes.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

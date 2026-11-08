@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0268",
+  "ruta_oficial": "4.3",
+  "ruta_semantica": "4.3 Dimensionado de los colectores de tipo mixto",
+  "titulo": "4.3 Dimensionado de los colectores de tipo mixto",
+  "nivel": 1,
+  "parent_id": "a0250",
+  "seccion_estimada": "4.3 Dimensionado de los colectores de tipo mixto",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 120,
+   "bbox": [
+    70.9,
+    299.5,
+    412.8,
+    315.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "418d1fa0ac1e329027244454abc0436419b14dfe6753a000aed32d1c914cd377",
+   "literal": "4.3 Dimensionado de los colectores de tipo mixto"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0250",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3 Dimensionado de los colectores de tipo mixto",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0250",
+   "ruta_semantica": "Sección HS5 / 4.3 Dimensionado de los colectores de tipo mixto",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "596a57cccfd87c991fd27e265a0047d09782d5fbab250c6b914ffe9be556cc56"
+ },
+ "paginas": [
+  120
+ ],
+ "etiquetas_impresas": [
+  "120"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.3 Dimensionado de los colectores de tipo mixto\n1\nPara dimensionar los colectores de tipo mixto deben transformarse las unidades de desagüe co-\nrrespondientes a las aguas residuales en superficies equivalentes de recogida de aguas, y sumarse\na las correspondientes a las aguas pluviales. El diámetro de los colectores se obtiene en la tabla 4.9\nen función de su pendiente y de la superficie así obtenida.\n2\nLa transformación de las UD en superficie equivalente para un régimen pluviométrico de 100 mm/h\nse efectúa con el siguiente criterio:\na)\npara un número de UD menor o igual que 250 la superficie equivalente es de 90 m2;\nb)\npara un número de UD mayor que 250 la superficie equivalente es de 0,36 x nº UD m2.\n1\nSi el régimen pluviométrico es diferente, deben multiplicarse los valores de las superficies equiva-\nlentes por el factor f de corrección indicado en 4.2.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0120_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0120.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

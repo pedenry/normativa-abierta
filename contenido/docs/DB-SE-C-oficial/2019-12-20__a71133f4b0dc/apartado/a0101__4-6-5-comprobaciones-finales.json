@@ -1,0 +1,123 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0101",
+  "ruta_oficial": "4.6.5",
+  "ruta_semantica": "4.6.5 Comprobaciones finales",
+  "titulo": "4.6.5 Comprobaciones finales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.6.5 Comprobaciones finales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 46,
+   "bbox": [
+    70.9,
+    72.7,
+    252.3,
+    84.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4d57b4b14bf32037592a9cf9ac32e117baedb0e9329866a878832b3872d02463",
+   "literal": "4.6.5 Comprobaciones finales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0117",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.6.5 Comprobaciones finales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 4.6.5 Comprobaciones finales",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "38b270f63973528507fbbdc96708ef63dc56b0fa58ccb5351752bd1f317f8281"
+ },
+ "paginas": [
+  46,
+  47
+ ],
+ "etiquetas_impresas": [
+  null,
+  "5"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.6.5 Comprobaciones finales\n1\nAntes de la puesta en servicio del edificio se debe comprobar que:\na)\nlas zapatas se comportan en la forma prevista en el proyecto;\nb)\nno se aprecia que se estén superando las cargas admisibles;\nc)\nlos asientos se ajustan a lo previsto, si, en casos especiales, así lo exige el proyecto o el Di-\nrector de Obra;\nd)\nno se han plantado árboles, cuyas raíces puedan originar cambios de humedad en el terreno\nde cimentación, o creado zonas verdes cuyo drenaje no esté previsto en el proyecto, sobre to-\ndo en terrenos expansivos.\n2\nSi bien es recomendable controlar los movimientos del terreno para cualquier tipo de construcción,\nen edificios de tipo C-3 y C-4 será obligado el establecimiento de un sistema de nivelación para\ncontrolar el asiento de las zonas más características de la obra, en las siguientes condiciones:\na)\nel punto de referencia debe estar protegido de cualquier eventual perturbación, de forma que\npueda considerarse como inmóvil, durante todo el periodo de observación;\nb)\nel número de pilares a nivelar no será inferior al 10% del total de la edificación. En el caso de\nque la superestructura se apoye sobre muros, se preverá un punto de observación cada 20 m\nde longitud, como mínimo. En cualquier caso el número mínimo de referencias de nivelación\nserá de 4. La precisión de la nivelación será de 0,1 mm;\nc)\nla cadencia de lecturas será la adecuada para advertir cualquier anomalía en el comporta-\nmiento de la cimentación. Es recomendable efectuarlas al completarse el 50% de la estructura\nal final de la misma, y al terminar la tabiquería de cada dos plantas de la edificación;\nd)\nel resultado final de las observaciones se incorporará a la documentación de la obra.\n\nDocumento Básico SE-C Cimientos\nSE-C-42\n5",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0047.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

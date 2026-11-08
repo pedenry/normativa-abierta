@@ -1,0 +1,367 @@
+{
+ "documento": null,
+ "pagina": 49,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 43",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    145.6,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "8  Uniones",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    134.9,
+    170.4,
+    146.9
+   ],
+   "tipo": "titulo",
+   "texto": "8.1  Introducción",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    156.3,
+    541.3,
+    177.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas uniones contempladas en este capítulo corresponden a las uniones entre piezas de madera,\ntableros y chapas de acero mediante los sistemas de unión siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    185.4,
+    538.2,
+    195.3
+   ],
+   "tipo": "texto",
+   "texto": "a) Elementos mecánicos de fijación de tipo clavija (clavos, pernos, pasadores, tirafondos y grapas);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    202.8,
+    342.6,
+    212.7
+   ],
+   "tipo": "texto",
+   "texto": "b) Elementos mecánicos de fijación de tipo conectores;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    220.3,
+    208.1,
+    230.3
+   ],
+   "tipo": "texto",
+   "texto": "c) Uniones tradicionales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    249.1,
+    347.2,
+    261.1
+   ],
+   "tipo": "titulo",
+   "texto": "8.2  Principios generales del cálculo de uniones",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    277.4,
+    196.0,
+    287.4
+   ],
+   "tipo": "texto",
+   "texto": "8.2.1  Capacidad de carga",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    297.1,
+    541.3,
+    353.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn general, el valor característico de la capacidad de carga y la rigidez de las uniones se determina-\nrán mediante ensayo de acuerdo con las normas UNE-EN 1380:2009, UNE-EN 1381:2016, UNE-EN\n26891:1992  y UNE-EN ISO 8970:2010. Si en la norma se describen métodos de ensayo por tracción\ny compresión, la capacidad de carga característica debe obtenerse en tracción. Para los casos más\nfrecuentes se incluyen en este capítulo fórmulas para la determinación de las capacidades de carga.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    367.4,
+    348.3,
+    377.4
+   ],
+   "tipo": "texto",
+   "texto": "8.2.2  Uniones con múltiples elementos o tipos de fijación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    387.1,
+    541.3,
+    420.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn una unión con varios elementos de fijación del mismo tipo y dimensiones, la capacidad de carga\ndel conjunto es menor, según se indica en 8.2.6, que la suma de las capacidades de carga de cada\nelemento de fijación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    427.7,
+    541.3,
+    484.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nSi en una unión la carga se transmite mediante más de un tipo de fijación, o cuando la rigidez de las\nuniones en los planos de corte de una unión con varios planos de cortadura es diferente, la capaci-\ndad de carga de cada tipo viene condicionada por la compatibilidad de las deformaciones. De no rea-\nlizarse un estudio especial, se recomienda no mezclar tipos ni dimensiones (es decir, elementos con\ndistinta rigidez), salvo que su análisis se recoja expresamente en este DB.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    498.0,
+    306.5,
+    508.0
+   ],
+   "tipo": "texto",
+   "texto": "8.2.3  Uniones con múltiples planos de cortadura",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    517.7,
+    541.3,
+    550.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara poder combinar la resistencia de los planos de cortadura individuales en una unión de múltiples\nplanos de cortadura, el modo de fallo crítico de los elementos de fijación en los respectivos planos de\ncortadura debe ser compatible con los restantes.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    565.0,
+    332.7,
+    574.9
+   ],
+   "tipo": "texto",
+   "texto": "8.2.4  Uniones en ángulo solicitadas por fuerzas axiles",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    584.0,
+    541.3,
+    619.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn estas uniones, y debido a que la fuerza actúa con un ángulo  con respecto a la dirección de la\nfibra en una de las piezas, debe tenerse en cuenta el efecto de hienda debido a las tensiones provo-\ncadas por una componente (Fd·sen , perpendicular a la fibra, (véase figura 8.1).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    626.6,
+    321.3,
+    636.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn este caso debe cumplirse la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    90.1,
+    640.3,
+    541.3,
+    653.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Rd\n,\n90\nEd\n,v\nF\nF\n\n(8.1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.9,
+    657.1,
+    123.6,
+    667.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    173.2,
+    669.4,
+    178.1,
+    699.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    113.5,
+    669.4,
+    147.4,
+    699.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    152.4,
+    690.4,
+    171.5,
+    697.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\n,\nEd\n,\nv",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    95.8,
+    675.4,
+    171.7,
+    695.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "1,\nEd\n,\nv\nEd\n,v\nF",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    90.1,
+    670.5,
+    541.3,
+    688.3
+   ],
+   "tipo": "texto",
+   "texto": "F\nmax\nF\n(8.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    88.9,
+    701.6,
+    541.3,
+    757.5
+   ],
+   "tipo": "texto",
+   "texto": "donde:\nFv,Ed,1, Fv,Ed,2\nvalores de cálculo de los esfuerzos cortantes a cada lado de la unión (figura 8.1);\nF90,Rd\nvalor de cálculo frente a la hienda, calculada a partir de su valor característico, F90,Rk,\nsegún ecuación (8.3).",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

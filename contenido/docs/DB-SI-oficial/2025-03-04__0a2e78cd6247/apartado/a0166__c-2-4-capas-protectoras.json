@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0166",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.2.4 Capas protectoras",
+  "titulo": "C.2.4 Capas protectoras",
+  "nivel": 3,
+  "parent_id": null,
+  "seccion_estimada": "C.2.4 Capas protectoras",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 61,
+   "bbox": [
+    70.9,
+    250.8,
+    211.7,
+    264.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "4b24cfb8b7df0f7bad8a594ba0fdccd0b81bee678b7650560ded9923296946a1",
+   "literal": "C.2.4 Capas protectoras"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0111",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.2.4 Capas protectoras",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.2.4 Capas protectoras",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "49ce75221a4e821c32590fe8976abfc596855b90559576e0d9ff9835c8c87f66"
+ },
+ "paginas": [
+  61
+ ],
+ "etiquetas_impresas": [
+  "61"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "C.2.4 Capas protectoras\n1\nLa resistencia al fuego requerida se puede alcanzar mediante la aplicación de capas protectoras\ncuya contribución a la resistencia al fuego del elemento estructural protegido se determinará de\nacuerdo con la norma UNE-EN 13381-3: 2016.\n2\nLos revestimientos con mortero de yeso pueden considerarse como espesores adicionales de hormi-\ngón equivalentes a 1,8 veces su espesor real. Cuando estén aplicados en techos, para valores no\nmayores que R 120 se recomienda que su puesta en obra se realice por proyección y para valores\nmayores que R 120 su aportación solo puede justificarse mediante ensayo.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0061.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

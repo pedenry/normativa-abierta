@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0068",
+  "ruta_oficial": null,
+  "ruta_semantica": "Tipo de acero S235 a S355",
+  "titulo": "Tipo de acero S235 a S355",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Tipo de acero S235 a S355",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 38,
+   "bbox": [
+    78.0,
+    74.8,
+    527.7,
+    90.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "8aebf4b93860d529cfa951f1b2862018e5f1474f07ea952c132eb911c2a3b923",
+   "literal": "Tipo de acero S235 a S355"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Tipo de acero S235 a S355",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores. / Tipo de acero S235 a S355",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3aa476a09f37eabbfae69677935ce6025950dfe66ec53172f7eec31393b0cc34"
+ },
+ "paginas": [
+  38
+ ],
+ "etiquetas_impresas": [
+  "38"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Tipo de acero S235 a S355\nS235 a S355",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0038_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0038.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

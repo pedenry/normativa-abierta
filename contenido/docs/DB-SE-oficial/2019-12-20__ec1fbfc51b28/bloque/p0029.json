@@ -1,0 +1,218 @@
+{
+ "documento": null,
+ "pagina": 29,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    796.4,
+    320.8,
+    806.4
+   ],
+   "tipo": "texto",
+   "texto": "SE - 23",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    281.0,
+    84.7
+   ],
+   "tipo": "texto",
+   "texto": "C.3 Criterios para el fallo estructural",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    96.1,
+    206.5,
+    106.1
+   ],
+   "tipo": "texto",
+   "texto": "C.3.1 Estados límite últimos",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    112.8,
+    541.3,
+    148.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe supone que el criterio de fallo de una estructura o de un elemento estructural se rige según una\nfunción g(X) de las variables básicas X, de manera que:\na)\nPara el estado deseado",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    94.3,
+    156.2,
+    534.7,
+    166.2
+   ],
+   "tipo": "texto",
+   "texto": "g(X) > 0\n(C.1a)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    173.8,
+    210.2,
+    183.7
+   ],
+   "tipo": "texto",
+   "texto": "b)\nPara el estado límite",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    94.3,
+    191.3,
+    534.7,
+    201.2
+   ],
+   "tipo": "texto",
+   "texto": "g(X) = 0\n(C.1b)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.6,
+    208.8,
+    238.6,
+    218.8
+   ],
+   "tipo": "texto",
+   "texto": "c)\nPara el estado no deseado",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    94.3,
+    226.2,
+    534.8,
+    236.2
+   ],
+   "tipo": "texto",
+   "texto": "g(X) < 0\n(C.1c)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    100.6,
+    407.9,
+    534.0,
+    428.9
+   ],
+   "tipo": "texto",
+   "texto": "Figura C.1 Representación de la función g(X) para el caso con dos variables básicas X1 y X2; X= (X1,",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    430.2,
+    541.3,
+    589.4
+   ],
+   "tipo": "texto",
+   "texto": "X2)\n2\nLas variables básicas X pueden depender del tiempo (por ejemplo las acciones ambientales extre-\nmas pueden variar con el tiempo, los materiales constitutivos pueden estar afectados por mecanis-\nmos de deterioro en función del tiempo, la resistencia puede disminuir con el tiempo debido a pro-\ncesos de fatiga).\nEn general, algunas de las variables de X se deben representar mediante procesos estocásticos.\nEn particular, la variabilidad con el tiempo significa que los máximos y mínimos de las variables de\nX no se producen al mismo tiempo.\nLa dependencia del tiempo implica que la probabilidad de fallo está asociada con un periodo de re-\nferencia elegido, t0.\n3\nEl fallo de una estructura o de un elemento estructural se asocia con su transición de un estado\ndeseado a un estado no deseado. Para la mayoría de los estados límite últimos, la probabilidad de\nfallo se puede representar a través de la relación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    94.3,
+    597.0,
+    534.8,
+    607.0
+   ],
+   "tipo": "texto",
+   "texto": "Pf = [g(X) < 0]\n(C.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    93.6,
+    614.4,
+    541.3,
+    635.9
+   ],
+   "tipo": "texto",
+   "texto": "La probabilidad de que no exista fallo de una estructura o de un elemento estructural (probabilidad\nde supervivencia, Ps, o fiabilidad) es el complemento de la probabilidad de fallo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    94.3,
+    643.4,
+    534.8,
+    653.4
+   ],
+   "tipo": "texto",
+   "texto": "Ps = 1 - Pf\n(C.3)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    661.0,
+    541.3,
+    754.4
+   ],
+   "tipo": "texto",
+   "texto": "4\nSi se analiza la fiabilidad de un elemento estructural o de una sección transversal con respecto a un\ndeterminado mecanismo de fallo y una determinada combinación de acciones e influencias, la fun-\nción g(X) se puede describir, normalmente, a través de una expresión única derivada del compor-\ntamiento mecánico. En estos casos, el análisis se puede considerar como un análisis de un elemen-\nto (en este contexto, elemento se emplea desde el punto de vista probabilista de la palabra).\n5\nEn los casos en los que se contemple más de un mecanismo de fallo para un elemento estructural,\no si se estudian simultáneamente varios elementos estructurales, la función g(X) puede considerar-\nse como una función compuesta por varias funciones g1(X), g2(X)... .",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

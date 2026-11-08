@@ -1,0 +1,364 @@
+{
+ "documento": null,
+ "pagina": 77,
+ "etiqueta_impresa": "77",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-75",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    96.8,
+    73.4,
+    541.4,
+    97.6
+   ],
+   "tipo": "texto",
+   "texto": "b)\nSi la unión no está rigidizada y se dimensiona siguiendo las reglas específicas enunciadas en\neste DB, puede suponerse que tiene una capacidad de giro plástico Φcd de valor:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    125.4,
+    102.9,
+    540.7,
+    117.6
+   ],
+   "tipo": "texto",
+   "texto": "radianes\n015\n,0\ncd =\nΦ\n(8.25)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    96.8,
+    124.1,
+    541.4,
+    160.7
+   ],
+   "tipo": "texto",
+   "texto": "c)\nSi el alma del pilar está rigidizado en la zona de compresión pero no en la zona de tracción,\nsiempre que la resistencia al momento flector no esté regida por la resistencia a cortante del\nalma del pilar, la capacidad de giro\ncd\nΦ\n puede suponerse:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    184.6,
+    188.8,
+    188.5,
+    196.7
+   ],
+   "tipo": "texto",
+   "texto": "b",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    125.4,
+    169.6,
+    540.7,
+    194.8
+   ],
+   "tipo": "texto",
+   "texto": "c\ncd\nh\nh\n025\n,0\n=\nΦ\n(8.26)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    116.6,
+    204.1,
+    148.9,
+    215.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    116.6,
+    221.6,
+    439.0,
+    233.6
+   ],
+   "tipo": "texto",
+   "texto": "hc y hb respectivamente, el canto de la sección normal del pilar y la viga.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    239.4,
+    239.1,
+    250.6
+   ],
+   "tipo": "texto",
+   "texto": "6\nUniones viga-pilar atornilladas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    97.5,
+    257.1,
+    541.5,
+    279.8
+   ],
+   "tipo": "texto",
+   "texto": "Se puede suponer que una unión viga-pilar atornillada con chapa frontal tiene suficiente capacidad\nde rotación para un análisis plástico, si se satisfacen las dos condiciones siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    96.8,
+    286.1,
+    541.4,
+    308.8
+   ],
+   "tipo": "texto",
+   "texto": "a)\nel valor de la resistencia al momento esta regido por alguno de los siguientes componentes de\nla unión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    119.5,
+    315.1,
+    262.7,
+    326.3
+   ],
+   "tipo": "texto",
+   "texto": "i)\nel ala del pilar a flexión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    119.5,
+    332.6,
+    269.4,
+    343.8
+   ],
+   "tipo": "texto",
+   "texto": "ii)\nla chapa frontal a flexión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    96.8,
+    350.1,
+    541.4,
+    372.8
+   ],
+   "tipo": "texto",
+   "texto": "b)\nel espesor t del ala del pilar o de la chapa frontal que rige la resistencia, cumple la condición\nsiguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    171.8,
+    401.8,
+    175.3,
+    409.7
+   ],
+   "tipo": "texto",
+   "texto": "y",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    121.3,
+    382.5,
+    540.7,
+    407.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "ub\nf\nf\nd\n36\n,0\nt ≤\n(8.27)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    119.5,
+    419.1,
+    151.8,
+    430.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    120.9,
+    436.6,
+    305.0,
+    447.8
+   ],
+   "tipo": "texto",
+   "texto": "d\ndiámetro nominal de los tornillos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    120.9,
+    454.1,
+    303.4,
+    466.1
+   ],
+   "tipo": "texto",
+   "texto": "fub\ntensión de rotura de los tornillos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    120.9,
+    471.6,
+    423.4,
+    483.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "fy\nlímite elástico del componente básico relevante de la unión.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    74.1,
+    489.5,
+    541.4,
+    512.7
+   ],
+   "tipo": "texto",
+   "texto": "7\nPara otros casos la capacidad de giro se determinará usando modelos de cálculo apropiados,\nsiempre que estén suficientemente contrastados.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    74.1,
+    530.3,
+    235.5,
+    543.7
+   ],
+   "tipo": "titulo",
+   "texto": "8.8 Algunas uniones típicas",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 23,
+   "bbox": [
+    74.1,
+    551.9,
+    519.4,
+    574.6
+   ],
+   "tipo": "texto",
+   "texto": "Se presentan a continuación métodos de comprobación ajustados a los criterios establecidos en los\napartados anteriores, para algunas de las uniones usuales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    74.1,
+    588.0,
+    190.8,
+    599.2
+   ],
+   "tipo": "texto",
+   "texto": "8.8.1 Basas de soportes",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    74.1,
+    607.4,
+    532.0,
+    653.1
+   ],
+   "tipo": "texto",
+   "texto": "La comprobación de la unión de un elemento metálico a otro de hormigón, como son las basas de so-\nportes, requiere verificar la existencia de resistencia suficiente frente a los esfuerzos transmitidos en la\nregión de contacto, considerando, tanto la resistencia del hormigón de dicha región, como la de los ele-\nmentos metálicos que materializan el contacto.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    74.1,
+    659.4,
+    541.5,
+    751.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nLos soportes distribuirán los esfuerzos de compresión, transmitidos por las zonas comprimidas del\npilar, sobre una superficie suficiente de hormigón por medio de elementos de transición, como son\nlas basas, para que no se supere la resistencia de cálculo de éste. La basa asentará directamente\nsobre el hormigón, o mejor aún, sobre un mortero de nivelación sin retracción interpuesto entre\nambos materiales. En los casos en que pueda asegurarse la inexistencia de tracciones en el\narranque se podrá disponer una placa en el extremo del soporte que sirva de apoyo directo de éste\na la basa. En tal caso, en la región en que ambas placas se superpongan se podrá adoptar como\nespesor equivalente el valor:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

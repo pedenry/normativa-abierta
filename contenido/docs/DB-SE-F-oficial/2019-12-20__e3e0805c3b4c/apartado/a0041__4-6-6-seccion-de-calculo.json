@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0041",
+  "ruta_oficial": "4.6.6",
+  "ruta_semantica": "4.6.6 Sección de cálculo",
+  "titulo": "4.6.6 Sección de cálculo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.6.6 Sección de cálculo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 17,
+   "bbox": [
+    70.9,
+    413.5,
+    191.5,
+    423.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a6a2c6892ba97a9826a9acec47931b1c96f8f78a138cf6fe6f36a5fa8a33e28b",
+   "literal": "4.6.6 Sección de cálculo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0044",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.6.6 Sección de cálculo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas / 4.6 Fábricas 4.6.1 Categoría de la ejecución / 4.6.6 Sección de cálculo",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c4ddbc4fdfa8a3c15b12588636853c5dd1ce72694aaaf8119970320eed002047"
+ },
+ "paginas": [
+  17,
+  18
+ ],
+ "etiquetas_impresas": [
+  "4",
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.6.6 Sección de cálculo\n1\nEn el grueso de cálculo del muro pueden incluirse los revestimientos que tengan carácter permanente\ny de definan como tales en el proyecto y en el plan de mantenimiento.\n2\nEn fábrica con piezas macizas o perforadas, las rozas que respetan las limitaciones de la tabla 4.8\nno reducen el grueso de cálculo, a efectos de la evaluación de su capacidad. En muros capuchinos,\nse sumarán las intervenciones efectuadas en cada una de las dos hojas.\n3\nSi una roza o rebaje no causa una pérdida superior al 25% de la sección transversal real, se podrá\nconsiderar que la capacidad resistente es proporcional a dicha pérdida.\n4\nEn otro caso, como grueso de cálculo se usará el grueso residual, descontando el de la roza o rebaje,\ny en todo caso el de los rehundidos de tendel si existen.\n\nDocumento Básico SE-F Fábrica\nSE-F-14\nTabla 4.8 Dimensiones de rozas y rebajes (mm) que no reducen el grueso de cálculo",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0017.png",
+  "../figura/p0018.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

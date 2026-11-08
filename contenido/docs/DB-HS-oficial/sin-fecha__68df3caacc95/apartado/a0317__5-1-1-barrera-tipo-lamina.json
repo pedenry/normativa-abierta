@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0317",
+  "ruta_oficial": "5.1.1",
+  "ruta_semantica": "5.1.1 Barrera tipo lámina",
+  "titulo": "5.1.1 Barrera tipo lámina",
+  "nivel": 1,
+  "parent_id": "a0316",
+  "seccion_estimada": "5.1.1 Barrera tipo lámina",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 142,
+   "bbox": [
+    70.9,
+    276.9,
+    189.9,
+    288.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1db5c3cac289d86f3afaec5e574467015391c7d591a5a84070644159a0a022bd",
+   "literal": "5.1.1 Barrera tipo lámina"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0316",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.1 Barrera tipo lámina",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0316",
+   "ruta_semantica": "5 Construcción / 5.1 Ejecución / 5.1.1 Barrera tipo lámina",
+   "seccion_estimada": "5 Construcción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2705a6c3321792b00a0972ef0204c928ebce77f5d7b52dd9dc6e8e4d37b1b55f"
+ },
+ "paginas": [
+  142
+ ],
+ "etiquetas_impresas": [
+  "142"
+ ],
+ "tipos": [],
+ "texto": "5.1.1 Barrera tipo lámina\n1\nLa barrera se colocará sobre una superficie limpia y uniforme, de tal forma que no se produzcan\nfisuras que permitan la entrada del gas radón.\n2\nCuando la lámina se vaya a colocar sobre el terreno o sobre una capa de material granular, será\nnecesario garantizar la uniformidad y limpieza de la superficie de asiento, asegurando la ausencia\nde elementos que puedan dañar la barrera. Para ello se deberá disponer una capa de hormigón de\nlimpieza o mortero de cal hidraúlico.\n3\nSi la barrera no tiene características de antipunzonamiento se colocarán capas de protección\nantipunzonamiento.\n4\nLa barrera se reforzará en las esquinas, los rincones, los puntos en los que atraviesa los muros, en\nel paso de conducciones y en otros puntos débiles en los que se pueda prever una reducción de sus\npropiedades, salvo que en las especificaciones de la barrera se establezcan condiciones\nparticulares.\n5\nLos encuentros con otros elementos, los puntos de paso de conducciones, los solapes y las uniones\nentre distintas partes de la barrera se sellarán convenientemente según las especificaciones de la\nbarrera para evitar las discontinuidades entre los diferentes tramos. El sellado debe realizarse con\nproductos que garanticen la estanquidad al gas radón, como pinturas aislantes, recubrimientos de\ncapas plásticas, masillas flexibles, perfiles de goma u otra solución que produzca el mismo efecto.\n6\nLa barrera horizontal deberá prolongarse por los paramentos verticales (muros, fachadas) hasta 20\ncm por encima de la cota exterior del terreno.\n7\nLos pozos de registro, arquetas de acometida, huecos o patinillos en contacto con el terreno y todos\naquellos elementos que supongan una discontinuidad de la barrera, serán en la medida de lo\nposible estancos a los gases y se realizarán:\na)\ncon hormigón armado impermeable al agua;\nb)\ncon una capa de material impermeable al agua; o\nc)disponiendo de una barrera frente al radón.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

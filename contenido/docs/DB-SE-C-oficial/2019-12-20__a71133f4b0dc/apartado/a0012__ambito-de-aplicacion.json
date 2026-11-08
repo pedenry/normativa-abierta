@@ -1,0 +1,120 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0012",
+  "ruta_oficial": null,
+  "ruta_semantica": "Ámbito de aplicación",
+  "titulo": "Ámbito de aplicación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Ámbito de aplicación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 5,
+   "bbox": [
+    70.9,
+    110.0,
+    251.0,
+    124.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a4b36ca575cdf9ebf5cddf0386715b4801b0744f39566f72e6a42b90dd414392",
+   "literal": "Ámbito de aplicación"
+  },
+  "navegacion_motivo": "ambito_global_verificado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "ambito_global_verificado",
+  "scope": "global",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Ámbito de aplicación",
+  "ruta_fuente": "ambito_global_verificado",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Ámbito de aplicación",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7756a9b763019d590b825852cc13e169effe58279e10345375f4ef625e85b752"
+ },
+ "paginas": [
+  5
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [
+  "ambito"
+ ],
+ "texto": "Ámbito de aplicación\n1\nEl ámbito de aplicación de este DB-C es el de la seguridad estructural, capacidad portante y aptitud\nal servicio, de los elementos de cimentación y, en su caso, de contención de todo tipo de edificios,\nen relación con el terreno, independientemente de lo que afecta al elemento propiamente dicho, que\nse regula en los Documentos Básicos relativos a la seguridad estructural de los diferentes materia-\nles o la instrucción EHE.\n1.2",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

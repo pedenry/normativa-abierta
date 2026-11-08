@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0074",
+  "ruta_oficial": "2.1",
+  "ruta_semantica": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada / 2 Alumbrado de emergencia / 2.1 Dotación",
+  "titulo": "2.1 Dotación",
+  "nivel": 3,
+  "parent_id": "a0073",
+  "seccion_estimada": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 21,
+   "bbox": [
+    70.9,
+    421.4,
+    161.0,
+    434.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "8cd6ab740f4f74a61952bf7953bb3733627d068e3346e02208247ae40874cee3",
+   "literal": "2.1 Dotación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0043",
+  "parent_id_original": "a0073",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SI 1"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB\nSI",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "2.1 Dotación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0073",
+   "ruta_semantica": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada / 2 Alumbrado de emergencia / 2.1 Dotación",
+   "seccion_estimada": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "53bce19df48a955bc787a1aefbb7a7187a3593a087c90c673c0529ddf1f733b8"
+ },
+ "paginas": [
+  21
+ ],
+ "etiquetas_impresas": [
+  "21"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Dotación\n1\nLos edificios dispondrán de un alumbrado de emergencia que, en caso de fallo del alumbrado nor-\nmal, suministre la iluminación necesaria para facilitar la visibilidad a los usuarios de manera que\npuedan abandonar el edificio, evite las situaciones de pánico y permita la visión de las señales indi-\ncativas de las salidas y la situación de los equipos y medios de protección existentes\nContarán con alumbrado de emergencia las zonas y los elementos siguientes:\na) Todo recinto cuya ocupación sea mayor que 100 personas;\nb) Los recorridos desde todo origen de evacuación hasta el espacio exterior seguro y hasta las zo-\nnas de refugio, incluidas las propias zonas de refugio, según definiciones en el Anejo A de DB\nSI;\nc)\nLos aparcamientos cerrados o cubiertos cuya superficie construida exceda de 100 m2, incluidos\nlos pasillos y las escaleras que conduzcan hasta el exterior o hasta las zonas generales del edi-\nficio;\nd) Los locales que alberguen equipos generales de las instalaciones de protección contra incendios\ny los de riesgo especial, indicados en DB-SI 1;\ne) Los aseos generales de planta en edificios de uso público;\nf)\nLos lugares en los que se ubican cuadros de distribución o de accionamiento de la instalación de\nalumbrado de las zonas antes citadas;\ng) Las señales de seguridad;\nh)  Los itinerarios accesibles.\n2.2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB\nSI",
+  "DB-SI 1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

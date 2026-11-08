@@ -1,0 +1,67 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0054",
+  "ruta_oficial": "4.4.2",
+  "ruta_semantica": "Fragmento de PDF p20",
+  "titulo": "4.4.2 Fatiga 4.4.2.1 Principios",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p20",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p20",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.4 Efectos del tiempo 4.4.1 Durabilidad / 4.4.2 Fatiga 4.4.2.1 Principios",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d4611c7850f8282e9a4b97c101a44532add22e504d999ca2ecc99e15a9be2f1e"
+ },
+ "paginas": [
+  20
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [],
+ "texto": "4.4.2 Fatiga 4.4.2.1 Principios\n4.4.2.1 Principios\n1\nEn general, en edificios no resulta necesario comprobar el estado límite de fatiga, salvo por lo que\nrespecta a los elementos estructurales internos de los equipos de elevación.\n2\nLa comprobación a fatiga de otros elementos sometidos a acciones variables repetidas procedentes\nde maquinarias, oleaje, cargas de tráfico y vibraciones producidas por el viento, se hará de acuerdo\ncon los valores y modelos que se establecen de cada acción en el documento respectivo que la re-\ngula.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,299 @@
+{
+ "documento": null,
+ "pagina": 69,
+ "etiqueta_impresa": "69",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    197.6,
+    35.9,
+    414.1,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo D. Resistencia al fuego de los elementos de acero",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "69",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    95.2,
+    460.1,
+    110.8
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo D\nResistencia al fuego de los elementos de acero",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    144.3,
+    206.8,
+    159.9
+   ],
+   "tipo": "titulo",
+   "texto": "D.1 Generalidades",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    168.5,
+    538.7,
+    191.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn este anejo se establece un método simplificado que permite determinar la resistencia de los ele-\nmentos de acero ante la acción representada por la curva normalizada tiempo-temperatura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    197.4,
+    540.9,
+    231.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn el análisis del elemento puede considerarse que las coacciones en los apoyos y extremos del\nmismo en situación de cálculo frente a fuego no varían con respecto de las que se producen a tem-\nperatura normal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    238.0,
+    541.1,
+    260.6
+   ],
+   "tipo": "texto",
+   "texto": "3\nSe admite que la clase de las secciones transversales en situación de cálculo frente a fuego es la\nmisma que a temperatura normal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    266.9,
+    538.6,
+    289.5
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn elementos con secciones de pared delgada, (clase 4), la temperatura del acero en todas las sec-\nciones transversales no debe superar los 350 ºC.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    296.0,
+    541.4,
+    318.5
+   ],
+   "tipo": "texto",
+   "texto": "5\nEn cuanto a la resistencia al fuego de los elementos de acero revestidos con productos de protección\ncon marcado CE, los valores de protección que éstos aportan serán los avalados por dicho marcado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    346.9,
+    318.0,
+    362.5
+   ],
+   "tipo": "titulo",
+   "texto": "D.2 Método simplificado de cálculo",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    383.0,
+    198.4,
+    396.4
+   ],
+   "tipo": "texto",
+   "texto": "D.2.1 Vigas y tirantes",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    404.9,
+    538.6,
+    427.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nMediante la Tabla D.1 puede dimensionarse la protección frente al fuego de vigas arriostradas late-\nralmente o tirantes para una determinada resistencia al fuego, siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    88.8,
+    433.6,
+    377.1,
+    445.7
+   ],
+   "tipo": "texto",
+   "texto": "fi\ncoeficiente de sobredimensionado, definido en SI 6.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    88.8,
+    452.1,
+    249.8,
+    463.2
+   ],
+   "tipo": "texto",
+   "texto": "Am /V\nfactor de forma, siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    141.9,
+    469.6,
+    541.0,
+    515.3
+   ],
+   "tipo": "texto",
+   "texto": "Am\nsuperficie expuesta al fuego del elemento por unidad de longitud, la del elemento\nsi no está protegido o la de la cara interior de la protección si está revestido. Se\nconsiderará únicamente la del contorno expuesto en el sector de incendio anali-\nzado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    141.9,
+    521.7,
+    424.2,
+    532.8
+   ],
+   "tipo": "texto",
+   "texto": "V\nvolumen del elemento de acero por unidad de longitud,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    141.9,
+    539.1,
+    538.7,
+    561.7
+   ],
+   "tipo": "texto",
+   "texto": "Para elementos de sección constante, Am/V es igual al cociente entre el perímetro ex-\npuesto y el área de la sección transversal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    88.8,
+    567.9,
+    538.7,
+    580.2
+   ],
+   "tipo": "texto",
+   "texto": "d/p coeficiente de aislamiento del revestimiento, (m2K/W) obtenido como promedio de las caras ex-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    108.1,
+    580.4,
+    222.2,
+    591.5
+   ],
+   "tipo": "texto",
+   "texto": "puestas al fuego, siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    141.9,
+    597.9,
+    316.3,
+    609.0
+   ],
+   "tipo": "texto",
+   "texto": "d\nespesor del revestimiento, [m];",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    141.9,
+    615.2,
+    538.9,
+    638.8
+   ],
+   "tipo": "texto",
+   "texto": "p\nconductividad térmica efectiva del revestimiento, para el desarrollo total del tiem-\npo de resistencia a fuego considerado; (W/mK).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    177.3,
+    645.2,
+    541.2,
+    668.6
+   ],
+   "tipo": "texto",
+   "texto": "En materiales de tipo pétreo, cerámico, hormigones, morteros y yesos, se puede\ntomar el valor de p correspondiente a 20 ºC.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

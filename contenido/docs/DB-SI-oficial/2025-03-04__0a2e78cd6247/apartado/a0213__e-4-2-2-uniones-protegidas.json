@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0213",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.4.2 Uniones con piezas laterales de madera / E.4.2.2 Uniones protegidas",
+  "titulo": "E.4.2.2 Uniones protegidas",
+  "nivel": 4,
+  "parent_id": "a0212",
+  "seccion_estimada": "E.4.2 Uniones con piezas laterales de madera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 80,
+   "bbox": [
+    70.9,
+    95.6,
+    202.5,
+    106.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "30a31058c4cf650c8259c18f001239624a3140d056fdfd567b1018f59fc6afd4",
+   "literal": "E.4.2.2 Uniones protegidas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0142",
+  "parent_id_original": "a0212",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.4.2.2 Uniones protegidas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0212",
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.4.2 Uniones con piezas laterales de madera / E.4.2.2 Uniones protegidas",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f54bd7ea601b24f07c3ef16391ee2755851364507d406d564fb9f4700d0c1bfc"
+ },
+ "paginas": [
+  80
+ ],
+ "etiquetas_impresas": [
+  "80"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Documento Básico SI en caso de Incendio\nAnejo E. Resistencia al fuego de las estructuras de madera\n80\ntfi,dtiempo de resistencia al fuego de la unión no protegida de acuerdo con la tabla E.5.\nE.4.2.2 Uniones protegidas\n1\nCuando la unión se proteja mediante el adosado de tableros de madera o tableros derivados de la\nmadera, debe cumplirse la siguiente condición:\nd\n,fi\nreq\nch\nt\n5,0\nt\nt\n\n\n\n(E.15)\nsiendo:\ntchtiempo en el que inicia la carbonización de acuerdo con E.2.3.2.2;\ntreqtiempo requerido para una exposición al fuego normalizado;\ntfi,dtiempo de resistencia al fuego de la unión sin proteger de acuerdo con la tabla E.5, sometida al\nefecto de cálculo de las acciones en situación de incendio.\n2\nEn uniones en las que los elementos de fijación están protegidos por tapones o parches encolados,\nel espesor del parche debe determinarse mediante la expresión E.14, (ver figura E.3).\n3\nLa protección debe fijarse de tal manera que se evite su fallo prematuro. Cuando la protección se\nrealice mediante tableros derivados de la madera, ésta debe permanecer en su posición hasta que\nse alcance el tiempo requerido de inicio de la carbonización del elemento protegido (t = tch).\n4\nPara la protección de uniones con pernos, la cabeza de los pernos debe protegerse con un elemento\nde protección de espesor afi según la ecuación E.14 (ver figura E.4).\n5\nCuando la fijación de la protección se realice con clavos o tirafondos deben cumplirse las siguientes\ncondiciones:\na) la distancia entre elementos de fijación debe ser de al menos 100 mm a lo largo de los bordes\nde la pieza y de al menos 300 mm en las líneas interiores (alejadas de los bordes);\nb) la distancia a los bordes desde los elementos de fijación debe ser al menos igual a la obtenida\nmediante la ecuación E.14 (ver figura E.3).\n6\nLa profundidad de penetración en el elemento protegido, de los elementos de fijación de tableros de\nmadera o derivados de la madera, debe ser al menos igual a 6d.\n1\nParches encolados\n2\nProtección adicional utilizando tableros\n3\nFijación para la protección adicional con tableros\nFigura E.3. Ejemplos de protecciones adicionales mediante parches encolados y protección mediante table-\nros derivados de la madera o (la protección de los bordes de las piezas laterales y central no está represen-\ntada en el dibujo)",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0080.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

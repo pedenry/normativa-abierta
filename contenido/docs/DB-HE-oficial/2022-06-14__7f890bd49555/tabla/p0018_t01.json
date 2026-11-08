@@ -1,0 +1,135 @@
+{
+ "indice": 1,
+ "pagina": 18,
+ "etiqueta_impresa": "18",
+ "bbox": [
+  169.9,
+  172.3,
+  421.1,
+  215.5
+ ],
+ "filas": 3,
+ "columnas": 4,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Compacidad V/A [m³/m2]",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "n50",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 3,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "V/A <= 2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 3,
+   "texto": "6",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "V/A >= 4",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 3,
+   "texto": "3",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "Compacidad V/A [m³/m2]",
+  "n50",
+  ""
+ ],
+ "header": {
+  "names": [
+   "",
+   "",
+   "n50 [h-1]",
+   ""
+  ],
+  "external": true
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90EF60>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB983560>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB983170>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB981790>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB982FC0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB983C80>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0018.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

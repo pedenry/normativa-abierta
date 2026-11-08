@@ -1,0 +1,76 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0189",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p72",
+  "titulo": "Anejo D. Resistencia al fuego de los elementos de acero",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p72",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p72",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D. Resistencia al fuego de los elementos de acero",
+   "seccion_estimada": "Anejo D. Resistencia al fuego de los elementos de acero",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9ce5a711c1b457c4818e7994520db42da997103a4eed0d1be7d900108a2bb204"
+ },
+ "paginas": [
+  72
+ ],
+ "etiquetas_impresas": [
+  "72"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo D. Resistencia al fuego de los elementos de acero\n72\ndonde:\nc\n\ncoeficiente de transferencia de calor por convección (W/m2ºK), que para el\ncaso de la curva normalizada tiempo-temperatura es igual a 25 W/m2K. En\nel lado no expuesto de elementos separadores, puede considerarse única-\nmente el flujo de calor por convección, tomando como coeficiente de trans-\nferencia el valor de c = 9 W/m2 K\ng\n\ntemperatura del gas en el sector de incendio\n[ºC]\ns\n\ntemperatura superficial del elemento\n[ºC].\nt\nintervalo de tiempo, no superior a 5 segundos;\ns\ndensidad del acero, que puede suponerse independiente de la temperatura\ny de valor 7850 kg/m3.\n3\nPara acero revestido, el incremento de temperatura en el acero, s,t, suponiéndola distribuida uni-\nformemente en la sección, en un incremento de tiempo t, se determina mediante la expresión:\nt\ng,\n10\n/\nt\ns,\nt\ng,\ns\ns\nm\np\nt\ns,\n1)Δ\n-\n(e\n-\nΔt\n3)\n/\n+\n(1\n)\n-\n(θ\nρ\nc\nd\n/V\nA\nλ\n=\nΔθ\n\n\n\n\ncon s,t 0\n(D.4)\nsiendo:\ndonde:\nAm/V\ndefinido en el apartado D.2.3;\nd\ndefinido en el apartado D.2.1;\ng,t temperatura del gas en el instante t;\ns,t temperatura del acero en el instante t;\np\nconductividad térmica del material de revestimiento, [W/mK].\ncp\ncalor específico del revestimiento, [J/kgK];\ncs\ncalor específico del acero, [J/kgK];\np\ndensidad del revestimiento, [kg/m3];\ns\ndefinido en D.2.3.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0072.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0190",
+  "a0191",
+  "a0192"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

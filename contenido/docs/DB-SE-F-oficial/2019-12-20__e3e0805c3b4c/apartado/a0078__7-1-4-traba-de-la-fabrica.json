@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0078",
+  "ruta_oficial": "7.1.4",
+  "ruta_semantica": "7.1.4 Traba de la fábrica",
+  "titulo": "7.1.4 Traba de la fábrica",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.1.4 Traba de la fábrica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    70.9,
+    524.2,
+    187.1,
+    534.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6496270c1e9128d11732b21b93631a59a646e0c8265571b8a9f12bb606ebae03",
+   "literal": "7.1.4 Traba de la fábrica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0082",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.1.4 Traba de la fábrica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.1.4 Traba de la fábrica",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1674e9faea14e32704367b7a5b36eba7e9a28a829c83b69942ec494f114b1289"
+ },
+ "paginas": [
+  39,
+  40
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "7.1.4 Traba de la fábrica\n1\nLas fábricas deben levantarse por hiladas horizontales en toda la extensión de la obra, siempre que\nsea posible. Cuando dos partes de una fábrica hayan de levantarse en épocas distintas, la que se\nejecute primero se dejará escalonada. Si esto no fuera posible, se dejará formando alternativamente\nentrantes, adarajas y salientes, endejas.\n2\nEn las hiladas consecutivas de un muro, las piezas se solaparán para que el muro se comporte como\nun elemento estructural único. El solape será al menos igual a 0,4 veces el grueso de la pieza y no\nmenor que 40 mm, (véase figura 7.1). En las esquinas o encuentros, el solapo de las piezas no será\nmenor que su tizón; en el resto del muro, pueden emplearse piezas cortadas para conseguir el solape\npreciso.\n\nDocumento Básico SE-F Fábrica\nSE-F-36\nFigura 7.1 Solape de piezas de fábrica.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

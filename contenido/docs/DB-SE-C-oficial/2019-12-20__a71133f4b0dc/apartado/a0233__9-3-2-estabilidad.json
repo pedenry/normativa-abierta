@@ -1,0 +1,122 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0233",
+  "ruta_oficial": "9.3.2",
+  "ruta_semantica": "9.3.2 Estabilidad",
+  "titulo": "9.3.2 Estabilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "9.3.2 Estabilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 106,
+   "bbox": [
+    70.9,
+    208.2,
+    173.6,
+    220.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "49d792270913100acefab316bf6ce67bb482a7c222a03e78c16107c539aed299",
+   "literal": "9.3.2 Estabilidad"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0267",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "9.3.2 Estabilidad",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / 9.3.2 Estabilidad",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "14d77dc8a5bbd428f454245e3364916a78e5a571970499cf138291f86f729e71"
+ },
+ "paginas": [
+  106
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "9.3.2 Estabilidad\n1\nEl análisis de la estabilidad del anclaje comprenderá, al menos, los siguientes aspectos:\na)\ncomprobación de la tensión admisible;\nb)\ncomprobación al deslizamiento del tirante dentro del bulbo de anclaje;\nc)\ncomprobación de la seguridad frente al arrancamiento del bulbo.\n2\nLa verificación de estos estados límite para cada situación de dimensionado se hará utilizando la\nexpresión (2.2), estando Ed definida en la expresión (9.1) y viniendo Rd dada en los apartados si-\nguientes:\n3\nPara la comprobación de la tensión admisible del tirante:\nRd = min (AT · fPK/M1; AT · fYK/M2)\n(9.2)\nsiendo\nAT\nla sección del tirante;\nfPK\nel límite de rotura del acero del tirante;\nfYK\nel límite elástico del acero del tirante;\nM1\nen anclajes provisionales 1,25 y anclajes permanentes 1,30;\nM2\nen anclajes provisionales 1,10 y en anclajes permanentes 1,15.\n4\nPara la comprobación del deslizamiento del tirante dentro del bulbo de anclaje:\nRd= Lb · PT · lim/R\n(9.3)\nsiendo\nLb\nlongitud de cálculo del bulbo;\nPT\nperímetro nominal del tirante;\nlim\nadherencia límite entre el tirante y la lechada expresada en MPa;\nR\nigual a 1,2.\ndonde\nlim= 6,9 (fCK /22,5)\n(9.4)\nfCK\nresistencia característica de la lechada expresada en MPa;\nPara esta comprobación, el exceso de longitud del bulbo por encima de 14 m se minorará por un\ncoeficiente de 0,70 a fin de tener en cuenta su posible rotura progresiva.\n5\nPara la comprobación de la seguridad frente al arrancamiento del bulbo:\nRd =  ·DN · Lb · aadm\n(9.5)\nsiendo\nDN\nel diámetro nominal del bulbo\naadm\nla adherencia admisible frente al deslizamiento o arrancamiento del terreno",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0106.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

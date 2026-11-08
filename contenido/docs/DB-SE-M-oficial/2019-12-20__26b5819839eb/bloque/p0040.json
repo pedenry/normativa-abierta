@@ -1,0 +1,492 @@
+{
+ "documento": null,
+ "pagina": 40,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 34",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    541.9,
+    98.5
+   ],
+   "tipo": "titulo",
+   "texto": "6.4  Agotamiento de secciones en piezas de canto variable o curvas de madera\nlaminada encolada o microlaminada",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    114.8,
+    231.6,
+    124.8
+   ],
+   "tipo": "texto",
+   "texto": "6.4.1  Consideraciones generales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    134.5,
+    541.3,
+    179.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn este apartado se analizan aspectos singulares del análisis y la comprobación, como son el efecto\ndel desvío de la fibra en piezas de canto variable y las tensiones perpendiculares a la dirección de la\nfibra que se presentan en piezas de canto variable o curvas. También se considera la pérdida de re-\nsistencia a flexión debida al curvado de las láminas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    193.4,
+    369.5,
+    203.4
+   ],
+   "tipo": "texto",
+   "texto": "6.4.2  Vigas de canto variable y caras sin cambio de pendiente",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    213.0,
+    541.3,
+    257.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn estas vigas (figura 6.9) se presentan, en las secciones transversales al borde horizontal (borde\nparalelo a las láminas) leyes de distribución de tensiones normales debidas a la flexión que no son\nlineales. También las propiedades resistentes están afectadas por el desvío de la fibra en el borde\ninclinado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    73.1,
+    346.3,
+    538.9,
+    375.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.9 Viga a un agua (Se llama borde paralelo a la cara que marca la direccion del laminado, e inclinado",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    76.4,
+    377.1,
+    533.2,
+    386.1
+   ],
+   "tipo": "texto",
+   "texto": "al opuesto, bajo la consideración de que se mantiene el sistema de laminación. Existen otras formas de la-",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    172.9,
+    387.4,
+    439.1,
+    396.4
+   ],
+   "tipo": "texto",
+   "texto": "minación, pero no se contemplan en este Documento Básico)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    397.7,
+    541.3,
+    445.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn las fibras extremas las tensiones de cálculo a flexión en el borde paralelo y en el inclinado con\nrelación a la dirección de la fibra, m,0,d y m,,d , respectivamente, deben cumplir las condiciones si-\nguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.0,
+    448.2,
+    541.3,
+    461.3
+   ],
+   "tipo": "texto",
+   "texto": "f\nd\nm,\nd\n,\n0\nm,\n\n\nen borde paralelo respecto a la dirección de la fibra\n(6.44)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    93.0,
+    465.0,
+    541.3,
+    480.0
+   ],
+   "tipo": "texto",
+   "texto": "f\nk\n,\nm\nd\nm,\nd\n,\nm,\n\n\n\n\n\n  en borde inclinado respecto a la dirección de la fibra\n(6.45)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    88.8,
+    486.1,
+    123.8,
+    496.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    88.8,
+    503.5,
+    247.8,
+    513.5
+   ],
+   "tipo": "texto",
+   "texto": "fm,d resistencia de cálculo a flexión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    88.8,
+    521.9,
+    265.1,
+    531.8
+   ],
+   "tipo": "texto",
+   "texto": "km, coeficiente definido a continuación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.8,
+    556.8,
+    290.0,
+    566.7
+   ],
+   "tipo": "texto",
+   "texto": "si las tensiones son de tracción (figura 6.10),",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    275.9,
+    591.7,
+    296.6,
+    608.8
+   ],
+   "tipo": "texto",
+   "texto": "2\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    241.0,
+    616.7,
+    258.1,
+    623.7
+   ],
+   "tipo": "texto",
+   "texto": "d\n,\n90\n,t",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    215.9,
+    591.7,
+    254.9,
+    608.0
+   ],
+   "tipo": "texto",
+   "texto": "d\n,\nm\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    177.0,
+    616.7,
+    186.4,
+    623.7
+   ],
+   "tipo": "texto",
+   "texto": "d\n,\nv",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    163.6,
+    601.0,
+    174.9,
+    608.0
+   ],
+   "tipo": "texto",
+   "texto": "d\n,\nm",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    96.2,
+    586.8,
+    103.8,
+    593.8
+   ],
+   "tipo": "texto",
+   "texto": ",\nm",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    237.5,
+    603.9,
+    275.3,
+    621.8
+   ],
+   "tipo": "texto",
+   "texto": "tg\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    148.7,
+    596.1,
+    243.4,
+    621.8
+   ],
+   "tipo": "texto",
+   "texto": "f\ntg\nf\n75\n,0",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    128.6,
+    596.1,
+    163.2,
+    613.9
+   ],
+   "tipo": "texto",
+   "texto": "f\n1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    90.1,
+    575.7,
+    214.0,
+    592.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nk",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    288.0,
+    600.8,
+    291.8,
+    625.5
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    231.5,
+    594.4,
+    291.8,
+    625.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    231.5,
+    594.4,
+    235.3,
+    605.8
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    211.1,
+    600.8,
+    286.9,
+    625.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    143.0,
+    594.4,
+    214.9,
+    625.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    143.0,
+    594.4,
+    146.9,
+    605.8
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    135.2,
+    602.4,
+    210.1,
+    621.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    103.7,
+    580.6,
+    541.3,
+    593.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n(6.46)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    72.6,
+    704.5,
+    539.4,
+    722.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.10 Tensiones de tracción en el borde inclinado (la zona rayada representa la dirección de laminado)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 36,
+   "bbox": [
+    88.8,
+    744.7,
+    306.6,
+    754.7
+   ],
+   "tipo": "texto",
+   "texto": "si las tensiones son de compresión (figura 6.11),",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

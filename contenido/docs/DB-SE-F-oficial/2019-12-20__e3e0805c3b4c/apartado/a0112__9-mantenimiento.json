@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0112",
+  "ruta_oficial": "9",
+  "ruta_semantica": "9  Mantenimiento",
+  "titulo": "9  Mantenimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "9  Mantenimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 51,
+   "bbox": [
+    70.9,
+    96.9,
+    195.4,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a94ecec11ddbfc3a53ec9706fe011b20766d1f3926b5c110b763e3e52663132b",
+   "literal": "9  Mantenimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0120",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "9  Mantenimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "9  Mantenimiento",
+   "seccion_estimada": "9  Mantenimiento",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "39708326741cf51fe3577447e635d1090b5a67c3e7eb5c023cab004f393a51ca"
+ },
+ "paginas": [
+  51,
+  53
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [],
+ "texto": "9  Mantenimiento\n1\nEl plan de mantenimiento establece las revisiones a que debe someterse el edificio durante su periodo\nde servicio.\n2\nTras la revisión se establecerá la importancia de las alteraciones encontradas, tanto desde el punto\nde vista de su estabilidad como de la aptitud de servicio.\n3\nLas alteraciones que producen pérdida de durabilidad requieren una intervención para evitar que\ndegeneren en alteraciones que afectan a su estabilidad.\n4\nTras la revisión se determinará el procedimiento de intervención a seguir, bien sea un análisis estruc-\ntural, una toma de muestras y los ensayos o pruebas de carga que sean precisos, así como los\ncálculos oportunos.\n5\nEn el proyecto se debe prever el acceso a aquellas zonas que se consideren más expuestas al dete-\nrioro, tanto por agentes exteriores, como por el propio uso del edificio (zonas húmedas), y en función\nde la adecuación de la solución proyectada (cámaras ventiladas, barreras antihumedad, barreras\nanticondensación).\n6\nDebe condicionarse el uso de materiales restringidos, según el capítulo 4 de este DB, al proyecto de\nmedios de protección, con expresión explicita del programa de conservación y mantenimiento corres-\npondiente.\n7\nLas fábricas con armaduras de tendel, que incluyan tratamientos de autoprotección deben revisarse\nal menos, cada 10 años. Se substituirán o renovarán aquellos acabados protectores que por su es-\ntado hayan perdido su eficacia.\n8\nEn el caso de desarrollar trabajos de limpieza, se analizará el efecto que puedan tener los productos\naplicados sobre los diversos materiales que constituyen el muro y sobre el sistema de protección de\nlas armaduras en su caso.\n\nDocumento Básico SE-F Fábrica\nSE-F-49",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

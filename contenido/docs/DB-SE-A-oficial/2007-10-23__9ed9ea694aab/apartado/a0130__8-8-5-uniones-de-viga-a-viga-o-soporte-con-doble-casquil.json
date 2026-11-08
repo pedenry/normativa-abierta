@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0130",
+  "ruta_oficial": "8.8.5",
+  "ruta_semantica": "8.8.5 Uniones de viga a viga o soporte con doble casquillo de angular atornillado",
+  "titulo": "8.8.5 Uniones de viga a viga o soporte con doble casquillo de angular atornillado",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "8.8.5 Uniones de viga a viga o soporte con doble casquillo de angular atornillado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 88,
+   "bbox": [
+    74.1,
+    73.4,
+    461.4,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a714ed56290dab6a8a8dc6eaee0bb3501c955e1178b52cc7d7757e9f9e007866",
+   "literal": "8.8.5 Uniones de viga a viga o soporte con doble casquillo de angular atornillado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0125",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.8.5 Uniones de viga a viga o soporte con doble casquillo de angular atornillado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / 8.8.5 Uniones de viga a viga o soporte con doble casquillo de angular atornillado",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b89bf657dc6ecf8f1b61f788a50f3b05139eee59adf7490bd2f57d6f59060071"
+ },
+ "paginas": [
+  88
+ ],
+ "etiquetas_impresas": [
+  "88"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.8.5 Uniones de viga a viga o soporte con doble casquillo de angular atornillado\n1\nSi el pilar o la viga soporte no impide el giro de la unión se considerará la reacción situada entre la\ncara del casquillo y el soporte (sea viga o pilar).\n2\nLa comprobación de la unión entre viga y casquillo se hará con la menor de las posibles cargas de\nagotamiento considerando las correspondientes a los tornillos a cortadura y las de aplastamiento\ndel alma de la viga y de los casquillos.\n3\nNo se precisa comprobación de la unión de los casquillos al soporte si se utilizan los mismos torni-\nllos que en la unión entre el casquillo y la viga.\n4\nSi el soporte no gira, bien sea por la rigidez del pilar o porque el elemento de soporte tiene vigas\npor ambos lados (figura 8.18.d), la viga soportada gira debido a la deformación plástica de los cas-\nquillos. En este caso, la viga mantiene un momento que se puede calcular considerando el angular\ncomo una T con un mecanismo flexible de agotamiento.\n5\nLa distribución de fuerzas interiores entre tornillos, en estado límite último, puede considerarse\nproporcional a la distancia desde el centro de giro.\nFigura 8.18 Uniones con casquillo doble",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0088.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

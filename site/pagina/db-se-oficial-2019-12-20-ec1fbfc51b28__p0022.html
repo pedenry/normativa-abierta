@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE · p. 22 — 5.3.2 Estimación de la resistencia característica</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">DB-SE</a> › p. 22</nav>
+
+<header class="meta">
+<p><strong>DB-SE</strong> · 5.3.2 Estimación de la resistencia característica · versión 2019-12-20</p>
+<p>SHA256: <code>ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f</code> · página física 22 de 45 · métodos de encabezado
+solo si están cotejados.</p>
+<p><a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">Documento</a> · <a href="db-se-oficial-2019-12-20-ec1fbfc51b28__p0021.html">← p. 21</a> · <a href="db-se-oficial-2019-12-20-ec1fbfc51b28__p0023.html">p. 23 →</a></p>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/pagina/p0022.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/bloque/p0022.json">JSON de bloques</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/fuente.pdf#page=22">PDF p. 22</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0022.png">imagen PNG</a></p>
+</header>
+<nav class="paginas"><a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">Documento</a> <a href="db-se-oficial-2019-12-20-ec1fbfc51b28__p0021.html">← p. 21</a> <a href="db-se-oficial-2019-12-20-ec1fbfc51b28__p0023.html">p. 23 →</a></nav>
+<h2>Encabezado de la página</h2><ul><li><a href="../apartado/db-se-oficial-2019-12-20-ec1fbfc51b28__a0059.html">5.3.2 Estimación de la resistencia característica</a> <span>· candidato tipográfico · PDF p. 22</span></li></ul>
+
+<pre class="literal">Documento Básico SE Seguridad Estructural 
+ 
+SE - 16 
+siendo 
+Rk,est 
+estimación del valor característico de la resistencia, Rk, determinada a partir de los resul-
+tados experimentales según la expresión (5.2) ó (5.3); 
+M  
+coeficiente parcial para la resistencia del material, se adoptará el valor que, según los 
+documentos básicos correspondientes, se emplee para el material y el mecanismo de ro-
+tura considerados; 
+m  
+valor medio del factor de conversión
+Rd 
+coeficiente de incertidumbre para el modelo de resistencia. 
+3 
+En aquellos casos en los que se estime que la diferencia entre los ensayos y los casos reales es 
+demasiado grande, será necesario un estudio más detallado para el establecimiento del valor del 
+coeficiente M. 
+4 
+El coeficiente de incertidumbre para el modelo de resistencia, Rd, tiene en cuenta el carácter aleato-
+rio del factor de conversión, , con respecto a las diferencias desconocidas entre las condiciones 
+del ensayo y las condiciones en obra. Los valores de m y Rd se definirán en cada caso, teniendo 
+en cuenta los objetivos de los ensayos, el estado límite considerado, el mecanismo de rotura, la in-
+formación disponible sobre la fabricación de las probetas y los elementos reales, así como las con-
+diciones de la obra. Los valores adoptados para el coeficiente de incertidumbre Rd no serán inferio-
+res a la unidad. 
+5.3.2 Estimación de la resistencia característica  
+1 
+En ausencia de información previa o de otros datos más precisos, se adoptará como valor caracte-
+rístico el fractil del 5%, suponiendo una distribución normal: 
+R
+R
+est
+,
+k
+k - 
+m
+ 
+ 
+R
+
+
+
+
+ 
+(5.2)
+siendo 
+mR 
+valor medio de la muestra 
+R 
+desviación típica de la muestra, se estimará a partir de los resultados experimentales  
+k   
+coeficiente que depende del tamaño de la muestra (número de ensayos, n), según tabla 
+5.1  
+2 
+Cuando exista información previa relativa a la desviación típica de la distribución, R, ésta se consi-
+derará conocida a priori. En estos casos, suponiendo una distribución normal, el valor característico 
+de la resistencia correspondiente a un fractil del 5% se estimará a partir de la relación: 
+R
+R
+est
+k,
+k - 
+m
+ 
+ 
+R
+
+
+
+
+ 
+(5.3)
+siendo 
+mR 
+valor medio de la muestra 
+R  
+desviación típica de la distribución 
+k   
+coeficiente que depende del tamaño de la muestra (número de ensayos, n), según tabla 
+5.1 
+ 
+Tabla 5.1. Valores del coeficiente k para un fractil de 5% 
+ 
+Número de ensayos, n 
+Desviación típica  
+3 
+4 
+6 
+8 
+10 
+20 
+30 
+100 
+infinito 
+desconocida  
+3,15 
+2,68 
+2,34 
+2,19 
+2,10 
+1,93 
+1,87 
+1,76 
+1,64 
+ previamente conocida  
+2,03 
+1,98 
+1,92 
+1,88 
+1,86 
+1,79 
+1,77 
+1,71 
+1,64 
+</pre>
+<figure><a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0022.png"><img class="figura" src="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0022.png" alt="Página 22"></a><figcaption>Imagen de la página 22 (PNG ya extraído; prevalece sobre fórmulas).</figcaption></figure>
+<h2>Tablas candidatas de esta página</h2><ul><li><a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/tabla/p0022_t01.json">p0022_t01.json</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/tabla/p0022_t01.csv">.csv</a> (3 × 9; candidata, no reconstruida aquí)</li></ul>
+<h2>Referencias, notas y excepciones (página y vecinas)</h2><ul><li><a href="../apartado/db-se-oficial-2019-12-20-ec1fbfc51b28__a0057.html">5.2 · 5.2 Planteamiento experimental</a></li><li><a href="../apartado/db-se-oficial-2019-12-20-ec1fbfc51b28__a0060.html">ID a0060 · Anejo A Terminología</a></li></ul>
+<h2>Apartados que incluyen esta página</h2><ul><li><a href="../apartado/db-se-oficial-2019-12-20-ec1fbfc51b28__a0058.html">5.3 · Fragmento de PDF p21</a></li><li><a href="../apartado/db-se-oficial-2019-12-20-ec1fbfc51b28__a0059.html">5.3.2 · 5.3.2 Estimación de la resistencia característica</a></li></ul>
+
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

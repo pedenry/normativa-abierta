@@ -1,0 +1,483 @@
+{
+ "documento": null,
+ "pagina": 72,
+ "etiqueta_impresa": "72",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    197.6,
+    35.9,
+    414.1,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo D. Resistencia al fuego de los elementos de acero",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    795.2,
+    311.9,
+    806.3
+   ],
+   "tipo": "texto",
+   "texto": "72",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    141.9,
+    71.3,
+    175.2,
+    82.4
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    157.8,
+    88.7,
+    541.4,
+    149.5
+   ],
+   "tipo": "texto",
+   "texto": "c\n\ncoeficiente de transferencia de calor por convección (W/m2ºK), que para el\ncaso de la curva normalizada tiempo-temperatura es igual a 25 W/m2K. En\nel lado no expuesto de elementos separadores, puede considerarse única-\nmente el flujo de calor por convección, tomando como coeficiente de trans-\nferencia el valor de c = 9 W/m2 K",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    157.7,
+    155.5,
+    480.2,
+    169.8
+   ],
+   "tipo": "texto",
+   "texto": "g\n\ntemperatura del gas en el sector de incendio\n[ºC]",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    157.6,
+    178.5,
+    483.0,
+    194.5
+   ],
+   "tipo": "texto",
+   "texto": "s\n\ntemperatura superficial del elemento\n[ºC].",
+   "tamano": 10.5,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    156.0,
+    201.5,
+    407.0,
+    213.6
+   ],
+   "tipo": "texto",
+   "texto": "t\nintervalo de tiempo, no superior a 5 segundos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    156.0,
+    219.7,
+    541.0,
+    243.3
+   ],
+   "tipo": "texto",
+   "texto": "s\ndensidad del acero, que puede suponerse independiente de la temperatura\ny de valor 7850 kg/m3.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    249.5,
+    538.6,
+    273.9
+   ],
+   "tipo": "texto",
+   "texto": "3\nPara acero revestido, el incremento de temperatura en el acero, s,t, suponiéndola distribuida uni-\nformemente en la sección, en un incremento de tiempo t, se determina mediante la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    179.7,
+    288.4,
+    300.4,
+    305.2
+   ],
+   "tipo": "texto",
+   "texto": "t\ng,\n10\n/\nt\ns,\nt\ng,",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    147.4,
+    306.8,
+    160.0,
+    314.5
+   ],
+   "tipo": "texto",
+   "texto": "s\ns",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    104.6,
+    288.4,
+    286.0,
+    312.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "m\np\nt\ns,\n1)Δ\n-\n(e\n-\nΔt\n3)\n/\n+\n(1",
+   "tamano": 12.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    169.3,
+    281.0,
+    215.1,
+    294.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": ")\n-\n(θ",
+   "tamano": 12.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    130.8,
+    299.4,
+    156.7,
+    312.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "ρ\nc\nd",
+   "tamano": 12.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    90.5,
+    281.0,
+    296.2,
+    312.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "/V\nA\nλ\n=\nΔθ\n\n",
+   "tamano": 12.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    194.6,
+    279.7,
+    521.4,
+    302.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n    con s,t  0\n(D.4)",
+   "tamano": 12.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.8,
+    323.0,
+    123.9,
+    334.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    88.8,
+    340.5,
+    181.1,
+    395.0
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    88.8,
+    401.5,
+    275.9,
+    412.6
+   ],
+   "tipo": "texto",
+   "texto": "Am/V\ndefinido en el apartado D.2.3;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    88.8,
+    419.0,
+    275.9,
+    430.1
+   ],
+   "tipo": "texto",
+   "texto": "d\ndefinido en el apartado D.2.1;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.8,
+    436.2,
+    270.5,
+    448.4
+   ],
+   "tipo": "texto",
+   "texto": "g,t temperatura del gas en el instante t;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    88.8,
+    454.5,
+    279.4,
+    466.6
+   ],
+   "tipo": "texto",
+   "texto": "s,t temperatura del acero en el instante t;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    88.8,
+    472.7,
+    413.1,
+    484.9
+   ],
+   "tipo": "texto",
+   "texto": "p\nconductividad térmica del material de revestimiento, [W/mK].",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    88.8,
+    491.2,
+    331.4,
+    502.3
+   ],
+   "tipo": "texto",
+   "texto": "cp\ncalor específico del revestimiento, [J/kgK];",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    88.8,
+    508.7,
+    296.9,
+    519.8
+   ],
+   "tipo": "texto",
+   "texto": "cs\ncalor específico del acero, [J/kgK];",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    88.8,
+    526.4,
+    302.8,
+    537.8
+   ],
+   "tipo": "texto",
+   "texto": "p\ndensidad del revestimiento, [kg/m3];",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    88.8,
+    544.4,
+    223.0,
+    555.8
+   ],
+   "tipo": "texto",
+   "texto": "s\ndefinido en D.2.3.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    70.9,
+    584.3,
+    189.6,
+    599.9
+   ],
+   "tipo": "titulo",
+   "texto": "D.3 Conexiones",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 28,
+   "bbox": [
+    70.9,
+    608.2,
+    541.4,
+    631.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa conexión entre elementos debe tener un valor de fi mayor que el valor pésimo de los elementos\nque une.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    70.9,
+    638.2,
+    541.1,
+    672.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nSi los elementos están revestidos, la unión entre los mismos debe estar asimismo revestida, de tal\nforma que el valor del coeficiente de aislamiento del material de revestimiento de la unión sea mayor\no igual al de los elementos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    117.3,
+    339.5,
+    160.7,
+    370.6
+   ],
+   "tipo": "texto",
+   "texto": "V\nA\nc",
+   "tamano": 12.5,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    112.3,
+    338.0,
+    164.3,
+    354.9
+   ],
+   "tipo": "texto",
+   "texto": "d\nc\nm",
+   "tamano": 12.5,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    123.6,
+    364.6,
+    139.4,
+    372.5
+   ],
+   "tipo": "texto",
+   "texto": "s\ns",
+   "tamano": 7.3,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    119.3,
+    345.6,
+    137.6,
+    353.4
+   ],
+   "tipo": "texto",
+   "texto": "p\np",
+   "tamano": 7.3,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    127.4,
+    355.7,
+    139.6,
+    370.6
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 12.5,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    88.8,
+    336.6,
+    136.1,
+    361.0
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 12.5,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

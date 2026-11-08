@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0121",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección HS 2 Recogida y evacuación de residuos",
+  "titulo": "Sección HS 2 Recogida y evacuación de residuos",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "Sección HS 2 Recogida y evacuación de residuos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 52,
+   "bbox": [
+    70.9,
+    71.4,
+    346.6,
+    218.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f01db6b34d2660438844308a90e34f26773f995dd7d38fce0afaf010ff1f7b2f",
+   "literal": "Sección HS 2 Recogida y evacuación de residuos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección HS 2 Recogida y evacuación de residuos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "Sección HS2 / Sección HS 2 Recogida y evacuación de residuos",
+   "seccion_estimada": "Sección HS2",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4e99fdfb48abac665bf1a1c200298eb287225e13bad902ee5050d9cb88113a58"
+ },
+ "paginas": [
+  52
+ ],
+ "etiquetas_impresas": [
+  "52"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Sección HS 2 Recogida y evacuación de residuos\nRecogida y evacuación de residuos",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0052.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

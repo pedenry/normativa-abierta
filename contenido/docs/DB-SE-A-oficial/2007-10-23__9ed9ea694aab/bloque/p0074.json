@@ -1,0 +1,406 @@
+{
+ "documento": null,
+ "pagina": 74,
+ "etiqueta_impresa": "74",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-72",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    349.2,
+    84.6
+   ],
+   "tipo": "texto",
+   "texto": "8.6.2 Resistencia de cálculo de las soldaduras en ángulo.",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    92.9,
+    541.4,
+    127.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia de un cordón de soldadura en ángulo es suficiente si la resultante de todas las fuer-\nzas transmitidas por el cordón por unidad de longitud FW,Ed, no supera el valor de su resistencia de\ncálculo FW,Rd con independencia de la orientación del cordón.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    133.4,
+    541.4,
+    156.1
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa comprobación de resistencia por unidad de longitud de un cordón en ángulo se realiza de\nacuerdo a la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    97.9,
+    162.5,
+    544.6,
+    175.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "d\n,\nvW\nRd\n,\nW\nEd\n,\nW\nf\na\nF\nF\n=\n≤\n(8.21)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    183.8,
+    129.1,
+    195.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    132.7,
+    222.3,
+    152.7,
+    229.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nM\nW",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    101.0,
+    209.1,
+    133.8,
+    222.2
+   ],
+   "tipo": "texto",
+   "texto": "u\nd\n,\nvW",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    98.5,
+    204.3,
+    507.7,
+    227.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "3\n/\nf\nf\nγ\nβ\n=\n tensión tangencial de cálculo resistida por la soldadura en cualquier dirección",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    97.5,
+    236.7,
+    411.1,
+    248.7
+   ],
+   "tipo": "texto",
+   "texto": "fu\ntensión de rotura de la chapa de menor resistencia de la unión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    98.9,
+    254.0,
+    466.6,
+    267.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "W\nβ\ncoeficiente de correlación dado en la tabla 8.1, en función del tipo de acero.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    223.5,
+    292.4,
+    391.7,
+    303.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Tabla 8.1 Coeficiente de correlación βw",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    135.2,
+    308.8,
+    479.8,
+    321.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Acero\nfu (N/mm2)\nβw",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    136.2,
+    327.7,
+    483.7,
+    337.8
+   ],
+   "tipo": "texto",
+   "texto": "S 235\n360\n0,80",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    136.2,
+    344.1,
+    483.7,
+    354.2
+   ],
+   "tipo": "texto",
+   "texto": "S 275\n430\n0,85",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    136.2,
+    360.4,
+    483.7,
+    370.5
+   ],
+   "tipo": "texto",
+   "texto": "S 355\n510\n0,90",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    97.5,
+    384.5,
+    541.4,
+    430.2
+   ],
+   "tipo": "texto",
+   "texto": "a\nespesor de garganta del cordón en ángulo, que será la altura, medida perpendicularmente a\nla cara exterior, del triángulo que la tenga mayor, de entre los que se pueden inscribir entre\nlas superficies de las piezas que hayan alcanzando la fusión y la superficie exterior de la\nsoldadura (figura 8.9.a y b). Se observarán las siguientes limitaciones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    128.7,
+    436.5,
+    529.5,
+    447.7
+   ],
+   "tipo": "texto",
+   "texto": "– el espesor de garganta de un cordón de soldadura en ángulo no será menor de 3 mm;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    128.7,
+    453.9,
+    538.6,
+    465.1
+   ],
+   "tipo": "texto",
+   "texto": "– en el caso de soldadura con penetración profunda se podrá tomar el espesor de gargan-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    144.3,
+    465.5,
+    538.5,
+    488.2
+   ],
+   "tipo": "texto",
+   "texto": "ta dado en la figura 8.9.c) siempre que se demuestre por ensayos que se puede conse-\nguir de forma estable la penetración requerida;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    128.7,
+    494.4,
+    541.4,
+    505.6
+   ],
+   "tipo": "texto",
+   "texto": "– en el caso en que se realice la soldadura de forma automática con arco sumergido se",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    144.3,
+    506.0,
+    541.4,
+    528.7
+   ],
+   "tipo": "texto",
+   "texto": "podrá considerar, sin necesidad de ensayos, un incremento del 20% del espesor de la\ngarganta, hasta un máximo de 2 mm.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    203.6,
+    683.1,
+    434.3,
+    693.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.9 Soldadura en ángulo. Espesor de garganta",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    96.8,
+    699.5,
+    541.3,
+    722.2
+   ],
+   "tipo": "texto",
+   "texto": "Como longitud del cordón se tomará la nominal. En uniones por solape de longitudes superiores a\n150 a, la resistencia de cálculo se reducirá utilizando el coeficiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    98.1,
+    730.0,
+    541.0,
+    754.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "0,1\na\n150\nL\n2,0\n2,1\nLW\n≤\n−\n=\nβ\n(8.22)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 26,
+   "bbox": [
+    135.2,
+    610.1,
+    141.9,
+    619.0
+   ],
+   "tipo": "texto",
+   "texto": "a",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    232.0,
+    617.6,
+    385.7,
+    629.5
+   ],
+   "tipo": "texto",
+   "texto": "a\na",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    281.5,
+    603.3,
+    455.3,
+    614.5
+   ],
+   "tipo": "texto",
+   "texto": "a\na",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    182.5,
+    659.7,
+    506.1,
+    677.8
+   ],
+   "tipo": "texto",
+   "texto": "a)\nb)\nc) soldadura con\npenetración profunda",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0019",
+  "ruta_oficial": "1",
+  "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 5,
+   "bbox": [
+    70.9,
+    97.6,
+    183.0,
+    113.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "31360482918009055b677f3f97213cbf41f311208dfc893a2f294146496d1e9f",
+   "literal": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas"
+  },
+  "navegacion_motivo": "ambito_global_verificado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "ambito_global_verificado",
+  "scope": "global",
+  "referencias_filtradas": [
+   "DB-SE"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "ruta_fuente": "ambito_global_verificado",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "731bd56a4845837eced6289a05e107fe8665b2b8442cc3851bd1f4c5d36f2f84"
+ },
+ "paginas": [
+  5
+ ],
+ "etiquetas_impresas": [
+  "5"
+ ],
+ "tipos": [
+  "ambito",
+  "referencias"
+ ],
+ "texto": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas\n1.1 Ámbito de aplicación y consideraciones previas\n1\nEste DB se destina a verificar la seguridad estructural de los elementos metálicos realizados con\nacero en edificación. No se contemplan, por tanto, aspectos propios de otros campos de la cons-\ntrucción (puentes, silos, chimeneas, antenas, tanques, etc.).Tampoco se tratan aspectos relativos a\nelementos que, por su carácter específico, requieren consideraciones especiales.\n2\nEste DB se refiere únicamente a la seguridad en condiciones adecuadas de utilización, incluidos los\naspectos relativos a la durabilidad, de acuerdo con el DB-SE. La satisfacción de otros requisitos\n(aislamiento térmico, acústico, resistencia al fuego) quedan fuera de su alcance. Los aspectos rela-\ntivos a la fabricación, montaje, control de calidad, conservación y mantenimiento se tratan, exclusi-\nvamente, en la medida necesaria para indicar las exigencias que se deben cumplir en concordancia\ncon las hipótesis establecidas en el proyecto de edificación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "DB-SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0020"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

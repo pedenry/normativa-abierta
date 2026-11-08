@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0006",
+  "ruta_oficial": null,
+  "ruta_semantica": "disposiciones:",
+  "titulo": "disposiciones:",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "disposiciones:",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 2,
+   "bbox": [
+    141.8,
+    588.4,
+    271.9,
+    598.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c5c031c211543a4c673065f4b4dd92d5c6cfa4e293fdebbce8e894cfa9ad8ccf",
+   "literal": "disposiciones:"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "Real Decreto 1371/2007",
+   "Real Decreto 314/2006",
+   "Real Decreto 732/2019"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "disposiciones:",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "20 diciembre 2019 Documento BásicoSE-F / disposiciones:",
+   "seccion_estimada": "20 diciembre 2019 Documento BásicoSE-F",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c6daafb45c6ec3e0b11c83053a4bb5e9bc9b607e08b7499862d9896075b16ae6"
+ },
+ "paginas": [
+  2,
+  3
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "disposiciones:\n-\nReal Decreto 1371/2007 de 19 de octubre (BOE 23-octubre-2007)\n-\nCorrección de errores del Real Decreto 1371/2007, de 19 de octubre (BOE 20-diciem-\nbre-2007)\n-\nCorrección de errores y erratas del Real Decreto 314/2006, de 17 de marzo, por el que\nse aprueba el Código Técnico de la Edificación (BOE 25-enero-2008)\n-\nOrden VIV/984/2009, de 15 de abril (BOE 23-abril-2009)\n-\nReal Decreto 732/2019, de 20 de diciembre (BOE 27-diciembre-2019)\n\nDocumento Básico SE-F Fábrica\nSE-F-i\nÍndice",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto 1371/2007",
+  "Real Decreto 314/2006",
+  "Real Decreto 732/2019"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,329 @@
+{
+ "documento": null,
+ "pagina": 56,
+ "etiqueta_impresa": "56",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    90.7,
+    90.1,
+    507.4,
+    128.4
+   ],
+   "tipo": "texto",
+   "texto": "Nota 1: «N.º CAS» es el número de registro del Chemical Abstract Services de la\nAmerican Chemical Society. Se incluye en la tabla a efectos meramente informativos para\nayudar a la identificación del material.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    90.7,
+    126.1,
+    507.4,
+    153.4
+   ],
+   "tipo": "titulo",
+   "texto": "Nota 2: Como alternativa al uso de la tabla 1.3.2, en la presente tabla se incluyen los\nvalores de Ci de varios materiales.",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 2,
+   "bbox": [
+    90.7,
+    151.7,
+    507.3,
+    214.0
+   ],
+   "tipo": "texto",
+   "texto": "Nota 3: La columna «CLP» incluye las Frases H según el Reglamento (CE) n.º\n1272/2008. Se incluye en la presente tabla a efectos meramente informativos.\nNota 4: Materiales eminentemente fumígenos.\nNota 5: Puede tomarse un valor de 1 si se justifica que son trozos compactos de grandes\ndimensiones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    90.7,
+    211.7,
+    507.3,
+    238.0
+   ],
+   "tipo": "titulo",
+   "texto": "Nota 6: Puede tomarse un valor de 1 si se justifica que es papel o cartón compactado\n(por ejemplo: libros, bobinas, apilamientos…).",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    90.7,
+    235.7,
+    507.3,
+    286.0
+   ],
+   "tipo": "texto",
+   "texto": "Nota 7: En estos casos el poder calorífico se da en unidades diferentes a MJ/kg para\nfacilitar el cálculo. Esto debe tenerse en consideración para poder aplicar las expresiones.\nDe este modo, para obtener el valor de la carga de fuego se deberá multiplicar por la unidad\ncorrespondiente (unidades de producto o dimensiones en m2) en vez de por la masa (kg).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    272.4,
+    297.9,
+    322.8,
+    312.2
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 1.3.4",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    109.5,
+    324.0,
+    485.8,
+    338.4
+   ],
+   "tipo": "titulo",
+   "texto": "Criterios para determinar el valor del coeficiente «R» de un sector o área de incendio",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 7,
+   "bbox": [
+    46.7,
+    353.5,
+    321.1,
+    363.5
+   ],
+   "tipo": "texto",
+   "texto": "R\nCasuísticas",
+   "tamano": 6.5,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    44.7,
+    375.3,
+    53.2,
+    385.4
+   ],
+   "tipo": "texto",
+   "texto": "0,8",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    47.2,
+    362.2,
+    549.8,
+    407.2
+   ],
+   "tipo": "texto",
+   "texto": "R será 0,8 en sectores o áreas de incendio dedicados exclusivamente a almacenamientos de baja altura (máximo 2,50 metros) y de superficie en planta limitada (inferior a 50 m2). A\nefectos de determinar esta superficie, no será necesario tener en cuenta almacenamientos de superficies inferiores, separados entre ellos por medio de un espacio libre a su\nalrededor de no menos de 2,5 metros, o bien, con elementos compartimentadores de resistencia EI 30 o superior.\nNo obstante lo anterior, no se podrá usar un valor de 0,8 para R cuando haya actividades donde la tabla 1.3.5 (columna Rmin) especifique un valor superior.\n1\nR será 1 por defecto, siempre que no se den las casuísticas para ser un valor distinto, hecho que deberá justificarse debidamente.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    44.7,
+    435.8,
+    53.2,
+    445.8
+   ],
+   "tipo": "texto",
+   "texto": "1,4",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    57.5,
+    405.9,
+    550.8,
+    475.8
+   ],
+   "tipo": "texto",
+   "texto": "R será 1,4 cuando en el sector o área de incendio se cumpla una de las siguientes situaciones:\na) Cuando las actividades que se realizan en el sector o área de incendio, o las condiciones de estos, entrañen un aumento significativo de la probabilidad de inicio de un incendio,\ndebido a fuentes de naturaleza térmica, química o equivalente. Por ejemplo: trabajos habituales con chispas o llamas abiertas. También R será al menos 1,4 en el caso de que se\ndesarrolle en el lugar alguna de las actividades marcadas en la tabla 1.3.5 como tal (columna Rmin).\nb) Cuando existan zonas donde la distribución de los materiales hace que, ante un posible incendio, este se pueda propagar rápidamente. Por ejemplo: almacenamientos de\nmateriales combustibles de altura superior a 5 metros, los cuales ocupan una superficie en planta significativa (igual o superior a 100 m2). A efectos de determinar esta superficie, no\nserá necesario tener en cuenta almacenamientos de superficies inferiores, separados entre ellos por medio de un espacio libre a su alrededor de no menos de 5 metros, o bien, con\nelementos compartimentadores de resistencia EI 30 o superior.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    44.7,
+    474.5,
+    552.1,
+    492.9
+   ],
+   "tipo": "texto",
+   "texto": "1,8 R será 1,8 cuando en el sector o área de incendio se cumplan simultáneamente las dos situaciones a) y b) citadas en la fila superior. Por ejemplo, porque tenga una zona de trabajos\ncon llamas y una zona de almacenamiento donde se pueda propagar rápidamente el incendio.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    272.4,
+    508.1,
+    322.8,
+    522.5
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 1.3.5",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    90.7,
+    534.3,
+    507.4,
+    549.7
+   ],
+   "tipo": "titulo",
+   "texto": "Valores de densidad de carga de fuego media de actividades de fabricación (qs), de",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 15,
+   "bbox": [
+    165.2,
+    547.9,
+    430.0,
+    563.3
+   ],
+   "tipo": "titulo",
+   "texto": "almacenamiento (qv) y sus coeficientes asociados (Ci, Rmin)",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 16,
+   "bbox": [
+    136.4,
+    579.0,
+    391.4,
+    598.1
+   ],
+   "tipo": "texto",
+   "texto": "Actividad\nProducción\nAlmacenamiento",
+   "tamano": 6.5,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    356.0,
+    583.2,
+    479.0,
+    597.4
+   ],
+   "tipo": "texto",
+   "texto": "bruto (1)\nAlmacenamiento neto (2)",
+   "tamano": 6.5,
+   "negrita": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    503.2,
+    587.5,
+    545.5,
+    598.3
+   ],
+   "tipo": "texto",
+   "texto": "Ci\nRmin",
+   "tamano": 6.5,
+   "negrita": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    545.5,
+    588.1,
+    550.0,
+    594.1
+   ],
+   "tipo": "texto",
+   "texto": "(3)",
+   "tamano": 3.9,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    44.7,
+    596.1,
+    545.1,
+    780.9
+   ],
+   "tipo": "texto",
+   "texto": "qs (MJ/m²)\nqv (MJ/m³)\nqv (MJ/m³)\nA. OFICINAS.\nOficinas.\n700\n1,44\n1\nSalas de reuniones, salas de conferencias.\n300\n1,44\n1\nArchivos.\n1.600\n2.100\n1,20\nB. CARTÓN, PAPEL\nFábrica de cartón/cartón ondulado:\nAlmacenamiento de materias primas.\n1.700\n2.200\n1,20\nAlmacenamiento en bobinas.\n3.700\n14.700\n1,20\nProducción, transformación.\n1.500\n1,20\n1\nFábrica de papel:\nAlmacenamiento de materias primas (celulosa).\n20.000\n22.000\n1,00\nAlmacenamiento a granel (papel viejo, prensado).\n6.900\n8.600\n1,20\nAlmacenamiento a granel (papel viejo, suelto).\n2.800\n4.000\n1,40\nProducción, transformación.\nde 200 a 1.200 (700) (6)\n1,20\n1\nAlmacenamiento de producto acabado.\n2.800\n5.100\n1,20\nImprenta:\nAlmacenamiento de papel en bobinas.\n4.200\n6.200\n1,20\nProducción.\n500\n1,68\n1,4\nProducción con local para desenrollado del papel.\n2.100\n1,68\n1,4\nExpedición, embalaje.\nde 200 a 2.400 (1.800) (6)\nde 300 a 3.000 (2.500) (6)\n1,20\n1",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    207.7,
+    27.8,
+    387.6,
+    45.0
+   ],
+   "tipo": "titulo",
+   "texto": "BOLETÍN OFICIAL DEL ESTADO",
+   "tamano": 12.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 22,
+   "bbox": [
+    226.5,
+    43.5,
+    368.8,
+    57.8
+   ],
+   "tipo": "titulo",
+   "texto": "LEGISLACIÓN CONSOLIDADA",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 23,
+   "bbox": [
+    277.4,
+    802.3,
+    317.9,
+    815.2
+   ],
+   "tipo": "texto",
+   "texto": "Página 56",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

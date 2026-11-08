@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0040",
+  "ruta_oficial": "3.1.2.3.2",
+  "ruta_semantica": "3.1.2.3.2  Parámetros acústicos de los elementos constructivos",
+  "titulo": "3.1.2.3.2  Parámetros acústicos de los elementos constructivos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.2.3.2  Parámetros acústicos de los elementos constructivos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    72.1,
+    137.5,
+    375.8,
+    148.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2e5e0f4ab4b30dceac445c750aea9415517c830e6976e62294120acdef9effed",
+   "literal": "3.1.2.3.2  Parámetros acústicos de los elementos constructivos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.2.3.2  Parámetros acústicos de los elementos constructivos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.1.2  Opción simplificada: Soluciones de aislamiento acústico / 3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación / 3.1.2.3.2  Parámetros acústicos de los elementos constructivos",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "70a298a535af6847e8e8e1313c7fc6b474ae3053bc549f57dde85826c7e31666"
+ },
+ "paginas": [
+  14
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.1.2.3.2  Parámetros acústicos de los elementos constructivos\nLos parámetros que definen cada elemento constructivo son los siguientes:\na)\nPara el elemento de separación vertical, la tabiquería y la fachada:\ni)\nm, masa por unidad de superficie del elemento base, en kg/m2;\nii)\nRA, índice global de reducción acústica, ponderado A, del elemento base, en dBA;\niii)\nRA, mejora del índice global de reducción acústica, ponderado A, en dBA, debida al\ntrasdosado.\nb)\nPara el elemento de separación horizontal:\ni)\nm, masa por unidad de superficie del forjado, en kg/m2, que corresponde al valor de masa\npor unidad de superficie de la sección tipo del forjado, excluyendo ábacos, vigas y maci-\nzados;\nii)\nRA, índice global de reducción acústica, ponderado A, del forjado, en dBA;\niii)\nLw, reducción del nivel global de presión de ruido de impactos, en dB, debida al suelo\nflotante;\niv)\nRA, mejora del índice global de reducción acústica, ponderado A, en dBA, debida al sue-\nlo flotante o al techo suspendido.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0014_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0014.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,231 @@
+---
+
+
+documento: "DB-HS Salubridad"
+id: "DB-HS-oficial"
+capa: "oficial"
+version: "2022-06-14"
+id_tecnico: "a0116"
+ruta_oficial: null
+ruta_semantica: "Apéndice A Terminología"
+parent_id: null
+nivel: 1
+titulo: "Apéndice A Terminología"
+paginas_fisicas: "46-50"
+paginas_impresas: "46-50"
+sha256_documento: "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b"
+tipos: "referencias"
+seccion_estimada: "Apéndice A Terminología"
+titulo_navegacion: "Apéndice A Terminología"
+ruta_fuente: "candidato_tipografico_plano"
+clasificacion_navegacion: "encabezado"
+es_encabezado_navegacion: true
+sha256_body_normativo: "94ffbb0d0b061b9cdf246cad67457cf95265e977d5f2080f1e40814e13ff09a0"
+referencias_auto_md: "sin_cambio_en_MD; usar referencias_filtradas del JSON"
+---
+
+# a0116 Apéndice A Terminología
+
+Apéndice A Terminología
+Absorción: retención de un gas o vapor por un líquido o de un líquido por un sólido.
+Aislante no hidrófilo: aislante que tiene una succión o absorción de agua a corto plazo por inmersión
+parcial menor que 1kg/m2 según ensayo UNE-EN 1609:2013 o una absorción de agua a largo plazo por
+inmersión total menor que el 5% según ensayo UNE-EN 12087:2013.
+Aislante térmico: elemento que tiene una conductividad térmica menor que 0,060 W/(m·K) y una resis-
+tencia térmica mayor que 0,25 m2·K/W.
+Aplicaciones líquidas: sustancias líquidas de impermeabilización.
+Área efectiva (de una abertura): área de la sección perpendicular a la dirección del movimiento del aire
+que está libre de obstáculos.
+Barrera contra el vapor: elemento que tiene una resistencia a la difusión de vapor mayor que 10 MN
+·s/g equivalente a 2,7 m2·h·Pa/mg.
+Cámara de aire ventilada: espacio de separación en la sección constructiva de una fachada o de una
+cubierta que permite la difusión del vapor de agua a través de aberturas al exterior dispuestas de forma
+que se garantiza la ventilación cruzada.
+Cámara de bombeo: depósito o arqueta donde se acumula provisionalmente el agua drenada antes de
+su bombeo y donde están alojadas las bombas de achique, incluyendo las de reserva.
+Capa antipunzonamiento: capa separadora que se interpone entre dos capas sometidas a presión y
+que sirve para proteger a la menos resistente y evitar con ello su rotura.
+Capa de protección: producto que se dispone sobre la capa de impermeabilización para protegerla de
+las radiaciones ultravioletas y del impacto térmico directo del sol y además favorece la escorrentía y la
+evacuación del agua hacia los sumideros.
+Capa de regulación: capa que se dispone sobre la capa drenante o el terreno para eliminar las posibles
+irregularidades y desniveles y así recibir de forma homogénea el hormigón de la solera o la placa.
+Capa separadora: capa que se intercala entre elementos del sistema de impermeabilización para todas
+o algunas de las finalidades siguientes:
+a)
+evitar la adherencia entre ellos;
+b)
+proporcionar protección física o química a la membrana;
+c)
+permitir los movimientos diferenciales entre los componentes de la cubierta;
+d)
+actuar como capa antipunzonante;
+e)
+actuar como capa filtrante;
+f)
+actuar como capa ignífuga.
+Capilaridad: fenómeno según el cual la superficie de un líquido en contacto con un sólido se eleva o se
+deprime debido a la fuerza resultante de atracciones entre las moléculas del líquido (cohesión) y las de
+éste con las del sólido (adhesión).
+Coeficiente de permeabilidad: parámetro indicador del grado de permeabilidad de un suelo medido por
+la velocidad de paso del agua a través de él. Se expresa en m/s o cm/s. Puede determinarse directamen-
+te mediante ensayo en permeámetro o mediante ensayo in situ, o indirectamente a partir de la granulo-
+metría y la porosidad del terreno.
+Componente: cada una de las partes de las que consta un elemento constructivo.
+Cubrejunta: pequeña pieza de madera o metal que se utiliza para fijar una junta a tope.
+Drenaje: operación de dar salida a las aguas muertas o a la excesiva humedad de los terrenos por me-
+dio de zanjas o cañerías.
+Elemento constructivo: parte del edificio con una función independiente. Se entienden como tales los
+suelos, los muros, las fachadas y las cubiertas.
+
+Documento Básico  HS Salubridad
+HS 1 Protección frente a la humedad
+47
+Elemento pasante: elemento que atraviesa un elemento constructivo. Se entienden como tales las ba-
+jantes y las chimeneas que atraviesan las cubiertas.
+Encachado: capa de grava de diámetro grande que sirve de base a una solera apoyada en el terreno
+con el fin de dificultar la ascensión del agua del terreno por capilaridad a ésta.
+Enjarje: cada uno de los dentellones que se forman en la interrupción lateral de un muro para su traba-
+zón al proseguirlo.
+Formación de pendientes (sistema de): sistema constructivo situado sobre el soporte resistente de
+una cubierta y que tiene una inclinación para facilitar la evacuación de agua.
+Geotextil: tipo de lámina plástica que contiene un tejido de refuerzo y cuyas principales funciones son
+filtrar, proteger químicamente y desolidarizar capas en contacto.
+Grado de impermeabilidad: número indicador de la resistencia al paso del agua característica de una
+solución constructiva definido de tal manera que crece al crecer dicha resistencia y, en consecuencia,
+cuanto mayor sea la solicitación de humedad mayor debe ser el grado de impermeabilidad de dicha so-
+lución para alcanzar el mismo resultado. La gradación se aplica a las soluciones de cada elemento cons-
+tructivo de forma independiente a las de los demás elementos. Por lo tanto, las gradaciones de los distin-
+tos elementos no son necesariamente equivalentes: así, el grado 3 de un muro no tiene por qué equiva-
+ler al grado 3 de una fachada.
+Higroscopicidad: propiedad de un material de absorber o ceder agua en función de la humedad relativa
+del ambiente en que se encuentra.
+Hoja principal: hoja de una fachada cuya función es la de soportar el resto de las hojas y componentes
+de la fachada, así como, en su caso desempeñar la función estructural.
+Hormigón de consistencia fluida: hormigón que, ensayado en la mesa de sacudidas, presenta un
+asentamiento comprendido entre el 70% y el 100%, que equivale aproximadamente a un asiento superior
+mayor que 20 cm en el cono de Abrams.
+Hormigón de elevada compacidad: hormigón con un índice muy reducido de huecos en su granulome-
+tría.
+Hormigón hidrófugo: hormigón que, por contener sustancias de carácter químico hidrófobo, evita o
+disminuye sensiblemente la absorción de agua.
+Hormigón de retracción moderada: hormigón que sufre poca reducción de volumen como consecuen-
+cia del proceso físico-químico del fraguado, endurecimiento o desecación.
+Impermeabilización: procedimiento destinado a evitar el mojado o la absorción de agua por un material
+o elemento constructivo. Puede hacerse durante su fabricación o mediante la posterior aplicación de un
+tratamiento.
+Impermeabilizante: producto que evita el paso de agua a través de los materiales tratados con él.
+Índice pluviométrico anual: para un año dado, es el cociente entre la precipitación media y la precipita-
+ción media anual de la serie.
+Inyección: técnica de recalce consistente en el refuerzo o consolidación de un terreno de cimentación
+mediante la introducción en él a presión de un mortero de cemento fluido con el fin de que rellene los
+huecos existentes.
+Intradós: superficie interior del muro.
+Lámina drenante: lámina que contiene nodos o algún tipo de pliegue superficial para formar canales por
+donde pueda discurrir el agua.
+Lámina filtrante: lámina que se interpone entre el terreno y un elemento constructivo y cuya caracterís-
+tica principal es permitir el paso del agua a través de ella e impedir el paso de las partículas del terreno.
+Limahoya: línea de intersección de dos vertientes de cubierta que se juntan formando un ángulo cónca-
+vo.
+Limatesa: línea de intersección de dos vertientes de cubierta que se juntan formando un ángulo conve-
+xo.
+Llaga: junta vertical entre dos ladrillos de unamisma hilada.
+
+Documento Básico  HS Salubridad
+HS 1 Protección frente a la humedad
+48
+Lodo de bentonita: suspensión en agua de bentonita que tiene la cualidad de formar sobre una superfi-
+cie porosa una película prácticamente impermeable y que es tixotrópica, es decir, tiene la facultad de
+adquirir en estado de reposo una cierta rigidez.
+Mortero hidrófugo: mortero que, por contener sustancias de carácter químico hidrófobo, evita o dismi-
+nuye sensiblemente la absorción de agua.
+Mortero hidrófugo de baja retracción: mortero que reúne las siguientes características:
+a)
+contiene sustancias de carácter químico hidrófobo que evitan o disminuyen sensiblemente la
+absorción de agua;
+b)
+experimenta poca reducción de volumen como consecuencia del proceso físico-químico del
+fraguado, endurecimiento o desecación.
+Mortero pobre: mortero que tiene una dosificación, expresada en Kg de cemento por m3 de arena, me-
+nor o igual que 1/8.
+Muro flexorresistente: muro armado que resiste esfuerzos de compresión y de flexión. Este tipo de
+muro se construye después de realizado el vaciado del terreno del sótano.
+Muro de gravedad: muro no armado que resiste esfuerzos principalmente de compresión. Este tipo de
+muro se construye después de realizado el vaciado del terreno del sótano.
+Muro pantalla: muro armado que resiste esfuerzos de compresión y de flexión. Este tipo de muro se
+construye en el terreno mediante el vaciado del terreno exclusivo del muro y el consiguiente hormigona-
+do in situ o mediante el hincado en el terreno de piezas prefabricadas. El vaciado del terreno del sótano
+se realiza una vez construido el muro.
+Muro parcialmente estanco: muro compuesto por una hoja exterior resistente, una cámara de aire y
+una hoja interior. El muro no se impermeabiliza sino que se permite el paso del agua del terreno hasta la
+cámara donde se recoge y se evacua.
+Nivel freático: valor medio anual de la profundidad con respecto a la superficie del terreno de la cara
+superior de la capa freática.
+Permeabilidad al vapor de agua: cantidad de vapor de agua que se transmite a través de un material
+de espesor unidad por unidad de área, unidad de tiempo y de diferencia de presiones parciales de vapor
+de agua. La permeabilidad se expresa en g·m /(MN·s) o en g·cm /(mmHG·m2·día).
+Pintura impermeabilizante: compuesto líquido pigmentado que se convierte en película sólida después
+de su aplicación y que impide la filtración y la absorción de agua a través de él.
+Placa: solera armada para resistir mayores esfuerzos de flexión como consecuencia, entre otros, del
+empuje vertical del agua freática.
+Pozo drenante: pozo efectuado en el terreno con entibación perforada para permitir la llegada del agua
+del terreno circundante a su interior. El agua se extrae por bombeo.
+Revestimiento continuo: revestimiento que se aplica en forma de pasta fluida directamente sobre la
+superficie que se reviste. Puede ser a base de morteros hidráulicos, plástico o pintura.
+Revestimiento discontinuo: revestimiento conformado a partir de piezas (baldosas, lamas, placas, etc.)
+de materiales naturales o artificiales que se fijan a las superficies mediante sistemas de agarre o anclaje.
+Según sea este sistema de fijación el revestimiento se considera pegado o fijado mecánicamente.
+Revestimiento exterior: revestimiento de la fachada dispuesto en la cara exterior de la misma.
+Sistema adherido: sistema de fijación en el que la impermeabilización se adhiere al elemento que sirve
+de soporte en toda su superficie.
+Sistema fijado mecánicamente: sistema de fijación en el que la impermeabilización se sujeta al ele-
+mento que sirve de soporte mediante fijaciones mecánicas.
+Sistema no adherido: sistema de fijación en el que la impermeabilización se coloca sobre el soporte sin
+adherirse al mismo salvo en elementos singulares tales como juntas, desagües, petos, bordes, etc. y en
+el perímetro de elementos sobresalientes de la cubierta, tales como chimeneas, claraboyas, mástiles,
+etc.
+Sistema semiadherido: sistema de fijación en el que la impermeabilización se adhiere al elemento que
+sirve de soporte en una extensión comprendida entre el 15 y el 50 %.
+
+Documento Básico  HS Salubridad
+HS 1 Protección frente a la humedad
+49
+Solera: capa gruesa de hormigón apoyada sobre el terreno, que se dispone como pavimento o como
+base para un solado.
+Solución constructiva:elemento constructivo caracterizado por los componentes concretos que lo for-
+man junto con otros elementos del contorno ajenos al elemento constructivo cuyas características influ-
+yen en el nivel de prestación proporcionado.
+Sub-base: capa de bentonita de sodio sobre hormigón de limpieza dispuesta debajo del suelo.
+Succión: capacidad de imbibición de agua por capilaridad de un producto mediante inmersión parcial en
+un período corto de tiempo.
+Suelo elevado: suelo situado en la base del edificio en el que la relación entre la suma de la superficie
+de contacto con el terreno y la de apoyo, y la superficie del suelo es inferior a 1/7.
+Trasdós: superficie exterior de un muro.
+Tubo drenante: tubo enterrado cuyas paredes están perforadas para permitir la llegada del agua del
+terreno circundante a su interior.
+Valor básico de la velocidad del viento: corresponde al valor característico de la velocidad media del
+viento a lo largo de un periodo de 10 minutos, tomada en zona plana y desprotegida frente al viento a
+una altura de 10 m sobre el suelo. Dicho valor característico es el valor cuya probabilidad anual de ser
+sobrepasado es de 0,02 (período de retorno de 50 años).
+Zanja drenante: zanja que recoge el agua del terreno circundante y la conduce a la red de alcantarillado
+o de saneamiento.
+Zona eólica: zona geográfica que engloba todos los puntos que tienen un valor básico de la velocidad
+del viento, V, comprendido dentro del mismo intervalo de los siguientes:
+zona A cuando V = 26 m/s
+zona B cuando V = 27 m/s
+zona C cuando V = 29 m/s
+Zona pluviométrica de promedios: zona geográfica que engloba todos los puntos que tienen un índice
+pluviométrico anual, p, comprendido dentro del mismo intervalo de los siguientes:
+zona I cuando p > 2000 mm
+zona II cuando 1000 mm  p  2000 mm
+zona III cuando 500 mm  p  1000 mm
+zona IV cuando 300 mm  p  500 mm
+zona V cuando p < 300 mm
+
+Documento Básico  HS Salubridad
+HS 1 Protección frente a la humedad
+50
+
+## Referencias detectadas (literal)
+
+- UNE-EN

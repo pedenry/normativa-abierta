@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0116",
+  "ruta_oficial": "ANEJO-C",
+  "ruta_semantica": "Anejo C. Valores de resistencia característica a compresión",
+  "titulo": "Anejo C. Valores de resistencia característica a compresión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo C. Valores de resistencia característica a compresión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 59,
+   "bbox": [
+    70.9,
+    96.9,
+    472.5,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a49d0d9d3be7074939c18cf4b24c03bf4108a0d23e5000c43c5f2c1deb19e20e",
+   "literal": "Anejo C. Valores de resistencia característica a compresión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0123",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo C. Valores de resistencia característica a compresión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Valores de resistencia característica a compresión",
+   "seccion_estimada": "Anejo C. Valores de resistencia característica a compresión",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b69c7d5ec272760b1c955b694d95dbceefc4531df458771f1e7135531dcc0dd2"
+ },
+ "paginas": [
+  59,
+  60,
+  61
+ ],
+ "etiquetas_impresas": [
+  "5",
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo C. Valores de resistencia característica a compresión\n1\nLa resistencia característica a la compresión, fk,en N/mm², de una fábrica realizada con mortero ordi-\nnario con juntas extendidas a todo el grueso, puede calcularse con la ecuación:\nfk  = K· fb0,65 · fm0,25\n(C.1)\ncon fm no mayor que 20 N/mm², ni que 0,75 fb\ndonde\nK\nes una constante, de valor:\na) en muros de una hoja, cuando el grueso de la fábrica sea igual al tizón o a la soga de las\npiezas K= 0,60 para piezas macizas, K=0,55 para piezas perforadas, K=0,50 para las alige-\nradas y K=0,40 para las huecas.\nb) en muros de dos hojas o con suturas continuas, K=0,50 para piezas macizas, K=0,45 para\nlas perforadas y K=0,40 para las aligeradas\nfb\nes la resistencia normalizada a la compresión de las piezas de fábrica, en la dirección del es-\nfuerzo, en N/mm²\nfm\nes la resistencia a la compresión especificada del mortero ordinario en N/mm², no mayor que 20\nN/mm², ni que fb\n2\nResistencia característica a compresión de una fábrica con mortero de junta delgada.\na)\nLa resistencia característica a compresión, fk, de una fábrica de piezas macizas, silicocalcáreas\no de hormigón celular de autoclave, con mortero de junta delgada, puede calcularse con la ecua-\nción C.2:\nfk  = 0,8· fb0,85\n(C.2)\nsiempre que las piezas de fábrica tengan tolerancias dimensionales idóneas para su empleo con\njuntas delgadas; la resistencia normalizada a compresión de las piezas de fábrica, fb, no se tome\nmayor que 5 N/mm2; la resistencia a compresión del mortero sea igual o mayor que 5 N/mm2; el\nespesor del muro sea igual a la soga o tizón de las piezas y no haya discontinuidades contenidas\nen el grueso.\nb)\nLa resistencia característica a compresión de una fábrica con mortero de junta delgada y piezas\ndistintas a las anteriores (moldeadas o rectificadas para aceptar este tamaño de junta), puede\ncalcularse con la ecuación C.1, siempre que se cumplan los requisitos indicados en el caso a),\nsiendo K=0,70 para piezas macizas, K=0,60 para las perforadas y K=0,50 para las aligeradas.\n3\nLa resistencia característica, fk, en N/mm2 a compresión de una fábrica con mortero ligero, si las\npiezas son macizas, perforadas o huecas y las juntas son llenas, puede tomarse igual a:\nfk  = K· fb 0,65\n(C.3)\nsiempre que fb no se tome mayor que 15 N/mm², que el espesor del muro sea igual a la soga o al\ntizón de las piezas y no existan discontinuidades verticales en toda o parte de la longitud del muro\nsiendo\n.- K = 0,80 con mortero ligero de densidad de 600 a 1 500 kg/m³ y piezas de hormigón de árido\nligero, según la norma UNE-EN 771-3:2011+A1:2016, o piezas de hormigón celular de auto-\nclave, según la norma UNE-EN 771-4:2011+A1:2016\n- K=0,55 con mortero ligero de densidad de 600 a 700 kg/m³ y piezas de arcilla según la norma\nUNE-EN 771-1:2011+A1:2016, piezas silicocalcáreas según la norma UNE-EN 771-\n2:2011+A1:2016 o piezas de hormigón de árido ordinario según la norma UNE-EN 771-\n3:2011+A1:2016\n- NOTA. El valor de K incluye la influencia de la resistencia del mortero sobre la resistencia característica a compresión\nde la fábrica\n4\nLa resistencia característica a compresión de una fábrica con llagas a hueso se puede obtener con\nlas formulas C.1; C.2 y C.3, siempre que la resistencia a cortante se deduzca de la aplicación de la\necuación 4.2 y se consideren la totalidad de las acciones horizontales que puedan aplicarse a la\nfábrica.\n5\nResistencia característica a compresión de una fábrica con tendeles huecos.\n\nDocumento Básico SE-F Fábrica\nSE-F-56\na)\nLa resistencia característica a compresión de una fábrica de este tipo, con piezas macizas, asen-\ntadas sobre dos bandas iguales de mortero ordinario en los bordes exteriores de la tabla de las\npiezas, se obtendrá con la ecuación C.1, y las limitaciones dadas con ella, si la anchura de cada\nbanda de mortero es no menor que 30 mm; el espesor de la fábrica es igual a la soga o tizón de\nlas piezas de fábrica, y no existan discontinuidades verticales (suturas) en todo o parte del\ngrueso del muro.\nb)\nEl valor de K es\nK = 1,1 – bs / t\ndonde:\nbs\nes la distancia entre ejes de las bandas de mortero\nt\nes el grueso del muro\nc)\nLa resistencia característica a compresión de fábricas con tendeles huecos, con piezas perfora-\ndas o aligeradas, se obtendrá mediante la ecuación C.1, a partir de la resistencia normalizada a\ncompresión fb de la pieza, obtenida en ensayos según la norma UNE-EN 772-1:2011+A1:2016,\nrealizados sobre piezas preparadas con bandas de mortero no más anchas que las que se em-\nplearán en la fábrica. La resistencia de la pieza se referirá al área bruta, no al área de las bandas.\n\nDocumento Básico SE-F Fábrica\nSE-F-57",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0061.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

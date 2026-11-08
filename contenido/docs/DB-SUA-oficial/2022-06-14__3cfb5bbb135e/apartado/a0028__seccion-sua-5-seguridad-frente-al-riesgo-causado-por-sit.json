@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0028",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección SUA 5 Seguridad frente al riesgo causado por situaciones de alta ocupación",
+  "titulo": "Sección SUA 5 Seguridad frente al riesgo causado por situaciones de alta ocupación",
+  "nivel": 1,
+  "parent_id": "a0013",
+  "seccion_estimada": "Sección SUA 5 Seguridad frente al riesgo causado por situaciones de alta ocupación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 6,
+   "bbox": [
+    70.9,
+    633.0,
+    500.9,
+    660.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "960d59f35c1712f3d51b58358c4bb96731822bd075ffe44129139e4e21972cd3",
+   "literal": "Sección SUA 5 Seguridad frente al riesgo causado por situaciones de alta ocupación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0013",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección SUA 5 Seguridad frente al riesgo causado por situaciones de alta ocupación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0013",
+   "ruta_semantica": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento / Sección SUA 5 Seguridad frente al riesgo causado por situaciones de alta ocupación",
+   "seccion_estimada": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "331deab12f95fe1ac86db6e9af29bc23737041a24de4501e58f8f8d059713e38"
+ },
+ "paginas": [
+  6
+ ],
+ "etiquetas_impresas": [
+  "6"
+ ],
+ "tipos": [],
+ "texto": "Sección SUA 5 Seguridad frente al riesgo causado por situaciones de alta ocupación\nocupación\n1\nÁmbito de aplicación\n2\nCondiciones de los graderíos para espectadores de pie",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

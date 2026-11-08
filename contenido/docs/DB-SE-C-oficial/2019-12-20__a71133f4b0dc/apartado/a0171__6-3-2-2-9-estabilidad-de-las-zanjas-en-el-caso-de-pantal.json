@@ -1,0 +1,117 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0171",
+  "ruta_oficial": "6.3.2.2.9",
+  "ruta_semantica": "6.3.2.2.9 Estabilidad de las zanjas en el caso de pantallas de hormigón armado",
+  "titulo": "6.3.2.2.9 Estabilidad de las zanjas en el caso de pantallas de hormigón armado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.2.2.9 Estabilidad de las zanjas en el caso de pantallas de hormigón armado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 82,
+   "bbox": [
+    70.9,
+    411.4,
+    447.1,
+    421.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0e94d6fdb22d34c0e6fc84e6849ed29576de789a5c9a84e6ded6f2ccfe42a9b4",
+   "literal": "6.3.2.2.9 Estabilidad de las zanjas en el caso de pantallas de hormigón armado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0197",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.2.9 Estabilidad de las zanjas en el caso de pantallas de hormigón armado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). /  / 6.3.2.2.9 Estabilidad de las zanjas en el caso de pantallas de hormigón armado",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "58eda6de72814c797c6153d4d303f85eea311c7af07554f9f24558b75d3153ed"
+ },
+ "paginas": [
+  82
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "6.3.2.2.9 Estabilidad de las zanjas en el caso de pantallas de hormigón armado\n1\nDebe comprobarse la estabilidad de las zanjas, tanto si se emplean lodos tixotrópicos como si no se\nhace uso de ellos. Es particularmente importante esta comprobación si existen edificaciones próxi-\nmas o inmediatas a las zanjas.\n2\nPara asegurar la estabilidad de una excavación de planta rectangular (zanja) se deben emplear\nlodos cuando la profundidad de la zanja sea superior a la altura que podría excavarse con talud ver-\ntical indefinido.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

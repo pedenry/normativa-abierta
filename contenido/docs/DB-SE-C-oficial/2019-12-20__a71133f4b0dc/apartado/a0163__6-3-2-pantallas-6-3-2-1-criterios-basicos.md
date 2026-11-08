@@ -1,0 +1,104 @@
+---
+
+documento: "DB-SE-C Cimientos"
+id: "DB-SE-C-oficial"
+capa: "oficial"
+version: "2019-12-20"
+id_tecnico: "a0163"
+ruta_oficial: "6.3.2"
+ruta_semantica: "Fragmento de PDF p78"
+parent_id: null
+nivel: 1
+titulo: "6.3.2 Pantallas 6.3.2.1 Criterios básicos"
+paginas_fisicas: "78-79"
+paginas_impresas: "9-None"
+sha256_documento: "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e"
+tipos: "figuras"
+seccion_estimada: "Fragmento de PDF p78"
+titulo_navegacion: "Fragmento de PDF p78"
+ruta_fuente: "fragmento_sin_jerarquia"
+clasificacion_navegacion: "no_encabezado"
+es_encabezado_navegacion: false
+sha256_body_normativo: "64ee1044de737b63f9c9652e4dfc894a72cfe34c1842cab10ba09c6cf7ee1bb7"
+---
+
+# a0163 Fragmento de PDF p78
+
+6.3.2 Pantallas 6.3.2.1 Criterios básicos
+6.3.2.1 Criterios básicos
+1
+En el caso de existir obras o edificaciones en las proximidades de los límites de la excavación que
+pudieran verse afectadas por la apertura de ésta, o que pudiesen implicar cargas sobre las panta-
+llas o muros, se obtendrán los datos sobre el tipo de estructura, naturaleza de la cimentación, nive-
+les de cimentación, cargas transmitidas al terreno, distancias a los bordes de la excavación, estado
+de la edificación, etc., suficientes para poder analizar los posibles efectos que la ejecución de la
+pantalla o la apertura de la excavación puedan producir sobre dichas edificaciones o viceversa. Se
+prestará una atención especial a las medianerías.
+2
+En este caso la flexibilidad de la pantalla puede ser un factor de la mayor importancia. Las estructu-
+ras de edificación son, por lo general, tan sensibles, o más a los movimientos diferenciales en sen-
+tido horizontal de los cimientos, que a los asientos diferenciales. Se tratará de impedir o minimizar
+ambos, para lo cual se deben elegir tipos de pantallas relativamente rígidas y, sobre todo, no dejar
+grandes alturas en voladizo, que salvo justificación en contra, deben ser inferiores a 5m. Se debe
+disponer elementos de sujeción en cabeza de la pantalla que sean muy poco susceptibles de alar-
+gamiento o deformación.
+3
+La necesidad de disponer elementos de sujeción vendrá determinada por la estabilidad general de
+la excavación, la estabilidad propia de la pantalla, la magnitud de sus esfuerzos, y la presencia de
+otras edificaciones en sus proximidades.
+4
+En general, será conveniente disponer elementos de sujeción cuando la profundidad de la excava-
+ción sea superior a los 3 ó 4 m (caso de más de un sótano), y en ocasiones por razón de la estabili-
+dad de las estructuras vecinas.
+5
+La elección del tipo de sujeción, si se precisa, depende, fundamentalmente, de consideraciones
+económicas, de las posibilidades de emplear uno u otro y su influencia en la ejecución de la exca-
+vación o de la edificación. Los procedimientos de sujeción más usuales son:
+a)
+apuntalamiento al fondo de la excavación;
+b)
+apuntalamiento recíproco contra otras pantallas que limitan la misma excavación;
+c)
+apuntalamiento contra los forjados del propio edificio;
+d)
+anclajes al terreno;
+e)
+anclajes a otras estructuras de contención paralelas, como pantallas, muros, etc.
+6
+Si existiera la posibilidad de inestabilidad general de la pantalla o de la excavación, por desliza-
+miento a lo largo de una superficie profunda, la investigación sobre los tipos de terrenos y su dispo-
+sición estratigráfica debe ser tan amplia como sea necesario, para caracterizar el problema.
+7
+Si la excavación ha de realizarse por debajo del nivel freático, el conocimiento del terreno en pro-
+fundidad habrá de ser tal que permita el estudio de la red de filtración, con el grado de precisión su-
+ficiente para determinar la seguridad frente al sifonamiento y la estimación de caudales.
+8
+En el caso de que parte de la excavación haya de realizarse en terrenos saturados, se determinará
+la situación exacta del nivel freático o de los niveles piezométricos en los distintos estratos atrave-
+sados y su evolución en el tiempo, bien sea por variaciones naturales o por el efecto que pueda
+producir la propia excavación u otras obras que se ejecuten en las proximidades.
+9
+Para poder establecer la posibilidad de ejecución de una pantalla será preciso asegurarse previa-
+mente de que no existen en el terreno obstáculos que hayan de ser atravesados por ella, tales co-
+
+Documento Básico SE-C Cimientos
+SE-C-74
+mo: alcantarillas, colectores, galerías de servicio, conducciones eléctricas, telefónicas o de distribu-
+ción de gas, pozos, antiguas cimentaciones, etc. Caso de existir alguno de dichos obstáculos se de-
+finirá su localización exacta, a fin de tomar las medidas oportunas en el proyecto o durante la ejecu-
+ción por el Director de Obra.
+10
+Si la excavación ha de realizarse en parte por debajo del nivel freático, quedarán descartados aque-
+llos tipos de pantalla que no garanticen un adecuado grado de estanqueidad.
+11
+Las vibraciones producidas por la hinca de tablestacas, sobre todo en terrenos sin cohesión, pue-
+den afectar gravemente a las obras próximas, bien porque éstas sean muy susceptibles a las vibra-
+ciones, bien porque se compacte el terreno y se produzcan asientos.
+12
+Se ha de tener en cuenta igualmente las vibraciones originadas por la caída libre de los útiles de
+apertura de zanjas para la ejecución de pantallas continuas, especialmente cuando se trabaje sin
+lodos.
+
+## Figuras / fórmulas
+
+- figura/p0079.png (página visual; fórmulas extraídas pendientes de verificación)

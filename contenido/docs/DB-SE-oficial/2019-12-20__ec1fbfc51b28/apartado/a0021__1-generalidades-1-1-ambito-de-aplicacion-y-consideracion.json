@@ -1,0 +1,76 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0021",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Fragmento de PDF p7",
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p7",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p7",
+  "referencias_filtradas": [
+   "DB-SE"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c8203f11379c10f7d0db47d4c2ef46575292de1b0e96c90784574c008173e6cc"
+ },
+ "paginas": [
+  7
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "ambito",
+  "referencias"
+ ],
+ "texto": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas\n1.1 Ámbito de aplicación y consideraciones previas\n1\nEste DB establece los principios y los requisitos relativos a la resistencia mecánica y la estabilidad\ndel edificio, así como la aptitud al servicio, incluyendo su durabilidad. Describe las bases y los prin-\ncipios para el cálculo de las mismas. La ejecución, la utilización, la inspección y el mantenimiento se\ntratan en la medida en la que afectan a la elaboración del proyecto.\n2\nLos preceptos del DB-SE son aplicables a todos los tipos de edificios, incluso a los de carácter pro-\nvisional.\n3\nSe denomina capacidad portante a la aptitud de un edificio para asegurar, con la fiabilidad requeri-\nda, la estabilidad del conjunto y la resistencia necesaria, durante un tiempo determinado, denomi-\nnado periodo de servicio. La aptitud de asegurar el funcionamiento de la obra, el confort de los\nusuarios y de mantener el aspecto visual, se denomina aptitud al servicio.\n4\nA falta de indicaciones específicas, como periodo de servicio se adoptará 50 años",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0022"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

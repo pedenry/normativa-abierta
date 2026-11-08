@@ -1,0 +1,121 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0026",
+  "ruta_oficial": "2.3.5",
+  "ruta_semantica": "2.3.5 Datos geométricos",
+  "titulo": "2.3.5 Datos geométricos",
+  "nivel": 1,
+  "parent_id": "a0010",
+  "seccion_estimada": "2.3.5 Datos geométricos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    70.9,
+    144.0,
+    217.7,
+    156.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "24393fc1ffd2747022c29b7cd09920d405c71d397b734cbce51afc9e8886f775",
+   "literal": "2.3.5 Datos geométricos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0036",
+  "parent_id_original": "a0010",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3.5 Datos geométricos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0010",
+   "ruta_semantica": "Anejo G. Normas de referencia / 2.3.5 Datos geométricos",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "79beda6fdea52a4901344495f649f24ae487ea01b4762af7cc4b165298a3dbc0"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.3.5 Datos geométricos\n1\nA la hora de definir la configuración geométrica para cada tipo de cimentación se tendrán en cuenta\nlas consideraciones que se hacen en los capítulos correspondientes de este DB dedicando especial\natención a la cota y pendiente de la superficie del terreno, los niveles de excavación y la definición\nde los niveles piezométricos del agua del terreno en cada una de las situaciones de dimensionado a\nlas que sus posibles variaciones puedan dar lugar.\n2\nLos valores de cálculo de la dimensiones geométricas de la cimentación coincidirán con sus valores\nnominales reflejados en los planos de ejecución.\n3\nEn los casos en que las posibles desviaciones de una dimensión geométrica de su valor nominal\npuedan tener una influencia significativa en el comportamiento de la cimentación, el valor de cálculo\nde esta dimensión quedará definido por el que sea más desfavorable, resultante de sumar o restar\nla desviación al valor nominal de la dimensión.\n2.4",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0009.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,128 @@
+{
+ "documento": null,
+ "pagina": 21,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-17",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    187.1,
+    541.4,
+    340.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.3 Excentricidad de apoyo en cabeza de muro superior\n8\nSi la excentricidad obtenida a partir de los momentos de puntos anteriores es mayor que 0,4 del\nespesor, o la tensión vertical de cálculo media es inferior a 0,25 N/mm2 (suele presentarse en los\nnudos superiores) la reacción de los muros puede obtenerse directamente por capacidad como la\nque corresponde a la amplitud del bloque comprimido que equilibra el esfuerzo normal de cálculo\nmediante una tensión no superior a la resistencia de calculo del material (véase figura 5.4). Este\nprocedimiento de garantizar la capacidad portante no permite descartar que los giros producidos pro-\nvoquen fisuras en el lado opuesto al de aplicación de la carga. En caso de que, sin acudir a este\nrecurso, no se verifique (5.1), podrían reconsiderarse los detalles constructivos, en particular variando\nla entrega del forjado o, lo que suele ser más eficaz, aumentando su canto.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    469.9,
+    541.4,
+    577.6
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.4 Excentricidad del esfuerzo normal de cálculo.\n9\nLas condiciones de vinculación de los nudos del modelo utilizado para el análisis deben correspon-\nderse con la posibilidad de movimientos que se deriven del detalle constructivo. En el modelo de\nanálisis se considerarán todos los elementos que puedan suponer una alteración del comportamiento\nestructural, especialmente aquellos que impidan la deformación supuesta de los forjados (cerramien-\ntos, muros de arriostramiento, o tabiquería retacados superiormente)\n10\nTodo muro de carga tendrá un espesor de al menos 115 mm.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    589.0,
+    192.0,
+    598.9
+   ],
+   "tipo": "texto",
+   "texto": "5.2.2 Capacidad portante",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    605.6,
+    541.4,
+    627.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn todo paño de un muro de fábrica, la compresión vertical de cálculo, Nsd, será menor o igual que\nsu resistencia vertical de cálculo, NRd, es decir:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    630.9,
+    541.4,
+    682.8
+   ],
+   "tipo": "texto",
+   "texto": "NSd    NRd\n(5.5)\n2\nEn muros de una hoja (o de dos hojas unidas rígidamente), la capacidad resistente vertical de cálculo\na compresión vertical, NRd, por unidad de longitud, vale:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.6,
+    686.7,
+    541.4,
+    712.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "NRd=·t·fd\n(5.6)\ndonde:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.6,
+    716.5,
+    541.4,
+    753.8
+   ],
+   "tipo": "texto",
+   "texto": "\nes el factor de reducción del grueso del muro por efecto de la esbeltez y/o de la excentricidad\nde la carga que se calcula según el apartado 5.2.3.\nt\nes el espesor del muro",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

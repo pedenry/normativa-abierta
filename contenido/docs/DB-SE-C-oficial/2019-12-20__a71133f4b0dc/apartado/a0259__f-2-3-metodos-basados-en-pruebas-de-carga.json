@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0259",
+  "ruta_oficial": null,
+  "ruta_semantica": "F.2.3 Métodos basados en pruebas de carga",
+  "titulo": "F.2.3 Métodos basados en pruebas de carga",
+  "nivel": 1,
+  "parent_id": "a0258",
+  "seccion_estimada": "F.2.3 Métodos basados en pruebas de carga",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 148,
+   "bbox": [
+    70.9,
+    261.8,
+    331.1,
+    273.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b053b4cf10a48eff9e108ec06c6f3c04b65ae2a68b27443c2226d068948502ba",
+   "literal": "F.2.3 Métodos basados en pruebas de carga"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0258",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "F.2.3 Métodos basados en pruebas de carga",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0258",
+   "ruta_semantica": "1 · (pl – Ko po) / F.2.3 Métodos basados en pruebas de carga",
+   "seccion_estimada": "1 · (pl – Ko po)",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b4a5d9d5bef6b9d44ceea1f709ebeb636de7ef96f639b5c8eda185725f20da96"
+ },
+ "paginas": [
+  148,
+  149
+ ],
+ "etiquetas_impresas": [
+  null,
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "F.2.3 Métodos basados en pruebas de carga\n1\nPara la utilización de este procedimiento se considera fundamental un conocimiento detallado de la\nestratigrafía del terreno.\n2\nCuando, para el dimensionado de pilotes, se determine la resistencia por punta Rpk o por fuste Rfk\ndel terreno mediante pruebas estáticas de carga in situ hasta rotura podrá adoptarse como valor ca-\nracterístico Rk de cualquiera de esas resistencias el proporcionado por la siguiente expresión:\nRk = Min {Rmedia/1 ; Rmínima/2}\n(F.39)\nsiendo\n1\nel coeficiente aplicable al valor medio de los resultados obtenidos en los ensayos;\n2\nel coeficiente aplicable al valor mínimo de los resultados obtenidos en los ensayos.\n3\nLos valores numéricos de los coeficientes 1 y 2 dependen del número de ensayos, n. La tabla F.3\ncontiene dichos valores\nTabla F.3. Valores de los coeficientes 1 y 2 para pruebas de carga in situ de pilotes\nn\n1\n2\n3\n4\n5\n1\n1,40\n1,30\n1,20\n1,10\n1,00\n2\n1,40\n1,20\n1,05\n1,00\n1,00\n4\nCuando, para el dimensionado de pilotes, se determine la resistencia global del pilote mediante\npruebas dinámicas de hinca, debidamente contrastadas con pruebas estáticas hasta rotura sobre\npilotes del mismo tipo y características geométricas en terrenos con las mismas propiedades geo-\ntécnicas, podrá adoptarse como valor característico Rk el proporcionado por la siguiente expresión:\nRk = Min {Rmedia/3 ; Rmínima/4}\n(F.40)\nsiendo\n3\nel coeficiente aplicable al valor medio de los resultados obtenidos en los ensayos\n4\nel coeficiente aplicable al valor mínimo de los resultados obtenidos en los ensayos.\n5\nLos valores numéricos de los coeficientes 3 y 4 depende del número de ensayos, n. La tabla F.4.\ncontiene dichos valores.\nTabla F.4. Valores de los coeficientes 3 y 4 para ensayos dinámicos de hinca de pilotes\nN\n 2\n 5\n 10\n 15\n 20\n3\n1,60\n1,50\n1,45\n1,42\n1,40\n4\n1,50\n1,35\n1,30\n1,25\n1,25\n6\nEn función de cómo se realice y controle la prueba de carga, los valores de los coeficientes 3 y 4\nde la tabla F.4 deben multiplicarse por los siguientes factores:\na)\n0,85, cuando el ensayo dinámico de hinca se haga con control de deformación y aceleración;\n\nDocumento Básico SE-C Cimientos\nSE-C-144\nb)\n1,10, cuando se utilice una fórmula de hinca basada en la medida de las compresiones casi-\nelásticas de la cabeza del pilote durante el proceso de la hinca;\nc)\n1,20, cuando se utilice una fórmula de hinca sin medir el desplazamiento de la cabeza del pilo-\nte durante el proceso de la hinca.\n7\nCuando se realicen pruebas de carga estáticas o dinámicas, para ayudar en la determinación de la\nresistencia de hundimiento, se podrán reducir los coeficientes de seguridad, de acuerdo con los cri-\nterios establecidos, para cada situación de dimensionado, en la tabla 2.1.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0148.png",
+  "../figura/p0149.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

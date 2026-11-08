@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0067",
+  "ruta_oficial": "5.6.1",
+  "ruta_semantica": "5.6.1 Análisis de solicitaciones",
+  "titulo": "5.6.1 Análisis de solicitaciones",
+  "nivel": 1,
+  "parent_id": "a0066",
+  "seccion_estimada": "5.6.1 Análisis de solicitaciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 30,
+   "bbox": [
+    70.9,
+    330.4,
+    223.2,
+    340.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0b3c05f15e6c38ba4ee35b073411d8ddba31c1b442d1774d7726a2023587ca23",
+   "literal": "5.6.1 Análisis de solicitaciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0067",
+  "parent_id_original": "a0066",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.6.1 Análisis de solicitaciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0066",
+   "ruta_semantica": "Anejo F. / 5.6 Fábrica armada a flexión / 5.6.1 Análisis de solicitaciones",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4e87295bc30fee5aa879615a95a8d397fcba29c7406ee7636825e0161c2bc7a3"
+ },
+ "paginas": [
+  30,
+  31
+ ],
+ "etiquetas_impresas": [
+  "18",
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.6.1 Análisis de solicitaciones\n1\nA efectos del análisis, la luz de cálculo Ld, de elementos aislados o continuos, se mide en general\nhasta el eje de cada elemento de sustentación, pero no más de hasta la cara más medio canto útil, d\n(figura 5.13). Como canto útil se tomará, como en el caso de hormigón, la distancia entre el eje de la\narmadura principal traccionada y el borde opuesto.\na)\nb)\nFigura 5.11 Luz de cálculo de elementos en flexión\n2\nA efectos La luz libre de un elemento de fábrica armada se limitará a los valores dados en la tabla\n5.3.\n3\nPara asegurar la estabilidad lateral, la distancia libre entre apoyos no será mayor que 60 bc ni que\n250·bc2/d, siendo bc el ancho de la sección comprimida a mitad de vano, y d el canto útil de la viga.\n4\nEn los voladizos arriostrados lateralmente sólo en el apoyo, la luz libre no será mayor que 25 bc ni\nque 100·bc2/d, siendo bc el ancho de la sección en el apoyo.\nTabla 5.3 Limitaciones de la relación entre luz libre a canto útil\nCondiciones de borde\nRelación de luz libre a canto útil\nMuro(1)\nViga\nApoyado\n35\n20\nContinuo\n45\n26\nBidireccional\n45\n-\nVoladizo\n18\n7\n\nDocumento Básico SE-F Fábrica\nSE-F-27\n(1)\nSe considera muro un elemento sometido a flexión compuesta esviada. Se considera viga la parte de un muro sometida a una\nflexión recta contenida en su plano. Para los muros de extremo libre sometidos a una acción predominante de viento y que no\nformen parte de una estructura, la limitación de la relación luz libre/canto útil puede incrementarse en un 30% si los\nrevestimientos admiten deformaciones sin dañarse.\n5\nUna vez analizadas las solicitaciones de un dintel, se pueden redistribuir con las mismas condiciones\ny limitaciones que establece la norma de hormigón vigente.\n6\nPara determinar el esfuerzo cortante de cálculo de un elemento sometido a una carga uniformemente\ndistribuida, puede admitirse que el máximo esfuerzo cortante se produce a la distancia d/2 de la cara\ndel apoyo, siendo d el canto útil de la sección si se cumple que:\na)\nLas acciones y las reacciones se pueden equilibrar mediante bielas a compresión a 45º y arma-\ndura de tracción.\nb)\nEn los extremos la armadura de tracción se ancla una longitud no inferior a la necesaria ni a una\ndistancia de 2,5 d.\nc)\nEn una sustentación intermedia, la armadura de tracción necesaria, se prolonga desde la cara\ndel elemento de soporte una longitud de al menos la de anclaje más 2,5d",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0030.png",
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

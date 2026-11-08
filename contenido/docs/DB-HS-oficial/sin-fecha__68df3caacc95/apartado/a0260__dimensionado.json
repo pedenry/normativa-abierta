@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0260",
+  "ruta_oficial": null,
+  "ruta_semantica": "Dimensionado",
+  "titulo": "Dimensionado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Dimensionado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 116,
+   "bbox": [
+    70.9,
+    331.7,
+    199.7,
+    347.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a0adc87816b08156743817cab2fc3b34fb2a7f5457290adc8fbf1dadcf331ecc",
+   "literal": "Dimensionado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Dimensionado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación / Dimensionado",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5f933445c05e4273c0830636e02cd1b48732a94a292e777c3bab1a61aa567843"
+ },
+ "paginas": [
+  116
+ ],
+ "etiquetas_impresas": [
+  "116"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Dimensionado\n1\nDebe aplicarse un procedimiento de dimensionado para un sistema separativo, es decir, debe di-\nmensionarse la red de aguas residuales por un lado y la red de aguas pluviales por otro, de forma\nseparada e independiente, y posteriormente mediante las oportunas conversiones, dimensionar un\nsistema mixto.\n2\nDebe utilizarse el método de adjudicación del número de unidades de desagüe (UD) a cada aparato\nsanitario en función de que el uso sea público o privado.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0116.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

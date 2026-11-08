@@ -1,0 +1,102 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0051",
+  "ruta_oficial": "2",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 2 Cálculo de la ocupación",
+  "titulo": "2 Cálculo de la ocupación",
+  "nivel": 2,
+  "parent_id": "a0048",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 22,
+   "bbox": [
+    70.9,
+    518.6,
+    270.6,
+    534.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "e11636e0995a272c81be901f216669f92cf2d32c64adc6b17b3e9c69655680a1",
+   "literal": "2 Cálculo de la ocupación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0019",
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2 Cálculo de la ocupación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 2 Cálculo de la ocupación",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f5bbae7347769d33385a15c80043e749897953e0f44a1b11b3c49676ae1d6d54"
+ },
+ "paginas": [
+  22,
+  23,
+  24
+ ],
+ "etiquetas_impresas": [
+  "22",
+  "23",
+  "24"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Cálculo de la ocupación\n1\nPara calcular la ocupación deben tomarse los valores de densidad de ocupación que se indican en la\ntabla 2.1 en función de la superficie útil de cada zona, salvo cuando sea previsible una ocupación\nmayor o bien cuando sea exigible una ocupación menor en aplicación de alguna disposición legal de\nobligado cumplimiento, como puede ser en el caso de establecimientos hoteleros, docentes, hospita-\nles, etc. En aquellos recintos o zonas no incluidos en la tabla se deben aplicar los valores correspon-\ndientes a los que sean más asimilables.\n2\nA efectos de determinar la ocupación, se debe tener en cuenta el carácter simultáneo o alternativo\nde las diferentes zonas de un edificio, considerando el régimen de actividad y de uso previsto para el\nmismo.\nTabla 2.1. Densidades de ocupación(1)\nUso previsto\nZona, tipo de actividad\nOcupación\n(m2/persona)\nCualquiera\nZonas de ocupación ocasional y accesibles únicamente a efectos de manteni-\nmiento: salas de máquinas, locales para material de limpieza, etc.\nOcupación\nnula\nAseos de planta\n3\n\nDocumento Básico SI en caso de Incendio\nSI 3. Evacuación de ocupantes\n23\nResidencial\nVivienda\nPlantas de vivienda\n20\nResidencial\nPúblico\nZonas de alojamiento\n20\nSalones de uso múltiple\n1\nVestíbulos generales y zonas generales de uso público en plantas de sótano,\nbaja y entreplanta\n2\nAparcamiento(2)\nVinculado a una actividad sujeta a horarios: comercial, espectáculos, oficina, etc.\n15\nEn otros casos, incluidos los estacionamientos de vehículos destinados al\nservicio de transporte de personas y transporte de mercancías\n40\nAdministrativo\nPlantas o zonas de oficinas\n10\nVestíbulos generales y zonas de uso público\n2\nDocente\nConjunto de la planta o del edificio\n10\nLocales diferentes de aulas, como laboratorios, talleres, gimnasios, salas de\ndibujo, etc.\n5\nAulas (excepto de escuelas infantiles)\n1,5\nAulas de escuelas infantiles y salas de lectura de bibliotecas\n2\nHospitalario\nSalas de espera\n2\nZonas de hospitalización\n15\nServicios ambulatorios y de diagnóstico\n10\nZonas destinadas a tratamiento a pacientes internados\n20\nComercial\nEn establecimientos comerciales:\náreas de ventas en plantas de sótano, baja y entreplanta\n2\náreas de ventas en plantas diferentes de las anteriores\n3\nEn zonas comunes de centros comerciales:\nmercados y galerías de alimentación\n2\nplantas de sótano, baja y entreplanta o en cualquier otra con acceso desde\nel espacio exterior\n3\nplantas diferentes de las anteriores\n5\nEn áreas de venta en las que no sea previsible gran afluencia de público, tales\ncomo exposición y venta de muebles, vehículos, etc.\n5\nPública concu-\nrrencia\nZonas destinadas a espectadores sentados:\ncon asientos definidos en el proyecto\n1pers/asiento\nsin asientos definidos en el proyecto\n0,5\nZonas de espectadoresde pie\n0,25\nZonas de público en discotecas\n0,5\nZonas de público de pie, en bares, cafeterías, etc.\n1\nZonas de público en gimnasios:\ncon aparatos\n5\n\nDocumento Básico SI en caso de Incendio\nSI 3. Evacuación de ocupantes\n24\nsin aparatos\n1,5\nPiscinas públicas\nzonas de baño (superficie de los vasos de las piscinas)\n2\nzonas de estancia de público en piscinas descubiertas\n4\nvestuarios\n3\nSalones de uso múltiple en edificios para congresos, hoteles, etc.\n1\nZonas de público en restaurantes de “comida rápida”, (p. ej: hamburgueserías,\npizzerías...)\n1,2\nZonas de público sentado en bares, cafeterías, restaurantes, etc.\n1,5\nSalas de espera, salas de lectura en bibliotecas, zonas de uso público en mu-\nseos, galerías de arte, ferias y exposiciones, etc.\n2\nVestíbulos generales, zonas de uso público en plantas de sótano, baja y entre-\nplanta\n2\nVestíbulos, vestuarios, camerinos y otras dependencias similares y anejas a\nsalas de espectáculos y de reunión\n2\nZonas de público en terminales de transporte\n10\nZonas de servicio de bares, restaurantes, cafeterías, etc.\n10\nArchivos, alma-\ncenes\n40\n(1)\nDeben considerarse las posibles utilizaciones especiales y circunstanciales de determinadas zonas o recintos, cuando pue-\ndan suponer un aumento importante de la ocupación en comparación con la propia del uso normal previsto. En dichos casos\nse debe, o bien considerar dichos usos alternativos a efectos del diseño y cálculo de los elementos de evacuación, o bien\ndejar constancia, tanto en la documentación del proyecto, como en el Libro del edificio, de que las ocupaciones y los usos\nprevistos han sido únicamente los característicos de la actividad.\n(2)\nEn los aparcamientos robotizados se considera que no existe ocupación. No obstante, dispondrán de los medios de escape\nen caso de emergencia para el personal de mantenimiento que en cada caso considere necesarios la autoridad de control.\n3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0022.png",
+  "../figura/p0023.png",
+  "../figura/p0024.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

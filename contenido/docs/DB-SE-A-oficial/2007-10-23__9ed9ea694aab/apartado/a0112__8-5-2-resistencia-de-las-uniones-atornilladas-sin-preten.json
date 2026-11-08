@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0112",
+  "ruta_oficial": "8.5.2",
+  "ruta_semantica": "8.5.2 Resistencia de las uniones atornilladas sin pretensar",
+  "titulo": "8.5.2 Resistencia de las uniones atornilladas sin pretensar",
+  "nivel": 1,
+  "parent_id": "a0110",
+  "seccion_estimada": "8.5.2 Resistencia de las uniones atornilladas sin pretensar",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 67,
+   "bbox": [
+    74.1,
+    442.6,
+    354.3,
+    453.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "bee07907cecf9fcbbd110aa7497e00ffa7177d2b80ebf0b7d606541b70c331d1",
+   "literal": "8.5.2 Resistencia de las uniones atornilladas sin pretensar"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0112",
+  "parent_id_original": "a0110",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.5.2 Resistencia de las uniones atornilladas sin pretensar",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0110",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.5 Resistencia de los medios de unión. Uniones atornilladas. / 8.5.2 Resistencia de las uniones atornilladas sin pretensar",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4b41bd95e0c4a3c5422f373b79f1f710bc5266e525fdc7942bb7b6f387cce5c5"
+ },
+ "paginas": [
+  67,
+  68,
+  69
+ ],
+ "etiquetas_impresas": [
+  "67",
+  "68",
+  "69"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.5.2 Resistencia de las uniones atornilladas sin pretensar\n1\nSe obtendrá a partir de la distribución de esfuerzos entre tornillos y de las resistencias de cada uno\nde éstos según su esfuerzo, sea en cortante, tracción, o tensión combinada.\n2\nLa resistencia de cálculo a cortante por tornillo tendrá como valor el menor de la resistencia a cor-\ntante de las secciones del tornillo o a aplastamiento de la chapa de unión, sin que la resistencia to-\ntal de la unión supere la resistencia a desgarro del alma:\na)\nResistencia a cortante en la sección transversal del tornillo:\n2\nM\nub\nRd\n.\nv\nA\nf\n5,0\nn\nF\nγ\n⋅\n⋅\n=\n(8.7)\nsiendo\nn\nnúmero de planos de corte;\nfub\nresistencia última del acero del tornillo;\nA\nárea de la caña del tornillo Ad o el área resistente del tornillo As, según se encuentren\nlos planos de cortadura en el vástago o la parte roscada del tornillo respectivamente.\nb)\nResistencia a aplastamiento de la chapa que se une:\n2\nM\nu\nRd\n.t\nt\nd\nf\n5,2\nF\nγ\nα\n=\n(8.8)\nsiendo\nd\ndiámetro del vástago del tornillo;\nt\nmenor espesor de las chapas que se unen;\n\nDocumentoBásico SE-A Acero\nSE-A-66\nfu\nresistencia última del acero de las chapas que se unen;\nα\nes el menor de:\n0,1\n;\nf\nf\n;\n4\n1\nd\n3\np\n;\nd\n3\ne\nu\nub\no\n1\no\n1\n−\n(8.9)\ndonde\ne1\ndistancia del eje del agujero al borde de la chapa en la dirección de la fuerza que se\ntransmite;\np1\nseparación entre ejes de agujeros en la dirección de la fuerza que se transmite;\ndo\ndiámetro del agujero;\nc)\nResistencia a desgarro del alma:\nCorresponde a la menor resistencia a rotura del bloque material que remata cualquiera de las\nlíneas entre agujeros extendida a los bordes más cercanos. Se contabilizarán las resistencias\nen tracción o cortadura de las áreas netas de chapa que correspondan a cada tipo de desga-\nrro. En el caso de extremos de vigas con unión en cortante (figura 8.3) se adoptará para dicha\nresistencia el menor valor de:\n0\nM\nef\ny\nRd\n.v\n2\nM\nnet\nu\nRd\n.v\n0\nM\ny\nRd\n.v\n3\nA\nf\nF\n3\nA\nf\nF\n3\nA\nf\nF\nγ\n=\nγ\n=\nγ\n=\n(8.10)\nsiendo\nA\nárea bruta de la sección a cortante:\nA = t (Lv+L1+L3);\nAnet\nárea neta de la sección:\nAnet = t (Lv+L1+L3-n do,1);\nAef\nárea eficaz de la sección:\nAef =t (Lv+L1+L2).\ndonde\n(\n)\ny\nu\n2\n,\no\n2\n2\nf\nf\nkd\na\nL\n−\n=\n(8.11)\nt\nespesor de la chapa;\nLv\ndistancia entre ejes de agujeros extremos en la dirección del esfuerzo;\nL1\ndistancia del último agujero, en el sentido del esfuerzo, al borde de la chapa. L1≤5d,\nsiendo d el diámetro nominal de los tornillos de la unión;\nL3\ndistancia del eje del primer agujero, en el sentido del esfuerzo, al borde de la chapa;\nn\nnúmero de agujeros a lo largo de la línea sometida a cortadura;\ndo,2\ndimensión de los agujeros en dirección perpendicular al esfuerzo cortante;\ndo,1\ndimensión de los agujeros en la dirección paralela al esfuerzo cortante;\na2\ndistancia del borde a la fila de agujeros más alejada;\nk\ncoeficiente de valor:\nk = 0,5  si hay una fila de agujeros;\nk = 2,5 si hay dos filas de agujeros.\n\nDocumentoBásico SE-A Acero\nSE-A-67\nFigura 8.3 Desgarro del alma\n3\nResistencia a tracción. La resistencia de cálculo a tracción Ft.Rd, por tornillo será la menor de:\na)\nLa resistencia a tracción del tornillo:\n2\nM\ns\nub\nRd\n.t\nA\nf\n9,0\nF\nγ\n=\n(8.12)\nsiendo\nAS\nárea resistente a tracción del tornillo.\nEn tornillos de cabeza avellanada se admitirá como resistencia máxima el 70% de la expresa-\nda en (8.12).\nb)\nLa resistencia de cálculo a punzonamiento de la cabeza del tornillo o la tuerca, Fp.Rd, dada\npor:\n2\nM\nu\np\nm\nRd\n.\np\nf\nt\nd\n6,0\nF\nγ\nπ\n=\n(8.13)\nsiendo\ntp\nespesor de la placa que se encuentra bajo el tornillo o la tuerca;\ndm\nmenor valor de la distancia media entre vértices y caras de la cabeza del tornillo o la\ntuerca.\n4\nSolicitación combinada. Cuando un tornillo esté solicitado simultáneamente a tracción y a esfuerzo\ncortante, además de cumplir separadamente las condiciones para cortadura y tracción, debe verifi-\ncar la condición de interacción siguiente:\n1\nF\n4\n,1\nF\nF\nF\nRd\n.t\nEd\n.t\nRd\n.\nv\nEd\n.v\n≤\n+\n(8.14)\nsiendo\nFv.Ed\nesfuerzo de cálculo perpendicular al eje del tornillo;\nFt.Ed\nesfuerzo axil de cálculo por tornillo al que en su caso se añadirán las tracciones debidas al\nefecto palanca;\nFv.Rd\nresistencia de cálculo frente a la cortadura del vástago;\nFt.Rd\nresistencia de cálculo en tracción.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0067.png",
+  "../figura/p0068.png",
+  "../figura/p0069.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

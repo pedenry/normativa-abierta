@@ -1,0 +1,159 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0010",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo G. Normas de referencia",
+  "titulo": "Anejo G. Normas de referencia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo G. Normas de referencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    70.9,
+    506.6,
+    219.6,
+    519.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ef8e80d3e7ed9a1a43c784f90f968ebb1e53035b44209ccb03c2d850861f834c",
+   "literal": "Anejo G. Normas de referencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0017",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo G. Normas de referencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a9ef5871be5ca6af7c704e62fe6fd1f4d6756480950f11756f4c005e6371723e"
+ },
+ "paginas": [
+  4,
+  5
+ ],
+ "etiquetas_impresas": [
+  null,
+  "1"
+ ],
+ "tipos": [],
+ "texto": "Anejo G. Normas de referencia\n\nDocumento Básico SE-C Cimientos\nSE-C-1\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0011",
+  "a0012",
+  "a0013",
+  "a0014",
+  "a0015",
+  "a0018",
+  "a0019",
+  "a0020",
+  "a0024",
+  "a0025",
+  "a0026",
+  "a0027",
+  "a0028",
+  "a0029",
+  "a0035",
+  "a0036",
+  "a0037",
+  "a0038",
+  "a0039",
+  "a0040",
+  "a0041",
+  "a0042",
+  "a0043",
+  "a0044",
+  "a0045",
+  "a0046",
+  "a0047",
+  "a0048",
+  "a0049",
+  "a0050",
+  "a0051",
+  "a0052",
+  "a0053",
+  "a0054",
+  "a0058",
+  "a0067",
+  "a0069",
+  "a0073",
+  "a0185"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

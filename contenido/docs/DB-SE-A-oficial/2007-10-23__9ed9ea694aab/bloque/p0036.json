@@ -1,0 +1,685 @@
+{
+ "documento": null,
+ "pagina": 36,
+ "etiqueta_impresa": "36",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-34",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    78.0,
+    73.4,
+    541.4,
+    119.1
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn general será necesario comprobar la resistencia a pandeo en cada posible plano en que pueda\nflectar la pieza. Este DB no cubre el fenómeno de pandeo por torsión, que puede presentarse en\npiezas, generalmente abiertas con paredes delgadas, en las que el eje de la barra deformada no\nqueda contenido en un plano.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.0,
+    125.4,
+    538.7,
+    148.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nComo capacidad a pandeo por flexión, en compresión centrada, de una barra de sección constan-\nte, puede tomarse",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    101.9,
+    154.2,
+    541.0,
+    168.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "yd\nRd\n,\nb\nf\nA\nN\n⋅\n⋅\nχ\n=\n(6.17)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    100.7,
+    177.3,
+    133.0,
+    188.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    100.7,
+    195.6,
+    541.4,
+    221.1
+   ],
+   "tipo": "texto",
+   "texto": "A\nárea de la sección tranversal en clases 1, 2 y 3, o área eficaz\neff\nA\nen secciones de clase\n4,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    102.6,
+    227.2,
+    531.2,
+    241.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "yd\nf\nresistencia de cálculo del acero, tomando\n1\nM\ny\nyd\n/\nf\nf\nγ\n=\n con\n05\n,1\n1\nM =\nγ\n de acuerdo a 2.3.3",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    102.4,
+    249.5,
+    538.6,
+    276.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "χ\ncoeficiente de reducción por pandeo, cuyo valor puede obtenerse en los epígrafes siguien-\ntes en función de la esbeltez reducida y la curva de pandeo apropiada al caso.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    78.0,
+    289.3,
+    360.3,
+    300.5
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2.1 Barras rectas de sección constante y axil constante",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    78.0,
+    310.6,
+    541.4,
+    334.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "1\nSe denomina esbeltez reducida λ , a la raíz cuadrada del cociente entre la resistencia plástica de\nla sección de cálculo y la compresión crítica por pandeo, de valor",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    101.9,
+    388.8,
+    196.9,
+    407.7
+   ],
+   "tipo": "texto",
+   "texto": "I\nE\nL\nN",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    129.8,
+    353.3,
+    177.7,
+    372.2
+   ],
+   "tipo": "texto",
+   "texto": "N",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    127.0,
+    345.1,
+    142.7,
+    356.3
+   ],
+   "tipo": "texto",
+   "texto": "f\nA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    150.8,
+    377.9,
+    154.7,
+    385.7
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    109.3,
+    393.9,
+    142.7,
+    409.6
+   ],
+   "tipo": "texto",
+   "texto": "k\ncr",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    137.2,
+    366.3,
+    143.0,
+    374.1
+   ],
+   "tipo": "texto",
+   "texto": "cr",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    143.3,
+    350.4,
+    146.8,
+    358.2
+   ],
+   "tipo": "texto",
+   "texto": "y",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    146.2,
+    387.0,
+    171.9,
+    410.5
+   ],
+   "tipo": "texto",
+   "texto": "⋅\n⋅\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    127.6,
+    380.6,
+    150.0,
+    410.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    119.6,
+    380.6,
+    141.8,
+    400.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "π\n=",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    102.4,
+    344.1,
+    138.2,
+    364.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "⋅\n=\nλ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    199.7,
+    369.9,
+    541.0,
+    381.1
+   ],
+   "tipo": "texto",
+   "texto": "(6.18)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    100.7,
+    418.2,
+    133.0,
+    429.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    100.7,
+    435.7,
+    231.0,
+    446.9
+   ],
+   "tipo": "texto",
+   "texto": "E\nmódulo de elasticidad;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    100.7,
+    453.2,
+    485.6,
+    464.4
+   ],
+   "tipo": "texto",
+   "texto": "I\nmomento de inercia del área de la sección para flexión en el plano considerado;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    101.9,
+    471.5,
+    541.5,
+    519.9
+   ],
+   "tipo": "texto",
+   "texto": "k\nL\nlongitud de pandeo de la pieza, equivalente a la distancia entre puntos de inflexión de la de-\nformación de pandeo que la tenga mayor. Para los casos canónicos se define en la tabla 6.1\nen función de la longitud de la pieza. Para condiciones diferentes para la carga axial o la\nsección se define en apartados posteriores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    78.0,
+    529.0,
+    538.7,
+    555.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\nEl coeficiente χ de reducción por pandeo, para valores de la esbeltez reducida\nk\nλ ≥ 0,2, se obtie-\nne de:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    154.4,
+    563.1,
+    210.5,
+    580.6
+   ],
+   "tipo": "texto",
+   "texto": "1\n1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    173.3,
+    579.5,
+    190.5,
+    591.0
+   ],
+   "tipo": "texto",
+   "texto": "2\n_",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    149.0,
+    588.7,
+    179.2,
+    603.5
+   ],
+   "tipo": "texto",
+   "texto": "k\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    197.1,
+    568.5,
+    202.6,
+    580.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 32,
+   "bbox": [
+    181.9,
+    588.6,
+    185.7,
+    612.3
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    164.5,
+    582.3,
+    185.7,
+    612.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    120.8,
+    582.3,
+    174.8,
+    601.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "λ\n−\nφ\n+\nφ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 35,
+   "bbox": [
+    102.4,
+    568.5,
+    541.0,
+    580.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "=\nχ\n(6.19)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 36,
+   "bbox": [
+    100.7,
+    620.7,
+    131.3,
+    631.9
+   ],
+   "tipo": "texto",
+   "texto": "donde",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    169.2,
+    642.0,
+    209.7,
+    665.0
+   ],
+   "tipo": "texto",
+   "texto": "(\n)",
+   "tamano": 13.6,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    246.8,
+    649.5,
+    250.7,
+    671.2
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    246.8,
+    665.3,
+    250.7,
+    677.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    246.8,
+    640.1,
+    250.7,
+    652.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 41,
+   "bbox": [
+    138.5,
+    649.5,
+    142.4,
+    671.2
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    138.5,
+    665.3,
+    142.4,
+    677.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    138.5,
+    640.1,
+    142.4,
+    652.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 44,
+   "bbox": [
+    236.0,
+    650.1,
+    239.8,
+    673.8
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 45,
+   "bbox": [
+    218.5,
+    643.8,
+    239.8,
+    673.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 46,
+   "bbox": [
+    102.4,
+    643.8,
+    228.8,
+    663.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "λ\n+\n−\nλ\n⋅\nα\n+\n⋅\n=\nφ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 47,
+   "bbox": [
+    227.3,
+    644.6,
+    244.3,
+    652.5
+   ],
+   "tipo": "texto",
+   "texto": "2\n_",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 48,
+   "bbox": [
+    119.2,
+    651.9,
+    541.0,
+    665.0
+   ],
+   "tipo": "texto",
+   "texto": "k\nk\n2,0\n1\n5,0\n(6.20)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 49,
+   "bbox": [
+    102.4,
+    684.3,
+    541.4,
+    720.3
+   ],
+   "tipo": "texto",
+   "texto": "α\nes el coeficiente de imperfección elástica, que adopta los valores de la tabla 6.3 en función\nde la curva de pandeo (véase tabla 6.2). Ésta representa la sensibilidad al fenómeno de-\npendiendo del tipo de sección, plano de pandeo y tipo de acero, de acuerdo a la table 6.2.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 50,
+   "bbox": [
+    78.0,
+    743.9,
+    541.4,
+    767.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "3\nLos valores del coeficiente χ se pueden obtener directamente de la figura 6.3 o de la tabla 6.3. en\nfunción de la esbeltez reducida y del coeficiente de imperfección, respectivamente.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

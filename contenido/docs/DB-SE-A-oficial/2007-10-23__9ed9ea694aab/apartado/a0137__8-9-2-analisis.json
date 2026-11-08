@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0137",
+  "ruta_oficial": "8.9.2",
+  "ruta_semantica": "8.9.2 Análisis",
+  "titulo": "8.9.2 Análisis",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.9.2 Análisis",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 98,
+   "bbox": [
+    74.1,
+    439.9,
+    143.0,
+    451.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "752f35343df3925ca1f2d33ffef1b62c772f8e1d8415ff6a40c7264fe5760c26",
+   "literal": "8.9.2 Análisis"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0131",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 8.9.4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.9.2 Análisis",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.9 Uniones de perfiles huecos en las vigas de celosía 8.9.1 Alcance y campo de aplicación / 8.9.2 Análisis",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f780fd3f24fa8f7e626dd3bd77e669e01418b0385a08f8985c23f763a74a7fac"
+ },
+ "paginas": [
+  98,
+  99
+ ],
+ "etiquetas_impresas": [
+  "98",
+  "99"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.9.2 Análisis\n1\nEn el análisis de una viga de celosía se puede suponer que las barras están conectadas por nudos\narticulados cuando:\na)\nLas características geométricas de los nudos esté dentro del campo de validez especificado\nen el apartado 8.9.4, la tabla 8.3 y la tabla 8.5.\nb)\nLa relación entre la longitud de la barra y su canto o altura en el plano de la viga no sea me-\nnor que:\n-\n12 para los cordones.\n-\n24 para las barras de alma.\n2\nPueden despreciarse las excentricidades que permanezcan dentro de los límites siguientes:\n-0,55 do≤ e ≤ 0,25 do\n(8.82)\n-0,55 ho≤ e ≤ 0,25 ho\n(8.83)\nsiendo\ne\nes la excentricidad (figura 8.23);\ndo\nes el diámetro del cordón;\nho\nes la altura del cordón en el plano de la viga de celosía.\n\nDocumentoBásico SE-A Acero\nSE-A-97\nFigura 8.23 Excentricidad de los nudos",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.9.4"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0098.png",
+  "../figura/p0099.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

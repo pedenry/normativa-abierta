@@ -1,0 +1,519 @@
+{
+ "documento": null,
+ "pagina": 38,
+ "etiqueta_impresa": "1",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-33",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    72.5,
+    541.3,
+    94.0
+   ],
+   "tipo": "texto",
+   "texto": "podrán tomar los valores de la presión de hundimiento (qh) que figuran en la tabla 4.3, válidos para\nzapatas rectangulares de ancho equivalente comprendido entre 1 y 3 m.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    163.9,
+    97.4,
+    451.3,
+    107.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Tabla 4.3. Presiones de hundimiento para zapatas 1≤ B* ≤3, (kN/m2)",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.2,
+    113.7,
+    497.7,
+    158.5
+   ],
+   "tipo": "texto",
+   "texto": "B* / L* = 1\nB* / L* = 0,5\nB* / L* = 0,25\nB* / L* = 0\nD (m)\nD (m)\nD (m)\nD (m)\n\n(º)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    104.2,
+    139.1,
+    512.5,
+    158.5
+   ],
+   "tipo": "texto",
+   "texto": "ck\n(kN/m2)\n0\n1\n2\n0\n1\n2\n0\n1\n2\n0\n1\n2",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    81.5,
+    162.7,
+    520.1,
+    197.5
+   ],
+   "tipo": "texto",
+   "texto": "0º\n50\n310\n385\n450\n280\n355\n420\n270\n340\n400\n255\n325\n385\n100\n615\n750\n860\n565\n690\n790\n540\n660\n755\n515\n630\n720\n150\n925\n1120\n1265\n850\n1025\n1160\n810\n980\n1110\n770\n935\n1060",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    79.0,
+    201.5,
+    517.5,
+    223.9
+   ],
+   "tipo": "texto",
+   "texto": "15º\n10\n145\n255\n375\n140\n245\n360\n135\n240\n355\n130\n235\n350\n20\n280\n410\n545\n260\n390\n520\n250\n375\n510\n240\n365\n495",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    79.0,
+    228.0,
+    517.5,
+    250.5
+   ],
+   "tipo": "texto",
+   "texto": "20º\n10\n215\n385\n570\n210\n375\n560\n205\n370\n555\n200\n365\n550\n20\n395\n595\n805\n370\n570\n775\n360\n555\n760\n350\n540\n745",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    79.0,
+    254.5,
+    520.1,
+    277.0
+   ],
+   "tipo": "texto",
+   "texto": "25º\n10\n335\n605\n915\n330\n600\n905\n330\n595\n900\n330\n595\n895\n20\n580\n900\n1240\n560\n870\n1205\n550\n855\n1185\n535\n840\n1165",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    79.0,
+    280.9,
+    520.1,
+    346.2
+   ],
+   "tipo": "texto",
+   "texto": "30º\n0\n190\n580\n1055\n230\n620\n1095\n250\n640\n1115\n270\n660\n1135\n10\n550\n1010\n1530\n560\n1015\n1530\n565\n1015\n1530\n570\n1020\n1530\n35º\n0\n425\n1135\n1990\n520\n1225\n2085\n565\n1270\n2130\n610\n1320\n2175\nsiendo\nD\nla profundidad definida en el Anejo F",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    367.9,
+    534.6,
+    393.7
+   ],
+   "tipo": "titulo",
+   "texto": "4.3.3 Método simplificado para la determinación de la presión vertical admisible\nde servicio en suelos granulares",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    398.4,
+    541.3,
+    529.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn suelos granulares la presión vertical admisible de servicio suele encontrarse limitada por condi-\nciones de asiento, más que por hundimiento. Dada la dificultad en el muestreo de estos suelos, un\nmétodo tradicional para el diseño de cimentaciones consiste en el empleo de correlaciones empíri-\ncas más o menos directas con ensayos de penetración, o con otro tipo de ensayos in situ a su vez\ncorrelacionables con el mismo (véase apartado 4.2.3.1).\n2\nA efectos de este DB, cuando la superficie del terreno sea marcadamente horizontal (pendiente\ninferior al 10%), la inclinación con la vertical de la resultante de las acciones sea menor del 10% y\nse admita la producción de asientos de hasta 25 mm, la presión vertical admisible de servicio podrá\nevaluarse mediante las siguientes expresiones basadas en el golpeo NSPT obtenido en el ensayo\nSPT.\na)\nPara B* < 1,2 m",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.0,
+    539.1,
+    269.1,
+    570.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nkN/m\n25\nt\nS\n·\n*\nB\n3\nD\n1\nN\n12\nadm\nq\nSPT\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    232.8,
+    538.0,
+    236.6,
+    549.4
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    213.1,
+    544.5,
+    217.0,
+    570.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    207.6,
+    538.0,
+    217.0,
+    567.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    167.4,
+    541.0,
+    211.4,
+    567.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    126.0,
+    541.0,
+    542.5,
+    559.4
+   ],
+   "tipo": "texto",
+   "texto": "\n\n(4.9)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    93.6,
+    579.1,
+    192.4,
+    590.5
+   ],
+   "tipo": "texto",
+   "texto": "b)\nPara B*  1,2 m:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    281.3,
+    597.9,
+    320.6,
+    620.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nkN/m\n2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    249.4,
+    618.4,
+    262.1,
+    628.5
+   ],
+   "tipo": "texto",
+   "texto": "*\nB",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    211.9,
+    601.2,
+    274.7,
+    628.5
+   ],
+   "tipo": "texto",
+   "texto": "0,3\n*\nB\n·\n25\nt\nS",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    172.0,
+    617.1,
+    188.9,
+    631.7
+   ],
+   "tipo": "texto",
+   "texto": "*\n3B",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    96.0,
+    604.2,
+    280.4,
+    630.2
+   ],
+   "tipo": "texto",
+   "texto": "D\n1\nN\n8\nd\nq\nSPT\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    231.5,
+    602.9,
+    280.4,
+    630.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    226.0,
+    602.5,
+    257.7,
+    632.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    206.3,
+    600.1,
+    229.8,
+    632.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    206.3,
+    600.1,
+    210.1,
+    611.6
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    191.8,
+    610.6,
+    195.6,
+    632.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    191.8,
+    601.1,
+    195.6,
+    612.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    154.9,
+    610.6,
+    158.8,
+    632.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    154.9,
+    601.1,
+    158.8,
+    612.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    112.0,
+    609.1,
+    542.4,
+    621.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n(4.10)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    93.6,
+    642.0,
+    541.3,
+    718.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nSt\nEl asiento total admisible, en mm.\nNSPT\nel valor medio de los resultados, obtenidos en una zona de influencia de la cimentación\ncomprendida entre un plano situado a una distancia 0,5B* por encima de su base y otro\nsituado a una distancia mínima 2B* por debajo de la misma;\nD\nla profundidad definida en el Anejo F",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    93.6,
+    731.9,
+    189.5,
+    751.1
+   ],
+   "tipo": "texto",
+   "texto": "El valor de\n",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    149.8,
+    724.1,
+    189.5,
+    751.1
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    149.8,
+    724.1,
+    183.0,
+    750.6
+   ],
+   "tipo": "texto",
+   "texto": "\n*\nB\n3",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    153.1,
+    725.2,
+    453.7,
+    741.8
+   ],
+   "tipo": "texto",
+   "texto": "D\n1\na introducir en las ecuaciones será menor o igual a 1,3.",
+   "tamano": 10.1,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

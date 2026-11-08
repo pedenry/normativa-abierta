@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0143",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p103",
+  "titulo": "( )",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p103",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p103",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.9 Uniones de perfiles huecos en las vigas de celosía 8.9.1 Alcance y campo de aplicación / ( )",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7fd11bb3dee50392cc49ea5eda1190585dff623366cfac784d94628773252923"
+ },
+ "paginas": [
+  103,
+  104
+ ],
+ "etiquetas_impresas": [
+  "103",
+  "104"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "( )\n)\n( )\n)\n\n\n\n\n\n\n\n\nγ\n\n\n\n\n\n\nβ\n+\nθ\nβ\nθ\nβ\n=\nMj\nn\n5\n,\n0\n1\n1\n2\no\nyo\nRd\n,1\n1\nk\n)\n-\n(1\n4\nsen\n2\nsen\n)\n-\n(1\nt\nf\nN\nNudos en K y N con separación\nPlastificación de la cara del cordón\nβ≤ 1,0\n( )\n)\n\n\n\n\n\n\n\n\nγ\nγ\n\n\n\n\n\n\n+\nθ\n=\nMj\nn\n0,5\no\n2\n1\n1\n2\no\nyo\nRd\n,i\n1\nk\nb 2\nb\nb\nsen\nt\nf\n8.9\nN\nNudos en K y N con solape*\nReducción anchura eficaz\n25% ≤λov≤ 50%\n\n\n\n\n\n\n\n\nγ\n\n\n\n\n+\n+\n−\nλ\n=\nMj\nov\ne,\nef\ni\ni\nov\ni\nyi\nRd\n,i\n1\nb\nb\n)\nt 4\nh 2\n(\n50\nt\nf\nN\nReducción anchura eficaz\n50% ≤λov≤ 80%\n\n\n\n\n\n\n\n\nγ\n+\n+\n−\n=\nMj\nov\ne,\nef\ni\ni\ni\nyi\nRd\n,i\n1\n)\nb\nb\nt 4\nh\n(2\nt\nf\nN\nReducción anchura eficaz\nλov≥ 80%\n\n\n\n\n\n\n\n\nγ\n+\n+\n−\n=\nMj\nov\ne,\ni\ni\ni\ni\nyi\nRd\n,i\n1\n)\nb\nb\nt 4\nh\n(2\nt\nf\nN\nBarras de alma de sección circular\nMultiplicar las resistencias antes citadas por π/4 y sustituir\nb1 y h1 por d1 y sustituir b2 y h2 por d2\nFunciones\nkn = 1,0 para n ≤ 0 (tracción)\nkn = 1,3 – (0,4 n/β) para n ≤ 0 (compresión) pero kn≤ 1,0\nb\nt\nf\nt\nf\nt/\nb\n10\nb\ni\ni\nyi\no\nyo\no\no\nef=\npero beff≤ bi\nb\nt\nf\nt\nf\nt/\nb\n10\nb\ni\n1\ny1\ni\nyi\n1\n1\nov\ne,\n=\npero be, ov≤ bi\n* Sólo hay que comprobar la barra solapante. La eficacia de la barra solapada (es decir, la resistencia de cálculo del\nnudo dividida por la resistencia plástica de la barra) debe considerarse igual a la de la barra solapante\nγ = b0 / 2t0 ;  γMj = 1,0 (ver  8.9.1 5)\nβ = b1 / b0 en nudos T, Y, X;   β = (b1 + b2 + h1 + h2) / 4b0    en nudos K y N;\nβ = (b1 + b2 + b3 + h1 + h2+ h3) / 6b0    en nudos KT\nt1\nh1\nb1\nb0\nt0\nN1\nθ1\nh1\nt1\nb1\nN1\nθ1\nθ2\ng\nt2\nN2\nh2\nb2\nt0\nb0\nh1\nt1\nN1\nb1\nθ1\nθ2\nN2\nt2\nh2\nb2\nt0\nb0\n\nDocumentoBásico SE-A Acero\nSE-A-102\nfallo por plastificación de la pared del cordón\npunzonamiento por esfuerzo cortante\nfallo de la barra de alma por reducción de anchura\nefectiva\npandeo local de las paredes laterales del cordón\npandeo local en cordón en la posición del nudo\npandeo local en barras de alma a compresión\nfallo del cordón por cortante\nFigura 8.25 Modos de fallo. Secciones rectangulares",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0103.png",
+  "../figura/p0104.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

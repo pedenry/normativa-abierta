@@ -1,0 +1,300 @@
+{
+ "documento": null,
+ "pagina": 18,
+ "etiqueta_impresa": "18",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-16",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    223.7,
+    84.6
+   ],
+   "tipo": "texto",
+   "texto": "5.2.3 Uniones entre elementos",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    92.9,
+    538.7,
+    127.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara representar el enlace entre dos o más piezas se requieren modelos que representen adecua-\ndamente la geometría (las posiciones de los extremos de las piezas unidas), y la resistencia y rigi-\ndez de la unión (de los elementos y regiones locales de las piezas que materializan el enlace).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    133.4,
+    538.6,
+    156.1
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn función de la resistencia las uniones pueden ser articulaciones, de resistencia total o de resis-\ntencia parcial.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    162.3,
+    538.5,
+    185.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nDependiendo de la rigidez las uniones pueden ser articuladas, rígidas o semirrígidas, según su ri-\ngidez a rotación sea nula, total o intermedia.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    74.1,
+    191.4,
+    541.4,
+    248.5
+   ],
+   "tipo": "texto",
+   "texto": "4\nLos límites entre los distintos tipos se establecen en el capítulo de uniones; el proyectista adoptará\nlas disposiciones precisas para clasificar la unión como articulada –permitiendo rotaciones apre-\nciables sin la aparición de momentos relevantes- o rígida –asegurando mediante rigidización sufi-\nciente la rotación conjunta de todas las secciones extremas de los elementos del nudo-, o para\nconsiderar la rigidez parcial de la unión en los modelos empleados en el análisis.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    74.1,
+    254.9,
+    541.3,
+    277.5
+   ],
+   "tipo": "texto",
+   "texto": "5\nLos métodos de análisis global utilizados y las hipótesis adoptadas respecto al comportamiento de\nlas uniones deben ser coherentes. En particular:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    95.3,
+    283.8,
+    541.4,
+    329.5
+   ],
+   "tipo": "texto",
+   "texto": "a)\ncuando se realice un análisis global elástico y existan nudos de comportamiento semirrígido,\nse considerará el comportamiento de la unión en función de su rigidez. Debe tomarse, en ge-\nneral, la rigidez, Sj, correspondiente al momento de cálculo Mj.Sd en cada situación. Como sim-\nplificación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    117.0,
+    335.6,
+    538.6,
+    348.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- si Mj,Sd ≤ 2/3 Mj,Rd , donde Mj,Rd es la resistencia de cálculo de la unión, se podrá usar la rigi-",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    132.6,
+    348.1,
+    303.2,
+    360.0
+   ],
+   "tipo": "texto",
+   "texto": "dez inicial del nudo Sj, ini, (figura 5.1.c)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    117.0,
+    365.3,
+    346.9,
+    378.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- si Mj,Sd > 2/3 Mj,Rd , se podrá usar el valor Sj, ini / η",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    128.7,
+    383.6,
+    317.3,
+    395.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "donde:\nη = 2 para uniones viga-pilar",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    183.3,
+    401.9,
+    315.8,
+    414.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η = 3 para otro tipo de unión",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    95.3,
+    420.3,
+    541.4,
+    454.5
+   ],
+   "tipo": "texto",
+   "texto": "b)\ncuando se realice un análisis global elastoplástico se debe considerar el comportamiento de la\nunión según su resistencia y rigidez. En este caso se podrá adoptar un diagrama bilineal sim-\nplificado como el indicado en la figura 5.1.d) para modelar el comportamiento de la unión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    95.3,
+    460.8,
+    541.3,
+    483.6
+   ],
+   "tipo": "texto",
+   "texto": "c)\ncuando se realice un análisis global rígido-plástico, para modelar el comportamiento de las\nuniones bastará considerar su resistencia.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.1,
+    489.8,
+    541.4,
+    524.1
+   ],
+   "tipo": "texto",
+   "texto": "6\nLas uniones semirrígidas entre cada dos barras (figura 5.1.a) se podrán modelar como un resorte\nque une los ejes de las barras que concurren en el nudo (figura 5.1.b), que define las principales\npropiedades siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.8,
+    530.1,
+    503.4,
+    543.0
+   ],
+   "tipo": "texto",
+   "texto": "a)\nmomento resistente, Mj,Rd, que es el máximo valor en la curva momento rotación M-Φ.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    96.8,
+    548.6,
+    198.1,
+    560.5
+   ],
+   "tipo": "texto",
+   "texto": "b)\nrigidez al giro, Sj.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    96.8,
+    565.9,
+    533.8,
+    578.8
+   ],
+   "tipo": "texto",
+   "texto": "c)\nla capacidad de rotación ΦCd es el máximo valor de la rotación en la curva M-Φ (figura 5.1.c).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    96.8,
+    584.1,
+    538.5,
+    607.8
+   ],
+   "tipo": "texto",
+   "texto": "d)\nla curva real M-Φ no es lineal, pudiéndose adoptar un diagrama bilineal (figura 5.1.d) o trili-\nneal, siempre que la curva simplificada quede por debajo de la más precisa.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    96.8,
+    614.1,
+    541.3,
+    636.8
+   ],
+   "tipo": "texto",
+   "texto": "Podrán igualmente modelarse refiriéndolas a la rigidez de alguna de las barras que forman la\nunión, mediante técnicas de condensación estática.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

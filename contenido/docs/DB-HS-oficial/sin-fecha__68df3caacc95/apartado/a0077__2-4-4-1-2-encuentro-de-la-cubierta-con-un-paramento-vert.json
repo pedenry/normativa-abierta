@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0077",
+  "ruta_oficial": "2.4.4.1.2",
+  "ruta_semantica": "2.4.4.1.2 Encuentro de la cubierta con un paramento vertical",
+  "titulo": "2.4.4.1.2 Encuentro de la cubierta con un paramento vertical",
+  "nivel": 1,
+  "parent_id": "a0075",
+  "seccion_estimada": "2.4.4.1.2 Encuentro de la cubierta con un paramento vertical",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 32,
+   "bbox": [
+    70.9,
+    699.6,
+    360.2,
+    710.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b9a48477242a0e8c41a63e93a1ec2b9a30e4dd00f4e24f181a72f29902254530",
+   "literal": "2.4.4.1.2 Encuentro de la cubierta con un paramento vertical"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0075",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.4.1.2 Encuentro de la cubierta con un paramento vertical",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0075",
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.4 Cubiertas 2.4.1 Grado de impermeabilidad / 2.4.4 Condiciones de los puntos singulares / 2.4.4.1.2 Encuentro de la cubierta con un paramento vertical",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1f6d82f5eae991ea69d2bd7982afa07103091c41fc6c9ff47ce1ba284eaebd50"
+ },
+ "paginas": [
+  32,
+  33
+ ],
+ "etiquetas_impresas": [
+  "32",
+  "33"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.4.4.1.2 Encuentro de la cubierta con un paramento vertical\n1\nLa impermeabilización debe prolongarse por el paramento vertical hasta una altura de 20 cm como\nmínimo por encima de la protección de la cubierta (Véase la figura 2.13).\n2\nEl encuentro con el paramento debe realizarse redondeándose con un radio de curvatura de 5 cm\naproximadamente o achaflanándose una medida análoga según el sistema de impermeabilización.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n33\nFigura 2.13 Encuentro de la cubierta con un paramento vertical\n3\nPara que el agua de las precipitaciones o la que se deslice por el paramento no se filtre por el rema-\nte superior de la impermeabilización, dicho remate debe realizarse de alguna de las formas siguien-\ntes o de cualquier otra que produzca el mismo efecto:\na)\nmediante una roza de 3 x 3 cm como mínimo en la que debe recibirse la impermeabilización\ncon mortero en bisel formando aproximadamente un ángulo de 30º con la horizontal y redon-\ndeándose la arista del paramento;\nb)\nmediante un retranqueo cuya profundidad con respecto a la superficie externa del paramento\nvertical debe ser mayor que 5 cm y cuya altura por encima de la protección de la cubierta debe\nser mayor que 20 cm;\nc)\nmediante un perfil metálico inoxidable provisto de una pestaña al menos en su parte superior,\nque sirva de base a un cordón de sellado entre el perfil y el muro. Si en la parte inferior no lle-\nva pestaña, la arista debe ser redondeada para evitar que pueda dañarse la lámina.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0033.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

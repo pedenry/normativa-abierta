@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0076",
+  "ruta_oficial": "6.3.2.4",
+  "ruta_semantica": "6.3.2.4 Elementos triangulados",
+  "titulo": "6.3.2.4 Elementos triangulados",
+  "nivel": 1,
+  "parent_id": "a0073",
+  "seccion_estimada": "6.3.2.4 Elementos triangulados",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 40,
+   "bbox": [
+    78.0,
+    600.0,
+    227.6,
+    611.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0d2b17e07a62efb10af9c551988967b92844a3af4c3c24b2ed1075e6d49fa43b",
+   "literal": "6.3.2.4 Elementos triangulados"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0075",
+  "parent_id_original": "a0073",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.4 Elementos triangulados",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0073",
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores. / Perfiles L / 6.3.2.4 Elementos triangulados",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e1b550abef45fa464437f878f02a0225906a8576130b45777e975f5b41b5743e"
+ },
+ "paginas": [
+  40,
+  41
+ ],
+ "etiquetas_impresas": [
+  "40",
+  "41"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.2.4 Elementos triangulados\n1\nEn celosías espaciales formadas por perfiles huecos atornillados en sus extremos se tomará co-\nmo longitud de pandeo la distancia entre ejes de nudos para cualquier barra.\n2\nEn vigas planas trianguladas se tomará como longitud de pandeo:\na)\npara los cordones, pandeo en el plano de la viga, la distancia entre ejes de nudos;\nb)\npara los cordones, pandeo fuera del plano, la longitud teórica de la barra medida entre pun-\ntos fijos por existir arriostramiento; en caso de no existir puntos fijos, se tratará como una\npieza de compresión variable.\nc)\npara los montantes y diagonales, pandeo en el plano de la viga, la longitud libre entre barras;\nd)\npara los montantes y diagonales, pandeo fuera del plano, la longitud entre ejes de nudos.\nN\nN\nL\naL\nImax\nImin\nImax\nImin\nIminN\nN\naL\nL\nN\nN\nImax\nParábola\nN\nN Imin\nParábola\nImin\nL\nImax\naL\nL\nN\nN\n\nDocumentoBásico SE-A Acero\nSE-A-39\n3\nEn vigas planas trianguladas formadas por perfiles huecos de cordones continuos y diagonales y\nmontantes soldados de forma continua en todo el perímetro, se podrán tomar como longitudes de\npandeo las definidas en el apartado anterior, aplicando el factor 0,9 a los cordones, y 0,75 a los\nmontantes y diagonales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0040_t01.json",
+  "../tabla/p0041_t01.json",
+  "../tabla/p0041_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0040.png",
+  "../figura/p0041.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

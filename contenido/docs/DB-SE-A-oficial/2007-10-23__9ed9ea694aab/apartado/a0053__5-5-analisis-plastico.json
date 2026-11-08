@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0053",
+  "ruta_oficial": "5.5",
+  "ruta_semantica": "5.5 Análisis plástico",
+  "titulo": "5.5 Análisis plástico",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.5 Análisis plástico",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 30,
+   "bbox": [
+    74.1,
+    266.8,
+    192.2,
+    280.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1492fcc125c4e2865573049d28ffcd4fbd707a2690b4840278f6f171fde86e95",
+   "literal": "5.5 Análisis plástico"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0057",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.5 Análisis plástico",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.5 Análisis plástico",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "992ed5341303aeaaf0fb57625abe0a3e54f58a9b319859f20c30a863846d1618"
+ },
+ "paginas": [
+  30,
+  31
+ ],
+ "etiquetas_impresas": [
+  "30",
+  "31"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.5 Análisis plástico\n1\nCuando se emplee cualquier procedimiento de análisis plástico se asegurará el cumplimiento de\nlas condiciones de ductilidad.\n2\nEn el caso de análisis rígido-plástico de elementos estructurales constituidos por barras, lo anterior\nsupone:\nc)\nasegurar la posición de las rótulas plásticas;\nd)\ncomprobar que tales rótulas se producen en las secciones de las barras y que éstas son de\nclase 1;\ne)\ncomprobar que las uniones aledañas a las secciones en las que se producen las rótulas son\nde resistencia total;\nf)\ncomprobar el arriostramiento de las barras entre las rótulas.\n6\nEn el caso de análisis de chapas en flexión transversal a su plano, lo anterior supone\na)\nasegurar que la posición de las líneas de rotura se sitúa en la chapa en regiones con relacio-\nnes de anchura a espesor mayores de 10\nb)\ncomprobar que las uniones aledañas a las secciones en las que se producen las rótulas tie-\nnen resistencia superior a la requerida en el modelo de equilibrio en rotura,\n\nDocumentoBásico SE-A Acero\nSE-A-29",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0030.png",
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

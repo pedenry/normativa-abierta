@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0041",
+  "ruta_oficial": null,
+  "ruta_semantica": "D.2 Coeficiente de exposición",
+  "titulo": "D.2 Coeficiente de exposición",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "D.2 Coeficiente de exposición",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    129.1,
+    244.3,
+    142.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b785912fd41fef0be0bf8898975acb6f93548d0f1882cd8c5390b683d31cf98f",
+   "literal": "D.2 Coeficiente de exposición"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.2 Coeficiente de exposición",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D. Acción del viento D.1 Presión dinámica / D.2 Coeficiente de exposición",
+   "seccion_estimada": "Anejo D. Acción del viento D.1 Presión dinámica",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9ea0a01fe5883043173017c2553aa65f96485b489af03bc117abbf30a9889bad"
+ },
+ "paginas": [
+  28
+ ],
+ "etiquetas_impresas": [
+  "28"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "D.2 Coeficiente de exposición\n1\nEl coeficiente de exposición ce para alturas sobre el terreno, z, no mayores de 200 m, puede deter-\nminarse con la expresión:\nce = F · (F + 7 k)\n(D.2)\nF = k ln (max (z,Z) / L)\n(D.3)\nsiendo k, L, Z  parámetros característicos de cada tipo de entorno, según la tabla D.2\nTabla D.2 Coeficientes para tipo de entorno\nParámetro\nGrado de aspereza del entorno\nk\nL (m)\nZ (m)\nI\nBorde del mar o de un lago, con una superficie de agua en la  dirección\ndel viento de al menos 5 km de longitud\n0,156\n0,003\n1,0\nII\nTerreno rural  llano sin obstáculos ni arbolado de importancia\n0,17\n0,01\n1,0\nIIIZona rural accidentada o llana con algunos obstáculos aislados,  como\nárboles o construcciones pequeñas\n0,19\n0,05\n2,0\nIV Zona urbana en general, industrial o forestal\n0,22\n0,3\n5,0\nVCentro de negocios de grandes ciudades, con profusión de edificios en\naltura\n0,24\n1,0\n10,0",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,131 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0197",
+  "ruta_oficial": "6.3.3.3.5",
+  "ruta_semantica": "6.3.3.3.5 Muros de sótano",
+  "titulo": "6.3.3.3.5 Muros de sótano",
+  "nivel": 1,
+  "parent_id": "a0192",
+  "seccion_estimada": "6.3.3.3.5 Muros de sótano",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 92,
+   "bbox": [
+    70.9,
+    629.0,
+    195.4,
+    639.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "762383e8929fd7f81d43a24b419973f38023f4168098dc1af2607bf51ef26638",
+   "literal": "6.3.3.3.5 Muros de sótano"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0223",
+  "parent_id_original": "a0192",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 6.2",
+   "apartado 6.3.3.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.3.5 Muros de sótano",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0192",
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / 6.3.3.3 Dimensionado / 6.3.3.3.5 Muros de sótano",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fcc3935202ac1ca3b177e473c10850950aa80fac91623928d953121c7f8824ad"
+ },
+ "paginas": [
+  92,
+  93
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "6.3.3.3.5 Muros de sótano\n1\nEstos muros están arriostrados transversalmente por los forjados y no trabajan en voladizo. La res-\ntricción en los movimientos transversales provocada por los forjados hace que frecuentemente no\npuedan producirse las deformaciones necesarias para alcanzar las condiciones de empuje activo.\nEn el apartado 6.2 se definen los empujes del terreno a considerar en este tipo de muros.\n2\nEn el caso de muros de sótano, a las acciones hay que añadir las verticales de la solicitación de los\nforjados intermedios y de cabeza, si existen, y la compresión aportada directa o indirectamente por\nlos soportes o muros de carga del edificio que arranquen de ese mismo punto. Para el cálculo de la\nsituación definitiva, podrá suponerse que los empujes horizontales se equilibran contra los pisos,\ntanto forjado o forjados como solera, en la medida necesaria para minimizar el fallo por deslizamien-\nto.\n\nDocumento Básico SE-C Cimientos\nSE-C-88\n3\nLa resultante F, correspondiente a la reacción de los forjados sobre el muro, es una variable más en\nlos cálculos recogidos en el apartado 6.3.3.2 (véase Figura 6.18a). Para su determinación puede\nser necesario incluir en el cálculo la deformabilidad del cimiento mediante un coeficiente de balasto,\ncon los criterios definidos en el capítulo 4. En determinados casos puede hacerse la hipótesis sim-\nplificada de considerar un reparto uniforme de presiones bajo el cimiento.\n4\nEn el caso de muros de sótano con dos o más niveles de forjado, el cálculo puede efectuarse asimi-\nlando el muro a una viga continua, incluyendo la compatibilidad de deformaciones con la zapata\n(véase Figura 6.18b).\n5\nEl muro de sótano debe analizarse en sentido longitudinal como una zapata continua, con los crite-\nrios definidos en el capítulo 4.\n6\nSi el muro tiene desarrollo lineal en planta, con una configuración geométrica y de empuje unifor-\nmes, bastará una verificación en sección, por metro de desarrollo, en dos dimensiones. Si tiene tra-\nza quebrada o cerrada en planta, o posee configuración variable de altura a lo largo de su desarro-\nllo, el análisis deberá tener en cuenta el conjunto total, aunque deberá verificarse localmente, intro-\nduciendo en el equilibrio de cada parte los términos mecánicos de su interrelación con el conjunto.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.2",
+  "apartado 6.3.3.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0092.png",
+  "../figura/p0093.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

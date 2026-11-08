@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0119",
+  "ruta_oficial": "8.3.4.1.1",
+  "ruta_semantica": "8.3.4.1.1  Generalidades",
+  "titulo": "8.3.4.1.1  Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.3.4.1.1  Generalidades",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 61,
+   "bbox": [
+    70.9,
+    380.4,
+    187.1,
+    390.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "90aa7e3fd70ad64ce04fb8ecef8f1ba39ee0f956b29fead6c482ac60a5072bdd",
+   "literal": "8.3.4.1.1  Generalidades"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0133",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.4.1.1  Generalidades",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / sección / 8.3.4  Pernos 8.3.4.1  Carga lateral / 8.3.4.1.1  Generalidades",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2e2cd23ce7b5863d650d3e1c946c6cc7cea3cac6c2362304cf231a771c9f68d7"
+ },
+ "paginas": [
+  61,
+  62
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "2"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.3.4.1.1  Generalidades\n1\nLa capacidad de carga lateral se obtiene mediante la aplicación de las reglas definidas en el aparta-\ndo 8.3.1, con el siguiente significado de los símbolos (véase figura 8.11):\na) t1\nen cortadura simple es el espesor de una de las piezas y en cortadura doble el espesor de\nlas piezas laterales;\nb) t2\nen cortadura simple es el espesor de la otra pieza y en cortadura doble el espesor de la pie-\nza central.\nFigura 8.11 Espesores de las piezas en uniones de pernos.\n\nDocumentoBásico SE-M Madera\nSE-M 56\n2\nLas separaciones y distancias mínimas se dan en la tabla 8.4, con las definiciones incluidas en la\nfigura 8.7.\n3\nEn uniones con pernos alineados con la dirección de la fibra y sometidos a una componente de la\nfuerza paralela a la fibra, la capacidad de carga debe calcularse tomando como número eficaz de\npernos el menor valor de las expresiones siguientes:\n\n\n\n\n\n\n4\n1\n9\n,\n0\nef\nd\n13\na\nn\nn\nmin\nn\n(8.47)\nsiendo:\nnef\nnúmero eficaz de pernos alineados con la carga y la fibra;\nn\nnúmero de pernos alineados;\na1\nseparación en la dirección de la fibra, [mm];\nd\ndiámetro del perno, [mm].\nEn caso de carga perpendicular a la fibra, el número eficaz de pernos es el real, es decir\nnef = n\n(8.48)\nPara cargas con direcciones comprendidas entre 0º y 90º, se interpolará linealmente entre los valo-\nres determinados por las ecuaciones (8.47) y (8.48).\nTabla 8.4 Uniones con pernos. Separaciones y distancias mínimas.\nSeparaciones y distancias\n(véase figura 8.7)\nÁngulo\nSeparación o distancia mínima\na1  (paralela a la fibra)\n0º  360º\n(4 +  cos ) d\na2 (perpendicular a la fibra)\n0º  360º\n4 d\na3,t (testa cargada)\n- 90º  90º\nmax (7d;80mm)\na3,c (testa no cargada)\n90º  < 150º\n(1+ 6 sen ) d)\n150º  < 210º\n4d\n210º  270º\n(1+ 6 sen ) d)\na4,t (borde cargado)\n0º  180º\nmax((2+ 2 sen ) d;3d)\na4,c (borde no cargado)\n180º  360º\n3 d\n4\nEn pernos de sección circular el valor característico del momento plástico será:\nMy,Rk = 0,3  fu,k d 2,6\n(8.49)\nsiendo:\nfu,k resistencia característica a tracción, [N/mm2].\nd  diámetro del perno, [mm].\n5",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0061.png",
+  "../figura/p0062.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

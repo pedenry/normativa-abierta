@@ -1,0 +1,192 @@
+{
+ "documento": null,
+ "pagina": 149,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-144",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    157.4
+   ],
+   "tipo": "texto",
+   "texto": "b)\n1,10, cuando se utilice una fórmula de hinca basada en la medida de las compresiones casi-\nelásticas de la cabeza del pilote durante el proceso de la hinca;\nc)\n1,20, cuando se utilice una fórmula de hinca sin medir el desplazamiento de la cabeza del pilo-\nte durante el proceso de la hinca.\n7\nCuando se realicen pruebas de carga estáticas o dinámicas, para ayudar en la determinación de la\nresistencia de hundimiento, se podrán reducir los coeficientes de seguridad, de acuerdo con los cri-\nterios establecidos, para cada situación de dimensionado, en la tabla 2.1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    179.3,
+    300.3,
+    191.3
+   ],
+   "tipo": "texto",
+   "texto": "F.2.4 Cimentaciones de pilotes en roca",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    195.8,
+    538.5,
+    228.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor de cálculo de la resistencia por punta en roca qp,d de los pilotes excavados se podrá calcu-\nlar de acuerdo con lo indicado en el capítulo 4 para cimentaciones superficiales en roca, introdu-\nciendo un coeficiente df para tener en cuenta la longitud de empotramiento en roca:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.0,
+    235.5,
+    542.5,
+    248.8
+   ],
+   "tipo": "texto",
+   "texto": "f\nu\nsp\nd\n,\np\nd\nq\nK\nq\n\n(F.41)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    258.2,
+    344.1,
+    297.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nKsp\nel coeficiente dado por la expresión (4.12)\nqu\nla resistencia a compresión simple de la roca",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.0,
+    305.6,
+    542.5,
+    330.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nd\nL\n4,0\n1\nd\nr\nf\n\n\n\n(F.42)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    338.8,
+    541.3,
+    491.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nLr\nprofundidad de empotramiento en roca de la misma o mejor calidad que la existente en\nla base del apoyo\nd\ndiámetro real o equivalente (igual área) del pilote\n2\nLa longitud del empotramiento debe medirse a partir de la profundidad en que se obtiene contacto\ncon la roca en toda la sección del pilote. Esta profundidad dependerá de la inclinación local del te-\ncho rocoso.\n3\nDebe garantizarse la continuidad de la roca con características no inferiores a las consideradas en\nel cálculo del pilote, al menos, en una profundidad de tres diámetros por debajo del apoyo de la\npunta.\n4\nDentro de esta zona de roca se debe considerar, para la evaluación de la resistencia de los pilotes\nperforados, un valor de cálculo de la resistencia unitaria por fuste f,d (MPa) igual a:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.1,
+    498.5,
+    542.5,
+    513.1
+   ],
+   "tipo": "texto",
+   "texto": "5\n,\n0\nu\nd\n,f\nq\n2,0\n\n\n(F.43)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.6,
+    522.5,
+    513.0,
+    532.4
+   ],
+   "tipo": "texto",
+   "texto": "qu, vendrá especificado en MPa, debiéndose verificar siempre que la roca es estable en agua.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    554.3,
+    509.9,
+    566.3
+   ],
+   "tipo": "texto",
+   "texto": "F.2.5 Estimación de la resistencia del terreno frente a acciones horizontales.",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    570.8,
+    541.3,
+    618.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa carga de rotura horizontal del terreno \"Rhk\" para un pilote se puede estimar con el esquema de\ncálculo que se indica en la Figura F.5.\n2\nEl punto donde se aplica la carga H es un punto de momento flector nulo que se debe decidir en\nfunción de cálculos estructurales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    622.1,
+    538.5,
+    645.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nLos casos particulares de c = 0 (terreno puramente granular) y de = 0 (terreno puramente cohesi-\nvo) se recogen en las Figuras F.6. y F.7.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

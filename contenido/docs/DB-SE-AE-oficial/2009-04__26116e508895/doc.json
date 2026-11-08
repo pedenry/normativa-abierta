@@ -1,0 +1,455 @@
+{
+ "id": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "layer": "oficial",
+ "scope": "Seguridad Estructural",
+ "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+ "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+ "version_label_literal": "Abril 2009 \n \n \n \n \n \n \n \n \n \nDocumento BásicoSE-AE\nSeguridad Estructural \nAcciones en la edificación",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "version_detectada": {
+  "corta": "2009-04",
+  "dir": "2009-04__26116e508895",
+  "tipo": "mes/año",
+  "literal": "Abril 2009",
+  "fuente": "cover_text(mes/año)",
+  "nota": "fecha detectada en texto literal; conservar portada"
+ },
+ "version_semantic_label": null,
+ "correccion_boe": null,
+ "fecha_comentarios": null,
+ "consolidation_update_date": null,
+ "fecha_notas": null,
+ "version_fuente": "cover_text(mes/año)",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "pdf_nombre": "DB-SE-AE-oficial-26116e5088.pdf",
+ "paginas_pdf": 46,
+ "paginas_manifiesto": 46,
+ "license_status": "art13 disposicion legal",
+ "license_evidence": null,
+ "creditos": null,
+ "motivo_distribucion": "disposición legal (art. 13 TRLPI)",
+ "normativo": true,
+ "distribute": true,
+ "nota_capa": "",
+ "ambito_literal": {
+  "id_tecnico": "a0010",
+  "ruta_oficial": "1",
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "texto": "1 Generalidades 1.1 Ámbito de aplicación\n1.1 Ámbito de aplicación\n1\nEl campo de aplicación de este Documento Básico es el de la determinación de las acciones sobre\nlos edificios, para verificar el cumplimiento de los requisitos de seguridad estructural (capacidad por-\ntante y estabilidad) y aptitud al servicio, establecidos en el DB-SE.\n2\nEstán fuera del alcance de este Documento Básico las acciones y las fuerzas que actúan sobre\nelementos tales como aparatos elevadores o puentes grúa, o construcciones como los silos o los\ntanques.\n3\nEn general, las fuerzas de rozamiento no se definen en este Documento Básico, ya que se conside-\nran como efectos de las acciones.\n4\nSalvo que se indique lo contrario, todos los valores tienen el sentido de característicos.\n5\nLos tipos de acciones y su tratamiento se establecen en el DB-SE\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 3"
+ },
+ "toc": [],
+ "metodo_segmentacion": "lineas",
+ "cobertura_caracteres_apartados": 0.944,
+ "referencias_globales": [
+  "DB-SE",
+  "DB-SE-C",
+  "DB-SI\n2",
+  "EN 1991"
+ ],
+ "tablas_por_pagina": {
+  "9": [
+   {
+    "indice": 1,
+    "filas": 16,
+    "columnas": 6
+   }
+  ],
+  "10": [
+   {
+    "indice": 1,
+    "filas": 4,
+    "columnas": 4
+   }
+  ],
+  "15": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 3
+   }
+  ],
+  "23": [
+   {
+    "indice": 1,
+    "filas": 34,
+    "columnas": 4
+   },
+   {
+    "indice": 2,
+    "filas": 15,
+    "columnas": 4
+   }
+  ],
+  "24": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 2
+   },
+   {
+    "indice": 2,
+    "filas": 4,
+    "columnas": 4
+   }
+  ],
+  "25": [
+   {
+    "indice": 1,
+    "filas": 16,
+    "columnas": 4
+   }
+  ],
+  "34": [
+   {
+    "indice": 1,
+    "filas": 22,
+    "columnas": 9
+   }
+  ],
+  "36": [
+   {
+    "indice": 1,
+    "filas": 14,
+    "columnas": 11
+   }
+  ]
+ },
+ "figuras": [
+  {
+   "pagina": 1,
+   "motivos": [
+    "dibujos:5"
+   ],
+   "archivo": "figura/p0001.png"
+  },
+  {
+   "pagina": 5,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0005.png"
+  },
+  {
+   "pagina": 7,
+   "motivos": [
+    "dibujos:5"
+   ],
+   "archivo": "figura/p0007.png"
+  },
+  {
+   "pagina": 9,
+   "motivos": [
+    "tablas",
+    "dibujos:106"
+   ],
+   "archivo": "figura/p0009.png"
+  },
+  {
+   "pagina": 10,
+   "motivos": [
+    "tablas",
+    "dibujos:22"
+   ],
+   "archivo": "figura/p0010.png"
+  },
+  {
+   "pagina": 11,
+   "motivos": [
+    "dibujos:7"
+   ],
+   "archivo": "figura/p0011.png"
+  },
+  {
+   "pagina": 12,
+   "motivos": [
+    "dibujos:29",
+    "formulas"
+   ],
+   "archivo": "figura/p0012.png"
+  },
+  {
+   "pagina": 13,
+   "motivos": [
+    "dibujos:373",
+    "formulas"
+   ],
+   "archivo": "figura/p0013.png"
+  },
+  {
+   "pagina": 14,
+   "motivos": [
+    "dibujos:13"
+   ],
+   "archivo": "figura/p0014.png"
+  },
+  {
+   "pagina": 15,
+   "motivos": [
+    "tablas",
+    "dibujos:30"
+   ],
+   "archivo": "figura/p0015.png"
+  },
+  {
+   "pagina": 16,
+   "motivos": [
+    "dibujos:32",
+    "formulas"
+   ],
+   "archivo": "figura/p0016.png"
+  },
+  {
+   "pagina": 17,
+   "motivos": [
+    "dibujos:5"
+   ],
+   "archivo": "figura/p0017.png"
+  },
+  {
+   "pagina": 21,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0021.png"
+  },
+  {
+   "pagina": 23,
+   "motivos": [
+    "tablas",
+    "dibujos:188"
+   ],
+   "archivo": "figura/p0023.png"
+  },
+  {
+   "pagina": 24,
+   "motivos": [
+    "tablas",
+    "dibujos:90"
+   ],
+   "archivo": "figura/p0024.png"
+  },
+  {
+   "pagina": 25,
+   "motivos": [
+    "tablas",
+    "dibujos:61"
+   ],
+   "archivo": "figura/p0025.png"
+  },
+  {
+   "pagina": 27,
+   "motivos": [
+    "dibujos:3",
+    "imagen_incrustada",
+    "formulas"
+   ],
+   "archivo": "figura/p0027.png"
+  },
+  {
+   "pagina": 28,
+   "motivos": [
+    "dibujos:26",
+    "formulas"
+   ],
+   "archivo": "figura/p0028.png"
+  },
+  {
+   "pagina": 29,
+   "motivos": [
+    "dibujos:235",
+    "formulas"
+   ],
+   "archivo": "figura/p0029.png"
+  },
+  {
+   "pagina": 30,
+   "motivos": [
+    "dibujos:254",
+    "formulas"
+   ],
+   "archivo": "figura/p0030.png"
+  },
+  {
+   "pagina": 31,
+   "motivos": [
+    "dibujos:252",
+    "formulas"
+   ],
+   "archivo": "figura/p0031.png"
+  },
+  {
+   "pagina": 32,
+   "motivos": [
+    "dibujos:252",
+    "formulas"
+   ],
+   "archivo": "figura/p0032.png"
+  },
+  {
+   "pagina": 33,
+   "motivos": [
+    "dibujos:290",
+    "formulas"
+   ],
+   "archivo": "figura/p0033.png"
+  },
+  {
+   "pagina": 34,
+   "motivos": [
+    "tablas",
+    "dibujos:522",
+    "formulas"
+   ],
+   "archivo": "figura/p0034.png"
+  },
+  {
+   "pagina": 35,
+   "motivos": [
+    "dibujos:317",
+    "formulas"
+   ],
+   "archivo": "figura/p0035.png"
+  },
+  {
+   "pagina": 36,
+   "motivos": [
+    "tablas",
+    "dibujos:590",
+    "formulas"
+   ],
+   "archivo": "figura/p0036.png"
+  },
+  {
+   "pagina": 37,
+   "motivos": [
+    "dibujos:365",
+    "formulas"
+   ],
+   "archivo": "figura/p0037.png"
+  },
+  {
+   "pagina": 38,
+   "motivos": [
+    "dibujos:223",
+    "formulas"
+   ],
+   "archivo": "figura/p0038.png"
+  },
+  {
+   "pagina": 39,
+   "motivos": [
+    "dibujos:304",
+    "formulas"
+   ],
+   "archivo": "figura/p0039.png"
+  },
+  {
+   "pagina": 41,
+   "motivos": [
+    "dibujos:392",
+    "formulas"
+   ],
+   "archivo": "figura/p0041.png"
+  },
+  {
+   "pagina": 42,
+   "motivos": [
+    "formulas"
+   ],
+   "archivo": "figura/p0042.png"
+  },
+  {
+   "pagina": 43,
+   "motivos": [
+    "dibujos:726",
+    "formulas"
+   ],
+   "archivo": "figura/p0043.png"
+  },
+  {
+   "pagina": 44,
+   "motivos": [
+    "dibujos:616"
+   ],
+   "archivo": "figura/p0044.png"
+  },
+  {
+   "pagina": 45,
+   "motivos": [
+    "dibujos:15",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0045.png"
+  },
+  {
+   "pagina": 46,
+   "motivos": [
+    "dibujos:15",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0046.png"
+  }
+ ],
+ "formulas": {
+  "paginas": [
+   12,
+   13,
+   16,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   41,
+   42,
+   43
+  ],
+  "nota": "Texto de fórmulas extraído automáticamente: pendiente de verificación; consulte la imagen completa de la página. No se genera LaTeX."
+ },
+ "procedencia": {
+  "tipo": "PDF descargado del portal/BOE",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "pdf_nombre": "DB-SE-AE-oficial-26116e5088.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+  "copia_fiel": "fuente.pdf",
+  "nota": "Consérvese la URL oficial para versiones mutables."
+ },
+ "corpus_propio": true,
+ "conteos": {
+  "paginas": 46,
+  "apartados": 43,
+  "bloques": 564,
+  "tablas": 10,
+  "figuras": 35,
+  "paginas_png": 35,
+  "caracteres": 67211
+ },
+ "figuras_nota": "'figuras'/'paginas_png' cuentan páginas PNG renderizadas (no el número de figuras normativas).",
+ "tablas_pendientes_geometria": [],
+ "paginas_grafico_sin_celdas": [],
+ "nota_fallback_grafico": "Páginas gráficas de contexto escaso: sin enumeración de trazos ni tabla; PNG y PDF obligatorios; no son tablas validadas.",
+ "umbral_segmentos_tablas": 2000,
+ "metodo_tablas": "find_tables(use_layout=False, refine=True); guardián de segmentos antes de intentar celdas",
+ "segmentation_version": 2,
+ "advertencias": [
+  "Extracción automática; el cotejo humano está pendiente.",
+  "Semántica y tablas no equivalen a validación exhaustiva."
+ ],
+ "generado_por": "build.py",
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo",
+ "nota_segmentacion": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

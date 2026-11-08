@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0035",
+  "ruta_oficial": "4.5",
+  "ruta_semantica": "4.5 Componentes auxiliares",
+  "titulo": "4.5 Componentes auxiliares",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.5 Componentes auxiliares",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    70.9,
+    470.3,
+    236.4,
+    482.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a50d85ca2f0f4a3bcd265221ab05e2515698e2d94401a90f3b76dd7372c45c3e",
+   "literal": "4.5 Componentes auxiliares"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0037",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.5 Componentes auxiliares",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas / 4.5 Componentes auxiliares",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "39b3a2d5a3c5a600b5808d06181de08b37156c55b576eff747e59b303ece3e1a"
+ },
+ "paginas": [
+  14
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.5 Componentes auxiliares\n1\nLas barreras antihumedad serán eficaces respecto al paso del agua y a su ascenso capilar. Tendrán\nuna durabilidad acorde al tipo de edificio. Estarán formadas por materiales que no sean fácilmente\nperforables al utilizarlas, y serán capaces de resistir las tensiones de cálculo de compresión sin extru-\nsionarse.\n2\nLas barreras antihumedad tendrán suficiente resistencia superficial de rozamiento como para evitar el\nmovimiento de la fábrica que descansa sobre ellas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0014.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

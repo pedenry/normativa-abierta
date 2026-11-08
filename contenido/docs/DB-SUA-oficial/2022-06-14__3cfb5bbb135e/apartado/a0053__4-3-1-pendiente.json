@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0053",
+  "ruta_oficial": "4.3.1",
+  "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 4 Escaleras y rampas / 4.2 Escaleras de uso general / 4.3.1 Pendiente",
+  "titulo": "4.3.1 Pendiente",
+  "nivel": 4,
+  "parent_id": "a0049",
+  "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    70.9,
+    591.2,
+    156.9,
+    602.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "9a2c38e62d46f09b856049342c1b3d1c3470f203d21993df75e6279b509d707c",
+   "literal": "4.3.1 Pendiente"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0025",
+  "parent_id_original": "a0049",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.1 Pendiente",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0049",
+   "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 4 Escaleras y rampas / 4.2 Escaleras de uso general / 4.3.1 Pendiente",
+   "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "94faac8c884895e3836e29d27e243d87a74de2410544d6d70ee691ae86d4dd43"
+ },
+ "paginas": [
+  14
+ ],
+ "etiquetas_impresas": [
+  "14"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Documento Básico SUA Seguridad de utilización y accesibilidad\nSUA 1. Seguridad frente al riesgo de caídas\n14\nFigura 4.4 Cambio de dirección entre dos tramos.\n4.2.4\nPasamanos\n1\nLas escaleras que salven una altura mayor que 55 cm dispondrán de pasamanos al menos en un\nlado. Cuando su anchura libre exceda de 1,20 m, así como cuando no se disponga ascensor como\nalternativa a la escalera, dispondrán de pasamanos en ambos lados.\n2\nSe dispondrán pasamanos intermedios cuando la anchura del tramo sea mayor que 4 m. La separa-\nción entre pasamanos intermedios será de 4 m como máximo, excepto en escalinatas de carácter\nmonumental en las que al menos se dispondrá uno.\n3\nEn escaleras de zonas de uso público o queno dispongan de ascensor como alternativa, el pasama-\nnos se prolongará 30 cm en los extremos, al menos en un lado. En uso Sanitario, el pasamanos será\ncontinuo en todo su recorrido, incluidas mesetas, y se prolongarán 30 cm en los extremos, en ambos\nlados.\n4\nEl pasamanos estará a una altura comprendida entre 90 y 110 cm. En escuelas infantiles y centros\nde enseñanza primaria se dispondrá otro pasamanos a una altura comprendida entre 65 y 75 cm.\n5\nEl pasamanos será firme y fácil de asir, estará separado del paramento al menos 4 cm y su sistema\nde sujeción no interferirá el paso continuo de la mano.\n4.3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0038",
+   "ruta_oficial": "2",
+   "titulo": "2 Discontinuidades en el pavimento",
+   "archivo_json": "a0038__2-discontinuidades-en-el-pavimento.json"
+  },
+  {
+   "id_tecnico": "a0050",
+   "ruta_oficial": "4.2.2",
+   "titulo": "4.2.2 Tramos",
+   "archivo_json": "a0050__4-2-2-tramos.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0014.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

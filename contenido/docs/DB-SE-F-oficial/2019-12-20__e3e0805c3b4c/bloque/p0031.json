@@ -1,0 +1,127 @@
+{
+ "documento": null,
+ "pagina": 31,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-27",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    73.8,
+    71.9,
+    539.4,
+    108.2
+   ],
+   "tipo": "texto",
+   "texto": "(1)\nSe considera muro un elemento sometido a flexión compuesta esviada. Se considera viga la parte de un muro sometida a una\nflexión recta contenida en su plano. Para los muros de extremo libre sometidos a una acción predominante de viento y que no\nformen parte de una estructura, la limitación de la relación luz libre/canto útil puede incrementarse en un 30% si los\nrevestimientos admiten deformaciones sin dañarse.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    115.8,
+    541.5,
+    263.3
+   ],
+   "tipo": "texto",
+   "texto": "5\nUna vez analizadas las solicitaciones de un dintel, se pueden redistribuir con las mismas condiciones\ny limitaciones que establece la norma de hormigón vigente.\n6\nPara determinar el esfuerzo cortante de cálculo de un elemento sometido a una carga uniformemente\ndistribuida, puede admitirse que el máximo esfuerzo cortante se produce a la distancia d/2 de la cara\ndel apoyo, siendo d el canto útil de la sección si se cumple que:\na)\nLas acciones y las reacciones se pueden equilibrar mediante bielas a compresión a 45º y arma-\ndura de tracción.\nb)\nEn los extremos la armadura de tracción se ancla una longitud no inferior a la necesaria ni a una\ndistancia de 2,5 d.\nc)\nEn una sustentación intermedia, la armadura de tracción necesaria, se prolonga desde la cara\ndel elemento de soporte una longitud de al menos la de anclaje más 2,5d",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    274.7,
+    199.3,
+    284.6
+   ],
+   "tipo": "texto",
+   "texto": "5.6.2 Capacidad resistente",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    291.2,
+    544.3,
+    353.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn todo lo que afecta a las armaduras o pasivas, y modelos de capacidad resistente de la sección,\nse seguirán, en lo que no se contradiga aquí, las prescripciones de la norma de hormigón vigente.\n2\nLos parámetros de deformabilidad del hormigón de relleno se considerarán iguales a los de la fábrica.\n3\nCuando una zona incluya parte de fábrica y parte de hormigón, se tomará como resistencia de cálculo\nla del material menos resistente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    364.6,
+    224.3,
+    374.5
+   ],
+   "tipo": "texto",
+   "texto": "5.6.2.1 Solicitaciones normales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    381.2,
+    541.5,
+    624.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara calcular el momento flector resistente de una sección, puede adoptarse como simplificación una\ndistribución rectangular de tensiones, como la usada en hormigón, y por tanto la resistencia a mo-\nmento se rige por la expresión clásica  MRd = As · fyd · z, con el brazo de palanca  z = d – x/2, siendo\nx la profundidad del bloque comprimido a tensión constante.\n2\nPara muros de fábrica armada a flexión en voladizo, la profundidad x no será mayor que d/2.\n3\nLa resistencia a momento en elementos con armaduras concentradas en nervios no será mayor que\nla que resulte de considerar la totalidad del ala comprimida.\n4\nLos elementos de fábrica armada con esbeltez mayor que 12, se comprobarán teniendo en cuenta\nlos efectos de segundo orden, pudiendo aplicarse, por analogía, los procedimientos de la norma de\nhormigón vigente.\n5\nEn las zonas comprimidas de la fábrica confinada, para aplicar un diagrama rectangular de tensiones,\nse considerará sólo la resistencia de la fábrica. Si hay armaduras en la zona de compresión no se\nconsiderarán.\n6\nCuando la sección se pueda asimilar a una T o L, el espesor de las alas tf se considerará no mayor\nque 0,5 d (donde d, es el canto útil de la sección). Se comprobará que la fábrica situada entre las\narmaduras pueda resistir, si existen, los esfuerzos de flexión. Para secciones asimilables a T, el ancho\neficaz del ala, bef, será no superior a el ancho del hueco armado o del nervio más 12 veces el espesor\ndel ala (tf), ni a un tercio de la altura del muro ni a la distancia entre huecos o nervios. Si se asimila a\nuna L, los límite serán mitad de los señalados. En otro caso la anchura de la sección resistente no se\ntomará mayor que 3 veces el espesor de la fábrica (véase la figura 5.12).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    141.2,
+    749.1,
+    495.3,
+    766.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.12 Ancho de las secciones con armaduras concentradas en huecos",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

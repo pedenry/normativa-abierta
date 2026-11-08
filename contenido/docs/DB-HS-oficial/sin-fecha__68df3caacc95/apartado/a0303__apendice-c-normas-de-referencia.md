@@ -1,0 +1,84 @@
+---
+
+
+documento: "DB-HS Salubridad"
+id: "DB-HS-oficial"
+capa: "oficial"
+version: "2022-06-14"
+id_tecnico: "a0303"
+ruta_oficial: "APÉNDICE-C"
+ruta_semantica: "Apéndice C. Normas de referencia"
+parent_id: null
+nivel: 1
+titulo: "Apéndice C. Normas de referencia"
+paginas_fisicas: "137-137"
+paginas_impresas: "137-137"
+sha256_documento: "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b"
+tipos: "referencias"
+seccion_estimada: "Apéndice C. Normas de referencia"
+titulo_navegacion: "Apéndice C. Normas de referencia"
+ruta_fuente: "candidato_tipografico_plano"
+clasificacion_navegacion: "encabezado"
+es_encabezado_navegacion: true
+sha256_body_normativo: "6f3f1ea4c34086721d34ae76bb4fd48fa11c1fe9c3b44dd419035ffe8324f895"
+referencias_auto_md: "sin_cambio_en_MD; usar referencias_filtradas del JSON"
+---
+
+# a0303 Apéndice C. Normas de referencia
+
+Apéndice C. Normas de referencia
+Este apéndice recoge la referencia completa de las normas citadas en el articulado del DB HS5.
+UNE 127916:2014
+Tubos y piezas complementarias de hormigón en masa, de hormigón armado y
+hormigón con fibra de acero. Complemento nacional a la Norma UNE-EN
+1916:2008.
+UNE-EN 295-1:2013
+Sistemas de tuberías de gres para saneamiento. Parte 1: Requisitos para tube-
+rías, accesorios y uniones.
+UNE-EN 598:2008+A1:2009
+Tuberías, accesorios y piezas especiales de fundición dúctil y sus unio-
+nes para aplicaciones de saneamiento. Requisitos y métodos de ensayo.
+UNE-EN 877:2000
+Tubos y accesorios de fundición, sus uniones y piezas especiales destinados a
+la evacuación de aguas de los edificios. Requisitos, métodos de ensayo y ase-
+guramiento de la calidad. (+UNE-EN 877:2000/A1:2007).
+UNE-EN 1329-1:2014+A1:2018
+Sistemas de canalización en materiales plásticos para evacuación
+de aguas residuales (a baja y a alta temperatura) en el interior de la estructura
+de los edificios. Poli(cloruro de vinilo) no plastificado (PVC-U). Parte 1: Especi-
+ficaciones para tubos, accesorios y el sistema.
+UNE-EN 1401-1:2009
+Sistemas de canalización en materiales plásticos para saneamiento enterrado
+sin presión. Poli(cloruro de vinilo) no plastificado (PVC-U). Parte 1: Especifica-
+ciones para tubos, accesorios y el sistema.
+UNE-EN 1453-1:2017
+Sistemas de canalización en materiales plásticos con tubos de pared estructu-
+rada para evacuación de aguas residuales (a baja y a alta temperatura) en el
+interior de la estructura de los edificios. Poli(cloruro de vinilo) no plastificado
+(PVC-U). Parte 1: Requisitos para los tubos y el sistema.
+UNE-EN 1566-1:1999
+Sistemas de canalización en materiales plásticos para evacuación de aguas
+residuales (baja y alta temperatura) en el interior de la estructura de los edifi-
+cios. Poli (cloruro de vinilo) clorado (PVC-C). Parte 1: Especificaciones para tu-
+bos, accesorios y el sistema.
+UNE-EN 1852-1:2018
+Sistemas de canalización en materiales plásticos para saneamiento enterrado
+sin presión. Polipropileno (PP). Parte 1: Especificaciones para tubos, acceso-
+rios y el sistema.
+UNE-EN 1916:2008
+Tubos y piezas complementarias de hormigón en masa, hormigón armado y
+hormigón con fibra de acero.
+UNE-EN ISO 1452-1:2010
+Sistemas de canalización en materiales plásticos para conducción de
+agua y para saneamiento enterrado o aéreo con presión. Poli(cloruro de vinilo)
+no plastificado (PVC-U). Parte 1: Generalidades.
+UNE-EN ISO 1452-2:2010
+Sistemas de canalización en materiales plásticos para conducción de
+agua y para saneamiento enterrado o aéreo con presión. Poli(cloruro de vinilo)
+no plastificado (PVC-U). Parte 2: Tubos.
+
+## Referencias detectadas (literal)
+
+- DB HS5
+- UNE 127916
+- UNE-EN

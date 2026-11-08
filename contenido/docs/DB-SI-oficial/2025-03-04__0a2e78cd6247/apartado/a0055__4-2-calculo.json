@@ -1,0 +1,105 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0055",
+  "ruta_oficial": "4.2",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 4 Dimensionado de los medios de evacuación / 4.2 Cálculo",
+  "titulo": "4.2 Cálculo",
+  "nivel": 3,
+  "parent_id": "a0053",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 26,
+   "bbox": [
+    70.9,
+    112.2,
+    137.6,
+    125.5
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "509db72d0aa8ec06b4ac3e36da0dd3476bfbf285c7498cdb7fabae2e12aaf362",
+   "literal": "4.2 Cálculo"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0023",
+  "parent_id_original": "a0053",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB SUA 1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2 Cálculo",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0053",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 4 Dimensionado de los medios de evacuación / 4.2 Cálculo",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "af5440ff81f590303b642c88986af032d95c52f43564f6c1533a654f6b18a243"
+ },
+ "paginas": [
+  26,
+  27
+ ],
+ "etiquetas_impresas": [
+  "26",
+  "27"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "4.2 Cálculo\n1\nEl dimensionado de los elementos de evacuación debe realizarse conforme a lo que se indica en la\ntabla 4.1.\nTabla 4.1 Dimensionado de los elementos de la evacuación\nTipo de elemento\nDimensionado\nPuertas y pasos\nA  P / 200(1) 0,80 m(2)\nLa anchura de toda hoja de puerta no debe ser menor que 0,60 m, ni\nexceder de 1,23 m.\nPasillos y rampas\nA  P / 200  1,00 m(3)(4)(5)\nPasos entre filas de asientos fijos en\nsalas para público tales como cines,\nteatros, auditorios, etc.(6)\nEn filas con salida a pasillo únicamente por uno de sus extremos, A ≥ 30\ncm cuando tengan 7 asientos y 2,5 cm más por cada asiento adicional,\nhasta un máximo admisible de 12 asientos.\nEn filas con salida a pasillo por sus dos extremos, A ≥ 30 cm en filas de 14\nasientos como máximo y 1,25 cm más por cada asiento adicional. Para 30\nasientos o más: A  50 cm.(7)\nCada 25 filas, como máximo, se dispondrá un paso entre filas cuya anchu-\nra sea 1,20 m, como mínimo.\nEscaleras no protegidas(8)\npara evacuación descendente\nA  P / 160(9)\npara evacuación ascendente\nA  P / (160-10h)(9)\nEscaleras protegidas\nE ≤ 3 S + 160 AS(9)\nPasillos protegidos\nP ≤ 3 S + 200 A(9)\nEn zonas al aire libre:\nPasos, pasillos y rampas\nA  P / 600(10)\nEscaleras\nA  P / 480(10)\nA= Anchura del elemento, [m]\nAS= Anchura de la escalera protegida en su desembarco en la planta de salida del edificio, [m]\nh=\nAltura de evacuación ascendente, [m]\nP= Número total de personas cuyo paso está previsto por el punto cuya anchura se dimensiona.\nE= Suma de los ocupantes asignados a la escalera en la planta considerada más los de las plantas situadas por debajo o por\nencima de ella hasta la planta de salida del edificio, según se trate de una escalera para evacuación descendente o as-\ncendente, respectivamente. Para dicha asignación solo será necesario aplicar la hipótesis de bloqueo de salidas de planta\nindicada en el punto 4.1 en una de las plantas, bajo la hipótesis más desfavorable;\nS= Superficie útil del recinto, o bien de la escalera protegida en el conjunto de las plantas de las que provienen las P perso-\nnas, incluyendo la superficie de los tramos, de los rellanos y de las mesetas intermedias o bien del pasillo protegido.\n\nDocumento Básico SI en caso de Incendio\nSI 3. Evacuación de ocupantes\n27\n(1)\nLa anchura de cálculo de una puerta de salida del recinto de una escalera protegida a planta de salida del edificio debe ser\nal menos igual al 80% de la anchura de cálculo de la escalera.\n(2)\nEn uso Hospitalario A  1,05 m, incluso en puertas de habitación.\n(3)\nEn uso Hospitalario A  2,20 m ( 2,10 m en el paso a través de puertas).\n(4)\nEn establecimientos de uso Comercial, la anchura mínima de los pasillos situados en áreas de venta es la siguiente:\na)\nSi la superficie construida del área de ventas en la planta considerada excede de 400 m2:\n-\nsi está previsto el uso de carros para transporte de productos:\nentre baterías con más de 10 cajas de cobro y estanterías: A  4,00 m.\nen otros pasillos: A  1,80 m.\n-\nsi no está previsto el uso de carros para transporte de productos: A  1,40 m.\nb)\nSi la superficie construida del área de ventas en la planta considerada no excede de 400 m2:\n-\nsi está previsto el uso de carros para transporte de productos:\nentre baterías con más de 10 cajas de cobro y estanterías: A  3,00 m.\nen otros pasillos: A  1,40 m.\n-\nsi no está previsto el uso de carros para transporte de productos: A  1,20 m.\n(5)\nLa anchura mínima es 0,80 m en pasillos previstos para 10 personas, como máximo, y estas sean usuarios habituales.\n(6)\nAnchura determinada por las proyecciones verticales más próximas de dos filas consecutivas, incluidas las mesas, tableros\nu otros elementos auxiliares que puedan existir. Los asientos abatibles que se coloquen automáticamente en posición ele-\nvada pueden considerarse en dicha posición.\n(7)\nNo se limita el número de asientos, pero queda condicionado por la longitud de los recorridos de evacuación hasta alguna\nsalida del recinto.\n(8)\nIncluso pasillos escalonados de acceso a localidades en anfiteatros, graderíos y tribunas de recintos cerrados, tales como\ncines, teatros, auditorios, pabellones polideportivos etc.\n(9)\nLa anchura mínima es la que se establece en DB SUA 1-4.2.2, tabla 4.1.\n(10) Cuando la evacuación de estas zonas conduzca a espacios interiores, los elementos de evacuación en dichos espacios se\ndimensionarán como elementos interiores, excepto cuando sean escaleras o pasillos protegidos que únicamente sirvan a\nla evacuación de las zonas al aire libre y conduzcan directamente a salidas de edificio, o bien cuando transcurran por un\nespacio con una seguridad equivalente a la de un sector de riesgo mínimo (p. ej. estadios deportivos) en cuyo caso se\npuede mantener el dimensionamiento aplicado en las zonas al aire libre.\nTabla 4.2. Capacidad de evacuación de las escaleras en función de su anchura",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SUA 1"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0026.png",
+  "../figura/p0027.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,123 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0183",
+  "ruta_oficial": "6.3.3.1.2",
+  "ruta_semantica": "6.3.3.1.2 Juntas",
+  "titulo": "6.3.3.1.2 Juntas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.3.1.2 Juntas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 87,
+   "bbox": [
+    70.9,
+    169.0,
+    147.6,
+    178.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "090d43f6d34965b6bee0ea1952cb09a2c7dc58f172bf0aac334218ea28b1470e",
+   "literal": "6.3.3.1.2 Juntas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0210",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-HS"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.1.2 Juntas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 6.3.3 Muros 6.3.3.1 Criterios básicos / 6.3.3.1.2 Juntas",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ccd33a0dad33a03b29623b3a87fe14dd54854d0a532b22caa678601493bb5f75"
+ },
+ "paginas": [
+  87
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "6.3.3.1.2 Juntas\n1\nLos muros deben disponer de juntas de dilatación para absorber las deformaciones debidas a la\ntemperatura y, en su caso, las de retracción.\n2\nDeben existir juntas en los cambios de sección, o cuando existan singularidades del propio muro\ntales como escaleras, rampas de carga, etc.\n3\nAnálogamente se dispondrán juntas cuando se han de diferenciar entre tramos contiguos del muro.\n4\nLa distancia entre juntas de dilatación, salvo justificación, no será superior a 30 m, recomendándose\nuna separación no superior a 3 veces la altura del muro.\n5\nCuando los efectos de la retracción puedan ser importantes se intercalarán falsas juntas, debilitan-\ndo la sección del muro para predeterminar el plano de rotura. La separación entre estas juntas será\nde 8 a 12 m.\n6\nLas juntas y los productos para el relleno de éstas cumplirán a efectos de la impermeabilidad, las\nespecificaciones indicadas en el DB-HS Sección 1.\n7\nLa abertura de las juntas de dilatación será de 2 a 4 cm, según las variaciones de temperatura pre-\nvisibles.\n8\nSe evitará el paso de armaduras a través de las juntas. Cuando esto sea necesario para mantener\nalineaciones o por circunstancias especiales, salvo justificación en contra, todas las armaduras que\npenetren en una cara de la junta deben proyectarse como pasadores lubricados y sin dobleces ni\nanclajes para permitir los movimientos longitudinales y convenientemente protegidos de acuerdo\ncon la durabilidad especificada.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-HS"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0004",
+  "ruta_oficial": "2",
+  "ruta_semantica": "2 Acciones permanentes",
+  "titulo": "2 Acciones permanentes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2 Acciones permanentes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    117.4,
+    214.4,
+    142.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4b6c3842c75afe94c0415d840adb61191e40dccebabd9280736d5b712f45f639",
+   "literal": "2 Acciones permanentes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2 Acciones permanentes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Acciones permanentes",
+   "seccion_estimada": "2 Acciones permanentes",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d260952a3d5498f39474456ea6d5ae4a01f811fb53c2f64b8247b95113c912c5"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [],
+ "texto": "2 Acciones permanentes\n2.1 Peso propio\n2.2 Pretensado\n2.3 Acciones del terreno",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

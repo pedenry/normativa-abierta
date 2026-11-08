@@ -1,0 +1,407 @@
+{
+ "documento": null,
+ "pagina": 82,
+ "etiqueta_impresa": "82",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-80",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    96.8,
+    73.4,
+    541.4,
+    96.1
+   ],
+   "tipo": "texto",
+   "texto": "c)\nAnclajes en tracción: considerando separadamente la de cada fila de anclajes (las de distinto\nbrazo de palanca):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    168.3,
+    125.1,
+    172.2,
+    132.9
+   ],
+   "tipo": "texto",
+   "texto": "a",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    169.0,
+    103.3,
+    187.8,
+    118.1
+   ],
+   "tipo": "texto",
+   "texto": "s\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    128.5,
+    117.3,
+    167.4,
+    131.1
+   ],
+   "tipo": "texto",
+   "texto": "a\nL",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    121.0,
+    105.1,
+    541.0,
+    123.3
+   ],
+   "tipo": "texto",
+   "texto": "A\nz\nE\n2\nS\n=\n(8.40)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    102.5,
+    140.3,
+    134.8,
+    151.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    102.5,
+    157.8,
+    487.5,
+    169.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "E, Ec\nlos módulos de elasticidad del acero e inicial del hormigón, respectivamente,",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    102.5,
+    175.3,
+    480.2,
+    186.5
+   ],
+   "tipo": "texto",
+   "texto": "z\nel brazo de palanca de la unión (o en filas de anclajes el efectivo de la fila),",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    102.5,
+    192.8,
+    481.2,
+    204.8
+   ],
+   "tipo": "texto",
+   "texto": "lef, bef\nlas dimensiones eficaces de la región de hormigón bajo un ala comprimida,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    102.5,
+    210.3,
+    245.7,
+    222.2
+   ],
+   "tipo": "texto",
+   "texto": "tp\nel espesor de la basa,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    102.5,
+    227.8,
+    484.6,
+    239.0
+   ],
+   "tipo": "texto",
+   "texto": "m\ndistancia del tornillo a la línea de formación de la rótula plástica (o charnela)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    102.5,
+    245.3,
+    313.5,
+    257.3
+   ],
+   "tipo": "texto",
+   "texto": "As\nárea resistente a tracción del anclaje,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    102.5,
+    262.8,
+    541.3,
+    285.5
+   ],
+   "tipo": "texto",
+   "texto": "La\nlongitud de elongación del anclaje, igual a 8 veces su diámetro nominal más el espesor\ndel mortero de relleno, de la placa y la arandela, y la mitad de la altura de la tuerca.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    102.5,
+    291.8,
+    541.3,
+    314.5
+   ],
+   "tipo": "texto",
+   "texto": "En caso de que existan fuerzas de palanca, (ver 8.2.5), se empleará sólo el 80% de la rigidez de\nlos anclajes en tracción.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.1,
+    320.8,
+    541.4,
+    344.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "9\nLa rigidez rotacional secante de la unión para un momento Mj,Ed menor que el momento resistente\nMj,Rd de la unión será la siguiente:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.8,
+    349.8,
+    353.1,
+    361.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Si Mj,Ed ≤ 2/3 Mj,Rd se tomará igual a la rigidez inicial, Sj,ini.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    96.8,
+    367.3,
+    181.5,
+    379.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Si Mj,Ed > 2/3 Mj,Rd,",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    122.3,
+    396.8,
+    201.9,
+    417.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "(\n) 7\n,2\nRd\n,j\nEd\n,j",
+   "tamano": 12.8,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    106.4,
+    391.4,
+    175.2,
+    415.7
+   ],
+   "tipo": "texto",
+   "texto": "ini\n,j\nj\nM\n/\nM\n5,1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    98.4,
+    386.2,
+    541.0,
+    405.9
+   ],
+   "tipo": "texto",
+   "texto": "S\nS =\n(8.41)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    74.1,
+    432.9,
+    342.6,
+    444.1
+   ],
+   "tipo": "texto",
+   "texto": "8.8.2 Empalmes con tornillos en piezas sometidas a axil",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    74.1,
+    452.3,
+    541.4,
+    521.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe admitirá la transmisión por contacto en elementos comprimidos únicamente si las superficies en\ncuestión se han preparado para resultar suficientemente planas y se evita toda posibilidad de des-\nplazamiento en cualquier situación de dimensionado. En este caso, el empalme asegurará la conti-\nnuidad de rigidez y se dimensionará para resistir a tracción donde existan momentos relevantes\ndebidos a excentricidades, imperfecciones iniciales y deformaciones de segundo orden u otras\ncausas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    74.1,
+    527.3,
+    541.4,
+    573.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos empalmes a tracción se podrán realizar con cubrejuntas o por solape (figura 8.14). En las dis-\nposiciones indicadas en la figura 8.14 b) y d) aparecerá un momento debido a la excentricidad que\nse tendrá en cuenta en el dimensionado de la unión, por lo que únicamente se utilizará en el caso\nde barras que transmitan esfuerzos reducidos o en uniones de atado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    74.1,
+    579.3,
+    541.5,
+    636.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nSe admite que la carga se reparte por igual entre los tornillos situados en una fila en la dirección de\nla tracción. No obstante, cuando la distancia L entre los ejes de los tornillos extremos de una unión\nen la dirección de la carga es mayor de 15 d, en la que d es el diámetro del vástago, la resistencia\nde cálculo Fv.Rd de cada tornillo, obtenida según el apartado 8.5, se reducirá multiplicándola por el\ncoeficiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    103.7,
+    644.1,
+    166.3,
+    668.8
+   ],
+   "tipo": "texto",
+   "texto": "d\n200\nd\n15\nL\n1\nLf",
+   "tamano": 9.7,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    98.2,
+    643.2,
+    541.0,
+    661.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "−\n−\n=\nβ\n(8.42)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    96.8,
+    675.9,
+    129.1,
+    687.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    97.7,
+    693.3,
+    169.3,
+    708.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "75\n,0\n0,1\nLf ≥\nβ\n≥",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

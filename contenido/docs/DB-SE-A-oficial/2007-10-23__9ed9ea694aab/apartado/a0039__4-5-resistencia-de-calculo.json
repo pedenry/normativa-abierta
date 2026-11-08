@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0039",
+  "ruta_oficial": "4.5",
+  "ruta_semantica": "4.5 Resistencia de cálculo",
+  "titulo": "4.5 Resistencia de cálculo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.5 Resistencia de cálculo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    74.1,
+    239.3,
+    226.2,
+    252.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a580b5aeba50fdeb3142e904fac8d6dee7ea9ee9cc123b306b699827ccf566e8",
+   "literal": "4.5 Resistencia de cálculo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0043",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 2.3.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.5 Resistencia de cálculo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 ≤ t ≤ 100 / 4.5 Resistencia de cálculo",
+   "seccion_estimada": "3 ≤ t ≤ 100",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "867010ff6b157c17f31376b4d4fb515e015e3e4329f6c8c0e02d349af4adaf3d"
+ },
+ "paginas": [
+  15,
+  17
+ ],
+ "etiquetas_impresas": [
+  "15",
+  "17"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "4.5 Resistencia de cálculo\n1\nSe define resistencia de cálculo, fyd, al cociente de la tensión de límite elástico y el coeficiente de\nseguridad del material:\nfyd = fy / γM\n(4.2)\nsiendo:\nfy\ntensión del límite elástico del material base (tabla 4.1). No se considerará el efecto de\nendurecimiento derivado del conformado en frío o de cualquier otra operación.\nγM\ncoeficiente parcial de seguridad del material, de acuerdo al apartado 2.3.3,\n2\nEn las comprobaciones de resistencia última del material o la sección, se adopta como resistencia\nde cálculo el valor\nfud = fu / γM2\nsiendo:\nγM2\ncoeficiente de seguridad para resistencia última.\n\nDocumentoBásico SE-A Acero\nSE-A-15",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.3.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

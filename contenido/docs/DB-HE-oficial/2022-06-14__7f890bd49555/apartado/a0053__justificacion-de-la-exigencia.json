@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0053",
+  "ruta_oficial": null,
+  "ruta_semantica": "Justificación de la exigencia",
+  "titulo": "Justificación de la exigencia",
+  "nivel": 1,
+  "parent_id": "a0048",
+  "seccion_estimada": "Justificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 26,
+   "bbox": [
+    56.7,
+    646.7,
+    258.1,
+    660.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "687c702ea2c82523b2d0f5cd5625747c97cde4cc4cae5e755e52cf15e4661a32",
+   "literal": "Justificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Justificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "Anejo H / Sección HE 3 Condiciones de las instalaciones de iluminación / Justificación de la exigencia",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a5b21844668cab39d049323aa933b27acefe489b06303702cb2113286d0ae690"
+ },
+ "paginas": [
+  26,
+  27
+ ],
+ "etiquetas_impresas": [
+  "26",
+  "27"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Justificación de la exigencia\n1\nPara justificar que un edificio cumple las exigencias de este DB, los documentos de proyecto incluirán la\nsiguiente información sobre el edificio o parte del edificio evaluada:\na) los valores, para las instalaciones de iluminación, de la potencia total instalada en los conjuntos de\nlámpara más equipo auxiliar (PTOT), la superficie total iluminada (STOT), y la potencia total instalada por\nunidad de superficie iluminada (PTOT/STOT), así como los valores límite que sean de aplicación;\nb) los valores, para cada zona iluminada, el factor de mantenimiento (Fm) previsto, la iluminancia media\nhorizontal mantenida (Em) obtenida, el índice de deslumbramiento unificado (UGR) alcanzado, los\níndices de rendimiento de color (Ra) de las lámparas seleccionadas, el valor de eficiencia energética\nde la instalación (VEEI) resultante en el cálculo, las potencias de los conjuntos de lámpara y equipo\n\nDocumento Básico HE Ahorro de energía\nHE 3. Condiciones de las instalaciones de iluminación\n27\nauxiliar (P), la eficiencia de las lámparas utilizadas (en términos de lm/W), así como los valores límite\nque sean de aplicación a cada uno de ellos;\nc) el sistema de control y regulación que corresponda a cada zona iluminada.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0026.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

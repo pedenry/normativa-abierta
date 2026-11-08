@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0111",
+  "ruta_oficial": "3",
+  "ruta_semantica": "Anejo C. Normas de referencia / 3 Evaluación de parámetros acústicos",
+  "titulo": "3 Evaluación de parámetros acústicos",
+  "nivel": 2,
+  "parent_id": "a0108",
+  "seccion_estimada": "Anejo C. Normas de referencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 63,
+   "bbox": [
+    70.9,
+    649.5,
+    300.3,
+    662.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "c077fc413d324cca8df20f3aed7272f9f5844466cc15743e200ebc4298e0d883",
+   "literal": "3 Evaluación de parámetros acústicos"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0025",
+  "parent_id_original": "a0108",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Evaluación de parámetros acústicos",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0108",
+   "ruta_semantica": "Anejo C. Normas de referencia / 3 Evaluación de parámetros acústicos",
+   "seccion_estimada": "Anejo C. Normas de referencia",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "486eeec446c4554a6fd5af200300abe415c9cfef663dab840edd9869d0f447c7"
+ },
+ "paginas": [
+  63,
+  64
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "3 Evaluación de parámetros acústicos\n*UNE-EN ISO 717-1: 2013\nAcústica. Evaluación del aislamiento acústico en los edificios y de los\nelementos de construcción. Parte 1: Aislamiento a ruido aéreo.\n*UNE-EN ISO 717-2: 2013\nAcústica. Evaluación del aislamiento acústico en los edificios y de los\nelementos de construcción. Parte 2: Aislamiento a ruido de impactos.\n*UNE-EN ISO 11654:1998\nAcústica. Absorbentes acústicos para su utilización en edificios. Evalua-\nción de la absorción acústica.\n\nDocumento Básico HR - Protección frente al ruido\nHR C-2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

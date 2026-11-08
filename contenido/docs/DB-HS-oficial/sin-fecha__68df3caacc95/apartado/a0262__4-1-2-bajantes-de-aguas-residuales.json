@@ -1,0 +1,94 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0262",
+  "ruta_oficial": "4.1.2",
+  "ruta_semantica": "4.1.2 Bajantes de aguas residuales",
+  "titulo": "4.1.2 Bajantes de aguas residuales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.1.2 Bajantes de aguas residuales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 118,
+   "bbox": [
+    70.9,
+    71.2,
+    270.6,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5db08922e9514817144b303dbc9459e3a714cb20d6980bcec260c86a056b5e4e",
+   "literal": "4.1.2 Bajantes de aguas residuales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.1.2 Bajantes de aguas residuales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 4.1 Dimensionado de la red de evacuación de aguas residuales 4.1.1 Red de pequeña evacuación de aguas residuales / 4.1.2 Bajantes de aguas residuales",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c4984be94eb4dc2bc242e5f200d774ed31a3f0d93cdcb46f7a2301563a1e1ca2"
+ },
+ "paginas": [
+  118
+ ],
+ "etiquetas_impresas": [
+  "118"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.1.2 Bajantes de aguas residuales\n1\nEl dimensionado de las bajantes debe realizarse de forma tal que no se rebase el límite de  250 Pa\nde variación de presión y para un caudal tal que la superficie ocupada por el agua no sea mayor\nque 1/3 de la sección transversal de la tubería.\n2\nEl diámetro de las bajantes se obtiene en la tabla 4.4 como el mayor de los valores obtenidos con-\nsiderando el máximo número de UD en la bajante y el máximo número de UD en cada ramal en\nfunción del número de plantas.\nTabla 4.4 Diámetro de las bajantes según el número de alturas del edificio y el número de UD\nMáximo número de UD, para una altura de\nbajante de:\nMáximo número de UD, en cada ramal para\nuna altura de bajante de:\nDiámetro (mm)\nHasta 3 plantas\nMás de 3 plantas\nHasta 3 plantas\nMás de 3 plantas\n10\n25\n6\n6\n50\n19\n38\n11\n9\n63\n27\n53\n21\n13\n75\n135\n280\n70\n53\n90\n360\n740\n181\n134\n110\n540\n1.100\n280\n200\n125\n1.208\n2.240\n1.120\n400\n160\n2.200\n3.600\n1.680\n600\n200\n3.800\n5.600\n2.500\n1.000\n250\n6.000\n9.240\n4.320\n1.650\n315\n3\nLas desviaciones con respecto a la vertical, se dimensionan con el criterio siguiente:\na)\nSi la desviación forma un ángulo con la vertical menor que 45º, no se requiere ningún cambio\nde sección.\nb)\nSi la desviación forma un ángulo mayor que 45º, se procede de la manera siguiente.\ni)\nel tramo de la bajante situado por encima de la desviación se dimensiona como se ha es-\npecificado de forma general;\nii)\nel tramo de la desviación, se dimensiona como un colector horizontal, aplicando una pen-\ndiente del 4% y considerando que no debe ser menor que el tramo anterior;\niii)\npara el tramo situado por debajo de la desviación se adoptará un diámetro igual o mayor\nal de la desviación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0118_t01.json",
+  "../tabla/p0118_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0118.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

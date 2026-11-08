@@ -1,0 +1,104 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0151",
+  "ruta_oficial": "10.4.2.1",
+  "ruta_semantica": "10.4.2.1  Principios generales",
+  "titulo": "10.4.2.1  Principios generales",
+  "nivel": 1,
+  "parent_id": "a0150",
+  "seccion_estimada": "10.4.2.1  Principios generales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 87,
+   "bbox": [
+    70.9,
+    645.2,
+    213.1,
+    655.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "37a478e3b71e1d82adf1ac06ebbdd3246037903430103bd76ecec7c74bb24020",
+   "literal": "10.4.2.1  Principios generales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0175",
+  "parent_id_original": "a0150",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN",
+   "apartado 10.4.2.2",
+   "apartado 6.1.5",
+   "apartado 6.3.2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.4.2.1  Principios generales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0150",
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.4  Diafragmas 10.4.1  Diafragmas de forjados y cubiertas / 10.4.2  Diafragma de muros / 10.4.2.1  Principios generales",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b194464eecad5ec020756efdebdc08bc6893bea7ba66c94b9d27d5b353b96deb"
+ },
+ "paginas": [
+  87,
+  88,
+  89,
+  90
+ ],
+ "etiquetas_impresas": [
+  "1",
+  "2",
+  "4",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "10.4.2.1  Principios generales\n1\nLa resistencia al descuadre de los muros-diafragma puede determinarse a partir de resultados de\nensayos de prototipos que deben ajustarse a la norma UNE-EN 594:2011, o mediante el procedi-\nmiento simplificado descrito en el apartado 10.4.2.2)\n10.4.2.2  Análisis simplificado\n1\nSe denomina panel a un elemento que se cierra con un tablero y módulo a un sólo panel o varios\nque trabajan en conjunto.\n\nDocumentoBásico SE-M Madera\nSE-M 82\n2\nLa resistencia al descuadre, Fv,Rd,de un muro diafragma, que consta de uno o más paneles en los\nque cada tablero queda fijado a un solo lado del entramado  de madera  mediante elementos mecá-\nnicos de fijación, asegurado convenientemente al levantamiento (mediante fuerzas verticales o an-\nclajes), solicitado por una fuerza horizontal Fk, que actúa en el borde superior,  puede determinarse\npor el procedimiento simplificado que se indica a continuación, siempre que se cumplan las condicio-\nnes siguientes:\na) La separación entre los elementos de fijación es constante a lo largo del perímetro de cada ta-\nblero y\nb) El ancho bi de cada panel es igual o superior a h/4.\nsiendo:\nbi y h\nlongitud y altura, respectivamente, del panel (véase figura 10.7).\nFigura 10.7 Muro diafragma\n3\nEl valor de cálculo de la resistencia al descuadre, Fv,Rd , de un muro diafragma que consta de varios\npaneles con un solo tablero fijado a un lado del entramado, puede calcularse aplicando la fórmula si-\nguiente:\nFv,Rd =  Fi,v,Rd\n(10.54)\nsiendo:\nFi,v,Rd la resistencia al descuadre de cada panel (véase figura 10.8) definida por la expresión:\ns\nc\nb\nF\nF\ni\ni\nRd\n,f\nRd\n,v,i\n\n\n\n(10.55)\ndonde:\nFf,Rd\nvalor de cálculo de la capacidad de carga lateral por elemento de fijación.\ns\nseparación entre elementos de fijación.\nbi\nanchura del módulo (b1, bi, bj, bn, (véase figura 10.8));\ns\nseparación entre elementos de fijación;\nci=1\npara bi   h/2;\nci= bi /(h/2)\npara bi  < h/2.\nFigura 10.8 Solicitaciones sobre un panel\n\nDocumentoBásico SE-M Madera\nSE-M 83\n4\nLa capacidad de carga obtenida de acuerdo con el capítulo 8 puede multiplicarse por 1,2 para los\nelementos de fijación dispuestos en el perímetro del tablero. En la determinación de la separación de\nlos medios de fijación de acuerdo con los requisitos del capítulo 8, los bordes deben considerarse\ncomo descargados.\n5\nAquellos paneles del muro diafragma que tengan huecos de puertas o ventanas no se consideran en\nla contribución a la resistencia al descuadre del grupo (muro diafragma). Para muros diafragma for-\nmados con módulos con tableros en las dos caras son de aplicación las reglas siguientes:\na) si los tableros y medios de fijación son del mismo tipo y dimensión, la resistencia al descuadre\ndel muro-diafragma es suma de las resistencias correspondientes a cada paramento;\nb) si en cada paramento se emplean diferentes tipos de tableros podrá añadirse a la resistencia al\ndescuadre del paramento más resistente el 75% de la resistencia del paramento más débil,\nsiempre que los medios de fijación tengan el mismo módulo de deslizamiento. En los restantes\ncasos no debe añadirse más del 50% de la resistencia del paramento más débil.\n6\nLas fuerzas externas Fi,c,Sd y Fi,t,Sd (véase figura 10.8) pueden determinarse mediante la expresión\nsiguiente:\ni\nSd\n,\nv,i\nSd\n,t,i\nSd\n,\nc,i\nb\nh\nF\nF\nF\n\n\n\n(10.56)\nsiendo:\nFi,v,Sd\nla fuerza que actúa sobre el panel i.\nEstas fuerzas pueden transmitirse a los módulos adyacentes del muro-diafragma o a la construcción\nsituada por encima o por debajo. Si se transmiten fuerzas de tracción a la construcción situada por\ndebajo, el panel debe anclarse adecuadamente. Si las fuerzas son de compresión los montantes de-\nben comprobarse a pandeo de acuerdo con el apartado 6.3.2.2. En aquellos casos en los que los\nmontantes descansan sobre los testeros debe comprobarse la compresión perpendicular a la fibra de\nacuerdo con el apartado 6.1.5.\n7\nLas fuerzas externas Fv,Sd que se presentan en los módulos que contienen huecos de puertas o ven-\ntanas o paneles de ancho menor a h/4, pueden transmitirse a lo largo de todo el testero superior\n(véase figura 10.9) originando, igualmente, fuerzas que pueden ser de tracción o compresión en la\nconstrucción situada en el nivel superior e inferior.\n8\nPuede despreciarse el pandeo del tablero si se cumple que:\n65\nt\nbnet\n(10.57)\nsiendo:\nbnet\nespacio libre entre montantes (véase figura 10.9);\nt\nespesor del tablero.\n9\nPara que el montante central del módulo pueda considerarse que actúa como soporte del tablero la\nseparación de los medios de fijación no debe ser superior al doble de la separación de los medios de\nfijación en el perímetro.\n10 Cuando cada módulo es un elemento de pared prefabricado, debe comprobarse que se realiza ade-\ncuadamente la transferencia de las fuerzas de corte entre módulos.\nFigura 10.9 Ejemplo de un conjunto de muros diafragma con paneles que contienen huecos de puertas o\nventanas y panel de anchura menor.\n\nDocumentoBásico SE-M Madera\nSE-M 84",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN",
+  "apartado 10.4.2.2",
+  "apartado 6.1.5",
+  "apartado 6.3.2.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0087.png",
+  "../figura/p0088.png",
+  "../figura/p0089.png",
+  "../figura/p0090.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

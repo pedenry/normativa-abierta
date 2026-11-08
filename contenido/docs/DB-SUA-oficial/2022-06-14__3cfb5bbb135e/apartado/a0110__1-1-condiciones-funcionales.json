@@ -1,0 +1,99 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0110",
+  "ruta_oficial": "1.1",
+  "ruta_semantica": "Sección SUA 9  Accesibilidad / 1 Condiciones de accesibilidad / 1.1 Condiciones funcionales",
+  "titulo": "1.1 Condiciones funcionales",
+  "nivel": 3,
+  "parent_id": "a0109",
+  "seccion_estimada": "Sección SUA 9  Accesibilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    70.9,
+    324.5,
+    251.8,
+    337.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "5202e7680f8cf705a0c36c33b4f25c8383cb6dfa59f2e63303f40d6df9a0f4ab",
+   "literal": "1.1 Condiciones funcionales"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0071",
+  "parent_id_original": "a0109",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB SI",
+   "apartado 4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1.1 Condiciones funcionales",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0109",
+   "ruta_semantica": "Sección SUA 9  Accesibilidad / 1 Condiciones de accesibilidad / 1.1 Condiciones funcionales",
+   "seccion_estimada": "Sección SUA 9  Accesibilidad",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8ec2c84f9c49cbee3b983118021cfeaa70aafc536b65b690cb38134371676f81"
+ },
+ "paginas": [
+  31
+ ],
+ "etiquetas_impresas": [
+  "31"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Condiciones funcionales\n1.1.1\nAccesibilidad en el exterior del edificio\n1\nLa parcela dispondrá al menos de un itinerario accesible que comunique una entrada principal al\nedificio, y en conjuntos de viviendas unifamiliares una entrada a la zona privativa de cada vivienda,\ncon la vía pública y con las zonas comunes exteriores, tales como aparcamientos exteriores propios\ndel edificio, jardines, piscinas, zonas deportivas, etc.\n1.1.2\nAccesibilidad entre plantas del edificio\n1\nLos edificios de uso Residencial Vivienda en los que haya que salvar más de dos plantas desde al-\nguna entrada principal accesible al edificio hasta alguna vivienda o zona comunitaria, o con más de\n12 viviendas en plantas sin entrada principal accesible al edificio, dispondrán de ascensor accesible\no rampa accesible(conforme al apartado 4 del SUA 1)que comunique las plantas que no sean de\nocupación nula (ver definición en el anejo SI A del DB SI) con las de entrada accesible al edificio. En\nel resto de los casos, el proyecto debe prever, al menos dimensional y estructuralmente, la instala-\nción de un ascensor accesible que comunique dichas plantas.\nLas plantas con viviendas accesibles para usuarios de silla de ruedas dispondrán de ascensor acce-\nsible o de rampaaccesible que las comunique con las plantas con entrada accesible al edificio y con\nlas que tengan elementos asociados a dichas viviendas o zonas comunitarias, tales como trastero o\nplaza de aparcamiento de la vivienda accesible, sala de comunidad, tendedero, etc.\n2\nLos edificios de otros usos en los que haya que salvar más de dos plantas desde alguna entrada\nprincipal accesible al edificio hasta alguna planta que no sea de ocupación nula, o cuando en total\nexistan más de 200 m2 de superficie útil (ver definición en el anejo SI A del DB SI) excluida la super-\nficie de zonas deocupación nula en plantas sin entrada accesible al edificio, dispondrán de ascensor\naccesible o rampa accesible que comunique las plantas que no sean de ocupación nula con las de\nentrada accesible al edificio.\nLas plantas que tengan zonas de uso público con más de 100 m2 de superficie útil o elementos ac-\ncesibles, tales como plazas de aparcamiento accesibles, alojamientos accesibles, plazas reservadas,\netc., dispondrán de ascensor accesible o rampa accesible que las comunique con las de entrada ac-\ncesible al edificio.\n1.1.3\nAccesibilidad en las plantas del edificio\n1\nLos edificios de uso Residencial Vivienda dispondrán de un itinerario accesible que comunique el\nacceso accesible a toda planta (entrada principal accesible al edificio, ascensor accesible o previsión\ndel mismo, rampa accesible) con las viviendas, con las zonas de uso comunitario y con los elemen-",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SI",
+  "apartado 4"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0119",
+   "ruta_oficial": "1.2.8",
+   "titulo": "1.2.8 Mecanismos",
+   "archivo_json": "a0119__1-2-8-mecanismos.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0111",
+  "a0112",
+  "a0113",
+  "a0114"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

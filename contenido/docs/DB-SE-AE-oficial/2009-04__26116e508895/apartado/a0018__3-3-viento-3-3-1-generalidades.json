@@ -1,0 +1,73 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0018",
+  "ruta_oficial": "3.3",
+  "ruta_semantica": "Fragmento de PDF p11",
+  "titulo": "3.3 Viento 3.3.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p11",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p11",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso / 3.3 Viento 3.3.1 Generalidades",
+   "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cdd5fbc335959051f36a670f150296ac3354ac556d83349dc0a590c75191178d"
+ },
+ "paginas": [
+  11
+ ],
+ "etiquetas_impresas": [
+  "11"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.3 Viento 3.3.1 Generalidades\n3.3.1 Generalidades\n1\nLa distribución y el valor de las presiones que ejerce el viento sobre un edificio y las fuerzas resul-\ntantes dependen de la forma y de las dimensiones de la construcción, de las características y de la\npermeabilidad de su superficie, así como de la dirección, de la intensidad y del racheo del viento.\n2\nLas disposiciones de este Documento Básico no son aplicables a los edificios situados en altitudes\nsuperiores a 2.000 m. En estos casos, las presiones del viento se deben establecer a partir de da-\ntos empíricos disponibles.\n3\nEn general, los edificios ordinarios no son sensibles a los efectos dinámicos del viento. Este Docu-\nmento Básico no cubre las construcciones de esbeltez superior a 6, en las que sí deben tenerse en\ncuenta dichos efectos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0011.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0019"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

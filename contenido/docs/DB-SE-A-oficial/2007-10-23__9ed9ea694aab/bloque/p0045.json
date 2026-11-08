@@ -1,0 +1,415 @@
+{
+ "documento": null,
+ "pagina": 45,
+ "etiqueta_impresa": "45",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-43",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    78.0,
+    73.3,
+    541.4,
+    119.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nLos apoyos laterales del ala comprimida deberán dimensionarse con capacidad para resistir los\nesfuerzos a que van a estar sometidos. Los esfuerzos originados por las fuerzas de desvío del\nsoporte comprimido de una viga recta de canto constante podrán determinarse de acuerdo con\n5.4.1.5.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.0,
+    132.5,
+    316.4,
+    143.7
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3.3 Momento crítico elástico de pandeo lateral",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    78.0,
+    151.8,
+    541.4,
+    186.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nen la mayoría de los casos prácticos es admisible un cálculo simplificado del momento crítico elás-\ntico de pandeo lateral, a pesar de las diferencias en las condiciones de apoyo, la introducción de\nlas cargas y la distribución de los momentos flectores.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    78.0,
+    192.3,
+    538.7,
+    226.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn los casos en los que los apoyos en los extremos de una barra impidan su deformación por tor-\nsión, y si la carga actúa en el eje de la barra, el momento crítico elástico de pandeo lateral se po-\ndrá determinar según la ecuación:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    101.9,
+    236.8,
+    541.0,
+    251.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nLTw\n2\nLTv\nCR\nM\nM\nM\n+\n=\n(6.35)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    100.7,
+    259.8,
+    135.8,
+    271.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    100.7,
+    277.3,
+    538.6,
+    300.0
+   ],
+   "tipo": "texto",
+   "texto": "MLTv\ncomponente de MCR que representa la resistencia por torsión uniforme de la barra (S. Ve-\nnant)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    100.7,
+    306.3,
+    518.9,
+    318.3
+   ],
+   "tipo": "texto",
+   "texto": "MLTw\ncomponente de MCR que representa la resistencia por torsión no uniforme de la barra.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    78.0,
+    323.8,
+    541.4,
+    346.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa componente MLTv del momento crítico elástico de pandeo lateral se podría determinar a partir\nde la ecuación:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    101.9,
+    353.3,
+    541.0,
+    381.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "z\nT\nC\n1\nLTv\nEI\nGI\nL\nC\nM\nπ\n=\n(6.36)",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    100.7,
+    388.8,
+    135.8,
+    400.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    100.7,
+    406.3,
+    538.5,
+    429.0
+   ],
+   "tipo": "texto",
+   "texto": "C1\nfactor que depende de las codiciones de apoyo y de la ley de momentos flectores que so-\nliciten y la viga",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    100.7,
+    435.3,
+    538.3,
+    447.3
+   ],
+   "tipo": "texto",
+   "texto": "Lc\nlongitud de pandeo lateral (distancia entre apoyos laterales que impidan el pandeo lateral)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    100.7,
+    452.8,
+    287.7,
+    464.1
+   ],
+   "tipo": "texto",
+   "texto": "G\nmódulo de elasticidad transversal",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    100.7,
+    470.3,
+    236.1,
+    481.5
+   ],
+   "tipo": "texto",
+   "texto": "E\nmódulo de elasticidad",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    100.7,
+    487.8,
+    271.0,
+    499.8
+   ],
+   "tipo": "texto",
+   "texto": "IT\nconstante de torsión uniforme",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    100.7,
+    505.3,
+    363.9,
+    517.3
+   ],
+   "tipo": "texto",
+   "texto": "IZ\nmomento de inercia de la sección respecto al eje z",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    100.7,
+    522.8,
+    438.1,
+    534.8
+   ],
+   "tipo": "texto",
+   "texto": "Para las vigas con secciones esbeltas (apartado 5.2.3) se adoptará MLTv=0.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    78.0,
+    540.3,
+    541.4,
+    586.8
+   ],
+   "tipo": "texto",
+   "texto": "4\nLa componente MLTw del momento crítico elástico de pandeo lateral viene determinada por la car-\nga crítica elástica de pandeo del soporte comprimido del perfil. Este soporte está formado por el\nala comprimida y la tercera parte de la zona comprimida del alma, adyancente al ala comprimida.\nLa componente MLTw se podrá determinar a partir de la ecuación;",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    169.9,
+    600.3,
+    204.3,
+    624.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nz,f\n1\n2\nC",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    169.1,
+    593.9,
+    173.0,
+    601.7
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    110.4,
+    602.1,
+    195.6,
+    622.6
+   ],
+   "tipo": "texto",
+   "texto": "y\n,\nel\nLTw\ni\nC\nL",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    101.9,
+    594.7,
+    541.0,
+    613.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "E\nW\nM\nπ\n=\n(6.37)",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    100.7,
+    631.3,
+    133.0,
+    642.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    100.7,
+    648.8,
+    541.4,
+    671.5
+   ],
+   "tipo": "texto",
+   "texto": "Wel,y\nmódulo resistente elástico de la sección, según el eje de fuerte inercia, correspondiente a\nla fibra más comprimida",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    100.7,
+    677.8,
+    541.4,
+    712.0
+   ],
+   "tipo": "texto",
+   "texto": "if,z\nradio de giro, con respecto al eje de menor inercia de la sección, del soporte formado por\nel ala comprimida y la tercera parte de la zona comprimida del alma, adyacente al ala\ncomprimida",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    100.7,
+    718.3,
+    530.4,
+    729.5
+   ],
+   "tipo": "texto",
+   "texto": "Las características mecánicas de la sección del soporte comprimido arriba mencionado se deter-",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    101.4,
+    729.8,
+    242.0,
+    741.0
+   ],
+   "tipo": "texto",
+   "texto": "minarán para la sección eficaz.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    78.0,
+    747.3,
+    541.5,
+    770.0
+   ],
+   "tipo": "texto",
+   "texto": "5\nEl factor C1 tiene en cuenta las condiciones de apoyo y la ley de momentos flectores que solicitan\nla viga. Los valores indicados en la tabla 6.7 son válidos para tramos de vigas en cuyos extremos",
+   "tamano": 10.1,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

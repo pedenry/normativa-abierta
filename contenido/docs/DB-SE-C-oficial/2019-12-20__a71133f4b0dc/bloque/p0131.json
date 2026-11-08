@@ -1,0 +1,246 @@
+{
+ "documento": null,
+ "pagina": 131,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-126",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    131.4
+   ],
+   "tipo": "texto",
+   "texto": "nuarán las presiones de borde y las redistribuirá hacia el centro de la zapata. En el caso de arenas,\ndado que la falta de confinamiento en el borde de la zapata, supuesta ésta en superficie, no permiti-\nría el desarrollo de presiones elevadas, la distribución tomará en general la forma parabólica que se\nindica en la Figura E.2.b.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    251.6,
+    476.7,
+    287.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura E.2. Distribución de presiones en zapatas rígidas sobre arcillas y arenas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    301.4,
+    478.8,
+    331.4
+   ],
+   "tipo": "titulo",
+   "texto": "E.2 Estimación de las condiciones de rigidez relativa terreno-\nestructura",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    336.1,
+    541.3,
+    357.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa rigidez relativa de la estructura con respecto al terreno podrá estimarse mediante la evaluación\ndel factor Kr definido en la expresión (E.1).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    85.3,
+    372.7,
+    137.7,
+    393.8
+   ],
+   "tipo": "texto",
+   "texto": "3\ns",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    97.0,
+    370.8,
+    136.1,
+    391.9
+   ],
+   "tipo": "texto",
+   "texto": "B\nE\nr\nB\n·\nE",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    89.3,
+    365.0,
+    542.4,
+    382.8
+   ],
+   "tipo": "texto",
+   "texto": "I·\nE\nK\n\n(E.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    402.0,
+    541.3,
+    544.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nEE\nel módulo de deformación global representativo de los materiales empleados en la es-\ntructura;\nIB\nel momento de inercia de la estructura, por metro de ancho;\nEs\nel módulo de deformación del terreno;\nB\nel ancho de la cimentación.\n2\nEl numerador de la expresión (E.1) representa la rigidez de la estructura por metro de ancho del\nedificio, que puede estimarse sumando las rigideces de la cimentación y de los elementos estructu-\nrales que gravitan sobre ella (vigas, forjados, muros).\n3\nA los efectos de este DB, se considerará que la estructura es rígida en relación con el terreno cuan-\ndo Kr >0,5. Si Kr < 0,5, se considerará flexible.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    558.9,
+    418.7,
+    573.0
+   ],
+   "tipo": "titulo",
+   "texto": "E.3 Criterios de rigidez para cimentaciones directas",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    577.7,
+    541.3,
+    622.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe podrá considerar que una zapata aislada es rígida (concepto de rigidez relativa) cuando a efec-\ntos de cálculo, la distribución de presiones a que de lugar sobre el terreno pueda considerarse li-\nneal. A efectos prácticos, se considerará aceptable la hipótesis de rigidez relativa cuando (Figura\nE.3):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    85.3,
+    640.3,
+    119.4,
+    650.3
+   ],
+   "tipo": "texto",
+   "texto": "4",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    137.3,
+    653.1,
+    145.4,
+    660.1
+   ],
+   "tipo": "texto",
+   "texto": "sB",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    123.5,
+    638.4,
+    146.1,
+    658.2
+   ],
+   "tipo": "texto",
+   "texto": "c\nc\nk\nB",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    89.9,
+    632.6,
+    154.8,
+    658.2
+   ],
+   "tipo": "texto",
+   "texto": "I\nE\n4\n4\nv\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    520.8,
+    629.6,
+    542.4,
+    639.6
+   ],
+   "tipo": "texto",
+   "texto": "(E.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    88.9,
+    669.6,
+    541.3,
+    760.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nv\nel vuelo de la zapata en una dirección cualquiera;\nEc\nel módulo de deformación del material de la zapata (usualmente hormigón armado) re-\npresentativo del tipo de carga y su duración;\nIc\nel momento de inercia de la sección de la zapata perpendicular a la dirección del vuelo\nconsiderado respecto a la horizontal que pasa por su centro de gravedad;\nB\nel ancho de la zapata en dirección perpendicular al vuelo considerado.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

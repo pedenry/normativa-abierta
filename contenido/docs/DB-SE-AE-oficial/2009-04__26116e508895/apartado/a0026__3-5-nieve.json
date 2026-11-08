@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0026",
+  "ruta_oficial": "3.5",
+  "ruta_semantica": "3.5 Nieve",
+  "titulo": "3.5 Nieve",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.5 Nieve",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    70.9,
+    572.6,
+    126.3,
+    586.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "672fc3378bc3b911345ce89f5a22033d66a98db7fef260ed01999dfcc284c962",
+   "literal": "3.5 Nieve"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0023",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.5 Nieve",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve",
+   "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d9787b08edb934bea354a198d6a5a57f799d66566e943a96645b0e21dadfae53"
+ },
+ "paginas": [
+  14
+ ],
+ "etiquetas_impresas": [
+  "14"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.5 Nieve\n1\nLa distribución y la intensidad de la carga de nieve sobre un edificio, o en particular sobre una cu-\nbierta, depende del clima del lugar, del tipo de precipitación, del relieve del entorno, de la forma del\nedificio o de la cubierta, de los efectos del viento, y de los intercambios térmicos en los paramentos\nexteriores.\n2\nLos modelos de carga de este apartado sólo cubren los casos del depósito natural de la nieve. En\ncubiertas accesibles para personas o vehículos, deben considerarse las posibles acumulaciones\ndebidas a redistribuciones artificiales de la nieve. Asimismo, deben tenerse en cuenta las condicio-\nnes constructivas particulares que faciliten la acumulación de nieve.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0014.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0027",
+  "a0028",
+  "a0029",
+  "a0030"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

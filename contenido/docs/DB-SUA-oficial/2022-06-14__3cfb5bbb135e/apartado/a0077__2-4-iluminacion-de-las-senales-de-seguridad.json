@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0077",
+  "ruta_oficial": "2.4",
+  "ruta_semantica": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada / 2 Alumbrado de emergencia / 2.4 Iluminación de las señales de seguridad",
+  "titulo": "2.4 Iluminación de las señales de seguridad",
+  "nivel": 3,
+  "parent_id": "a0073",
+  "seccion_estimada": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 22,
+   "bbox": [
+    70.9,
+    497.9,
+    339.2,
+    511.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "fa47e3bc44c1630d7e9e45f5a6e16dbab7f4872280ce60a27795fa06b7c4943f",
+   "literal": "2.4 Iluminación de las señales de seguridad"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0046",
+  "parent_id_original": "a0073",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4 Iluminación de las señales de seguridad",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0073",
+   "ruta_semantica": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada / 2 Alumbrado de emergencia / 2.4 Iluminación de las señales de seguridad",
+   "seccion_estimada": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b90eea8f08931cb3d47e83734c38cee63b952c75a8c4c764015bd110d9b50aac"
+ },
+ "paginas": [
+  22,
+  23
+ ],
+ "etiquetas_impresas": [
+  "22",
+  "23"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Iluminación de las señales de seguridad\n1\nLa iluminación de las señales de evacuación indicativas de las salidas y de las señales indicativas de\nlos medios manuales de protección contra incendios y de los de primeros auxilios, deben cumplir los\nsiguientes requisitos:\na) La luminancia de cualquier área de color de seguridad de la señal debe ser al menos de 2 cd/m2\nen todas las direcciones de visión importantes;\nb) La relación de la luminancia máxima a la mínima dentro del color blanco o de seguridad no debe\nser mayor de 10:1, debiéndose evitar variaciones importantes entre puntos adyacentes;\nc)\nLa relación entre la luminancia Lblanca, y la luminancia Lcolor >10, no será menor que 5:1 ni mayor\nque 15:1.\nd) Las señales de seguridad deben estar iluminadas al menos al 50% de la iluminancia requerida,\nal cabo de 5 s, y al 100% al cabo de 60 s.\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad\nSUA 5. Seguridad frente al riesgo causado por situaciones de alta ocupación\n23",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

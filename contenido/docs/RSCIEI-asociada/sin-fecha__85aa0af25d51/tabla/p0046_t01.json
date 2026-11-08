@@ -1,0 +1,141 @@
+{
+ "indice": 1,
+ "pagina": 46,
+ "etiqueta_impresa": "46",
+ "bbox": [
+  202.4,
+  697.0,
+  392.9,
+  736.6
+ ],
+ "filas": 4,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "H < 5 metros",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "H ≥ 5 metros",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "A < 500 m2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "L ≥ 25 %",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "L ≥ 25 %",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "A entre 500 y 1.500 m2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "No admitido",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "L ≥ 50 %",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "A > 1.500 m2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "No admitido",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 2,
+   "texto": "L ≥ 70 %",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "H < 5 metros",
+  "H ≥ 5 metros"
+ ],
+ "header": {
+  "names": [
+   "",
+   "H < 5 metros",
+   "H ≥ 5 metros"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB982450>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9804D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9816A0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB981460>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB981520>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB982A20>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9832F0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9815B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB982CC0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB982F00>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9833B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB981880>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0046.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

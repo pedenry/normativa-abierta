@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0061",
+  "ruta_oficial": "6.2.7",
+  "ruta_semantica": "6.2.7 Resistencia de las secciones a torsión",
+  "titulo": "6.2.7 Resistencia de las secciones a torsión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.7 Resistencia de las secciones a torsión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    78.0,
+    73.4,
+    288.7,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "bdc6b6abddef0ea3a323061194ab484f3d7230ffc41cee169fba8f1370d15906",
+   "literal": "6.2.7 Resistencia de las secciones a torsión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0067",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.7 Resistencia de las secciones a torsión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.2 Resistencia de las secciones 6.2.1 Bases / 6.2.7 Resistencia de las secciones a torsión",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9a8b76c2e5c3f51dac1d2fe91cc2735caca3a3d626279807326cdcf59ec733fb"
+ },
+ "paginas": [
+  34
+ ],
+ "etiquetas_impresas": [
+  "34"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.2.7 Resistencia de las secciones a torsión\n1\nEl esfuerzo torsor TEd de cualquier sección puede dividirse en dos componentes, Tt,Ed, componen-\nte correspondiente a la torsión uniforme de Saint Vénant, y Tw,Ed, componente correspondiente a\nla torsión de alabeo.\nEd\n,\nw\nEd\n,t\nEd\nT\nT\nT\n+\n=\n2\nEn las piezas de sección hueca cerrada delgada puede despreciarse la componente de torsión de\nalabeo. Análogamente, en las piezas formadas por un perfil en doble T (IPE, HEB, etc) puede\ndespreciarse la componente de torsión uniforme.\n3\nDeberán considerarse los estados tensionales derivados de la torsión, y en particular, las tensio-\nnes tangenciales debidas al torsor uniforme, τt,Ed, así como las tensiones normales σw,Ed y tangen-\nciales τw,ED debidas al bimomento y al esfuerzo torsor de torsión de alabeo.\n4\nLa comprobación de resistencia puede realizarse con criterios elásticos de acuerdo a la expresión\n(6.1).",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

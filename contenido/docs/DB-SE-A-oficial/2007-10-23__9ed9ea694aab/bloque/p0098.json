@@ -1,0 +1,364 @@
+{
+ "documento": null,
+ "pagina": 98,
+ "etiqueta_impresa": "98",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-96",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    541.4,
+    107.5
+   ],
+   "tipo": "texto",
+   "texto": "6\nEn este apartado se entiende por “nudo plano” de la estructura de celosía, cualquier unión entre\nelementos estructurales situados en un mismo plano y que transmiten esfuerzos esencialmente\naxiales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    113.9,
+    482.9,
+    125.1
+   ],
+   "tipo": "texto",
+   "texto": "7\nLos símbolos utilizados en las tablas de este apartado se definen en el apartado 8.9.7.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    131.4,
+    541.4,
+    154.0
+   ],
+   "tipo": "texto",
+   "texto": "8\nLas reglas de aplicación que se dan en este apartado sólo pueden utilizarse cuando se cumplen\nlas condiciones siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.8,
+    160.4,
+    525.9,
+    171.6
+   ],
+   "tipo": "texto",
+   "texto": "a)\nlas secciones de las barras comprimidas son de clase 1 ó 2 ante esfuerzos de flexión pura;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    177.9,
+    539.7,
+    189.1
+   ],
+   "tipo": "texto",
+   "texto": "b)\nlos ángulos entre los cordones y las barras de alma y entre estas últimas son mayores de 30°;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.8,
+    193.5,
+    538.6,
+    229.5
+   ],
+   "tipo": "texto",
+   "texto": "c)\nel límite elástico del material de los perfiles huecos no superará los 355 N/mm2. Para produc-\ntos de límite elástico superior sin exceder los 460 N/mm2 pueden usarse las resistencias esta-\nblecidas en este apartado reducidas por el factor 0,9;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    96.8,
+    235.8,
+    541.4,
+    270.0
+   ],
+   "tipo": "texto",
+   "texto": "d)\nel espesor nominal de las paredes de los perfiles huecos no es inferior a 2,5 mm ni superior a\n25 mm salvo que se hayan tomado medidas especiales para asegurarse de que las propieda-\ndes del material a través de su espesor serán las adecuadas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    276.3,
+    541.4,
+    299.1
+   ],
+   "tipo": "texto",
+   "texto": "9\nLas barras que confluyen en un nudo deben presentar extremos preparados de manera que no se\nproduzca modificación de forma de sus secciones transversales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.1,
+    305.3,
+    538.6,
+    328.0
+   ],
+   "tipo": "texto",
+   "texto": "10\nEn los nudos “con separación” ésta no debe ser inferior a (t1 + t2), con el fin de asegurar una holgu-\nra suficiente para realizar soldaduras satisfactorias.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    74.1,
+    334.4,
+    541.3,
+    368.5
+   ],
+   "tipo": "texto",
+   "texto": "11\nEn los nudos “con solape” éste debe ser suficiente para asegurar que en la unión de las barras de\nalma se produce una transferencia satisfactoria del esfuerzo cortante de la viga de una barra a la\notra. El solape no será nunca menor del 25%.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.1,
+    374.9,
+    538.6,
+    398.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "12\nCuando se solapan barras de arriostramiento que tienen espesores diferentes o materiales diferen-\ntes, la barra con menor valor del producto t·fy debe recubrir a la de mayor valor.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    74.1,
+    403.8,
+    541.4,
+    426.6
+   ],
+   "tipo": "texto",
+   "texto": "13\n Cuando se solapan barras de arriostramiento de diferente anchura o diámetro, la menor solapará\nsobre la mayor.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    74.1,
+    439.9,
+    143.0,
+    451.1
+   ],
+   "tipo": "texto",
+   "texto": "8.9.2 Análisis",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    74.1,
+    459.3,
+    541.4,
+    482.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn el análisis de una viga de celosía se puede suponer que las barras están conectadas por nudos\narticulados cuando:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    96.8,
+    488.3,
+    541.4,
+    511.0
+   ],
+   "tipo": "texto",
+   "texto": "a)\nLas características geométricas de los nudos esté dentro del campo de validez especificado\nen el apartado 8.9.4, la tabla 8.3 y la tabla 8.5.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.8,
+    517.3,
+    538.6,
+    540.0
+   ],
+   "tipo": "texto",
+   "texto": "b)\nLa relación entre la longitud de la barra y su canto o altura en el plano de la viga no sea me-\nnor que:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    120.9,
+    546.3,
+    238.2,
+    557.5
+   ],
+   "tipo": "texto",
+   "texto": "-\n12 para los cordones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    120.9,
+    563.8,
+    263.8,
+    575.0
+   ],
+   "tipo": "texto",
+   "texto": "-\n24 para las barras de alma.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    74.1,
+    581.3,
+    507.6,
+    592.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nPueden despreciarse las excentricidades que permanezcan dentro de los límites siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    119.5,
+    598.6,
+    541.0,
+    611.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-0,55 do ≤ e ≤ 0,25 do\n(8.82)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    119.5,
+    616.9,
+    541.0,
+    629.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-0,55 ho ≤ e ≤ 0,25 ho\n(8.83)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    119.5,
+    635.3,
+    151.8,
+    646.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    119.5,
+    652.8,
+    301.1,
+    664.0
+   ],
+   "tipo": "texto",
+   "texto": "e\nes la excentricidad (figura 8.23);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    119.5,
+    670.3,
+    273.8,
+    682.3
+   ],
+   "tipo": "texto",
+   "texto": "do\nes el diámetro del cordón;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    119.5,
+    687.8,
+    405.4,
+    699.8
+   ],
+   "tipo": "texto",
+   "texto": "ho\nes la altura del cordón en el plano de la viga de celosía.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

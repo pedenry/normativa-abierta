@@ -1,0 +1,76 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0219",
+  "ruta_oficial": "4.5.4",
+  "ruta_semantica": "Fragmento de PDF p94",
+  "titulo": "4.5.4 Dimensionado de los sistemas y equipos de tratamiento de agua 4.5.4.1  Determinación del tamaño de los aparatos dosificadores",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p94",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p94",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio / 4.5 Dimensionado de los equipos, elementos y dispositivos de la instalación 4.5.1 Dimensionado de los contadores / 4.5.4 Dimensionado de los sistemas y equipos de tratamiento de agua 4.5.4.1  Determinación del tamaño de los aparatos dosificadores",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5edb510e3a98b6fdeb3caf57e8df93e32ddf41e9cb28e7190c9d9deebc648070"
+ },
+ "paginas": [
+  94,
+  95
+ ],
+ "etiquetas_impresas": [
+  "94",
+  "95"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.5.4 Dimensionado de los sistemas y equipos de tratamiento de agua 4.5.4.1  Determinación del tamaño de los aparatos dosificadores\n4.5.4.1  Determinación del tamaño de los aparatos dosificadores\n1\nEl tamaño apropiado del aparato se tomará en función del caudal punta en la instalación, así como\ndel consumo mensual medio de agua previsto, o en su defecto se tomará como base un consumo\nde agua previsible de 60 m3 en 6 meses, si se ha de tratar tanto el agua fría como el ACS, y de 30\nm3 en 6 meses si sólo ha de ser tratada el agua destinada a la elaboración de ACS.\n2\nEl límite de trabajo superior del aparato dosificador, en m3/h, debe corresponder como mínimo al\ncaudal máximo simultáneo o caudal punta de la instalación.\n3\nEl volumen de dosificación por carga, en m3, no debe sobrepasar el consumo de agua previsto en 6\nmeses.\n4.5.4.2\nDeterminación del tamaño de los equipos de descalcificación\n1\nSe tomará como caudal mínimo 80 litros por persona y día.\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n95",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0094_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0094.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

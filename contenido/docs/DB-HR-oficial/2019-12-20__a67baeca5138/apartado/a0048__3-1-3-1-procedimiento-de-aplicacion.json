@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0048",
+  "ruta_oficial": "3.1.3.1",
+  "ruta_semantica": "3.1.3.1  Procedimiento de aplicación",
+  "titulo": "3.1.3.1  Procedimiento de aplicación",
+  "nivel": 1,
+  "parent_id": "a0047",
+  "seccion_estimada": "3.1.3.1  Procedimiento de aplicación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 24,
+   "bbox": [
+    70.9,
+    220.0,
+    245.5,
+    231.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c81c9fbe57f6723e735ade91ee4f327c518067c95bdf05e027678e3719af9ee7",
+   "literal": "3.1.3.1  Procedimiento de aplicación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0047",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 3.1.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.3.1  Procedimiento de aplicación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0047",
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.1.3  Opción general. Método de cálculo de aislamiento acústico / 3.1.3.1  Procedimiento de aplicación",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "07cf29e43df1d113bf6bb22f2d32c27b1d099c6426a2f515cf217d9cde5c6163"
+ },
+ "paginas": [
+  24
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "3.1.3.1  Procedimiento de aplicación\n1\nPara el correcto diseño y dimensionado de los elementos constructivos de un edificio que propor-\ncionan el aislamiento acústico, tanto a ruido aéreo como a ruido de impactos, debe realizarse el di-\nseño y dimensionado de sus recintos teniendo en cuenta las diferencias en forma, tamaño y de\nelementos constructivos entre parejas de recintos, y considerando cada uno de ellos como recinto\nemisor y como recinto receptor.\n2\nDebe procederse separadamente al cálculo del aislamiento acústico a ruido aéreo tanto de elemen-\ntos de separación verticales (particiones y medianerías) y elementos de separación horizontales,\ncomo de fachadas y de cubiertas (véase figura 3.1), y al cálculo del aislamiento acústico a ruido de\nimpactos de los elementos de separación horizontales entre recintos superpuestos, entre recintos\nadyacentes y entre recintos con una arista horizontal común (véase figura 3.7).\n3\nA partir de los datos previos establecidos en el apartado 3.1.1, debe determinarse el aislamiento\nacústico a ruido aéreo (DnT,A, diferencia de niveles estandarizada, ponderada A) y el nivel global de\npresión de ruido de impactos estandarizado, L’nT,w, para un recinto, teniendo en cuenta las transmi-\nsiones acústicas directas de los elementos constructivos que lo separan de otros y también las\ntransmisiones acústicas indirectas por todos los caminos posibles, así como las características\ngeométricas del recinto, los elementos constructivos empleados y las formas de encuentro de los\nelementos constructivos entre sí.\n4\nLos valores finales de las magnitudes que definen las exigencias, diferencia de niveles estandariza-\nda, ponderada A, DnT,A, y nivel global de presión de ruido de impactos estandarizado ,L’nT,w, se ex-\npresarán redondeados a un número entero. Los valores de las especificaciones de productos y\nelementos constructivos podrán usarse redondeados a enteros o con un decimal y en las magnitu-\ndes de cálculos intermedios se usará una cifra decimal.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3.1.1"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

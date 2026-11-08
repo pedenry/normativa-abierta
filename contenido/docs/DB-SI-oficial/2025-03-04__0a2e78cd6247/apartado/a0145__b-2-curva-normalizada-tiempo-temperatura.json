@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0145",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego / B.2 Curva normalizada tiempo – temperatura",
+  "titulo": "B.2 Curva normalizada tiempo – temperatura",
+  "nivel": 2,
+  "parent_id": "a0144",
+  "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 53,
+   "bbox": [
+    70.9,
+    308.1,
+    381.9,
+    323.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "cd4835f35d749e59548863c589ce0f54b9ce37f77e5c089b3975f5088d577065",
+   "literal": "B.2 Curva normalizada tiempo – temperatura"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0096",
+  "parent_id_original": "a0144",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.2 Curva normalizada tiempo – temperatura",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0144",
+   "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego / B.2 Curva normalizada tiempo – temperatura",
+   "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6728e2d7b8a12b4beaadc94114fd679854070da7f6a679797f3c5bc3bb2a9351"
+ },
+ "paginas": [
+  53
+ ],
+ "etiquetas_impresas": [
+  "53"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "B.2 Curva normalizada tiempo – temperatura\n1\nLa curva normalizada tiempo-temperatura es la curva nominal definida en la norma UNE EN 1363-\n1:2015 para representar un modelo de fuego totalmente desarrollado en un sector de incendio.\nEstá definida por la expresión:\ng\n = 20 + 345 log10 (8 t +1)\n[ºC];\n(B.1)\nsiendo:\ng\n\ntemperatura del gas en el sector\n[ºC];\nt\ntiempo desde la iniciación del incendio\n[min].\nLa curva normalizada tiempo-temperatura supone, aproximadamente, las siguientes temperaturas:\nTiempo t, en minutos\n15       30       45       60       90        120        180        240\nTemperatura en el sector\ng\n, en ºC\n740    840     900     950    1000     1050      1100     1150",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0113",
+  "ruta_oficial": "8.5.3",
+  "ruta_semantica": "8.5.3 Uniones con tornillos pretensados",
+  "titulo": "8.5.3 Uniones con tornillos pretensados",
+  "nivel": 1,
+  "parent_id": "a0110",
+  "seccion_estimada": "8.5.3 Uniones con tornillos pretensados",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 69,
+   "bbox": [
+    74.1,
+    680.5,
+    266.4,
+    691.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5794fe38e395355eb317c698bef1122c8d8b7bd82c7415441aefec7164006403",
+   "literal": "8.5.3 Uniones con tornillos pretensados"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0113",
+  "parent_id_original": "a0110",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.5.3 Uniones con tornillos pretensados",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0110",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.5 Resistencia de los medios de unión. Uniones atornilladas. / 8.5.3 Uniones con tornillos pretensados",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6933634eaf5003181861ad65dcb73638fa28568b395eb61adc50a5e6c9da191b"
+ },
+ "paginas": [
+  69,
+  70
+ ],
+ "etiquetas_impresas": [
+  "69",
+  "70"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.5.3 Uniones con tornillos pretensados\n1\nAunque el deslizamiento de la unión con tornillos pretensados se considera en general un estado\nlímite de servicio, en aquellas situaciones específicas en que se deba garantizar que no habrá des-\nlizamiento en una unión antes de rotura, y así se prescriba para ésta, como por ejemplo en las\nuniones híbridas, cuando se pretende contar simultáneamente con las resistencias de la soldadura\ny de los tornillos, se considerará un estado límite último de deslizamiento.\nLv\nL3\na2\nD0,2\nDo,1\nL1\n\nDocumentoBásico SE-A Acero\nSE-A-68\n2\nResistencia a cortante. La resistencia de cálculo a deslizamiento de un tornillo pretensado, será:\nCd\n.\np\n2\nM\ns\nRd\n.s\nF\nn\nk\nF\nγ\nµ\n=\n(8.15)\ncon los mismos criterios establecidos en 7.2.3 para las condiciones de servicio, pero tomando co-\nmo coeficiente parcial de seguridad el siguiente:\nγM2 =  1,25 en uniones con agujeros con medidas nominales\nγM2 =\n1,40 en uniones con agujeros con sobremedida en dirección paralela a la del esfuerzo.\n3\nResistencia a tracción. El esfuerzo de cálculo de tracción, al que en su caso se añadirán las trac-\nciones debidas al efecto palanca, debe ser menor o igual que la fuerza de pretensado, Fp.Cd.\n4\nSolicitación combinada. En el caso de que actúen simultáneamente sobre el tornillo esfuerzos de\ntracción y cortante, la resistencia de cálculo al deslizamiento correspondiente al estado límite últi-\nmo se tomará de la siguiente expresión:\n(\n)\n2\nM\nEd\n.t\nCd\n.\np\ns\nRd\n.s\nF\n8,0\nF\nn\nk\nF\nγ\n−\nµ\n=\n(8.16)\nsiendo\nFt.Ed\nesfuerzo axil de cálculo del tornillo, al que en su caso, se añadirán las tracciones debidas al\nefecto palanca.\nNo se reducirá la resistencia de cálculo al deslizamiento de la unión cuando las tracciones, por\nproceder de un momento en la unión, estén equilibradas por una fuerza de contacto igual en la zo-\nna comprimida.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0069.png",
+  "../figura/p0070.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

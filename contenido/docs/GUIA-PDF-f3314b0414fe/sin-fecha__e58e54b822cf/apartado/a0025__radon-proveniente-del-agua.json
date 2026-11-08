@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-f3314b0414fe",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon Fichas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__e58e54b822cf",
+ "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+ "apartado": {
+  "id_tecnico": "a0025",
+  "ruta_oficial": null,
+  "ruta_semantica": "8 \t escalera abierta / Radón proveniente del agua",
+  "titulo": "Radón proveniente del agua",
+  "nivel": 3,
+  "parent_id": "a0022",
+  "seccion_estimada": "8 \t escalera abierta"
+ },
+ "paginas": [
+  11
+ ],
+ "etiquetas_impresas": [
+  "11"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Radón proveniente del agua\nLa presencia de radón en el agua se debe a que las ro­\ncas que contienen uranio natural liberan radón al agua\nsubterránea con la que entran en contacto. Como el\nradón se disipa rápidamente en contacto con el aire, si\nse utilizan aguas superficiales para el consumo no hay\nriesgo de que contengan radón ni de que lo liberen\nen el interior de las edificaciones. Sin embargo, si se\nutilizan para el consumo aguas subterráneas (de ma­\nnantiales o pozos) sin que se aireen y el terreno tiene\nuna elevada concentración de radón, sí existe riesgo\nde que se libere el radón contenido en el agua al am­\nbiente interior hasta alcanzar concentraciones signifi­\ncativas.\nEn los sistemas públicos de abastecimiento de agua\nprocedente de aguas superficiales la concentración\nmedia de radón suele ser menor que 0,4 Bq/l y si el\nagua procede de fuentes subterráneas el valor ronda\nlos 20 Bq/l. El valor máximo recomendado por la OMS\ny la Comisión Europea por debajo del cual no es nece­\nsario realizar controles en abastecimientos públicos es\nde 100 Bq/l. Por este motivo, el radón procedente del\nagua de consumo no se considera en esta Guía.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0011_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0011.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon+Fichas.pdf",
+  "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0022",
+  "nivel": 3,
+  "seccion_estimada": "8 \t escalera abierta",
+  "ruta_semantica": "8 \t escalera abierta / Radón proveniente del agua"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

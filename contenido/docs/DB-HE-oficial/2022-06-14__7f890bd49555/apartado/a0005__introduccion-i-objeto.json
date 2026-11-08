@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0005",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p3",
+  "titulo": "Introducción I Objeto",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p3",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p3",
+  "referencias_filtradas": [
+   "artículo 15"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 Junio 2022 / Introducción I Objeto",
+   "seccion_estimada": "14 Junio 2022",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9f2988d3c0fe87a360a9afe9941c9b5ff37feaed4215ef702243ecc618bac202"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Introducción I Objeto\nI Objeto\nEste Documento Básico (DB) tiene por objeto establecer reglas y procedimientos que permiten cumplir el\nrequisito básico de ahorro de energía. Las secciones de este DB se corresponden con las exigencias\nbásicas HE 0 a HE 6. La correcta aplicación de cada sección supone el cumplimiento de la exigencia\nbásica correspondiente.\nLa correcta aplicación del conjunto del DB supone que se satisface el requisito básico \"Ahorro de energía\".\nTanto el objetivo del requisito básico \"Ahorro de energía\", como las exigencias básicas se establecen en\nel artículo 15 de la Parte I del CTE y son los siguientes:",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "artículo 15"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": null,
+   "titulo": "VI Términos y definiciones",
+   "archivo_json": "a0018__vi-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

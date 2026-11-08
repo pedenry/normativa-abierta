@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0009",
+  "ruta_oficial": "5",
+  "ruta_semantica": "5 Análisis estructural",
+  "titulo": "5 Análisis estructural",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5 Análisis estructural",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    418.2,
+    172.4,
+    431.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a88d2dd8be94f23ba4c15792f4b3261cf18425b318fd33e52c06f3015751d29f",
+   "literal": "5 Análisis estructural"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0006",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5 Análisis estructural",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural",
+   "seccion_estimada": "5 Análisis estructural",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fcb82f89c0e7cd745045d5d02053b05b9a3e777c79ad37726490d86857aa1167"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "5 Análisis estructural\n5.1 Principios generales\n5.2 Características de las barras\n5.3 Sistemas de barras",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

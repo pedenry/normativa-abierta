@@ -1,0 +1,73 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0033",
+  "ruta_oficial": "4.3",
+  "ruta_semantica": "Fragmento de PDF p17",
+  "titulo": "4.3 Impacto 4.3.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p17",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p17",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Acciones accidentales 4.1 Sismo / 4.3 Impacto 4.3.1 Generalidades",
+   "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "db6c91a05d15fce24d8701362ebbf9a40712acd80ba6b1f25d0718bb33826211"
+ },
+ "paginas": [
+  17
+ ],
+ "etiquetas_impresas": [
+  "17"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.3 Impacto 4.3.1 Generalidades\n4.3.1 Generalidades\n1\nLas acciones sobre un edificio causadas por un impacto dependen de la masa, de la geometría y de\nla velocidad del cuerpo impactante, así como de la capacidad de deformación y de amortiguamiento\ntanto del cuerpo como del elemento contra el que impacta.\n2\nSalvo que se adoptaren medidas de protección, cuya eficacia debe verificarse, con el fin de dismi-\nnuir la probabilidad de ocurrencia de un impacto o de atenuar sus consecuencias en caso de produ-\ncirse, los elementos resistentes afectados por un impacto deben dimensionarse teniendo en cuenta\nlas acciones debidas al mismo, con el fin de alcanzar una seguridad estructural adecuada.\n3\nEl impacto de un cuerpo sobre un edificio puede representarse mediante una fuerza estática equi-\nvalente que tenga en cuenta los parámetros mencionados.\n4\nEste Documento Básico considera sólo las acciones debidas a impactos accidentales, quedando\nexcluidos los premeditados, tales como la del impacto de un vehículo o la caída del contrapeso de\nun aparato elevador.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0034"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

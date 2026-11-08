@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0036",
+  "ruta_oficial": "3",
+  "ruta_semantica": "Fragmento de PDF p13",
+  "titulo": "3 ≤ t ≤ 100",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p13",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p13",
+  "referencias_filtradas": [
+   "DB-SE-AE",
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 ≤ t ≤ 100",
+   "seccion_estimada": "3 ≤ t ≤ 100",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cccfc157eb40edc7d1a41fd7454a27ceb7d8602d13bc1b3ac9424ffa8f36163f"
+ },
+ "paginas": [
+  13,
+  14
+ ],
+ "etiquetas_impresas": [
+  "13",
+  "14"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "3 ≤ t ≤ 100\nTemperatura del\nensayo Charpy\nºC\nS235JR\nS235J0\nS235J2\n235\n225\n215\n360\n20\n0\n-20\nS275JR\nS275J0\nS275J2\n275\n265\n255\n410\n20\n0\n-20\nS355JR\nS355J0\nS355J2\nS355K2\n355\n345\n335\n470\n20\n0\n-20\n-20 (1)\nS450J0\n450\n430\n410\n550\n0\n(1) Se le exige una energía mínima de 40J.\n3\nLas siguientes son características comunes a todos los aceros:\n-\nmódulo de Elasticidad: E\n210.000 N/mm2\n-\nmódulo de Rigidez: G\n81.000\nN/mm2\n-\ncoeficiente de Poisson: ν\n0,3\n-\ncoeficiente de dilatación térmica: α\n1,2·10-5 (ºC)-1\n-\ndensidad: ρ\n7.850\nkg/m3\n\nDocumentoBásico SE-A Acero\nSE-A-12\n4\nEn caso de emplearse aceros diferentes de los señalados, para garantizar que tienen ductilidad su-\nficiente, deberá comprobarse que:\na)\nla relación entre la tensión de rotura y la de límite elástico no será inferior a 1,20;\nb)\nel alargamiento en rotura de una probeta de sección inicial S0, medido sobre una longitud\n5,65·\n0\nS\nserá superior al 15%;\nc)\nla deformación correspondiente a la tensión de rotura debe superar al menos un 20% a la co-\nrrespondiente al límite elástico.\n5\nTodos los procedimientos de comprobación especificados en este DB se basan en el comporta-\nmiento dúctil del material, esto es, las comprobaciones de cálculo se refieren al límite elástico o a\nla tensión de rotura en condiciones de laboratorio. Es por tanto necesario comprobar que la resis-\ntencia a rotura frágil es, en todos los casos, superior a la resistencia a rotura dúctil. Esto es cierto\nen el caso de estructuras no sometidas a cargas de impacto, como son en general las de edifica-\nción y cuando los espesores empleados no sobrepasen los indicados en la tabla 4.2 para las tem-\nperaturas mímimas a que estarán sometidas en función de su emplazamiento y exposición, según\nlos criterios de DB-SE-AE 3.4, realizadas con los aceros especificados en este apartado, y fabrica-\ndas conforme a los requisitos especificados en el capítulo 10 de este DB, por lo que en este caso\nno se requiere ninguna comprobación;\nEn cualquier otro caso, deberá demostrarse que el valor de la temperatura de transición, definida\ncomo la mínima a la que la resistencia a rotura dúctil supera a la frágil, es menor que la mínima de\naquellas a las que va a estar sometida la estructura. La temperatura de transición se puede obte-\nner mediante procedimientos de mecánica de la fractura. Para ello puede utilizarse la UNE EN\n1993-1-10.\nTabla 4.2 Espesor máximo (mm) de chapas\nTemperatura mínima\n0 ºC\n-10 ºC\n-20 ºC\nGrado\nJR\nJ0\nJ2\nJR\nJ0\nJ2\nJR\nJ0\nJ2\nS235\n50\n75\n105\n40\n60\n90\n35\n50\n75\nS275\n45\n65\n95\n35\n55\n75\n30\n45\n65\nS355\n35\n50\n75\n25\n40\n60\n20\n35\n50\n6\nSoldabilidad. Todos los aceros relacionados en este DB son soldables y únicamente se requiere la\nadopción de precauciones en el caso de uniones especiales (entre chapas de gran espesor, de es-\npesores muy desiguales, en condiciones difíciles de ejecución, etc.), según se indica en el Capítu-\nlo10 de este DB.\nPara aceros distintos a los relacionados la soldabilidad se puede evaluar mediante el parámetro\nCEV (carbono equivalente), de expresión:\n15\nCu\nNi\n5\nV\nMo\nCr\n6\nMn\nC\nCEV\n+\n+\n+\n+\n+\n+\n=\n(4.1)\nEste valor no debe ser superior a 0,41 para los aceros S 235 y S 275 ó 0,47 para los aceros S 355.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "DB-SE-AE",
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png",
+  "../figura/p0014.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0037",
+  "a0038",
+  "a0039"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

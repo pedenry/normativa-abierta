@@ -1,0 +1,374 @@
+{
+ "documento": null,
+ "pagina": 62,
+ "etiqueta_impresa": "2",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 56",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    93.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nLas separaciones y distancias mínimas se dan en la tabla 8.4, con las definiciones incluidas en la\nfigura 8.7.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    101.4,
+    541.3,
+    134.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn uniones con pernos alineados con la dirección de la fibra y sometidos a una componente de la\nfuerza paralela a la fibra, la capacidad de carga debe calcularse tomando como número eficaz de\npernos el menor valor de las expresiones siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    132.5,
+    172.8,
+    137.4,
+    191.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    132.5,
+    155.9,
+    137.4,
+    174.8
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    132.5,
+    146.9,
+    137.4,
+    158.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    108.2,
+    161.7,
+    181.7,
+    189.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    97.6,
+    168.0,
+    182.3,
+    179.6
+   ],
+   "tipo": "texto",
+   "texto": "4\n1\n9\n,\n0\nef",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    136.9,
+    165.4,
+    188.8,
+    190.0
+   ],
+   "tipo": "texto",
+   "texto": "d\n13\na\nn",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    136.9,
+    147.9,
+    142.5,
+    157.9
+   ],
+   "tipo": "texto",
+   "texto": "n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    91.4,
+    163.1,
+    540.5,
+    178.2
+   ],
+   "tipo": "texto",
+   "texto": "min\nn\n (8.47)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    90.1,
+    201.0,
+    538.4,
+    314.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nnef\nnúmero eficaz de pernos alineados con la carga y la fibra;\nn\nnúmero de pernos alineados;\na1\nseparación en la dirección de la fibra, [mm];\nd\ndiámetro del perno, [mm].\nEn caso de carga perpendicular a la fibra, el número eficaz de pernos es el real, es decir\nnef = n\n (8.48)\nPara cargas con direcciones comprendidas entre 0º y 90º, se interpolará linealmente entre los valo-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    91.3,
+    315.9,
+    327.1,
+    337.4
+   ],
+   "tipo": "texto",
+   "texto": "res determinados por las ecuaciones (8.47) y (8.48).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    338.7,
+    504.6,
+    368.8
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 8.4 Uniones con pernos. Separaciones y distancias mínimas.\nSeparaciones y distancias\n(véase figura 8.7)\nÁngulo\nSeparación o distancia mínima",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    370.2,
+    470.5,
+    437.3
+   ],
+   "tipo": "texto",
+   "texto": "a1  (paralela a la fibra)\n       0º    360º\n(4 +  cos ) d\na2 (perpendicular a la fibra)\n       0º    360º\n4 d\na3,t (testa cargada)\n   - 90º    90º\nmax (7d;80mm)\na3,c (testa no cargada)\n     90º   < 150º\n(1+ 6 sen ) d)\n   150º   < 210º\n4d\n   210º    270º\n(1+ 6 sen ) d)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    439.7,
+    484.7,
+    461.0
+   ],
+   "tipo": "texto",
+   "texto": "a4,t (borde cargado)\n       0º    180º\nmax((2+ 2 sen ) d;3d)\na4,c (borde no cargado)\n   180º    360º\n3 d",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    483.6,
+    442.4,
+    493.5
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn pernos de sección circular el valor característico del momento plástico será:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    90.1,
+    505.0,
+    540.5,
+    516.5
+   ],
+   "tipo": "texto",
+   "texto": "My,Rk = 0,3  fu,k  d 2,6\n(8.49)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    525.3,
+    309.9,
+    572.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nfu,k resistencia característica a tracción, [N/mm2].\nd  diámetro del perno, [mm].\n5\nDisposiciones constructivas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.8,
+    580.3,
+    541.3,
+    590.3
+   ],
+   "tipo": "texto",
+   "texto": "a) Los agujeros en la madera para alojar los pernos deben tener un diámetro no mayor de 1 mm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    106.9,
+    591.8,
+    538.7,
+    614.1
+   ],
+   "tipo": "texto",
+   "texto": "que el diámetro del perno. Los agujeros en las placas de acero deben tener un diámetro no ma-\nyor de 2 mm o de 0,1d (el que resulte mayor) que el diámetro del perno.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    88.8,
+    621.6,
+    541.3,
+    631.5
+   ],
+   "tipo": "texto",
+   "texto": "b) Las arandelas bajo la cabeza del perno y bajo la tuerca deben tener un lado (si son cuadradas) o",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    106.9,
+    632.3,
+    541.3,
+    655.3
+   ],
+   "tipo": "texto",
+   "texto": "un diámetro mínimo igual a 3d y un espesor mínimo de 0,3d (d es el diámetro del perno). La\narandela debe tener pleno contacto con la superficie de la pieza.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    88.8,
+    662.7,
+    541.3,
+    672.7
+   ],
+   "tipo": "texto",
+   "texto": "c) Los pernos y tirafondos deben apretarse de tal forma que las piezas queden firmemente unidas,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    106.9,
+    674.3,
+    541.3,
+    707.3
+   ],
+   "tipo": "texto",
+   "texto": "y deben volver a apretarse si fuera necesario cuando la madera alcance su humedad de equili-\nbrio higroscópico, siempre que sea requerido para garantizar la capacidad de carga o rigidez de\nla estructura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    70.9,
+    721.8,
+    326.7,
+    731.8
+   ],
+   "tipo": "texto",
+   "texto": "8.3.4.1.2  Uniones con pernos entre madera y madera",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 27,
+   "bbox": [
+    70.9,
+    740.3,
+    541.3,
+    762.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia característica al aplastamiento de pernos con diámetros no superiores a 30 mm para\nun ángulo  entre el esfuerzo y la dirección de la fibra se obtiene de la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

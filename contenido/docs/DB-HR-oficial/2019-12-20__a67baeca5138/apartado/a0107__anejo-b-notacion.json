@@ -1,0 +1,97 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0107",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo B. Notación",
+  "titulo": "Anejo B. Notación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo B. Notación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 59,
+   "bbox": [
+    70.9,
+    95.3,
+    195.5,
+    111.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "abb05cee9d68e1e43ea512dc3879595b232283e43b3e6e1bdf54490b088f687e",
+   "literal": "Anejo B. Notación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0021",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo B. Notación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo B. Notación",
+   "seccion_estimada": "Anejo B. Notación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7da7bbed4973c3534d222cd5cf1e17ccd30139473873efbec714c0bb052254e9"
+ },
+ "paginas": [
+  59,
+  60,
+  61,
+  62,
+  63
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo B. Notación\nEn este anejo se recogen, ordenados alfabéticamente, los símbolos correspondientes a las magnitudes\nque se utilizan en este DB junto con las unidades.\n:\nCoeficiente de absorción acústica\nf:\nCoeficiente de absorción acústica de un material para la banda de frecuencia f\ni:\nCoeficiente de absorción acústica del material i\nm:\nCoeficiente de absorción acústica medio\nm,i\nCoeficiente de absorción acústica medio del material i\nm,t\nCoeficiente de absorción acústica medio del techo\nw:\nCoeficiente de absorción acústica ponderado según la UNE EN ISO 11654\n:\nTransmisibilidad de un sistema antivibratorio\n’:\nFactor de transmisión total de potencia acústica\nL:\nReducción del nivel de presión de ruido de impactos de un revestimiento, [dB]\nLd:\nReducción del nivel de presión de ruido de impactos mediante una capa adicional sobre la\ncara de recepción del elemento de separación, [dB]\nLd,lab:\nReducción del nivel de presión de ruido de impactos mediante una capa adicional sobre la\ncara de recepción del elemento de separación, medido en laboratorio, [dB]\nLd,situ:\nReducción del nivel de presión de ruido de impactos mediante una capa adicional sobre la\ncara de recepción del elemento de separación medido in situ, [dB]\nLd,w\nReducción del nivel global de presión de ruido de impactos por revestimiento del lado de la\nrecepción, [dB]\nΔLfs:\nDiferencia de niveles por la forma de la fachada, [dB]\nLlab:\nReducción del nivel de presión de ruido de impactos de un revestimiento de forjado, medido\nen laboratorio, [dB]\nLsitu:\nReducción del nivel de presión de ruido de impactos por revestimiento de la cara de emisión\ndel elemento de separación, medido in situ, [dB]\nLw:\nReducción del nivel global de presión de ruido de impactos de un revestimiento, [dB]\nR:\nMejora del índice de reducción acústica de un revestimiento, [dB]\nRd,A:\nMejora del índice global de reducción acústica por revestimiento del elemento de separación\nen el recinto receptor, [dBA]\nRi,A:\nMejora del índice global de reducción acústica por revestimiento del elemento i, [dBA]\nRij,A:\nMejora del índice global de reducción acústica para cada camino de transmisión indirecta,\n[dBA]\nRj,A:\nMejora del índice global de reducción acústica por revestimiento del elemento j, [dBA]\nRlab:\nMejora del índice global de reducción acústica de un revestimiento, medido en laboratorio\n[dB]\nRsitu:\nMejora del índice de reducción acústica de un revestimiento medido in situ, [dB]\nRw:\nMejora del índice global de reducción acústica de un revestimiento, [dB]\nRA:\nMejora del índice global de reducción acústica, ponderado A, de un revestimiento, [dBA]\nRD,A:\nMejora del índice global de reducción acústica, ponderado A, por revestimiento del elemento\nde separación en el recinto emisor, [dBA]\nRDd,A:\nMejora del índice global de reducción acústica, por efecto de revestimientos del lado de la\nemisión y/o recepción del elemento de separación para ruido rosa, [dBA]\nRDf,A:\nMejora del índice global de reducción acústica, por efecto de revestimientos en el elemento\nde separación del lado de la emisión y/o del elemento de flanco en la recepción para ruido\nrosa, [dBA]\nRFd,A:\nMejora del índice global de reducción acústica, por efecto de revestimientos en el elemento\nde flanco del lado de la emisión y/o del elemento de separación en la recepción para ruido\nrosa, [dBA]\nRFf,A:\nMejora del índice global de reducción acústica, por efecto de revestimientos del lado de la\nemisión y/o recepción del elemento de flanco para ruido rosa, [dBA]\na:\nLongitud de absorción equivalente de vibraciones de un elemento constructivo, [m]\nco:\nVelocidad de propagación, [m/s]\nd:\nEspesor de la pared, [m]\nf:\nFrecuencia, [Hz]\n\nDocumento Básico HR - Protección frente al ruido\nHR B-2\nfref:\nFrecuencia de referencia de valor 1000 Hz, [Hz]\nf0:\nFrecuencia de resonancia, [Hz]\nh:\nAltura libre de un recinto, [m]\nk’:\nRigidez dinámica de una suspensión o sistema antivibratorio, [MN/m3]\nlf:\nLongitud común de la arista de unión entre el elemento de separación y los elementos de\nflancos F y f, [m]\nlij:\nLongitud común de la arista de unión entre el elemento i y el j, [m]\nl0:\nLongitud de la arista de unión de referencia de valor 1 m, [m]\nm:\nMasa por unidad de superficie, [kg/m2]\nm:\nCarga máxima, [kg/m2]\nm:\nCoeficiente de absorción acústica en el seno del aire, [m-1]\nm\nm\nCoeficiente de absorción acústica medio en el aire, para las frecuencias de 500, 1000 y 2000\nHz, [m-1]\nn:\nNúmero de elementos de flanco del recinto\nn:\nNúmero de caminos indirectos\nn:\nNúmero total de materiales caracterizados por un coeficiente de absorción acústica diferente\np:\nPresión acústica, [Pa]\np0:\nPresión sonora de referencia, de valor 2·10-5 Pa, [Pa]\np(t):\nPresión acústica en el instante t, [Pa]\nr:\nResistividad al flujo del aire, [kPa s/m2]\ns’:\nRigidez dinámica, [MN/m3]\nA:\nÁrea de absorción acústica equivalente, [m2]\nA:\nÁrea de absorción acústica equivalente de un recinto, [m2]\nAf:\nAbsorción acústica para la banda de frecuencia f, [m2]\nAi:\nValor de la ponderación A en la banda de frecuencia i, [dBA]\nAO:\nÁrea de absorción acústica equivalente de un mueble fijo, [m2]\nAO,m:\nÁrea de absorción acústica equivalente media de un mueble fijo, [m2];\nA0:\nÁrea de absorción equivalente de referencia, para viviendas es 10 m2, [m2]\nC:\nAmortiguamiento del sistema antivibratorio\nC:\nTérmino de adaptación espectral del índice de reducción acústica para ruido rosa incidente,\n[dB]\nCtr:\nTérmino de adaptación espectral del índice de reducción acústica para ruido de automóviles\ny ruido de aeronaves, [dB]\nC0:\nAmortiguamiento crítico\nD:\nPérdidas por inserción, [dBA/m]\nD:\nDiferencia de niveles entre recintos, [dB]\nDn,ai,A:\nDiferencia de niveles normalizada, ponderada A, para la transmisión de ruido aéreo por vía\ndirecta ei o indirecta Si de todos los sistemas instalados, [dBA]\nDnT:\nDiferencia de niveles estandarizada entre recintos interiores, [dB]\nDnT,i:\nDiferencia de niveles estandarizada en la banda de frecuencia i, [dB]\nDnT,w:\nDiferencia global de niveles estandarizada, [dB]\nDnT,A:\nDiferencia de niveles estandarizada, ponderada A, entre recintos interiores, [dBA]\nDn,e:\nDiferencia de niveles normalizada de un elemento de construcción pequeño, [dB]\nDn,e,A:\nDiferencia de niveles normalizada, ponderada A, de un elemento de construcción pequeño,\n[dBA]\nDn,e,Atr:\nDiferencia de niveles normalizada, ponderada A, de un elemento de construcción pequeño,\npara ruido exterior dominante de automóviles o de aeronaves, [dBA]\nDn,s,A:\nDiferencia de niveles normalizada, ponderada A, para transmisión indirecta a través de un\nsistema s, [dBA]\nsitu\n,ij,\nv\nD\n:\nDiferencia de niveles de velocidad promediada en los dos sentidos de propagación para ca-\nda camino de transmisión ij sobre la unión medida in situ, [dB]\nD2m,nT:\nDiferencia de niveles estandarizada en fachadas y en cubiertas, [dB]\nD2m,nT,A:\nDiferencia de niveles estandarizada, ponderada A, en fachadas y en cubiertas, para ruido\nrosa y para ruido exterior dominante ferroviario o de estaciones ferroviarias, [dBA]\nD2m,nT,Atr:\nDiferencia de niveles estandarizada, ponderada A, en fachadas y en cubiertas, para ruido\nexterior dominante de automóviles o de aeronaves, [dBA]\nD2m,nT,Ai\nDiferencia de niveles estandarizada, ponderada A, en la banda de frecuencia i, [dB]\nKij:\nÍndice de reducción de vibraciones para cada camino de transmisión ij (ij = Ff; Fd o Df)\nKij min:\nValor mínimo del índice de reducción de vibraciones\n\nDocumento Básico HR - Protección frente al ruido\nHR B-3\nKDf:\nÍndice de reducción de vibraciones para el camino de transmisión Df, [dB]\nKFd:\nÍndice de reducción de vibraciones para el camino de transmisión Fd, [dB]\nKFf:\nÍndice de reducción de vibraciones para el camino de transmisión Ff, [dB]\nL:\nNivel medio de presión de ruido de impactos en un recinto, [dB]\nL:\nNivel medio de presión sonora en un recinto, [dB]\nLd:\nÍndice de ruido día, [dBA]\nLeqA:\nNivel sonoro continuo equivalente, ponderado A, [dBA]\nLeqA,T:\nNivel sonoro continuo equivalente estandarizado, ponderado A, [dBA]\nLi:\nNivel de presión sonora en la banda de frecuencia i, [dB];\nLn:\nNivel sonoro equivalente noche [dBA]\nLn:\nNivel de presión de ruido de impactos normalizado, [dB]\nLn,lab:\nNivel de presión de ruido de impactos normalizado medido en laboratorio, [dB]\nLn,situ:\nNivel de presión de ruido de impactos normalizado medido in situ, [dB]\nLn,w:\nNivel global de presión de ruido de impactos normalizado, [dB]\nLn,w,d:\nNivel global de presión de ruido de impactos normalizado para la transmisión directa, [dB]\nLn,w,ij:\nNivel global de presión de ruido de impactos normalizado para la transmisión indirecta, o por\nflancos [dB]\nLp:\nNivel de presión sonora, [dB]\nLpi:\nNivel de presión sonora en el punto i, [dB]\nLpA:\nNivel de presión sonora ponderado A, [dBA]\nLref,w(f):\nCurva de referencia para el nivel de presión de ruido de impactos, [dB]\nLAr,i:\nValor del espectro normalizado de ruido rosa, ponderado A, en la banda de frecuencia i,\n[dBA]\nLA:\nNivel medio de presión sonora, ponderado A, en un recinto, [dBA]\nLAav,i:\nValor del espectro normalizado de ruido de aeronaves, ponderado A, en la banda de fre-\ncuencia i, [dBA]\nLAef,i:\nValor del espectro normalizado de ruido ferroviario o de estaciones ferroviarias, ponderado\nA, en la banda de frecuencia i, [dBA]\nLAtr,i:\nValor del espectro normalizado de ruido de automóviles, ponderado A, en la banda de fre-\ncuencia i, [dBA]\nLW:\nNivel de potencia acústica, [dB]\nL’n:\nNivel de presión de ruido de impactos normalizado medido in situ, [dB]\nL’nT:\nNivel de presión de ruido de impactos estandarizado, [dB]\nL’nT,w:\nNivel global de presión de ruido de impactos estandarizado, [dB]\nL’n,w:\nNivel global de presión de ruido de impactos normalizado, [dB]\nL(t)pA:\nNivel de presión sonora, ponderado A, en el instante t, [dBA]\nL1:\nNivel medio de presión sonora en el recinto emisor, [dB]\nL1,s:\nNivel medio de presión sonora medio en el plano de la fachada o la cubierta, [dB]\nL1,2m:\nNivel medio de presión sonora a 2 metros de la fachada o la cubierta, [dB]\nL2:\nNivel medio de presión sonora en el recinto receptor, [dB]\nR:\nÍndice de reducción acústica de un elemento constructivo, [dB]\nRf,A:\nÍndice global de reducción acústica del elemento de flanco f para ruido rosa incidente, [dBA]\nRi:\nÍndice de reducción acústica en la banda de frecuencia de i, [dB]\nRij,:\nÍndice de reducción acústica por vía indirecta, para cada uno de los caminos ij (ij = Ff; Fd o\nDf), [dB]\nRij,A:\nÍndice global de reducción acústica por vía indirecta, ponderado A, para cada uno de los\ncaminos ij (ij = Ff; Fd o Df), [dBA]\nRi,A:\nÍndice global de reducción acústica, ponderado A, del elemento i, [dBA]\nRlab:\nÍndice de reducción acústica de un elemento medido en laboratorio, [dB]\nRm,A:\nÍndice global de reducción acústica, ponderado A, del elemento constructivo mixto, [dBA]\nRsitu:\nÍndice de reducción acústica de un elemento medido in situ, [dB]\nRw:\nÍndice global de reducción acústica, [dB]\nRA:\nÍndice global de reducción acústica de un elemento, ponderado A, [dBA]\nRA,tr:\nÍndice global de reducción acústica, ponderado A, para ruido exterior dominante de automó-\nviles o de aeronaves, [dBA]\nRDd,A:\nÍndice global de reducción acústica, ponderado A, para la transmisión directa, [dBA]\nRDf,A:\nÍndice global de reducción acústica, ponderado A, para la transmisión indirecta, del camino\nDf, [dBA]\nRFd,A:\nÍndice global de reducción acústica, ponderado A, para la transmisión indirecta, del camino\nFd, [dBA]\n\nDocumento Básico HR - Protección frente al ruido\nHR B-4\nRFf,A:\nÍndice global de reducción acústica, ponderado A, para la transmisión indirecta, del camino\nFf, [dBA]\nRF,A:\nÍndice global de reducción acústica del elemento de flanco F para ruido rosa incidente, [dBA]\nRS,A:\nÍndice global de reducción acústica del elemento de separación para ruido rosa incidente,\n[dBA]\nR1,A:\nÍndice global de reducción acústica, ponderado A, del elemento de mayor aislamiento acústi-\nco, generalmente la parte ciega de la fachada o de la cubierta, [dBA]\nR2,A:\nÍndice global de reducción acústica, ponderado A, del elemento de menor aislamiento, gene-\nralmente los huecos, puertas, ventanas y lucernarios, [dBA]\nR’:\nÍndice de reducción acústica aparente de un elemento constructivo medido in situ, [dB]\nR’i:\nÍndice de reducción acústica aparente en la banda de frecuencia de i, [dB]\nR’w:\nÍndice global de reducción acústica aparente, [dB]\nR’A:\nÍndice global de reducción acústica aparente, ponderado A, [dBA]\nSa:\nÁrea de un tratamiento adicional de superficie, [m2]\nSh:\nÁrea de los huecos de una fachada o de una cubierta, [m2]\nSi:\nÁrea de cada elemento i con coeficiente de absorción acústica αi, [m2]\nSj:\nÁrea del elemento radiante j en el recinto receptor, [m2]\nSs:\nÁrea compartida del elemento de separación, [m2]\nSt:\nÁrea del techo, [m2]\nS0:\nÁrea del aireador, [m2]\nT:\nIntervalo temporal considerado, [s]\nT:\nTiempo de reverberación de un recinto, [s]\nT:\nTiempo de reverberación en el recinto receptor, [s]\nTs:\nTiempo de reverberación estructural de un elemento, [s]\nTs,lab:\nTiempo de reverberación estructural de un elemento medido en laboratorio, [s]\nTs,situ:\nTiempo de reverberación estructural de un elemento medido in situ, [s]\nT0:\nTiempo de reverberación de referencia; su valor es 0,5 s, [s]\nV:\nVolumen del recinto receptor, [m3]\nW:\nPotencia acústica, [W]\nW0:\nPotencia acústica de referencia, de valor 10-12 W, [W]\n\nDocumento Básico HR - Protección frente al ruido\nHR C-1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0060.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,129 @@
+{
+ "documento": null,
+ "pagina": 35,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-30",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.4,
+    349.9,
+    110.5
+   ],
+   "tipo": "titulo",
+   "texto": "4.3\nPresión admisible y de hundimiento",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    132.2,
+    192.3,
+    144.2
+   ],
+   "tipo": "titulo",
+   "texto": "4.3.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    155.8,
+    168.6,
+    165.7
+   ],
+   "tipo": "texto",
+   "texto": "4.3.1.1 Definiciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    171.4,
+    541.3,
+    192.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn este DB se emplean los siguientes términos en cuanto a la identificación de las presiones en\nrelación con los principios clásicos de la mecánica del suelo: (véase Figura 4.11):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    66.2,
+    321.7,
+    541.3,
+    616.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura 4.11. Definiciones de presiones\na)\npresión total bruta (qb): Es la presión vertical total que actúa en la base del cimiento, definida como el\ncociente entre la carga total actuante, incluyendo el peso del cimiento y aquello que pueda gravitar\nsobre él, y el área equivalente del cimiento (véase 4.3.1.3);\nb)\npresión efectiva bruta (q’b): Es la diferencia entre la presión total bruta y la presión intersticial de\nequilibrio, (u), al nivel de la base del cimiento;\nc)\npresión total neta (qneta): Es la diferencia entre la presión total bruta (qb) y la presión vertical total\nexistente en el terreno (q0) al nivel de la base del cimiento (sobrecarga que estabiliza lateralmente el\ncimiento). La presión total neta (qneta) es por tanto, el incremento de presión vertical total a que se ve\nsometido el terreno por debajo del cimiento debido a las cargas de la cimentación;\nd)\npresión efectiva neta (q’neta): Es la diferencia entre la presión efectiva bruta (q’b) y la presión efectiva\nvertical (q’0) al nivel de la base del cimiento, debida a la sobrecarga. La presión total neta es igual a\nla efectiva neta (qneta=q’neta);\ne)\npresión vertical de hundimiento (qh, q’h): Es la resistencia característica del terreno RK, definida tal\ncomo se indica en el apartado 2.4.2.6, para el estado límite último de hundimiento. Puede expresar-\nse en términos de presiones totales o efectivas, brutas o netas;\nf)\npresión vertical admisible (qadm, q’adm). Es el valor de cálculo de la resistencia del terreno (Rd). Puede\nexpresarse en términos de presiones totales o efectivas, brutas o netas.\ng)\npresión vertical admisible de servicio (qs, q’s): Es la presión vertical admisible de una cimentación\nteniendo en cuenta no sólo la seguridad frente al hundimiento, sino también su tolerancia a los asien-\ntos; por tanto igual o menor que la presión vertical admisible. Puede expresarse en términos de pre-\nsiones totales o efectivas, brutas o netas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    628.2,
+    448.1,
+    638.2
+   ],
+   "tipo": "texto",
+   "texto": "4.3.1.2 Métodos para la comprobación del estado límite último de hundimiento",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    643.8,
+    541.3,
+    760.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn cimentaciones sobre todo tipo de suelos la presión admisible o valor de cálculo de la resistencia\ndel terreno Rd se podrá determinar mediante la expresión (4.1) utilizando los métodos analíticos del\napartado 4.3.2 para la determinación de la presión de hundimiento y los valores R de la tabla 2.1.\n2\nEn el caso de cimentaciones sobre suelos con menos del 35% de finos, se podrá aplicar el método\nbasado en ensayos de penetración contenidos del apartado 4.3.3, con las limitaciones en él indica-\ndas, para obtener directamente la presión admisible de servicio, considerándose verificado de esta\nforma el estado límite último de hundimiento. En suelos cuyo contenido en gruesos de más de 20\nmm supere el 30% en peso, en función del resultado del ensayo, puede en su caso, ser convenien-\nte la comprobación de la fiabilidad de los valores deducidos de los ensayos SPT mediante ensayos\ntipo cross-hole o down-hole",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0005",
+  "ruta_oficial": null,
+  "ruta_semantica": "I Objeto",
+  "titulo": "I Objeto",
+  "nivel": 2,
+  "parent_id": null,
+  "seccion_estimada": "I Objeto",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    148.8,
+    154.5,
+    164.5
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "74d8ca21112a9b12ccb522a86e26dc8891a226d9773bac5ebc9360fd5d39ff6b",
+   "literal": "I Objeto"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0002",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "I Objeto",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Introducción / I Objeto",
+   "seccion_estimada": "Introducción",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e493be108f2530e181067b9e44cc351cd841cf100b5c6566fa25aef4fa5b534d"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Documento Básico SI Seguridad en caso de Incendio\nINTRODUCCIÓN\n3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0006",
+  "a0007"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

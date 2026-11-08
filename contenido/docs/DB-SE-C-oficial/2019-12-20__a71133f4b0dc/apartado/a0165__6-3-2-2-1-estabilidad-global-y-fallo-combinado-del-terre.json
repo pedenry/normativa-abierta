@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0165",
+  "ruta_oficial": "6.3.2.2.1",
+  "ruta_semantica": "6.3.2.2.1 Estabilidad global y fallo combinado del terreno y del elemento estructural",
+  "titulo": "6.3.2.2.1 Estabilidad global y fallo combinado del terreno y del elemento estructural",
+  "nivel": 1,
+  "parent_id": "a0164",
+  "seccion_estimada": "6.3.2.2.1 Estabilidad global y fallo combinado del terreno y del elemento estructural",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 79,
+   "bbox": [
+    70.9,
+    439.9,
+    469.9,
+    449.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ac0f9db9a55dc779e97dcbf780e55db99808f7bd12183b07092b82931ac7dddc",
+   "literal": "6.3.2.2.1 Estabilidad global y fallo combinado del terreno y del elemento estructural"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0192",
+  "parent_id_original": "a0164",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.2.1 Estabilidad global y fallo combinado del terreno y del elemento estructural",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0164",
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 6.3.2 Pantallas 6.3.2.1 Criterios básicos / 6.3.2.2 Estabilidad / 6.3.2.2.1 Estabilidad global y fallo combinado del terreno y del elemento estructural",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f0fca517390f6d0fb50d541c35ad7d2bd81d237733acfa8bdea22336d77bab4b"
+ },
+ "paginas": [
+  79,
+  80
+ ],
+ "etiquetas_impresas": [
+  null,
+  "5"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.3.2.2.1 Estabilidad global y fallo combinado del terreno y del elemento estructural\n1\nEl conjunto de la estructura y la pantalla pueden fallar mediante un mecanismo de rotura aún más\nprofundo que la pantalla, o que no siendo tan profundo pudiera cortar a ésta.\n2\nDebe comprobarse que la seguridad al deslizamiento a lo largo de la superficie pésima posible, que\nincluya en la masa deslizante a la pantalla completa y a sus elementos de sujeción, no es inferior al\nestablecido.\n3\nLas acciones de los elementos de sujeción de la pantalla que queden incluidos por completo en las\nsuperficies de rotura no deben ser consideradas.\n4\nEn la Figura 6.9 se esquematizan algunas de las posibles formas de rotura, por deslizamiento pro-\nfundo.\nPantalla\nAnclaje al terreno\nSuperficies de\ndeslizamiento\nEstrato de pequeña\nresistencia a esfuerzo cortante\nGrieta\nPantalla\nSuperficie de deslizamiento\nApuntalamiento\nFigura 6.9. Formas de rotura por deslizamiento profundo\n\nDocumento Básico SE-C Cimientos\nSE-C-75\n5\nDebe comprobarse también los mecanismos de rotura a lo largo de superficies de deslizamiento\nque corten a los elementos de anclaje o que no incluyan en la masa deslizante a los sistemas de\napuntalamiento por completo. En la Figura 6.10 se indican esquemáticamente algunas de estas po-\nsibles formas de rotura.\n6\nEn tales casos se contará con las fuerzas de los anclajes o de los apuntalamientos, con su valor de\ntrabajo sin afectar de coeficiente de seguridad alguno, como fuerzas exteriores. Además, puede ser\nnecesario, como en el caso de anclajes cortados por la superficie deslizante, tener en cuenta las\ntensiones provocadas por los anclajes sobre la pantalla.\nPantalla\nAnclaje\nMuro o pantalla\nde anclaje\nSuperficie de\ndeslizamiento\nPuntal\nPantalla\nSuperficie de\ndeslizamiento\nFigura 6.10. Ejemplos de deslizamientos profundos que interceptan elementos de sujeción",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0079.png",
+  "../figura/p0080.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

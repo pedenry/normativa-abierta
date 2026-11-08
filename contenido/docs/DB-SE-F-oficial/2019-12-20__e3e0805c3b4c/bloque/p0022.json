@@ -1,0 +1,140 @@
+{
+ "documento": null,
+ "pagina": 22,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-18",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.2,
+    541.4,
+    108.4
+   ],
+   "tipo": "texto",
+   "texto": "fd\nes la resistencia de cálculo a compresión de la fábrica. Cuando el área A, en m2, de la sección\nhorizontal de un muro sea menor que 0,1m2, se reducirá por el factor 0,7+3·A\n3\nEn muros capuchinos se comprobará cada hoja por separado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    119.1,
+    210.3,
+    130.6
+   ],
+   "tipo": "texto",
+   "texto": "5.2.3 Factor de reducción ",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    136.5,
+    407.5,
+    148.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn cabeza y base de muro (figura 5.4), el factor de reducción, , vale:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    93.6,
+    153.7,
+    541.4,
+    177.8
+   ],
+   "tipo": "texto",
+   "texto": "en cabeza\n =\nt\ne\n2\n1\n(5.7)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    184.7,
+    541.4,
+    208.8
+   ],
+   "tipo": "texto",
+   "texto": "en base\n =\nt\na\n2\nt\ne\n2\n1\n\n\n(5.8)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.6,
+    214.2,
+    541.5,
+    440.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\na\n la profundidad con que se remete la tabica del forjado respecto a la cara exterior del muro (figu-\nras 5.2 y 5.3)\ne\nla excentricidad total de la sección que se comprueba. Salvo que se haya obtenido por capaci-\ndad, según el apartado 5.2.2, se considerará:\ne = MSd/NSd+ ea > 0,05·t (5.9)\n donde:\nMSd\n es el momento flector de cálculo de la sección que se comprueba, deducido del mo-\ndelo estructural adoptado, debido a carga vertical, más, en su caso, el debido a las\nacciones laterales locales, según 5.5\nNSd\nes el esfuerzo normal de cálculo en la sección que se comprueba, deducido del mo-\ndelo estructural, en general considerando las plantas superiores sin sobrecarga.\nea\nes un incremento de excentricidad por ejecución. Si la categoría de ejecución es la B,\nea =  hd /450. Si la categoría de ejecución es la A, ea =  hd /500.  Si la categoría es la\nC, se adoptará el valor ea = 20 mm, si se trata de un tramo entre forjados y ea = 50\nmm, si corresponde a un tramo libre en su extremo superior o su altura es la total del\nedificio. En las expresiones anteriores, hd es la altura de cálculo del muro, según el\napartado 5.2.4",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    185.8,
+    688.2,
+    463.1,
+    709.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.5. Normales y momentos flectores en un muro.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    733.9,
+    541.5,
+    769.1
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn paños entre tramos sucesivos de forjados, a media altura (figura 5.5), el factor de reducción  se\ndeterminará, de forma simplificada a partir de la ecuación (5.10). La formulación completa para la\ndeterminación de  a media altura se encuentra en el Anejo D.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

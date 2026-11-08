@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0067",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p36",
+  "titulo": "sección se define en apartados posteriores.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p36",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p36",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores.",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cea37df5387c8f4d3148b14d673743e525c221c945aa88a6fca280cb2d0e577c"
+ },
+ "paginas": [
+  36,
+  37,
+  38
+ ],
+ "etiquetas_impresas": [
+  "36",
+  "37",
+  "38"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "sección se define en apartados posteriores.\n2\nEl coeficiente χ de reducción por pandeo, para valores de la esbeltez reducida\nk\nλ≥ 0,2, se obtie-\nne de:\n1\n1\n2\n_\nk\n2\n≤\n\n\n\n\n\nλ\n−\nφ\n+\nφ\n=\nχ\n(6.19)\ndonde\n( )\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\nλ\n+\n−\nλ\n⋅\nα\n+\n⋅\n=\nφ\n2\n_\nk\nk\n2,0\n1\n5,0\n(6.20)\nα\nes el coeficiente de imperfección elástica, que adopta los valores de la tabla 6.3 en función\nde la curva de pandeo (véase tabla 6.2). Ésta representa la sensibilidad al fenómeno de-\npendiendo del tipo de sección, plano de pandeo y tipo de acero, de acuerdo a la table 6.2.\n3\nLos valores del coeficiente χ se pueden obtener directamente de la figura 6.3 o de la tabla 6.3. en\nfunción de la esbeltez reducida y del coeficiente de imperfección, respectivamente.\n\nDocumentoBásico SE-A Acero\nSE-A-35\nTabla 6.1 Longitud de pandeo de barras canónicas\nCondiciones de\nextremo\nbiarticulada\nbiempotrada\nempotrada\narticulada\nbiempotrada\ndesplazable\nen ménsula\nLongitud\nk\nL\n1,0  L\n0,5 L\n0,7 L\n1,0 L\n2,0 L\nTabla 6.2 Curva de pandeo en función de la sección transversal\nTipo de acero\nS235 a S355\nS450\nTipo de sección\nEje de pandeo(1)\ny\nz\ny\nz\nh/b > 1,2                t ≤ 40 mm\na\nb\nao\nao\n40 mm < t ≤ 100 mm\nb\nc\na\na\nh/b ≤ 1,2               t ≤ 100 mm\nb\nc\na\na\nPerfiles laminados enI\nt > 100 mm\nd\nd\nc\nc\nt ≤ 40 mm\nb\nc\nb\nc\nPerfiles armados enI\nt > 40 mm\nc\nd\nc\nd\nAgrupación de perfiles laminados soldados\nc\nc\nc\nc\nlaminados en caliente\na\na\na0\na0\nTubos de chapa simples o agrupados\nconformados en frío\nc\nc\nc\nc\nsoldadura gruesa:\na/t > 0,5      b/t < 30      h/tw < 30\nc\nc\nc\nc\nPerfiles armados en cajón (2)\nen otro caso\nb\nb\nb\nb\n\nDocumentoBásico SE-A Acero\nSE-A-36",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0038_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0036.png",
+  "../figura/p0037.png",
+  "../figura/p0038.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0068",
+  "a0069",
+  "a0070",
+  "a0071",
+  "a0072",
+  "a0073",
+  "a0079",
+  "a0081"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

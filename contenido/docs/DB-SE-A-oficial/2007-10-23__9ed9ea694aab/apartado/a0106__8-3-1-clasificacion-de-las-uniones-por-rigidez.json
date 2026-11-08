@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0106",
+  "ruta_oficial": "8.3.1",
+  "ruta_semantica": "8.3.1 Clasificación de las uniones por rigidez.",
+  "titulo": "8.3.1 Clasificación de las uniones por rigidez.",
+  "nivel": 1,
+  "parent_id": "a0105",
+  "seccion_estimada": "8.3.1 Clasificación de las uniones por rigidez.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 64,
+   "bbox": [
+    74.1,
+    83.5,
+    292.6,
+    94.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "61543516f99ee972ce5024e5bbcac51b1c2976892478a7c639b8c64aa6419f9b",
+   "literal": "8.3.1 Clasificación de las uniones por rigidez."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0105",
+  "parent_id_original": "a0105",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.1 Clasificación de las uniones por rigidez.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0105",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.3 Rigidez / 8.3.1 Clasificación de las uniones por rigidez.",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e6732cf9d1eeca1495aabdfc6cabcad64792215de63dc3ddfb6fbf2648c92851"
+ },
+ "paginas": [
+  64
+ ],
+ "etiquetas_impresas": [
+  "64"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.3.1 Clasificación de las uniones por rigidez.\n1\nNominalmente articuladas.\nSon aquellas en las que no se desarrollan momentos significativos que puedan afectar a los miem-\nbros de la estructura. Serán capaces de transmitir las fuerzas y de soportar las rotaciones obteni-\ndas en el cálculo.\n2\nRígidas.\nSon aquellas cuya deformación (movimientos relativos entre los extremos de las piezas que unen)\nno tiene una influencia significativa sobre la distribución de esfuerzos en la estructura ni sobre su\ndeformación global. Deben ser capaces de transmitir las fuerzas y momentos obtenidos en el cál-\nculo.\n3\nSemirrígidas.\nSon aquellas que no corresponden a ninguna de las categorías anteriores. Establecerán la interac-\nción prevista (basada, por ejemplo en las características momento rotación de cálculo) entre los\nmiembros de la unión y serán capaces de transmitir las fuerzas y momentos obtenidas en el cálcu-\nlo.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0064.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

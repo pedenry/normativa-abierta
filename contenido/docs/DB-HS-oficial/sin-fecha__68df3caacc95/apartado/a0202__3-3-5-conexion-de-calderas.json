@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0202",
+  "ruta_oficial": "3.3.5",
+  "ruta_semantica": "3.3.5 Conexión de calderas",
+  "titulo": "3.3.5 Conexión de calderas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3.5 Conexión de calderas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 89,
+   "bbox": [
+    70.9,
+    577.9,
+    205.4,
+    589.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "54cbaab2f8c79d1725f2d8ec2b7f7ec2a7a217fdfc8c350a6e8edc9120d34f74",
+   "literal": "3.3.5 Conexión de calderas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3.5 Conexión de calderas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Diseño / 3.3 Protección contra retornos 3.3.1 Condiciones generales de la instalación de suministro / 3.3.5 Conexión de calderas",
+   "seccion_estimada": "3 Diseño",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fe4dd44a763b4d2c0c22738905568664daec3e6c7b21ec05f45b380fef623a7d"
+ },
+ "paginas": [
+  89
+ ],
+ "etiquetas_impresas": [
+  "89"
+ ],
+ "tipos": [],
+ "texto": "3.3.5 Conexión de calderas\n1\nLas calderas de vapor o de agua caliente con sobrepresión no se empalmarán directamente a la red\npública de distribución. Cualquier dispositivo o aparato de alimentación que se utilice partirá de un\ndepósito, para el que se cumplirán las anteriores disposiciones.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0197",
+   "ruta_oficial": "3.2.2",
+   "titulo": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)",
+   "archivo_json": "a0197__3-2-2-instalaciones-de-agua-caliente-sanitaria-acs.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

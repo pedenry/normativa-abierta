@@ -1,0 +1,99 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0164",
+  "ruta_oficial": "ANEJO-C",
+  "ruta_semantica": "Anejo C Normas relacionadas con la aplicación del DB SUA",
+  "titulo": "Anejo C Normas relacionadas con la aplicación del DB SUA",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo C Normas relacionadas con la aplicación del DB SUA",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 47,
+   "bbox": [
+    190.2,
+    47.7,
+    421.5,
+    56.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "8696af32ca1a4abc83bfe6b8a7d14278a3b904f56754d8dbcd06da3fdc82491b",
+   "literal": "Anejo C Normas relacionadas con la aplicación del DB SUA"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0124",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB SUA",
+   "DBSUA",
+   "UNE 41501",
+   "UNE 41901",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB SUA\n47",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "Anejo C Normas relacionadas con la aplicación del DB SUA",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Normas relacionadas con la aplicación del DB SUA",
+   "seccion_estimada": "Anejo C Normas relacionadas con la aplicación del DB SUA",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "55e8ca9226da4ae7be7fee044ee843ab20eb52854237b718e7bd57d965beb249"
+ },
+ "paginas": [
+  47
+ ],
+ "etiquetas_impresas": [
+  "47"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo C. Normas relacionadas con la aplicación del DB SUA\n47\nAnejo C Normas relacionadas con la aplicación del DB SUA\nEste anejo recoge la referencia completa de las normas citadas en el articulado del DBSUA.\n1\nResbaladicidad\nUNE 41901:2017 EX\nSuperficies para tránsito peatonal. Determinación de la resistencia\nal deslizamiento por el método del péndulo de fricción. Ensayo en\nhúmedo.\n2\nPuertas\nUNE-EN 12046-2:2000\nFuerzas de maniobra. Método de ensayo. Parte 2: Puertas\n3\nVidrio para la edificación\nUNE-EN 12600:2003\nVidrio para la edificación. Ensayo pendular. Método de ensayo al\nimpacto y clasificación para vidrio plano.\n4\nAscensores\nUNE-EN 81-70:2004+A1:2005\nReglas de seguridad para la construcción e instalación de ascenso-\nres. Aplicaciones particulares para los ascensores de pasajeros y\nde pasajeros y cargas.\nParte 70: Accesibilidad a los ascensores de personas, incluyendo\npersonas con discapacidad.\n5\nSeñalización\nUNE 41501:2002\nSímbolo de accesibilidad para la movilidad. Reglas y grados de\nuso.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SUA",
+  "DB SUA\n47",
+  "DBSUA",
+  "UNE 41501",
+  "UNE 41901",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

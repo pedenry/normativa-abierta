@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0062",
+  "ruta_oficial": "6.2.8",
+  "ruta_semantica": "6.2.8 Interacción de esfuerzos en secciones",
+  "titulo": "6.2.8 Interacción de esfuerzos en secciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.8 Interacción de esfuerzos en secciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    78.0,
+    274.0,
+    288.7,
+    285.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "bdc6b6abddef0ea3a323061194ab484f3d7230ffc41cee169fba8f1370d15906",
+   "literal": "6.2.8 Interacción de esfuerzos en secciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0068",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 6.2.4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.8 Interacción de esfuerzos en secciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.2 Resistencia de las secciones 6.2.1 Bases / 6.2.8 Interacción de esfuerzos en secciones",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "eb0fa21f9d3efa893261d0c4a42092d06abc2a8b2df94b7381f8111e8183d17a"
+ },
+ "paginas": [
+  34,
+  35
+ ],
+ "etiquetas_impresas": [
+  "34",
+  "35"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.2.8 Interacción de esfuerzos en secciones\n1\nFlexión compuesta sin cortante:\nc)\nen general se utilizarán las fórmulas de interacción, de carácter prudente, indicadas a conti-\nnuación:\n4\nclase\nde\nsecciones\nPara\n1\nM\ne\nN\nM\nM\ne\nN\nM\nN\nN\n3\nclase\nde\nsecciones\nPara\n1\nM\nM\nM\nM\nN\nN\n2\ny\n1\nclase\nde\nsecciones\nPara\n1\nM\nM\nM\nM\nN\nN\nRdz\n,\n0\nNy\nSEd\nzEd\ndy\nR\n,\n0\nNy\nEd\nEd\n,y\nRd\n,\nu\nEd\nRdz\n,\nel\nzEd\nRdy\n,\nel\nEd\n,y\nRd\n,\npl\nEd\nRdz\n,\npl\nzEd\nRdy\n,\npl\nEd\n,y\nRd\n,\npl\nEd\n≤\n⋅\n+\n+\n⋅\n+\n+\n≤\n+\n+\n≤\n+\n+\n(6.11)\nsiendo\n0\nM\ny\nyd\nf\nf\nγ\n=\nLa misma formulación puede ser aplicada en el caso de flexión esviada\nd)\nen el caso de perfiles laminados en I o H el efecto del axil puede despreciarse si no llega a la\nmitad de la resistencia a tracción del alma.\n2\nFlexión y cortante:\ne)\nla sección se comprobará a cortante según el apartado 6.2.4. Adicionalmente si el cortante\nde cálculo es mayor que la mitad de la resistencia de la sección a cortante se comprobará el\nmomento flector de cálculo frente al resistente obtenido según:\n(\n)\ncasos\nde\nResto\nf\n1\nW\nM\nH\no I\nen\nsecciones\nPara\nf\nt\n4\nA\nW\nM\nyd\npl\nRd\n,\nV\nyd\nw\n2\nv\npl\nRd\n,\nV\n⋅\nρ\n−\n⋅\n=\n⋅\n\n\n\n\n\n\n⋅\n⋅\nρ\n−\n=\n(6.12)\nsiendo\n2\nRd\n,\npl\nEd\n1\nV\nV\n2\n\n\n\n\n\n\n−\n⋅\n=\nρ\n(6.13)\nEn ningún caso podrá ser MV.Rd > M0.Rd\n\nDocumentoBásico SE-A Acero\nSE-A-33\nf)\nen el caso de perfiles laminados en I o H el efecto de interacción puede despreciarse cuando\nse consideran únicamente las alas en el cálculo de la resistencia a flexión y el alma en el cál-\nculo de la resistencia a cortante.\n3\nFlexión, axil y cortante:\na)\nsiempre que el cortante de cálculo no supere la mitad de la resistencia de cálculo de la sec-\nción (calculada en ausencia de otros esfuerzos), se emplearán las fórmulas de interacción\ndadas (véanse ecuaciones 6.11);\nb)\ncuando el cortante de cálculo supere la mitad de la resistencia de cálculo de la sección (cal-\nculada en ausencia de otros esfuerzos), la resistencia de ésta para el conjunto de esfuerzos\nse determinará utilizando para el área de cortante un valor reducido del límite elástico (o al-\nternativamente del espesor) conforme al factor (1-ρ), viniendo ρ dado por la ecuación 6.13.\n4\nCortante y torsión:\nEn las comprobaciones en que intervenga la resistencia a cortante se empleará la resistencia\nplástica a cortante reducida por la existencia de tensiones tangenciales de torsión uniforme:\nRd\n,\nT\n,\npl\nRd\n,c\nV\nV\n≤\n(6.14)\nsiendo, en secciones huecas cerradas",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.2.4"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png",
+  "../figura/p0035.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

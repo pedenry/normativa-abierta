@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0267",
+  "ruta_oficial": "4.2.4",
+  "ruta_semantica": "Fragmento de PDF p120",
+  "titulo": "4.2.4 Colectores de aguas pluviales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p120",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p120",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 4.2 Dimensionado de la red de evacuación de aguas pluviales 4.2.1 Red de pequeña evacuación de aguas pluviales / 4.2.4 Colectores de aguas pluviales",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ac7faddd38fb0659599455ef161ca41e71755b4b9dceb17b29bb07cd88e25195"
+ },
+ "paginas": [
+  120
+ ],
+ "etiquetas_impresas": [
+  "120"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.2.4 Colectores de aguas pluviales\n1\nLos colectores de aguas pluviales se calculan a sección llena en régimen permanente.\n2\nEl diámetro de los colectores de aguas pluviales se obtiene en la tabla 4.9, en función de su pen-\ndiente y de la superficie a la que sirve.\nTabla 4.9 Diámetro de los colectores de aguas pluviales para un régimen pluviométrico de 100 mm/h\nSuperficie proyectada (m\n2)\nDiámetro nominal del colector\n(mm)\nPendiente del colector\n1 %\n2 %\n4 %\n125\n178\n253\n90\n229\n323\n458\n110\n310\n440\n620\n125\n614\n862\n1.228\n160\n1.070\n1.510\n2.140\n200\n1.920\n2.710\n3.850\n250\n2.016\n4.589\n6.500\n315",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0120_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0120.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

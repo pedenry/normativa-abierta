@@ -1,0 +1,285 @@
+{
+ "documento": null,
+ "pagina": 10,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.6,
+    797.9,
+    320.1,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-5",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    538.5,
+    108.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed,stb\nel valor de cálculo del efecto de las acciones estabilizadoras.\n2\nLos valores de cálculo de los efectos de las acciones estabilizadoras y desestabilizadoras se de-\nterminarán según el apartado 2.4.2.5.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    119.9,
+    249.7,
+    129.8
+   ],
+   "tipo": "texto",
+   "texto": "2.4.2.3 Verificación de la Resistencia",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    135.5,
+    541.3,
+    246.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara el estudio de la resistencia del terreno en cada situación de dimensionado se distinguirá entre\nresistencia local y resistencia global.\n2\nLos cálculos relativos a la resistencia local del terreno tienen como objetivo último asegurar la esta-\nbilidad de la cimentación frente a los fenómenos de hundimiento y deslizamiento.\n3\nLos cálculos relativos a la resistencia global del terreno, también llamada estabilidad global, tienen\ncomo objetivo último asegurar la estabilidad de la cimentación frente a posibles deslizamientos a lo\nlargo de superficies pésimas posibles que la engloben.\n4\nLa resistencia local o global del terreno quedará verificada si se cumple, para las situaciones de\ndimensionado pertinentes, la condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    85.3,
+    253.3,
+    542.5,
+    264.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed  Rd\n(2.2)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    272.2,
+    538.5,
+    351.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo\n  Ed\nel valor de cálculo del efecto de las acciones;\n  Rd\nel valor de cálculo de la resistencia del terreno.\n5\nEl valor de cálculo del efecto de las acciones sobre la cimentación se determinará, para cada situa-\nción de dimensionado, según el apartado 2.4.2.5.\n6\nEl valor de cálculo de la resistencia del terreno se determinará según el apartado 2.4.2.6.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    363.1,
+    369.7,
+    373.1
+   ],
+   "tipo": "texto",
+   "texto": "2.4.2.4 Verificación de la capacidad estructural la cimentación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    378.7,
+    541.3,
+    475.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia de la cimentación como elemento estructural quedará verificada si el valor de cálculo\ndel efecto de las acciones del edificio y del terreno sobre la cimentación no supera el valor de cálcu-\nlo de la resistencia de la cimentación como elemento estructural. (véase 2.4.1)\n2\nLos valores de cálculo del efecto de las acciones del edificio y del terreno sobre la cimentación se\ndeterminarán según el apartado 2.4.2.5.\n3\nEl valor de cálculo de la resistencia de la cimentación como elemento estructural se determinará\nsegún el apartado 4.2.4 del DB-SE y según las reglas de los Documentos Básicos relativos a la se-\nguridad estructural de los diferentes materiales o la instrucción EHE.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    486.6,
+    323.0,
+    496.6
+   ],
+   "tipo": "texto",
+   "texto": "2.4.2.5 Valores de cálculo del efecto de las acciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    502.2,
+    541.3,
+    584.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLos valores de cálculo de los efectos de las acciones sobre la cimentación se determinarán, para\ncada situación de dimensionado, a partir de la combinación de acciones que se deban considerar\nsimultáneamente. Esto incluye tanto las acciones del edificio sobre la cimentación, según el aparta-\ndo 2.3.2.2, como las acciones geotécnicas transmitidas o generadas por el terreno sobre la misma\nindicadas en el apartado 2.3.2.3.\n2\nEl valor de cálculo del efecto de las acciones para cada situación de dimensionado se podrá deter-\nminar según la relación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    85.3,
+    599.2,
+    213.2,
+    622.0
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    130.9,
+    592.8,
+    213.2,
+    622.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    130.9,
+    592.8,
+    134.8,
+    604.2
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    105.2,
+    599.9,
+    207.2,
+    621.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\nd\nM",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    89.3,
+    594.6,
+    542.5,
+    613.3
+   ],
+   "tipo": "texto",
+   "texto": "K\nrepr\nF\nE\nd\na\n;\nX\n;\nF\nE\nE\n(2.3)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.9,
+    630.7,
+    541.3,
+    695.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nFrepr\nel valor representativo de las acciones que intervienen en la situación de dimensionado\nconsiderada;\nXK\nel valor característico de los materiales;\nad\nel valor de cálculo de los datos geométricos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    88.9,
+    699.5,
+    373.1,
+    711.0
+   ],
+   "tipo": "texto",
+   "texto": "E\nel coeficiente parcial para el efecto de las acciones;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    88.9,
+    714.8,
+    318.6,
+    726.2
+   ],
+   "tipo": "texto",
+   "texto": "F\nel coeficiente parcial para las acciones;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    88.9,
+    730.0,
+    412.7,
+    741.5
+   ],
+   "tipo": "texto",
+   "texto": "M\nel coeficiente parcial para las propiedades de los materiales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    745.3,
+    466.6,
+    756.7
+   ],
+   "tipo": "texto",
+   "texto": "3\nLos coeficientes E, F y M se definen para cada tipo de cimentación en la tabla 2.1.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0169",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.3  Método simplificado de la isoterma 500 / C.3.3 Reducción de las características mecánicas",
+  "titulo": "C.3.3 Reducción de las características mecánicas",
+  "nivel": 3,
+  "parent_id": "a0167",
+  "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 62,
+   "bbox": [
+    70.9,
+    135.2,
+    360.4,
+    148.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "de5191d959066c4c2ff6e673aee44f2480c056f984e06bd0822a112155d02743",
+   "literal": "C.3.3 Reducción de las características mecánicas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0115",
+  "parent_id_original": "a0167",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.3.3 Reducción de las características mecánicas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0167",
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.3  Método simplificado de la isoterma 500 / C.3.3 Reducción de las características mecánicas",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "72356d77272b245083750fadd6ab900ba3877569bce3ab7d12b2d3ef745290a3"
+ },
+ "paginas": [
+  62
+ ],
+ "etiquetas_impresas": [
+  "62"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "C.3.3 Reducción de las características mecánicas\n1\nLa resistencia de los materiales se reduce, en función de la temperatura que se alcance en cada\npunto, a la fracción de su valor característico indicada en la tabla C.7:\nTabla C.7 Reducción relativa de la resistencia con la temperatura\nTemperatura (ºC)\n100\n200\n300\n400\n500\n600\n700\n800\n900 1000 1200\nAcero de\narmar\nLaminado en caliente\n1,00 1,00 1,00 1,00 0,78 0,47 0,23 0,11 0,06 0,04\n0,00\nEstirado en frío\n1,00 1,00 1,00 0,94 0,67 0,40 0,12 0,11 0,08 0,05\n0,00\nAcero de\npretensar\nEstirado en frío\n0,99 0,87 0,72 0,46 0,22 0,10 0,08 0,05 0,03 0,00\n0,00\nEnfriado y templado\n0,98 0,92 0,86 0,69 0,26 0,21 0,15 0,09 0,04 0,00\n0,00",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0062.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0026",
+  "ruta_oficial": "2.4",
+  "ruta_semantica": "2.4 Aptitud al servicio",
+  "titulo": "2.4 Aptitud al servicio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.4 Aptitud al servicio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 8,
+   "bbox": [
+    70.9,
+    72.7,
+    198.3,
+    84.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "23c2abcf1ba7ebec9d9be776985fc301e2293da65a75a48d78036eda50d0be59",
+   "literal": "2.4 Aptitud al servicio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0027",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4 Aptitud al servicio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Bases de cálculo 2.1 Generalidades / 2.4 Aptitud al servicio",
+   "seccion_estimada": "2 Bases de cálculo 2.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bfeed4d57c8bc04a889a1e8760002b45b44e677450b7028133163982974809bf"
+ },
+ "paginas": [
+  8,
+  9
+ ],
+ "etiquetas_impresas": [
+  "3",
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.4 Aptitud al servicio\n1  Para evitar la fisuración y asegurar la durabilidad del acero pretensado, se comprobará que, para las\ncombinaciones de acciones del tipo casi permanente no se producen tracciones ni rotura a compresión\nde la fábrica. Se considerará que ya se ha transferido el pretensado, una vez producidas las pérdidas\nde tensión.\n2  El coeficiente parcial de seguridad para acciones de pretensado, después de las perdidas, será igual\na 0,90 si la armadura es postesa y el efecto de la acción es favorable, igual a 0,95 si la armadura es\npretesa y el efecto de la acción es favorable, será igual a 1,10 si la armadura es postesa y el efecto de\nla acción es desfavorable e igual a 1,05 si la armadura es pretesa y el efecto de la acción es desfavo-\nrable.\n3\nTras las pérdidas, se considerará que el esfuerzo de pretensado es constante.\n\nDocumento Básico SE-F Fábrica\nSE-F-5",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0009.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

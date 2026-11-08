@@ -1,0 +1,274 @@
+{
+ "documento": null,
+ "pagina": 53,
+ "etiqueta_impresa": "53",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-51",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    214.6,
+    76.3,
+    427.1,
+    86.4
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 6.10 Coeficientes del momento equivalente",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    96.3,
+    93.1,
+    538.5,
+    103.2
+   ],
+   "tipo": "texto",
+   "texto": "Factor de momento flector\nEje de flexión\nPuntos arriostrados en dirección",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    146.0,
+    107.1,
+    476.4,
+    117.5
+   ],
+   "tipo": "texto",
+   "texto": "cm,y\ny–y\nz - z",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    146.0,
+    120.9,
+    474.8,
+    131.4
+   ],
+   "tipo": "texto",
+   "texto": "cm,z\nz - z\ny–y",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    143.9,
+    134.8,
+    474.8,
+    145.2
+   ],
+   "tipo": "texto",
+   "texto": "cm,LT\ny – y\ny–y",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    144.1,
+    148.6,
+    243.1,
+    158.6
+   ],
+   "tipo": "texto",
+   "texto": "Diagrama de Flectores",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    337.9,
+    148.6,
+    516.9,
+    158.6
+   ],
+   "tipo": "texto",
+   "texto": "Factor de momento uniforme equivalente",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    389.2,
+    162.0,
+    465.6,
+    199.1
+   ],
+   "tipo": "texto",
+   "texto": "cm,y = cm,i ( i =y )\ncm,z = cm,i ( i =z )\ncm,LT = cm,i ( i =LT )",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    147.6,
+    202.5,
+    239.6,
+    212.6
+   ],
+   "tipo": "texto",
+   "texto": "Momentos de extremo",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    380.7,
+    234.4,
+    475.6,
+    247.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "4\n,0\n4\n,0\n6,0\nc\ni,\nm\n≥\nψ\n⋅\n+\n=",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    408.5,
+    308.1,
+    446.3,
+    318.6
+   ],
+   "tipo": "texto",
+   "texto": "cm,i = 0,9",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    97.8,
+    284.3,
+    289.3,
+    294.4
+   ],
+   "tipo": "texto",
+   "texto": "Momento debido a cargas laterales coplanarias",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    406.0,
+    352.0,
+    448.7,
+    362.5
+   ],
+   "tipo": "texto",
+   "texto": "cm,i = 0,95",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    353.0,
+    405.6,
+    503.4,
+    418.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "4\n,0\n8,0\n1,0\nc\ni.\nm\n≥\nα\n⋅\n−\n=\n  si\n0\n1\n≤\nα\n≤\n−",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    355.0,
+    423.6,
+    501.3,
+    436.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "4\n,0\n8,0\n2,0\nc\ni.\nm\n≥\nα\n⋅\n+\n=\n  si\n1\n0\n≤\nα\n≤",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    78.1,
+    372.2,
+    306.5,
+    382.2
+   ],
+   "tipo": "texto",
+   "texto": "Momentos debidos a cargas laterales y momentos de ex-",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    178.6,
+    382.6,
+    208.6,
+    392.6
+   ],
+   "tipo": "texto",
+   "texto": "tremos",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    343.9,
+    495.3,
+    512.4,
+    510.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "h\ni.\nm\n05\n,0\n95\n,0\nc\nα\n⋅\n+\n=\n  con\n1\n1\nh ≤\nα\n≤\n−",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

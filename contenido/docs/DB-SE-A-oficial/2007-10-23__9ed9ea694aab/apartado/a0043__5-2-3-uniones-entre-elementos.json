@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0043",
+  "ruta_oficial": "5.2.3",
+  "ruta_semantica": "5.2.3 Uniones entre elementos",
+  "titulo": "5.2.3 Uniones entre elementos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.3 Uniones entre elementos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 18,
+   "bbox": [
+    74.1,
+    73.4,
+    223.7,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "24b811bb933c864f0a5636cdb6d0e8d5ff0b2032783d883747c9f05e90497721",
+   "literal": "5.2.3 Uniones entre elementos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0049",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "une los"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.3 Uniones entre elementos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.2 Modelos del comportamiento estructural 5.2.1 Hipótesis / 5.2.3 Uniones entre elementos",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "29097553958e5b874d00e0ccfc96ad90b84d551b0174cedeea7e197959743b52"
+ },
+ "paginas": [
+  18,
+  19
+ ],
+ "etiquetas_impresas": [
+  "18",
+  "19"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.2.3 Uniones entre elementos\n1\nPara representar el enlace entre dos o más piezas se requieren modelos que representen adecua-\ndamente la geometría (las posiciones de los extremos de las piezas unidas), y la resistencia y rigi-\ndez de la unión (de los elementos y regiones locales de las piezas que materializan el enlace).\n2\nEn función de la resistencia las uniones pueden ser articulaciones, de resistencia total o de resis-\ntencia parcial.\n3\nDependiendo de la rigidez las uniones pueden ser articuladas, rígidas o semirrígidas, según su ri-\ngidez a rotación sea nula, total o intermedia.\n4\nLos límites entre los distintos tipos se establecen en el capítulo de uniones; el proyectista adoptará\nlas disposiciones precisas para clasificar la unión como articulada –permitiendo rotaciones apre-\nciables sin la aparición de momentos relevantes- o rígida –asegurando mediante rigidización sufi-\nciente la rotación conjunta de todas las secciones extremas de los elementos del nudo-, o para\nconsiderar la rigidez parcial de la unión en los modelos empleados en el análisis.\n5\nLos métodos de análisis global utilizados y las hipótesis adoptadas respecto al comportamiento de\nlas uniones deben ser coherentes. En particular:\na)\ncuando se realice un análisis global elástico y existan nudos de comportamiento semirrígido,\nse considerará el comportamiento de la unión en función de su rigidez. Debe tomarse, en ge-\nneral, la rigidez, Sj, correspondiente al momento de cálculo Mj.Sd en cada situación. Como sim-\nplificación:\n- si Mj,Sd≤ 2/3 Mj,Rd , donde Mj,Rd es la resistencia de cálculo de la unión, se podrá usar la rigi-\ndez inicial del nudo Sj, ini, (figura 5.1.c)\n- si Mj,Sd > 2/3 Mj,Rd , se podrá usar el valor Sj, ini /η\ndonde:\nη = 2 para uniones viga-pilar\nη = 3 para otro tipo de unión\nb)\ncuando se realice un análisis global elastoplástico se debe considerar el comportamiento de la\nunión según su resistencia y rigidez. En este caso se podrá adoptar un diagrama bilineal sim-\nplificado como el indicado en la figura 5.1.d) para modelar el comportamiento de la unión.\nc)\ncuando se realice un análisis global rígido-plástico, para modelar el comportamiento de las\nuniones bastará considerar su resistencia.\n6\nLas uniones semirrígidas entre cada dos barras (figura 5.1.a) se podrán modelar como un resorte\nque une los ejes de las barras que concurren en el nudo (figura 5.1.b), que define las principales\npropiedades siguientes:\na)\nmomento resistente, Mj,Rd, que es el máximo valor en la curva momento rotación M-Φ.\nb)\nrigidez al giro, Sj.\nc)\nla capacidad de rotación ΦCd es el máximo valor de la rotación en la curva M-Φ (figura 5.1.c).\nd)\nla curva real M-Φ no es lineal, pudiéndose adoptar un diagrama bilineal (figura 5.1.d) o trili-\nneal, siempre que la curva simplificada quede por debajo de la más precisa.\nPodrán igualmente modelarse refiriéndolas a la rigidez de alguna de las barras que forman la\nunión, mediante técnicas de condensación estática.\n\nDocumentoBásico SE-A Acero\nSE-A-17\nFigura 5.1 Modelado de uniones",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "une los"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0018.png",
+  "../figura/p0019.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

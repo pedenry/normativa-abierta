@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0065",
+  "ruta_oficial": null,
+  "ruta_semantica": "Cuantificación de la exigencia",
+  "titulo": "Cuantificación de la exigencia",
+  "nivel": 1,
+  "parent_id": "a0061",
+  "seccion_estimada": "Cuantificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    56.7,
+    464.9,
+    267.4,
+    478.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "717f4e39d6fdb935dab808d0a99e430fc2d8523011a1b198d6e96f79b7b4eedc",
+   "literal": "Cuantificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0061",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Cuantificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0061",
+   "ruta_semantica": "5 Construcción, mantenimiento y conservación / Sección HE 5 Generación mínima de energía eléctrica procedente de fuentes / Cuantificación de la exigencia",
+   "seccion_estimada": "5 Construcción, mantenimiento y conservación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "960559c1b2f6293b4b0820989a65831bbbaf0cd6aedf42a10c084a09343c49c9"
+ },
+ "paginas": [
+  31,
+  32
+ ],
+ "etiquetas_impresas": [
+  "31",
+  "32"
+ ],
+ "tipos": [],
+ "texto": "Cuantificación de la exigencia\n1\nLa potencia a instalar mínima Pmin será la menor de las resultantes de estas dos expresiones:\nP1 = Fpr;el · S\nP2=0,1 ·(0,5·Sc - Soc)\ndonde,\nPmin potencia a instalar [kW];\nFpr;el\nfactor de producción eléctrica, que toma valorde 0,005 para uso residencial privado y 0,010\npara el resto de usos [kW/m2];\nS\nsuperficie construida del edificio [m2];\nSc\nsuperficie de cubierta no transitable o accesible únicamente para conservación [m2]\nSoc\nsuperficie de cubierta no transitable o accesible únicamente para conservación ocupada por\ncaptadores solares térmicos [m2]\n2\nEn aquellos edificios en los que, por razones urbanísticas o arquitectónicas o porque se trate de edificios\nprotegidos oficialmente, siendo la autoridad que dicta la protección oficial quien determina los elementos\ninalterables, no se pueda alcanzar la potencia a instalar mínima, se deberá justificar esta imposibilidad,\nanalizando las distintas alternativas, y se adoptará la solución que alcance la máxima potencia instalada\nposible.\n4\nJustificación de la exigencia\nPara justificar que un edificio cumple las exigencias de este DB, los documentos de proyecto incluirán la\nsiguiente información sobre el edificio o parte del edificio evaluada:\n\nDocumento Básico HE Ahorro de energía\nHE 5. Generación mínima de energía eléctrica procedente de fuentes renovables\n32\na)\nla potencia de generación eléctrica alcanzada;\nb)\npotencia a instalar mínima exigible;\nc) en su caso, razones que impiden alcanzar la potencia a instalar mínima exigible, análisis de las\nalternativas y solución adoptada para alcanzar la máxima potencia instalada posible.\n5",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

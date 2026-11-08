@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0256",
+  "ruta_oficial": "3.2",
+  "ruta_semantica": "3.2 Configuraciones de los sistemas de evacuación",
+  "titulo": "3.2 Configuraciones de los sistemas de evacuación",
+  "nivel": 1,
+  "parent_id": "a0250",
+  "seccion_estimada": "3.2 Configuraciones de los sistemas de evacuación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 112,
+   "bbox": [
+    70.9,
+    181.3,
+    426.1,
+    196.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f75dfed8f5239bd5ebd6c5b9b44d1dc32f862d03da4b6dc4f4254433921c2e22",
+   "literal": "3.2 Configuraciones de los sistemas de evacuación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0250",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2 Configuraciones de los sistemas de evacuación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0250",
+   "ruta_semantica": "Sección HS5 / 3.2 Configuraciones de los sistemas de evacuación",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0f3c6298bcbccac6f368b4b37a05897c6b9dfcabcfcd0f7aaf72038ae39bee19"
+ },
+ "paginas": [
+  112
+ ],
+ "etiquetas_impresas": [
+  "112"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.2 Configuraciones de los sistemas de evacuación\n1\nCuando exista una única red de alcantarillado público debe disponerse un sistema mixto o un sis-\ntema separativo con una conexión final de las aguas pluviales y las residuales, antes de su salida a\nla red exterior. La conexión entre la red de pluviales y la de residuales debe hacerse con interposi-\nción de un cierre hidráulico que impida la transmisión de gases de una a otra y su salida por los\npuntos de captación tales como calderetas, rejillas o sumideros. Dicho cierre puede estar incorpo-\nrado a los puntos de captación de las aguas o ser un sifón final en la propia conexión.\n2\nCuando existan dos redes de alcantarillado público, una de aguas pluviales y otra de aguas residua-\nles debe disponerse un sistema separativo y cada red de canalizaciones debe conectarse de forma\nindependiente con la exterior correspondiente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0112.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,80 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0139",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p51",
+  "titulo": "Sección SI 1, no pueden utilizarse en los recorridos de evacuación de zonas habitables.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p51",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p51",
+  "referencias_filtradas": [
+   "DB SUA"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología / Sección SI 1, no pueden utilizarse en los recorridos de evacuación de zonas habitables.",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "048294bd3a824eae54d1541df1635baf7e3c998a1b32bb13c34fc408d87d2590"
+ },
+ "paginas": [
+  51
+ ],
+ "etiquetas_impresas": [
+  "51"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Sección SI 1, no pueden utilizarse en los recorridos de evacuación de zonas habitables.\n-\nLa distancia mínima entre los contornos de las superficies barridas por las puertas del vestíbulo debe\nser al menos 0,50 m.\n-\nLos vestíbulos de independencia situados en un itinerario accesible (ver definición en el Anejo A del\nDB SUA) deben poder contener un círculo de diámetro Ø 1,20 m libre de obstáculos y del barrido de\nlas puertas. Cuando el vestíbulocontenga una zona de refugio, dicho círculo tendrá un diámetro Ø\n1,50 m y podrá invadir una de las plazas reservadas para usuarios de silla de ruedas. Los mecanis-",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SUA"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0112",
+   "ruta_oficial": null,
+   "titulo": "Recorrido de evacuación",
+   "archivo_json": "a0112__recorrido-de-evacuacion.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

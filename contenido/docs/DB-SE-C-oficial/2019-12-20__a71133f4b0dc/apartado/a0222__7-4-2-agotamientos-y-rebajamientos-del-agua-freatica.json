@@ -1,0 +1,119 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0222",
+  "ruta_oficial": "7.4.2",
+  "ruta_semantica": "7.4.2 Agotamientos y rebajamientos del agua freática",
+  "titulo": "7.4.2 Agotamientos y rebajamientos del agua freática",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.4.2 Agotamientos y rebajamientos del agua freática",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 102,
+   "bbox": [
+    70.9,
+    430.9,
+    382.5,
+    442.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "37f5457663d568c3aeb54cccfb56a9d2db9f7a8c5e3ffd4b36ddf7dc8b9e5bd9",
+   "literal": "7.4.2 Agotamientos y rebajamientos del agua freática"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0255",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.4.2 Agotamientos y rebajamientos del agua freática",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / 7.4.2 Agotamientos y rebajamientos del agua freática",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "48e57825a3d2023e8ec11723d4c9b87f5f64f25f4840b4b9cc913eef3aa3fe71"
+ },
+ "paginas": [
+  102,
+  103
+ ],
+ "etiquetas_impresas": [
+  "4",
+  null
+ ],
+ "tipos": [],
+ "texto": "7.4.2 Agotamientos y rebajamientos del agua freática\n1\nCualquier esquema de agotamiento del agua del terreno o de reducción de sus presiones debe\nnecesariamente basarse en los resultados de un estudio previo geotécnico e hidrogeológico.\n2\nPara permeabilidad decreciente del terreno la remoción del agua se hará:\na)\npor gravedad;\nb)\npor aplicación de vacío;\nc)\npor electroósmosis.\n3\nEn condiciones en que la remoción del agua en el solar genere una subsidencia inaceptable en el\nentorno, el esquema de agotamiento podrá ir acompañado de un sistema de recarga de agua a\ncierta distancia de la excavación.\n4\nEl esquema de achique debe satisfacer, según proceda, las siguientes condiciones:\na)\nen excavaciones, el efecto del rebajamiento debe evitar inestabilidades, tanto en taludes como\nen el fondo de la excavación, como por ejemplo las debidas a presiones intersticiales excesi-\nvas en un estrato confinado por otro de inferior permeabilidad;\nb)\nel esquema de achique no debe promover asientos inaceptables en obras o servicios vecinos,\nni interferir indebidamente con esquemas vecinos de explotación del agua freática;\nc)\nel esquema de achique debe impedir las pérdidas de suelo en el trasdós o en la base de la ex-\ncavación. Deben emplearse al efecto filtros o geocompuestos adecuados que aseguren que el\nagua achicada no transporta un volumen significativo de finos;\nd)\nel agua achicada debe eliminarse sin que afecte negativamente al entorno;\ne)\nla explotación del esquema de achique debe asegurar los niveles freáticos y presiones intersti-\nciales previstos en el proyecto, sin fluctuaciones significativas;\nf)\ndeben existir suficientes equipos de repuesto para garantizar la continuidad del achique;\ng)\nel impacto ambiental en el entorno debe ser permisible;\n\nDocumento Básico SE-C Cimientos\nSE-C-98\nh)\nen el proyecto se debe prever un seguimiento para controlar el desarrollo de niveles freáticos,\npresiones intersticiales y movimientos del terreno y comprobar que no son lesivos al entorno;\ni)\nen caso de achiques de larga duración además debe comprobarse el correcto funcionamiento\nde los elementos de aspiración y los filtros para evitar perturbaciones por corrosión o depósitos\nindeseables.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

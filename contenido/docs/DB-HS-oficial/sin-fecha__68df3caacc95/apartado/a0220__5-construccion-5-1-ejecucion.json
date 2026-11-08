@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0220",
+  "ruta_oficial": "5",
+  "ruta_semantica": "Fragmento de PDF p95",
+  "titulo": "5 Construcción 5.1 Ejecución",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p95",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p95",
+  "referencias_filtradas": [
+   "Real Decreto\n140/2003"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Construcción 5.1 Ejecución",
+   "seccion_estimada": "5 Construcción 5.1 Ejecución",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fdc5ebb4e347d44946847d9726fc038dadff80cfa55253012528d3247dc03371"
+ },
+ "paginas": [
+  95
+ ],
+ "etiquetas_impresas": [
+  "95"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "5 Construcción 5.1 Ejecución\n5.1 Ejecución\n1\nLa instalación de suministro de agua se ejecutará con sujeción al proyecto, a la legislación aplica-\nble, a las normas de la buena construcción y a las instrucciones del director de obra y del director\nde la ejecución de la obra.\n2\nDurante la ejecución e instalación de los materiales, accesorios y productos de construcción en la\ninstalación interior, se utilizarán técnicas apropiadas para no empeorar el agua suministrada y en\nningún caso incumplir los valores paramétricos establecidos en el anexo I del Real Decreto\n140/2003.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto\n140/2003"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0221",
+  "a0230",
+  "a0231",
+  "a0235",
+  "a0236"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

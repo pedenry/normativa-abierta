@@ -1,0 +1,96 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0082",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo F. Demanda de referencia de ACS",
+  "titulo": "Anejo F. Demanda de referencia de ACS",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo F. Demanda de referencia de ACS",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 52,
+   "bbox": [
+    222.0,
+    51.4,
+    375.6,
+    60.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e90cac1f6489ad561738b9d8e0384eb0a20f23bacf7de5720c62b75d484528ca",
+   "literal": "Anejo F. Demanda de referencia de ACS"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0110",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo F. Demanda de referencia de ACS",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. Demanda de referencia de ACS",
+   "seccion_estimada": "Anejo F. Demanda de referencia de ACS",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "20f5bc00378df3b4b1a784e62758717494078485aafca626d4298e20454accfe"
+ },
+ "paginas": [
+  52,
+  53,
+  54
+ ],
+ "etiquetas_impresas": [
+  "52",
+  "53",
+  "54"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo F. Demanda de referencia de ACS\n52\nAnejo F Demanda de referencia de ACS\n1\nLa demanda de referencia de ACS para edificios de uso residencial privado se obtendrá considerando\nunas necesidades de 28 litros/día·persona (a 60ºC), una ocupación al menos igual a la mínima\nestablecida en la tabla a-Anejo F y, en el caso de viviendas multifamiliares, un factor de centralización\nde acuerdo a la tabla b-Anejo F, incrementadas de acuerdo con las pérdidas térmicas por distribución,\nacumulación y recirculación.\nTabla a-Anejo F. Valores mínimos de ocupación de cálculo en uso residencial privado\nNúmero de dormitorios\n1\n2\n3\n4\n5\n6\n≥6\nNúmero de Personas\n1,5\n3\n4\n5\n6\n6\n7\nTabla b-Anejo F. Valor del factor de centralización en viviendas multifamiliares\nNº viviendas\nN≤3\n4≤N≤10\n11≤N≤20\n21≤N≤50\n51≤N≤75 76≤N≤100\nN≥101\nFactor de centralización\n1\n0,95\n0,90\n0,85\n0,80\n0,75\n0,70\n2\nPara el cálculo de la demanda de referencia de ACS para edificios de uso distinto al residencial privado\nse consideran como aceptables los valores de la tabla c-Anejo F que recoge valores orientativos de la\ndemanda de ACS para usos distintos del residencial privado, a la temperatura de referencia de 60ºC, que\nserán incrementados de acuerdo con las pérdidas térmicas por distribución, acumulación y recirculación.\nLa demanda de referencia de ACS para casos no incluidos en la tabla c-Anejo F se obtendrá a partir de\nnecesidades de ACS contrastadas por la experiencia o recogidas por fuentes de reconocida solvencia.\nTabla c-Anejo F Demanda orientativa de ACS para usos distintos del residencial privado\nCriterio de demanda\nLitros/día·persona\nHospitales y clínicas\n55\nAmbulatorio y centro de salud\n41\nHotel *****\n69\nHotel ****\n55\nHotel ***\n41\nHotel/hostal **\n34\nCamping\n21\nHostal/pensión *\n28\nResidencia\n41\nCentro penitenciario\n28\nAlbergue\n24\nVestuarios/Duchas colectivas\n21\nEscuela sin ducha\n4\nEscuela con ducha\n21\nCuarteles\n28\nFábricas y talleres\n21\nOficinas\n2\nGimnasios\n21\nRestaurantes\n8\nCafeterías\n1\n\nDocumento Básico HE Ahorro de energía\nAnejo F. Demanda de referencia de ACS\n53\n3\nEl consumo de ACS a una temperatura (T), de preparación, distribución o uso, distinta de la de referencia\n(60ºC), se puede obtener a partir del consumo de ACS a la temperatura de referencia usando las\nsiguientes expresiones:\nD(T) = ∑\n12  Di(T)\ni=1\nDi(T) = Di(60ºC)\n60-Ti\nT-Ti\ndonde:\nD(T)\nDemanda de agua caliente sanitaria anual a la temperatura T elegida;\nDi(T)\nDemanda de agua caliente sanitaria para el mes i, a la temperatura T elegida;\nDi(60 ºC) Demanda de agua caliente sanitaria para el mes i, a la temperatura de 60 ºC;\nT\nTemperatura del acumulador final;\nTi\nTemperatura media del agua fría en el mes i (según Anejo G).\n\nDocumento Básico HE Ahorro de energía",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0052_t01.json",
+  "../tabla/p0052_t02.json",
+  "../tabla/p0052_t03.json",
+  "../tabla/p0054_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0052.png",
+  "../figura/p0053.png",
+  "../figura/p0054.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

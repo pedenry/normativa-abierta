@@ -1,0 +1,106 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0053",
+  "ruta_oficial": "4",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 4 Dimensionado de los medios de evacuación",
+  "titulo": "4 Dimensionado de los medios de evacuación",
+  "nivel": 2,
+  "parent_id": "a0048",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 25,
+   "bbox": [
+    70.9,
+    537.1,
+    404.4,
+    552.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "a7760cc932d5be0f224caed803a37049206dcd6300520bb7167b302e6c132742",
+   "literal": "4 Dimensionado de los medios de evacuación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0021",
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4 Dimensionado de los medios de evacuación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 4 Dimensionado de los medios de evacuación",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "11940552c98955ae1c237d31e226da56b1d4405188e6fd953c51cfa0f8b912e5"
+ },
+ "paginas": [
+  25
+ ],
+ "etiquetas_impresas": [
+  "25"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Dimensionado de los medios de evacuación\n4.1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0025.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0054",
+  "a0055",
+  "a0056",
+  "a0057",
+  "a0058",
+  "a0059",
+  "a0060",
+  "a0061",
+  "a0062"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

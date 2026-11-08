@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0263",
+  "ruta_oficial": null,
+  "ruta_semantica": "F.2.6 Estimación de asientos en pilotes",
+  "titulo": "F.2.6 Estimación de asientos en pilotes",
+  "nivel": 1,
+  "parent_id": "a0258",
+  "seccion_estimada": "F.2.6 Estimación de asientos en pilotes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 152,
+   "bbox": [
+    70.9,
+    460.3,
+    297.7,
+    472.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4d0fad4841938cb2e8716b17ab804fdd4922e3ffcb63c91172a3e5f1836a012c",
+   "literal": "F.2.6 Estimación de asientos en pilotes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0258",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "F.2.6 Estimación de asientos en pilotes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0258",
+   "ruta_semantica": "1 · (pl – Ko po) / F.2.6 Estimación de asientos en pilotes",
+   "seccion_estimada": "1 · (pl – Ko po)",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a3136fbad47162ef4041476142aadcd5ec7ed49dd30639bbe7bff1421b848cdc"
+ },
+ "paginas": [
+  152,
+  153
+ ],
+ "etiquetas_impresas": [
+  "4",
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "F.2.6 Estimación de asientos en pilotes\nF.2.6.1 Asientos del pilote aislado\n1\nSe puede adoptar la simplificación de que el asiento de un pilote vertical aislado sometido a una\ncarga vertical, de servicio, en su cabeza igual a la máxima recomendable por razones de hundi-\nmiento, es aproximadamente, el uno por ciento de su diámetro, más el acortamiento elástico del pi-\nlote.\n2\nEl asiento del pilote individual aislado, considerando el acortamiento elástico del pilote se podrá\nexpresar mediante la siguiente fórmula aproximada:\nP\nAE\n+\n+\nR\n40\nD\ns\n2\n1\nck\ni\n\n\n\n\n\n\n\n\nl\nl\n(F.44)\nsiendo\nsi\nel asiento del pilote individual aislado;\nD\nel diámetro del pilote (para formas no circulares se obtendrá el diámetro equivalente);\nP\nla carga sobre la cabeza;\nRck\nla carga de hundimiento;\nl1\nla longitud del pilote fuera del terreno;\nl2\nla longitud del pilote dentro del terreno;\nA\nel área de la sección transversal del pilote;\nE\nel módulo de elasticidad del pilote;\n\nDocumento Básico SE-C Cimientos\nSE-C-148\n\nun parámetro variable según el tipo de transmisión de cargas al terreno, =1 para pilotes\nque trabajan principalmente por punta y =0.5 para pilotes flotantes. Para situaciones in-\ntermedias, se adoptará el siguiente valor de :\n =\nck\nR\n1\n(0,5 Rfk + Rpk)\n(F.45)\ndonde\nRpk\nes la carga de hundimiento por punta;\nRfk\nes la carga de hundimiento por fuste.\nF.2.6.2 Consideración del efecto grupo\n1\nEn los grupos de pilotes, y debido a la interferencia de las cargas, el asiento de cada pilote puede\nser mayor. Para tenerlo en cuenta, se podrán adoptar las siguientes simplificaciones:\n2\nPara pilotes columna, trabajando por punta en roca, separados más de tres diámetros, el efecto\ngrupo se considera despreciable.\n3\nPara otras situaciones se puede suponer que toda la carga del grupo está uniformemente repartida\nen un plano situado a la profundidad \"z\" bajo la superficie del terreno:\nz =  · l2\n(F.46)\ncon los significados de \"\" y \" l2\" indicados anteriormente y con unas dimensiones transversales B1\nx L1 dadas por:\nB1 = Bgrupo + (1 - ) l2\n(F.47)\nL1 = Lgrupo + (1 - ) l2\n(F.48)\nsiendo Bgrupo y Lgrupo las dimensiones del grupo, considerando planos exteriores tangentes a los pilo-\ntes externos del grupo.\n4\nEl cálculo del asiento debido a esta carga vertical repartida en profundidad se estimará de acuerdo\ncon los procedimientos generales de cálculo de asientos de cimentaciones superficiales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0152_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0152.png",
+  "../figura/p0153.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,107 @@
+{
+ "indice": 1,
+ "pagina": 69,
+ "etiqueta_impresa": "69",
+ "bbox": [
+  195.2,
+  654.5,
+  400.1,
+  684.0
+ ],
+ "filas": 2,
+ "columnas": 4,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "α",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "90°\n(fachadas perpendiculares)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "135°",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 3,
+   "texto": "180°\n(fachada plana)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "d (m)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "2,00",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "1,50",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 3,
+   "texto": "1,00",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "α",
+  "90°\n(fachadas perpendiculares)",
+  "135°",
+  "180°\n(fachada plana)"
+ ],
+ "header": {
+  "names": [
+   "α",
+   "90°\n(fachadas perpendiculares)",
+   "135°",
+   "180°\n(fachada plana)"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC0201D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC0222D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC020710>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95B9E0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022AD7251FD0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95AC30>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95BBF0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95B890>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0069.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0141",
+  "ruta_oficial": "8.9.5",
+  "ruta_semantica": "Fragmento de PDF p101",
+  "titulo": "8.9.5 Nudos soldados entre barras de alma y cordones de sección cuadrada o rectangular 8.9.5.1 Barras de alma de sección cuadrada o circular y cordones de sección cuadrada",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p101",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p101",
+  "referencias_filtradas": [
+   "apartado 8.9.5.2"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.9 Uniones de perfiles huecos en las vigas de celosía 8.9.1 Alcance y campo de aplicación / 8.9.5 Nudos soldados entre barras de alma y cordones de sección cuadrada o rectangular 8.9.5.1 Barras de alma de sección cuadrada o circular y cordones de sección cuadrada",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c189aca8945adfc8bec51cc87744bdfbf8b720bd51d23dda339601cbe7efa2e4"
+ },
+ "paginas": [
+  101
+ ],
+ "etiquetas_impresas": [
+  "101"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "8.9.5 Nudos soldados entre barras de alma y cordones de sección cuadrada o rectangular 8.9.5.1 Barras de alma de sección cuadrada o circular y cordones de sección cuadrada\n8.9.5.1 Barras de alma de sección cuadrada o circular y cordones de sección cuadrada\n1\nSiempre que la geometría de los nudos permanezca dentro del campo de validez especificado en\nla tabla 8.3, las resistencias de cálculo de los nudos pueden determinarse aplicando las fórmulas\nque se dan en la tabla 8.4.\n2\nPara los nudos que quedan fuera del campo de validez especificado en la tabla 8.3, se aplicará el\napartado 8.9.5.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.9.5.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0101.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0142"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

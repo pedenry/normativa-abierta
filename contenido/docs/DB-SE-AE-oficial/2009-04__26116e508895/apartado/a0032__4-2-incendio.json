@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0032",
+  "ruta_oficial": "4.2",
+  "ruta_semantica": "4.2 Incendio",
+  "titulo": "4.2 Incendio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2 Incendio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 17,
+   "bbox": [
+    70.9,
+    176.4,
+    143.6,
+    189.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+   "literal": "4.2 Incendio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0030",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB-SI\n2",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "4.2 Incendio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Acciones accidentales 4.1 Sismo / 4.2 Incendio",
+   "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "db6bcc25dafcb8e9479937ff643919270078f632770913b234f72f676eabc64c"
+ },
+ "paginas": [
+  17
+ ],
+ "etiquetas_impresas": [
+  "17"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "4.2 Incendio\n1\nLas acciones debidas a la agresión térmica del incendio están definidas en el DB-SI\n2\nEn las zonas de tránsito de vehículos destinados a los servicios de protección contra incendios, se\nconsiderará una acción de 20 kN/m2 dispuestos en una superficie de 3 m de ancho por 8 m de lar-\ngo, en cualquiera de las posiciones de una banda de 5 m de ancho, y las zonas de maniobra, por\ndonde se prevea y se señalice el paso de este tipo de vehículos.\n3\nPara la comprobación local de las zonas citadas, se supondrá, de forma independiente y no simul-\ntánea con la anterior, la actuación de una carga de 100 kN, actuando sobre una superficie circular\nde 20 cm de diámetro sobre el pavimento terminado, en uno cualquiera de sus puntos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SI\n2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

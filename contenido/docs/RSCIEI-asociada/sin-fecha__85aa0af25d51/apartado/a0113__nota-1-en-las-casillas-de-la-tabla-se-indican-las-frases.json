@@ -1,0 +1,77 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0113",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p52",
+  "titulo": "Nota 1: En las casillas de la tabla se indican las Frases H según el Reglamento (CE) n.º 1272/2008 del Parlamento Europeo y del Consejo, de 16 de diciembre de 2008, sobre",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p52",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p52",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "ANEXO I / Nota 1: En las casillas de la tabla se indican las Frases H según el Reglamento (CE) n.º 1272/2008 del Parlamento Europeo y del Consejo, de 16 de diciembre de 2008, sobre",
+   "seccion_estimada": "ANEXO I",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e25d0ab49af64bcef1acf9f6553429e51eb93a6b91267ab024c81eec7c466a87"
+ },
+ "paginas": [
+  52
+ ],
+ "etiquetas_impresas": [
+  "52"
+ ],
+ "tipos": [
+  "notas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Nota 1: En las casillas de la tabla se indican las Frases H según el Reglamento (CE) n.º 1272/2008 del Parlamento Europeo y del Consejo, de 16 de diciembre de 2008, sobre\n1272/2008 del Parlamento Europeo y del Consejo, de 16 de diciembre de 2008, sobre",
+ "notas": [
+  "Nota 1: En las casillas de la tabla se indican las Frases H según el Reglamento (CE) n.º 1272/2008 del Parlamento Europeo y del Consejo, de 16 de diciembre de 2008, sobre"
+ ],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0052_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0052.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0117",
+  "ruta_oficial": "8.6.2",
+  "ruta_semantica": "8.6.2 Resistencia de cálculo de las soldaduras en ángulo.",
+  "titulo": "8.6.2 Resistencia de cálculo de las soldaduras en ángulo.",
+  "nivel": 1,
+  "parent_id": "a0115",
+  "seccion_estimada": "8.6.2 Resistencia de cálculo de las soldaduras en ángulo.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 74,
+   "bbox": [
+    74.1,
+    73.4,
+    349.2,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6b0f4a653d3e262703059792780610ee94051154285d676fd0665b073fb0e77e",
+   "literal": "8.6.2 Resistencia de cálculo de las soldaduras en ángulo."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0117",
+  "parent_id_original": "a0115",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.6.2 Resistencia de cálculo de las soldaduras en ángulo.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0115",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.6 Resistencia de los medios de unión. Uniones soldadas. / 8.6.2 Resistencia de cálculo de las soldaduras en ángulo.",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ca65231740536b36fc7d6eebb94ec9a95e2ad25e0c7a9bf1710fca37ec446a18"
+ },
+ "paginas": [
+  74,
+  75
+ ],
+ "etiquetas_impresas": [
+  "74",
+  "75"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.6.2 Resistencia de cálculo de las soldaduras en ángulo.\n1\nLa resistencia de un cordón de soldadura en ángulo es suficiente si la resultante de todas las fuer-\nzas transmitidas por el cordón por unidad de longitud FW,Ed, no supera el valor de su resistencia de\ncálculo FW,Rd con independencia de la orientación del cordón.\n2\nLa comprobación de resistencia por unidad de longitud de un cordón en ángulo se realiza de\nacuerdo a la expresión:\nd\n,\nvW\nRd\n,\nW\nEd\n,\nW\nf\na\nF\nF\n=\n≤\n(8.21)\nsiendo\n2\nM\nW\nu\nd\n,\nvW\n3\n/\nf\nf\nγ\nβ\n=\ntensión tangencial de cálculo resistida por la soldadura en cualquier dirección\nfu\ntensión de rotura de la chapa de menor resistencia de la unión;\nW\nβ\ncoeficiente de correlación dado en la tabla 8.1, en función del tipo de acero.\nTabla 8.1 Coeficiente de correlación βw\nAcero\nfu (N/mm2)\nβw\nS 235\n360\n0,80\nS 275\n430\n0,85\nS 355\n510\n0,90\na\nespesor de garganta del cordón en ángulo, que será la altura, medida perpendicularmente a\nla cara exterior, del triángulo que la tenga mayor, de entre los que se pueden inscribir entre\nlas superficies de las piezas que hayan alcanzando la fusión y la superficie exterior de la\nsoldadura (figura 8.9.a y b). Se observarán las siguientes limitaciones:\n– el espesor de garganta de un cordón de soldadura en ángulo no será menor de 3 mm;\n– en el caso de soldadura con penetración profunda se podrá tomar el espesor de gargan-\nta dado en la figura 8.9.c) siempre que se demuestre por ensayos que se puede conse-\nguir de forma estable la penetración requerida;\n– en el caso en que se realice la soldadura de forma automática con arco sumergido se\npodrá considerar, sin necesidad de ensayos, un incremento del 20% del espesor de la\ngarganta, hasta un máximo de 2 mm.\nFigura 8.9 Soldadura en ángulo. Espesor de garganta\nComo longitud del cordón se tomará la nominal. En uniones por solape de longitudes superiores a\n150 a, la resistencia de cálculo se reducirá utilizando el coeficiente:\n0,1\na\n150\nL\n2,0\n2,1\nLW\n≤\n−\n=\nβ\n(8.22)\na\na\na\na\na\na)\nb)\nc) soldadura con\npenetración profunda\n\nDocumentoBásico SE-A Acero\nSE-A-73\ndonde\nL\nlongitud total del solape en la dirección del esfuerzo.\nEsta reducción tiene en cuenta el efecto de la distribución no uniforme de tensiones a lo largo de\nun cordón de cierta longitud, pero no es de aplicación cuando la citada distribución de tensiones en\nel cordón se corresponde con la del material base, lo que ocurre, por ejemplo, en el caso de las\nsoldaduras en uniones ala-alma de vigas armadas.\n3\nComo alternativa al punto anterior, se podrán descomponer los esfuerzos transmitidos por unidad\nde longitud en sus componentes, suponiendo que sobre la sección de garganta hay una distribu-\nción uniforme de tensiones (figura 8.10). La soldadura de ángulo será suficiente si, con las tensio-\nnes de cálculo, se cumple:",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0074.png",
+  "../figura/p0075.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

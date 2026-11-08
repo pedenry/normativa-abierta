@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0188",
+  "ruta_oficial": "6.3.3.2.2",
+  "ruta_semantica": "6.3.3.2.2 Hundimiento",
+  "titulo": "6.3.3.2.2 Hundimiento",
+  "nivel": 1,
+  "parent_id": "a0186",
+  "seccion_estimada": "6.3.3.2.2 Hundimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 89,
+   "bbox": [
+    70.9,
+    382.0,
+    176.5,
+    391.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "fc18fcae65434d043a59cf289569ae37ceecce4803037fe4b17a22c960276169",
+   "literal": "6.3.3.2.2 Hundimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0214",
+  "parent_id_original": "a0186",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.2.2 Hundimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0186",
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / 6.3.3.2 Estabilidad / 6.3.3.2.2 Hundimiento",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c5d38ca6751532d1e649c315631d5c4605aeaeae96c7a7b97c49090ad97a36cc"
+ },
+ "paginas": [
+  89,
+  90
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.3.3.2.2 Hundimiento\n1\nLa cimentación o base del muro debe tener la misma seguridad frente al hundimiento que una zapa-\nta de cimentación de una estructura, según los criterios que se definen en los capítulos 2, 4 y 5,\nconsiderando la inclinación y excentricidad de la resultante y los coeficientes de seguridad parciales\ndefinidos en la tabla 2.1.\n2\nEn la Figura 6.14 se esquematizan los tipos de muros más habituales y se representan el peso pro-\npio del muro y en su caso de las tierras que lo acompañan, W, o de las cargas transmitidas al mis-\nmo, V, la resultante de los elementos de arriostramiento transversal (forjado, apuntalamiento, ancla-\nje), F, los empujes de tierras horizontal, Eh y vertical, Ev, y las resultantes de estas solicitaciones a\nnivel de cimentación, N y T. En el cálculo de N y T no debe considerarse el empuje pasivo.\n3\nEn el caso de que existan otras acciones sobre el muro habrá que considerarlas igualmente.\nFigura 6.14. Diagramas de fuerzas sobre muros\n4\nLa distribución de presiones del muro debe definirse de forma que los asientos sean admisibles.\n5\nCuando el terreno sea muy compresible, deben evitarse los asientos diferenciales de los bordes de\nla cimentación imponiendo que la resultante de fuerzas esté lo más centrada posible.\n6\nSi la capacidad de carga del terreno fuera insuficiente o los asientos excesivos, se podrá recurrir a\nuna cimentación profunda, una mejora o refuerzo del terreno u otra solución que asegure la estabi-\nlidad frente al hundimiento.\n\nDocumento Básico SE-C Cimientos\nSE-C-85",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0089.png",
+  "../figura/p0090.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

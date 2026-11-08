@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0073",
+  "ruta_oficial": null,
+  "ruta_semantica": "D.3 Recopilación de información",
+  "titulo": "D.3 Recopilación de información",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "D.3 Recopilación de información",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 40,
+   "bbox": [
+    70.9,
+    608.1,
+    260.4,
+    620.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e7e6d21f1588149b8fd658dad564a28849f18d22f41c81cbf5891408fc0d8237",
+   "literal": "D.3 Recopilación de información"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.3 Recopilación de información",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.3 Recopilación de información",
+   "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0e7832a6ec1ecf501b03a5c0645df001ce81f5f9e488d58b114936310ac07901"
+ },
+ "paginas": [
+  40,
+  41,
+  42
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  "2"
+ ],
+ "tipos": [],
+ "texto": "D.3 Recopilación de información\nD.3.1 Determinación del estado actual\n1\nPreviamente a la evaluación de un edificio existente se determinará el estado actual del mismo,\nrecabando toda la información relativa a:\na)\nLas acciones de todo tipo, directas o indirectas (influencias) con los siguientes criterios:\n- El peso propio de los elementos podrá comprobarse en obra, adaptándose en consecuencia,\nlos valores adoptados inicialmente, de acuerdo con la información previa;\n- Las sobrecargas de uso dependerán del uso futuro de la obra, pudiendo adoptarse, a efectos\nde la evaluación modelos específicos adaptados al caso estudiado (normalmente menos\nconservadores que los modelos correspondientes según el CTE). En estos casos, se adopta-\nrán disposiciones adicionales con el fin de asegurar que no se sobrepasen los valores ex-\ntremos establecidos;\n\nDocumento Básico SE Seguridad Estructural\nSE - 35\n- Las acciones climáticas a tener en cuenta pueden determinarse a partir de mediciones direc-\ntas efectuadas en estaciones meteorológicas representativas para la obra objeto de la eva-\nluación estructural, durante un periodo de tiempo adecuado. En este caso, en la determina-\nción de estas acciones se tendrá en cuenta que sus efectos extremos no se pueden deducir\ndirectamente de los valores medidos. En el ajuste de los valores extremos se podrá tener en\ncuenta el periodo de servicio restante;\n- Se tendrán en cuenta las influencias ambientales de origen físico, químico o biológico que\npuedan afectar a las características de los materiales o a la resistencia de los elementos es-\ntructurales, así como los posibles cambios en las mismas que puedan producirse como con-\nsecuencia de una intervención. En los casos en los que existan incertidumbres, se determi-\nnarán mediante inspecciones, ensayos o mediciones.\nb)\nLas dimensiones de la obra, recopilando los datos de la misma y de los elementos estructura-\nles, cuando la información disponible carezca de ellos, cuando se hayan realizado modifica-\nciones y no exista documentación fiable al respecto, o cuando se observen discrepancias entre\nla información disponible y la situación real.\nc)\nCaracterísticas de los materiales empleados. Cuando las características de los materiales no\nse puedan deducir de manera fiable a partir de la información disponible, se determinarán me-\ndiante ensayos no destructivos o destructivos a partir de muestreos estadísticamente repre-\nsentativos, que tengan en cuenta el uso del edificio, así como las influencias ambientales.\nd)\nEl sistema estático y el comportamiento estructural, con los siguientes criterios:\n- se comprobarán en obra las condiciones de todo tipo que resulten determinantes para el\ncomportamiento estructural, como las condiciones de apoyo, empotramientos, libertad de\nmovimiento de apoyos y juntas o la capacidad de deformación.\n- cuando se determine experimentalmente el comportamiento estructural (estático o dinámico)\nde un edificio, en la evaluación e interpretación de los resultados se tendrá en cuenta que los\nensayos se realizan con cargas de servicio, mientras que la capacidad portante se debe eva-\nluar para estados más avanzados de carga.\ne)\nlos daños y anomalías existentes: deformaciones, desplazamientos, corrosión, fatiga y enveje-\ncimiento en general.\nD.3.2 Evaluación de los ensayos y representación de los resultados\n1\nCuando el número de resultados sea reducido, la aplicación de los métodos clásicos de la estadísti-\nca puede conducir a valores conservadores, debido a la influencia de los errores de estimación. En\nestos casos, si se dispone de información previa, ésta podría combinarse con los resultados obteni-\ndos, para mejorar la información.\n2\nLa representación de los resultados obtenidos en la evaluación de los ensayos o de las mediciones\ndependerá del método de análisis empleado, semi-probabilista o probabilista.\n3\nCuando se realice un análisis semi-probabilista, el objetivo de la evaluación de los ensayos o de las\nmediciones será la determinación del valor representativo de la variable correspondiente. La defini-\nción del valor representativo depende de la variable contemplada, y debe ser consistente con la de-\nfinición del coeficiente parcial correspondiente. Salvo que exista información en sentido contrario, la\ndefinición del valor representativo de una variable se corresponderá con lo indicado en 3.3.\n4\nCuando se realice un análisis probabilista, las variables que intervienen en una verificación se re-\npresentarán mediante las correspondientes funciones de densidad de probabilidad. En muchos ca-\nsos, estas funciones pueden ser caracterizadas a través de sus principales parámetros (valor me-\ndio, desviación típica, tipo de distribución). A falta de un análisis más detallado, a las variable se les\nasignará el mismo tipo de distribución que se haya tenido en cuenta en la calibración de los mode-\nlos para las acciones y para la resistencia estructural de edificios de nueva construcción (Anejo C). .\nD.3.3 Bases de cálculo\n1\nSe deben revisar y, según el caso, se adaptar o completar las situaciones de dimensionado que se\nhayan considerado en el proyecto original, teniendo en cuenta los daños y anomalías observados,\nasí como la incidencia que estos puedan tener sobre los posibles mecanismos de fallo. Cuando no\nse disponga de las bases de cálculo del proyecto original, se establecerán las situaciones de di-\nmensionado a efectos de la evaluación.\n\nDocumento Básico SE Seguridad Estructural\nSE - 36\n2\nLas situaciones de dimensionado, así como las medidas previstas para alcanzar las exigencias\nrelativas a la capacidad portante y a la aptitud al servicio deber reflejarse en las bases de cálculo\nactualizadas.\nD.3.4 Control de riesgos: inspección y planificación de medidas\n1\nPodrán considerarse aceptables ciertos riesgos, bien por la baja frecuencia de ocurrencia de las\nsituaciones que estén en su origen, o bien porque las consecuencias en caso de ocurrencia de una\nde estas situaciones resulten suficientemente pequeñas. La aceptación de estos riesgos requiere la\nadopción de medidas adicionales de inspección y de control (observación, inspecciones periódicas,\nmediciones de control, monitorización), cuyo objetivo consistirá en la detección de los posibles da-\nños o anomalías en un estado temprano, para poder adoptar las medidas adecuadas que mitiguen\nlos riesgos antes de que se pueda producir un evento no deseado. Los riesgos aceptados se refle-\njarán en la memoria.\n2\nEl alcance y la intensidad de las medidas de inspección y de control, así como las medidas para la\nreducción de las consecuencias de los riesgos aceptados se determinarán en función de las carac-\nterísticas y de la importancia de la obra, así como en función del tipo y de las características de di-\nchos riesgos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

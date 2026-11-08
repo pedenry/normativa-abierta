@@ -1,0 +1,247 @@
+{
+ "documento": null,
+ "pagina": 55,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-50",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    72.5,
+    538.5,
+    108.4
+   ],
+   "tipo": "texto",
+   "texto": "m)\nposibles efectos sísmicos y en particular la posible licuefacción del entorno y que pudiera in-\ncluir al propio pilotaje;\nn)\nposible pérdida de capacidad portante por socavación de pilotajes.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    130.2,
+    236.4,
+    142.2
+   ],
+   "tipo": "titulo",
+   "texto": "5.3.4 Carga de hundimiento",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    153.7,
+    178.0,
+    163.7
+   ],
+   "tipo": "texto",
+   "texto": "5.3.4.1 Generalidades",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    175.2,
+    196.4,
+    185.2
+   ],
+   "tipo": "texto",
+   "texto": "5.3.4.1.1 Criterios básicos",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    190.8,
+    538.6,
+    212.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia característica al hundimiento de un pilote aislado se considerará dividida en dos par-\ntes (véase Figura 5.5): resistencia por punta y resistencia por fuste",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    95.5,
+    218.9,
+    542.5,
+    232.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "fk\npk\nck\nR\nR\nR\n\n\n(5.8)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    241.8,
+    541.3,
+    306.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nRck\nla resistencia frente a la carga vertical que produce el hundimiento;\nRpk\nla parte de la resistencia que se supone soportada por la punta;\nRfk\nla parte de la resistencia que se supone soportada por el contacto pilote-terreno en el\nfuste.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    466.0,
+    541.3,
+    513.0
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.5. Esquema de distribución de la carga de un pilote aislado\n2\nPara estimar ambas componentes de la resistencia se supondrá que son proporcionales a las áreas\nde contacto respectivas de acuerdo con las expresiones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    95.5,
+    521.3,
+    542.5,
+    533.7
+   ],
+   "tipo": "texto",
+   "texto": "A\n .\nq =\nR\np\np\npk\n(5.9)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    113.3,
+    551.8,
+    135.9,
+    566.0
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    131.2,
+    544.9,
+    135.0,
+    551.9
+   ],
+   "tipo": "texto",
+   "texto": "L",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    95.5,
+    553.3,
+    542.4,
+    573.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "0\nf\nf\nfk\ndz\n·\np\n·\nR\n(5.10)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    93.6,
+    583.6,
+    349.7,
+    622.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nqp\nla resistencia unitaria por la punta según F.2.1\nAp\nel área de la punta",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    93.6,
+    626.5,
+    512.5,
+    681.4
+   ],
+   "tipo": "texto",
+   "texto": "f\nla resistencia unitaria por el fuste, obtenida de F.2.1\nL\nla longitud del pilote dentro del terreno\npf\nel perímetro de la sección transversal del pilote, considerada según 5.1.2.2.2\nz\nla profundidad contada desde la parte superior del pilote en contacto con el terreno",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    692.8,
+    341.1,
+    702.7
+   ],
+   "tipo": "texto",
+   "texto": "5.3.4.1.2 Consideraciones sobre la resistencia por punta",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    708.4,
+    541.3,
+    764.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl área de la punta a utilizar en el cálculo será igual al área de la sección transversal del pilote al\nnivel de la punta (pilotes de extracción) o a la proyección sobre el plano transversal del área del\nazuche en pilotes hincados. Para pilotes huecos (sección en forma de corona circular), o para perfi-\nles metálicos hincados sin azuche, habrá que calcular el área de la punta equivalente según\n5.1.2.2.2.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

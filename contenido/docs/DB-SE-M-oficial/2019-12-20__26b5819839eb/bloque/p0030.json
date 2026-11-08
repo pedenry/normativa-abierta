@@ -1,0 +1,431 @@
+{
+ "documento": null,
+ "pagina": 30,
+ "etiqueta_impresa": "1",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 24",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.2,
+    318.3,
+    82.2
+   ],
+   "tipo": "texto",
+   "texto": "6.1.5  Compresión uniforme perpendicular a la fibra",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    91.9,
+    265.1,
+    101.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nDebe cumplirse la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    90.1,
+    105.8,
+    540.4,
+    130.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "c,90,d  kc,90·fc,90,d\n(6.5)\nsiendo",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    143.5,
+    155.4,
+    149.4,
+    162.4
+   ],
+   "tipo": "texto",
+   "texto": "ef",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    99.4,
+    140.4,
+    154.8,
+    160.7
+   ],
+   "tipo": "texto",
+   "texto": "d\n,\n90\n,c\nd\n,\n90\n,c\nA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.0,
+    135.6,
+    541.3,
+    152.9
+   ],
+   "tipo": "texto",
+   "texto": "F\n\n\n(6.6)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    90.1,
+    167.3,
+    124.8,
+    177.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    90.1,
+    182.0,
+    379.9,
+    193.4
+   ],
+   "tipo": "texto",
+   "texto": "c,90,d\ntensión de cálculo a compresión perpendicular a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    90.1,
+    198.9,
+    426.5,
+    208.9
+   ],
+   "tipo": "texto",
+   "texto": "F c,90,d\nvalor de cálculo de la carga de compresión perpendicular a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    90.1,
+    214.4,
+    408.4,
+    224.4
+   ],
+   "tipo": "texto",
+   "texto": "Aef\nárea de contacto eficaz en compresión perpendicular a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    90.1,
+    229.9,
+    395.2,
+    239.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "fc,90,d\nresistencia de cálculo a compresión perpendicular a la fibra.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    90.1,
+    245.5,
+    541.3,
+    266.9
+   ],
+   "tipo": "texto",
+   "texto": "kc,90\nfactor que tiene en cuenta la distribución de la carga, la posibilidad de hienda y la\ndeformación máxima por compresión perpendicular.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    129.7,
+    273.5,
+    536.9,
+    283.4
+   ],
+   "tipo": "texto",
+   "texto": "kc,90 = 1,0 salvo que sean de aplicación las condiciones definidas en los párrafos siguientes",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    129.7,
+    291.0,
+    502.2,
+    300.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- En el caso de durmientes (apoyo en continuo), siempre que l1 ≥ 2h, (Figura 6.2a),",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    124.4,
+    308.4,
+    347.8,
+    318.3
+   ],
+   "tipo": "texto",
+   "texto": "kc,90 = 1,25, para madera maciza de coníferas",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    124.4,
+    325.9,
+    397.3,
+    335.9
+   ],
+   "tipo": "texto",
+   "texto": "kc,90 = 1,5, para madera laminada encolada de coníferas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    129.7,
+    343.4,
+    487.3,
+    353.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- En el caso de piezas sobre apoyos aislados, siempre que l1 ≥ 2h, (Figura 6.2b)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    124.4,
+    360.9,
+    347.6,
+    370.9
+   ],
+   "tipo": "texto",
+   "texto": "kc,90 = 1,5\npara madera maciza de coníferas",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    124.4,
+    378.5,
+    512.5,
+    388.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "kc,90 = 1,75 para madera laminada encolada de coníferas siempre que l ≤ 400 mm.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    124.4,
+    396.0,
+    415.2,
+    405.9
+   ],
+   "tipo": "texto",
+   "texto": "donde h es el canto de la pieza y l es la longitud de contacto.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    413.4,
+    538.6,
+    460.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nEl área de contacto eficaz perpendicular a las fibras, Aef, debe determinarse considerando una longi-\ntud eficaz paralela a la fibra, donde el área de contacto real, l, a cada lado se incrementa 30 mm, pe-\nro no más que l o l1/2, (figura 6.2).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    89.8,
+    540.6,
+    524.9,
+    584.8
+   ],
+   "tipo": "texto",
+   "texto": "a)\nb)\nFigura 6.2 Longitud eficaz a compresión perpendiculas a la fibra. a) durmiente (apoyo en continuo) y",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    268.0,
+    586.1,
+    344.0,
+    595.1
+   ],
+   "tipo": "texto",
+   "texto": "b) apoyo aislado.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    606.6,
+    171.0,
+    616.6
+   ],
+   "tipo": "texto",
+   "texto": "6.1.6  Flexión simple",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 26,
+   "bbox": [
+    70.9,
+    626.3,
+    262.3,
+    636.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nDebe cumplirse la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    90.1,
+    640.2,
+    541.3,
+    664.3
+   ],
+   "tipo": "texto",
+   "texto": "m,d  fm,d\n(6.7)\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    90.1,
+    669.2,
+    248.6,
+    679.8
+   ],
+   "tipo": "texto",
+   "texto": "m,d\ntensión de cálculo a flexión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    90.1,
+    685.3,
+    264.0,
+    695.3
+   ],
+   "tipo": "texto",
+   "texto": "fm,d\nresistencia de cálculo a flexión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    70.9,
+    708.6,
+    176.1,
+    718.6
+   ],
+   "tipo": "texto",
+   "texto": "6.1.7  Flexión esviada",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 31,
+   "bbox": [
+    70.9,
+    728.3,
+    288.5,
+    738.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nDeben cumplirse las siguientes condiciones:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

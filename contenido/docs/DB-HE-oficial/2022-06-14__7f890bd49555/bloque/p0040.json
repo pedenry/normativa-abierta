@@ -1,0 +1,232 @@
+{
+ "documento": null,
+ "pagina": 40,
+ "etiqueta_impresa": "40",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.1,
+    39.2,
+    375.7,
+    48.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HE Ahorro de energía",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    255.7,
+    51.4,
+    341.9,
+    60.3
+   ],
+   "tipo": "texto",
+   "texto": "Anejo A. Terminología",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    293.2,
+    796.9,
+    304.3,
+    805.8
+   ],
+   "tipo": "texto",
+   "texto": "40",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    56.7,
+    76.4,
+    541.4,
+    110.5
+   ],
+   "tipo": "texto",
+   "texto": "Factor solar (g┴): cociente entre la radiación solar a incidencia normal que se introduce en el edificio a través\ndel acristalamiento y la que se introduciría si el acristalamiento se sustituyese por un hueco perfectamente\ntransparente. Se refiere exclusivamente a la parte semitransparente de un hueco.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    56.7,
+    115.9,
+    529.8,
+    161.5
+   ],
+   "tipo": "texto",
+   "texto": "Horas fuera de consigna: número de horas a lo largo del año en el que cualquiera de los espacios\nhabitables acondicionados del edificio o, en su caso, parte del edificio, se sitúa, durante los periodos de\nocupación, fuera del rango de temperaturas de consigna de calefacción o de refrigeración, con un margen\nsuperior a un 1 ºC, definido en sus condiciones operacionales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    56.7,
+    171.8,
+    541.4,
+    206.1
+   ],
+   "tipo": "texto",
+   "texto": "Hueco: cualquier elemento transparente o semitransparente de la envolvente térmica del edificio. Comprende\nlas ventanas, lucernarios (huecos de cubierta) así como las puertas acristaladas con una superficie\nsemitransparente superior al 50%.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    56.7,
+    216.1,
+    541.4,
+    239.8
+   ],
+   "tipo": "texto",
+   "texto": "Iluminancia: cociente del flujo luminoso d incidente sobre un elemento de la superficie que contiene el punto,\npor el área dA de ese elemento, siendo la unidad de medida el lux.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    56.7,
+    250.1,
+    541.4,
+    272.8
+   ],
+   "tipo": "texto",
+   "texto": "Iluminancia media en el plano horizontal (E): iluminancia promedio sobre el área especificada. Se expresa\nen lux (lx).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    56.7,
+    283.1,
+    541.3,
+    305.8
+   ],
+   "tipo": "texto",
+   "texto": "El número mínimo de puntos a considerar en su cálculo, estará en función del índice del local (K) y de la\nobtención de un reparto cuadriculado simétrico.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    56.7,
+    311.1,
+    193.7,
+    402.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "a)\n4 puntos si K < 1\nb)\n9 puntos si 1 ≤ K < 2\nc)\n16 puntos si 2 ≤ K < 3\nd)\n25 puntos si K ≥ 3\ndonde:\nK = L · A / (H · (L + A))\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    92.2,
+    403.1,
+    394.4,
+    437.3
+   ],
+   "tipo": "texto",
+   "texto": "L\nla longitud del local en metros;\nA\nla anchura del local en metros ;\nH\nla distancia del plano de trabajo a las luminarias en metros.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    56.7,
+    447.6,
+    541.4,
+    481.8
+   ],
+   "tipo": "texto",
+   "texto": "Iluminancia media horizontal mantenida (Em): valor por debajo del cual no debe descender la iluminancia\nmedia en el área especificada. Es la iluminancia media en el período en el que debe ser realizado el\nmantenimiento. Se expresa en lux (lx).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    56.7,
+    492.1,
+    541.4,
+    526.3
+   ],
+   "tipo": "texto",
+   "texto": "Índice de deslumbramiento unificado (UGR): es el índice de deslumbramiento molesto procedente\ndirectamente de las luminarias de una instalación de iluminación interior, definido en la publicación CIE\n(Comisión Internacional de Alumbrado) nº 117.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    56.7,
+    536.6,
+    541.4,
+    593.8
+   ],
+   "tipo": "texto",
+   "texto": "Índice de rendimiento de color (Ra): efecto de un iluminante sobre el aspecto cromático de los objetos que\nilumina por comparación con su aspecto bajo un iluminante de referencia. La forma en que la luz de una\nlámpara reproduce los colores de los objetos iluminados se denomina índice de rendimiento de color (Ra). El\ncolor que presenta un objeto depende de la distribución de la energía espectral de la luz con que está\niluminado y de las características reflexivas selectivas de dicho objeto.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    56.7,
+    604.1,
+    541.4,
+    649.8
+   ],
+   "tipo": "texto",
+   "texto": "Inercia térmica: propiedad del edificio de amortiguar y retardar el efecto de las fluctuaciones de la\ntemperatura exterior en el interior del edificio como resultado de la capacidad del edificio para conducir y\nalmacenar calor. La cantidad de calor almacenado depende de la masa térmica de los materiales, mientras\nque la velocidad de intercambio de calor con el entorno depende de su conductividad térmica.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    56.7,
+    660.1,
+    541.4,
+    728.8
+   ],
+   "tipo": "texto",
+   "texto": "Infraestructura de recarga de vehículos eléctricos: conjunto de dispositivos físicos y lógicos, destinados a\nla recarga de vehículos eléctricos que cumplan los requisitos de seguridad y disponibilidad previstos para\ncada caso por el Reglamento electrotécnico de baja tensión, con capacidad para prestar servicio de recarga\nde forma completa e integral. Incluye las estaciones de recarga, el sistema de control, canalizaciones\neléctricas, los cuadros eléctricos de mando y protección y los equipos de medida, cuando éstos sean\nexclusivos para la recarga del vehículo eléctrico.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    56.7,
+    739.1,
+    541.4,
+    784.8
+   ],
+   "tipo": "texto",
+   "texto": "Invernadero adosado: recinto no acondicionado formado por un cerramiento exterior con un porcentaje alto\nde superficie acristalada que se coloca adyacente a las fachadas de un edificio. El elemento de fachada que\nactúa de separación entre el invernadero y las zonas interiores del edificio puede incluir también\nacristalamientos. Es posible la existencia de una circulación de aire generalmente forzada a través de dicho",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

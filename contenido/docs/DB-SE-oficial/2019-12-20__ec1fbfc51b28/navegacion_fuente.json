@@ -1,0 +1,3958 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "paginas_pdf": 45,
+ "fuente_toc": "fitz.get_toc:solo_marcadores",
+ "metodo": "lineas_bloque_literal",
+ "generado_por": "navegacion.py",
+ "generado_utc": "2026-11-08T15:02:14+00:00",
+ "nodos": [
+  {
+   "id_navegacion": "n0001",
+   "titulo_literal": "Disposiciones legislativas",
+   "nivel": 1,
+   "pagina": 2,
+   "pagina_verificada": true,
+   "bbox": [
+    141.8,
+    619.8,
+    271.9,
+    629.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "04a1583754245f6a23b41d460e809d95280227a19bad9c8737877eb075474b08",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0005"
+  },
+  {
+   "id_navegacion": "n0002",
+   "titulo_literal": "Introducción",
+   "nivel": 1,
+   "pagina": 3,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    159.6,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0003",
+   "titulo_literal": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+   "nivel": 2,
+   "pagina": 3,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    248.3,
+    365.1,
+    258.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0008"
+  },
+  {
+   "id_navegacion": "n0004",
+   "titulo_literal": "10.1.\nExigencia básica SE 1: Resistencia y estabilidad",
+   "nivel": 2,
+   "pagina": 3,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    404.3,
+    339.3,
+    414.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "10.1",
+   "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0005",
+   "titulo_literal": "10.2.\nExigencia básica SE 2: Aptitud al servicio",
+   "nivel": 2,
+   "pagina": 3,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    473.8,
+    307.0,
+    483.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "10.2",
+   "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0006",
+   "titulo_literal": "1 Generalidades",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    126.3,
+    151.2,
+    140.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "1",
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0013"
+  },
+  {
+   "id_navegacion": "n0007",
+   "titulo_literal": "2 Documentación",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    182.8,
+    157.3,
+    197.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "2",
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0014"
+  },
+  {
+   "id_navegacion": "n0008",
+   "titulo_literal": "3 Análisis estructural y dimensionado",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    250.7,
+    254.0,
+    265.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "3",
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0015"
+  },
+  {
+   "id_navegacion": "n0009",
+   "titulo_literal": "4 Verificaciones basadas en coeficientes parciales",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    341.8,
+    314.2,
+    356.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "4",
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0016"
+  },
+  {
+   "id_navegacion": "n0010",
+   "titulo_literal": "5 Verificaciones basadas en métodos experimentales",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    421.2,
+    327.5,
+    435.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "5",
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0017"
+  },
+  {
+   "id_navegacion": "n0011",
+   "titulo_literal": "Anejo A Terminología",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    489.3,
+    177.2,
+    503.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0012",
+   "titulo_literal": "Anejo B Notaciones",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    518.7,
+    168.4,
+    532.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0013",
+   "titulo_literal": "Anejo C Principios de los métodos probabilistas explícito e implícito",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    563.8,
+    399.6,
+    578.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0019"
+  },
+  {
+   "id_navegacion": "n0014",
+   "titulo_literal": "Anejo D Evaluación estructural de edificios existentes",
+   "nivel": 1,
+   "pagina": 5,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    677.8,
+    331.2,
+    692.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0020"
+  },
+  {
+   "id_navegacion": "n0015",
+   "titulo_literal": "1 Generalidades",
+   "nivel": 1,
+   "pagina": 7,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    182.9,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "1",
+   "sha256_texto_pagina": "7b19d48cd21dd0ffd9d802dc28faaf1ba05fdec959fd12b02ecb098e1af692f0",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0016",
+   "titulo_literal": "1.1 Ámbito de aplicación y consideraciones previas",
+   "nivel": 2,
+   "pagina": 7,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    126.8,
+    368.5,
+    138.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0015",
+   "ruta_literal": "1.1",
+   "sha256_texto_pagina": "7b19d48cd21dd0ffd9d802dc28faaf1ba05fdec959fd12b02ecb098e1af692f0",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0017",
+   "titulo_literal": "1.2 Prescripciones aplicables conjuntamente con DB-SE",
+   "nivel": 2,
+   "pagina": 7,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    295.1,
+    395.7,
+    307.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0015",
+   "ruta_literal": "1.2",
+   "sha256_texto_pagina": "7b19d48cd21dd0ffd9d802dc28faaf1ba05fdec959fd12b02ecb098e1af692f0",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0022"
+  },
+  {
+   "id_navegacion": "n0018",
+   "titulo_literal": "2 Documentación",
+   "nivel": 1,
+   "pagina": 9,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    191.5,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "2",
+   "sha256_texto_pagina": "1053204d687547acf03870e7f64f4eb0d6275c9daa175c746efc2537d354e3e8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0019",
+   "titulo_literal": "2.1 Documentación del proyecto",
+   "nivel": 2,
+   "pagina": 9,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    126.8,
+    259.1,
+    138.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0018",
+   "ruta_literal": "2.1",
+   "sha256_texto_pagina": "1053204d687547acf03870e7f64f4eb0d6275c9daa175c746efc2537d354e3e8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0020",
+   "titulo_literal": "2.1.1 Memoria",
+   "nivel": 3,
+   "pagina": 9,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    273.2,
+    139.8,
+    283.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0019",
+   "ruta_literal": "2.1.1",
+   "sha256_texto_pagina": "1053204d687547acf03870e7f64f4eb0d6275c9daa175c746efc2537d354e3e8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0024"
+  },
+  {
+   "id_navegacion": "n0021",
+   "titulo_literal": "2.1.2 Planos",
+   "nivel": 3,
+   "pagina": 9,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    677.6,
+    131.5,
+    687.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0019",
+   "ruta_literal": "2.1.2",
+   "sha256_texto_pagina": "1053204d687547acf03870e7f64f4eb0d6275c9daa175c746efc2537d354e3e8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0025"
+  },
+  {
+   "id_navegacion": "n0022",
+   "titulo_literal": "2.1.3 Pliego de condiciones",
+   "nivel": 3,
+   "pagina": 10,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    154.3,
+    204.4,
+    164.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0019",
+   "ruta_literal": "2.1.3",
+   "sha256_texto_pagina": "f617b30541bcc420297411ebf5071e00e27d4f22c6e2641742411023ca33df63",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0026"
+  },
+  {
+   "id_navegacion": "n0023",
+   "titulo_literal": "2.2 Documentación final de la obra",
+   "nivel": 2,
+   "pagina": 10,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    343.7,
+    272.4,
+    355.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0018",
+   "ruta_literal": "2.2",
+   "sha256_texto_pagina": "f617b30541bcc420297411ebf5071e00e27d4f22c6e2641742411023ca33df63",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0027"
+  },
+  {
+   "id_navegacion": "n0024",
+   "titulo_literal": "2.3 Instrucciones de uso y plan de mantenimiento",
+   "nivel": 2,
+   "pagina": 10,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    448.5,
+    358.3,
+    460.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0018",
+   "ruta_literal": "2.3",
+   "sha256_texto_pagina": "f617b30541bcc420297411ebf5071e00e27d4f22c6e2641742411023ca33df63",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0028"
+  },
+  {
+   "id_navegacion": "n0025",
+   "titulo_literal": "3 Análisis estructural y dimensionado",
+   "nivel": 1,
+   "pagina": 11,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    327.0,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "3",
+   "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0026",
+   "titulo_literal": "3.1 Generalidades",
+   "nivel": 2,
+   "pagina": 11,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    126.8,
+    177.0,
+    138.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0025",
+   "ruta_literal": "3.1",
+   "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0027",
+   "titulo_literal": "3.2 Estados límite",
+   "nivel": 2,
+   "pagina": 11,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    419.6,
+    175.7,
+    431.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0025",
+   "ruta_literal": "3.2",
+   "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0030"
+  },
+  {
+   "id_navegacion": "n0028",
+   "titulo_literal": "3.2.1 Estados límite últimos",
+   "nivel": 3,
+   "pagina": 11,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    482.5,
+    204.9,
+    492.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0027",
+   "ruta_literal": "3.2.1",
+   "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0031"
+  },
+  {
+   "id_navegacion": "n0029",
+   "titulo_literal": "3.2.2 Estados límite de servicio",
+   "nivel": 3,
+   "pagina": 11,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    633.0,
+    221.5,
+    643.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0027",
+   "ruta_literal": "3.2.2",
+   "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0032"
+  },
+  {
+   "id_navegacion": "n0030",
+   "titulo_literal": "3.3 Variables básicas",
+   "nivel": 2,
+   "pagina": 12,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    135.7,
+    195.0,
+    147.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0025",
+   "ruta_literal": "3.3",
+   "sha256_texto_pagina": "2dbdc7062244b4764c0ff24f1507a535ce488c9b3838b2436c2f11363d0d2ba8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0031",
+   "titulo_literal": "3.3.1 Generalidades",
+   "nivel": 3,
+   "pagina": 12,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    159.1,
+    167.7,
+    169.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0030",
+   "ruta_literal": "3.3.1",
+   "sha256_texto_pagina": "2dbdc7062244b4764c0ff24f1507a535ce488c9b3838b2436c2f11363d0d2ba8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0032",
+   "titulo_literal": "3.3.2 Acciones",
+   "nivel": 3,
+   "pagina": 12,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    257.6,
+    143.2,
+    267.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0030",
+   "ruta_literal": "3.3.2",
+   "sha256_texto_pagina": "2dbdc7062244b4764c0ff24f1507a535ce488c9b3838b2436c2f11363d0d2ba8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0033",
+   "titulo_literal": "3.3.2.1 Clasificación de las acciones",
+   "nivel": 4,
+   "pagina": 12,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    279.1,
+    245.4,
+    289.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0032",
+   "ruta_literal": "3.3.2.1",
+   "sha256_texto_pagina": "2dbdc7062244b4764c0ff24f1507a535ce488c9b3838b2436c2f11363d0d2ba8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0034",
+   "titulo_literal": "3.3.2.2 Valor característico",
+   "nivel": 4,
+   "pagina": 12,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    551.0,
+    199.9,
+    561.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0032",
+   "ruta_literal": "3.3.2.2",
+   "sha256_texto_pagina": "2dbdc7062244b4764c0ff24f1507a535ce488c9b3838b2436c2f11363d0d2ba8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0035"
+  },
+  {
+   "id_navegacion": "n0035",
+   "titulo_literal": "3.3.2.3 Otros valores representativos",
+   "nivel": 4,
+   "pagina": 13,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    157.3,
+    248.9,
+    167.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0032",
+   "ruta_literal": "3.3.2.3",
+   "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0036"
+  },
+  {
+   "id_navegacion": "n0036",
+   "titulo_literal": "3.3.2.4 Acciones dinámicas",
+   "nivel": 4,
+   "pagina": 13,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    307.1,
+    203.3,
+    317.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0032",
+   "ruta_literal": "3.3.2.4",
+   "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0037"
+  },
+  {
+   "id_navegacion": "n0037",
+   "titulo_literal": "3.3.3 Datos geométricos",
+   "nivel": 3,
+   "pagina": 13,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    379.6,
+    192.0,
+    389.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0030",
+   "ruta_literal": "3.3.3",
+   "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0038"
+  },
+  {
+   "id_navegacion": "n0038",
+   "titulo_literal": "3.3.4 Materiales",
+   "nivel": 3,
+   "pagina": 13,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    478.1,
+    147.6,
+    488.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0030",
+   "ruta_literal": "3.3.4",
+   "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0039"
+  },
+  {
+   "id_navegacion": "n0039",
+   "titulo_literal": "3.4 Modelos para el análisis estructural",
+   "nivel": 2,
+   "pagina": 13,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    716.4,
+    297.7,
+    728.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0025",
+   "ruta_literal": "3.4",
+   "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0040"
+  },
+  {
+   "id_navegacion": "n0040",
+   "titulo_literal": "3.5 Verificaciones",
+   "nivel": 2,
+   "pagina": 14,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    277.2,
+    175.7,
+    289.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0025",
+   "ruta_literal": "3.5",
+   "sha256_texto_pagina": "3e37a2be0525c1590cbae977998c7999b199d00b645601c721c9de90506901ab",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0041"
+  },
+  {
+   "id_navegacion": "n0041",
+   "titulo_literal": "4 Verificaciones basadas en coeficientes parciales",
+   "nivel": 1,
+   "pagina": 15,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    414.9,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "4",
+   "sha256_texto_pagina": "d44fb62f0e44c5ad073702dac86f538e13b89b1638a68355bb6e994fa9baaf16",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0042",
+   "titulo_literal": "4.1 Generalidades",
+   "nivel": 2,
+   "pagina": 15,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    126.8,
+    177.0,
+    138.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0041",
+   "ruta_literal": "4.1",
+   "sha256_texto_pagina": "d44fb62f0e44c5ad073702dac86f538e13b89b1638a68355bb6e994fa9baaf16",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0043",
+   "titulo_literal": "4.2 Capacidad portante",
+   "nivel": 2,
+   "pagina": 15,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    243.1,
+    209.6,
+    255.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0041",
+   "ruta_literal": "4.2",
+   "sha256_texto_pagina": "d44fb62f0e44c5ad073702dac86f538e13b89b1638a68355bb6e994fa9baaf16",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0044",
+   "titulo_literal": "4.2.1 Verificaciones",
+   "nivel": 3,
+   "pagina": 15,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    266.5,
+    166.6,
+    276.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0043",
+   "ruta_literal": "4.2.1",
+   "sha256_texto_pagina": "d44fb62f0e44c5ad073702dac86f538e13b89b1638a68355bb6e994fa9baaf16",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0045",
+   "titulo_literal": "4.2.2 Combinación de acciones",
+   "nivel": 3,
+   "pagina": 15,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    507.0,
+    222.1,
+    517.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0043",
+   "ruta_literal": "4.2.2",
+   "sha256_texto_pagina": "d44fb62f0e44c5ad073702dac86f538e13b89b1638a68355bb6e994fa9baaf16",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0045"
+  },
+  {
+   "id_navegacion": "n0046",
+   "titulo_literal": "4.2.3 Comportamiento no lineal",
+   "nivel": 3,
+   "pagina": 16,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    293.8,
+    222.0,
+    303.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0043",
+   "ruta_literal": "4.2.3",
+   "sha256_texto_pagina": "6f12e9f0c71ac192c6c4d63fffd7c133ec75448ed3134f40c503a0bb110f9f62",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0046"
+  },
+  {
+   "id_navegacion": "n0047",
+   "titulo_literal": "4.2.4 Valor de cálculo de la resistencia",
+   "nivel": 3,
+   "pagina": 16,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    429.8,
+    256.0,
+    439.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0043",
+   "ruta_literal": "4.2.4",
+   "sha256_texto_pagina": "6f12e9f0c71ac192c6c4d63fffd7c133ec75448ed3134f40c503a0bb110f9f62",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0047"
+  },
+  {
+   "id_navegacion": "n0048",
+   "titulo_literal": "4.3 Aptitud al servicio",
+   "nivel": 2,
+   "pagina": 17,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    642.2,
+    198.3,
+    654.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0041",
+   "ruta_literal": "4.3",
+   "sha256_texto_pagina": "a2690a7790b2ca69ac5ae495ea40ed259f69c5045aa880ceb488d8353c3b7ca9",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0049",
+   "titulo_literal": "4.3.1 Verificaciones",
+   "nivel": 3,
+   "pagina": 17,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    665.8,
+    166.6,
+    675.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0048",
+   "ruta_literal": "4.3.1",
+   "sha256_texto_pagina": "a2690a7790b2ca69ac5ae495ea40ed259f69c5045aa880ceb488d8353c3b7ca9",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0050",
+   "titulo_literal": "4.3.2 Combinación de acciones",
+   "nivel": 3,
+   "pagina": 18,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    72.2,
+    222.1,
+    82.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0048",
+   "ruta_literal": "4.3.2",
+   "sha256_texto_pagina": "d46ee2f22fa3518c8057b3432cb8e8e75adb8c3526c608808bd5f94c49e7a220",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0049"
+  },
+  {
+   "id_navegacion": "n0051",
+   "titulo_literal": "4.3.3 Deformaciones",
+   "nivel": 3,
+   "pagina": 18,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    521.8,
+    171.0,
+    531.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0048",
+   "ruta_literal": "4.3.3",
+   "sha256_texto_pagina": "d46ee2f22fa3518c8057b3432cb8e8e75adb8c3526c608808bd5f94c49e7a220",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0052",
+   "titulo_literal": "4.3.3.1 Flechas",
+   "nivel": 4,
+   "pagina": 18,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    543.4,
+    144.2,
+    553.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0051",
+   "ruta_literal": "4.3.3.1",
+   "sha256_texto_pagina": "d46ee2f22fa3518c8057b3432cb8e8e75adb8c3526c608808bd5f94c49e7a220",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0053",
+   "titulo_literal": "4.3.3.2 Desplazamientos horizontales",
+   "nivel": 4,
+   "pagina": 19,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    177.2,
+    250.5,
+    187.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0051",
+   "ruta_literal": "4.3.3.2",
+   "sha256_texto_pagina": "9220aa2f58a066b6f22aebccfc526dec8a3ba31bc9de2fa8818718c63d594d75",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0051"
+  },
+  {
+   "id_navegacion": "n0054",
+   "titulo_literal": "4.3.4 Vibraciones",
+   "nivel": 3,
+   "pagina": 19,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    525.1,
+    155.4,
+    535.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0048",
+   "ruta_literal": "4.3.4",
+   "sha256_texto_pagina": "9220aa2f58a066b6f22aebccfc526dec8a3ba31bc9de2fa8818718c63d594d75",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0052"
+  },
+  {
+   "id_navegacion": "n0055",
+   "titulo_literal": "4.4 Efectos del tiempo",
+   "nivel": 2,
+   "pagina": 20,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    72.7,
+    201.0,
+    84.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0041",
+   "ruta_literal": "4.4",
+   "sha256_texto_pagina": "8cd5b953f5825d2503ed4c5e6497024d4e163e0abf7814bc463a02a7ca3a23b4",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0056",
+   "titulo_literal": "4.4.1 Durabilidad",
+   "nivel": 3,
+   "pagina": 20,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.1,
+    153.7,
+    106.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0055",
+   "ruta_literal": "4.4.1",
+   "sha256_texto_pagina": "8cd5b953f5825d2503ed4c5e6497024d4e163e0abf7814bc463a02a7ca3a23b4",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0057",
+   "titulo_literal": "4.4.2 Fatiga",
+   "nivel": 3,
+   "pagina": 20,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    324.1,
+    128.2,
+    334.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0055",
+   "ruta_literal": "4.4.2",
+   "sha256_texto_pagina": "8cd5b953f5825d2503ed4c5e6497024d4e163e0abf7814bc463a02a7ca3a23b4",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0058",
+   "titulo_literal": "4.4.2.1 Principios",
+   "nivel": 4,
+   "pagina": 20,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    345.7,
+    155.4,
+    355.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0057",
+   "ruta_literal": "4.4.2.1",
+   "sha256_texto_pagina": "8cd5b953f5825d2503ed4c5e6497024d4e163e0abf7814bc463a02a7ca3a23b4",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0059",
+   "titulo_literal": "4.4.3 Efectos reológicos",
+   "nivel": 3,
+   "pagina": 20,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    444.1,
+    188.2,
+    454.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0055",
+   "ruta_literal": "4.4.3",
+   "sha256_texto_pagina": "8cd5b953f5825d2503ed4c5e6497024d4e163e0abf7814bc463a02a7ca3a23b4",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0055"
+  },
+  {
+   "id_navegacion": "n0060",
+   "titulo_literal": "5 Verificaciones basadas en métodos experimentales",
+   "nivel": 1,
+   "pagina": 21,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    429.7,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": "5",
+   "sha256_texto_pagina": "5d165f11b0a80a49392c350b9efc0f6086f6cb66cf3ae6b1f0e71e2b90ea7a95",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0061",
+   "titulo_literal": "5.1 Generalidades",
+   "nivel": 2,
+   "pagina": 21,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    126.8,
+    177.0,
+    138.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0060",
+   "ruta_literal": "5.1",
+   "sha256_texto_pagina": "5d165f11b0a80a49392c350b9efc0f6086f6cb66cf3ae6b1f0e71e2b90ea7a95",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0062",
+   "titulo_literal": "5.2 Planteamiento experimental",
+   "nivel": 2,
+   "pagina": 21,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    243.1,
+    253.7,
+    255.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0060",
+   "ruta_literal": "5.2",
+   "sha256_texto_pagina": "5d165f11b0a80a49392c350b9efc0f6086f6cb66cf3ae6b1f0e71e2b90ea7a95",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0057"
+  },
+  {
+   "id_navegacion": "n0063",
+   "titulo_literal": "5.3 Evaluación de los resultados",
+   "nivel": 2,
+   "pagina": 21,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    638.9,
+    259.8,
+    650.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0060",
+   "ruta_literal": "5.3",
+   "sha256_texto_pagina": "5d165f11b0a80a49392c350b9efc0f6086f6cb66cf3ae6b1f0e71e2b90ea7a95",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0064",
+   "titulo_literal": "5.3.1 Generalidades",
+   "nivel": 3,
+   "pagina": 21,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    662.3,
+    167.7,
+    672.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0063",
+   "ruta_literal": "5.3.1",
+   "sha256_texto_pagina": "5d165f11b0a80a49392c350b9efc0f6086f6cb66cf3ae6b1f0e71e2b90ea7a95",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0065",
+   "titulo_literal": "5.3.2 Estimación de la resistencia característica",
+   "nivel": 3,
+   "pagina": 22,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    319.3,
+    302.6,
+    329.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": "n0063",
+   "ruta_literal": "5.3.2",
+   "sha256_texto_pagina": "898bbbd2e1fd49998a8e94bc764d2581e2ddc2b4047cf1ba7d1ec415301ae0d8",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0059"
+  },
+  {
+   "id_navegacion": "n0066",
+   "titulo_literal": "Anejo A Terminología",
+   "nivel": 1,
+   "pagina": 23,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    219.6,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "6aa63935914708a279f9187bb695856fcca9d5615fdf635deefcab0c85a042ad",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida",
+   "id_tecnico_compat": "a0060"
+  },
+  {
+   "id_navegacion": "n0067",
+   "titulo_literal": "Anejo B Notaciones",
+   "nivel": 1,
+   "pagina": 25,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    93.9,
+    210.9,
+    108.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "90228c654ed0f00fa54cdbacf6777c1c9be7b862c8681dbdf57e16c0cb48ff9f",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0068",
+   "titulo_literal": "Anejo C Principios de los métodos probabilistas explícito e implícito",
+   "nivel": 1,
+   "pagina": 27,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    534.6,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "b8ade02373a37baa6d94cb8af03e2bb73029c75aa0d1273fdff41a70ab38aa25",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  },
+  {
+   "id_navegacion": "n0069",
+   "titulo_literal": "Anejo D Evaluación estructural de edificios existentes",
+   "nivel": 1,
+   "pagina": 39,
+   "pagina_verificada": true,
+   "bbox": [
+    70.9,
+    96.9,
+    435.2,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "parent_fuente": null,
+   "ruta_literal": null,
+   "sha256_texto_pagina": "1796eff39d610f8491df1f1ccc99362404b7cd7bc91888375213c056eda36e7e",
+   "evidencia": "bloque tipográfico de la página, sin cabecera repetida"
+  }
+ ],
+ "descartados": [],
+ "paginas_indice_detectadas": [],
+ "clasificacion_apartados": {
+  "a0001": {
+   "clasificacion": "fragmento_portada",
+   "es_encabezado_navegacion": false,
+   "motivo": "fragmento_portada",
+   "pagina": 1,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p1",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Ministerio de Fomento",
+    "seccion_estimada": "Ministerio de Fomento",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p1",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p1",
+   "nivel": 1
+  },
+  "a0002": {
+   "clasificacion": "fragmento_portada",
+   "es_encabezado_navegacion": false,
+   "motivo": "fragmento_portada",
+   "pagina": 1,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p1",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p1",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p1",
+   "nivel": 1
+  },
+  "a0003": {
+   "clasificacion": "fragmento_portada",
+   "es_encabezado_navegacion": false,
+   "motivo": "fragmento_portada",
+   "pagina": 1,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p1",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Seguridad estructural SE 1 Resistencia y estabilidad",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p1",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p1",
+   "nivel": 1
+  },
+  "a0004": {
+   "clasificacion": "fragmento_portada",
+   "es_encabezado_navegacion": false,
+   "motivo": "fragmento_portada",
+   "pagina": 1,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p1",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / SE 2 Aptitud al servicio",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p1",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p1",
+   "nivel": 1
+  },
+  "a0005": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 2,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 2,
+    "bbox": [
+     141.8,
+     619.8,
+     271.9,
+     629.8
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "04a1583754245f6a23b41d460e809d95280227a19bad9c8737877eb075474b08",
+    "literal": "Disposiciones legislativas"
+   },
+   "titulo_navegacion": "Disposiciones legislativas",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0001",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Disposiciones legislativas",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Disposiciones legislativas",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Disposiciones legislativas",
+   "nivel": 1
+  },
+  "a0006": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p3",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Introducción I",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p3",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p3",
+   "nivel": 1
+  },
+  "a0007": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 3,
+    "bbox": [
+     70.9,
+     126.8,
+     135.0,
+     138.8
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+    "literal": "Objeto"
+   },
+   "titulo_navegacion": "Objeto",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Objeto",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Objeto",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Objeto",
+   "nivel": 1
+  },
+  "a0008": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 3,
+    "bbox": [
+     70.9,
+     248.3,
+     365.1,
+     258.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+    "literal": "Artículo 10. Exigencias básicas de seguridad estructural (SE)"
+   },
+   "titulo_navegacion": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0003",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Artículo 10. Exigencias básicas de seguridad estructural (SE)",
+   "nivel": 1
+  },
+  "a0009": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "ambito_global_verificado",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 3,
+    "bbox": [
+     70.9,
+     556.1,
+     217.7,
+     568.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+    "literal": "II Ámbito de aplicación"
+   },
+   "titulo_navegacion": "II Ámbito de aplicación",
+   "scope": "global",
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "raiz_ambito_global",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Artículo 10. Exigencias básicas de seguridad estructural (SE) / II Ámbito de aplicación",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "II Ámbito de aplicación",
+   "ruta_fuente": "ambito_global_verificado",
+   "seccion_estimada": "II Ámbito de aplicación",
+   "nivel": 1
+  },
+  "a0010": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 3,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 3,
+    "bbox": [
+     70.9,
+     611.9,
+     285.1,
+     623.9
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+    "literal": "III Criterios generales de aplicación"
+   },
+   "titulo_navegacion": "III Criterios generales de aplicación",
+   "scope": null,
+   "parent_id_anterior": "a0008",
+   "navegacion_id": null,
+   "parent_id_original": "a0008",
+   "parent_id": "a0008",
+   "parent_motivo": "parent_original_encabezado_anterior",
+   "extraccion_anterior": {
+    "parent_id": "a0008",
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Artículo 10. Exigencias básicas de seguridad estructural (SE) / III Criterios generales de aplicación",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "III Criterios generales de aplicación",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "III Criterios generales de aplicación",
+   "nivel": 1
+  },
+  "a0011": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 4,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p4",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Artículo 10. Exigencias básicas de seguridad estructural (SE) / IV Condiciones particulares para el cumplimiento del DB-SE",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p4",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p4",
+   "nivel": 1
+  },
+  "a0012": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 4,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 4,
+    "bbox": [
+     70.9,
+     243.9,
+     172.3,
+     255.9
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "ef96a6d7000c05b30b136c74ebf40315b584b11bedfef84604902cff53d9c25a",
+    "literal": "V Terminología"
+   },
+   "titulo_navegacion": "V Terminología",
+   "scope": null,
+   "parent_id_anterior": "a0008",
+   "navegacion_id": null,
+   "parent_id_original": "a0008",
+   "parent_id": "a0008",
+   "parent_motivo": "parent_original_encabezado_anterior",
+   "extraccion_anterior": {
+    "parent_id": "a0008",
+    "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Artículo 10. Exigencias básicas de seguridad estructural (SE) / V Terminología",
+    "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "V Terminología",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "V Terminología",
+   "nivel": 1
+  },
+  "a0013": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 5,
+    "bbox": [
+     70.9,
+     126.3,
+     151.2,
+     140.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+    "literal": "1 Generalidades"
+   },
+   "titulo_navegacion": "1 Generalidades",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0006",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "1 Generalidades",
+    "seccion_estimada": "1 Generalidades",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "1 Generalidades",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "1 Generalidades",
+   "nivel": 1
+  },
+  "a0014": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 5,
+    "bbox": [
+     70.9,
+     182.8,
+     157.3,
+     197.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+    "literal": "2 Documentación"
+   },
+   "titulo_navegacion": "2 Documentación",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0007",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Documentación",
+    "seccion_estimada": "2 Documentación",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2 Documentación",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2 Documentación",
+   "nivel": 1
+  },
+  "a0015": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 5,
+    "bbox": [
+     70.9,
+     250.7,
+     254.0,
+     265.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+    "literal": "3 Análisis estructural y dimensionado"
+   },
+   "titulo_navegacion": "3 Análisis estructural y dimensionado",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0008",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado",
+    "seccion_estimada": "3 Análisis estructural y dimensionado",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3 Análisis estructural y dimensionado",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3 Análisis estructural y dimensionado",
+   "nivel": 1
+  },
+  "a0016": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 5,
+    "bbox": [
+     70.9,
+     341.8,
+     314.2,
+     356.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+    "literal": "4 Verificaciones basadas en coeficientes parciales"
+   },
+   "titulo_navegacion": "4 Verificaciones basadas en coeficientes parciales",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0009",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales",
+   "nivel": 1
+  },
+  "a0017": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 5,
+    "bbox": [
+     70.9,
+     421.2,
+     327.5,
+     435.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+    "literal": "5 Verificaciones basadas en métodos experimentales"
+   },
+   "titulo_navegacion": "5 Verificaciones basadas en métodos experimentales",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0010",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "5 Verificaciones basadas en métodos experimentales",
+    "seccion_estimada": "5 Verificaciones basadas en métodos experimentales",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "5 Verificaciones basadas en métodos experimentales",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "5 Verificaciones basadas en métodos experimentales",
+   "nivel": 1
+  },
+  "a0018": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p5",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo A Terminología Anejo B Notaciones",
+    "seccion_estimada": "Anejo A Terminología Anejo B Notaciones",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p5",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p5",
+   "nivel": 1
+  },
+  "a0019": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 5,
+    "bbox": [
+     70.9,
+     563.8,
+     399.6,
+     578.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+    "literal": "Anejo C Principios de los métodos probabilistas explícito e implícito"
+   },
+   "titulo_navegacion": "Anejo C Principios de los métodos probabilistas explícito e implícito",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0013",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito",
+   "nivel": 1
+  },
+  "a0020": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 5,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 5,
+    "bbox": [
+     70.9,
+     677.8,
+     331.2,
+     692.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+    "literal": "Anejo D Evaluación estructural de edificios existentes"
+   },
+   "titulo_navegacion": "Anejo D Evaluación estructural de edificios existentes",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0014",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes",
+   "nivel": 1
+  },
+  "a0021": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 7,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p7",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+    "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p7",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p7",
+   "nivel": 1
+  },
+  "a0022": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 7,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 7,
+    "bbox": [
+     70.9,
+     295.1,
+     395.7,
+     307.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "7b19d48cd21dd0ffd9d802dc28faaf1ba05fdec959fd12b02ecb098e1af692f0",
+    "literal": "1.2 Prescripciones aplicables conjuntamente con DB-SE"
+   },
+   "titulo_navegacion": "1.2 Prescripciones aplicables conjuntamente con DB-SE",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0017",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas / 1.2 Prescripciones aplicables conjuntamente con DB-SE",
+    "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "1.2 Prescripciones aplicables conjuntamente con DB-SE",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "1.2 Prescripciones aplicables conjuntamente con DB-SE",
+   "nivel": 1
+  },
+  "a0023": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 9,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p9",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Documentación 2.1 Documentación del proyecto",
+    "seccion_estimada": "2 Documentación 2.1 Documentación del proyecto",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p9",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p9",
+   "nivel": 1
+  },
+  "a0024": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 9,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 9,
+    "bbox": [
+     70.9,
+     273.2,
+     139.8,
+     283.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "1053204d687547acf03870e7f64f4eb0d6275c9daa175c746efc2537d354e3e8",
+    "literal": "2.1.1 Memoria"
+   },
+   "titulo_navegacion": "2.1.1 Memoria",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0020",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Documentación 2.1 Documentación del proyecto / 2.1.1 Memoria",
+    "seccion_estimada": "2 Documentación 2.1 Documentación del proyecto",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2.1.1 Memoria",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2.1.1 Memoria",
+   "nivel": 1
+  },
+  "a0025": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 9,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 9,
+    "bbox": [
+     70.9,
+     677.6,
+     131.5,
+     687.6
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "1053204d687547acf03870e7f64f4eb0d6275c9daa175c746efc2537d354e3e8",
+    "literal": "2.1.2 Planos"
+   },
+   "titulo_navegacion": "2.1.2 Planos",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0021",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Documentación 2.1 Documentación del proyecto / 2.1.2 Planos",
+    "seccion_estimada": "2 Documentación 2.1 Documentación del proyecto",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2.1.2 Planos",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2.1.2 Planos",
+   "nivel": 1
+  },
+  "a0026": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 10,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 10,
+    "bbox": [
+     70.9,
+     154.3,
+     204.4,
+     164.3
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "f617b30541bcc420297411ebf5071e00e27d4f22c6e2641742411023ca33df63",
+    "literal": "2.1.3 Pliego de condiciones"
+   },
+   "titulo_navegacion": "2.1.3 Pliego de condiciones",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0022",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Documentación 2.1 Documentación del proyecto / 2.1.3 Pliego de condiciones",
+    "seccion_estimada": "2 Documentación 2.1 Documentación del proyecto",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2.1.3 Pliego de condiciones",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2.1.3 Pliego de condiciones",
+   "nivel": 1
+  },
+  "a0027": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 10,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 10,
+    "bbox": [
+     70.9,
+     343.7,
+     272.4,
+     355.7
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "f617b30541bcc420297411ebf5071e00e27d4f22c6e2641742411023ca33df63",
+    "literal": "2.2 Documentación final de la obra"
+   },
+   "titulo_navegacion": "2.2 Documentación final de la obra",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0023",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Documentación 2.1 Documentación del proyecto / 2.2 Documentación final de la obra",
+    "seccion_estimada": "2 Documentación 2.1 Documentación del proyecto",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2.2 Documentación final de la obra",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2.2 Documentación final de la obra",
+   "nivel": 1
+  },
+  "a0028": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 10,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 10,
+    "bbox": [
+     70.9,
+     448.5,
+     358.3,
+     460.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "f617b30541bcc420297411ebf5071e00e27d4f22c6e2641742411023ca33df63",
+    "literal": "2.3 Instrucciones de uso y plan de mantenimiento"
+   },
+   "titulo_navegacion": "2.3 Instrucciones de uso y plan de mantenimiento",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0024",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "2 Documentación 2.1 Documentación del proyecto / 2.3 Instrucciones de uso y plan de mantenimiento",
+    "seccion_estimada": "2 Documentación 2.1 Documentación del proyecto",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "2.3 Instrucciones de uso y plan de mantenimiento",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "2.3 Instrucciones de uso y plan de mantenimiento",
+   "nivel": 1
+  },
+  "a0029": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 11,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p11",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p11",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p11",
+   "nivel": 1
+  },
+  "a0030": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 11,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 11,
+    "bbox": [
+     70.9,
+     419.6,
+     175.7,
+     431.6
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+    "literal": "3.2 Estados límite"
+   },
+   "titulo_navegacion": "3.2 Estados límite",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0027",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.2 Estados límite",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.2 Estados límite",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.2 Estados límite",
+   "nivel": 1
+  },
+  "a0031": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 11,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 11,
+    "bbox": [
+     70.9,
+     482.5,
+     204.9,
+     492.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+    "literal": "3.2.1 Estados límite últimos"
+   },
+   "titulo_navegacion": "3.2.1 Estados límite últimos",
+   "scope": null,
+   "parent_id_anterior": "a0030",
+   "navegacion_id": "n0028",
+   "parent_id_original": "a0030",
+   "parent_id": "a0030",
+   "parent_motivo": "parent_original_encabezado_anterior",
+   "extraccion_anterior": {
+    "parent_id": "a0030",
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.2 Estados límite / 3.2.1 Estados límite últimos",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.2.1 Estados límite últimos",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.2.1 Estados límite últimos",
+   "nivel": 1
+  },
+  "a0032": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 11,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 11,
+    "bbox": [
+     70.9,
+     633.0,
+     221.5,
+     643.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+    "literal": "3.2.2 Estados límite de servicio"
+   },
+   "titulo_navegacion": "3.2.2 Estados límite de servicio",
+   "scope": null,
+   "parent_id_anterior": "a0030",
+   "navegacion_id": "n0029",
+   "parent_id_original": "a0030",
+   "parent_id": "a0030",
+   "parent_motivo": "parent_original_encabezado_anterior",
+   "extraccion_anterior": {
+    "parent_id": "a0030",
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.2 Estados límite / 3.2.2 Estados límite de servicio",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.2.2 Estados límite de servicio",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.2.2 Estados límite de servicio",
+   "nivel": 1
+  },
+  "a0033": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 12,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p12",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p12",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p12",
+   "nivel": 1
+  },
+  "a0034": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 12,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p12",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades / 3.3.2 Acciones 3.3.2.1 Clasificación de las acciones",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p12",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p12",
+   "nivel": 1
+  },
+  "a0035": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 12,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 12,
+    "bbox": [
+     70.9,
+     551.0,
+     199.9,
+     561.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "2dbdc7062244b4764c0ff24f1507a535ce488c9b3838b2436c2f11363d0d2ba8",
+    "literal": "3.3.2.2 Valor característico"
+   },
+   "titulo_navegacion": "3.3.2.2 Valor característico",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0034",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades / 3.3.2 Acciones 3.3.2.1 Clasificación de las acciones / 3.3.2.2 Valor característico",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 4,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.2.2 Valor característico",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.2.2 Valor característico",
+   "nivel": 1
+  },
+  "a0036": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 13,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 13,
+    "bbox": [
+     70.9,
+     157.3,
+     248.9,
+     167.3
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+    "literal": "3.3.2.3 Otros valores representativos"
+   },
+   "titulo_navegacion": "3.3.2.3 Otros valores representativos",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0035",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades / 3.3.2 Acciones 3.3.2.1 Clasificación de las acciones / 3.3.2.3 Otros valores representativos",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 4,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.2.3 Otros valores representativos",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.2.3 Otros valores representativos",
+   "nivel": 1
+  },
+  "a0037": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 13,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 13,
+    "bbox": [
+     70.9,
+     307.1,
+     203.3,
+     317.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+    "literal": "3.3.2.4 Acciones dinámicas"
+   },
+   "titulo_navegacion": "3.3.2.4 Acciones dinámicas",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0036",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades / 3.3.2 Acciones 3.3.2.1 Clasificación de las acciones / 3.3.2.4 Acciones dinámicas",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 4,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.2.4 Acciones dinámicas",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.2.4 Acciones dinámicas",
+   "nivel": 1
+  },
+  "a0038": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 13,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 13,
+    "bbox": [
+     70.9,
+     379.6,
+     192.0,
+     389.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+    "literal": "3.3.3 Datos geométricos"
+   },
+   "titulo_navegacion": "3.3.3 Datos geométricos",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0037",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades / 3.3.3 Datos geométricos",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.3 Datos geométricos",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.3 Datos geométricos",
+   "nivel": 1
+  },
+  "a0039": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 13,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 13,
+    "bbox": [
+     70.9,
+     478.1,
+     147.6,
+     488.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+    "literal": "3.3.4 Materiales"
+   },
+   "titulo_navegacion": "3.3.4 Materiales",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0038",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades / 3.3.4 Materiales",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.3.4 Materiales",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.3.4 Materiales",
+   "nivel": 1
+  },
+  "a0040": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 13,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 13,
+    "bbox": [
+     70.9,
+     716.4,
+     297.7,
+     728.4
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+    "literal": "3.4 Modelos para el análisis estructural"
+   },
+   "titulo_navegacion": "3.4 Modelos para el análisis estructural",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0039",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.4 Modelos para el análisis estructural",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.4 Modelos para el análisis estructural",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.4 Modelos para el análisis estructural",
+   "nivel": 1
+  },
+  "a0041": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 14,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 14,
+    "bbox": [
+     70.9,
+     277.2,
+     175.7,
+     289.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "3e37a2be0525c1590cbae977998c7999b199d00b645601c721c9de90506901ab",
+    "literal": "3.5 Verificaciones"
+   },
+   "titulo_navegacion": "3.5 Verificaciones",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0040",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.5 Verificaciones",
+    "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "3.5 Verificaciones",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "3.5 Verificaciones",
+   "nivel": 1
+  },
+  "a0042": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 15,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p15",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p15",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p15",
+   "nivel": 1
+  },
+  "a0043": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 15,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p15",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.2 Capacidad portante 4.2.1 Verificaciones",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p15",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p15",
+   "nivel": 1
+  },
+  "a0044": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 15,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p15",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / sección, punto o de una unión entre elementos, si para todas las situaciones de dimensionado per-",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p15",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p15",
+   "nivel": 1
+  },
+  "a0045": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 15,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 15,
+    "bbox": [
+     70.9,
+     507.0,
+     222.1,
+     517.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "d44fb62f0e44c5ad073702dac86f538e13b89b1638a68355bb6e994fa9baaf16",
+    "literal": "4.2.2 Combinación de acciones"
+   },
+   "titulo_navegacion": "4.2.2 Combinación de acciones",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0045",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / sección, punto o de una unión entre elementos, si para todas las situaciones de dimensionado per- / 4.2.2 Combinación de acciones",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.2.2 Combinación de acciones",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.2.2 Combinación de acciones",
+   "nivel": 1
+  },
+  "a0046": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 16,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 16,
+    "bbox": [
+     70.9,
+     293.8,
+     222.0,
+     303.7
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "6f12e9f0c71ac192c6c4d63fffd7c133ec75448ed3134f40c503a0bb110f9f62",
+    "literal": "4.2.3 Comportamiento no lineal"
+   },
+   "titulo_navegacion": "4.2.3 Comportamiento no lineal",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0046",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / sección, punto o de una unión entre elementos, si para todas las situaciones de dimensionado per- / 4.2.3 Comportamiento no lineal",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.2.3 Comportamiento no lineal",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.2.3 Comportamiento no lineal",
+   "nivel": 1
+  },
+  "a0047": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 16,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 16,
+    "bbox": [
+     70.9,
+     429.8,
+     256.0,
+     439.8
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "6f12e9f0c71ac192c6c4d63fffd7c133ec75448ed3134f40c503a0bb110f9f62",
+    "literal": "4.2.4 Valor de cálculo de la resistencia"
+   },
+   "titulo_navegacion": "4.2.4 Valor de cálculo de la resistencia",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0047",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / sección, punto o de una unión entre elementos, si para todas las situaciones de dimensionado per- / 4.2.4 Valor de cálculo de la resistencia",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.2.4 Valor de cálculo de la resistencia",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.2.4 Valor de cálculo de la resistencia",
+   "nivel": 1
+  },
+  "a0048": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 17,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p17",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p17",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p17",
+   "nivel": 1
+  },
+  "a0049": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 18,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 18,
+    "bbox": [
+     70.9,
+     72.2,
+     222.1,
+     82.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "d46ee2f22fa3518c8057b3432cb8e8e75adb8c3526c608808bd5f94c49e7a220",
+    "literal": "4.3.2 Combinación de acciones"
+   },
+   "titulo_navegacion": "4.3.2 Combinación de acciones",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0050",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones / 4.3.2 Combinación de acciones",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.3.2 Combinación de acciones",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.3.2 Combinación de acciones",
+   "nivel": 1
+  },
+  "a0050": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 18,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p18",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones / 4.3.3 Deformaciones 4.3.3.1 Flechas",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p18",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p18",
+   "nivel": 1
+  },
+  "a0051": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 19,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 19,
+    "bbox": [
+     70.9,
+     177.2,
+     250.5,
+     187.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9220aa2f58a066b6f22aebccfc526dec8a3ba31bc9de2fa8818718c63d594d75",
+    "literal": "4.3.3.2 Desplazamientos horizontales"
+   },
+   "titulo_navegacion": "4.3.3.2 Desplazamientos horizontales",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0053",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones / 4.3.3 Deformaciones 4.3.3.1 Flechas / 4.3.3.2 Desplazamientos horizontales",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 4,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.3.3.2 Desplazamientos horizontales",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.3.3.2 Desplazamientos horizontales",
+   "nivel": 1
+  },
+  "a0052": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 19,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 19,
+    "bbox": [
+     70.9,
+     525.1,
+     155.4,
+     535.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "9220aa2f58a066b6f22aebccfc526dec8a3ba31bc9de2fa8818718c63d594d75",
+    "literal": "4.3.4 Vibraciones"
+   },
+   "titulo_navegacion": "4.3.4 Vibraciones",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0054",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones / 4.3.4 Vibraciones",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.3.4 Vibraciones",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.3.4 Vibraciones",
+   "nivel": 1
+  },
+  "a0053": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 20,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p20",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.4 Efectos del tiempo 4.4.1 Durabilidad",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p20",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p20",
+   "nivel": 1
+  },
+  "a0054": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 20,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p20",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.4 Efectos del tiempo 4.4.1 Durabilidad / 4.4.2 Fatiga 4.4.2.1 Principios",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p20",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p20",
+   "nivel": 1
+  },
+  "a0055": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 20,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 20,
+    "bbox": [
+     70.9,
+     444.1,
+     188.2,
+     454.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "8cd5b953f5825d2503ed4c5e6497024d4e163e0abf7814bc463a02a7ca3a23b4",
+    "literal": "4.4.3 Efectos reológicos"
+   },
+   "titulo_navegacion": "4.4.3 Efectos reológicos",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0059",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.4 Efectos del tiempo 4.4.1 Durabilidad / 4.4.3 Efectos reológicos",
+    "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "4.4.3 Efectos reológicos",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "4.4.3 Efectos reológicos",
+   "nivel": 1
+  },
+  "a0056": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 21,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p21",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades",
+    "seccion_estimada": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p21",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p21",
+   "nivel": 1
+  },
+  "a0057": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 21,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 21,
+    "bbox": [
+     70.9,
+     243.1,
+     253.7,
+     255.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "5d165f11b0a80a49392c350b9efc0f6086f6cb66cf3ae6b1f0e71e2b90ea7a95",
+    "literal": "5.2 Planteamiento experimental"
+   },
+   "titulo_navegacion": "5.2 Planteamiento experimental",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0062",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades / 5.2 Planteamiento experimental",
+    "seccion_estimada": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "5.2 Planteamiento experimental",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "5.2 Planteamiento experimental",
+   "nivel": 1
+  },
+  "a0058": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 21,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p21",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades / 5.3 Evaluación de los resultados 5.3.1 Generalidades",
+    "seccion_estimada": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades",
+    "nivel": 2,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p21",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p21",
+   "nivel": 1
+  },
+  "a0059": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 22,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 22,
+    "bbox": [
+     70.9,
+     319.3,
+     302.6,
+     329.3
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "898bbbd2e1fd49998a8e94bc764d2581e2ddc2b4047cf1ba7d1ec415301ae0d8",
+    "literal": "5.3.2 Estimación de la resistencia característica"
+   },
+   "titulo_navegacion": "5.3.2 Estimación de la resistencia característica",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0065",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades / 5.3 Evaluación de los resultados 5.3.1 Generalidades / 5.3.2 Estimación de la resistencia característica",
+    "seccion_estimada": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "5.3.2 Estimación de la resistencia característica",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "5.3.2 Estimación de la resistencia característica",
+   "nivel": 1
+  },
+  "a0060": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 23,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 23,
+    "bbox": [
+     70.9,
+     96.9,
+     219.6,
+     111.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "6aa63935914708a279f9187bb695856fcca9d5615fdf635deefcab0c85a042ad",
+    "literal": "Anejo A Terminología"
+   },
+   "titulo_navegacion": "Anejo A Terminología",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": "n0066",
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo A Terminología",
+    "seccion_estimada": "Anejo A Terminología",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Anejo A Terminología",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "Anejo A Terminología",
+   "nivel": 1
+  },
+  "a0061": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 25,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p25",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo B Notaciones B.1 Notaciones",
+    "seccion_estimada": "Anejo B Notaciones B.1 Notaciones",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p25",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p25",
+   "nivel": 1
+  },
+  "a0062": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 27,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p27",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p27",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p27",
+   "nivel": 1
+  },
+  "a0063": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 27,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 27,
+    "bbox": [
+     70.9,
+     426.9,
+     391.7,
+     438.9
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "b8ade02373a37baa6d94cb8af03e2bb73029c75aa0d1273fdff41a70ab38aa25",
+    "literal": "C.2 Incertidumbres asociadas con las variables básicas"
+   },
+   "titulo_navegacion": "C.2 Incertidumbres asociadas con las variables básicas",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.2 Incertidumbres asociadas con las variables básicas",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "C.2 Incertidumbres asociadas con las variables básicas",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "C.2 Incertidumbres asociadas con las variables básicas",
+   "nivel": 1
+  },
+  "a0064": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 29,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 29,
+    "bbox": [
+     70.9,
+     72.7,
+     281.0,
+     84.7
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "55b6840e723d1c68c2fb5d4d7c30e4237c45e3683c3c4019c538694f7a818e2e",
+    "literal": "C.3 Criterios para el fallo estructural"
+   },
+   "titulo_navegacion": "C.3 Criterios para el fallo estructural",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.3 Criterios para el fallo estructural",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "C.3 Criterios para el fallo estructural",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "C.3 Criterios para el fallo estructural",
+   "nivel": 1
+  },
+  "a0065": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 31,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 31,
+    "bbox": [
+     70.9,
+     109.7,
+     211.7,
+     121.7
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "f603731973b1a13d2d6dfca1bd0886e635b33de56c5ec1c53559996f12c74ba1",
+    "literal": "C.4 Niveles de fiabilidad"
+   },
+   "titulo_navegacion": "C.4 Niveles de fiabilidad",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.4 Niveles de fiabilidad",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "C.4 Niveles de fiabilidad",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "C.4 Niveles de fiabilidad",
+   "nivel": 1
+  },
+  "a0066": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 32,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p32",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación /  ",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p32",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p32",
+   "nivel": 1
+  },
+  "a0067": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 33,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 33,
+    "bbox": [
+     70.9,
+     240.2,
+     331.1,
+     252.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "cc4bd1dc1cdf060215257e8cf73e62b705a8b41c178a4f8a59de7392aa3aafd6",
+    "literal": "C.5 Determinación de probabilidades de fallo"
+   },
+   "titulo_navegacion": "C.5 Determinación de probabilidades de fallo",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.5 Determinación de probabilidades de fallo",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "C.5 Determinación de probabilidades de fallo",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "C.5 Determinación de probabilidades de fallo",
+   "nivel": 1
+  },
+  "a0068": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 34,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 34,
+    "bbox": [
+     70.9,
+     308.3,
+     459.1,
+     320.3
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "e4da2f4da4317729ee2e7e4c1354a746c18235ee690a3fbe0a1801425149bae7",
+    "literal": "C.6 Métodos basados en la determinación de los valores de cálculo"
+   },
+   "titulo_navegacion": "C.6 Métodos basados en la determinación de los valores de cálculo",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.6 Métodos basados en la determinación de los valores de cálculo",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "C.6 Métodos basados en la determinación de los valores de cálculo",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "C.6 Métodos basados en la determinación de los valores de cálculo",
+   "nivel": 1
+  },
+  "a0069": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 35,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p35",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación /  ",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p35",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p35",
+   "nivel": 1
+  },
+  "a0070": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 35,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 35,
+    "bbox": [
+     70.9,
+     633.5,
+     321.7,
+     645.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "62fe7d3a2a311ca7a996c44d802cd2a0dbce9e3515a2b079de2237c98fff719e",
+    "literal": "C.7 El formato de los coeficientes parciales"
+   },
+   "titulo_navegacion": "C.7 El formato de los coeficientes parciales",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.7 El formato de los coeficientes parciales",
+    "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "C.7 El formato de los coeficientes parciales",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "C.7 El formato de los coeficientes parciales",
+   "nivel": 1
+  },
+  "a0071": {
+   "clasificacion": "no_encabezado",
+   "es_encabezado_navegacion": false,
+   "motivo": "sin_linea_de_encabezado",
+   "pagina": 39,
+   "encabezado_fuente_contrastado": false,
+   "titulo_navegacion": "Fragmento de PDF p39",
+   "scope": null,
+   "parent_id_anterior": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "anulado_no_encabezado",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "nivel": 1,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "Fragmento de PDF p39",
+   "ruta_fuente": "fragmento_sin_jerarquia",
+   "seccion_estimada": "Fragmento de PDF p39",
+   "nivel": 1
+  },
+  "a0072": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 39,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 39,
+    "bbox": [
+     70.9,
+     553.5,
+     301.1,
+     565.5
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "1796eff39d610f8491df1f1ccc99362404b7cd7bc91888375213c056eda36e7e",
+    "literal": "D.2 Criterios básicos para la evaluación"
+   },
+   "titulo_navegacion": "D.2 Criterios básicos para la evaluación",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.2 Criterios básicos para la evaluación",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.2 Criterios básicos para la evaluación",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.2 Criterios básicos para la evaluación",
+   "nivel": 1
+  },
+  "a0073": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 40,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 40,
+    "bbox": [
+     70.9,
+     608.1,
+     260.4,
+     620.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "e7e6d21f1588149b8fd658dad564a28849f18d22f41c81cbf5891408fc0d8237",
+    "literal": "D.3 Recopilación de información"
+   },
+   "titulo_navegacion": "D.3 Recopilación de información",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.3 Recopilación de información",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.3 Recopilación de información",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.3 Recopilación de información",
+   "nivel": 1
+  },
+  "a0074": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 42,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 42,
+    "bbox": [
+     70.9,
+     288.7,
+     207.6,
+     300.7
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "3d6a5a8c4783e8cd8a9a539cfba12409bdd5dfaff7e747b9fbff84432f6b2d12",
+    "literal": "D.4 Análisis estructural"
+   },
+   "titulo_navegacion": "D.4 Análisis estructural",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.4 Análisis estructural",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.4 Análisis estructural",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.4 Análisis estructural",
+   "nivel": 1
+  },
+  "a0075": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 42,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 42,
+    "bbox": [
+     70.9,
+     480.0,
+     164.3,
+     492.0
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "3d6a5a8c4783e8cd8a9a539cfba12409bdd5dfaff7e747b9fbff84432f6b2d12",
+    "literal": "D.5 Verificación"
+   },
+   "titulo_navegacion": "D.5 Verificación",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.5 Verificación",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.5 Verificación",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.5 Verificación",
+   "nivel": 1
+  },
+  "a0076": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 43,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 43,
+    "bbox": [
+     70.9,
+     692.1,
+     225.0,
+     704.1
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "67375cc08d416c707a0ad6f8bc1cb961dce75cb6415a9fe2ef7480307917cf68",
+    "literal": "D.6 Evaluación cualitativa"
+   },
+   "titulo_navegacion": "D.6 Evaluación cualitativa",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.6 Evaluación cualitativa",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.6 Evaluación cualitativa",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.6 Evaluación cualitativa",
+   "nivel": 1
+  },
+  "a0077": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 44,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 44,
+    "bbox": [
+     70.9,
+     468.2,
+     257.0,
+     480.2
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "6ce93517a417b82de12d06297485c7b84533910e7f0d2f6fb92c33118ab0b37f",
+    "literal": "D.7 Resultados de la evaluación"
+   },
+   "titulo_navegacion": "D.7 Resultados de la evaluación",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.7 Resultados de la evaluación",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.7 Resultados de la evaluación",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.7 Resultados de la evaluación",
+   "nivel": 1
+  },
+  "a0078": {
+   "clasificacion": "encabezado",
+   "es_encabezado_navegacion": true,
+   "motivo": "linea_verificada",
+   "pagina": 45,
+   "encabezado_fuente_contrastado": {
+    "contrastado": true,
+    "pagina": 45,
+    "bbox": [
+     70.9,
+     135.7,
+     144.3,
+     147.7
+    ],
+    "metodo": "linea_bloque_literal",
+    "sha256_texto_pagina": "1b953db4671c597702d87b566c1a0d7c78056353104002dfaa547f3ef116a4ea",
+    "literal": "D.8 Medidas"
+   },
+   "titulo_navegacion": "D.8 Medidas",
+   "scope": null,
+   "parent_id_anterior": null,
+   "navegacion_id": null,
+   "parent_id_original": null,
+   "parent_id": null,
+   "parent_motivo": "sin_parent_verificable",
+   "extraccion_anterior": {
+    "parent_id": null,
+    "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.8 Medidas",
+    "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+    "nivel": 3,
+    "estado": "obsoleta",
+    "nota": "extracción anterior; no usar como relación vigente"
+   },
+   "ruta_semantica": "D.8 Medidas",
+   "ruta_fuente": "candidato_tipografico_plano",
+   "seccion_estimada": "D.8 Medidas",
+   "nivel": 1
+  }
+ },
+ "referencias_db": {
+  "conservadas": [
+   "Artículo 10",
+   "DB-SE",
+   "DB-SE-A",
+   "DB-SE-AE",
+   "DB-SE-C",
+   "DB-SE-F",
+   "DB-SE-M",
+   "DB-SI",
+   "Real Decreto 1371/2007",
+   "Real Decreto 314/2006",
+   "Real Decreto 732/2019",
+   "UNE-EN",
+   "apartado 4",
+   "apartado 4.2",
+   "apartado 4.3",
+   "apartado 5.5",
+   "artículo 10",
+   "artículo 2",
+   "artículo 5"
+  ],
+  "descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   },
+   {
+    "literal": "DB-SE\n1",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "nota": "copia derivada y auditable; el texto y las listas originales no se modifican"
+ },
+ "advertencias": [
+  "Solo se listan nodos cuyo literal se ha localizado en la página; el resto queda en descartados y no se presenta como capítulo.",
+  "La jerarquía procede del nivel literal del marcador o de la numeración literal; no se infieren padres no documentados.",
+  "Sin verificación humana: no se marca 'verified' ni certificación."
+ ]
+}

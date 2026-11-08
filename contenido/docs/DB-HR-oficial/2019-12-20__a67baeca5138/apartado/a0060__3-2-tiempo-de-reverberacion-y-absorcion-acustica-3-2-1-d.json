@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0060",
+  "ruta_oficial": "3.2",
+  "ruta_semantica": "Fragmento de PDF p33",
+  "titulo": "3.2  Tiempo de reverberación y absorción acústica 3.2.1  Datos previos y procedimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p33",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p33",
+  "referencias_filtradas": [
+   "apartado 3.2.2",
+   "apartado 3.2.3"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.2  Tiempo de reverberación y absorción acústica 3.2.1  Datos previos y procedimiento",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a7f29fff66a2c3a263405362f6be134b0406911cb4370a7259ee451f1d7a5862"
+ },
+ "paginas": [
+  33
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.2  Tiempo de reverberación y absorción acústica 3.2.1  Datos previos y procedimiento\n3.2.1  Datos previos y procedimiento\n1\nPara satisfacer los valores límite del tiempo de reverberación requeridos en aulas y salas de confe-\nrencias de volumen hasta 350 m3, restaurantes y comedores, puede elegirse uno de los dos méto-\ndos que figuran a continuación:\na)\nel método de cálculo general del tiempo de reverberación a partir del volumen y de la absor-\nción acústicade cada uno de los recintos del apartado 3.2.2.\nb)\nel método de cálculo simplificado del tiempo de reverberación, apartado 3.2.3, que consiste en\nemplear un tratamiento absorbente acústico aplicado en el techo. Este método sólo es válido\nen el caso de aulas de volumen hasta 350 m3, restaurantes y comedores.\n2\nEn el caso de aulas y salas de conferencias, ambas opciones son aplicables si los recintos son de\nformas prismáticas rectas o asimilables.\n3\nDebe calcularse la absorción acústica, A, de las zonas comunes, como se indica en la expresión\n3.26 del apartado 3.2.2.\n4\nPara calcular el tiempo de reverberación y la absorción acústica, deben utilizarse los valores del\ncoeficiente de absorción acústica medio, m, de los acabados superficiales, de los revestimientos y\nde los elementos constructivos utilizados y el área de absorción acústica equivalente medio, AO,m,\nde cada mueble fijo, obtenidos mediante mediciones en laboratorio según los procedimientos indi-\ncados en la normativa correspondiente contenida en el anejo C o mediante tabulaciones incluidas\nen el Catálogo de Elementos Constructivos u otros Documentos Reconocidos del CTE.\nEn caso de no disponer de valores del coeficiente de absorción acústica medio m  de productos,\npodrán utilizarse los valores del coeficiente de absorción acústica ponderado, w de acabados su-\nperficiales, de los revestimientos y de los elementos constructivos de los recintos\n5\nDebe diseñarse y dimensionarse, como mínimo, un caso de cada recinto que sea diferente en for-\nma, tamaño y elementos constructivos.\n6\nIndependientemente de lo especificado en este apartado, en el Anejo J se incluyen una serie de\nrecomendaciones de diseño para aulas y salas de conferencias.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3.2.2",
+  "apartado 3.2.3"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0033.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0061",
+  "a0062",
+  "a0063"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

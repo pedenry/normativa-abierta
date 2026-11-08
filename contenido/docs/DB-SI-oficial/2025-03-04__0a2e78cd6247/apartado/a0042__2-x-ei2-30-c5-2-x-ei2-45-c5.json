@@ -1,0 +1,80 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0042",
+  "ruta_oficial": "2",
+  "ruta_semantica": "Fragmento de PDF p16",
+  "titulo": "2 x EI2 30 -C5 2 x EI2 45-C5",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p16",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p16",
+  "referencias_filtradas": [
+   "apartado 2"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 x EI2 30 -C5 2 x EI2 45-C5",
+   "seccion_estimada": "2 x EI2 30 -C5 2 x EI2 45-C5",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3ae2928c5bf39a4078055bed85777fcb5ca7bfe8d430215885f95cd81361d94c"
+ },
+ "paginas": [
+  16
+ ],
+ "etiquetas_impresas": [
+  "16"
+ ],
+ "tipos": [
+  "excepciones",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2 x EI2 30 -C5 2 x EI2 45-C5\n2 x EI2 45-C5\nMáximo recorrido hasta alguna salida del local(5)\n 25 m(6)\n 25 m(6)\n 25 m (6)\n(1)\nLas condiciones de reacción al fuego de los elementos constructivos se regulan en la tabla 4.1 del capítulo 4 de esta Sec-\nción.\n(2)\nEl tiempo de resistencia al fuego no debe ser menor que el establecido para los sectores de incendio del uso al que sirve el\nlocal de riesgo especial, conforme a la tabla 1.2, excepto cuando se encuentre bajo una cubierta no prevista para evacua-\nción y cuyo fallo no suponga riesgo para la estabilidad de otras plantas ni para la compartimentación contra incendios, en\ncuyo caso puede ser R 30.\nExcepto en los locales destinados a albergar instalaciones y equipos, puede adoptarse como alternativa el tiempo equivalen-\nte de exposición al fuego determinado conforme a lo establecido en el apartado 2 del Anejo SI B.\n(3)\nCuando el techo separe de una planta superior debe tener al menos la misma resistencia al fuego que se exige a las pare-\ndes, pero con la característica REI en lugar de EI, al tratarse de un elemento portante y compartimentador de incendios. En\ncambio, cuando sea una cubierta no destinada a actividad alguna, ni prevista para ser utilizada en la evacuación, no precisa\ntener una función de compartimentación de incendios, por lo que sólo debe aportar la resistencia al fuego R que le corres-\nponda como elemento estructural, excepto en las franjas a las que hace referencia el capítulo 2 de la Sección SI 2, en las\nque dicha resistencia debe ser REI.\n(4)\nConsiderando la acción del fuego en el interior del recinto.\nLa resistencia al fuego del suelo es función del uso al que esté destinada la zona existente en la planta inferior. Véase apar-\ntado 3 de la Sección SI 6 de este DB.\n(5)\nEl recorrido por el interior de la zona de riesgo especial debe ser tenido en cuenta en el cómputo de la longitud de los reco-\nrridos de evacuación hasta las salidas de planta. Lo anterior no es aplicable al recorrido total desde un garaje de una vivien-\nda unifamiliar hasta una salida de dicha vivienda, el cual no está limitado.\n(6)\nPodrá aumentarse un 25% cuando la zona esté protegida con una Instalación automática de extinción.\n3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0016.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0043",
+  "a0044"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

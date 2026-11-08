@@ -1,0 +1,299 @@
+{
+ "documento": null,
+ "pagina": 60,
+ "etiqueta_impresa": "60",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-58",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    96.8,
+    73.4,
+    325.0,
+    85.3
+   ],
+   "tipo": "texto",
+   "texto": "kS\ncoeficiente que toma los siguientes valores:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    128.7,
+    90.9,
+    350.5,
+    102.8
+   ],
+   "tipo": "texto",
+   "texto": "kS = 1,00\npara agujeros con medidas normales;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    128.7,
+    108.3,
+    413.9,
+    120.3
+   ],
+   "tipo": "texto",
+   "texto": "kS = 0,85\npara agujeros con sobremedidas o rasgados cortos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    128.7,
+    125.9,
+    321.1,
+    137.8
+   ],
+   "tipo": "texto",
+   "texto": "kS = 0,70\npara agujeros rasgados largos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    143.2,
+    541.4,
+    166.8
+   ],
+   "tipo": "texto",
+   "texto": "µ\ncoeficiente de rozamiento, que tomará los siguientes valores (que se corresponden con las\ncategorías A a D de la tabla 7 de la UNE-ENV 1090-1:1997).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    128.7,
+    172.9,
+    442.2,
+    185.1
+   ],
+   "tipo": "texto",
+   "texto": "µ = 0,50\npara superficies tratadas con chorro de granalla o arena, y",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    128.7,
+    191.4,
+    541.4,
+    214.0
+   ],
+   "tipo": "texto",
+   "texto": "para superficies tratadas con chorro de granalla o arena y posterior tratamiento\ncon aluminio;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    128.7,
+    220.1,
+    538.7,
+    243.8
+   ],
+   "tipo": "texto",
+   "texto": "µ = 0,40\npara superficies tratadas con chorro de granalla o arena y pintadas con un silica-\nto alcalino de zinc;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    128.7,
+    249.9,
+    538.6,
+    273.6
+   ],
+   "tipo": "texto",
+   "texto": "µ = 0,30\npara superficies limpiadas a cepillo metálico o con llama, con eliminación de par-\ntes oxidadas;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    128.7,
+    279.6,
+    309.4,
+    291.9
+   ],
+   "tipo": "texto",
+   "texto": "µ = 0,20\npara superficies no tratadas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.1,
+    298.1,
+    541.4,
+    320.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nCuando actúen simultáneamente sobre el tornillo esfuerzos de tracción y cortante la expresión de\nla resistencia de cálculo a deslizamiento es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    153.2,
+    321.2,
+    233.7,
+    341.1
+   ],
+   "tipo": "texto",
+   "texto": "(\n)",
+   "tamano": 12.7,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    179.2,
+    349.9,
+    188.8,
+    357.7
+   ],
+   "tipo": "texto",
+   "texto": "3\nM",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    103.7,
+    333.8,
+    228.0,
+    349.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "ser\n.\nEd\n.t\nCd\n.\np\ns\nRd\n.s",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    98.0,
+    328.6,
+    205.0,
+    356.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "F\n8,0\nF\nn\nk\nF\nγ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    122.0,
+    327.6,
+    544.3,
+    348.1
+   ],
+   "tipo": "texto",
+   "texto": "−\nµ\n=\n(7.8)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    96.8,
+    365.0,
+    129.1,
+    376.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    96.8,
+    382.5,
+    541.5,
+    394.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ft.Ed.ser esfuerzo axil de cálculo en servicio por tornillo, al que en su caso se añadirán las tracciones",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    130.8,
+    394.1,
+    300.9,
+    405.3
+   ],
+   "tipo": "texto",
+   "texto": "debidas al efecto palanca (figura 8.1).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    74.1,
+    411.5,
+    541.4,
+    434.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa resistencia al deslizamiento no se reducirá cuando las tracciones en los tornillos provengan de\nun momento y estén equilibradas por una fuerza de contacto igual en la zona comprimida.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

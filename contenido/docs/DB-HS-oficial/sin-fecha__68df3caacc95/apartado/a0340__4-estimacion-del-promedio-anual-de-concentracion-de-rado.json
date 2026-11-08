@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0340",
+  "ruta_oficial": "4",
+  "ruta_semantica": "4 Estimación del promedio anual de concentración de radón",
+  "titulo": "4 Estimación del promedio anual de concentración de radón",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4 Estimación del promedio anual de concentración de radón",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 183,
+   "bbox": [
+    70.9,
+    419.4,
+    486.2,
+    435.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f401bcb50009f16209f7d8bbe8e4c9536ad0b3896dcfcc0cc2e1b040ecf13a28",
+   "literal": "4 Estimación del promedio anual de concentración de radón"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-HE",
+   "apartado 2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4 Estimación del promedio anual de concentración de radón",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Estimación del promedio anual de concentración de radón",
+   "seccion_estimada": "4 Estimación del promedio anual de concentración de radón",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1fea911b280aa8fac268dd454d0903d483bd311434cd35e5623e35f82c4e1e76"
+ },
+ "paginas": [
+  183,
+  184
+ ],
+ "etiquetas_impresas": [
+  "183",
+  "184"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "4 Estimación del promedio anual de concentración de radón\n1\nLa fase de estimación del promedio anual de concentración de radón se realizará por la dirección\nfacultativa o entidad de control.\n2\nA partir de los valores de concentración de radón en el aire que proporcione la entidad de medida,\nse estimará el promedio anual de concentración de radón durante el periodo de exposición para\ncada una de las zonas de muestreo donde los detectores estuvieron expuestos.\n3\nCuando en una zona de muestreo se haya expuesto solo uno o dos detectores, el valor promedio de\nconcentración corresponderá al resultado de la medida más alta. En otro caso, el promedio se\ncalculará como la media aritmética de los valores de concentración de radón proporcionados por\ntodos los detectores expuestos en la zona de muestreo.\n4\nPara obtener el promedio anual de concentración de radón en cada zona de muestreo, el resultado\nobtenido de acuerdo con lo especificado en el punto 2 de este apartado deberá multiplicarse por un\nfactor 1,4 en los siguientes casos:\na)\nsi las exposiciones de los detectores han tenido lugar en un edificio no ocupado en el que, por\ncondicionantes prácticos, no se pueden garantizar las condiciones de edificio cerrado; o\nb)\nsi las exposiciones de los detectores han tenido lugar en un edificio en uso situado en alguna\nde las zonas climáticas de invierno C, D o E establecidas en el DB-HE Ahorro de energía y el\nperiodo de exposición no coincide al menos en 2/3 con la temporada de calefacción.\n5\nEn el resto de los casos, el promedio de concentración de radón durante el periodo de exposición se\nconsiderará una estimación adecuada del promedio anual de concentración de radón.\n6\nEn la información justificativa de la estimación del promedio anual deconcentración de radón en el\ninterior del edificio, deberán incluirse los siguientes datos:\n\nDocumento Básico HS Salubridad\nHS 6 Protección frente a la exposición al radón\n184\na)\ninformación sobre estado del edificio o zona de muestreo durante la exposición de los\ndetectores (en uso/no ocupado, cerrado/no cerrado, calificación energética);\nb)\nmediante el esquema gráfico del edificio y plano de cada planta indicados en el apartado 2.2 se\nmostrará la ubicación de cada detector, con su correspondiente código identificativo;\nc)\nen su caso, circunstancias que puedan inducir a valores anómalos en las medidas\n(concentraciones elevadas de radón, condiciones meteorológicas atípicas, etc.);\nd)\npara cada zona de muestreo:\ni)\nnúmero de detectores expuestos y código identificativo de cada uno de ellos;\nii)\npromedio de concentración de radón durante el periodo de muestreo y promedio anual de\nconcentración de radón;\ne)",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-HE",
+  "apartado 2.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0302",
+  "ruta_oficial": null,
+  "ruta_semantica": "Apéndice B. Obtención de la intensidad pluviométrica",
+  "titulo": "Apéndice B. Obtención de la intensidad pluviométrica",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Apéndice B. Obtención de la intensidad pluviométrica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 136,
+   "bbox": [
+    70.9,
+    95.3,
+    433.7,
+    110.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0532cd2075dadbd2434af1c16477bb20e243325550abfe7fbe8bbf76b7236e96",
+   "literal": "Apéndice B. Obtención de la intensidad pluviométrica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Apéndice B. Obtención de la intensidad pluviométrica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Apéndice B. Obtención de la intensidad pluviométrica",
+   "seccion_estimada": "Apéndice B. Obtención de la intensidad pluviométrica",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6ebac60c793898e64927b212b3b1f5678d0c8302e3a7fc22d5b57d35f97d9284"
+ },
+ "paginas": [
+  136,
+  137
+ ],
+ "etiquetas_impresas": [
+  "136",
+  "137"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Apéndice B. Obtención de la intensidad pluviométrica\n1\nLa intensidad pluviométrica i se obtendrá en la tabla B.1 en función de la isoyeta y de la zona plu-\nviométrica correspondientes a la localidad determinadas mediante el mapa de la figura B.1\nFigura B.1  Mapa de isoyetas y zonas pluviométricas\nTabla B.1\nIntensidad Pluviométrica i (mm/h)\nIsoyeta\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100 110\n120\nZona A\n30\n65\n90\n125\n155\n180\n210\n240\n275 300 330\n365\nZona B\n30\n50\n70\n90\n110\n135\n150\n170\n195 220 240\n265\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n137",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0136.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

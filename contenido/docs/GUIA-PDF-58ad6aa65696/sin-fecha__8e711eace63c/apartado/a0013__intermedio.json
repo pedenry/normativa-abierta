@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-58ad6aa65696",
+ "code": "GUIA",
+ "title": "Solucion C1 Ventilacion de los locales habitables",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__8e711eace63c",
+ "sha256": "8e711eace63c8ecfb73b727641d2918bf2380b10b975ba2b876b361f1b4479e8",
+ "apartado": {
+  "id_tecnico": "a0013",
+  "ruta_oficial": null,
+  "ruta_semantica": "6. PUNTOS CRÍTICOS Ubicación del extractor en un tramo / intermedio",
+  "titulo": "intermedio",
+  "nivel": 3,
+  "parent_id": "a0012",
+  "seccion_estimada": "6. PUNTOS CRÍTICOS Ubicación del extractor en un tramo"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "intermedio\nEn el caso de que se instale un extractor en un tramo\nintermedio o al principio de un shunt colectivo (que da\nservicio a distintos locales húmedos), el aire extraído\ncargado de radón y del resto de contaminantes podría\nintroducirse al resto de locales a los que da servicio el\nshunt por las propias aberturas de extracción (Figura 4).\nPara evitarlo los extractores se situarán en cubierta o,\nen todo caso, tras la incorporación del último ramal al\nshunt.\nFigura 4 - \u0007Sistema de ventilación con extractor al principio del shunt\ncolectivo (arriba) y en cubierta (abajo)",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0003_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Solucion_C1_Ventilacion_de_los_locales_habitables.pdf",
+  "sha256": "8e711eace63c8ecfb73b727641d2918bf2380b10b975ba2b876b361f1b4479e8",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0012",
+  "nivel": 3,
+  "seccion_estimada": "6. PUNTOS CRÍTICOS Ubicación del extractor en un tramo",
+  "ruta_semantica": "6. PUNTOS CRÍTICOS Ubicación del extractor en un tramo / intermedio"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

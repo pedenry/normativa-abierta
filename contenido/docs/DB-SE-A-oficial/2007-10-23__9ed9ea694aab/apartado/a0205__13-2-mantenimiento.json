@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0205",
+  "ruta_oficial": "13.2",
+  "ruta_semantica": "13.2 Mantenimiento",
+  "titulo": "13.2 Mantenimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "13.2 Mantenimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 139,
+   "bbox": [
+    74.1,
+    528.3,
+    169.7,
+    539.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "33a9892e4d1b7a99732b89fffd1ec86c1b050e542cd19f9aea67e2bb24380dc8",
+   "literal": "13.2 Mantenimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0206",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "13.2 Mantenimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "13 Inspección y mantenimiento 13.1 Inspección / 13.2 Mantenimiento",
+   "seccion_estimada": "13 Inspección y mantenimiento 13.1 Inspección",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dbfa6bec1856672f914eb2c2e43626c7a8f38608d5db3629b26b6d3d1bbd4e64"
+ },
+ "paginas": [
+  139,
+  141
+ ],
+ "etiquetas_impresas": [
+  "139",
+  "141"
+ ],
+ "tipos": [],
+ "texto": "13.2 Mantenimiento\n1\nEl mantenimiento de la estructura metálica se hará extensivo a los elementos de protección, espe-\ncialmente a los de protección ante incendio.\n2\nLas actividades de mantenimiento se ajustarán a los plazos de garantía declarados por los fabri-\ncantes (de pinturas, por ejemplo).\n3\nNo se contemplan en este apartado las operaciones de mantenimiento específicas de los edificios\nsometidos a acciones que induzcan fatiga. En este caso se redactará un plan de mantenimiento in-\ndependiente del general incluso en el caso de adoptar el planteamiento de vida segura en la com-\nprobación a fatiga.\n4\nSi en la comprobación a fatiga se ha adoptado el criterio de tolerancia al daño, el plan de manteni-\nmiento debe especificar el procedimiento para evitar la propagación de las fisuras, así como el tipo\nde maquinaria a emplear, el acabado, etc.\n\nDocumentoBásico SE-A Acero\nSE-A-139",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

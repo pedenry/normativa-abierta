@@ -1,0 +1,63 @@
+{
+ "indice": 5,
+ "pagina": 6,
+ "etiqueta_impresa": "6",
+ "bbox": [
+  128.2,
+  422.8,
+  539.6,
+  439.1
+ ],
+ "filas": 1,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Elementos de separación horizontales (forjado, suelo flotante y techo suspendido)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "Elementos de separación horizontales (forjado, suelo flotante y techo suspendido)",
+  ""
+ ],
+ "header": {
+  "names": [
+   "",
+   "Elementos de separación horizontales (forjado, suelo flotante y techo suspendido)",
+   ""
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C0494C3B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C0494DBE0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C0494CEF0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0006.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

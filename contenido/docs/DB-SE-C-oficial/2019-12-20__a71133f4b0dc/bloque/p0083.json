@@ -1,0 +1,127 @@
+{
+ "documento": null,
+ "pagina": 83,
+ "etiqueta_impresa": "2",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-78",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    258.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nEl cálculo de esfuerzos podrá efectuarse a partir de las leyes de empujes unitarios definidas en el\napartado 6.2, empleadas en las comprobaciones de estabilidad por métodos de equilibrio límite y de\nlas reacciones de los elementos de sujeción deducidas en tales comprobaciones. Con este proce-\ndimiento no se tiene en cuenta más que de forma cualitativa la rigidez de la pantalla con relación a\nsu empotramiento en el terreno y a las condiciones de sujeción y, de ningún modo, las propiedades\nde deformación del terreno.\n3\nLa determinación de los esfuerzos sobre la pantalla debe llevarse a cabo para todas las fases de\nejecución de la excavación o del edificio, que impliquen una variación de los empujes del terreno o\nde las fuerzas de sujeción. Podrán omitirse aquellas fases en que pueda demostrarse \"a priori\" que\nlos esfuerzos son inferiores a los que se producirán en otras.\n4\nDeberá efectuarse un estudio más detallado empleando modelos basados en el coeficiente de ba-\nlasto o modelos de elementos finitos o diferencias finitas en los siguientes casos:\na)\ncuando existan edificios o servicios próximos especialmente sensibles a los movimientos;\nb)\ncuando no exista experiencia en obras similares.\n5\nEstos métodos se describen en el apartado 6.3.2.2.3 y se desarrollan en el anejo F.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    269.9,
+    168.1,
+    279.8
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2.3.2 Del terreno",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    285.5,
+    541.3,
+    439.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nSi existe alguna edificación o servicio próximo al borde de la excavación o en sus inmediaciones,\ndeben estimarse los movimientos verticales y horizontales a que se verá sometida su cimentación\nen las diferentes fases de excavación, para la pantalla diseñada, y juzgar si entrañan peligro para la\nestabilidad de dichas edificaciones o pueden ser causa de agrietamientos, inclinaciones, asientos\nimportantes, etc.\n2\nLa determinación de las deformaciones del terreno podrá conducir a proyectar una pantalla más\nrígida, con mayor número de elementos de sujeción o mejor dispuestos, con otro sistema u otras\nfases de ejecución, etc.\n3\nLa determinación de las deformaciones del terreno puede efectuarse aplicando métodos de discre-\ntización del continuo, como elementos finitos o diferencias finitas, en los que se tengan en cuenta\nlas características tensión - deformación de los suelos y la flexibilidad de la pantalla, o bien, méto-\ndos basados en el modelo de Winkler, en los que la determinación de los movimientos del terreno\nse limita a los de la pantalla.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    450.8,
+    255.5,
+    460.8
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2.3.3 De los elementos de sujeción",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    466.4,
+    541.3,
+    672.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nLos esfuerzos sobre los elementos de sujeción se determinarán para todas las fases de ejecución\nde la excavación en que intervengan; puede omitirse el cálculo en aquellas fases para las que pue-\ndan demostrarse a priori que los esfuerzos son inferiores a los que resultan en otras.\n2\nEn la determinación de los esfuerzos sobre los elementos de sujeción se tomarán en consideración\nlos siguientes aspectos:\na)\ntipo de elemento de sujeción, bien sea apuntalamiento, anclaje o elementos estructurales del\nedificio;\nb)\ndeformabilidad del mismo;\nc)\ndeformaciones diferidas (fluencia, retracción);\nd)\nestado tensional inicial;\ne)\nfases de ejecución;\nf)\nvariaciones térmicas.\n3\nPara tener en cuenta el posible fallo de algún elemento (como por un ablandamiento local del te-\nrreno en el caso de anclajes), que sobrecargará los más próximos, debe aumentarse en un 10% el\nesfuerzo deducido para cada elemento de sujeción en las comprobaciones de estabilidad de la pan-\ntalla.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    684.4,
+    178.0,
+    694.3
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2.4 Dimensionado",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    700.0,
+    541.3,
+    761.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn la fase de diseño se decide el tipo de pantalla que se va a emplear, si se van a disponer elemen-\ntos de sujeción, su número, tipo y situación y las fases de la excavación y ejecución del edificio que\npuedan afectar a la pantalla.\n2\nEl dimensionado debe referirse a los siguientes aspectos:\na)\nprofundidad de la pantalla;",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

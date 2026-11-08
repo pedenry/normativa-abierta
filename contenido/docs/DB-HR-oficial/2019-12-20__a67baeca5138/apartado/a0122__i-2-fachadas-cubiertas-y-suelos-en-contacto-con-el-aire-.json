@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0122",
+  "ruta_oficial": null,
+  "ruta_semantica": "I.2 Fachadas, cubiertas y suelos en contacto con el aire exterior",
+  "titulo": "I.2 Fachadas, cubiertas y suelos en contacto con el aire exterior",
+  "nivel": 1,
+  "parent_id": "a0121",
+  "seccion_estimada": "I.2 Fachadas, cubiertas y suelos en contacto con el aire exterior",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 72,
+   "bbox": [
+    70.9,
+    111.3,
+    439.6,
+    124.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b19653fb81a81de58ab332dea57e7abf6f79ddf6f46b255239568a381c70633b",
+   "literal": "I.2 Fachadas, cubiertas y suelos en contacto con el aire exterior"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0121",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "I.2 Fachadas, cubiertas y suelos en contacto con el aire exterior",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0121",
+   "ruta_semantica": "Anejo I. Opción simplificada para vivienda unifamiliar adosada / I.2 Fachadas, cubiertas y suelos en contacto con el aire exterior",
+   "seccion_estimada": "Anejo I. Opción simplificada para vivienda unifamiliar adosada",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bd7dccdde206e2f0960cf375284ddcd556cbf58402f888a555997c257991445f"
+ },
+ "paginas": [
+  72,
+  73
+ ],
+ "etiquetas_impresas": [
+  "3",
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "I.2 Fachadas, cubiertas y suelos en contacto con el aire exterior\nLas fachadas, cubiertas y suelos en contacto con el aire exterior, deben cumplir lo establecido en el apar-\ntado 3.1.2.5.\n\nDocumento Básico HR - Protección frente al ruido\nHR J-1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0073.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,433 @@
+{
+ "documento": null,
+ "pagina": 16,
+ "etiqueta_impresa": "16",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.1,
+    39.2,
+    375.7,
+    48.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HE Ahorro de energía",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    183.8,
+    51.4,
+    413.7,
+    60.3
+   ],
+   "tipo": "texto",
+   "texto": "HE 1. Condiciones para el control de la demanda energética",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    293.2,
+    796.9,
+    304.3,
+    805.8
+   ],
+   "tipo": "texto",
+   "texto": "16",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    56.7,
+    76.5,
+    300.5,
+    88.8
+   ],
+   "tipo": "titulo",
+   "texto": "3.1.1 Transmitancia de la envolvente térmica",
+   "tamano": 11.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    56.7,
+    94.0,
+    541.4,
+    116.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa transmitancia térmica (U) de cada elemento perteneciente a la envolvente térmica no superará el valor\nlímite (Ulim) de la tabla 3.1.1.a-HE1:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    140.3,
+    129.0,
+    457.4,
+    139.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 3.1.1.a - HE1     Valores límite de transmitancia térmica, Ulim [W/m²K]",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    100.2,
+    157.5,
+    143.2,
+    167.6
+   ],
+   "tipo": "texto",
+   "texto": "Elemento",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    361.7,
+    148.0,
+    477.2,
+    158.1
+   ],
+   "tipo": "texto",
+   "texto": "Zona climática de invierno",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    349.3,
+    166.0,
+    489.7,
+    176.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "α\nA\nB\nC\nD\nE",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    100.2,
+    184.2,
+    492.9,
+    194.3
+   ],
+   "tipo": "texto",
+   "texto": "Muros y suelos en contacto con el aire exterior (US, UM)\n0,80\n0,70\n0,56\n0,49 0,41 0,37",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    100.2,
+    202.2,
+    492.9,
+    212.3
+   ],
+   "tipo": "texto",
+   "texto": "Cubiertas en contacto con el aire exterior (UC)\n0,55\n0,50\n0,44\n0,40 0,35 0,33",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    100.2,
+    219.1,
+    323.7,
+    260.3
+   ],
+   "tipo": "texto",
+   "texto": "Muros, suelos y cubiertas en contacto con espacios no\nhabitables o con el terreno (UT)\nMedianerías o particiones interiores pertenecientes a la\nenvolvente térmica (UMD)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    343.3,
+    234.7,
+    492.9,
+    244.7
+   ],
+   "tipo": "texto",
+   "texto": "0,90\n0,80\n0,75\n0,70 0,65 0,59",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    100.2,
+    266.1,
+    492.9,
+    286.4
+   ],
+   "tipo": "texto",
+   "texto": "Huecos (conjunto de marco, vidrio y, en su caso, cajón de\npersiana) (UH)*\n3,2\n2,7\n2,3\n2,1\n1,8\n1,80",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    100.2,
+    292.2,
+    426.9,
+    312.6
+   ],
+   "tipo": "texto",
+   "texto": "Puertas con superficie semitransparente igual o inferior al\n50%\n5,7",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    99.2,
+    321.4,
+    487.4,
+    339.9
+   ],
+   "tipo": "texto",
+   "texto": "*Los huecos con uso de escaparate en unidades de uso con actividad comercial pueden incrementar el valor\nde UH en un 50%.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    56.7,
+    359.2,
+    541.4,
+    381.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn el caso de reformas, el valor límite (Ulim) de la tabla 3.1.1.a-HE1 será de aplicación únicamente a\naquellos elementos de la envolvente térmica:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    85.1,
+    385.2,
+    541.4,
+    410.9
+   ],
+   "tipo": "texto",
+   "texto": "a) que se sustituyan, incorporen, o modifiquen sustancialmente;\nb) que vean modificadas sus condiciones interiores o exteriores como resultado de la intervención,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    56.7,
+    411.2,
+    541.4,
+    511.9
+   ],
+   "tipo": "texto",
+   "texto": "cuando estas supongan un incremento de las necesidades energéticas del edificio.\nAsimismo, en reformas se podrán superar los valores de la tabla 3.1.1.a-HE1 cuando el coeficiente global\nde transmisión de calor (K) obtenido considerando la transmitancia térmica final de los elementos\nafectados no supere el obtenido aplicando los valores de la tabla.\n3\nEl coeficiente global de transmisión de calor a través de la envolvente térmica (K) del edificio, o parte\ndel mismo, con uso residencial privado, no superará el valor límite (Klim) obtenido de la tabla 3.1.1.b-\nHE1:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    139.6,
+    524.1,
+    458.2,
+    534.2
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 3.1.1.b - HE1    Valor límite Klim [W/m²K] para uso residencial privado",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    93.7,
+    540.5,
+    326.3,
+    566.9
+   ],
+   "tipo": "texto",
+   "texto": "Compacidad\nV/A [m³/m2]",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    363.5,
+    542.5,
+    479.6,
+    554.7
+   ],
+   "tipo": "texto",
+   "texto": "Zona climática de invierno",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    344.2,
+    560.7,
+    499.0,
+    570.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "α\nA\nB\nC\nD\nE",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    93.7,
+    590.3,
+    234.8,
+    600.3
+   ],
+   "tipo": "texto",
+   "texto": "Edificios nuevos y ampliaciones",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    269.8,
+    579.7,
+    504.7,
+    589.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "V/A ≤ 1\n0,67\n0,60\n0,58\n0,53\n0,48\n0,43",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    269.8,
+    601.3,
+    504.7,
+    611.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "V/A ≥ 4\n0,86\n0,80\n0,77\n0,72\n0,67\n0,62",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 26,
+   "bbox": [
+    93.7,
+    621.8,
+    260.8,
+    662.9
+   ],
+   "tipo": "texto",
+   "texto": "Cambios de uso.\nReformas en las que se renueve más\ndel 25% de la superficie total de la\nenvolvente térmica final del edificio",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 27,
+   "bbox": [
+    269.8,
+    625.6,
+    504.7,
+    635.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "V/A ≤ 1\n1,00\n0,87\n0,83\n0,73\n0,63\n0,54",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    269.8,
+    650.4,
+    504.7,
+    660.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "V/A ≥ 4\n1,07\n0,94\n0,90\n0,81\n0,70\n0,62",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 29,
+   "bbox": [
+    93.7,
+    673.4,
+    425.0,
+    682.3
+   ],
+   "tipo": "texto",
+   "texto": "Los valores límite de las compacidades intermedias (1<V/A<4) se obtienen por interpolación.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    93.7,
+    685.7,
+    504.1,
+    703.7
+   ],
+   "tipo": "texto",
+   "texto": "En el caso de ampliaciones los valores límite se aplicarán sólo en caso de que la superficie o el volumen construido\nse incrementen más del 10%.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    56.7,
+    713.2,
+    541.4,
+    747.3
+   ],
+   "tipo": "texto",
+   "texto": "4\nEl coeficiente global de transmisión de calor a través de la envolvente térmica (K) del edificio, o parte del\nmismo, con uso distinto al residencial privado no superará el valor límite (Klim) obtenido de la tabla 3.1.1.c-\nHE1:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

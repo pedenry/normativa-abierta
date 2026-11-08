@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0060",
+  "ruta_oficial": "5.3.2",
+  "ruta_semantica": "5.3.2 Capacidad portante",
+  "titulo": "5.3.2 Capacidad portante",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.3.2 Capacidad portante",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 26,
+   "bbox": [
+    70.9,
+    543.4,
+    192.0,
+    553.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e6962c7bf233620bf2b1b4864d8233e87b45a63a36a9af91c35cf12f938df876",
+   "literal": "5.3.2 Capacidad portante"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0059",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3.2 Capacidad portante",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. / 5.3 Muros sometidos a cortante 5.3.1 Análisis de solicitaciones / 5.3.2 Capacidad portante",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "559f2c7d1a0baca10167d3ccc1cef4c4aa234bf71827a7e1766c3f4754d00d4d"
+ },
+ "paginas": [
+  26,
+  27
+ ],
+ "etiquetas_impresas": [
+  null,
+  "3"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.3.2 Capacidad portante\n1\nEl esfuerzo cortante de cálculo aplicado, VSd, será menor o igual que el esfuerzo cortante resistente,\nVRd, es decir:\nVSd ≤ VRd\n(5.16)\n2\nSe considerará la combinación del esfuerzo normal y del esfuerzo cortante más desfavorable de las\nsiguientes:\na)\nEn el muro, el esfuerzo normal, por efecto de las cargas verticales, aplicado con la excentricidad\ndebida a la flexión que causan las acciones horizontales.\nb)\nEn cada ala, el esfuerzo normal.\nc)\nEn el muro, el esfuerzo cortante horizontal.\nd)\nEn la unión del muro con cada ala, el esfuerzo cortante vertical (rasante) máximo.\n3\nAl efecto de evaluar el esfuerzo normal que contribuye a la resistencia a cortante:\na)\nEn los muros que sustentan forjados bidireccionales, la carga de los forjados se repartirá alícuo-\ntamente entre los muros sustentantes.\nb)\nEn el caso de forjados unidireccionales, dotados de una losa superior y un encadenado de\napoyo, puede considerarse una distribución a 45º, en alzado, de la carga del forjado sobre los\nmuros no directamente cargados.\n\nDocumento Básico SE-F Fábrica\nSE-F-23\n3\nLa capacidad resistente de cálculo a esfuerzo cortante vale:\nVRd = VRd1 + VRd2\n(5.17)\ndonde\nVRd1 = fvd·t·Ld\n(5.18)\nVRd2 = 0,67·As·fyd·Ld/s\n(5.19)\nsiendo:\nfvd\nla resistencia de cálculo a cortante de la fábrica, considerando la tensión vertical correspon-\ndiente, según 4.5.3\nt\nel espesor, en su caso residual, del muro\nLd\nla longitud comprimida del muro debida a las acciones verticales, equilibrando a las horizonta-\nles, descontando pues la zona de tracción, suponiendo una distribución lineal de tensiones\ns\nseparación entre las armaduras de tendel.\nEn cualquier caso, la capacidad resistente a cortante no puede ser superior a;\nVRd 2,0 N/mm2·t·Ld\n(5.20)\n4\nComo resistencia vertical a corte de la unión puede tomarse el valor de resistencia a cortante puro\n(véase tabla 4.5)\nFigura 5.9 Evaluación a cortante de las armaduras de tendel.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0026.png",
+  "../figura/p0027.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

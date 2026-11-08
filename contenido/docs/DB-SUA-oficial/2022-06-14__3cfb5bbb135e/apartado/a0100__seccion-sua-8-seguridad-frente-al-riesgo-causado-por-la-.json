@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0100",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+  "titulo": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    71.3,
+    515.6,
+    107.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "2c5884a56b741dc5c26dfe0e509a486a413339f12b572ed4174aae7bfe753450",
+   "literal": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0066",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+   "seccion_estimada": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6ba29780d95cb3a01fcbda68ff28f1dbcf01d14f8b5bc1b5a2ac81b09a12ffad"
+ },
+ "paginas": [
+  28
+ ],
+ "etiquetas_impresas": [
+  "28"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Sección SUA 8 Seguridad frente al riesgo causado por la acción del rayo\nSeguridad frente al riesgo causado por la acción del rayo\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0101",
+  "a0102"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

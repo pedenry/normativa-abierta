@@ -1,0 +1,84 @@
+---
+
+documento: "Parte I"
+id: "PARTE-I-oficial"
+capa: "oficial"
+version: "2022-06-14"
+id_tecnico: "a0140"
+ruta_oficial: null
+ruta_semantica: "ANEJO III. TERMINOLOGÍA / Recinto habitable:"
+parent_id: "a0117"
+nivel: 2
+titulo: "Recinto habitable:"
+paginas_fisicas: "25-25"
+paginas_impresas: "25-25"
+sha256_documento: "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f"
+tipos: "referencias"
+seccion_estimada: "ANEJO III. TERMINOLOGÍA"
+titulo_navegacion: "Recinto habitable:"
+ruta_fuente: "toc_verificado_literal"
+clasificacion_navegacion: "encabezado"
+es_encabezado_navegacion: true
+sha256_body_normativo: "0dbd3a20cb2c5f7b321675bf2936b661b85f2b9ec73859d3f6b8842235b2efa9"
+referencias_auto_md: "sin_cambio_en_MD; usar referencias_filtradas del JSON"
+---
+
+# a0140 Recinto habitable:
+
+Código Técnico de la Edificación
+Parte I
+25
+Marcado que deben llevar los productos de construcción para su libre circulación en el territorio de los Es-
+tados miembros de la Unión Europea y países parte del Espacio Económico Europeo, conforme a las con-
+diciones establecidas en la Directiva 89/106/CEE u otras Directivas que les sean de aplicación.
+Particiones interiores:
+Elemento constructivo del edificio que divide su interior en recintos independientes. Pueden ser verticales u
+horizontales (suelos y techos).
+Producto de construcción:
+Aquel que se fabrica para su incorporación permanente en una obra incluyendo materiales, elementos
+semielaborados, componentes y obras o parte de las mismas, tanto terminadas como en proceso de eje-
+cución.
+Promotor:
+Es el agente de la edificación que decide, impulsa, programa y financia las obras de edificación.
+Proyectista:
+Es el agente que redacta el proyecto por encargo del promotor y con sujeción a la normativa técnica y ur-
+banística correspondiente.
+Proyecto:
+Es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las
+obras contempladas en el artículo 2 de la LOE, y en el que se justifican técnicamente las soluciones pro-
+puestas de acuerdo con las especificaciones requeridas por la normativa técnica aplicable.
+Proyecto básico:
+Fase del trabajo en la que se definen de modo preciso las características generales de la obra, mediante la
+adopción y justificación de soluciones concretas. Su contenido es suficiente para solicitar, una vez obtenido
+el preceptivo visado colegial, la licencia municipal u otras autorizaciones administrativas, pero insuficiente
+para iniciar la construcción.
+Proyecto de ejecución:
+Fase del trabajo en la que se desarrolla el proyecto básico, con la determinación completa de detalles y
+especificaciones de todos los materiales, elementos, sistemas constructivos y equipos, definiendo la obra
+en su totalidad. Su contenido será el necesario para la realización de las obras contando con el preceptivo
+visado colegial y la licencia correspondiente.
+Proyectos parciales:
+Los que desarrollan o completan el proyecto en aspectos concretos referentes a tecnologías específicas o
+instalaciones del edificio, definiendo con suficiente detalle para su ejecución, sus características constructi-
+vas. Su contenido será el necesario para la realización de las obras que en él se contemplan y contará con
+el preceptivo visado colegial.
+Puentes térmicos:
+Parte de la envolvente térmica de un edificio donde la resistencia térmica normalmente uniforme cambia
+significativamente debido a:
+a)
+penetraciones completas o parciales en el cerramiento de un edificio, de materiales con diferente
+conductividad térmica;
+b)
+un cambio en el espesor de la fábrica; o
+c)
+una diferencia entre las áreas internas o externas, tales como juntas entre paredes, suelos, o techos.
+Recinto:
+Espacio del edificio limitado por cerramientos, particiones o cualquier otro elemento separador
+Recinto habitable:
+Recinto interior destinado al uso de personas cuya densidad de ocupación y tiempo de estancia exigen
+unas condiciones acústicas, térmicas y de salubridad adecuadas. Se consideran recintos habitables los
+siguientes:
+
+## Referencias detectadas (literal)
+
+- artículo 2

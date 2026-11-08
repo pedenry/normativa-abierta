@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0271",
+  "ruta_oficial": "4.4.3",
+  "ruta_semantica": "Fragmento de PDF p121",
+  "titulo": "4.4.3 Ventilación terciaria",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p121",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p121",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 4.4 Dimensionado de las redes de ventilación 4.4.1 Ventilación primaria / 4.4.3 Ventilación terciaria",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c4ed0c342808e9cea74fd3e90d54dfb69c9a5b2b7fa7325a40168cf0be335b02"
+ },
+ "paginas": [
+  121,
+  122
+ ],
+ "etiquetas_impresas": [
+  "121",
+  "122"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.4.3 Ventilación terciaria\n1\nLos diámetros de las ventilaciones terciarias, junto con sus longitudes máximas se obtienen en la\ntabla 4.12 en función del diámetro y de la pendiente del ramal de desagüe.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n122\nTabla 4.12 Diámetros y longitudes máximas de la ventilación terciaria\nDiámetro del ramal\nde desagüe (mm)\nPendiente del\nramal de desagüe\n(%)\nMáxima longitud del ramal de ventilación (m)\n32\n2\n>300\n40\n2\n>300\n>300\n50\n1\n2\n>300\n>300\n>300\n>300\n>300\n>300\n65\n1\n2\n300\n250\n>300\n>300\n>300\n>300\n>300\n>300\n80\n1\n2\n200\n100\n300\n215\n>300\n>300\n>300\n>300\n>300\n>300\n100\n1\n2\n40\n20\n110\n44\n300\n180\n>300\n>300\n>300\n>300\n125\n1\n2\n28\n15\n107\n48\n255\n125\n>300\n>300\n150\n1\n2\n37\n18\n96\n47\n>300\n>300\n32\n40\n50\n65\n80\nDiámetro del ramal de ventilación (mm)",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0121_t01.json",
+  "../tabla/p0121_t02.json",
+  "../tabla/p0122_t01.json",
+  "../tabla/p0122_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0121.png",
+  "../figura/p0122.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

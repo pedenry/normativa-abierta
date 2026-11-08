@@ -1,0 +1,479 @@
+{
+ "documento": null,
+ "pagina": 34,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 28",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    82.3,
+    324.4,
+    92.3
+   ],
+   "tipo": "texto",
+   "texto": "6.2.4  Tracción perpendicular y cortante combinados",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    102.0,
+    262.3,
+    111.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nDebe cumplirse la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    91.9,
+    125.1,
+    171.5,
+    145.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nf\nk\n+\nf\nvol\nd\n,\n90\n,t",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    132.4,
+    122.3,
+    149.5,
+    129.3
+   ],
+   "tipo": "texto",
+   "texto": "d\n,\n90\n,t",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    95.8,
+    137.4,
+    105.1,
+    144.4
+   ],
+   "tipo": "texto",
+   "texto": "d\nv,",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    94.3,
+    117.5,
+    164.6,
+    135.0
+   ],
+   "tipo": "texto",
+   "texto": "d\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    509.6,
+    125.1,
+    541.3,
+    135.1
+   ],
+   "tipo": "texto",
+   "texto": "(6.21)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    90.1,
+    151.4,
+    124.8,
+    161.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    90.1,
+    166.4,
+    255.8,
+    177.0
+   ],
+   "tipo": "texto",
+   "texto": "d\ntensión de cálculo a cortante;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    90.1,
+    182.5,
+    271.1,
+    192.5
+   ],
+   "tipo": "texto",
+   "texto": "fv,d\nresistencia de cálculo a cortante;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    90.1,
+    197.4,
+    358.0,
+    207.9
+   ],
+   "tipo": "texto",
+   "texto": "t,90,d\ntensión de cálculo a tracción perpendicular a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    90.1,
+    213.5,
+    373.3,
+    236.9
+   ],
+   "tipo": "texto",
+   "texto": "ft,90,d\nresistencia de cálculo a tracción perpendicular a la fibra;\nkvol\nfactor de volumen definido en el apartado 2.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    252.7,
+    222.5,
+    264.7
+   ],
+   "tipo": "titulo",
+   "texto": "6.3  Estabilidad de piezas.",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    281.0,
+    199.3,
+    291.0
+   ],
+   "tipo": "texto",
+   "texto": "6.3.1  Principios generales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    300.7,
+    541.3,
+    333.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nAdemás de las tensiones provocadas por la flexión debida a las cargas transversales deben tenerse\nen cuenta las tensiones de flexión provocadas por las imperfecciones geométricas de la pieza (com-\nbaduras), excentricidades inevitables de las cargas y uniones y desplazamientos inducidos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    348.1,
+    457.1,
+    358.1
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión)",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    374.8,
+    172.6,
+    384.7
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2.1  Definiciones:",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    393.2,
+    178.4,
+    403.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEsbeltez mecánica.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.8,
+    410.7,
+    462.4,
+    435.2
+   ],
+   "tipo": "texto",
+   "texto": "Las esbelteces mecánicas de una pieza comprimida son las siguientes, (figura 6.8):\na) para el pandeo en el plano xz, flectando respecto al eje y:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    115.1,
+    454.8,
+    117.3,
+    464.7
+   ],
+   "tipo": "texto",
+   "texto": "i",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    100.1,
+    439.0,
+    116.2,
+    455.5
+   ],
+   "tipo": "texto",
+   "texto": "L\n =",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    117.4,
+    457.8,
+    120.9,
+    464.8
+   ],
+   "tipo": "texto",
+   "texto": "y",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    90.7,
+    442.1,
+    125.2,
+    457.0
+   ],
+   "tipo": "texto",
+   "texto": "y\nk,\ny\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    512.4,
+    445.4,
+    541.3,
+    455.4
+   ],
+   "tipo": "texto",
+   "texto": "(6.22)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    88.8,
+    468.7,
+    365.4,
+    478.7
+   ],
+   "tipo": "texto",
+   "texto": "b) para el pandeo en el plano xy, flectando respecto al eje z:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    117.1,
+    498.2,
+    119.3,
+    508.2
+   ],
+   "tipo": "texto",
+   "texto": "i",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    102.1,
+    483.1,
+    118.2,
+    498.9
+   ],
+   "tipo": "texto",
+   "texto": "L\n =",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    119.3,
+    501.2,
+    122.8,
+    508.2
+   ],
+   "tipo": "texto",
+   "texto": "z",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    93.0,
+    486.2,
+    127.1,
+    500.6
+   ],
+   "tipo": "texto",
+   "texto": "z\nk,\nz\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    512.4,
+    489.0,
+    541.3,
+    498.9
+   ],
+   "tipo": "texto",
+   "texto": "(6.23)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    90.1,
+    512.3,
+    124.8,
+    522.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    90.7,
+    527.6,
+    541.3,
+    577.7
+   ],
+   "tipo": "texto",
+   "texto": "Lk,y y Lk,z\nlongitudes de pandeo en los planos xz y xy, respectivamente.\n Lk,y = y·L\n(6.24)\n Lk,z = z·L\n(6.25)\nL\nlongitud del soporte o pieza;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    90.1,
+    582.4,
+    541.3,
+    616.9
+   ],
+   "tipo": "texto",
+   "texto": "y y z\ncoeficientes que dependen de las condiciones de restricción de los extremos de la pieza\npara el movimiento en el plano xz y xy, respectivamente. Los valores de  para los casos\nmás habituales pueden consultarse en el anejo G;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    90.1,
+    622.4,
+    500.8,
+    632.4
+   ],
+   "tipo": "texto",
+   "texto": "iy e iz\nradios de giro de la sección respecto a los ejes principales: y, z, respectivamente.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

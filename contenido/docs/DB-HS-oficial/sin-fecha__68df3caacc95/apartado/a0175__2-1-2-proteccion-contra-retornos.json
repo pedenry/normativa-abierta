@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0175",
+  "ruta_oficial": "2.1.2",
+  "ruta_semantica": "2.1.2 Protección contra retornos",
+  "titulo": "2.1.2 Protección contra retornos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.1.2 Protección contra retornos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 82,
+   "bbox": [
+    70.9,
+    234.1,
+    230.3,
+    245.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0d91aebf51459462e80175f3128d365a2eecc521a64034f3cf8a2a8383b0e2c9",
+   "literal": "2.1.2 Protección contra retornos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.1.2 Protección contra retornos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Caracterización y cuantificación de las exigencias 2.1 Propiedades de la instalación / 2.1.2 Protección contra retornos",
+   "seccion_estimada": "2 Caracterización y cuantificación de las exigencias 2.1 Propiedades de la instalación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8e737aaa62bffc7568dd629f2cf1338652e81e8e0c521d697577c9237a74c4e5"
+ },
+ "paginas": [
+  82
+ ],
+ "etiquetas_impresas": [
+  "82"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.1.2 Protección contra retornos\n1\nSe dispondrán sistemas antirretorno para evitar la inversión del sentido del flujo en los puntos que\nfiguran a continuación, así como en cualquier otro que resulte necesario:\na)\ndespués de los contadores;\nb)\nen la base de las ascendentes;\nc)\nantes del equipo de tratamiento de agua;\nd)\nen los tubos de alimentación no destinados a usos domésticos;\ne)\nantes de los aparatos de refrigeración o climatización.\n2\nLas instalaciones de suministro de agua no podrán conectarse directamente a instalaciones de eva-\ncuación ni a instalaciones de suministro de agua proveniente de otro origen que la red pública.\n3\nEn los aparatos y equipos de la instalación, la llegada de agua se realizará de tal modo que no se\nproduzcan retornos.\n4\nLos antirretornos se dispondrán combinados con grifos de vaciado de tal forma que siempre sea\nposible vaciar cualquier tramo de la red.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0177",
+   "ruta_oficial": "2.1.4",
+   "titulo": "2.1.4 Mantenimiento",
+   "archivo_json": "a0177__2-1-4-mantenimiento.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0082_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0082.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

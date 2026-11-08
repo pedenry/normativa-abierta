@@ -1,0 +1,101 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0063",
+  "ruta_oficial": "5",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 5 Protección de las escaleras",
+  "titulo": "5 Protección de las escaleras",
+  "nivel": 2,
+  "parent_id": "a0048",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    158.3,
+    294.0,
+    174.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "65ddb03fbc1b441c0d3f5a7da09a7056cd354cf48b34313702eb48e667187f6a",
+   "literal": "5 Protección de las escaleras"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0024",
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5 Protección de las escaleras",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 5 Protección de las escaleras",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e91e283f02dbf3577cf3d56cd01507a7e4a3d4d7a21b00eaad4a3db4c8c66b65"
+ },
+ "paginas": [
+  28
+ ],
+ "etiquetas_impresas": [
+  "28"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Protección de las escaleras\n1\nEn la tabla 5.1 se indican las condiciones de protección que deben cumplir las escaleras previstas\npara evacuación.\nTabla 5.1. Protección de las escaleras",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0064",
+  "a0065",
+  "a0066",
+  "a0067"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

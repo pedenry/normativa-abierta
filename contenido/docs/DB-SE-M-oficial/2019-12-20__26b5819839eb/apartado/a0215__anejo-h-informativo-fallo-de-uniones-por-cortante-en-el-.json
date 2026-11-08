@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0215",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo H (Informativo). Fallo de uniones por cortante en el perímetro o en bloque",
+  "titulo": "Anejo H (Informativo). Fallo de uniones por cortante en el perímetro o en bloque",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo H (Informativo). Fallo de uniones por cortante en el perímetro o en bloque",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 127,
+   "bbox": [
+    70.9,
+    97.0,
+    542.5,
+    127.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a6f24239a814798a99dd16e590992aa734ea61172302376190f0e63ac7b02306",
+   "literal": "Anejo H (Informativo). Fallo de uniones por cortante en el perímetro o en bloque"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0201",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo H (Informativo). Fallo de uniones por cortante en el perímetro o en bloque",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo H (Informativo). Fallo de uniones por cortante en el perímetro o en bloque",
+   "seccion_estimada": "Anejo H (Informativo). Fallo de uniones por cortante en el perímetro o en bloque",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bdfc28737c4e007d0fead36473ce211d2c3af6533618ab2824706ca8e0371591"
+ },
+ "paginas": [
+  127,
+  128,
+  129
+ ],
+ "etiquetas_impresas": [
+  null,
+  "5",
+  null
+ ],
+ "tipos": [
+  "notas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo H (Informativo). Fallo de uniones por cortante en el perímetro o en bloque\nen bloque\n4\nEn uniones entre madera y acero con una componente de la fuerza paralela a la fibra situada cerca\nde la testa de la pieza, el valor característico de la capacidad de carga en el modo de fallo por corta-\ndura de un bloque (fallo del perímetro del grupo de elementos de fijación), como se muestra en las\nfiguras H.1 y H.2, se obtiene por la expresión siguiente:\nk,v\nv,\nnet\nk,\n0\n,t\nt,\nnet\nRk\n,\nbs\nf\nA\n7,0\nf\nA\n5,1\nmax\nR\n\n\n\n\n\n(H.1)\nsiendo:\nt\nL\nA\nt,\nnet\nt,\nnet\n\n\n(H.2)\n\n\n\n\n\n\n\n\nfallo\nde\nmodos\nrestantes\n)\nt\n2\nL\n(\nL\nm)\nk,\nj/l,\nf,\n(e,\nfallo\nde\nmodos\nt\nL\nA\nef\nt,\nnet\nv,\nnet\nv,\nnet\nv,\nnet\n(H.3)\ny,\n\n\ni\ni,v\nv,\nnet\nl\nL\n(H.4)\n\n\ni\ni,t\nt,\nnet\nl\nL\n(H.5)\n-\npara placas de acero delgadas;\n\n\n\n\n\n\n\n(b)\nd\nf\nM\n4\n,1\n(a)\nt\n4\n,0\nt\nk,h\nRk\n,y\n1\nef\n(H.6)\n-\npara placas de acero gruesas;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(g)\n(c)\n1\nt\nd\nf\nM\n2\nt\n(h)\n(d)\nd\nf\nM\n2\nt\n2\n1\nk,h\nRk\n,y\n1\nk,h\nRk\n,y\nef\n(H.7)\nsiendo:\nFbs,k\nvalor característico de la capacidad de carga por arranque de un bloque;\nAnet,t\nsección neta transversal perpendicular a la fibra;\nAnet,v\nsección neta de cortante paralela a la fibra;\nLnet,t\nanchura neta de la sección transversal perpendicular a la fibra;\nLnet,v\nlongitud neta del área de rotura en cortante;\nlv,i, lt,i\nlongitudes definidas en la figura H.1;\ntef\nprofundidad eficaz, que depende del modo de fallo, figura 8.3;\nt\nespesor de la pieza de madera, o profundidad de penetración del medio de fijación;\nMy,Rk\nmomento plástico característico;\nd\ndiámetro del elemento de fijación;\nft,0,k\nresistencia característica a tracción paralela;\nfv,k\nresistencia característica a cortante;\nfh,k\nresistencia característica a aplastamiento de la pieza de madera.\n\nDocumentoBásico SE-M Madera\nSE-M 122\n5\nNota: Los modos de fallo correspondientes a las expresiones anteriores (H.3), (H.6) y (H.7) están\nreferidos a la figura 8.3.\n6\nEn la figura H.1 se representa un ejemplo de fallo por el perímetro de los medios de fijación y en la\nfigura H.2 para el fallo de cortante en bloque.\nv,1\nv,2\nv,3\nv,4\nt,1\nt,2\nl\nl\nl\nl\nl\nl\nFigura H.1 Fallo por el perímetro de una unión.\nFigura H.2 Fallo en bloque.\n\nDocumentoBásico SE-M Madera\nSE-M 123",
+ "notas": [
+  "Nota: Los modos de fallo correspondientes a las expresiones anteriores (H.3), (H.6) y (H.7) están"
+ ],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0127_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0127.png",
+  "../figura/p0128.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

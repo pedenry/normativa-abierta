@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0107",
+  "ruta_oficial": "8.3.2",
+  "ruta_semantica": "8.3.2 Límites establecidos para algunos tipos de unión.",
+  "titulo": "8.3.2 Límites establecidos para algunos tipos de unión.",
+  "nivel": 1,
+  "parent_id": "a0105",
+  "seccion_estimada": "8.3.2 Límites establecidos para algunos tipos de unión.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 64,
+   "bbox": [
+    74.1,
+    307.0,
+    339.1,
+    318.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "61543516f99ee972ce5024e5bbcac51b1c2976892478a7c639b8c64aa6419f9b",
+   "literal": "8.3.2 Límites establecidos para algunos tipos de unión."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0106",
+  "parent_id_original": "a0105",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.2 Límites establecidos para algunos tipos de unión.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0105",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.3 Rigidez / 8.3.2 Límites establecidos para algunos tipos de unión.",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ad469e30e0a5339e779b1c7cb2f59c58e574d07ea1ad9630bf55d018fc13f8bb"
+ },
+ "paginas": [
+  64,
+  65
+ ],
+ "etiquetas_impresas": [
+  "64",
+  "65"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.3.2 Límites establecidos para algunos tipos de unión.\n1\nPara uniones viga-pilar:\na)\nUnión rígida. Si la rigidez inicial de la unión, Sj,ini, cumple:\nb\nb\nb\nini\n,j\nL\nEI\nk\nS\n≥\n(8.3)\nsiendo\nkb =\n8 para pórticos de estructuras arriostradas frente a acciones horizontales (Ver 5.3.5);\nkb =\n25 para otros pórticos, siempre que en cada planta se verifique Kb/Kc≥ 0,1;\nKb\nvalor medio de la relación EIb/Lb de todas las vigas en la planta en que se encuentra\nla unión;\nKc\nvalor medio de la relación EIc/Lc de todos los pilares de la planta;\nIb\nmomento de inercia de cada viga;\nIc\nmomento de inercia de cada pilar en la dirección de flexión considerada;\nLb\nluz (entre ejes de pilar) de cada viga;\nLc\naltura de la planta.\nb)\nUniones nominalmente articuladas. Si la rigidez inicial de la unión, Sj,ini, cumple:\nb\nb\nini\n,j\nL\nEI\n5,0\nS\n≤\n(8.4)\nc)\nUniones semirrígidas. La rigidez inicial de la unión se encuentra en la zona intermedia entre\nlos límites establecidos para uniones rígidas y articulaciones.\nd)\nEn defecto de análisis más precisos se considerarán:\ni)\narticuladas (excéntricamente), las uniones por soldadura del alma de una viga metá-\nlica en doble T sin unión de las alas al pilar,\nii)\narticuladas (viga continua sobre apoyo posiblemente excéntrico), las uniones de vigas\nplanas de hormigón armado en continuidad sobre pilar metálico,\niii)\nrígidas, las uniones soldadas de vigas en doble T a soportes en las que se materialice\nla continuidad de las alas a través del pilar mediante rigidizadores de dimensiones aná-\nlogas a las de las alas.\n\nDocumentoBásico SE-A Acero\nSE-A-63\niv)\nrígidas, las uniones de pilares interiores realizados con perfiles laminados I o H en\npórticos de estructuras arriostradas, en las que las vigas que acometen a ambos lados\ndel nudo, realizadas también con perfiles I o H y de luces no muy diferentes entre sí y\nesbeltez geométrica mayor a 24, se unen a las alas del pilar mediante soldadura de re-\nsistencia completa, aun cuando no se precise disponer rigidizadores en el pilar.\n2\nBasas de pilares. Se podrán considerar rígidas en los casos siguientes:\na)\nPara estructuras arriostradas frente a acciones horizontales, si se cumple alguna de las tres\ncondiciones siguientes:\nc\nc\nini\n,j\n0\nc\nc\n0\nini\n,j\n0\n0\nL\nEI\n48\nS\ny\n93\n,3\nL\nEI\n)1\n2\n(\n7\nS\ny\n93\n,3\n5,0\n5,0\n≥\n>\nλ\n−\nλ\n≥\n≤\nλ\n<\n≤\nλ\n(8.5)\nsiendo\nλ0\nla esbeltez relativa del pilar supuesto biarticulado.\nb)\nEn cualquier otro caso, si:\nc\nc\nini\n,j\nL\nEI\n30\nS\n≥\n(8.6)",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0064.png",
+  "../figura/p0065.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

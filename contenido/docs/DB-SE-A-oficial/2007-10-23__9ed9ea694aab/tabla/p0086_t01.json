@@ -1,0 +1,63 @@
+{
+ "indice": 1,
+ "pagina": 86,
+ "etiqueta_impresa": "86",
+ "bbox": [
+  188.2,
+  85.7,
+  427.1,
+  411.2
+ ],
+ "filas": 1,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "M\nd\nV\nd\nc c\ncon cubrejuntas de alma\nM\nd\nV\nd\nc\nc",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "M\nd\nV\nd",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "M\nd\nV\nd\nc c\ncon cubrejuntas de alma\nM\nd\nV\nd\nc\nc",
+  "",
+  "M\nd\nV\nd"
+ ],
+ "header": {
+  "names": [
+   "M\nd\nV\nd\nc c\ncon cubrejuntas de alma\nM\nd\nV\nd\nc\nc",
+   "",
+   "M\nd\nV\nd"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9060C0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB904CB0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB907530>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0086.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

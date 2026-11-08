@@ -1,0 +1,115 @@
+{
+ "documento": null,
+ "pagina": 27,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    796.4,
+    320.8,
+    806.4
+   ],
+   "tipo": "texto",
+   "texto": "SE - 21",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    534.6,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo C Principios de los métodos probabilistas explícito e implícito",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    154.5,
+    282.4,
+    166.5
+   ],
+   "tipo": "texto",
+   "texto": "C.1 Objetivos y campo de aplicación",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    173.2,
+    541.3,
+    411.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl contenido de este Anejo tiene carácter informativo y sus objetivos son:\na)\nla recopilación de las bases en que se fundamentan los capítulos 3, 4 y 5 de DB-SE;\nb)\nla introducción de algunas recomendaciones relativas a la aplicación de los métodos probabi-\nlistas explícitos.\n2\nEn principio, los métodos probabilistas explícitos se pueden emplear para la verificación de cual-\nquier problema que se pueda describir a través de relaciones matemáticas, y siempre que sea posi-\nble identificar el conjunto de los correspondientes eventos aleatorios.\n3\nLas principales aplicaciones de los métodos probabilistas explícitos se pueden dividir en dos gru-\npos:\na)\nla calibración de modelos probabilistas implícitos (por ejemplo la calibración de los coeficientes\nparciales);\nb)\nla aplicación directa para la adopción de decisiones relacionadas con las prestaciones de las\nestructuras (por ejemplo para el dimensionado de estructuras nuevas en los casos en los que\nlos métodos implícitos resulten inadecuados, o para la evaluación estructural de edificios exis-\ntentes).\n4\nEl contenido de este Anejo es aplicable para las verificaciones relativas a la capacidad portante\n(estados límite últimos). También es aplicable para la verificación de la aptitud al servicio en los ca-\nsos irreversibles. En general, las reglas y el contenido de este Anejo no son aplicables a estados\nlímite de servicio reversibles.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    426.9,
+    391.7,
+    438.9
+   ],
+   "tipo": "texto",
+   "texto": "C.2 Incertidumbres asociadas con las variables básicas",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    450.4,
+    228.1,
+    460.3
+   ],
+   "tipo": "texto",
+   "texto": "C.2.1 Fuentes de incertidumbres",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    466.9,
+    541.3,
+    759.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe pueden distinguir tres tipos de incertidumbres asociadas con las variables básicas:\na)\nla variabilidad aleatoria inherente al modelo;\nb)\nlas incertidumbres debidas a la falta de conocimientos;\nc)\nlas incertidumbres estadísticas.\nA su vez, cada uno de estos tipos de incertidumbres se puede subdividir.\n2\nLa variabilidad aleatoria inherente se puede dividir en incertidumbres de dos categorías, según es-\ntén o no afectadas por actividades humanas.\nMuchos parámetros relativos a las acciones pertenecen a la segunda categoría, por ejemplo la ve-\nlocidad del viento o la carga de nieve sobre el terreno. También existen parámetros de resistencia\ncorrespondientes a esta segunda categoría, por ejemplo los parámetros de resistencia de un te-\nrreno.\nEjemplos correspondientes al primer tipo de incertidumbres son la resistencia de los materiales\nconstructivos (por ejemplo hormigón o acero) o las dimensiones de elementos estructurales. Estas\nincertidumbres se pueden reducir mediante métodos de fabricación o de producción más avanza-\ndos, o a través de métodos de control adecuados.\n3\nLas incertidumbres debidas a la falta de conocimientos se pueden subdividir en dos categorías, las\nrelativas a las incertidumbres de los modelos, y las que dependen de la evolución futura de ciertos\nparámetros.\nLas incertidumbres de los modelos, que se pueden referir tanto a los modelos de las acciones y de\nsus efectos como a los modelos de resistencia, se pueden reducir a través de la mejora de los co-\nnocimientos mediante ensayos o investigaciones teóricas.\nA la segunda categoría pertenecen, por ejemplo, las incertidumbres sobre la evolución futura de las\nsobrecargas. Las posibilidades de reducción de estas incertidumbres son más reducidas.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

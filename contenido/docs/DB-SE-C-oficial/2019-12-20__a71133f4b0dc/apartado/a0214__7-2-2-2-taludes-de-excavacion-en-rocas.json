@@ -1,0 +1,119 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0214",
+  "ruta_oficial": "7.2.2.2",
+  "ruta_semantica": "7.2.2.2 Taludes de excavación en rocas",
+  "titulo": "7.2.2.2 Taludes de excavación en rocas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.2.2.2 Taludes de excavación en rocas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 99,
+   "bbox": [
+    70.9,
+    430.4,
+    264.7,
+    440.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2a3c57c59c966c59e5e964f8387143cbfb260f7aa2aeece3984c743b805e5e95",
+   "literal": "7.2.2.2 Taludes de excavación en rocas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0245",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.2.2.2 Taludes de excavación en rocas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / 7.2.2 Estados límite últimos 7.2.2.1 Taludes en suelos / 7.2.2.2 Taludes de excavación en rocas",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dbf7d8c223d03e4c31d704cb00a2085b6e5ec61089d7ae1598a828650f13057c"
+ },
+ "paginas": [
+  99,
+  100
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [],
+ "texto": "7.2.2.2 Taludes de excavación en rocas\n1\nSe estudiarán posibles modos de inestabilidad traslacionales o rotacionales asociados a:\na)\nbloques o cuñas limitados por discontinuidades;\nb)\nconjunto de la masa rocosa.\n2\nTambién se analizará la posible existencia de basculamiento de estratos o caída de bloques.\n3\nLos análisis de estabilidad estarán basados en un conocimiento adecuado de las familias de discon-\ntinuidades que afecten al macizo rocoso y en la resistencia a cortante de las discontinuidades y po-\nsible evolución de la resistencia a cortante de la matriz de roca.\n4\nSe tendrá en cuenta que en rocas muy densamente fracturadas y en rocas blandas o suelos ce-\nmentados las superficies potenciales de inestabilidad pueden tener directrices próximas a la forma\ncircular como en los suelos cohesivos.\n5\nLa distribución de presiones intersticiales en discontinuidades podrán suponerse triangulares, con\nvalor nulo en contacto a la atmósfera.\n6\nSe tendrá en cuenta que la situación anterior puede verse modificada muy desfavorablemente por\nel efecto de heladas que obturen la posible salida del agua al exterior.\n7\nLa prevención de basculamiento de estratos y, en algún caso favorable, la de caída de bloque o\ncuñas podrá conseguirse combinando bulonado y drenaje.\n8\nEn vaciados, la prevención de caída de bloques requerirá la utilización adecuada de mallas de re-\ntención.\n9\nEn taludes de viales de las zonas urbanizadas podrán disponerse, cerca de su pie, mallas especia-\nles de absorción de energía cinética, para detener y sujetar bloques. Tanto éstas últimas como los\nfosos o cunetones de recogida de piedras habrán de dimensionarse previo análisis de las posibles\ntrayectorias de las piedras en su caída.\n\nDocumento Básico SE-C Cimientos\nSE-C-95",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

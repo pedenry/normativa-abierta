@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0071",
+  "ruta_oficial": "9",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 9 Evacuación de personas con discapacidad en caso de incendio",
+  "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+  "nivel": 2,
+  "parent_id": "a0048",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    70.9,
+    191.7,
+    533.7,
+    207.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "4b49affaaa2f2d6dcf4c23c22768d8428d72f6d14ad0d08fa3c0c65abc3f27e4",
+   "literal": "9 Evacuación de personas con discapacidad en caso de incendio"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0028",
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "9 Evacuación de personas con discapacidad en caso de incendio",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 9 Evacuación de personas con discapacidad en caso de incendio",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e648a7adf05fc32261cee008334c8ec285714d96030f54a9d10fe2dc2aa59fe5"
+ },
+ "paginas": [
+  31,
+  32
+ ],
+ "etiquetas_impresas": [
+  "31",
+  "32"
+ ],
+ "tipos": [
+  "excepciones",
+  "figuras"
+ ],
+ "texto": "Evacuación de personas con discapacidad en caso de incendio\n1\nEn los edificios de uso Residencial Vivienda con altura de evacuación superior a 28 m, de uso Resi-\ndencial Público,Administrativo o Docente con altura de evacuación superior a 14 m, de uso Comer-\ncial o Pública concurrencia con altura de evacuación superior a 10 m o en plantas de uso Aparca-\nmiento cuya superficie exceda de 1.500 m2, toda planta que no sea zona deocupación nula y que no\ndisponga de alguna salida del edificio accesible dispondrá de posibilidad de paso a un sector de in-\ncendio alternativo mediante una salida de planta accesible o bien de una zona de refugio apta para el\nnúmero de plazas que se indica a continuación:\n-\nuna para usuario de silla de ruedas por cada 100 ocupantes o fracción, conforme a SI3-2;\n-\nexcepto en uso Residencial Vivienda, una para persona con otro tipo de movilidad reducida por\ncada 33 ocupantes o fracción, conforme a SI3-2.\nEn terminales de transporte podrán utilizarse bases estadísticas propias para estimar el número de\nplazas reservadas a personas con discapacidad.\n2\nToda planta que disponga de zonas de refugio o de una salida de planta accesible de paso a un\nsector alternativo contará con algún itinerario accesible entre todo origen de evacuación situado en\nuna zona accesible y aquéllas.\n3\nToda planta de salida del edificio dispondrá de algún itinerario accesible desde todo origen de eva-\ncuación situado en una zona accesible hasta alguna salida del edificio accesible.\n4\nEn plantas de salida del edificio podrán habilitarse salidas de emergencia accesibles para personas\ncon discapacidad diferentes de los accesos principales del edificio.\n\nDocumento Básico SI en caso de Incendio\nSI 4. Instalaciones de protección contra incendios\n32",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0032.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,4491 @@
+---
+
+
+documento: "DB-HS Salubridad"
+id: "DB-HS-oficial"
+capa: "oficial"
+version: "2022-06-14"
+id_tecnico: "a0330"
+ruta_oficial: null
+ruta_semantica: "Fragmento de PDF p146"
+parent_id: null
+nivel: 1
+titulo: "municipios de zona II."
+paginas_fisicas: "146-181"
+paginas_impresas: "146-181"
+sha256_documento: "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b"
+tipos: "tablas, figuras"
+seccion_estimada: "Fragmento de PDF p146"
+titulo_navegacion: "Fragmento de PDF p146"
+ruta_fuente: "fragmento_sin_jerarquia"
+clasificacion_navegacion: "no_encabezado"
+es_encabezado_navegacion: false
+sha256_body_normativo: "32ce4b14e5df7f9f28e31e1cbaffda153b305cab905d0d30c1657146eb124af5"
+---
+
+# a0330 Fragmento de PDF p146
+
+municipios de zona II.
+Nombre CCAA
+Nombre PROVINCIAS
+Municipios ZONA 1
+Municipios ZONA 2
+Andalucía
+Almería
+Abla
+Abrucena
+Alcolea
+Alboloduy
+Alcóntar
+Alcudia de Monteagud
+Almócita
+Bacares
+Armuña de Almanzora
+Bayárcal
+Bayarque
+Benitagla
+Beires
+Benizalón
+Fiñana
+Castro de Filabres
+Instinción
+Chercos
+Lúcar
+Gérgal
+Níjar
+Laroya
+Oria
+Las Tres Villas
+Padules
+Lubrín
+Rágol
+Nacimiento
+Sorbas
+Ohanes
+Suflí
+Olula de Castro
+Tabernas
+Paterna del Río
+Taberno
+Senés
+Tíjola
+Serón
+Turrillas
+Sierro
+Tahal
+Uleila del Campo
+Andalucía
+Almería
+Velefique
+Andalucía
+Córdoba
+Almodóvar del Río
+Alcaracejos
+Belmez
+Añora
+Espiel
+Belalcázar
+Hornachuelos
+Cardeña
+La Granjuela
+Conquista
+Los Blázquez
+Córdoba
+Palma del Río
+Dos Torres
+Peñarroya-Pueblonuevo
+El Guijo
+Posadas
+El Viso
+Villafranca de Córdoba
+Fuente la Lancha
+Villaharta
+Fuente Obejuna
+Hinojosa del Duque
+Obejo
+Pedroche
+Pozoblanco
+Santa Eufemia
+Torrecampo
+Valsequillo
+Villanueva de Córdoba
+Villanueva del Duque
+Villanueva del Rey
+Andalucía
+Córdoba
+Villaralto
+Andalucía
+Granada
+Albondón
+Aldeire
+Albuñán
+Alpujarra de la Sierra
+Albuñol
+Alquife
+Almegíjar
+Baza
+Almuñécar
+Bubión
+Bérchules
+Busquístar
+Cádiar
+Caniles
+Cástaras
+Capileira
+Cenes de la Vega
+Dólar
+Cogollos de Guadix
+Ferreira
+Guadix
+Gor
+Güéjar Sierra
+Jerez del Marquesado
+Huéneja
+La Calahorra
+Ítrabo
+La Taha
+Jete
+Lanteira
+Juviles
+Lugros
+Lobras
+Monachil
+Lújar
+Nevada
+Murtas
+Pampaneira
+Otívar
+Pórtugos
+Pinos Genil
+Soportújar
+Polopos
+Trevélez
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+147
+Quéntar
+Válor
+Rubite
+Salobreña
+Sorvilán
+Torvizcón
+Turón
+Ugíjar
+Andalucía
+Granada
+Valle del Zalabí
+Andalucía
+Huelva
+Alájar
+Almonaster la Real
+Alosno
+Arroyomolinos de León
+Aracena
+Cala
+Aroche
+Cañaveral de León
+Ayamonte
+Cumbres Mayores
+Berrocal
+Encinasola
+Cabezas Rubias
+Hinojales
+Calañas
+Rosal de la Frontera
+Cortegana
+Cortelazor
+Cumbres de Enmedio
+Cumbres de San Bartolomé
+El Almendro
+El Cerro de Andévalo
+Higuera de la Sierra
+Jabugo
+La Granada de Río-Tinto
+La Nava
+Linares de la Sierra
+Nerva
+Paterna del Campo
+Puebla de Guzmán
+Puerto Moral
+Santa Ana la Real
+Santa Bárbara de Casa
+Valdelarco
+Valverde del Camino
+Villanueva de los Castillejos
+Zalamea la Real
+Andalucía
+Huelva
+Zufre
+Andalucía
+Jaén
+Aldeaquemada
+Andújar
+Arroyo del Ojanco
+Guarromán
+Baños de la Encina
+Linares
+Cabra del Santo Cristo
+Santa Elena
+Carboneros
+Chiclana de Segura
+Cuarto del Madroño
+Génave
+Ibros
+La Puerta de Segura
+Lupión
+Marmolejo
+Montizón
+Navas de San Juan
+Pozo Alcón
+Puente de Génave
+Santiago-Pontones
+Torreblascopedro
+Torres de Albánchez
+Vilches
+Andalucía
+Jaén
+Villanueva de la Reina
+Andalucía
+Málaga
+Algarrobo
+Almáchar
+Benamargosa
+Benamocarra
+Benarrabá
+Coín
+Colmenar
+Comares
+El Borge
+Genalguacil
+Guaro
+Istán
+Jubrique
+Macharaviaya
+Málaga
+Monda
+Ojén
+Sayalonga
+Tolox
+Torrox
+Andalucía
+Málaga
+Vélez-Málaga
+Andalucía
+Sevilla
+Alanís
+Almadén de la Plata
+Alcolea del Río
+Castilblanco de los Arroyos
+Aznalcóllar
+Cazalla de la Sierra
+Brenes
+Constantina
+Cantillana
+El Castillo de las Guardas
+El Madroño
+El Garrobo
+El Real de la Jara
+El Pedroso
+El Ronquillo
+Guillena
+Guadalcanal
+La Puebla de los Infantes
+Lora del Río
+San Nicolás del Puerto
+Tocina
+Villanueva del Río y Minas
+Andalucía
+Sevilla
+Villaverde del Río
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+148
+Aragón
+Huesca
+Albalate de Cinca
+Aisa
+Albelda
+Benasque
+Alcalá del Obispo
+Canfranc
+Alcolea de Cinca
+Castejón de Sos
+Almudévar
+Gistaín
+Almuniente
+Hoz de Jaca
+Antillón
+Jaca
+Barbuñales
+Laspaúles
+Belver de Cinca
+Montanuy
+Beranuy
+Panticosa
+Berbegal
+Sahún
+Bielsa
+Sallent de Gállego
+Biescas
+San Juan de Plan
+Binaced
+Bisaurri
+Capdesaso
+Casbas de Huesca
+Castejón del Puente
+Chía
+Fraga
+Grañén
+Huesca
+Ilche
+Isábena
+Laluenga
+Lalueza
+Lanaja
+Laperdiguera
+Lascellas-Ponzano
+Loarre
+Loporzano
+Monflorite-Lascasas
+Monzón
+Osso de Cinca
+Peralta de Alcofea
+Plan
+Poleñino
+Puente de Montañana
+Puente la Reina de Jaca
+Pueyo de Santa Cruz
+Quicena
+Salillas
+San Miguel del Cinca
+Sariñena
+Seira
+Sena
+Sesué
+Siétamo
+Sopeira
+Tardienta
+Tella-Sin
+Tierz
+Torralba de Aragón
+Torrente de Cinca
+Torres de Alcanadre
+Torres de Barbués
+Vicién
+Villanova
+Aragón
+Huesca
+Villanueva de Sigena
+Aragón
+Teruel
+Ababuj
+Alcañiz
+Alfambra
+Aliaga
+Allepuz
+Alpeñés
+Anadón
+Andorra
+Arens de Lledó
+Argente
+Ariño
+Bádenas
+Báguena
+Beceite
+Bello
+Bezas
+Blancas
+Bronchales
+Bueña
+Burbáguena
+Cabra de Mora
+Calamocha
+Calanda
+Calomarde
+Camañas
+Caminreal
+Castejón de Tornos
+Castel de Cabra
+Cedrillas
+Celadas
+Cucalón
+Cuevas Labradas
+El Castellar
+Escorihuela
+Escucha
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+149
+Estercuel
+Formiche Alto
+Fuentes Claras
+Gea de Albarracín
+Griegos
+Gúdar
+Huesa del Común
+Lagueruela
+Lanzuela
+Lidón
+Linares de Mora
+Lledó
+Loscos
+Martín del Río
+Monforte de Moyuela
+Monreal del Campo
+Montalbán
+Monteagudo del Castillo
+Monterde de Albarracín
+Noguera de Albarracín
+Nogueras
+Obón
+Ojos Negros
+Orihuela del Tremedal
+Orrios
+Palomar de Arroyos
+Pancrudo
+Peralejos
+Pozondón
+Pozuel del Campo
+Rillo
+Rubielos de la Cérida
+San Martín del Río
+Santa Cruz de Nogueras
+Teruel
+Tornos
+Torralba de los Sisones
+Torre de las Arcas
+Torre los Negros
+Torres de Albarracín
+Torrijo del Campo
+Tramacastiel
+Tramacastilla
+Utrillas
+Valbona
+Valdelinares
+Valderrobres
+Villahermosa del Campo
+Villanueva del Rebollar de la Sierra
+Villar del Cobo
+Villarquemado
+Villastar
+Villel
+Visiedo
+Aragón
+Teruel
+Vivel del Río Martín
+Aragón
+Zaragoza
+Abanto
+Acered
+Aguarón
+Aladrén
+Alcalá de Moncayo
+Alfamén
+Almonacid de la Sierra
+Alpartir
+Ambel
+Aniñón
+Añón de Moncayo
+Aranda de Moncayo
+Ariza
+Ateca
+Badules
+Belmonte de Gracián
+Berrueco
+Biel
+Boquiñeni
+Bordalba
+Brea de Aragón
+Bubierca
+Bulbuente
+Calatayud
+Calcena
+Carenas
+Cariñena
+Castejón de Alarba
+Castejón de las Armas
+Cerveruela
+Codos
+Cosuenda
+Cubel
+Daroca
+El Frasno
+Embid de Ariza
+Fuentes de Jiloca
+Gallocanta
+Gallur
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+150
+Gotor
+Herrera de los Navarros
+Illueca
+Jarque
+La Vilueña
+Las Cuerlas
+Litago
+Longares
+Longás
+Los Fayos
+Los Pintanos
+Luceni
+Luesma
+Maella
+Mainar
+Malanquilla
+Maluenda
+Manchones
+Mezalocha
+Miedes de Aragón
+Monterde
+Montón
+Morata de Jiloca
+Morés
+Moros
+Moyuela
+Muel
+Munébrega
+Murero
+Navardún
+Nonaspe
+Orera
+Oseja
+Paniza
+Paracuellos de Jiloca
+Paracuellos de la Ribera
+Pina de Ebro
+Pomer
+Pradilla de Ebro
+Purujosa
+Quinto
+Romanos
+Ruesca
+Sabiñán
+San Martín de la Virgen de Moncayo
+Santa Cruz de Grío
+Santed
+Sediles
+Sestrica
+Sigüés
+Tarazona
+Tauste
+Terrer
+Torrijo de la Cañada
+Trasmoz
+Trasobares
+Used
+Val de San Martín
+Valdehorna
+Valtorres
+Velilla de Jiloca
+Vera de Moncayo
+Vierlas
+Villadoz
+Villafeliche
+Villalengua
+Villanueva de Jiloca
+Villarroya de la Sierra
+Villarroya del Campo
+Aragón
+Zaragoza
+Vistabella
+Canarias
+Las Palmas
+Agaete
+Agüimes
+Artenara
+Arucas
+Firgas
+Gáldar
+Ingenio
+La Aldea de San Nicolás
+Las Palmas de Gran Canaria
+Mogán
+Moya
+San Bartolomé de Tirajana
+Santa Brígida
+Santa Lucía de Tirajana
+Santa María de Guía de Gran Canaria
+Tejeda
+Telde
+Teror
+Valleseco
+Valsequillo de Gran Canaria
+Canarias
+Las Palmas
+Vega de San Mateo
+Canarias
+Santa Cruz de Tenerife
+Adeje
+Arafo
+Arico
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+151
+Arona
+Buenavista del Norte
+Candelaria
+El Rosario
+El Sauzal
+El Tanque
+Fasnia
+Garachico
+Granadilla de Abona
+Guía de Isora
+Güímar
+Icod de los Vinos
+La Matanza de Acentejo
+La Orotava
+La Victoria de Acentejo
+Los Realejos
+Los Silos
+Puerto de la Cruz
+San Cristóbal de La Laguna
+San Miguel de Abona
+Santa Cruz de Tenerife
+Santa Úrsula
+Santiago del Teide
+Tacoronte
+Tegueste
+Canarias
+Santa Cruz de Tenerife
+Vilaflor de Chasna
+Cantabria
+Cantabria
+Anievas
+San Roque de Riomiera
+Arenas de Iguña
+Arredondo
+Bárcena de Pie de Concha
+Cabezón de la Sal
+Cabezón de Liébana
+Cabuérniga
+Camaleño
+Camargo
+Castro-Urdiales
+Cieza
+Cillorigo de Liébana
+El Astillero
+Entrambasaguas
+Guriezo
+Hazas de Cesto
+Hermandad de Campoo de Suso
+Liendo
+Liérganes
+Los Corrales de Buelna
+Los Tojos
+Marina de Cudeyo
+Mazcuerras
+Medio Cudeyo
+Meruelo
+Molledo
+Penagos
+Pesaguero
+Piélagos
+Polaciones
+Potes
+Rasines
+Reocín
+Ribamontán al Mar
+Ribamontán al Monte
+Riotuerto
+Ruente
+Ruesga
+San Felices de Buelna
+San Pedro del Romeral
+Santa Cruz de Bezana
+Santander
+Solórzano
+Tudanca
+Udías
+Valle de Villaverde
+Vega de Liébana
+Vega de Pas
+Villaescusa
+Cantabria
+Cantabria
+Voto
+Castilla y León
+Ávila
+Adanero
+Aldeanueva de Santa Cruz
+Albornos
+Amavida
+Aldeaseca
+Arenas de San Pedro
+Arévalo
+Arevalillo
+Aveinte
+Avellaneda
+Barromán
+Ávila
+Bercial de Zapardiel
+Becedas
+Bernuy-Zapardiel
+Becedillas
+Blascomillán
+Berrocalejo de Aragona
+Blasconuño de Matacabras
+Bohoyo
+Blascosancho
+Bonilla de la Sierra
+Brabos
+Bularros
+Cabezas de Alambre
+Burgohondo
+Cabezas del Pozo
+Cabezas del Villar
+Cabizuela
+Candeleda
+Canales
+Cardeñosa
+Cantiveros
+Casas del Puerto
+Castellanos de Zapardiel
+Casasola
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+152
+Cisla
+Casavieja
+Collado de Contreras
+Casillas
+Constanzana
+Cebreros
+Crespos
+Cepeda la Mora
+Donjimeno
+Chamartín
+Donvidas
+Cillán
+El Bohodón
+Collado del Mirón
+El Fresno
+Cuevas del Valle
+El Oso
+Diego del Carpio
+El Parral
+El Arenal
+Espinosa de los Caballeros
+El Barco de Ávila
+Flores de Ávila
+El Barraco
+Fontiveros
+El Hornillo
+Fuente el Saúz
+El Hoyo de Pinares
+Fuentes de Año
+El Losar del Barco
+Gemuño
+El Mirón
+Gimialcón
+El Tiemblo
+Gotarrendura
+Fresnedilla
+Gutierre-Muñoz
+Gallegos de Altamiros
+Hernansancho
+Gallegos de Sobrinos
+Herreros de Suso
+Gavilanes
+Horcajo de las Torres
+Gil García
+Junciana
+Gilbuena
+Langa
+Grandes y San Martín
+Las Berlanas
+Guisando
+Madrigal de las Altas Torres
+Herradón de Pinares
+Maello
+Higuera de las Dueñas
+Mamblas
+Hoyocasero
+Mancera de Arriba
+Hoyorredondo
+Monsalupe
+Hoyos de Miguel Muñoz
+Moraleja de Matacabras
+Hoyos del Collado
+Muñico
+Hoyos del Espino
+Muñogalindo
+Hurtumpascual
+Muñogrande
+La Adrada
+Muñomer del Peco
+La Aldehuela
+Muñosancho
+La Carrera
+Narros de Saldueña
+La Colilla
+Narros del Castillo
+La Hija de Dios
+Nava de Arévalo
+La Horcajada
+Niharra
+La Serrada
+Orbita
+La Torre
+Padiernos
+Lanzahíta
+Pajares de Adaja
+Las Navas del Marqués
+Palacios de Goda
+Los Llanos de Tormes
+Papatrigo
+Manjabálago y Ortigosa de Rioalmar
+Pedro-Rodríguez
+Marlín
+Peñalba de Ávila
+Martiherrero
+Pozanco
+Martínez
+Rasueros
+Mediana de Voltoya
+Riocabado
+Medinilla
+Rivilla de Barajas
+Mengamuñoz
+Salobral
+Mijares
+Salvadiós
+Mingorría
+San Esteban de Zapardiel
+Mironcillo
+San Juan de la Encinilla
+Mirueña de los Infanzones
+San Pascual
+Mombeltrán
+San Pedro del Arroyo
+Muñana
+San Vicente de Arévalo
+Muñopepe
+Sanchidrián
+Muñotello
+Santa María del Arroyo
+Narrillos del Álamo
+Santa María del Berrocal
+Narrillos del Rebollar
+Santo Domingo de las Posadas
+Narros del Puerto
+Santo Tomé de Zabarcos
+Nava del Barco
+Sigeres
+Navacepedilla de Corneja
+Sinlabajos
+Navadijos
+Tiñosillos
+Navaescurial
+Vega de Santa María
+Navahondilla
+Velayos
+Navalacruz
+Villaflor
+Navalmoral
+Villanueva de Gómez
+Navalonguilla
+Villanueva del Aceral
+Navalosa
+Viñegra de Moraña
+Navalperal de Pinares
+Vita
+Navalperal de Tormes
+Navaluenga
+Navaquesera
+Navarredonda de Gredos
+Navarredondilla
+Navarrevisca
+Navatalgordo
+Navatejares
+Neila de San Miguel
+Ojos-Albos
+Pascualcobo
+Pedro Bernardo
+Peguerinos
+Piedrahíta
+Piedralaves
+Poveda
+Poyales del Hoyo
+Pradosegar
+Puerto Castilla
+Riofrío
+San Bartolomé de Béjar
+San Bartolomé de Pinares
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+153
+San Esteban de los Patos
+San Esteban del Valle
+San García de Ingelmos
+San Juan de Gredos
+San Juan de la Nava
+San Juan del Molinillo
+San Juan del Olmo
+San Lorenzo de Tormes
+San Martín de la Vega del Alberche
+San Martín del Pimpollar
+San Miguel de Serrezuela
+Sanchorreja
+Santa Cruz de Pinares
+Santa Cruz del Valle
+Santa María de los Caballeros
+Santa María del Cubillo
+Santa María del Tiétar
+Santiago del Collado
+Santiago del Tormes
+Serranillos
+Solana de Ávila
+Solana de Rioalmar
+Solosancho
+Sotalbo
+Sotillo de la Adrada
+Tolbaños
+Tormellas
+Tornadizos de Ávila
+Tórtoles
+Umbrías
+Vadillo de la Sierra
+Valdecasa
+Villafranca de la Sierra
+Villanueva de Ávila
+Villanueva del Campillo
+Villarejo del Valle
+Villatoro
+Zapardiel de la Cañada
+Castilla y León
+Ávila
+Zapardiel de la Ribera
+Castilla y León
+Burgos
+Alcocero de Mola
+Arlanzón
+Arraya de Oca
+Atapuerca
+Bañuelos de Bureba
+Barbadillo del Mercado
+Barbadillo del Pez
+Barrios de Colina
+Bascuñana
+Belorado
+Brazacorta
+Burgos
+Cabeza Alta
+Campolara
+Carcedo de Burgos
+Cardeñajimeno
+Cardeñuela Riopico
+Carrias
+Cascajares de la Sierra
+Castil de Peones
+Castrillo del Val
+Castrojeriz
+Cebrecos
+Cerezo de Río Tirón
+Cerratón de Juarros
+Contreras
+Covarrubias
+Cuevas de San Clemente
+Espinosa de los Monteros
+Espinosa del Camino
+Fresneda de la Sierra Tirón
+Fresneña
+Fresno de Río Tirón
+Fresno de Rodilla
+Hortigüela
+Huerta de Arriba
+Hurones
+Ibeas de Juarros
+Jaramillo de la Fuente
+Jaramillo Quemado
+Junta de Traslaloma
+Jurisdicción de Lara
+La Revilla y Ahedo
+Los Ausines
+Mambrillas de Lara
+Mecerreyes
+Medina de Pomar
+Merindad de Montija
+Monasterio de Rodilla
+Monterrubio de la Demanda
+Nebreda
+Neila
+Orbaneja Riopico
+Palazuelos de la Sierra
+Pedrosa del Páramo
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+154
+Pedrosa del Príncipe
+Peñaranda de Duero
+Pineda de la Sierra
+Pinilla de los Moros
+Prádanos de Bureba
+Pradoluengo
+Puentedura
+Quintanapalla
+Quintanavides
+Quintanilla del Agua y Tordueles
+Quintanilla San García
+Rábanos
+Redecilla del Campo
+Revilla del Campo
+Riocavado de la Sierra
+Rubena
+Salas de los Infantes
+San Adrián de Juarros
+San Millán de Lara
+San Vicente del Valle
+Santa Cruz del Valle Urbión
+Santa Inés
+Santa María del Invierno
+Santa Olalla de Bureba
+Sasamón
+Solarana
+Tinieblas de la Sierra
+Torrelara
+Tosantos
+Vallarta de Bureba
+Valle de Mena
+Valle de Oca
+Valle de Valdelaguna
+Valluércanes
+Valmala
+Villaescusa la Sombría
+Villaespasa
+Villafranca Montes de Oca
+Villagalijo
+Villambistia
+Villamiel de la Sierra
+Villasur de Herreros
+Villegas
+Villoruebo
+Viloria de Rioja
+Castilla y León
+Burgos
+Vizcaínos
+Castilla y León
+León
+Acebedo
+Astorga
+Arganza
+Balboa
+Bembibre
+Barjas
+Berlanga del Bierzo
+Benuza
+Boca de Huérgano
+Candín
+Boñar
+Carucedo
+Borrenes
+Congosto
+Brazuelo
+Corullón
+Burón
+Encinedo
+Cabañas Raras
+Igüeña
+Cabrillanes
+Los Barrios de Luna
+Cacabelos
+Murias de Paredes
+Camponaraya
+Oencia
+Cármenes
+Palacios del Sil
+Carracedelo
+Páramo del Sil
+Carrocera
+Peranzanes
+Castrillo de Cabrera
+Ponferrada
+Castrillo de la Valduerna
+Quintana del Castillo
+Castrocalbón
+Santa María de Ordás
+Castrocontrigo
+Sobrado
+Castropodame
+Truchas
+Crémenes
+Vega de Valcarce
+Cuadros
+Villagatón
+Cubillos del Sil
+Destriana
+Escobar de Campos
+Fabero
+Folgoso de la Ribera
+Gordaliza del Pino
+Gradefes
+Grajal de Campos
+Joarilla de las Matas
+La Bañeza
+La Pola de Gordón
+La Robla
+Las Omañas
+Lucillo
+Luyego
+Magaz de Cepeda
+Maraña
+Matallana de Torío
+Molinaseca
+Noceda del Bierzo
+Oseja de Sajambre
+Palacios de la Valduerna
+Posada de Valdeón
+Prado de la Guzpeña
+Priaranza del Bierzo
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+155
+Prioro
+Puebla de Lillo
+Puente de Domingo Flórez
+Quintana del Marco
+Quintana y Congosto
+Reyero
+Riaño
+Riego de la Vega
+Riello
+Rioseco de Tapia
+Sabero
+Sahagún
+San Cristóbal de la Polantera
+San Emiliano
+San Esteban de Nogales
+San Justo de la Vega
+Sancedo
+Santa Colomba de Somoza
+Santa Elena de Jamuz
+Santa María de la Isla
+Santa María del Monte de Cea
+Santiago Millas
+Sena de Luna
+Soto y Amío
+Toral de los Vados
+Toreno
+Torre del Bierzo
+Trabadelo
+Val de San Lorenzo
+Valdelugueros
+Valdepiélago
+Valdepolo
+Valderrey
+Valderrueda
+Valdesamario
+Vallecillo
+Vega de Espinareda
+Vegacervera
+Vegaquemada
+Villablino
+Villafranca del Bierzo
+Villamanín
+Villamejil
+Villamontán de la Valduerna
+Castilla y León
+León
+Villaobispo de Otero
+Castilla y León
+Palencia
+Abarca de Campos
+Autillo de Campos
+Barruelo de Santullán
+Becerril de Campos
+Boadilla de Rioseco
+Bustillo de la Vega
+Bustillo del Páramo de Carrión
+Calzada de los Molinos
+Capillas
+Cardeñosa de Volpejera
+Carrión de los Condes
+Castromocho
+Cervatos de la Cueza
+Cervera de Pisuerga
+Cisneros
+Dehesa de Montejo
+Frechilla
+Fuentes de Nava
+Guaza de Campos
+La Pernía
+La Serna
+Lagartos
+Ledigos
+Lomas
+Mazariegos
+Mazuecos de Valdeginate
+Moratinos
+Nogal de las Huertas
+Paredes de Nava
+Pedrosa de la Vega
+Población de Arroyo
+Población de Campos
+Pozo de Urama
+Quintanilla de Onsoña
+Renedo de la Vega
+Revenga de Campos
+Riberos de la Cueza
+Salinas de Pisuerga
+San Mamés de Campos
+San Román de la Cuba
+Triollo
+Valle del Retortillo
+Velilla del Río Carrión
+Villacidaler
+Villada
+Villalcázar de Sirga
+Villalcón
+Villamartín de Campos
+Villamoronta
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+156
+Villamuera de la Cueza
+Villanueva del Rebollar
+Villarmentero de Campos
+Villarrabé
+Villarramiel
+Villaturde
+Villaumbrales
+Castilla y León
+Palencia
+Villoldo
+Castilla y León
+Salamanca
+Abusejo
+Agallas
+Alaraz
+Ahigal de los Aceiteros
+Alba de Yeltes
+Ahigal de Villarino
+Alconada
+Alba de Tormes
+Aldealengua
+Aldea del Obispo
+Aldeanueva de Figueroa
+Aldeacipreste
+Aldeanueva de la Sierra
+Aldeadávila de la Ribera
+Aldearrodrigo
+Aldeatejada
+Aldearrubia
+Aldeavieja de Tormes
+Aldeaseca de Alba
+Almendra
+Aldeaseca de la Frontera
+Añover de Tormes
+Aldehuela de la Bóveda
+Arapiles
+Aldehuela de Yeltes
+Armenteros
+Almenara de Tormes
+Bañobárez
+Anaya de Alba
+Barbalos
+Arabayona de Mógica
+Barceo
+Arcediano
+Barruecopardo
+Babilafuente
+Béjar
+Barbadillo
+Beleña
+Bóveda del Río Almar
+Bermellar
+Cabezabellosa de la Calzada
+Berrocal de Huebra
+Cabrerizos
+Berrocal de Salvatierra
+Cabrillas
+Boada
+Calvarrasa de Abajo
+Bogajo
+Calvarrasa de Arriba
+Brincones
+Calzada de Don Diego
+Buenamadre
+Calzada de Valdunciel
+Buenavista
+Canillas de Abajo
+Cabeza del Caballo
+Cantalapiedra
+Campillo de Azaba
+Cantalpino
+Candelario
+Cantaracillo
+Cantagallo
+Carbajosa de la Sagrada
+Carpio de Azaba
+Carrascal de Barregas
+Carrascal del Obispo
+Castellanos de Moriscos
+Casafranca
+Castellanos de Villiquera
+Casillas de Flores
+Castraz
+Castillejo de Martín Viejo
+Cilleros de la Bastida
+Cepeda
+Coca de Alba
+Cereceda de la Sierra
+Cordovilla
+Cerezal de Peñahorcada
+Coto Mancomunado
+Cerralbo
+Dios le Guarde
+Cespedosa de Tormes
+Doñinos de Salamanca
+Chagarcía Medianero
+Ejeme
+Cipérez
+El Arco
+Ciudad Rodrigo
+El Campo de Peñaranda
+Colmenar de Montemayor
+El Cubo de Don Sancho
+Cristóbal
+El Pedroso de la Armuña
+Doñinos de Ledesma
+El Pino de Tormes
+El Bodón
+Encinas de Abajo
+El Cabaco
+Encinas de Arriba
+El Cerro
+Espino de la Orbada
+El Maíllo
+Fresno Alhándiga
+El Manzano
+Gajates
+El Milano
+Galindo y Perahuy
+El Payo
+Galisancho
+El Sahugo
+Garcihernández
+El Tejado
+Golpejas
+El Tornadizo
+Gomecello
+Encina de San Silvestre
+Huerta
+Encinasola de los Comendadores
+La Bastida
+Endrinal
+La Maya
+Escurial de la Sierra
+La Orbada
+Espadaña
+La Sagrada
+Espeja
+La Vellés
+Frades de la Sierra
+Larrodrigo
+Fresnedoso
+Machacón
+Fuenteguinaldo
+Macotera
+Fuenteliante
+Malpartida
+Fuenterroble de Salvatierra
+Mancera de Abajo
+Fuentes de Béjar
+Matilla de los Caños del Río
+Fuentes de Oñoro
+Monterrubio de Armuña
+Galinduste
+Morasverdes
+Gallegos de Argañán
+Morille
+Gallegos de Solmirón
+Moríñigo
+Garcibuey
+Moriscos
+Garcirrey
+Nava de Sotrobal
+Gejuelo del Barro
+Navales
+Guadramiro
+Negrilla de Palencia
+Guijo de Ávila
+Pajares de la Laguna
+Guijuelo
+Palaciosrubios
+Herguijuela de Ciudad Rodrigo
+Palencia de Negrilla
+Herguijuela de la Sierra
+Parada de Arriba
+Herguijuela del Campo
+Parada de Rubiales
+Hinojosa de Duero
+Paradinas de San Juan
+Horcajo de Montemayor
+Pedraza de Alba
+Horcajo Medianero
+Pedrosillo de Alba
+Iruelos
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+157
+Pedrosillo el Ralo
+Ituero de Azaba
+Pelabravo
+Juzbado
+Peñaranda de Bracamonte
+La Alameda de Gardón
+Peñarandilla
+La Alamedilla
+Pitiegua
+La Alberca
+Poveda de las Cintas
+La Alberguería de Argañán
+Puebla de Yeltes
+La Atalaya
+Rágama
+La Bouza
+Retortillo
+La Cabeza de Béjar
+Robliza de Cojos
+La Calzada de Béjar
+Rollán
+La Encina
+Salmoral
+La Fregeneda
+San Cristóbal de la Cuesta
+La Fuente de San Esteban
+San Morales
+La Hoya
+Santa Marta de Tormes
+La Mata de Ledesma
+Santiago de la Puebla
+La Peña
+Santiz
+La Redonda
+Sepulcro-Hilario
+La Rinconada de la Sierra
+Sieteiglesias de Tormes
+La Sierpe
+Tarazona de Guareña
+La Tala
+Tardáguila
+La Vídola
+Topas
+La Zarza de Pumareda
+Tordillos
+Lagunilla
+Torresmenudas
+Las Casas del Conde
+Valdecarros
+Las Veguillas
+Valdehijaderos
+Ledesma
+Valdelosa
+Ledrada
+Valdunciel
+Linares de Riofrío
+Valero
+Los Santos
+Ventosa del Río Almar
+Lumbrales
+Villaflores
+Madroñal
+Villalba de los Llanos
+Martiago
+Villamayor
+Martín de Yeltes
+Villar de Gallimazo
+Martinamor
+Villares de la Reina
+Masueco
+Villarmayor
+Membribe de la Sierra
+Villaverde de Guareña
+Mieza
+Villoria
+Miranda de Azán
+Villoruela
+Miranda del Castañar
+Zarapicos
+Mogarraz
+Zorita de la Frontera
+Molinillo
+Monforte de la Sierra
+Monleón
+Monleras
+Monsagro
+Montejo
+Montemayor del Río
+Monterrubio de la Sierra
+Moronta
+Mozárbez
+Narros de Matalayegua
+Nava de Béjar
+Nava de Francia
+Navacarros
+Navalmoral de Béjar
+Navamorales
+Navarredonda de la Rinconada
+Navasfrías
+Olmedo de Camaces
+Palacios del Arzobispo
+Pastores
+Pedrosillo de los Aires
+Pelarrodríguez
+Pelayos
+Peñacaballera
+Peñaparda
+Peralejos de Abajo
+Peralejos de Arriba
+Pereña de la Ribera
+Peromingo
+Pinedas
+Pizarral
+Pozos de Hinojo
+Puebla de Azaba
+Puebla de San Medel
+Puente del Congosto
+Puertas
+Puerto de Béjar
+Puerto Seguro
+Robleda
+Saelices el Chico
+Salamanca
+Saldeana
+Salvatierra de Tormes
+San Esteban de la Sierra
+San Felices de los Gallegos
+San Martín del Castañar
+San Miguel de Valero
+San Miguel del Robledo
+San Muñoz
+San Pedro de Rozados
+San Pedro del Valle
+San Pelayo de Guareña
+Sanchón de la Ribera
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+158
+Sanchón de la Sagrada
+Sanchotello
+Sancti-Spíritus
+Sando
+Santa María de Sando
+Santibáñez de Béjar
+Santibáñez de la Sierra
+Sardón de los Frailes
+Saucelle
+Sequeros
+Serradilla del Arroyo
+Serradilla del Llano
+Sobradillo
+Sorihuela
+Sotoserrano
+Tabera de Abajo
+Tamames
+Tejeda y Segoyuela
+Tenebrón
+Terradillos
+Trabanca
+Tremedal de Tormes
+Valdefuentes de Sangusín
+Valdelacasa
+Valdelageve
+Valdemierque
+Valderrodrigo
+Vallejera de Riofrío
+Valsalabroso
+Valverde de Valdelacasa
+Vecinos
+Vega de Tirados
+Villagonzalo de Tormes
+Villanueva del Conde
+Villar de Argañán
+Villar de Ciervo
+Villar de la Yegua
+Villar de Peralonso
+Villar de Samaniego
+Villares de Yeltes
+Villarino de los Aires
+Villarmuerto
+Villasbuenas
+Villasdardo
+Villaseco de los Gamitos
+Villaseco de los Reyes
+Villasrubias
+Villavieja de Yeltes
+Vilvestre
+Vitigudino
+Yecla de Yeltes
+Zamarra
+Castilla y León
+Salamanca
+Zamayón
+Castilla y León
+Segovia
+Abades
+Adrada de Pirón
+Aguilafuente
+Aldealengua de Pedraza
+Aldea Real
+Arahuetes
+Aldealcorvo
+Arcones
+Aldeanueva del Codonal
+Arevalillo de Cega
+Aldeasoña
+Armuña
+Aldehuela del Codonal
+Basardilla
+Aldeonte
+Bernuy de Porreros
+Anaya
+Brieva
+Añe
+Cabañas de Polendos
+Ayllón
+Cerezo de Abajo
+Barbolla
+Cerezo de Arriba
+Bercial
+Collado Hermoso
+Bercimuel
+Cubillo
+Bernardos
+El Espinar
+Boceguillas
+Espirdo
+Caballar
+Gallegos
+Cabezuela
+Ituero y Lama
+Calabazas de Fuentidueña
+La Lastrilla
+Campo de San Pedro
+La Losa
+Cantalejo
+Matabuena
+Cantimpalos
+Navafría
+Carbonero el Mayor
+Navas de Riofrío
+Casla
+Navas de San Antonio
+Castillejo de Mesleón
+Orejana
+Castroserna de Abajo
+Ortigosa del Monte
+Cedillo de la Torre
+Otero de Herreros
+Chañe
+Palazuelos de Eresma
+Cilleruelo de San Mamés
+Pedraza
+Coca
+Pelayos del Arroyo
+Codorniz
+Real Sitio de San Ildefonso
+Condado de Castilnovo
+Riofrío de Riaza
+Corral de Ayllón
+San Cristóbal de Segovia
+Cuéllar
+Santa María la Real de Nieva
+Cuevas de Provanco
+Santiuste de Pedraza
+Domingo García
+Santo Domingo de Pirón
+Donhierro
+Santo Tomé del Puerto
+Duruelo
+Segovia
+Encinillas
+Sotosalbos
+Escalona del Prado
+Torre Val de San Pedro
+Escarabajosa de Cabezas
+Torrecaballeros
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+159
+Escobar de Polendos
+Torreiglesias
+Fresno de Cantespino
+Trescasas
+Fuente de Santa Cruz
+Turégano
+Fuentepelayo
+Valdeprados
+Fuentesaúco de Fuentidueña
+Valdevacas y Guijar
+Fuentidueña
+Vegas de Matute
+Garcillán
+Ventosilla y Tejadilla
+Gomezserracín
+Villacastín
+Grajera
+Zarzuela del Monte
+Hontanares de Eresma
+Zarzuela del Pinar
+Juarros de Riomoros
+Juarros de Voltoya
+La Matilla
+Labajos
+Laguna de Contreras
+Lastras del Pozo
+Los Huertos
+Marazoleja
+Marazuela
+Martín Miguel
+Martín Muñoz de la Dehesa
+Martín Muñoz de las Posadas
+Marugán
+Melque de Cercos
+Membibre de la Hoz
+Migueláñez
+Montejo de Arévalo
+Monterrubio
+Mozoncillo
+Muñopedro
+Muñoveros
+Nava de la Asunción
+Navalmanzano
+Navas de Oro
+Nieva
+Ortigosa de Pestaño
+Pajarejos
+Pinarejos
+Pinarnegrillo
+Prádena
+Puebla de Pedraza
+Rapariegos
+Rebollo
+Riaguas de San Bartolomé
+Riaza
+Ribota
+Roda de Eresma
+Sacramenia
+Samboal
+San Cristóbal de la Vega
+San Martín y Mudrián
+San Pedro de Gaíllos
+Sanchonuño
+Sangarcía
+Santa Marta del Cerro
+Santiuste de San Juan Bautista
+Sauquillo de Cabezas
+Sebúlcor
+Sepúlveda
+Sequera de Fresno
+Sotillo
+Tabanera la Luenga
+Tolocirio
+Valleruela de Pedraza
+Valleruela de Sepúlveda
+Valseca
+Valtiendas
+Valverde del Majano
+Veganzones
+Villeguillo
+Castilla y León
+Segovia
+Yanguas de Eresma
+Castilla y León
+Soria
+Ágreda
+Alcubilla de Avellaneda
+Aldealafuente
+Aldealices
+Aldealpozo
+Aldealseñor
+Almajano
+Almarza
+Arancón
+Arcos de Jalón
+Arévalo de la Sierra
+Ausejo de la Sierra
+Beratón
+Bliecos
+Borjabad
+Borobia
+Carrascosa de la Sierra
+Castilfrío de la Sierra
+Cerbón
+Cidones
+Cihuela
+Cirujales del Río
+Coscurita
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+160
+Cubo de la Solana
+Cueva de Ágreda
+Deza
+Escobosa de Almazán
+Estepa de San Juan
+Frechilla de Almazán
+Fuentearmegil
+Fuentes de Magaña
+Fuentestrún
+Golmayo
+Gómara
+Hinojosa del Campo
+La Losilla
+La Póveda de Soria
+Langa de Duero
+Las Aldehuelas
+Los Villares de Soria
+Magaña
+Matalebreras
+Medinaceli
+Miño de Medinaceli
+Montejo de Tiermes
+Narros
+Nepas
+Nolay
+Noviercas
+Ólvega
+Oncala
+Pinilla del Campo
+Pozalmuro
+Quintana Redonda
+San Esteban de Gormaz
+San Pedro Manrique
+Santa Cruz de Yanguas
+Soliedra
+Suellacabras
+Tajahuerce
+Tejado
+Trévago
+Valdegeña
+Valdelagua del Cerro
+Valdemaluque
+Valtajeros
+Villaciervos
+Villar del Campo
+Villar del Río
+Vizmanos
+Vozmediano
+Castilla y León
+Soria
+Yanguas
+Castilla y León
+Valladolid
+Aguasal
+Alaejos
+Alcazarén
+Almenara de Adaja
+Ataquines
+Bahabón
+Becilla de Valderaduey
+Bobadilla del Campo
+Bocigas
+Bocos de Duero
+Boecillo
+Brahojos de Medina
+Bustillo de Chaves
+Cabezón de Valderaduey
+Canalejas de Peñafiel
+Carpio
+Casasola de Arión
+Castrejón de Trabancos
+Castrillo de Duero
+Castronuño
+Castroponce
+Ceinos de Campos
+Cervillego de la Cruz
+Cogeces del Monte
+Cuenca de Campos
+Curiel de Duero
+El Campillo
+Fompedraza
+Fontihoyuelo
+Fresno el Viejo
+Fuente el Sol
+Fuente-Olmedo
+Gatón de Campos
+Herrín de Campos
+Hornillos de Eresma
+La Seca
+La Zarza
+Langayo
+Llano de Olmedo
+Lomoviejo
+Matapozuelos
+Medina de Rioseco
+Medina del Campo
+Melgar de Arriba
+Mojados
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+161
+Moraleja de las Panaderas
+Muriel
+Nava del Rey
+Nueva Villa de las Torres
+Olivares de Duero
+Olmedo
+Olmos de Peñafiel
+Pedrosa del Rey
+Peñafiel
+Pesquera de Duero
+Piñel de Abajo
+Piñel de Arriba
+Pollos
+Pozal de Gallinas
+Pozaldez
+Puras
+Quintanilla de Onésimo
+Rábano
+Ramiro
+Roturas
+Rubí de Bracamonte
+Rueda
+Salvador de Zapardiel
+San Miguel del Pino
+San Pablo de la Moraleja
+San Román de Hornija
+San Vicente del Palacio
+Santervás de Campos
+Santibáñez de Valcorba
+Sardón de Duero
+Serrada
+Siete Iglesias de Trabancos
+Simancas
+Tordesillas
+Torre de Peñafiel
+Torrecilla de la Abadesa
+Torrecilla de la Orden
+Torrescárcela
+Traspinedo
+Valdearcos de la Vega
+Valdenebro de los Valles
+Valdestillas
+Vega de Ruiponce
+Velascálvaro
+Ventosa de la Cuesta
+Viana de Cega
+Villabaruz de Campos
+Villacarralón
+Villacid de Campos
+Villafrades de Campos
+Villafranca de Duero
+Villagómez la Nueva
+Villalba de la Loma
+Villalón de Campos
+Villanueva de Duero
+Villanueva de la Condesa
+Castilla y León
+Valladolid
+Villaverde de Medina
+Castilla y León
+Zamora
+Abezames
+Alcañices
+Alcubilla de Nogales
+Alfaraz de Sayago
+Algodre
+Almaraz de Duero
+Andavías
+Almeida de Sayago
+Arcenillas
+Argañín
+Arcos de la Polvorosa
+Asturianos
+Argujillo
+Bermillo de Sayago
+Arquillinos
+Carbellino
+Arrabalde
+Cernadilla
+Aspariegos
+Cobreros
+Ayoó de Vidriales
+Espadañedo
+Barcial del Barco
+Fariza
+Belver de los Montes
+Fermoselle
+Benavente
+Ferreras de Arriba
+Benegiles
+Figueruela de Arriba
+Bretó
+Fonfría
+Bretocino
+Fresno de Sayago
+Brime de Sog
+Galende
+Brime de Urz
+Gamones
+Burganes de Valverde
+Hermisende
+Bustillo del Oro
+Justel
+Cabañas de Sayago
+Lubián
+Calzadilla de Tera
+Luelmo
+Camarzana de Tera
+Manzanal de Arriba
+Cañizal
+Manzanal de los Infantes
+Cañizo
+Mombuey
+Carbajales de Alba
+Moral de Sayago
+Casaseca de Campeán
+Moraleja de Sayago
+Casaseca de las Chanas
+Moralina
+Castrillo de la Guareña
+Muelas de los Caballeros
+Castrogonzalo
+Muelas del Pan
+Castronuevo
+Muga de Sayago
+Cazurra
+Otero de Bodas
+Cerecinos de Campos
+Palacios de Sanabria
+Cerecinos del Carrizal
+Pedralba de la Pradería
+Coreses
+Peñausende
+Corrales del Vino
+Pereruela
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+162
+Cubillos
+Pías
+Cubo de Benavente
+Pino del Oro
+Cuelgamures
+Porto
+El Cubo de Tierra del Vino
+Puebla de Sanabria
+El Maderal
+Rabanales
+El Pego
+Rábano de Aliste
+El Perdigón
+Requejo
+El Piñero
+Rionegro del Puente
+Entrala
+Robleda-Cervantes
+Faramontanos de Tábara
+Roelos de Sayago
+Ferreras de Abajo
+Rosinos de la Requejada
+Ferreruela
+Salce
+Fresno de la Ribera
+Samir de los Caños
+Friera de Valverde
+San Justo
+Fuente Encalada
+San Vitero
+Fuentelapeña
+Torregamones
+Fuentes de Ropel
+Trabazos
+Fuentesaúco
+Trefacio
+Fuentesecas
+Videmala
+Fuentespreadas
+Villadepera
+Gallegos del Pan
+Villalcampo
+Gallegos del Río
+Villar del Buey
+Gema
+Villardeciervos
+Granja de Moreruela
+Villardiegua de la Ribera
+Granucillo
+Villaseco del Pan
+Guarrate
+Viñas
+Jambrina
+La Bóveda de Toro
+La Hiniesta
+Losacino
+Losacio
+Madridanos
+Mahide
+Malva
+Manganeses de la Lampreana
+Manzanal del Barco
+Matilla la Seca
+Mayalde
+Melgar de Tera
+Micereces de Tera
+Milles de la Polvorosa
+Molacillos
+Molezuelas de la Carballeda
+Monfarracinos
+Montamarta
+Moraleja del Vino
+Morales de Toro
+Morales de Valverde
+Morales del Vino
+Moreruela de los Infanzones
+Moreruela de Tábara
+Navianos de Valverde
+Olmillos de Castro
+Pajares de la Lampreana
+Palacios del Pan
+Peleagonzalo
+Peleas de Abajo
+Peque
+Perilla de Castro
+Piedrahita de Castro
+Pinilla de Toro
+Pobladura de Valderaduey
+Pozoantiguo
+Pozuelo de Tábara
+Pueblica de Valverde
+Quintanilla de Urz
+Quintanilla del Olmo
+Quiruelas de Vidriales
+Revellinos
+Riofrío de Aliste
+Roales
+San Agustín del Pozo
+San Cebrián de Castro
+San Cristóbal de Entreviñas
+San Esteban del Molar
+San Martín de Valderaduey
+San Miguel de la Ribera
+San Pedro de Ceque
+San Pedro de la Nave-Almendra
+San Vicente de la Cabeza
+Santa Clara de Avedillo
+Santa Colomba de las Monjas
+Santa Cristina de la Polvorosa
+Santa Croya de Tera
+Santa Eufemia del Barco
+Santa María de Valverde
+Santibáñez de Tera
+Santibáñez de Vidriales
+Santovenia
+Sanzoles
+Tábara
+Tapioles
+Toro
+Torres del Carrizal
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+163
+Uña de Quintana
+Vadillo de la Guareña
+Valcabado
+Valdefinjas
+Vallesa de la Guareña
+Vega de Tera
+Vegalatrave
+Venialbo
+Vezdemarbán
+Vidayanes
+Villabuena del Puente
+Villaescusa
+Villafáfila
+Villageriz
+Villalazán
+Villalba de la Lampreana
+Villalobos
+Villalonso
+Villalpando
+Villalube
+Villamor de los Escuderos
+Villanázar
+Villanueva de Azoague
+Villanueva de Campeán
+Villanueva de las Peras
+Villaralbo
+Villárdiga
+Villardondiego
+Villarrín de Campos
+Villavendimio
+Villaveza de Valverde
+Villaveza del Agua
+Castilla y León
+Zamora
+Zamora
+Castilla-La Mancha
+Albacete
+Lezuza
+Pétrola
+Castilla-La Mancha
+Albacete
+Yeste
+Castilla-La Mancha
+Ciudad Real
+Abenójar
+Agudo
+Albaladejo
+Alamillo
+Alcoba
+Almodóvar del Campo
+Almadén
+Anchuras
+Almadenejos
+Arroba de los Montes
+Almedina
+Cabezarrubias del Puerto
+Almuradiel
+Fontanarejo
+Brazatortas
+Hinojosas de Calatrava
+Cabezarados
+Horcajo de los Montes
+Calzada de Calatrava
+Mestanza
+Castellar de Santiago
+Navalpino
+Chillón
+Piedrabuena
+Cózar
+Puerto Lápice
+El Robledo
+San Lorenzo de Calatrava
+Fernán Caballero
+Fuencaliente
+Fuente el Fresno
+Guadalmez
+Las Labores
+Los Cortijos
+Malagón
+Navas de Estena
+Porzuna
+Puebla de Don Rodrigo
+Puebla del Príncipe
+Puertollano
+Retuerta del Bullaque
+Saceruela
+Santa Cruz de los Cáñamos
+Santa Cruz de Mudela
+Solana del Pino
+Terrinches
+Torre de Juan Abad
+Torrenueva
+Valdemanco del Esteras
+Villamanrique
+Villanueva de los Infantes
+Villarrubia de los Ojos
+Villarta de San Juan
+Castilla-La Mancha
+Ciudad Real
+Viso del Marqués
+Castilla-La Mancha
+Cuenca
+Arguisuelas
+Beamud
+Campillos-Sierra
+Carboneras de Guadazaón
+Cardenete
+Casas de los Pinos
+Fuentes
+Graja de Campalbo
+Henarejos
+Huerta del Marquesado
+Laguna del Marquesado
+Landete
+Monteagudo de las Salinas
+Mota del Cuervo
+Osa de la Vega
+Reíllo
+San Clemente
+Santa Cruz de Moya
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+164
+Talayuelas
+Valdemeca
+Castilla-La Mancha
+Cuenca
+Valdemoro-Sierra
+Castilla-La Mancha
+Guadalajara
+Alcolea del Pinar
+Arroyo de las Fraguas
+Alcoroches
+Bustares
+Alovera
+Condemios de Arriba
+Alustante
+El Cardoso de la Sierra
+Angón
+El Ordial
+Anquela del Pedregal
+Gascueña de Bornova
+Arbancón
+Hiendelaencina
+Argecilla
+La Bodera
+Atienza
+La Huerce
+Azuqueca de Henares
+Las Navas de Jadraque
+Bañuelos
+Tamajón
+Cabanillas del Campo
+Valverde de los Arroyos
+Campillo de Dueñas
+Villares de Jadraque
+Campillo de Ranas
+Zarzuela de Jadraque
+Campisábalos
+Cantalojas
+Casa de Uceda
+Checa
+Chiloeches
+Cincovillas
+Cogolludo
+Congostrina
+El Casar
+El Cubillo de Uceda
+El Pedregal
+El Pobo de Dueñas
+Espinosa de Henares
+Establés
+Estriégana
+Fontanar
+Fuentelahiguera de Albatages
+Galápagos
+Galve de Sorbe
+Guadalajara
+Henche
+Heras de Ayuso
+Hita
+Hombrados
+Humanes
+Jadraque
+Jirueque
+La Mierla
+La Miñosa
+La Olmeda de Jadraque
+La Yunta
+Ledanca
+Majaelrayo
+Málaga del Fresno
+Malaguilla
+Maranchón
+Marchamalo
+Matarrubia
+Matillas
+Medranda
+Membrillera
+Miedes de Atienza
+Mochales
+Mohernando
+Monasterio
+Morenilla
+Orea
+Pálmaces de Jadraque
+Pinilla de Jadraque
+Prádena de Atienza
+Puebla de Beleña
+Puebla de Valles
+Quer
+Rebollosa de Jadraque
+Retiendas
+Riofrío del Llano
+Robledillo de Mohernando
+Robledo de Corpes
+San Andrés del Congosto
+Saúca
+Semillas
+Setiles
+Sigüenza
+Somolinos
+Tartanedo
+Tordelrábano
+Tordesilos
+Torre del Burgo
+Torrejón del Rey
+Torremocha del Campo
+Torrubia
+Tortuero
+Uceda
+Valdearenas
+Valdeaveruelo
+Valdenuño Fernández
+Valdepeñas de la Sierra
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+165
+Valdesotos
+Villanueva de la Torre
+Villaseca de Henares
+Villaseca de Uceda
+Viñuelas
+Castilla-La Mancha
+Guadalajara
+Yunquera de Henares
+Castilla-La Mancha
+Toledo
+Alcabón
+Ajofrín
+Alcaudete de la Jara
+Albarreal de Tajo
+Añover de Tajo
+Aldea en Cabo
+Arcicóllar
+Aldeanueva de Barbarroya
+Barcience
+Aldeanueva de San Bartolomé
+Bargas
+Almendral de la Cañada
+Belvís de la Jara
+Almonacid de Toledo
+Borox
+Almorox
+Calera y Chozas
+Argés
+Camarenilla
+Buenaventura
+Cardiel de los Montes
+Burguillos de Toledo
+Carmena
+Burujón
+Carriches
+Camarena
+Cazalegas
+Casarrubios del Monte
+Cebolla
+Casasbuenas
+Cedillo del Condado
+Castillo de Bayuela
+Cobeja
+Cervera de los Montes
+Domingo Pérez
+Chueca
+El Casar de Escalona
+Cobisa
+El Viso de San Juan
+Cuerva
+Erustes
+El Campillo de la Jara
+Esquivias
+El Carpio de Tajo
+Gerindote
+El Puente del Arzobispo
+Hormigos
+El Real de San Vicente
+Illescas
+Escalona
+La Puebla de Almoradiel
+Espinoso del Rey
+Las Herencias
+Fuensalida
+Los Cerralbos
+Gálvez
+Los Yébenes
+Guadamur
+Lucillos
+Hinojosa de San Vicente
+Madridejos
+Hontanar
+Magán
+Huecas
+Malpica de Tajo
+La Estrella
+Manzaneque
+La Iglesuela
+Marjaliza
+La Nava de Ricomalillo
+Miguel Esteban
+La Puebla de Montalbán
+Mocejón
+Lagartera
+Numancia de la Sagra
+Las Ventas con Peña Aguilera
+Olías del Rey
+Las Ventas de Retamosa
+Ontígola
+Layos
+Otero
+Los Navalmorales
+Pantoja
+Los Navalucillos
+Quintanar de la Orden
+Marrupe
+Rielves
+Mascaraque
+San Román de los Montes
+Mazarambroz
+Santa Olalla
+Mejorada
+Santo Domingo-Caudilla
+Menasalbas
+Seseña
+Méntrida
+Torralba de Oropesa
+Mesegar de Tajo
+Ugena
+Mohedas de la Jara
+Villamiel de Toledo
+Montearagón
+Yeles
+Montesclaros
+Yuncler
+Mora
+Nambroca
+Navahermosa
+Navalcán
+Navalmoralejo
+Navamorcuende
+Noez
+Nombela
+Novés
+Nuño Gómez
+Orgaz
+Oropesa
+Paredes de Escalona
+Parrillas
+Pelahustán
+Pepino
+Polán
+Portillo de Toledo
+Puerto de San Vicente
+Pulgar
+Retamoso de la Jara
+Robledo del Mazo
+San Martín de Montalbán
+San Martín de Pusa
+San Pablo de los Montes
+Santa Ana de Pusa
+Santa Cruz del Retamar
+Sartajada
+Segurilla
+Sevilleja de la Jara
+Sonseca
+Sotillo de las Palomas
+Talavera de la Reina
+Toledo
+Torrecilla de la Jara
+Torrico
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+166
+Torrijos
+Totanés
+Valdeverdeja
+Valmojado
+Velada
+Villaminaya
+Villamuelas
+Villanueva de Bogas
+Villarejo de Montalbán
+Villaseca de la Sagra
+Castilla-La Mancha
+Toledo
+Villasequilla
+Cataluña
+Barcelona
+Abrera
+Alella
+Aiguafreda
+Arenys de Mar
+Artés
+Arenys de Munt
+Avinyó
+Argentona
+Badia del Vallès
+Badalona
+Balenyà
+Bagà
+Balsareny
+Bigues i Riells
+Barberà del Vallès
+Cabrera de Mar
+Barcelona
+Cabrils
+Calldetenes
+Caldes de Montbui
+Callús
+Caldes d'Estrac
+Campins
+Calella
+Canovelles
+Canet de Mar
+Cardedeu
+Castellar de n'Hug
+Castellar del Vallès
+Dosrius
+Castellbisbal
+El Masnou
+Castellfollit de Riubregós
+Figaró-Montmany
+Castellgalí
+Fogars de la Selva
+Centelles
+Gualba
+Cerdanyola del Vallès
+Guardiola de Berguedà
+Cervelló
+La Garriga
+Corbera de Llobregat
+La Roca del Vallès
+Cornellà de Llobregat
+L'Ametlla del Vallès
+El Brull
+Llinars del Vallès
+El Papiol
+Malgrat de Mar
+El Pont de Vilomara i Rocafort
+Martorelles
+El Prat de Llobregat
+Mataró
+Esparreguera
+Montcada i Reixac
+Esplugues de Llobregat
+Montgat
+Fogars de Montclús
+Montornès del Vallès
+Folgueroles
+Òrrius
+Gelida
+Palafolls
+Gisclareny
+Pineda de Mar
+Granollers
+Premià de Dalt
+Gurb
+Sant Andreu de Llavaneres
+La Llagosta
+Sant Cebrià de Vallalta
+La Palma de Cervelló
+Sant Celoni
+La Pobla de Lillet
+Sant Fost de Campsentelles
+Les Franqueses del Vallès
+Sant Iscle de Vallalta
+Les Masies de Roda
+Sant Pol de Mar
+Les Masies de Voltregà
+Sant Sadurní d'Osormort
+L'Hospitalet de Llobregat
+Sant Vicenç de Montalt
+Lliçà d'Amunt
+Santa Coloma de Gramenet
+Lliçà de Vall
+Santa Eulàlia de Ronçana
+Malla
+Santa Maria de Martorelles
+Manlleu
+Santa Maria de Palautordera
+Manresa
+Santa Susanna
+Martorell
+Teià
+Matadepera
+Tiana
+Molins de Rei
+Tordera
+Mollet del Vallès
+Vallgorguina
+Monistrol de Calders
+Vallromanes
+Montesquiu
+Vilalba Sasserra
+Montmeló
+Vilanova de Sau
+Navarcles
+Vilanova del Vallès
+Navàs
+Vilassar de Dalt
+Olesa de Montserrat
+Orís
+Palau-solità i Plegamans
+Pallejà
+Parets del Vallès
+Polinyà
+Premià de Mar
+Ripollet
+Roda de Ter
+Rubí
+Sabadell
+Saldes
+Sallent
+Sant Adrià de Besòs
+Sant Andreu de la Barca
+Sant Boi de Llobregat
+Sant Cugat del Vallès
+Sant Esteve de Palautordera
+Sant Feliu de Codines
+Sant Feliu de Llobregat
+Sant Joan de Vilatorrada
+Sant Joan Despí
+Sant Julià de Cerdanyola
+Sant Julià de Vilatorta
+Sant Just Desvern
+Sant Llorenç Savall
+Sant Martí de Centelles
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+167
+Sant Mateu de Bages
+Sant Pere de Torelló
+Sant Pere de Vilamajor
+Sant Quirze de Besora
+Sant Quirze del Vallès
+Sant Vicenç de Castellet
+Sant Vicenç de Torelló
+Sant Vicenç dels Horts
+Santa Coloma de Cervelló
+Santa Eugènia de Berga
+Santa Perpètua de Mogoda
+Sentmenat
+Seva
+Súria
+Taradell
+Tavèrnoles
+Terrassa
+Tona
+Torelló
+Vic
+Viladecans
+Viladecavalls
+Cataluña
+Barcelona
+Vilassar de Mar
+Cataluña
+Gerona / Girona
+Agullana
+Alp
+Aiguaviva
+Amer
+Albanyà
+Anglès
+Argelaguer
+Arbúcies
+Banyoles
+Begur
+Besalú
+Biure
+Bescanó
+Blanes
+Beuda
+Brunyola
+Boadella i les Escaules
+Cadaqués
+Bolvir
+Caldes de Malavella
+Bordils
+Calonge
+Breda
+Campelles
+Cabanelles
+Camprodon
+Cabanes
+Cassà de la Selva
+Camós
+Castell-Platja d'Aro
+Campdevànol
+Colera
+Campllong
+Das
+Canet d'Adri
+El Port de la Selva
+Cantallops
+Espinelves
+Capmany
+Espolla
+Castelló d'Empúries
+Fontanals de Cerdanya
+Celrà
+Garriguella
+Cervià de Ter
+Ger
+Cistella
+Guils de Cerdanya
+Corçà
+Hostalric
+Cornellà del Terri
+La Jonquera
+Cruïlles, Monells i Sant Sadurní de
+l'Heura
+La Selva de Mar
+Darnius
+Llagostera
+El Far d'Empordà
+Llanars
+Figueres
+Llançà
+Flaçà
+Lloret de Mar
+Foixà
+Maçanet de la Selva
+Fontcoberta
+Massanes
+Forallac
+Meranges
+Fortià
+Molló
+Girona
+Mont-ras
+Gombrèn
+Ogassa
+Isòvol
+Osor
+Juià
+Palafrugell
+La Bisbal d'Empordà
+Palamós
+La Cellera de Ter
+Pardines
+La Pera
+Planoles
+La Vajol
+Portbou
+La Vall de Bianya
+Queralbs
+La Vall d'en Bas
+Rabós
+L'Armentera
+Ribes de Freser
+Les Llosses
+Riells i Viabrea
+Les Planes d'Hostoles
+Riudarenes
+Les Preses
+Roses
+L'Escala
+Sant Climent Sescebes
+Llambilles
+Sant Feliu de Buixalleu
+Llers
+Sant Feliu de Guíxols
+Llívia
+Sant Hilari Sacalm
+Maçanet de Cabrenys
+Santa Coloma de Farners
+Madremanya
+Santa Cristina d'Aro
+Maià de Montcal
+Setcases
+Masarac
+Sils
+Mieres
+Susqueda
+Mollet de Peralada
+Toses
+Montagut i Oix
+Tossa de Mar
+Navata
+Urús
+Olot
+Vall-llobrega
+Palau-sator
+Vidreres
+Palau-saverdera
+Viladrau
+Palol de Revardit
+Vilallonga de Ter
+Pals
+Vilamaniscle
+Parlavà
+Pau
+Pedret i Marzà
+Peralada
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+168
+Pont de Molins
+Porqueres
+Puigcerdà
+Quart
+Regencós
+Ripoll
+Riudaura
+Riudellots de la Selva
+Riumors
+Rupià
+Salt
+Sant Aniol de Finestres
+Sant Feliu de Pallerols
+Sant Ferriol
+Sant Gregori
+Sant Jaume de Llierca
+Sant Joan de les Abadesses
+Sant Joan de Mollet
+Sant Jordi Desvalls
+Sant Julià de Ramis
+Sant Julià del Llor i Bonmatí
+Sant Llorenç de la Muga
+Sant Martí de Llémena
+Sant Martí Vell
+Sant Miquel de Campmajor
+Sant Pau de Segúries
+Sant Pere Pescador
+Santa Pau
+Sarrià de Ter
+Serinyà
+Siurana
+Torrent
+Torroella de Fluvià
+Tortellà
+Ullastret
+Vallfogona de Ripollès
+Ventalló
+Vilabertran
+Vilablareix
+Vilafant
+Vilajuïga
+Vilamacolum
+Vilamalla
+Vilanant
+Vila-sacra
+Cataluña
+Gerona / Girona
+Vilobí d'Onyar
+Cataluña
+Lérida / Lleida
+Agramunt
+Alàs i Cerc
+Aitona
+Alins
+Albatàrrec
+Alt Àneu
+Albesa
+Arres
+Alcanó
+Arsèguel
+Alcarràs
+Baix Pallars
+Alcoletge
+Bausen
+Alguaire
+Bellver de Cerdanya
+Almacelles
+Canejan
+Alpicat
+Cava
+Anglesola
+El Pont de Bar
+Balaguer
+El Pont de Suert
+Barbens
+Es Bòrdes
+Bellcaire d'Urgell
+Estamariu
+Bell-lloc d'Urgell
+Esterri d'Àneu
+Bellpuig
+Esterri de Cardós
+Biosca
+Farrera
+Bossòst
+La Guingueta d'Àneu
+Cabó
+La Seu d'Urgell
+Castellnou de Seana
+La Torre de Cabdella
+Castellserà
+La Vall de Boí
+Cervera
+Les
+Corbins
+Les Valls d'Aguilar
+El Poal
+Les Valls de Valira
+Els Plans de Sió
+Lladorre
+Espot
+Llavorsí
+Estaràs
+Lles de Cerdanya
+Fígols i Alinyà
+Montellà i Martinet
+Gimenells i el Pla de la Font
+Montferrer i Castellbò
+Ivars d'Urgell
+Naut Aran
+Josa i Tuixén
+Prullans
+La Fuliola
+Rialp
+La Portella
+Ribera d'Urgellet
+La Sentiu de Sió
+Riu de Cerdanya
+La Vansa i Fórnols
+Sarroca de Bellera
+Les Oluges
+Soriguera
+Lleida
+Sort
+Massalcoreig
+Tírvia
+Menàrguens
+Vall de Cardós
+Montgai
+Vielha e Mijaran
+Montoliu de Lleida
+Vilaller
+Montoliu de Segarra
+Vilamòs
+Montornès de Segarra
+Organyà
+Ossó de Sió
+Penelles
+Ponts
+Prats i Sansor
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+169
+Preixens
+Puigverd d'Agramunt
+Puigverd de Lleida
+Ribera d'Ondara
+Sanaüja
+Senterada
+Soses
+Sudanell
+Talavera
+Tàrrega
+Tarroja de Segarra
+Térmens
+Torà
+Tornabous
+Torrefeta i Florejacs
+Torrelameu
+Torres de Segre
+Vallfogona de Balaguer
+Vilagrassa
+Vilanova de la Barca
+Vilanova de l'Aguda
+Vilanova de Segrià
+Cataluña
+Lérida / Lleida
+Vila-sana
+Cataluña
+Tarragona
+Arnes
+Alforja
+Cambrils
+Almoster
+Capafonts
+Botarell
+Caseres
+Castellvell del Camp
+Colldejou
+L'Aleixar
+Constantí
+Les Borges del Camp
+Duesaigües
+Maspujols
+El Catllar
+Riudecanyes
+El Morell
+Riudecols
+Els Pallaresos
+Vilanova d'Escornalbou
+La Canonja
+Vilaplana
+La Pobla de Mafumet
+La Selva del Camp
+La Torre de Fontaubella
+L'Ametlla de Mar
+L'Argentera
+Llorac
+Montbrió del Camp
+Mont-ral
+Mont-roig del Camp
+Perafort
+Poboleda
+Pradell de la Teixeta
+Pratdip
+Reus
+Riudoms
+Salou
+Tarragona
+Vallfogona de Riucorb
+Vandellòs i l'Hospitalet de l'Infant
+Vila-seca
+Cataluña
+Tarragona
+Vinyols i els Arcs
+Ciudad Autónoma de Ceuta
+Ceuta
+Ceuta
+Comunidad de Madrid
+Madrid
+Ajalvir
+Aldea del Fresno
+Alameda del Valle
+Alpedrete
+Alcalá de Henares
+Becerril de la Sierra
+Alcobendas
+Berzosa del Lozoya
+Alcorcón
+Braojos
+Algete
+Brunete
+Aranjuez
+Buitrago del Lozoya
+Arganda del Rey
+Bustarviejo
+Batres
+Cabanillas de la Sierra
+Camarma de Esteruelas
+Cadalso de los Vidrios
+Casarrubuelos
+Canencia
+Cobeña
+Cenicientos
+Colmenar de Oreja
+Cercedilla
+Coslada
+Cervera de Buitrago
+Cubas de la Sagra
+Chapinería
+Daganzo de Arriba
+Collado Mediano
+El Atazar
+Collado Villalba
+Fresno de Torote
+Colmenar del Arroyo
+Fuenlabrada
+Colmenar Viejo
+Fuente el Saz de Jarama
+Colmenarejo
+Fuentidueña de Tajo
+El Álamo
+Getafe
+El Berrueco
+Griñón
+El Boalo
+Leganés
+El Escorial
+Loeches
+El Molar
+Los Santos de la Humosa
+El Vellón
+Meco
+Fresnedillas de la Oliva
+Mejorada del Campo
+Galapagar
+Morata de Tajuña
+Garganta de los Montes
+Paracuellos de Jarama
+Gargantilla del Lozoya y Pinilla de
+Buitrago
+Patones
+Gascones
+Perales de Tajuña
+Guadalix de la Sierra
+Pinilla del Valle
+Guadarrama
+Pinto
+Horcajo de la Sierra-Aoslos
+Quijorna
+Horcajuelo de la Sierra
+Redueña
+Hoyo de Manzanares
+San Agustín del Guadalix
+La Acebeda
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+170
+San Fernando de Henares
+La Cabrera
+San Martín de la Vega
+La Hiruela
+San Sebastián de los Reyes
+La Serna del Monte
+Talamanca de Jarama
+Las Rozas de Madrid
+Tielmes
+Los Baldios
+Titulcia
+Los Molinos
+Torrejón de Ardoz
+Lozoya
+Torrejón de Velasco
+Lozoyuela-Navas-Sieteiglesias
+Torremocha de Jarama
+Madarcos
+Torres de la Alameda
+Manzanares el Real
+Valdeavero
+Miraflores de la Sierra
+Valdeolmos-Alalpardo
+Montejo de la Sierra
+Valdepiélagos
+Moralzarzal
+Valdetorres de Jarama
+Navacerrada
+Valverde de Alcalá
+Navalafuente
+Velilla de San Antonio
+Navalagamella
+Villaconejos
+Navalcarnero
+Villalbilla
+Navarredonda y San Mamés
+Villamanrique de Tajo
+Navas del Rey
+Villanueva de la Cañada
+Pedrezuela
+Villanueva del Pardillo
+Pelayos de la Presa
+Villaviciosa de Odón
+Piñuécar-Gandullas
+Prádena del Rincón
+Puebla de la Sierra
+Puentes Viejas
+Rascafría
+Robledillo de la Jara
+Robledo de Chavela
+Robregordo
+Rozas de Puerto Real
+San Lorenzo de El Escorial
+San Martín de Valdeiglesias
+Santa María de la Alameda
+Sevilla la Nueva
+Somosierra
+Soto del Real
+Torrelaguna
+Torrelodones
+Tres Cantos
+Valdemanco
+Valdemaqueda
+Valdemorillo
+Venturada
+Villa del Prado
+Villamanta
+Villamantilla
+Villanueva de Perales
+Villavieja del Lozoya
+Comunidad de Madrid
+Madrid
+Zarzalejo
+Comunidad Foral de Navarra
+Navarra
+Aberin
+Arano
+Aibar/Oibar
+Arantza
+Allín/Allin
+Bera
+Allo
+Etxalar
+Araitz
+Goizueta
+Arakil
+Igantzi
+Areso
+Ituren
+Atez/Atetz
+Lesaka
+Auritz/Burguete
+Luzaide/Valcarlos
+Ayegui/Aiegi
+Sunbilla
+Basaburua
+Urdazubi/Urdax
+Baztan
+Zubieta
+Beintza-Labaien
+Berbinzana
+Bertizarana
+Cadreita
+Castejón
+Cintruénigo
+Corella
+Desojo
+Donamaria
+Doneztebe/Santesteban
+El Busto
+Elgorriaga
+Eratsun
+Erro
+Estella-Lizarra
+Ezkurra
+Ezprogui
+Falces
+Fitero
+Igúzquiza
+Imotz
+Irurtzun
+Iza/Itza
+Juslapeña
+Larraun
+Lazagurría
+Leitza
+Liédena
+Los Arcos
+Lumbier
+Mendavia
+Mendigorría
+Milagro
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+171
+Mirafuentes
+Miranda de Arga
+Mues
+Nazar
+Odieta
+Oiz
+Orreaga/Roncesvalles
+Saldías
+Sangüesa/Zangoza
+Sesma
+Sierra de Aralar
+Torres del Río
+Ultzama
+Urroz
+Valle de Yerri/Deierri
+Valtierra
+Viana
+Villafranca
+Villatuerta
+Ziordia
+Comunidad Foral de Navarra
+Navarra
+Zugarramurdi
+Comunidad Valenciana
+Castellón / Castelló
+Alcudia de Veo
+Algimia de Almonacid
+Almedíjar
+Arañuel
+Azuébar
+Castillo de Villamalefa
+Chóvar
+Gaibiel
+Higueras
+Matet
+Pavías
+Torralba del Pinar
+Vall de Almonacid
+Comunidad Valenciana
+Castellón / Castelló
+Zucaina
+Comunidad Valenciana
+Valencia / València
+Chera
+el Puig de Santa Maria
+Gilet
+Puçol
+Comunidad Valenciana
+Valencia / València
+Sagunto/Sagunt
+Extremadura
+Badajoz
+Alange
+Acedera
+Aljucén
+Ahillones
+Almendralejo
+Alburquerque
+Azuaga
+Alconchel
+Badajoz
+Alconera
+Barcarrota
+Almendral
+Benquerencia de la Serena
+Atalaya
+Berlanga
+Baterno
+Burguillos del Cerro
+Cabeza del Buey
+Cabeza la Vaca
+Calera de León
+Campillo de Llerena
+Calzadilla de los Barros
+Carmonita
+Campanario
+Cheles
+Capilla
+Cordobilla de Lácara
+Casas de Don Pedro
+Corte de Peleas
+Casas de Reina
+Cristina
+Castilblanco
+Don Álvaro
+Castuera
+Entrín Bajo
+El Carrascalejo
+Fuente del Maestre
+Esparragalejo
+Fuentes de León
+Esparragosa de la Serena
+Garlitos
+Esparragosa de Lares
+Granja de Torrehermosa
+Feria
+Guadiana del Caudillo
+Fuenlabrada de los Montes
+Higuera de Llerena
+Fuente de Cantos
+Hornachos
+Garbayuela
+La Codosera
+Guareña
+La Garrovilla
+Helechosa de los Montes
+La Zarza
+Herrera del Duque
+Lobón
+Higuera de la Serena
+Los Santos de Maimona
+Higuera de Vargas
+Maguilla
+Higuera la Real
+Malcocinado
+Jerez de los Caballeros
+Malpartida de la Serena
+La Coronada
+Manchita
+La Haba
+Medellín
+La Lapa
+Montijo
+La Morera
+Oliva de la Frontera
+La Parra
+Oliva de Mérida
+La Roca de la Sierra
+Palomas
+Llera
+Puebla de la Calzada
+Magacela
+Puebla del Prior
+Medina de las Torres
+Pueblonuevo del Guadiana
+Mérida
+Segura de León
+Mirandilla
+Solana de los Barros
+Monesterio
+Talavera la Real
+Montemolín
+Torremayor
+Monterrubio de la Serena
+Torremejía
+Navalvillar de Pela
+Trujillanos
+Nogales
+Valdelacalzada
+Olivenza
+Valencia del Mombuey
+Orellana de la Sierra
+Valencia del Ventoso
+Orellana la Vieja
+Valle de la Serena
+Peñalsordo
+Valverde de Burguillos
+Peraleda del Zaucejo
+Villafranca de los Barros
+Puebla de Alcocer
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+172
+Villagonzalo
+Puebla de Obando
+Villanueva del Fresno
+Puebla de Sancho Pérez
+Zahínos
+Puebla del Maestre
+Quintana de la Serena
+Reina
+Rena
+Risco
+Salvaleón
+Salvatierra de los Barros
+San Pedro de Mérida
+San Vicente de Alcántara
+Sancti-Spíritus
+Santa Marta
+Siruela
+Talarrubias
+Táliga
+Tamurejo
+Torre de Miguel Sesmero
+Trasierra
+Usagre
+Valdecaballeros
+Valdetorres
+Valle de Matamoros
+Valverde de Llerena
+Valverde de Mérida
+Villanueva de la Serena
+Villar de Rena
+Villar del Rey
+Villarta de los Montes
+Zafra
+Zalamea de la Serena
+Extremadura
+Badajoz
+Zarza-Capilla
+Extremadura
+Cáceres
+Alagón del Río
+Abadía
+Alcollarín
+Abertura
+Almoharín
+Acebo
+Coria
+Acehúche
+Herguijuela
+Aceituna
+Holguera
+Ahigal
+Huélaga
+Albalá
+La Granja
+Alcántara
+Madrigal de la Vera
+Alcuéscar
+Madrigalejo
+Aldea del Cano
+Moraleja
+Aldeacentenera
+Portezuelo
+Aldeanueva de la Vera
+Pueblonuevo de Miramontes
+Aldeanueva del Camino
+Santa Cruz de la Sierra
+Alía
+Talayuela
+Aliseda
+Valdemorales
+Arroyo de la Luz
+Vegaviana
+Arroyomolinos
+Villamesías
+Arroyomolinos de la Vera
+Zarza la Mayor
+Baños de Montemayor
+Barrado
+Belvís de Monroy
+Benquerencia
+Berrocalejo
+Berzocana
+Bohonal de Ibor
+Botija
+Brozas
+Cabañas del Castillo
+Cabezabellosa
+Cabezuela del Valle
+Cabrero
+Cáceres
+Cadalso
+Calzadilla
+Caminomorisco
+Campillo de Deleitosa
+Campo Lugar
+Cañamero
+Cañaveral
+Carbajo
+Carrascalejo
+Casar de Cáceres
+Casar de Palomero
+Casares de las Hurdes
+Casas de Don Antonio
+Casas de Don Gómez
+Casas de Millán
+Casas de Miravete
+Casas del Castañar
+Casas del Monte
+Casillas de Coria
+Castañar de Ibor
+Ceclavín
+Cedillo
+Cerezo
+Cilleros
+Collado de la Vera
+Conquista de la Sierra
+Cuacos de Yuste
+Deleitosa
+Descargamaría
+El Torno
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+173
+Eljas
+Escurial
+Fresnedoso de Ibor
+Garciaz
+Garganta la Olla
+Gargantilla
+Gargüera
+Garrovillas de Alconétar
+Garvín
+Gata
+Guadalupe
+Guijo de Coria
+Guijo de Galisteo
+Guijo de Granadilla
+Guijo de Santa Bárbara
+Hernán-Pérez
+Herrera de Alcántara
+Herreruela
+Hervás
+Higuera
+Hinojal
+Hoyos
+Ibahernando
+Jaraicejo
+Jaraíz de la Vera
+Jarandilla de la Vera
+Jarilla
+Jerte
+La Aldea del Obispo
+La Cumbre
+La Garganta
+La Pesga
+Ladrillar
+Logrosán
+Losar de la Vera
+Madroñera
+Malpartida de Cáceres
+Malpartida de Plasencia
+Marchagaz
+Mata de Alcántara
+Membrío
+Mesas de Ibor
+Miajadas
+Millanes
+Mirabel
+Mohedas de Granadilla
+Monroy
+Montánchez
+Montehermoso
+Navaconcejo
+Navalmoral de la Mata
+Navalvillar de Ibor
+Navas del Madroño
+Navezuelas
+Nuñomoral
+Oliva de Plasencia
+Palomero
+Pasarón de la Vera
+Pedroso de Acim
+Peraleda de San Román
+Perales del Puerto
+Pescueza
+Piedras Albas
+Pinofranqueado
+Piornal
+Plasencia
+Plasenzuela
+Portaje
+Pozuelo de Zarzón
+Puerto de Santa Cruz
+Rebollar
+Robledillo de Gata
+Robledillo de la Vera
+Robledillo de Trujillo
+Robledollano
+Romangordo
+Ruanes
+Salorino
+Salvatierra de Santiago
+San Martín de Trevejo
+Santa Ana
+Santa Cruz de Paniagua
+Santa Marta de Magasca
+Santiago de Alcántara
+Santiago del Campo
+Santibáñez el Alto
+Santibáñez el Bajo
+Segura de Toro
+Serradilla
+Serrejón
+Sierra de Fuentes
+Talaván
+Talaveruela de la Vera
+Tejeda de Tiétar
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+174
+Tornavacas
+Torre de Don Miguel
+Torre de Santa María
+Torrecilla de los Ángeles
+Torrecillas de la Tiesa
+Torrejón el Rubio
+Torrejoncillo
+Torremenga
+Torremocha
+Torreorgaz
+Torrequemada
+Trujillo
+Valdastillas
+Valdecañas de Tajo
+Valdefuentes
+Valdehúncar
+Valdelacasa de Tajo
+Valdeobispo
+Valencia de Alcántara
+Valverde de la Vera
+Valverde del Fresno
+Viandar de la Vera
+Villa del Campo
+Villa del Rey
+Villamiel
+Villanueva de la Sierra
+Villanueva de la Vera
+Villar de Plasencia
+Villar del Pedroso
+Villasbuenas de Gata
+Zarza de Granadilla
+Zarza de Montánchez
+Extremadura
+Cáceres
+Zorita
+Galicia
+La Coruña / A Coruña
+Melide
+A Baña
+San Sadurniño
+A Capela
+A Coruña
+A Laracha
+A Pobra do Caramiñal
+Abegondo
+Ames
+Aranga
+Ares
+Arteixo
+Arzúa
+As Pontes de García Rodríguez
+Bergondo
+Betanzos
+Boimorto
+Boiro
+Boqueixón
+Brión
+Cabana de Bergantiños
+Cabanas
+Camariñas
+Cambre
+Carballo
+Cariño
+Carnota
+Carral
+Cedeira
+Cee
+Cerceda
+Coirós
+Corcubión
+Coristanco
+Culleredo
+Curtis
+Dodro
+Dumbría
+Fene
+Ferrol
+Fisterra
+Frades
+Irixoa
+Laxe
+Lousame
+Malpica de Bergantiños
+Mañón
+Mazaricos
+Mesía
+Miño
+Moeche
+Monfero
+Mugardos
+Muros
+Muxía
+Narón
+Neda
+Negreira
+Noia
+O Pino
+Oleiros
+Ordes
+Oroso
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+175
+Ortigueira
+Outes
+Oza-Cesuras
+Paderne
+Padrón
+Ponteceso
+Pontedeume
+Porto do Son
+Rianxo
+Ribeira
+Rois
+Sada
+Santa Comba
+Santiago de Compostela
+Santiso
+Teo
+Toques
+Tordoia
+Touro
+Trazo
+Val do Dubra
+Valdoviño
+Vedra
+Vilarmaior
+Vilasantar
+Vimianzo
+Galicia
+La Coruña / A Coruña
+Zas
+Galicia
+Lugo
+A Fonsagrada
+A Pastoriza
+A Pobra do Brollón
+A Pontenova
+Cervantes
+Abadín
+Cospeito
+Alfoz
+Folgoso do Courel
+Antas de Ulla
+Lourenzá
+As Nogais
+Navia de Suarna
+Baleira
+Pol
+Baralla
+Ribadeo
+Barreiros
+Ribeira de Piquín
+Becerreá
+Trabada
+Begonte
+Bóveda
+Burela
+Carballedo
+Castro de Rei
+Castroverde
+Cervo
+Chantada
+Foz
+Friol
+Guitiriz
+Guntín
+Láncara
+Lugo
+Meira
+Mondoñedo
+Monforte de Lemos
+Monterroso
+Muras
+Negueira de Muñiz
+O Corgo
+O Incio
+O Páramo
+O Saviñao
+O Valadouro
+O Vicedo
+Ourol
+Outeiro de Rei
+Palas de Rei
+Pantón
+Paradela
+Pedrafita do Cebreiro
+Portomarín
+Quiroga
+Rábade
+Ribas de Sil
+Riotorto
+Samos
+Sarria
+Sober
+Taboada
+Triacastela
+Vilalba
+Viveiro
+Xermade
+Galicia
+Lugo
+Xove
+Galicia
+Orense / Ourense
+A Rúa
+A Arnoia
+Castrelo do Val
+A Bola
+Laza
+A Gudiña
+O Barco de Valdeorras
+A Merca
+Oímbra
+A Mezquita
+Rairiz de Veiga
+A Peroxa
+Rubiá
+A Pobra de Trives
+Verín
+A Teixeira
+Viana do Bolo
+A Veiga
+Vilamartín de Valdeorras
+Allariz
+Amoeiro
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+176
+Avión
+Baltar
+Bande
+Baños de Molgas
+Barbadás
+Beade
+Beariz
+Boborás
+Calvos de Randín
+Carballeda de Avia
+Carballeda de Valdeorras
+Cartelle
+Castrelo de Miño
+Castro Caldelas
+Celanova
+Cenlle
+Chandrexa de Queixa
+Coles
+Cortegada
+Cualedro
+Entrimo
+Esgos
+Gomesende
+Larouco
+Leiro
+Lobeira
+Lobios
+Maceda
+Manzaneda
+Maside
+Melón
+Montederramo
+Monterrei
+Muíños
+Nogueira de Ramuín
+O Bolo
+O Carballiño
+O Irixo
+O Pereiro de Aguiar
+Os Blancos
+Ourense
+Paderne de Allariz
+Padrenda
+Parada de Sil
+Petín
+Piñor
+Pontedeva
+Porqueira
+Punxín
+Quintela de Leirado
+Ramirás
+Ribadavia
+Riós
+San Amaro
+San Cibrao das Viñas
+San Cristovo de Cea
+San Xoán de Río
+Sandiás
+Sarreaus
+Taboadela
+Toén
+Trasmiras
+Verea
+Vilamarín
+Vilar de Barrio
+Vilar de Santos
+Vilardevós
+Vilariño de Conso
+Xinzo de Limia
+Xunqueira de Ambía
+Galicia
+Orense / Ourense
+Xunqueira de Espadanedo
+Galicia
+Pontevedra
+O Rosal
+A Cañiza
+Salvaterra de Miño
+A Estrada
+A Guarda
+A Illa de Arousa
+Agolada
+Arbo
+As Neves
+Baiona
+Barro
+Bueu
+Caldas de Reis
+Cambados
+Campo Lameiro
+Cangas
+Catoira
+Cerdedo
+Cotobade
+Covelo
+Crecente
+Cuntis
+Dozón
+Forcarei
+Fornelos de Montes
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+177
+Gondomar
+Lalín
+Marín
+Meaño
+Meis
+Moaña
+Mondariz
+Mondariz-Balneario
+Moraña
+Mos
+Nigrán
+O Grove
+O Porriño
+Oia
+Pazos de Borbén
+Poio
+Ponte Caldelas
+Ponteareas
+Pontecesures
+Pontevedra
+Portas
+Redondela
+Ribadumia
+Rodeiro
+Salceda de Caselas
+Sanxenxo
+Silleda
+Soutomaior
+Tomiño
+Tui
+Valga
+Vigo
+Vila de Cruces
+Vilaboa
+Vilagarcía de Arousa
+Galicia
+Pontevedra
+Vilanova de Arousa
+Islas Baleares
+Islas Baleares / Illes Balears
+Alaró
+Artà
+Bunyola
+Capdepera
+Deià
+Es Migjorn Gran
+Esporles
+Felanitx
+Ferreries
+Fornalutx
+Lloret de Vistalegre
+Lloseta
+Manacor
+Montuïri
+Sant Antoni de Portmany
+Sant Joan
+Sant Joan de Labritja
+Sant Llorenç des Cardassar
+Santa Eulària des Riu
+Selva
+ses Salines
+Sineu
+Sóller
+Son Servera
+Islas Baleares
+Islas Baleares / Illes Balears
+Valldemossa
+La Rioja
+La Rioja
+Agoncillo
+Ajamil de Cameros
+Aldeanueva de Ebro
+Alfaro
+Anguciana
+Anguiano
+Arnedillo
+Arnedo
+Arrúbal
+Autol
+Badarán
+Bañares
+Baños de Río Tobía
+Baños de Rioja
+Berceo
+Bergasa
+Bobadilla
+Brieva de Cameros
+Calahorra
+Canales de la Sierra
+Cañas
+Cárdenas
+Casalarreina
+Castañares de Rioja
+Cervera del Río Alhama
+Cidamón
+Cirueña
+Cornago
+El Rasillo de Cameros
+Enciso
+Estollo
+Ezcaray
+Grávalos
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+178
+Haro
+Herce
+Hervías
+Hornillos de Cameros
+Igea
+Lagunilla del Jubera
+Leza de Río Leza
+Mansilla de la Sierra
+Manzanares de Rioja
+Matute
+Munilla
+Murillo de Río Leza
+Ocón
+Ortigosa de Cameros
+Pazuengos
+Quel
+Rincón de Soto
+Robres del Castillo
+Rodezno
+San Millán de la Cogolla
+San Román de Cameros
+San Torcuato
+Santa Engracia del Jubera
+Santa Eulalia Bajera
+Santo Domingo de la Calzada
+Santurdejo
+Torrecilla sobre Alesanco
+Valgañón
+Ventrosa
+Villalobar de Rioja
+Villar de Torre
+Villavelayo
+Viniegra de Abajo
+Viniegra de Arriba
+Zarratón
+Zarzosa
+La Rioja
+La Rioja
+Zorraquín
+Murcia
+Murcia
+Águilas
+Cartagena
+Murcia
+Murcia
+Puerto Lumbreras
+País Vasco
+Álava / Araba
+Aramaio
+Arratzua-Ubarrundia
+Asparrena
+Barrundia
+Legutio
+Moreda de Álava/Moreda Araba
+País Vasco
+Álava / Araba
+Oyón-Oion
+País Vasco
+Guipúzcoa / Gipuzkoa
+Abaltzisketa
+Aia
+Aizarnazabal
+Albiztur
+Alegia
+Alkiza
+Altzaga
+Altzo
+Amezketa
+Anoeta
+Arama
+Aretxabaleta
+Arrasate/Mondragón
+Asteasu
+Ataun
+Azkoitia
+Azpeitia
+Baliarrain
+Beasain
+Beizama
+Belauntza
+Berastegi
+Berrobi
+Bidania-Goiatz
+Deba
+Elduain
+Errezil
+Eskoriatza
+Ezkio-Itsaso
+Gabiria
+Gaintza
+Gaztelu
+Hernialde
+Hondarribia
+Ibarra
+Idiazabal
+Ikaztegieta
+Irun
+Irura
+Itsasondo
+Larraul
+Lazkao
+Leaburu
+Legazpi
+Legorreta
+Leintz-Gatzaga
+Lezo
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+179
+Lizartza
+Mendaro
+Mutiloa
+Mutriku
+Oiartzun
+Olaberria
+Ordizia
+Orendain
+Orexa
+Orio
+Ormaiztegi
+Segura
+Tolosa
+Urretxu
+Villabona
+Zaldibia
+Zarautz
+Zegama
+Zerain
+Zestoa
+Zizurkil
+Zumaia
+País Vasco
+Guipúzcoa / Gipuzkoa
+Zumarraga
+País Vasco
+Vizcaya / Bizkaia
+Abadiño
+Abanto y Ciérvana-Abanto Zierbena
+Alonsotegi
+Arantzazu
+Areatza
+Arrigorriaga
+Artea
+Artzentales
+Atxondo
+Balmaseda
+Barakaldo
+Basauri
+Bilbao
+Durango
+Elorrio
+Etxebarri
+Galdames
+Gordexola
+Güeñes
+Izurtza
+Karrantza Harana/Valle de Carranza
+Mañaria
+Muskiz
+Otxandio
+Sopuerta
+Trucios-Turtzioz
+Ubide
+Ugao-Miraballes
+Zalla
+Zaratamo
+Zeanuri
+País Vasco
+Vizcaya / Bizkaia
+Zierbena
+Principado de Asturias
+Asturias
+Aller
+Allande
+Belmonte de Miranda
+Amieva
+Candamo
+Boal
+Cangas del Narcea
+Coaña
+Castrillón
+Cudillero
+Castropol
+Muros de Nalón
+Degaña
+Navia
+El Franco
+Ponga
+Gijón
+Tineo
+Grado
+Valdés
+Grandas de Salime
+Yernes y Tameza
+Ibias
+Illano
+Illas
+Las Regueras
+Laviana
+Lena
+Llanera
+Mieres
+Oviedo
+Pesoz
+Pravia
+Ribera de Arriba
+Salas
+San Martín de Oscos
+San Martín del Rey Aurelio
+San Tirso de Abres
+Santa Eulalia de Oscos
+Santo Adriano
+Siero
+Somiedo
+Soto del Barco
+Tapia de Casariego
+Taramundi
+Teverga
+Vegadeo
+Villanueva de Oscos
+Principado de Asturias
+Asturias
+Villayón
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+180
+
+Documento Básico HS Salubridad
+HS 6 Protección frente a la exposición al radón
+181
+
+## Tablas en estas páginas
+
+- tabla/p0146_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0147_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0148_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0149_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0150_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0151_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0152_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0153_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0154_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0155_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0156_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0157_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0158_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0159_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0160_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0161_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0162_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0163_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0164_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0165_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0166_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0167_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0168_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0169_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0170_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0171_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0172_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0173_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0174_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0175_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0176_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0177_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0178_t01.json (.csv y .json con celdas y coordenadas)
+- tabla/p0179_t01.json (.csv y .json con celdas y coordenadas)
+
+## Figuras / fórmulas
+
+- figura/p0146.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0147.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0148.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0149.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0150.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0151.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0152.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0153.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0154.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0155.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0156.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0157.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0158.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0159.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0160.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0161.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0162.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0163.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0164.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0165.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0166.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0167.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0168.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0169.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0170.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0171.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0172.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0173.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0174.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0175.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0176.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0177.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0178.png (página visual; fórmulas extraídas pendientes de verificación)
+- figura/p0179.png (página visual; fórmulas extraídas pendientes de verificación)

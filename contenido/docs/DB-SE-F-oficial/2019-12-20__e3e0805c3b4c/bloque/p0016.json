@@ -1,0 +1,153 @@
+{
+ "documento": null,
+ "pagina": 16,
+ "etiqueta_impresa": "4",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-12",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.2,
+    200.4,
+    82.2
+   ],
+   "tipo": "texto",
+   "texto": "4.6.4 Resistencia a flexión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    88.9,
+    541.4,
+    151.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn función del plano de rotura, se pueden considerar dos resistencias características a flexión (figura\n4.1):\na)\nfxk1, si el plano de rotura es paralelo a los tendeles\nb)\nfxk2, si el plano de rotura es perpendicular a los tendeles",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    288.0,
+    541.4,
+    422.3
+   ],
+   "tipo": "texto",
+   "texto": "a) Plano de rotura paralelo a los tendeles\nb) Plano de rotura perpendicular a los tendeles\nFigura 4.1 Modos de flexión en fábricas.\n2\nComo resistencia característica a flexión de la fábrica pueden tomarse la de la tabla 4.6\n3\nEn el caso en que se adopten disposiciones especiales sobre la trabajabilidad del mortero y su pene-\ntración en los huecos de las piezas se podrá adoptar como resistencia a la flexotracción la de 0,1 fk.\n4\nLa resistencia a flexión por tendeles se empleará solamente con combinaciones de carga que incluyan\nacciones variables normales a la superficie de la fábrica (por ejemplo: viento). No se considerará dicha\nresistencia cuando la rotura de la fábrica por flexión origine el colapso o la pérdida de estabilidad del\nedificio o alguna de sus partes, o en caso de acción sísmica.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    76.3,
+    426.5,
+    456.0,
+    458.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.6 Resistencia a flexión de la fábrica (N/mm2)\nMorteros ordinarios\nMorteros de junta",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    398.8,
+    460.1,
+    435.2,
+    469.1
+   ],
+   "tipo": "texto",
+   "texto": "delgada",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    479.8,
+    449.2,
+    520.8,
+    458.2
+   ],
+   "tipo": "texto",
+   "texto": "Morteros",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    76.3,
+    460.6,
+    530.1,
+    557.2
+   ],
+   "tipo": "texto",
+   "texto": "ligeros\nTipo de pieza\nfm<5 N/mm2\nfm ≥ 5N/mm2\nfxk1\nfxk2\nfxk1\nfxk2\nfxk1\nfxk2\nfxk1\nfxk2\nCerámica\n0,10\n0,20\n0,10\n0,40\n0,15\n0,15\n0,10\n0,10\nSílico-calcáreos\n0,05\n0,20\n0,10\n0,40\n0,20\n0,30\n-\n-\nHormigón ordinario\n0,05\n0,20\n0,10\n0,40\n0,20\n0,30\n-\n-\nHormigón celular de autoclave\n0,05\n0,40\n0,10\n0,40\n0,15\n0,20\n0,10\n0,15\nPiedra artificial\n0,05\n0,40\n0,10\n0,40\n-\n-\n-\n-\nPiedra natural\n0,05\n0,20\n0,10\n0,40\n0,15\n0,15\n-\n-",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    570.0,
+    174.3,
+    580.0
+   ],
+   "tipo": "texto",
+   "texto": "4.6.5 Deformabilidad",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    586.7,
+    541.5,
+    746.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl diagrama tensión-deformación de la fábrica tiene la forma genérica que se representa en la figura\n4.2-a. Como diagramas de cálculo pueden adoptarse los de las figuras 4.2-b o 4.2-c. Las fábricas con\npiezas huecas pueden presentar rotura frágil antes de desarrollar una rama horizontal y por tanto no\nse puede usar dicha parte del diagrama 4.2-b ni el 4.2-c\n2\nComo módulo de elasticidad secante instantáneo, E, de una fábrica puede tomarse igual a 1000 fk.\nPara cálculos de estados límites de servicio, se puede multiplicar el valor E por el factor 0,6. Para\ndeterminar deformaciones diferidas, el módulo a utilizar puede ser deducido del módulo de elasticidad\npara deformaciones instantáneas multiplicado por el coeficiente de fluencia que se deduce de la tabla\n4.7.\n3\nComo módulo de elasticidad transversal, G, puede tomarse el 40% del módulo de elasticidad E.\n4\nComo parámetros de deformación reológica y térmica de las fábricas se pueden emplear los valores\nde cálculo dados en la tabla 4.7.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

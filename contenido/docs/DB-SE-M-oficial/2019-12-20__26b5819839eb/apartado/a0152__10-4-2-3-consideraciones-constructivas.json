@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0152",
+  "ruta_oficial": "10.4.2.3",
+  "ruta_semantica": "10.4.2.3  Consideraciones constructivas",
+  "titulo": "10.4.2.3  Consideraciones constructivas",
+  "nivel": 1,
+  "parent_id": "a0150",
+  "seccion_estimada": "10.4.2.3  Consideraciones constructivas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 90,
+   "bbox": [
+    70.9,
+    72.4,
+    263.6,
+    82.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "8a4b16f19b15457b2bc1a1e36fc3075558841f51ea39d04826ae821c4ee9f86c",
+   "literal": "10.4.2.3  Consideraciones constructivas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0177",
+  "parent_id_original": "a0150",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.4.2.3  Consideraciones constructivas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0150",
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.4  Diafragmas 10.4.1  Diafragmas de forjados y cubiertas / 10.4.2  Diafragma de muros / 10.4.2.3  Consideraciones constructivas",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7713a54ebd75dfd5c804d8fa02019a8116f2ecdf1c53b9650affc080bb982eea"
+ },
+ "paginas": [
+  90
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.4.2.3  Consideraciones constructivas\n1\nEl método simplificado de cálculo definido anteriormente, supone que la fijación del tablero se efec-\ntúa con una separación máxima de los clavos o tirafondos, a lo largo de los bordes de 150 mm para\nlos clavos y 200 mm para los tirafondos. En las líneas interiores la separación máxima será de 300\nmm.\n(1)\nSeparación máxima entre clavos, 300 mm, en los montantes centrales.\n(2)\nMontante perimetral.\n(3)\nSeparación máxima entre clavos, 150 mm, en los montantes perimetrales.\nFigura 10.10 Fijación de tableros en panel de muro-diafragma.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0090.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

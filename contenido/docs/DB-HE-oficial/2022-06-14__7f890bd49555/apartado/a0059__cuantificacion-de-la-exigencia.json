@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0059",
+  "ruta_oficial": null,
+  "ruta_semantica": "Cuantificación de la exigencia",
+  "titulo": "Cuantificación de la exigencia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Cuantificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    56.7,
+    522.4,
+    267.4,
+    535.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1c16b3d8ee6f472fa603bbc269db435892f55f0e6411fbc2de876916fad32255",
+   "literal": "Cuantificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "RITE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Cuantificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Construcción, mantenimiento y conservación / Sección HE 4 Contribución mínima de energía renovable para cubrir la / Cuantificación de la exigencia",
+   "seccion_estimada": "5 Construcción, mantenimiento y conservación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "57717f542e94859b8370a281fe410ce31784af48cb7457fcf6c25ab92008ba01"
+ },
+ "paginas": [
+  28,
+  29
+ ],
+ "etiquetas_impresas": [
+  "28",
+  "29"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Cuantificación de la exigencia\n3.1\nContribución renovable mínima para ACS y/o climatización de piscina\n1\nLa contribución mínima de energía procedente de fuentes renovables cubrirá al menos el 70% de la\ndemanda energética anual para ACS y para climatización de piscina, obtenida a partir de los valores\nmensuales, e incluyendo las pérdidas térmicas por distribución, acumulación y recirculación. Esta\ncontribución mínima podrá reducirse al 60% cuando la demanda de ACS sea inferior a 5000 l/d.\nSe considerará únicamente la aportación renovable de la energía con origen in situ o en las proximidades\ndel edificio, o procedente de biomasa sólida.\n2\nEn el caso de ampliaciones e intervenciones en edificios existentes, contemplados en el punto 1 c) del\námbito de aplicación, la contribución renovable mínima se establece sobre el incremento de la demanda\nde ACS respecto a la demanda inicial.\n3\nLas fuentes renovables que satisfagan la contribución renovable mínima de ACS y/o climatización de\npiscina, pueden estar integradas en la propia generación térmica del edificio o ser accesibles a través de\nla conexión a un sistema urbano de calefacción.\n4\nLas bombas de calor destinadas a la producción de ACS y/o climatización de piscina, para poder\nconsiderar su contribución renovable a efectos de esta sección, deberán disponer de un valor de\nrendimiento medio estacional (SCOPdhw) igual o superior a 2,5 cuando sean accionadas eléctricamente\ne igual o superior a 1,15 cuando sean accionadas mediante energía térmica. El valor de SCOPdhw se\ndeterminará para la temperatura de preparación del ACS, que no será inferior a 45ºC\n\nDocumento Básico HE Ahorro de energía\nHE 4. Contribución mínima de energía renovable para cubrir la demanda de agua caliente sanitaria\n29\n5\nLa contribución renovable mínima para ACS y/o climatización de piscinas cubiertas podrá sustituirse\nparcial o totalmente por energía residual procedente equipos de refrigeración, de deshumectadoras y del\ncalor residual de combustión del motor de bombas de calor accionadas térmicamente, siempre y cuando\nel aprovechamiento de esta energía residual sea efectiva y útil para el ACS. Únicamente se tomará en\nconsideración la energía obtenida por la instalación de recuperadores de calor ajenos a la propia\ninstalación térmica del edificio. En el caso de recuperación de energía residual procedente de equipos de\nrefrigeración en edificios de uso residencial privado, no se podrá contabilizar un aprovechamiento de\nenergía superior al 20% de la extraída.\n3.2\nSistema de medida de energía suministrada\n1\nLos sistemas de medida de la energía suministrada procedente de fuentes renovables se adecuarán al\nvigente Reglamento de Instalaciones Térmicas en los Edificios (RITE).\n4",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "RITE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

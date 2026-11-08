@@ -1,0 +1,143 @@
+{
+ "indice": 1,
+ "pagina": 86,
+ "etiqueta_impresa": "86",
+ "bbox": [
+  167.7,
+  392.2,
+  427.6,
+  431.8
+ ],
+ "filas": 4,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Nivel de riesgo intrínseco",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Tipo B",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Tipo C",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Riesgo bajo.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "R 15",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "No se exige justificar la resistencia.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Riesgo medio.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "R 30",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "R 15",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "Riesgo alto.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "R 60",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 2,
+   "texto": "R 30",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Nivel de riesgo intrínseco",
+  "Tipo B",
+  "Tipo C"
+ ],
+ "header": {
+  "names": [
+   "Nivel de riesgo intrínseco",
+   "Tipo B",
+   "Tipo C"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97FBC0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97F110>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA17770>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97C1D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA17560>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA17EC0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA15520>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA141A0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA15D00>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA16690>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA149B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA15A60>"
+  ]
+ ],
+ "notas_adyacentes": [
+  "Nota: Esta tabla aplica solamente a la estructura principal de las cubiertas ligeras, sin\nconsiderar a los pilares o cualquier otro soporte de la misma. A estos efectos, la tabla se\naplicará a los dinteles, cerchas o elementos equivalentes. Por el contrario, esta tabla no\naplica a los elementos secundarios de la cubierta, los cuales no precisarían de protección,\ncomo por ejemplo las correas de cubierta que no tengan función principal portante."
+ ],
+ "imagen_pagina": "figura/p0086.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

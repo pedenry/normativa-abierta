@@ -1,0 +1,91 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0099",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología / Longitud de absorción equivalente de vibraciones de un elemento constructivo, a: Longitud equivalente a la absorción de vibraciones de un elemento constructivo.",
+  "titulo": "Longitud de absorción equivalente de vibraciones de un elemento constructivo, a: Longitud equivalente a la absorción de vibraciones de un elemento constructivo.",
+  "nivel": 2,
+  "parent_id": "a0092",
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 51,
+   "bbox": [
+    70.9,
+    141.7,
+    541.4,
+    353.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "c3a2455a88723faac92fba1a622521427cc3fb9c88fc2b2515ce9ac0fe21bc7d",
+   "literal": "Longitud de absorción equivalente de vibraciones de un elemento constructivo, a: Longitud equivalente a la absorción de vibraciones de un elemento constructivo."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0014",
+  "parent_id_original": "a0092",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Longitud de absorción equivalente de vibraciones de un elemento constructivo, a: Longitud equivalente a la absorción de vibraciones de un elemento constructivo.",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0092",
+   "ruta_semantica": "Anejo A. Terminología / Longitud de absorción equivalente de vibraciones de un elemento constructivo, a: Longitud equivalente a la absorción de vibraciones de un elemento constructivo.",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "92bff76b5d6512be4ea2c8add98e0b55d3540134349fa8639a56df4db4ed47eb"
+ },
+ "paginas": [
+  51
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Documento Básico HR - Protección frente al ruido\nHR A-9\nSe define mediante la expresión siguiente:\n\n=\n−\n\n−\n=\nn\n1\ni\n10\n/)i\nR\ni,\nAtr\nL\n(\nAtr\n10\nlg\n10\nR\n[dBA]\n(A.18)\nsiendo\nRi\nvalor del índice de reducción acústica en la banda de frecuencia i, [dB];\nLAtr,i\nvalor del espectro normalizado del ruido de automóviles, ponderado A, en la banda de frecuen-\ncia i, [dBA];\ni\nrecorre todas las bandas de frecuencia de tercio de octava de 100 Hz a 5 kHz.\nDe forma aproximada puede considerarse que\ntr\nw\nAtr\nC\nR\nR\n+\n=\nÍndice global de reducción acústica, Rw: Valor en decibelios de la curva de referencia, a 500 Hz, ajus-\ntada a los valores experimentales del índice de reducción acústica, R según el método especificado en la\nUNE EN ISO 717 – 1.\nLongitud de absorción equivalente de vibraciones de un elemento constructivo, a: Longitud equi-\nvalente a la absorción de vibraciones de un elemento constructivo.\nSe define mediante la expresión siguiente:\nf\nf\nT\nc\nS\n2,2\na\nref\ns\no\n2\n\n=\n[m]\n(A.19)\nsiendo\nTs\ntiempo de reverberación estructural del elemento, [s];\nS\nárea del elemento constructivo, [m2];\nf\nfrecuencia, [Hz];\nfref\nfrecuencia de referencia, de valor 1000 Hz,\nc0\nvelocidad de propagación, [m/s].\nMaterial poroso: Material absorbente de estructura alveolar, granular, fibrosa, etc., que actúa degradan-\ndo la energía mecánica en calor, mediante el rozamiento del aire con las superficies del material.\nMedianería: Cerramiento que linda en toda su superficie o en parte de ella con otros edificios ya cons-\ntruidos, o que puedan construirse legalmente.\nMejora del índice de reducción acústica de un revestimiento, R: Aumento del índice de reducción\nacústica de un elemento constructivo por adición de un tratamiento o revestimiento al elemento construc-\ntivo base. Se valora por la diferencia entre el índice de reducción acústica de un elemento constructivo\nde referencia con el revestimiento de mejora y el propio del elemento constructivo de referencia. Es fun-\nción de la frecuencia.\nMejora del índice global de reducción acústica de un revestimiento, Rw: Aumento del índice global\nde reducción acústica de un elemento constructivo por adición de un tratamiento o revestimiento al ele-\nmento constructivo base. Se valora por la diferencia entre los valores globales del índice de reducción\nacústica de un elemento constructivo de referencia con el revestimiento de mejora y el propio del ele-\nmento constructivo de referencia.\nMejora del índice global de reducción acústica, ponderado A, de un revestimiento, RA: Aumento\ndel índice global de reducción acústica de un elemento constructivo por adición de un tratamiento o re-\nvestimiento al elemento constructivo base. Se valora por la diferencia entre los valores globales del índi-\nce de reducción acústica, ponderado A, de un elemento constructivo de referencia con el revestimiento\nde mejora y el propio del elemento constructivo de referencia.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0051_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0051.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

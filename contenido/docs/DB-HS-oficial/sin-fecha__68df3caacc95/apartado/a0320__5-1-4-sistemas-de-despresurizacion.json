@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0320",
+  "ruta_oficial": "5.1.4",
+  "ruta_semantica": "5.1.4 Sistemas de despresurización",
+  "titulo": "5.1.4 Sistemas de despresurización",
+  "nivel": 1,
+  "parent_id": "a0316",
+  "seccion_estimada": "5.1.4 Sistemas de despresurización",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 142,
+   "bbox": [
+    70.9,
+    712.0,
+    242.1,
+    723.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1db5c3cac289d86f3afaec5e574467015391c7d591a5a84070644159a0a022bd",
+   "literal": "5.1.4 Sistemas de despresurización"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0316",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 3.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.4 Sistemas de despresurización",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0316",
+   "ruta_semantica": "5 Construcción / 5.1 Ejecución / 5.1.4 Sistemas de despresurización",
+   "seccion_estimada": "5 Construcción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8874b023f96fe3583ae3394fe364204c06ee09a4305900547c637cd644016c59"
+ },
+ "paginas": [
+  142,
+  143
+ ],
+ "etiquetas_impresas": [
+  "142",
+  "143"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "5.1.4 Sistemas de despresurización\n1\nLos elementos de captación, tanto arquetas como tubos perforados, deben situarse centrados en el\nespesor de la capa de relleno especificada en el apartado 3.3, para que se utilice toda su superficie\nen la extracción del aire.\n\nDocumento Básico HS Salubridad\nHS 6 Protección frente a la exposición al radón\n143\n2\nCuando se vierta directamente el hormigón de la solera sobre la capa de relleno, ésta se protegerá,\npor ejemplo, mediante una capa de geotextil, para evitar que sus huecos se saturen, así como que\nse inutilicen las arquetas o los tubos perforados.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0143_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0143.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

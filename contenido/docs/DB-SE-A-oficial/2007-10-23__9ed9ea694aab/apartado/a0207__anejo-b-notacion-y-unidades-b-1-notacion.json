@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0207",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p143",
+  "titulo": "Anejo B. Notación y Unidades B.1 Notación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p143",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p143",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo B. Notación y Unidades B.1 Notación",
+   "seccion_estimada": "Anejo B. Notación y Unidades B.1 Notación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "03b589dfb2c71aa9b2f49e4e1fd82752dfbf2783b5914fcb7512b23b10625a29"
+ },
+ "paginas": [
+  143,
+  144,
+  145,
+  146,
+  147
+ ],
+ "etiquetas_impresas": [
+  "143",
+  "144",
+  "145",
+  "146",
+  "147"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo B. Notación y Unidades B.1 Notación\nB.1 Notación\n1\nletras mayúsculas latinas\nA:\nárea\nA:\nvalor de acción accidental\nE:\nmódulo de Elasticidad\nE:\nefecto de una acción (con subíndices)\nF:\nacción\nG:\nmódulo de elasticidad transversal\nG:\nvalor de acción permanente\nI:\nmomento de Inercia\nL:\nlongitud, luz\nM:\nmomento flector\nN:\nesfuerzo axial\nQ:\nvalor de acción variable\nR:\nresistencia (capacidad resistente) (con subíndices)\nS:\nacero (designación)\nT:\nmomento torsor\nS:\nrigidez\nV:\nesfuerzo cortante\nW:\nmódulo resistente\n2\nletras minúsculas latinas\na:\ndistancia\na:\ngarganta de un cordón\nb:\nancho (usualmente de una sección)\nc:\nancho (usualmente del ala de una sección)\nd:\ndiámetro\nd:\ncanto (usualmente de alma de una sección)\ne:\nimperfección geométrica\ne:\ndistancia de tornillo a borde de chapa\nf:\nflecha\nf:\nresistencia\nf:\nfrecuencia\nh:\naltura\nh:\ncanto (usualmente de una sección)\ni:\nradio de giro de una sección\n\nDocumentoBásico SE-A Acero\nSE-A-142\nl:\nlongitud, luz\nm:\ndistancia de tornillo a eje de rotura\np:\npaso, separación\nq:\ncarga uniforme\ns:\ndistancia\nt:\nespesor\nu:\ndesplazamiento horizontal de una estructura o parte de la misma\nw:\ndesplazamiento vertical de una estructura o parte de la misma\nw:\nflecha, imperfección geométrica\n3\nletras minúsculas griegas\nα:\nrelación\nα:\ncoeficiente de dilatación térmica\nα:\nfactor de imperfección\nγ:\ncoeficiente parcial (de seguridad)\nγ:\nrelación entre radio y espesor de tubo\nδ:\ndesplazamiento\nε:\ndeformación\nε:\nraíz de la relación de límite elástico de referencia al del acero empleado\nλ:\nesbeltez\nµ:\ncoeficiente de rozamiento\nν:\ncoeficiente de Poisson\nρ:\nfactor de reducción\nρ:\ndensidad\nσ:\ntensión normal\nτ:\ntensión tangencial\nφ:\nángulo\nχ:\ncoeficiente de reducción por pandeo (resistencias)\nΨ:\nfactor de reducción (acciones)\n4\nsubíndices\nb:\naplastamiento\nb:\nviga\nb:\ntornillo\nc:\npilar\ncr:\nvalor crítico\nd:\nvalor de cálculo\nE:\neuler\nE:\nesfuerzo, efecto de las acciones\n\nDocumentoBásico SE-A Acero\nSE-A-143\ne\neficaz\nef:\nefectivo, eficaz\nel:\nelástico\neq: equivalente\nf:\nala\nini:\ninicial\nk:\nvalor característico\nLT: pandeo Lateral\nM:\nmaterial\nM:\nrelativo al momento flector\nmax: valor máximo\nmin: valor mínimo\nN:\nrelativo al axil\nnet: valor neto\np:\nchapa\npl:\nplástico\nR:\nresistencia\nU:\núltima (resistencia)\nw:\nalma\ny:\nrelativo al límite elástico\n5\nCon independencia de la notación específica a utilizar en cada apartado, en este DB se utiliza la\nnotación indicada en la figura B.1.\n6\nEn el caso de las uniones entre perfiles huecos se utilizan los términos adicionales descritos en la\nfigura B.2. En particular:\na)\nSeparación (g):\nla distancia, medida a lo largo de la cara del cordón, entre los cordones de las barras de alma\n(figura B.2.a).\nb)\nSolape o recubrimiento (λov):\nel valor (q/p) (usualmente medido en tanto por ciento) (figura B.2.b).\n7\nEn el caso de las vigas de celosía se utilizan los términos adicionales descritos en la figura B.3\n\nDocumentoBásico SE-A Acero\nSE-A-144\nFigura B.1 Dimensiones y ejes de las secciones\nFigura B.2 Separación y recubrimiento de los nudos\nh\nd\ny\ny\nr\nz\nz\nb\nb\nb\nz\nz\nz\nz\nh\nh\ny\ny\nr\ny\ny\ntf\ntf\ntw\ntw\nt\nd\nh\nd\ny\ny\nh\nd\ny\ny\nd\ntw\nr2\nr1\nz\nz\nb/2\ntf\nb/4\ntf\nr2\nb\nb\nz\nz\nr1\ntw\nh\nh\nz\nz\nv\nv\nu\nu\ny\ny\nt\nt\nh\nb\nv\nv\nz\nz\nu\nu\ny\ny\ng\ng\nlov = q/p (medido en %)\nq\np\na) definición de la\nseparación\nb) definición del recubrimiento\n(solape)\n\nDocumentoBásico SE-A Acero\nSE-A-145\nFigura B.3 Vigas de celosía",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0144.png",
+  "../figura/p0145.png",
+  "../figura/p0146.png",
+  "../figura/p0147.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0208"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

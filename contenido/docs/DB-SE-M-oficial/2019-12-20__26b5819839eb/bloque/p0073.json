@@ -1,0 +1,209 @@
+{
+ "documento": null,
+ "pagina": 73,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 67",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    88.8,
+    71.8,
+    337.4,
+    83.3
+   ],
+   "tipo": "texto",
+   "texto": "( = (tanto en embarbillado simple como en el doble)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    88.8,
+    107.6,
+    285.8,
+    119.0
+   ],
+   "tipo": "texto",
+   "texto": "y siendo, en las ecuaciones (8.85) a (8.87):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    88.8,
+    126.5,
+    199.6,
+    136.4
+   ],
+   "tipo": "texto",
+   "texto": "b\nanchura de la pieza;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    143.3,
+    379.1,
+    154.8
+   ],
+   "tipo": "texto",
+   "texto": "\nángulo entre par y tirante o piezas equivalentes (figura 8.15);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    162.2,
+    304.0,
+    172.2
+   ],
+   "tipo": "texto",
+   "texto": "fv,d valor de cálculo de la resistencia a cortante;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    180.6,
+    541.3,
+    201.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "fc,,d valor de cálculo de la resistencia a compresión oblicua, teniendo en cuenta lo indicado en este\napartado y en el 8.5.2.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    88.8,
+    209.4,
+    391.3,
+    219.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Fd valor de cálculo de la compresión en el par o pieza equivalente.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    487.4,
+    481.3,
+    523.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.15 Embarbillado simple y doble.\n2\nLa profundidad de la barbilla debe cumplir las condiciones establecidas en la tabla 8.11.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    135.6,
+    535.8,
+    458.9,
+    557.4
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 8.11 Profundidad t, de la barbilla.\nEmbarbillado simple\nEmbarbillado doble",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    140.4,
+    560.8,
+    433.7,
+    571.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "t ≤ h/4 para  ≤ 50 º\nt1 ≤ h/6",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    140.4,
+    575.8,
+    433.7,
+    586.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "t ≤ h/6 para  ≥ 60 º\nt2 ≤ h/4",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    77.2,
+    591.8,
+    468.2,
+    600.8
+   ],
+   "tipo": "texto",
+   "texto": "Para valores intermedios se interpolará linealmente\nAdemás: t1 < t2 – 10 mm",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    625.0,
+    541.3,
+    694.8
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn la figura 8.15 se indica un valor  para definir el ángulo de corte en la barbilla. El valor de   queda\ndefinido a partir del ángulo   de modo que (ε = (180-β)/2, en grados). De este modo se optimiza el\nvalor de fc,α,d en la barbilla. Se podrá elegir otro trazado, pero en ese caso el valor de fc,α,d será distinto\nal definido anteriormente. En caso de embarbillado simple se puede obtener el valor de fc,α,d según la\necuación (6.20), utilizando un valor de fc,0,d reducido por 0,8, y tomando el ángulo α más desfavora-\nble.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

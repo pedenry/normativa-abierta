@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0299",
+  "ruta_oficial": "6.4",
+  "ruta_semantica": "6.4 Condiciones de los materiales de los accesorios",
+  "titulo": "6.4 Condiciones de los materiales de los accesorios",
+  "nivel": 1,
+  "parent_id": "a0250",
+  "seccion_estimada": "6.4 Condiciones de los materiales de los accesorios",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 131,
+   "bbox": [
+    70.9,
+    415.1,
+    426.1,
+    430.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "871fb1c8ad4a2bd7e6241328824fb1371f06d438696365169cd1dab3c8f0d0b9",
+   "literal": "6.4 Condiciones de los materiales de los accesorios"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0250",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.4 Condiciones de los materiales de los accesorios",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0250",
+   "ruta_semantica": "Sección HS5 / 6.4 Condiciones de los materiales de los accesorios",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f2e943e18c8606fa624e3e00cc889a5214b227eca1f20a95c30c0af73104604c"
+ },
+ "paginas": [
+  131
+ ],
+ "etiquetas_impresas": [
+  "131"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.4 Condiciones de los materiales de los accesorios\n1\nCumplirán las siguientes condiciones:\na)\nCualquier elemento metálico o no que sea necesario para la perfecta ejecución de estas insta-\nlaciones reunirá en cuanto a su material, las mismas condiciones exigidas para la canalización\nen que se inserte.\nb)\nLas piezas de fundición destinadas a tapas, sumideros, válvulas, etc., cumplirán las condicio-\nnes exigidas para las tuberías de fundición.\nc)\nLas bridas, presillas y demás elementos destinados a la fijación de bajantes serán de hierro\nmetalizado o galvanizado.\nd)\nCuando se trate de bajantes de material plástico se intercalará, entre la abrazadera y la bajan-\nte, un manguito de plástico.\ne)\nIgualmente cumplirán estas prescripciones todos los herrajes que se utilicen en la ejecución,\ntales como peldaños de pozos, tuercas y bridas de presión en las tapas de registro, etc.\n7",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0131.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0300"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

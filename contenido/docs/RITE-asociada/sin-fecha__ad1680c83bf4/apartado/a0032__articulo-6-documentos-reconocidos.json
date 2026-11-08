@@ -1,0 +1,94 @@
+{
+ "documento": "RITE-asociada",
+ "code": "RITE",
+ "title": "DB-HE2 RITE",
+ "capa": "asociada",
+ "scope": "Ahorro de energía",
+ "version": "2022-08-02",
+ "version_dir": "sin-fecha__ad1680c83bf4",
+ "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+ "apartado": {
+  "id_tecnico": "a0032",
+  "ruta_oficial": null,
+  "ruta_semantica": "Artículo 6. Documentos reconocidos.",
+  "titulo": "Artículo 6. Documentos reconocidos.",
+  "nivel": 3,
+  "parent_id": "a0025",
+  "seccion_estimada": "Artículo 6. Documentos reconocidos.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    90.7,
+    561.4,
+    260.8,
+    575.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "00e16aadbfa679de6e1720820b891bac56a96e7876b6af062b1d7ed5dbe3132a",
+   "literal": "Artículo 6. Documentos reconocidos."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0018",
+  "parent_id_original": "a0025",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Artículo 6",
+   "RITE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 6. Documentos reconocidos.",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0025",
+   "ruta_semantica": "ANEXO / Artículo 6. Documentos reconocidos.",
+   "seccion_estimada": "ANEXO",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a20c8b1ad95c9dc19a03aaf94f62ff06195355c50ee6ea5b9f2b75aff69f5c82"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Artículo 6.  Documentos reconocidos.\n1. Con el fin de facilitar el cumplimiento de las exigencias del RITE, se crean los\ndenominados documentos reconocidos del RITE, que se definen como documentos técnicos\nsin carácter reglamentario, que cuenten con el reconocimiento conjunto del Ministerio para la\nTransición Ecológica y el Reto Demográfico y del Ministerio de Transportes, Movilidad y\nAgenda Urbana.\n2. Los documentos reconocidos podrán tener el contenido siguiente:\na) especificaciones, guías técnicas o códigos de buena práctica que incluyan\nprocedimientos de diseño, dimensionado, montaje, mantenimiento, uso o inspección de las\ninstalaciones térmicas;\nb) métodos de evaluación, modelos de soluciones, programas informáticos y datos\nestadísticos sobre las instalaciones térmicas;\nc) guías de aplicación con criterios que faciliten la aplicación técnico-administrativa del\nRITE;\nd) cualquier otro documento que facilite la aplicación del RITE, excluidos los que se\nrefieran a la utilización de un producto o sistema particular o bajo patente.\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 9",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 6",
+  "RITE"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0036",
+   "ruta_oficial": null,
+   "titulo": "Artículo 9. Términos y definiciones.",
+   "archivo_json": "a0036__articulo-9-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2007/07/20/1027/con",
+  "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

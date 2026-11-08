@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0177",
+  "ruta_oficial": null,
+  "ruta_semantica": "R-180 R-240",
+  "titulo": "R-180 R-240",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "R-180 R-240",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 65,
+   "bbox": [
+    168.4,
+    702.7,
+    537.6,
+    726.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7d239c5ae11a931f5fcbe94d5e980d6dab9fd6bba5e4f28b123dbc7ce6633914",
+   "literal": "R-180 R-240"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "R-180 R-240",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / R-180 R-240",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6136b0656df4e9d27c561fd4b3baa57c43bb2b2ff143033469c148f6ca682484"
+ },
+ "paginas": [
+  65,
+  66
+ ],
+ "etiquetas_impresas": [
+  "65",
+  "66"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "R-180 R-240\nR-240\nFigura C.5. Isotermas para cuartos de sección de 800 x 500 mm expuestos por ambas caras\n\nDocumento Básico SI en caso de Incendio",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0065.png",
+  "../figura/p0066.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

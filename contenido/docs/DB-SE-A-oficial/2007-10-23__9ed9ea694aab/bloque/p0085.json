@@ -1,0 +1,324 @@
+{
+ "documento": null,
+ "pagina": 85,
+ "etiqueta_impresa": "85",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-83",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    235.6,
+    326.2,
+    379.6,
+    336.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.15 Unión en T a tracción",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    349.7,
+    359.8,
+    360.9
+   ],
+   "tipo": "texto",
+   "texto": "8.8.4 Empalmes en piezas flectadas o en flexión compuesta",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    369.1,
+    175.1,
+    380.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nCon cubrejuntas:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.8,
+    386.6,
+    279.0,
+    397.8
+   ],
+   "tipo": "texto",
+   "texto": "a)\nEmpalme con cubrejuntas de alma.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    119.5,
+    404.1,
+    541.5,
+    485.0
+   ],
+   "tipo": "texto",
+   "texto": "Se diseñarán para resistir un momento mayor que el momento de cálculo de la viga en la po-\nsición correspondiente a la sección media del empalme. La distribución de esfuerzos entre\ntornillos en estado límite último se podrá realizar de forma plástica o elástica (de forma pro-\nporcional a la distancia desde el centro de giro). Se utilizará distribución elástica en el caso de\nuniones pretensadas en las que se deba impedir el desplazamiento en estado límite último y\nsi la resistencia de cálculo a cortante, Fv.Rd, del tornillo es menor que la resistencia de cálculo\na aplastamiento, Fb.Rd, de las chapas que une.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.8,
+    490.6,
+    302.8,
+    501.8
+   ],
+   "tipo": "texto",
+   "texto": "b)\nEmpalme con cubrejuntas en ala y alma.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    119.5,
+    508.1,
+    541.4,
+    588.3
+   ],
+   "tipo": "texto",
+   "texto": "Se considera que es una unión rígida. Puede admitirse un reparto del axil proporcional al área\nde la sección de cada cubrejuntas, que el cortante se resiste por las cubrejuntas del alma, y el\nmomento flector se reparte entre las cubrejuntas de las alas, y del alma, de forma proporcio-\nnal a sus inercias respecto del eje de flexión. Los tornillos de las alas se comprobarán para\nsoportar las fuerzas correspondientes al momento flector atribuído a las alas, junto con su par-\nte del axil. Los tornillos de las cubrejuntas del alma, se comprobarán para los esfuerzos de és-\ntas siguiendo lo indicado en el punto a) anterior.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    300.7,
+    240.2,
+    307.4,
+    249.1
+   ],
+   "tipo": "texto",
+   "texto": "p",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    300.7,
+    260.7,
+    307.4,
+    269.6
+   ],
+   "tipo": "texto",
+   "texto": "p",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    179.9,
+    293.7,
+    267.8,
+    304.9
+   ],
+   "tipo": "texto",
+   "texto": "e\ne\nw",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    254.2,
+    190.7,
+    397.4,
+    199.6
+   ],
+   "tipo": "texto",
+   "texto": "rótulas plásticas  (bisagras o charnelas)",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    160.4,
+    162.2,
+    287.1,
+    176.1
+   ],
+   "tipo": "texto",
+   "texto": "m\ne\nQ\nQ\ne\nm",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    193.4,
+    117.7,
+    277.7,
+    130.0
+   ],
+   "tipo": "texto",
+   "texto": "Ft,Rd\nFt,Rd",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    227.9,
+    76.5,
+    236.9,
+    85.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Fd",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    204.4,
+    94.7,
+    211.6,
+    104.0
+   ],
+   "tipo": "texto",
+   "texto": "tw",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    408.7,
+    77.2,
+    417.7,
+    86.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Fd",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    415.4,
+    117.7,
+    422.0,
+    126.6
+   ],
+   "tipo": "texto",
+   "texto": "a",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    398.2,
+    161.2,
+    404.4,
+    170.1
+   ],
+   "tipo": "texto",
+   "texto": "c",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    319.4,
+    249.8,
+    414.0,
+    277.4
+   ],
+   "tipo": "texto",
+   "texto": "b    (en algunos casos\n       representa la longitud\n       eficaz en flexión lef)",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    231.7,
+    132.7,
+    236.5,
+    141.6
+   ],
+   "tipo": "texto",
+   "texto": "r",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    301.4,
+    144.8,
+    307.8,
+    156.7
+   ],
+   "tipo": "texto",
+   "texto": "tf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    305.3,
+    305.8,
+    46.1,
+    46.1
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

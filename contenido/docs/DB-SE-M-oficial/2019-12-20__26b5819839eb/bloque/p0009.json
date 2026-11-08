@@ -1,0 +1,429 @@
+{
+ "documento": null,
+ "pagina": 9,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    36.2,
+    367.0,
+    46.0
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    794.4,
+    320.2,
+    802.5
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 3",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.2,
+    204.1,
+    110.2
+   ],
+   "tipo": "titulo",
+   "texto": "2  Bases de cálculo",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    134.1,
+    180.3,
+    146.1
+   ],
+   "tipo": "titulo",
+   "texto": "2.1  Generalidades",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    155.7,
+    541.3,
+    177.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn este apartado se desarrollan y completan las reglas, establecidas con carácter general en SE,\npara el caso de elementos estructurales de madera.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    195.9,
+    270.5,
+    207.9
+   ],
+   "tipo": "titulo",
+   "texto": "2.2  Propiedades de los materiales",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    224.4,
+    388.3,
+    234.4
+   ],
+   "tipo": "texto",
+   "texto": "2.2.1  Valores característicos de las propiedades de los materiales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    250.9,
+    183.7,
+    260.9
+   ],
+   "tipo": "texto",
+   "texto": "2.2.1.1  Criterio general",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    269.5,
+    541.3,
+    302.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nComo valores característicos de las propiedades de los materiales, Xk, se tomarán los establecidos\nen el correspondiente apartado del Capítulo 4, teniendo en cuenta los factores correctores que se es-\ntablecen a continuación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    316.9,
+    300.5,
+    326.9
+   ],
+   "tipo": "texto",
+   "texto": "2.2.1.2  Factores de corrección de la resistencia",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    335.5,
+    162.8,
+    345.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nMadera maciza:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    88.8,
+    353.0,
+    541.3,
+    385.9
+   ],
+   "tipo": "texto",
+   "texto": "factor de altura kh: En piezas de madera aserrada de sección rectangular, si el canto en flexión o la\nmayor dimensión de la sección en tracción paralela es menor que 150 mm, los valores característi-\ncos fm,k y ft,0,k pueden multiplicarse por el factor kh.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    90.1,
+    390.9,
+    541.3,
+    404.9
+   ],
+   "tipo": "texto",
+   "texto": "2\n,\n0\nh\n)\nh\n/\n150\n(\nk\n\n 1,3\n(2.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    91.2,
+    409.5,
+    125.9,
+    419.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    90.0,
+    425.0,
+    399.4,
+    435.0
+   ],
+   "tipo": "texto",
+   "texto": "h canto en flexión o mayor dimensión de la sección en tracción, [mm].",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    441.5,
+    215.0,
+    451.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nMadera laminada encolada:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.8,
+    459.0,
+    541.3,
+    468.9
+   ],
+   "tipo": "texto",
+   "texto": "a) factor de altura kh: en piezas de madera laminada encolada de sección rectangular, si el canto en",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    106.9,
+    470.5,
+    538.5,
+    492.0
+   ],
+   "tipo": "texto",
+   "texto": "flexión o la mayor dimensión de la sección en tracción paralela es menor que 600 mm, los valo-\nres característicos fm,g,k y ft,0,g,k  pueden multiplicarse por el factor kh.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    496.1,
+    541.3,
+    519.9
+   ],
+   "tipo": "texto",
+   "texto": "(2.2)\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    106.9,
+    525.5,
+    427.7,
+    535.4
+   ],
+   "tipo": "texto",
+   "texto": "h\ncanto en flexión o mayor dimensión de la sección en tracción, [mm].",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.8,
+    557.5,
+    541.3,
+    567.5
+   ],
+   "tipo": "texto",
+   "texto": "b) factor de volumen kvol: cuando el volumen V de la zona considerada en la comprobación, según",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    106.9,
+    568.7,
+    541.3,
+    601.9
+   ],
+   "tipo": "texto",
+   "texto": "se define en cada caso, sea mayor que V0 (V0=0,01 m3) y esté sometido a esfuerzos de tracción\nperpendicular a la fibra con tensiones repartidas uniformemente, la resistencia característica a\ntracción perpendicular, ft,90,g,k se multiplicará por el kvol.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    107.6,
+    607.4,
+    170.6,
+    638.1
+   ],
+   "tipo": "texto",
+   "texto": "2\n,\n0\n0\nvol\nV\nV\nk\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    136.3,
+    610.1,
+    160.2,
+    638.1
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    127.8,
+    610.1,
+    541.3,
+    628.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n(2.3)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    643.4,
+    196.2,
+    653.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nMadera microlaminada:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    88.8,
+    660.9,
+    538.5,
+    670.9
+   ],
+   "tipo": "texto",
+   "texto": "a) factor de altura kh: en piezas de madera microlaminada de sección rectangular, si el canto en fle-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    106.9,
+    672.5,
+    507.9,
+    682.4
+   ],
+   "tipo": "texto",
+   "texto": "xión es diferente a 300 mm, el valor característico fm,k  puede multiplicarse por el factor kh.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    108.2,
+    687.5,
+    541.3,
+    701.4
+   ],
+   "tipo": "texto",
+   "texto": "s\nh\n)\nh\n/\n300\n(\nk\n\n 1,2\n (2.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    106.9,
+    705.9,
+    141.6,
+    715.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    106.9,
+    721.5,
+    290.3,
+    731.5
+   ],
+   "tipo": "texto",
+   "texto": "h\ncanto en flexión de la sección, [mm];",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    106.9,
+    737.0,
+    496.1,
+    747.0
+   ],
+   "tipo": "texto",
+   "texto": "s\nfactor que debe definir el fabricante de acuerdo con la norma UNE-EN 14374:2005.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

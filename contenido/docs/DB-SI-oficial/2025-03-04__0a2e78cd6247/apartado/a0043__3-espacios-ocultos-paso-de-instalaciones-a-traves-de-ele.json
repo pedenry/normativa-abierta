@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0043",
+  "ruta_oficial": "3",
+  "ruta_semantica": "Sección SI 1 Propagación interior / 3 Espacios ocultos. Paso de instalaciones a través de elementos de compartimentación de incendios",
+  "titulo": "3 Espacios ocultos. Paso de instalaciones a través de elementos de compartimentación de incendios",
+  "nivel": 2,
+  "parent_id": "a0030",
+  "seccion_estimada": "Sección SI 1 Propagación interior",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 16,
+   "bbox": [
+    70.9,
+    601.8,
+    542.5,
+    633.5
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "5b3e7ac8a08f33673ce7e0b74ec0398db91eabc2eb9d30ae39fc2277d260b770",
+   "literal": "3 Espacios ocultos. Paso de instalaciones a través de elementos de compartimentación de incendios"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0012",
+  "parent_id_original": "a0030",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Espacios ocultos. Paso de instalaciones a través de elementos de compartimentación de incendios",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0030",
+   "ruta_semantica": "2 x EI2 30 -C5 2 x EI2 45-C5 / 3 Espacios ocultos. Paso de instalaciones a través de elementos de compartimentación de incendios",
+   "seccion_estimada": "2 x EI2 30 -C5 2 x EI2 45-C5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "54aa4ea7a78b42eaffe5dfcc4c44ffbfe6bacbe9831aba07033481caa99772c7"
+ },
+ "paginas": [
+  16,
+  17
+ ],
+ "etiquetas_impresas": [
+  "16",
+  "17"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Espacios ocultos. Paso de instalaciones a través de elementos de compartimentación de incendios\nde compartimentación de incendios\n1\nLa compartimentación contra incendios de los espacios ocupables debe tener continuidad en los\nespacios ocultos, tales como patinillos, cámaras, falsos techos, suelos elevados, etc., salvo cuando\néstos estén compartimentados respecto de los primeros al menos con la misma resistencia al fuego,\npudiendo reducirse ésta a la mitad en los registros para mantenimiento.\n2\nLa resistencia al fuego requerida a los elementos de compartimentación de incendios se debe man-\ntener en los puntos en los que dichos elementos son atravesados por elementos de las instalaciones,\ntales como cables, tuberías, conducciones, conductos de ventilación, etc., excluidas las penetracio-\nnes cuya sección de paso no exceda de 50 cm². Para ello puede optarse por una de las siguientes\nalternativas:\n\nDocumento Básico SI Seguridad en caso de Incendio\nSI 1. Propagación interior\n17\na) Disponer un elemento que, en caso de incendio, obture automáticamente la sección de paso y\ngarantice en dicho punto una resistencia al fuego al menos igual a la del elemento atravesado,\npor ejemplo, una compuerta cortafuegos automática EI t (io) siendo t el tiempo de resistencia\nal fuego requerida al elemento de compartimentación atravesado, o un dispositivo intumescente\nde obturación.\nb) Elementos pasantes que aporten una resistencia al menos igual a la del elemento atravesado,\npor ejemplo, conductos de ventilación EI t (io) siendo t el tiempo de resistencia al fuego reque-\nrida al elemento de compartimentación atravesado.\n4",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0042",
+   "ruta_oficial": "2",
+   "titulo": "2 x EI2 30 -C5 2 x EI2 45-C5",
+   "archivo_json": "a0042__2-x-ei2-30-c5-2-x-ei2-45-c5.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0016.png",
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

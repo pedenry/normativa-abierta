@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0189",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.3 Tableros",
+  "titulo": "E.3 Tableros",
+  "nivel": 1,
+  "parent_id": "a0176",
+  "seccion_estimada": "E.3 Tableros",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 116,
+   "bbox": [
+    70.9,
+    660.3,
+    145.7,
+    672.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "488ddc1ecb27c937e3a2ff4dfc0f8d2b02233e7e2e717228bf80502483e70ac6",
+   "literal": "E.3 Tableros"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0176",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.3 Tableros",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0176",
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / E.3 Tableros",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cda72a28b812d75599618c2ad705af379df8743633a3075c8c2737c0501a52f8"
+ },
+ "paginas": [
+  116,
+  117
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "E.3 Tableros\n1\nEn los apartados E.3.1 a E.3.3 se establecen los valores de las propiedades de resistencia, rigidez y\ndensidad asociados a los tipos de tableros y al ambiente en el que se utilizan. Los ambientes se co-\nrresponden con:\na) ambiente seco:\nClase de servicio 1, y clase de uso 1.\nb) ambiente húmedo:\nClase de servicio 2, y clase de uso 1\nc) ambiente exterior:\nExposición a la intemperie clases de uso 1, 2 y 3\n\nDocumentoBásico SE-M Madera\nSE-M 111\n2\nEn las tablas siguientes (véase UNE-EN 789:2006):\na) cortante en el grueso es equivalente a cortante de cizalladura;\nb) cortante en el plano   es equivalente a cortante de rodadura.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0117_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0116.png",
+  "../figura/p0117.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

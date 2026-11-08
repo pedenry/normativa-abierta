@@ -1,0 +1,125 @@
+{
+ "indice": 3,
+ "pagina": 31,
+ "etiqueta_impresa": "31",
+ "bbox": [
+  99.3,
+  709.1,
+  495.9,
+  758.5
+ ],
+ "filas": 5,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Categoría",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "ppm (*)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "IDA 1",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "350",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "IDA 2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "500",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "IDA 3",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "800",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 0,
+   "texto": "IDA 4",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 1,
+   "texto": "1.200",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Categoría",
+  "ppm (*)"
+ ],
+ "header": {
+  "names": [
+   "Categoría",
+   "ppm (*)"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE2106B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE211340>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE211FA0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE2127B0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE2117C0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE2120F0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE210170>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE212120>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE212720>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADE2113D0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0031.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

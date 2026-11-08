@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0068",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Sección SUA 3  Seguridad frente al riesgo de aprisionamiento en recintos / 1 Aprisionamiento",
+  "titulo": "1 Aprisionamiento",
+  "nivel": 2,
+  "parent_id": "a0067",
+  "seccion_estimada": "Sección SUA 3  Seguridad frente al riesgo de aprisionamiento en recintos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 20,
+   "bbox": [
+    70.9,
+    227.8,
+    220.8,
+    243.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "19e29e307ac80d7737c406aa09a59769fee00cc53d31ae3ad1bcc9d86a0dbf98",
+   "literal": "1 Aprisionamiento"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0039",
+  "parent_id_original": "a0067",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Aprisionamiento",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0067",
+   "ruta_semantica": "Sección SUA 3  Seguridad frente al riesgo de aprisionamiento en recintos / 1 Aprisionamiento",
+   "seccion_estimada": "Sección SUA 3  Seguridad frente al riesgo de aprisionamiento en recintos",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7c3de50926c69e3a6bf58d4d886abf51e42a456f9b45753635a4d0102987c9cf"
+ },
+ "paginas": [
+  20
+ ],
+ "etiquetas_impresas": [
+  "20"
+ ],
+ "tipos": [],
+ "texto": "Aprisionamiento\n1\nCuando las puertas de un recinto tengan dispositivo para su bloqueo desde el interior y las personas\npuedan quedar accidentalmente atrapadas dentro del mismo, existirá algún sistema de desbloqueo\nde las puertas desde el exterior del recinto. Excepto en el caso de los baños o los aseos de vivien-\ndas, dichos recintos tendrán iluminación controlada desde su interior.\n2\nEn zonas de uso público, los aseos accesibles y cabinasde vestuarios accesibles dispondrán de un\ndispositivo en el interior fácilmente accesible, mediante el cual se transmita una llamada de asisten-\ncia perceptible desde un punto de control y que permita al usuario verificar que su llamada ha sido\nrecibida, o perceptible desde un paso frecuente de personas.\n3\nLa fuerza de apertura de las puertas de salida será de 140 N, como máximo, excepto en las situadas\nen itinerarios accesibles, en las que se aplicará lo establecido en la definición de los mismos en el",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,311 @@
+{
+ "documento": null,
+ "pagina": 14,
+ "etiqueta_impresa": "14",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-12",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    538.6,
+    96.1
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn caso de emplearse aceros diferentes de los señalados, para garantizar que tienen ductilidad su-\nficiente, deberá comprobarse que:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    96.8,
+    102.4,
+    479.9,
+    113.5
+   ],
+   "tipo": "texto",
+   "texto": "a)\nla relación entre la tensión de rotura y la de límite elástico no será inferior a 1,20;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    96.8,
+    119.9,
+    541.4,
+    131.8
+   ],
+   "tipo": "texto",
+   "texto": "b)\nel alargamiento en rotura de una probeta de sección inicial S0, medido sobre una longitud",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    119.5,
+    135.1,
+    265.7,
+    148.2
+   ],
+   "tipo": "texto",
+   "texto": "5,65·\n0\nS\n será superior al 15%;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    156.3,
+    538.6,
+    179.1
+   ],
+   "tipo": "texto",
+   "texto": "c)\nla deformación correspondiente a la tensión de rotura debe superar al menos un 20% a la co-\nrrespondiente al límite elástico.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    74.1,
+    185.4,
+    541.5,
+    300.0
+   ],
+   "tipo": "texto",
+   "texto": "5\nTodos los procedimientos de comprobación especificados en este DB se basan en el comporta-\nmiento dúctil del material, esto es, las comprobaciones de cálculo se refieren al límite elástico o a\nla tensión de rotura en condiciones de laboratorio. Es por tanto necesario comprobar que la resis-\ntencia a rotura frágil es, en todos los casos, superior a la resistencia a rotura dúctil. Esto es cierto\nen el caso de estructuras no sometidas a cargas de impacto, como son en general las de edifica-\nción y cuando los espesores empleados no sobrepasen los indicados en la tabla 4.2 para las tem-\nperaturas mímimas a que estarán sometidas en función de su emplazamiento y exposición, según\nlos criterios de DB-SE-AE 3.4, realizadas con los aceros especificados en este apartado, y fabrica-\ndas conforme a los requisitos especificados en el capítulo 10 de este DB, por lo que en este caso\nno se requiere ninguna comprobación;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    96.8,
+    306.3,
+    541.4,
+    363.6
+   ],
+   "tipo": "texto",
+   "texto": "En cualquier otro caso, deberá demostrarse que el valor de la temperatura de transición, definida\ncomo la mínima a la que la resistencia a rotura dúctil supera a la frágil, es menor que la mínima de\naquellas a las que va a estar sometida la estructura. La temperatura de transición se puede obte-\nner mediante procedimientos de mecánica de la fractura. Para ello puede utilizarse la UNE EN\n1993-1-10.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    214.3,
+    369.8,
+    403.5,
+    379.8
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.2 Espesor máximo (mm) de chapas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    113.3,
+    385.3,
+    398.3,
+    402.3
+   ],
+   "tipo": "texto",
+   "texto": "Temperatura mínima",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    100.0,
+    398.7,
+    529.7,
+    461.9
+   ],
+   "tipo": "texto",
+   "texto": "0 ºC\n-10 ºC\n-20 ºC\nGrado\nJR\nJ0\nJ2\nJR\nJ0\nJ2\nJR\nJ0\nJ2\nS235\n50\n75\n105\n40\n60\n90\n35\n50\n75\nS275\n45\n65\n95\n35\n55\n75\n30\n45\n65\nS355\n35\n50\n75\n25\n40\n60\n20\n35\n50",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.1,
+    484.2,
+    541.3,
+    529.9
+   ],
+   "tipo": "texto",
+   "texto": "6\nSoldabilidad. Todos los aceros relacionados en este DB son soldables y únicamente se requiere la\nadopción de precauciones en el caso de uniones especiales (entre chapas de gran espesor, de es-\npesores muy desiguales, en condiciones difíciles de ejecución, etc.), según se indica en el Capítu-\nlo10 de este DB.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.8,
+    536.2,
+    541.4,
+    559.6
+   ],
+   "tipo": "texto",
+   "texto": "Para aceros distintos a los relacionados la soldabilidad se puede evaluar mediante el parámetro\nCEV (carbono equivalente), de expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    98.4,
+    566.7,
+    264.0,
+    592.0
+   ],
+   "tipo": "texto",
+   "texto": "15\nCu\nNi\n5\nV\nMo\nCr\n6\nMn\nC\nCEV",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    119.7,
+    565.6,
+    541.0,
+    584.2
+   ],
+   "tipo": "texto",
+   "texto": "+\n+\n+\n+\n+\n+\n=\n(4.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    96.8,
+    598.2,
+    539.1,
+    609.4
+   ],
+   "tipo": "texto",
+   "texto": "Este valor no debe ser superior a 0,41 para los aceros S 235 y S 275 ó 0,47 para los aceros S 355.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    74.1,
+    626.9,
+    266.9,
+    640.3
+   ],
+   "tipo": "titulo",
+   "texto": "4.3 Tornillos, tuercas y arandelas",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 18,
+   "bbox": [
+    74.1,
+    648.5,
+    541.4,
+    671.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn la tabla 4.3 se resumen las características mecánicas mínimas de los aceros de los tornillos de\ncalidades normalizadas en la normativa ISO.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    132.9,
+    694.9,
+    505.0,
+    705.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.3 Características mecánicas de los aceros de los tornillos, tuercas y arandelas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    151.8,
+    711.8,
+    520.9,
+    721.9
+   ],
+   "tipo": "texto",
+   "texto": "Clase\n4.6\n5.6\n6.8\n8.8\n10.9",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    77.6,
+    726.8,
+    519.6,
+    739.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Tensión de límite elástico fy (N/mm2)\n240\n300\n480\n640\n900",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    77.6,
+    743.2,
+    522.1,
+    755.4
+   ],
+   "tipo": "texto",
+   "texto": "Tensión de rotura fu (N/mm2)\n400\n500\n600\n800\n1000",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,107 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0131",
+  "ruta_oficial": "8.8.6",
+  "ruta_semantica": "8.8.6 Uniones de viga y pilar atornilladas con chapa frontal",
+  "titulo": "8.8.6 Uniones de viga y pilar atornilladas con chapa frontal",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "8.8.6 Uniones de viga y pilar atornilladas con chapa frontal",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 88,
+   "bbox": [
+    74.1,
+    620.0,
+    355.9,
+    631.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a714ed56290dab6a8a8dc6eaee0bb3501c955e1178b52cc7d7757e9f9e007866",
+   "literal": "8.8.6 Uniones de viga y pilar atornilladas con chapa frontal"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0126",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado\n8.8.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.8.6 Uniones de viga y pilar atornilladas con chapa frontal",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / 8.8.6 Uniones de viga y pilar atornilladas con chapa frontal",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5f646fc249e013abf1c80b85886817d1caca74e105412a7a87c6c0c52e1bd14d"
+ },
+ "paginas": [
+  88,
+  89,
+  90,
+  91,
+  92,
+  93
+ ],
+ "etiquetas_impresas": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "8.8.6 Uniones de viga y pilar atornilladas con chapa frontal\n1\nLa comprobación de la resistencia a flexión de una unión viga-pilar de las representadas en la figu-\nra 8.19.a) (comprobación que también es de aplicación a cada uno de las dos partes que forman\nuniones análogas con vigas a ambos lados del pilar) exige:\nsoporte\na)\nsoporte\nb)\nviga soporte\nc)\nviga soporte\nd)\n\nDocumentoBásico SE-A Acero\nSE-A-87\nFigura 8.19. Uniones viga-pilar con chapa frontal atornillada\nsoldadura todo el perímetro\n(la necesaria para que la chapa\nllegue al pie de la curva de acuerdo)\nbs\nls≥bef,c+bef,t\nbef,t\nbef,c\nts≥twc\ntwc\ncon soldadura en ángulo\nf) chapa de refuerzo del alma: detalle\nespesor de garganta:\n2\n/\nt\na\ns\n≥\nen todos los casos\nst\na≥\nsoldadura a tope longitudinal\n(para aumentar resistencia a\ntracción)\nrc\ncon soldadura a tope\nb) con rigidizadores  y chapa\nfrontal prolongada\nfila externa\nde tornillos\np\np\np\nbp\nw\nex\nmx\ntornillos\ninteriores\nzona de\ntracción\nzona de\ncortante\nzona de\ncompresión\nap\ntfb\nM\ntfc\ntp\nrc\nc) con rigidizadores  y chapa\nfrontal a tope (también es\nposible sin rigidizadores)\nd) sin rigidizadores,\ncon chapa de\nrespaldo\ne) con uno o dos rigidizadores\ndiagonales, solos o con uno\no dos rigidizadores alineados\ncon las alas\nf) sin rigidizadores,\ncon chapa de\nrefuerzo de\nalma en el pilar\na) sin rigidizadores  y chapa\nfrontal prolongada\n\nDocumentoBásico SE-A Acero\nSE-A-88\nRd\n,\nwp\nEd\n,\nwp\nRd\nEd\nV\nV\nM\nM\n≤\n≤\n(8.58)\nsiendo\nMRd\nmomento resistente de cálculo de la unión viga pilar;\nMEd\nmomento de cálculo aplicado.\nVwp,Rd resistencia a cortante de nudo del alma del pilar\nVwp,Ed cortante de nudo aplicado en el alma del pilar\n2\nLa capacidad resistente a momento depende de la resistencia de los componentes de la unión, que\nse agrupan en tres zonas críticas: de tracción, de compresión y de cortante. El momento resistente\nde cálculo será la suma de los valores de cálculo de las resistencias eficaces de cada fila de torni-\nllos traccionados, por su distancia al centro de la zona de compresión.\n3\nEn el caso de que la resistencia eficaz de la zona de compresión resultase menor a la suma de las\nresistencias eficaces de las filas de tornillos traccionados, en la determinación de la capacidad re-\nsistente se considerará reducida la resistencia eficaz de los tornillos en la proporción precisa para\nno superarla.\n4\nEl esfuerzo cortante de nudo en el alma del pilar se obtiene considerando aisladamente dicha re-\ngión del alma, y equilibrando a través de ésta tanto cortantes como diferencias en esfuerzos nor-\nmales de las piezas que acometen al nudo, en sus valores correspondientes al recuadro que encie-\nrra al nudo, definido por los ejes de las almas de tales piezas. En el caso de igual canto y solución\nde nudo en ambas vigas (fig. 8.20) la expresión resultante es:\n2\nV\nV\nz\nM\nM\nV\nEd\n,\n2\nc\nEd\n,1\nc\nEd\n,\n2\nb\nEd\n,1\nb\nEd\n,\nwp\n−\n−\n−\n=\n(8.59)\ncon los significados y signos positivos definidos en la citada figura.\nz  es el brazo de palanca global correspondiente a la unión.\nFigura 8.20 Unión (soldada o atornillada) y cortante de nudo\n5\nLa capacidad resistente frente a esfuerzo cortante del alma, no rigidizada, del pilar, Vwp.Rd es:\n0\nM\nvc\ny\nRd\n.\nwp\n3\nA\nf\n9,0\nV\nγ\n=\n(8.60)\nNj,c2,Ed\nMj,c2,Ed\nNj,b1,Ed\nNj,b2,Ed\nNj,c1,Ed\nMj,c1,Ed\nMj,b1,Ed\nMj,b2,Ed\nVj,c2,Ed\nVj,c1,Ed\nVj,b2,Ed\nVj,b1,Ed\nNb1,Ed\nMb1,Ed\nVb1,Ed\nNb2,Ed\nMb2,Ed\nVb2,Ed\nNc2,Ed\nMc2,Ed\nVc2,Ed\nMc1,Ed\nVc1,Ed\nNc1,Ed\nVwp,Ed\nVwp,Ed z/zc\nzc\nz\nzc\na) esfuerzos referidos\nal centro del nudo\na)\nb) esfuerzos referidos\na las caras del nudo\nc) cortante de nudo\nb)\n\nDocumentoBásico SE-A Acero\nSE-A-89\nsiendo\nAvc\nárea de cortante del pilar. Si se añade una chapa adosada al alma se puede aumentar has-\nta bstwc, si bien no se contará con más aumentos a partir de este espesor, ni al colocar otra\nchapa al otro lado del alma.\nAdemás se debe comprobar la resistencia a la abolladura de acuerdo a 6.3.3.3.\n6\nCuando el cortante de nudo es importante –uniones con viga sólo de un lado, o uniones con dife-\nrencia apreciable en los momentos de ambas vigas-, se considerará la interacción del cortante de\nalma con el resto de los esfuerzos de tracción o compresión de nudo del alma del pilar, a través de\nun factor ω de reducción en la resistencia considerada, obtenido para cada lado de la unión con:\n2\n1\n2\n1\n1\n1\n1\n;\n)\n)(\n1\n(\n;\n;\n)\n1\n)(\n1\n(\n2\n;\n2\n2\n1\n1\n1\n5,0\nω\n=\nω\nω\n−\nω\n−\nβ\n+\nω\nω\n=\nω\nω\n−\nβ\n−\n+\nω\n=\nω\n=\nβ\n<\nβ\n<\n=\nβ\n<\nβ\n<\n(8.61)\ncon\n2\nM\nM\nM\n,2\nM\nM\nM\nEd\n,\n2\nb,j\nEd\n,1\nb,j\nEd\n,2\nb,j\n2\nEd\n,1\nb,j\nEd\n,\n2\nb,j\nEd\n,1\nb,j\n1\n≤\n−\n=\nβ\n≤\n−\n=\nβ\n(8.62)\ny siendo\n2\nvc\nwc\nwc\n,\nef\n2\n2\nvc\nwc\nwc\n,\nef\n1\nA\nt\nb\n2,5\n1\n1\n;\nA\nt\nb\n3,1\n1\n1\n\n\n\n\n\n\n+\n=\nω\n\n\n\n\n\n\n+\n=\nω\n(8.63)\nsiendo\nwc\n,\nef\nb\nel ancho eficaz para la tracción o compresión de nudo, según corresponda, del alma del\npilar, definido más adelante para cada caso,\ntwc\nel espesor del alma del pilar.\n7\nResistencia de la zona solicitada a tracción.\na)\nlos componentes de la zona de tracción son el ala de la viga (traccionada), el ala del pilar (ri-\ngidizado o no, con chapa dorsal o sin ella) y la chapa frontal (flectados) y el alma del pilar\n(traccionado) (con o sin rigidizadores o chapa de refuerzo);\nb)\nsolamente se considera en este apartado el caso de que haya dos tornillos por fila horizontal\ninterior, que la chapa frontal prolongada no está rigidizada y que en ella hay una fila de torni-\nllos;\nc)\nla resistencia de los componentes flectados de la zona de tracción, de resistencia unitaria de-\nfinida en (8.48), se obtendrán considerando que se comportan como casquillos en T (apartado\n8.8.3, figura 8.15) con una longitud igual a la suma de las longitudes eficaces, lef, para cada fi-\nla de tornillos, definidas como el menor valor de los que se indican a continuación:\ne\n25\n,1\nm\n4\nl\nm\n2\nl\nef\nef\n+\n≤\nπ\n≤\n(8.64)\nAsimismo se verificará que:\n-\nPara tornillos interiores:\np\nlef≤\n(8.65)\n-\nPara tornillos externos, la condición será:\ne\n625\n,0\nm\n2\np\n5,0\nlef\n+\n+\n≤\n(8.66)\n\nDocumentoBásico SE-A Acero\nSE-A-90\nd)\nEn el caso de chapa frontal prolongada sin rigidizador en la zona exterior, se considerará el\nala de la viga como alma de la T para el cálculo de las longitudes eficaces, comprobándose\nademás con:\np\nef\nb\n5,0\nl\n=\n(8.67)\nsiendo\nbp\nancho de la chapa frontal (figura 8.19).\nEl comportamiento, a efectos de cálculo, de la chapa frontal se asimila al de un conjunto de\ncasquillos en T equivalentes con las longitudes eficaces y criterios expuestos en este aparta-\ndo.\ne)\nEn el caso de tornillos del ala del pilar adyacentes a un rigidizador o aquellos tornillos de la\nchapa frontal que se encuentran por debajo del ala a tracción de la viga, se podrán aumentar\nlas longitudes eficaces en función de la geometría, siempre que se utilicen valores sanciona-\ndos experimentalmente.\n8\nSi la tensión normal, σn, en el ala del pilar, debida a su esfuerzo axil y momento flector, supera los\n180 N/ mm2 en el emplazamiento de la zona solicitada a tracción, el valor del momento plástico, Mp,\nse reducirá utilizando el factor:\n1\n360\nf\n2\n180\nf\n2\nk\ny\nn\ny\nr\n≤\n−\nσ\n−\n−\n=\n(fy y σn en N/mm2)\n(8.68)\n9\nLa resistencia de cálculo de la zona de tracción se determinará a partir de las resistencias de las fi-\nlas de tornillos que se encuentren traccionados y debe estar en equilibrio con la resistencia de cál-\nculo de la zona de compresión.\n10\nSe supondrá que la resistencia de cálculo eficaz de cada fila de tornillos actúa en el eje de la fila.\nSu valor se obtendrá estableciendo el equilibrio entre las resistencias obtenidas para el ala del pilar\ny la chapa frontal, lo que se podrá lograr realizando una redistribución entre filas con comporta-\nmiento análogo (sin pasar un ala o rigidizador) y, si es necesario, realizando una reducción de di-\nchos valores.\n11\nLa resistencia del alma del pilar sin rigidizar a tracción transversal es:\n0\nM\nef\nwc\ny\nRd\n.t\nb\nt\nf\nF\nγ\n=\n(8.69)\nsiendo\nbef\nanchura efectiva del alma que debe tomarse igual a la longitud eficaz total lef del ala del pilar\nen flexión correspondiente a la disposición de los tornillos en la zona de la unión solicitada a\ntracción;\ntwc\nespesor del alma del pilar (figura 8.19).\nEl alma se puede reforzar mediante una chapa de refuerzo o rigidizadores (figura 8.19). En este úl-\ntimo caso, la resistencia de cálculo del alma será, como mínimo, igual a la del ala de la viga, siem-\npre que los rigidizadores cumplan las siguientes condiciones:\na)\nel espesor de los rigidizadores no debe ser menor que el de las alas de la viga y la longitud de\nlos mismos ls debe cubrir totalmente la longitud del alma del pilar correspondiente a las longi-\ntudes eficaces de las zonas traccionada y comprimida de la unión;\nb)\nla clase de acero de los rigidizadores no debe ser inferior a la de la viga;\nc)\nlas soldaduras de unión con las alas deben resistir los esfuerzos transversales que éstas\ntransmiten;\nd)\nla soldadura de unión con el alma debe resistir los esfuerzos que se transmitan desde el ala\nde la viga hasta el alma del pilar.\n12\nResistencia de la zona solicitada a compresión. La resistencia de cálculo a aplastamiento del alma\nsin rigidizar del pilar, viene dada por:\n\nDocumentoBásico SE-A Acero\nSE-A-91\n0\nM\nef\nwc\ny\nRd\n.c\nM\nef\ny\nn\n0\nM\nef\n.\nwc\ny\nRd\n.c\nb\nt\nf\nF\n:\ncon\nb\nf\n5,0\n25\n,1\nt\nf\nF\nγ\n≤\nγ\n\n\n\n\n\n\nσ\nγ\n−\n=\n(8.70)\nsiendo\nσn\ntensión máxima de compresión en el alma del pilar debida a su esfuerzo axial y momento\nflector;\nbef\nanchura efectiva del alma del pilar a compresión:\nPerfil laminado:\n(\n)\nc\nfc\np\np\nfb\nef\nr\nt\n5\nt\n2\na\n2\n2\nt\nb\n+\n+\n+\n+\n=\nLas variables están indicadas en la figu-\nra 8.19. En este caso, tfb se refiere al ala de la viga que transmite la compresión, y ap es el\nespesor de garganta de la soldadura de dicha ala con la chapa frontal.\nPerfil armado: es igual al anterior haciendo\nc\nc\na\n2\nr=\n, donde ac es el espesor eficaz de\ngarganta de la soldadura entre el ala y alma del perfil.\ntwc.ef\nespesor del alma del pilar. También en este caso es posible reforzar el alma en las mismas\ncondiciones y con los mismos resultados expuestos en 8.19. La valoración del refuerzo del\nalma del pilar mediante chapa de espesor ts, en las condiciones indicadas en la figura 8.19,\npero sin ser tal espesor menor que el de las alas de la viga, es la siguiente:\n-\nEspesor eficaz máximo del alma reforzada twc.ef cuando está sometida a tracción:\nSin chapa de refuerzo: twc.ef = twc\nCon una chapa de refuerzo: twc.ef = 1,5 twc\nCon una chapa de refuerzo a cada lado: twc.ef = 2,0 twc\nSiempre que las soldaduras longitudinales sean a tope y cumplan con el espesor de\ngarganta indicado en la figura 8.19. Si las soldaduras longitudinales son en ángulo, con\nel espesor de garganta indicado en la citada figura, el valor eficaz de la garganta se limi-\nta a 1,4 twc para los dos casos expuestos, con una o dos chapas (una a cada lado del\nalma).\n-\nEspesor eficaz máximo del alma reforzada twc.ef cuando está sometida a aplastamiento:\nSin chapa de refuerzo: twc.ef = twc\nCon una chapa de refuerzo: twc.ef = 1,5 twc\nCon una chapa de refuerzo a cada lado: twc.ef = 2,0 twc\nEn este caso es suficiente con soldaduras longitudinales en ángulo que cumplan con el\nespesor de garganta indicado en la figura 8.21.\nAdemás se debe comprobar la resistencia a pandeo para un modo de pandeo intraslaccional (con\nalas fijas), debiéndose evitar, mediante las adecuadas disposiciones constructivas, el modo de\npandeo con desplazamiento lateral de las alas.\n13\nSi se rigidiza el alma del pilar, su resistencia será, como mínimo, igual a la del ala de la viga, siem-\npre que los rigidizadores cumplan con las condiciones establecidas en 8.19.\n14\nLa rigidez rotacional inicial Sj,ini  de la unión no rigidizada puede determinarse de acuerdo a 8.3 a\npartir de la de los componentes básicos que se definen a continuación, mediante la expresión ya\nconocida (8.37)",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado\n8.8.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0091_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0088.png",
+  "../figura/p0089.png",
+  "../figura/p0090.png",
+  "../figura/p0091.png",
+  "../figura/p0092.png",
+  "../figura/p0093.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

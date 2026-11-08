@@ -1,0 +1,336 @@
+{
+ "documento": null,
+ "pagina": 86,
+ "etiqueta_impresa": "86",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-84",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    222.8,
+    451.3,
+    392.4,
+    461.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.16 Empalmes con cubrejuntas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    467.7,
+    184.0,
+    478.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nCon chapa frontal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    96.8,
+    485.2,
+    541.4,
+    576.9
+   ],
+   "tipo": "texto",
+   "texto": "El fallo de la unión se produce, como en el caso de las uniones en T del apartado anterior, y de-\npendiendo de la rigidez de la chapa, por rotura a tracción de los tornillos sin o con formación simul-\ntanea de charnelas en la chapa, o bien por formación de dos charnelas en la chapa. La resistencia\nde la unión a cortante podrá calcularse como si no existiese el momento flector. Se podrá realizar\nel cálculo siguiendo lo indicado más adelante para las uniones entre viga y pilar con chapa frontal\natornillada. En el caso de elementos unidos con tornillos iguales sin pretensar, que sean suficien-\ntemente rígidos o dispongan de suficientes rigidizadores para poder considerarlos como indefor-\nmables, el cálculo puede efectuarse de la forma siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.8,
+    583.2,
+    517.0,
+    594.4
+   ],
+   "tipo": "texto",
+   "texto": "La posición de la línea neutra se obtiene elásticamente (figura 8.17.a), resultando la ecuación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    99.2,
+    603.8,
+    130.9,
+    627.3
+   ],
+   "tipo": "texto",
+   "texto": "d\nb\nc",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    100.8,
+    603.8,
+    105.4,
+    614.1
+   ],
+   "tipo": "texto",
+   "texto": "c",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    103.9,
+    607.9,
+    541.0,
+    629.0
+   ],
+   "tipo": "texto",
+   "texto": "1\n=\n(8.53)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.8,
+    636.2,
+    129.1,
+    647.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    96.8,
+    653.7,
+    476.7,
+    665.6
+   ],
+   "tipo": "texto",
+   "texto": "c, c1 y b\ndimensiones de la sección equivalente, representadas en la figura 8.17;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    96.8,
+    671.2,
+    443.9,
+    682.4
+   ],
+   "tipo": "texto",
+   "texto": "d\nancho del área equivalente de sección de los tornillos, dada por:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    113.8,
+    698.4,
+    123.7,
+    715.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∑",
+   "tamano": 13.9,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    98.3,
+    688.9,
+    541.0,
+    711.9
+   ],
+   "tipo": "texto",
+   "texto": "⋅\n=\np\nn\nA\nd\n(8.54)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    97.5,
+    722.4,
+    128.1,
+    733.6
+   ],
+   "tipo": "texto",
+   "texto": "donde",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    97.5,
+    739.9,
+    214.3,
+    751.1
+   ],
+   "tipo": "texto",
+   "texto": "A\nárea de un tornillo;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    97.5,
+    757.4,
+    219.4,
+    768.6
+   ],
+   "tipo": "texto",
+   "texto": "n\nnúmero de tornillos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    260.3,
+    212.6,
+    349.6,
+    221.5
+   ],
+   "tipo": "texto",
+   "texto": "con cubrejuntas de alma",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    256.6,
+    416.7,
+    434.1,
+    434.7
+   ],
+   "tipo": "texto",
+   "texto": "con cubrejuntas de alas y alma. (puede llevar cu-\nbrejuntas interiores en las alas)",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    327.4,
+    195.6,
+    359.1,
+    205.2
+   ],
+   "tipo": "texto",
+   "texto": "c\nc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    364.9,
+    113.8,
+    374.3,
+    123.1
+   ],
+   "tipo": "texto",
+   "texto": "Md",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    346.1,
+    157.3,
+    354.2,
+    166.6
+   ],
+   "tipo": "texto",
+   "texto": "Vd",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    364.1,
+    311.8,
+    373.5,
+    321.1
+   ],
+   "tipo": "texto",
+   "texto": "Md",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    345.4,
+    355.3,
+    353.5,
+    364.6
+   ],
+   "tipo": "texto",
+   "texto": "Vd",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    330.4,
+    391.4,
+    353.8,
+    406.2
+   ],
+   "tipo": "texto",
+   "texto": "c\nc",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

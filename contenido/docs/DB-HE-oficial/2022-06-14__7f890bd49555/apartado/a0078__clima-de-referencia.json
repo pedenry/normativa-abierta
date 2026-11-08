@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0078",
+  "ruta_oficial": null,
+  "ruta_semantica": "Clima de referencia",
+  "titulo": "Clima de referencia",
+  "nivel": 1,
+  "parent_id": "a0076",
+  "seccion_estimada": "Clima de referencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 47,
+   "bbox": [
+    56.7,
+    76.5,
+    206.7,
+    89.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "28de4b4b7de4f1ef5f743b5a06947a880b2f2b9902fade3c85745ee814a7c067",
+   "literal": "Clima de referencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0076",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Clima de referencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0076",
+   "ruta_semantica": "Anejo B. Zonas climáticas / Clima de referencia",
+   "seccion_estimada": "Anejo B. Zonas climáticas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "eb3c108677b864c838e2ba0192739aca1f58aed825b8c5761a41d5777fbcfc70"
+ },
+ "paginas": [
+  47,
+  48
+ ],
+ "etiquetas_impresas": [
+  "47",
+  "48"
+ ],
+ "tipos": [],
+ "texto": "Clima de referencia\n1\nLa Dirección General de Arquitectura, Vivienda y Suelo, del Ministerio de Fomento, publicará en formato\ninformático los datos que definen el clima de referencia de cada zona climática, que establece las\ncondiciones exteriores de cálculo.\n\nDocumento Básico HE Ahorro de energía",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

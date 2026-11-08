@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0055",
+  "ruta_oficial": "5.3.2",
+  "ruta_semantica": "5.3.2  Estructuras trianguladas",
+  "titulo": "5.3.2  Estructuras trianguladas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.3.2  Estructuras trianguladas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 24,
+   "bbox": [
+    70.9,
+    538.6,
+    219.4,
+    548.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "50ada54fd832ebaa89739d77413471e4126d60af698f87a8cb461952c53fd209",
+   "literal": "5.3.2  Estructuras trianguladas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0067",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3.2  Estructuras trianguladas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5  Análisis estructural 5.1  Principios generales / 5.3  Sistemas de barras 5.3.1  Principios generales / 5.3.2  Estructuras trianguladas",
+   "seccion_estimada": "5  Análisis estructural 5.1  Principios generales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b2a8b86e55c594b098df548d17b3a5e4b98ec1381d0f8f0b2e6a4e7dc4f12398"
+ },
+ "paginas": [
+  24,
+  25
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.3.2  Estructuras trianguladas\n1\nEn el análisis de estructuras trianguladas, líneas que representan las barras del sistema son aquellas\nque unen los centros de gravedad de las secciones. En caso de utilizar, como línea de referencia de\nla barra, una distinta a la anterior, se tendrá en cuenta en dicho análisis los efectos de la excentrici-\ndad respecto a dicha línea.\n2\nLos empalmes realizados en las barras de piezas de celosía pueden ser considerados como rígidos\nsi su rotación real, debida a las acciones, no tiene efectos significativos sobre las leyes de distribu-\nción de esfuerzos. Este requisito se cumple si se verifican las siguientes condiciones:\na) el empalme tiene una capacidad de carga que corresponde, al menos, a 1,5 veces la hipótesis\nmás desfavorable;\nb) el empalme tiene una capacidad portante que corresponde, al menos, a la combinación de fuer-\nzas y momentos aplicados, siempre que las barras de madera no estén sometidas a tensiones\nde flexión superiores a 0,3 veces su resistencia de cálculo a flexión. Además, si se considera el\nempalme como una articulación, el conjunto debe ser estable.\n\nDocumentoBásico SE-M Madera\nSE-M 19\n(1) línea del sistema\n(2) apoyo\n(3) vano\n(4) cordón exterior\n(5) celosía del alma\n(6) barra ficticia\n(7) línea representativa de la barra, que no coincide con su eje real\nFigura 5.1 Ejemplo de denominación de algunos elementos en el análisis de una celosía.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0025.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

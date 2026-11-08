@@ -1,0 +1,94 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0300",
+  "ruta_oficial": null,
+  "ruta_semantica": "Mantenimiento y conservación",
+  "titulo": "Mantenimiento y conservación",
+  "nivel": 1,
+  "parent_id": "a0299",
+  "seccion_estimada": "Mantenimiento y conservación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 131,
+   "bbox": [
+    70.9,
+    599.1,
+    307.7,
+    614.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "871fb1c8ad4a2bd7e6241328824fb1371f06d438696365169cd1dab3c8f0d0b9",
+   "literal": "Mantenimiento y conservación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0299",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Mantenimiento y conservación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0299",
+   "ruta_semantica": "Sección HS5 / 6.4 Condiciones de los materiales de los accesorios / Mantenimiento y conservación",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8a9e813d0da0dad85bf6d992406f1830b596ed997307d76e9ee01d1606f67959"
+ },
+ "paginas": [
+  131,
+  132,
+  133
+ ],
+ "etiquetas_impresas": [
+  "131",
+  "132",
+  "133"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Mantenimiento y conservación\n1\nPara un correcto funcionamiento de la instalación de saneamiento, se debe comprobar periódica-\nmente la estanqueidad general de la red con sus posibles fugas, la existencia de olores y el mante-\nnimiento del resto de elementos.\n2\nSe revisarán y desatascarán los sifones y válvulas, cada vez que se produzca una disminución\napreciable del caudal de evacuación, o haya obstrucciones.\n3\nCada 6 meses se limpiarán los sumideros de locales húmedos y cubiertas transitables, y los botes\nsifónicos. Los sumideros y calderetas de cubiertas no transitables se limpiarán, al menos, una vez\nal año.\n4\nUna vez al año se revisarán los colectores suspendidos, se limpiarán las arquetas sumidero y el\nresto de posibles elementos de la instalación tales como pozos de registro, bombas de elevación.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n132\n5\nCada 10 años se procederá a la limpieza de arquetas de pie de bajante, de paso y sifónicas o antes\nsi se apreciaran olores.\n6\nCada 6 meses se limpiará el separador de grasas y fangos si este existiera.\n7\nSe mantendrá el agua permanentemente en los sumideros, botes sifónicos y sifones individuales\npara evitar malos olores, así como se limpiarán los de terrazas y cubiertas.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n133",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0131.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-F · 5.4.3  Comprobación de la capacidad resistente</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-f-oficial-2019-12-20-e3e0805c3b4c.html">DB-SE-F</a> › 5.4.3</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-f-oficial-2019-12-20-e3e0805c3b4c.html">DB-SE-F</a> · 5.4.3  Comprobación de la capacidad resistente · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0063 · PDF pág. 28 · documento DB-SE-F · SHA256 e3e0805c3b4c…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-F-oficial/2019-12-20__e3e0805c3b4c/apartado/a0063__5-4-3-comprobacion-de-la-capacidad-resistente.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-F-oficial/2019-12-20__e3e0805c3b4c/apartado/a0063__5-4-3-comprobacion-de-la-capacidad-resistente.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-F-oficial/2019-12-20__e3e0805c3b4c/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-f-oficial-2019-12-20-e3e0805c3b4c.html">Ámbito del documento</a> · <a href="../doc/db-se-f-oficial-2019-12-20-e3e0805c3b4c.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-f-oficial-2019-12-20-e3e0805c3b4c.html">documento y tablas</a></p>
+<nav><a href="db-se-f-oficial-2019-12-20-e3e0805c3b4c__a0062.html">← ID a0062 · PDF pág. 27-28</a> <a href="db-se-f-oficial-2019-12-20-e3e0805c3b4c__a0064.html">ID a0064 · PDF pág. 28-30 →</a></nav>
+<h1><span class="aviso">ID a0063 · PDF pág. 28</span> — 5.4.3  Comprobación de la capacidad resistente</h1>
+<p>ID técnico a0063 · PDF pág. 28 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 28 (candidato tipográfico); no validado por persona · padre: raíz</p>
+<pre class="literal">5.4.3  Comprobación de la capacidad resistente
+1
+Es aceptable el uso de cualquier procedimiento que dé como resultado un conjunto de esfuerzos en
+equilibrio con las acciones consideradas.
+2
+En cualquier dirección, el momento de cálculo aplicado, MSd, será menor o igual que el momento
+resistente, MRd, es decir:
+MSd MRd
+(5.25)
+3
+Como valor de MRd puede tomarse:
+como pieza a flexión, si no hay compresión:
+MRd = fxd · Z
+(5.26)
+pieza a flexión, si hay compresión:
+MRd = (fxd + d) · Z
+(5.27)
+como arco con relación longitud a canto mayor de 35
+MRd = E·(td3 / L2)·r/8
+(5.28a)
+como arco con relación longitud a canto menor de 35
+MRd = (fd·td – fd2L2/ tdE)·r/2
+(5.28b)
+siendo:
+Z
+módulo resistente elástico a flexión de la sección bruta, igual a t2/6; en un muro apilastrado,
+se adoptará como longitud de resalto no más del décimo de la altura, para los sustentados
+en cabeza y base, y un quinto para los libres en cabeza.
+d
+valor de cálculo de la tensión media de compresión del muro, en la sección que corres-
+ponda
+r
+altura del arco, según 5.4.4
+4
+Como viga vertical, si no puede contarse con la resistencia a tracción, como es el caso de muros de
+carga, en donde el fracaso del muro puede suponer el colapso de la estructura, o con acción sísmica:
+MRd1 = Nd · (t-2·e-Nd/fd)/2
+(5.29)
+siendo:
+Nd
+valor de cálculo de la compresión vertical del muro debida a acciones verticales
+t
+el grueso del muro
+e
+la excentricidad de la compresión, con su signo, debida a las acciones verticales
+5
+En otro caso, se podrá proceder análogamente, bien por reparto de los momentos isostáticos en cada
+dirección, de acuerdo a la relación de capacidades resistentes, tal como se ha hecho en (5.23) y
+(5.24), o por equilibrio límite en la situación de agotamiento por flexión, a partir de esos mismos pa-
+rámetros.
+6
+Cuando en uno de los bordes exista una barrera antihumedad, no será necesario considerarla si la
+carga vertical sobre la barrera asegura que, por causa del momento aplicado, no se supera la resis-
+tencia a la flexión (véase apartado 4.5.2.3). En otro caso se considerará como tendel hueco.</pre>
+<h2>Referencias candidatas (filtradas; no censuran el texto)</h2><ul><li>apartado 4.5.2.3</li></ul><h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-F-oficial/2019-12-20__e3e0805c3b4c/figura/p0028.png"><img class="figura" src="../../contenido/docs/DB-SE-F-oficial/2019-12-20__e3e0805c3b4c/figura/p0028.png" alt="Página 28"></a><figcaption>Página visual 28 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

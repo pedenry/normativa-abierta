@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0283",
+  "ruta_oficial": "5.4",
+  "ruta_semantica": "Fragmento de PDF p126",
+  "titulo": "5.4  Ejecución de albañales y colectores 5.4.1 Ejecución de la red horizontal colgada",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p126",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p126",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.4  Ejecución de albañales y colectores 5.4.1 Ejecución de la red horizontal colgada",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "76a64f25c04f77ab932f7a32953d496caf14989faf1a17edd3c1987d52684be2"
+ },
+ "paginas": [
+  126
+ ],
+ "etiquetas_impresas": [
+  "126"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.4  Ejecución de albañales y colectores 5.4.1 Ejecución de la red horizontal colgada\n5.4.1 Ejecución de la red horizontal colgada\n1\nEl entronque con la bajante se mantendrá libre de conexiones de desagüe a una distancia igual o\nmayor que 1 m a ambos lados.\n2\nSe situará un tapón de registro en cada entronque y en tramos rectos cada 15 m, que se instalarán\nen la mitad superior de la tubería.\n3\nEn los cambios de dirección se situarán codos de 45º, con registro roscado.\n4\nLa separación entre abrazaderas será función de la flecha máxima admisible por el tipo de tubo,\nsiendo:\na)\nen tubos de PVC y para todos los diámetros, 0,3 cm;\nb)\nen tubos de fundición, y para todos los diámetros, 0,3 cm.\n5\nAunque se debe comprobar la flecha máxima citada, se incluirán abrazaderas cada 1,50 m, para\ntodo tipo de tubos, y la red quedará separada de la cara inferior del forjado un mínimo de 5 cm. Es-\ntas abrazaderas, con las que se sujetarán al forjado, serán de hierro galvanizado y dispondrán de\nforro interior elástico, siendo regulables para darles la pendiente deseada. Se dispondrán sin apriete\nen las gargantas de cada accesorio, estableciéndose de ésta forma los puntos fijos; los restantes\nsoportes serán deslizantes y soportarán únicamente la red.\n6\nCuando la generatriz superior del tubo quede a más de 25 cm del forjado que la sustenta, todos los\npuntos fijos de anclaje de la instalación se realizarán mediante silletas o trapecios de fijación, por\nmedio de tirantes anclados al forjado en ambos sentidos (aguas arriba y aguas abajo) del eje de la\nconducción, a fin de evitar el desplazamiento de dichos puntos por pandeo del soporte.\n7\nEn todos los casos se instalarán los absorbedores de dilatación necesarios. En tuberías encoladas\nse utilizarán manguitos de dilatación o uniones mixtas (encoladas con juntas de goma) cada 10 m.\n8\nLa tubería principal se prolongará 30 cm desde la primera toma para resolver posibles obturaciones.\n9\nLos pasos a través de elementos de fábrica se harán con contra-tubo de algún material adecuado,\ncon las holguras correspondientes, según se ha indicado para las bajantes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0126.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0284",
+  "a0285",
+  "a0286",
+  "a0287"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

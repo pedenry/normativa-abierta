@@ -1,0 +1,63 @@
+{
+ "indice": 3,
+ "pagina": 6,
+ "etiqueta_impresa": "6",
+ "bbox": [
+  128.2,
+  324.8,
+  539.6,
+  341.1
+ ],
+ "filas": 1,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Fachadas y cubiertas del edificio",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "Fachadas y cubiertas del edificio",
+  ""
+ ],
+ "header": {
+  "names": [
+   "",
+   "Fachadas y cubiertas del edificio",
+   ""
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C0494CE30>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C0494C110>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C0494CB30>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0006.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

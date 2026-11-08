@@ -1,0 +1,84 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0013",
+  "ruta_oficial": "15.7",
+  "ruta_semantica": "Fragmento de PDF p4",
+  "titulo": "15.7. Exigencia básica HE 6: Dotaciones mínimas para la infraestructura de recarga de vehículos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p4",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p4",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 Junio 2022 / 15.7. Exigencia básica HE 6: Dotaciones mínimas para la infraestructura de recarga de vehículos",
+   "seccion_estimada": "14 Junio 2022",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "77f0fb73e4425b56ff70ca8979a309ea1a8b7400456f38c537242322777f3fc2"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "15.7. Exigencia básica HE 6: Dotaciones mínimas para la infraestructura de recarga de vehículos\neléctricos\nLos edificios dispondrán de una infraestructura mínima que posibilite la recarga de vehículos eléctricos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": null,
+   "titulo": "VI Términos y definiciones",
+   "archivo_json": "a0018__vi-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0004.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0014",
+  "a0015",
+  "a0016",
+  "a0017",
+  "a0018"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

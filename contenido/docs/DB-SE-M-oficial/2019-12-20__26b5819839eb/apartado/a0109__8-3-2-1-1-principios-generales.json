@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0109",
+  "ruta_oficial": "8.3.2.1.1",
+  "ruta_semantica": "8.3.2.1.1  Principios generales",
+  "titulo": "8.3.2.1.1  Principios generales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.3.2.1.1  Principios generales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 54,
+   "bbox": [
+    70.9,
+    183.4,
+    216.0,
+    193.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "33fdbe4a3c50a310e8b659b001d8979da633efd87b1502a536f98e33ec7d1600",
+   "literal": "8.3.2.1.1  Principios generales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0123",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.2.1.1  Principios generales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / 8.3  Uniones de tipo clavija / 8.3.2  Clavos 8.3.2.1  Carga lateral / 8.3.2.1.1  Principios generales",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "81dcdaa3da887119020f22d9940aadc5741afb63492f078ecbb911b20a82f73d"
+ },
+ "paginas": [
+  54
+ ],
+ "etiquetas_impresas": [
+  "7"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.3.2.1.1  Principios generales\n1\nLa capacidad de carga lateral se obtiene mediante la aplicación de las reglas definidas en el aparta-\ndo 8.3.1, con el siguiente significado de los símbolos:\nt1\nen simple cortadura es el espesor de la pieza correspondiente a la cabeza del clavo o en doble\ncortadura es el menor valor de los dos siguientes: espesor de la pieza de cabeza o penetración\nen la pieza de punta (véase figura 8.4).\nt2\npenetración en la pieza de punta en simple cortadura o espesor de la pieza central en doble cor-\ntadura.\nFigura 8.4 Definición de t1 y t2. a) cortadura simple, b) cortadura doble.\n2\nCuando la densidad característica de la madera sea superior o igual a 500 kg/m3 o cuando el diáme-\ntro del clavo sea mayor que 6 mm, debe realizarse un pretaladro en la madera.\n3\nEn clavos de sección cuadrada, se tomará como diámetro d el lado del cuadrado.\n4\nMomento plástico:\nEn clavos comunes de fuste liso de alambre de acero con una resistencia mínima a tracción del\nalambre con el que están fabricados de 600 N/mm2, el momento plástico característico se determina-\nrá según las expresiones siguientes:\ncircular",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0054.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

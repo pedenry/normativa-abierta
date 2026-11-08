@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0125",
+  "ruta_oficial": "8.3.5",
+  "ruta_semantica": "8.3.5  Pasadores",
+  "titulo": "8.3.5  Pasadores",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.3.5  Pasadores",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 63,
+   "bbox": [
+    70.9,
+    678.5,
+    152.2,
+    688.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e1a17125b11e2a276b4966f55fed22eb59ed0e24300362e85b6b44d4d0a74bfb",
+   "literal": "8.3.5  Pasadores"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0138",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 8.3.4.1.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.5  Pasadores",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / sección / 8.3.5  Pasadores",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "061394f0f67437c5f50a7bf63d3e5dbdd0382cc3d2bb5d6c98b03fd54de25c27"
+ },
+ "paginas": [
+  63,
+  64
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.3.5  Pasadores\n1\nLa capacidad de carga lateral se obtiene mediante la aplicación de las reglas definidas en el aparta-\ndo 8.3.1, con el siguiente significado de los símbolos, con referencia análoga al caso de los pernos\nen la figura 8.10:\na) t1 en cortadura simple es el espesor de una de las piezas y en cortadura doble el espesor de las\npiezas laterales;\n\nDocumentoBásico SE-M Madera\nSE-M 58\nb) t2 en cortadura simple es el espesor de la otra pieza y en cortadura doble el espesor de la pieza\ncentral.\n2\nEl diámetro mínimo del pasador debe ser de 6 mm y el máximo de 30 mm.\n3\nEl valor característico del momento plástico puede obtenerse mediante la aplicación de la ecuación\n8.49 definida para los pernos en el apartado 8.3.4.1.1.\n4\nAdemás son de aplicación los apartados 8.3.4.1.2 (sobre la tensión de aplastamiento) y 8.3.4.1.1\n(sobre el número eficaz).\n5\nLas separaciones y distancias mínimas se dan en la tabla 8.5, con las definiciones incluidas en la\nfigura 8.7.\nTabla 8.5 Separaciones y distancias mínimas para pasadores\nSeparaciones y distancias\n(véase figura 8.7)\nÁngulo\nSeparación o distancia mínima\na1 (paralelo a la fibra)\n0º  360º\n(3 + 2 cos  )·d\na2 (perpendicular a la fibra)\n0º  360º\n3d\na3,t (testa cargada)\n- 90º  90º\nmax (7d; 80 mm)\na3,c (testa no cargada)\n90º  < 150º\nmax (a3,tsen d; 3d)\n150º  < 210º\n3d\n210º  270º\nMax (a3,tsen d; 3d)\na4,t (borde cargado)\n0º  180º\nmax [ (2 + 2sen )·d; 3d]\na4,c (borde no cargado)\n180º  360º\n3d\n6\nDisposiciones constructivas:\nEl diámetro mínimo de los pasadores será de 6 mm. La tolerancia en el diámetro del pasador será\nserá de – 0/+0,1 mm (es decir, sólo se admiten diámetros superiores en no más de 0,1mm). Los pre-\ntaladros de alojamiento en las piezas de madera deben tener un diámetro () de valor (kpretaladro d≤ \n≤d); siendo (d) el diámetro del pasador y kpretaladro un valor que está entre (3/4) en las especies de po-\nca densidad y (9/10) en las de mayor densidad.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.3.4.1.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0063.png",
+  "../figura/p0064.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

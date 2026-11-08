@@ -1,0 +1,78 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0278",
+  "ruta_oficial": "5.1.3",
+  "ruta_semantica": "Fragmento de PDF p124",
+  "titulo": "5.1.3 Calderetas o cazoletas y sumideros",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p124",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p124",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.1 Ejecución de los puntos de captación 5.1.1 Válvulas de desagüe / 5.1.3 Calderetas o cazoletas y sumideros",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ca2c434d8a593bcd77db317c07492c71cf19c16126b8a04f3ea648edcc7f22c0"
+ },
+ "paginas": [
+  124
+ ],
+ "etiquetas_impresas": [
+  "124"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.1.3 Calderetas o cazoletas y sumideros\n1\nLa superficie de la boca de la caldereta será como mínimo un 50 % mayor que la sección de bajan-\nte a la que sirve. Tendrá una profundidad mínima de 15 cm y un solape también mínimo de 5 cm\nbajo el solado. Irán provistas de rejillas, planas en el caso de cubiertas transitables y esféricas en\nlas no transitables.\n2\nTanto en las bajantes mixtas como en las bajantes de pluviales, la caldereta se instalará en paralelo\ncon la bajante, a fin de poder garantizar el funcionamiento de la columna de ventilación.\n3\nLos sumideros de recogida de aguas pluviales, tanto en cubiertas, como en terrazas y garajes serán\nde tipo sifónico, capaces de soportar, de forma constante, cargas de 100 kg/cm2. El sellado estanco\nentre al impermeabilizante y el sumidero se realizará mediante apriete mecánico tipo “brida” de la\ntapa del sumidero sobre el cuerpo del mismo. Así mismo, el impermeabilizante se protegerá con\nuna brida de material plástico.\n4\nEl sumidero, en su montaje, permitirá absorber diferencias de espesores de suelo, de hasta 90 mm.\n5\nEl sumidero sifónico se dispondrá a una distancia de la bajante inferior o igual a 5 m, y se garantiza-\nrá que en ningún punto de la cubierta se supera una altura de 15 cm de hormigón de pendiente. Su\ndiámetro será  superior a 1,5 veces el diámetro de la bajante a la que desagua.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0124.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

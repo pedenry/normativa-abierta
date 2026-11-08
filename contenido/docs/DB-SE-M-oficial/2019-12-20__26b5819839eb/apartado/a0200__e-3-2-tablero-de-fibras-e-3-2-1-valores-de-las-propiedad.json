@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0200",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p118",
+  "titulo": "E.3.2 Tablero de fibras E.3.2.1 Valores de las propiedades de resistencia, rigidez y densidad de los tableros de fibras",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p118",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p118",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / E.3.2 Tablero de fibras E.3.2.1 Valores de las propiedades de resistencia, rigidez y densidad de los tableros de fibras",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "29ce31cae97cf3824c60d4e8cae64e8b05c390f99f9ce574d491f68ac264eff9"
+ },
+ "paginas": [
+  118,
+  119
+ ],
+ "etiquetas_impresas": [
+  "800",
+  "1"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "E.3.2 Tablero de fibras E.3.2.1 Valores de las propiedades de resistencia, rigidez y densidad de los tableros de fibras\nE.3.2.1 Valores de las propiedades de resistencia, rigidez y densidad de los tableros de fibras\n1\nEn las tablas E.9 y E.10 se indican los valores de las propiedades de resistencia, rigidez y densidad\nasociadas a cada tipo de tablero de fibras y ambiente en el que se utilizan.\nTabla E.9 Tableros de fibras duros y semiduros estructurales. Valores de las propiedades\nPropiedades\nDuros (UNE-EN 622-2:2004)\nPara su uso en ambiente húmedo\nSemiduros (UNE-EN 622-3:2005)\nPara su uso en ambiente seco\nEspesor nominal, tnom, en mm\nEspesor nominal, tnom, en mm\n 3,5\n> 3,5 a 5,5\n> 5,5\n 10\n> 10\nResistencia (característica), en N/mm2\n- Flexión\nfm,p,k\n37,0\n35,0\n32,0\n17,0\n15,0\n- Tracción\nft,p,k\n27,0\n26,0\n23,0\n9,0\n8,0\n- Compresión\nfc,p,k\n28,0\n27,0\n24,0\n9,0\n8,0\n- Cortante, en el grueso\nfv,p,k\n19,0\n18,0\n16,0\n5,5\n4,5\n- Cortante, en el plano\nfr,p,k\n3,0\n3,0\n2,5\n0,3\n0,25\nRigidez (media), en N/mm2\n- A flexión\nEm,p\n5000\n4800\n4600\n3100\n2900\n- A tracción\nEt,p\n5000\n4800\n4600\n3100\n2900\n- A compresión\nEc,p\n5000\n4800\n4600\n3100\n2900\n- A cortante, en el grueso\nGv,p\n2100\n2000\n1900\n1300\n1200\nDensidad, en kg/m3\n- Característica\np,k\n900\n850\n800\n650\n600\n\nDocumentoBásico SE-M Madera\nSE-M 113\nTabla E.10 Tableros de fibras estructurales fabricados por proceso seco (MDF). Valores de las propiedades\nPropiedades",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0118_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0118.png",
+  "../figura/p0119.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

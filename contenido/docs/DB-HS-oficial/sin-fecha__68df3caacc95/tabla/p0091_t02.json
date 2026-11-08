@@ -1,0 +1,71 @@
+{
+ "indice": 2,
+ "pagina": 91,
+ "etiqueta_impresa": "91",
+ "bbox": [
+  94.9,
+  713.7,
+  542.1,
+  770.0
+ ],
+ "filas": 2,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Tramo considerado",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Diámetro nominal del tubo de alimentación\nAcero Cobre o plástico (mm)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Alimentación a cuarto húmedo privado: baño, aseo,\ncocina.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "¾ 20",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Tramo considerado",
+  "Diámetro nominal del tubo de alimentación\nAcero Cobre o plástico (mm)"
+ ],
+ "header": {
+  "names": [
+   "Tramo considerado",
+   "Diámetro nominal del tubo de alimentación\nAcero Cobre o plástico (mm)"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC5AB2C0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC5A8FB0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC5A91C0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC5A9040>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0091.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

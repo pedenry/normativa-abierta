@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-f3314b0414fe",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon Fichas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__e58e54b822cf",
+ "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+ "apartado": {
+  "id_tecnico": "a0205",
+  "ruta_oficial": null,
+  "ruta_semantica": "Solucion C1 - Ventilacion de los locales habitables / SOLUCIÓN C1",
+  "titulo": "SOLUCIÓN C1",
+  "nivel": 3,
+  "parent_id": "a0203",
+  "seccion_estimada": "Solucion C1 - Ventilacion de los locales habitables"
+ },
+ "paginas": [
+  58
+ ],
+ "etiquetas_impresas": [
+  "58"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "SOLUCIÓN C1\nC1\nCuando los caudales de ventilación existentes se ade­\ncúen a la reglamentación, en general se desaconseja\nel empleo de esta solución puesto que el aumento\nde caudales de ventilación conllevará en la mayoría\nde los casos un incremento de las pérdidas energéti­\ncas de los locales (y consecuente reducción de la efi­\nciencia energética); así como puede llevar aparejado,\ndependiendo del sistema de ventilación empleado,\ndepresiones que fomenten la entrada de radón, mo­\nlestias por corrientes de aire y ruido y desequilibrios\nen los flujos de ventilación.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0058_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0058.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon+Fichas.pdf",
+  "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0203",
+  "nivel": 3,
+  "seccion_estimada": "Solucion C1 - Ventilacion de los locales habitables",
+  "ruta_semantica": "Solucion C1 - Ventilacion de los locales habitables / SOLUCIÓN C1"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

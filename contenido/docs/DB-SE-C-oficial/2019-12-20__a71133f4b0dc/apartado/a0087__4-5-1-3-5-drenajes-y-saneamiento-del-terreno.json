@@ -1,0 +1,119 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0087",
+  "ruta_oficial": "4.5.1.3.5",
+  "ruta_semantica": "4.5.1.3.5 Drenajes y saneamiento del terreno",
+  "titulo": "4.5.1.3.5 Drenajes y saneamiento del terreno",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.5.1.3.5 Drenajes y saneamiento del terreno",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    637.3,
+    284.3,
+    647.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f197a9a08986a8d59c3db9cd87bf5adca0bfdd391348477cf38e8da427481fef",
+   "literal": "4.5.1.3.5 Drenajes y saneamiento del terreno"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0101",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.5.1.3.5 Drenajes y saneamiento del terreno",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Condiciones constructivas 4.5.1 Zapatas / 4.5.1.3 Excavaciones 4.5.1.3.1 Terminación de las excavaciones / 4.5.1.3.5 Drenajes y saneamiento del terreno",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "350856c8cc20f8cc6b2a82e6ed65f98877b45affacf8533e24c36ead16e55ffe"
+ },
+ "paginas": [
+  42,
+  43
+ ],
+ "etiquetas_impresas": [
+  "2",
+  "4"
+ ],
+ "tipos": [],
+ "texto": "4.5.1.3.5 Drenajes y saneamiento del terreno\n1\nSiempre que se estime necesario, se realizará un drenaje del terreno de cimentación.\n2\nEl drenaje se podrá realizar con drenes colocados en el fondo de zanjas, en unas perforaciones\ninclinadas con suficiente pendiente (por lo menos 5 cm por metro), mediante empedrados, o con\notros materiales idóneos.\n3\nLos empedrados se rellenarán de cantos o grava gruesa, dispuestos en una zanja, cuyo fondo pe-\nnetrará en la medida necesaria y tendrá una pendiente longitudinal de al menos 3 a 4 cm por metro.\nCon anterioridad a la colocación de la grava, en su caso se dispondrá un geotextil en la zanja que\ncumpla las condiciones de filtro necesarias para evitar la migración de materiales finos.\n\nDocumento Básico SE-C Cimientos\nSE-C-38\n4\nSe podrá también emplear un procedimiento mixto, de dren y empedrado, colocando un dren en el\nfondo del empedrado.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

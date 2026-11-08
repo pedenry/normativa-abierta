@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0080",
+  "ruta_oficial": "2.4.4.1.5",
+  "ruta_semantica": "2.4.4.1.5 Rebosaderos",
+  "titulo": "2.4.4.1.5 Rebosaderos",
+  "nivel": 1,
+  "parent_id": "a0075",
+  "seccion_estimada": "2.4.4.1.5 Rebosaderos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    70.9,
+    451.1,
+    179.7,
+    462.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f57abcca43465ef1b3290cb736d1ba327bd441a6cca4646c23ee24e9b7b0ea2d",
+   "literal": "2.4.4.1.5 Rebosaderos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0075",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.4.1.5 Rebosaderos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0075",
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.4 Cubiertas 2.4.1 Grado de impermeabilidad / 2.4.4 Condiciones de los puntos singulares / 2.4.4.1.5 Rebosaderos",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a15a00ea3331136028bb515b064aba0912b70d66a029db42aba3db7684e775dd"
+ },
+ "paginas": [
+  34,
+  35
+ ],
+ "etiquetas_impresas": [
+  "34",
+  "35"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.4.4.1.5 Rebosaderos\n1\nEn las cubiertas planas que tengan un paramento vertical que las delimite en todo su perímetro,\ndeben disponerse rebosaderos en los siguientes casos:\na)\ncuando en la cubierta exista una sola bajante;\nb)\ncuando se prevea que, si se obtura una bajante, debido a la disposición de las bajantes o de\nlos faldones de la cubierta, el agua acumulada no pueda evacuar por otras bajantes;\nc)\ncuando la obturación de una bajante pueda producir una carga en la cubierta que comprometa\nla estabilidad del elemento que sirve de soporte resistente.\n2\nLa suma de las áreas de las secciones de los rebosaderos debe ser igual o mayor que la suma de\nlas de bajantes que evacuan el agua de la cubierta o de la parte de la cubierta a la que sirvan.\n3\nEl rebosadero debe disponerse a una altura intermedia entre la del punto más bajo y la del más alto\nde la entrega de la impermeabilización al paramento vertical (Véase la figura 2.15) y en todo caso a\nun nivel más bajo de cualquier acceso a la cubierta.\n4\nEl rebosadero debe sobresalir 5 cm como mínimo de la cara exterior del paramento vertical y dispo-\nnerse con una pendiente favorable a la evacuación.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n35\nFigura 2.15 Rebosadero",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png",
+  "../figura/p0035.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

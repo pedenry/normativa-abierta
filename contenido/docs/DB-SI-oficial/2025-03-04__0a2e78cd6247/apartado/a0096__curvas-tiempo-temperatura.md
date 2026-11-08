@@ -1,0 +1,82 @@
+---
+
+documento: "DB-SI Seguridad en caso de incendio"
+id: "DB-SI-oficial"
+capa: "oficial"
+version: "2025-03-04"
+id_tecnico: "a0096"
+ruta_oficial: null
+ruta_semantica: "Anejo SI A Terminología / Curvas tiempo-temperatura"
+parent_id: "a0091"
+nivel: 2
+titulo: "Curvas tiempo-temperatura"
+paginas_fisicas: "43-43"
+paginas_impresas: "43-43"
+sha256_documento: "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105"
+tipos: "referencias"
+seccion_estimada: "Anejo SI A Terminología"
+titulo_navegacion: "Curvas tiempo-temperatura"
+ruta_fuente: "toc_verificado_literal"
+clasificacion_navegacion: "encabezado"
+es_encabezado_navegacion: true
+sha256_body_normativo: "6f9d7b991cd9323b4513bd0b58ddd6768e22c53d7e225f648d505458d8a7a141"
+referencias_auto_md: "sin_cambio_en_MD; usar referencias_filtradas del JSON"
+---
+
+# a0096 Curvas tiempo-temperatura
+
+Documento Básico SI en caso de Incendio
+Anejo A. Terminología
+43
+Atrio
+Espacio diáfano con altura equivalente a la de varias plantas del edificio comunicadas con dicho espacio
+mediante huecos, ventanas, balcones, pasillos abiertos, etc. Parte del perímetro del atrio puede también
+estar formado por muros ciegos o por fachadas del edificio.
+Caja escénica
+Volumen construido que abarca desde su nivel inferior hasta la cubierta de un edificio conformando un
+escenario de teatro, sala de ópera, etc. equipado con decorados, tramoyas, mecanismos y foso, de for-
+ma que constituye un sector de incendio que cumpla las siguientes condiciones especiales:
+-
+Debe estar compartimentado respecto de la sala de espectadores mediante elementos EI 120 excep-
+to en la boca de la escena, la cual se puede cerrar mediante un telón EI 60 de material incombustible
+cuyo tiempo de cierre no excede de 30 s y puede soportar una presión de 0,4 kN/m2 en ambos senti-
+dos sin que su funcionamiento se vea afectado.
+-
+El cierre del telón debe ser automático, pero también debe poder activarse manualmente desde dos
+puntos, uno situado en el escenario y otro en lugar de acceso seguro, fuera del espacio del escena-
+rio. Cuando se ponga en funcionamiento, se debe activar una señal óptica de advertencia en el es-
+cenario. Debe disponer de una cortina de agua de activación automática y manual desde el escena-
+rio y desde otro punto situado en lugar de acceso seguro.
+-
+Debe disponer de vestíbulos de independencia en toda comunicación con la sala de espectadores.
+-
+Encima de la escena sólo deben existir locales técnicos que sirvan para uso directo de la escena.
+-
+El recorrido de evacuación desde cualquier punto del escenario hasta alguna salida del sector no
+debe exceder de 25 m y las puertas de salida deben abrir en el sentido de la evacuación.
+-
+Las pasarelas, galerías o similares existentes para uso de actores o empleados deben disponer de
+salidas de evacuación.
+-
+Las pasarelas y escaleras del escenario deben tener una anchura de 0,80 m, como mínimo.
+-
+La parte superior de la caja escénica debe disponer de un sistema adecuado para la eliminación del
+humo en caso de incendio.
+Carga de fuego
+Suma de las energías caloríficas que se liberan en la combustión de todos los materiales combustibles
+existentes en un espacio (contenidos del edificio y elementos constructivos) (UNE-EN 1991-1-2:2004).
+Curva normalizada tiempo-temperatura
+Curva nominal que representa un modelo de fuego totalmente desarrollado en un sector de incendio
+(UNE-EN 1991-1-2:2004).
+Curvas tiempo-temperatura
+Temperatura del aire en la proximidad de las superficies de un elemento, en función del tiempo. Pueden
+ser:
+a) Nominales: curvas convencionales adoptadas para clasificar o verificar la resistencia al fuego, por
+ejemplo, la curva normalizada tiempo-temperatura, la curva de fuego exterior o la curva de fuego de
+hidrocarburos;
+b) Paramétricas:determinadas a partir de modelos de fuego y de los parámetros físicos específicos que
+definen las condiciones del sectorde incendio (UNE-EN 1991-1-2:2004).
+
+## Referencias detectadas (literal)
+
+- UNE-EN

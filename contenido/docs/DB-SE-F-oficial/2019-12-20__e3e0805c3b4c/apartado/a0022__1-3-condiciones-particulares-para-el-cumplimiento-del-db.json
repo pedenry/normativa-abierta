@@ -1,0 +1,108 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0022",
+  "ruta_oficial": "1.3",
+  "ruta_semantica": "1.3 Condiciones particulares para el cumplimiento del DB-SE-F",
+  "titulo": "1.3 Condiciones particulares para el cumplimiento del DB-SE-F",
+  "nivel": 1,
+  "parent_id": "a0020",
+  "seccion_estimada": "1.3 Condiciones particulares para el cumplimiento del DB-SE-F",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 6,
+   "bbox": [
+    70.9,
+    72.7,
+    440.4,
+    84.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "38190c7ddcf75209b27336d879e61c7efcb26ae84390e55b77d42bb1162c07fc",
+   "literal": "1.3 Condiciones particulares para el cumplimiento del DB-SE-F"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0022",
+  "parent_id_original": "a0020",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SE",
+   "DB-SE-F",
+   "apartado  2.2",
+   "apartado 2",
+   "apartado 4",
+   "apartado 9",
+   "artículo 8"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "1.3 Condiciones particulares para el cumplimiento del DB-SE-F",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0020",
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación / 1.3 Condiciones particulares para el cumplimiento del DB-SE-F",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9aad3c6d7f642b3273240758ba30b7770c64e49066b0a8d7f4d5688c1e6d87d7"
+ },
+ "paginas": [
+  6,
+  7
+ ],
+ "etiquetas_impresas": [
+  null,
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "1.3 Condiciones particulares para el cumplimiento del DB-SE-F\n1\nLa aplicación de los procedimientos de este DB se llevará a cabo de acuerdo con las condiciones\nparticulares que en el mismo se establecen, con las condiciones particulares indicadas en el DB-SE\ny con las condiciones generales para el cumplimiento del CTE, las condiciones del proyecto, las con-\ndiciones en la ejecución de las obras y las condiciones del edificio que figuran en los artículos 5, 6, 7\ny 8 respectivamente de la parte I del CTE.\n2\nLa documentación del proyecto será la que se figura en el apartado 2 Documentación del DB-SE\nincluyendo además:\na)\nen la memoria y pliego de condiciones las prescripciones técnicas de los elementos de las fábri-\ncas, por referencia a lo dispuesto en el apartado 4 de este DB;\nb)\nen cada plano del proyecto de edificación en que se representen muros resistentes las propie-\ndades específicas de los mismos y las de los morteros y en su caso hormigones utilizados para\nsu construcción, así como el tipo de ambiente para el que se ha proyectado cada elemento.\n3\nSe elaborará la documentación de la obra ejecutada de acuerdo con lo exigido en el artículo 8 de la\nParte I del CTE, el apartado  2.2 del DB-SE y el apartado 9 Mantenimiento de este DB, incluyendo\nlos siguientes aspectos:\na)\nen el plan de mantenimiento se destacará que la inspección debe prestar atención a fisuras,\nhumedades, cejas o movimientos diferenciales, alteraciones superficiales de dureza, textura o\ncolorido, y en su caso a signos de corrosión de armaduras y el nivel de carbonatación del mor-\ntero;\nb)\ncuando algún componente posea una durabilidad menor que la supuesta para el resto de la obra\ngruesa, se establecerá un seguimiento específico de su envejecimiento en el plan de manteni-\nmiento y se dispondrán medidas constructivas que faciliten su sustitución;\nc)\ncuando se utilicen materiales que deban estar protegidos, según las prescripciones del capítulo\n3 de este DB, se establecerá un programa específico para revisar dichas protecciones.\n\nDocumento Básico SE-F Fábrica\nSE-F-3",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "DB-SE",
+  "DB-SE-F",
+  "apartado  2.2",
+  "apartado 2",
+  "apartado 4",
+  "apartado 9",
+  "artículo 8"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0007.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,196 @@
+{
+ "documento": null,
+ "pagina": 31,
+ "etiqueta_impresa": "31",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-29",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    78.0,
+    97.6,
+    242.2,
+    113.2
+   ],
+   "tipo": "titulo",
+   "texto": "6 Estados límite últimos",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.0,
+    135.7,
+    184.0,
+    149.1
+   ],
+   "tipo": "titulo",
+   "texto": "6.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    78.0,
+    157.2,
+    538.6,
+    180.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa comprobación frente a los estados límites últimos supone, en este DB, el análisis y la verifica-\nción ordenada de la resistencia de las secciones, de las barras y de las uniones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    78.0,
+    186.3,
+    541.3,
+    243.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nAunque en el caso de las clases 1 y 2 es una opción holgadamente segura, es admisible utilizar\nen cualquier caso criterios de comprobación basados en distribuciones elásticas de tensiones,\nsiempre que en ningún punto de la sección, (y en clase 4, considerando sólo la eficaz), las tensio-\nnes de cálculo, combinadas conforme al criterio de plastificación de Von Mises, superen la resis-\ntencia de cálculo. En un punto de una chapa sometido a un estado plano de tensión sería:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    114.8,
+    253.7,
+    541.0,
+    268.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "yd\n2\nxzd\nzd\nxd\n2\nzd\n2\nxd\nf\n3\n≤\nτ\n⋅\n+\nσ\n⋅\nσ\n−\nσ\n+\nσ\n(6.1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    78.0,
+    277.7,
+    541.4,
+    312.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nEl valor del límite elástico utilizado será el correspondiente al material base según se indica en el\napartado 3 de este DB. No se considerará el efecto de endurecimiento derivado del conformado\nen frío o de cualquier otra operación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    78.0,
+    329.4,
+    266.8,
+    342.8
+   ],
+   "tipo": "titulo",
+   "texto": "6.2 Resistencia de las secciones",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 9,
+   "bbox": [
+    78.0,
+    358.1,
+    135.3,
+    369.3
+   ],
+   "tipo": "texto",
+   "texto": "6.2.1 Bases",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    78.0,
+    377.6,
+    541.4,
+    434.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa capacidad resistente de las secciones establecida en este apartado corresponde a posiciones\nde éstas alejadas de extremos de barra o singularidades, sea por cambios bruscos de forma, o\npor aplicación de cargas puntuales o reacciones. En los casos citados deberá considerarse el en-\ntorno de la singularidad con los criterios establecidos en el capítulo 8 o análogos a éstos, conside-\nrando la geometría de la singularidad.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    78.0,
+    441.0,
+    541.4,
+    486.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa capacidad resistente para cualquier clase de esfuerzo o combinación de esfuerzos se obtendrá\na partir de la distribución de tensiones que optimice el valor de la resistencia, que equilibre el es-\nfuerzo o la combinación de esfuerzos actuante sobre la sección y que en ningún punto sobrepase\nel criterio de plastificación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    78.0,
+    493.1,
+    541.4,
+    561.7
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa capacidad resistente de las secciones depende de su clase. Para secciones de clase 1 y 2 la\ndistribución de tensiones se escogerá atendiendo a criterios plásticos (en flexión se alcanza el lí-\nmite elástico en todas las fibras de la sección). Para las secciones de clase 3 la distribución segui-\nrá un criterio elástico (en flexión se alcanza el límite elástico sólo en las fibras extremas de la sec-\nción) y para secciones de clase 4 este mismo criterio se establecerá sobre la sección eficaz (figura\n6.1).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    135.3,
+    717.5,
+    483.9,
+    727.5
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.1  Modelos admitidos de distribución de tensiones: caso de flexión pura",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

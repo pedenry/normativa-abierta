@@ -1,0 +1,107 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0253",
+  "ruta_oficial": null,
+  "ruta_semantica": "F.1.2 Estimación de asientos",
+  "titulo": "F.1.2 Estimación de asientos",
+  "nivel": 1,
+  "parent_id": "a0251",
+  "seccion_estimada": "F.1.2 Estimación de asientos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 141,
+   "bbox": [
+    70.9,
+    634.7,
+    238.3,
+    646.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b07734c29c580e08389772e93ef8bacafcc96d89b465d18603ddb7ea995a3b36",
+   "literal": "F.1.2 Estimación de asientos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0251",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 4.2.3.1"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "F.1.2 Estimación de asientos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0251",
+   "ruta_semantica": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención / F.1.2 Estimación de asientos",
+   "seccion_estimada": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b94e9f21d9912be236f6ed5e36bf5f3e2a5b6a979dc0e53a86b1013a3854281c"
+ },
+ "paginas": [
+  141,
+  142,
+  143,
+  144,
+  145
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  "3",
+  "4",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "F.1.2 Estimación de asientos\nF.1.2.1 Criterios básicos\n1\nA efectos de aplicación de este DB se distinguirán, en el caso más general, tres tipos de asiento. En\nla Figura F.3 se muestra de forma esquemática la evolución de dichos asientos y su relación con el\ntiempo tras la aplicación de una carga:\n\nDocumento Básico SE-C Cimientos\nSE-C-137\nFigura F.3. Definición de asiento instantáneo, de consolidación primaria y de compresión secundaria\na)\nasiento instantáneo (Si): se produce de manera inmediata o simultánea con la aplicación de la\ncarga. Si el suelo es de baja permeabilidad y se encuentra saturado, en los momentos iniciales\napenas se produce drenaje alguno, de manera que este asiento inicial corresponde a una dis-\ntorsión del suelo, sin cambio de volumen;\nb)\nasiento de consolidación primaria (Sc): se desarrolla a medida que se disipan los excesos de\npresión intersticial generados por la carga y se eleva la presión efectiva media en el terreno, lo\nque permite la reducción progresiva del volumen de huecos del suelo. Este asiento es espe-\ncialmente importante en suelos arcillosos saturados, ya que puede dilatarse considerablemen-\nte en el tiempo;\nc)\nasiento de compresión secundaria (Ss): se produce en algunos suelos que presentan una cier-\nta fluencia (deformación a presión efectiva constante). Aunque puede comenzar desde los\nprimeros momentos tras la aplicación de la carga, habitualmente sólo puede distinguirse con\nclaridad una vez finalizado el proceso de consolidación primaria.\n2\nEl asiento total resultante será por tanto la suma de las tres componentes anteriores:\nSt = Si + Sc + Ss\n(F.18)\n3\nEn relación con este DB, los suelos en los que se puedan desarrollar asientos de compresión se-\ncundaria no despreciables se considerarán desfavorables (tipo T-3 de acuerdo con la tabla 3.2) En\nestos casos se requerirá un estudio especializado para estimar estos asientos y evaluar su repercu-\nsión en la construcción.\n4\nEn los suelos de permeabilidad elevada y en los parcialmente saturados, se podrá suponer que el\nasiento se produce de manera prácticamente simultánea a la aplicación de la carga, por lo que Si y\nSc no llegarán a diferenciarse.\nF.1.2.2 Suelos granulares con una proporción en peso de partículas de más de 20 mm inferior al\n30%\n1\nSi bien para estimar el asiento de una cimentación directa en un terreno de estas características\npodrán utilizarse correlaciones que permiten determinar el módulo de deformación del terreno en\nfunción de los resultados obtenidos en ensayos de penetración estática o dinámica realizados “in si-\ntu”, se puede utilizar la expresión (F.19) de Burland y Burbidge, basada directamente en los resulta-\ndos obtenidos en el ensayo SPT o deducidos de ensayos de penetración a través de correlaciones\ndebidamente contrastadas.\nc\n7\n.\n0\nb\ns\nl\ni\nI·\nB\n·\n'q·\nf·\nf\nS\n(F.19)\n\nDocumento Básico SE-C Cimientos\nSE-C-138\nsiendo\nSi\nel asiento medio al final de la construcción, en mm.\nq’b\nla presión efectiva bruta aplicada en la base de cimentación (en kN/m2).\nB\nel ancho de la zapata o losa (en m).\nIc\nel índice de compresibilidad, definido en el párrafo 3 de este apartado en función del va-\nlor medio de golpeo NSPT del ensayo SPT en una zona de influencia (ZI) bajo la zapata o\nlosa, cuya profundidad viene determinada en función del ancho de la cimentación, tal y\ncomo se indica en la Figura F.4.\nfs\nun coeficiente dependiente de las dimensiones de la cimentación directa, supuesta ésta\nrectangular. Su valor viene dado por:\n2\n25\n,0\nB\nL\nB\nL\n·\n25\n,1\ns\nf\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(F.20)\ndonde\nL  es el largo de la zapata o losa (en m)\nFigura F.4. Zona de influencia ZI en función del ancho (B) de la cimentación.\nfl es un factor de corrección que permite considerar la existencia de una capa rígida por debajo de\nla zapata a una profundidad Hs, (Hs  ZI), donde ZI es la profundidad de influencia bajo la zapata,\ndentro de la cual se produce el 75% del asiento, definida en la Figura F.4, su valor viene dado por:\n\n\n\n\n\n\n\n\n\n\nI\nZ\ns\nH\n2\nI\nZ\ns\nH\nIf\n(F.21)\n2\nCuando el terreno se encuentre sobreconsolidado o cuando la cimentación se sitúe en el fondo de\nuna excavación cuya máxima presión efectiva vertical en el fondo haya sido (’vo), el valor de (q’b) a\nintroducir en la ecuación del asiento será:\n'\nb\nq\n0\nv'\ncuando\n0\nv'\n3\n2\n'\nb\nq\n\n\n\n\n(F.22)\n'\nb\n0\nv\n'\nb\nq\n'\ncuando\n3\nq\n\n\n(F.23)\n3\nEl índice de compresibilidad se podrá obtener de la expresión:\n\nDocumento Básico SE-C Cimientos\nSE-C-139\n4\n,1\nmed\nN\n71\n,1\ncI\n\n(F.24)\nsiendo\nNmed\nla media aritmética de los golpeos NSPT a lo largo de la zona de influencia ZI.\nEl índice Ic determinado según la expresión (F.24) representa la media obtenida del estudio es-\ntadístico de más de 200 casos reales. Los índices aproximados correspondientes a la media ± una\ndesviación standard son:\n4\n,1\nmed\nN\n0,3\ncI\n\n\n(F.25)\n4,1\nmed\nN\n94\n,0\ncI\n\n\n(F.26)\n4\nComo reglas complementarias se deben observar las siguientes:\na)\nel método no se considera aplicable para valores NSPT < 7 debiéndose en dicho caso realizar\nun estudio especializado no contemplado en este DB;\nb)\nel golpeo NSPT no se corrige por el efecto de la profundidad;\nc)\nen el caso de que el terreno esté compuesto por arenas finas y arenas limosas bajo el nivel\nfreático, se puede emplear la corrección de Terzaghi para NSPT > 15:\n15)\n(medido)\n0,5(N\n15\n)\n(corregido\nN\nSPT\nSPT\n\n\n\n(F.27)\nF.1.2.3 Suelos granulares con una proporción en peso de partículas de más de 20 mm superior al\n30%\n1\nEn este tipo de suelos los resultados de los ensayos de penetración pueden estar sujetos a in-\ncertidumbres (véase párrafo b del apartado 4.2.3.1), por lo que a los efectos de este DB se reco-\nmienda que la estimación de asientos en estos casos se realice siguiendo formulaciones elásticas.\n2\nEl módulo de deformación a considerar podrá estimarse mediante ensayos de carga con placas de\ndiámetro superior a 6 veces el diámetro máximo de las partículas del suelo o alternativamente me-\ndiante la expresión:\n2\nG\nE\nmax\n\n(F.28)\nsiendo\nGmax\nel módulo de rigidez tangencial máximo del terreno deducido a partir de ensayos cross-\nhole o down-hole.\n3\nEn aquellos casos en los que la importancia del edificio no justifique la realización de estos ensa-\nyos, los cálculos se podrán basar exclusivamente en correlaciones que sean suficientemente con-\nservadoras, véase tabla D.23.\nF.1.2.4 Suelos con un contenido de finos superior al 35%\n1\nEn arcillas normalmente consolidadas o sobreconsolidadas en las que con las presiones aplicadas\npor el edificio se llegue a superar la presión de sobreconsolidación, el planteamiento de una cimen-\ntación directa requerirá un estudio especializado, no contemplado en este DB.\n2\nEn el caso de arcillas sobreconsolidadas en las que con las presiones aplicadas por el edificio no se\nllegue a superar la presión de sobreconsolidación y no se produzcan plastificaciones locales, se po-\ndrán emplear métodos de estimación de asientos basados en la teoría de la Elasticidad. A efectos\nprácticos, se considerará que se cumple esta última condición si la resistencia a compresión simple\nde la arcilla sobreconsolidada es superior a la presión sobre el terreno transmitida por la carga de\nservicio del edificio.\n3\nLos módulos de deformación del terreno en este caso se podrán obtener mediante:\na)\nensayos triaxiales especiales de laboratorio con medida local de deformaciones en la probeta\nde suelo;\n\nDocumento Básico SE-C Cimientos\nSE-C-140\nb)\nensayos presiómetricos en los que no se tenga en cuenta el nivel de deformaciones inducidas\nen el terreno por la construcción;\nc)\nensayos cross-hole o down-hole, aplicando a los valores representativos del módulo de rigidez\ntangencial máximo obtenido en el ensayo (Gmax) los factores correctores (fP) que se indican en\nla tabla F.1 para la estimación del módulo de elasticidad sin drenaje Eu=fPGmax. El asiento total\nen estas circunstancias podrá estimarse mediante la siguiente expresión:\nSt = 2 Si\n(F.29)\nTabla F.1. Estimación del módulo de elasticidad sin drenaje de arcillas sobreconsolidadas a partir de ensa-\nyos cross-hole y down-hole.\nfP\n15<IP < 30\n30 < IP < 50\nIP > 50\n1,2\n1,6\n1,9\nd)\nMétodos empíricos bien establecidos, basados en correlaciones que tengan en cuenta la resis-\ntencia al esfuerzo cortante sin drenaje del suelo, su plasticidad, y su grado de sobreconsolida-\nción. A título orientativo podrán utilizarse los módulos de elasticidad indicados en la tabla F.2\npara estimar el asiento Si en estas arcillas.\nTabla F.2. Estimación del módulo de elasticidad sin drenaje de arcillas sobreconsolidadas.\nRango de sobreconsolidación\nEu/cu\nIP < 30",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "apartado 4.2.3.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0141.png",
+  "../figura/p0142.png",
+  "../figura/p0143.png",
+  "../figura/p0144.png",
+  "../figura/p0145.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

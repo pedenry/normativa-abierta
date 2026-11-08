@@ -1,0 +1,400 @@
+{
+ "documento": null,
+ "pagina": 148,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-143",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    148.9
+   ],
+   "tipo": "texto",
+   "texto": "K\nun coeficiente de proporcionalidad que depende de la geometría del cimiento y del tipo\nde terreno.\nEl valor de K puede tomarse igual a 3,2 en suelos granulares, e igual a 1,5 en suelos cohesivos.\n2\nEl valor de \"pl\" a utilizar en la expresión (F.37) debe ser la media de los valores medios correspon-\ndientes a las zonas activa y pasiva en el entorno de la punta.\n3\nComo resistencia unitaria por fuste se podrá tomar el siguiente valor:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    94.3,
+    163.6,
+    124.7,
+    183.7
+   ],
+   "tipo": "texto",
+   "texto": "f = 10",
+   "tamano": 11.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    116.8,
+    157.0,
+    542.5,
+    175.2
+   ],
+   "tipo": "texto",
+   "texto": "1 · (pl – Ko po)\n(F.38)",
+   "tamano": 11.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    190.8,
+    466.0,
+    204.5
+   ],
+   "tipo": "texto",
+   "texto": "4\nEl valor de f debe limitarse, en función del tipo de terreno, a los siguientes valores:",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    208.5,
+    350.5,
+    222.2
+   ],
+   "tipo": "texto",
+   "texto": "a)\nsuelos granulares\nf (máximo) = 120 kPa",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.6,
+    226.2,
+    350.5,
+    239.9
+   ],
+   "tipo": "texto",
+   "texto": "b)\nsuelos finos\nf (máximo) = 100 kPa",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    261.8,
+    331.1,
+    273.8
+   ],
+   "tipo": "texto",
+   "texto": "F.2.3 Métodos basados en pruebas de carga",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    278.4,
+    541.3,
+    337.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara la utilización de este procedimiento se considera fundamental un conocimiento detallado de la\nestratigrafía del terreno.\n2\nCuando, para el dimensionado de pilotes, se determine la resistencia por punta Rpk o por fuste Rfk\ndel terreno mediante pruebas estáticas de carga in situ hasta rotura podrá adoptarse como valor ca-\nracterístico Rk de cualquiera de esas resistencias el proporcionado por la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    85.3,
+    344.2,
+    542.5,
+    355.7
+   ],
+   "tipo": "texto",
+   "texto": "Rk = Min {Rmedia/1 ; Rmínima/2}\n(F.39)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.6,
+    363.1,
+    125.9,
+    373.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    93.6,
+    377.0,
+    507.0,
+    388.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nel coeficiente aplicable al valor medio de los resultados obtenidos en los ensayos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    93.6,
+    392.2,
+    512.6,
+    403.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nel coeficiente aplicable al valor mínimo de los resultados obtenidos en los ensayos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    407.5,
+    541.3,
+    430.3
+   ],
+   "tipo": "texto",
+   "texto": "3\nLos valores numéricos de los coeficientes 1 y 2 dependen del número de ensayos, n. La tabla F.3\ncontiene dichos valores",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    124.8,
+    433.8,
+    487.1,
+    444.1
+   ],
+   "tipo": "texto",
+   "texto": "Tabla F.3. Valores de los coeficientes 1 y 2 para pruebas de carga in situ de pilotes",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    83.3,
+    451.3,
+    468.9,
+    461.7
+   ],
+   "tipo": "texto",
+   "texto": "n\n1\n2\n3\n4\n5",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    83.3,
+    469.1,
+    476.5,
+    479.3
+   ],
+   "tipo": "texto",
+   "texto": "1\n1,40\n1,30\n1,20\n1,10\n1,00",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    83.3,
+    486.1,
+    476.5,
+    496.5
+   ],
+   "tipo": "texto",
+   "texto": "2\n1,40\n1,20\n1,05\n1,00\n1,00",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    504.5,
+    541.3,
+    548.9
+   ],
+   "tipo": "texto",
+   "texto": "4\nCuando, para el dimensionado de pilotes, se determine la resistencia global del pilote mediante\npruebas dinámicas de hinca, debidamente contrastadas con pruebas estáticas hasta rotura sobre\npilotes del mismo tipo y características geométricas en terrenos con las mismas propiedades geo-\ntécnicas, podrá adoptarse como valor característico Rk el proporcionado por la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    94.3,
+    555.8,
+    542.5,
+    567.2
+   ],
+   "tipo": "texto",
+   "texto": "Rk = Min {Rmedia/3 ; Rmínima/4}\n(F.40)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    93.6,
+    574.7,
+    125.9,
+    584.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    93.6,
+    588.5,
+    504.2,
+    600.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nel coeficiente aplicable al valor medio de los resultados obtenidos en los ensayos",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    93.6,
+    603.8,
+    512.6,
+    615.2
+   ],
+   "tipo": "texto",
+   "texto": "4\nel coeficiente aplicable al valor mínimo de los resultados obtenidos en los ensayos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    70.9,
+    619.0,
+    541.3,
+    641.9
+   ],
+   "tipo": "texto",
+   "texto": "5\nLos valores numéricos de los coeficientes 3 y 4 depende del número de ensayos, n. La tabla F.4.\ncontiene dichos valores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    115.6,
+    645.4,
+    496.3,
+    655.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla F.4. Valores de los coeficientes 3 y 4 para ensayos dinámicos de hinca de pilotes",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 26,
+   "bbox": [
+    108.0,
+    662.9,
+    509.5,
+    673.2
+   ],
+   "tipo": "texto",
+   "texto": "N\n 2\n 5\n 10\n 15\n 20",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 27,
+   "bbox": [
+    107.4,
+    680.6,
+    509.5,
+    691.0
+   ],
+   "tipo": "texto",
+   "texto": "3\n1,60\n1,50\n1,45\n1,42\n1,40",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    107.4,
+    697.7,
+    509.5,
+    708.0
+   ],
+   "tipo": "texto",
+   "texto": "4\n1,50\n1,35\n1,30\n1,25\n1,25",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    70.9,
+    715.4,
+    541.3,
+    752.8
+   ],
+   "tipo": "texto",
+   "texto": "6\nEn función de cómo se realice y controle la prueba de carga, los valores de los coeficientes 3 y 4\nde la tabla F.4 deben multiplicarse por los siguientes factores:\na)\n0,85, cuando el ensayo dinámico de hinca se haga con control de deformación y aceleración;",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

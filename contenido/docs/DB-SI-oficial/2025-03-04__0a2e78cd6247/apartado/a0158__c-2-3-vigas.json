@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0158",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.2.3 Vigas",
+  "titulo": "C.2.3 Vigas",
+  "nivel": 3,
+  "parent_id": "a0154",
+  "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 58,
+   "bbox": [
+    70.9,
+    540.6,
+    141.7,
+    554.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "966ad125e70a8854dd0256a62aa74d48dba728e54bbb18e90647111237128541",
+   "literal": "C.2.3 Vigas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0105",
+  "parent_id_original": "a0154",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.2.3 Vigas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0154",
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.2.3 Vigas",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ecd5fb16fb021dc68d6f25ae6b9427268bd1562e0053dbfe9ddd5313befdad92"
+ },
+ "paginas": [
+  58
+ ],
+ "etiquetas_impresas": [
+  "58"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "C.2.3 Vigas\nPara vigas de sección de ancho variable se considera como anchura mínima b la que existe a la altura\ndel centro de gravedad mecánico de la armadura traccionada en la zona expuesta, según se indica en la\nfigura C.1.\nFigura C.1. Dimensiones equivalentes en caso de ancho variable en el canto",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0058.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0159",
+  "a0160",
+  "a0161",
+  "a0162",
+  "a0163"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0218",
+  "ruta_oficial": "4.5.3",
+  "ruta_semantica": "4.5.3  Cálculo del diámetro nominal del reductor de presión",
+  "titulo": "4.5.3  Cálculo del diámetro nominal del reductor de presión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.5.3  Cálculo del diámetro nominal del reductor de presión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 94,
+   "bbox": [
+    70.9,
+    260.6,
+    358.2,
+    271.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3298e67cb03a31eb891704b4203e4f1cf1457f0e170566a1dd14505ee89ba145",
+   "literal": "4.5.3  Cálculo del diámetro nominal del reductor de presión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.5.3  Cálculo del diámetro nominal del reductor de presión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio / 4.5 Dimensionado de los equipos, elementos y dispositivos de la instalación 4.5.1 Dimensionado de los contadores / 4.5.3  Cálculo del diámetro nominal del reductor de presión",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8d9a184ae30b78c65a4d2535c9858b3a0e33ed7337b2e54b08eef84ba79a65ae"
+ },
+ "paginas": [
+  94
+ ],
+ "etiquetas_impresas": [
+  "94"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.5.3  Cálculo del diámetro nominal del reductor de presión\n1\nEl diámetro nominal se establecerá aplicando los valores especificados en la tabla 4.5 en función\ndel caudal máximo simultáneo:\nTabla 4.5 Valores del diámetro nominal en función del caudal máximo simultáneo\nDiámetro nominal\nCaudal máximo simultáneo\ndm\n3/s\nm\n3/h\n15\n0,5\n1,8\n20\n0,8\n2,9\n25\n1,3\n4,7\n32\n2,0\n7,2\n40\n2,3\n8,3\n50\n3,6\n13,0\n65\n6,5\n23,0\n80\n9,0\n32,0\n100\n12,5\n45,0\n125\n17,5\n63,0\n150\n25,0\n90,0\n200\n40,0\n144,0\n250\n75,0\n270,0\n2\nNunca se calcularán en función del diámetro nominal de las tuberías.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0094_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0094.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

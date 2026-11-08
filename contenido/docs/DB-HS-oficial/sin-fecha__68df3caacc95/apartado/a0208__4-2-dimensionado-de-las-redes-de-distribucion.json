@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0208",
+  "ruta_oficial": "4.2",
+  "ruta_semantica": "4.2 Dimensionado de las redes de distribución",
+  "titulo": "4.2 Dimensionado de las redes de distribución",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2 Dimensionado de las redes de distribución",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 90,
+   "bbox": [
+    70.9,
+    574.0,
+    341.7,
+    587.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9c0968eee0385f866d7096700c27d25027e6e2e4fe8f886eaa1186fe8ccd222a",
+   "literal": "4.2 Dimensionado de las redes de distribución"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2 Dimensionado de las redes de distribución",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio / 4.2 Dimensionado de las redes de distribución",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4374e79cdc2528c1839d5a1b93443d903c38d1a3d017314bede3f8a5bc85acf7"
+ },
+ "paginas": [
+  90
+ ],
+ "etiquetas_impresas": [
+  "90"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.2 Dimensionado de las redes de distribución\n1\nEl cálculo se realizará con un primer dimensionado seleccionando el tramo más desfavorable de la\nmisma y obteniéndose unos diámetros previos que posteriormente habrá que comprobar en función\nde la pérdida de carga que se obtenga con los mismos.\n2\nEste dimensionado se hará siempre teniendo en cuenta las peculiaridades de cada instalación y los\ndiámetros obtenidos serán los mínimos que hagan compatibles el buen funcionamiento y la econo-\nmía de la misma.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0090_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0090.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0209",
+  "a0210"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0281",
+  "ruta_oficial": "5.3",
+  "ruta_semantica": "Fragmento de PDF p125",
+  "titulo": "5.3 Ejecución de bajantes y ventilaciones 5.3.1 Ejecución de las bajantes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p125",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p125",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.3 Ejecución de bajantes y ventilaciones 5.3.1 Ejecución de las bajantes",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "76266d60da58a41ecf0af81d81607cddb658ca1c93dbacda4830366a2be2fdea"
+ },
+ "paginas": [
+  125
+ ],
+ "etiquetas_impresas": [
+  "125"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "5.3 Ejecución de bajantes y ventilaciones 5.3.1 Ejecución de las bajantes\n5.3.1 Ejecución de las bajantes\n1\nLas bajantes se ejecutarán de manera que queden aplomadas y fijadas a la obra, cuyo espesor no\ndebe menor de 12 cm, con elementos de agarre mínimos entre forjados. La fijación se realizará con\nuna abrazadera de fijación en la zona de la embocadura, para que cada tramo de tubo sea autopor-\ntante, y una abrazadera de guiado en las zonas intermedias. La distancia entre abrazaderas debe\nser de 15 veces el diámetro, y podrá tomarse la tabla siguiente como referencia, para tubos de 3 m:\nTabla 5.1\nDiámetro del tubo en mm\n40\n50\n63\n75\n110\n125\n160\nDistancia en m\n0,4\n0,8\n1,0\n1,1\n1,5\n1,5\n1,5\n2\nLas uniones de los tubos y piezas especiales de las bajantes de PVC se sellarán con colas sintéti-\ncas impermeables de gran adherencia dejando una holgura en la copa de 5 mm, aunque también\nse podrá realizar la unión mediante junta elástica.\n3\nEn las bajantes de polipropileno, la unión entre tubería y accesorios, se realizará por soldadura en\nuno de sus extremos y junta deslizante (anillo adaptador) por el otro; montándose la tubería a media\ncarrera de la copa, a fin de poder absorber las dilataciones o contracciones que se produzcan.\n4\nPara los tubos y piezas de gres se realizarán juntas a enchufe y cordón. Se rodeará el cordón con\ncuerda embreada u otro tipo de empaquetadura similar. Se incluirá este extremo en la copa o en-\nchufe, fijando la posición debida y apretando dicha empaquetadura de forma que ocupe la cuarta\nparte de la altura total de la copa. El espacio restante se rellenará con mortero de cemento y arena\nde río en la proporción 1:1. Se retacará este mortero contra la pieza del cordón, en forma de bisel.\n5\nPara las bajantes de fundición, las juntas se realizarán a enchufe y cordón, rellenado el espacio\nlibre entre copa y cordón con una empaquetadura que se retacará hasta que deje una profundidad\nlibre de 25 mm. Así mismo, se podrán realizar juntas por bridas, tanto en tuberías normales como\nen piezas especiales.\n6\nLas bajantes, en cualquier caso, se mantendrán separadas de los paramentos, para, por un lado\npoder efectuar futuras reparaciones o acabados, y por otro lado no afectar a los mismos por las po-\nsibles condensaciones en la cara exterior de las mismas.\n7\nA las bajantes que discurriendo vistas, sea cual sea su material de constitución, se les presuponga\nun cierto riesgo de impacto, se les dotará de la adecuada protección que lo evite en lo posible.\n8\nEn edificios de más de 10 plantas, se interrumpirá la verticalidad de la bajante, con el fin de dismi-\nnuir el posible impacto de caída. La desviación debe preverse con piezas especiales o escudos de\nprotección de la bajante y el ángulo de la desviación con la vertical debe ser superior a 60º, a fin de\nevitar posibles atascos. El reforzamiento se realizará con elementos de poliéster aplicados “in situ”.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0125_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0125.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0282"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

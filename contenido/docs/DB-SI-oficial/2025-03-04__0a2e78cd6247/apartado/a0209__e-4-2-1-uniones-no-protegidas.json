@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0209",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.4.2 Uniones con piezas laterales de madera / E.4.2.1 Uniones no protegidas",
+  "titulo": "E.4.2.1 Uniones no protegidas",
+  "nivel": 4,
+  "parent_id": "a0212",
+  "seccion_estimada": "E.4.2 Uniones con piezas laterales de madera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 79,
+   "bbox": [
+    70.9,
+    363.8,
+    217.5,
+    374.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "b798625fa9043d7db5ba9ea9f4c7f30aca9373d9393fc044e339ccf7fb9dae19",
+   "literal": "E.4.2.1 Uniones no protegidas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0141",
+  "parent_id_original": "a0212",
+  "parent_motivo": "parent_toc_verificado_con_pagina",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.4.2.1 Uniones no protegidas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0212",
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.4 Uniones / E.4.1 Generalidades / E.4.2.1 Uniones no protegidas",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b03b56caa126b616849ee99479b28c715e89a1191a206a4be1730268ac8325e3"
+ },
+ "paginas": [
+  79
+ ],
+ "etiquetas_impresas": [
+  "79"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Documento Básico SI en caso de Incendio",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0079.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-C · 4.3.2.1 Expresión analítica básica</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">DB-SE-C</a> › 4.3.2.1</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">DB-SE-C</a> · 4.3.2.1 Expresión analítica básica · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0075 · PDF pág. 37-38 · documento DB-SE-C · SHA256 a71133f4b0dc…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/apartado/a0075__4-3-2-1-expresion-analitica-basica.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/apartado/a0075__4-3-2-1-expresion-analitica-basica.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">Ámbito del documento</a> · <a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">documento y tablas</a></p>
+<nav><a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__a0074.html">← ID a0074 · PDF pág. 37</a> <a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__a0076.html">ID a0076 · PDF pág. 38-40 →</a></nav>
+<h1><span class="aviso">ID a0075 · PDF pág. 37-38</span> — 4.3.2.1 Expresión analítica básica</h1>
+<p>ID técnico a0075 · PDF pág. 37-38 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 37 (candidato tipográfico); no validado por persona · padre: a0074</p>
+<pre class="literal">4.3.2.1 Expresión analítica básica
+1
+La presión de hundimiento de una cimentación directa vendrá definida por la ecuación (4.8). Podrá
+expresarse en presiones totales o efectivas, brutas o netas.
+
+
+
+
+
+
+
+
+
+t
+i
+s
+d
+N
+*
+B
+2
+1
+t
+i
+s
+d
+N
+q
+t
+i
+s
+d
+N
+c
+q
+K
+q
+q
+q
+q
+q
+K
+0
+c
+c
+c
+c
+c
+K
+h
+(4.8)
+siendo
+qh
+la presión vertical de hundimiento o resistencia característica del terreno Rk;
+q0K
+la presión vertical característica alrededor del cimiento al nivel de su base;
+cK
+el valor característico de la cohesión del terreno;
+B*
+el ancho equivalente del cimiento;
+K
+el peso específico característico del terreno por debajo de la base del cimiento;
+Nc, Nq, N los factores de capacidad de carga. Son adimensionales y dependen exclusivamente del
+valor característico del ángulo de rozamiento interno característico del terreno (k). Se
+denominan respectivamente factor de cohesión, de sobrecarga y de peso específico;
+dc, dq, d
+los coeficientes correctores de influencia para considerar la resistencia al corte del te-
+rreno situado por encima y alrededor de la base del cimiento. Se denominan factores de
+profundidad;
+sc, sq, s
+los coeficientes correctores de influencia para considerar la forma en planta del cimiento;
+ic, iq, i
+los coeficientes correctores de influencia para considerar el efecto de la inclinación de la
+resultante de las acciones con respecto a la vertical;
+tc, tq, t
+los coeficientes correctores de influencia para considerar la proximidad del cimiento a un
+talud.
+2
+Los parámetros característicos de la resistencia al corte del terreno (ck, k) deben ser representati-
+vos, para cada situación de dimensionado, de la resistencia del terreno en una profundidad com-
+prendida, al menos, entre vez y vez y media el ancho real de la cimentación (B), a contar desde la
+base de ésta.
+3
+La expresión (4.8) se podrá ampliar con factores de influencia adicionales para tener en cuenta la
+existencia de una capa rígida a escasa profundidad bajo la cimentación, la inclinación de la base de
+la zapata, etc. Los factores a emplear en estos casos deben encontrarse suficientemente justifica-
+dos y documentados, y se ajustarán a los criterios comúnmente aceptados en Mecánica del Suelo.
+4
+El desarrollo de los coeficientes correctores de influencia figura en el Anejo F
+5
+A efectos prácticos, si el terreno es uniforme (de peso específico aparente aproximado ’ = 18
+kN/m3) y si la cimentación se encuentra por encima del nivel freático, sobre terreno horizontal, se
+
+Documento Básico SE-C Cimientos
+SE-C-33
+podrán tomar los valores de la presión de hundimiento (qh) que figuran en la tabla 4.3, válidos para
+zapatas rectangulares de ancho equivalente comprendido entre 1 y 3 m.
+Tabla 4.3. Presiones de hundimiento para zapatas 1≤ B* ≤3, (kN/m2)
+B* / L* = 1
+B* / L* = 0,5
+B* / L* = 0,25
+B* / L* = 0
+D (m)
+D (m)
+D (m)
+D (m)
+
+(º)
+ck
+(kN/m2)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0º
+50
+310
+385
+450
+280
+355
+420
+270
+340
+400
+255
+325
+385
+100
+615
+750
+860
+565
+690
+790
+540
+660
+755
+515
+630
+720
+150
+925
+1120
+1265
+850
+1025
+1160
+810
+980
+1110
+770
+935
+1060
+15º
+10
+145
+255
+375
+140
+245
+360
+135
+240
+355
+130
+235
+350
+20
+280
+410
+545
+260
+390
+520
+250
+375
+510
+240
+365
+495
+20º
+10
+215
+385
+570
+210
+375
+560
+205
+370
+555
+200
+365
+550
+20
+395
+595
+805
+370
+570
+775
+360
+555
+760
+350
+540
+745
+25º
+10
+335
+605
+915
+330
+600
+905
+330
+595
+900
+330
+595
+895
+20
+580
+900
+1240
+560
+870
+1205
+550
+855
+1185
+535
+840
+1165
+30º
+0
+190
+580
+1055
+230
+620
+1095
+250
+640
+1115
+270
+660
+1135
+10
+550
+1010
+1530
+560
+1015
+1530
+565
+1015
+1530
+570
+1020
+1530
+35º
+0
+425
+1135
+1990
+520
+1225
+2085
+565
+1270
+2130
+610
+1320
+2175
+siendo
+D
+la profundidad definida en el Anejo F</pre>
+<h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0037.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0037.png" alt="Página 37"></a><figcaption>Página visual 37 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0038.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0038.png" alt="Página 38"></a><figcaption>Página visual 38 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

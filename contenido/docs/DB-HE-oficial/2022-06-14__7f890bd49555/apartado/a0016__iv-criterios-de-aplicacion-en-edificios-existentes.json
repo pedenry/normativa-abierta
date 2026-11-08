@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0016",
+  "ruta_oficial": null,
+  "ruta_semantica": "IV Criterios de aplicación en edificios existentes",
+  "titulo": "IV Criterios de aplicación en edificios existentes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "IV Criterios de aplicación en edificios existentes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 5,
+   "bbox": [
+    70.9,
+    73.6,
+    392.5,
+    89.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "749a2b02d110d4916ae129d5f61ebeeba7058b580d954a7c33c7a2a1dfed6b4c",
+   "literal": "IV Criterios de aplicación en edificios existentes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "IV Criterios de aplicación en edificios existentes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 Junio 2022 / 15.7. Exigencia básica HE 6: Dotaciones mínimas para la infraestructura de recarga de vehículos / IV Criterios de aplicación en edificios existentes",
+   "seccion_estimada": "14 Junio 2022",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1c8893f23b15f6058b8b2d911414c449483c95912d2e53521ebc9c77173f3df8"
+ },
+ "paginas": [
+  5
+ ],
+ "etiquetas_impresas": [
+  "5"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "IV Criterios de aplicación en edificios existentes\nCriterio 1: no empeoramiento\nSalvo en los casos en los que un DB establezca un criterio distinto, las condiciones preexistentes que\nsean menos exigentes que las establecidas en algún DB no se podrán reducir, y las que sean más\nexigentes únicamente podrán reducirse hasta el nivel establecido en el correspondiente DB.\nCriterio 2: flexibilidad\nEn los casos en los que no sea posible alcanzar el nivel de prestación establecido con carácter general en\neste DB, podrán adoptarse soluciones que permitan el mayor grado de adecuación posible,\ndeterminándose el mismo, siempre que se dé alguno de los siguientes casos:\na)\nen edificios con valor histórico o arquitectónico reconocido, cuando otras soluciones pudiesen\nalterar de manera inaceptable su carácter o aspecto, o;\nb)\nla aplicación de otras soluciones no suponga una mejora efectiva en las prestaciones\nrelacionadas con el requisito básico de “Ahorro de energía”, o;\nc)\notras soluciones no sean técnica o económicamente viables, o;\nd)\notras soluciones impliquen cambios sustanciales en elementos de la envolvente térmica o en\nlas instalaciones de generación térmica sobre los que no se fuera a actuar inicialmente.\nEn el proyecto debe justificarse el motivo de la aplicación de este criterio de flexibilidad. En la\ndocumentación final de la obra debe quedar constancia del nivel de prestación alcanzado y los\ncondicionantes de uso y mantenimiento, si existen.\nCriterio 3: reparación de daños\nLos elementos de la parte existente no afectados por ninguna de las condiciones establecidas en este DB,\npodrán conservarse en su estado actual siempre que no presente, antes de la intervención, daños que\nhayan mermado de forma significativa sus prestaciones iniciales. Si el edificio presenta daños relacionados\ncon el requisito básico de “Ahorro de energía”, la intervención deberá contemplar medidas específicas para\nsu resolución.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": null,
+   "titulo": "VI Términos y definiciones",
+   "archivo_json": "a0018__vi-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0005.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

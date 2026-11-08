@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0117",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo D. Determinación del factor  a media altura de un muro.",
+  "titulo": "Anejo D. Determinación del factor  a media altura de un muro.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo D. Determinación del factor  a media altura de un muro.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 61,
+   "bbox": [
+    70.9,
+    92.9,
+    496.3,
+    109.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "8dfff29e0da76f1dd419ee4e3bde9bf1b18d3cc073f29045972942fb3c19f4b9",
+   "literal": "Anejo D. Determinación del factor  a media altura de un muro."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0124",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo D. Determinación del factor  a media altura de un muro.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D. Determinación del factor  a media altura de un muro.",
+   "seccion_estimada": "Anejo D. Determinación del factor  a media altura de un muro.",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6875b042ad223c8312f0023266a141257c6739d12c2b01c1d15a4cc71c40109b"
+ },
+ "paginas": [
+  61,
+  63
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo D. Determinación del factor  a media altura de un muro.\n1\nEl valor del coeficiente , a media altura de un muro se obtiene a partir de la expresión:\n2\nu\n1\n2\ne\nA\n\n\n\n(D.1)\ndonde:\nt\ne\n2\n1\nA\nm\n\n\n(D.2)\nt\ne\n17\n,1\n73\n,0\n063\n,0\nu\nm\n\n\n\n\n(D.3)\ndonde\nE\nf\nt\nh\nk\nd\nd\n\n\n(D.4)\nsiendo:\ne\nbase de los logaritmos neperianos\nem\nexcentricidad por pandeo/fluencia, según 5.2.4,\nt\nespesor del muro,\nhd\naltura eficaz del muro, según 5.2.5,\ntd\nespesor eficaz del muro, según 5.2.6,\nfk\nresistencia característica de la fábrica,\nE\nmódulo de elasticidad de la fábrica.\n\nDocumento Básico SE-F Fábrica\nSE-F-59",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0061.png",
+  "../figura/p0063.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

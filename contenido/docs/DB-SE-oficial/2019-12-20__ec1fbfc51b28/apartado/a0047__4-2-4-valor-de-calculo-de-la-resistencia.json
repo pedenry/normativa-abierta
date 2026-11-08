@@ -1,0 +1,97 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0047",
+  "ruta_oficial": "4.2.4",
+  "ruta_semantica": "4.2.4 Valor de cálculo de la resistencia",
+  "titulo": "4.2.4 Valor de cálculo de la resistencia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2.4 Valor de cálculo de la resistencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 16,
+   "bbox": [
+    70.9,
+    429.8,
+    256.0,
+    439.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6f12e9f0c71ac192c6c4d63fffd7c133ec75448ed3134f40c503a0bb110f9f62",
+   "literal": "4.2.4 Valor de cálculo de la resistencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0047",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE-AE",
+   "DB-SE-C"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2.4 Valor de cálculo de la resistencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / sección, punto o de una unión entre elementos, si para todas las situaciones de dimensionado per- / 4.2.4 Valor de cálculo de la resistencia",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "92774edcecceafe2d571e3c9f42f78b7ac4e79b44eeb7b214d211efb97b2a81e"
+ },
+ "paginas": [
+  16,
+  17
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.2.4 Valor de cálculo de la resistencia\n1\nEl valor de cálculo de la resistencia de una estructura, elemento, sección punto o unión entre ele-\nmentos se obtiene de cálculos basados en sus características geométricas a partir de modelos de\ncomportamiento del efecto analizado, y de la resistencia de cálculo, fd, de los materiales implicados,\nque en general puede expresarse como cociente entre la resistencia característica, fk, y el coeficien-\nte de seguridad del material.\n2\nPor lo que respecta al material o materiales implicados, la resistencia de cálculo puede asimismo\nexpresarse como función del valor medio del factor de conversión de la propiedad implicada, deter-\nminada experimentalmente, para tener en cuenta las diferencias entre las condiciones de los ensa-\nyos y el comportamiento real, y del coeficiente parcial para dicha propiedad del material.\n3\nEn su formulación más general, la resistencia de cálculo puede expresarse en función de las varia-\nbles antedichas, y el coeficiente parcial para el modelo de resistencia y las desviaciones geométri-\ncas, en el caso de que estas no se tengan en cuenta explícitamente.\n\nDocumento Básico SE Seguridad Estructural\nSE - 11\nTabla 4.1 Coeficientes parciales de seguridad () para las acciones\nTipo de verificación (1)\nTipo de acción\nSituación persistente o transitoria\ndesfavorable\nfavorable\nResistencia\nPermanente\nPeso propio, peso del terreno\n\n1,35\n\n0,80\nEmpuje del terreno\n1,35\n0,70\nPresión del agua\n1,20\n0,90\nVariable\n1,50\n0\nEstabilidad\ndesestabilizadora\nestabilizadora\nPermanente\nPeso propio, peso del terreno\n\n1,10\n\n0,90\nEmpuje del terreno\n1,35\n0,80\nPresión del agua\n1,05\n0,95\nVariable\n1,50\n0\n(1)Los coeficientes correspondientes a la verificación de la resistencia del terreno se establecen en el DB-SE-C\nTabla 4.2 Coeficientes de simultaneidad (\n0\n1\n2\nSobrecarga superficial de uso (Categorías según DB-SE-AE)\n\n\n\nZonas residenciales (Categoría A)\n0,7\n0,5\n0,3\n\nZonas administrativas(Categoría B)\n0,7\n0,5\n0,3\n\nZonas destinadas al público (Categoría C)\n0,7\n0,7\n0,6\n\nZonas comerciales (Categoría D)\n0,7\n0,7\n0,6\n\nZonas de tráfico y de aparcamiento de vehículos ligeros con un peso total\ninferior a 30 kN (Categoría E)\n0,7\n0,7\n0,6\n\nCubiertas transitables (Categoría F)\n(1)\n\nCubiertas accesibles únicamente para mantenimiento (Categoría G)\n\n\n\nNieve\n\n\n\n\npara altitudes > 1000 m\n0,7\n0,5\n0,2\n\npara altitudes ≤ 1000 m\n0,5\n0,2\n0\nViento\n0,6\n0,5\n0\nTemperatura\n0,6\n0,5\n0\nAcciones variables del terreno\n0,7\n0,7\n0,7\n(1) En las cubiertas transitables, se adoptarán los valores correspondientes al uso desde el que se accede.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE-AE",
+  "DB-SE-C"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0017_t01.json",
+  "../tabla/p0017_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

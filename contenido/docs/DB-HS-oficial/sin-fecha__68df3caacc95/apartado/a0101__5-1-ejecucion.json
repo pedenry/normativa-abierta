@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0101",
+  "ruta_oficial": "5.1",
+  "ruta_semantica": "5.1 Ejecución",
+  "titulo": "5.1 Ejecución",
+  "nivel": 1,
+  "parent_id": "a0100",
+  "seccion_estimada": "5.1 Ejecución",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 40,
+   "bbox": [
+    70.9,
+    723.6,
+    159.3,
+    737.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9306cb525f531d185e2e9abd867118b06df10d0648bf3a7f609be00099dd1741",
+   "literal": "5.1 Ejecución"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0100",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1 Ejecución",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0100",
+   "ruta_semantica": "5 Construcción / 5.1 Ejecución",
+   "seccion_estimada": "5 Construcción",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "abb9725dd0dd6ec88f61b7530d65e5493bbe4d13559b67ab5d6b43ada8ee5640"
+ },
+ "paginas": [
+  40,
+  41
+ ],
+ "etiquetas_impresas": [
+  "40",
+  "41"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.1 Ejecución\n1\nLas obras de construcción del edificio, en relación con esta sección, se ejecutarán con sujeción al\nproyecto, a la legislación aplicable, a las normas de la buena práctica constructiva y a las instruc-\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n41\nciones del director de obra y del director de la ejecución de la obra, conforme a lo indicado en el ar-\ntículo 7 de la parte I del CTE. En el pliego de condiciones se indicarán las condiciones de ejecución\nde los cerramientos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0102",
+  "a0110",
+  "a0111",
+  "a0112"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

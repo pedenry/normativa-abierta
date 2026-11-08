@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0255",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p111",
+  "titulo": "Diseño 3.1 Condiciones generales de la evacuación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p111",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p111",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 1.2 Procedimiento de verificación / Diseño 3.1 Condiciones generales de la evacuación",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c3d09aa572d5f781f0d377fe8575c60c1d808b94d3edccdf89b95815193875db"
+ },
+ "paginas": [
+  111,
+  112
+ ],
+ "etiquetas_impresas": [
+  "111",
+  "112"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Diseño 3.1 Condiciones generales de la evacuación\n3.1 Condiciones generales de la evacuación\n1\nLos colectores del edificio deben desaguar, preferentemente por gravedad, en el pozo o arqueta\ngeneral que constituye el punto de conexión entre la instalación de evacuación y la red de alcantari-\nllado público, a través de la correspondiente acometida.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n112\n2\nCuando no exista red de alcantarillado público, deben utilizarse sistemas individualizados separa-\ndos, uno de evacuación de aguas residuales dotado de una estación depuradora particular y otro de\nevacuación de aguas pluviales al terreno.\n3\nLos residuos agresivos industriales requieren un tratamiento previo al vertido a la red de alcantari-\nllado o sistema de depuración.\n4\nLos residuos procedentes de cualquier actividad profesional ejercida en el interior de las viviendas\ndistintos de los domésticos, requieren un tratamiento previo mediante dispositivos tales como depó-\nsitos de decantación, separadores o depósitos de neutralización.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0111.png",
+  "../figura/p0112.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

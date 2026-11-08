@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0099",
+  "ruta_oficial": "7.2.2.5",
+  "ruta_semantica": "7.2.2.5 Verificación",
+  "titulo": "7.2.2.5 Verificación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.2.2.5 Verificación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 58,
+   "bbox": [
+    74.1,
+    719.9,
+    167.0,
+    731.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0b63a7ca89715550427555e70e4e03c19bb6215032c613bee774f975140d1e1e",
+   "literal": "7.2.2.5 Verificación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0097",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 7.2.2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.2.2.5 Verificación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Estados límite de servicio / 7.2 Vibraciones 7.2.1 Generalidades / 7.2.2 Vibraciones transitorias en forjados 7.2.2.1 Percepción humana / 7.2.2.5 Verificación",
+   "seccion_estimada": "7 Estados límite de servicio",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5d0b8949d6219207d68d3dd72646446e03d5c24e0c190616230f8701e5a6a82e"
+ },
+ "paginas": [
+  58,
+  59
+ ],
+ "etiquetas_impresas": [
+  "58",
+  "59"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "7.2.2.5 Verificación\n1\nLa verificación, desde el punto de vista de la percepción humana, del comportamiento frente a las\nvibraciones transitorias de los forjados en edificios de viviendas, oficinas, escolares o comerciales\n\nDocumentoBásico SE-A Acero\nSE-A-57\nse realizará mediante la figura 7.1.La frecuencia propia del primer modo de vibración del forjado se\ndeterminará de acuerdo con el apartado 7.2.2.2. La aceleración máxima de las vibraciones se es-\ntimará de acuerdo con los apartados 7.2.2.3 y se representará como porcentaje de la aceleración\ng=9,81 m/s2.\n2\nEl forjado analizado se puede representar en el diagrama de la figura 7.1 mediante un punto, defi-\nnido por la frecuencia propia de su primer modo de vibración, así como la aceleración máxima ini-\ncial de la vibración, normalizada con g. En caso de que este punto esté por debajo del límite de\naceptación apropiado, que depende del porcentaje de amortiguamiento disponible, el forjado se\npodrá considerar apto para el servicio desde el punto de vista de las vibraciones transitorias.\n3\nA efectos de la verificación, se pueden distinguir entre los siguientes dos casos:\n-\nDeterminación, mediante interpolación del porcentaje de amortiguamiento requerido para que\nla aceleración máxima de la vibración no sobrepase el límite de aceptación.\n-\nEn caso de que se conozca el porcentaje de amortiguamiento disponible, determinación de la\naceleración máxima admisible sin superar el límite de aceptación. Este deberá ser superior a\nla aceleración máxima de la vibración del forjado",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 7.2.2.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0058.png",
+  "../figura/p0059.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE · C.3 Criterios para el fallo estructural</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">DB-SE</a> › a0064</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">DB-SE</a> · C.3 Criterios para el fallo estructural · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0064 · PDF pág. 29-31 · documento DB-SE · SHA256 ec1fbfc51b28…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/apartado/a0064__c-3-criterios-para-el-fallo-estructural.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/apartado/a0064__c-3-criterios-para-el-fallo-estructural.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">Ámbito del documento</a> · <a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">documento y tablas</a></p>
+<nav><a href="db-se-oficial-2019-12-20-ec1fbfc51b28__a0063.html">← ID a0063 · PDF pág. 27-29</a> <a href="db-se-oficial-2019-12-20-ec1fbfc51b28__a0065.html">ID a0065 · PDF pág. 31-32 →</a></nav>
+<h1><span class="aviso">ID a0064 · PDF pág. 29-31</span> — C.3 Criterios para el fallo estructural</h1>
+<p>ID técnico a0064 · PDF pág. 29-31 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 29 (candidato tipográfico); no validado por persona · padre: raíz</p>
+<pre class="literal">C.3 Criterios para el fallo estructural
+C.3.1 Estados límite últimos
+1
+Se supone que el criterio de fallo de una estructura o de un elemento estructural se rige según una
+función g(X) de las variables básicas X, de manera que:
+a)
+Para el estado deseado
+g(X) &gt; 0
+(C.1a)
+b)
+Para el estado límite
+g(X) = 0
+(C.1b)
+c)
+Para el estado no deseado
+g(X) &lt; 0
+(C.1c)
+Figura C.1 Representación de la función g(X) para el caso con dos variables básicas X1 y X2; X= (X1,
+X2)
+2
+Las variables básicas X pueden depender del tiempo (por ejemplo las acciones ambientales extre-
+mas pueden variar con el tiempo, los materiales constitutivos pueden estar afectados por mecanis-
+mos de deterioro en función del tiempo, la resistencia puede disminuir con el tiempo debido a pro-
+cesos de fatiga).
+En general, algunas de las variables de X se deben representar mediante procesos estocásticos.
+En particular, la variabilidad con el tiempo significa que los máximos y mínimos de las variables de
+X no se producen al mismo tiempo.
+La dependencia del tiempo implica que la probabilidad de fallo está asociada con un periodo de re-
+ferencia elegido, t0.
+3
+El fallo de una estructura o de un elemento estructural se asocia con su transición de un estado
+deseado a un estado no deseado. Para la mayoría de los estados límite últimos, la probabilidad de
+fallo se puede representar a través de la relación:
+Pf = [g(X) &lt; 0]
+(C.2)
+La probabilidad de que no exista fallo de una estructura o de un elemento estructural (probabilidad
+de supervivencia, Ps, o fiabilidad) es el complemento de la probabilidad de fallo:
+Ps = 1 - Pf
+(C.3)
+4
+Si se analiza la fiabilidad de un elemento estructural o de una sección transversal con respecto a un
+determinado mecanismo de fallo y una determinada combinación de acciones e influencias, la fun-
+ción g(X) se puede describir, normalmente, a través de una expresión única derivada del compor-
+tamiento mecánico. En estos casos, el análisis se puede considerar como un análisis de un elemen-
+to (en este contexto, elemento se emplea desde el punto de vista probabilista de la palabra).
+5
+En los casos en los que se contemple más de un mecanismo de fallo para un elemento estructural,
+o si se estudian simultáneamente varios elementos estructurales, la función g(X) puede considerar-
+se como una función compuesta por varias funciones g1(X), g2(X)... .
+
+Documento Básico SE Seguridad Estructural
+SE - 24
+Un análisis que tenga en cuenta simultáneamente varias condiciones gi(X) &lt; 0 se denomina análisis
+de un sistema. La definición de la función g(X) depende fuertemente de las características del sis-
+tema (sistemas en los que el fallo de una sección conduce al fallo total; sistemas redundantes; sis-
+temas con un comportamiento combinado).
+Figura C.2 Dominios de fallo para un ejemplo con dos funciones g1(X1, X2) y g2(X1, X2) con dos varia-
+bles básicas X1 y X2. a) Fallo del sistema producido por el de una sección; b) Fallo de un sistema re-
+dundante
+6
+En una aplicación directa de los métodos probabilistas explícitos se debe demostrar que en el pe-
+riodo de referencia, t0, la probabilidad de fallo de la estructura o del elemento estructural, Pf, no su-
+pera la probabilidad de fallo admisible, Pf,0
+0
+,f
+f
+P
+P
+
+(C.4)
+C.3.2 Estados límite de servicio
+1
+Para algunos estados límite de servicio, la transición de un estado deseado a un estado no desea-
+do corresponde a un límite que puede estar acotado al estar asociado con una realidad mecánica.
+Para otros estados límite de servicio, sin embargo, esta transición se produce en condiciones poco
+acotadas y difusas. En estos casos, la transición está relacionada con una disminución más o me-
+nos rápida del grado de la aptitud al servicio.
+2
+En términos generales, se puede definir un grado de la aptitud al servicio, , en función de un pará-
+metro relacionado con el comportamiento en servicio,  (por ejemplo la deformación de una viga, la
+intensidad de las vibraciones de un forjado)
+0 ≤ () ≤ 1
+(C.5)
+Para el parámetro  se pueden establecer dos límites
+a)
+1: la obra se puede usar sin restricciones
+b)
+2: la obra no se puede usar.
+Figura C.3 Grado de la aptitud al servicio, μ, en función del parámetro de servicio, 
+
+Documento Básico SE Seguridad Estructural
+SE - 25
+3
+En algunos casos, a efectos de una optimización económica, el grado de la aptitud al servicio se
+puede expresar en términos económicos.</pre>
+<h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0029.png"><img class="figura" src="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0029.png" alt="Página 29"></a><figcaption>Página visual 29 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0030.png"><img class="figura" src="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0030.png" alt="Página 30"></a><figcaption>Página visual 30 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0031.png"><img class="figura" src="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0031.png" alt="Página 31"></a><figcaption>Página visual 31 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

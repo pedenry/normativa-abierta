@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0103",
+  "ruta_oficial": "8.1.1",
+  "ruta_semantica": "8.1.1 Piezas",
+  "titulo": "8.1.1 Piezas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.1.1 Piezas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 47,
+   "bbox": [
+    70.9,
+    170.2,
+    132.6,
+    180.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2889c1c70ed515ba19349be3e7eb48713bae2e19ff8c49713eacdc0fd37254e7",
+   "literal": "8.1.1 Piezas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0111",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "EN 772",
+   "UNE EN",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.1.1 Piezas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Control de la ejecución 8.1 Recepción de materiales / 8.1.1 Piezas",
+   "seccion_estimada": "8 Control de la ejecución 8.1 Recepción de materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "38b453c378aa9f26439c821081bf3075394503fa4a336d04ef665961fef9218b"
+ },
+ "paginas": [
+  47
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.1.1 Piezas\n1\nLas piezas se suministrarán a obra con una declaración del suministrador sobre su resistencia y la\ncategoría de fabricación.\n2\nPara bloques de piedra natural se confirmará la procedencia y las características especificadas en el\nproyecto, constatando que la piedra esta sana y no presenta fracturas.\n3\nLas piezas de categoría I tendrán una resistencia declarada, con probabilidad de no ser alcanzada\ninferior al 5%. El fabricante aportará la documentación que acredita que el valor declarado de la re-\nsistencia a compresión se ha obtenido a partir de piezas muestreadas según UNE EN 771 y ensaya-\ndas según UNE-EN 772-1:2011+A1:2016, y la existencia de un plan de control de producción en\nfábrica que garantiza el nivel de confianza citado.\n4\nLas piezas de categoría II tendrán una resistencia a compresión declarada igual al valor medio obte-\nnido en ensayos con la norma antedicha, si bien el nivel de confianza puede resultar inferior al 95%.\n5\nEl valor medio de la compresión declarada por el suministrador, multiplicado por el factor  de la tabla\n8.1 debe ser no inferior al valor usado en los cálculos como resistencia normalizada. Si se trata de\npiezas de categoría I, en las cuales el valor declarado es el característico, se convertirá en el medio,\nutilizando el coeficiente de variación y se procederá análogamente.\nTabla 8.1 Valores del factor \nAltura de pieza (mm)\nMenor dimensión horizontal de la pieza (mm)\n50\n100\n150\n200\n≥250\n50\n0,85\n0,75\n0,70\n–\n–\n65\n0,95\n0,85\n0,75\n0,70\n0,65\n100\n1,15\n1,00\n0,90\n0,80\n0,75\n150\n1,30\n1,20\n1,10\n1,00\n0,95\n200\n1,45\n1,35\n1,25\n1,15\n1,10\n≥250\n1,55\n1,45\n1,35\n1,25\n1,15\n6\nCuando en proyecto se haya especificado directamente el valor de la resistencia normalizada con\nesfuerzo paralelo a la tabla, en el sentido longitudinal o en el transversal, se exigirá al fabricante, a\ntravés en su caso, del suministrador, el valor declarado obtenido mediante ensayos, procediéndose\nsegún los puntos anteriores.\n7\nSi no existe valor declarado por el fabricante para el valor de resistencia a compresión en la dirección\nde esfuerzo aplicado, se tomarán muestras en obra según UNE EN 771 y se ensayarán según UNE-\nEN 772-1:2011+A1:2016, aplicando el esfuerzo en la dirección correspondiente. El valor medio obte-\nnido se multiplicará por el valor  de la tabla 8.1, no superior a 1,00 y se comprobará que el resultado\nobtenido es mayor o igual que el valor de la resistencia normalizada especificada en el proyecto.\n8\nSi la resistencia a compresión de un tipo de piezas con forma especial tiene influencia predominante\nen la resistencia de la fábrica, su resistencia se podrá determinar con la última norma citada.\n9\nEl acopio en obra se efectuará evitando el contacto con sustancias o ambientes que perjudiquen\nfísica o químicamente a la materia de las piezas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "EN 772",
+  "UNE EN",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0047.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

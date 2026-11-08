@@ -1,0 +1,155 @@
+{
+ "documento": null,
+ "pagina": 49,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-44",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    119.9
+   ],
+   "tipo": "texto",
+   "texto": "b)\npilotes hormigonados “in situ”: son aquellos que se ejecutan en excavaciones previas realiza-\ndas en el terreno.\n2\nTambién podrán ejecutarse pilotes de carácter intermedio entre los dos anteriores, tales como los\nhincados en preexcavaciones parciales de menor longitud y mayor diámetro que el pilote.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    131.4,
+    263.9,
+    141.4
+   ],
+   "tipo": "texto",
+   "texto": "5.1.2.2.4 Pilotes prefabricados hincados",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    147.0,
+    541.3,
+    266.4
+   ],
+   "tipo": "texto",
+   "texto": "Las formas de hincar pilotes pueden ser diferentes según se use vibración o se emplee, como suele\nser más frecuente, la hinca o percusión con golpes de maza. A efectos de este DB se considerará\nel pilote prefabricado hincado de directriz recta cuya profundidad de hinca sea mayor a 8 veces su\ndiámetro equivalente.\n3\nLos pilotes hincados podrán estar constituidos por un único tramo, o por la unión de varios tramos,\nmediante las correspondientes juntas, debiéndose, en estos casos, considerar que la resistencia a\nflexión, compresión y tracción del pilote nunca será superior a la de las juntas que unan sus tramos.\n4\nLos pilotes prefabricados hincados se podrán construir aislados siempre que se realice un arrios-\ntramiento en dos direcciones ortogonales y que se demuestre que los momentos resultantes en di-\nchas direcciones son nulos o bien absorbidos por la armadura del pilote o por las vigas riostras.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    277.9,
+    262.6,
+    287.9
+   ],
+   "tipo": "texto",
+   "texto": "5.1.2.2.5 Pilotes hormigonados “in situ”",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    293.4,
+    541.3,
+    513.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nA efectos de este DB se diferencian los siguientes tipos: pilotes de desplazamiento con azuche,\npilotes de desplazamiento con tapón de gravas, pilotes de extracción con entubación recuperable,\npilotes de extracción con camisa perdida, pilotes de extracción sin entubación con lodos tixotrópi-\ncos, pilotes barrenados sin entubación, pilotes barrenados, hormigonados por el tubo central de la\nbarrena y pilotes de desplazamiento por rotación.\n2\nPara los pilotes hormigonados “in situ” se tendrán en cuenta las siguientes consideraciones:\na)\ndiámetro < 0,45 m: no se deben ejecutar pilotes aislados, salvo en elementos de poca respon-\nsabilidad en los que un posible fallo del elemento de cimentación no tenga una repercusión\nsignificativa;\nb)\n0,45 m < diámetro < 1,00 m; se podrán realizar pilotes aislados siempre que se realice un\narriostramiento en dos direcciones ortogonales y se asegure la integridad del pilote en toda su\nlongitud de acuerdo con los métodos de control recogidos en el apartado 5.4;\nc)\ndiámetro > 1,00 m; se podrán realizar pilotes aislados sin necesidad de arriostramiento siem-\npre y cuando se asegure la integridad del pilote en toda su longitud de acuerdo con los méto-\ndos de control recogidos en el apartado 5.4 y el pilote se arme para las excentricidades permi-\ntidas y momentos resultantes.\n3\nPara la selección del tipo de pilote se tendrán en cuenta las indicaciones recogidas en el apartado\n5.4.1.1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    535.7,
+    362.4,
+    547.7
+   ],
+   "tipo": "titulo",
+   "texto": "5.1.3 Configuración geométrica de la cimentación",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    552.4,
+    541.3,
+    697.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn el proyecto, la disposición geométrica de una cimentación por pilotes se realizará tanteando\ndiferentes disposiciones de pilotes hasta alcanzar una situación óptima. Cuando se trate de analizar\nuna situación ya existente, será imprescindible conocer los datos geométricos de la disposición de\nlos pilotes.\n2\nLos datos geométricos de mayor interés para analizar el comportamiento de un pilote aislado son la\nlongitud dentro del terreno y su diámetro, o la ley de variación de su diámetro si es que éste no fue-\nra constante.\n3\nEn los grupos de pilotes será necesario tener en cuenta además su distribución geométrica, en\nparticular, su separación. (véase Figura 5.2).\n4\nDe cada pilote se debe conocer su sección transversal y su ubicación dentro del encepado. Nor-\nmalmente, los pilotes serán de igual longitud; en caso contrario, habrá de considerarse en los cálcu-\nlos de detalle.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    711.7,
+    259.6,
+    725.7
+   ],
+   "tipo": "titulo",
+   "texto": "5.2\nAcciones a considerar",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    730.4,
+    541.3,
+    763.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nAdemás de las acciones de la estructura sobre la cimentación se tendrá en cuenta que los pilotes\npuedan estar sometidos a efectos “parásitos” inducidos por acciones derivadas por el movimiento\ndel propio terreno de cimentación.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,94 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0119",
+  "ruta_oficial": null,
+  "ruta_semantica": "H.1 Aislamiento acústico a ruido aéreo",
+  "titulo": "H.1 Aislamiento acústico a ruido aéreo",
+  "nivel": 1,
+  "parent_id": "a0118",
+  "seccion_estimada": "H.1 Aislamiento acústico a ruido aéreo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 69,
+   "bbox": [
+    70.9,
+    149.6,
+    308.8,
+    163.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "66d50742b85e93878d5d4a09615a417affab466b58ca1acc60df07b938ab5a17",
+   "literal": "H.1 Aislamiento acústico a ruido aéreo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0118",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE EN",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "H.1 Aislamiento acústico a ruido aéreo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0118",
+   "ruta_semantica": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias / H.1 Aislamiento acústico a ruido aéreo",
+   "seccion_estimada": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "18f90dc1e9f27caeff2175fee58e6d3029cc159858e47efa3749a0dbfcb0e45c"
+ },
+ "paginas": [
+  69
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "H.1 Aislamiento acústico a ruido aéreo\nAislamiento acústico a ruido aéreo\nEn la tabla H.1 se incluyen las magnitudes implicadas en las exigencias de aislamiento frente al ruido\naéreo con indicación de los procedimientos y normas de medición y valoración global, para las distintas\nsituaciones tipo de aislamiento en función del ruido incidente implicado.\nTabla H.1\nSituación tipo de\naislamiento\nRuido incidente o\ndominante exterior\nMagnitud, ecuación y Norma de me-\ndición\nMagnitud de\nvaloración global\nEcuación\na aplicar\nEntre recintos\ninteriores\nRosa\nDnT(f)\n(A.4)\nUNE-EN ISO 16283-1\nDnT,A\n(A.7)\nEntre recintos y el\nexterior\nFerroviario\nD2m,nT(f)\n(A.2)\nUNE-EN ISO 16283-3\n(ruido de altavoces)\nD2m,nT,A\n(A.5)\nAutomóviles\nAeronaves\nD2m,nT,Atr\n(A.6)\nH.1.1\nCoeficientes de adaptación espectral\n1\nLa UNE EN ISO 717-1 introduce los términos de adaptación espectral C y Ctr para los ruidos inci-\ndente y exterior de automóviles respectivamente.\n2\nAunque las exigencias de aislamiento se establecen en términos de la ponderación A pueden acep-\ntarse las aproximaciones siguientes, siempre que las diferencias sean menores que 1 dB:\nC\nD\nw\n,\nnT\n+\ncomo aproximación de\nA\n,\nnT\nD\nentre recintos interiores\n(H.1)\nC\nD\nw\n,\nnT\n,\nm\n2\n+\ncomo aproximación de\nA\n,\nnT\n,\nm\n2\nD\nentre un recinto y el exterior (trenes)\n(H.2)\ntr\nw\n,\nnT\n,\nm\n2\nC\nD\n+\ncomo aproximación de\nAtr\n,\nnT\n,\nm\n2\nD\nentre un recinto y el exterior (automóviles) (H.3)\n3\nLas ponderaciones globales del aislamiento según el método de la curva de referencia, designadas\ncon el subíndice w, así como los términos de adaptación espectral, deben hacerse conforme a la\nUNE EN ISO 717-1.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0069_t01.json",
+  "../tabla/p0069_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0069.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

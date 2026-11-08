@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0118",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p75",
+  "titulo": "( )",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p75",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p75",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.6 Resistencia de los medios de unión. Uniones soldadas. / ( )",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "33fca528d06b8054bb555cf7da4af6168b091a0d09d7799661e06b5d9d98fec5"
+ },
+ "paginas": [
+  75,
+  76
+ ],
+ "etiquetas_impresas": [
+  "75",
+  "76"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "( )\n)\n2\nM\nu\n2\nM\nW\nu\n2\n//\n2\n2\nf\nf\n3\nγ\n≤\nσ\nγ\nβ\n≤\nτ\n+\nτ\n+\nσ\n⊥\n⊥\n⊥\n(8.23)\nFigura 8.10 Tensiones en la sección de garganta\nsiendo\nW\nβ\ncoeficiente de correlación dado en la tabla 8.1;\nfu\nresistencia última a tracción de la pieza más débil de la unión;\n⊥\nσ\ntensión normal perpendicular al plano de la garganta;\n//\nσ\ntensión normal paralela al eje del cordón. No actúa en el plano de comprobación ni se tiene\nen cuenta en las comprobaciones a realizar;\n⊥\nτ\ntensión tangencial (en el plano de la garganta) perpendicular al eje del cordón;\n//\nτ\ntensión tangencial (en el plano de la garganta) paralelo al eje del cordón.\n8.6.3 Resistencia de cálculo de las soldaduras a tope.\n1\nSi la soldadura es de penetración total no es necesaria ninguna comprobación. La resistencia de\ncálculo será igual a la de la más débil de las piezas unidas.\n2\nNo se empleará un solo cordón de soldadura a tope con penetración parcial para transmitir esfuer-\nzos de tracción perpendiculares a su eje longitudinal.\n3\nEn uniones a tope con penetración parcial la resistencia de cálculo se determinará como la de los\ncordones de soldadura en ángulo, teniendo en cuenta lo siguiente:\na)\nel espesor de garganta será la profundidad de la penetración que se pueda conseguir de for-\nma estable, que se debe determinar mediante evidencia experimental previa;\nb)\npara el caso de que se tenga preparación de bordes en U, V, J o recto, se tomará como espe-\nsor de garganta el canto nominal de la preparación menos 2,0 mm, a menos que se puedan\njustificar experimentalmente valores superiores.\n\nDocumentoBásico SE-A Acero\nSE-A-74\n4\nSi la soldadura es en T se comprobará como una soldadura a tope con penetración total si (figura\n8.11):\nmm\n3\nc\n5\nt\nc\nt\na\na\nnom\nnom\n2\n,\nnom\n1,\nnom\n≤\n≤\n≥\n+\n(8.24)\nEn otro caso se comprobará como una soldadura en ángulo o en ángulo con penetración si se\ncumplen las condiciones correspondientes.\n5\nEn perfiles en L o en U unidos por una sola cara, se debe tener en cuenta la excentricidad, o alter-\nnativamente, considerar como sección del perfil el área concéntrica con la resistencia de la unión.\n6\nUniones híbridas. En uniones a cortante con distinto tipo de tornillo o formadas por cordones de\nsoldadura y tornillos, cada uno de estos grupos se dimensionará para transmitir la carga total. Sin\nembargo, se podrán considerar trabajando conjuntamente con la soldadura, los tornillos de alta re-\nsistencia diseñados para trabajar sin deslizamiento en estado límite último. En este caso, el apriete\nfinal de los tornillos se efectuará una vez realizadas las soldaduras.\nFigura 8.11 Soldadura a tope en T",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0075.png",
+  "../figura/p0076.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

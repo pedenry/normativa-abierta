@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0097",
+  "ruta_oficial": "7.2.2.3",
+  "ruta_semantica": "7.2.2.3 Aceleración máxima",
+  "titulo": "7.2.2.3 Aceleración máxima",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.2.2.3 Aceleración máxima",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 57,
+   "bbox": [
+    74.1,
+    699.0,
+    207.0,
+    710.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "05f931de15700d4fa9f8bfc90e063b39da012f2845818c50938f8e1e616d9f08",
+   "literal": "7.2.2.3 Aceleración máxima"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0095",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.2.2.3 Aceleración máxima",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Estados límite de servicio / 7.2 Vibraciones 7.2.1 Generalidades / 7.2.2 Vibraciones transitorias en forjados 7.2.2.1 Percepción humana / 7.2.2.3 Aceleración máxima",
+   "seccion_estimada": "7 Estados límite de servicio",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4a716223e14498671a215d208ab4d5267ad7ee69881cd682ceaf9d537973b9b7"
+ },
+ "paginas": [
+  57,
+  58
+ ],
+ "etiquetas_impresas": [
+  "57",
+  "58"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "7.2.2.3 Aceleración máxima\n1\nLa aceleración máxima inicial de la vibración de un forjado, debido a un impulso I, se podrá deter-\nminar a partir de la relación:\n\nDocumentoBásico SE-A Acero\nSE-A-56\nM\nI\nf\n2\n9,0\na\n1\n0\nπ\n=\n(7.3)\nsiendo\n0\na\naceleración máxima inicial [m/s2]\nf1\nfrecuencia propia del primer modo de vibración del forjado [s-1]\nI\nimpulso [Ns]\nM\nmasa vibrante [kg]\n2\nEn caso de que el impulso se deba al desplazamiento de una persona, se podrá admitir un valor de\nI=67 Ns\n3\nPara una viga biapoyada la masa vibrante eficaz podrá determinarse a partir de la relación:\nM=0,67·m·bL\n(7.4)\nsiendo\nm\nmasa por unidad de superficie del forjado en oscilación, incluyendo el peso propio, las car-\ngas permanente y una parte de la sobrecarga (valor cuasi-permanente)\nb\nancho eficaz de la losa (b=s)\ns\nseparación de las vigas de acero\nL\nluz de la viga biapoyada\n4\nEn forjados con dos niveles de vigas (jácenas y correas), la superficie del forjado b·L a introducir en\nla relación (7.4) podrá determinarse de la siguiente manera:\njac\njac\n2\njac\n,1\nsis\n,1\ncor\ncor\n2\ncor\n,1\nsis\n,1\nL\nb\nf\nf\nL\nb\nf\nf\nbL\n\n\n\n\n\n\n+\n\n\n\n\n\n\n=\n(7.5)\nsiendo:\nbcor\nancho de la losa tributaria de la correa (bcor= S)\nS\nseparación de las correas\nLcor\nluz de la correa\nbjac\nancho de la losa tributaria de la jácena (bjac=Lcor)\nljac\nluz de la jácena",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0057_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0057.png",
+  "../figura/p0058.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

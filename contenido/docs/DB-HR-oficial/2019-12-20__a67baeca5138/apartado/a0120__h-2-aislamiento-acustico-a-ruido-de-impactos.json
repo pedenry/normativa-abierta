@@ -1,0 +1,98 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0120",
+  "ruta_oficial": null,
+  "ruta_semantica": "H.2 Aislamiento acústico a ruido de impactos",
+  "titulo": "H.2 Aislamiento acústico a ruido de impactos",
+  "nivel": 1,
+  "parent_id": "a0118",
+  "seccion_estimada": "H.2 Aislamiento acústico a ruido de impactos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 69,
+   "bbox": [
+    70.9,
+    518.7,
+    346.7,
+    532.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "66d50742b85e93878d5d4a09615a417affab466b58ca1acc60df07b938ab5a17",
+   "literal": "H.2 Aislamiento acústico a ruido de impactos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0118",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE EN",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "H.2 Aislamiento acústico a ruido de impactos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0118",
+   "ruta_semantica": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias / H.2 Aislamiento acústico a ruido de impactos",
+   "seccion_estimada": "Anejo H. Guía de uso de las magnitudes de aislamiento en relación con las exigencias",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3eb130e9845398ce36710c00ecaefc22193e49de8b51648f8d89868d18794f2f"
+ },
+ "paginas": [
+  69,
+  71
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "H.2 Aislamiento acústico a ruido de impactos\nAislamiento acústico a ruido de impactos\n1\nLa tabla H.2 esquematiza las magnitudes y normas para la medición y valoración global del nivel de\nruido de impactos estandarizado.\nTabla H.2\nMedición\nValoración\nMagnitud\nNorma\nMagnitud\nNorma\nL’nT(f)\nUNE-EN ISO 16283-2\nL’nT,w\nUNE EN ISO 717-2\n2\nEl valor del nivel global de presión de ruido de impactos estandarizado, L’nT,w, se determinará me-\ndiante el procedimiento que se indica en la UNE EN ISO 717-2, a partir de los resultados de medi-\nción realizados en bandas de tercio de octava ajustándola a la curva de referencia de acuerdo a la\nUNE-EN ISO 16283-2.\n\nDocumento Básico HR - Protección frente al ruido\nHR I-1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0069_t01.json",
+  "../tabla/p0069_t02.json",
+  "../tabla/p0071_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0069.png",
+  "../figura/p0071.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

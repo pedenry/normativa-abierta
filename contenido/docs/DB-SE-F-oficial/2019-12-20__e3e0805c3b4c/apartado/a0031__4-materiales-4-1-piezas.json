@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0031",
+  "ruta_oficial": "4",
+  "ruta_semantica": "Fragmento de PDF p13",
+  "titulo": "4 Materiales 4.1 Piezas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p13",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p13",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d4c3b7c4fa5fd4c911931fea97dd8a534c007c4ed177d6adabf698a7b5f4a72b"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "4 Materiales 4.1 Piezas\n4.1 Piezas\n1\nLas piezas para fábricas se designan por sus medidas modulares (medida nominal más el ancho\nhabitual de la junta). El uso de morteros de junta delgada, o de ancho inusual modifica la relación\nentre las medidas nominal y modular.\n2\nLas piezas para la realización de fábricas se clasifican en los grupos definidos en la tabla 4.1.\nTabla 4.1 Grupos de piezas\nCaracterística\nGrupo \nMaciza\nPerforada\nAligerada\nHueca\n\n\ncerámica hormigóncerámica\nhormigón\ncerámica\nhormigón\nVolumen de huecos (% del bruto) (1)\n25\n45\n50\n60 (2)\n60 (2)\n70\nVolumen de cada hueco (% del bruto)12,5\n 12,5\n25\n12,5\n25\n12,5\n25\nEspesor combinado (% del ancho\ntotal) (3)\n37,5\n20\n20\n(1)\nLos huecos pueden ser huecos verticales que atraviesan las piezas, rebajes o asas.\n(2)\nEl límite del 60% de huecos puede aumentarse si se dispone de ensayos que confirmen que la seguridad de las fábricas no se\nreduce de manera importante.\n(3)\nEl espesor combinado es la suma de los espesores de las paredes y tabiquillos de una pieza, medidos perpendicularmente a la\ncara del muro.\n3\nLa disposición de huecos será tal que evite riesgos de aparición de fisuras en tabiquillos y paredes\nde la pieza durante la fabricación, manejo o colocación.\n4\nLa resistencia normalizada a compresión mínima de las piezas, fb, será de 5 N/mm2. No obstante,\npueden aceptarse piezas con una resistencia normalizada a compresión inferior, hasta 4N/mm2 en\nfábricas sustentantes y hasta 3 N/mm2 en fábricas sustentadas, siempre que, o se limite la tensión\nde trabajo a compresión en estado límite último al 75% de la resistencia de cálculo de la fábrica, fd, o\nbien se realicen estudios específicos sobre la resistencia a compresión de la misma.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0032",
+  "a0033",
+  "a0034",
+  "a0035",
+  "a0036"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

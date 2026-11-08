@@ -1,0 +1,107 @@
+{
+ "indice": 1,
+ "pagina": 80,
+ "etiqueta_impresa": null,
+ "bbox": [
+  67.4,
+  285.5,
+  542.2,
+  384.6
+ ],
+ "filas": 4,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Material del ala",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Anchura debida al efecto de:\nFlexibilidad por rasante Abolladura",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Tablero contrachapado con la dirección de la fibra en las\nchapas exteriores\nparalela a las almas\nperpendicular a las almas",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "0,1·l 20·hf\n0,1·l 25·hf",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Tablero de virutas orientadas (OSB)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "0,15·l 25·hf",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "Tablero de partículas y tablero de fibras con orientación\naleatoria de las partículas",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "0,2·l 30·hf",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Material del ala",
+  "Anchura debida al efecto de:\nFlexibilidad por rasante Abolladura"
+ ],
+ "header": {
+  "names": [
+   "Material del ala",
+   "Anchura debida al efecto de:\nFlexibilidad por rasante Abolladura"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD3D42F0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD3D7E30>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD3D5760>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD3D51C0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD3D42C0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD3D4860>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD3D54F0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD3D5DC0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0080.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

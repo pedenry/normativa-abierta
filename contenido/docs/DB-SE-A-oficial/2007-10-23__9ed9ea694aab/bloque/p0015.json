@@ -1,0 +1,210 @@
+{
+ "documento": null,
+ "pagina": 15,
+ "etiqueta_impresa": "15",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-13",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    90.9,
+    541.3,
+    113.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn el contexto de este DB se entenderá por tornillo el conjunto tornillo, tuerca y arandela (simple o\ndoble).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    119.9,
+    487.4,
+    131.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn los tornillos de alta resistencia utilizados como pretensados, se controlará el apriete.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    148.6,
+    238.2,
+    162.0
+   ],
+   "tipo": "titulo",
+   "texto": "4.4 Materiales de aportación",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    170.1,
+    541.5,
+    192.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas características mecánicas de los materiales de aportación serán en todos los casos superiores\na las del material base.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    74.1,
+    199.2,
+    541.5,
+    221.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nLas calidades de los materiales de aportación ajustadas a la norma UNE-EN ISO 14555:1999 se\nconsideran aceptables.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    74.1,
+    239.3,
+    226.2,
+    252.7
+   ],
+   "tipo": "titulo",
+   "texto": "4.5 Resistencia de cálculo",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 8,
+   "bbox": [
+    74.1,
+    260.9,
+    541.4,
+    283.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe define resistencia de cálculo, fyd, al cociente de la tensión de límite elástico y el coeficiente de\nseguridad del material:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    287.7,
+    541.0,
+    300.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "fyd = fy / γM\n(4.2)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    97.5,
+    304.2,
+    135.3,
+    315.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    131.1,
+    317.7,
+    541.2,
+    355.4
+   ],
+   "tipo": "texto",
+   "texto": "fy\ntensión del límite elástico del material base (tabla 4.1). No se considerará el efecto de\nendurecimiento derivado del conformado en frío o de cualquier otra operación.\nγM\ncoeficiente parcial de seguridad del material, de acuerdo al apartado 2.3.3,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.1,
+    359.0,
+    541.4,
+    381.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn las comprobaciones de resistencia última del material o la sección, se adopta como resistencia\nde cálculo el valor",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    74.1,
+    385.7,
+    154.5,
+    398.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "fud = fu / γM2",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    74.1,
+    404.0,
+    404.3,
+    416.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "siendo:\nγM2\ncoeficiente de seguridad para resistencia última.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

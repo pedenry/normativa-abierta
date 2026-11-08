@@ -1,0 +1,77 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0054",
+  "ruta_oficial": "5.3",
+  "ruta_semantica": "Fragmento de PDF p24",
+  "titulo": "5.3  Sistemas de barras 5.3.1  Principios generales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p24",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p24",
+  "referencias_filtradas": [
+   "apartado 7.1"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5  Análisis estructural 5.1  Principios generales / 5.3  Sistemas de barras 5.3.1  Principios generales",
+   "seccion_estimada": "5  Análisis estructural 5.1  Principios generales",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3c7876bb0f22e6138d53fbc2c9e2fb16e4049675973c39abd84b004758586f62"
+ },
+ "paginas": [
+  24
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "5.3  Sistemas de barras 5.3.1  Principios generales\n5.3.1  Principios generales\n1\nEn las estructuras habituales de edificación formadas por barras (elementos en donde una dimen-\nsión predomina sobre las otras dos), sean soportes, vigas o estructuras trianguladas se consideran,\npara los tipos descritos en el código, los siguientes modelos:\na) comportamiento de las barras\ni)\nanálisis en primer orden, considerando que la madera es un material homogéneo e isótropo,\ntomando como parámetro básico del material el módulo de deformación, E, longitudinal (se-\ngún la dirección de la fibra). La verificación de la estabilidad se realiza a través del método\nde la longitud de pandeo equivalente.\nii) análisis en primer orden similar al anterior salvo en la verificación de la estabilidad, que se\nrealiza mediante un análisis global en segundo orden.\nb) uniones en cerchas\ni)\npara cerchas usuales, con luces no mayores de 20m, no será necesario considerar la defor-\nmación local en la unión siempre que la relación entre la luz y el canto máximo de la cercha\nno sea mayor que 10.\nii) para el resto de casos se considerará una deformación local de la unión de tipo lineal de\nacuerdo con los datos de Kser descritos en el apartado 7.1. Según se describe en ese apar-\ntado, el valor de Kser de las tablas se usará en las comprobaciones de los estados límite de\nservicio, mientras que para las comprobaciones de los estados límite ultimos se considerará\nun valor de 2/3 del anterior. Para modelizar este efecto se pueden añadir barras ficticias en\nlas uniones que tengan la misma ridigez que la unión o bién trabajar con una rigidez equiva-\nlente de la barra de modo que su rigidez sea la de la barra original más las uniones.\nEn cualquier caso se podrán usar modelos más complejos basados en ensayos o en los princi-\npios generales\nc) uniones de apoyo y empalme de estructuras adinteladas:\ni)\nen el caso de uniones articuladas se considerará que en la unión no hay deslizamiento al-\nguno:\nii) en el caso de uniones en las que se pretenda conseguir un empotramiento se considerará el\nridigez eficaz de la unión en función del deslizamiento de las uniones. La mayoría de las\nuniones rígidas con clavijas son a lo sumo semiempotramientos, y en muchos casos llegan a\ncomportarse casi como articulaciones.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 7.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0055",
+  "a0056",
+  "a0057"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

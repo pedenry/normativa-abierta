@@ -1,0 +1,61 @@
+{
+ "documento": "GUIA-PDF-1fc513e273a1",
+ "code": "GUIA",
+ "title": "Solucion B2 Ventilacion del espacio de contencion locales no habitables",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__fe1b00892005",
+ "sha256": "fe1b00892005f79029b9e9d5df6240a937500736190000346886ae25571234a6",
+ "apartado": {
+  "id_tecnico": "a0010",
+  "ruta_oficial": null,
+  "ruta_semantica": "5. CÓMO SE CONSIGUE / a) Ventilación natural",
+  "titulo": "a) Ventilación natural",
+  "nivel": 3,
+  "parent_id": "a0009",
+  "seccion_estimada": "5. CÓMO SE CONSIGUE"
+ },
+ "paginas": [
+  2,
+  3
+ ],
+ "etiquetas_impresas": [
+  "2",
+  "3"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "a) Ventilación natural\nCuando el local esté situado por encima de la cota\nexterior (en planta baja o semisótano), podrá mejorar­\nse la ventilación disponiendo rejillas, aireadores en las\nventanas o en las fachadas, o sustituyendo las venta­\nnas existentes por otras con aireador o con un sistema\nde apertura que permita la microventilación (Figura 1).\n\n3\nSolución B2 • Ventilación del espacio de contención: locales no habitables\nB2\n3\nSi fuese inevitable atravesar el forjado con algún con­\nducto, los encuentros con los conductos se tratarán\ncomo se indica en la Solución A2 o en la Solución\nA1.1, según corresponda.\nFigura 2 - \u0007Mecanización solo de la extracción (arriba) y de admisión y\nextracción (abajo). Conducto de extracción por el interior del\nedificio (arriba) y por el exterior (abajo). Conducto de admisión\nque atraviesa (arriba) y que no atraviesa el forjado (abajo)\n1\n3\n2",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0002_t01.json",
+  "../tabla/p0003_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0002.png",
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Solucion_B2_Ventilacion_del_espacio_de_contencion_locales_no_habitables.pdf",
+  "sha256": "fe1b00892005f79029b9e9d5df6240a937500736190000346886ae25571234a6",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0009",
+  "nivel": 3,
+  "seccion_estimada": "5. CÓMO SE CONSIGUE",
+  "ruta_semantica": "5. CÓMO SE CONSIGUE / a) Ventilación natural"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

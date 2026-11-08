@@ -1,0 +1,71 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0003",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p1",
+  "titulo": "Capítulo 1 Disposiciones generales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p1",
+  "clasificacion_navegacion": "fragmento_portada",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "fragmento_portada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p1",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Capítulo 1 Disposiciones generales",
+   "seccion_estimada": "Capítulo 1 Disposiciones generales",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "998c7e2d8020a59865bee07d6245bc96ae53bb1ffc9f5367a37358125cad7994"
+ },
+ "paginas": [
+  1
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Capítulo 1 Disposiciones generales\nDisposiciones generales",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0001.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

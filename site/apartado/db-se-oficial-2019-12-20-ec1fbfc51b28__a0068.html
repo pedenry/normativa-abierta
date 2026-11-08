@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE · C.6 Métodos basados en la determinación de los valores de cálculo</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">DB-SE</a> › a0068</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">DB-SE</a> · C.6 Métodos basados en la determinación de los valores de cálculo · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0068 · PDF pág. 34-35 · documento DB-SE · SHA256 ec1fbfc51b28…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/apartado/a0068__c-6-metodos-basados-en-la-determinacion-de-los-valores-d.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/apartado/a0068__c-6-metodos-basados-en-la-determinacion-de-los-valores-d.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">Ámbito del documento</a> · <a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">documento y tablas</a></p>
+<nav><a href="db-se-oficial-2019-12-20-ec1fbfc51b28__a0067.html">← ID a0067 · PDF pág. 33-34</a> <a href="db-se-oficial-2019-12-20-ec1fbfc51b28__a0069.html">ID a0069 · PDF pág. 35 →</a></nav>
+<h1><span class="aviso">ID a0068 · PDF pág. 34-35</span> — C.6 Métodos basados en la determinación de los valores de cálculo</h1>
+<p>ID técnico a0068 · PDF pág. 34-35 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 34 (candidato tipográfico); no validado por persona · padre: raíz</p>
+<pre class="literal">C.6 Métodos basados en la determinación de los valores de cálculo
+C.6.1 Generalidades
+1
+El estado límite considerado podrá establecerse mediante un modelo de cálculo en términos de una
+o varias funciónes g(...) de un conjunto de variables X1, X2, ... Xn relativas a las acciones, las carac-
+terísticas de los materiales, etc. En este caso, la condición de ausencia del fallo de la estructura
+asociado con el estado límite considerado, se podrá expresar en la forma
+ 
+
+0
+X
+...,
+,
+X
+,
+X
+g
+n
+2
+1
+
+(C.13)
+2
+A efectos de la verificación del estado límite considerado, la condición (C.13) se podrá expresar en
+términos de los valores de cálculo de las variables
+ 
+
+0
+x
+...,
+,
+x
+,
+x
+g
+nd
+d
+2
+d
+1
+
+(C.14)
+x1d, x2d, ..., xnd
+valores de cálculo de las variables X1, X2, ..., Xn (según C.6.2).
+C.6.2 Valores de cálculo según el método FORM
+1
+El valor de cálculo xid de la variable Xi depende de:
+a)
+los parámetros de la variable Xi;
+b)
+el tipo de distribución probabilista supuesta;
+c)
+el índice de fiabilidad, , requerido para el estado límite y la situación de dimensionado consi-
+derados;
+d)
+un factor i que describe la sensibilidad de la probabilidad de fallo, asociada con el estado lími-
+te y la situación de dimensionado considerados, con respecto a la variación de Xi.
+2
+Para una distribución arbitraria F(xi), los valores de cálculo se definen por
+ 
+
+ 
+
+
+
+
+
+
+i
+id
+x
+F
+(C.15)
+Para variables Xi con una distribución normal, se obtiene
+ 
+
+i
+i
+i
+id
+V
+1
+x
+
+
+
+
+
+
+
+(C.16)
+siendo
+i
+valor medio de la variable Xi
+Vi
+coeficiente de variación de la variable Xi.
+Para variables Xi con una distribución lognormal, se obtiene
+
+
+i
+i
+e
+x
+i
+id
+
+
+
+
+
+
+
+
+(C.17)
+
+Documento Básico SE Seguridad Estructural
+SE - 29
+donde
+2
+i
+i
+i
+V
+1 
+
+
+</pre>
+<h2>Tablas en estas páginas</h2><ul><li>p. 35 · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/tabla/p0035_t01.json">p0035_t01.json</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/tabla/p0035_t01.csv">.csv</a></li></ul><h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0035.png"><img class="figura" src="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0035.png" alt="Página 35"></a><figcaption>Página visual 35 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

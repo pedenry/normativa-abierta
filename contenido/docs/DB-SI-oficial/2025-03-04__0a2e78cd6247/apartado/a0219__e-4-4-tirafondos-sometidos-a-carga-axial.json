@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0219",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.4.4 Tirafondos sometidos a carga axial",
+  "titulo": "E.4.4 Tirafondos sometidos a carga axial",
+  "nivel": 3,
+  "parent_id": null,
+  "seccion_estimada": "E.4.4 Tirafondos sometidos a carga axial",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 82,
+   "bbox": [
+    70.9,
+    179.2,
+    310.5,
+    192.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "68f0ad9654d585a0157ec2296eb2081de2da058a8f396839f67cc509b41425da",
+   "literal": "E.4.4 Tirafondos sometidos a carga axial"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0147",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE-M"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.4.4 Tirafondos sometidos a carga axial",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.4.4 Tirafondos sometidos a carga axial",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a541d00b1dd058ca66a2b7757c403461a4dbd2bdb15afe7d7d63c5c0582909d4"
+ },
+ "paginas": [
+  82
+ ],
+ "etiquetas_impresas": [
+  "82"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "E.4.4 Tirafondos sometidos a carga axial\n1\nLas especificaciones contenidas en este apartado son sólo de aplicación a los tirafondos sometidos a\ncarga axial que se encuentren protegidos de la exposición directa al fuego.\n2\nLa capacidad resistente en situación de incendio se obtiene multiplicando la capacidad resistente en\nsituación normal de temperatura (según DB-SE-M) por un coeficiente de reducción, denominado fac-\ntor de conversión, cuyo valor se determina según las expresiones siguientes.\n3\nPara las uniones del tipo de las representadas en la figura E.6 con:\n40\nd\nd\n1\n2\n\n\n(E.16)\n20\nd\nd\n1\n3\n\n\n(E.17)\nsiendo d1, d2 y d3 distancias en mm,\nEl factor de conversión  se define mediante las ecuaciones siguientes:\n0\n\n\npara\nd\n,fi\n1\nt\n6,0\nd\n\n\n(E.18)\n5\nt\n2,0\nt\n264\n,0\nd\n44\n,0\nd\n,fi\nd\n,fi\n1\n\n\n\n\n\n\n\npara\n5\nt\n8,0\nd\nt\n6,0\nd\n,fi\n1\nd\n,fi\n\n\n\n\n\n(E.19)\n23\nt\n2,0\n32\n,7\nt\n36\n,0\nd\n56\n,0\nd\n,fi\nd\n,fi\n1\n\n\n\n\n\n\n\n\npara\n28\nt\nd\n5\nt\n8,0\nd\n,fi\n1\nd\n,fi\n\n\n\n\n\n(E.20)\n0,1\n\n\npara\n28\nt\nd\nd\n,fi\n1\n\n\n(E.21)\nsiendo:\nd1recubrimiento lateral en mm, figura E.11.\ntfi,dtiempo requerido de resistencia al fuego en minutos.\n4\nEl factor de conversión  para recubrimientos laterales d2 = d1 y d3 d1 + 20 mm puede calcularse\nmediante las ecuaciones E.16 a E.21, sustituyendo tfi,d por 1,25·tfi,d.\nFigura E.6. Sección transversal y definición de distancias.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE-M"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0082.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0013",
+  "ruta_oficial": "2.3",
+  "ruta_semantica": "2.3 Acciones del terreno",
+  "titulo": "2.3 Acciones del terreno",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.3 Acciones del terreno",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 7,
+   "bbox": [
+    70.9,
+    533.7,
+    212.9,
+    547.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "80ea4509bbdb8a8039ed5465a3d7e0158e80e0f317bde16add5592b95bb36960",
+   "literal": "2.3 Acciones del terreno"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0008",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE-C"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3 Acciones del terreno",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Acciones permanentes 2.1 Peso propio / 2.3 Acciones del terreno",
+   "seccion_estimada": "2 Acciones permanentes 2.1 Peso propio",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "10859a1bf4a34b9069048b011c3110c4959eb920c892e2fecb2fefdaa952a6de"
+ },
+ "paginas": [
+  7,
+  9
+ ],
+ "etiquetas_impresas": [
+  "7",
+  "9"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.3 Acciones del terreno\n1\nLas acciones derivadas del empuje del terreno, tanto las procedentes de su peso como de otras\nacciones que actúan sobre él, o las acciones debidas a sus desplazamientos y deformaciones, se\nevalúan y tratan según establece el DB-SE-C.\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 5",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE-C"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0009_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0007.png",
+  "../figura/p0009.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

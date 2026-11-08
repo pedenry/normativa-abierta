@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0075",
+  "ruta_oficial": null,
+  "ruta_semantica": "D.5 Verificación",
+  "titulo": "D.5 Verificación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "D.5 Verificación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    480.0,
+    164.3,
+    492.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3d6a5a8c4783e8cd8a9a539cfba12409bdd5dfaff7e747b9fbff84432f6b2d12",
+   "literal": "D.5 Verificación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 4.2",
+   "apartado 4.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.5 Verificación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades / D.5 Verificación",
+   "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "64127479d5052071a5e08fbeca676a86afa65644222685b4f0aac3794c785332"
+ },
+ "paginas": [
+  42,
+  43
+ ],
+ "etiquetas_impresas": [
+  "2",
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "D.5 Verificación\nD.5.1 Generalidades\n1\nLas exigencias relativas a la capacidad portante y a la aptitud al servicio dependerán del periodo de\nservicio restante que se estime. Las verificaciones de la capacidad portante y de la aptitud al servi-\ncio se efectuarán sobre la base de las situaciones de dimensionado actualizadas.\n2\nLa evaluación de la capacidad portante de un edificio existente se efectuará teniendo en cuenta su\ncapacidad de deformación así como su modo de fallo previsible. En particular, se determinará si es\nposible una redistribución de los esfuerzos y si a un inminente fallo le precederían deformaciones\nimportantes.\n3\nEn los casos en los que, durante el periodo de servicio restante, puedan producirse situaciones\nextraordinarias, éstas se tendrán en cuenta en la verificación de la capacidad portante.\n4\nSi durante el periodo de servicio restante actúan sobre el edificio cargas variables repetidas o si se\npueden producir vibraciones por resonancia, se realizará una verificación de la seguridad frente a la\nfatiga.\nD.5.2 Verificación de la capacidad portante\nD.5.2.1 Evaluación preliminar\n1\nLa verificación de la capacidad portante para el periodo de servicio restante se realizará a partir de\nlos valores representativos actualizados de las acciones y de la información actualizada sobre la es-\ntructura, adoptando los coeficientes parciales de seguridad para las acciones y para la resistencia\nde acuerdo con lo establecido en el apartado 4.2 y en los documentos básicos de seguridad estruc-\ntural de los diferentes materiales.\n\nDocumento Básico SE Seguridad Estructural\nSE - 37\nD.5.2.2 Evaluación detallada\n1\nLa verificación de la capacidad portante para el periodo de servicio restante se realizará a partir de\nlos valores representativos actualizados de las acciones y de la información actualizada sobre la es-\ntructura, adoptando coeficientes parciales de seguridad particularizados para las acciones y para la\nresistencia. Para la determinación de dichos coeficientes particularizados se tendrá en cuenta la in-\nfluencia de los cambios –debidos a la adquisición de información– en las incertidumbres asociadas\ncon las variables.\n2\nLos coeficientes parciales particularizados se calibrarán para que sean consistentes con el nivel\nrequerido de seguridad estructural. Normalmente serán menos conservadores que los coeficientes\ncorrespondientes incluidos en los los documentos básicos correspondientes para el dimensionado\nen edificios de nueva construcción.\nD.5.2.3 Evaluación avanzada con métodos probabilistas\n1\nLa seguridad estructural de un edificio podrá cuantificarse en términos de su fiabilidad, que tendrá\nen cuenta las incertidumbres asociadas con las distintas variables básicas. Dicha fiabilidad se re-\npresenta a través de una probabilidad de fallo.\n2\nEn el estado actual de los conocimientos no es posible definir un valor único para la probabilidad de\nfallo admisible. Se considera que un edificio correctamente dimensionado y construido según un\nconjunto consistente de reglas para la determinación de la resistencia y de las acciones, correspon-\ndientes al estado de la práctica en un determinado momento, es fiable en este momento y en el\nmarco de dichas reglas.\n3\nLa evaluación estructural de un edificio existente con métodos probabilistas, requerirá los siguientes\npasos:\na)\ndimensionado estricto de la estructura que quiere evaluarse según un conjunto consistente de\nnormas de acciones y de resistencia que estén en vigor;\nb)\ndeterminación de la probabilidad de fallo de la estructura dimensionada en a), considerando\npara las variables básicas los parámetros que están implícitos en las especificaciones de las\nnormas empleadas. La probabilidad de fallo así obtenida es la probabilidad de fallo admisible\nsegún las normas empleadas;\nc)\ndeterminación de la probabilidad de fallo de la estructura que quiere evaluarse, utilizando los\nparámetros actualizados de las variables que intervienen en los cálculos.\n4\nLa estructura evaluada tiene una seguridad estructural adecuada si la probabilidad de fallo de la\nestructura evaluada es menor o igual a la probabilidad de fallo admisible.\nD.5.3 Verificación de la aptitud al servicio\n1\nUna estructura o un elemento estructural tiene un comportamiento adecuado para el periodo de\nservicio restante en relación con un determinado criterio, si para las situaciones de dimensionado\nconsideradas se cumple que el efecto de las acciones no alcanza el valor límite establecido para di-\ncho efecto. La verificación se realizará a partir de los valores representativos actualizados de las\nacciones y de la información actualizada sobre la estructura.\n2\nLos efectos de las acciones se determinarán de acuerdo con los objetivos de la evaluación estable-\ncidos, teniendo en cuenta los valores representativos actualizados de las acciones y de todas las in-\nfluencias pertinentes, así como la información actualizada de la estructura. En ausencia de acuer-\ndos específicos, estos efectos se determinarán según el apartado 4.3.\n3\nLos valores límite para los distintos efectos de las acciones deben estar en concordancia con el\nobjetivo de cada verificación y se determinarán para cada caso. En ausencia de acuerdos específi-\ncos, se adoptarán como valores límite los valores nominales según 4.3.\n4\nLa verificación de la aptitud al servicio se podrá realizar mediante métodos probabilistas, utilizando\nlos parámetros actualizados de las variables que intervienen en los cálculos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.2",
+  "apartado 4.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

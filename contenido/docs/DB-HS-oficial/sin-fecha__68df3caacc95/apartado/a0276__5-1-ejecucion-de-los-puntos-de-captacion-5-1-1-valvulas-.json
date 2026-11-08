@@ -1,0 +1,82 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0276",
+  "ruta_oficial": "5.1",
+  "ruta_semantica": "Fragmento de PDF p123",
+  "titulo": "5.1 Ejecución de los puntos de captación 5.1.1 Válvulas de desagüe",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p123",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p123",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.1 Ejecución de los puntos de captación 5.1.1 Válvulas de desagüe",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d7d9e467416a4d710523b8a9647e18de5ae4e5d7f9add5a4231bd658b7a5348c"
+ },
+ "paginas": [
+  123
+ ],
+ "etiquetas_impresas": [
+  "123"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.1 Ejecución de los puntos de captación 5.1.1 Válvulas de desagüe\n5.1.1 Válvulas de desagüe\n1\nSu ensamblaje e interconexión se efectuará mediante juntas mecánicas con tuerca y junta tórica.\nTodas irán dotadas de su correspondiente tapón y cadeneta, salvo que sean automáticas o con dis-\npositivo incorporado a la grifería, y juntas de estanqueidad para su acoplamiento al aparato sanita-\nrio.\n2\nLas rejillas de todas las válvulas serán de latón cromado o de acero inoxidable, excepto en fregade-\nros en los que serán necesariamente de acero inoxidable. La unión entre rejilla y válvula se realiza-\nrá mediante tornillo de acero inoxidable roscado sobre tuerca de latón inserta en el cuerpo de la\nválvula.\n3\nEn el montaje de válvulas no se permitirá la manipulación de las mismas, quedando prohibida la\nunión con enmasillado. Cuando el tubo sea de polipropileno, no se utilizará líquido soldador.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0123.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0277",
+  "a0278",
+  "a0279"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

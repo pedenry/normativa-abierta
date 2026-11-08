@@ -1,0 +1,297 @@
+{
+ "documento": null,
+ "pagina": 38,
+ "etiqueta_impresa": "38",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.1,
+    39.2,
+    375.7,
+    48.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HE Ahorro de energía",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    255.7,
+    51.4,
+    341.9,
+    60.3
+   ],
+   "tipo": "texto",
+   "texto": "Anejo A. Terminología",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    293.2,
+    796.9,
+    304.3,
+    805.8
+   ],
+   "tipo": "texto",
+   "texto": "38",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    132.5,
+    76.4,
+    465.8,
+    88.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "qsol;jul = Qsol;jul / Autil= (Σk  Fsh;obst · ggl;sh;wi · (1 − FF ) · Aw;p · Hsol;jul)  / Autil",
+   "tamano": 11.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    56.7,
+    95.1,
+    90.1,
+    118.8
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    85.1,
+    122.2,
+    541.4,
+    196.2
+   ],
+   "tipo": "texto",
+   "texto": "Fsh;obst\nes el factor reductor por sombreamiento por obstáculos externos (comprende todos los\nelementos exteriores al hueco como voladizos, aletas laterales, retranqueos, obstáculos\nremotos, etc.), para el mes de julio, del hueco k, y representa la reducción en irradiación\nsolar incidente debida al sombreamiento permanente de dichos obstáculos.\nggl;sh;wi\nes la transmitancia total de energía solar del acristalamiento con el dispositivo de sombra\nmóvil activado, para el mes de julio y del hueco k;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    85.1,
+    201.8,
+    541.4,
+    213.0
+   ],
+   "tipo": "texto",
+   "texto": "FF\nes la fracción de marco del hueco k (de forma simplificada puede adoptarse el valor de 0,25)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    85.1,
+    218.3,
+    280.5,
+    229.8
+   ],
+   "tipo": "texto",
+   "texto": "Aw;p\n     es la superficie (m2) del hueco k;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    85.1,
+    235.4,
+    541.4,
+    272.5
+   ],
+   "tipo": "texto",
+   "texto": "Hsol;jul\nes la irradiación solar media acumulada del mes de julio (kWh/m²·mes) para el clima\nconsiderado y la inclinación y orientación del hueco k;\nAutil\nárea considerada conforme a lo establecido en el apartado 4.6 del HE0",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    56.7,
+    282.8,
+    541.4,
+    305.5
+   ],
+   "tipo": "texto",
+   "texto": "Cubierta: cerramiento en contacto con el aire exterior o con el terreno por su cara superior y cuya inclinación\nes inferior a 60º respecto al plano horizontal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    56.7,
+    315.8,
+    541.4,
+    361.5
+   ],
+   "tipo": "texto",
+   "texto": "Demanda (energética): energía útil necesaria que tendrían que proporcionar los sistemas técnicos para\nmantener en el interior del edificio unas condiciones definidas reglamentariamente. Se puede dividir en\ndemanda energética de calefacción, de refrigeración, de agua caliente sanitaria (ACS), de ventilación, de\ncontrol de la humedad y de iluminación, y se expresa en kW·h/m2.año.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    56.7,
+    371.8,
+    541.4,
+    406.0
+   ],
+   "tipo": "texto",
+   "texto": "Edificio de consumo de energía casi nulo: edificio, nuevo o existente, que cumple con las exigencias\nreglamentarias establecidas en este Documento Básico “DB HE Ahorro de Energía” en lo referente a la\nlimitación de consumo energético para edificios de nueva construcción.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    56.7,
+    416.3,
+    541.4,
+    439.0
+   ],
+   "tipo": "texto",
+   "texto": "Eficacia luminosa: cociente entre el flujo luminoso emitido y la potencia eléctrica de la fuente. Se expresa en\nlm/W (lúmenes/vatio).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    56.7,
+    449.3,
+    541.4,
+    483.6
+   ],
+   "tipo": "texto",
+   "texto": "Energía final: energía tal y como se utiliza en los puntos de consumo. Es la suministrada a los sistemas del\nedificio para proveer los servicios; normalmente este suministro se realiza a través de combustibles,\ngeneración in situ o redes específicas (electricidad, gas, calor o frío de distrito, etc).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    56.7,
+    493.9,
+    366.3,
+    505.0
+   ],
+   "tipo": "texto",
+   "texto": "Según su origen de generación puede clasificarse la energía final en:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    74.5,
+    510.4,
+    541.4,
+    521.5
+   ],
+   "tipo": "texto",
+   "texto": "a) in situ, que comprende aquella generada en el edificio o en la parcela de emplazamiento del edificio,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.5,
+    521.8,
+    541.4,
+    544.5
+   ],
+   "tipo": "texto",
+   "texto": "sea de tipo solar fotovoltaica, solar térmica, energía térmica extraída del ambiente, etc.;\nb) en las proximidades del edificio, que comprende aquella con procedencia local o en el distrito, como",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    74.5,
+    544.9,
+    541.4,
+    579.0
+   ],
+   "tipo": "texto",
+   "texto": "la biomasa sólida, los sistemas urbanos de calefacción o refrigeración, la electricidad generada en las\nproximidades del edificio, etc.;\nc) distante, que comprende el resto de orígenes, como en el caso de los combustibles fósiles o el de la",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    92.4,
+    579.4,
+    179.6,
+    590.5
+   ],
+   "tipo": "texto",
+   "texto": "electricidad de red.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    56.7,
+    600.8,
+    541.4,
+    646.5
+   ],
+   "tipo": "texto",
+   "texto": "Energía primaria: energía suministrada al edificio procedente de fuentes renovables y no renovables, que no\nha sufrido ningún proceso previo de conversión o transformación. Es la energía contenida en los combustibles\ny otras fuentes de energía e incluye la energía necesaria para generar la energía final consumida, incluyendo\nlas pérdidas por su transporte hasta el edificio, almacenamiento, etc.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    103.7,
+    656.8,
+    494.3,
+    668.0
+   ],
+   "tipo": "texto",
+   "texto": "Energía primaria = Energía final + Pérdidas en transformación + Pérdidas en transporte",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    78.7,
+    678.1,
+    516.7,
+    756.9
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,97 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0105",
+  "ruta_oficial": "8.3",
+  "ruta_semantica": "8.3 Rigidez",
+  "titulo": "8.3 Rigidez",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.3 Rigidez",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 63,
+   "bbox": [
+    74.1,
+    601.4,
+    140.1,
+    614.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4838df896622ba7af5e3e958a431677a5654d315a0d9fee9aa111656ffcd105b",
+   "literal": "8.3 Rigidez"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0104",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 8.3.1",
+   "apartado 8.3.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3 Rigidez",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.3 Rigidez",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "755ebab6f81fcd8ea59f6fb8c04840d6dc56549c718e95972890cbd34157c65f"
+ },
+ "paginas": [
+  63,
+  64
+ ],
+ "etiquetas_impresas": [
+  "63",
+  "64"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.3 Rigidez\n1\nSe podrá establecer la rigidez de una unión mediante ensayos o a partir de experiencia previa con-\ntrastada, aunque en general se calculará a partir de la flexibilidad de sus componentes básicos, de-\nterminada mediante ensayos previos.\n2\nUna vez obtenida la rigidez inicial, se comparará con los límites establecidos (apartado 8.3.2) para\ncada una de las categorías definidas en el apartado 8.3.1. En cualquier caso, todas las uniones\npodrán ser tratadas como semirrígidas.\nt\ne\nd\nP = Fd/2\n0,8 r\nFd/2\nFd\nFd\nFd\nFd/2+Q\nFd/2+Q\nQ\nQ\nFd\na)\nb)\nm\n\nDocumentoBásico SE-A Acero\nSE-A-62",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.3.1",
+  "apartado 8.3.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0063.png",
+  "../figura/p0064.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0106",
+  "a0107"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

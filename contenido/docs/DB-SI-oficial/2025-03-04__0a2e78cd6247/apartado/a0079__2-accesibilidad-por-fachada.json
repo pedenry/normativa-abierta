@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0079",
+  "ruta_oficial": "2",
+  "ruta_semantica": "Sección SI 5 Intervención de los bomberos / 2 Accesibilidad por fachada",
+  "titulo": "2 Accesibilidad por fachada",
+  "nivel": 2,
+  "parent_id": "a0075",
+  "seccion_estimada": "Sección SI 5 Intervención de los bomberos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 37,
+   "bbox": [
+    70.9,
+    353.7,
+    283.8,
+    369.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "e76e453320c037fc66dd9f4705b346bf62d173dec10f00adcdd30f7db06b58be",
+   "literal": "2 Accesibilidad por fachada"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0036",
+  "parent_id_original": "a0075",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 1.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2 Accesibilidad por fachada",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0075",
+   "ruta_semantica": "Sección SI 5 Intervención de los bomberos / 2 Accesibilidad por fachada",
+   "seccion_estimada": "Sección SI 5 Intervención de los bomberos",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fa8601f527f9627a15283e8d8925618f3a2c6e793f7e865280ce9c6263162212"
+ },
+ "paginas": [
+  37,
+  38
+ ],
+ "etiquetas_impresas": [
+  "37",
+  "38"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Accesibilidad por fachada\n1\nLas fachadas a las que se hace referencia en el apartado 1.2 deben disponer de huecos que permi-\ntan el acceso desde el exterior al personal del servicio de extinción de incendios. Dichos huecos de-\nben cumplir las condiciones siguientes:\na) Facilitar el acceso a cada una de las plantas del edificio, de forma que la altura del alféizar res-\npecto del nivel de la planta a la que accede no sea mayor que 1,20 m;\nb) Sus dimensiones horizontal y vertical deben ser, al menos, 0,80 m y 1,20 m respectivamente. La\ndistancia máxima entre los ejes verticales de dos huecos consecutivos no debe exceder de 25\nm, medida sobre la fachada;\nc)\nNo se deben instalar en fachada elementos que impidan o dificulten la accesibilidad al interior\ndel edificio a través de dichos huecos, a excepción de los elementos de seguridad situados en\nlos huecos de las plantas cuya altura de evacuación no exceda de 9 m.\n2\nLos aparcamientos robotizados dispondrán, en cada sector de incendios en que estén compartimen-\ntados, de una vía compartimentada con elementos EI 120 y puertas EI2 60-C5 que permita el acceso\nde los bomberos hasta cada nivel existente, así como de un sistema mecánico de extracción de hu-\nmo capaz realizar 3 renovaciones/hora.\n\nDocumento Básico SI en caso de Incendio\nSI 6. Resistencia al fuego de la estructura\n38",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 1.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

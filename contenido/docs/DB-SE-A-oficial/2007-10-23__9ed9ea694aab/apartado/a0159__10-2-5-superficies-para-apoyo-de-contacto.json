@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0159",
+  "ruta_oficial": "10.2.5",
+  "ruta_semantica": "10.2.5 Superficies para apoyo de contacto",
+  "titulo": "10.2.5 Superficies para apoyo de contacto",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.2.5 Superficies para apoyo de contacto",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 113,
+   "bbox": [
+    74.1,
+    240.4,
+    276.4,
+    251.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "dd99dd66e0785c53652a84bb1c54c581ffe7dfc8df98246ff257a6335be56c51",
+   "literal": "10.2.5 Superficies para apoyo de contacto"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0150",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2.5 Superficies para apoyo de contacto",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.2 Operaciones de fabricación en taller 10.2.1 Corte / 10.2.5 Superficies para apoyo de contacto",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0004ac40b50bd9276e6e1108ddd18a19d9623230edd2dc8484b5c2866d86569f"
+ },
+ "paginas": [
+  113
+ ],
+ "etiquetas_impresas": [
+  "113"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.2.5 Superficies para apoyo de contacto\n1\nLos requisitos de planeidad y grado de acabado en apoyos por contacto deben especificarse en el\npliego de condiciones.\n2\nLas superficies deben estar acabadas formando ángulos rectos, cumpliendo las tolerancias geomé-\ntricas especificadas en este DB. En el caso de que se compruebe la planeidad antes del armado\nde una superficie simple contrastándola con un borde recto, el espacio entre superficie y borde no\nsuperará los 0,5 mm.\n3\nSe deben tener en cuenta durante la fabricación los requisitos para el ajuste después de la alinea-\nción y el atornillado que muestra la figura 10.1.\n4\nSi la separación supera los límites indicados podrán utilizarse cuñas y forros para reducirla y que\ncumpla con los límites especificados. Las cuñas pueden ser pletinas de acero inoxidable, no de-\nbiéndose utilizar más de tres en cualquier punto y pudiéndose fijar en su posición mediante solda-\nduras en ángulo o a tope con penetración parcial\n5\nSi hay rigidizadores con objeto de transmitir esfuerzos en apoyos de contacto total, la separación\nentre superficies de apoyo no será superior a 1 mm y menor que 0,5 mm sobre, al menos, las dos\nterceras partes del área nominal de contacto.\nFigura 10.1 Localización de un empalme en relación a la recta que pasa por los puntos de unión a forjados",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0113.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

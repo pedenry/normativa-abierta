@@ -1,0 +1,219 @@
+{
+ "documento": null,
+ "pagina": 28,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-24",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.4,
+    94.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn un paño rectangular, los valores de los momentos máximos pueden tomarse, para carga uniforme,\ncomo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    93.6,
+    97.7,
+    541.4,
+    109.2
+   ],
+   "tipo": "texto",
+   "texto": "MSdx1 = · qd L2\n(5.21)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    93.6,
+    113.1,
+    541.4,
+    153.4
+   ],
+   "tipo": "texto",
+   "texto": "MSdx2 =  · qd L2\n(5.22)\nsiendo:\nqd\nel valor de cálculo de la acción horizontal por unidad de superficie",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    93.6,
+    157.3,
+    541.4,
+    180.1
+   ],
+   "tipo": "texto",
+   "texto": "\nla relación entre las capacidades resistentes a flexión en dirección de los tendeles, MRd1 y en la\nde las llagas MRd2. Para comportamiento en placa, se puede adoptar:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    184.0,
+    541.5,
+    209.9
+   ],
+   "tipo": "texto",
+   "texto": " = fxk1 / fxk2\n(5.23)\no como valor aproximado:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.6,
+    213.8,
+    541.4,
+    239.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": " = fvk /  (0,1·fk)\n(5.24)\nfxk1, fxk2\nla resistencia a flexión de la fábrica, según tabla 4.6",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.6,
+    243.5,
+    541.4,
+    281.0
+   ],
+   "tipo": "texto",
+   "texto": "\nel coeficiente de flexión. Este coeficiente puede determinarse a partir de las tablas del Anejo G,\no de la teoría de placas en rotura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    292.3,
+    299.3,
+    302.3
+   ],
+   "tipo": "texto",
+   "texto": "5.4.3  Comprobación de la capacidad resistente",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    309.0,
+    541.4,
+    356.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEs aceptable el uso de cualquier procedimiento que dé como resultado un conjunto de esfuerzos en\nequilibrio con las acciones consideradas.\n2\nEn cualquier dirección, el momento de cálculo aplicado, MSd, será menor o igual que el momento\nresistente, MRd, es decir:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    360.3,
+    541.4,
+    386.2
+   ],
+   "tipo": "texto",
+   "texto": "MSd  MRd\n(5.25)\n3\nComo valor de MRd puede tomarse:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    106.6,
+    390.7,
+    541.5,
+    400.7
+   ],
+   "tipo": "texto",
+   "texto": "como pieza a flexión, si no hay compresión:\nMRd = fxd · Z\n(5.26)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    404.6,
+    541.5,
+    565.7
+   ],
+   "tipo": "texto",
+   "texto": "pieza a flexión, si hay compresión:\nMRd = (fxd + d) · Z\n(5.27)\ncomo arco con relación longitud a canto mayor de 35\nMRd = E·(td3 / L2)·r/8\n(5.28a)\ncomo arco con relación longitud a canto menor de 35\nMRd = (fd·td – fd2L2/ tdE)·r/2\n(5.28b)\nsiendo:\nZ\nmódulo resistente elástico a flexión de la sección bruta, igual a t2/6; en un muro apilastrado,\nse adoptará como longitud de resalto no más del décimo de la altura, para los sustentados\nen cabeza y base, y un quinto para los libres en cabeza.\nd\nvalor de cálculo de la tensión media de compresión del muro, en la sección que corres-\nponda\nr\naltura del arco, según 5.4.4\n4\nComo viga vertical, si no puede contarse con la resistencia a tracción, como es el caso de muros de\ncarga, en donde el fracaso del muro puede suponer el colapso de la estructura, o con acción sísmica:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    570.2,
+    541.4,
+    720.6
+   ],
+   "tipo": "texto",
+   "texto": "MRd1 = Nd · (t-2·e-Nd/fd)/2\n(5.29)\nsiendo:\nNd\nvalor de cálculo de la compresión vertical del muro debida a acciones verticales\nt\nel grueso del muro\ne\nla excentricidad de la compresión, con su signo, debida a las acciones verticales\n5\nEn otro caso, se podrá proceder análogamente, bien por reparto de los momentos isostáticos en cada\ndirección, de acuerdo a la relación de capacidades resistentes, tal como se ha hecho en (5.23) y\n(5.24), o por equilibrio límite en la situación de agotamiento por flexión, a partir de esos mismos pa-\nrámetros.\n6\nCuando en uno de los bordes exista una barrera antihumedad, no será necesario considerarla si la\ncarga vertical sobre la barrera asegura que, por causa del momento aplicado, no se supera la resis-\ntencia a la flexión (véase apartado 4.5.2.3). En otro caso se considerará como tendel hueco.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    732.0,
+    253.8,
+    742.0
+   ],
+   "tipo": "texto",
+   "texto": "5.4.4 Arco estribado en sus extremos",
+   "tamano": 10.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": "3.2.1.2",
+  "ruta_semantica": "3.2.1.2  Clases de uso",
+  "titulo": "3.2.1.2  Clases de uso",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.2.1.2  Clases de uso",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    70.9,
+    484.9,
+    177.0,
+    494.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5f5c8a8813d650858be5f7576fb989bf38b13b9fd423389e4abd47f0a71695c8",
+   "literal": "3.2.1.2  Clases de uso"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0042",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2.1.2  Clases de uso",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3  Durabilidad 3.1  Introducción / 3.2  Protección de la madera / 3.2.1  Protección preventiva frente a los agentes bióticos 3.2.1.1  Generalidades / 3.2.1.2  Clases de uso",
+   "seccion_estimada": "3  Durabilidad 3.1  Introducción",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "52c39f754346715c957347d11174a453431089a82010843717804bfe28b5533d"
+ },
+ "paginas": [
+  15,
+  16
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.2.1.2  Clases de uso\n1\nEl concepto de clase de uso está relacionado con la probabilidad de que un elemento estructural\nsufra ataques por agentes bióticos, y principalmente es función del grado de humedad que llegue a\nalcanzar durante su vida de servicio. Se definen las siguentes clases de uso.\na) clase de uso 1: el elemento estructural está a cubierto, protegido de la intemperie y no expuesto a\nla humedad. En estas condiciones la madera maciza tiene un contenido de humedad menor que el\n20%. Ejemplos: vigas o pilares en el interior de edificios;\nb) clase de uso 2: el elemento estructural está a cubierto y protegido de la intemperie pero, debido a\nlas condiciones ambientales, se puede dar ocasionalmente un contenido de humedad de la madera\nmayor que el 20 % en parte o en la totalidad del elemento estructural. Ejemplos: estructura de una\npiscina cubierta en la que se mantiene una humedad ambiental elevada con condensaciones ocasio-\nnales y elementos estructurales próximos a conductos de agua;\nc) clase de uso 3: el elemento estructural se encuentra al descubierto, no en contacto con el suelo.\nEl contenido de humedad de la madera puede superar el 20% Se divide en dos clases;\nClase de uso 3.1. El elemento estructural se encuentra al exterior, por encima del suelo y prote-\ngido, es decir sujeto a medidas de diseño y constructivas destinadas a impedir una exposición\nexcesiva a los efectos directos de la intemperie, inclemencias atmosféricas o fuentes de hume-\ndad. En estas condiciones la humedad de la madera puede superar ocasionalmente el contenido\nde humedad del 20%. Ejemplos: viga que vuela al exterior pero que en su zona superior y testas\nestán protegidas por una albardilla o piezas de sacrificio.\nClase de uso 3.2. el elemento estructural se encuentra al exterior, por encima del suelo y no pro-\ntegido. En estas condiciones la humedad de la madera supera frecuentemente el contenido de\nhumedad del 20%. Ejemplos: cualquier elemento cuya cara superior o testa se encuentre some-\n\nDocumentoBásico SE-M Madera\nSE-M 10\ntida a la acción directa del agua de la lluvia, pilar que sin estar empotrado en el suelo guarda con\néste una distancia reducida y está sometido a salpicaduras de lluvia o acumulaciones de nieve,\netc.\nd) clase de uso 4: el elemento estructural está en contacto con el suelo o con agua dulce y ex-\npuesto por tanto a una humidificación en la que supera permanentemente el contenido de humedad\ndel 20%. Ejemplos: construcciones en agua dulce y pilares en contacto directo con el suelo;\ne) clase de uso 5: situación en la cual el elemento estructural está permanentemente en contacto\ncon agua salada. En estas circunstancias el contenido de humedad de la madera es mayor que el\n20%, permanentemente. Ejemplo: construcciones en agua salada.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0016.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

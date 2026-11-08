@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0151",
+  "ruta_oficial": "10",
+  "ruta_semantica": "Fragmento de PDF p111",
+  "titulo": "10 Ejecución 10.1 Materiales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p111",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p111",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "11e4140bf2490f8f2a185585817fa31b5e268d6f302b1076916d7c0310a1b743"
+ },
+ "paginas": [
+  111
+ ],
+ "etiquetas_impresas": [
+  "111"
+ ],
+ "tipos": [],
+ "texto": "10 Ejecución 10.1 Materiales\n10.1 Materiales\n1\nEste capítulo se refiere a los elementos fabricados con los materiales relacionados en este DB y,\nen particular:\na)\naceros en chapas y perfiles de calidad S 235 a S 450, ambos inclusive. Si el material va a su-\nfrir durante la fabricación algún proceso capaz de modificar su estructura metalográfica (de-\nformación con llama, tratamiento térmico específico, etc.) el pliego de condiciones debe definir\nlos requisitos adicionales pertinentes;\nb)\ncaracterísticas mecánicas de los tornillos, tuercas y arandelas correspondientes a los tipos 4,6\na 10,9;\nc)\nel material de aportación para soldadura apropiado para los materiales a soldar y con las con-\ndiciones que establezca el procedimiento de soldeo. El valor máximo de carbono equivalente\ndebe calcularse a partir del análisis de o mediante la declaración del fabricante si éste tiene\nun sistema de control de la producción certificado;\nd)\nen aceros de resistencia mejorada a la corrosión atmosférica la resistencia a la corrosión del\nmaterial de aportación es equivalente a la del material base. Cuando se suelden este tipo de\naceros, el valor del carbono equivalente no debe exceder de 0,54 %;\ne)\nel metal de relleno o de la chapa dorsal es un acero con valor máximo de carbono equivalente\nno superior al 0,43% o ser del mismo material que el más soldable de los materiales de base\na unir.\n2\nNo deben cambiarse, sin autorización del director de obra, las calidades de material especificadas\nen el proyecto, aunque tal cambio implique aumento de características mecánicas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0152",
+  "a0153",
+  "a0154",
+  "a0155",
+  "a0161",
+  "a0170",
+  "a0176",
+  "a0177",
+  "a0181",
+  "a0182"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

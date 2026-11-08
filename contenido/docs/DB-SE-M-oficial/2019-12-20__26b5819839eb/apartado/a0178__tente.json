@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0178",
+  "ruta_oficial": null,
+  "ruta_semantica": "tente",
+  "titulo": "tente",
+  "nivel": 1,
+  "parent_id": "a0176",
+  "seccion_estimada": "tente",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 115,
+   "bbox": [
+    294.0,
+    514.7,
+    318.0,
+    523.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a928300809d5a47db35c60e1da2e78cf0f1a3ec33bbbd3bde2bd1000ba2b0ad2",
+   "literal": "tente"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0176",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "tente",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0176",
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / tente",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3623e5f2b48ba0bb2e2337410dc3a73802802e7958d96efd58858975059349c3"
+ },
+ "paginas": [
+  115,
+  116
+ ],
+ "etiquetas_impresas": [
+  "750",
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "tente\nPropiedades\nClase Resistente\nD18\nD24\nD30\nD35\nD40\nD50\nD60\nD70\nResistencia\n(característica),\nen\nN/mm²\n- Flexión\nfm,k\n18\n24\n30\n35\n40\n50\n60\n70\n- Tracción paralela\nft,0,k\n11\n14\n18\n21\n24\n30\n36\n42\n- Tracción perpendicular.\nft,90,k\n0,6\n0,6\n0,6\n0,6\n0,6\n0,6\n0,6\n0,6\n- Compresión paralela\nfc,0,k\n18\n21\n23\n25\n26\n29\n32\n34\n-Compresión\nperpendicular.\nfc,90,k\n7,5\n7,8\n8,0\n8,1\n8,3\n9,3\n10,5\n13,5\n- Cortante\nfv,k\n3,4\n4,0\n4,0\n4,0\n4,0\n4,0\n4,5\n5,0\nRigidez, kN/mm²\n-Módulo de elasticidad\nparalelo medio\nE0,medio\n10\n11\n12\n12\n13\n14\n17\n20\n- Módulo de elasticidad\nparalelo 5º-percentíl\nE0,k\n8,4\n9,2\n10,1\n10,1\n10,9\n11,8\n14,3\n16,8\n- Módulo de elasticidad\nperpendicular medio\nE90,medio\n0,67\n0,73\n0,80\n0,80\n0,86\n0,93\n1,13\n1,33\n- Módulo transversal\nmedio\nGmedio\n0,63\n0,69\n0,75\n075\n0,81\n0,88\n1,06\n1,25\nDensidad, kg/m3\n-Densidad característica\nk\n500\n520\n530\n540\n550\n620\n700\n900\n- Densidad media\nmedio\n610\n630\n640\n650\n660\n750\n840\n1080\n\nDocumentoBásico SE-M Madera\nSE-M 110",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0115_t01.json",
+  "../tabla/p0115_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0115.png",
+  "../figura/p0116.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

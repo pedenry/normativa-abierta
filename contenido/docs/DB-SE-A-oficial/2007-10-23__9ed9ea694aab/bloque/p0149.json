@@ -1,0 +1,736 @@
+{
+ "documento": null,
+ "pagina": 149,
+ "etiqueta_impresa": "149",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    298.2,
+    792.0,
+    335.6,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-147",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    97.6,
+    358.0,
+    113.2
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo C. Fatiga. Método de las curvas S-N",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    135.7,
+    182.1,
+    149.1
+   ],
+   "tipo": "texto",
+   "texto": "C.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    157.2,
+    541.4,
+    202.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl método de las curvas S-N que se presenta está basado en ensayos de fatiga sobre probetas a\ngran escala que incluyen los efectos geométricos y de imperfecciones estructurales debidas a la\nfabricación y montaje de la estructura (por ejemplo, las tensiones residuales de soldadura en los\ncordones realizados conforme a la buena práctica).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    220.4,
+    153.5,
+    233.8
+   ],
+   "tipo": "texto",
+   "texto": "C.2 Símbolos",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    74.1,
+    242.1,
+    538.6,
+    264.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nAdemás de los relacionados en el anejo A, en este anejo se utilizarán los siguientes símbolos es-\npecíficos:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    5.8,
+    270.8,
+    327.6,
+    283.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆σ\ncarrera nominal de tensiones normales",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    5.8,
+    289.1,
+    342.7,
+    301.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆τ\ncarrera nominal de tensiones tangenciales",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    5.8,
+    307.3,
+    541.4,
+    320.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆σE; ∆τE\ncarreras de tensión de amplitud constante equivalente correspondiente al número",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    153.2,
+    319.8,
+    253.2,
+    331.7
+   ],
+   "tipo": "texto",
+   "texto": "máximo de ciclos nmax",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    5.8,
+    337.1,
+    541.4,
+    350.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆σE,2; ∆τE,2 carreras de tensión de amplitud constante equivalente correspondiente a 2 millones de",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    153.2,
+    349.5,
+    181.1,
+    360.7
+   ],
+   "tipo": "texto",
+   "texto": "ciclos",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    5.8,
+    366.8,
+    384.5,
+    379.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆σC; ∆τC\nresistencia a la fatiga para NC = 2 millones de ciclos",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    5.8,
+    385.1,
+    431.8,
+    398.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆σD; ∆τD\nlímite de fatiga para carreras de tensión de amplitud constante",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    5.8,
+    403.3,
+    478.6,
+    416.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆σL; ∆τL\nlímite de truncamiento para carreras de tensión a un número de ciclos NL",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    5.8,
+    421.6,
+    398.4,
+    434.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∆σC, red\nvalor de referencia reducido para la resistencia a fatiga",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    5.8,
+    439.8,
+    532.1,
+    452.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γFf\nfactor parcial para las carreras de tensión de amplitud constante equivalente ∆σE; ∆τE",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    5.8,
+    458.1,
+    382.6,
+    471.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γMf\nfactor parcial para la resistencia a la fatiga ∆σC; ∆τC",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    5.8,
+    476.6,
+    361.1,
+    487.8
+   ],
+   "tipo": "texto",
+   "texto": "m\npendiente de la curva de resistencia a la fatiga",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    5.8,
+    493.8,
+    283.3,
+    506.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "λi\nfactores de daño equivalente",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    74.1,
+    523.5,
+    250.2,
+    536.9
+   ],
+   "tipo": "texto",
+   "texto": "C.3 Comprobación de la fatiga",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    74.1,
+    545.1,
+    311.7,
+    556.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nDebe comprobarse que, para la carga de fatiga:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    110.9,
+    570.6,
+    150.5,
+    589.7
+   ],
+   "tipo": "texto",
+   "texto": "1\n/\nMf\nC",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    99.5,
+    568.5,
+    143.7,
+    588.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\n,\nE\nFf\n≤\nγ\nσ\n∆",
+   "tamano": 9.2,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    99.5,
+    562.8,
+    540.7,
+    579.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "σ\n∆\nγ\n(C.1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 26,
+   "bbox": [
+    109.7,
+    605.4,
+    150.5,
+    625.5
+   ],
+   "tipo": "texto",
+   "texto": "1\n/\nMf\nC",
+   "tamano": 9.6,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    99.5,
+    603.2,
+    143.5,
+    623.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\n,\nE\nFf\n≤\nγ\nτ\n∆",
+   "tamano": 9.6,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    99.6,
+    597.2,
+    540.7,
+    615.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "τ\n∆\nγ\n(C.2)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 29,
+   "bbox": [
+    96.8,
+    632.7,
+    264.1,
+    643.9
+   ],
+   "tipo": "texto",
+   "texto": "y, en caso de tensiones combinadas:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    147.0,
+    651.8,
+    150.5,
+    658.9
+   ],
+   "tipo": "texto",
+   "texto": "3",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    115.3,
+    673.8,
+    139.2,
+    680.9
+   ],
+   "tipo": "texto",
+   "texto": "Mf\nC",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    108.4,
+    659.5,
+    139.7,
+    666.6
+   ],
+   "tipo": "texto",
+   "texto": "2\n,\nE\nFf",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    123.0,
+    660.1,
+    146.3,
+    682.0
+   ],
+   "tipo": "texto",
+   "texto": "/\n\n",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    98.2,
+    654.2,
+    146.3,
+    682.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    98.2,
+    654.2,
+    101.7,
+    665.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    103.7,
+    668.1,
+    131.3,
+    679.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γ\nσ\n∆",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 37,
+   "bbox": [
+    103.9,
+    653.9,
+    234.4,
+    679.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "σ\n∆\nγ\n +\n1\n/",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 38,
+   "bbox": [
+    215.5,
+    651.8,
+    219.1,
+    658.9
+   ],
+   "tipo": "texto",
+   "texto": "5",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    185.7,
+    673.8,
+    208.3,
+    680.9
+   ],
+   "tipo": "texto",
+   "texto": "Mf\nC",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    180.2,
+    659.8,
+    227.6,
+    681.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\n,\nE\nFf\n≤\n\n",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 41,
+   "bbox": [
+    170.3,
+    654.3,
+    215.2,
+    681.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    170.3,
+    654.3,
+    173.8,
+    665.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    175.9,
+    668.1,
+    200.7,
+    679.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γ\nτ\n∆",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 44,
+   "bbox": [
+    175.9,
+    654.1,
+    540.7,
+    671.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "τ\n∆\nγ\n(C.3)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 45,
+   "bbox": [
+    74.1,
+    688.8,
+    429.1,
+    701.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\nLas carreras de tensión debidas a las cargas frecuentes ψl Qk se limitan a:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 46,
+   "bbox": [
+    140.3,
+    739.7,
+    145.9,
+    750.9
+   ],
+   "tipo": "texto",
+   "texto": "3",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 47,
+   "bbox": [
+    119.9,
+    721.6,
+    138.8,
+    741.2
+   ],
+   "tipo": "texto",
+   "texto": "f\n5,1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 48,
+   "bbox": [
+    124.6,
+    708.2,
+    138.9,
+    719.4
+   ],
+   "tipo": "texto",
+   "texto": "f\n5,1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 49,
+   "bbox": [
+    139.5,
+    726.8,
+    143.0,
+    734.6
+   ],
+   "tipo": "texto",
+   "texto": "y",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 50,
+   "bbox": [
+    139.7,
+    713.4,
+    143.2,
+    721.2
+   ],
+   "tipo": "texto",
+   "texto": "y",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 51,
+   "bbox": [
+    98.7,
+    729.0,
+    117.6,
+    741.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤\nτ\n∆",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 52,
+   "bbox": [
+    101.7,
+    707.2,
+    122.3,
+    719.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤\nσ\n∆",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 53,
+   "bbox": [
+    149.8,
+    723.1,
+    544.3,
+    734.3
+   ],
+   "tipo": "texto",
+   "texto": "(C.4)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

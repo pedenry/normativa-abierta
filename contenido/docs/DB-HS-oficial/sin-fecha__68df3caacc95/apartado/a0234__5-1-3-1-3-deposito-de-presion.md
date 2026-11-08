@@ -1,0 +1,113 @@
+---
+
+
+documento: "DB-HS Salubridad"
+id: "DB-HS-oficial"
+capa: "oficial"
+version: "2022-06-14"
+id_tecnico: "a0234"
+ruta_oficial: "5.1.3.1.3"
+ruta_semantica: "5.1.3.1.3 Depósito de presión"
+parent_id: "a0231"
+nivel: 1
+titulo: "5.1.3.1.3 Depósito de presión"
+paginas_fisicas: "98-100"
+paginas_impresas: "98-100"
+sha256_documento: "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b"
+tipos: ""
+seccion_estimada: "5.1.3.1.3 Depósito de presión"
+titulo_navegacion: "5.1.3.1.3 Depósito de presión"
+ruta_fuente: "candidato_tipografico_plano"
+clasificacion_navegacion: "encabezado"
+es_encabezado_navegacion: true
+sha256_body_normativo: "b7d1448fe4f038720ac1f5888874cb4355ae28a62bdb26f05107f6921264181c"
+---
+
+# a0234 5.1.3.1.3 Depósito de presión
+
+5.1.3.1.3 Depósito de presión
+
+Documento Básico HS Salubridad
+HS 4 Suministro de agua
+99
+1
+Estará dotado de un presostato con manómetro, tarado a las presiones máxima y mínima de servi-
+cio, haciendo las veces de interruptor, comandando la centralita de maniobra y control de las bom-
+bas, de tal manera que estas sólo funcionen en el momento en que disminuya la presión en el inte-
+rior del depósito hasta los límites establecidos, provocando el corte de corriente, y por tanto la para-
+da de los equipos de bombeo, cuando se alcance la presión máxima del aire contenido en el depó-
+sito. Los valores correspondientes de reglaje han de figurar de forma visible en el depósito.
+2
+En equipos con varias bombas de funcionamiento en cascada, se instalarán tantos presostatos
+como bombas se desee hacer entrar en funcionamiento. Dichos presostatos, se tararán mediante
+un valor de presión diferencial para que las bombas entren en funcionamiento consecutivo para
+ahorrar energía.
+3
+Cumplirán la reglamentación vigente sobre aparatos a presión y su construcción atenderá en cual-
+quier caso, al uso previsto. Dispondrán, en lugar visible, de una placa en la que figure la contraseña
+de certificación, las presiones máximas de trabajo y prueba, la fecha de timbrado, el espesor de la
+chapa y el volumen.
+4
+El timbre de presión máxima de trabajo del depósito superará, al menos, en 1 bar, a la presión má-
+xima prevista a la instalación.
+5
+Dispondrá de una válvula de seguridad, situada en su parte superior, con una presión de apertura
+por encima de la presión nominal de trabajo e inferior o igual a la presión de timbrado del depósito.
+6
+Con objeto de evitar paradas y puestas en marcha demasiado frecuentes del equipo de bombeo,
+con el consiguiente gasto de energía, se dará un margen suficientemente amplio entre la presión
+máxima y la presión mínima en el interior del depósito, tal como figura en los puntos correspondien-
+tes a su cálculo.
+7
+Si se instalaran varios depósitos, estos pueden disponerse tanto en línea como en derivación.
+8
+Las conducciones de conexión se instalarán de manera que el aire comprimido no pueda llegar ni a
+la entrada al depósito ni a su salida a la red de distribución.
+5.1.3.2
+Funcionamiento alternativo del grupo de presión convencional
+1
+Se preverá una derivación alternativa (by-pass) que una el tubo de alimentación con el tubo de sali-
+da del grupo hacia la red interior de suministro, de manera que no se produzca una interrupción to-
+tal del abastecimiento por la parada de éste y que se aproveche la presión de la red de distribución
+en aquellos momentos en que ésta sea suficiente para abastecer nuestra instalación.
+2
+Esta derivación llevará incluidas una válvula de tres vías motorizada y una válvula antirretorno pos-
+terior a ésta. La válvula de tres vías estará accionada automáticamente por un manómetro y su co-
+rrespondiente presostato, en función de la presión de la red de suministro, dando paso al agua
+cuando ésta tome valor suficiente de abastecimiento y cerrando el paso al grupo de presión, de
+manera que éste sólo funcione cuando sea imprescindible. El accionamiento de la válvula también
+podrá ser manual para discriminar el sentido de circulación del agua en base a otras causas tales
+cómo avería, interrupción del suministro eléctrico, etc.
+3
+Cuando en un edificio se produzca la circunstancia de tener que recurrir a un doble distribuidor prin-
+cipal para dar servicio a plantas con presión de red y servicio a plantas mediante grupo de presión
+podrá optarse por no duplicar dicho distribuidor y hacer funcionar la válvula de tres vías con presio-
+nes máxima y/o mínima para cada situación.
+4
+Dadas las características de funcionamiento de los grupos de presión con accionamiento regulable,
+no será imprescindible, aunque sí aconsejable, la instalación de ningún tipo de circuito alternativo.
+5.1.3.3
+Ejecución y montaje del reductor de presión
+1
+Cuando existan baterías mezcladoras, se instalará una reducción de presión centralizada.
+2
+Se instalarán libres de presiones y preferentemente con la caperuza de muelle dispuesta en verti-
+cal.
+3
+Asimismo, se dispondrá de un racor de conexión para la instalación de un aparato de medición de
+presión o un puente de presión diferencial. Para impedir reacciones sobre el reductor de presión
+debe disponerse en su lado de salida como tramo de retardo con la misma medida nominal, un tra-
+mo de tubo de una longitud mínima de cinco veces el diámetro interior.
+4
+Si en el lado de salida se encuentran partes de la instalación que por un cierre incompleto del re-
+ductor serán sobrecargadas con una presión no admisible, hay que instalar una válvula de seguri-
+
+Documento Básico HS Salubridad
+HS 4 Suministro de agua
+100
+dad. La presión de salida del reductor en estos casos ha de ajustarse como mínimo un 20 % por
+debajo de la presión de reacción de la válvula de seguridad.
+5
+Si por razones de servicio se requiere un by-pass, éste se proveerá de un reductor de presión. Los
+reductores de presión se elegirán de acuerdo con sus correspondientes condiciones de servicio y
+se instalarán de manera que exista circulación por ambos.

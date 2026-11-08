@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0126",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p84",
+  "titulo": "∑",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p84",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p84",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / ∑",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "47577ebaf2298ac55b8183778e014f6033edca0e83d7036e164a01815fd934e6"
+ },
+ "paginas": [
+  84,
+  85
+ ],
+ "etiquetas_impresas": [
+  "84",
+  "85"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "∑\n(8.47)\nsiendo\nMp\nmomento plástico por unidad de longitud en la rótula –charnela– formada:\n0\nM\ny\n2\nf\np\n4\nf\nt\nM\nγ\n=\n(8.48)\n(fy es el límite elástico del acero de la chapa frontal o ala)\nm\ndistancia del eje del tornillo a la rótula o charnela (fig 8.15):\nEn extremos soldados:\n2\na\n8,0\n2\nt\nw\nm\nw−\n−\n=\n(8.49)\nEn extremos laminados:\nr\n8,0\n2\nt\nw\nm\nw−\n−\n=\n(8.50)\nb\nlongitud de la chapa frontal. No será superior a un valor eficaz, bef, que se podrá de-\nterminar mediante la teoría de líneas de rotura siempre que esté suficientemente con-\ntrastado experimentalmente. Véase (8.64), (8.65), (8.66) y (8.67) para uniones latera-\nles a pilares;\ns\ntoma los siguientes valores:\ne\nm\n25\n,1\ns\n≤\n≤\n(8.51)\ne\ns =\n, en el caso de la chapa frontal o unión de dos alas, debiéndose tomar en este\núltimo caso el menor de los valores de e.\nEl resto de los parámetros están definidos en la figura 8.15.\nd)\nPor formación de dos rótulas plásticas en cada ala de la T, una de ellas en el entronque ala-\nalma (véase figura 8.15) y otra en la línea de tornillos, que es el mecanismo más flexible de\nrotura.\nm\nM\nb 4\nF\np\nmax\n,d\n=\n(8.52)\nSe debe comprobar también la soldadura ala-alma en el caso de que la chapa frontal esté\nsoldada (casquillo en T soldado).\n\nDocumentoBásico SE-A Acero\nSE-A-83\nFigura 8.15 Unión en T a tracción",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0085_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0084.png",
+  "../figura/p0085.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

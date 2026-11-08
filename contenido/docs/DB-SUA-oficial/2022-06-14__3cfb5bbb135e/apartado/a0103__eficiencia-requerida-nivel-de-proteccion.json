@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0103",
+  "ruta_oficial": null,
+  "ruta_semantica": "Eficiencia requerida Nivel de protección",
+  "titulo": "Eficiencia requerida Nivel de protección",
+  "nivel": 1,
+  "parent_id": "a0102",
+  "seccion_estimada": "Eficiencia requerida Nivel de protección",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 30,
+   "bbox": [
+    160.3,
+    87.8,
+    454.2,
+    97.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2c555d08ca6c4c2ce237e575f6c3498700651b6d6e8898f89eb84ebf8e827dfa",
+   "literal": "Eficiencia requerida Nivel de protección"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0102",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Eficiencia requerida Nivel de protección",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0102",
+   "ruta_semantica": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo / 2 Tipo de instalación exigido / Eficiencia requerida Nivel de protección",
+   "seccion_estimada": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6eeb76272f3612f157cfb6ed0916c6fe238a54b9ef978c9f753ceb0de592b951"
+ },
+ "paginas": [
+  30
+ ],
+ "etiquetas_impresas": [
+  "30"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Eficiencia requerida Nivel de protección\nNivel de protección\nE > 0,98\n1\n0,95 < E <0,98\n2\n0,80 < E <0,95\n3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0030.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,70 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0053",
+  "ruta_oficial": "4.4",
+  "ruta_semantica": "Fragmento de PDF p20",
+  "titulo": "4.4 Efectos del tiempo 4.4.1 Durabilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p20",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p20",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.4 Efectos del tiempo 4.4.1 Durabilidad",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7e8c30ee89ab9285b21801b5481b277661006bde4db628d9ee9c80c6d40f26fb"
+ },
+ "paginas": [
+  20
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [],
+ "texto": "4.4 Efectos del tiempo 4.4.1 Durabilidad\n4.4.1 Durabilidad\n1\nDebe asegurarse que la influencia de acciones químicas, físicas o biológicas a las que está someti-\ndo el edificio no compromete su capacidad portante. Para ello, se tendrán en cuenta las acciones\nde este tipo que puedan actuar simultáneamente con las acciones de tipo mecánico, mediante un\nmétodo implícito o explicito.\n2\nEn el método implícito los riesgos inherentes a las acciones químicas, físicas o biológicas se tienen\nen cuenta mediante medidas preventivas, distintas al análisis estructural, relacionadas con las ca-\nracterísticas de los materiales, los detalles constructivos, los sistemas de protección o los efectos\nde las acciones en condiciones de servicio. Estas medidas dependen de las características e impor-\ntancia del edificio, de sus condiciones de exposición y de los materiales de construcción empleados.\nEn estructuras normales de edificación, la aplicación del este método resulta suficiente. En los do-\ncumentos básicos de seguridad estructural de los diferentes materiales y en la Instrucción de hor-\nmigón estructural EHE se establecen las medidas específicas correspondientes.\n3\nEn el método explícito, las acciones químicas, físicas o biológicas se incluyen de forma explícita en\nla verificación de los estados límite últimos y de Servicio. Para ello, dichas acciones se representa-\nrán mediante modelos adecuados que permitan describir sus efectos en el comportamiento estruc-\ntural. Estos modelos dependen de las características y de los materiales de la estructura, así como\nde su exposición.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0054",
+  "a0055"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

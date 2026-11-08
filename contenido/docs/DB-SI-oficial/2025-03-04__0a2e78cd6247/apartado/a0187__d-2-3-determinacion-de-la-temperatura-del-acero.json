@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0187",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.1 Generalidades / D.2.3 Determinación de la temperatura del acero",
+  "titulo": "D.2.3 Determinación de la temperatura del acero",
+  "nivel": 3,
+  "parent_id": "a0183",
+  "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 71,
+   "bbox": [
+    70.9,
+    354.8,
+    352.5,
+    368.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "ff47fd292abbb3ad329cf0c8fd71e951620f90c9522343c909b5d511b84c6935",
+   "literal": "D.2.3 Determinación de la temperatura del acero"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0123",
+  "parent_id_original": "a0183",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.2.3 Determinación de la temperatura del acero",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0183",
+   "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.1 Generalidades / D.2.3 Determinación de la temperatura del acero",
+   "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "13e41fbca0db9ffcd4e85c53da23d6a3155579c58d369537975747b336307920"
+ },
+ "paginas": [
+  71
+ ],
+ "etiquetas_impresas": [
+  "71"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "D.2.3 Determinación de la temperatura del acero\n1\nPara comprobar vigas o soportes, en función de la variación de los parámetros mecánicos del acero,\nestablecidas en la tabla D.2, es preciso obtener la temperatura en el elemento, mediante un cálculo\nincremental, de acuerdo con la variación de la temperatura del sector.\n2\nPara acero sin revestir, el incremento de temperatura en el acero, s,t, suponiéndola distribuida uni-\nformemente en la sección, en un incremento de tiempo t, se determina mediante la expresión:\nΔt\nh\nρ\nc\n/V\nA\n=\nΔθ\nd\nnet,\ns\ns\nm\ns,t\n\n(D.1)\nsiendo:\nAm/V\nfactor de forma, según se define en D.2.1;\ncs\ncalor específico del acero, que puede suponerse independiente de la temperatura, y de\nvalor cs= 600 J/kgK;\nh’net,d\nvalor de cálculo del flujo de calor neto por unidad de área (W/m2), que se considera suma\ndel valor del flujo de calor por radiación h’net,r  y por convección h’net,c , siendo:\nh’net,r  = ",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0071.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

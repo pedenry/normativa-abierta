@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0101",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo SI A Terminología / Escalera protegida",
+  "titulo": "Escalera protegida",
+  "nivel": 2,
+  "parent_id": "a0091",
+  "seccion_estimada": "Anejo SI A Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 44,
+   "bbox": [
+    70.9,
+    444.5,
+    163.2,
+    455.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "224808fd5857072b5aa47b933d0b926c2b8a3e2d8c3b252dcb608bd701417017",
+   "literal": "Escalera protegida"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0057",
+  "parent_id_original": "a0091",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SUA 1",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Escalera protegida",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0091",
+   "ruta_semantica": "Anejo SI A Terminología / Escalera protegida",
+   "seccion_estimada": "Anejo SI A Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1611cbc0edabf5ecbfd09529f948bcb41b920222b2aab7516c1beaf71ad7b8a7"
+ },
+ "paginas": [
+  44
+ ],
+ "etiquetas_impresas": [
+  "44"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Documento Básico SI en caso de Incendio\nAnejo A. Terminología\n44\nDensidad de carga de fuego\nCarga de fuego por unidad de superficie construida qf, o por unidad de superficie de toda la envolvente,\nincluidas sus aberturas, qt. (UNE-EN 1991-1-2:2004).\nDensidad de carga de fuego de cálculo\nDensidad de carga de fuego considerada para determinar las acciones térmicas en el cálculo en situa-\nción de incendio. Su valor tiene en cuenta las incertidumbres. (UNE-EN 1991-1-2:2004).\nEscalera abierta al exterior\nEscalera que dispone de huecos permanentemente abiertos al exterior que, en cada planta, acumulan una\nsuperficie de 5A m2, como mínimo, siendo A la anchura del tramo de la escalera, en m. Cuando dichos\nhuecos comuniquen con un patio, las dimensiones de la proyección horizontal de éste deben admitir el\ntrazado de un círculo inscrito de h/3 m de diámetro, siendo h la altura del patio.\nPuede considerarse como escalera especialmente protegida sin que para ello precise disponer de vestíbu-\nlos de independencia en sus accesos.\nEscalera especialmente protegida\nEscalera que reúne las condiciones de escalera protegida y que además dispone de un vestíbulo de inde-\npendencia diferente en cada uno de sus accesos desde cada planta. La existencia de dicho vestíbulo de\nindependencia no es necesaria cuando se trate de una escalera abierta al exterior, ni en la planta de salida\ndel edificio, cuando se trate de una escalera para evacuación ascendente, pudiendo la escalera en dicha\nplanta carecer de compartimentación.\nEscalera protegida\nEscalera de trazado continuo desde su inicio hasta su desembarco en planta de salida del edificio que,\nen caso de incendio, constituye un recinto suficientemente seguro para permitir que los ocupantes pue-\ndan permanecer en el mismo durante un determinado tiempo. Para ello debe reunir, además de las con-\ndiciones de seguridad de utilización exigibles a toda escalera (véase DB-SUA 1-4) las siguientes:\n1\nEs un recinto destinado exclusivamente a circulación y compartimentado del resto del edificio me-\ndiante elementos separadores EI 120. Si dispone de fachadas, éstas deben cumplir las condiciones\nestablecidas en el capítulo 1 de la Sección SI 2 para limitar el riesgo de transmisión exterior del in-\ncendio desde otras zonas del edificio o desde otros edificios.\nEn la planta de salidadel edificio las escaleras protegidas o especialmente protegidas para evacua-\nción ascendente pueden carecer de compartimentación. Las previstas para evacuación descendente\npueden carecer de compartimentación cuando sea un sector de riesgo mínimo.\n2\nEl recinto tiene como máximo dos accesos en cada planta, los cuales se realizan a través de puertas\nEI2 60-C5 y desde espacios de circulación comunes y sin ocupación propia.\nAdemás de dichos accesos, pueden abrir al recinto de la escalera protegida locales destinados a\naseo, así como los ascensores, siempre que las puertas de estos últimos abran, en todas sus plan-\ntas, al recinto de la escalera protegida considerada o a un vestíbulo de independencia.\nEn el recinto también pueden existir tapas de registro de patinillos o de conductos para instalaciones,\nsiempre que estas sean EI 60.\n3\nEn la planta de salidadel edificio, la longitud del recorrido desde la puerta de salida del recinto de la\nescalera, o en su defecto desde el desembarco de la misma, hasta una salida de edificio no debe ex-\nceder de 15 m, excepto cuando dicho recorrido se realice por un sector de riesgo mínimo, en cuyo caso",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SUA 1",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

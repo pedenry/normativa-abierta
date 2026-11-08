@@ -1,0 +1,351 @@
+{
+ "documento": null,
+ "pagina": 12,
+ "etiqueta_impresa": "12",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    210.5,
+    36.2,
+    401.2,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-AE Acciones en la edificación",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    795.0,
+    322.7,
+    806.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-AE 8",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    69.3,
+    541.6,
+    138.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa acción de viento genera además fuerzas tangenciales paralelas a la superficie. Se calculan co-\nmo el producto de la presión exterior por el coeficiente de rozamiento, de valor igual a 0,01 si la su-\nperficie es muy lisa, por ejemplo de acero o aluminio, 0,02 si es rugosa como en el caso de hormi-\ngón, y 0,04 si es muy rugosa, como en el caso de existencia de ondas, nervadura o pliegues. En las\nsuperficies a barlovento y sotavento no será necesario tener en cuenta la acción del rozamiento si\nsu valor no supera el 10% de la fuerza perpendicular debida a la acción del viento.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    151.4,
+    252.4,
+    164.8
+   ],
+   "tipo": "titulo",
+   "texto": "3.3.3 Coeficiente de exposición",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    170.1,
+    541.5,
+    227.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl coeficiente de exposición tiene en cuenta los efectos de las turbulencias originadas por el relieve\ny la topografía del terreno. Su valor se puede tomar de la tabla 3.4, siendo la altura del punto consi-\nderado la medida respecto a la rasante media de la fachada a barlovento. Para alturas superiores a\n30 m los valores deben obtenerse de las expresiones generales que se recogen en el Anejo D. Para\npaneles prefabricados de gran formato el punto a considerar es su punto medio.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    233.6,
+    541.5,
+    267.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn el caso de edificios situados en las cercanías de acantilados o escarpas de pendiente mayor de\n40º, la altura se medirá desde la base de dichos accidentes topográficos. Este Documento Básico\nsólo es de aplicación para alturas de acantilado o escarpa inferiores a 50 m.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    274.1,
+    541.4,
+    296.8
+   ],
+   "tipo": "texto",
+   "texto": "3\nA efectos de grado de aspereza, el entorno del edificio se clasificará en el primero de los tipos de la\ntabla 3.4 al que pertenezca, para la dirección de viento analizada.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    197.5,
+    320.6,
+    414.5,
+    331.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 3.4. Valores del coeficiente de exposición ce",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    337.4,
+    523.4,
+    347.4
+   ],
+   "tipo": "texto",
+   "texto": "Altura del punto considerado (m)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    87.4,
+    345.3,
+    222.0,
+    355.4
+   ],
+   "tipo": "texto",
+   "texto": "Grado de aspereza del entorno",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    368.1,
+    353.8,
+    538.6,
+    363.9
+   ],
+   "tipo": "texto",
+   "texto": "3\n6\n9\n12\n15\n18\n24\n30",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    74.3,
+    370.6,
+    537.3,
+    391.1
+   ],
+   "tipo": "texto",
+   "texto": "I\nBorde del mar o de un lago, con una superficie de agua en la\ndirección del viento de al menos 5 km de longitud\n2,4\n2,7\n3,0\n3,1\n3,3\n3,4\n3,5\n3,7",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    73.1,
+    397.3,
+    537.3,
+    407.4
+   ],
+   "tipo": "texto",
+   "texto": "II Terreno rural  llano sin obstáculos ni arbolado de importancia\n2,1\n2,5\n2,7\n2,9\n3,0\n3,1\n3,3\n3,5",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    71.8,
+    413.7,
+    360.1,
+    428.9
+   ],
+   "tipo": "texto",
+   "texto": "III Zona rural accidentada o llana con algunos obstáculos aislados,",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    87.4,
+    418.9,
+    537.3,
+    434.1
+   ],
+   "tipo": "texto",
+   "texto": "como árboles o construcciones pequeñas\n1,6\n2,0\n2,3\n2,5\n2,6\n2,7\n2,9\n3,1",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    71.3,
+    440.4,
+    537.3,
+    450.5
+   ],
+   "tipo": "texto",
+   "texto": "IV Zona urbana en general, industrial o forestal\n1,3\n1,4\n1,7\n1,9\n2,1\n2,2\n2,4\n2,6",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    72.6,
+    456.8,
+    357.6,
+    471.9
+   ],
+   "tipo": "texto",
+   "texto": "V Centro de negocio de grandes ciudades, con profusión de edificios",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    87.4,
+    462.0,
+    537.3,
+    477.2
+   ],
+   "tipo": "texto",
+   "texto": "en altura\n1,2\n1,2\n1,2\n1,4\n1,5\n1,6\n1,9\n2,0",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    491.1,
+    328.3,
+    504.5
+   ],
+   "tipo": "titulo",
+   "texto": "3.3.4 Coeficiente eólico de edificios de pisos",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    509.8,
+    541.4,
+    578.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn edificios de pisos, con forjados que conectan todas las fachadas a intervalos regulares, con hue-\ncos o ventanas pequeños practicables o herméticos, y compartimentados interiormente, para el\nanálisis global de la estructura, bastará considerar coeficientes eólicos globales a barlovento y sota-\nvento, aplicando la acción de viento a la superficie proyección del volumen edificado en un plano\nperpendicular a la acción de viento. Como coeficientes eólicos globales, podrán adoptarse los de la\ntabla 3.5.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    199.0,
+    584.7,
+    413.0,
+    594.8
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 3.5. Coeficiente eólico en edificios de pisos",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    70.9,
+    601.5,
+    497.9,
+    611.6
+   ],
+   "tipo": "texto",
+   "texto": "Esbeltez en el plano paralelo al viento",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    296.5,
+    618.4,
+    535.5,
+    628.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "< 0,25\n0,50\n0,75\n1,00\n1,25\n≥ 5,00",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    70.9,
+    635.3,
+    529.3,
+    645.7
+   ],
+   "tipo": "texto",
+   "texto": "Coeficiente eólico de presión, cp\n0,7\n0,7\n0,8\n0,8\n0,8\n0,8",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    70.9,
+    651.7,
+    530.8,
+    662.1
+   ],
+   "tipo": "texto",
+   "texto": "Coeficiente eólico de succión, cs\n-0,3\n-0,4\n-0,4\n-0,5\n-0,6\n-0,7",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    684.8,
+    541.4,
+    742.0
+   ],
+   "tipo": "texto",
+   "texto": "Para otros casos y como alternativa al coeficiente eólico global se podrá determinar la acción de\nviento como resultante de la que existe en cada punto, a partir de los coeficientes eólicos que se es-\ntablecen en del Anejo D.2 para diversas formas canónicas, aplicando los de la que presente rasgos\nmás coincidentes con el caso analizado, considerando en su caso la forma conjunta del edificio con\nlos medianeros.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

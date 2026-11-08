@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0265",
+  "ruta_oficial": null,
+  "ruta_semantica": "F.2.8 Cálculo de esfuerzos en pilotes",
+  "titulo": "F.2.8 Cálculo de esfuerzos en pilotes",
+  "nivel": 1,
+  "parent_id": "a0258",
+  "seccion_estimada": "F.2.8 Cálculo de esfuerzos en pilotes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 156,
+   "bbox": [
+    70.9,
+    425.5,
+    284.4,
+    437.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e8c5f1514526940054c30adfb247c8507a2f4a188eee26744a3577b4703c8aa9",
+   "literal": "F.2.8 Cálculo de esfuerzos en pilotes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0258",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado\n2.4.2.5"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "F.2.8 Cálculo de esfuerzos en pilotes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0258",
+   "ruta_semantica": "1 · (pl – Ko po) / F.2.8 Cálculo de esfuerzos en pilotes",
+   "seccion_estimada": "1 · (pl – Ko po)",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1b17028cfcfe1dd571be64c4f20f5c19553391e9e3380753703c47733d726bd8"
+ },
+ "paginas": [
+  156,
+  157
+ ],
+ "etiquetas_impresas": [
+  "2",
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "F.2.8 Cálculo de esfuerzos en pilotes\n1\nPara obtener los esfuerzos en la parte enterrada de los pilotes, cuando se utilice el mismo modelo\nque el indicado en el apartado F.2.7.1, se aceptará la solución simplificada que se recoge en la Fi-\ngura F.10.\n2\nPara poder usar el modelo estructural de la Figura F.10 se determinarán previamente los valores de\ncálculo de los efectos de las acciones de la estructura sobre el pilote según se indica en el apartado\n2.4.2.5 utilizando los coeficientes de seguridad parciales, E, que se indican en la tabla 2.1. En dicha\nfigura a estos esfuerzos se les denomina Ho y Mo (cortante y momento flector, respectivamente).\n3\nEl valor de la profundidad zo, en la Figura F.10 es función exclusiva de la longitud enterrada del\npilote, que se denomina “L” en dicha figura, y de la longitud elástica “T”, que se define en el aparta-\ndo F.2.7.1 en función del producto de inercia de la sección transversal del pilote (EI) y de la defor-\nmabilidad del terreno.\n4\nEl momento flector en la parte enterrada de la Figura F.10 se puede evaluar componiendo las par-\ntes debidas al esfuerzo de corte, Ho, parte superior de la figura, y el debido al momento flector Mo,\nparte inferior de la figura.\n\nDocumento Básico SE-C Cimientos\nSE-C-152\nFigura F.10. Atenuación de esfuerzos en la parte enterrada de los pilotes",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado\n2.4.2.5"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0156.png",
+  "../figura/p0157.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

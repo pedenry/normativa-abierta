@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0084",
+  "ruta_oficial": "4",
+  "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 4 Elementos estructurales secundarios",
+  "titulo": "4 Elementos estructurales secundarios",
+  "nivel": 2,
+  "parent_id": "a0080",
+  "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 40,
+   "bbox": [
+    70.9,
+    162.6,
+    359.4,
+    178.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "08bf023e3f93f60c3749adc89be441665af1dcfbfc484af26d316c601d38d00a",
+   "literal": "4 Elementos estructurales secundarios"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0041",
+  "parent_id_original": "a0080",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4 Elementos estructurales secundarios",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0080",
+   "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 4 Elementos estructurales secundarios",
+   "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bf8983b582701c6f549aa965e3f08c7b49c5956dcb275d091df822322c01a116"
+ },
+ "paginas": [
+  40
+ ],
+ "etiquetas_impresas": [
+  "40"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Elementos estructurales secundarios\n1\nLos elementos estructurales cuyo colapso ante la acción directa del incendio no pueda ocasionar\ndaños a los ocupantes, ni comprometer la estabilidad global de la estructura, la evacuación o la\ncompartimentación en sectores de incendio del edificio, como puede ser el caso de pequeñas entre-\nplantas o de suelos o escaleras de construcción ligera, etc., no precisan cumplir ninguna exigencia\nde resistencia al fuego.\nNo obstante, todo suelo que, teniendo en cuenta lo anterior, deba garantizar la resistencia al fuego R\nque se establece en la tabla 3.1 del apartado anterior, debe ser accesible al menos por una escalera\nque garantice esa misma resistencia o que sea protegida.\n2\nLas estructuras sustentantes de cerramientos formados por elementos textiles, tales como carpas,\nserán R 30, excepto cuando se acredite que el elemento textil, además de ser nivel T2 conforme a la\nnorma UNE-EN 15619:2014 o C-s2,d0, conforme a la UNE-EN 13501-1:2007, según se establece en\nel Capítulo 4 de la Sección 1 de este DB, presenta, en todas sus capas de cubrición, una perforación\nde superficie igual o mayor que 20 cm2 tras el ensayo definido en la norma UNE-EN 14115:2002.\n5",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,246 @@
+{
+ "documento": null,
+ "pagina": 16,
+ "etiqueta_impresa": "16",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    210.5,
+    36.2,
+    401.2,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-AE Acciones en la edificación",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.0,
+    795.0,
+    324.9,
+    806.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-AE 12",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    69.3,
+    541.4,
+    127.3
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn un faldón limitado inferiormente por cornisas o limatesas, y en el que no hay impedimento al\ndeslizamiento de la nieve, el coeficiente de forma tiene el valor de 1 para cubiertas con inclinación\nmenor o igual que 30º y 0 para cubiertas con inclinación de mayor o igual que 60º (para valores in-\ntermedios se interpolará linealmente). Si hay impedimento, se tomará µ = 1 sea cual sea la inclina-\nción.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    133.6,
+    538.6,
+    156.3
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn un faldón que limita inferiormente con una limahoya, lo que supone un impedimento al desliza-\nmiento de la nieve, se distinguen dos casos:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    162.6,
+    538.7,
+    185.2
+   ],
+   "tipo": "texto",
+   "texto": "a)\nsi el faldón sucesivo está inclinado en el mismo sentido, como coeficiente de forma del de en-\ncima se tomará el correspondiente a la inclinación del de debajo en una anchura de 2m.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    191.3,
+    541.4,
+    227.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "b)\nsi está inclinado en sentido contrario, y la semisuma de las inclinaciones, β, es mayor de 30º,\nel coeficiente de forma de ambos será de 2,0; en otro caso será µ = 1 + β/30º en una anchura de\n2m.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    211.5,
+    344.5,
+    400.5,
+    354.6
+   ],
+   "tipo": "texto",
+   "texto": "Figura 3.3 Coeficiente de forma en faldones",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    360.9,
+    541.4,
+    395.1
+   ],
+   "tipo": "texto",
+   "texto": "4\nSe tendrán en cuenta las posibles distribuciones asimétricas de nieve, debidas al trasporte de la\nmisma por efecto del viento, reduciendo a la mitad el coeficiente de forma en las partes en que la\nacción sea favorable.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    408.5,
+    230.9,
+    421.9
+   ],
+   "tipo": "titulo",
+   "texto": "3.5.4 Acumulación de nieve",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    427.2,
+    541.4,
+    474.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nAdicionalmente, en los faldones limitados inferiormente por limatesas y cuyo coeficiente de forma,\nµ, sea menor que la unidad, descargan parte de la nieve aguas abajo. Tal descarga ocasiona acu-\nmulaciones de nieve si hay discontinuidades como limahoyas o cambios de nivel en esa dirección.\nLa descarga total por unidad de longitud, pd, puede evaluarse como:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.8,
+    479.7,
+    541.1,
+    492.6
+   ],
+   "tipo": "texto",
+   "texto": "pd = (1-µ)·L·sk\n(3.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.6,
+    498.2,
+    128.7,
+    509.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    93.6,
+    515.7,
+    440.4,
+    526.9
+   ],
+   "tipo": "texto",
+   "texto": "L\nproyección horizontal media de la recta de máxima pendiente del faldón.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    533.2,
+    541.4,
+    556.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa acumulación de nieve sobre una discontinuidad (limahoya o cambio de nivel) aguas abajo del\nfaldón se simula mediante una carga lineal, pa, de valor:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    93.6,
+    562.0,
+    541.1,
+    574.9
+   ],
+   "tipo": "texto",
+   "texto": "pa = min (µi, 1) · pd\n(3.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    580.4,
+    541.5,
+    603.1
+   ],
+   "tipo": "texto",
+   "texto": "que puede suponerse repartida uniformemente en un ancho no mayor que 2,0 m a un lado u otro de\nla limahoya o del cambio de nivel.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    609.5,
+    541.6,
+    655.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nSi queda descarga por repartir (pd > pa), se considerará otra discontinuidad más debajo sometida a\nla carga restante, y así sucesivamente hasta repartir la totalidad de la descarga o llegar al perímetro\ndel edificio. En cualquier caso, la suma de todas las cargas sobre discontinuidades no será mayor\nque la descarga total del faldón.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    661.4,
+    538.6,
+    684.1
+   ],
+   "tipo": "texto",
+   "texto": "4\nSobre cada discontinuidad se sumarán, en su caso, las descargas que puedan provenir de los dis-\ntintos faldones que haya aguas arriba.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

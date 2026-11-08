@@ -1,0 +1,49 @@
+{
+ "documento": null,
+ "pagina": 107,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    286.9,
+    797.9,
+    324.7,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 101",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.2,
+    770.2
+   ],
+   "tipo": "texto",
+   "texto": "ft,90,g,d\nresistencia de cálculo a tracción perpendicular a la fibra de la madera laminada encolada\nft,p,d\nresistencia de cálculo a tracción del tablero estructural\nft,0,k\nresistencia característica a tracción paralela a la fibra de la madera aserrada\nft,0,g,k\nresistencia característica a tracción paralela a la fibra de la madera laminada encolada\nft,90,k\nresistencia característica a tracción perpendicular a la fibra de la madera aserrada\nft,90,g,k\nresistencia característica a tracción perpendicular a la fibra de la madera laminada encolada\nft,p,k\nresistencia característica a tracción del tablero estructural\nfu,k\nresistencia característica a tracción del acero de un elemento mecánico de fijación\nfv,d\nresistencia de cálculo a cortante de la madera aserrada\nfv,g,d\nresistencia de cálculo a cortante de la madera laminada encolada\nfv,p,d\nresistencia de cálculo a cortante en el grueso del tablero estructural (véase fv,r,d)\nfv,r,d\nresistencia de cálculo a cortante en el plano (a rodadura) del tablero estructural (véase fv,p,d)\nfv,k\nresistencia característica a cortante de la madera aserrada\nfv,g,k\nresistencia característica a cortante de la madera laminada encolada\nfv,p,k\nresistencia característica a cortante en el grueso del tablero estructural (véase fv,r,k)\nfv,r,k\nresistencia característica a cortante en el plano (a rodadura) del tablero estructural (véase fv,p,k)\nfv,0,d\n(= fv,p,d) resistencia característica a cortante en el grueso del tablero.\nSe denomina, también, resistencia al cortante de cizalladura\nfv,90,d\n(= fv,r,d) resistencia característica a cortante en el plano del tablero.\nSe denomina, también, resistencia al cortante de rodadura.\nh\naltura; canto; espesor\nhap\ncanto en el vértice (vigas de madera laminada encolada con zona de vértice)\nhf,c\nespesor (canto) del ala comprimida (Vigas mixtas de alma o alas delgadas encoladas)\nhf,t\nespesor (canto) del ala traccionada (Vigas mixtas de alma o alas delgadas encoladas)\nht\naltura total del edificio (deformaciones horizontales de las estructuras de madera)\nhw\n distancia entre el ala comprimida y el ala traccionada (vigas mixtas de alma o alas delgadas\nencoladas)\ni\nradio de giro\niy(z)\nradio de giro respecto al eje y (z) (de la sección)\nk\ncoeficiente; factor\nkc\nfactor por pandeo (soportes esbeltos)\nkc,y (z)\nfactor por pandeo respecto al eje y(z). (soportes esbeltos)\nkc,90\nfactor por relación de dimensiones (compresión perpendicular a la fibra de la madera)\nkcrit\n factor por vuelco lateral\nkdef\nfactor por deformación diferida (factor reológico)\nkdis\nfactor por distribución de tensiones en la zona del vértice (vigas de madera laminada encolada con\nzona de vértice)\nkh\nfactor por altura (de la probeta ensayada)\nkis\nfactor por carga compartida\nkm\nfactor por tipo de sección (en flexión)\nkmod\nfactor de modificación (por duración de la carga y clase de servicio)\nkvol\n factor por relación de volúmenes tensionados (vigas de madera laminada encolada con zona de\nértice)\nl\nlongitud; distancia; luz\nlk\nlongitud de pandeo\nlef\nlongitud de vuelco lateral\nm\nnúmero de tramos de longitud a (elementos comprimidos con restricciones laterales)\nn\n número total de elementos mecánicos de fijación trabajando al unísono (uniones a cortadura o al\narranque)\nnef\n número eficaz del total de los n elementos mecánicos de fijación alineados con la dirección de la\ncarga. (Uniones a cortadura)\nq\ncarga lineal uniformemente repartida\nr\nradio medio en el vértice (vigas de madera laminada encolada con intradós curvo)\nrin\nradio del intradós (vigas de madera laminada encolada con intradós curvo)\ns\nseparación\nsef\nseparación eficaz entre elementos mecánicos de fijación (véase a1 y a2)\nsmáx\nseparación máxima entre elementos mecánicos de fijación\nsmín\nseparación mínima entre elementos mecánicos de fijación\nt\nespesor; longitud de entrega, en cada pieza de la unión, del elemento mecánico de fijación\nt\nespesor de la chapa de acero (uniones acero-madera)\nt1(t2)\nlongitud de entrega del elemento mecánico de fijación en la pieza de la unión que contiene t1(t2)\nufin\nflecha final; deslizamiento final del elemento mecánico de fijación en la unión\nuins\nflecha instantánea; deslizamiento instantáneo del elemento mecánico de fijación en la unión\nunet\nflecha neta respecto a la línea recta que une los apoyos",
+   "tamano": 9.5,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0071",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p39",
+  "titulo": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p39",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p39",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+   "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "239aa189d0962e1c3ac47116bda5345182ebb545ec813dd53ff8f40aace81b11"
+ },
+ "paginas": [
+  39
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo D Evaluación estructural de edificios existentes D.1 Generalidades\nD.1 Generalidades\nD.1.1 Ámbito de aplicación\n1\nEste Anejo define las bases y los procedimientos para la evaluación estructural de edificios existen-\ntes, en concordancia con los principios del análisis de la seguridad estructural. Si bien los conceptos\nbásicos para el análisis de la seguridad estructural de un edificio están establecidos en el Anejo C,\nen la evaluación estructural de edificios existentes puede existir un mayor grado de diferenciación\nde la seguridad que para el dimensionado estructural de edificios de nueva construcción, debido a\nconsideraciones de tipo económico, social o medioambiental.\n2\nLos criterios generales establecidos en este Anejo son aplicables para la evaluación estructural de\ncualquier tipo de edificio existente, si se cumple alguna de las siguientes condiciones:\na)\nse ha concebido, dimensionado y construido de acuerdo con las reglas en vigor en el momento\nde su realización;\nb)\nse ha construido de acuerdo con la buena práctica, la experiencia histórica y la práctica profe-\nsional aceptada.\n3\nLa evaluación de la seguridad estructural en caso de incendio está fuera del alcance de este anejo.\nNo obstante, la evaluación de la seguridad estructural tras un incendio puede realizarse de acuerdo\ncon las reglas aquí incluidas.\nD.1.2 Consideraciones previas\n1\nNo es adecuada la utilización directa de las normas y reglas establecidas en este CTE en la evalua-\nción estructural de edificios existentes, construidos en base a reglas anteriores a las actuales para\nlos edificios de nueva construcción, por los siguientes motivos:\nc)\ntoda evaluación debe realizarse teniendo en cuenta las características y las condiciones reales\ndel edificio (lo que normalmente no está contemplado en las normas de dimensionado que in-\ncorporan la incertidumbre asociada al proceso);\nd)\nlas normas actuales suelen estar basadas en exigencias diferentes y generalmente más estric-\ntas que las vigentes en el momento en que se proyectó el edificio, por lo cual, muchos edificios\nexistentes se clasificarían como no fiables si se evaluaran según las normas actuales;\ne)\nse puede considerar, en muchos casos, un período de servicio reducido, lo que se traduce\ntambién en una reducción de las exigencias;\nf)\nse pueden emplear modelos de análisis más afinados (a través inspecciones, ensayos, medi-\nciones in situ o consideraciones teóricas), lo que puede aportar beneficios adicionales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0039.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0072",
+  "a0073",
+  "a0074",
+  "a0075",
+  "a0076",
+  "a0077",
+  "a0078"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,220 @@
+{
+ "documento": null,
+ "pagina": 31,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    796.4,
+    320.8,
+    806.4
+   ],
+   "tipo": "texto",
+   "texto": "SE - 25",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    94.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn algunos casos, a efectos de una optimización económica, el grado de la aptitud al servicio se\npuede expresar en términos económicos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    109.7,
+    211.7,
+    121.7
+   ],
+   "tipo": "texto",
+   "texto": "C.4 Niveles de fiabilidad",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    133.2,
+    227.7,
+    143.2
+   ],
+   "tipo": "texto",
+   "texto": "C.4.1 Seguridad de las personas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    149.8,
+    541.3,
+    306.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa fiabilidad estructural está relacionada, en primer lugar, con la posibilidad de que se produzcan\ndaños personales (muertos, heridos) como consecuencia de un colapso.\nSe puede determinar un valor máximo aceptable para la probabilidad de fallo a partir de una compa-\nración con los riesgos mortales asociados con otras actividades de la vida diaria (por ejemplo viajar\nen coche). A estos efectos, se debe distinguir entre los riesgos mortales desde el punto de vista de\nlas personas como individuos (riesgo mortal individual) y desde el punto de vista de la sociedad\n(riesgo colectivo para las personas).\n2\nPara el riesgo mortal individual asociado con el colapso de las estructuras se podría asumir un valor\nadmisible que esté aproximadamente dos órdenes de magnitud por debajo del valor total del riesgo\nmortal individual asociado con accidentes en general.\nLa probabilidad de fallo admisible para una estructura depende de la probabilidad condicional de\nque una persona muera dado el colapso de esta estructura, y del riesgo mortal individual admisible\nasociado a los edificios",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    94.3,
+    314.3,
+    534.8,
+    324.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "P(f | año)·P(d | f)  ≤ ri,adm\n(C.6)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    94.3,
+    331.8,
+    126.6,
+    341.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.6,
+    348.5,
+    487.0,
+    360.0
+   ],
+   "tipo": "texto",
+   "texto": "P(f  año) probabilidad de fallo de la estructura para un periodo de referencia de un año",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    363.8,
+    541.3,
+    499.2
+   ],
+   "tipo": "texto",
+   "texto": "P(d  f)\nprobabilidad de que un usuario del edificio, presente en el momento del colapso, en-\ncuentre la muerte, dado el colapso del edificio (probabilidad condicional)\nri,adm\nriesgo mortal individual admisible, asociado con el comportamiento estructural, expresa-\ndo en términos de [(número de muertos) / (106 · año)].\n3\nEl requisito (C.6) se refiere a un periodo de un año y se debería considerar como un valor medio\nsobre un determinado periodo de referencia (por ejemplo el periodo de servicio previsto o, alternati-\nvamente, un periodo del orden de 10 a 20 años). En términos generales, serían aceptables desvia-\nciones de este valor medio anual. Sin embargo, sólo se podrían aceptar valores superiores, para un\nperiodo de tiempo mucho más breve que el periodo de referencia.\n4\nDesde el punto de vista social, se deben evitar accidentes (frecuentes) con un gran número de\nmuertos. A estos efectos, se deberá cumplir la condición",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.6,
+    502.8,
+    540.4,
+    572.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "P(f | año) ≤ A·N-\n(C.7)\nsiendo\nP(f | año) probabilidad de fallo de la estructura para un periodo de referencia de un año\nN\nnúmero supuesto de muertos\nA\nconstante (por ejemplo A = 0,01 a 0,1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    576.3,
+    541.3,
+    636.7
+   ],
+   "tipo": "texto",
+   "texto": "\nconstante (por ejemplo  = 1 a 2)\n5\nSe puede admitir una probabilidad de fallo estructural que supere el valor más restrictivo de los\ndeducidos de las condiciones (C.6) y (C.7) si se adoptan medidas de protección específicas (por\nejemplo un plan de evacuación en caso de emergencia), con el fin de cumplir con los requisitos re-\nlativos a el riesgo mortal individual y el riesgo colectivo para las personas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    648.1,
+    218.2,
+    658.1
+   ],
+   "tipo": "texto",
+   "texto": "C.4.2 Optimización económica",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    664.7,
+    541.3,
+    735.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nDesde el punto de vista económico, el nivel de fiabilidad requerido se puede determinar estable-\nciendo un equilibrio entre las consecuencias de un fallo estructural de un edificio y el coste de las\nmedidas de protección y de seguridad.\n2\nEl objetivo de una optimización económica consiste en minimizar el coste total acumulado durante\nel periodo de servicio previsto. Formalmente, el coste total se puede representar mediante la rela-\nción",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    94.3,
+    742.0,
+    534.8,
+    753.5
+   ],
+   "tipo": "texto",
+   "texto": "Ctot = Cb + Cm + (Pf · Cf)\n(C.8)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    93.6,
+    760.9,
+    128.6,
+    770.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,98 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0070",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.7 El formato de los coeficientes parciales",
+  "titulo": "C.7 El formato de los coeficientes parciales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.7 El formato de los coeficientes parciales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 35,
+   "bbox": [
+    70.9,
+    633.5,
+    321.7,
+    645.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "62fe7d3a2a311ca7a996c44d802cd2a0dbce9e3515a2b079de2237c98fff719e",
+   "literal": "C.7 El formato de los coeficientes parciales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.7 El formato de los coeficientes parciales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.7 El formato de los coeficientes parciales",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "77cb107c406adfd55409265d79087f3d0bd3ca9579d10a520eae665d7ee59c33"
+ },
+ "paginas": [
+  35,
+  36,
+  37,
+  38,
+  39
+ ],
+ "etiquetas_impresas": [
+  "2",
+  "5",
+  null,
+  null,
+  "3"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "C.7 El formato de los coeficientes parciales\nC.7.1 Coeficientes parciales basados en valores de cálculo\n1\nLos métodos probabilistas implícitos que se utilizan normalmente en la práctica a efectos del di-\nmensionado de las estructuras, no emplean directamente valores de cálculo para las variables, xd.\nLas variables aleatorias se introducen mediante sus valores representativos (según 3), que se em-\nplean con un conjunto de coeficientes parciales para las acciones e influencias y para la resistencia\n(según 4).\n2\nEn la mayoría de los casos, la condición que debe cumplirse puede expresarse en los siguientes\ntérminos\n\nDocumento Básico SE Seguridad Estructural\nSE - 30\n \n\n0\nE\nR\nx\ng\nd\nd\nd\n\n\n\n(C.21)\nsiendo\nEd\nvalor de cálculo de los efectos de las acciones / influencias\nRd\nvalor de cálculo de la resistencia correspondiente.\n3\nLos valores de cálculo de los efectos de las acciones / influencias y de la resistencia, respectiva-\nmente, se pueden expresar a través de\n \n\n...\n,\n,\na\n,\nF\nE\nE\nd\nd\nd\nd\n\n\n(C.22)\n \n\n...\n,\n,\na\n,\nf\nR\nR\nd\nd\nd\nd\n\n\n(C.23)\nsiendo\nFd\nvalores de cálculo de las acciones / influencias\nad\nvalores de cálculo de las dimensiones geométricas\nd\nvalores de cálculo de los coeficientes de incertidumbre de los modelos\nfd\nvalores de cálculo de las propiedades de los materiales.\n4\nLos valores de cálculo de las diferentes variables se determinan a partir de las siguientes relaciones\na)\nValor de cálculo de una acción / influencia\nF\nF\nk\nf\nd\n\n\n\n(C.24a)\nF\nF\nk\n0\nf\nd\n\n\n\n\n\n(C.24b)\nsiendo\nFk\nvalor característico de una acción / influencia\nf\ncoeficiente parcial para la misma acción / influencia\n0\ncoeficiente para el valor de combinación de una acción variable.\nb)\nValor de cálculo de una propiedad de un material\nm\nk\nd\nf\nf\n\n\n(C.25)\nsiendo\nfk\nvalor característico de una propiedad de un material\nm coeficiente parcial para la misma propiedad del material\nc)\nValor de cálculo de una dimensión geométrica\na\na\na\nnom\nd\n\n\n\n(C.26)\nsiendo\nanom\nvalor nominal de la dimensión\na\ndesviación de la dimensión de su valor nominal\nd)\nValor de cálculo del coeficiente de incertidumbre de un modelo\nNormalmente, los valores de cálculo de los coeficientes de incertidumbre de los modelos se intro-\nducen en los cálculos a través de los coeficientes parciales, respectivamente para el modelo de los\nefectos de las acciones, Ed, y para el modelo de resistencia, Rd:\n \n\n...\n,\na\na\n,\nF\n,\nF\nE\nE\nnom\nk\n0\nf\nk\nf\nEd\nd\n\n\n\n\n\n\n\n\n\n\n\n(C.27)\n\n\n\n\n\n\n\n\n\n\n\n\n...\n,\na\na\n,\nf\nR\n1\nR\nnom\nm\nk\nRd\nd\n(C.28)\n5\nLos coeficientes parciales se podrán deducir a partir de los valores de cálculo de las variables, de-\nterminados por ejemplo según C.6, de acuerdo con las relaciones:\n\nDocumento Básico SE Seguridad Estructural\nSE - 31\nk\nd\nf\nF\nF\n\n\n(C.29)\nd\nk\nm\nf\nf\n\n\n(C.30)\n6\nDesde un punto de vista práctico, el formato anterior para la determinación de los valores de cálculo\nde los efectos de las acciones y de la resistencia conduce a cálculos laboriosos. Por este motivo se\npodrán adoptar las siguientes simplificaciones:\na)\npara los efectos de las acciones y de las influencias\n \n\nnom\nk\nF\nd\na\n,\nF\nE\nE\n\n\n\n(C.31)\nb)\npara la resistencia\n\n\n\n\n\n\n\n\nnom\nM\nk\nd\na\n,\nf\nR\nR\no alternativamente\n(C.32a)\n \n\nnom\nk\nR\nd\na\n,\nf\nR\n1\nR\n\n\n\n(C.32b)\nEn estos casos, los coeficientes parciales F y M oR deberán calibrarse de modo que (C.31) y\n(C.32) conduzcan a los mismos resultados que las ecuaciones originales.\nC.7.2 Coeficientes parciales calibrados\n1\nPartiendo de un formato arbitrario de coeficientes parciales, el objetivo de la calibración consiste en\nla deducción de coeficientes parciales de modo que la fiabilidad estructural resultante se desvíe lo\nmenos posible de la fiabilidad requerida y predefinida.\n2\nEl proceso de calibración consta de los siguientes pasos:\na)\nDefinición de un formato de coeficientes parciales\n0\n...\n,\nF\n,\nF\n...,\n,\nf\n,\nf\ng\nk2\nf2\nk1\nf1\n2\nm\n2\nk\n1\nm\n1\nk\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C.33)\nsiendo\nfki\nvalor característico de una propiedad (por ejemplo la resistencia) del material i\nmi\ncoeficiente parcial para la misma propiedad del material i\nFkj\nvalor característico (representativo) de la acción j\nfj\ncoeficiente parcial para la acción j\nb)\nSelección de un conjunto de n elementos estructurales representativos que cubran adecuada-\nmente el campo de aplicación de los modelos a calibrar en cuanto a:\n\nlos tipos de acciones;\n\nlas dimensiones de las estructuras;\n\nlos materiales constitutivos;\n\nlos estados límite considerados.\nc)\nDimensionado de los n elementos estructurales representativos, aplicando un conjunto de coe-\nficientes parciales (m1, m2, ..., f1, f2, ...). A cada uno de los elementos así dimensionados le\ncorresponderá un nivel de fiabilidad, expresado por ejemplo en términos de índice  que se\ndesviará más o menos de la fiabilidad requerida y predefinida, t.\nd)\nLa desviación entre el nivel de fiabilidad de los n elementos y la fiabilidad requerida se podrá\nexpresar en los siguientes términos\n \n\n \n\n\n\n\n\n\n\n\n\nn\n1\nk\n2\nt\nfj\nmi\nk\n,\nD\n(C.34)\nsiendo\nt\nvalor requerido del índice de fiabilidad\n\nDocumento Básico SE Seguridad Estructural\nSE - 32\nk\níndice de fiabilidad correspondiente al elemento k, dimensionado con los coeficientes\nparciales (m1, m2, ..., f1, f2, ...).\ne)\nSelección del conjunto de coeficientes parciales que conduzca al valor mínimo de D.\nf)\nAlternativamente, el nivel de fiabilidad se podrá expresar en términos de la probabilidad de fa-\nllo.\n3\nEn los casos en los que los n elementos estructurales tengan importancias relativas desiguales, D\nse podrá determinar introduciendo unos factores de importancia. Los valores que excedan el valor\nadmisible de la probabilidad de fallo deberían penalizarse más que los valores que se queden por\ndebajo de la probabilidad de fallo admisible.\n\nDocumento Básico SE Seguridad Estructural\nSE - 33",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0035_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0035.png",
+  "../figura/p0036.png",
+  "../figura/p0037.png",
+  "../figura/p0039.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

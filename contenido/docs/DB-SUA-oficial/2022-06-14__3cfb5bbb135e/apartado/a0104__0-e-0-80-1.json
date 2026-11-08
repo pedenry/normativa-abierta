@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0104",
+  "ruta_oficial": "0",
+  "ruta_semantica": "0 < E < 0,80 (1)",
+  "titulo": "0 < E < 0,80 (1)",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "0 < E < 0,80 (1)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 30,
+   "bbox": [
+    173.7,
+    155.1,
+    415.1,
+    165.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2c555d08ca6c4c2ce237e575f6c3498700651b6d6e8898f89eb84ebf8e827dfa",
+   "literal": "0 < E < 0,80 (1)"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "0 < E < 0,80 (1)",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "0 < E < 0,80 (1)",
+   "seccion_estimada": "0 < E < 0,80 (1)",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "31a01184313556af114c18982258c7132de9b62b52b5ccb2b6a0b73baa1be153"
+ },
+ "paginas": [
+  30
+ ],
+ "etiquetas_impresas": [
+  "30"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "0 < E < 0,80 (1)\n4\n(1) Dentro de estos límites de eficiencia requerida, la instalación de protección contra el rayo no es obligatoria.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0030.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0105",
+  "a0106",
+  "a0107"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

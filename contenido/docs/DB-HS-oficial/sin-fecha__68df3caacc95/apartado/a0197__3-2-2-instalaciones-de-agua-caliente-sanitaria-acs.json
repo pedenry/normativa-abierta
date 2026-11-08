@@ -1,0 +1,88 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0197",
+  "ruta_oficial": "3.2.2",
+  "ruta_semantica": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)",
+  "titulo": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 88,
+   "bbox": [
+    70.9,
+    272.2,
+    320.3,
+    283.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b12bc861b397525aa2c80cb3d1fba1a69f2fc02d6b8d534191ffb1bffc985828",
+   "literal": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-HE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Diseño / 3.2 Elementos que componen la instalación 3.2.1 Red de agua fría / 3.2.2 Instalaciones de agua caliente sanitaria (ACS)",
+   "seccion_estimada": "3 Diseño",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "11256a2111959b92625763f7c75dba592d2ad05a6cafedf0edf13fc0485cc695"
+ },
+ "paginas": [
+  88,
+  89
+ ],
+ "etiquetas_impresas": [
+  "88",
+  "89"
+ ],
+ "tipos": [
+  "excepciones",
+  "referencias"
+ ],
+ "texto": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)\n3.2.2.1\nDistribución (impulsión y retorno)\n1\nEn el diseño de las instalaciones de ACS deben aplicarse condiciones análogas a las de las redes\nde agua fría.\n2\nEn los edificios en los que sea de aplicación la contribución mínima de energía renovable para cu-\nbrir la demanda de agua caliente sanitaria, de acuerdo con la sección HE-4 del DB-HE, deben dis-\nponerse, además de las tomas de agua fría, previstas para la conexión de la lavadora y el lavavaji-\nllas, sendas tomas de agua caliente para permitir la instalación de equipos bitérmicos.\n3\nTanto en instalaciones individuales como en instalaciones de producción centralizada, la red de\ndistribución debe estar dotada de una red de retorno cuando la longitud de la tubería de ida al punto\nde consumo más alejado sea igual o mayor que 15 m.\n4\nLa red de retorno se compondrá de\na)\nun colector de retorno en las distribuciones por grupos múltiples de columnas. El colector debe\ntener canalización con pendiente descendente desde el extremo superior de las columnas de\nida hasta la columna de retorno. Cada colector puede recoger todas o varias de las columnas\nde ida, que tengan igual presión;\nb)\ncolumnas de retorno: desde el extremo superior de las columnas de ida, o desde el colector de\nretorno, hasta el acumulador o calentador centralizado.\n5\nLas redes de retorno discurrirán paralelamente a las de impulsión.\n6\nEn los montantes, debe realizarse el retorno desde su parte superior y por debajo de la última deri-\nvación particular. En la base de dichos montantes se dispondrán válvulas de asiento para regular y\nequilibrar hidráulicamente el retorno.\n7\nExcepto en viviendas unifamiliares o en instalaciones pequeñas, se dispondrá una bomba de recir-\nculación doble, de montaje paralelo o “gemelas”, funcionando de forma análoga a como se especifi-\nca para las del grupo de presión de agua fría. En el caso de las instalaciones individuales podrá es-\ntar incorporada al equipo de producción.\n8\nPara soportar adecuadamente los movimientos de dilatación por efectos térmicos deben tomarse\nlas precauciones siguientes:\na)\nen las distribuciones principales deben disponerse las tuberías y sus anclajes de tal modo que\ndilaten libremente, según lo establecido en el Reglamento de Instalaciones Térmicas en los\nEdificios y sus Instrucciones Técnicas Complementarias ITE para las redes de calefacción;\nb)\nen los tramos rectos se considerará la dilatación lineal del material, previendo dilatadores si\nfuera necesario, cumpliéndose para cada tipo de tubo las distancias que se especifican en el\nReglamento antes citado.\n9\nEl aislamiento de las redes de tuberías, tanto en impulsión como en retorno, debe ajustarse a lo\ndispuesto en el Reglamento de Instalaciones Térmicas en los Edificios y sus Instrucciones Técnicas\nComplementarias ITE.\n3.2.2.2\nRegulación y control\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n89\n1\nEn las instalaciones de ACS se regulará y se controlará la temperatura de preparación y la de dis-\ntribución.\n2\nEn las instalaciones individuales los sistemas de regulación y de control de la temperatura estarán\nincorporados a los equipos de producción y preparación. El control sobre la recirculación en siste-\nmas individuales con producción directa será tal que pueda recircularse el agua sin consumo hasta\nque se alcance la temperatura adecuada.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-HE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

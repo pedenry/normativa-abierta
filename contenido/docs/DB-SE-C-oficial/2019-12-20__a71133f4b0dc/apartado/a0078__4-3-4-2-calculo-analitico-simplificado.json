@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0078",
+  "ruta_oficial": "4.3.4.2",
+  "ruta_semantica": "4.3.4.2 Cálculo analítico simplificado",
+  "titulo": "4.3.4.2 Cálculo analítico simplificado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3.4.2 Cálculo analítico simplificado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 40,
+   "bbox": [
+    70.9,
+    190.7,
+    249.6,
+    200.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4e4803c3999826a8674770264e88a63040eb39f0a28c349c3f917c8ccbc49a12",
+   "literal": "4.3.4.2 Cálculo analítico simplificado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0090",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.4.2 Cálculo analítico simplificado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 4.3.4 Presiones verticales admisibles para cimentaciones en roca 4.3.4.1 Dimensionado según normas / 4.3.4.2 Cálculo analítico simplificado",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "61c55eaa863369d2aa6cd8b0872a035712f25328587c76c86fd80bf7759f4eb1"
+ },
+ "paginas": [
+  40
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.3.4.2 Cálculo analítico simplificado\n1\nEn casos de rocas de muy baja resistencia a la compresión simple (qu<2,5 MPa; tabla D.9) o fuer-\ntemente diaclasadas (RQD<25; tabla D.16), o que estén bastante o muy meteorizadas (tabla D.5,\ngrado de meteorización mayor que IV), se considerará la roca como si se tratase de un suelo y se\nrecurrirá a los procedimientos de verificación correspondientes que se dan en este DB.\n2\nEn rocas más duras, menos diaclasadas y menos alteradas que lo indicado en el párrafo preceden-\nte, y cuando se cumplan las siguientes condiciones, se podrá determinar la presión admisible de\nservicio qd mediante la expresión (4.11).\na)\nla superficie de la roca es esencialmente horizontal sin problemas de inestabilidad lateral;\nb)\nla carga no tiene componente tangencial, o ésta es inferior al 10% de la carga normal;\nc)\nen rocas sedimentarias los estratos deben ser horizontales o subhorizontales.\nu\nsp\nd\nq·\nK\nq\n\n(4.11)\nsiendo\nqu\nla resistencia a la compresión simple de la roca sana\ns\na\n300\n1\n10\nB\ns\n3\nsp\nK\n\n\n\n(4.12)\ns\nespaciamiento de las discontinuidades; s > 300 mm\nB\nanchura del cimiento en m; 0,05 < s/B < 2\na\napertura de las discontinuidades; a< 5 mm en junta limpia, a< 25 mm en junta rellena con\nsuelo o con fragmentos de roca alterada; siendo 0 < a/s < 0,02\n3\nA efectos de verificación del estado límite último de hundimiento el valor de qd determinado a través\nde la expresión (4.11) puede considerarse que lleva incorporado un coeficiente de seguridad R =3.\nPara la comprobación del asiento se podrá recurrir al empleo de formulaciones elásticas. Los módu-\nlos de deformación a emplear habrán de ser representativos del macizo.\n4\nDe forma orientativa, para rocas con índice RMR < 50 se podrá emplear la siguiente expresión:\n40\n10\nRMR\n10\n.\nmacizo\nE\n\n\n\n(GPa)\n(4.13)\nsiendo\n = 0,1 para qu  = 1 MPa;\n = 0,2 para qu  = 4 MPa;\n = 0,3 para qu  = 10 MPa;\n = 0,7 para qu  = 50 MPa;\n = 1,0 para qu  > 100 MPa.\n4.4",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0040_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0245",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.2 Estimación de las condiciones de rigidez relativa terreno- estructura",
+  "titulo": "E.2 Estimación de las condiciones de rigidez relativa terreno- estructura",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "E.2 Estimación de las condiciones de rigidez relativa terreno- estructura",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 131,
+   "bbox": [
+    70.9,
+    301.4,
+    478.8,
+    331.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3f2ce68729cff64a317b60d1a55b83b8dcc3346f69ea1e59d0c5358003ec09dd",
+   "literal": "E.2 Estimación de las condiciones de rigidez relativa terreno- estructura"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.2 Estimación de las condiciones de rigidez relativa terreno- estructura",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura / E.2 Estimación de las condiciones de rigidez relativa terreno- estructura",
+   "seccion_estimada": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "eb702ad7bdcab960351c150a92a3121d1d84b54ebaea842e48f59a4844d712a1"
+ },
+ "paginas": [
+  131
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E.2 Estimación de las condiciones de rigidez relativa terreno- estructura\nestructura\n1\nLa rigidez relativa de la estructura con respecto al terreno podrá estimarse mediante la evaluación\ndel factor Kr definido en la expresión (E.1).\n3\ns\nB\nE\nr\nB\n·\nE\nI·\nE\nK\n\n(E.1)\nsiendo\nEE\nel módulo de deformación global representativo de los materiales empleados en la es-\ntructura;\nIB\nel momento de inercia de la estructura, por metro de ancho;\nEs\nel módulo de deformación del terreno;\nB\nel ancho de la cimentación.\n2\nEl numerador de la expresión (E.1) representa la rigidez de la estructura por metro de ancho del\nedificio, que puede estimarse sumando las rigideces de la cimentación y de los elementos estructu-\nrales que gravitan sobre ella (vigas, forjados, muros).\n3\nA los efectos de este DB, se considerará que la estructura es rígida en relación con el terreno cuan-\ndo Kr >0,5. Si Kr < 0,5, se considerará flexible.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0131.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

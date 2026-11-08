@@ -1,0 +1,339 @@
+{
+ "documento": null,
+ "pagina": 29,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 23",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    239.0,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "6  Estados límite últimos",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    123.6,
+    541.3,
+    156.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara el caso de piezas de seccion constante, el paso de las solicitaciones de cálculo a tensiones de\ncálculo se podrá hacer según las fórmulas clásicas de Resistencia de Materiales salvo en las zonas\nen las que exista un cambio brusco de sección o, en general, un cambio brusco del estado tensional.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    175.3,
+    538.8,
+    201.1
+   ],
+   "tipo": "titulo",
+   "texto": "6.1  Agotamiento de secciones sometidas a tensiones orientadas según las di-\nrecciones principales",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    217.4,
+    199.3,
+    227.4
+   ],
+   "tipo": "texto",
+   "texto": "6.1.1  Principios generales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    237.1,
+    538.7,
+    270.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEste apartado se aplica a la comprobación de solicitaciones en piezas de sección constante de ma-\ndera maciza, laminada y productos estructurales derivados de la madera con la dirección de las fi-\nbras sensiblemente paralela a su eje axial.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    277.7,
+    518.6,
+    287.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nSe supone que las tensiones se orientan solamente según los ejes principales, según figura 6.1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    201.4,
+    409.6,
+    410.5,
+    418.6
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.1 Ejes y dirección de la fibra en la pieza",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    430.2,
+    273.3,
+    440.2
+   ],
+   "tipo": "texto",
+   "texto": "6.1.2  Tracción uniforme paralela a la fibra",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    449.7,
+    262.3,
+    459.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nDebe cumplirse la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    91.3,
+    463.6,
+    541.3,
+    488.5
+   ],
+   "tipo": "texto",
+   "texto": "t,0,d  ft,0,d\n(6.1)\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    91.3,
+    493.4,
+    364.8,
+    504.8
+   ],
+   "tipo": "texto",
+   "texto": " t,0,d\ntensión de cálculo a tracción paralela a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    91.3,
+    510.2,
+    351.6,
+    520.2
+   ],
+   "tipo": "texto",
+   "texto": "ft,0,d\nresistencia de cálculo a tracción paralela a la fibra.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    533.6,
+    301.6,
+    543.6
+   ],
+   "tipo": "texto",
+   "texto": "6.1.3  Tracción uniforme perpendicular a la fibra",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    553.3,
+    440.3,
+    563.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nDeterminadas las tensiones de cálculo, debe cumplirse la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    91.3,
+    567.2,
+    541.3,
+    604.3
+   ],
+   "tipo": "texto",
+   "texto": " t,90,d  ft,90,d\nmadera maciza\n (6.2)\n t,90,d  kvol·ft,90,d  madera laminada encolada y madera microlaminada\n (6.3)\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    91.3,
+    609.1,
+    361.1,
+    620.5
+   ],
+   "tipo": "texto",
+   "texto": "t,90,d\ntensión de cálculo a tracción perpendicular a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    91.3,
+    626.1,
+    376.5,
+    636.1
+   ],
+   "tipo": "texto",
+   "texto": "ft,90,d\nresistencia de cálculo a tracción perpendicular a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    91.3,
+    641.6,
+    331.4,
+    651.6
+   ],
+   "tipo": "texto",
+   "texto": "kvol\nfactor de volumen definido en el apartado 2.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    664.9,
+    289.9,
+    674.9
+   ],
+   "tipo": "texto",
+   "texto": "6.1.4  Compresión uniforme paralela a la fibra",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    70.9,
+    684.6,
+    265.1,
+    694.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nDebe cumplirse la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    91.3,
+    698.3,
+    541.3,
+    723.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": " c,0,d  fc,0,d\n (6.4)\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    91.3,
+    728.1,
+    367.7,
+    739.5
+   ],
+   "tipo": "texto",
+   "texto": " c,0,d\ntensión de cálculo a compresión paralela a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    91.3,
+    745.1,
+    365.1,
+    755.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "fc,0,d\nresistencia de cálculo a compresión paralela a la fibra.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

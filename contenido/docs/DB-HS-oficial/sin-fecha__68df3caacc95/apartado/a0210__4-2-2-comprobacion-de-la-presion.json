@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0210",
+  "ruta_oficial": "4.2.2",
+  "ruta_semantica": "4.2.2 Comprobación de la presión",
+  "titulo": "4.2.2 Comprobación de la presión",
+  "nivel": 1,
+  "parent_id": "a0208",
+  "seccion_estimada": "4.2.2 Comprobación de la presión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 91,
+   "bbox": [
+    70.9,
+    188.2,
+    233.7,
+    199.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "cef0dc0134988c6a3ad5cf60b0d0fab83346eaebc0a38ec0646b78ecf9530700",
+   "literal": "4.2.2 Comprobación de la presión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0208",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2.1.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2.2 Comprobación de la presión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0208",
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio / 4.2 Dimensionado de las redes de distribución / 4.2.2 Comprobación de la presión",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ae60aac4f0acfdc7f4c0ce75bce1465718d47439db3d1a2d9abcfd90906d90be"
+ },
+ "paginas": [
+  91
+ ],
+ "etiquetas_impresas": [
+  "91"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.2.2 Comprobación de la presión\n1\nSe comprobará que la presión disponible en el punto de consumo más desfavorable supera con los\nvalores mínimos indicados en el apartado 2.1.3 y que en todos los puntos de consumo no se supera\nel valor máximo indicado en el mismo apartado, de acuerdo con lo siguiente:\na)\ndeterminar la pérdida de presión del circuito sumando las pérdidas de presión total de cada\ntramo. Las perdidas de carga localizadas podrán estimarse en un 20% al 30% de la producida\nsobre la longitud real del tramo o evaluarse a partir de los elementos de la instalación.\nb)\ncomprobar la suficiencia de la presión disponible: una vez obtenidos los valores de las pérdi-\ndas de presión del circuito, se comprueba si son sensiblemente iguales a la presión disponible\nque queda después de descontar a la presión total, la altura geométrica y la residual del punto\nde consumo más desfavorable. En el caso de que la presión disponible en el punto de consu-\nmo fuera inferior a la presión mínima exigida sería necesaria la instalación de un grupo de pre-\nsión.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.1.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0091_t01.json",
+  "../tabla/p0091_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0091.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

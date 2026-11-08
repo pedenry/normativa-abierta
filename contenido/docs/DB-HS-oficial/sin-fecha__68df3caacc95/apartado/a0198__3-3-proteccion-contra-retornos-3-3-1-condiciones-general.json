@@ -1,0 +1,80 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0198",
+  "ruta_oficial": "3.3",
+  "ruta_semantica": "Fragmento de PDF p89",
+  "titulo": "3.3 Protección contra retornos 3.3.1 Condiciones generales de la instalación de suministro",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p89",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p89",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Diseño / 3.3 Protección contra retornos 3.3.1 Condiciones generales de la instalación de suministro",
+   "seccion_estimada": "3 Diseño",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "686b81cd57e21518b29f1858816a4094a3f7d3991b570d10356326685df144dd"
+ },
+ "paginas": [
+  89
+ ],
+ "etiquetas_impresas": [
+  "89"
+ ],
+ "tipos": [],
+ "texto": "3.3 Protección contra retornos 3.3.1 Condiciones generales de la instalación de suministro\n3.3.1 Condiciones generales de la instalación de suministro\n1\nLa constitución de los aparatos y dispositivos instalados y su modo de instalación deben ser tales\nque se impida la introducción de cualquier fluido en la instalación y el retorno del agua salida de\nella.\n2\nLa instalación no puede empalmarse directamente a una conducción de evacuación de aguas resi-\nduales.\n3\nNo pueden establecerse uniones entre las conducciones interiores empalmadas a las redes de dis-\ntribución pública y otras instalaciones, tales como las de aprovechamiento de agua que no sea pro-\ncedente de la red de distribución pública.\n4\nLas instalaciones de suministro que dispongan de sistema de tratamiento de agua deben estar pro-\nvistas de un dispositivo para impedir el retorno; este dispositivo debe situarse antes del sistema y lo\nmás cerca posible del contador general si lo hubiera.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0197",
+   "ruta_oficial": "3.2.2",
+   "titulo": "3.2.2 Instalaciones de agua caliente sanitaria (ACS)",
+   "archivo_json": "a0197__3-2-2-instalaciones-de-agua-caliente-sanitaria-acs.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0199",
+  "a0200",
+  "a0201",
+  "a0202",
+  "a0203"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

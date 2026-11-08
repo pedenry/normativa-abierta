@@ -1,0 +1,74 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0011",
+  "ruta_oficial": "2",
+  "ruta_semantica": "Fragmento de PDF p7",
+  "titulo": "2 Acciones permanentes 2.1 Peso propio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p7",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p7",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Acciones permanentes 2.1 Peso propio",
+   "seccion_estimada": "2 Acciones permanentes 2.1 Peso propio",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "515d8ec03054e0c6e926c4e79b5e04808ddbc3451fba949dd4811c272194419c"
+ },
+ "paginas": [
+  7
+ ],
+ "etiquetas_impresas": [
+  "7"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2 Acciones permanentes 2.1 Peso propio\n2.1 Peso propio\n1\nEl peso propio a tener en cuenta es el de los elementos estructurales, los cerramientos y elementos\nseparadores, la tabiquería, todo tipo de carpinterías, revestimientos (como pavimentos, guarneci-\ndos, enlucidos, falsos techos), rellenos (como los de tierras) y equipo fijo.\n2\nEl valor característico del peso propio de los elementos constructivos, se determinará, en general,\ncomo su valor medio obtenido a partir de las dimensiones nominales y de los pesos específicos\nmedios. En el Anejo C se incluyen los pesos de materiales, productos y elementos constructivos tí-\npicos.\n3\nEn el caso de tabiques ordinarios cuyo peso por metro cuadrado no sea superior a 1,2 kN/m2 y cuya\ndistribución en planta sea sensiblemente homogénea, su peso propio podrá asimilarse a una carga\nequivalente uniformemente distribuida. Como valor de dicha carga equivalente se podrá adoptar el\nvalor del peso por metro cuadrado de alzado multiplicado por la razón entre la superficie de tabique-\nría y la de la planta considerada. En el caso de tabiquería más pesada, ésta podrá asimilarse al\nmismo valor de carga equivalente uniforme citado más un incremento local, de valor igual al exceso\nde peso del tabique respecto a 1,2 kN por m2 de alzado.\nEn general, en viviendas bastará considerar como peso propio de la tabiquería una carga de 1,0 kN\npor cada m2 de superficie construida.\n4\nSi se procede por medición directa del peso de la tabiquería proyectada, deberán considerarse las\nalteraciones y modificaciones que sean razonables en la vida del edificio.\n5\nEl peso de las fachadas y elementos de compartimentación pesados, tratados como acción local, se\nasignará como carga a aquellos elementos que inequívocamente vayan a soportarlos, teniendo en\ncuenta, en su caso, la posibilidad de reparto a elementos adyacentes y los efectos de arcos de des-\ncarga. En caso de continuidad con plantas inferiores, debe considerarse, del lado de la seguridad\ndel elemento, que la totalidad de su peso gravita sobre sí mismo.\n6\nEl valor característico del peso propio de los equipos e instalaciones fijas, tales como calderas co-\nlectivas, transformadores, aparatos de elevación, o torres de refrigeración, debe definirse de acuer-\ndo con los valores aportados por los suministradores.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0007.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0012",
+  "a0013"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

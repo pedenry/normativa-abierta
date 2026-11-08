@@ -1,0 +1,278 @@
+{
+ "documento": null,
+ "pagina": 125,
+ "etiqueta_impresa": "125",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    298.2,
+    792.0,
+    335.6,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-123",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    97.6,
+    175.3,
+    113.2
+   ],
+   "tipo": "titulo",
+   "texto": "11 Tolerancias",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    135.7,
+    255.5,
+    149.1
+   ],
+   "tipo": "titulo",
+   "texto": "11.1 Tolerancias de fabricación",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    157.2,
+    541.5,
+    202.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn este capítulo se definen tipos de desviaciones geométricas correspondientes a estructuras de\nedificación, y los valores máximos admisibles para tales desviaciones, debiéndose identificar en el\npliego de condiciones los requisitos de tolerancia admitidos en el caso de ser diferentes a los aquí\nestablecidos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    209.3,
+    538.5,
+    232.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn general, al incorporar un elemento a un componente prefabricado, se le aplicarán las desviacio-\nnes correspondientes al producto completo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    238.3,
+    235.2,
+    249.5
+   ],
+   "tipo": "texto",
+   "texto": "Perfiles en doble T soldados",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    255.0,
+    255.8,
+    327.2,
+    267.0
+   ],
+   "tipo": "texto",
+   "texto": "Altura del perfil:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    255.0,
+    273.0,
+    445.8,
+    285.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- para h≤900 mm                         ∆=±3 mm",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    255.0,
+    291.3,
+    446.1,
+    303.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- para 900 mm<h≤900 mm          ∆=±5 mm",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    255.0,
+    309.5,
+    477.6,
+    321.8
+   ],
+   "tipo": "texto",
+   "texto": "- para h>1800 mm                       ∆=+8 mm -5 mm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    255.0,
+    328.0,
+    330.0,
+    340.0
+   ],
+   "tipo": "texto",
+   "texto": "Anchura b1 o b2:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    255.0,
+    345.3,
+    444.2,
+    358.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- para b1<300 mm                       ∆=±3 mm",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    255.0,
+    363.5,
+    443.8,
+    376.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- para b1≤300 mm                       ∆=±5 mm",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    255.0,
+    381.8,
+    442.5,
+    394.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Posición del alma:                      ∆=±5 mm",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    255.0,
+    469.4,
+    484.8,
+    489.5
+   ],
+   "tipo": "texto",
+   "texto": "Falta de perpendicularidad:  ∆= el mayor de: 100",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    474.1,
+    464.1,
+    526.7,
+    481.6
+   ],
+   "tipo": "texto",
+   "texto": "b\n y 5 mm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    255.0,
+    532.6,
+    487.8,
+    552.7
+   ],
+   "tipo": "texto",
+   "texto": "Falta de planeidad:                ∆= el mayor de: 100",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    476.9,
+    527.3,
+    529.5,
+    544.8
+   ],
+   "tipo": "texto",
+   "texto": "b\n y 3 mm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    255.0,
+    559.8,
+    530.1,
+    606.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nota: si la viga (de alma llena) va a utilizarse como una viga\ncarril, el ala o cabeza superior debe de tener una desviación\nmenor que ±1 mm sobre una anchura igual al ancho del carril\n+20 mm",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0250",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.5 Modelos de interacción. Módulo de balasto",
+  "titulo": "E.5 Modelos de interacción. Módulo de balasto",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "E.5 Modelos de interacción. Módulo de balasto",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 135,
+   "bbox": [
+    70.9,
+    450.6,
+    385.9,
+    464.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b974dc8fbc03b7d7a77ee4b892894b9260c5ae6f70020a4c7b5855185e9f5ae1",
+   "literal": "E.5 Modelos de interacción. Módulo de balasto"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.5 Modelos de interacción. Módulo de balasto",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura / E.5 Modelos de interacción. Módulo de balasto",
+   "seccion_estimada": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d4ed12c6f319cff4b797fcb48608e2fccb2ab6a80d328abfe19d140e054905bb"
+ },
+ "paginas": [
+  135,
+  136,
+  138
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E.5 Modelos de interacción. Módulo de balasto\n1\nEl módulo de balasto ks se define como el cociente entre la presión vertical, q, aplicada sobre un\ndeterminado punto de un cimiento directo y el asiento, s, experimentado por dicho punto:\ns\nq\nk s\n(E.5)\n2\nEl módulo de balasto así definido, tiene unidades de densidad, lo que indica que la hipótesis efec-\ntuada equivale a suponer que el terreno es un líquido de densidad ks, sobre el que “flota” la cimen-\ntación.\n3\nLa estimación del módulo de balasto podrá realizarse:\na)\nA partir de ensayos de carga con placa (véase tabla D.7). De acuerdo con los efectos descritos\nen el apartado E.4.2 y dado que las placas de ensayo son necesariamente de pequeño tama-\nño, se debe prestar especial atención a la conversión del módulo obtenido en el ensayo, ksp, al\nmódulo de cálculo representativo de la anchura, B, real del cimiento, ksB,. A este respecto se\nrecomienda emplear placas de diámetro equivalente igual o superior a 60 cm.\nb)\nA partir de la determinación de parámetros de deformabilidad representativos del terreno bajo\nla zona de influencia de la cimentación, ya sea mediante ensayos in situ o de laboratorio, y el\nposterior cálculo geotécnico de asientos.\n4\nLa conversión del módulo para placa de 30 cm, ks30, al coeficiente de referencia, ksB, se puede ob-\ntener mediante las siguientes expresiones: (véase tabla D.29)\n5\nPara zapata cuadrada de ancho B:\na)\nPara terrenos cohesivos:\nB\n3,0\nk\nk\n30\nsp\nsB\n(E.6)\n\nDocumento Básico SE-C Cimientos\nSE-C-131\nb)\nPara terrenos granulares:\n2\n30\nsp\nsB\nB\n·\n2\n3,0\nB\nk\nk\n\n\n\n\n\n\n\n\n(E.7)\n6\nPara zapata rectangular de ancho B, en cualquier tipo de terreno:\n\n\n\n\n\n\n\nL·\n2\nB\n1\nk\nk\nsB\nsBL\n(E.8)\n7\nLa conversión del módulo para placa de 60 cm (ks60) al coeficiente de referencia ksB se puede obte-\nner mediante las siguientes expresiones:\n8\nPara zapata cuadrada de ancho B:\na)\nPara terrenos cohesivos:\nB\n6,0\nk\nk\n60\nsp\nsB\n(E.9)\nb)\nPara terrenos granulares:\n2\n2\n60\nsp\nsB\nB\n·\n2\n3,0\nB\n6,0\n2\n3,0\n6,0\nk\nk\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(E.10)\n9\nPara la cimentación de losas y emparrillados la fiabilidad de los módulos de balasto obtenidos a\npartir de ensayos de carga puede resultar insuficiente, dados los efectos de escala implicados\n(véase el apartado E.4.2). En estas circunstancias, se recomienda recurrir a la comprobación de di-\nchos módulos siguiendo los criterios del párrafo 3.b) anterior o, alternativamente, recurrir al empleo\nde métodos y modelos del terreno más avanzados.\n10\nLa observación anterior puede cobrar especial importancia en el caso de existir terrenos heterogé-\nneos en la vertical (terrenos estratificados), cuando bajo un estrato rígido surge otro más deforma-\nble. En estas circunstancias (véase la Figura E.8) el reducido bulbo de tensiones de la placa de en-\nsayo puede quedar limitado a las zonas más competentes del terreno, y no reflejar la deformabili-\ndad del conjunto terreno-cimentación.\nFigura E.8. Limitaciones del ensayo de carga con placa en terrenos estratificados\n\nDocumento Básico SE-C Cimientos\nSE-C-133",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0135.png",
+  "../figura/p0136.png",
+  "../figura/p0138.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,141 @@
+{
+ "indice": 1,
+ "pagina": 49,
+ "etiqueta_impresa": "49",
+ "bbox": [
+  92.1,
+  206.9,
+  503.2,
+  376.3
+ ],
+ "filas": 3,
+ "columnas": 4,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "0:00-6:59",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Horario (semana tipo)\n7:00-14:59 15:00-22:59",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 3,
+   "texto": "23:00-23:59",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Enero a Mayo\nTemperatura de\nJunio a Septiembre\nconsigna Alta (°C)\nOctubre a Diciembre",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "–\n27\n–",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "– –\n– 25\n– –",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 3,
+   "texto": "–\n27\n–",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Enero a Mayo\nTemperatura de\nJunio a Septiembre\nconsigna Baja (°C)\nOctubre a Diciembre",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "17\n–\n17",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "20 20\n– –\n20 20",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 3,
+   "texto": "17\n–\n17",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "0:00-6:59",
+  "Horario (semana tipo)\n7:00-14:59 15:00-22:59",
+  "23:00-23:59"
+ ],
+ "header": {
+  "names": [
+   "",
+   "0:00-6:59",
+   "Horario (semana tipo)\n7:00-14:59 15:00-22:59",
+   "23:00-23:59"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA12A50>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97CAA0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA10350>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA10DA0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97F320>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97ED50>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97CE90>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97F770>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97FDA0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB910E60>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB911100>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9114C0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0049.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

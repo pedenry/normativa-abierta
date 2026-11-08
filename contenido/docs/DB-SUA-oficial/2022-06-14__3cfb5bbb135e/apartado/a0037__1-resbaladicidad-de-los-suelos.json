@@ -1,0 +1,104 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 1 Resbaladicidad de los suelos",
+  "titulo": "1 Resbaladicidad de los suelos",
+  "nivel": 2,
+  "parent_id": "a0036",
+  "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 8,
+   "bbox": [
+    70.9,
+    227.8,
+    305.6,
+    243.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "549ee487e088f7797e8970aacec5b9563ef33f8cb9049773d468cbf76cd72b6f",
+   "literal": "1 Resbaladicidad de los suelos"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0008",
+  "parent_id_original": "a0036",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB SI",
+   "UNE 41901"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Resbaladicidad de los suelos",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0036",
+   "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 1 Resbaladicidad de los suelos",
+   "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "eea87ff1836049a735f28f041b0582b6bf2bfc5a0ce4762a3c906c509fb8b32c"
+ },
+ "paginas": [
+  8
+ ],
+ "etiquetas_impresas": [
+  "8"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Resbaladicidad de los suelos\n1\nCon el fin de limitar el riesgo de resbalamiento, los suelos de los edificios o zonas de uso Residencial\nPúblico, Sanitario, Docente, Comercial, Administrativo y Pública Concurrencia, excluidas las zonas\nde ocupación nula definidas en el anejo SI A del DB SI, tendrán una clase adecuada conforme al\npunto 3 de este apartado.\n2\nLos suelos se clasifican, en función de su valor de resistencia al deslizamiento Rd, de acuerdo con lo\nestablecido en la tabla 1.1:\nTabla 1.1 Clasificación de los suelos según su resbaladicidad\nResistencia al deslizamiento Rd\nClase\nRd ≤ 15\n0\n15 < Rd ≤35\n1\n35< Rd ≤45\n2\nRd > 45\n3\nEl valor de resistencia al deslizamiento Rd es el valor PTV obtenido mediante el ensayo del péndulo\ndescrito en la norma UNE 41901:2017 EX. La muestra seleccionada será representativa de las con-\ndiciones más desfavorables de resbaladicidad.\n3\nLa tabla 1.2 indica la clase que deben tener los suelos, como mínimo, en función de su localización.\nDicha clase se mantendrá durante la vida útil del pavimento.\nTabla 1.2 Clase exigible a los suelos en función de su localización\nLocalización y características del suelo\nClase\nZonas interiores secas\n- superficies con pendiente menor que el 6%\n- superficies con pendiente igual o mayor que el 6% y escaleras\n1\n2\nZonas interiores húmedas, tales como las entradas a los edificios desde el espacio exterior(1),\nterrazas cubiertas, vestuarios, baños, aseos, cocinas, etc.\n- superficies con pendiente menor que el 6%\n- superficies con pendiente igual o mayor que el 6% y escaleras\n2\n3\nZonas exteriores. Piscinas (2). Duchas.\n3\n(1) Excepto cuando se trate de accesos directos a zonas de uso restringido.\n(2) En zonas previstas para usuarios descalzos y en el fondo de los vasos, en las zonas en las que la profundidad no exceda\nde 1,50 m.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SI",
+  "UNE 41901"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0038",
+   "ruta_oficial": "2",
+   "titulo": "2 Discontinuidades en el pavimento",
+   "archivo_json": "a0038__2-discontinuidades-en-el-pavimento.json"
+  },
+  {
+   "id_tecnico": "a0050",
+   "ruta_oficial": "4.2.2",
+   "titulo": "4.2.2 Tramos",
+   "archivo_json": "a0050__4-2-2-tramos.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0008.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

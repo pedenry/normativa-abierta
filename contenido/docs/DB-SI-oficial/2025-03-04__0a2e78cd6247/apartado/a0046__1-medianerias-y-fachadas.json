@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0046",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Sección SI 2 Propagación exterior / 1 Medianerías y fachadas",
+  "titulo": "1 Medianerías y fachadas",
+  "nivel": 2,
+  "parent_id": "a0045",
+  "seccion_estimada": "Sección SI 2 Propagación exterior",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 19,
+   "bbox": [
+    70.9,
+    252.9,
+    267.5,
+    268.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "1bfa8159325ebc80a920c5d474d02b1846254a62ec291650c30cef159ec96be7",
+   "literal": "1 Medianerías y fachadas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0015",
+  "parent_id_original": "a0045",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Medianerías y fachadas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0045",
+   "ruta_semantica": "Sección SI 2 Propagación exterior / 1 Medianerías y fachadas",
+   "seccion_estimada": "Sección SI 2 Propagación exterior",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e647a742c85173d8f046819ac360f73e5bbcf0eca9a192831e99791a3ad8c0cc"
+ },
+ "paginas": [
+  19,
+  20
+ ],
+ "etiquetas_impresas": [
+  "19",
+  "20"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Medianerías y fachadas\n1\nLos elementos verticales separadores de otro edificio deben ser al menos EI 120.\n2\nCon el fin de limitar el riesgo de propagación exterior horizontal del incendio a través de la fachada\nentre dos sectores de incendio, entre una zona de riesgo especial alto y otras zonas o hacia una es-\ncalera protegida o pasillo protegido desde otras zonas, los puntos de sus fachadas que no sean al\nmenos EI 60 deben estar separados la distancia d en proyección horizontal que se indica a continua-\nción, como mínimo, en función del ángulo α formado por los planos exteriores de dichas fachadas.\nPara valores intermedios del ángulo α, la distancia d puede obtenerse por interpolación lineal.\nCuando se trate de edificios diferentes y colindantes, los puntos de la fachada del edificio considera-\ndo que no sean al menos EI 60 cumplirán el 50% de la distancia d hasta la bisectriz del ángulo for-\nmado por ambas fachadas.\nα\n0º(1)\n45º\n60º\n90º\n135º\n180º\nd (m)\n3,00\n2,75\n2,50\n2,00\n1,25\n0,50\n(1) Refleja el caso de fachadas enfrentadas paralelas\nFigura 1.1. Fachadas enfrentadas\nFigura 1.2. Fachadas a 45º\nFigura 1.3. Fachadas a 60º\nFigura 1.4. Fachadas a 90º\n\nDocumento Básico SI en caso de Incendio\nSI 2. Propagación exterior\n20\nFigura 1.5. Fachadas a 135º\nFigura 1.6. Fachadas a 180º\n3\nCon el fin de limitar el riesgo de propagación vertical del incendio por fachada entre dos sectores de\nincendio, entre una zona de riesgo especial alto y otras zonas más altas del edificio, o bien hacia una\nescalera protegida o hacia un pasillo protegido desde otras zonas, dicha fachada debe ser al menos\nEI 60en una franja de 1 m de altura, como mínimo, medida sobre el plano de la fachada (véase figu-\nra 1.7). En caso de existir elementos salientes aptos para impedir el paso de las llamas, la altura de\ndicha franja podrá reducirse en la dimensión del citado saliente (véase figura 1.8).\nFigura 1.7 Encuentro forjado-fachada\nFigura 1. 8 Encuentro forjado- fachada con saliente\n4\nLa clase de reacción al fuego de los sistemas constructivos de fachada que ocupen más del 10% de\nsu superficie será, en función de la altura total de la fachada:\n- D-s3,d0 en fachadas de altura hasta 10 m;\n- C-s3,d0 en fachadas de altura hasta 18 m;\n- B-s3,d0 en fachadas de altura superior a 18 m.\nDicha clasificación debe considerar la condición de uso final del sistema constructivo incluyendo\naquellos materiales que constituyan capas contenidas en el interior de la solución de fachada y que\nno estén protegidas por una capa que sea EI30 como mínimo.\n5\nLos sistemas de aislamiento situados en el interior de cámaras ventiladas deben tener al menos la\nsiguiente clasificación de reacción al fuego en función de la altura total de la fachada:\n- D-s3,d0 en fachadas de altura hasta 10 m;\n- B-s3,d0 en fachadas de altura hasta 28 m;\n- A2-s3,d0 en fachadas de altura superior a 28 m.\nDebe limitarse el desarrollo vertical de las cámaras ventiladas de fachada en continuidad con los for-\njados resistentes al fuego que separan sectores de incendio. La inclusión de barreras E 30 se puede\nconsiderar un procedimiento válido para limitar dicho desarrollo vertical.\n6\nEn aquellas fachadas de altura igual o inferior a 18 m cuyo arranque inferior sea accesible al público\ndesde la rasante exterior o desde una cubierta, la clase de reacción al fuego, tanto de los sistemas\nconstructivos mencionados en el punto 4 como de aquellos situados en el interior de cámaras venti-\nladas en su caso, debe ser al menos B-s3,d0 hasta una altura de 3,5 m como mínimo.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0019.png",
+  "../figura/p0020.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

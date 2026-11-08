@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0094",
+  "ruta_oficial": "3.3",
+  "ruta_semantica": "3.3 Bombas de achique",
+  "titulo": "3.3 Bombas de achique",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3 Bombas de achique",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    70.9,
+    195.5,
+    216.1,
+    208.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6e30472cfd7b4905bebc0ff5549790b07c331d0a2a72e244fcae183747d2f82a",
+   "literal": "3.3 Bombas de achique"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3 Bombas de achique",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Dimensionado 3.1 Tubos de drenaje / 3.3 Bombas de achique",
+   "seccion_estimada": "3 Dimensionado 3.1 Tubos de drenaje",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7cc26bf90f7fb1ed045f9013ee49d33e3a69c8b5b9a62aad02c50834b8ab5090"
+ },
+ "paginas": [
+  39
+ ],
+ "etiquetas_impresas": [
+  "39"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.3 Bombas de achique\n1\nCada una de las bombas de achique de una misma cámara debe dimensionarse para el caudal total\nde agua a evacuar que, en el caso de referirse a muros, se puede calcular según el método descrito\nen el apéndice C.\n2\nEl volumen de cada cámara de bombeo debe ser como mínimo igual al obtenido de la tabla 3.4.\nPara caudales mayores debe colocarse una segunda cámara.\nTabla 3.4 Cámaras de bombeo\nCaudal de la bomba\nen l/s\nVolumen de la cámara\nen m3\n0,15\n2,4\n0,31\n2,85\n0,46\n3,6\n0,61\n3,9\n0,76\n4,5\n1,15\n5,7\n1,53\n9,6\n1,91\n10,8\n2,3\n15\n3,1\n20",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0039_t01.json",
+  "../tabla/p0039_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0039.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

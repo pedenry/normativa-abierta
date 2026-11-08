@@ -1,0 +1,283 @@
+{
+ "documento": null,
+ "pagina": 50,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    215.0,
+    35.9,
+    396.9,
+    46.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HR - Protección frente al ruido",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    293.0,
+    797.1,
+    321.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "HR A-8",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.0,
+    541.4,
+    188.1
+   ],
+   "tipo": "texto",
+   "texto": "Índice de ruido día, Ld*: Índice de ruido asociado a la molestia durante el periodo día y definido como el\nnivel sonoro medio a largo plazo, ponderado A, determinado a lo largo de todos los periodos día de un\naño. Se expresa en dBA.\nÍndice global de reducción acústica aparente, ponderado A, de un elemento constructivo, R’A:\nValoración global, en dBA, del índice de reducción acústica aparente, R’, para un ruido incidente rosa,\nnormalizado, ponderado A.\nSe define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    132.2,
+    193.7,
+    146.4,
+    217.0
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 19.5,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    136.3,
+    214.7,
+    140.6,
+    223.7
+   ],
+   "tipo": "texto",
+   "texto": "=",
+   "tamano": 7.6,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    90.4,
+    196.2,
+    178.9,
+    211.7
+   ],
+   "tipo": "texto",
+   "texto": "−\n\n−\n=",
+   "tamano": 10.8,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    136.8,
+    190.3,
+    141.1,
+    198.6
+   ],
+   "tipo": "texto",
+   "texto": "n",
+   "tamano": 7.6,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    134.0,
+    215.4,
+    144.9,
+    223.7
+   ],
+   "tipo": "texto",
+   "texto": "1\ni",
+   "tamano": 7.6,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    82.5,
+    197.0,
+    203.6,
+    213.6
+   ],
+   "tipo": "texto",
+   "texto": "10\n/)\n'\nR\nL\n(\nA",
+   "tamano": 7.6,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    72.2,
+    199.8,
+    541.5,
+    211.9
+   ],
+   "tipo": "texto",
+   "texto": "i\ni,\nAr\n10\nlg\n10\n'\nR\n     [dBA]\n(A.14)",
+   "tamano": 10.8,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    224.2,
+    541.4,
+    457.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nR’i\níndice de reducción acústica aparente en la banda de frecuencia i, [dB];\nLAr,i\nvalor del espectro del ruido rosa normalizado, ponderado A, en la banda de frecuencia i, [dBA];\ni\nrecorre todas las bandas de frecuencia de tercio de octava de 100 Hz a 5 kHz.\nÍndice global de reducción acústica aparente, R’w: Valor en decibelios de la curva de referencia, a\n500 Hz, ajustada a los valores experimentales del índice de reducción acústica aparente, R’.\nÍndice global de reducción acústica, ponderado A, de un elemento constructivo, RA: Valoración\nglobal, en dBA, del índice de reducción acústica, R, para un ruido incidente rosa normalizado, ponderado\nA.\nLos índices de reducción acústica se determinarán mediante ensayo en laboratorio. No obstante, y en\nausencia de ensayo, puede decirse que el índice de reducción acústica proporcionado por un elemento\nconstructivo de una hoja de materiales homogéneos, es función casi exclusiva de su masa y son aplica-\nbles las siguientes expresiones (ley de masa) que determinan el aislamiento RA, en función de la masa\npor unidad de superficie, m, expresada en kg/m2:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    72.3,
+    458.1,
+    541.5,
+    485.5
+   ],
+   "tipo": "texto",
+   "texto": "5\nm\nlg\n6,\n16\nR\nm\n/\nkg\n150\nm\nA\n2\n+\n\n=\n\n     [dBA]\n(A.15)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    486.6,
+    541.5,
+    548.5
+   ],
+   "tipo": "texto",
+   "texto": "5,\n38\nm\nlg\n5,\n36\nR\nm\n/\nkg\n150\nm\nA\n2\n−\n\n=\n\n     [dBA]\n(A.16)\nA partir de los valores del índice de reducción acústica R, obtenidos mediante ensayo en laboratorio,\neste índice se define mediante la expresión siguiente:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    127.5,
+    553.9,
+    140.9,
+    576.2
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 18.5,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    131.3,
+    573.9,
+    135.3,
+    582.5
+   ],
+   "tipo": "texto",
+   "texto": "=",
+   "tamano": 7.2,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    89.2,
+    556.4,
+    171.4,
+    571.1
+   ],
+   "tipo": "texto",
+   "texto": "−\n\n−\n=",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    131.8,
+    550.7,
+    135.9,
+    558.6
+   ],
+   "tipo": "texto",
+   "texto": "n",
+   "tamano": 7.2,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    129.7,
+    574.6,
+    138.9,
+    582.5
+   ],
+   "tipo": "texto",
+   "texto": "1\ni",
+   "tamano": 7.2,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    80.3,
+    557.1,
+    191.4,
+    572.9
+   ],
+   "tipo": "texto",
+   "texto": "10\n/)\nR\nL\n(\nA",
+   "tamano": 7.2,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    72.2,
+    559.6,
+    541.5,
+    571.0
+   ],
+   "tipo": "texto",
+   "texto": "i\ni,\nAr\n10\nlg\n10\nR\n     [dBA]\n(A.17)",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    594.4,
+    541.4,
+    771.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nRi\nvalor del índice de reducción acústica en la banda de frecuencia i, [dB];\nLAr,i,\nvalor del espectro del ruido rosa, ponderado A, en la banda de frecuencia i, [dBA];\ni\nrecorre todas las bandas de frecuencia de tercio de octava de 100 Hz a 5 kHz.\nDe forma aproximada puede considerarse que\nC\nR\nR\nw\nA\n+\n=\n.\nÍndice global de reducción acústica, ponderado A, para ruido exterior dominante de automóviles,\nRAtr: Valoración global, en dBA, del índice de reducción acústica, R, para un ruido exterior de automóvi-\nles.\n* Definición procedente del Real Decreto 1513/2005, de 16 de diciembre, por el que se desarrolla la Ley 37/2003, de 17 de no-\nviembre, del Ruido, en lo referente a la evaluación y gestión del ruido ambiental.",
+   "tamano": 10.2,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

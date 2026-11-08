@@ -1,0 +1,117 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0085",
+  "ruta_oficial": "4.5.1.3.3",
+  "ruta_semantica": "4.5.1.3.3 Excavaciones para zapatas a diferentes niveles",
+  "titulo": "4.5.1.3.3 Excavaciones para zapatas a diferentes niveles",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.5.1.3.3 Excavaciones para zapatas a diferentes niveles",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    307.0,
+    340.6,
+    316.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f197a9a08986a8d59c3db9cd87bf5adca0bfdd391348477cf38e8da427481fef",
+   "literal": "4.5.1.3.3 Excavaciones para zapatas a diferentes niveles"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0099",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.5.1.3.3 Excavaciones para zapatas a diferentes niveles",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Condiciones constructivas 4.5.1 Zapatas / 4.5.1.3 Excavaciones 4.5.1.3.1 Terminación de las excavaciones / 4.5.1.3.3 Excavaciones para zapatas a diferentes niveles",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4910562dd0adc6a2a89d93fd7b1495b0f67b69f8fe67a2a8db37787d3f1434f6"
+ },
+ "paginas": [
+  42
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [],
+ "texto": "4.5.1.3.3 Excavaciones para zapatas a diferentes niveles\n1\nEn el caso de excavaciones para cimentaciones a diferentes niveles, la ejecución de los trabajos\ndebe hacerse de modo que se evite todo deslizamiento de las tierras comprendidas entre los dos\nniveles distintos.\n2\nLa inclinación de los taludes de separación entre zapatas a diferentes niveles debe ajustarse a las\ncaracterísticas del terreno. A efectos indicativos y salvo justificación en contra, la línea de unión de\nlos bordes inferiores entre dos zapatas situadas a diferente nivel no debe superar una inclinación\n1H:1V en el caso de rocas y suelos duros, debiendo reducirse dicha inclinación a 2H:1V para suelos\nflojos a medios.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

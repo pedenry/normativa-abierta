@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0136",
+  "ruta_oficial": "3.2",
+  "ruta_semantica": "3.2 Instalaciones de traslado por bajantes",
+  "titulo": "3.2 Instalaciones de traslado por bajantes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.2 Instalaciones de traslado por bajantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 57,
+   "bbox": [
+    70.9,
+    485.6,
+    315.2,
+    499.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ba70d28d1f4f28d1a2be5b8787a315d048f5b7cb9a78576338c3d287a7035f3e",
+   "literal": "3.2 Instalaciones de traslado por bajantes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2 Instalaciones de traslado por bajantes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Mantenimiento y conservación 3.1 Almacén de contenedores de edificio / 3.2 Instalaciones de traslado por bajantes",
+   "seccion_estimada": "3 Mantenimiento y conservación 3.1 Almacén de contenedores de edificio",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a33a39fe77a89ec18d5008dd270942def436a3a436f9a6c12dfb37b5a5586fb5"
+ },
+ "paginas": [
+  57,
+  58,
+  59
+ ],
+ "etiquetas_impresas": [
+  "57",
+  "58",
+  "59"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.2 Instalaciones de traslado por bajantes\n1\nLas compuertas deben estar correctamente señalizadas según la fracción correspondiente.\n2\nEn los recintos en los que estén situadas las compuertas deben disponerse, en un soporte indele-\nble, junto a otras normas de uso y mantenimiento, las instrucciones siguientes:\na)\ncada fracción debe verterse en la compuerta correspondiente;\nb)\nno se deben verter por ninguna compuerta residuos líquidos, objetos cortantes o punzantes ni\nvidrio;\nc)\nlos envases ligeros y la materia orgánica deben verterse introducidos en envases cerrados;\nd)\nlos objetos de cartón que no quepan por la compuerta deben introducirse troceados y no de-\nben plegarse.\n3\nDeben realizarse las operaciones de mantenimiento que, junto con su periodicidad, se incluyen en\nla tabla 3.2.\nTabla 3.2 Operaciones de mantenimiento\nOperación\nPeriodicidad\nBajantes\nLimpieza de las bajantes por gravedad. Revisión y reparación\nde los daños encontrados\nLimpieza de las bajantes neumáticas. Revisión y reparación de\nlos daños encontrados\nLimpieza de las compuertas de vertido\n6\n1\n1\nmeses\naño\nsemana\n\nDocumento Básico HS Salubridad\nHS 2 Recogida y evacuación de residuos\n58\nRecinto de estación\nde carga\nLimpieza del suelo\nLimpieza de las paredes, las puertas, las ventanas, etc.\nLimpieza general de las paredes y techos ,incluidas elementos\ndel sistema de ventilación, luminarias, etc.\nDesinfección, desinsectación y desratización\n1\n2\n6\n6\nsemana\nmeses\nmeses\nmeses\n\nDocumento Básico HS Salubridad\nHS 2 Recogida y evacuación de residuos\n59",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0057_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0057.png",
+  "../figura/p0058.png",
+  "../figura/p0059.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

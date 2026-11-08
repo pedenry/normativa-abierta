@@ -1,0 +1,101 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0091",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo SI A Terminología",
+  "titulo": "Anejo SI A Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo SI A Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    95.3,
+    282.2,
+    113.1
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "15ebaaaaeae7a5ed89146da6c4f7e245aebb65f65bbe37f2df190aa4a06a9d7c",
+   "literal": "Anejo SI A Terminología"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0044",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB SUA",
+   "DB-SI"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo SI A Terminología",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo SI A Terminología",
+   "seccion_estimada": "Anejo SI A Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e7dc59db67336fcd310738c41aa0f618c215fc9bb9f7d2fbdaa39a54146042c2"
+ },
+ "paginas": [
+  42
+ ],
+ "etiquetas_impresas": [
+  "42"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo SI A Terminología\nTerminología\nA efectos de aplicación del DB-SI, los términos que figuran en letra cursiva deben utilizarse conforme al\nsignificado y a las condiciones que se establecen para cada uno de ellos en este anejo, cuando se trate\nde términos relacionados únicamente con el requisito básico \"Seguridad en caso de incendio\", o bien en\nel Anejo III de la Parte I de este CTE, cuando sean términos de uso común en el conjunto del Código.\nCuando el significado asignado a un término en este Anexo sea igual al establecido en una norma EN o\nen otro documento, al final de dicho significado y entre paréntesis se indica la referencia de dicho docu-\nmento.\nAltura de evacuación\nMáxima diferencia de cotas entre un origen de evacuación y la salida de edificio que le corresponda. A\nefectos de determinar la altura de evacuación de un edificio no se consideran las plantas más altas del\nedificio en las que únicamente existan zonas de ocupación nula.\nAparcamiento abierto\nEs aquel que cumple las siguientes condiciones:\na) Sus fachadas presentan en cada planta un área total permanentemente abierta al exterior no inferior\na 1/20 de su superficie construida, de la cual al menos 1/40 está distribuida de manera uniforme en-\ntre las dos paredes opuestas que se encuentren a menor distancia;\nb) La distancia desde el borde superior de las aberturas hasta el techo no excede de 0,5 metros.\nAscensor de emergencia\nSus características serán las siguientes:\n-\nEn cada planta, tendrá acceso desde el recinto de una escalera protegida o desde el vestíbulo de\nindependencia de una escalera especialmente protegida a través de una puerta E30. Si el acceso se\nproduce desde el recinto de una escalera especialmente protegida, no será necesario disponer dicha\npuerta E30.\n-\nTendrá como mínimo una capacidad de carga de 630 kg, unas dimensiones de cabina de 1,10 m x\n1,40 m, una anchura de paso de 1,00 m y una velocidad tal que permita realizar todo su recorrido en\nmenos de 60 s.\n-\nEn uso Hospitalario, las dimensiones de la planta de la cabina serán 1,20 m x 2,10 m, como mínimo.\n-\nSerá accesible según lo establecido en el DB SUA y estará próximo, en cada planta, a una zona de\nrefugio, cuando ésta exista.\n-\nEn la planta de acceso al edificio se dispondrá un pulsador junto a los mandos del ascensor, bajo\nuna tapa de vidrio, con la inscripción \"USO EXCLUSIVO BOMBEROS\". La activación del pulsador\ndebe provocar el envío del ascensor a la planta de acceso y permitir su maniobra exclusivamente\ndesde la cabina.\n-\nEn caso de fallo del abastecimiento normal, la alimentación eléctrica al ascensor pasará a realizarse\nde forma automática desde una fuente propia de energía que disponga de una autonomía de 1 h\ncomo mínimo.\n-\nEl número necesario de ascensores de emergencia se determinará en función de la previsión de\nocupantes en la totalidad del edificio, a razón de un ascensor de emergencia accesible por cada mil\nocupantes o fracción.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SUA",
+  "DB-SI"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0092",
+  "a0093",
+  "a0094",
+  "a0095",
+  "a0096",
+  "a0097",
+  "a0098",
+  "a0099",
+  "a0100",
+  "a0101",
+  "a0102",
+  "a0103",
+  "a0104"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

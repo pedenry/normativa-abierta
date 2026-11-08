@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0211",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.3 Comprobación de la fatiga",
+  "titulo": "C.3 Comprobación de la fatiga",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.3 Comprobación de la fatiga",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 149,
+   "bbox": [
+    74.1,
+    523.5,
+    250.2,
+    536.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1cb1755637a0875bd6aa1b0c64c9a075881b25bf31745d7a3ba4fcd705027f53",
+   "literal": "C.3 Comprobación de la fatiga"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB SE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.3 Comprobación de la fatiga",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Fatiga. Método de las curvas S-N C.1 Generalidades / C.3 Comprobación de la fatiga",
+   "seccion_estimada": "Anejo C. Fatiga. Método de las curvas S-N C.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "09d9614b48c9ee7c19eeebd3100d0e8b0f2d57af770bf92c09e522fe2a96b97e"
+ },
+ "paginas": [
+  149,
+  150,
+  151
+ ],
+ "etiquetas_impresas": [
+  "149",
+  "150",
+  "151"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "C.3 Comprobación de la fatiga\n1\nDebe comprobarse que, para la carga de fatiga:\n1\n/\nMf\nC\n2\n,\nE\nFf\n≤\nγ\nσ\n∆\nσ\n∆\nγ\n(C.1)\n1\n/\nMf\nC\n2\n,\nE\nFf\n≤\nγ\nτ\n∆\nτ\n∆\nγ\n(C.2)\ny, en caso de tensiones combinadas:\n3\nMf\nC\n2\n,\nE\nFf\n/\n\n\n\n\n\n\nγ\nσ\n∆\nσ\n∆\nγ\n+\n1\n/\n5\nMf\nC\n2\n,\nE\nFf\n≤\n\n\n\n\n\n\nγ\nτ\n∆\nτ\n∆\nγ\n(C.3)\n2\nLas carreras de tensión debidas a las cargas frecuentes ψl Qk se limitan a:\n3\nf\n5,1\nf\n5,1\ny\ny\n≤\nτ\n∆\n≤\nσ\n∆\n(C.4)\n\nDocumentoBásico SE-A Acero\nSE-A-148\n3\nLas tensiones nominales se calculan en régimen lineal y, como en el estado límite de servicio,\nusando las propiedades de la sección bruta.\n4\nEn vigas en celosía se puede utilizar un modelo de barras articuladas si los efectos de segundo or-\nden en los nudos se tienen en cuenta mediante factores k aplicados a las tensiones nominales se-\ngún las tablas siguientes:\nTabla C.1 Coeficientes k1 para tener en cuenta los momentos en uniones de vigas en celosía de tubos circu-\nlares huecos\nTipo de Unión\nCordones\nMontantes\nDiagonales\nTipo K\n1,5\n1,0\n1,3\nJuntas con huelgo\nTipo N / Tipo KT\n1,5\n1,8\n1,4\nTipo K\n1,5\n1,0\n1,2\nJuntas con solape\nTipo N / Tipo KT\n1,5\n1,65\n1,25\nTabla C.2 Coeficientes k1 para tener en cuenta los momentos en uniones de vigas en celosía de tubos rec-\ntangulares huecos\nTipo de Unión\nCordones\nMontantes\nDiagonales\nTipo K\n1,5\n1,0\n1,5\nJuntas con huelgo\nTipo N / Tipo KT\n1,5\n2,2\n1,6\nTipo K\n1,5\n1,0\n1,3\nJuntas con solape\nTipo N / Tipo KT\n1,5\n2,0\n1,4\n5\nSe distinguen dos conceptos de fiabilidad: tolerancia al daño y vida segura. El primer caso presu-\npone la inspección y el mantenimiento de la estructura al objeto de detectar el progreso de las fisu-\nras y proceder a su reparación en caso necesario. Se aplica a situaciones en las que en caso de\ndaño por fatiga se pueda producir una redistribución de tensiones entre componentes o piezas de\nla estructura. El planteamiento de vida segura no requiere de la inspección ni el mantenimiento re-\ngulares y es de aplicación cuando la formación de fisuras locales en unos elementos puede condu-\ncir rápidamente al fallo de la estructura.\nC.3.1 Coeficientes parciales de seguridad para la resistencia a la fatiga\n1\nLos valores de γMf se tomarán de la tabla C.3.\nTabla C.3 Coeficientes parciales\nConsecuencias del fallo\nConcepto de fiabilidad\nLigeras\nGraves\nTolerancia del daño\n1,00\n1,15\nVida segura\n1,15\n1,35\nC.3.2 Cálculo de las carreras de tensiones\n1\nPara los detalles típicos se utiliza el cálculo en tensiones nominales, definidas como las que se\nproducen en el material de base de acuerdo con la teoría elástica excluyendo todos los efectos de\nconcentración de tensiones.\n\nDocumentoBásico SE-A Acero\nSE-A-149\n2\nEl valor de cálculo de la carrera de tensiones nominales se calcula mediante:\n(\n)\n(\n)\nk\nFf\nn\n2\n1\n2\n,\nE\nFf\nk\nFf\nn\n2\n1\n2\n,\nE\nFf\nQ\nQ\nγ\nτ\n∆\nλ\nλ\nλ\n=\nτ\n∆\nγ\nγ\nσ\n∆\nλ\nλ\nλ\n=\nσ\n∆\nγ\nL\nL\n(C.5)\nsiendo\n(\n)\n(\n)\nk\nFf\nk\nFf\nQ\n,\nQ\nγ\nτ\n∆\nγ\nσ\n∆\nla carrera de tensiones causada por las cargas de fatiga especificadas\npara el edificio en concreto e incluidas en su acta de utilización (según DB SE). La\nespecificación de dichas cargas incluirá en sus valores para el cálculo el coeficiente\nparcial de seguridad γFf;\nλi\nfactores de daño equivalente que dependen del espectro de cálculo.\n3\nPara uniones de perfiles huecos mediante soldadura se utiliza el cálculo en tensiones geométricas,\ndefinidas como las máximas tensiones principales en el material base adyacente a la raíz de la\nsoldadura, teniendo en cuenta los efectos de concentración de tensiones debidas a la geometría\nparticular del detalle en estudio. En este caso, el valor de la carrera nominal modificada es:",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0149.png",
+  "../figura/p0150.png",
+  "../figura/p0151.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

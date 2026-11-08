@@ -1,0 +1,111 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0153",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p67",
+  "titulo": "Acciones a considerar y datos geométricos 6.2.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p67",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p67",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Acciones a considerar y datos geométricos 6.2.1 Generalidades",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "874ab18fa94aaf28ae768cf340c54791ee66cea0f86d5b3b9c940b55cbe618a2"
+ },
+ "paginas": [
+  67,
+  68
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "5"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Acciones a considerar y datos geométricos 6.2.1 Generalidades\n6.2.1 Generalidades\n1\nEn la definición de las acciones deben considerarse las sobrecargas debidas a la presencia de edi-\nficaciones próximas, posibles acopios de materiales, vehículos, etc. Las fuerzas de los puntales y\nanclajes se considerarán como acciones.\n2\nEl valor de cálculo de la densidad del material de relleno debe definirse a partir de las característi-\ncas del material previsto en el estudio de materiales, o su caso en el estudio geotécnico (véase ta-\nblas D.26 y D.27). Deberán especificarse los controles a realizar en fase de obra para comprobar\nque los valores reales cumplen las hipótesis del proyecto.\n3\nLa presencia de cargas repetitivas o dinámicas significativas requerirá un estudio especial para\nevaluar su influencia sobre la estructura de contención.\n4\nLa densidad del agua freática se evaluará considerando la posible presencia de sales o elementos\ncontaminantes.\n\nDocumento Básico SE-C Cimientos\nSE-C-63\n5\nEn el cálculo de elementos de contención, sobre todo en los provisionales, se tendrán en cuenta las\nposibles variaciones espaciales y temporales de la temperatura. Esto puede ser de especial impor-\ntancia por su repercusión en la tensión de los codales.\n6\nEl cálculo de un elemento de contención constituye un proceso iterativo en el que, partiendo de su\ndimensionado previo, se comprueba si la seguridad para resistir las diversas acciones es suficiente,\nmodificando el diseño en caso contrario.\n7\nLas acciones principales a considerar son:\na)\nel peso propio del elemento de contención, de acuerdo con el material previsto para su ejecu-\nción;\nb)\nel empuje y peso del terreno circundante, teniendo en cuenta la posición del nivel freático;\nc)\nlos empujes debidos al agua, bien en forma de presión intersticial, subpresión o presión de fil-\ntración;\nd)\nlas sobrecargas sobre la estructura de contención o sobre el terreno de trasdós;\ne)\nlos efectos sísmicos, cuando sea necesaria su previsión por la zona de emplazamiento de la\nestructura de contención;\nf)\nexcepcionalmente, los empujes de terrenos expansivos, los debidos a la congelación del agua\nen el suelo, los inducidos por la compactación del relleno o las incidencias constructivas previ-\nsibles.\n8\nEl cálculo de empujes para el análisis de estados límite últimos se basa generalmente en la hipó-\ntesis de que existe suficiente rotación o traslación del elemento de contención para llegar a un esta-\ndo de rotura. Esto se debe tener en cuenta en los casos en los que existan construcciones o servi-\ncios en su entorno.\n9\nLos estados de empuje dependen del desplazamiento del terreno y son los siguientes:\na)\nempuje activo: cuando el elemento de contención gira o se desplaza hacia el exterior bajo las\npresiones del relleno o la deformación de su cimentación hasta alcanzar unas condiciones de\nempuje mínimo;\nb)\nempuje pasivo: cuando el elemento de contención es comprimido contra el terreno por las car-\ngas transmitidas por una estructura u otro efecto similar hasta alcanzar unas condiciones de\nmáximo empuje;\nc)\nempuje en reposo: cuando se produce un estado intermedio que es el correspondiente al es-\ntado tensional inicial en el terreno.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0067.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

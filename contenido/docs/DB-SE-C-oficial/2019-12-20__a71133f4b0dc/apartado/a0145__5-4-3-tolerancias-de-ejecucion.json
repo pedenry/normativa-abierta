@@ -1,0 +1,122 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0145",
+  "ruta_oficial": "5.4.3",
+  "ruta_semantica": "5.4.3 Tolerancias de ejecución",
+  "titulo": "5.4.3 Tolerancias de ejecución",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.4.3 Tolerancias de ejecución",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 63,
+   "bbox": [
+    70.9,
+    372.7,
+    252.5,
+    384.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "76a529e369e349f09efd1b47501cea89be20ec8f9598fc4ea4f8d479df528cbc",
+   "literal": "5.4.3 Tolerancias de ejecución"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0168",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4.3 Tolerancias de ejecución",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 5.4.3 Tolerancias de ejecución",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fd458397804b43320a08ca6e19b4dc1875bb0dfdf6befba88865c000bd640d31"
+ },
+ "paginas": [
+  63
+ ],
+ "etiquetas_impresas": [
+  "6"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.4.3 Tolerancias de ejecución\n1\nPara pilotes hormigonados in situ se deben cumplir, salvo especificación en contra del Pliego de\ncondiciones del proyecto, las siguientes tolerancias:\na)\nPosición de los pilotes a nivel de la plataforma de trabajo\ne <  emax = 0,1·Deq;  para pilotes con Deq ≤ 1,5 m.\ne <  emax = 0,15 m, para pilotes con Deq > 1,5 m.\nsiendo Deq el diámetro equivalente del pilote.\nb)\nInclinación\ni < imax = 0,02 m/m. para  ≤ 4º\ni < imax = 0,04 m/m. para  > 4º\nsiendo  el ángulo que forma el eje del pilote con la vertical.\n2\nPara pilotes prefabricados hincados se deben cumplir los siguientes requisitos:\na)\nPosición de los pilotes a nivel de la plataforma de trabajo\nen tierra:  e < emax = valor mayor entre el 15% del diámetro equivalente ó 5 cm\nen agua:  de acuerdo con las especificaciones definidas en el proyecto.\nb)\nInclinación\ni < imax = 0,02 m/m. para  ≤ 4º\ni < imax = 0,04 m/m. para  > 4º\nsiendo  el ángulo que forma el eje del pilote con la vertical\n3\nCuando se requieran tolerancias más estrictas que las anteriores, se deben establecer en el Pliego\nde condiciones del proyecto, y, en cualquier caso, antes del comienzo de los trabajos.\n4\nPara la medida de las desviaciones de ejecución se considerará que el centro del pilote es el centro\nde gravedad de las armaduras longitudinales, o el centro del mayor círculo inscrito en la sección de\nla cabeza del pilote para los no armados.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0063.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

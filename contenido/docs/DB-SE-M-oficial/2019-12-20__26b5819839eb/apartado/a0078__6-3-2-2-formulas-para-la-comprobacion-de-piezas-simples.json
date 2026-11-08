@@ -1,0 +1,103 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0078",
+  "ruta_oficial": "6.3.2.2",
+  "ruta_semantica": "6.3.2.2  Fórmulas para la comprobación de piezas simples",
+  "titulo": "6.3.2.2  Fórmulas para la comprobación de piezas simples",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.2.2  Fórmulas para la comprobación de piezas simples",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 35,
+   "bbox": [
+    70.9,
+    449.2,
+    349.3,
+    459.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "933f9cbab107f33c89c4cc2571e61a0e3bd0c0ea6a83ed99c6d278774101ab23",
+   "literal": "6.3.2.2  Fórmulas para la comprobación de piezas simples"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0089",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.2  Fórmulas para la comprobación de piezas simples",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6  Estados límite últimos / 6.3  Estabilidad de piezas. / 6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones: / 6.3.2.2  Fórmulas para la comprobación de piezas simples",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "577aae7c01f75a5e8fdb85f9172b9b967e71962e466ab1a4374c57ba722aa150"
+ },
+ "paginas": [
+  35,
+  36
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.2.2  Fórmulas para la comprobación de piezas simples\n1\nSi rel,y > 0,3 y/o rel,z > 0,3, se comprobará este estado límite de la manera siguiente:\na) En piezas de sección constante y compresión simple, deben cumplirse las condiciones siguien-\ntes:\n1\nf\nd\nc,0,\nz\nc,\nd\nc,0,\n\n\n\n(6.30)\n1\nf\nd\nc,0,\nc,y\nd\nc,0,\n\n\n\n(6.31)\nsiendo:\nc,0,d\ntensión de cálculo a compresión paralela a la fibra;\nfc,0,d\nresistencia de cálculo a compresión paralela a la fibra;\nχc,y , χc,z\ncoeficientes de pandeo, obtenidos a partir de las siguientes expresiones\n\n\n2\ny\nrel,\n2\ny\ny\ny\nc,\n-\nk\n+\nk\n1\n=\nanálogo para χc,z\n(6.32)\n)\n+\n)\n3\n0,\n-\n(·\n+\n(1\n·\n0,5\n=\nk\n2\ny\nrel,\ny\nrel,\nc\ny\n\n\n\nanálogo para kz\n(6.33)\ndonde:\nc\nfactor asociado a la rectitud de las piezas, al que corresponden los valores siguientes:\n\nDocumentoBásico SE-M Madera\nSE-M 30\nc = 0,2\npara madera maciza;\nc = 0,1\npara madera laminada encolada y microlaminada;\nrel,y\nesbeltez relativa según 6.3.2.1.\nb) Flexocompresión con momentos flectores adicionales al esfuerzo de compresión;\nDeben cumplirse las condiciones siguientes:\n1\nf\nk\n+\nf\n+\nf\nd\nz,\nm,\nd\nz,\nm,\nm\nd\ny,\nm,\nd\ny,\nm,\nd\nc,0,\ny\nc,\nd\nc,0,\n\n\n\n\n\n(6.34)\n1\nf\n+\nf\nk\n+\nf\nd\nz,\nm,\nd\nz,\nm,\nd\ny,\nm,\nd\ny,\nm,\nm\nd\nc,0,\nz\nc,\nd\nc,0,\n\n\n\n\n\n(6.35)\nsiendo:\nc,0,d\ntensión de cálculo a compresión paralela;\nfc,0,d\nresistencia de cálculo a compresión paralela;\nm,y,d",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0036_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0035.png",
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

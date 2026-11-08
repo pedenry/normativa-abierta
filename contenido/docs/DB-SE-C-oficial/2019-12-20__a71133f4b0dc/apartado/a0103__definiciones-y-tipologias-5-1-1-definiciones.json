@@ -1,0 +1,112 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0103",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p47",
+  "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p47",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p47",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Definiciones y tipologías 5.1.1 Definiciones",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7344c48580a6fbadd339c7fbcc6eaa96d4756282de99d82495c03fba99e3fec0"
+ },
+ "paginas": [
+  47
+ ],
+ "etiquetas_impresas": [
+  "5"
+ ],
+ "tipos": [
+  "definiciones",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Definiciones y tipologías 5.1.1 Definiciones\n5.1.1 Definiciones\n1\nA efectos de este DB se considerará que una cimentación es profunda si su extremo inferior, en el\nterreno, está a una profundidad superior a 8 veces su diámetro o ancho.\n2\nCuando la ejecución de una cimentación superficial no sea técnicamente viable, se debe contem-\nplar la posibilidad de realizar una cimentación profunda.\n3\nLas cimentaciones profundas se pueden clasificar en los siguientes tipos:\na)\npilote aislado: aquél que está a una distancia lo suficientemente alejada de otros pilotes como\npara que no tenga interacción geotécnica con ellos;\nb)\ngrupo de pilotes: son aquellos que por su proximidad interaccionan entre sí o están unidos\nmediante elementos estructurales lo suficientemente rígidos, como para que trabajen conjun-\ntamente;\nc)\nzonas pilotadas: son aquellas en las que los pilotes están dispuestos con el fin de reducir\nasientos o mejorar la seguridad frente a hundimiento de las cimentaciones. Suelen ser pilotes\nde escasa capacidad portante individual y estar regularmente espaciados o situados en puntos\nestratégicos;\nd)\nmicropilotes: son aquellos compuestos por una armadura metálica formada por tubos, barras o\nperfiles introducidos dentro de un taladro de pequeño diámetro, pudiendo estar o no inyecta-\ndos con lechada de mortero a presión más o menos elevada. El cálculo de micropilotes inyec-\ntados no se contempla en el presente Documento Básico.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0047.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,112 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0036",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p12",
+  "titulo": "E F",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p12",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p12",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / E F",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7a253333a1923e62484bf085075fcbb5527f5c37b37f17132d1616428a065613"
+ },
+ "paginas": [
+  12,
+  13
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E F\nF\nPersistente\no\ntransitoria\nHundimiento\n3,0(1)\n1,0\n1,0\n1,0\nDeslizamiento\n1,5(2)\n1,0\n1,0\n1,0\nVuelco(2)\nAcciones estabilizadoras\n1,0\n1,0\n0,9(3)\n1,0\nAcciones desestabilizadoras\n1,0\n1,0\n1,8\n1,0\nEstabilidad global\n1,0\n1,8\n1,0\n1,0\nCapacidad estructural\n- (4)\n- (4)\n1,6(5)\n1,0\nPilotes\nArrancamiento\n3,5\n1,0\n1,0\n1,0\nRotura horizontal\n3,5\n1,0\n1,0\n1,0\nPantallas\nEstabilidad fondo excavación\n1,0\n2,5(6)\n1,0\n1,0\nSifonamiento\n1,0\n2,0\n1,0\n1,0\nRotación o traslación\nEquilibrio límite\n1\n1,0\n0,6(7)\n1,0\nModelo de Winkler\n1\n1,0\n0,6(7)\n1,0\nElementos finitos\n1,0\n1,5\n1,0\n1,0\nExtraordinaria\nHundimiento\n2,0(8)\n1,0\n1,0\n1,0\nDeslizamiento\n1,1(2)\n1,0\n1,0\n1,0\nVuelco(2)\nAcciones estabilizadoras\n1,0\n1,0\n0,9\n1,0\nAcciones desestabilizadoras\n1,0\n1,0\n1,2\n1,0\nEstabilidad global\n1,0\n1,2\n1,0\n1,0\nCapacidad estructural\n- (4)\n- (4)\n1,0\n1,0\nPilotes\nArrancamiento\n2,3\n1,0\n1,0\n1,0\nRotura horizontal\n2,3\n1,0\n1,0\n1,0\nPantallas\nRotación o traslación\nEquilibrio límite\n-\n-\n-\n-\nModelo de Winkler\n1,0\n1,0\n0,8\n1,0\nElementos finitos\n1,0\n1,2\n1,0\n1,0\n(1) En pilotes se refiere a métodos basados en ensayos de campo o fórmulas analíticas (largo plazo), para métodos\nbasados en fórmulas analíticas (corto plazo), métodos basados en pruebas de carga hasta rotura y métodos basa-\ndos en pruebas dinámicas de hinca con control electrónico de la hinca y contraste con pruebas de carga, se podrá\ntomar 2,0.\n(2) De aplicación en cimentaciones directas y muros.\n(3) En cimentaciones directas, salvo justificación en contrario, no se considerará el empuje pasivo.\n\nDocumento Básico SE-C Cimientos\nSE-C-8\n(4)  Los correspondientes de los Documentos Básicos relativos a la seguridad estructural de los diferentes materiales\no la instrucción EHE.\n(5)  Aplicable a elementos de hormigón estructural cuyo nivel de ejecución es intenso o normal, según la Instrucción\nEHE. En los casos en los que el nivel de control de ejecución sea reducido, el coeficiente E debe tomarse, para\nsituaciones persistentes o transitorias, igual a 1,8.\n(6) El coeficiente M será igual a 2,0 si no existen edificios o servicios sensibles a los movimientos en las proximida-\ndes de la pantalla.\n(7)  Afecta al empuje pasivo\n(8) En pilotes, se refiere a métodos basados en ensayos de campo o fórmulas analíticas; para métodos basados en\npruebas de carga hasta rotura y métodos basados en pruebas dinámicas de hinca con control electrónico de la hinca\ny contraste con pruebas de carga, se podrá tomar 1,5",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0012.png",
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

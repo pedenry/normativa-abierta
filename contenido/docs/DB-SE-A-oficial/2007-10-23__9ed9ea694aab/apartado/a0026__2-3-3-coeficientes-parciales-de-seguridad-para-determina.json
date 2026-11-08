@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0026",
+  "ruta_oficial": "2.3.3",
+  "ruta_semantica": "2.3.3 Coeficientes parciales de seguridad para determinar la resistencia",
+  "titulo": "2.3.3 Coeficientes parciales de seguridad para determinar la resistencia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.3.3 Coeficientes parciales de seguridad para determinar la resistencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 8,
+   "bbox": [
+    70.9,
+    128.9,
+    413.8,
+    140.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "35acd50fc9c7c1ae6bad473528bc8eac6c99b29132b7ae7aa550080ae5a7216b",
+   "literal": "2.3.3 Coeficientes parciales de seguridad para determinar la resistencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0029",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3.3 Coeficientes parciales de seguridad para determinar la resistencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Bases de cálculo 2.1 Generalidades / 2.3 Estados límite últimos 2.3.1 Condiciones que deben verificarse / 2.3.3 Coeficientes parciales de seguridad para determinar la resistencia",
+   "seccion_estimada": "2 Bases de cálculo 2.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1b46769a57e584dfcb88d363412aa341333be6fd12e9d7e6f11460f795366552"
+ },
+ "paginas": [
+  8
+ ],
+ "etiquetas_impresas": [
+  "8"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "2.3.3 Coeficientes parciales de seguridad para determinar la resistencia\n1\nPara los coeficientes parciales para la resistencia se adoptarán, normalmente, los siguientes valo-\nres:\na)\nγM0 = 1,0 5\ncoeficiente parcial de seguridad relativo a la plastificación del material\nb)\nγM1 = 1,05\ncoeficiente parcial de seguridad relativo a los fenómenos de inestabilidad\nc)\nγM2 = 1,25\ncoeficiente parcial de seguridad relativo a la resistencia última del material o",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0008.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

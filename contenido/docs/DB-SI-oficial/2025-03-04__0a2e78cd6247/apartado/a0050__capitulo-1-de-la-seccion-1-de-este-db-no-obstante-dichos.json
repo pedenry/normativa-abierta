@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0050",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p22",
+  "titulo": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p22",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p22",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f85a9360f6e1900b72f3786593439117c03c20fcfe0d23e21051fe5b85261d0e"
+ },
+ "paginas": [
+  22
+ ],
+ "etiquetas_impresas": [
+  "22"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida\nde emergencia de otras zonas del edificio,\nb) sus salidas de emergencia podrán comunicar con un elemento común de evacuación del edificio\na través de un vestíbulo de independencia, siempre que dicho elemento de evacuación esté di-\nmensionado teniendo en cuenta dicha circunstancia.\n2\nComo excepción, los establecimientos de uso Pública concurrencia cuya superficie construida total\nno exceda de 500 m² y estén integrados en centros comerciales podrán tener salidas de uso habitual\no salidas de emergencia a las zonas comunes de circulación del centro. Cuando su superficie sea\nmayor que la indicada, al menos las salidas de emergencia serán independientes respecto de dichas\nzonas comunes.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0022.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0051",
+  "a0052",
+  "a0053",
+  "a0063",
+  "a0068",
+  "a0069",
+  "a0070",
+  "a0071"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0198",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p118",
+  "titulo": "Espesor nominal, tnom , en mm",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p118",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p118",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / Espesor nominal, tnom , en mm",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6e4af84d84be6c63f0f2f5c297e63d97e9c4eb0c98ed9854ef2675752d7d327d"
+ },
+ "paginas": [
+  118
+ ],
+ "etiquetas_impresas": [
+  "800"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Espesor nominal, tnom , en mm\n>6 a 13\n> 13 a 20\n> 20 a 25\n> 25 a 32\n> 32 a 40\n> 40\nResistencia\n(característica),\nen\nN/mm2\n- Flexión\nfm,p,k\n16,5\n15,0\n13,3\n12,5\n11,7\n10,0\n- Tracción\nft,p,k\n10,5\n9,5\n8,5\n8,3\n7,8\n7,5\n- Compresión\nfc,p,k\n14,1\n13,3\n12,8\n12,2\n11,9\n10,4\n- Cortante, en el grueso\nfv,p,k\n7,8\n7,3\n6,8\n6,5\n6,0\n5,5\n- Cortante, en el plano\nfr,p,k\n1,9\n1,7\n1,7\n1,7\n1,7\n1,7\nRigidez (media), en N/mm2\n- A flexión\nEm,p\n4400\n4100\n3500\n3300\n3100\n2800\n- A tracción\nEt,p\n2500\n2400\n2100\n1900\n1800\n1700\n- A compresión\nEc,p\n2500\n2400\n2100\n1900\n1800\n1700\n- A cortante, en el grueso\nGv,p\n1200\n1150\n1050\n950\n900\n880\nDensidad, en kg/m3\n- Característica\np,k\n650\n600\n550\n550\n500\n500\nTabla E.8 Tableros de partículas de alta prestación estructural para su uso en ambiente húmedo",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0118_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0118.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

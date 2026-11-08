@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0218",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.4 Comprobación",
+  "titulo": "C.4 Comprobación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.4 Comprobación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 165,
+   "bbox": [
+    74.1,
+    87.5,
+    184.1,
+    100.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "080b676b6d67d08456641393308ada0277a35c5c116b0067161d48736da06812",
+   "literal": "C.4 Comprobación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.4 Comprobación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Fatiga. Método de las curvas S-N C.1 Generalidades / sección nominal del conector / C.4 Comprobación",
+   "seccion_estimada": "Anejo C. Fatiga. Método de las curvas S-N C.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8fe24108b6f550dc73bac97604fb34dac63fa3f4caa733da121893a0084f5f2a"
+ },
+ "paginas": [
+  165,
+  166
+ ],
+ "etiquetas_impresas": [
+  "165",
+  "166"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "C.4 Comprobación\n1\nSon admisibles los formatos de acumulación de daño o de carrera equivalente. Comprende los si-\nguientes pasos, cada uno de los cuales se reflejará en el apartado correspondiente de la memoria\ndel proyecto:\na)\ndefinición del registro elemental de cargas (por ejemplo, cada pasada del carro en un puente\ngrúa) y del número de veces que se repite a lo largo de la vida útil de la estructura. La defini-\nción del registro de cargas y del número de repeticiones vendrá dada en cada caso por las\nespecificaciones particulares del sistema;\nb)\ndefinición de los detalles estructurales a comprobar (por ejemplo, los cordones de ala de un\nempalme soldado en una viga carrilera) y obtención del registro elemental de tensiones (por\nejemplo, las tensiones normales en las alas en la sección del citado empalme). El procedi-\nmiento de cálculo de tensiones seguirá lo establecido en los apartados precedentes y tendrá\nen cuenta, cuando proceda, los posibles efectos de amplificación por el carácter dinámico de\nlas acciones;\nc)\ndeterminación del número de ciclos y de su amplitud (carrera). Son aceptables los métodos de\n“vaciado de la alberca” o de “flujo de agua”. No es necesario considerar los ciclos cuyas carre-\nras sean inferiores al límite de corte. El resultado de esta operación, ponderado por el número\nde veces que se repite el ciclo de carga a lo largo de la vida útil de la estructura, se representa\nen forma de espectro;\nd)\ndibujo del espectro de amplitudes (carreras);\ne)\nobtención, para cada carrera de tensiones, del número de ciclos hasta fallo. Entrando en las\ncurvas S-N correspondientes al detalle analizado con la carrera de tensión de cálculo (multi-\nplicada por γFf) se obtiene el número de ciclos a fallo NRi;\nf)\nobtención del daño acumulado conforme a la regla de Palmgren- Miner.\n2\nUna vez obtenido el daño total el criterio de comprobación puede formularse en daño (simplemente\ncomprobar que el daño acumulado sea inferior a la unidad) o en la carrera equivalente de tensio-\nnes.\n\nDocumentoBásico SE-A Acero\nSE-A-164\nDefinición del registro elemental de car-\ngas\nDefinición de los detalles a comprobar y\nobtención del registro de tensiones en\ncada uno\n-2,25\n-2\n-1,75\n-1,5\n-1,25\n-1\n-0,75\n-0,5\n-0,25\n0\n0,25\n0,0\n0,5\n1,0\n1,5\n2,0\n2,5\n3,0\n3,5\n4,0\n4,5\n5,0\nTIEMPO(s)\nDeterminación del número de ciclos y de\nsu amplitud\n-2\n-1,75\n-1,5\n-1,25\n-1\n-0,75\n-0,5\n-0,25\n0\n0,25\n∆1\n∆2\nRepresentación del espectro\n∆1\nn1\n∆2\nn2\n∆3\nn3\n∆4\nn4\nN\n∆\nObtención del número de ciclos hasta el\nfallo\n1104\n1105\n1106\n1107\n1108\n1109\n10\n100\n1103\nComprobación (criterio de Palmgren-\nMiner)\nd\n1\n1\n1\n1\n1\n1\ni\ni\nD\n...\nN\nn\nN\nn\nN\nn\nN\nn\n≤\n+\n+\n+\n=",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0166_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0166.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,105 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0058",
+  "ruta_oficial": "6",
+  "ruta_semantica": "6  Estados límite últimos",
+  "titulo": "6  Estados límite últimos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6  Estados límite últimos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 29,
+   "bbox": [
+    70.9,
+    96.9,
+    239.0,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "cf35af26e2567cb40032a9d2a8c840a0e9e7bfc9b9a331e1988057ede274a973",
+   "literal": "6  Estados límite últimos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0070",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6  Estados límite últimos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6  Estados límite últimos",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "188e3658ea8fcb374098f4ee32f98de18a643d5546176b5c262686abfa4c8da8"
+ },
+ "paginas": [
+  29
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6  Estados límite últimos\n1\nPara el caso de piezas de seccion constante, el paso de las solicitaciones de cálculo a tensiones de\ncálculo se podrá hacer según las fórmulas clásicas de Resistencia de Materiales salvo en las zonas\nen las que exista un cambio brusco de sección o, en general, un cambio brusco del estado tensional.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0059",
+  "a0069",
+  "a0070",
+  "a0075",
+  "a0083",
+  "a0086",
+  "a0091",
+  "a0093"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

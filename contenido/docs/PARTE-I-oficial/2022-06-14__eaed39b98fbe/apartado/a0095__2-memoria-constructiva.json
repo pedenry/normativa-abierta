@@ -1,0 +1,79 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0095",
+  "ruta_oficial": "2",
+  "ruta_semantica": "Fragmento de PDF p17",
+  "titulo": "2. Memoria constructiva",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p17",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p17",
+  "referencias_filtradas": [
+   "apartado 2.6.2"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2. Memoria constructiva",
+   "seccion_estimada": "2. Memoria constructiva",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9249a8cadb39f933a750564b31ebe3b8fe74db89b00d2822073ecbec1449f41a"
+ },
+ "paginas": [
+  17,
+  18
+ ],
+ "etiquetas_impresas": [
+  "17",
+  "18"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2. Memoria constructiva\nDescripción de las soluciones adoptadas\n2.1 Sustentación del edificio*\n-\nJustificación de las características del suelo y paráme-\ntros a considerar para el cálculo de la parte del sistema\nestructural correspondiente a la cimentación.\n\nCódigo Técnico de la Edificación\nParte I\n18\n2.2 Sistema estructural (cimentación, es-\ntructura portante y estructura horizontal)\n-\nSe establecerán los datos y las hipótesis de partida, el\nprograma de necesidades, las bases de cálculo y pro-\ncedimientos o métodos empleados para todo el sistema\nestructural, así como las características de los materia-\nles que intervienen.\n2.3 Sistema envolvente\n-\nDefinición constructiva de los distintos subsistemas de\nla envolvente del edificio, con descripción de su com-\nportamiento frente a las acciones a las que está some-\ntido (peso propio, viento, sismo, etc.), frente al fuego,\nseguridad de uso, evacuación de agua y comportamien-\nto frente a la humedad, aislamiento acústico y sus ba-\nses de cálculo.\n-\nEl Aislamiento térmico de dichos subsistemas, la de-\nmanda energética máxima prevista del edificio para\ncondiciones de verano e invierno y su eficiencia energé-\ntica en función del rendimiento energético de las insta-\nlaciones proyectado según el apartado 2.6.2.\n2.4 Sistema de compartimentación\n-\nDefinición de los elementos de compartimentación con\nespecificación de su comportamiento ante el fuego y su\naislamiento acústico y otras características que sean\nexigibles, en su caso.\n2.5 Sistemas de acabados\n-\nSe indicarán las características y prescripciones de los\nacabados de los paramentos a fin de cumplir los requi-\nsitos de funcionalidad, seguridad y habitabilidad\n2.6 Sistemas de acondicionamiento e insta-\nlaciones\n-\nSe indicarán los datos de partida, los objetivos a cum-\nplir, las prestaciones y las bases de cálculo para cada\nuno de los subsistemas siguientes:\n1. Protección contra incendios, anti-intrusión, pararra-\nyos, electricidad, alumbrado, ascensores, transpor-\nte, fontanería, evacuación de residuos líquidos y só-\nlidos, ventilación, telecomunicaciones, etc.\n2. Instalaciones térmicas del edificio proyectado y su\nrendimiento energético, suministro de combustibles,\nahorro de energía e incorporación de energía solar\ntérmica o fotovoltaica y otras energías renovables.\n2.7 Equipamiento\n-\nDefinición de baños, cocinas y lavaderos, equipamiento\nindustrial, etc.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.6.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0017.png",
+  "../figura/p0018.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

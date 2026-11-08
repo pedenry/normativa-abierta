@@ -1,0 +1,82 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0062",
+  "ruta_oficial": "ANEJO-C",
+  "ruta_semantica": "Fragmento de PDF p27",
+  "titulo": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p27",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p27",
+  "referencias_filtradas": [
+   "DB-SE"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d52a3cba568d811cd8e215c8ad2de841eaadfa908c5d43775ba7cdc7236ab4bb"
+ },
+ "paginas": [
+  27
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación\nC.1 Objetivos y campo de aplicación\n1\nEl contenido de este Anejo tiene carácter informativo y sus objetivos son:\na)\nla recopilación de las bases en que se fundamentan los capítulos 3, 4 y 5 de DB-SE;\nb)\nla introducción de algunas recomendaciones relativas a la aplicación de los métodos probabi-\nlistas explícitos.\n2\nEn principio, los métodos probabilistas explícitos se pueden emplear para la verificación de cual-\nquier problema que se pueda describir a través de relaciones matemáticas, y siempre que sea posi-\nble identificar el conjunto de los correspondientes eventos aleatorios.\n3\nLas principales aplicaciones de los métodos probabilistas explícitos se pueden dividir en dos gru-\npos:\na)\nla calibración de modelos probabilistas implícitos (por ejemplo la calibración de los coeficientes\nparciales);\nb)\nla aplicación directa para la adopción de decisiones relacionadas con las prestaciones de las\nestructuras (por ejemplo para el dimensionado de estructuras nuevas en los casos en los que\nlos métodos implícitos resulten inadecuados, o para la evaluación estructural de edificios exis-\ntentes).\n4\nEl contenido de este Anejo es aplicable para las verificaciones relativas a la capacidad portante\n(estados límite últimos). También es aplicable para la verificación de la aptitud al servicio en los ca-\nsos irreversibles. En general, las reglas y el contenido de este Anejo no son aplicables a estados\nlímite de servicio reversibles.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0063",
+  "a0064",
+  "a0065",
+  "a0066",
+  "a0067",
+  "a0068",
+  "a0069",
+  "a0070"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

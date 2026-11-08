@@ -1,0 +1,413 @@
+{
+ "documento": null,
+ "pagina": 24,
+ "etiqueta_impresa": "24",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    119.1,
+    84.1,
+    507.3,
+    98.4
+   ],
+   "tipo": "titulo",
+   "texto": "«Tabla 2.1 Clasificación de los locales y zonas de riesgo especial integrados en",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 1,
+   "bbox": [
+    293.7,
+    96.1,
+    329.9,
+    110.4
+   ],
+   "tipo": "titulo",
+   "texto": "edificios",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 2,
+   "bbox": [
+    42.5,
+    143.0,
+    156.6,
+    161.4
+   ],
+   "tipo": "texto",
+   "texto": "Uso previsto del edificio o establecimiento\n– Uso del local o zona",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    42.5,
+    125.5,
+    545.7,
+    204.7
+   ],
+   "tipo": "texto",
+   "texto": "Tamaño del local o zona\nS = superficie construida\nV = volumen construido\nQT = carga de fuego total ponderada y corregida [MJ], calculada según el anexo I\ndel RSCIEI\nRiesgo bajo\nRiesgo medio\nRiesgo alto\nEn cualquier edificio o establecimiento:\n- Talleres de mantenimiento, almacenes de elementos combustibles (p. e.: mobiliario, lencería,\nlimpieza, etc.) archivos de documentos, depósitos de libros, etc. (1)\n100<V≤ 200 m3\n200<V≤ 400 m3\nV>400 m3",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    42.5,
+    203.4,
+    499.6,
+    213.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Almacén de residuos\n5<S≤15 m2\n15<S ≤30 m2\nS>30 m2",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    42.5,
+    212.1,
+    358.9,
+    230.5
+   ],
+   "tipo": "texto",
+   "texto": "- Aparcamiento de vehículos cuya superficie S no exceda de 100 m2 o integrado en una vivienda\nunifamiliar.\nEn todo caso",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    42.5,
+    229.2,
+    503.0,
+    247.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Cocinas según potencia instalada P(2)(3)\n20<P≤30 kW\n30<P≤50 kW\nP>50 kW\n- Lavanderías. Vestuarios de personal. Camerinos(4)\n20<S≤100 m2\n100<S≤200 m2\nS>200 m2",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    42.5,
+    246.5,
+    504.7,
+    273.6
+   ],
+   "tipo": "texto",
+   "texto": "- Salas de calderas con potencia útil nominal P\n70<P≤200 kW\n200<P≤600 kW\nP>600 kW\n- Salas de máquinas de instalaciones de climatización (según Reglamento de Instalaciones Térmicas\nen los edificios, RITE, aprobado por RD 1027/2007, de 20 de julio, BOE 2007/08/29)\nEn todo caso",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    42.5,
+    272.3,
+    435.5,
+    299.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Salas de maquinaria frigorífica: refrigerante amoniaco\nEn todo caso\nrefrigerante halogenado\nP≤400 kW\nP>400 kW\n- Almacén de combustible sólido para calefacción\nS≤3 m2\nS>3 m2",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    42.5,
+    298.3,
+    511.7,
+    342.8
+   ],
+   "tipo": "texto",
+   "texto": "- Local de contadores de electricidad y de cuadros generales de distribución\nEn todo caso\n- Centro de transformación\n- aparatos con aislamiento dieléctrico seco o líquido con punto de inflamación mayor que 300°C\nEn todo caso\n- aparatos con aislamiento dieléctrico con punto de inflamación que no exceda de 300°C y potencia\ninstalada P: total\nP<2 520 kVA\n2520<P<4000 kVA\nP>4 000 kVA",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    42.5,
+    341.5,
+    511.7,
+    386.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "en cada transformador\nP<630 kVA\n630<P<1000 kVA\nP>1 000 kVA\n- Sala de maquinaria de ascensores\nEn todo caso\n- Sala de grupo electrógeno\nEn todo caso\nResidencial Vivienda\n- Trasteros(5)\n50<S≤100 m2\n100<S≤500 m2\nS>500 m2",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    42.5,
+    384.9,
+    503.0,
+    403.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Hospitalario\n- Almacenes de productos farmacéuticos y clínicos\n100<V≤200 m3\n200<V≤400 m3\nV>400 m3",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    42.5,
+    402.3,
+    512.0,
+    421.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Locales destinados a esterilización y almacenes anejos\nEn todo caso\n- Laboratorios clínicos\nV≤350 m3\n350<V≤500 m3\nV>500 m3",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    42.5,
+    419.6,
+    503.0,
+    446.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Administrativo\n- Imprenta, reprografía y locales anejos, tales como almacenes de papel o de publicaciones,\nencuadernado, etc. (1)\n100<V≤200 m3\n200<V≤500 m3\nV>500 m3",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    42.5,
+    445.4,
+    503.0,
+    464.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Residencial Público\n- Roperos y locales para la custodia de equipajes\nS≤20 m2\n20<S≤100 m2\nS>100 m2",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    42.5,
+    462.8,
+    521.7,
+    491.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Comercial\n- Almacenes en los que la densidad de carga de fuego ponderada y corregida (QS) aportada por los\nproductos almacenados sea(6)\n425<QS≤850 MJ/m2\n850<QS≤3.400 MJ/m2\nQS>3.400 MJ/m2",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    42.5,
+    489.7,
+    279.5,
+    508.1
+   ],
+   "tipo": "texto",
+   "texto": "La superficie construida de los locales así clasificados no debe exceder de la siguiente:\n– en recintos no situados por debajo de la planta de salida del edificio",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    42.5,
+    506.7,
+    530.9,
+    577.3
+   ],
+   "tipo": "texto",
+   "texto": "con instalación automática de extinción\nS< 2.000 m2\nS<600 m2\nS<25 m2 y altura de\nevacuación <15 m\nsin instalación automática de extinción\nS<1.000 m2\nS<300 m2\nno se admite\n- en recintos situados por debajo de la planta de salida del edificio\ncon instalación automática de extinción\n<800 m2\nno se admite\nno se admite\nsin instalación automática de extinción\n<400 m2\nno se admite\nno se admite\nPública concurrencia\n- Taller o almacén de decorados, de vestuario, etc.\n100<V≤200 m3\nV>200 m3",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    42.5,
+    578.8,
+    550.2,
+    598.3
+   ],
+   "tipo": "texto",
+   "texto": "(1) En el supuesto de que estos locales tengan más de 500 m3 y una carga de fuego total ponderada y corregida (QT), calculada según el anexo I del RSCIEI, igual o superior a 3 x\n106 MJ, se considerarán zonas de uso Almacén.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    42.5,
+    599.5,
+    550.2,
+    643.1
+   ],
+   "tipo": "texto",
+   "texto": "(2) Para la determinación de la potencia instalada sólo se considerarán los aparatos directamente destinados a la preparación de alimentos y susceptibles de provocar ignición. Las\nfreidoras y las sartenes basculantes se computarán a razón de 1 kW por cada litro de capacidad, independientemente de la potencia que tengan. En usos distintos de Hospitalario y\nResidencial Público no se consideran locales de riesgo especial las cocinas cuyos aparatos estén protegidos con un sistema automático de extinción, aunque incluso en dicho caso les\nes de aplicación lo que se establece en la nota (3). En el capítulo 1 de la Sección SI4 de este DB, se establece que dicho sistema debe existir cuando la potencia instalada exceda de 50\nkW.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    42.5,
+    644.4,
+    550.1,
+    662.8
+   ],
+   "tipo": "texto",
+   "texto": "(3) Los sistemas de extracción de los humos de las cocinas que conforme a lo establecido en este DB SI deban clasificarse como local de riesgo especial deben cumplir además las\nsiguientes condiciones especiales:",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    59.5,
+    664.0,
+    316.6,
+    674.0
+   ],
+   "tipo": "texto",
+   "texto": "– Las campanas deben estar separadas al menos 50 cm de cualquier material que no sea A1.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    42.5,
+    675.2,
+    550.2,
+    702.0
+   ],
+   "tipo": "texto",
+   "texto": "– Los conductos deben ser independientes de toda otra extracción o ventilación y exclusivos para cada cocina. Deben disponer de registros para inspección y limpieza en los\ncambios de dirección con ángulos mayores que 30? y cada 3 m como máximo de tramo horizontal. Los conductos que discurran por el interior del edificio, así como los que discurran por\nfachadas a menos de 1,50 m de distancia de zonas de la misma que no sean al menos EI 30 o de balcones, terrazas o huecos practicables tendrán una clasificación EI 30.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    42.5,
+    703.3,
+    550.2,
+    721.7
+   ],
+   "tipo": "texto",
+   "texto": "No deben existir compuertas cortafuego en el interior de este tipo de conductos, por lo que su paso a través de elementos de compartimentación de sectores de incendio se debe\nresolver de la forma que se indica en el apartado 3 de esta Sección.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    42.5,
+    722.9,
+    550.2,
+    749.7
+   ],
+   "tipo": "texto",
+   "texto": "– Los filtros deben estar separados de los focos de calor más de 1,20 m sin son tipo parrilla o de gas, y más de 0,50 m si son de otros tipos. Deben ser fácilmente accesibles y\ndesmontables para su limpieza, tener una inclinación mayor que 45? y poseer una bandeja de recogida de grasas que conduzca éstas hasta un recipiente cerrado cuya capacidad debe\nser menor que 3 l.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    42.5,
+    750.9,
+    550.1,
+    770.1
+   ],
+   "tipo": "texto",
+   "texto": "– Los ventiladores cumplirán las especificaciones de la norma UNE-EN 12101-3: 2016 «Especificaciones para aireadores extractores de humos y calor mecánicos.» y tendrán una\nclasificación F400 90.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    59.5,
+    771.7,
+    289.1,
+    781.7
+   ],
+   "tipo": "texto",
+   "texto": "(4) Las zonas de aseos no computan a efectos del cálculo de la superficie construida.",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    207.7,
+    27.8,
+    387.6,
+    45.0
+   ],
+   "tipo": "titulo",
+   "texto": "BOLETÍN OFICIAL DEL ESTADO",
+   "tamano": 12.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 28,
+   "bbox": [
+    226.5,
+    43.5,
+    368.8,
+    57.8
+   ],
+   "tipo": "titulo",
+   "texto": "LEGISLACIÓN CONSOLIDADA",
+   "tamano": 10.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 29,
+   "bbox": [
+    277.4,
+    802.3,
+    317.9,
+    815.2
+   ],
+   "tipo": "texto",
+   "texto": "Página 24",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

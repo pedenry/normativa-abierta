@@ -1,0 +1,77 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0242",
+  "ruta_oficial": "6.3.2",
+  "ruta_semantica": "Fragmento de PDF p103",
+  "titulo": "6.3.2 Incompatibilidad entre materiales 6.3.2.1 Medidas de protección frente a la incompatibilidad entre materiales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p103",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p103",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Productos de construcción 6.1 Condiciones generales de los materiales / 6.3 Incompatibilidades 6.3.1 Incompatibilidad de los materiales y el agua / 6.3.2 Incompatibilidad entre materiales 6.3.2.1 Medidas de protección frente a la incompatibilidad entre materiales",
+   "seccion_estimada": "6 Productos de construcción 6.1 Condiciones generales de los materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3be3d06e3eb4a1f5a6bc1026d3ec4e8fa4e2dea375123053f49beda68f9c616d"
+ },
+ "paginas": [
+  103,
+  104
+ ],
+ "etiquetas_impresas": [
+  "103",
+  "104"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.2 Incompatibilidad entre materiales 6.3.2.1 Medidas de protección frente a la incompatibilidad entre materiales\n6.3.2.1 Medidas de protección frente a la incompatibilidad entre materiales\n1\nSe evitará el acoplamiento de tuberías y elementos de metales con diferentes valores de potencial\nelectroquímico excepto cuando según el sentido de circulación del agua se instale primero el de\nmenor valor.\n2\nEn particular, las tuberías de cobre no se colocarán antes de las conducciones de acero galvaniza-\ndo, según el sentido de circulación del agua, para evitar la aparición de fenómenos de corrosión por\nla formación de pares galvánicos y arrastre de iones Cu+ hacía las conducciones de acero galvani-\nzado, que aceleren el proceso de perforación.\n3\nIgualmente, no se instalarán aparatos de producción de ACS en cobre colocados antes de canali-\nzaciones en acero.\n4\nExcepcionalmente, por requisitos insalvables de la instalación, se admitirá el uso de manguitos an-\ntielectrolíticos, de material plástico, en la unión del cobre y el acero galvanizado.\n5\nSe autoriza sin embargo, el acoplamiento de cobre después de acero galvanizado, montando una\nválvula de retención entre ambas tuberías.\n6\nSe podrán acoplar al acero galvanizado elementos de acero inoxidable.\n7\nEn las vainas pasamuros, se interpondrá un material plástico para evitar contactos inconvenientes\nentre distintos materiales.\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n104",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0103_t01.json",
+  "../tabla/p0103_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0103.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

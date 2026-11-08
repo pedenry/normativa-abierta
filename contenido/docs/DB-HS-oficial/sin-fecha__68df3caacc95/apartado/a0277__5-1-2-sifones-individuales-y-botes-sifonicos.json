@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0277",
+  "ruta_oficial": "5.1.2",
+  "ruta_semantica": "Fragmento de PDF p123",
+  "titulo": "5.1.2 Sifones individuales y botes sifónicos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p123",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p123",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.1 Ejecución de los puntos de captación 5.1.1 Válvulas de desagüe / 5.1.2 Sifones individuales y botes sifónicos",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "494febf5048245c97c0760d21b61402b1685bfd6f224a25dd7843e175608ddfa"
+ },
+ "paginas": [
+  123,
+  124
+ ],
+ "etiquetas_impresas": [
+  "123",
+  "124"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.1.2 Sifones individuales y botes sifónicos\n1\nTanto los sifones individuales como los botes sifónicos serán accesibles en todos los casos y siem-\npre desde el propio local en que se hallen instalados. Los cierres hidráulicos no quedarán tapados u\nocultos por tabiques, forjados, etc., que dificulten o imposibiliten su acceso y mantenimiento. Los\nbotes sifónicos empotrados en forjados sólo se podrán utilizar en condiciones ineludibles y justifica-\ndas de diseño.\n2\nLos sifones individuales llevarán en el fondo un dispositivo de registro con tapón roscado y se insta-\nlarán lo más cerca posible de la válvula de descarga del aparato sanitario o en el mismo aparato\nsanitario, para minimizar la longitud de tubería sucia en contacto con el ambiente.\n3\nLa distancia máxima, en sentido vertical, entre la válvula de desagüe y la corona del sifón debe ser\nigual o inferior a 60 cm, para evitar la pérdida del sello hidráulico.\n4\nCuando se instalen sifones individuales, se dispondrán en orden de menor a mayor altura de los\nrespectivos cierres hidráulicos a partir de la embocadura a la bajante o al manguetón del inodoro, si\nes el caso, donde desembocarán los restantes aparatos aprovechando el máximo desnivel posible\nen el desagüe de cada uno de ellos. Así, el más próximo a la bajante será la bañera, después el bi-\ndé y finalmente el o los lavabos.\n5\nNo se permitirá la instalación de sifones antisucción, ni cualquier otro que por su diseño pueda per-\nmitir el vaciado del sello hidráulico por sifonamiento.\n6\nNo se podrán conectar desagües procedentes de ningún otro tipo de aparato sanitario a botes sifó-\nnicos que recojan desagües de urinarios,\n7\nLos botes sifónicos quedarán enrasados con el pavimento y serán registrables mediante tapa de\ncierre hermético, estanca al aire y al agua.\n8\nLa conexión de los ramales de desagüe al bote sifónico se realizará a una altura mínima de 20 mm\ny el tubo de salida como mínimo a 50 mm, formando así un cierre hidráulico. La conexión del tubo\nde salida a la bajante no se realizará a un nivel inferior al de la boca del bote para evitar la pérdida\ndel sello hidráulico.\n9\nEl diámetro de los botes sifónicos será como mínimo de 110 mm.\n10\nLos botes sifónicos llevarán incorporada una válvula de retención contra inundaciones con boya\nflotador y desmontable para acceder al interior. Así mismo, contarán con un tapón de registro de\nacceso directo al tubo de evacuación para eventuales atascos y obstrucciones.\n11\nNo se permitirá la conexión al sifón de otro aparato del desagüe de electrodomésticos, aparatos de\nbombeo o fregaderos con triturador.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n124",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0123.png",
+  "../figura/p0124.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

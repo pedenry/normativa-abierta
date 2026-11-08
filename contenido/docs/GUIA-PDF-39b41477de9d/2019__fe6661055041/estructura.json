@@ -1,0 +1,417 @@
+{
+ "id": "GUIA-PDF-39b41477de9d",
+ "version": "2019",
+ "metodo": "lineas",
+ "apartados": [
+  {
+   "id_tecnico": "a0001",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "SELLADO + VENTILACIÓN DE LA CÁMARA SANITARIA",
+   "seccion_estimada": "SELLADO + VENTILACIÓN DE LA CÁMARA SANITARIA",
+   "parent_id": null,
+   "titulo": "SELLADO + VENTILACIÓN DE LA CÁMARA SANITARIA",
+   "nivel": 3,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0001__sellado-ventilacion-de-la-camara-sanitaria.md",
+   "archivo_json": "apartado/a0001__sellado-ventilacion-de-la-camara-sanitaria.json",
+   "sha256_texto": "d04efd194b23303cfd2dd955ffdaaf0cb3043a7c6a04f1c9a77bb159b66bb78e",
+   "caracteres": 67,
+   "primera_linea": "SELLADO + VENTILACIÓN DE LA CÁMARA SANITARIA"
+  },
+  {
+   "id_tecnico": "a0002",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "EJEMPLO A2+B1",
+   "seccion_estimada": "EJEMPLO A2+B1",
+   "parent_id": null,
+   "titulo": "EJEMPLO A2+B1",
+   "nivel": 3,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0002__ejemplo-a2-b1.md",
+   "archivo_json": "apartado/a0002__ejemplo-a2-b1.json",
+   "sha256_texto": "6cfabcaf3ba50a46fd9cb141738a4d9e51f55a43fdacd4a57fa7a567e09edc9f",
+   "caracteres": 521,
+   "primera_linea": "EJEMPLO A2+B1"
+  },
+  {
+   "id_tecnico": "a0003",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "parent_id": null,
+   "titulo": "1. DESCRIPCIÓN DEL EDIFICIO",
+   "nivel": 1,
+   "paginas": [
+    1,
+    2
+   ],
+   "etiquetas_impresas": [
+    null,
+    "2"
+   ],
+   "tipos": [
+    "referencias",
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [
+    "DB HS6"
+   ],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0003__1-descripcion-del-edificio.md",
+   "archivo_json": "apartado/a0003__1-descripcion-del-edificio.json",
+   "sha256_texto": "53390b81d83c98191a43a11de6188e024096a4fb897f25dd892b416cd42693d1",
+   "caracteres": 770,
+   "primera_linea": "1. DESCRIPCIÓN DEL EDIFICIO"
+  },
+  {
+   "id_tecnico": "a0004",
+   "ruta_oficial": "2",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "seccion_estimada": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "parent_id": null,
+   "titulo": "2. ELECCIÓN DE LA SOLUCIÓN",
+   "nivel": 1,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0004__2-eleccion-de-la-solucion.md",
+   "archivo_json": "apartado/a0004__2-eleccion-de-la-solucion.json",
+   "sha256_texto": "228c93bb9fc894587cd3cc6c1b37693fcc98a43c5fa936932516ca71a2546efe",
+   "caracteres": 1012,
+   "primera_linea": "2. ELECCIÓN DE LA SOLUCIÓN"
+  },
+  {
+   "id_tecnico": "a0005",
+   "ruta_oficial": "3",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "3. DIAGNÓSTICO",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": null,
+   "titulo": "3. DIAGNÓSTICO",
+   "nivel": 1,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0005__3-diagnostico.md",
+   "archivo_json": "apartado/a0005__3-diagnostico.json",
+   "sha256_texto": "70dd8f305364aba5640421cc8acf39e435bbd01b3ae3a05583f0b5b34f6a08e8",
+   "caracteres": 1152,
+   "primera_linea": "3. DIAGNÓSTICO"
+  },
+  {
+   "id_tecnico": "a0006",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "3. DIAGNÓSTICO / Puntos críticos en el cerramiento",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": "a0005",
+   "titulo": "Puntos críticos en el cerramiento",
+   "nivel": 3,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0006__puntos-criticos-en-el-cerramiento.md",
+   "archivo_json": "apartado/a0006__puntos-criticos-en-el-cerramiento.json",
+   "sha256_texto": "005a43e30a5b1ccd83d054c1741eb469bb462a96645b5612f14255558e424b17",
+   "caracteres": 259,
+   "primera_linea": "Puntos críticos en el cerramiento"
+  },
+  {
+   "id_tecnico": "a0007",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "3. DIAGNÓSTICO / Presencia de obstáculos en la cámara",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": "a0005",
+   "titulo": "Presencia de obstáculos en la cámara",
+   "nivel": 3,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0007__presencia-de-obstaculos-en-la-camara.md",
+   "archivo_json": "apartado/a0007__presencia-de-obstaculos-en-la-camara.json",
+   "sha256_texto": "34fa2060c89e8f177e269ef9a9b767d1d76ca01cb8b3e47ad5eebf840b41ec9d",
+   "caracteres": 186,
+   "primera_linea": "Presencia de obstáculos en la cámara"
+  },
+  {
+   "id_tecnico": "a0008",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "3. DIAGNÓSTICO / Aberturas de ventilación existentes",
+   "seccion_estimada": "3. DIAGNÓSTICO",
+   "parent_id": "a0005",
+   "titulo": "Aberturas de ventilación existentes",
+   "nivel": 3,
+   "paginas": [
+    2,
+    3
+   ],
+   "etiquetas_impresas": [
+    "2",
+    "3"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0008__aberturas-de-ventilacion-existentes.md",
+   "archivo_json": "apartado/a0008__aberturas-de-ventilacion-existentes.json",
+   "sha256_texto": "6fa4babef25467399863a0c9003c474e2ab5d77c0dc26ef7b489cfa84987be3d",
+   "caracteres": 749,
+   "primera_linea": "Aberturas de ventilación existentes"
+  },
+  {
+   "id_tecnico": "a0009",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1   trampilla de acceso a la cámara",
+   "seccion_estimada": "1   trampilla de acceso a la cámara",
+   "parent_id": null,
+   "titulo": "1   trampilla de acceso a la cámara",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0009__1-trampilla-de-acceso-a-la-camara.md",
+   "archivo_json": "apartado/a0009__1-trampilla-de-acceso-a-la-camara.json",
+   "sha256_texto": "de47cf68502fe5b55843f24f87a184d70729f7720aa89d140b898b9f67665710",
+   "caracteres": 80,
+   "primera_linea": "1   trampilla de acceso a la cámara"
+  },
+  {
+   "id_tecnico": "a0010",
+   "ruta_oficial": "4",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "4. DISEÑO",
+   "seccion_estimada": "4. DISEÑO",
+   "parent_id": null,
+   "titulo": "4. DISEÑO",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0010__4-diseno.md",
+   "archivo_json": "apartado/a0010__4-diseno.json",
+   "sha256_texto": "cba27ffa18d859964cc1aebdba590e5b96084748c8110c1f04733580c94ecf77",
+   "caracteres": 712,
+   "primera_linea": "4. DISEÑO"
+  },
+  {
+   "id_tecnico": "a0011",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1   trampilla de acceso sellada 2   nuevas aberturas de ventilación",
+   "seccion_estimada": "1   trampilla de acceso sellada 2   nuevas aberturas de ventilación",
+   "parent_id": null,
+   "titulo": "1   trampilla de acceso sellada 2   nuevas aberturas de ventilación",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0011__1-trampilla-de-acceso-sellada-2-nuevas-aberturas-de-vent.md",
+   "archivo_json": "apartado/a0011__1-trampilla-de-acceso-sellada-2-nuevas-aberturas-de-vent.json",
+   "sha256_texto": "7dec652af72a0b9d8f9a051f416501bfa467e275f6d324c9a910336dc31c3733",
+   "caracteres": 109,
+   "primera_linea": "1   trampilla de acceso sellada 2   nuevas aberturas de ventilación"
+  },
+  {
+   "id_tecnico": "a0012",
+   "ruta_oficial": "5",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "5. EJECUCIÓN",
+   "seccion_estimada": "5. EJECUCIÓN",
+   "parent_id": null,
+   "titulo": "5. EJECUCIÓN",
+   "nivel": 1,
+   "paginas": [
+    3,
+    4
+   ],
+   "etiquetas_impresas": [
+    "3",
+    "4"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0012__5-ejecucion.md",
+   "archivo_json": "apartado/a0012__5-ejecucion.json",
+   "sha256_texto": "96f2ba98e6a724a01515779ef9146a2972f016ee600729d9d0303d12137620e2",
+   "caracteres": 530,
+   "primera_linea": "5. EJECUCIÓN"
+  },
+  {
+   "id_tecnico": "a0013",
+   "ruta_oficial": "6",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "6. EFECTIVIDAD",
+   "seccion_estimada": "6. EFECTIVIDAD",
+   "parent_id": null,
+   "titulo": "6. EFECTIVIDAD",
+   "nivel": 1,
+   "paginas": [
+    4,
+    5
+   ],
+   "etiquetas_impresas": [
+    "4",
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0013__6-efectividad.md",
+   "archivo_json": "apartado/a0013__6-efectividad.json",
+   "sha256_texto": "87c9347457bac1661bd44ec59fdbe7d57051e3ddda4b6376c0e8e5a226ea663f",
+   "caracteres": 366,
+   "primera_linea": "6. EFECTIVIDAD"
+  },
+  {
+   "id_tecnico": "a0014",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "6. EFECTIVIDAD / A2+B15",
+   "seccion_estimada": "6. EFECTIVIDAD",
+   "parent_id": "a0013",
+   "titulo": "A2+B15",
+   "nivel": 3,
+   "paginas": [
+    5
+   ],
+   "etiquetas_impresas": [
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0014__a2-b15.md",
+   "archivo_json": "apartado/a0014__a2-b15.json",
+   "sha256_texto": "2c0e3fdffbbe87dcfadf9f32397985f4b8a811bcb1915fd0171f4b13aca090b6",
+   "caracteres": 568,
+   "primera_linea": "A2+B15"
+  },
+  {
+   "id_tecnico": "a0015",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "6. EFECTIVIDAD / sección HS6 Protección frente a la exposición al radón.",
+   "seccion_estimada": "6. EFECTIVIDAD",
+   "parent_id": "a0013",
+   "titulo": "sección HS6 Protección frente a la exposición al radón.",
+   "nivel": 2,
+   "paginas": [
+    5
+   ],
+   "etiquetas_impresas": [
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0015__seccion-hs6-proteccion-frente-a-la-exposicion-al-radon.md",
+   "archivo_json": "apartado/a0015__seccion-hs6-proteccion-frente-a-la-exposicion-al-radon.json",
+   "sha256_texto": "02de6f438614139caf358fd0713132e28d6453836bca1fb16aaa9b5b7e8cac47",
+   "caracteres": 3269,
+   "primera_linea": "sección HS6 Protección frente a la exposición al radón."
+  }
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo"
+}

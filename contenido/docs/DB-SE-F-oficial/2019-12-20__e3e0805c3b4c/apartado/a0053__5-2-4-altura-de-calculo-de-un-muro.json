@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0053",
+  "ruta_oficial": "5.2.4",
+  "ruta_semantica": "5.2.4 Altura de cálculo de un muro",
+  "titulo": "5.2.4 Altura de cálculo de un muro",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.4 Altura de cálculo de un muro",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 23,
+   "bbox": [
+    70.9,
+    311.0,
+    239.3,
+    321.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "02b6432c9f6ea9cc6d8f414735da3c77ef12e5cbfc9ee135a0467bf27676e76c",
+   "literal": "5.2.4 Altura de cálculo de un muro"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0052",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.4 Altura de cálculo de un muro",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Comportamiento estructural 5.1 Generalidades / 5.2 Muros sometidos predominantemente a carga vertical 5.2.1 Análisis de solicitaciones / 5.2.4 Altura de cálculo de un muro",
+   "seccion_estimada": "5 Comportamiento estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c462d8ba7de64b1f7b5ea979e0c7beb6a71463409096f850dc97a024c4ffe6cb"
+ },
+ "paginas": [
+  23,
+  24
+ ],
+ "etiquetas_impresas": [
+  null,
+  "4"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.2.4 Altura de cálculo de un muro\n1\nUn muro se considera arriostrado por otro en un borde vertical si:\na)\nNo es previsible que se produzcan fisuras entre ambos, como cuando ambos se ejecutan simul-\ntáneamente con materiales de análoga deformabilidad, están análogamente cargados, se enla-\nzan, y no son previsibles movimientos diferenciales entre ellos, por retracción, cargas, etc.\nb)\nLa unión entre el muro arriostrado y el arriostrante (mediante elementos de trabado, llaves u\notros medios) se proyecta para resistir los esfuerzos cortantes, las tracciones y/o las compresio-\nnes previsibles.\n2\nUn muro se considera arriostrante de un borde vertical de otro cuando:\na)\ntiene una longitud no menor que 1/5 de la altura libre del arriostrado, y\nb)\ntiene un espesor no menor que 0,3 del espesor eficaz del muro arriostrado, ni menor de 85 mm,\ny\nc)\nsi tiene huecos, la distancia entre ellos no es menor que 1/5 de la altura media de los huecos\n(véase figura 5.6) y cuando se prolonga más allá de cada hueco una distancia no menor que 1/5\nde la altura libre de la planta.\nFigura 5.6 Longitud mínima de un muro arriostrante de un borde de otro.\n3\nTambién puede considerarse que sirve para arriostrar un borde cualquier otro elemento que tenga\nuna rigidez equivalente a la de un muro arriostrante de fábrica, según el párrafo anterior, y esté enla-\nzado al muro arriostrado mediante anclajes o llaves, proyectados específicamente para resistir los\ncortantes y las tracciones y compresiones que sean previsibles.\n\nDocumento Básico SE-F Fábrica\nSE-F-20\n4\nSe considerarán bordes libres los de huecos con altura libre mayor que 1/4 de la altura de piso, o\nanchura libre mayor que 1/4 de la longitud del muro, o área mayor de 1/10 de la del muro.\n5\nLa altura de cálculo, hd,de un paño de muro de altura h, longitud L, y grueso t, puede determinarse a\npartir de lo establecido en el Anejo E. De manera simplificada es:\na)  Para un muro arriostrado sólo en cabeza y base, (caso 1),  hd = h. Si se arriostra mediante forjados\nde hormigón armado con una entrega de al menos 2t/3 y 85 mm, y la excentricidad de la compresión\nen cabeza es menor de 0,25 t, (caso 2) puede tomarse hd = 0,75·h\nb)  Un muro, de espesor t, arriostrado en un sólo borde vertical, con L ≥ 15 t, o en los dos bordes\nverticales con L ≥ 30 t, se tratará como muro arriostrado sólo en cabeza y base.\nc)\nEn los muros arriostrados en la cabeza y pie, y en uno o dos bordes verticales, el valor es el de\nla tabla 5.1, función del caso de los bordes horizontales.\nd)  Para un muro libre en cabeza hd= 2·h. Si está arriostrado en algún borde vertical, el valor será el\ndoble del establecido en la tabla 5.1 según corresponde, para el caso 1.\nTabla 5.1 Valores de hd/h para paños arriostrados en al menos los dos bordes horizontales\nh/L\n0\n1\n2\n3\n5\ny un borde vertical\ncaso 1\n1,00\n0,90\n0,70\n0,50\n0,30\ncaso 2\n0,75\n0,75\n0,70\n0,60\n0,50\ny los dos bordes verticales\ncaso 1\n1,00\n0,50\n0,25\n0,18\n0,10\ncaso 2\n0,75\n0,50\n0,25\n0,18\n0,10",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0023.png",
+  "../figura/p0024.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

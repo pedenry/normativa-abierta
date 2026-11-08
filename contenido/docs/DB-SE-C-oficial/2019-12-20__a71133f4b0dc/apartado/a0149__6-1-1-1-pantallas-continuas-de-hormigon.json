@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0149",
+  "ruta_oficial": "6.1.1.1",
+  "ruta_semantica": "6.1.1.1 Pantallas continuas de hormigón",
+  "titulo": "6.1.1.1 Pantallas continuas de hormigón",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.1.1.1 Pantallas continuas de hormigón",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 65,
+   "bbox": [
+    70.9,
+    286.2,
+    266.3,
+    296.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "98cdd521b3bba1176a1622088f7da89049698e81d81aa6e81a5b977436665eec",
+   "literal": "6.1.1.1 Pantallas continuas de hormigón"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0173",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.1.1.1 Pantallas continuas de hormigón",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Definiciones y tipologías 6.1.1 Pantallas / 6.1.1.1 Pantallas continuas de hormigón",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5ed6d6c8defc9bb64fa49548d77af4285f8adb6c7e6f926487d6b0ea0f3f65a7"
+ },
+ "paginas": [
+  65
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.1.1.1 Pantallas continuas de hormigón\n1\nGeneralmente consisten en la excavación de una zanja, cuyo espesor varía normalmente entre 0,4\ny 1,50 m, por paños o módulos de un ancho que oscila generalmente entre un valor mínimo corres-\npondiente a la apertura de la cuchara y un valor máximo en función de la estabilidad del terreno,\ngeneralmente de 2,5 a 4,5 m, movimientos y deformaciones admisibles u otras condiciones de la\nobra.\n2\nUn panel puede tener una o varias jaulas de armadura a lo largo de su longitud. En terrenos con\ncohesión y por encima del nivel freático, las zanjas, de las dimensiones antes indicadas para cada\nmódulo y de la profundidad total de la pantalla, podrán ser estables sin necesitar ningún elemento\nde contención, debido, en parte, al efecto tridimensional asociado a sus proporciones.\n3\nSin embargo, en general, y especialmente si se trata de suelos sin cohesión, como arenas y limos,\nbajo el nivel freático, las zanjas no serán estables por sí mismas. La estabilidad sin entibación se\nconseguirá llenando cada módulo de zanja con lodos tixotrópicos (suspensiones en agua de arcillas\ntixotrópicas, de muy alta plasticidad, como bentonitas, sepiolitas, etc.).",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0065_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0065.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

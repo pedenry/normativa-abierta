@@ -1,0 +1,244 @@
+{
+ "documento": null,
+ "pagina": 51,
+ "etiqueta_impresa": "51",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    90.7,
+    90.1,
+    507.3,
+    116.4
+   ],
+   "tipo": "texto",
+   "texto": "superficies de almacenamiento y de las secciones que reflejen las alturas máximas de\nalmacenamiento.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    90.7,
+    114.1,
+    507.3,
+    140.4
+   ],
+   "tipo": "texto",
+   "texto": "ii. En esta expresión, el coeficiente de ponderación Ci se aplicará a cada zona con\ndiferente tipo de almacenamiento, obteniéndose su valor de la tabla 1.3.5.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    90.7,
+    138.1,
+    507.3,
+    218.3
+   ],
+   "tipo": "texto",
+   "texto": "iii. La superficie Si corresponde a la superficie del almacén, incluyendo el espacio donde\nestén físicamente los productos almacenados (tales como estanterías). En función de si la\nsuperficie Si incluye o no la superficie de los pasillos adyacentes que pudieran existir,\nnecesarios para la realización de la actividad de almacenamiento, en la tabla 1.3.5 se deberá\nescoger el valor de qvi correspondiente: qvi de «almacenamiento bruto» si Si incluye los\npasillos adyacentes, o qvi de «almacenamiento neto» si Si no incluye los pasillos adyacentes.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    90.7,
+    216.6,
+    507.4,
+    307.7
+   ],
+   "tipo": "texto",
+   "texto": "iv. En total, considerando todas las zonas, el sumatorio de superficies de cada zona (ΣSi)\ndebe ser igual a A. Si existieran grandes zonas diáfanas (vacías, sin actividad y sin carga de\nfuego), dichas zonas se podrán contemplar por separado en el sumatorio como zonas sin\ncarga de fuego (qvi=0). (Debe tenerse en cuenta si las superficies Si se han calculado con\nvalores qvi de almacenamiento bruto o neto. En el caso de haber usado los valores de\nalmacenamiento neto, las superficies de los pasillos adyacentes se deben sumar por\nseparado como zonas sin carga de fuego).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    90.7,
+    305.4,
+    507.3,
+    394.9
+   ],
+   "tipo": "texto",
+   "texto": "v. Al valor de Qs obtenido hay que sumarle además la carga de fuego proveniente de los\nelementos y productos constructivos, aplicando la expresión del apartado 3.2.1 y las\nconsideraciones citadas allí. En el caso de que el elemento constructivo esté separado del\ninterior del sector por una capa resistente al fuego al menos EI 30, este puede no\ncontabilizarse en el cálculo. Además, podrá optarse por descartar la carga de fuego de los\nelementos de construcción en su totalidad si se justifica que el Qs obtenido se desvía menos\ndel 10 % del total que se obtendría si estos se hubieran tomado en consideración.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    107.7,
+    398.6,
+    401.6,
+    414.0
+   ],
+   "tipo": "texto",
+   "texto": "3.2.4 Cálculo de Qs combinando varios de los métodos anteriores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    90.7,
+    418.3,
+    507.3,
+    470.2
+   ],
+   "tipo": "texto",
+   "texto": "3.2.4.1 Para sectores o áreas de incendio que tengan tanto zonas de fabricación como\ntambién zonas de almacenamiento: Si en un mismo sector o área coexisten zonas de\nproducción y de almacenamiento, para calcular Qs, se puede aplicar una combinación de las\ndos expresiones de los apartados 3.2.2 y 3.2.3:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    174.3,
+    478.3,
+    420.9,
+    510.3
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    90.7,
+    520.3,
+    507.4,
+    571.7
+   ],
+   "tipo": "texto",
+   "texto": "Donde el primer sumatorio incluye las zonas con actividades de fabricación y el segundo\nsumatorio las de almacenamiento. Las consideraciones a tener en cuenta son las mismas\nque las indicadas en los apartados 3.2.2 y 3.2.3. En total, considerando todas las zonas, el\nsumatorio de superficies (ΣSi) debe ser igual a A.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    90.7,
+    570.0,
+    507.4,
+    596.3
+   ],
+   "tipo": "texto",
+   "texto": "3.2.4.2 En el caso de ser necesario, también se puede usar una combinación de las tres\nexpresiones de los apartados 3.2.1, 3.2.2 y 3.2.3, por zonas:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    141.7,
+    604.4,
+    453.5,
+    633.5
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    90.7,
+    643.6,
+    507.3,
+    681.9
+   ],
+   "tipo": "texto",
+   "texto": "Donde el primer sumatorio incluye zonas con actividades de fabricación, el segundo\nsumatorio zonas de almacenamiento y el tercero incluye el resto de zonas que no se hayan\nconsiderado en los sumatorios anteriores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    90.7,
+    679.6,
+    507.3,
+    717.9
+   ],
+   "tipo": "texto",
+   "texto": "3.2.4.3 De forma alternativa a los métodos anteriores, para el cálculo del riesgo\nintrínseco se puede recurrir también al uso de otros métodos de evaluación de reconocido\nprestigio. En tales casos, deberá justificarse en el proyecto el método empleado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    107.7,
+    721.6,
+    400.8,
+    736.9
+   ],
+   "tipo": "texto",
+   "texto": "3.3 Cálculo de la carga de fuego total ponderada y corregida (QT).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    90.7,
+    741.2,
+    507.4,
+    782.8
+   ],
+   "tipo": "texto",
+   "texto": "Cuando sea necesario conocer la carga de fuego total ponderada y corregida (QT), esta\nse puede calcular aplicando cualquiera de las expresiones de Qs (medida en MJ/m2) de los\napartados anteriores, omitiendo la división por la superficie A (medida en m2), lo que obtiene",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    207.7,
+    27.8,
+    387.6,
+    45.0
+   ],
+   "tipo": "texto",
+   "texto": "BOLETÍN OFICIAL DEL ESTADO",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    226.5,
+    43.5,
+    368.8,
+    57.8
+   ],
+   "tipo": "texto",
+   "texto": "LEGISLACIÓN CONSOLIDADA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    277.4,
+    802.3,
+    317.9,
+    815.2
+   ],
+   "tipo": "texto",
+   "texto": "Página 51",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0112",
+  "ruta_oficial": "5.1.4",
+  "ruta_semantica": "5.1.4 Cubiertas",
+  "titulo": "5.1.4 Cubiertas",
+  "nivel": 1,
+  "parent_id": "a0101",
+  "seccion_estimada": "5.1.4 Cubiertas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 44,
+   "bbox": [
+    70.9,
+    273.7,
+    148.2,
+    284.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a8d3b30cae362d25ec33aecb370f4d626fcde40a231a5d6773140e9c134164da",
+   "literal": "5.1.4 Cubiertas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0101",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.4 Cubiertas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0101",
+   "ruta_semantica": "5 Construcción / 5.1 Ejecución / 5.1.4 Cubiertas",
+   "seccion_estimada": "5 Construcción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5adec05556276086cb05ebc3014fd94531b1ac993febea284953d356586ea3ca"
+ },
+ "paginas": [
+  44
+ ],
+ "etiquetas_impresas": [
+  "44"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.1.4 Cubiertas\n5.1.4.1\nCondiciones de la formación de pendientes\n1\nCuando la formación de pendientes sea el elemento que sirve de soporte de la impermeabilización,\nsu superficie debe ser uniforme y limpia.\n5.1.4.2\nCondiciones de la barrera contra el vapor\n1\nLa barrera contra el vapor debe extenderse bajo el fondo y los laterales de la capa de aislante tér-\nmico.\n2\nDebe aplicarse en unas condiciones térmicas ambientales que se encuentren dentro de los márge-\nnes prescritos en las correspondientes especificaciones de aplicación.\n5.1.4.3\nCondiciones del aislante térmico\n1\nDebe colocarse de forma continua y estable.\n5.1.4.4\nCondiciones de la impermeabilización\n1\nLas láminas deben aplicarse en unas condiciones térmicas ambientales que se encuentren dentro\nde los márgenes prescritos en las correspondientes especificaciones de aplicación.\n2\nCuando se interrumpan los trabajos deben protegerse adecuadamente los materiales.\n3\nLa impermeabilización debe colocarse en dirección perpendicular a la línea de máxima pendiente.\n4\nLas distintas capas de la impermeabilización deben colocarse en la misma dirección y a cubrejun-\ntas.\n5\nLos solapos deben quedar a favor de la corriente de agua y no deben quedar alineados con los de\nlas hileras contiguas.\n5.1.4.5\nCondiciones de la cámara de aire ventilada\n1\nDurante la construcción de la cubierta debe evitarse que caigan cascotes, rebabas de mortero y\nsuciedad en la cámara de aire.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0044.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0122",
+  "ruta_oficial": "2.2",
+  "ruta_semantica": "Sección SUA 9  Accesibilidad / 2 Condiciones y características de la información y señalización para la accesibilidad / 2.2 Características",
+  "titulo": "2.2 Características",
+  "nivel": 3,
+  "parent_id": "a0120",
+  "seccion_estimada": "Sección SUA 9  Accesibilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    70.9,
+    361.9,
+    195.7,
+    375.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "a3dea48719fdd23275f4ad1bd4c560ceb8112c3f3697830b2fa71c3010b12178",
+   "literal": "2.2 Características"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0086",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 4.2.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2 Características",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "Sección SUA 9  Accesibilidad / 2 Condiciones y características de la información y señalización para la accesibilidad / 2.2 Características",
+   "seccion_estimada": "Sección SUA 9  Accesibilidad",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9134146dd1517bab8d47bcecbad04eac6473dc56a1066b0664ccd173b47c6848"
+ },
+ "paginas": [
+  34
+ ],
+ "etiquetas_impresas": [
+  "34"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Características\n1\nLas entradas al edificio accesibles, los itinerarios accesibles, las plazas de aparcamiento accesibles\ny los servicios higiénicos accesibles (aseo, cabina de vestuario y ducha accesible) se señalizarán\nmediante SIA, complementado, en su caso, con flecha direccional.\n2\nLos ascensores accesibles se señalizarán mediante SIA. Asimismo, contarán con indicación en Brai-\nlle y arábigo en alto relieve a una altura entre 0,80 y 1,20 m, del número de planta en la jamba dere-\ncha en sentido salida de la cabina.\n3\nLos servicios higiénicos de uso general se señalizarán con pictogramas normalizados de sexo en\nalto relieve y contraste cromático, a una altura entre 0,80 y 1,20 m, junto al marco, a la derecha de la\npuerta y en el sentido de la entrada.\n4\nLas bandas señalizadoras visuales y táctiles serán de color contrastado con el pavimento, con relie-\nve de altura 3±1 mm en interiores y 5±1 mm en exteriores. Las exigidas en el apartado 4.2.3 de la",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.2.3"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0119",
+   "ruta_oficial": "1.2.8",
+   "titulo": "1.2.8 Mecanismos",
+   "archivo_json": "a0119__1-2-8-mecanismos.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

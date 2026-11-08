@@ -1,0 +1,87 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0125",
+  "ruta_oficial": null,
+  "ruta_semantica": "Criterios para determinar el valor del coeficiente «R» de un sector o área de incendio",
+  "titulo": "Criterios para determinar el valor del coeficiente «R» de un sector o área de incendio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Criterios para determinar el valor del coeficiente «R» de un sector o área de incendio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 56,
+   "bbox": [
+    109.5,
+    324.0,
+    485.8,
+    338.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "87c9af42109ab4359b70f09b0b33cefeb0679749da487980976eff09fcf191c2",
+   "literal": "Criterios para determinar el valor del coeficiente «R» de un sector o área de incendio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Criterios para determinar el valor del coeficiente «R» de un sector o área de incendio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1907/2006 (Reglamento CLP). / Criterios para determinar el valor del coeficiente «R» de un sector o área de incendio",
+   "seccion_estimada": "1907/2006 (Reglamento CLP).",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1996e79d3791ba036f7ac3a16d52a165cdeb574d366c5e519a9ad2d4a746e4f0"
+ },
+ "paginas": [
+  56
+ ],
+ "etiquetas_impresas": [
+  "56"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Criterios para determinar el valor del coeficiente «R» de un sector o área de incendio\nR\nCasuísticas\n0,8\nR será 0,8 en sectores o áreas de incendio dedicados exclusivamente a almacenamientos de baja altura (máximo 2,50 metros) y de superficie en planta limitada (inferior a 50 m2). A\nefectos de determinar esta superficie, no será necesario tener en cuenta almacenamientos de superficies inferiores, separados entre ellos por medio de un espacio libre a su\nalrededor de no menos de 2,5 metros, o bien, con elementos compartimentadores de resistencia EI 30 o superior.\nNo obstante lo anterior, no se podrá usar un valor de 0,8 para R cuando haya actividades donde la tabla 1.3.5 (columna Rmin) especifique un valor superior.\n1\nR será 1 por defecto, siempre que no se den las casuísticas para ser un valor distinto, hecho que deberá justificarse debidamente.\n1,4\nR será 1,4 cuando en el sector o área de incendio se cumpla una de las siguientes situaciones:\na) Cuando las actividades que se realizan en el sector o área de incendio, o las condiciones de estos, entrañen un aumento significativo de la probabilidad de inicio de un incendio,\ndebido a fuentes de naturaleza térmica, química o equivalente. Por ejemplo: trabajos habituales con chispas o llamas abiertas. También R será al menos 1,4 en el caso de que se\ndesarrolle en el lugar alguna de las actividades marcadas en la tabla 1.3.5 como tal (columna Rmin).\nb) Cuando existan zonas donde la distribución de los materiales hace que, ante un posible incendio, este se pueda propagar rápidamente. Por ejemplo: almacenamientos de\nmateriales combustibles de altura superior a 5 metros, los cuales ocupan una superficie en planta significativa (igual o superior a 100 m2). A efectos de determinar esta superficie, no\nserá necesario tener en cuenta almacenamientos de superficies inferiores, separados entre ellos por medio de un espacio libre a su alrededor de no menos de 5 metros, o bien, con\nelementos compartimentadores de resistencia EI 30 o superior.\n1,8R será 1,8 cuando en el sector o área de incendio se cumplan simultáneamente las dos situaciones a) y b) citadas en la fila superior. Por ejemplo, porque tenga una zona de trabajos\ncon llamas y una zona de almacenamiento donde se pueda propagar rápidamente el incendio.\nTabla 1.3.5",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0056_t01.json",
+  "../tabla/p0056_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0056.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

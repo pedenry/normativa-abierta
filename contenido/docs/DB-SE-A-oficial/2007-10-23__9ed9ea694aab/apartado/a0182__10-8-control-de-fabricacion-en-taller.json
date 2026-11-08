@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0182",
+  "ruta_oficial": "10.8",
+  "ruta_semantica": "10.8 Control de fabricación en taller",
+  "titulo": "10.8 Control de fabricación en taller",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.8 Control de fabricación en taller",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 119,
+   "bbox": [
+    74.1,
+    693.8,
+    281.0,
+    707.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e38568a34d03d7b481fe2300e7a7466f683c6d1988f9c43e1df7969d6403e1f1",
+   "literal": "10.8 Control de fabricación en taller"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0176",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.8 Control de fabricación en taller",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.8 Control de fabricación en taller",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8788b0623f81206876d742a0ae3e23e49587f654c50e35a57a145a6fae591792"
+ },
+ "paginas": [
+  119,
+  120
+ ],
+ "etiquetas_impresas": [
+  "119",
+  "120"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.8 Control de fabricación en taller\n1\nTodas estas operaciones deben estar documentadas y si se detecta una disconformidad, si es po-\nsible, se corregirá y se volverá a ensayar y, si no es posible, se podrá compensar realizando las\noportunas modificaciones de acuerdo con el pliego de condiciones.\n\nDocumentoBásico SE-A Acero\nSE-A-118",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0120.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0183",
+  "a0184",
+  "a0185",
+  "a0189",
+  "a0192",
+  "a0195"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

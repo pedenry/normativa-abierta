@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0147",
+  "ruta_oficial": null,
+  "ruta_semantica": "coeficiente de aberturas con los límites 0,02  O 0,20  [m1/2];",
+  "titulo": "coeficiente de aberturas con los límites 0,02  O 0,20  [m1/2];",
+  "nivel": 1,
+  "parent_id": "a0146",
+  "seccion_estimada": "coeficiente de aberturas con los límites 0,02  O 0,20  [m1/2];",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 54,
+   "bbox": [
+    88.8,
+    304.2,
+    461.5,
+    324.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7ed6b846d771efecd76f80ca1edb87b8db7bdc7688a9f3653d40cd835272aa7c",
+   "literal": "coeficiente de aberturas con los límites 0,02  O 0,20  [m1/2];"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0146",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "coeficiente de aberturas con los límites 0,02  O 0,20  [m1/2];",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0146",
+   "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego / B.3 Tiempo equivalente de exposición al fuego / coeficiente de aberturas con los límites 0,02  O 0,20  [m1/2];",
+   "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c43a0930337c33df5362c91cd2dde121f051bae26c360f2d04016cf5e06268dc"
+ },
+ "paginas": [
+  54,
+  55
+ ],
+ "etiquetas_impresas": [
+  "54",
+  "55"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "coeficiente de aberturas con los límites 0,02  O 0,20  [m1/2];\nAt\nsuperficie total de la envolvente del sector (paredes, suelo y techo), incluyendo\naberturas [m2];\nh\naltura promedio de los huecos verticales, [m]\nComo aberturas en fachada o en techo se deben considerar los huecos, lucernarios, ventanas (prac-\nticables o no) superficies acristaladas y, en general, toda zona susceptible de facilitar la entrada de\naire a la zona en la que se desarrolle el incendio.\nDe forma simplificada, para casos de sectores de una sola planta con aberturas únicamente en fa-\nchada, el coeficiente de ventilación w en función de la altura de la planta y de la superficie de dichas\naberturas respecto de la superficie en planta del sector, puede tomarse como:\nCoeficiente de ventilación w\nAltura de planta\n(m)\nSuperficie relativa de huecos en fachada\n0,05\n0,10\n0,15\n0,20\n 0,25\n2,5\n2,6\n1,8\n1,3\n1,0\n0,9\n3,0\n2,4\n1,7\n1,2\n0,9\n0,8\n3,5\n2,3\n1,6\n1,1\n0,9\n0,8\n4,0\n2,2\n1,5\n1,1\n0,9\n0,8\n3\nLos valores del coeficiente de corrección kc se toman de la siguiente tabla:\nTabla B.1. Valores de kc según el material estructural\nMaterial de la sección transversal\nkc\nHormigón armado\n1,0\nAcero protegido\n1,0\nAcero sin proteger\n13,7 · O\n\nDocumento Básico SI en caso de Incendio\nAnejo C. Resistencia al fuego de las estructuras de hormigón armado\n55",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0054_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0054.png",
+  "../figura/p0055.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

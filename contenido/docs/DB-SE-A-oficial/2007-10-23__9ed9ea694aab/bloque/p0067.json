@@ -1,0 +1,325 @@
+{
+ "documento": null,
+ "pagina": 67,
+ "etiqueta_impresa": "67",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-65",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    222.8,
+    419.1,
+    392.3,
+    429.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.2 Disposiciones constructivas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    442.6,
+    354.3,
+    453.7
+   ],
+   "tipo": "texto",
+   "texto": "8.5.2 Resistencia de las uniones atornilladas sin pretensar",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    462.0,
+    541.5,
+    484.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe obtendrá a partir de la distribución de esfuerzos entre tornillos y de las resistencias de cada uno\nde éstos según su esfuerzo, sea en cortante, tracción, o tensión combinada.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    491.0,
+    538.6,
+    525.1
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa resistencia de cálculo a cortante por tornillo tendrá como valor el menor de la resistencia a cor-\ntante de las secciones del tornillo o a aplastamiento de la chapa de unión, sin que la resistencia to-\ntal de la unión supere la resistencia a desgarro del alma:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    531.5,
+    385.2,
+    542.7
+   ],
+   "tipo": "texto",
+   "texto": "a)\nResistencia a cortante en la sección transversal del tornillo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    178.5,
+    569.4,
+    188.0,
+    577.1
+   ],
+   "tipo": "texto",
+   "texto": "2\nM",
+   "tamano": 6.8,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    125.6,
+    555.5,
+    185.3,
+    569.3
+   ],
+   "tipo": "texto",
+   "texto": "ub\nRd\n.\nv",
+   "tamano": 6.8,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    120.7,
+    550.3,
+    199.5,
+    575.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "A\nf\n5,0\nn\nF\nγ",
+   "tamano": 9.8,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    142.6,
+    549.4,
+    540.7,
+    567.6
+   ],
+   "tipo": "texto",
+   "texto": "⋅\n⋅\n=\n(8.7)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    119.5,
+    584.3,
+    151.8,
+    595.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    120.9,
+    601.8,
+    280.5,
+    613.0
+   ],
+   "tipo": "texto",
+   "texto": "n\nnúmero de planos de corte;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    120.9,
+    619.3,
+    331.0,
+    631.3
+   ],
+   "tipo": "texto",
+   "texto": "fub\nresistencia última del acero del tornillo;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    120.9,
+    636.8,
+    541.4,
+    659.5
+   ],
+   "tipo": "texto",
+   "texto": "A\nárea de la caña del tornillo Ad o el área resistente del tornillo As, según se encuentren\nlos planos de cortadura en el vástago o la parte roscada del tornillo respectivamente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    96.8,
+    665.8,
+    356.8,
+    677.0
+   ],
+   "tipo": "texto",
+   "texto": "b)\nResistencia a aplastamiento de la chapa que se une:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    163.4,
+    702.3,
+    172.3,
+    709.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nM",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    125.3,
+    689.2,
+    174.7,
+    702.3
+   ],
+   "tipo": "texto",
+   "texto": "u\nRd\n.t",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    120.6,
+    684.5,
+    183.9,
+    707.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "t\nd\nf\n5,2\nF\nγ",
+   "tamano": 9.2,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    139.8,
+    683.6,
+    167.1,
+    700.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "α\n=",
+   "tamano": 9.2,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    187.4,
+    701.4,
+    540.7,
+    712.6
+   ],
+   "tipo": "texto",
+   "texto": "(8.8)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    119.5,
+    719.0,
+    151.8,
+    730.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    120.9,
+    736.4,
+    302.7,
+    747.6
+   ],
+   "tipo": "texto",
+   "texto": "d\ndiámetro del vástago del tornillo;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    120.9,
+    753.9,
+    350.5,
+    765.1
+   ],
+   "tipo": "texto",
+   "texto": "t\nmenor espesor de las chapas que se unen;",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

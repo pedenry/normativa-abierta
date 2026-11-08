@@ -1,0 +1,123 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0144",
+  "ruta_oficial": "5.4.2.2",
+  "ruta_semantica": "5.4.2.2 Control de ejecución de pilotes prefabricados hincados",
+  "titulo": "5.4.2.2 Control de ejecución de pilotes prefabricados hincados",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.4.2.2 Control de ejecución de pilotes prefabricados hincados",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 62,
+   "bbox": [
+    70.9,
+    597.4,
+    373.1,
+    607.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ef53ced77a0de41611113b9c3d5abd4b6efa57a6761d24b9154d87c8cc89200a",
+   "literal": "5.4.2.2 Control de ejecución de pilotes prefabricados hincados"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0167",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4.2.2 Control de ejecución de pilotes prefabricados hincados",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 5.4.2 Control 5.4.2.1 Control de ejecución de pilotes hormigonados in situ / 5.4.2.2 Control de ejecución de pilotes prefabricados hincados",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "77c6c39c667ea1565e413ed5169f236062c31c045a6a2906b54d5c496422456a"
+ },
+ "paginas": [
+  62,
+  63
+ ],
+ "etiquetas_impresas": [
+  "5",
+  "6"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.4.2.2 Control de ejecución de pilotes prefabricados hincados\n1\nLos controles de todos los trabajos de realización de las diferentes etapas de ejecución de un pilote\nse deben ajustar al método de trabajo y al plan de ejecución establecidos en el proyecto.\n2\nSe deben controlar los efectos de la hinca de pilotes en la proximidad de obras sensibles o de pen-\ndientes potencialmente inestables. Los métodos pueden incluir la medición de vibraciones, de pre-\nsiones intersticiales, deformaciones y medición de la inclinación. Estas medidas se deben comparar\ncon los criterios de prestaciones aceptables.\n3\nLa frecuencia de los controles debe estar especificada y aceptada antes de comenzar los trabajos\nde hincado de los pilotes.\n4\nLos informes de los controles se deben facilitar en plazo convenido y conservarlos en obra hasta la\nterminación de los trabajos de hincado de los pilotes.\n5\nTodos los instrumentos utilizados para el control de la instalación de los pilotes o de los efectos\nderivados de esta instalación deben ser adecuados al objetivo previsto y deben estar calibrados.\n\nDocumento Básico SE-C Cimientos\nSE-C-58\n6\nDebe reseñarse cualquier no conformidad.\n7\nSe debe registrar la curva completa de la hinca de un cierto número de pilotes. Dicho número debe\nfijarse en el Pliego de condiciones del proyecto.\n8\nDe forma general se debe reseñar:\na)\nsobre las mazas: la altura de caída del pistón y su peso o la energía de golpeo, así como el\nnúmero de golpes de la maza por unidad de penetración;\nb)\nsobre los pilotes hincados por vibración: la potencia nominal, la amplitud, la frecuencia y la ve-\nlocidad de penetración;\nc)\nsobre los pilotes hincados por presión: la fuerza aplicada al pilote.\n9\nCuando los pilotes se hinquen hasta rechazo, se debe medir la energía y avance.\n10\nSi los levantamientos o los desplazamientos laterales son perjudiciales para la integridad o la capa-\ncidad del pilote, se debe medir, respecto a una referencia estable, el nivel de la parte superior del\npilote y su implantación, antes y después de la hinca de los pilotes próximos o después de excava-\nciones ocasionales.\n11\nLos pilotes prefabricados que se levanten por encima de los límites aceptables, se deben volver a\nhincar hasta que se alcancen los criterios previstos en el proyecto en un principio (cuando no sea\nposible rehincar el pilote, se debe realizar un ensayo de carga para determinar sus características\ncarga-penetración, que permitan establecer las prestaciones globales del grupo de pilotes).\n12\nNo se debe interrumpir el proceso de hinca de un pilote hasta alcanzar el rechazo previsto que ase-\ngure la resistencia señalada en el proyecto. En suelos arcillosos, y para edificios de categoría C-3 y\nC-4, debe comprobarse el rechazo alcanzado, transcurrido un periodo mínimo de 24 horas, en una\nmuestra representativa de pilotes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0063.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

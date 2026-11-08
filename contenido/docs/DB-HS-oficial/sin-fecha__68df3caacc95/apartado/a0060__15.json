@@ -1,0 +1,82 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0060",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p19",
+  "titulo": "15",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p19",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p19",
+  "referencias_filtradas": [
+   "DB-SE-AE"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.3 Fachadas 2.3.1 Grado de impermeabilidad / 15",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "133289b4a39a0957aed36675e8852722073d38e732c81be3db763059b55f97d1"
+ },
+ "paginas": [
+  19,
+  20
+ ],
+ "etiquetas_impresas": [
+  "19",
+  "20"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "15\nV3\nV3\nV3\nV2\nV2\nV2\n16 - 40\nV3\nV2\nV2\nV2\nV2\nV1\n41 – 100\n(1)\nV2\nV2\nV2\nV1\nV1\nV1\n(1) Para edificios de más de 100 m de altura y para aquellos que están próximos a un desnivel muy pronunciado, el grado de\nexposición al viento debe ser estudiada según lo dispuesto en el DB-SE-AE.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n20\nFigura 2.5 Zonas eólicas",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE-AE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0020_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0019.png",
+  "../figura/p0020.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

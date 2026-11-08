@@ -1,0 +1,94 @@
+{
+ "documento": "RITE-asociada",
+ "code": "RITE",
+ "title": "DB-HE2 RITE",
+ "capa": "asociada",
+ "scope": "Ahorro de energía",
+ "version": "2022-08-02",
+ "version_dir": "sin-fecha__ad1680c83bf4",
+ "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+ "apartado": {
+  "id_tecnico": "a0030",
+  "ruta_oficial": null,
+  "ruta_semantica": "Artículo 4. Contenido del RITE.",
+  "titulo": "Artículo 4. Contenido del RITE.",
+  "nivel": 3,
+  "parent_id": "a0025",
+  "seccion_estimada": "Artículo 4. Contenido del RITE.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    90.7,
+    220.8,
+    235.2,
+    235.1
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "00e16aadbfa679de6e1720820b891bac56a96e7876b6af062b1d7ed5dbe3132a",
+   "literal": "Artículo 4. Contenido del RITE."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0016",
+  "parent_id_original": "a0025",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Artículo 4",
+   "RITE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 4. Contenido del RITE.",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0025",
+   "ruta_semantica": "ANEXO / Artículo 4. Contenido del RITE.",
+   "seccion_estimada": "ANEXO",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c4acf606e23a788b8f7dc047b4df60d928b799ad45a2d58dea043f01030e448f"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Artículo 4.  Contenido del RITE.\nCon el fin de facilitar su comprensión y utilización, el RITE se ordena en dos partes:\n1. La Parte I, Disposiciones generales, que contiene las condiciones generales de\naplicación del RITE y las exigencias de bienestar e higiene, eficiencia energética y energías\nrenovables y residuales y seguridad que deben cumplir las instalaciones térmicas.\n2. La Parte II, constituida por las Instrucciones técnicas, en adelante IT, que contiene la\ncaracterización de las exigencias técnicas y su cuantificación, con arreglo al desarrollo actual\nde la técnica. La cuantificación de las exigencias se realiza mediante el establecimiento de\nniveles o valores límite, así como procedimientos expresados en forma de métodos de\nverificación o soluciones sancionadas por la práctica cuya utilización permite acreditar su\ncumplimiento.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 4",
+  "RITE"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0036",
+   "ruta_oficial": null,
+   "titulo": "Artículo 9. Términos y definiciones.",
+   "archivo_json": "a0036__articulo-9-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2007/07/20/1027/con",
+  "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

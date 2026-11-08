@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0049",
+  "ruta_oficial": null,
+  "ruta_semantica": "Grado de exposición",
+  "titulo": "Grado de exposición",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Grado de exposición",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 19,
+   "bbox": [
+    220.3,
+    414.8,
+    391.8,
+    435.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2c037c41b0b5c00aeeb6146648a2c6157300d86cf0f6462c880e6548dcf632fe",
+   "literal": "Grado de exposición"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Grado de exposición",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.3 Fachadas 2.3.1 Grado de impermeabilidad / Grado de exposición",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4d32a1f54e93d7dc2cd79a54e026934cbd8071ff5db96701a3d1f62b97e83b2e"
+ },
+ "paginas": [
+  19
+ ],
+ "etiquetas_impresas": [
+  "19"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Grado de exposición\nexposición",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0019.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

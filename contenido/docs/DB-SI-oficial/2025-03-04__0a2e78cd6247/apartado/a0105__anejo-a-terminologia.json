@@ -1,0 +1,108 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0105",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología",
+  "titulo": "Anejo A. Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 45,
+   "bbox": [
+    262.2,
+    47.3,
+    349.5,
+    56.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3bce9c9c77befc1efd19c074676c91ff1b460dfdaba20eeed0b61c0a8fb9464c",
+   "literal": "Anejo A. Terminología"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "EN 12101",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo A. Terminología",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ae2e545fda1f1378068c1d2f6f2d53b3130c1876c2e5d1aa28867efd0fc160b5"
+ },
+ "paginas": [
+  45
+ ],
+ "etiquetas_impresas": [
+  "45"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo A. Terminología\n45\ndicho límite es el que con carácter general se establece para cualquier origen de evacuación de dicho\nsector.\n4\nEl recinto cuenta con protección frente al humo, mediante una de las siguientes opciones:\na) Ventilaciónnatural mediante ventanas practicables o huecos abiertos al exterior con una superfi-\ncie útil de ventilación de al menos 1 m² en cada planta.\nb) Ventilación mediante dos conductos independientes de entrada y de salida de aire, dispuestos ex-\nclusivamente para esta función y que cumplen las condiciones siguientes:\n-\nla superficie de la sección útil total es de 50 cm² por cada m3 de recinto en cada planta, tanto\npara la entrada como para la salida de aire; cuando se utilicen conductos rectangulares, la re-\nlación entre los lados mayor y menor no es mayor que 4;\n-\nlas rejillas tienen una sección útil de igual superficie y relación máxima entre sus lados que el\nconducto al que están conectadas;\n-\nen cada planta, la parte superior de las rejillas de entrada de aire está situada a una altura so-\nbre el suelo menor que 1 m y las de salida de aire están enfrentadas a las anteriores y su parte\ninferior está situada a una altura mayor que 1,80 m.\nc)\nSistema de presión diferencial conforme a EN 12101-6:2005.\nEspacio exterior seguro\nEs aquel en el que se puede dar por finalizada la evacuación de los ocupantes del edificio, debido a que\ncumple las siguientes condiciones:\n1\nPermite la dispersión de los ocupantes que abandonan el edificio, en condiciones de seguridad.\n2\nSe puede considerar que dicha condición se cumple cuando el espacio exterior tiene, delante de\ncada salida de edificio que comunique con él, una superficie de al menos 0,5P m² dentro de la zona\ndelimitada con un radio 0,1P m de distancia desde la salida de edificio, siendo P el número de ocu-\npantes cuya evacuación esté prevista por dicha salida. Cuando P no exceda de 50 personas no es\nnecesario comprobar dicha condición.\n3\nSi el espacio consideradono está comunicado con la red viaria o con otros espacios abiertos no\npuede considerarse ninguna zona situada a menos de 15 m de cualquier parte del edificio, excepto\ncuando esté dividido en sectores de incendio estructuralmente independientes entre sí y con salidas\ntambién independientes al espacio exterior, en cuyo caso dicha distancia se podrá aplicar únicamen-\nte respecto del sector afectado por un posible incendio.\n4\nPermite una amplia disipación del calor, del humo y de los gases producidos por el incendio.\n5\nPermite el acceso de los efectivos de bomberos y de los medios de ayuda a los ocupantes que, en\ncada caso, se consideren necesarios.\n6\nLa cubierta de un edificio se puede considerar como espacio exterior seguro siempre que, además\nde cumplir las condiciones anteriores, su estructura sea totalmente independiente de la del edificio\ncon salida a dicho espacio y un incendio no pueda afectar simultáneamente a ambos.\nEstablecimiento\nZona de un edificio destinada a ser utilizada bajo una titularidad diferenciada, bajo un régimen no subsi-\ndiario respecto del resto del edificio y cuyo proyecto de obras de construcción o reforma, así como el\ninicio de la actividad prevista, sean objeto de control administrativo. Conforme a lo anterior, la totalidad\nde un edificio puede ser también un establecimiento.\nFuego de cálculo\nDesarrollo de fuego específico adoptado a efectos de cálculo (UNE-EN 1991-1-2:2004).",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "EN 12101",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0112",
+   "ruta_oficial": null,
+   "titulo": "Recorrido de evacuación",
+   "archivo_json": "a0112__recorrido-de-evacuacion.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0106",
+  "a0107",
+  "a0108",
+  "a0109",
+  "a0110",
+  "a0111",
+  "a0112",
+  "a0113",
+  "a0114",
+  "a0115",
+  "a0116",
+  "a0117",
+  "a0118"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

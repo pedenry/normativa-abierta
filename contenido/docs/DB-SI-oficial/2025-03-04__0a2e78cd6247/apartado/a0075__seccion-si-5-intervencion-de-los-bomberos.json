@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0075",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección SI 5 Intervención de los bomberos",
+  "titulo": "Sección SI 5 Intervención de los bomberos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección SI 5 Intervención de los bomberos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 36,
+   "bbox": [
+    70.9,
+    74.3,
+    303.0,
+    121.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "6a63763412ed795db30b0852bc2cfe025c4fe83b78f63b538fd22e5bf155c6cb",
+   "literal": "Sección SI 5 Intervención de los bomberos"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0032",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección SI 5 Intervención de los bomberos",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección SI 5 Intervención de los bomberos",
+   "seccion_estimada": "Sección SI 5 Intervención de los bomberos",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "14576c0cdc98daa03d75511528a1b1462ea3bb7e4be0be85ee334f3019c99a07"
+ },
+ "paginas": [
+  36
+ ],
+ "etiquetas_impresas": [
+  "36"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Sección SI 5 Intervención de los bomberos\nIntervención de los bomberos\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0076",
+  "a0079"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

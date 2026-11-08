@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0226",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.5.2 Otros elementos",
+  "titulo": "E.5.2 Otros elementos",
+  "nivel": 3,
+  "parent_id": null,
+  "seccion_estimada": "E.5.2 Otros elementos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 83,
+   "bbox": [
+    70.9,
+    575.2,
+    204.4,
+    588.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "e7bbb13ab354adcefd910365f593c9023af8e96b05e49db9e50abed050981167",
+   "literal": "E.5.2 Otros elementos"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0153",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.5.2 Otros elementos",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.5 Disposiciones constructivas / E.5.2 Otros elementos",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f3f779c2405d522d32b7d0c27c8e905a79e051973517c7d3c4dd6c8f24ca8835"
+ },
+ "paginas": [
+  83,
+  84
+ ],
+ "etiquetas_impresas": [
+  "83",
+  "84"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E.5.2 Otros elementos\n1\nLos tableros utilizados como protección de elementos estructurales tales como vigas y soportes de-\nben fijarse a los elementos de acuerdo con las indicaciones siguientes. Los tableros deben fijarse di-\nrectamente al elemento y no a otro tablero. En los revestimientos consistentes en múltiples capas de\ntableros, cada capa debe fijarse individualmente, y las juntas deben desfasarse al menos 60 mm. La\nseparación entre los elementos de fijación no debe ser mayor que el menor de los valores siguientes:\n200 mm. o 17 veces el espesor del tablero hp. En relación a la longitud del elemento de fijación, se\naplicará lo indicado en el párrafo 2 del apartado E.5.1.2., véase figura E.7 b). La distancia al borde no\ndebe ser mayor que 3 veces el espesor del tablero hp, ni menor que 1,5 veces el espesor del tablero\nó 15 mm., eligiendo el menor valor de ambos.\n\nDocumento Básico SI en caso de Incendio\nAnejo E. Resistencia al fuego de las estructuras de madera\n84\na)\nb)\nc)\nFigura E.7. Ejemplos de fijaciones para los tableros de protección",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0083.png",
+  "../figura/p0084.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

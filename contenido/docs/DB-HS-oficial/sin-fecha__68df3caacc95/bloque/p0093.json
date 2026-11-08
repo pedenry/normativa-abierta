@@ -1,0 +1,193 @@
+{
+ "documento": null,
+ "pagina": 93,
+ "etiqueta_impresa": "93",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.1,
+    36.2,
+    367.7,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HS Salubridad",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    257.6,
+    45.4,
+    354.1,
+    54.3
+   ],
+   "tipo": "texto",
+   "texto": "HS 4 Suministro de agua",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    300.5,
+    795.4,
+    536.5,
+    805.7
+   ],
+   "tipo": "texto",
+   "texto": "93",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    71.2,
+    513.0,
+    84.6
+   ],
+   "tipo": "titulo",
+   "texto": "4.5 Dimensionado de los equipos, elementos y dispositivos de la instalación",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    95.0,
+    259.4,
+    106.2
+   ],
+   "tipo": "texto",
+   "texto": "4.5.1 Dimensionado de los contadores",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    111.4,
+    538.6,
+    134.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl calibre nominal de los distintos tipos de contadores se adecuará, tanto en agua fría como calien-\nte, a los caudales nominales y máximos de la instalación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    144.5,
+    239.9,
+    155.7
+   ],
+   "tipo": "texto",
+   "texto": "4.5.2 Cálculo del grupo de presión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    79.3,
+    166.0,
+    344.3,
+    177.1
+   ],
+   "tipo": "texto",
+   "texto": "4.5.2.1\nCálculo del depósito auxiliar de alimentación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    182.4,
+    538.7,
+    219.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl volumen del depósito se calculará en función del tiempo previsto de utilización, aplicando la si-\nguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    222.6,
+    541.5,
+    246.8
+   ],
+   "tipo": "texto",
+   "texto": "60\nt\nQ\nV\n\n\n\n(4.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    94.9,
+    247.1,
+    264.7,
+    287.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nV  es el volumen del depósito [l];\nQ  es el caudal máximo simultáneo [dm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    276.1,
+    477.5,
+    356.8
+   ],
+   "tipo": "texto",
+   "texto": "3/s];\nt  es el tiempo estimado (de 15 a 20) [min].\n2\nLa estimación de la capacidad de agua se podrá realizar con los criterios de la norma\nUNE 100030:2017.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    79.3,
+    367.2,
+    238.8,
+    378.4
+   ],
+   "tipo": "texto",
+   "texto": "4.5.2.2\nCálculo de las bombas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    383.6,
+    541.4,
+    530.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl cálculo de las bombas se hará en función del caudal y de las presiones de arranque y parada de\nla/s bomba/s (mínima y máxima respectivamente), siempre que no se instalen bombas de caudal\nvariable. En este segundo caso la presión será función del caudal solicitado en cada momento y\nsiempre constante.\n2\nEl número de bombas a instalar en el caso de un grupo de tipo convencional, excluyendo las de\nreserva, se determinará en función del caudal total del grupo. Se dispondrán dos bombas para cau-\ndales de hasta 10 dm3/s, tres para caudales de hasta 30 dm3/s y 4 para más de 30 dm3/s.\n3\nEl caudal de las bombas será el máximo simultáneo de la instalación o caudal punta y vendrá fijado\npor el uso y necesidades de la instalación.\n4\nLa presión mínima o de arranque (Pb) será el resultado de sumar la altura geométrica de aspiración\n(Ha), la altura geométrica (Hg), la pérdida de carga del circuito (Pc) y la presión residual en el grifo,\nllave o fluxor (Pr).",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0083",
+  "ruta_oficial": "6.3.3.3",
+  "ruta_semantica": "6.3.3.3 Momento crítico elástico de pandeo lateral",
+  "titulo": "6.3.3.3 Momento crítico elástico de pandeo lateral",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.3.3 Momento crítico elástico de pandeo lateral",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 45,
+   "bbox": [
+    78.0,
+    132.5,
+    316.4,
+    143.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ed901402ef0396fed7e12849c6b141cd9435395ab9410032f3a237508599ee8d",
+   "literal": "6.3.3.3 Momento crítico elástico de pandeo lateral"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0082",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 5.2.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.3 Momento crítico elástico de pandeo lateral",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección en doble T / 6.3.3.3 Momento crítico elástico de pandeo lateral",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8fba3b940884ab0927f6b44e2bf50a6aec140d3c8e37a583960753c79dadf703"
+ },
+ "paginas": [
+  45,
+  46
+ ],
+ "etiquetas_impresas": [
+  "45",
+  "46"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.3.3 Momento crítico elástico de pandeo lateral\n1\nen la mayoría de los casos prácticos es admisible un cálculo simplificado del momento crítico elás-\ntico de pandeo lateral, a pesar de las diferencias en las condiciones de apoyo, la introducción de\nlas cargas y la distribución de los momentos flectores.\n2\nEn los casos en los que los apoyos en los extremos de una barra impidan su deformación por tor-\nsión, y si la carga actúa en el eje de la barra, el momento crítico elástico de pandeo lateral se po-\ndrá determinar según la ecuación:\n2\nLTw\n2\nLTv\nCR\nM\nM\nM\n+\n=\n(6.35)\nsiendo:\nMLTv\ncomponente de MCR que representa la resistencia por torsión uniforme de la barra (S. Ve-\nnant)\nMLTw\ncomponente de MCR que representa la resistencia por torsión no uniforme de la barra.\n3\nLa componente MLTv del momento crítico elástico de pandeo lateral se podría determinar a partir\nde la ecuación:\nz\nT\nC\n1\nLTv\nEI\nGI\nL\nC\nM\nπ\n=\n(6.36)\nsiendo:\nC1\nfactor que depende de las codiciones de apoyo y de la ley de momentos flectores que so-\nliciten y la viga\nLc\nlongitud de pandeo lateral (distancia entre apoyos laterales que impidan el pandeo lateral)\nG\nmódulo de elasticidad transversal\nE\nmódulo de elasticidad\nIT\nconstante de torsión uniforme\nIZ\nmomento de inercia de la sección respecto al eje z\nPara las vigas con secciones esbeltas (apartado 5.2.3) se adoptará MLTv=0.\n4\nLa componente MLTw del momento crítico elástico de pandeo lateral viene determinada por la car-\nga crítica elástica de pandeo del soporte comprimido del perfil. Este soporte está formado por el\nala comprimida y la tercera parte de la zona comprimida del alma, adyancente al ala comprimida.\nLa componente MLTw se podrá determinar a partir de la ecuación;\n2\nz,f\n1\n2\nC\n2\ny\n,\nel\nLTw\ni\nC\nL\nE\nW\nM\nπ\n=\n(6.37)\nsiendo\nWel,y\nmódulo resistente elástico de la sección, según el eje de fuerte inercia, correspondiente a\nla fibra más comprimida\nif,z\nradio de giro, con respecto al eje de menor inercia de la sección, del soporte formado por\nel ala comprimida y la tercera parte de la zona comprimida del alma, adyacente al ala\ncomprimida\nLas características mecánicas de la sección del soporte comprimido arriba mencionado se deter-\nminarán para la sección eficaz.\n5\nEl factor C1 tiene en cuenta las condiciones de apoyo y la ley de momentos flectores que solicitan\nla viga. Los valores indicados en la tabla 6.7 son válidos para tramos de vigas en cuyos extremos\n\nDocumentoBásico SE-A Acero\nSE-A-44\nel giro torsional esté totalmente coaccionado y a lo largo de los cuales el momento flector varia li-\nnealmente\nTabla 6.7 Valor del factor C1 correspondiente a los valores del factor kϕ (kw=1)\nCondiciones de apoyo y tipo de solicita-\nción\nDiagrama de momentos flectores\nC1\n1\n1,14\n1,32\n1,56\n1,88\n2,28\n2,7\n2,93\n2,75",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 5.2.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0045_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0045.png",
+  "../figura/p0046.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

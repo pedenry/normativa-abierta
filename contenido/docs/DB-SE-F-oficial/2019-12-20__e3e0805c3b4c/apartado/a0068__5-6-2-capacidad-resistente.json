@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0068",
+  "ruta_oficial": "5.6.2",
+  "ruta_semantica": "5.6.2 Capacidad resistente",
+  "titulo": "5.6.2 Capacidad resistente",
+  "nivel": 1,
+  "parent_id": "a0066",
+  "seccion_estimada": "5.6.2 Capacidad resistente",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    70.9,
+    274.7,
+    199.3,
+    284.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7170b9ca0eb17e83a0525294967ed0007baff212e99d321e4fd81e1497476724",
+   "literal": "5.6.2 Capacidad resistente"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0068",
+  "parent_id_original": "a0066",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.6.2 Capacidad resistente",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0066",
+   "ruta_semantica": "Anejo F. / 5.6 Fábrica armada a flexión / 5.6.2 Capacidad resistente",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "980392966c1d2673db313b47b0402ff51aec0adc80be6352b53a5c2020bebe60"
+ },
+ "paginas": [
+  31
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.6.2 Capacidad resistente\n1\nEn todo lo que afecta a las armaduras o pasivas, y modelos de capacidad resistente de la sección,\nse seguirán, en lo que no se contradiga aquí, las prescripciones de la norma de hormigón vigente.\n2\nLos parámetros de deformabilidad del hormigón de relleno se considerarán iguales a los de la fábrica.\n3\nCuando una zona incluya parte de fábrica y parte de hormigón, se tomará como resistencia de cálculo\nla del material menos resistente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0069",
+  "a0070"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

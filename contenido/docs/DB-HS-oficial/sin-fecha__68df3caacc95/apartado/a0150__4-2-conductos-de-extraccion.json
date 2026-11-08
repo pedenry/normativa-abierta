@@ -1,0 +1,98 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0150",
+  "ruta_oficial": "4.2",
+  "ruta_semantica": "4.2 Conductos de extracción",
+  "titulo": "4.2 Conductos de extracción",
+  "nivel": 1,
+  "parent_id": "a0139",
+  "seccion_estimada": "4.2 Conductos de extracción",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 71,
+   "bbox": [
+    70.9,
+    337.4,
+    240.3,
+    350.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "bb7f7b1fdc368078ae4d4e2ed9cea505a657738999f591b311e3b8448f14dcec",
+   "literal": "4.2 Conductos de extracción"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0139",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB HR"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2 Conductos de extracción",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0139",
+   "ruta_semantica": "Sección HS3 / 4.2 Conductos de extracción",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1f0bc9bfac8b4945d447fed4cda07dd128582bcf74fc4abf0be052a722e00b67"
+ },
+ "paginas": [
+  71,
+  72
+ ],
+ "etiquetas_impresas": [
+  "71",
+  "72"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.2 Conductos de extracción\n4.2.1\nConductos de extracción para ventilación híbrida\n1\nLa sección de cada tramo de los conductos de extracción debe ser como mínimo la obtenida de la\ntabla 4.2 en función del caudal de aire en el tramo del conducto y de la clase del tiro que se deter-\nminarán de la siguiente forma:\na)\nel caudal de aire en el tramo del conducto [l/s], qvt, que es igual a la suma de todos los cauda-\nles que pasan por las aberturas de extracción que vierten al tramo;\nb)\nla clase del tiro se obtiene en la tabla 4.3 en función del número de plantas existentes entre la\nmás baja que vierte al conducto y la última, ambas incluidas, y de la zona térmica en la que se\nsitúa el edificio de acuerdo con la tabla 4.4.\nTabla 4.2 Secciones del conducto de extracción en cm2\nClase de tiro\nT-1\nT-2\nT-3\nT-4\nCaudal de\naire en el\ntramo del\nconducto\nen l/s\nqvt  100\n1 x 225\n1 x 400\n1 x 625\n1 x 625\n100 qvt 300\n1 x 400\n1 x 625\n1 x 625\n1 x 900\n300 qvt 500\n1 x 625\n1 x 900\n1 x 900\n2 x 900\n500 qvt 750\n1 x 625\n1 x 900\n1 x 900 + 1 x 625\n3 x 900\n750 qvt 1 000\n1 x 900\n1 x 900 + 1 x 625\n2 x 900\n3 x 900 + 1 x 625\nTabla 4.3 Clases de tiro\nZona térmica\nW\nX\nY\nZ\nNº de plantas\n1\nT-4\n2\n3\n4\nT-2\n5\n6\n7\nT-1\nT-2\n≥8\nT-3\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n72\nTabla 4.4 Zonas térmicas\nProvincia\nAltitud\nen m\nProvincia\nAltitud\nen m\n800\n>800\n800\n>800\nÁlava\nW\nW\nLas Palmas\nZ\nY\nAlbacete\nX\nW\nLeón\nW\nW\nAlicante\nZ\nY\nLleida\nY\nX\nAlmería\nZ\nY\nLugo\nW\nW\nAsturias\nX\nW\nMadrid\nX\nW\nÁvila\nW\nW\nMálaga\nZ\nY\nBadajoz\nZ\nY\nMelilla\nZ\n-\nBaleares\nZ\nY\nMurcia\nZ\nY\nBarcelona\nZ\nY\nNavarra\nX\nW\nBurgos\nW\nW\nOurense\nX\nW\nCáceres\nZ\nY\nPalencia\nW\nW\nCádiz\nZ\nY\nPontevedra\nY\nX\nCantabria\nX\nW\nRioja, La\nZ\nY\nCastellón\nZ\nY\nSalamanca\nY\nX\nCeuta\nZ\n-\nSta. Cruz Tenerife\nX\nW\nCiudad Real\nY\nX\nSegovia\nW\nW\nCórdoba\nZ\nY\nSevilla\nZ\nY\nCoruña, A\nX\nW\nSoria\nW\nW\nCuenca\nW\nW\nTarragona\nY\nX\nGirona\nY\nX\nTeruel\nW\nW\nGranada\nY\nX\nToledo\nY\nX\nGuadalajara\nX\nW\nValencia\nZ\nY\nGuipúzcoa\nX\nW\nValladolid\nW\nW\nHuelva\nZ\nY\nVizcaya\nX\nW\nHuesca\nX\nW\nZamora\nX\nW\nJaén\nZ\nY\nZaragoza\nY\nX\n2\nLa sección de cada ramal debe ser, como mínimo, igual a la mitad de la del conducto colectivo al\nque vierte.\n4.2.2\nConductos de extracción para ventilación mecánica\n1\nCuando los conductos se dispongan contiguos a un local habitable, salvo que estén en cubierta o\nen locales de instalaciones o en patinillos que cumplan las condiciones que establece el DB HR, la",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB HR"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0071_t01.json",
+  "../tabla/p0071_t02.json",
+  "../tabla/p0071_t03.json",
+  "../tabla/p0072_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0071.png",
+  "../figura/p0072.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

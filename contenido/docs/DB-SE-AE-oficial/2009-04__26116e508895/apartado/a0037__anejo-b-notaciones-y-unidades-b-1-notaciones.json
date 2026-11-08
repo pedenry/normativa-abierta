@@ -1,0 +1,74 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p21",
+  "titulo": "Anejo B. Notaciones y unidades B.1 Notaciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p21",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p21",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo B. Notaciones y unidades B.1 Notaciones",
+   "seccion_estimada": "Anejo B. Notaciones y unidades B.1 Notaciones",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2cea9974225772c300f73493e7a5b4a54e42bf153f56ece26369f2825e3f5c7a"
+ },
+ "paginas": [
+  21
+ ],
+ "etiquetas_impresas": [
+  "21"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo B. Notaciones y unidades B.1 Notaciones\nB.1 Notaciones\n1\nMayúsculas latinas\nA\nÁrea; altitud sobre el nivel del mar; constante\nZ\nParámetro de la aspereza del entorno\n2\nMinúsculas latinas\nce\nCoeficiente de exposición\ncpe\nCoeficiente de presión exterior\ncpi\nCoeficiente de presión interior\nd\nDiámetro; espesor; longitud del edificio\ne\nDimensión\nh\nAltura del edificio\nhm\nAltura media\nk\nCoeficiente de forma de la nieve colgada;Coeficiente del terreno\nm\nMasa\nn\nNúmero; coeficiente\np\nCarga distribuida en línea\nq\nCarga uniformemente distribuida en superficie\nqb\nValor básico de la presión dinámica del viento\nsk\nValor característico de la carga de nieve sobre un terreno horizontal\nvb\nValor básico de la velocidad del viento\nx\nDistancia\nz\nAltura de referencia\n3\nGriegas\nα\nPendiente de una cubierta\nβ\nÁngulo\nµ\nCoeficiente de forma para determinar la carga de nieve\nθ\nÁngulo de dirección del viento\nρ\nDensidad del aire\nϕ\nFactor de obstrucción",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0021.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0038"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,102 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0033",
+  "ruta_oficial": "2.2.3",
+  "ruta_semantica": "2.2.3  Valor de cálculo de las propiedades del material y de las uniones",
+  "titulo": "2.2.3  Valor de cálculo de las propiedades del material y de las uniones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2.3  Valor de cálculo de las propiedades del material y de las uniones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    70.9,
+    573.1,
+    410.5,
+    583.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "12199bd7d036bd9e8185a9279cb1cf6da0c8d9c9d567fd2efdba2eb93dbbd2e8",
+   "literal": "2.2.3  Valor de cálculo de las propiedades del material y de las uniones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0036",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "EN 636",
+   "UNE-EN",
+   "apartado 2.2.2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2.3  Valor de cálculo de las propiedades del material y de las uniones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2  Bases de cálculo 2.1  Generalidades / 2.2  Propiedades de los materiales 2.2.1  Valores característicos de las propiedades de los materiales / 2.2.3  Valor de cálculo de las propiedades del material y de las uniones",
+   "seccion_estimada": "2  Bases de cálculo 2.1  Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6608479a3f6dfc78c85db7745a7ea31af235ae1c0ff005e17ebd74b82fa094ac"
+ },
+ "paginas": [
+  11,
+  12,
+  13,
+  15
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.2.3  Valor de cálculo de las propiedades del material y de las uniones\n1\nEl valor de cálculo, Xd, de una propiedad del material (resistencia) se define como:\n\n\n\n\n\n\n\n\n\nM\nk\nmod\nd\nX\nk\nX\n(2.6)\nsiendo:\nXk   valor característico de la propiedad del material;\nM\ncoeficiente parcial de seguridad para la propiedad del material definido en la tabla 2.3;\nkmod   factor de modificación, cuyos valores figuran en la tabla 2.4 teniendo en cuenta, previamente, la\nclase de duración de la combinación de carga de acuerdo con la tabla 2.2 y la clase de servicio\ndel apartado 2.2.2.2.\n\nDocumentoBásico SE-M Madera\nSE-M 6\nTabla 2.3 Coeficientes parciales de seguridad para el material, M.\nSituaciones persistentes y transitorias:\n- Madera maciza\n1,30\n- Madera laminada encolada\n1,25\n- Madera microlaminada, tablero contrachapado, tablero de virutas orientadas\n1,20\n- Tablero de partículas y tableros de fibras (duros, medios, densidad media, blandos)\n1,30\n- Uniones\n1,30\n- Placas clavo\n1,25\nSituaciones extraordinarias:\n1,0\n2\nDe manera análoga se define el valor de la capacidad de carga de cálculo (referida a una unión o un\nsistema estructural), Rd, según la expresión:\n\n\n\n\n\n\n\n\n\nM\nk\nmod\nd\nR\nk\nR\n(2.7)\nsiendo:\nRk\nvalor característico de la capacidad de carga;\nM\ncoeficienteparcial de seguridad para la propiedad del material definido en la tabla 2.3\nkmod\nfactor de modificación, cuyos valores figuran en la tabla 2.4 teniendo en cuenta, previamente,\nla clase de duración de la combinación de la carga de acuerdo con la tabla 2.2 y la clase de\nservicio del apartado 2.2.2.2.\nTabla 2.4 Valores del factor kmod.\nMaterial\nNorma\nClase\nde\nservicio\nClase de duración de la carga\nPermanente Larga\nMedia\nCorta\nInstantánea\nMadera maciza\nUNE-EN 14081-\n1:2016\n1\n0,60\n0,70\n0,80\n0,90\n1,10\n2\n0,60\n0,70\n0,80\n0,90\n1,10\n3\n0,50\n0,55\n0,65\n0,70\n0,90\nMadera laminada\nencolada\nUNE-EN 14080:2013\n1\n0,60\n0,70\n0,80\n0,90\n1,10\n2\n0,60\n0,70\n0,80\n0,90\n1,10\n3\n0,50\n0,55\n0,65\n0,70\n0,90\nMadera  microlaminada\nUNE-EN 14374:2005,\nUNE-EN\n14279:2007+A1:2009\n1\n0,60\n0,70\n0,80\n0,90\n1,10\n2\n0,60\n0,70\n0,80\n0,90\n1,10\n3\n0,50\n0,55\n0,65\n0,70\n0,90\nTablero contrachapado\nUNE-EN\n636:2012+A1:2015\nTipo EN 636-1,2 y 3\n1\n0,60\n0,70\n0,80\n0,90\n1,10\nTipo EN 636-2 y 3\n2\n0,60\n0,70\n0,80\n0,90\n1,10\nTipo EN 636-3\n3\n0,50\n0,55\n0,65\n0,70\n0,90\nTablero de virutas\norientadas (OSB) 1\nUNE-EN 300:2007\nOSB/2\n1\n0,30\n0,45\n0,65\n0,85\n1,10\nOSB/3, OSB/4\n1\n0,40\n0,50\n0,70\n0,90\n1,10\nOSB/3, OSB/4\n2\n0,30\n0,40\n0,55\n0,70\n0,90\nTablero de partículas\nUNE-EN 312:2010\nTipo P4, Tipo P5\n1\n0,30\n0,45\n0,65\n0,85\n1,10\nTipo P5\n2\n0,20\n0,30\n0,45\n0,60\n0,80\nTipo P6, Tipo P7\n1\n0,40\n0,50\n0,70\n0,90\n1,10\nTipo P7\n2\n0,30\n0,40\n0,55\n0,70\n0,90\nTablero de fibras duro\nUNE-EN 622-2:2004\nHB.LA, HB.HLA 1 o 2\n1\n0,30\n0,45\n0,65\n0,85\n1,10\nHB.HLA 1 o 2\n2\n0,20\n0,30\n0,45\n0,60\n0,80\nTablero de fibras semi-\nduro\nUNE-EN 622-3:2005\nMBH.LA 1 o 2,\n1\n0,20\n0,40\n0,60\n0,80\n1,10\nMBH.HLS1 o 2\n1\n0,20\n0,40\n0,60\n0,80\n1,10\nMBH.HLS1 o 2\n2\n-\n-\n-\n0,45\n0,80\nTablero de fibras MDF\nUNE-EN 622-5:2010\nMDF.LA, MDF.HLS\n1\n0,20\n0,40\n0,60\n0,80\n1,10\nMDF.HLS\n2\n-\n-\n-\n0,45\n0,80\n1OSB = Oriented Strand Board. El acrónimo es usado frecuentemente en lengua inglesa y se ha acuñado como un nombre usual\npara el material en otros idiomas, como de hecho sucede ya en el nuestro\n\nDocumentoBásico SE-M Madera\nSE-M 7\nSi una combinación de acciones incluye acciones pertenecientes a diferentes clases de duración, el\nfactor kmod debe elegirse como el correspondiente a la acción de más corta duración.\n\nDocumentoBásico SE-M Madera\nSE-M 9",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "EN 636",
+  "UNE-EN",
+  "apartado 2.2.2.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0012_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0011.png",
+  "../figura/p0012.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

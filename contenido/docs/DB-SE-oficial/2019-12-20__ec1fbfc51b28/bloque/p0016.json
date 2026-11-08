@@ -1,0 +1,231 @@
+{
+ "documento": null,
+ "pagina": 16,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    797.9,
+    320.2,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE - 10",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    97.1,
+    74.1,
+    311.0,
+    94.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    97.1,
+    74.7,
+    356.7,
+    95.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n\n\n\n\n\n\n\n1\nj\n1\ni",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    114.8,
+    75.5,
+    538.5,
+    87.9
+   ],
+   "tipo": "texto",
+   "texto": "i\nk,\ni\n2,\ni\nQ,\nk,1\n1,1\nQ,1\nd\np\nj\nk,\nj\nG,\nQ\n·\nQ\n·\nA\n·P\n·G\n(4.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    93.6,
+    104.4,
+    321.0,
+    114.4
+   ],
+   "tipo": "texto",
+   "texto": "es decir, considerando la actuación simultánea de:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    118.3,
+    538.5,
+    155.6
+   ],
+   "tipo": "texto",
+   "texto": "a)\ntodas las acciones permanentes, en valor de cálculo ( G · Gk ), incluido el pretensado ( P · P );\nb)\nuna acción accidental cualquiera, en valor de cálculo ( Ad ), debiendo analizarse sucesivamen-\nte con cada una de ellas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.6,
+    159.5,
+    541.3,
+    182.4
+   ],
+   "tipo": "texto",
+   "texto": "c)\nuna acción variable, en valor de cálculo frecuente ( Q · 1 · Qk ), debiendo adoptarse como tal,\nuna tras otra sucesivamente en distintos análisis con cada acción accidental considerada.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.6,
+    186.3,
+    495.6,
+    197.8
+   ],
+   "tipo": "texto",
+   "texto": "d)\nEl resto de las acciones variables, en valor de cálculo casi permanente (Q · 2 · Qk ).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    201.5,
+    541.3,
+    250.4
+   ],
+   "tipo": "texto",
+   "texto": "En situación extraordinaria, todos los coeficientes de seguridad (G,P, Qson iguales a cero si su\nefecto es favorable, o a la unidad si es desfavorable, en los términos anteriores.\n3\nEn los casos en los que la acción accidental sea la acción sísmica, todas las acciones variables\nconcomitantes se tendrán en cuenta con su valor casi permanente, según la expresión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    97.1,
+    256.6,
+    194.0,
+    277.4
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    97.1,
+    257.2,
+    219.6,
+    277.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n1\nj\n1\ni",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    108.4,
+    258.0,
+    534.8,
+    270.4
+   ],
+   "tipo": "texto",
+   "texto": "i\nk,\ni\n2,\nd\nj\nk,\nQ\nA\nP\nG\n(4.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    293.8,
+    222.0,
+    303.7
+   ],
+   "tipo": "texto",
+   "texto": "4.2.3 Comportamiento no lineal",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    310.4,
+    541.3,
+    418.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn los casos en los que la relación entre las acciones y su efecto no pueda aproximarse de forma\nlineal, para la determinación de los valores de cálculo de los efectos de las acciones debe realizarse\nun análisis no lineal, siendo suficiente considerar que:\na)\nsi los efectos globales de las acciones crecen más rápidamente que ellas, los coeficientes par-\nciales se aplican al valor representativo de las acciones, al modo establecido en los apartados\nanteriores.\nb)\nsi los efectos globales de las acciones crecen más lentamente que ellas, los coeficientes par-\nciales se aplican a los efectos de las acciones, determinados a partir de los valores represen-\ntativos de las mismas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    429.8,
+    256.0,
+    439.8
+   ],
+   "tipo": "texto",
+   "texto": "4.2.4 Valor de cálculo de la resistencia",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    446.4,
+    541.3,
+    588.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor de cálculo de la resistencia de una estructura, elemento, sección punto o unión entre ele-\nmentos se obtiene de cálculos basados en sus características geométricas a partir de modelos de\ncomportamiento del efecto analizado, y de la resistencia de cálculo, fd, de los materiales implicados,\nque en general puede expresarse como cociente entre la resistencia característica, fk, y el coeficien-\nte de seguridad del material.\n2\nPor lo que respecta al material o materiales implicados, la resistencia de cálculo puede asimismo\nexpresarse como función del valor medio del factor de conversión de la propiedad implicada, deter-\nminada experimentalmente, para tener en cuenta las diferencias entre las condiciones de los ensa-\nyos y el comportamiento real, y del coeficiente parcial para dicha propiedad del material.\n3\nEn su formulación más general, la resistencia de cálculo puede expresarse en función de las varia-\nbles antedichas, y el coeficiente parcial para el modelo de resistencia y las desviaciones geométri-\ncas, en el caso de que estas no se tengan en cuenta explícitamente.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0045",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p21",
+  "titulo": "sección tubular",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p21",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "linea_sin_formato_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p21",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / sección tubular",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b70a5795d5c4979c79f166a7428f348b31d82296b37084e1a392db148b28e202"
+ },
+ "paginas": [
+  21,
+  22,
+  23
+ ],
+ "etiquetas_impresas": [
+  "21",
+  "22",
+  "23"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "sección tubular\nCompresión\nFlexión simple\nFlexocompresión\n2\n50\nt\nd\nε\n≤\n2\n70\nt\nd\nε\n≤\n2\n90\nt\nd\nε\n≤\nFactor de reducción\nyf\n235\n=\nε\n1) ψ ≤ -1 es aplicable a los casos con deformaciones unitarias que superen las correspondientes al lími-\nte elástico\n\nDocumentoBásico SE-A Acero\nSE-A-20\nTabla 5.4 Límites de esbeltez para elementos planos, apoyados en un borde y libre el otro, total o parcial-\nmente comprimidos.\nGeometría\nSolicitación\nElemento plano\nLímite de esbeltez: c/t máximo\nCompresión +\nTracción -\nClase 1\nClase 2\nClase 3\nCompresión\n9ε\n10 ε\n14 ε\nFlexocompresión;\nborde libre com-\nprimido\nα\nε\n9\nα\nε\n10\n1\nk\n21\nσ\nε\nFlexocompresión;\nborde libre trac-\ncionado\n5\n,1\n9\nα\nε\n5\n,1\n10\nα\nε\n2\nk\n21\nσ\nε\nCoeficientes de abolladura\n1\nk σ y\n2\nk σ en función de ψ, siendo ψ la relación de las tensiones en los bor-\ndes (compresión positiva):\n1\nk σ=0,57-0,21 ψ+0,07 ψ2\npara 1≥ ψ ≥-3\n2\nk σ=0,578/(0,34+ ψ)\npara 1≥ ψ ≥0\n2\nk σ=1,7-5 ψ+17,1 ψ2\npara 0≥ ψ ≥-1\nFactor de reducción\nyf\n235\n=\nε\n\nDocumentoBásico SE-A Acero\nSE-A-21\nTabla 5.5 Límites de esbeltez para elementos planos en secciones de perfiles conformados en frío o de\nchapa plegada\nElemento con un borde libre (A)\nc/t ≤ 30\nElemento con un borde rigidizado por un labio (D)\nb/t ≤ 60\nElemento con un borde rigidizado por un pliegue (B)\nb/t ≤ 90\nElemento interior (C) de perfiles conformados\nb/t ≤ 250\nElemento interior (C) de chapas plegadas\nb/t ≤ 500\nc\nanchura de los elementos con un borde libre.\nb\nanchura de los elementos apoyados en dos bordes.\nt\nespesor de los elementos.\nLas dimensiones b y c no incluyen el acuerdo entre elementos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0023_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0021.png",
+  "../figura/p0022.png",
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0046"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

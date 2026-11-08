@@ -1,0 +1,75 @@
+{
+ "documento": "RITE-asociada",
+ "code": "RITE",
+ "title": "DB-HE2 RITE",
+ "capa": "asociada",
+ "scope": "Ahorro de energía",
+ "version": "2022-08-02",
+ "version_dir": "sin-fecha__ad1680c83bf4",
+ "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+ "apartado": {
+  "id_tecnico": "a0069",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p20",
+  "titulo": "CAPÍTULO VII",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p20",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "linea_sin_formato_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p20",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "CAPÍTULO VII",
+   "seccion_estimada": "CAPÍTULO VII",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0ce7788b208715a688db17b2f5bd0c24a458e509077ed3de161a3351c5c3d73e"
+ },
+ "paginas": [
+  20
+ ],
+ "etiquetas_impresas": [
+  "20"
+ ],
+ "tipos": [],
+ "texto": "CAPÍTULO VII\nInspección",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2007/07/20/1027/con",
+  "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0070",
+  "a0071",
+  "a0072",
+  "a0073",
+  "a0074",
+  "a0075",
+  "a0076"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,620 @@
+{
+ "documento": null,
+ "pagina": 71,
+ "etiqueta_impresa": "71",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-69",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    163.5,
+    84.6
+   ],
+   "tipo": "texto",
+   "texto": "4\nSe verificarán:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    96.8,
+    90.9,
+    288.4,
+    102.1
+   ],
+   "tipo": "texto",
+   "texto": "a)\n la resistencia a cortante del pasador:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    211.7,
+    129.6,
+    220.6,
+    136.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nM",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    199.7,
+    109.8,
+    218.8,
+    123.5
+   ],
+   "tipo": "texto",
+   "texto": "ub\n2",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    122.5,
+    122.3,
+    165.3,
+    129.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Rd\n,\nV\nEd\n,\nV",
+   "tamano": 6.5,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    117.8,
+    110.5,
+    541.0,
+    135.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "f\n4\n6,0\nF\nF\nγ\nπφ\n=\n≤\n(8.17)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    116.6,
+    144.1,
+    148.9,
+    155.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.8,
+    161.6,
+    341.6,
+    173.6
+   ],
+   "tipo": "texto",
+   "texto": "fub\nresistencia última del acero del pasador.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    96.8,
+    178.9,
+    259.4,
+    191.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "φ\ndiámetro del pasador.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    96.8,
+    197.3,
+    275.7,
+    208.5
+   ],
+   "tipo": "texto",
+   "texto": "b)\nla resistencia a flexión del pasador",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    203.5,
+    235.8,
+    212.4,
+    242.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nM",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    191.6,
+    216.3,
+    210.6,
+    228.6
+   ],
+   "tipo": "texto",
+   "texto": "yb\n3",
+   "tamano": 6.4,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    124.8,
+    228.5,
+    157.7,
+    235.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Rd\nEd",
+   "tamano": 6.4,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    201.2,
+    216.7,
+    203.8,
+    226.9
+   ],
+   "tipo": "texto",
+   "texto": "f",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    117.7,
+    217.0,
+    541.0,
+    241.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "32\n8,0\nM\nM\nγ\nπφ\n=\n≤\n(8.18)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.8,
+    250.1,
+    442.4,
+    261.3
+   ],
+   "tipo": "texto",
+   "texto": "c)\nla resistencia al esfuerzo combinado de cortante y flexión en el pasador:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    170.0,
+    281.3,
+    220.8,
+    300.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nF",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    170.1,
+    273.5,
+    176.2,
+    284.7
+   ],
+   "tipo": "texto",
+   "texto": "F",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    123.5,
+    274.4,
+    132.1,
+    300.4
+   ],
+   "tipo": "texto",
+   "texto": "M\nM",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    199.0,
+    269.5,
+    202.9,
+    277.3
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    175.8,
+    294.4,
+    191.1,
+    302.3
+   ],
+   "tipo": "texto",
+   "texto": "Rd\n,\nV",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    148.9,
+    270.4,
+    190.9,
+    286.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\n,\nV\n2",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    132.0,
+    294.4,
+    140.9,
+    302.3
+   ],
+   "tipo": "texto",
+   "texto": "Rd",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    132.2,
+    278.7,
+    213.0,
+    304.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\n≤\n\n",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 26,
+   "bbox": [
+    164.6,
+    272.2,
+    198.2,
+    304.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    144.2,
+    272.2,
+    168.4,
+    303.3
+   ],
+   "tipo": "texto",
+   "texto": "\n+\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    118.2,
+    273.1,
+    148.0,
+    303.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    118.2,
+    273.1,
+    122.0,
+    285.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    221.6,
+    281.3,
+    540.7,
+    292.5
+   ],
+   "tipo": "texto",
+   "texto": "(8.19)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    95.4,
+    311.6,
+    485.5,
+    323.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "MEd y FV.Ed son el momento y el esfuerzo cortante de cálculo de la sección considerada:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 32,
+   "bbox": [
+    96.8,
+    329.1,
+    308.4,
+    340.3
+   ],
+   "tipo": "texto",
+   "texto": "d)\nla resistencia a aplastamiento de la chapa",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    196.8,
+    369.4,
+    206.5,
+    377.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nM",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    123.3,
+    353.2,
+    214.2,
+    369.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "y\nRd\n,\nb\nEd\n,\nb",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 35,
+   "bbox": [
+    117.8,
+    347.9,
+    541.0,
+    375.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "f\nd\nt\n5,1\nF\nF\nγ\n=\n≤\n(8.20)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 36,
+   "bbox": [
+    116.6,
+    384.5,
+    151.7,
+    395.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    116.6,
+    402.0,
+    395.6,
+    414.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Fb,Ed\nel esfuerzo transmitido por la chapa considerada al pasador:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 38,
+   "bbox": [
+    102.5,
+    419.5,
+    541.4,
+    442.2
+   ],
+   "tipo": "texto",
+   "texto": "Los esfuerzos en el pasador y en cada una de las chapas se calcularán a partir de las\ndistribuciones de tensión indicadas en la figura 8.5.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    326.5,
+    695.3,
+    434.1,
+    721.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "(\n)\na\n2\nc\n4\nb\n8\nF\nM\nEd\nEd\n+\n+\n=",
+   "tamano": 11.7,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 40,
+   "bbox": [
+    218.6,
+    728.5,
+    396.7,
+    738.5
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.5 Momento flector en el pasador",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 41,
+   "bbox": [
+    211.7,
+    491.0,
+    282.6,
+    500.7
+   ],
+   "tipo": "texto",
+   "texto": "0,5 FEd\n0,5 FEd",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    265.7,
+    529.5,
+    271.5,
+    538.8
+   ],
+   "tipo": "texto",
+   "texto": "b",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    219.2,
+    570.9,
+    318.4,
+    581.3
+   ],
+   "tipo": "texto",
+   "texto": "d0\nd",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 44,
+   "bbox": [
+    274.1,
+    614.0,
+    294.4,
+    623.7
+   ],
+   "tipo": "texto",
+   "texto": "a\nc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 45,
+   "bbox": [
+    240.2,
+    650.0,
+    254.7,
+    659.3
+   ],
+   "tipo": "texto",
+   "texto": "FEd",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

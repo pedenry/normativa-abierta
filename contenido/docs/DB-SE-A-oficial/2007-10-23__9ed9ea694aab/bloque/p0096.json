@@ -1,0 +1,553 @@
+{
+ "documento": null,
+ "pagina": 96,
+ "etiqueta_impresa": "96",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-94",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    234.8,
+    84.6
+   ],
+   "tipo": "texto",
+   "texto": "8.8.8 Uniones viga-pilar soldadas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    92.9,
+    529.4,
+    104.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa comprobación de la resistencia a flexión consistirá en verificar, al igual que en las atornilladas:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    105.8,
+    131.4,
+    164.3,
+    139.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Rd\n,\nwp\nEd\n,\nwp",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    116.2,
+    116.3,
+    154.7,
+    124.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Rd\nEd",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    98.8,
+    126.1,
+    144.7,
+    137.3
+   ],
+   "tipo": "texto",
+   "texto": "V\nV",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    107.7,
+    111.1,
+    145.6,
+    122.3
+   ],
+   "tipo": "texto",
+   "texto": "M\nM",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    129.1,
+    110.1,
+    134.6,
+    137.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤\n≤",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    167.8,
+    119.1,
+    540.7,
+    130.3
+   ],
+   "tipo": "texto",
+   "texto": "(8.78)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.1,
+    147.3,
+    541.4,
+    181.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa resistencia a cortante del nudo se determinará en la forma definida para las atornilladas en\n8.8.6, e igualmente las resistencias de las zonas de tracción y compresión se reducirán en su caso\npor interacción con el cortante de nudo de cálculo en el alma del pilar.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    74.1,
+    187.8,
+    541.4,
+    233.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nEl momento resistente de cálculo, MRd, dependerá de la resistencia de los componentes de las zo-\nnas solicitadas a tracción, compresión y cortante. Este momento resistente se calculará multipli-\ncando la menor de las resistencias obtenidas para las zonas sometidas a tracción y compresión,\npor la distancia entre sus centros de resistencia.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.1,
+    239.9,
+    292.1,
+    251.1
+   ],
+   "tipo": "texto",
+   "texto": "4\nResistencia de la zona solicitada a tracción.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.8,
+    257.3,
+    538.6,
+    280.0
+   ],
+   "tipo": "texto",
+   "texto": "a)\nLa resistencia a tracción de cálculo que como máximo puede admitir el ala del pilar sin rigidi-\nzar, para perfiles laminados, es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    173.0,
+    309.1,
+    182.6,
+    316.9
+   ],
+   "tipo": "texto",
+   "texto": "0\nM",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    126.5,
+    292.9,
+    197.2,
+    309.0
+   ],
+   "tipo": "texto",
+   "texto": "fb\n,\nef\nfb\nyb\nRd\n,t",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    120.7,
+    287.7,
+    541.0,
+    315.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "b\nt\nf\nF\nγ\n=\n(8.79)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    119.5,
+    324.3,
+    396.2,
+    336.2
+   ],
+   "tipo": "texto",
+   "texto": "expresión en las que el ancho eficaz del ala de la viga bef,fb es",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    155.6,
+    383.1,
+    248.5,
+    390.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "fc\nc\nwc\nfb\nef,",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    216.1,
+    366.3,
+    234.3,
+    374.1
+   ],
+   "tipo": "texto",
+   "texto": "fb\nyb",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    127.3,
+    343.0,
+    233.9,
+    366.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\nfc\nyc\nc\nwc\nfb\n,\nef",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    121.0,
+    377.9,
+    241.8,
+    389.0
+   ],
+   "tipo": "texto",
+   "texto": "t\n7\nr\n2\nt\nb\n:\ncon",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    212.6,
+    361.1,
+    227.2,
+    372.2
+   ],
+   "tipo": "texto",
+   "texto": "t\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    120.8,
+    344.8,
+    227.2,
+    364.3
+   ],
+   "tipo": "texto",
+   "texto": "t\nf\n7\nr\n2\nt\nb",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    175.1,
+    376.9,
+    230.9,
+    389.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "+\n+\n≤",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    146.2,
+    352.2,
+    541.0,
+    371.8
+   ],
+   "tipo": "texto",
+   "texto": "+\n+\n=\n(8.80)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    119.5,
+    398.8,
+    151.8,
+    410.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    119.5,
+    416.3,
+    541.5,
+    439.0
+   ],
+   "tipo": "texto",
+   "texto": "los subíndices b y c añadidos al límite elástico o cualquier otro parámetro, hacen referencia a\nla viga y pilar respectivamente (véase figura 8.22).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    119.5,
+    448.1,
+    541.4,
+    486.0
+   ],
+   "tipo": "texto",
+   "texto": "Para perfiles soldados, son válidas las expresiones anteriores sin más que hacer\nc\nc\na\n2\nr =\n,\nsiendo ac el espesor de garganta de la soldadura de unión ala-alma del perfil soldado que\nforma el pilar.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    119.5,
+    492.1,
+    541.5,
+    515.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Si Ft.Rd es menor que el 70% de la resistencia completa del ala de la viga (fybtfbbfb/γM0), la unión\ndebe rigidizarse.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 30,
+   "bbox": [
+    119.5,
+    522.0,
+    538.6,
+    544.8
+   ],
+   "tipo": "texto",
+   "texto": "La soldadura de unión entre el ala de pilar y la viga debe dimensionarse para asegurar la re-\nsistencia completa del ala de la viga.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    96.8,
+    551.0,
+    477.4,
+    562.2
+   ],
+   "tipo": "texto",
+   "texto": "b)\nLa resistencia de cálculo a tracción transversal del alma del pilar sin rigidizar es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    168.2,
+    591.3,
+    177.8,
+    599.1
+   ],
+   "tipo": "texto",
+   "texto": "0\nM",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    127.7,
+    575.1,
+    188.9,
+    591.3
+   ],
+   "tipo": "texto",
+   "texto": "ef\nwc\nyc\nRd\n,t",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    120.7,
+    569.8,
+    541.0,
+    597.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "b\nt\nf\nF\nγ\n=\n(8.81)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 35,
+   "bbox": [
+    119.5,
+    606.5,
+    151.8,
+    617.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    120.9,
+    624.0,
+    286.6,
+    635.9
+   ],
+   "tipo": "texto",
+   "texto": "bef\nes el ancho eficaz, dado por:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    74.1,
+    640.3,
+    366.4,
+    657.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Perfiles laminados:\n(\n)\nc\nfc\nb\nfb\nef\nr\nt\n5\na\n2\n2\nt\nb\n+\n+\n+\n=",
+   "tamano": 11.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 38,
+   "bbox": [
+    96.8,
+    667.2,
+    420.4,
+    681.2
+   ],
+   "tipo": "texto",
+   "texto": "Perfiles soldados: igual que el anterior haciendo\nc\nc\na\n2\nr =",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    119.5,
+    688.4,
+    441.8,
+    699.6
+   ],
+   "tipo": "texto",
+   "texto": "El alma se puede reforzar mediante una chapa de alma o rigidizadores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    74.1,
+    705.9,
+    541.5,
+    751.6
+   ],
+   "tipo": "texto",
+   "texto": "5\nResistencia de la zona solicitada a compresión. La resistencia de cálculo a aplastamiento es igual\nque la indicada en el caso de las atornilladas, apartado 8.8.6, teniendo en cuenta que los anchos\neficaces bef son en este caso los indicados en el punto anterior para el alma del pilar sin rigidizar a\ntracción, o reforzada.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

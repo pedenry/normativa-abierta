@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0141",
+  "ruta_oficial": "10.2.1",
+  "ruta_semantica": "10.2.1  Soportes compuestos enlazados por separadores o presillas",
+  "titulo": "10.2.1  Soportes compuestos enlazados por separadores o presillas",
+  "nivel": 1,
+  "parent_id": "a0140",
+  "seccion_estimada": "10.2.1  Soportes compuestos enlazados por separadores o presillas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 81,
+   "bbox": [
+    70.9,
+    676.6,
+    396.6,
+    686.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a10260041b13065da2e5d81f3ca533716313ee15739ff6d8b41d9a53de169fba",
+   "literal": "10.2.1  Soportes compuestos enlazados por separadores o presillas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0163",
+  "parent_id_original": "a0140",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2.1  Soportes compuestos enlazados por separadores o presillas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0140",
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.2  Soportes compuestos / 10.2.1  Soportes compuestos enlazados por separadores o presillas",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4080308910d07ce25d3a60d77d27acda9a45782e989da2359b199808d135b6c5"
+ },
+ "paginas": [
+  81,
+  82
+ ],
+ "etiquetas_impresas": [
+  "3",
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.2.1  Soportes compuestos enlazados por separadores o presillas\n1\nLos tipos de soportes considerados se muestran en la figura 10.3; son soportes formados por varios\ncordones enlazados con separadores o presillas.\n3\nLas uniones pueden realizarse mediante clavos, encolado o pernos con conectores.\n\nDocumentoBásico SE-M Madera\nSE-M 76\nFigura 10.3 Soportes compuestos: a) con separadores. b) con presillas\nPara columnas con dos cordones de área A, el área Atot y el momento de inercia total Itotse determi-\nnan según las expresiones siguientes:\nAtot = 2A\nItot = b((2h + a)3 - a3))/12\nPara columnas con tres cordones, Atot y Itot se calculan según:\nAtot = 3A\nItot = b((3h + 2a)3 - (h + 2a)3 + h3) /12\nsiendo:\nAtot y A\nárea total de la sección transversal del soporte y de un cordón, respectivamente.\nItot e Iz\nmomento de inercia respecto al eje y y respecto al eje z, respectivamente.\na, b y h\nseparación entre cordones, ancho y grueso del cordón, respectivamente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0081.png",
+  "../figura/p0082.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0142",
+  "a0143",
+  "a0144"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

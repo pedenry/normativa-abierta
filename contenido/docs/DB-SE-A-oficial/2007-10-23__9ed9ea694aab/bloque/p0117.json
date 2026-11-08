@@ -1,0 +1,550 @@
+{
+ "documento": null,
+ "pagina": 117,
+ "etiqueta_impresa": "117",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    298.2,
+    792.0,
+    335.6,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-115",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    158.3,
+    93.9,
+    456.9,
+    103.9
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 10.1 Valores indicativos del giro en el método de giro de tuerca",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    112.7,
+    110.7,
+    497.3,
+    120.7
+   ],
+   "tipo": "texto",
+   "texto": "Espesor nominal total de la unión e\nÁngulo de giro a aplicar (grados)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    175.9,
+    127.5,
+    203.6,
+    137.6
+   ],
+   "tipo": "texto",
+   "texto": "e < 2d",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    165.9,
+    143.6,
+    213.6,
+    154.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2d ≤ e < 4d",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    165.9,
+    160.6,
+    213.6,
+    171.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "4d ≤ e < 6d",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    165.9,
+    177.7,
+    213.6,
+    188.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "6d ≤ e < 8d",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    162.1,
+    194.7,
+    217.3,
+    205.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "8d ≤ e  < 10d",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    172.1,
+    211.9,
+    207.4,
+    222.0
+   ],
+   "tipo": "texto",
+   "texto": "e > 10 d",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    416.8,
+    128.8,
+    434.2,
+    138.9
+   ],
+   "tipo": "texto",
+   "texto": "120",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    416.8,
+    145.2,
+    434.2,
+    155.3
+   ],
+   "tipo": "texto",
+   "texto": "150",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    416.8,
+    161.5,
+    434.2,
+    171.7
+   ],
+   "tipo": "texto",
+   "texto": "180",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    416.8,
+    177.9,
+    434.2,
+    188.0
+   ],
+   "tipo": "texto",
+   "texto": "210",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    416.8,
+    194.2,
+    434.2,
+    204.4
+   ],
+   "tipo": "texto",
+   "texto": "240",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    422.7,
+    210.6,
+    428.2,
+    220.7
+   ],
+   "tipo": "texto",
+   "texto": "-",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.1,
+    228.8,
+    419.2,
+    237.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla sólo válida para superficies a unir perpendiculares al eje del tornillo y para tornillos tipo 8,8",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.8,
+    261.6,
+    207.4,
+    272.8
+   ],
+   "tipo": "texto",
+   "texto": "d)\nMétodo combinado",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    119.5,
+    279.0,
+    541.5,
+    324.7
+   ],
+   "tipo": "texto",
+   "texto": "Se realiza un apriete inicial por el método a), con una llave ajustada a un par torsor con el que\nalcance el 75% del pretensado mínimo definido en este apartado, a continuación se marca la\nposición de la tuerca (como en el método b) y, por último, se da el giro de tuerca indicado en\nla tabla 10.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    149.8,
+    348.5,
+    465.5,
+    358.5
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 10.2 Valores indicativos del giro adicional en el método combinado",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    112.7,
+    365.4,
+    497.3,
+    375.4
+   ],
+   "tipo": "texto",
+   "texto": "Espesor nominal total de la unión e\nÁngulo de giro a aplicar (grados)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    175.9,
+    382.2,
+    203.6,
+    392.3
+   ],
+   "tipo": "texto",
+   "texto": "e < 2d",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    165.9,
+    398.3,
+    213.6,
+    409.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2d ≤ e < 6d",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    162.1,
+    415.3,
+    217.3,
+    426.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "6d ≤ e < 10 d",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    172.1,
+    432.6,
+    207.4,
+    442.7
+   ],
+   "tipo": "texto",
+   "texto": "e > 10 d",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    419.2,
+    382.9,
+    431.7,
+    393.0
+   ],
+   "tipo": "texto",
+   "texto": "60",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    419.2,
+    399.2,
+    431.7,
+    409.3
+   ],
+   "tipo": "texto",
+   "texto": "90",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    416.8,
+    415.6,
+    434.2,
+    425.7
+   ],
+   "tipo": "texto",
+   "texto": "120",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    422.7,
+    431.9,
+    428.2,
+    442.0
+   ],
+   "tipo": "texto",
+   "texto": "-",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    74.1,
+    449.5,
+    419.2,
+    458.4
+   ],
+   "tipo": "texto",
+   "texto": "Tabla sólo válida para superficies a unir perpendiculares al eje del tornillo y para tornillos tipo 8,8",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    74.1,
+    489.3,
+    411.4,
+    500.5
+   ],
+   "tipo": "texto",
+   "texto": "10.4.6 Superficies de contacto en uniones resistentes al deslizamiento",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 31,
+   "bbox": [
+    74.1,
+    508.7,
+    541.4,
+    542.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe puede preparar una superficie de contacto para producir la clase de superficie especificada en\nel pliego de condiciones, pudiéndose utilizar tratamientos o recubrimientos garantizados por ensa-\nyos que se especifiquen en el citado pliego.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    74.1,
+    560.3,
+    236.1,
+    573.7
+   ],
+   "tipo": "titulo",
+   "texto": "10.5 Otros tipos de tornillos",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 33,
+   "bbox": [
+    74.1,
+    582.0,
+    196.3,
+    593.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nTornillos avellanados.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    96.8,
+    599.5,
+    541.4,
+    633.7
+   ],
+   "tipo": "texto",
+   "texto": "Se puede emplear este tipo de tornillos en uniones tanto pretensados como sin pretensar. El pliego\nde condiciones incluirá la definición del avellanado y tolerancias de forma que el tornillo quede no-\nminalmente enrasado con la superficie de la chapa exterior.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    74.1,
+    640.0,
+    299.6,
+    651.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nTornillos calibrados y pernos de articulación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    96.8,
+    657.5,
+    407.4,
+    668.7
+   ],
+   "tipo": "texto",
+   "texto": "Se pueden utilizar en uniones tanto pretensadas como sin pretensar.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    96.8,
+    675.0,
+    541.4,
+    697.7
+   ],
+   "tipo": "texto",
+   "texto": "Las espigas de estos elementos deben ser de clase de tolerancia h 13 y los agujeros de la clase H\n11 según ISO 286-2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    96.8,
+    704.0,
+    485.8,
+    715.2
+   ],
+   "tipo": "texto",
+   "texto": "La rosca de un tornillo o perno calibrado no debe estar incluida en el plano de cortante.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    96.8,
+    721.5,
+    541.4,
+    744.2
+   ],
+   "tipo": "texto",
+   "texto": "Los agujeros para ser escariados posteriormente en obra, se harán inicialmente, al menos, 3 mm\nmás pequeños.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    74.1,
+    750.5,
+    258.0,
+    761.7
+   ],
+   "tipo": "texto",
+   "texto": "3\nTornillos hexagonales de inyección.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

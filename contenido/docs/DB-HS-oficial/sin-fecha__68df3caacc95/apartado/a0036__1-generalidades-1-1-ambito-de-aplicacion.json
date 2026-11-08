@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0036",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Fragmento de PDF p10",
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p10",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p10",
+  "referencias_filtradas": [
+   "DB HE"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6252a3f12460112a6edbecdef64f74b9023d85b913fb66b50a08e32bada78780"
+ },
+ "paginas": [
+  10
+ ],
+ "etiquetas_impresas": [
+  "10"
+ ],
+ "tipos": [
+  "ambito",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "1 Generalidades 1.1 Ámbito de aplicación\n1.1 Ámbito de aplicación\n1\nEsta sección se aplica a los muros y los suelos que están en contacto con el terreno y a los cerra-\nmientos que están en contacto con el aire exterior (fachadas y cubiertas) de todos los edificios in-\ncluidos en el ámbito de aplicación general del CTE. Los suelos elevados se consideran suelos que\nestán en contacto con el terreno. Las medianerías que vayan a quedar descubiertas porque no se\nha edificado en los solares colindantes o porque la superficie de las mismas excede a las de las co-\nlindantes se consideran fachadas. Los suelos de las terrazas y los de los balcones se consideran\ncubiertas.\n2\nLa comprobación de la limitación de humedades de condensación superficiales e intersticiales debe\nrealizarse según lo establecido en la Sección HE-1 Limitación de la demanda energética del DB HE\nAhorro de energía.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB HE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0037"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

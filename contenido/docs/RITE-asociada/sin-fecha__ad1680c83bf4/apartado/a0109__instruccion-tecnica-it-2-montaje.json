@@ -1,0 +1,98 @@
+{
+ "documento": "RITE-asociada",
+ "code": "RITE",
+ "title": "DB-HE2 RITE",
+ "capa": "asociada",
+ "scope": "Ahorro de energía",
+ "version": "2022-08-02",
+ "version_dir": "sin-fecha__ad1680c83bf4",
+ "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+ "apartado": {
+  "id_tecnico": "a0109",
+  "ruta_oficial": null,
+  "ruta_semantica": "INSTRUCCIÓN TÉCNICA IT 2. MONTAJE",
+  "titulo": "INSTRUCCIÓN TÉCNICA IT 2. MONTAJE",
+  "nivel": 2,
+  "parent_id": "a0107",
+  "seccion_estimada": "INSTRUCCIÓN TÉCNICA IT 2. MONTAJE",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 70,
+   "bbox": [
+    202.4,
+    521.1,
+    392.8,
+    535.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "5fa2fb7db8dbd357b0376dc6f2f5358d20ad67a6c496149bd22fcf1dd9508f73",
+   "literal": "INSTRUCCIÓN TÉCNICA IT 2. MONTAJE"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0073",
+  "parent_id_original": "a0107",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN",
+   "UNE-ENV"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "INSTRUCCIÓN TÉCNICA IT 2. MONTAJE",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0107",
+   "ruta_semantica": "1. El método de cálculo elegido para justificar el cumplimiento de esta opción tendrá en consideración los siguientes factores: / INSTRUCCIÓN TÉCNICA IT 2. MONTAJE",
+   "seccion_estimada": "1. El método de cálculo elegido para justificar el cumplimiento de esta opción tendrá en consideración los siguientes factores:",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0744744496f96e8ae61c2b8ced6136f411d6baf34abd8afa2e2a1ca62275758a"
+ },
+ "paginas": [
+  70,
+  71,
+  72
+ ],
+ "etiquetas_impresas": [
+  "70",
+  "71",
+  "72"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "1. Todas las instalaciones térmicas deben disponer de la instrumentación de medida\nsuficiente para la supervisión de todas las magnitudes y valores de los parámetros que\nintervienen de forma fundamental en el funcionamiento de los mismos.\n2. Los aparatos de medida se situarán en lugares visibles y fácilmente accesibles para\nsu lectura y mantenimiento. El tamaño de las escalas será suficiente para que la lectura\npueda efectuarse sin esfuerzo.\n3. Antes y después de cada proceso que lleve implícita la variación de una magnitud\nfísica debe haber la posibilidad de efectuar su medición, situando instrumentos permanentes,\nde lectura continua, o mediante instrumentos portátiles. La lectura podrá efectuarse también\naprovechando las señales de los instrumentos de control.\n4. En el caso de medida de temperatura en circuitos de agua, el sensor penetrará en el\ninterior de la tubería o equipo a través de una vaina, que estará rellena de una sustancia\nconductora de calor. No se permite el uso permanente de termómetros o sondas de\ncontacto.\n5. Las medidas de presión en circuitos de agua se harán con manómetros equipados de\ndispositivos de amortiguación de las oscilaciones de la aguja indicadora.\n6. En instalaciones de potencia térmica nominal mayor que 70 kW, el equipamiento\nmínimo de aparatos de medición será el siguiente:\na) Colectores de impulsión y retorno de un fluido portador: un termómetro.\nb) Vasos de expansión: un manómetro.\nc) Circuitos secundarios de tuberías de un fluido portador: un termómetro en el retorno,\nuno por cada circuito.\nd) Bombas: un manómetro para lectura de la diferencia de presión entre aspiración y\ndescarga, uno por cada bomba.\ne) Chimeneas: un pirómetro o un pirostato con escala indicadora.\nf) Intercambiadores de calor: termómetros y manómetros a la entrada y salida de los\nfluidos, salvo cuando se trate de agentes frigorígenos.\ng) Baterías agua-aire: un termómetro a la entrada y otro a la salida del circuito del fluido\nprimario y tomas para la lectura de las magnitudes relativas al aire, antes y después de la\nbatería.\nh) Recuperadores de calor aire-aire: tomas para la lectura de las magnitudes físicas de\nlas dos corrientes de aire.\ni) Unidades de tratamiento de aire: medida permanente de las temperaturas del aire en\nimpulsión, retorno y toma de aire exterior.\nINSTRUCCIÓN TÉCNICA IT 2. MONTAJE\nIT 2.1 GENERALIDADES\nEsta instrucción tiene por objeto establecer el procedimiento a seguir para efectuar las\npruebas de puesta en servicio de una instalación térmica.\nIT 2.2 PRUEBAS\nIT 2.2.1 Equipos\n1. Se tomará nota de los datos de funcionamiento de los equipos y aparatos, que\npasarán a formar parte de la documentación final de la instalación. Se registrarán los datos\nnominales de funcionamiento que figuren en el proyecto o memoria técnica y los datos reales\nde funcionamiento.\n2. Los quemadores se ajustarán a las potencias de los generadores, verificando, al\nmismo tiempo los parámetros de la combustión; se medirán los rendimientos de los\nconjuntos caldera-quemador.\n3. Se ajustarán las temperaturas de funcionamiento del agua de las plantas enfriadoras y\nse medirá la potencia absorbida en cada una de ellas.\nIT 2.2.2 Pruebas de estanquidad de redes de tuberías de agua\nIT 2.2.2.1 Generalidades\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 70\n\n1. Todas las redes de circulación de fluidos portadores deben ser probadas\nhidrostáticamente, a fin de asegurar su estanquidad, antes de quedar ocultas por obras de\nalbañilería, material de relleno o por el material aislante.\n2. Son válidas las pruebas realizadas de acuerdo a la norma UNE-EN 14.336, para\ntuberías metálicas o a UNE-ENV 12.108 para tuberías plásticas.\nEl procedimiento a seguir para las pruebas de estanquidad hidráulica, en función del tipo\nde tubería y con el fin de detectar fallos de continuidad en las tuberías de circulación de\nfluidos portadores, comprenderá las fases que se relacionan a continuación.\nIT 2.2.2.2 Preparación y limpieza de redes de tuberías\n1. Antes de realizar la prueba de estanquidad y de efectuar el llenado definitivo, las redes\nde tuberías de agua deben ser limpiadas internamente para eliminar los residuos\nprocedentes del montaje.\n2. Las pruebas de estanquidad requerirán el cierre de los terminales abiertos. Deberá\ncomprobarse que los aparatos y accesorios que queden incluidos en la sección de la red que\nse pretende probar puedan soportar la presión a la que se les va a someter. De no ser así,\ntales aparatos y accesorios deben quedar excluidos, cerrando válvulas o sustituyéndolos por\ntapones.\n3. Para ello, una vez completada la instalación, la limpieza podrá efectuarse llenándola y\nvaciándola el número de veces que sea necesario, con agua o con una solución acuosa de\nun producto detergente, con dispersantes compatibles con los materiales empleados en el\ncircuito, cuya concentración será establecida por el fabricante.\n4. El uso de productos detergentes no está permitido para redes de tuberías destinadas\na la distribución de agua para usos sanitarios.\n5. Tras el llenado, se pondrán en funcionamiento las bombas y se dejará circular el agua\ndurante el tiempo que indique el fabricante del compuesto dispersante. Posteriormente, se\nvaciará totalmente la red y se enjuagará con agua procedente del dispositivo de\nalimentación.\n6. En el caso de redes cerradas, destinadas a la circulación de fluidos con temperatura\nde funcionamiento menor que 100 °C, se medirá el pH del agua del circuito. Si el pH\nresultara menor que 7,5 se repetirá la operación de limpieza y enjuague tantas veces como\nsea necesario. A continuación se pondrá en funcionamiento la instalación con sus aparatos\nde tratamiento.\nIT 2.2.2.3 Prueba preliminar de estanquidad\n1. Esta prueba se efectuará a baja presión, para detectar fallos de continuidad de la red y\nevitar los daños que podría provocar la prueba de resistencia mecánica; se empleará el\nmismo fluido transportado o, generalmente, agua a la presión de llenado.\n2. La prueba preliminar tendrá la duración suficiente para verificar la estanquidad de\ntodas las uniones.\nIT 2.2.2.4 Prueba de resistencia mecánica\n1. Esta prueba se efectuará a continuación de la prueba preliminar: una vez llenada la\nred con el fluido de prueba, se someterá a las uniones a un esfuerzo por la aplicación de la\npresión de prueba. En el caso de circuitos cerrados de agua refrigerada o de agua caliente\nhasta una temperatura máxima de servicio de 100 °C, la presión de prueba será equivalente\na una vez y media la presión máxima efectiva de trabajo a la temperatura de servicio, con un\nmínimo de 6 bar; para circuitos de agua caliente sanitaria, la presión de prueba será\nequivalente a dos veces la presión máxima efectiva de trabajo a la temperatura de servicio,\ncon un mínimo de 6 bar.\n2. Para los circuitos primarios de las instalaciones de energía solar, la presión de la\nprueba será de una vez y media la presión máxima de trabajo del circuito primario, con un\nmínimo de 3 bar, comprobándose el funcionamiento de las líneas de seguridad.\n3. Los equipos, aparatos y accesorios que no soporten dichas presiones quedarán\nexcluidos de la prueba.\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 71\n\n4. La prueba hidráulica de resistencia mecánica tendrá la duración suficiente para\nverificar visualmente la resistencia estructural de los equipos y tuberías sometidos a la\nmisma.\nIT 2.2.2.5 Reparación de fugas\n1. La reparación de las fugas detectadas se realizará desmontando la junta, accesorio o",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN",
+  "UNE-ENV"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0114",
+   "ruta_oficial": "APÉNDICE-1",
+   "titulo": "APÉNDICE 1. Términos y definiciones",
+   "archivo_json": "a0114__apendice-1-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2007/07/20/1027/con",
+  "sha256": "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

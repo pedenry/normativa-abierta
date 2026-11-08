@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0066",
+  "ruta_oficial": "6.3.2.1",
+  "ruta_semantica": "6.3.2.1 Barras rectas de sección constante y axil constante",
+  "titulo": "6.3.2.1 Barras rectas de sección constante y axil constante",
+  "nivel": 1,
+  "parent_id": "a0065",
+  "seccion_estimada": "6.3.2.1 Barras rectas de sección constante y axil constante",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 36,
+   "bbox": [
+    78.0,
+    289.3,
+    360.3,
+    300.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c811a374e3b6a0719084c6c26117166a0830e25c4653ec81b14c0cbb2d759413",
+   "literal": "6.3.2.1 Barras rectas de sección constante y axil constante"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0072",
+  "parent_id_original": "a0065",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.1 Barras rectas de sección constante y axil constante",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0065",
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.3 Resistencia de las barras 6.3.1 Tracción / 6.3.2 Compresión / 6.3.2.1 Barras rectas de sección constante y axil constante",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9b20aba38fd4fc063f3b9bf020431f9f5ea97dd6f461e00d32a29b6a60abafb7"
+ },
+ "paginas": [
+  36
+ ],
+ "etiquetas_impresas": [
+  "36"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.3.2.1 Barras rectas de sección constante y axil constante\n1\nSe denomina esbeltez reducida λ , a la raíz cuadrada del cociente entre la resistencia plástica de\nla sección de cálculo y la compresión crítica por pandeo, de valor\nI\nE\nL\nN\nN\nf\nA\n2\nk\ncr\ncr\ny\n⋅\n⋅\n\n\n\n\n\nπ\n=\n⋅\n=\nλ\n(6.18)\nsiendo\nE\nmódulo de elasticidad;\nI\nmomento de inercia del área de la sección para flexión en el plano considerado;\nk\nL\nlongitud de pandeo de la pieza, equivalente a la distancia entre puntos de inflexión de la de-\nformación de pandeo que la tenga mayor. Para los casos canónicos se define en la tabla 6.1\nen función de la longitud de la pieza. Para condiciones diferentes para la carga axial o la",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

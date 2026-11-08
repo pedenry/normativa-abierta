@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0227",
+  "ruta_oficial": "5.1.1.3.5",
+  "ruta_semantica": "5.1.1.3.5 Protección contra ruidos",
+  "titulo": "5.1.1.3.5 Protección contra ruidos",
+  "nivel": 1,
+  "parent_id": "a0222",
+  "seccion_estimada": "5.1.1.3.5 Protección contra ruidos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 97,
+   "bbox": [
+    70.9,
+    190.7,
+    238.8,
+    201.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b8beef161f437f74b24095d53c87ba42ae694556c57b179b9aed4e8350a26fcc",
+   "literal": "5.1.1.3.5 Protección contra ruidos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0222",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB HR"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.1.3.5 Protección contra ruidos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0222",
+   "ruta_semantica": "5 Construcción 5.1 Ejecución / 5.1.1 Ejecución de las redes de tuberías / 5.1.1.2  Uniones y juntas / 5.1.1.3.5 Protección contra ruidos",
+   "seccion_estimada": "5 Construcción 5.1 Ejecución",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0e3a738899d475e199e91d4b4095906aa25cdd9b185447cbb739665bbebc291d"
+ },
+ "paginas": [
+  97
+ ],
+ "etiquetas_impresas": [
+  "97"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "5.1.1.3.5 Protección contra ruidos\n1\nComo normas generales a adoptar, sin perjuicio de lo que pueda establecer el DB HR al respecto,\nse adoptarán las siguientes:\na)\nlos huecos o patinillos, tanto horizontales como verticales, por donde discurran las conduccio-\nnes estarán situados en zonas comunes;\nb)\na la salida de las bombas se instalarán conectores flexibles para atenuar la transmisión del\nruido y las vibraciones a lo largo de la red de distribución. dichos conectores serán adecuados\nal tipo de tubo y al lugar de su instalación;\n2\nLos soportes y colgantes para tramos de la red interior con tubos metálicos que transporten el agua\na velocidades de 1,5 a 2,0 m/s serán antivibratorios. Igualmente, se utilizarán anclajes y guías flexi-\nbles que vayan a estar rígidamente unidos a la estructura del edificio.\n5.1.1.4\nAccesorios",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB HR"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0080",
+  "ruta_oficial": "6.3.3.2",
+  "ruta_semantica": "6.3.3.2 Pandeo lateral",
+  "titulo": "6.3.3.2 Pandeo lateral",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.3.2 Pandeo lateral",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 44,
+   "bbox": [
+    78.0,
+    83.5,
+    182.5,
+    94.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4d11f3b90b75e89ea9c180710f633e6df25d07c0b85b22570c5a1ae53e09a310",
+   "literal": "6.3.3.2 Pandeo lateral"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0081",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.2 Pandeo lateral",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores. / 6.3.3 Flexión 6.3.3.1 General / 6.3.3.2 Pandeo lateral",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a1da003da5cd400573276cc4ff7d350147a71447c40146ca52399443b7df5ece"
+ },
+ "paginas": [
+  44
+ ],
+ "etiquetas_impresas": [
+  "44"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.3.2 Pandeo lateral\n1\nSi existe la posibilidad de que una viga pandee lateralmente, debe comprobarse que MEd≤ Mb,Rd;\ndonde MEd es el valor de cálculo del momento flector y Mb,Rd el valor de cálculo de la resistencia\nfrente a pandeo lateral. Mb,Rd se podrá determinar de acuerdo con la relación:\n1\nM\ny\ny\nLT\nRd\n,\nb\nf\nW\nM\nγ\nχ\n=\n(6.31)\nsiendo\nWy\nmódulo resistente de la sección, acorde con el tipo de ésta, es decir:\nWy:\nWpl,y para secciones de clases 1 y 2\nWy:\nWel,y para secciones de clase 3\nWy:\nWef,y para secciones de clase 4\nχLT\nfactor de reducción para el pandeo lateral\nEl factor de reducción χLT se podrá determinar a partir de la expresión\n1\n1\n2\nLT\n2\nLT\nLT\nLT\n≤\nλ\n−\nφ\n+\nφ\n=\nχ\n(6.32)\ndonde",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0044_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0044.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,131 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0024",
+  "ruta_oficial": "2.3.3",
+  "ruta_semantica": "2.3.3 Modelo geotécnico y parámetros del terreno",
+  "titulo": "2.3.3 Modelo geotécnico y parámetros del terreno",
+  "nivel": 1,
+  "parent_id": "a0010",
+  "seccion_estimada": "2.3.3 Modelo geotécnico y parámetros del terreno",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 8,
+   "bbox": [
+    70.9,
+    522.9,
+    362.4,
+    534.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c4736c37ffb030a5d42f3e9892f9369ee9b6243648dda4452052e3564934b2c4",
+   "literal": "2.3.3 Modelo geotécnico y parámetros del terreno"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0034",
+  "parent_id_original": "a0010",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "2.3.3 Modelo geotécnico y parámetros del terreno",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0010",
+   "ruta_semantica": "Anejo G. Normas de referencia / 2.3.3 Modelo geotécnico y parámetros del terreno",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6485126fa138d742166453097d7e4ec40dff1901ed211511ec806d0a024ffa40"
+ },
+ "paginas": [
+  8,
+  9
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2.3.3 Modelo geotécnico y parámetros del terreno\n1\nPara cada situación de dimensionado y estudio de estado límite se definirá un modelo geotécnico\ndel terreno que incorpore junto con los distintos tipos de materiales y sus superficies de contacto los\nniveles piezométricos pertinentes.\n2\nLas características del terreno deben quedar representadas, para cada situación de dimensionado y\nestado límite considerado, por una serie de valores característicos que normalmente se deducirán\nde la investigación geotécnica.\n3\nA efectos de aplicación de este DB se entiende como valor característico de un determinado pará-\nmetro del terreno a una estimación prudente de su valor en el contexto del estado límite que se\nconsidere. Esto implica que determinados parámetros del terreno pueden adoptar valores caracte-\nrísticos diferentes en función del estado límite considerado.\n4\nCuando se utilicen métodos estadísticos se definirá el valor característico de un determinado pará-\nmetro del terreno necesario para el estudio de un estado límite por:\na)\nel fractil del 5% en caso de que un valor bajo resulte desfavorable;\nb)\nel fractil del 95% en caso de que un valor alto resulte desfavorable.\n\nDocumento Básico SE-C Cimientos\nSE-C-4",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0009.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0310",
+  "ruta_oficial": "3.1.2",
+  "ruta_semantica": "3.1.2 Dimensionado de la barrera",
+  "titulo": "3.1.2 Dimensionado de la barrera",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.2 Dimensionado de la barrera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 139,
+   "bbox": [
+    70.9,
+    712.3,
+    230.5,
+    723.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "cbaae56713be178e5c239c970d11f1f5d2bf7ca7b120648cfb9b424372973c6b",
+   "literal": "3.1.2 Dimensionado de la barrera"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.2 Dimensionado de la barrera",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Verificación y justificación del cumplimiento de la exigencia / 3.1 Barrera de protección 3.1.1 Características de la barrera / 3.1.2 Dimensionado de la barrera",
+   "seccion_estimada": "3 Verificación y justificación del cumplimiento de la exigencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "27322b99c296d7c81c06abdc1dac41b20c78ae70468803b6aa166fba267aa822"
+ },
+ "paginas": [
+  139,
+  140
+ ],
+ "etiquetas_impresas": [
+  "139",
+  "140"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "3.1.2 Dimensionado de la barrera\n1\nLa barrera tendrá un espesor y un coeficiente de difusión tales que la exhalación de radón prevista a\nsu través (E) sea inferior a la exhalación límite (Elim).\n2\nLa exhalación límite (Elim) se determina mediante la siguiente expresión:\n\nDocumento Básico HS Salubridad\nHS 6 Protección frente a la exposición al radón\n140\n𝐸𝑙𝑖𝑚= 𝐶𝑑·\n𝑄\n𝐴          [Bq/m2·h]\n(3.1)\nsiendo\nCd la concentración de diseño, que se corresponde con el 10% del nivel de referencia [Bq/m3];\nQ\nel caudal de ventilación del local a proteger [m3/h]. En el caso de que se desconozca su valor\nde ventilación, puede considerarse un caudal de cálculo correspondiente a 0,1\nrenovaciones/hora;\nA\nla superficie de la barrera [m2].\n3\nEn ausencia de estudios específicos, la exhalación de radón prevista a través de la barrera (E)\npuede estimarse a partir de la siguiente expresión:\n𝐸=\n3·105·𝜆·𝑙\n𝑠𝑒𝑛ℎ(𝑑\n𝑙)          [Bq/m2·h]\n(3.2)\nsiendo\nλ\nla constante de desintegración del radón 7,56 ·10-3 [h-1];\nd\nel espesor de la barrera [m];\nl\nla longitud de difusión del radón en la barrera, de acuerdo con la siguiente expresión:\n𝑙= √\n𝐷·3600\n𝜆\n[m]\n(3.3)\nsiendo\nD   el coeficiente de difusión al radón de la barrera [m2/s].",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0140.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

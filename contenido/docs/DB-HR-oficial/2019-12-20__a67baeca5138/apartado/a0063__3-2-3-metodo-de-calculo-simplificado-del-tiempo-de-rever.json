@@ -1,0 +1,100 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0063",
+  "ruta_oficial": "3.2.3",
+  "ruta_semantica": "3.2.3  Método de cálculo simplificado del tiempo de reverberación. Tratamientos absorbentes de los paramentos",
+  "titulo": "3.2.3  Método de cálculo simplificado del tiempo de reverberación. Tratamientos absorbentes de los paramentos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.2.3  Método de cálculo simplificado del tiempo de reverberación. Tratamientos absorbentes de los paramentos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    69.7,
+    320.0,
+    529.9,
+    342.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d5502e99ebe77e405b8b93ff5fe9c5dcf232c669760c6a7d1217a3c96cb5f3ee",
+   "literal": "3.2.3  Método de cálculo simplificado del tiempo de reverberación. Tratamientos absorbentes de los paramentos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 3.2.3.1",
+   "apartado 3.2.3.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2.3  Método de cálculo simplificado del tiempo de reverberación. Tratamientos absorbentes de los paramentos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.2  Tiempo de reverberación y absorción acústica 3.2.1  Datos previos y procedimiento / 3.2.3  Método de cálculo simplificado del tiempo de reverberación. Tratamientos absorbentes de los paramentos",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "79261031876893c2714695267b7e4a92b760ff402399005fda74a9ce2bd67f37"
+ },
+ "paginas": [
+  34
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.2.3  Método de cálculo simplificado del tiempo de reverberación. Tratamientos absorbentes de los paramentos\nlos paramentos\n3\nEn la mayoría de los casos puede emplearse un tratamiento absorbente uniforme aplicado única-\nmente en el techo. Los valores mínimos del coeficiente de absorción acústica medio del material o\ntecho suspendido figuran en el apartado 3.2.3.1.\n4\nEn aquellos casos en los que no sea posible encontrar un material o un techo suspendido con el\nvalor de coeficiente de absorción acústica medio requerido en el apartado 3.2.3.1, deben utilizarse\nademás tratamientos absorbentes adicionales al del techo en el resto de los paramentos, según el\napartado 3.2.3.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3.2.3.1",
+  "apartado 3.2.3.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0064",
+  "a0065"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

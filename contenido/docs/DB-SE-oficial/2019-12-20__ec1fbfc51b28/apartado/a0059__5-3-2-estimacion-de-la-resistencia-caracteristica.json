@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0059",
+  "ruta_oficial": "5.3.2",
+  "ruta_semantica": "5.3.2 Estimación de la resistencia característica",
+  "titulo": "5.3.2 Estimación de la resistencia característica",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.3.2 Estimación de la resistencia característica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 22,
+   "bbox": [
+    70.9,
+    319.3,
+    302.6,
+    329.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "898bbbd2e1fd49998a8e94bc764d2581e2ddc2b4047cf1ba7d1ec415301ae0d8",
+   "literal": "5.3.2 Estimación de la resistencia característica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0065",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3.2 Estimación de la resistencia característica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades / 5.3 Evaluación de los resultados 5.3.1 Generalidades / 5.3.2 Estimación de la resistencia característica",
+   "seccion_estimada": "5 Verificaciones basadas en métodos experimentales 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d84fdf292e8f966570183e51f1ab1e7f65d52cc53a3f6f36beb276fe55c07cff"
+ },
+ "paginas": [
+  22,
+  23
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "5.3.2 Estimación de la resistencia característica\n1\nEn ausencia de información previa o de otros datos más precisos, se adoptará como valor caracte-\nrístico el fractil del 5%, suponiendo una distribución normal:\nR\nR\nest\n,\nk\nk -\nm\nR\n\n\n\n\n(5.2)\nsiendo\nmR\nvalor medio de la muestra\nR\ndesviación típica de la muestra, se estimará a partir de los resultados experimentales\nk\ncoeficiente que depende del tamaño de la muestra (número de ensayos, n), según tabla\n5.1\n2\nCuando exista información previa relativa a la desviación típica de la distribución, R, ésta se consi-\nderará conocida a priori. En estos casos, suponiendo una distribución normal, el valor característico\nde la resistencia correspondiente a un fractil del 5% se estimará a partir de la relación:\nR\nR\nest\nk,\nk -\nm\nR\n\n\n\n\n(5.3)\nsiendo\nmR\nvalor medio de la muestra\nR\ndesviación típica de la distribución\nk\ncoeficiente que depende del tamaño de la muestra (número de ensayos, n), según tabla\n5.1\nTabla 5.1. Valores del coeficiente k para un fractil de 5%\nNúmero de ensayos, n\nDesviación típica\n3\n4\n6\n8\n10\n20\n30\n100\ninfinito\ndesconocida\n3,15\n2,68\n2,34\n2,19\n2,10\n1,93\n1,87\n1,76\n1,64\npreviamente conocida\n2,03\n1,98\n1,92\n1,88\n1,86\n1,79\n1,77\n1,71\n1,64\n\nDocumento Básico SE Seguridad Estructural\nSE - 17",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0022_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0022.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

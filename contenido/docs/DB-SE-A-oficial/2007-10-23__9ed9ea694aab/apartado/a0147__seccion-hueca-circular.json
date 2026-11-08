@@ -1,0 +1,77 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0147",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p106",
+  "titulo": "Sección hueca circular",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p106",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "linea_sin_formato_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p106",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / Sección hueca circular",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "886109a4ee69e1e32e76c99175363be02bcf565db86fee4734a4bd74e5184b64"
+ },
+ "paginas": [
+  106,
+  107
+ ],
+ "etiquetas_impresas": [
+  "106",
+  "107"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Sección hueca circular\n()\nr)\n(t\n8\nsen\nd\nb\nf\n1\ni\nw\n+\n+\nθ\n=\nr)\n(t\n10\nt 2\nb\nf\n1\nw\n+\n+\n≤\nAv = Ao + (2-σ) bo tf + (tw + 2r) tf\nSección hueca rectangular\n0.5\nft 3\ng\n4\n1\n1\n\n\n\n\n\n\n\n\n\n\n\n\n+\n=\nα\nSección hueca circular\n0\n=\nα\nt\nf\nf\n7\nr 2\nt\nb\ni\nyi\nyo\nw\nef\n+\n+\n=\npero bef≤ bi\nb\nt\nf\nt\nf\nt/\nb\n10\nb\ni\n1\ny1\ni\nyi\n1\n1\nov\ne,\n=\npero be, ov≤ bi\n(1) Sólo debe comprobarse la barra solapante. La eficacia de la barra solapada (es decir la resistencia de cálculo del\nnudo dividida por la resistencia plástica de la barra) debe considerarse igual a la de la solapante.\n\nDocumentoBásico SE-A Acero\nSE-A-105",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0106.png",
+  "../figura/p0107.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0148"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

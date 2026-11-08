@@ -1,0 +1,154 @@
+{
+ "documento": null,
+ "pagina": 135,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-130",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    185.9,
+    194.2,
+    541.1,
+    215.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura E.7. Influencia de la proximidad de los cimientos",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    237.1,
+    235.1,
+    249.1
+   ],
+   "tipo": "texto",
+   "texto": "E.4.3 Otras consideraciones",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    253.7,
+    541.3,
+    436.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn el análisis estructural, puede considerarse la utilización de modelos específicos para englobar\ndetalles de los cimientos, habitualmente no tenidos en cuenta, como puede ser el caso de vigas\ncentradoras o de elementos de arriostramiento entre cimientos.\n2\nLa resultante en la base del cimiento debe incluir la solicitación obtenida en el análisis estructural,\nincluyendo el peso propio del cimiento, y en su caso, pozo, y el de los materiales sueltos que gravi-\ntan sobre él.\n3\nEn el caso de edificios cimentados con zapatas aisladas y corridas, edificios con forjados o cámaras\nsanitarias y soleras, el valor característico qok al nivel de la base de apoyo de la cimentación corres-\nponde a la presión vertical del terreno en derredor del cimiento, es decir con su cota final. En este\ncaso, puede tenerse en cuenta el peso del encache, la solera y demás cargas permanentes que\npueda garantizarse que existirán durante el periodo de servicio del edificio.\n4\nEn el caso de edificios cimentados en losa, la presión vertical, qok, corresponde al peso de los ele-\nmentos permanentes en el exterior de la misma (véase D, en figura F.1).\n5\nSi sobre las zapatas o emparrillados se dispone una solera pasante, eficazmente engarzada y con\nsuficiente capacidad resistente, ésta puede acabar comportándose como una losa.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    450.6,
+    385.9,
+    464.6
+   ],
+   "tipo": "titulo",
+   "texto": "E.5 Modelos de interacción. Módulo de balasto",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    469.2,
+    541.3,
+    490.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl módulo de balasto ks se define como el cociente entre la presión vertical, q, aplicada sobre un\ndeterminado punto de un cimiento directo y el asiento, s, experimentado por dicho punto:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    85.3,
+    499.5,
+    542.4,
+    523.7
+   ],
+   "tipo": "texto",
+   "texto": "s\nq\nk s \n(E.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    531.1,
+    541.3,
+    731.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nEl módulo de balasto así definido, tiene unidades de densidad, lo que indica que la hipótesis efec-\ntuada equivale a suponer que el terreno es un líquido de densidad ks, sobre el que “flota” la cimen-\ntación.\n3\nLa estimación del módulo de balasto podrá realizarse:\na)\nA partir de ensayos de carga con placa (véase tabla D.7). De acuerdo con los efectos descritos\nen el apartado E.4.2 y dado que las placas de ensayo son necesariamente de pequeño tama-\nño, se debe prestar especial atención a la conversión del módulo obtenido en el ensayo, ksp, al\nmódulo de cálculo representativo de la anchura, B, real del cimiento, ksB,. A este respecto se\nrecomienda emplear placas de diámetro equivalente igual o superior a 60 cm.\nb)\nA partir de la determinación de parámetros de deformabilidad representativos del terreno bajo\nla zona de influencia de la cimentación, ya sea mediante ensayos in situ o de laboratorio, y el\nposterior cálculo geotécnico de asientos.\n4\nLa conversión del módulo para placa de 30 cm, ks30, al coeficiente de referencia, ksB, se puede ob-\ntener mediante las siguientes expresiones: (véase tabla D.29)\n5\nPara zapata cuadrada de ancho B:\na)\n Para terrenos cohesivos:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    85.3,
+    747.0,
+    152.3,
+    764.8
+   ],
+   "tipo": "texto",
+   "texto": "B",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    92.2,
+    740.6,
+    542.4,
+    759.4
+   ],
+   "tipo": "texto",
+   "texto": "3,0\nk\nk\n30\nsp\nsB \n(E.6)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0200",
+  "ruta_oficial": "12.2",
+  "ruta_semantica": "12.2 Control de calidad de la documentación del proyecto",
+  "titulo": "12.2 Control de calidad de la documentación del proyecto",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "12.2 Control de calidad de la documentación del proyecto",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 135,
+   "bbox": [
+    74.1,
+    238.0,
+    406.2,
+    251.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "dffe2770b37290369f83f2d440a9a4900a2be6301e5875cf573823ecd8d4561c",
+   "literal": "12.2 Control de calidad de la documentación del proyecto"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0196",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "12.2 Control de calidad de la documentación del proyecto",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "12 Control de calidad 12.1 Generalidades / 12.2 Control de calidad de la documentación del proyecto",
+   "seccion_estimada": "12 Control de calidad 12.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fa986c72e680ecf0904a09ec8776be9b7c21cab958d4e9a41df1869492504177"
+ },
+ "paginas": [
+  135
+ ],
+ "etiquetas_impresas": [
+  "135"
+ ],
+ "tipos": [],
+ "texto": "12.2 Control de calidad de la documentación del proyecto\n1\nTiene por objeto comprobar que la documentación incluida en el proyecto define en forma precisa\ntanto la solución estructural adoptada como su justificación y los requisitos necesarios para la\nconstrucción.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

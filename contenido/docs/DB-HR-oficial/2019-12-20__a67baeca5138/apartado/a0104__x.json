@@ -1,0 +1,80 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0104",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p53",
+  "titulo": "",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p53",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p53",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología / Nivel global de presión de ruido de impactos estandarizado, L’nT,w: Valoración global del nivel de presión de ruido de impactos estandarizado, L’nT / ",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "53c8eb8b125388e4f6f0823520e820192057802e7e23968b0c5d5e83fb41a535"
+ },
+ "paginas": [
+  53,
+  54
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "\n+\n\n=\ni\n10\n/)\nA\nL\n(\npA\ni\ni\n10\nlg\n10\nL\n[dBA]\n(A.24)\nsiendo\nLi\nnivel de presión sonora en la banda de frecuencia i, [dB];\nAi\nvalor de la ponderación A en la banda de frecuencia i, [dBA].\nNivel de presión sonora, Lp: Se define mediante la expresión siguiente:\n0\n2\n0\np\np\np\nlg\n20\np\np\nlg\n10\nL\n\n=\n\n\n\n\n\n\n\n=\n[dB]\n(A.25)\nsiendo\np\npresión sonora considerada, [Pa];\np0\npresión sonora de referencia, de valor 2·10-5 Pa.\nSe sobreentiende que las presiones sonoras se expresan en valores eficaces o rms, salvo que se diga lo\ncontrario.\nNivel global de presión de ruido de impactos estandarizado, L’nT,w: Valoración global del nivel de\npresión de ruido de impactos estandarizado, L’nT\nNivel global de presión de ruido de impactos normalizado de un elemento constructivo horizontal,\nLn,w: Valor a 500 Hz de la curva de referencia ajustada a los valores experimentales de nivel de presión\nde ruido de impactos normalizado, Ln. Si los niveles experimentales están dados para bandas de octava,\nhay que reducir en 5 dB el valor a 500 Hz.\nEl nivel global de presión de ruido de impactos normalizado se determinará mediante ensayo en labora-\ntorio. No obstante, y en ausencia de ensayo, puede decirse que el Ln,w proporcionado por un elemento\nconstructivo de una hoja de materiales homogéneos, es función casi exclusivamente de su masa y es\naplicable la siguiente expresión definida en la norma UNE-EN ISO 12354-2, que determina el nivel de\npresión, en función de la masa por unidad de superficie, m, expresada en kg/m2:\nm\n·lg\n35\n164\nL\nw\n,n\n−\n=\n[dB]\n(A.26)\nNivel medio de presión sonora en un recinto, L: Nivel correspondiente al promedio temporal y espa-\ncial del cuadrado de la presión acústica, extendiendo el promediado espacial al interior del recinto excep-\ntuando las zonas de radiación directa de las fuentes y las próximas a las paredes, suelo y techo.\nPara exploraciones de la presión a lo largo de trayectorias continuas representativas que se barren en un\ntiempo T se define mediante la expresión siguiente:\n\n\n=\nT\n0\n2\n0\n2\ndt\np\n)t(\np\nT\n1\nlg\n10\nL\n[dB]\n(A.27)\n\nDocumento Básico HR - Protección frente al ruido\nHR A-12\nsiendo\np(t)\nvalor de la presión acústica en el instante t, [Pa];\np0\npresión sonora de referencia, de valor 2·10-5 Pa;\nPara exploraciones de la presión en n puntos discretos se define mediante la expresión siguiente:\n\n=\n\n=\nn\n1\ni\n10\n/\nLpi\n10\nn\n1\nlg\n10\nL\n[dB]\n(A.28)\nsiendo\nLpi\nnivel de presión sonora medido en el punto i, [dB].\nCuando las diferencias entre los valores componentes son menores que 4 dB, se puede tomar como\nnivel medio la media aritmética de los niveles componentes.\nNivel sonoro continuo equivalente estandarizado, ponderado A, LeqA,T: Nivel sonoro continuo equi-\nvalente, ponderado A, referido a un tiempo de reverberación de 0,5 s.\nSe define mediante la expresión siguiente:\n5,0\nT\nlg\n10\nL\nL\neqA\nT\n,\neqA\n\n=\n-\n[dBA]\n(A.29)\nsiendo\nLeqA\nnivel sonoro continuo equivalente, ponderado A, en los períodos establecidos, [dBA];\nT\nvalor medido del tiempo de reverberación, [s].\nNivel sonoro continuo equivalente, ponderado A, LeqA: Viene definido, en dBA, por el valor LeqA.\nPara ruidos de nivel variable en el tiempo se define mediante la expresión:\n\n\n=\nT\n0\n10\n/\npA\n)t(\nL\neqA\ndt\n10\nT\n1\nlg\n10\nL\n[dBA]\n(A.30)\nsiendo\nL(t)pA\nnivel de presión sonora, ponderado A, en el instante t, [dBA];\nT\nintervalo temporal considerado, en s.\nCuando los niveles de un ruido, LpAi , se mantienen prácticamente constantes (± 2 dB) en cada intervalo\ntemporal ti ,(T = ∑i ti), se puede usar la expresión:\n\n\n=\ni\ni\n10\n/i,\npA\nL\neqA\nt\n10\nT\n1\nlg\n10\nL\n[dBA]\n(A.31)\nObjetivo de calidad acústica*: Conjunto de requisitos que, en relación con la contaminación acústica,\ndeben cumplirse en un momento dado en un espacio determinado.\nPanel prefabricado pesado:Se consideran elementos prefabricados pesados los paneles de hormigón,\nyeso o cualquier material con características similares.\n* Definición procedente de la Ley 37/2003 de 17 de noviembre, del Ruido",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0053.png",
+  "../figura/p0054.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0039",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p15",
+  "titulo": "Sección.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p15",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p15",
+  "referencias_filtradas": [
+   "RSCIEI",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "15 < h ≤ 28 m / Sección.",
+   "seccion_estimada": "15 < h ≤ 28 m",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7f20218bbff4cab731f8fc23dba9e6a795e4aca0819ab181b39c61085394a720"
+ },
+ "paginas": [
+  15,
+  16
+ ],
+ "etiquetas_impresas": [
+  "15",
+  "16"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Sección.\n-\nLos filtros deben estar separados de los focos de calor más de 1,20 m si son tipo parrilla o de gas, y más de 0,50 m si\nson de otros tipos. Deben ser fácilmente accesibles y desmontables para su limpieza, tener una inclinación mayor que\n45 y poseer una bandeja de recogida de grasas que conduzca éstas hasta un recipiente cerrado cuya capacidad debe\n\nDocumento Básico SI Seguridad en caso de Incendio\nSI 1. Propagación interior\n16\nser menor que 3 l.\n-\nLos ventiladores cumplirán las especificaciones de la norma UNE-EN 12101-3: 2016 “Especificaciones para aireadores\nextractores de humos y calor mecánicos.” y tendrán una clasificación F400 90.\n(4)\nLas zonas de aseos no computan a efectos del cálculo de la superficie construida.\n(5)\nSe consideran aquellos trasteros que tienen vinculación con las viviendas de los edificios en los que están integrados. Incluye\nlos que comunican con zonas de uso garaje de edificios de vivienda.\n(6)\nLas áreas públicas de venta no se clasifican como locales de riesgo especial. La determinación de QS debe realizarse confor-\nme a lo establecido en el anexo I del RSCIEI. Los locales cuya carga de fuego total ponderada y corregida (QT),calculada se-\ngún el anexo I del RSCIEI, sea igual o superior a 3 x 106 MJ se considerarán zonas de uso Almacén.\nTabla 2.2 Condiciones de las zonas de riesgo especial integradas en edificios(1)",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "RSCIEI",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0015.png",
+  "../figura/p0016.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0040",
+  "a0041"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

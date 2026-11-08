@@ -1,0 +1,218 @@
+{
+ "documento": null,
+ "pagina": 91,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-86",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    182.8,
+    80.1,
+    186.6,
+    100.5
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    150.1,
+    73.7,
+    186.6,
+    100.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    90.6,
+    73.7,
+    178.4,
+    99.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\nB",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    97.3,
+    74.9,
+    539.1,
+    99.0
+   ],
+   "tipo": "texto",
+   "texto": "e\n6\n1\nB\nV\nmax\n     (6.20)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.9,
+    107.9,
+    539.1,
+    132.0
+   ],
+   "tipo": "texto",
+   "texto": "Si e = 0,\nB\nV\n\n\n     (6.21)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.9,
+    137.7,
+    539.1,
+    162.0
+   ],
+   "tipo": "texto",
+   "texto": "Si\n0\ny\nB\nV\n·\n2\n,\n6\nB\ne\nmín\nmáx\n\n\n\n\n     (6.22)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    88.9,
+    175.2,
+    128.1,
+    193.0
+   ],
+   "tipo": "texto",
+   "texto": "Si e > 6",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    121.8,
+    168.8,
+    541.3,
+    185.2
+   ],
+   "tipo": "texto",
+   "texto": "B se produciría el despegue de uno de los bordes, aumentando notablemente la tensión en",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    194.4,
+    140.0,
+    218.9
+   ],
+   "tipo": "texto",
+   "texto": "otro borde.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    473.2,
+    541.3,
+    560.8
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.16. Estabilidad al vuelco\n3\nLa estabilidad al vuelco se verificará con los criterios definidos en el capítulo 2, comparando los\nmomentos de cálculo desestabilizantes y estabilizantes respecto de la arista exterior de la base de\nla zapata.\n4\nNo se tendrá en cuenta el efecto estabilizador del empuje pasivo, salvo justificación especial.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    572.3,
+    265.5,
+    582.2
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3.2.4 Capacidad estructural del muro",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    587.8,
+    541.3,
+    646.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEste estado límite se alcanzará cuando los valores de cálculo de los efectos de las acciones en los\nelementos estructurales que componen el muro superen el valor de cálculo de su capacidad resis-\ntente.\n2\nLa verificación de este estado límite se hará de acuerdo con el apartado 2.4.2.4. En el apartado\n6.3.3.3  se indican los criterios para el dimensionado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    658.2,
+    178.0,
+    668.2
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3.3 Dimensionado",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    673.8,
+    541.3,
+    770.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl material constitutivo del muro debe poder resistir las tensiones derivadas de los empujes y solici-\ntaciones exteriores. El cálculo de secciones se hará análogamente a lo especificado para la verifi-\ncación de la capacidad estructural de la cimentación en el capítulo 2.\n2\nLos esfuerzos y deformaciones del muro, el terreno y de los elementos de sujeción se calcularán\nconsiderando los valores representativos de las acciones y los valores característicos de los pará-\nmetros del terreno.\n3\nEn muros de urbanización, se deben incluir las acciones o reacciones que pueden darse debidas a\nlos elementos conectados a los mismos.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

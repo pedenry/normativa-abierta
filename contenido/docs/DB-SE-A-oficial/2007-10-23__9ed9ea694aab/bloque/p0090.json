@@ -1,0 +1,833 @@
+{
+ "documento": null,
+ "pagina": 90,
+ "etiqueta_impresa": "90",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-88",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    105.8,
+    94.3,
+    164.3,
+    102.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Rd\n,\nwp\nEd\n,\nwp",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    116.2,
+    79.3,
+    154.7,
+    87.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Rd\nEd",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    98.8,
+    89.1,
+    144.7,
+    100.2
+   ],
+   "tipo": "texto",
+   "texto": "V\nV",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    107.7,
+    74.1,
+    145.6,
+    85.2
+   ],
+   "tipo": "texto",
+   "texto": "M\nM",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    129.1,
+    88.1,
+    134.6,
+    100.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    129.1,
+    73.1,
+    134.6,
+    85.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    167.8,
+    82.1,
+    541.0,
+    93.3
+   ],
+   "tipo": "texto",
+   "texto": "(8.58)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.8,
+    110.4,
+    129.1,
+    121.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    96.8,
+    127.8,
+    364.4,
+    139.8
+   ],
+   "tipo": "texto",
+   "texto": "MRd\nmomento resistente de cálculo de la unión viga pilar;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    96.8,
+    145.4,
+    263.8,
+    157.3
+   ],
+   "tipo": "texto",
+   "texto": "MEd\nmomento de cálculo aplicado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    96.8,
+    162.9,
+    343.9,
+    174.8
+   ],
+   "tipo": "texto",
+   "texto": "Vwp,Rd resistencia a cortante de nudo del alma del pilar",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.8,
+    180.3,
+    333.3,
+    192.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vwp,Ed cortante de nudo aplicado en el alma del pilar",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    74.1,
+    197.9,
+    541.4,
+    243.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa capacidad resistente a momento depende de la resistencia de los componentes de la unión, que\nse agrupan en tres zonas críticas: de tracción, de compresión y de cortante. El momento resistente\nde cálculo será la suma de los valores de cálculo de las resistencias eficaces de cada fila de torni-\nllos traccionados, por su distancia al centro de la zona de compresión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    74.1,
+    249.8,
+    541.4,
+    295.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn el caso de que la resistencia eficaz de la zona de compresión resultase menor a la suma de las\nresistencias eficaces de las filas de tornillos traccionados, en la determinación de la capacidad re-\nsistente se considerará reducida la resistencia eficaz de los tornillos en la proporción precisa para\nno superarla.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.1,
+    301.8,
+    541.4,
+    359.1
+   ],
+   "tipo": "texto",
+   "texto": "4\nEl esfuerzo cortante de nudo en el alma del pilar se obtiene considerando aisladamente dicha re-\ngión del alma, y equilibrando a través de ésta tanto cortantes como diferencias en esfuerzos nor-\nmales de las piezas que acometen al nudo, en sus valores correspondientes al recuadro que encie-\nrra al nudo, definido por los ejes de las almas de tales piezas. En el caso de igual canto y solución\nde nudo en ambas vigas (fig. 8.20) la expresión resultante es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    242.6,
+    382.0,
+    248.2,
+    393.1
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    215.1,
+    366.2,
+    256.8,
+    377.3
+   ],
+   "tipo": "texto",
+   "texto": "V\nV",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    168.2,
+    382.0,
+    173.2,
+    393.1
+   ],
+   "tipo": "texto",
+   "texto": "z",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    98.8,
+    366.2,
+    274.5,
+    387.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "M\nM\nV\nEd\n,\n2\nc\nEd\n,1\nc\nEd\n,\n2\nb\nEd\n,1\nb\nEd\n,\nwp",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    129.3,
+    365.2,
+    541.0,
+    385.3
+   ],
+   "tipo": "texto",
+   "texto": "−\n−\n−\n=\n(8.59)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    96.8,
+    399.3,
+    397.4,
+    410.5
+   ],
+   "tipo": "texto",
+   "texto": "con los significados y signos positivos definidos en la citada figura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    96.8,
+    416.9,
+    363.5,
+    428.1
+   ],
+   "tipo": "texto",
+   "texto": "z  es el brazo de palanca global correspondiente a la unión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    177.8,
+    647.4,
+    437.4,
+    657.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.20 Unión (soldada o atornillada) y cortante de nudo",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    74.1,
+    681.2,
+    514.9,
+    693.2
+   ],
+   "tipo": "texto",
+   "texto": "5\nLa capacidad resistente frente a esfuerzo cortante del alma, no rigidizada, del pilar, Vwp.Rd es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    157.5,
+    720.8,
+    166.7,
+    728.3
+   ],
+   "tipo": "texto",
+   "texto": "0\nM",
+   "tamano": 6.8,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    104.7,
+    704.6,
+    169.4,
+    726.5
+   ],
+   "tipo": "texto",
+   "texto": "vc\ny\nRd\n.\nwp\n3",
+   "tamano": 9.6,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    98.7,
+    699.7,
+    161.9,
+    717.8
+   ],
+   "tipo": "texto",
+   "texto": "A\nf\n9,0\nV",
+   "tamano": 9.6,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    126.4,
+    706.2,
+    544.3,
+    726.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γ\n=\n(8.60)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 30,
+   "bbox": [
+    176.3,
+    472.6,
+    198.7,
+    481.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nj,c2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 31,
+   "bbox": [
+    192.8,
+    484.6,
+    216.1,
+    493.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Mj,c2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 32,
+   "bbox": [
+    102.8,
+    528.1,
+    257.7,
+    543.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nj,b1,Ed\nNj,b2,Ed",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 33,
+   "bbox": [
+    174.8,
+    580.6,
+    197.2,
+    589.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nj,c1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 34,
+   "bbox": [
+    189.8,
+    570.1,
+    213.1,
+    579.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Mj,c1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 35,
+   "bbox": [
+    125.3,
+    514.6,
+    237.3,
+    527.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Mj,b1,Ed\nMj,b2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 36,
+   "bbox": [
+    200.3,
+    497.4,
+    222.2,
+    506.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vj,c2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 37,
+   "bbox": [
+    194.3,
+    559.6,
+    216.2,
+    568.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vj,c1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 38,
+   "bbox": [
+    130.6,
+    539.4,
+    233.8,
+    549.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vj,b2,Ed\nVj,b1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 39,
+   "bbox": [
+    420.8,
+    529.6,
+    440.9,
+    538.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nb1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 40,
+   "bbox": [
+    402.8,
+    516.9,
+    423.8,
+    526.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Mb1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 41,
+   "bbox": [
+    398.3,
+    540.9,
+    418.0,
+    550.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vb1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 42,
+   "bbox": [
+    268.6,
+    528.1,
+    288.7,
+    537.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nb2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 43,
+   "bbox": [
+    290.3,
+    516.1,
+    311.3,
+    525.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Mb2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 44,
+   "bbox": [
+    297.1,
+    539.4,
+    316.8,
+    548.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vb2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 45,
+   "bbox": [
+    348.1,
+    456.1,
+    367.9,
+    465.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nc2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 46,
+   "bbox": [
+    381.1,
+    477.1,
+    401.8,
+    486.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Mc2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 47,
+   "bbox": [
+    383.3,
+    489.9,
+    402.7,
+    499.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vc2,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 48,
+   "bbox": [
+    382.6,
+    572.4,
+    403.3,
+    581.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Mc1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 49,
+   "bbox": [
+    384.1,
+    560.4,
+    403.5,
+    569.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vc1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 50,
+   "bbox": [
+    381.8,
+    586.6,
+    401.6,
+    595.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nc1,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 51,
+   "bbox": [
+    462.8,
+    490.6,
+    483.4,
+    499.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vwp,Ed",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 52,
+   "bbox": [
+    504.1,
+    525.9,
+    538.9,
+    535.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Vwp,Ed z/zc",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 53,
+   "bbox": [
+    355.6,
+    434.4,
+    363.5,
+    443.7
+   ],
+   "tipo": "texto",
+   "texto": "zc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 54,
+   "bbox": [
+    441.8,
+    517.6,
+    447.2,
+    526.9
+   ],
+   "tipo": "texto",
+   "texto": "z",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 55,
+   "bbox": [
+    472.6,
+    466.6,
+    480.5,
+    475.9
+   ],
+   "tipo": "texto",
+   "texto": "zc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 56,
+   "bbox": [
+    112.6,
+    611.4,
+    202.0,
+    631.8
+   ],
+   "tipo": "texto",
+   "texto": "a) esfuerzos referidos\n    al centro del nudo",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 57,
+   "bbox": [
+    112.6,
+    635.8,
+    117.9,
+    642.6
+   ],
+   "tipo": "texto",
+   "texto": "a)",
+   "tamano": 6.0,
+   "negrita": false
+  },
+  {
+   "i": 58,
+   "bbox": [
+    279.8,
+    613.5,
+    375.3,
+    634.0
+   ],
+   "tipo": "texto",
+   "texto": "b) esfuerzos referidos\n    a las caras del nudo",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 59,
+   "bbox": [
+    435.1,
+    611.3,
+    515.1,
+    631.7
+   ],
+   "tipo": "texto",
+   "texto": "c) cortante de nudo",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 60,
+   "bbox": [
+    435.1,
+    635.8,
+    440.4,
+    642.5
+   ],
+   "tipo": "texto",
+   "texto": "b)",
+   "tamano": 6.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

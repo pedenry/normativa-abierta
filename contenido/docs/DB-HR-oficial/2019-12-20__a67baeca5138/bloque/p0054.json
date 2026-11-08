@@ -1,0 +1,309 @@
+{
+ "documento": null,
+ "pagina": 54,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    215.0,
+    35.9,
+    396.9,
+    46.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HR - Protección frente al ruido",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    290.7,
+    797.1,
+    323.7,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "HR A-12",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.3,
+    507.0,
+    151.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo\np(t)\nvalor de la presión acústica en el instante t, [Pa];\np0\npresión sonora de referencia, de valor 2·10-5 Pa;\nPara exploraciones de la presión en n puntos discretos se define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    128.4,
+    158.0,
+    139.6,
+    176.7
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 15.5,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    81.8,
+    160.2,
+    135.5,
+    184.1
+   ],
+   "tipo": "texto",
+   "texto": "=\n\n=",
+   "tamano": 11.1,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    131.7,
+    153.3,
+    136.1,
+    161.8
+   ],
+   "tipo": "texto",
+   "texto": "n",
+   "tamano": 7.8,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    128.8,
+    175.5,
+    140.0,
+    184.1
+   ],
+   "tipo": "texto",
+   "texto": "1\ni",
+   "tamano": 7.8,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    72.3,
+    154.4,
+    541.5,
+    182.0
+   ],
+   "tipo": "texto",
+   "texto": "10\n/\nLpi\n10\nn\n1\nlg\n10\nL\n     [dB]\n(A.28)",
+   "tamano": 11.1,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    188.9,
+    541.4,
+    348.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nLpi\nnivel de presión sonora medido en el punto i, [dB].\nCuando las diferencias entre los valores componentes son menores que 4 dB, se puede tomar como\nnivel medio la media aritmética de los niveles componentes.\nNivel sonoro continuo equivalente estandarizado, ponderado A, LeqA,T: Nivel sonoro continuo equi-\nvalente, ponderado A, referido a un tiempo de reverberación de 0,5 s.\nSe define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    72.2,
+    350.2,
+    541.5,
+    375.6
+   ],
+   "tipo": "texto",
+   "texto": "5,0\nT\nlg\n10\nL\nL\neqA\nT\n,\neqA\n\n=\n-\n      [dBA]\n(A.29)",
+   "tamano": 10.2,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    377.9,
+    513.9,
+    472.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nLeqA\nnivel sonoro continuo equivalente, ponderado A, en los períodos establecidos, [dBA];\nT\nvalor medido del tiempo de reverberación, [s].\nNivel sonoro continuo equivalente, ponderado A, LeqA: Viene definido, en dBA, por el valor LeqA.\nPara ruidos de nivel variable en el tiempo se define mediante la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    95.5,
+    486.3,
+    142.9,
+    508.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n=",
+   "tamano": 18.2,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    138.0,
+    480.1,
+    142.4,
+    487.9
+   ],
+   "tipo": "texto",
+   "texto": "T",
+   "tamano": 7.1,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    138.3,
+    506.8,
+    142.2,
+    514.6
+   ],
+   "tipo": "texto",
+   "texto": "0",
+   "tamano": 7.1,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    78.6,
+    487.1,
+    197.0,
+    509.5
+   ],
+   "tipo": "texto",
+   "texto": "10\n/\npA\n)t(\nL\neqA\ndt\n10\nT",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    72.2,
+    484.2,
+    541.5,
+    501.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nlg\n10\nL\n     [dBA]\n(A.30)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    516.2,
+    541.4,
+    622.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nL(t)pA\nnivel de presión sonora, ponderado A, en el instante t, [dBA];\nT\nintervalo temporal considerado, en s.\nCuando los niveles de un ruido, LpAi , se mantienen prácticamente constantes (± 2 dB) en cada intervalo\ntemporal ti ,(T = ∑i ti), se puede usar la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.7,
+    624.9,
+    151.8,
+    646.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n=",
+   "tamano": 18.1,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    144.3,
+    645.2,
+    145.9,
+    653.0
+   ],
+   "tipo": "texto",
+   "texto": "i",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    79.8,
+    627.3,
+    197.8,
+    649.6
+   ],
+   "tipo": "texto",
+   "texto": "i\n10\n/i,\npA\nL\neqA\nt\n10\nT",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    73.4,
+    624.4,
+    541.5,
+    641.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nlg\n10\nL\n     [dBA]\n(A.31)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    70.9,
+    654.0,
+    541.4,
+    734.1
+   ],
+   "tipo": "texto",
+   "texto": "Objetivo de calidad acústica*: Conjunto de requisitos que, en relación con la contaminación acústica,\ndeben cumplirse en un momento dado en un espacio determinado.\nPanel prefabricado pesado: Se consideran elementos prefabricados pesados los paneles de hormigón,\nyeso o cualquier material con características similares.",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    750.7,
+    331.7,
+    771.1
+   ],
+   "tipo": "texto",
+   "texto": "* Definición procedente de la Ley 37/2003 de 17 de noviembre, del Ruido",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

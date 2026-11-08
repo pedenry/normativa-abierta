@@ -1,0 +1,1487 @@
+{
+ "id": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "layer": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+ "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEnCasoDeIncendio.html",
+ "version_label_literal": "MINISTERIO \nDE VIVIENDA \nY AGENDA URBANA  \n \n \n \nDocumento Básico    SI \nSeguridad en caso de incendio \nSI 1 \nPropagación interior \nSI 2 \nPropagación exterior \nSI 3 \nEvacuación de ocupantes \nSI 4 \nInstalaciones de protección contra incendios \nSI 5 \nIntervención de los bomberos \nSI 6 \nResistencia al fuego de la estructura \n \n \n \n \n \n \n \n \n \n \n \n4 marzo 2025",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "version_detectada": {
+  "corta": "2025-03-04",
+  "dir": "2025-03-04__0a2e78cd6247",
+  "tipo": "fecha completa",
+  "literal": "4 marzo 2025",
+  "fuente": "cover_text(fecha completa)",
+  "nota": "fecha detectada en texto literal; conservar portada"
+ },
+ "version_semantic_label": null,
+ "correccion_boe": null,
+ "fecha_comentarios": null,
+ "consolidation_update_date": null,
+ "fecha_notas": null,
+ "version_fuente": "cover_text(fecha completa)",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "pdf_nombre": "DB-SI-oficial-0a2e78cd62.pdf",
+ "paginas_pdf": 92,
+ "paginas_manifiesto": 92,
+ "license_status": "art13 disposicion legal",
+ "license_evidence": null,
+ "creditos": null,
+ "motivo_distribucion": "disposición legal (art. 13 TRLPI)",
+ "normativo": true,
+ "distribute": true,
+ "nota_capa": "",
+ "ambito_literal": {
+  "id_tecnico": "a0009",
+  "ruta_oficial": null,
+  "titulo": "II Ámbito de aplicación",
+  "texto": "II Ámbito de aplicación\nÁmbito de aplicación\nEl ámbito de aplicación de este DB es el que se establece con carácter general para el conjunto del CTE\nen su artículo 2 (Parte I) excluyendo los edificios, establecimientos y zonas de uso industrial a los que les\nsea de aplicación el “Reglamento de seguridad contra incendios en los establecimientos industriales”.\nEl contenido de este DB se refiere únicamente a las exigencias básicas relacionadas con el requisito\nbásico \"Seguridad en caso de incendio\". También deben cumplirse las exigencias básicas de los demás\nrequisitos básicos, lo que se posibilita mediante la aplicación del DB correspondiente a cada uno de\nellos.(1)\nEste CTE no incluye exigencias dirigidas a limitar el riesgo de inicio de incendio relacionado con las ins-\ntalaciones o los almacenamientos regulados por reglamentación específica, debido a que corresponde a\ndicha reglamentación establecer dichas exigencias.\nComo en el conjunto del CTE, el ámbito de aplicación de este DB son las obras de edificación. Por ello,\nlos elementos del entorno del edificio a los que les son de obligada aplicación sus condiciones son úni-\ncamente aquellos que formen parte del proyecto de edificación. Conforme al artículo 2, punto 3 de la ley\n38/1999, de 5 de noviembre, de Ordenación de la Edificación (LOE), se consideran comprendidas en la\nedificación sus instalaciones fijas y el equipamiento propio, así como los elementos de urbanización que\npermanezcan adscritos al edificio."
+ },
+ "toc": [
+  {
+   "nivel": 1,
+   "titulo": "Introducción",
+   "pagina": 3
+  },
+  {
+   "nivel": 2,
+   "titulo": "I Objeto",
+   "pagina": 3
+  },
+  {
+   "nivel": 2,
+   "titulo": "II Ámbito de aplicación",
+   "pagina": 4
+  },
+  {
+   "nivel": 2,
+   "titulo": "III Criterios generales de aplicación",
+   "pagina": 4
+  },
+  {
+   "nivel": 2,
+   "titulo": "IV  Condiciones particulares para el cumplimiento del DB-SI",
+   "pagina": 6
+  },
+  {
+   "nivel": 2,
+   "titulo": "V  Condiciones de comportamiento ante el fuego de los productos de construcción y de los elementos constructivos",
+   "pagina": 6
+  },
+  {
+   "nivel": 2,
+   "titulo": "VI Laboratorios de ensayo",
+   "pagina": 7
+  },
+  {
+   "nivel": 2,
+   "titulo": "VII Terminología",
+   "pagina": 7
+  },
+  {
+   "nivel": 1,
+   "titulo": "Índice",
+   "pagina": 8
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SI 1 Propagación interior",
+   "pagina": 10
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Compartimentación en sectores de incendio",
+   "pagina": 10
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Locales y zonas de riesgo especial",
+   "pagina": 13
+  },
+  {
+   "nivel": 2,
+   "titulo": "3 Espacios ocultos. Paso de instalaciones a través de elementos de compartimentación de incendios",
+   "pagina": 16
+  },
+  {
+   "nivel": 2,
+   "titulo": "4 Reacción al fuego de los elementos constructivos, decorativos y de mobiliario",
+   "pagina": 17
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SI 2 Propagación exterior",
+   "pagina": 19
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Medianerías y fachadas",
+   "pagina": 19
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Cubiertas",
+   "pagina": 20
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SI 3 Evacuación de ocupantes",
+   "pagina": 22
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Compatibilidad de los elementos de evacuación",
+   "pagina": 22
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Cálculo de la ocupación",
+   "pagina": 22
+  },
+  {
+   "nivel": 2,
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "pagina": 24
+  },
+  {
+   "nivel": 2,
+   "titulo": "4 Dimensionado de los medios de evacuación",
+   "pagina": 25
+  },
+  {
+   "nivel": 3,
+   "titulo": "4.1 Criterios para la asignación de los ocupantes",
+   "pagina": 25
+  },
+  {
+   "nivel": 3,
+   "titulo": "4.2 Cálculo",
+   "pagina": 26
+  },
+  {
+   "nivel": 2,
+   "titulo": "5 Protección de las escaleras",
+   "pagina": 28
+  },
+  {
+   "nivel": 2,
+   "titulo": "6 Puertas situadas en recorridos de evacuación",
+   "pagina": 29
+  },
+  {
+   "nivel": 2,
+   "titulo": "7 Señalización de los medios de evacuación",
+   "pagina": 29
+  },
+  {
+   "nivel": 2,
+   "titulo": "8 Control del humo de incendio",
+   "pagina": 30
+  },
+  {
+   "nivel": 2,
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "pagina": 31
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SI 4 Instalaciones de protección contra incendios",
+   "pagina": 32
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Dotación de instalaciones de protección contra incendios",
+   "pagina": 32
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Señalización de las instalaciones manuales de protección contra incendios",
+   "pagina": 35
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SI 5 Intervención de los bomberos",
+   "pagina": 36
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Condiciones de aproximación y entorno( )",
+   "pagina": 36
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.1 Aproximación a los edificios",
+   "pagina": 36
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.2 Entorno de los edificios",
+   "pagina": 36
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Accesibilidad por fachada",
+   "pagina": 37
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SI 6 Resistencia al fuego de la estructura",
+   "pagina": 38
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Generalidades",
+   "pagina": 38
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Resistencia al fuego de la estructura",
+   "pagina": 38
+  },
+  {
+   "nivel": 2,
+   "titulo": "3 Elementos estructurales principales",
+   "pagina": 39
+  },
+  {
+   "nivel": 2,
+   "titulo": "4 Elementos estructurales secundarios",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "5 Determinación de los efectos de las acciones durante el incendio",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "6 Determinación de la resistencia al fuego",
+   "pagina": 41
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo SI A Terminología",
+   "pagina": 42
+  },
+  {
+   "nivel": 2,
+   "titulo": "Altura de evacuación",
+   "pagina": 42
+  },
+  {
+   "nivel": 2,
+   "titulo": "Aparcamiento abierto",
+   "pagina": 42
+  },
+  {
+   "nivel": 2,
+   "titulo": "Ascensor de emergencia",
+   "pagina": 42
+  },
+  {
+   "nivel": 2,
+   "titulo": "Atrio",
+   "pagina": 43
+  },
+  {
+   "nivel": 2,
+   "titulo": "Caja escénica",
+   "pagina": 43
+  },
+  {
+   "nivel": 2,
+   "titulo": "Carga de fuego",
+   "pagina": 43
+  },
+  {
+   "nivel": 2,
+   "titulo": "Curva normalizada tiempo-temperatura",
+   "pagina": 43
+  },
+  {
+   "nivel": 2,
+   "titulo": "Curvas tiempo-temperatura",
+   "pagina": 43
+  },
+  {
+   "nivel": 2,
+   "titulo": "Densidad de carga de fuego",
+   "pagina": 44
+  },
+  {
+   "nivel": 2,
+   "titulo": "Densidad de carga de fuego de cálculo",
+   "pagina": 44
+  },
+  {
+   "nivel": 2,
+   "titulo": "Escalera abierta al exterior",
+   "pagina": 44
+  },
+  {
+   "nivel": 2,
+   "titulo": "Escalera especialmente protegida",
+   "pagina": 44
+  },
+  {
+   "nivel": 2,
+   "titulo": "Escalera protegida",
+   "pagina": 44
+  },
+  {
+   "nivel": 2,
+   "titulo": "Espacio exterior seguro",
+   "pagina": 45
+  },
+  {
+   "nivel": 2,
+   "titulo": "Establecimiento",
+   "pagina": 45
+  },
+  {
+   "nivel": 2,
+   "titulo": "Fuego de cálculo",
+   "pagina": 45
+  },
+  {
+   "nivel": 2,
+   "titulo": "Fuego totalmente desarrollado",
+   "pagina": 46
+  },
+  {
+   "nivel": 2,
+   "titulo": "Fuego localizado",
+   "pagina": 46
+  },
+  {
+   "nivel": 2,
+   "titulo": "Modelo informático de dinámica de fluidos",
+   "pagina": 46
+  },
+  {
+   "nivel": 2,
+   "titulo": "Origen de evacuación",
+   "pagina": 46
+  },
+  {
+   "nivel": 2,
+   "titulo": "Pasillo protegido",
+   "pagina": 46
+  },
+  {
+   "nivel": 2,
+   "titulo": "Reacción al fuego",
+   "pagina": 46
+  },
+  {
+   "nivel": 2,
+   "titulo": "Recorrido de evacuación",
+   "pagina": 47
+  },
+  {
+   "nivel": 2,
+   "titulo": "Recorridos de evacuación alternativos",
+   "pagina": 48
+  },
+  {
+   "nivel": 2,
+   "titulo": "Resistencia al fuego",
+   "pagina": 48
+  },
+  {
+   "nivel": 2,
+   "titulo": "Salida de edificio",
+   "pagina": 48
+  },
+  {
+   "nivel": 2,
+   "titulo": "Salida de emergencia",
+   "pagina": 48
+  },
+  {
+   "nivel": 2,
+   "titulo": "Salida de planta",
+   "pagina": 48
+  },
+  {
+   "nivel": 2,
+   "titulo": "Sector bajo rasante",
+   "pagina": 48
+  },
+  {
+   "nivel": 2,
+   "titulo": "Sector de incendio",
+   "pagina": 49
+  },
+  {
+   "nivel": 2,
+   "titulo": "Sector de riesgo mínimo",
+   "pagina": 49
+  },
+  {
+   "nivel": 2,
+   "titulo": "Sistema de alarma de incendios",
+   "pagina": 49
+  },
+  {
+   "nivel": 2,
+   "titulo": "Sistema de detección de incendios",
+   "pagina": 49
+  },
+  {
+   "nivel": 2,
+   "titulo": "Sistema de presión diferencial",
+   "pagina": 49
+  },
+  {
+   "nivel": 2,
+   "titulo": "Superficie útil",
+   "pagina": 49
+  },
+  {
+   "nivel": 2,
+   "titulo": "Tiempo equivalente de exposición al fuego",
+   "pagina": 49
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Administrativo",
+   "pagina": 50
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Almacén",
+   "pagina": 50
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Aparcamiento",
+   "pagina": 50
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Comercial",
+   "pagina": 50
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Docente",
+   "pagina": 50
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Hospitalario",
+   "pagina": 51
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Residencial Público",
+   "pagina": 51
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Residencial Vivienda",
+   "pagina": 51
+  },
+  {
+   "nivel": 2,
+   "titulo": "Ventilación forzada",
+   "pagina": 51
+  },
+  {
+   "nivel": 2,
+   "titulo": "Ventilación natural",
+   "pagina": 51
+  },
+  {
+   "nivel": 2,
+   "titulo": "Vestíbulo de independencia",
+   "pagina": 51
+  },
+  {
+   "nivel": 2,
+   "titulo": "Zona de ocupación nula",
+   "pagina": 52
+  },
+  {
+   "nivel": 2,
+   "titulo": "Zona de refugio",
+   "pagina": 52
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo B Tiempo equivalente de exposición al fuego",
+   "pagina": 53
+  },
+  {
+   "nivel": 2,
+   "titulo": "B.1 Generalidades",
+   "pagina": 53
+  },
+  {
+   "nivel": 2,
+   "titulo": "B.2 Curva normalizada tiempo – temperatura",
+   "pagina": 53
+  },
+  {
+   "nivel": 2,
+   "titulo": "B.3 Tiempo equivalente de exposición al fuego",
+   "pagina": 53
+  },
+  {
+   "nivel": 2,
+   "titulo": "B.4 Valor de cálculo de la densidad de carga de fuego",
+   "pagina": 55
+  },
+  {
+   "nivel": 2,
+   "titulo": "B.5 Valor característico de la densidad de carga de fuego( )",
+   "pagina": 56
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "pagina": 57
+  },
+  {
+   "nivel": 2,
+   "titulo": "C.1  Generalidades",
+   "pagina": 57
+  },
+  {
+   "nivel": 2,
+   "titulo": "C.2  Tablas",
+   "pagina": 57
+  },
+  {
+   "nivel": 3,
+   "titulo": "C.2.1 Generalidades",
+   "pagina": 57
+  },
+  {
+   "nivel": 3,
+   "titulo": "C.2.2 Soportes y muros",
+   "pagina": 58
+  },
+  {
+   "nivel": 3,
+   "titulo": "C.2.3 Vigas",
+   "pagina": 58
+  },
+  {
+   "nivel": 4,
+   "titulo": "C.2.3.1 Vigas con las tres caras expuestas al fuego",
+   "pagina": 59
+  },
+  {
+   "nivel": 4,
+   "titulo": "C.2.3.2 Vigas expuestas en todas sus caras",
+   "pagina": 59
+  },
+  {
+   "nivel": 4,
+   "titulo": "C.2.3.3 Losas macizas",
+   "pagina": 59
+  },
+  {
+   "nivel": 4,
+   "titulo": "C.2.3.4 Forjados bidireccionales",
+   "pagina": 60
+  },
+  {
+   "nivel": 4,
+   "titulo": "C.2.3.5 Forjados unidireccionales",
+   "pagina": 60
+  },
+  {
+   "nivel": 3,
+   "titulo": "C.2.4 Capas protectoras",
+   "pagina": 61
+  },
+  {
+   "nivel": 2,
+   "titulo": "C.3  Método simplificado de la isoterma 500",
+   "pagina": 61
+  },
+  {
+   "nivel": 3,
+   "titulo": "C.3.1 Campo de aplicación",
+   "pagina": 61
+  },
+  {
+   "nivel": 3,
+   "titulo": "C.3.2 Determinación de la capacidad resistente de cálculo de la sección transversal",
+   "pagina": 61
+  },
+  {
+   "nivel": 3,
+   "titulo": "C.3.3 Reducción de las características mecánicas",
+   "pagina": 62
+  },
+  {
+   "nivel": 3,
+   "titulo": "C.3.4 Isotermas",
+   "pagina": 62
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo D Resistencia al fuego de los elementos de acero",
+   "pagina": 69
+  },
+  {
+   "nivel": 2,
+   "titulo": "D.1 Generalidades",
+   "pagina": 69
+  },
+  {
+   "nivel": 2,
+   "titulo": "D.2 Método simplificado de cálculo",
+   "pagina": 69
+  },
+  {
+   "nivel": 3,
+   "titulo": "D.2.1 Vigas y tirantes",
+   "pagina": 69
+  },
+  {
+   "nivel": 3,
+   "titulo": "D.2.2 Soportes",
+   "pagina": 70
+  },
+  {
+   "nivel": 4,
+   "titulo": "D.2.2.1 Soportes de estructuras arriostradas",
+   "pagina": 70
+  },
+  {
+   "nivel": 3,
+   "titulo": "D.2.3 Determinación de la temperatura del acero",
+   "pagina": 71
+  },
+  {
+   "nivel": 2,
+   "titulo": "D.3 Conexiones",
+   "pagina": 72
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+   "pagina": 73
+  },
+  {
+   "nivel": 2,
+   "titulo": "E.1 Generalidades",
+   "pagina": 73
+  },
+  {
+   "nivel": 2,
+   "titulo": "E.2 Método de la sección reducida",
+   "pagina": 73
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.2.1 Generalidades",
+   "pagina": 73
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.2.2 Profundidad carbonizada",
+   "pagina": 74
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.2.3 Velocidad de carbonización nominal de cálculo",
+   "pagina": 74
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.2.3.1 Madera sin protección",
+   "pagina": 74
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.2.3.2 Madera con protección",
+   "pagina": 75
+  },
+  {
+   "nivel": 2,
+   "titulo": "E.3 Reglas simplificadas para el análisis de elementos estructurales",
+   "pagina": 78
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.3.1 Generalidades",
+   "pagina": 78
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.3.2 Vigas",
+   "pagina": 78
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.3.3 Soportes",
+   "pagina": 78
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.3.4 Elementos compuestos con uniones mecánicas",
+   "pagina": 78
+  },
+  {
+   "nivel": 2,
+   "titulo": "E.4 Uniones",
+   "pagina": 79
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.4.1 Generalidades",
+   "pagina": 79
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.4.2 Uniones con piezas laterales de madera",
+   "pagina": 79
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.4.2.1 Uniones no protegidas",
+   "pagina": 79
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.4.2.2 Uniones protegidas",
+   "pagina": 80
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.4.2.3 Reglas complementarias para uniones con placas de acero en el interior",
+   "pagina": 81
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.4.3 Uniones con placas de acero al exterior",
+   "pagina": 81
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.4.3.1 Uniones no protegidas",
+   "pagina": 81
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.4.3.2 Uniones protegidas",
+   "pagina": 82
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.4.4 Tirafondos sometidos a carga axial",
+   "pagina": 82
+  },
+  {
+   "nivel": 2,
+   "titulo": "E.5 Disposiciones constructivas",
+   "pagina": 83
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.5.1 Muros y forjados",
+   "pagina": 83
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.5.1.1 Dimensiones y separaciones",
+   "pagina": 83
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.5.1.2 Detalles de las uniones de los tableros",
+   "pagina": 83
+  },
+  {
+   "nivel": 4,
+   "titulo": "E.5.1.3 Aislamiento",
+   "pagina": 83
+  },
+  {
+   "nivel": 3,
+   "titulo": "E.5.2 Otros elementos",
+   "pagina": 83
+  },
+  {
+   "nivel": 2,
+   "titulo": "E.6 Adhesivos",
+   "pagina": 84
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo F Resistencia al fuego de los elementos de fábrica",
+   "pagina": 85
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo SI G Normas relacionadas con la aplicación del DB SI",
+   "pagina": 86
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Reacción al fuego",
+   "pagina": 86
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Resistencia al fuego",
+   "pagina": 87
+  },
+  {
+   "nivel": 2,
+   "titulo": "3 Instalaciones para control del humo y del calor",
+   "pagina": 91
+  },
+  {
+   "nivel": 2,
+   "titulo": "4 Puertas, herrajes y dispositivos de apertura",
+   "pagina": 91
+  },
+  {
+   "nivel": 2,
+   "titulo": "5 Señalización",
+   "pagina": 92
+  },
+  {
+   "nivel": 2,
+   "titulo": "6 Otras materias",
+   "pagina": 92
+  }
+ ],
+ "metodo_segmentacion": "toc+lineas",
+ "cobertura_caracteres_apartados": 0.975,
+ "referencias_globales": [
+  "Apartado 3",
+  "Artículo 11",
+  "DB\nse",
+  "DB HS-3",
+  "DB SE-M",
+  "DB SI",
+  "DB SI\n86",
+  "DB SI\n87",
+  "DB SI\n88",
+  "DB SI\n89",
+  "DB SI\n90",
+  "DB SI\n91",
+  "DB SI\n92",
+  "DB SUA",
+  "DB SUA 1",
+  "DB se",
+  "DB-SE",
+  "DB-SE-A",
+  "DB-SE-M",
+  "DB-SI",
+  "DB-SI\n1",
+  "DB-SUA 1",
+  "DB-SUA 7",
+  "DBSI",
+  "EN 12101",
+  "RD 1027/2007",
+  "RITE",
+  "RSCIEI",
+  "Real Decreto\n411/1997",
+  "Real Decreto 1072/2015",
+  "Real Decreto 1371/2007",
+  "Real Decreto 164/2025",
+  "Real Decreto 1715/2010",
+  "Real Decreto 173/2010",
+  "Real Decreto 2200/1995",
+  "Real Decreto 239/2013",
+  "Real Decreto 314/2006",
+  "Real Decreto 338/2010",
+  "Real Decreto 513/2017",
+  "Real Decreto 732/2019",
+  "Real Decreto 842/2013",
+  "UNE\n23035-2",
+  "UNE\n23585",
+  "UNE\nEN",
+  "UNE 23034",
+  "UNE 23035",
+  "UNE 23035-1",
+  "UNE 23035-2",
+  "UNE 23035-3",
+  "UNE 23035-4",
+  "UNE 23584",
+  "UNE 23585",
+  "UNE 85121",
+  "UNE EN",
+  "UNE-CEN",
+  "UNE-EN",
+  "UNE-EN15269-11",
+  "UNE-ENV",
+  "apartado 1.1",
+  "apartado 1.2",
+  "apartado 2",
+  "apartado 3",
+  "apartado 4.1",
+  "apartado 4.2",
+  "apartado 4.2.2",
+  "apartado 6",
+  "artículo 11",
+  "artículo 2",
+  "artículo 5",
+  "en 160"
+ ],
+ "tablas_por_pagina": {
+  "54": [
+   {
+    "indice": 1,
+    "filas": 5,
+    "columnas": 18
+   }
+  ],
+  "60": [
+   {
+    "indice": 1,
+    "filas": 7,
+    "columnas": 4
+   }
+  ],
+  "70": [
+   {
+    "indice": 1,
+    "filas": 44,
+    "columnas": 5
+   }
+  ],
+  "74": [
+   {
+    "indice": 1,
+    "filas": 2,
+    "columnas": 2
+   }
+  ],
+  "75": [
+   {
+    "indice": 1,
+    "filas": 1,
+    "columnas": 2
+   }
+  ]
+ },
+ "figuras": [
+  {
+   "pagina": 1,
+   "motivos": [
+    "dibujos:22",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0001.png"
+  },
+  {
+   "pagina": 3,
+   "motivos": [
+    "dibujos:14"
+   ],
+   "archivo": "figura/p0003.png"
+  },
+  {
+   "pagina": 4,
+   "motivos": [
+    "dibujos:15"
+   ],
+   "archivo": "figura/p0004.png"
+  },
+  {
+   "pagina": 10,
+   "motivos": [
+    "dibujos:12"
+   ],
+   "archivo": "figura/p0010.png"
+  },
+  {
+   "pagina": 11,
+   "motivos": [
+    "dibujos:23"
+   ],
+   "archivo": "figura/p0011.png"
+  },
+  {
+   "pagina": 12,
+   "motivos": [
+    "dibujos:15"
+   ],
+   "archivo": "figura/p0012.png"
+  },
+  {
+   "pagina": 13,
+   "motivos": [
+    "dibujos:32",
+    "formulas"
+   ],
+   "archivo": "figura/p0013.png"
+  },
+  {
+   "pagina": 14,
+   "motivos": [
+    "dibujos:26",
+    "formulas"
+   ],
+   "archivo": "figura/p0014.png"
+  },
+  {
+   "pagina": 15,
+   "motivos": [
+    "dibujos:39",
+    "formulas"
+   ],
+   "archivo": "figura/p0015.png"
+  },
+  {
+   "pagina": 16,
+   "motivos": [
+    "dibujos:54"
+   ],
+   "archivo": "figura/p0016.png"
+  },
+  {
+   "pagina": 17,
+   "motivos": [
+    "dibujos:35"
+   ],
+   "archivo": "figura/p0017.png"
+  },
+  {
+   "pagina": 19,
+   "motivos": [
+    "dibujos:41",
+    "imagen_incrustada",
+    "formulas"
+   ],
+   "archivo": "figura/p0019.png"
+  },
+  {
+   "pagina": 20,
+   "motivos": [
+    "dibujos:253",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0020.png"
+  },
+  {
+   "pagina": 21,
+   "motivos": [
+    "dibujos:276",
+    "formulas"
+   ],
+   "archivo": "figura/p0021.png"
+  },
+  {
+   "pagina": 22,
+   "motivos": [
+    "dibujos:17"
+   ],
+   "archivo": "figura/p0022.png"
+  },
+  {
+   "pagina": 23,
+   "motivos": [
+    "dibujos:42"
+   ],
+   "archivo": "figura/p0023.png"
+  },
+  {
+   "pagina": 24,
+   "motivos": [
+    "dibujos:22"
+   ],
+   "archivo": "figura/p0024.png"
+  },
+  {
+   "pagina": 25,
+   "motivos": [
+    "dibujos:13"
+   ],
+   "archivo": "figura/p0025.png"
+  },
+  {
+   "pagina": 26,
+   "motivos": [
+    "dibujos:27",
+    "formulas"
+   ],
+   "archivo": "figura/p0026.png"
+  },
+  {
+   "pagina": 27,
+   "motivos": [
+    "dibujos:44"
+   ],
+   "archivo": "figura/p0027.png"
+  },
+  {
+   "pagina": 28,
+   "motivos": [
+    "dibujos:76",
+    "formulas"
+   ],
+   "archivo": "figura/p0028.png"
+  },
+  {
+   "pagina": 29,
+   "motivos": [
+    "formulas"
+   ],
+   "archivo": "figura/p0029.png"
+  },
+  {
+   "pagina": 32,
+   "motivos": [
+    "dibujos:8"
+   ],
+   "archivo": "figura/p0032.png"
+  },
+  {
+   "pagina": 33,
+   "motivos": [
+    "dibujos:14"
+   ],
+   "archivo": "figura/p0033.png"
+  },
+  {
+   "pagina": 34,
+   "motivos": [
+    "dibujos:14"
+   ],
+   "archivo": "figura/p0034.png"
+  },
+  {
+   "pagina": 35,
+   "motivos": [
+    "dibujos:6"
+   ],
+   "archivo": "figura/p0035.png"
+  },
+  {
+   "pagina": 36,
+   "motivos": [
+    "dibujos:3"
+   ],
+   "archivo": "figura/p0036.png"
+  },
+  {
+   "pagina": 39,
+   "motivos": [
+    "dibujos:27",
+    "formulas"
+   ],
+   "archivo": "figura/p0039.png"
+  },
+  {
+   "pagina": 40,
+   "motivos": [
+    "dibujos:3",
+    "formulas"
+   ],
+   "archivo": "figura/p0040.png"
+  },
+  {
+   "pagina": 41,
+   "motivos": [
+    "dibujos:3",
+    "formulas"
+   ],
+   "archivo": "figura/p0041.png"
+  },
+  {
+   "pagina": 47,
+   "motivos": [
+    "dibujos:28"
+   ],
+   "archivo": "figura/p0047.png"
+  },
+  {
+   "pagina": 54,
+   "motivos": [
+    "tablas",
+    "dibujos:47",
+    "formulas"
+   ],
+   "archivo": "figura/p0054.png"
+  },
+  {
+   "pagina": 55,
+   "motivos": [
+    "dibujos:20"
+   ],
+   "archivo": "figura/p0055.png"
+  },
+  {
+   "pagina": 56,
+   "motivos": [
+    "dibujos:36"
+   ],
+   "archivo": "figura/p0056.png"
+  },
+  {
+   "pagina": 57,
+   "motivos": [
+    "dibujos:44",
+    "formulas"
+   ],
+   "archivo": "figura/p0057.png"
+  },
+  {
+   "pagina": 58,
+   "motivos": [
+    "dibujos:28",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0058.png"
+  },
+  {
+   "pagina": 59,
+   "motivos": [
+    "dibujos:44"
+   ],
+   "archivo": "figura/p0059.png"
+  },
+  {
+   "pagina": 60,
+   "motivos": [
+    "tablas",
+    "dibujos:44"
+   ],
+   "archivo": "figura/p0060.png"
+  },
+  {
+   "pagina": 61,
+   "motivos": [
+    "dibujos:35"
+   ],
+   "archivo": "figura/p0061.png"
+  },
+  {
+   "pagina": 62,
+   "motivos": [
+    "dibujos:100"
+   ],
+   "archivo": "figura/p0062.png"
+  },
+  {
+   "pagina": 63,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0063.png"
+  },
+  {
+   "pagina": 64,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0064.png"
+  },
+  {
+   "pagina": 65,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0065.png"
+  },
+  {
+   "pagina": 66,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0066.png"
+  },
+  {
+   "pagina": 67,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0067.png"
+  },
+  {
+   "pagina": 68,
+   "motivos": [
+    "imagen_incrustada",
+    "formulas"
+   ],
+   "archivo": "figura/p0068.png"
+  },
+  {
+   "pagina": 70,
+   "motivos": [
+    "tablas",
+    "dibujos:663"
+   ],
+   "archivo": "figura/p0070.png"
+  },
+  {
+   "pagina": 71,
+   "motivos": [
+    "dibujos:72",
+    "formulas"
+   ],
+   "archivo": "figura/p0071.png"
+  },
+  {
+   "pagina": 72,
+   "motivos": [
+    "dibujos:6",
+    "formulas"
+   ],
+   "archivo": "figura/p0072.png"
+  },
+  {
+   "pagina": 73,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0073.png"
+  },
+  {
+   "pagina": 74,
+   "motivos": [
+    "tablas",
+    "dibujos:13"
+   ],
+   "archivo": "figura/p0074.png"
+  },
+  {
+   "pagina": 75,
+   "motivos": [
+    "tablas",
+    "dibujos:20"
+   ],
+   "archivo": "figura/p0075.png"
+  },
+  {
+   "pagina": 76,
+   "motivos": [
+    "dibujos:28",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0076.png"
+  },
+  {
+   "pagina": 77,
+   "motivos": [
+    "dibujos:9",
+    "formulas"
+   ],
+   "archivo": "figura/p0077.png"
+  },
+  {
+   "pagina": 79,
+   "motivos": [
+    "dibujos:27"
+   ],
+   "archivo": "figura/p0079.png"
+  },
+  {
+   "pagina": 80,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0080.png"
+  },
+  {
+   "pagina": 81,
+   "motivos": [
+    "dibujos:22",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0081.png"
+  },
+  {
+   "pagina": 82,
+   "motivos": [
+    "dibujos:4",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0082.png"
+  },
+  {
+   "pagina": 83,
+   "motivos": [
+    "dibujos:4"
+   ],
+   "archivo": "figura/p0083.png"
+  },
+  {
+   "pagina": 84,
+   "motivos": [
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0084.png"
+  },
+  {
+   "pagina": 85,
+   "motivos": [
+    "dibujos:167",
+    "formulas"
+   ],
+   "archivo": "figura/p0085.png"
+  }
+ ],
+ "formulas": {
+  "paginas": [
+   13,
+   14,
+   15,
+   19,
+   21,
+   26,
+   28,
+   29,
+   39,
+   40,
+   41,
+   54,
+   57,
+   68,
+   71,
+   72,
+   77,
+   85
+  ],
+  "nota": "Texto de fórmulas extraído automáticamente: pendiente de verificación; consulte la imagen completa de la página. No se genera LaTeX."
+ },
+ "procedencia": {
+  "tipo": "PDF descargado del portal/BOE",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "pdf_nombre": "DB-SI-oficial-0a2e78cd62.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEnCasoDeIncendio.html",
+  "copia_fiel": "fuente.pdf",
+  "nota": "Consérvese la URL oficial para versiones mutables."
+ },
+ "corpus_propio": true,
+ "conteos": {
+  "paginas": 92,
+  "apartados": 239,
+  "bloques": 2105,
+  "tablas": 5,
+  "figuras": 61,
+  "paginas_png": 61,
+  "caracteres": 229796
+ },
+ "figuras_nota": "'figuras'/'paginas_png' cuentan páginas PNG renderizadas (no el número de figuras normativas).",
+ "tablas_pendientes_geometria": [],
+ "paginas_grafico_sin_celdas": [],
+ "nota_fallback_grafico": "Páginas gráficas de contexto escaso: sin enumeración de trazos ni tabla; PNG y PDF obligatorios; no son tablas validadas.",
+ "umbral_segmentos_tablas": 2000,
+ "metodo_tablas": "find_tables(use_layout=False, refine=True); guardián de segmentos antes de intentar celdas",
+ "segmentation_version": 2,
+ "advertencias": [
+  "Extracción automática; el cotejo humano está pendiente.",
+  "Semántica y tablas no equivalen a validación exhaustiva."
+ ],
+ "generado_por": "build.py",
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo",
+ "nota_segmentacion": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

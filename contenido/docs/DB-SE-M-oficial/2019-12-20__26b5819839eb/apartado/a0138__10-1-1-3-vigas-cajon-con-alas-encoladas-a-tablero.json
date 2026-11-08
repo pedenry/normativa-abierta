@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0138",
+  "ruta_oficial": "10.1.1.3",
+  "ruta_semantica": "10.1.1.3  Vigas cajón con alas encoladas a tablero",
+  "titulo": "10.1.1.3  Vigas cajón con alas encoladas a tablero",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.1.1.3  Vigas cajón con alas encoladas a tablero",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 79,
+   "bbox": [
+    70.9,
+    374.5,
+    310.0,
+    384.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "249587dbf7a20a00f51a1d166b1327dd18104777e3ba2946f97a1962f1233fa2",
+   "literal": "10.1.1.3  Vigas cajón con alas encoladas a tablero"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0160",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.1.1.3  Vigas cajón con alas encoladas a tablero",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.1.1  Vigas mixtas de madera y tablero encoladas 10.1.1.1  Principios generales / 10.1.1.3  Vigas cajón con alas encoladas a tablero",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c5e02e4d2c2ae4d91ff8ab3f20a37d3daaf42ddf62051565a6e9af887e5d226c"
+ },
+ "paginas": [
+  79,
+  80,
+  81
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  "3"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "10.1.1.3  Vigas cajón con alas encoladas a tablero\n1\nEste tipo de vigas están formadas por almas de madera aserrada, madera laminada encolada o mi-\ncrolaminada y alas de tableros.\n2\nPara el cálculo se descomponen en secciones eficaces en I (doble T) y en U (véase figura 10.2).\n3\nDebe tenerse en consideración la distribución no uniforme de tensiones normales en las alas debi-\ndas al retraso por cortante y a la abolladura. A tal fin se considerará, según se expone más adelante,\nun ancho eficaz o equivalente del tablero (bef).\nFigura 10.2 Viga cajón de alas delgadas\na) Anchura eficaz de las alas bef:\n\nDocumentoBásico SE-M Madera\nSE-M 74\ni)\ncomo modelo de análisis propuesto, el conjunto debe considerarse como una serie de vigas\ncon sección en I o en U, figura 10.2, con una anchura eficaz de las alas bef que debe cumplir\nlas condiciones siguientes:\n\nen secciones en I (interiores):\nbef = bc,ef + bw\nala comprimida\n(10.17)\nbef = bt,ef + bw\nala traccionada\n(10.18)\n\nen secciones en U (extremos):\nbef = 0,5·bc,ef + bw\nala comprimida\n(10.19)\nbef = 0,5·bt,ef + bw\nala traccionada\n(10.20)\nii) los valores máximos de anchuras eficaces de bc,ef y bt,ef no deben superar el valor máximo\ncalculado por flexibilidad frente a esfuerzos rasantes. Además, bc,ef no debe ser mayor que el\nvalor máximo calculado teniendo en cuenta la abolladura del ala. Estos valores máximos se\nindican en la tabla 10.1.\nTabla 10.1. Valores máximos de anchuras eficaces (bc,ef, o bt,ef) del ala debidas al efecto del flexibilidad frente\na esfuerzos rasantes y a la abolladura\nMaterial del ala\nAnchura debida al efecto de:\nFlexibilidad por rasante\nAbolladura\nTablero contrachapado con la dirección de la fibra en las\nchapas exteriores\nparalela a las almas\n0,1·l\n20·hf\nperpendicular a las almas\n0,1·l\n25·hf\nTablero de virutas orientadas (OSB)\n0,15·l\n25·hf\nTablero de partículas y tablero de fibras con orientación\naleatoria de las partículas\n0,2·l\n30·hf\nhf\nes, según corresponda, hf,c o hf,t (véase figura 10.2)\nl\nluz de la viga\niii) como modelo de análisis del pandeo de las alas debe cumplir la siguiente condición:\nbf 2 be\n(10.21)\nsiendo:\nbe\nvalor del ancho eficaz del ala debido al efecto del pandeo local (abolladura), tabla\n10.1.\nbf\nla distancia libre entre almas (véase figura 10.2)\nb) Tensiones normales en las alas (en la anchura eficaz bef , apartado a).\nLas tensiones normales en la anchura eficaz de las alas, bef, considerando un reparto uniforme\nde tensiones en el ancho eficaz y el resto de hipótesis ya expuestas, deben cumplir las siguien-\ntes condiciones:\nf,c,d ff,c,d\nala comprimida\n(10.22)\nf,t,d ff,t,d\nala traccionada\n(10.23)\nsiendo:\nf,c,d\nvalor medio de la tensión de cálculo de compresión en la anchura eficaz del ala\ncomprimida;\nf,t,d\nvalor medio de la tensión de cálculo de tracción en la anchura eficaz del ala traccionada;\nff,c,d\nresistencias de cálculo a compresión del tablero utilizado para las alas;\nff,t,d\nresistencias de cálculo a tracción del tablero utilizado para las alas.\nc) Tensiones normales en las almas.\nLas tensiones normales en las almas deben satisfacer las ecuaciones (10.8) y (10.9).\nd) Superficies críticas a tensiones de rodadura:\ni)\nen las superficies 1-1 de contacto madera-tablero, figura 10.2, debe verificarse que:\n\nen secciones en doble T:\n\nDocumentoBásico SE-M Madera\nSE-M 75\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nf\nw\n8\n,\n0\nw\nf\nd\n,\n90\n,\nv\nf\nw\nd\n,\n90\n,\nv\nd\n,\nmedio\nh·\n8\nb\npara\nb\nh·\n8\n·\nf\nh·\n8\nb\npara\nf\n(10.24)\n(10.25)\nsiendo:\nmedio,d\ntensión tangencial de cálculo en la superficie de contacto tablero-madera\ncalculada admitiendo una distribución uniforme de las tensiones tangenciales;\nfv,90,d\n(=fv,r,p,d)\nresistencia de cálculo a cortante de rodadura;\nhf\nes, según corresponda, hf,c o hf,t.\n\nen secciones en U:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nf\nw\n8,\n0\nw\nf\nd,\n90\n,v\nf\nw\nd,\n90\n,v\nd,\nmedio\nh·\n4\nb\npara\nb\nh·\n4\n·\nf\nh·\n4\nb\npara\nf\n(10.26)\n(10.27)\ne) Condición de los empalmes.\nCuando sea necesario realizar empalmes debe verificarse que tienen la resistencia suficiente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0080_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0079.png",
+  "../figura/p0080.png",
+  "../figura/p0081.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

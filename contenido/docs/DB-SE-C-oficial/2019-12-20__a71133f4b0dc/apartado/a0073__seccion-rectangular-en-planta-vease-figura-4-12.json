@@ -1,0 +1,161 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0073",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p36",
+  "titulo": "sección rectangular en planta (véase Figura 4.12).",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p36",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p36",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12).",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "04321a4735a66dba789c43046fee82517019f3b8908856e64f1bea1554a13de6"
+ },
+ "paginas": [
+  36,
+  37
+ ],
+ "etiquetas_impresas": [
+  "3",
+  "5"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "sección rectangular en planta (véase Figura 4.12).\n3\nLos cimientos no rectangulares podrán asimilarse a otros similares conservando la misma superficie\ny el mismo momento de inercia respecto al eje del momento resultante.\n4\nCalculadas esas dimensiones equivalentes se obtendrá el valor de la presión total bruta media,\ndefinida por:\n*\nL\n*·\nB\nV\nqb\n(4.4)\nsiendo\nV\nla componente vertical de la resultante de las acciones en la base del cimiento, incluyen-\ndo el peso de éste y de aquello que gravite libremente sobre él.\n5\nEn zapatas rectangulares se podrá tomar como sección equivalente la sección real si la excentrici-\ndad de la resultante es menor de 1/20 del lado respectivo.\n6\nCuando la cimentación incluya elementos estructurales destinados a centrar la resultante de las\nacciones sobre aquella (vigas centradoras, tirantes, contribución de forjados, etc.), el área equiva-\nlente de la cimentación podrá ser la definida por sus dimensiones reales en planta.\nFigura 4.12. Definición de zapata equivalente para la comprobación de estados límite últimos.\n7\nTambién habrá de determinarse, para cada situación de dimensionado, el ángulo “” que mide la\ndesviación de la resultante de las acciones con respecto a la vertical, así como sus componentes\nsegún dos direcciones ortogonales:\n\nDocumento Básico SE-C Cimientos\nSE-C-32\nV\nH\ntan\n\n\n(4.5)\nV\nH\ntan\nB\nB\n\n(4.6)\nV\nH\ntan\nL\nL\n\n(4.7)\nsiendo\nH\nla componente horizontal de la resultante de las acciones\nHB, HL\nlas componentes de H en dos direcciones ortogonales (habitualmente paralelas a los\nejes o direcciones principales de la cimentación)\n8\nNormalmente, el plano de cimentación será horizontal. Si ese plano tuviese una ligera inclinación, el\nconcepto vertical y horizontal podrán cambiarse por normal y tangencial al plano de cimentación y\nseguir aplicando las reglas indicadas. Las inclinaciones superiores al 3(H): 1(V) requerirán técnicas\nde análisis específicas que exceden el alcance de este DB.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0036.png",
+  "../figura/p0037.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0074",
+  "a0076",
+  "a0077",
+  "a0079",
+  "a0080",
+  "a0092",
+  "a0096",
+  "a0097",
+  "a0098",
+  "a0099",
+  "a0100",
+  "a0101",
+  "a0102",
+  "a0103",
+  "a0104",
+  "a0111",
+  "a0112",
+  "a0113",
+  "a0114",
+  "a0115",
+  "a0117",
+  "a0118",
+  "a0124",
+  "a0125",
+  "a0126",
+  "a0131",
+  "a0132",
+  "a0133",
+  "a0135",
+  "a0138",
+  "a0143",
+  "a0145",
+  "a0146",
+  "a0147",
+  "a0148",
+  "a0152",
+  "a0153",
+  "a0154",
+  "a0155",
+  "a0156",
+  "a0157",
+  "a0158",
+  "a0159",
+  "a0160",
+  "a0161",
+  "a0163",
+  "a0167",
+  "a0181"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

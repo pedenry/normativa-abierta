@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0027",
+  "ruta_oficial": "3",
+  "ruta_semantica": "3 Durabilidad",
+  "titulo": "3 Durabilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3 Durabilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    70.9,
+    96.9,
+    167.4,
+    111.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "866e5d418926d6d41a6e92590c9c85af238b5bdba7a7da62c75731c080f0bd9f",
+   "literal": "3 Durabilidad"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0028",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Durabilidad",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Durabilidad",
+   "seccion_estimada": "3 Durabilidad",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "62d46e467b4c6415cca0e9c0c1d7c3aced93cab0fadff7dd9f2ea55841caec74"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3 Durabilidad\n1\nLa durabilidad de un paño de fábrica es la capacidad para soportar, durante el periodo de servicio\npara el que ha sido proyectado el edificio, las condiciones físicas y químicas a las que estará ex-\npuesto. La carencia de esta capacidad podría ocasionar niveles de degradación no considerados en\nel análisis estructural, dejando la fábrica fuera de uso.\n2\nLa estrategia dirigida a asegurar la durabilidad considera:\na)\nla clase de exposición a la que estará sometido el elemento:\nb)\ncomposición, propiedades y comportamiento de los materiales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0009.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0028",
+  "a0029",
+  "a0030"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

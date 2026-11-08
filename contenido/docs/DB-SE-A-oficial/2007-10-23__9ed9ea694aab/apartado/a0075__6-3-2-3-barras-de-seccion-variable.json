@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0075",
+  "ruta_oficial": "6.3.2.3",
+  "ruta_semantica": "6.3.2.3 Barras de sección variable",
+  "titulo": "6.3.2.3 Barras de sección variable",
+  "nivel": 1,
+  "parent_id": "a0073",
+  "seccion_estimada": "6.3.2.3 Barras de sección variable",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    78.0,
+    646.3,
+    240.8,
+    657.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a34d626729329d1fcd60c489fc65a629accf6639664288983a1c2a5a883392ae",
+   "literal": "6.3.2.3 Barras de sección variable"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0074",
+  "parent_id_original": "a0073",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.3 Barras de sección variable",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0073",
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores. / Perfiles L / 6.3.2.3 Barras de sección variable",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7f868b8f1683ed75eb6c8f578f4b780b88c0adf8cd7587b17efdcec940fbb6ab"
+ },
+ "paginas": [
+  39,
+  40
+ ],
+ "etiquetas_impresas": [
+  "39",
+  "40"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.2.3 Barras de sección variable\n1\nLas barras comprimidas doblemente articuladas de sección ligeramente variable cuyo momento\nde inercia varíe entre un mínimo Imín y un máximo Imáx se comprobarán con un momento de inercia\nmedio ponderado Ik , de valor:\nIk = c Imáx\n(6.21)\ny el área media Amed a lo largo de la barra. El valor de c se obtiene de la tabla 6.4 entrando con el\nparámetro:\n\nDocumentoBásico SE-A Acero\nSE-A-38\nmax\nmin\nl\nl\n=\nν\n(6.22)\ny con la fracción de luz de inercia máxima “a” especificada en la propia figura incluida en la tabla.\nLa esbeltez mecánica de cálculo es:\nk\nmed\nk\nl\nA\nL\n=\nλ\n(6.23)\nTabla 6.4 Coeficiente C en piezas de sección variable\nCoeficiente  c siendo\nmax\nminI/\nI\n=\nν\nVariación de la sección\nν\na\n0,1\n0,2\n0,3\n0,4\n0,5\n0,6\n0,7\n0,8\n0,9\n1,0\n0,0\n0,1\n0,2\n0,3\n0,4\n0,5\n0,6\n0,7\n0,8\n≥0,9\n0,121\n0,140\n0,166\n0,203\n0,257\n0,340\n0,477\n0,697\n0,922\n1,000\n0,220\n0,247\n0,284\n0,333\n0,403\n0,502\n0,641\n0,814\n0,951\n1,000\n0,316\n0,348\n0,391\n0,446\n0,521\n0,620\n0,745\n0,875\n0,966\n1,000\n0,412\n0,447\n0,490\n0,547\n0,620\n0,771\n0,815\n0,913\n0,976\n1,000\n0,509\n0,542\n0,585\n0,639\n0,705\n0,784\n0,867\n0,938\n0,983\n1,000\n0,606\n0,636\n0,675\n0,722\n0,779\n0,843\n0,906\n0,957\n0,988\n1,000\n0,703\n0,729\n0,761\n0,800\n0,844\n0,892\n0,936\n0,971\n0,992\n1,000\n0,801\n0,820\n0,844\n0,871\n0,902\n0,933\n0,961\n0,983\n0,995\n1,000\n0,900\n0,911\n0,923\n0,938\n0,953\n0,969\n0,982\n0,992\n0,998\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n0,0\n0,1\n0,2\n0,3\n0,4\n0,5\n0,6\n0,7\n0,8\n≥0,9\n0,259\n0,308\n0,371\n0,453\n0,558\n0,686\n0,819\n0,925\n0,982\n1,000\n0,389\n0,448\n0,520\n0,605\n0,702\n0,801\n0,890\n0,954\n0,988\n1,000\n0,493\n0,555\n0,625\n0,703\n0,784\n0,861\n0,925\n0,968\n0,992\n1,000\n0,583\n0,643\n0,707\n0,775\n0,841\n0,900\n0,946\n0,978\n0,994\n1,000\n0,665\n0,719\n0,775\n0,930\n0,883\n0,927\n0,962\n0,984\n0,996\n1,000\n0,740\n0,786\n0,832\n0,867\n0,915\n0,948\n0,973\n0,989\n0,997\n1,000\n0,810\n0,846\n0,881\n0,914\n0,942\n0,965\n0,982\n0,992\n0,998\n1,000\n0,877\n0,902\n0,925\n0,947\n0,965\n0,979\n0,989\n0,996\n0,999\n1,000\n0,940\n0,953\n0,965\n0,975\n0,984\n0,990\n0,995\n0,998\n0,999\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n-\n0,273\n0,402\n0,506\n0,595\n0,676\n0,749\n0,817\n0,882\n0,942\n1,000\n-\n0,536\n0,652\n0,728\n0,786\n0,834\n0,875\n0,911\n0,943\n0,973\n1,000\n0,9\n0,8\n0,7\n0,6\n0,5\n0,221\n0,060\n0,027\n0,016\n0,010\n0,626\n0,220\n0,105\n0,061\n0,040\n0,846\n0,421\n0,221\n0,134\n0,090\n0,924\n0,605\n0,395\n0,231\n0,160\n0,958\n0,743\n0,502\n0,345\n0,250\n0,976\n0,837\n0,635\n0,472\n0,360\n0,986\n0,902\n0,753\n0,606\n0,490\n0,993\n0,946\n0,852\n0,741\n0,640\n0,997\n0,977\n0,933\n0,873\n0,810\n1,000\n1,000\n1,000\n1,000\n1,000",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0040_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0039.png",
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

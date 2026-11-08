@@ -1,0 +1,154 @@
+{
+ "documento": null,
+ "pagina": 59,
+ "etiqueta_impresa": "5",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-55",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    472.5,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo C. Valores de resistencia característica a compresión",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    120.6,
+    541.4,
+    214.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia característica a la compresión, fk,en N/mm², de una fábrica realizada con mortero ordi-\nnario con juntas extendidas a todo el grueso, puede calcularse con la ecuación:\nfk  = K· fb0,65 · fm0,25\n(C.1)\ncon fm no mayor que 20 N/mm², ni que 0,75 fb\ndonde\nK\nes una constante, de valor:\na) en muros de una hoja, cuando el grueso de la fábrica sea igual al tizón o a la soga de las",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    116.3,
+    216.0,
+    541.4,
+    252.0
+   ],
+   "tipo": "texto",
+   "texto": "piezas K= 0,60 para piezas macizas, K=0,55 para piezas perforadas, K=0,50 para las alige-\nradas y K=0,40 para las huecas.\nb) en muros de dos hojas o con suturas continuas, K=0,50 para piezas macizas, K=0,45 para",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    253.6,
+    541.5,
+    442.4
+   ],
+   "tipo": "texto",
+   "texto": "las perforadas y K=0,40 para las aligeradas\nfb\nes la resistencia normalizada a la compresión de las piezas de fábrica, en la dirección del es-\nfuerzo, en N/mm²\nfm\nes la resistencia a la compresión especificada del mortero ordinario en N/mm², no mayor que 20\nN/mm², ni que fb\n2\nResistencia característica a compresión de una fábrica con mortero de junta delgada.\na)\nLa resistencia característica a compresión, fk, de una fábrica de piezas macizas, silicocalcáreas\no de hormigón celular de autoclave, con mortero de junta delgada, puede calcularse con la ecua-\nción C.2:\nfk  = 0,8· fb0,85\n(C.2)\nsiempre que las piezas de fábrica tengan tolerancias dimensionales idóneas para su empleo con\njuntas delgadas; la resistencia normalizada a compresión de las piezas de fábrica, fb, no se tome\nmayor que 5 N/mm2; la resistencia a compresión del mortero sea igual o mayor que 5 N/mm2; el\nespesor del muro sea igual a la soga o tizón de las piezas y no haya discontinuidades contenidas\nen el grueso.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    447.0,
+    541.5,
+    569.5
+   ],
+   "tipo": "texto",
+   "texto": "b)\nLa resistencia característica a compresión de una fábrica con mortero de junta delgada y piezas\ndistintas a las anteriores (moldeadas o rectificadas para aceptar este tamaño de junta), puede\ncalcularse con la ecuación C.1, siempre que se cumplan los requisitos indicados en el caso a),\nsiendo K=0,70 para piezas macizas, K=0,60 para las perforadas y K=0,50 para las aligeradas.\n3\nLa resistencia característica, fk, en N/mm2 a compresión de una fábrica con mortero ligero, si las\npiezas son macizas, perforadas o huecas y las juntas son llenas, puede tomarse igual a:\nfk  = K· fb 0,65\n(C.3)\nsiempre que fb no se tome mayor que 15 N/mm², que el espesor del muro sea igual a la soga o al\ntizón de las piezas y no existan discontinuidades verticales en toda o parte de la longitud del muro\nsiendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    110.9,
+    574.1,
+    541.4,
+    584.0
+   ],
+   "tipo": "texto",
+   "texto": ".- K = 0,80 con mortero ligero de densidad de 600 a 1 500 kg/m³ y piezas de hormigón de árido",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    110.9,
+    585.5,
+    541.4,
+    621.5
+   ],
+   "tipo": "texto",
+   "texto": "ligero, según la norma UNE-EN 771-3:2011+A1:2016, o piezas de hormigón celular de auto-\nclave, según la norma UNE-EN 771-4:2011+A1:2016\n- K=0,55 con mortero ligero de densidad de 600 a 700 kg/m³ y piezas de arcilla según la norma",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    110.9,
+    623.0,
+    540.9,
+    670.4
+   ],
+   "tipo": "texto",
+   "texto": "UNE-EN 771-1:2011+A1:2016, piezas silicocalcáreas según la norma UNE-EN 771-\n2:2011+A1:2016 o piezas de hormigón de árido ordinario según la norma UNE-EN 771-\n3:2011+A1:2016\n- NOTA. El valor de K incluye la influencia de la resistencia del mortero sobre la resistencia característica a compresión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    671.6,
+    541.4,
+    757.7
+   ],
+   "tipo": "texto",
+   "texto": "de la fábrica\n4\nLa resistencia característica a compresión de una fábrica con llagas a hueso se puede obtener con\nlas formulas C.1; C.2 y C.3, siempre que la resistencia a cortante se deduzca de la aplicación de la\necuación 4.2 y se consideren la totalidad de las acciones horizontales que puedan aplicarse a la\nfábrica.\n5\nResistencia característica a compresión de una fábrica con tendeles huecos.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

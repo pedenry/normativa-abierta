@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0056",
+  "ruta_oficial": "5.2.7",
+  "ruta_semantica": "5.2.7 Cargas concentradas",
+  "titulo": "5.2.7 Cargas concentradas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.7 Cargas concentradas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 24,
+   "bbox": [
+    70.9,
+    573.1,
+    203.3,
+    583.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7eca6341963920a70f533f999fb5b185005ca808083ca7911700559664188d76",
+   "literal": "5.2.7 Cargas concentradas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0055",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.7 Cargas concentradas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Comportamiento estructural 5.1 Generalidades / 5.2 Muros sometidos predominantemente a carga vertical 5.2.1 Análisis de solicitaciones / 5.2.7 Cargas concentradas",
+   "seccion_estimada": "5 Comportamiento estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bbf68d740dd45a820ff737b4cb7517e303e63a76b6d3c0f9e87901fe6409327d"
+ },
+ "paginas": [
+  24
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.2.7 Cargas concentradas\n1\nEn todo muro que esté solicitado por una carga concentrada, (figura 5.7), la tensión de cálculo alcan-\nzada sobre la superficie de aplicación no será mayor que la resistencia de cálculo del material en el\nque apoya.\n2\nEn un muro realizado con ladrillo macizo siempre que no sea de tendeles huecos, la resistencia de\ncálculo a compresión de la superficie de aplicación se puede incrementar por un factor . El valor de\n puede tomarse, de manera simplificada, de la ecuación (5.15), o de la formulación indicada en el",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0024.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

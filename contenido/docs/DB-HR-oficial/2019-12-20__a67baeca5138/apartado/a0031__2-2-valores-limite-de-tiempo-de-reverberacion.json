@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0031",
+  "ruta_oficial": "2.2",
+  "ruta_semantica": "2.2  Valores límite de tiempo de reverberación",
+  "titulo": "2.2  Valores límite de tiempo de reverberación",
+  "nivel": 1,
+  "parent_id": "a0028",
+  "seccion_estimada": "2.2  Valores límite de tiempo de reverberación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    70.9,
+    580.1,
+    335.8,
+    593.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "886eab7439becabddc8727529b239f6254b50968e367b7430c27dd5d7c0aae91",
+   "literal": "2.2  Valores límite de tiempo de reverberación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0028",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2  Valores límite de tiempo de reverberación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0028",
+   "ruta_semantica": "2    Caracterización y cuantificación de las exigencias / 2.2  Valores límite de tiempo de reverberación",
+   "seccion_estimada": "2    Caracterización y cuantificación de las exigencias",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c209f9ac3360a18d218dd40aea82549295f03a788e67a47f4d72c72e62f6d344"
+ },
+ "paginas": [
+  10
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "2.2  Valores límite de tiempo de reverberación\n1\nEn conjunto los elementos constructivos, acabados superficiales y revestimientos que delimitan un\naula o una sala de conferencias, un comedor y un restaurante, tendrán la absorción acústica sufi-\nciente de tal manera que:\na)\nEl tiempo de reverberación en aulas y salas de conferencias vacías (sin ocupación y sin mobi-\nliario), cuyo volumen sea menor que 350 m3, no será mayor que 0,7 s.\nb)\nEl tiempo de reverberación en aulas y en salas de conferencias vacías, pero incluyendo el total\nde las butacas, cuyo volumen sea menor que 350 m3, no será mayor que 0,5 s.\nc)\nEl tiempode reverberación en restaurantes y comedores vacíos no será mayor que 0,9 s.\n2\nPara limitar el ruido reverberante en las zonas comunes los elementos constructivos, los acabados\nsuperficiales y los revestimientos que delimitan una zona común de un edificio de uso residencial\npublico, docente y hospitalario colindante con recintos protegidos con los que comparten puertas,",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

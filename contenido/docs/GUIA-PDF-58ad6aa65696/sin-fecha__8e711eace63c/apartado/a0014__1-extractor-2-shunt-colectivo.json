@@ -1,0 +1,61 @@
+{
+ "documento": "GUIA-PDF-58ad6aa65696",
+ "code": "GUIA",
+ "title": "Solucion C1 Ventilacion de los locales habitables",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__8e711eace63c",
+ "sha256": "8e711eace63c8ecfb73b727641d2918bf2380b10b975ba2b876b361f1b4479e8",
+ "apartado": {
+  "id_tecnico": "a0014",
+  "ruta_oficial": "1",
+  "ruta_semantica": "1   extractor 2   shunt colectivo",
+  "titulo": "1   extractor 2   shunt colectivo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1   extractor 2   shunt colectivo"
+ },
+ "paginas": [
+  3,
+  4
+ ],
+ "etiquetas_impresas": [
+  "3",
+  "4"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "1   extractor 2   shunt colectivo\n2   shunt colectivo\n2\n1\n1\n2\nTambién en el caso de un shunt individual (que da ser­\nvicio a un solo local húmedo) el extractor se dispondrá\nen la cubierta para evitar la introducción del aire ex­\ntraído cargado de radón al interior del edificio, en este\ncaso, a través de posibles fugas en el shunt (Figura 5).\n\n4\nSolución C1 • Ventilación de los locales habitables\nC1\n4\nFigura 5 - \u0007Sistema de ventilación con extractor al principio del shunt\nindividual (arriba) y en cubierta (abajo)",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0003_t01.json",
+  "../tabla/p0004_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0003.png",
+  "../figura/p0004.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Solucion_C1_Ventilacion_de_los_locales_habitables.pdf",
+  "sha256": "8e711eace63c8ecfb73b727641d2918bf2380b10b975ba2b876b361f1b4479e8",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": null,
+  "nivel": 1,
+  "seccion_estimada": "1   extractor 2   shunt colectivo",
+  "ruta_semantica": "1   extractor 2   shunt colectivo"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

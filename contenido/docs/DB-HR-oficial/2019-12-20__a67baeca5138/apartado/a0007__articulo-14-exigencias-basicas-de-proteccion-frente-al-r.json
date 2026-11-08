@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0007",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p3",
+  "titulo": "Artículo 14. Exigencias básicas de protección frente al ruido (HR)",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p3",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p3",
+  "referencias_filtradas": [
+   "Artículo 14",
+   "DB HR"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Introducción / Artículo 14. Exigencias básicas de protección frente al ruido (HR)",
+   "seccion_estimada": "Introducción",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f2ed9532d4a0b8e53b19b625b5e81c7accc5ebb8e77f90e71d14903f8b1cd390"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Artículo 14. Exigencias básicas de protección frente al ruido (HR)\nEl objetivo del requisito básico “Protección frente el ruido” consiste en limitar, dentro de los edificios y en\ncondiciones normales de utilización, el riesgo de molestias o enfermedades que el ruido pueda producir a\nlos usuarios como consecuencia de las características de su proyecto, construcción, uso y mantenimien-\nto.\nPara satisfacer este objetivo, los edificios se proyectarán, construirán y mantendrán de tal forma que los\nelementos constructivos que conforman sus recintos tengan unas características acústicas adecuadas\npara reducir la transmisión del ruido aéreo, del ruido de impactos y del ruido y vibraciones de las instala-\nciones propias del edificio, y para limitar el ruido reverberante de los recintos.\nEl Documento Básico “DB HR Protección frente al ruido” especifica parámetros objetivos y sistemas de\nverificación cuyo cumplimiento asegura la satisfacción de las exigencias básicas y la superación de los\nniveles mínimos de calidad propios del requisito básico de protección frente al ruido.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 14",
+  "DB HR"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0008",
+  "a0009",
+  "a0010",
+  "a0011"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

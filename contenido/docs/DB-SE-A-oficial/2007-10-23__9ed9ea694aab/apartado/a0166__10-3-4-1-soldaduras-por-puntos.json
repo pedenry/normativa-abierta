@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0166",
+  "ruta_oficial": "10.3.4.1",
+  "ruta_semantica": "10.3.4.1 Soldaduras por puntos",
+  "titulo": "10.3.4.1 Soldaduras por puntos",
+  "nivel": 1,
+  "parent_id": "a0165",
+  "seccion_estimada": "10.3.4.1 Soldaduras por puntos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 114,
+   "bbox": [
+    74.1,
+    703.2,
+    225.3,
+    714.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d74a44df2e4dda2e18261c4e8743dd6303cf146bdd09ce1bd1a9e8043cdcb12a",
+   "literal": "10.3.4.1 Soldaduras por puntos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0159",
+  "parent_id_original": "a0165",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.3.4.1 Soldaduras por puntos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0165",
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.3 Soldeo 10.3.1 Plan de soldeo / 10.3.4 Tipos de soldadura / 10.3.4.1 Soldaduras por puntos",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "97ead8102bd32cc5aa9f35bfd2a24ba5d87bc5f4b227f6330f79ca38cee80f0f"
+ },
+ "paginas": [
+  114,
+  115
+ ],
+ "etiquetas_impresas": [
+  "114",
+  "115"
+ ],
+ "tipos": [],
+ "texto": "10.3.4.1 Soldaduras por puntos\n1\nUna soldadura de punteo debe tener una longitud mínima de cuatro veces el espesor de la parte\nmás gruesa de la unión y que 50 mm.\n\nDocumentoBásico SE-A Acero\nSE-A-113\n2\nEl proceso de soldeo debe incluir las condiciones de deposición de soldaduras de punteo, cuando\néste sea mecánico ó totalmente automatizado. Estas soldaduras deben estar exentas de defectos\nde deposición y, si están fisuradas, deben rectificarse y limpiarse a fondo antes del soldeo final.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

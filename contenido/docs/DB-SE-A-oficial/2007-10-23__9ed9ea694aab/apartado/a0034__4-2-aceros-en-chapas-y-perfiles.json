@@ -1,0 +1,97 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0034",
+  "ruta_oficial": "4.2",
+  "ruta_semantica": "4.2 Aceros en chapas y perfiles",
+  "titulo": "4.2 Aceros en chapas y perfiles",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2 Aceros en chapas y perfiles",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    74.1,
+    208.9,
+    256.2,
+    222.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "18cc1d4f419ad06513c35cf814ca19cdd6889c8b76962d7dea3ec0f86236db48",
+   "literal": "4.2 Aceros en chapas y perfiles"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0040",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE EN",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "4.2 Aceros en chapas y perfiles",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Generalidades / 4.2 Aceros en chapas y perfiles",
+   "seccion_estimada": "4 Materiales 4.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cf265c8729d26e29857fdfbfe4df5f08a1b40654606ab1e41f4913355e5366b1"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  "13"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "4.2 Aceros en chapas y perfiles\n1\nLos aceros considerados en este DB son los establecidos en la norma UNE EN 10025 (Productos\nlaminados en caliente de acero no aleado, para construcciones metálicas de uso general) en cada\nuna de las partes que la componen, cuyas características se resumen en la Tabla 4.1.\n2\nEn este DB se contemplan igualmente los aceros establecidos por las normas UNE-EN 10210-\n1:1994 relativa a Perfiles huecos para construcción, acabados en caliente, de acero no aleado de\ngrado fino y en la UNE-EN 10219-1:1998, relativa a secciones huecas de acero estructural confor-\nmados en frío.\nTabla 4.1Características mecánicas mínimas de los aceros UNE EN 10025\nEspesor nominal t (mm)\nTensión de límite elástico\nfy (N/mm2)\nTensión de rotura\nfu (N/mm2)\nDESIGNACIÓN\nt ≤ 16",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "UNE EN",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

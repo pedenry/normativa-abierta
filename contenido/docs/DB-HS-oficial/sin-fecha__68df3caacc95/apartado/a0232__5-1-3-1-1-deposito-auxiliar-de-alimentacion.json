@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0232",
+  "ruta_oficial": "5.1.3.1.1",
+  "ruta_semantica": "5.1.3.1.1 Depósito auxiliar de alimentación",
+  "titulo": "5.1.3.1.1 Depósito auxiliar de alimentación",
+  "nivel": 1,
+  "parent_id": "a0231",
+  "seccion_estimada": "5.1.3.1.1 Depósito auxiliar de alimentación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 98,
+   "bbox": [
+    70.9,
+    317.6,
+    282.3,
+    328.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2e8e5d39d54d9a9c36bdbb9f25d66cea17c8af329906ad82cb63be46ab5b4040",
+   "literal": "5.1.3.1.1 Depósito auxiliar de alimentación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0231",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.3.1.1 Depósito auxiliar de alimentación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0231",
+   "ruta_semantica": "5 Construcción 5.1 Ejecución / 5.1.3 Ejecución de los sistemas de control de la presión / 5.1.3.1.1 Depósito auxiliar de alimentación",
+   "seccion_estimada": "5 Construcción 5.1 Ejecución",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "18f7849b1e618733a9d6f567d9f1a034caacf490b8cb9eb6dfac264657da01d2"
+ },
+ "paginas": [
+  98
+ ],
+ "etiquetas_impresas": [
+  "98"
+ ],
+ "tipos": [],
+ "texto": "5.1.3.1.1 Depósito auxiliar de alimentación\n1\nEn estos depósitos el agua de consumo humano podrá ser almacenada bajo las siguientes premi-\nsas:\na)\nel depósito habrá de estar fácilmente accesible y ser fácil de limpiar. Contará en cualquier caso\ncon tapa y esta ha de estar asegurada contra deslizamiento y disponer en la zona más alta de\nsuficiente ventilación y aireación;\nb)\nHabrá que asegurar todas las uniones con la atmósfera contra la entrada de animales e inmi-\nsiones nocivas con dispositivos eficaces tales como tamices de trama densa para ventilación y\naireación, sifón para el rebosado.\n2\nEn cuanto a su construcción, será capaz de resistir las cargas previstas debidas al agua contenida\nmás las debidas a la sobrepresión de la red si es el caso.\n3\nEstarán, en todos los casos, provistos de un rebosadero, considerando las disposiciones contra\nretorno del agua especificadas en el punto 3.3.\n4\nSe dispondrá, en la tubería de alimentación al depósito de uno o varios dispositivos de cierre para\nevitar que el nivel de llenado del mismo sup7ere el máximo previsto. Dichos dispositivos serán vál-\nvulas pilotadas. En el caso de existir exceso de presión habrá de interponerse, antes de dichas vál-\nvulas, una que limite dicha presión con el fin de no producir el deterioro de las anteriores.\n5\nLa centralita de maniobra y control del equipo dispondrá de un hidronivel de protección para impedir\nel funcionamiento de las bombas con bajo nivel de agua.\n6\nSe dispondrá de los mecanismos necesarios que permitan la fácil evacuación del agua contenida\nen el depósito, para facilitar su mantenimiento y limpieza. Así mismo, se construirán y conectarán\nde manera que el agua se renueve por su propio modo de funcionamiento evitando siempre la exis-\ntencia de agua estancada.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

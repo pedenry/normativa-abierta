@@ -1,0 +1,772 @@
+{
+ "documento": null,
+ "pagina": 87,
+ "etiqueta_impresa": "87",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-85",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    99.2,
+    71.7,
+    358.3,
+    91.3
+   ],
+   "tipo": "titulo",
+   "texto": "∑p suma de las separaciones verticales entre tornillos;",
+   "tamano": 16.0,
+   "negrita": false,
+   "nivel": 3
+  },
+  {
+   "i": 3,
+   "bbox": [
+    96.8,
+    115.8,
+    541.4,
+    139.3
+   ],
+   "tipo": "texto",
+   "texto": "El momento de cálculo que podrá transmitir la unión, será el que se produzca cuando el tornillo\nmás alejado alcance su resistencia de cálculo a tracción, Ft.Rd, y su valor es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    198.4,
+    155.9,
+    202.2,
+    178.6
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    198.4,
+    146.4,
+    202.2,
+    158.6
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    144.1,
+    155.9,
+    147.9,
+    178.6
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    144.1,
+    146.4,
+    147.9,
+    158.6
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    114.1,
+    149.1,
+    190.9,
+    174.6
+   ],
+   "tipo": "texto",
+   "texto": "+\n=\n3\nc b\n3\nc d\nc\nA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    98.0,
+    148.2,
+    128.7,
+    166.8
+   ],
+   "tipo": "texto",
+   "texto": "F\nM",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    106.3,
+    147.3,
+    544.6,
+    168.7
+   ],
+   "tipo": "texto",
+   "texto": "3\n1\n3\nRd\n,t\nu\n(8.55)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    174.6,
+    548.4,
+    440.6,
+    558.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.17 Empalmes con chapa frontal; sección equivalente",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    96.8,
+    564.7,
+    541.4,
+    610.4
+   ],
+   "tipo": "texto",
+   "texto": "Si en lugar de comportarse de forma rígida toda la unión, únicamente lo hace la parte interior, te-\nniendo la zona exterior un mecanismo de rotura flexible, el momento de cálculo podrá determinarse\nañadiendo al momento obtenido en la forma indicada anteriormente para la parte interior, el mo-\nmento obtenido para los tornillos exteriores con un mecanismo flexible.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.8,
+    616.7,
+    541.4,
+    639.4
+   ],
+   "tipo": "texto",
+   "texto": "En este caso la línea neutra que corresponde a una distribución elástica en el interior (figura\n8.17.b) puede determinarse iterativamente mediante la expresión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    215.0,
+    657.6,
+    218.5,
+    679.5
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    186.7,
+    651.7,
+    218.5,
+    679.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    169.0,
+    651.7,
+    197.7,
+    679.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η\n−\n\n",
+   "tamano": 9.2,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    140.6,
+    651.7,
+    172.5,
+    679.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    111.1,
+    651.7,
+    209.1,
+    676.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "η\n+\n=\nd\nc",
+   "tamano": 9.2,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    150.2,
+    653.4,
+    208.0,
+    676.9
+   ],
+   "tipo": "texto",
+   "texto": "A\nd\nc",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    99.2,
+    653.4,
+    162.0,
+    676.9
+   ],
+   "tipo": "texto",
+   "texto": "A\nd\nb\nc",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    100.8,
+    653.4,
+    105.4,
+    663.7
+   ],
+   "tipo": "texto",
+   "texto": "c",
+   "tamano": 9.2,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    201.1,
+    671.4,
+    204.7,
+    678.6
+   ],
+   "tipo": "texto",
+   "texto": "1",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    172.7,
+    649.2,
+    212.3,
+    665.4
+   ],
+   "tipo": "texto",
+   "texto": "e\ne\n2",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    155.0,
+    671.4,
+    158.6,
+    678.6
+   ],
+   "tipo": "texto",
+   "texto": "1",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    151.7,
+    658.2,
+    166.3,
+    665.4
+   ],
+   "tipo": "texto",
+   "texto": "e\ne",
+   "tamano": 6.5,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    103.9,
+    657.4,
+    541.0,
+    678.6
+   ],
+   "tipo": "texto",
+   "texto": "1\n(8.56)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    96.8,
+    687.5,
+    541.4,
+    711.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "en la que ηeAe representa el área equivalente de la fila exterior de tornillos según el modo de rotura\nde menor resistencia (ver modos de rotura en 8.8.3,1.b,c,d):",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    98.5,
+    725.3,
+    147.8,
+    749.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "∑\n=\nη",
+   "tamano": 16.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 29,
+   "bbox": [
+    154.6,
+    740.0,
+    167.0,
+    747.8
+   ],
+   "tipo": "texto",
+   "texto": "Rd\n,t",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    105.1,
+    723.6,
+    163.1,
+    745.9
+   ],
+   "tipo": "texto",
+   "texto": "max\n,d\ne\ne\nF",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    122.0,
+    718.4,
+    541.0,
+    737.4
+   ],
+   "tipo": "texto",
+   "texto": "F\nn\n(8.57)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    96.8,
+    756.5,
+    462.8,
+    768.4
+   ],
+   "tipo": "texto",
+   "texto": "con los significados de 8.8.3,1 y siendo ne el número de tornillos de la fila exterior.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    546.9,
+    577.1,
+    46.1,
+    46.1
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    405.2,
+    578.1,
+    46.1,
+    46.1
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    278.1,
+    248.0,
+    282.5,
+    256.9
+   ],
+   "tipo": "texto",
+   "texto": "p",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    191.1,
+    219.5,
+    196.4,
+    228.4
+   ],
+   "tipo": "texto",
+   "texto": "A",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    105.6,
+    261.5,
+    185.0,
+    274.3
+   ],
+   "tipo": "texto",
+   "texto": "h\nz",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    231.6,
+    333.5,
+    433.5,
+    345.6
+   ],
+   "tipo": "texto",
+   "texto": "b\nb",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    474.6,
+    245.9,
+    480.8,
+    254.8
+   ],
+   "tipo": "texto",
+   "texto": "c",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    474.4,
+    307.4,
+    481.2,
+    316.7
+   ],
+   "tipo": "texto",
+   "texto": "c1",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 41,
+   "bbox": [
+    423.8,
+    193.5,
+    430.5,
+    202.4
+   ],
+   "tipo": "texto",
+   "texto": "d",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    311.9,
+    332.7,
+    316.7,
+    342.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "σ",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 43,
+   "bbox": [
+    547.8,
+    304.2,
+    46.1,
+    46.1
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 44,
+   "bbox": [
+    421.6,
+    286.0,
+    46.1,
+    46.1
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 45,
+   "bbox": [
+    309.6,
+    501.4,
+    428.8,
+    511.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "b\nσ",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 46,
+   "bbox": [
+    414.8,
+    384.8,
+    435.8,
+    391.9
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 47,
+   "bbox": [
+    475.1,
+    428.9,
+    481.3,
+    437.8
+   ],
+   "tipo": "texto",
+   "texto": "c",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 48,
+   "bbox": [
+    432.6,
+    401.6,
+    437.0,
+    410.5
+   ],
+   "tipo": "texto",
+   "texto": "d",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 49,
+   "bbox": [
+    439.4,
+    380.7,
+    456.4,
+    390.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "ηeAe",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 50,
+   "bbox": [
+    106.4,
+    197.1,
+    116.9,
+    207.2
+   ],
+   "tipo": "texto",
+   "texto": "a)",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 51,
+   "bbox": [
+    108.6,
+    364.3,
+    119.1,
+    374.5
+   ],
+   "tipo": "texto",
+   "texto": "b)",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 52,
+   "bbox": [
+    278.9,
+    418.4,
+    283.3,
+    427.3
+   ],
+   "tipo": "texto",
+   "texto": "p",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 53,
+   "bbox": [
+    191.9,
+    389.9,
+    197.2,
+    398.8
+   ],
+   "tipo": "texto",
+   "texto": "A",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 54,
+   "bbox": [
+    106.4,
+    431.9,
+    185.8,
+    444.4
+   ],
+   "tipo": "texto",
+   "texto": "h\nz",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 55,
+   "bbox": [
+    232.4,
+    503.9,
+    236.8,
+    512.8
+   ],
+   "tipo": "texto",
+   "texto": "b",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 56,
+   "bbox": [
+    198.6,
+    362.0,
+    208.1,
+    371.3
+   ],
+   "tipo": "texto",
+   "texto": "Ae",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 57,
+   "bbox": [
+    475.4,
+    475.1,
+    483.5,
+    484.4
+   ],
+   "tipo": "texto",
+   "texto": "c1",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

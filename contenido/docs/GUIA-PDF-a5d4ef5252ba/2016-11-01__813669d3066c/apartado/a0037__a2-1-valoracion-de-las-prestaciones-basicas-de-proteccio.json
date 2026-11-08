@@ -1,0 +1,65 @@
+{
+ "documento": "GUIA-PDF-a5d4ef5252ba",
+ "code": "GUIA",
+ "title": "IEE 2016",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "2016-11-01",
+ "version_dir": "2016-11-01__813669d3066c",
+ "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo 2 Valoración del aislamiento acústico de elementos de separación verticales y sus / A2.1 Valoración de las prestaciones básicas de protección frente al ruido",
+  "titulo": "A2.1 Valoración de las prestaciones básicas de protección frente al ruido",
+  "nivel": 3,
+  "parent_id": "a0035",
+  "seccion_estimada": "Anejo 2 Valoración del aislamiento acústico de elementos de separación verticales y sus"
+ },
+ "paginas": [
+  53,
+  54
+ ],
+ "etiquetas_impresas": [
+  "43",
+  "44"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "A2.1 Valoración de las prestaciones básicas de protección frente al ruido\nLa tabla A.2.1 muestra una estimación de los niveles de aislamiento acústico en el estado inicial para recintos\nseparados por elementos de separación verticales. Los niveles de aislamiento acústico de las diferentes soluciones\nconstructivas se muestran graduados por colores, cuya leyenda figura en la tabla A2.2.\nLa tabla A2.1, muestra en la primera fila las particiones en su situación inicial. Se trata de elementos de separación\nverticales tradicionales y comunes en edificios existentes. Se indican sus prestaciones iniciales: Valor de masa por\nunidad de superficie, índice de reducción acústica ponderado A, medido en laboratorio, RA, y de forma orientativa se\nindica en colores el aislamiento acústico obtenido in situ de cada una de las soluciones. Estos valores pueden tomarse\nde guía para la cumplimentación del apartado IV.3.\nPuede utilizarse esta tabla para elementos constructivos diferentes interpolando10 los valores de masa por unidad de\nsuperficie de las soluciones constructivas distintas.\n10 Debe recordarse que la ley de masa es logarítmica. Consúltense las expresiones A.16 y A.17 del Anejo A del DB HR Protección\nfrente al ruido.\n\nGuía para la cumplimentación de la parte IV del IEE. Condiciones básicas de protección frente al ruido\n44\nTabla A2.1. Valoración del aislamiento acústico a ruido aéreo entre recintos colindantes. Elementos de\nseparación verticales\nValoración del estado inicial\nAislamiento acústico a ruido aéreo\nElementos de separación existentes\nCaracterización inicial\nde los elementos de\nseparación\n(apartado IV.3)\nm (1)\n(kg/m2)\n≥ 284\n150\n127\n89\n130\nRA\n(1)\n(dBA)\n50\n42\n40\n36\n44\nDnT,A\n(dBA)\nLEYENDA PARTICIONES:\nLHD:\nLadrillo hueco doble, 70 mm\nLHT:\nLadrillo hueco triple, 115 mm\nLP:\nLadrillo perforado\n(1)\nValores mínimos del Catálogo de elementos Constructivos del Código Técnico de la Edificación\nTabla A2.2. Niveles de aislamiento acústico a ruido aéreo y valoración final de las prestaciones\nColor / nivel\nDnT,A\n(dBA)\nValoración final de las prestaciones\n(apartados IV.3 y IV.4.2)\nI\n≥ 50\nBUENO\nII\n45 – 49\nRAZONABLE\nIII\n40-45\nREGULAR\nIV\n< 40\nDEFICIENTE\nVéase el apartado 1.3.1.1 Diferencia entre aislamiento acústico in situ y en laboratorio donde se explica la diferencia\nentre los índices RA y DnT,A, correspondientes al aislamiento acústico a ruido aéreo medido en laboratorio y el medido in\nsitu respectivamente.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [
+  "DB HR",
+  "apartado 1.3.1.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0054_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0053.png",
+  "../figura/p0054.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/IEE_2016.pdf",
+  "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0035",
+  "nivel": 3,
+  "seccion_estimada": "Anejo 2 Valoración del aislamiento acústico de elementos de separación verticales y sus",
+  "ruta_semantica": "Anejo 2 Valoración del aislamiento acústico de elementos de separación verticales y sus / A2.1 Valoración de las prestaciones básicas de protección frente al ruido"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

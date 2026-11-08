@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0052",
+  "ruta_oficial": "5.4.2",
+  "ruta_semantica": "5.4.2 Acciones equivalentes",
+  "titulo": "5.4.2 Acciones equivalentes",
+  "nivel": 1,
+  "parent_id": "a0050",
+  "seccion_estimada": "5.4.2 Acciones equivalentes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 29,
+   "bbox": [
+    74.1,
+    676.9,
+    209.8,
+    688.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a60729e9362c65034da56138270fad29bc457af71ab5a53c7820571eab4f7d02",
+   "literal": "5.4.2 Acciones equivalentes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0056",
+  "parent_id_original": "a0050",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4.2 Acciones equivalentes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0050",
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.4 Imperfecciones iniciales / 5.4.2 Acciones equivalentes",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0455eda3e2c5ba71f6decb901bc57e690177a57b4e961f9ce01e6a8430ffec07"
+ },
+ "paginas": [
+  29,
+  30
+ ],
+ "etiquetas_impresas": [
+  "29",
+  "30"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.4.2 Acciones equivalentes\n1\nAlternativamente a la consideración de las imperfecciones iniciales se puede introducir un conjunto\nde acciones equivalentes, siguiendo el criterio de la figura 5.5\n\nDocumentoBásico SE-A Acero\nSE-A-28\nFigura 5.5 Acciones equivalentes a las imperfecciones iniciales",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0029.png",
+  "../figura/p0030.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

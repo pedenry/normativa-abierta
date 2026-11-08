@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0160",
+  "ruta_oficial": "12.3",
+  "ruta_semantica": "12.3  Celosías con uniones de placas dentadas",
+  "titulo": "12.3  Celosías con uniones de placas dentadas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "12.3  Celosías con uniones de placas dentadas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 95,
+   "bbox": [
+    70.9,
+    408.5,
+    341.6,
+    420.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "463063f92ebb7e1b642658d75762851d8d37ca662d3ca6fc8487142b7613f274",
+   "literal": "12.3  Celosías con uniones de placas dentadas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0188",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "12.3  Celosías con uniones de placas dentadas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "12  Tolerancias 12.1  Principios generales / 12.3  Celosías con uniones de placas dentadas",
+   "seccion_estimada": "12  Tolerancias 12.1  Principios generales",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2c0d9111362fc52736ecca0c4ab32fb4ec4aa4fb90063086ef3ae744ce91d9f3"
+ },
+ "paginas": [
+  95,
+  97
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "12.3  Celosías con uniones de placas dentadas\n1\nDurante la fabricación, las piezas deben estar libres de distorsiones dentro de los limites definidos en\nla norma UNE-EN 14250:2010. Sin embargo, si las piezas se distorsionan durante el periodo de\ntiempo que transcurre entre la fabricación y el montaje pueden enderezarse sin causar daño a la\nmadera o a las uniones. En este caso las cerchas pueden considerarse válidas para su uso.\n2\nDespués del montaje, se admite una combadura máxima de 10 mm en cualquier pieza de la cercha\nsiempre que se afiance de manera segura en la cubierta terminada de forma que se evite el momen-\nto provocado por dicha distorsión.\n3\nDespués del montaje, la desviación máxima de una cercha respecto a la vertical no debe exceder el\nvalor de 10 + 5·(H – 1) mm, con un valor máximo de 25 mm; donde H es la altura (diferencia de cota\nentre apoyos y punto más alto), expresada en metros.\n\nDocumentoBásico SE-M Madera\nSE-M 91",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

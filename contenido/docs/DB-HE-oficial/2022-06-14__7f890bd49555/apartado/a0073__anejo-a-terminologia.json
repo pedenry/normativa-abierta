@@ -1,0 +1,97 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0073",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología",
+  "titulo": "Anejo A. Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    255.7,
+    51.4,
+    341.9,
+    60.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "8ae9736f7f7d349f64de4e4d9bc6ecdc97c141b1ddeff6fd8edfbddade4520a6",
+   "literal": "Anejo A. Terminología"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0094",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE EN",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo A. Terminología",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "598c07f50409756703d684fe89cee30020251c1e13079a189135e5f0215758ff"
+ },
+ "paginas": [
+  39,
+  40,
+  41,
+  42
+ ],
+ "etiquetas_impresas": [
+  "39",
+  "40",
+  "41",
+  "42"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo A. Terminología\n39\nLa energía primaria (total) puede descomponerse en energía primariaprocedente de fuentes renovables, o\nenergía primaria renovable, y en energía primaria procedente de fuentes no renovables, o energía primaria\nno renovable, de acuerdo con la Directiva de Energías Renovables (2009/28/CE).\nDe forma simplificada, la relación entre energía final y primaria se puede expresar con un coeficiente de paso,\nque refleja, para una zona geográfica determinada, el efecto de las pérdidas en transformación y transporte\nen cada una de las partes de la energía primaria (renovable y no renovable) de cada vector energético.\nEnergía procedente de fuentes renovables: energía procedente de fuentes renovables no fósiles, es decir,\nenergía eólica, solar, aerotérmica, geotérmica, hidrotérmica y oceánica, hidráulica, biomasa, gases de\nvertedero, gases de plantas de depuración y biogás. Debe tenerse en cuenta que no toda la energía generada\na partir de fuentes renovables puede ser considerada renovable. La energía generada a partir de fuentes\nrenovables puede tener, en algunos casos, un componente de energía no renovable que debe ser tratado\ncomo tal en el cálculo energético.\nEnvolvente (térmica): ver Anejo C\nEquipo auxiliar: equipos eléctricos o electrónicos asociados a la lámpara, diferentes para cada tipo de\nlámpara, cuya función es el encendido y control de las condiciones de funcionamiento. Estos equipos\nauxiliares, salvo cuando son electrónicos, están formados por combinación de arrancador/cebador, balasto y\ncondensador.\nEspacio habitable: espacio formado por uno o varios recintos habitables contiguos con el mismo uso y\ncondiciones térmicas equivalentes agrupados a efectos de cálculo energético.\nEn función de su carga interna, un espacio habitable se clasifica como espacio habitable de carga interna\nbaja, carga interna media, carga interna alta o carga interna muy alta de acuerdo con la tabla a-Anejo A.\nEspacio habitable acondicionado: espacio habitable que necesita mantener unas determinadas\ncondiciones operacionales para el bienestar térmico de sus ocupantes. En uso residencial privado, todos los\nespacios interiores de las viviendas se consideran acondicionados y deben cumplir las condiciones\noperacionales de acuerdo al Anejo D.\nA efectos de cálculo, de forma simplificada, pueden considerarse igualmente acondicionados otros espacios\nhabitables, como pasillos, escaleras y otras zonas comunes.\nEspacio habitable no acondicionado: espacio habitable para el que se prevé que, durante la vida útil del\nedificio, no va a necesitar mantener unas determinadas condiciones de temperatura para el bienestar térmico\nde sus ocupantes. Al ser un espacio habitable dispone, sin embargo, de fuentes internas (iluminación,\nocupación y equipos).\nEspacio no habitable: espacio formado por uno o varios recintos no habitables contiguos con el mismo uso\ny condiciones térmicas equivalentes, agrupados a efectos de cálculo de la demanda energética. En esta\ncategoría se consideran los garajes, aparcamientos, trasteros, cuartos de basuras e instalaciones (ver recintos\nhabitables).\nEstación de recarga: conjunto de elementos necesarios para efectuar la conexión del vehículo eléctrico a la\ninstalación eléctrica fija necesaria para su recarga. Las estaciones de recarga se clasifican como:\n1. Punto de recarga simple, compuesto por las protecciones necesarias, una o varias bases de toma de\ncorriente no específicas para el vehículo eléctrico y, en su caso, la envolvente.\n2. Punto de recarga tipo SAVE (Sistema de alimentación específico del vehículo eléctrico).\nFachada: cerramiento en contacto con el aire exterior cuya inclinación es superior a 60º respecto al plano\nhorizontal. Está compuesto de una parte opaca (muro) y otra semitransparente (huecos).\nFactor de mantenimiento (Fm): cociente entre la iluminancia media sobre el plano de trabajo después de un\ncierto periodo de uso de una instalación de alumbrado y la iluminancia media obtenida bajo la misma condición\npara la instalación considerada como nueva.\nFactor de sombra (Fs): fracción de la radiación incidente en un hueco que no es bloqueada por la presencia\nde obstáculos de fachada, tales como: retranqueos, voladizos, toldos, salientes laterales u otros.\n\nDocumento Básico HE Ahorro de energía\nAnejo A. Terminología\n40\nFactor solar (g┴): cociente entre la radiación solar a incidencia normal que se introduce en el edificio a través\ndel acristalamiento y la que se introduciría si el acristalamiento se sustituyese por un hueco perfectamente\ntransparente. Se refiere exclusivamente a la parte semitransparente de un hueco.\nHoras fuera de consigna: número de horas a lo largo del año en el que cualquiera de los espacios\nhabitables acondicionados del edificio o, en su caso, parte del edificio, se sitúa, durante los periodos de\nocupación, fuera del rango de temperaturas de consigna de calefacción o de refrigeración, con un margen\nsuperior a un 1 ºC, definido en sus condiciones operacionales.\nHueco: cualquier elemento transparente o semitransparente de la envolvente térmica del edificio. Comprende\nlas ventanas, lucernarios (huecos de cubierta) así como las puertas acristaladas con una superficie\nsemitransparente superior al 50%.\nIluminancia: cociente del flujo luminoso d incidente sobre un elemento de la superficie que contiene el punto,\npor el área dA de ese elemento, siendo la unidad de medida el lux.\nIluminancia media en el plano horizontal (E): iluminancia promedio sobre el área especificada. Se expresa\nen lux (lx).\nEl número mínimo de puntos a considerar en su cálculo, estará en función del índice del local (K) y de la\nobtención de un reparto cuadriculado simétrico.\na)\n4 puntos si K < 1\nb)\n9 puntos si 1 ≤ K < 2\nc)\n16 puntos si 2 ≤ K < 3\nd)\n25 puntos si K ≥ 3\ndonde:\nK = L · A / (H · (L + A))\nsiendo:\nL\nla longitud del local en metros;\nA\nla anchura del local en metros ;\nH\nla distancia del plano de trabajo a las luminarias en metros.\nIluminancia media horizontal mantenida (Em): valor por debajo del cual no debe descender la iluminancia\nmedia en el área especificada. Es la iluminancia media en el período en el que debe ser realizado el\nmantenimiento. Se expresa en lux (lx).\nÍndice de deslumbramiento unificado (UGR): es el índice de deslumbramiento molesto procedente\ndirectamente de las luminarias de una instalación de iluminación interior, definido en la publicación CIE\n(Comisión Internacional de Alumbrado) nº 117.\nÍndice de rendimiento de color (Ra): efecto de un iluminante sobre el aspecto cromático de los objetos que\nilumina por comparación con su aspecto bajo un iluminante de referencia. La forma en que la luz de una\nlámpara reproduce los colores de los objetos iluminados se denomina índice de rendimiento de color (Ra). El\ncolor que presenta un objeto depende de la distribución de la energía espectral de la luz con que está\niluminado y de las características reflexivas selectivas de dicho objeto.\nInercia térmica: propiedad del edificio de amortiguar y retardar el efecto de las fluctuaciones de la\ntemperatura exterior en el interior del edificio como resultado de la capacidad del edificio para conducir y\nalmacenar calor. La cantidad de calor almacenado depende de la masa térmica de los materiales, mientras\nque la velocidad de intercambio de calor con el entorno depende de su conductividad térmica.\nInfraestructura de recarga de vehículos eléctricos: conjunto de dispositivos físicos y lógicos, destinados a\nla recarga de vehículos eléctricos que cumplan los requisitos de seguridad y disponibilidad previstos para\ncada caso por el Reglamento electrotécnico de baja tensión, con capacidad para prestar servicio de recarga\nde forma completa e integral. Incluye las estaciones de recarga, el sistema de control, canalizaciones\neléctricas, los cuadros eléctricos de mando y protección y los equipos de medida, cuando éstos sean\nexclusivos para la recarga del vehículo eléctrico.\nInvernadero adosado: recinto no acondicionado formado por un cerramiento exterior con un porcentaje alto\nde superficie acristalada que se coloca adyacente a las fachadas de un edificio. El elemento de fachada que\nactúa de separación entre el invernadero y las zonas interiores del edificio puede incluir también\nacristalamientos. Es posible la existencia de una circulación de aire generalmente forzada a través de dicho\n\nDocumento Básico HE Ahorro de energía\nAnejo A. Terminología\n41\nrecinto, bien en forma de recirculación del aire interior o de precalentamiento de aire exterior que se usa para\nventilación. A esta misma categoría pertenecen las galerías y los balcones acristalados.\nLámpara: fuente construida para producir una radiación óptica, generalmente visible.\nLuminaria: aparato que distribuye, filtra o transforma la luz emitida por una o varias lámparas y que, además\nde los accesorios necesarios para fijarlas, protegerlas y conectarlas al circuito eléctrico de alimentación\ncontiene, en su caso, los equipos auxiliares necesarios para su funcionamiento, definida y regulada en la\nnorma UNE EN 60598-1:2015.\nMasa térmica: capacidad de los materiales de almacenar calor. La cantidad de calor almacenado depende\nde la densidad del material y su calor específico.\nMaterial: parte de un producto sin considerar su modo de entrega, forma y dimensiones, sin ningún\nrevestimiento o recubrimiento.\nMedianería: cerramiento que linda con otro edificio ya construido o que se construya a la vez y que conforme\nuna división común. Si el edificio se construye con posterioridad el cerramiento se considerará, a efectos\ntérmicos, una fachada.\nMuro: cerramiento opaco en contacto con el aire exterior o con el terreno cuya inclinación es superior a 60º\nrespecto al plano horizontal (ver Fachada).\nMuro parietodinámico: cerramiento que aprovecha la energía solar para el precalentamiento del aire exterior\nde ventilación. Generalmente está formado por una hoja interior de fábrica, una cámara de aire y una hoja\nexterior acristalada o metálica que absorbe la radiación solar. La circulación del aire puede ser natural\n(termosifón) o forzada.\nMuro Trombe: cerramiento que aprovecha la energía solar para el calentamiento por recirculación del aire\ninterior del edificio. Generalmente está formado por una hoja interior de fábrica, una cámara de aire y un\nacristalamiento exterior. La circulación del aire puede ser natural (termosifón) o forzada. También se denomina\nmuro solar ventilado.\nPartición interior: elemento constructivo del edificio que divide su interior en recintos independientes. Pueden\nser verticales u horizontales (suelos y techos).\nEn la intervención en edificios existentes, cuando un elemento de cerramiento separe una zona ampliada\nrespecto a otra existente, se considerará perteneciente a la zona ampliada.\nPerfil de uso: descripción hora a hora, para un año tipo, de las cargas internas (carga sensible por ocupación,\ncarga latente por ocupación, equipos, iluminación y ventilación).\nPeriodo de utilización: tiempo característico de utilización de un espacio habitable o del edificio. A efectos\nde la definición de perfiles de uso se establecen periodos de utilización tipo de 8h, 12h, 16h y 24h.\nPara edificios de uso residencial privado se establece un periodo de utilización de 24h.\nPermeabilidad al aire: propiedad de una superficie (p.e., una ventana o puerta) de dejar pasar el aire cuando\nse encuentra sometida a una diferencia de presiones entre sus caras. La permeabilidad al aire se caracteriza\npor la capacidad de paso del aire, expresada en m3/h·m2, en función de la diferencia de presiones.\nPotencia a instalar: la potencia instalada se corresponderá con la potencia activa máxima que puede\nalcanzar una unidad de producción y vendrá determinada por la potencia menor de las especificadas en la\nplacas de características de los grupos motor, turbina o alternador instalados en serie, o en su caso, cuando\nla instalación esté configurada por varios motores, turbinas o alternadores en paralelo será la menor de las\nsumas de las potencias de las placas de características de los motores, turbinas o alternadores que se\nencuentren en paralelo.\nEn el caso de instalaciones fotovoltaicas la potencia instalada será la suma de las potencias máximas unitarias\nde los módulos fotovoltaicos que configuran dicha instalación, medidas en condiciones estándar según la\nnorma UNE-EN 61215:2006 para módulos de silicio cristalino o la norma UNE-EN 61646:2009 para módulos\nde lámina delgada.\n\nDocumento Básico HE Ahorro de energía",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

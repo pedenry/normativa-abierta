@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0052",
+  "ruta_oficial": "3",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 3 Número de salidas y longitud de los recorridos de evacuación",
+  "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+  "nivel": 2,
+  "parent_id": "a0048",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 24,
+   "bbox": [
+    70.9,
+    490.8,
+    523.5,
+    506.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "809aced10d00ef03814068171dd90852391ac5aba2c1dcf3f05b802fbf0a3297",
+   "literal": "3 Número de salidas y longitud de los recorridos de evacuación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0020",
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Número de salidas y longitud de los recorridos de evacuación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 3 Número de salidas y longitud de los recorridos de evacuación",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c84525f9c1d299d0f235e47714e1ac4919a8213b8da9cc248a97fcff81f436ae"
+ },
+ "paginas": [
+  24,
+  25
+ ],
+ "etiquetas_impresas": [
+  "24",
+  "25"
+ ],
+ "tipos": [
+  "excepciones",
+  "figuras"
+ ],
+ "texto": "Número de salidas y longitud de los recorridos de evacuación\n1\nEn la tabla 3.1 se indica el número de salidas que debe haber en cada caso, como mínimo, así como\nla longitud de los recorridos de evacuación hasta ellas.\nTabla 3.1. Número de salidas de planta y longitud de los recorridos de evacuación(1)\nNúmero de salidas\nexistentes\nCondiciones\nPlantas o recintos que\ndisponen de una única\nsalida de planta o salida\nde recinto respectiva-\nmente\nNo se admite en:\n-\nuso Hospitalario,enlas plantas de hospitalización o de tratamiento intensivo, así\ncomo en salas o unidades para pacientes hospitalizados cuya superficie construida\nexceda de 90 m2.\nLa ocupación no excede de 100 personas, excepto en los casos que se indican a conti-\nnuación:\n-\n500 personas en el conjunto del edificio, en el caso de salida de un edificio de\nviviendas;\n-\n50 personas en zonas desde las que la evacuación hasta una salida de planta\ndeba salvar una altura mayor que 2 m en sentido ascendente;\n-\n50 alumnos en escuelas infantiles, o de enseñanza primaria o secundaria.\n\nDocumento Básico SI en caso de Incendio\nSI 3. Evacuación de ocupantes\n25\nLa longitud de los recorridos de evacuación hasta una salida de planta no excede de 25\nm, excepto en los casos que se indican a continuación:\n-\n35 m en uso Aparcamiento;\n-\n50 m si se trata de una planta, incluso de uso Aparcamiento, que tiene una salida\ndirecta al espacio exterior seguro y la ocupación no excede de 25 personas, o bien\nde un espacio al aire libre en el que el riesgo de incendio sea irrelevante, por ejem-\nplo, una cubierta de edificio, una terraza, etc.\nLa altura de evacuación descendente de la planta considerada no excede de 28 m,\nexcepto en uso Residencial Público, en cuyo caso es, como máximo, la segunda planta\npor encima de la de salida de edificio(2), o de 10 m cuando la evacuación sea ascenden-\nte.\nPlantas o recintos que\ndisponen de más de una\nsalida de planta o salida\nde recinto respectiva-\nmente (3)\nLa longitud de los recorridos de evacuación hasta alguna salida de planta no excede de\n50 m, excepto en los casos que se indican a continuación:\n-\n35 m en zonas en las que se prevea la presencia de ocupantes que duermen, o en\nplantas de hospitalización o de tratamiento intensivo en uso Hospitalario y en plan-\ntas de escuela infantil o de enseñanza primaria.\n-\n75 m en espacios al aire libre en los que el riesgo de declaración de un incendio\nsea irrelevante, por ejemplo, una cubierta de edificio, una terraza, etc.\nLa longitud de los recorridos de evacuación desde su origen hasta llegar a algún punto\ndesde el cual existan al menos dos recorridos alternativos no excede de 15 men plan-\ntas de hospitalización o de tratamiento intensivo en uso Hospitalario o de la longitud\nmáxima admisible cuando se dispone de una sola salida, en el resto de los casos.\nSi la altura de evacuación descendente de la planta obliga a que exista más de una\nsalida de planta o si más de 50 personas precisan salvar en sentido ascendente una\naltura de evacuación mayor que 2 m, al menos dos salidas de planta conducen a dos\nescaleras diferentes.\n(1)\nLa longitud de los recorridos de evacuación que se indican se puede aumentar un 25% cuando se trate de sectores de\nincendio protegidos con una instalación automática de extinción.\n(2)\nSi el establecimiento no excede de 20 plazas de alojamiento y está dotado de un sistema de detección y alarma, puede\naplicarse el límite general de 28 m de altura de evacuación.\n(3) La planta de salida del edificio debe contar con más de una salida:\n-\nen el caso de edificios de Uso Residencial Vivienda, cuando la ocupación total del edificio exceda de 500 personas.\n-\nen el resto de los usos, cuando le sea exigible considerando únicamente la ocupación de dicha planta, o bien cuando\nel edificio esté obligado a tener más de una escalera para la evacuación descendente o más de una para evacuación\nascendente.\n4",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0024.png",
+  "../figura/p0025.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

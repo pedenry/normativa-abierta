@@ -1,0 +1,142 @@
+{
+ "documento": null,
+ "pagina": 68,
+ "etiqueta_impresa": "5",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-63",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    466.4
+   ],
+   "tipo": "texto",
+   "texto": "5\nEn el cálculo de elementos de contención, sobre todo en los provisionales, se tendrán en cuenta las\nposibles variaciones espaciales y temporales de la temperatura. Esto puede ser de especial impor-\ntancia por su repercusión en la tensión de los codales.\n6\nEl cálculo de un elemento de contención constituye un proceso iterativo en el que, partiendo de su\ndimensionado previo, se comprueba si la seguridad para resistir las diversas acciones es suficiente,\nmodificando el diseño en caso contrario.\n7\nLas acciones principales a considerar son:\na)\nel peso propio del elemento de contención, de acuerdo con el material previsto para su ejecu-\nción;\nb)\nel empuje y peso del terreno circundante, teniendo en cuenta la posición del nivel freático;\nc)\nlos empujes debidos al agua, bien en forma de presión intersticial, subpresión o presión de fil-\ntración;\nd)\nlas sobrecargas sobre la estructura de contención o sobre el terreno de trasdós;\ne)\nlos efectos sísmicos, cuando sea necesaria su previsión por la zona de emplazamiento de la\nestructura de contención;\nf)\nexcepcionalmente, los empujes de terrenos expansivos, los debidos a la congelación del agua\nen el suelo, los inducidos por la compactación del relleno o las incidencias constructivas previ-\nsibles.\n8\nEl cálculo de empujes para el análisis de estados límite últimos se basa generalmente en la hipó-\ntesis de que existe suficiente rotación o traslación del elemento de contención para llegar a un esta-\ndo de rotura. Esto se debe tener en cuenta en los casos en los que existan construcciones o servi-\ncios en su entorno.\n9\nLos estados de empuje dependen del desplazamiento del terreno y son los siguientes:\na)\nempuje activo: cuando el elemento de contención gira o se desplaza hacia el exterior bajo las\npresiones del relleno o la deformación de su cimentación hasta alcanzar unas condiciones de\nempuje mínimo;\nb)\nempuje pasivo: cuando el elemento de contención es comprimido contra el terreno por las car-\ngas transmitidas por una estructura u otro efecto similar hasta alcanzar unas condiciones de\nmáximo empuje;\nc)\nempuje en reposo: cuando se produce un estado intermedio que es el correspondiente al es-\ntado tensional inicial en el terreno.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    488.1,
+    217.7,
+    500.1
+   ],
+   "tipo": "titulo",
+   "texto": "6.2.2 Datos geométricos",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    504.8,
+    541.3,
+    588.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa confirmación geométrica de cálculo debe tomar en consideración las variaciones futuras previsi-\nbles del nivel del terreno, especialmente en coronación o en el pie del elemento de contención.\n2\nEn cálculos de estados límite últimos en los que la estabilidad del elemento de contención dependa\nde la resistencia del terreno frente al mismo, la cota del suelo estabilizante debe reducirse del valor\nnominal en un valor a, que se definirá tomando en consideración el grado de control existente so-\nbre la permanencia de dicho material. En general y salvo justificación, se considerarán los siguien-\ntes valores de a:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    93.6,
+    592.0,
+    541.3,
+    614.9
+   ],
+   "tipo": "texto",
+   "texto": "a)\npantallas: se considerará un valor de a igual al 10% de la altura de la pantalla sobre el fondo\nde excavación, con un máximo de 0,5m;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    618.8,
+    541.3,
+    641.6
+   ],
+   "tipo": "texto",
+   "texto": "b)\nmuros: se considerará un valor de a igual al 10% de la distancia entre el plano de apoyo y el\nfondo de excavación, con un máximo de 0,5m.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    645.5,
+    541.3,
+    680.6
+   ],
+   "tipo": "texto",
+   "texto": "3\nPodrán emplearse valores inferiores de a, o incluso 0, cuando pueda garantizarse la permanencia\nen el tiempo del terreno. Por el contrario, deben emplearse valores superiores de a si la geometría\ndel terreno en el fondo de la excavación es especialmente dudosa.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    702.5,
+    467.0,
+    714.5
+   ],
+   "tipo": "titulo",
+   "texto": "6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    718.4,
+    538.6,
+    755.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl empuje activo Pa se define como la resultante de los empujes unitarios, ’a, que puede determi-\nnarse mediante las siguientes fórmulas:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

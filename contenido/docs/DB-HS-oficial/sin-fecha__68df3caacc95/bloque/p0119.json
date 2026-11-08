@@ -1,0 +1,206 @@
+{
+ "documento": null,
+ "pagina": 119,
+ "etiqueta_impresa": "119",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.1,
+    35.6,
+    367.7,
+    44.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HS Salubridad",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    254.1,
+    43.0,
+    358.2,
+    54.2
+   ],
+   "tipo": "texto",
+   "texto": "HS 5 Evacuación de aguas",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    298.1,
+    797.4,
+    313.6,
+    806.3
+   ],
+   "tipo": "texto",
+   "texto": "119",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    71.3,
+    489.9,
+    86.9
+   ],
+   "tipo": "titulo",
+   "texto": "4.2 Dimensionado de la red de evacuación de aguas pluviales",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    107.3,
+    541.4,
+    172.6
+   ],
+   "tipo": "texto",
+   "texto": "4.2.1 Red de pequeña evacuación de aguas pluviales\n1\nEl área de la superficie de paso del elemento filtrante de una caldereta debe estar comprendida\nentre 1,5 y 2 veces la sección recta de la tubería a la que se conecta.\n2\nEl número mínimo de sumideros que deben disponerse es el indicado en la tabla 4.6, en función de\nla superficie proyectada horizontalmente de la cubierta a la que sirven.",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    110.2,
+    175.9,
+    458.7,
+    195.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.6 Número de sumideros en función de la superficie de cubierta\nSuperficie de cubierta en proyección horizontal (m",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    185.5,
+    541.4,
+    298.2
+   ],
+   "tipo": "texto",
+   "texto": "2)\nNúmero de sumideros\nS < 100\n2\n100 S < 200\n3\n200  S < 500\n4\nS > 500\n1 cada 150 m\n2\n3\nEl número de puntos de recogida debe ser suficiente para que no haya desniveles mayores que 150\nmm y pendientes máximas del 0,5 %, y para evitar una sobrecarga excesiva de la cubierta.\n4\nCuando por razones de diseño no se instalen estos puntos de recogida debe preverse de algún\nmodo la evacuación de las aguas de precipitación, como por ejemplo colocando rebosaderos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    318.7,
+    541.4,
+    384.0
+   ],
+   "tipo": "texto",
+   "texto": "4.2.2 Canalones\n1\nEl diámetro nominal del canalón de evacuación de aguas pluviales de sección semicircular para una\nintensidad pluviométrica de 100 mm/h se obtiene en la tabla 4.7 en función de su pendiente y de la\nsuperficie a la que sirve.",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    135.0,
+    387.3,
+    468.8,
+    407.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.7 Diámetro del canalón para un régimen pluviométrico de 100 mm/h\nMáxima superficie de cubierta en proyección horizontal (m",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    358.1,
+    396.8,
+    532.1,
+    411.9
+   ],
+   "tipo": "texto",
+   "texto": "2)\nDiámetro nominal del canalón",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    407.9,
+    541.4,
+    591.4
+   ],
+   "tipo": "texto",
+   "texto": "(mm)\nPendiente del canalón\n0.5 %\n1 %\n2 %\n4 %\n35\n45\n65\n95\n100\n60\n80\n115\n165\n125\n90\n125\n175\n255\n150\n185\n260\n370\n520\n200\n335\n475\n670\n930\n250\n2\nPara un régimen con intensidad pluviométrica diferente de 100 mm/h (véase el Anexo B), debe apli-\ncarse un factor f de corrección a la superficie servida tal que:\nf = i / 100\n(4.1)\nsiendo\ni\nla intensidad pluviométrica que se quiere considerar.\n3\nSi la sección adoptada para el canalón no fuese semicircular, la sección cuadrangular equivalente\ndebe ser un 10 % superior a la obtenida como sección semicircular.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    611.9,
+    541.4,
+    665.7
+   ],
+   "tipo": "texto",
+   "texto": "4.2.3 Bajantes de aguas pluviales\n1\nEl diámetro correspondiente a la superficie, en proyección horizontal, servida por cada bajante de\naguas pluviales se obtiene en la tabla 4.8:",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    94.4,
+    666.0,
+    517.7,
+    676.1
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.8 Diámetro de las bajantes de aguas pluviales para un régimen pluviométrico de 100 mm/h",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    102.1,
+    676.9,
+    279.9,
+    685.8
+   ],
+   "tipo": "texto",
+   "texto": "Superficie en proyección horizontal servida (m",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    183.7,
+    675.6,
+    486.0,
+    759.8
+   ],
+   "tipo": "texto",
+   "texto": "2)\nDiámetro nominal de la  bajante (mm)\n65\n50\n113\n63\n177\n75\n318\n90\n580\n110\n805\n125\n1.544\n160\n2.700\n200",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0166",
+  "ruta_oficial": null,
+  "ruta_semantica": "B.2 Unidades",
+  "titulo": "B.2 Unidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "B.2 Unidades",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 109,
+   "bbox": [
+    70.9,
+    130.8,
+    150.3,
+    142.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4c0b95b6388addd4fd40f780b5f35a0bf263ea03792d860ae25d9ecd2e65379e",
+   "literal": "B.2 Unidades"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.2 Unidades",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo B. Notación y unidades B.1 Notación / B.2 Unidades",
+   "seccion_estimada": "Anejo B. Notación y unidades B.1 Notación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dc73ce83d31aa12bdc4e06dd27e1313670d377e563ff56cd3608b47353041cf1"
+ },
+ "paginas": [
+  109,
+  111
+ ],
+ "etiquetas_impresas": [
+  "3",
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "B.2 Unidades\n1\nSe utiliza el Sistema Internacional de Unidades de Medida, SI.\n2\nPara los cálculos se recomienda el uso de las unidades siguientes:\n- fuerzas y cargas:\nkN, kN/m, kN/m²\n- masa:\nkg\n- longitud:\nm, mm\n- tensiones:\nN/mm²\n- momentos:\nkN ·m\n3\nA efectos prácticos se podrá considerar la siguiente correspondencia entre las unidades de fuerza\nde los sistemas MKS y SI: 1 kilopondio [1 kp] = 10 Newton [10 N]\n\nDocumentoBásico SE-M Madera\nSE-M 105",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0111_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0111.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

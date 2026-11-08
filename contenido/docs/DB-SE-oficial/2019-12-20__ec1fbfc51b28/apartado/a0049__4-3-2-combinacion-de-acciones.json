@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0049",
+  "ruta_oficial": "4.3.2",
+  "ruta_semantica": "4.3.2 Combinación de acciones",
+  "titulo": "4.3.2 Combinación de acciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3.2 Combinación de acciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 18,
+   "bbox": [
+    70.9,
+    72.2,
+    222.1,
+    82.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d46ee2f22fa3518c8057b3432cb8e8e75adb8c3526c608808bd5f94c49e7a220",
+   "literal": "4.3.2 Combinación de acciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0050",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.2 Combinación de acciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades / 4.3 Aptitud al servicio 4.3.1 Verificaciones / 4.3.2 Combinación de acciones",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d0c21a8ffee4279e6a936f8fc98505ca573e42ad089701570040100ef9b98a84"
+ },
+ "paginas": [
+  18
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "4.3.2 Combinación de acciones\n1\nPara cada situación de dimensionado y criterio considerado, los efectos de las acciones se determi-\nnarán a partir de la correspondiente combinación de acciones e influencias simultáneas, de acuerdo\ncon los criterios que se establecen a continuación.\n2\nLos efectos debidos a las acciones de corta duración que pueden resultar irreversibles, se determi-\nnan mediante combinaciones de acciones, del tipo denominado característica, a partir de la expre-\nsión\n\n\n\n\n\n\n\n\n\n1\nj\n1\ni\ni\nk,\ni\n0,\nk,1\nj\nk,\nQ\nQ\nP\nG\n(4.6)\nEs decir, considerando la actuación simultánea de:\na)\ntodas las acciones permanentes, en valor característico ( Gk );\nb)\nuna acción variable cualquiera, en valor característico ( Qk ), debiendo adoptarse como tal una\ntras otra sucesivamente en distintos análisis;\nc)\nel resto de las acciones variables, en valor de combinación (0 · Qk ).\n3\nLos efectos debidos a las acciones de corta duración que pueden resultar reversibles, se determi-\nnan mediante combinaciones de acciones, del tipo denominado frecuente, a partir de la expresión\n\n\n\n\n\n\n\n\n\n\n\n1\nj\n1\ni\ni\nk,\ni\n2,\nk,1\n1,1\nj\nk,\nQ\nQ\nP\nG\n(4.7)\nsiendo\nEs decir, considerando la actuación simultánea de:\na)\ntodas las acciones permanentes, en valor característico ( Gk );\nb)\nuna acción variable cualquiera, en valor frecuente ( 1 Qk ), debiendo adoptarse como tal una\ntras otra sucesivamente en distintos análisis;\nc)\nel resto de las acciones variables, en valor casi permanente (2 · Qk ).\n4\nLos efectos debidos a las acciones de larga duración, se determinan mediante combinaciones de\nacciones, del tipo denominado casi permanente, a partir de la expresión\n\n\n\n\n\n\n\n\n1\nj\n1\ni\ni\nk,\ni\n2,\nj\nk,\nQ\nP\nG\n(4.8)\nsiendo:\na)\ntodas las acciones permanentes, en valor característico ( Gk );\nb)\ntodas las acciones variables, en valor casi permanente ( 2 Qk ).",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

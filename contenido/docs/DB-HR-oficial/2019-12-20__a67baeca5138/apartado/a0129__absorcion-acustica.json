@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0129",
+  "ruta_oficial": null,
+  "ruta_semantica": "absorción acústica",
+  "titulo": "absorción acústica",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "absorción acústica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 79,
+   "bbox": [
+    70.9,
+    591.6,
+    490.6,
+    612.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6b5dabe5b9f54f648e07b91eff6915622e4c7bbbbdd0390fa643bc07670b9984",
+   "literal": "absorción acústica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "absorción acústica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo K Fichas justificativas K.1 / absorción acústica",
+   "seccion_estimada": "Anejo K Fichas justificativas K.1",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6d67f87efc03f9d2cf497d78ab0c23e8490ab9e8fc70951326e1c841d88f36d8"
+ },
+ "paginas": [
+  79,
+  80
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "absorción acústica\nLa tabla siguiente recoge la ficha justificativa del cumplimiento de los valores límite de tiempo de reverbe-\nración y de absorción acústica mediante el método de cálculo\nTipo de recinto:....................................................................................\nVolumen, V (m3):\nElemento\nAcabado\nS\nÁrea,\n(m2)\nm\nCoeficiente de absorción acústi-\nca medio\nAbsorción acús-\ntica (m2)\nS\nm \n\n500\n1000\n2000\nm\nSuelo\nTecho\nParamentos\nObjetos(1)\nTipo\nÁrea de absorción acústica equi-\nvalente media,\nm\n,\nO\nA\n(m2)\nN\nA\nm\n,\nO\n\n500\n1000\n2000\nm\n,\nO\nA\nAbsorción aire (2)\nCoeficiente de atenuación del aire,\nm\nm\n(m-1)\nV\nmm \n\n4\n500\n1000\n2000\nm\nm\n0,003\n0,005\n0,01\n0,006\nA, (m2)\nAbsorción acústica del recinto resultante\nV\nm\nA\nS\nA\nm\nN\nj\nj\nm\nO\nn\ni\ni\ni\nm\n\n\n+\n+\n=\n\n\n=\n=\n4\n·\n1\n,\n,\n1\n,\n\nT, (s)\nTiempo de reverberación resultante\nA\nV\n16\n,0\nT=\nAbsorción acústica resultante de la zona común\nAbsorción acústica exigida\nA (m2)=\n≥\n=0,2·V\nTiempo de reverberación resultante\nTiempo de reverberación exigido\nT (s)=\n≤\n(1)\nSólo para salas de conferencias de volumen hasta 350 m3\n(2)\nSólo para volúmenes mayores a 250 m3\n\nDocumento Básico HR - Protección frente al ruido\nHR K-6",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0079_t01.json",
+  "../tabla/p0080_t01.json",
+  "../tabla/p0080_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0079.png",
+  "../figura/p0080.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

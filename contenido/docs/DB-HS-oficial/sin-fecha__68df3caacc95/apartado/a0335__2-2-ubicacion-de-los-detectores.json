@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0335",
+  "ruta_oficial": "2.2",
+  "ruta_semantica": "2.2 Ubicación de los detectores",
+  "titulo": "2.2 Ubicación de los detectores",
+  "nivel": 1,
+  "parent_id": "a0333",
+  "seccion_estimada": "2.2 Ubicación de los detectores",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 181,
+   "bbox": [
+    70.9,
+    675.6,
+    255.0,
+    689.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f29c94536731e0442bdbc3d97ec22e03f75f9f156b5cd4e2535f1544dbce787a",
+   "literal": "2.2 Ubicación de los detectores"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0333",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2 Ubicación de los detectores",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0333",
+   "ruta_semantica": "2 Muestreo / 2.2 Ubicación de los detectores",
+   "seccion_estimada": "2 Muestreo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4b9890933d8e1fc791f569cb8ad522d82b1b12dc7405704dc94fca21463f0efe"
+ },
+ "paginas": [
+  181,
+  182
+ ],
+ "etiquetas_impresas": [
+  "181",
+  "182"
+ ],
+ "tipos": [],
+ "texto": "2.2 Ubicación de los detectores\n1\nLa localización de los detectores en cada zona de muestreo deberá elegirse de forma que sea\nrepresentativa de las estancias donde la permanencia de las personas sea más elevada (por\nejemplo, en viviendas, en dormitorios y salas de estar).\n\nDocumento Básico HS Salubridad\nHS 6 Protección frente a la exposición al radón\n182\n2\nLa ubicación exacta de los detectores dentro de cada zona de muestreo, se establecerá en función\nde la configuración espacial de cada planta, vivienda o local, teniendo en cuenta las características\nde los sistemas de calefacción, refrigeración y ventilación, y, en especial, la distribución de entradas,\nsalidas de aire, puertas y ventanas.\n3\nMediante esquema gráfico del edificio y plano de cada planta, se mostrarán la ubicación de cada\ndetector; la distribución de las zonas de muestreo y la localización de los sistemas de calefacción y\nrefrigeración, las entradas y salidas de aire del sistema de ventilación y las puertas y las ventanas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

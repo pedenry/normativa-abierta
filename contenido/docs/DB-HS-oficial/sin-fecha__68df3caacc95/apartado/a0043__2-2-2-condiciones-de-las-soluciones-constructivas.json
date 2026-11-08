@@ -1,0 +1,100 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0043",
+  "ruta_oficial": "2.2.2",
+  "ruta_semantica": "2.2.2 Condiciones de las soluciones constructivas",
+  "titulo": "2.2.2 Condiciones de las soluciones constructivas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2.2 Condiciones de las soluciones constructivas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    70.9,
+    618.4,
+    316.0,
+    629.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4aad0ca1ea5ebe64374039e72998dfc9e27d9283ba88e90f9d1e5c7cd3e2c50a",
+   "literal": "2.2.2 Condiciones de las soluciones constructivas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado\n2.2.3.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2.2 Condiciones de las soluciones constructivas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.2 Suelos 2.2.1 Grado de impermeabilidad / 2.2.2 Condiciones de las soluciones constructivas",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "301ede79673152d44116aecfaae3eda9bcd9c9f45279ce00125081a1e712e123"
+ },
+ "paginas": [
+  15,
+  16,
+  17
+ ],
+ "etiquetas_impresas": [
+  "15",
+  "16",
+  "17"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.2.2 Condiciones de las soluciones constructivas\n1\nLas condiciones exigidas a cada solución constructiva, en función del tipo de muro, del tipo de sue-\nlo, del tipo de intervención en el terreno y del grado de impermeabilidad, se obtienen en la tabla 2.4.\nLas casillas sombreadas se refieren a soluciones que no se consideran aceptables y las casillas en\nblanco a soluciones a las que no se les exige ninguna condición para los grados de impermeabili-\ndad correspondientes.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n16\nTabla 2.4 Condiciones de las soluciones de suelo\nMuro flexorresistente o de gravedad\nSuelo elevado\nSolera\nPlaca\nSub-base\nInyeccio-\nnes\nSin inter-\nvención\nSub-base\nInyeccio-\nnes\nSin inter-\nvención\nSub-base\nInyeccio-\nnes\nSin inter-\nvención\nGrado de impermeabilidad\n≤1\nV1\nD1\nC2+C3+D1\nD1\nC2+C3+D1\n≤2\nC2\nV1\nC2+C3\nC2+C3+D1\nC2+C3+D1\nC2+C3\nC2+C3+D1\nC2+C3+D1\n≤3\nI2+S1+S3+\nV1\nI2+S1+S3+\nV1\nI2+S1+S3+\nV1+D3+D4\nC1+C2+C3\n+I2+D1+D2\n+S1+S2+S3\nC1+C2+C3\n+I2+D1+D2\n+S1+S2+S3\nC2+C3+I2+\nD1+D2+C1\n+S1+S2+S3\nC2+C3+I2+\nD1+D2+C1\n+S1+S2+S3\nC1+C2+C3\n+I2+D1+D2\n+S1+S2+S3\nC1+C2+I2+\n+D1+D2+S1\n+S2+S3\n≤4\nI2+S1+S3+\nV1\nI2+S1+S3+\nV1+D4\nC2+C3+I2+\nD1+D2+P2+\nS1+S2+S3\nC2+C3+I2+\nD1+D2+P2+\nS1+S2+S3\nC1+C2+C3\n+I1+I2+D1+\nD2+D3+D4\n+P1+P2+S1\n+S2+S3\nC2+C3+I2+\nD1+D2+P2+\nS1+S2+S3\nC2+C3+I2+\nD1+D2+P2+\nS1+S2+S3\nC1+C2+C3\n+D1+D2+D\n3+D4+I1+I2\n+P1+P2+S1\n+S2+S3\n≤5\nI2+S1+S3+\nV1+D3\nI2+P1+S1+\nS3+V1+D3\nC2+C3+I2+\nD1+D2+P2+\nS1+S2+S3\nC2+C3+I1+I\n2+D1+D2+P\n1+P2+S1+S\n2+S3\nC2+C3+D1\n+D2+I2+P2\n+S1+S2+S3\nC2+C3+I1+I\n2+D1+D2+P\n1+P2+S1+S\n2+S3\nC1+C2+C3\n+I1+I2+D1+\nD2+D3+D4\n+P1+P2+S1\n+S2+S3\nMuro pantalla\nSuelo elevado\nSolera\nPlaca\nSub-base\nInyeccio-\nnes\nSin inter-\nvención\nSub-base\nInyeccio-\nnes\nSin inter-\nvención\nSub-base\nInyeccio-\nnes\nSin inter-\nvención\nGrado de impermeabilidad\n≤1\nV1\nD1\nC2+C3+D1\nC2+C3+D1\n≤2\nV1\nC2+C3\nC2+C3+D1\nC2+C3+D1\nC2+C3\nC2+C3+D1\nC2+C3+D1\n≤3\nS3+V1\nS3+V1\nS3+V1\nC1+C2+C3\n+D1+P2+S2\n+S3\nC1+C2+C3\n+D1+P2+S2\n+S3\nC1+C2+C3\n+D1+D4+P2\n+S2+S3\nC1+C2+C3\n+D1+D2+D\n4+P2+S2+S\n3\nC1+C2+C3\n+D1+D2+P2\n+S2+S3\nC1+C2+C3\n+D1+D2+D\n3+D4+P2+S\n2+S3\n≤4\nS3+V1\nD4+S3+V1\nD3+D4+S3+\nV1\nC2+C3+D1\n+S2+S3\nC2+C3+D1\n+S2+S3\nC1+C3+I1+\nD2+D3+P1+\nS2+S3\nC2+C3+S2+\nS3\nC2+C3+D1\n+D2+S2+S3\nC1+C2+C3\n+I1+D1+D2\n+D3+D4+P1\n+S2+S3\n≤5\nS3+V1\nD3+D4+S3+\nV1\nC2+C3+D1\n+P2+S2+S3\nC2+C3+D1\n+P2+S2+S3\nC1+C2+C3\n+I1+D1+D2\n+D3+D4+P1\n+P2+S2+S3\nC2+C3+P2+\nS2+S3\nC2+C3+D1\n+D2+P2+S2\n+S3\nC1+C2+C3\n+I1+D1+D2\n+D3+D4+P1\n+P2+S2+S3\n2\nA continuación se describen las condiciones agrupadas en bloques homogéneos.\nC) Constitución del suelo:\nC1\nCuando el suelo se construya in situ debe utilizarse hormigón hidrófugo de elevada com-\npacidad.\nC2\nCuando el suelo se construya in situ debe utilizarse hormigón de retracción moderada.\nC3\nDebe realizarse una hidrofugación complementaria del suelo mediante la aplicación de un\nproducto líquido colmatador de poros sobre la superficie terminada del mismo.\nI)\nImpermeabilización:\nI1\nDebe impermeabilizarse el suelo externamente mediante la disposición de una lámina\nsobre la capa base de regulación del terreno.\nSi la lámina es adherida debe disponerse una capa antipunzonamiento por encima de\nella.\nSi la lámina es no adherida ésta debe protegerse por ambas caras con sendas capas an-\ntipunzonamiento.\nCuando el suelo sea una placa, la lámina debe ser doble.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n17\nI2\nDebe impermeabilizarse, mediante la disposición sobre la capa de hormigón de limpieza\nde una lámina, la base de la zapata en el caso de muro flexorresistente y la base del mu-\nro en el caso de muro por gravedad.\nSi la lámina es adherida debe disponerse una capa antipunzonamiento por encima de\nella.\nSi la lámina es no adherida ésta debe protegerse por ambas caras con sendas capas an-\ntipunzonamiento.\nDeben sellarse los encuentros de la lámina de impermeabilización del suelo con la de la\nbase del muro o zapata.\nD) Drenaje y evacuación:\nD1\nDebe disponerse una capa drenante y una capa filtrante sobre el terreno situado bajo el\nsuelo. En el caso de que se utilice como capa drenante un encachado, debe disponerse\nuna lámina de polietileno por encima de ella.\nD2\nDeben colocarse tubos drenantes, conectados a la red de saneamiento o a cualquier sis-\ntema de recogida para su reutilización posterior, en el terreno situado bajo el suelo y,\ncuando dicha conexión esté situada por encima de la red de drenaje, al menos una cáma-\nra de bombeo con dos bombas de achique.\nD3\nDeben colocarse tubos drenantes, conectados a la red de saneamiento o a cualquier sis-\ntema de recogida para su reutilización posterior, en la base del muro y, cuando dicha co-\nnexión esté situada por encima de la red de drenaje, al menos una cámara de bombeo\ncon dos bombas de achique.\nEn el caso de muros pantalla los tubos drenantes deben colocarse a un metro por debajo\ndel suelo y repartidos uniformemente junto al muro pantalla.\nD4\nDebe disponerse un pozo drenante por cada 800 m2 en el terreno situado bajo el suelo. El\ndiámetro interior del pozo debe ser como mínimo igual a 70 cm. El pozo debe disponer de\nuna envolvente filtrante capaz de impedir el arrastre de finos del terreno. Deben dispo-\nnerse dos bombas de achique, una conexión para la evacuación a la red de saneamiento\no a cualquier sistema de recogida para su reutilización posterior y un dispositivo automá-\ntico para que el achique sea permanente.\nP) Tratamiento perimétrico:\nP1\nLa superficie del terreno en el perímetro del muro debe tratarse para limitar el aporte de\nagua superficial al terreno mediante la disposición de una acera, una zanja drenante o\ncualquier otro elemento que produzca un efecto análogo.\nP2\nDebe encastrarse el borde de la placa o de la solera en el muro.\nS) Sellado de juntas:\nS1\nDeben sellarse los encuentros de las láminas de impermeabilización del muro con las del\nsuelo y con las dispuestas en la base inferior de las cimentaciones que estén en contacto\ncon el muro.\nS2\nDeben sellarse todas las juntas del suelo con banda de PVC o con perfiles de caucho ex-\npansivo o de bentonita de sodio.\nS3\nDeben sellarse los encuentros entre el suelo y el muro con banda de PVC o con perfiles\nde caucho expansivo o de bentonita de sodio, según lo establecido en el apartado\n2.2.3.1.\nV) Ventilación de la cámara:\nV1\nEl espacio existente entre el suelo elevado y el terreno debe ventilarse hacia el exterior\nmediante aberturas de ventilación repartidas al 50% entre dos paredes enfrentadas, dis-\npuestas regularmente y al tresbolillo. La relación entre el área efectiva total de las abertu-\nras, Ss, en cm2, y la superficie del suelo elevado, As, en m2 debe cumplir la condición:\n30 >\ns\ns\nA\nS\n> 10\n(2.2)\nLa distancia entre aberturas de ventilación contiguas no debe ser mayor que 5 m.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado\n2.2.3.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0015_t01.json",
+  "../tabla/p0016_t01.json",
+  "../tabla/p0016_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0015.png",
+  "../figura/p0016.png",
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

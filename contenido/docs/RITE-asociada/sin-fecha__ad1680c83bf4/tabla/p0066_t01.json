@@ -1,0 +1,167 @@
+{
+ "indice": 1,
+ "pagina": 66,
+ "etiqueta_impresa": "66",
+ "bbox": [
+  190.5,
+  282.0,
+  404.7,
+  331.5
+ ],
+ "filas": 5,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Potencia útil nominal kW",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Calor DN (mm)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Frío DN (mm)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "P ≤ 70",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "15",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "20",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "70 < P ≤ 150",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "20",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "25",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "150 < P ≤ 400",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "25",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 2,
+   "texto": "32",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 0,
+   "texto": "400 < P",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 1,
+   "texto": "32",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 2,
+   "texto": "40",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Potencia útil nominal kW",
+  "Calor DN (mm)",
+  "Frío DN (mm)"
+ ],
+ "header": {
+  "names": [
+   "Potencia útil nominal kW",
+   "Calor DN (mm)",
+   "Frío DN (mm)"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1DF10>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1D640>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1EF00>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1EB70>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1C890>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1EAB0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1F680>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1DA90>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1F770>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1EF60>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1F140>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1CBF0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1E7B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1E570>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1D490>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0066.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

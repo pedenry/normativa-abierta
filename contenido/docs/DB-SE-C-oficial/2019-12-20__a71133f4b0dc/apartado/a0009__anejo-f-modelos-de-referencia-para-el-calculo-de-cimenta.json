@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0009",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención",
+  "titulo": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    70.9,
+    436.5,
+    511.3,
+    449.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ef8e80d3e7ed9a1a43c784f90f968ebb1e53035b44209ccb03c2d850861f834c",
+   "literal": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0016",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención",
+   "seccion_estimada": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "03c7b701eb4fb9721d161932db2c95e4ef3cb4646000afe83a2239b45f09058d"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "Anejo F. Modelos de referencia para el cálculo de cimentaciones y elementos de contención\nF.1. Cimentaciones directas\nF.2. Cimentaciones profundas\nF.3. Elementos de contención",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

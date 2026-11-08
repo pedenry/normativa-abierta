@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0100",
+  "ruta_oficial": "7.3",
+  "ruta_semantica": "7.3 Deslizamiento de uniones",
+  "titulo": "7.3 Deslizamiento de uniones",
+  "nivel": 1,
+  "parent_id": "a0092",
+  "seccion_estimada": "7.3 Deslizamiento de uniones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 59,
+   "bbox": [
+    74.1,
+    287.0,
+    244.7,
+    300.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f654c57e22f3a8dfd25889ccd069de315305ed9a44dd11e39111eedbfac7ebce",
+   "literal": "7.3 Deslizamiento de uniones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0098",
+  "parent_id_original": "a0092",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 7.3.2",
+   "apartado 8.2.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.3 Deslizamiento de uniones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0092",
+   "ruta_semantica": "7 Estados límite de servicio / 7.3 Deslizamiento de uniones",
+   "seccion_estimada": "7 Estados límite de servicio",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c84b5ec0a73a97e7a8974e5ea4b1855320babf956837bbe6cc0156eb00a8572e"
+ },
+ "paginas": [
+  59
+ ],
+ "etiquetas_impresas": [
+  "59"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "7.3 Deslizamiento de uniones\n1\nLa aparición de deslizamiento entre las piezas que integran una unión atornillada es un estado lími-\nte de servicio que no debe alcanzarse en estructuras acogidas a este DB. A tal fin se asegurará\nque el esfuerzo tangencial no supere la capacidad resistente a deslizamiento establecida en el\napartado 7.3.2.\n2\nLas condiciones resistentes que deben cumplir dichas uniones frente a estados límites últimos se\nestablecen en el apartado 8.2.1, con los valores de la resistencia de cálculo a cortante.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 7.3.2",
+  "apartado 8.2.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0059.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0101",
+  "a0102"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

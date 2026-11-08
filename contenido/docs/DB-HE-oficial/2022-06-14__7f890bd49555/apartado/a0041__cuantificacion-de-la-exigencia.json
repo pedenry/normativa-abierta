@@ -1,0 +1,88 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0041",
+  "ruta_oficial": null,
+  "ruta_semantica": "Cuantificación de la exigencia",
+  "titulo": "Cuantificación de la exigencia",
+  "nivel": 1,
+  "parent_id": "a0038",
+  "seccion_estimada": "Cuantificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    56.7,
+    698.0,
+    267.4,
+    711.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d17c7df69749d110a49917c7f857c3386120be3289a068c990124caedce00a18",
+   "literal": "Cuantificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0038",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Cuantificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0038",
+   "ruta_semantica": "Anejo H / Sección HE 1 Condiciones para el control de la demanda energética / Cuantificación de la exigencia",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8fda906c53cd49d1994cd89c5563c1bb966e305a35e0bd981f2a2ce138f43659"
+ },
+ "paginas": [
+  15,
+  16
+ ],
+ "etiquetas_impresas": [
+  "15",
+  "16"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Cuantificación de la exigencia\n3.1\nCondiciones de la envolvente térmica\nLa envolvente térmica del edificio, definida según los criterios del Anejo C, cumplirá las siguientes condiciones:\n\nDocumento Básico HE Ahorro de energía\nHE 1. Condiciones para el control de la demanda energética\n16",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0016_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0016.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

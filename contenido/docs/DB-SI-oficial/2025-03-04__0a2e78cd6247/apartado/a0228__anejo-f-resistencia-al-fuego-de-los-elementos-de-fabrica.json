@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0228",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo F Resistencia al fuego de los elementos de fábrica",
+  "titulo": "Anejo F Resistencia al fuego de los elementos de fábrica",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo F Resistencia al fuego de los elementos de fábrica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 85,
+   "bbox": [
+    70.9,
+    95.2,
+    468.8,
+    110.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "88a8eeb2e944efcfd66c2a7d1af0c968bcd90628e929ae2177e884504b574bdc",
+   "literal": "Anejo F Resistencia al fuego de los elementos de fábrica"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0155",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo F Resistencia al fuego de los elementos de fábrica",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F Resistencia al fuego de los elementos de fábrica",
+   "seccion_estimada": "Anejo F Resistencia al fuego de los elementos de fábrica",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "43ba17d38d641b73429b01611ff08d331a918d65db467d019727e4791c1b9aac"
+ },
+ "paginas": [
+  85
+ ],
+ "etiquetas_impresas": [
+  "85"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo F. Resistencia al fuego de los elementos de fábrica\n85\nAnejo F Resistencia al fuego de los elementos de fábrica\nResistencia al fuego de los elementos de fábrica\nEn las tablas F.1 y F.2 se establece, respectivamente, la resistencia al fuego que aportan los elementos\nde fábrica de ladrillo cerámico o sílico-calcáreo y los de bloques de hormigón, ante la exposición térmica\nsegún la curva normalizada tiempo-temperatura.\nDichas tablas son aplicables solamente a muros y tabiques de una hoja, sin revestir y enfoscados con\nmortero de cemento o guarnecidos con yeso, con espesores de 1,5 cm como mínimo. En el caso de\nsoluciones constructivas formadas por dos o más hojas puede adoptarse como valor de resistencia al\nfuego del conjunto la suma de los valores correspondientes a cada hoja.\nLa clasificación que figura en las tablas para cada elemento no es la única que le caracteriza, sino úni-\ncamente la que está disponible. Por ejemplo, una clasificación EI asignada a un elemento no presupone\nque el mismo carezca de capacidad portante ante la acción del fuego y que, por tanto, no pueda ser cla-\nsificado también como REI, sino simplemente que no se dispone de dicha clasificación.\nTabla F.1. Resistencia al fuego de muros y tabiques de fábrica de ladrillo cerámico o sílico-calcáreo\nTipo de revestimiento\nEspesor e de de la fábrica en mm\nCon ladrillo hueco\nCon ladrillo macizo\no perforado\nCon bloques de\narcilla aligerada\n40≤e<80    80≤e<110    e≥110\n110≤e<200    e≥200\n140≤e<240     e≥240\nSin revestir\n(1)\n(1)\n(1)\nREI-120\nREI-240\n(1)\n(1)\nEnfoscado\nPor la cara expuesta\n(1)\nEI-60\nEI-90\nEI-180\nREI-240\nEI-180\nEI-240\nPor las dos caras\nEI-30\nEI-90\nEI-120\nREI-180\nREI-240\nREI-180\nREI-240\nGuarnecido\nPor la cara expuesta\nEI-60\nEI-120\nEI-180\nEI-240\nREI-240\nEI-240\nEI-240\nPor las dos caras\nEI-90\nEI-180\nEI-240\nEI-240\nREI-240\nEI-240\nRE-240\nREI-180\nREI-240\n(1)\nNo es usual\nTabla F.2. Resistencia al fuego de muros y tabiques de fábrica de bloques de hormigón\nTipo de cámara\nTipo de árido\nTipo de revestimiento\nEspesor nominal\nen mm\nResistencia al\nfuego\nSimple\nSilíceo\nSin revestir\n100\n150\n200\nEI-15\nREI-60\nREI-120\nCalizo\nSin revestir\n100\n150\n200\nEI-60\nREI-90\nREI-180\nVolcánico\nSin revestir\n120\n200\nEI-120\nREI-180\nGuarnecido por las dos caras\n90\nEI-180\nGuarnecido por la cara expuesta\n(enfoscado por la cara exterior)\n120\n200\nEI-180\nREI-240\nDoble\nArcilla expandida Sin revestir\nGuarnecido por las dos caras\n150\n150\nEI-180\nRE-240 / REI-80",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0085.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0229"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

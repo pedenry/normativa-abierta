@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0128",
+  "ruta_oficial": null,
+  "ruta_semantica": "∑p suma de las separaciones verticales entre tornillos;",
+  "titulo": "∑p suma de las separaciones verticales entre tornillos;",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "∑p suma de las separaciones verticales entre tornillos;",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 87,
+   "bbox": [
+    99.2,
+    71.7,
+    358.3,
+    91.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "42cf536c6cfaea6a263a084a55dce1fb8a63386fda33451355e5164366f35f92",
+   "literal": "∑p suma de las separaciones verticales entre tornillos;"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "∑p suma de las separaciones verticales entre tornillos;",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / ∑p suma de las separaciones verticales entre tornillos;",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3cca167f8052311dca16deb5186a32d46fda596b38e90d9bf072cd711b21eb0f"
+ },
+ "paginas": [
+  87
+ ],
+ "etiquetas_impresas": [
+  "87"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "∑p suma de las separaciones verticales entre tornillos;\nEl momento de cálculo que podrá transmitir la unión, será el que se produzca cuando el tornillo\nmás alejado alcance su resistencia de cálculo a tracción, Ft.Rd, y su valor es:\n\n\n\n\n\n\n\n\n+\n=\n3\nc b\n3\nc d\nc\nA\nF\nM\n3\n1\n3\nRd\n,t\nu\n(8.55)\nFigura 8.17 Empalmes con chapa frontal; sección equivalente\nSi en lugar de comportarse de forma rígida toda la unión, únicamente lo hace la parte interior, te-\nniendo la zona exterior un mecanismo de rotura flexible, el momento de cálculo podrá determinarse\nañadiendo al momento obtenido en la forma indicada anteriormente para la parte interior, el mo-\nmento obtenido para los tornillos exteriores con un mecanismo flexible.\nEn este caso la línea neutra que corresponde a una distribución elástica en el interior (figura\n8.17.b) puede determinarse iterativamente mediante la expresión\n\n\n\n\n\nη\n−\n\n\n\n\n\nη\n+\n=\nd\nc\nA\nd\nc\nA\nd\nb\nc\nc\n1\ne\ne\n2\n1\ne\ne\n1\n(8.56)\nen la que ηeAe representa el área equivalente de la fila exterior de tornillos según el modo de rotura\nde menor resistencia (ver modos de rotura en 8.8.3,1.b,c,d):",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0087_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0087.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

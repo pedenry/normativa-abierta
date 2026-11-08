@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0039",
+  "ruta_oficial": "3.3.4",
+  "ruta_semantica": "3.3.4 Materiales",
+  "titulo": "3.3.4 Materiales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3.4 Materiales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    70.9,
+    478.1,
+    147.6,
+    488.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+   "literal": "3.3.4 Materiales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0038",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3.4 Materiales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades / 3.3.4 Materiales",
+   "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "240eb735ca061d908ba16a07812ea5973b9f35ec64345b5dbf9c6d72cd583fa5"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "3.3.4 Materiales\n1\nLas propiedades de la resistencia de los materiales o de los productos se representan por sus valo-\nres característicos.\n2\nEn el caso de que la verificación de algún estado límite resulte sensible a la variabilidad de alguna\nde las propiedades de un material, se considerarán dos valores característicos, superior e inferior,\nde esa propiedad, definidos por el fractil 95% o el 5% según que el efecto sea globalmente desfavo-\nrable o favorable.\n3\nLos valores de las propiedades de los materiales o de los productos podrán determinarse experi-\nmentalmente a través de ensayos. Cuando sea necesario, se aplicará un factor de conversión con\nel fin de extrapolar los valores experimentales en valores que representen el comportamiento del\nmaterial o del producto en la estructura o en el terreno.\n4\nLas propiedades relativas a la rigidez estructural, se representan por su valor medio. No obstante,\ndependiendo de la sensibilidad del comportamiento estructural frente a la variabilidad de estas ca-\nracterísticas, será necesario emplear valores superiores o inferiores al valor medio (por ejemplo en\nel análisis de problemas de inestabilidad). En cualquier caso, se tendrá en cuenta la dependencia\nde estas propiedades respecto de la duración de la aplicación de las acciones.\n5\nA falta de prescripciones en otro sentido, las características relativas a la dilatación térmica se re-\npresentan por su valor medio.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

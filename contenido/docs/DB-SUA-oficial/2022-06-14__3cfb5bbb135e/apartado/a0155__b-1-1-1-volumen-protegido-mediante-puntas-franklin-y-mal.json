@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0155",
+  "ruta_oficial": null,
+  "ruta_semantica": "B.1.1.1 Volumen protegido mediante puntas Franklin y mallas conductoras",
+  "titulo": "B.1.1.1 Volumen protegido mediante puntas Franklin y mallas conductoras",
+  "nivel": 4,
+  "parent_id": "a0154",
+  "seccion_estimada": "B.1.1.1 Volumen protegido mediante puntas Franklin y mallas conductoras",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    295.7,
+    429.2,
+    306.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "6877931184dc08114edde89ec326acbf3c4a25fb5d0f466c17a6a7a10b973046",
+   "literal": "B.1.1.1 Volumen protegido mediante puntas Franklin y mallas conductoras"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0119",
+  "parent_id_original": "a0154",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.1.1.1 Volumen protegido mediante puntas Franklin y mallas conductoras",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0154",
+   "ruta_semantica": "Anejo A. Terminología / B.1.1.1 Volumen protegido mediante puntas Franklin y mallas conductoras",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "764b65aa6d9572c0d577c868d71659c795b0e84a39045a55fe2c96549bc59417"
+ },
+ "paginas": [
+  42
+ ],
+ "etiquetas_impresas": [
+  "42"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Documento Básico SUA Seguridad de utilización y accesibilidad",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0042.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,296 @@
+{
+ "documento": null,
+ "pagina": 15,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-11",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.8,
+    531.6,
+    172.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.4 Resistencia característica a la compresión de fábricas usuales fk (N/mm2)\nResistencia normalizada de las piezas, fb (N/mm2)\n5\n10\n15\n20\n25\nResistencia del mortero, fm  (N/mm2)\n2,5\n3,5\n5\n7,5\n7,5\n10\n10\n15\n15\nLadrillo macizo con junta delgada\n-\n-\n3\n3\n3\n3\n3\n3\n3\nLadrillo macizo\n2\n2\n4\n4\n6\n6\n8\n8\n10\nLadrillo perforado\n2\n2\n4\n4\n5\n6\n7\n8\n9\nBloques aligerados\n2\n2\n3\n4\n5\n5\n6\n7\n8\nBloques huecos\n1\n1\n2\n3\n4\n4\n5\n6\n6",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    178.4,
+    541.5,
+    226.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nCuando la solicitación sea paralela a los tendeles, la resistencia característica a compresión puede\ndeterminarse con el anejo C, adoptando como resistencia normalizada a compresión fb de la pieza la\ncorrespondiente a dicha dirección.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    237.2,
+    210.4,
+    247.2
+   ],
+   "tipo": "texto",
+   "texto": "4.6.3 Resistencia a cortante",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    253.9,
+    541.5,
+    290.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nComo resistencia característica a cortante, fvk, de una fábrica con mortero ordinario y juntas llenas se\npuede tomar:\nmortero ordinario y juntas llenas\nfvk  =  fvko  +  0,36· k      0,065 fb\n(4.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    294.5,
+    541.5,
+    306.0
+   ],
+   "tipo": "texto",
+   "texto": "mortero ordinario y llagas a hueso fvk  =  fvko  +  0,45· k      0,045 fb\n(4.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    309.8,
+    541.4,
+    350.2
+   ],
+   "tipo": "texto",
+   "texto": "mortero ordinario y tendel hueco\nfvk  = fvko g/t + 0,36· kd    0,050 fb\n(4.3)\nsin superar el valor límite de la tabla 4.5, donde:\nfvko  es la resistencia a corte puro, con tensión de compresión nula, que puede determinarse de la",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    115.9,
+    351.7,
+    271.6,
+    361.7
+   ],
+   "tipo": "texto",
+   "texto": "tabla 4.5 para morteros ordinarios;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    93.6,
+    365.6,
+    541.4,
+    377.0
+   ],
+   "tipo": "texto",
+   "texto": "k   si hay compresión, la tensión característica normal media perpendicular a la tabla, debida a la",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    378.5,
+    541.4,
+    541.4
+   ],
+   "tipo": "texto",
+   "texto": "compresión debida a las cargas permanentes sobre el nivel considerado,\nfb\nes la resistencia normalizada a compresión de las piezas de fábrica, con el esfuerzo actuando\nperpendicular a la tabla,\ng/t\nen fábrica de tendeles huecos, la relación de ancho total de las dos bandas de mortero, cada\nuna de ancho no menor de 30 mm, en los bordes exteriores de la pieza, maciza, a ancho total\nde muro. (véase figura 6.4).\n2\nEl cálculo de fvk, en las fábricas de mortero de junta delgada, con piezas de hormigón celular de\nautoclave, silico-calcáreas o de hormigón, se asimila al de piezas del mismo grupo y morteros de M10\na M20.\n2\nEl cálculo de fvk , en fábricas de mortero ligero, se realizará según el primer punto de este apartado,\nadoptando como mortero el M5.\n3\nLa resistencia a cortante puro de la fábrica fvko, cuando contenga barreras antihumedad se determi-\nnará con el mismo criterio utilizado para las fábricas de tendel hueco.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    131.3,
+    556.0,
+    480.6,
+    565.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.5 Resistencia característica a cortante para fábricas de mortero ordinario",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    72.4,
+    571.5,
+    522.9,
+    581.2
+   ],
+   "tipo": "texto",
+   "texto": "Tipo de piezas\nfvko (N/mm2)\nLímite de fvk (N/mm2) (1)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    122.2,
+    588.1,
+    527.3,
+    598.0
+   ],
+   "tipo": "texto",
+   "texto": "Mortero (2)\nM1\nM2,5\nM10\nM1\nM2,5\nM10",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    72.4,
+    603.7,
+    522.2,
+    613.0
+   ],
+   "tipo": "texto",
+   "texto": "macizas\nLadrillo cerámico\n0,1\n0,2\n0,3\n1,2\n1,5\n1,7",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    72.4,
+    620.1,
+    517.4,
+    629.1
+   ],
+   "tipo": "texto",
+   "texto": "Piedra natura\n0,1\n0,15\n-\n1,0\n1,0\n-",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    72.4,
+    636.1,
+    522.2,
+    645.1
+   ],
+   "tipo": "texto",
+   "texto": "Otras\n0,1\n0,15\n0,2\n1,2\n1,5\n1,7",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    72.4,
+    652.7,
+    523.9,
+    661.9
+   ],
+   "tipo": "texto",
+   "texto": "perforadas\nLadrilo cerámico\n0,1\n0,2\n0,3\n1,4*\n1,2*\n1,0*",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    72.4,
+    669.0,
+    523.9,
+    678.0
+   ],
+   "tipo": "texto",
+   "texto": "Otras\n0,1\n0,15\n0,2\n1,4*\n1,2*\n1,0*",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    72.4,
+    685.7,
+    523.9,
+    694.9
+   ],
+   "tipo": "texto",
+   "texto": "aligeradas\n0,1\n0,15\n0,2\n1,4*\n1,2*\n1,0*",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    72.4,
+    702.5,
+    519.5,
+    711.7
+   ],
+   "tipo": "texto",
+   "texto": "huecas\n0,1\n0,2\n0,3\n**\n**\n**",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    80.5,
+    718.8,
+    479.8,
+    755.1
+   ],
+   "tipo": "texto",
+   "texto": "* La menor de las resistencias longitudinales a compresión.\n** Sin más limitaciones que las dadas por la ecuación 4.1\n(1) Para llagas a hueso, o con tendel hueco, el valor es el 70% del consignado\n(2) Para valores intermedios no se interpolará, sino que se empleará la columna correspondiente al valor inferior.",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

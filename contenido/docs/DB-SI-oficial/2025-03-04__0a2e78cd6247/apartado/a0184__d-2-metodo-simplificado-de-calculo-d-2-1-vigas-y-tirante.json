@@ -1,0 +1,69 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0184",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p69",
+  "titulo": "D.2 Método simplificado de cálculo D.2.1 Vigas y tirantes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p69",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p69",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.1 Generalidades / D.2 Método simplificado de cálculo D.2.1 Vigas y tirantes",
+   "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "75872ad9cf94f7b8f76587f4c7f77e405de6808a35d5ae022f747ca5243adc3f"
+ },
+ "paginas": [
+  69
+ ],
+ "etiquetas_impresas": [
+  "69"
+ ],
+ "tipos": [],
+ "texto": "D.2 Método simplificado de cálculo D.2.1 Vigas y tirantes\nD.2.1 Vigas y tirantes\n1\nMediante la Tabla D.1 puede dimensionarse la protección frente al fuego de vigas arriostradas late-\nralmente o tirantes para una determinada resistencia al fuego, siendo:\nfi\ncoeficiente de sobredimensionado, definido en SI 6.\nAm /V\nfactor de forma, siendo:\nAm\nsuperficie expuesta al fuego del elemento por unidad de longitud, la del elemento\nsi no está protegido o la de la cara interior de la protección si está revestido. Se\nconsiderará únicamente la del contorno expuesto en el sectorde incendio anali-\nzado.\nV\nvolumen del elemento de acero por unidad de longitud,\nPara elementos de sección constante, Am/V es igual al cociente entre el perímetro ex-\npuesto y el área de la sección transversal.\nd/pcoeficiente de aislamiento del revestimiento, (m2K/W) obtenido como promedio de las caras ex-\npuestas al fuego, siendo:\nd\nespesor del revestimiento, [m];\np\nconductividad térmica efectiva del revestimiento, para el desarrollo total del tiem-\npo de resistencia a fuego considerado; (W/mK).\nEn materiales de tipo pétreo, cerámico, hormigones, morteros y yesos, se puede\ntomar el valor de p correspondiente a 20 ºC.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0185"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

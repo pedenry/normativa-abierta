@@ -1,0 +1,862 @@
+{
+ "documento": null,
+ "pagina": 40,
+ "etiqueta_impresa": "40",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-38",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    128.2,
+    96.2,
+    141.4,
+    104.0
+   ],
+   "tipo": "texto",
+   "texto": "max",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    125.8,
+    81.8,
+    140.5,
+    102.1
+   ],
+   "tipo": "texto",
+   "texto": "min\nl",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    102.4,
+    76.6,
+    541.0,
+    94.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "l\n=\nν\n(6.22)",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    100.7,
+    112.3,
+    541.5,
+    135.1
+   ],
+   "tipo": "texto",
+   "texto": "y con la fracción de luz de inercia máxima “a” especificada en la propia figura incluida en la tabla.\nLa esbeltez mecánica de cálculo es:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    147.2,
+    164.2,
+    150.7,
+    172.0
+   ],
+   "tipo": "texto",
+   "texto": "k",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    102.4,
+    144.5,
+    541.0,
+    170.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "med\nk\nl\nA\nL\n=\nλ\n(6.23)",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    194.8,
+    177.9,
+    426.9,
+    187.9
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 6.4 Coeficiente C en piezas de sección variable",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    93.7,
+    189.2,
+    473.3,
+    209.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Coeficiente  c siendo\nmax\nmin I/\nI\n=\nν\nVariación de la sección",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    215.0,
+    189.0,
+    227.8,
+    217.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "ν\na",
+   "tamano": 8.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    134.4,
+    217.7,
+    554.6,
+    325.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "0,1\n0,2\n0,3\n0,4\n0,5\n0,6\n0,7\n0,8\n0,9\n1,0\n0,0\n0,1\n0,2\n0,3\n0,4\n0,5\n0,6\n0,7\n0,8\n≥0,9",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    236.8,
+    233.4,
+    259.1,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,121\n0,140\n0,166\n0,203\n0,257\n0,340\n0,477\n0,697\n0,922\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    268.4,
+    233.4,
+    290.6,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,220\n0,247\n0,284\n0,333\n0,403\n0,502\n0,641\n0,814\n0,951\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    302.2,
+    233.4,
+    325.4,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,316\n0,348\n0,391\n0,446\n0,521\n0,620\n0,745\n0,875\n0,966\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    335.0,
+    233.4,
+    360.1,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,412\n0,447\n0,490\n0,547\n0,620\n0,771\n0,815\n0,913\n0,976\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    369.5,
+    233.4,
+    393.5,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,509\n0,542\n0,585\n0,639\n0,705\n0,784\n0,867\n0,938\n0,983\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    403.7,
+    233.4,
+    426.8,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,606\n0,636\n0,675\n0,722\n0,779\n0,843\n0,906\n0,957\n0,988\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    437.0,
+    233.4,
+    460.7,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,703\n0,729\n0,761\n0,800\n0,844\n0,892\n0,936\n0,971\n0,992\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    470.3,
+    233.4,
+    493.8,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,801\n0,820\n0,844\n0,871\n0,902\n0,933\n0,961\n0,983\n0,995\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    504.1,
+    233.4,
+    526.3,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "0,900\n0,911\n0,923\n0,938\n0,953\n0,969\n0,982\n0,992\n0,998\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    536.8,
+    233.4,
+    559.0,
+    325.1
+   ],
+   "tipo": "texto",
+   "texto": "1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    212.3,
+    332.0,
+    230.0,
+    424.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "0,0\n0,1\n0,2\n0,3\n0,4\n0,5\n0,6\n0,7\n0,8\n≥0,9",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    237.8,
+    332.0,
+    260.0,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "0,259\n0,308\n0,371\n0,453\n0,558\n0,686\n0,819\n0,925\n0,982\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    267.4,
+    332.0,
+    289.6,
+    432.9
+   ],
+   "tipo": "texto",
+   "texto": "0,389\n0,448\n0,520\n0,605\n0,702\n0,801\n0,890\n0,954\n0,988\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    303.2,
+    332.0,
+    325.4,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "0,493\n0,555\n0,625\n0,703\n0,784\n0,861\n0,925\n0,968\n0,992\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    337.9,
+    332.0,
+    360.1,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "0,583\n0,643\n0,707\n0,775\n0,841\n0,900\n0,946\n0,978\n0,994\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    371.3,
+    332.0,
+    393.5,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "0,665\n0,719\n0,775\n0,930\n0,883\n0,927\n0,962\n0,984\n0,996\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    404.6,
+    332.0,
+    426.8,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "0,740\n0,786\n0,832\n0,867\n0,915\n0,948\n0,973\n0,989\n0,997\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    438.5,
+    332.0,
+    460.7,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "0,810\n0,846\n0,881\n0,914\n0,942\n0,965\n0,982\n0,992\n0,998\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    471.6,
+    332.0,
+    493.8,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "0,877\n0,902\n0,925\n0,947\n0,965\n0,979\n0,989\n0,996\n0,999\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    504.1,
+    332.0,
+    526.3,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "0,940\n0,953\n0,965\n0,975\n0,984\n0,990\n0,995\n0,998\n0,999\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    536.8,
+    332.0,
+    559.0,
+    423.7
+   ],
+   "tipo": "texto",
+   "texto": "1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    217.0,
+    457.2,
+    559.0,
+    466.1
+   ],
+   "tipo": "texto",
+   "texto": "-\n0,273\n0,402\n0,506\n0,595\n0,676\n0,749\n0,817\n0,882\n0,942\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    217.0,
+    508.5,
+    559.0,
+    517.4
+   ],
+   "tipo": "texto",
+   "texto": "-\n0,536\n0,652\n0,728\n0,786\n0,834\n0,875\n0,911\n0,943\n0,973\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    212.8,
+    534.2,
+    226.1,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,9\n0,8\n0,7\n0,6\n0,5",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    237.8,
+    534.2,
+    260.0,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,221\n0,060\n0,027\n0,016\n0,010",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    267.4,
+    534.2,
+    289.6,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,626\n0,220\n0,105\n0,061\n0,040",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    303.2,
+    534.2,
+    325.4,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,846\n0,421\n0,221\n0,134\n0,090",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    337.9,
+    534.2,
+    360.1,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,924\n0,605\n0,395\n0,231\n0,160",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    371.3,
+    534.2,
+    393.5,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,958\n0,743\n0,502\n0,345\n0,250",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 41,
+   "bbox": [
+    404.6,
+    534.2,
+    426.8,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,976\n0,837\n0,635\n0,472\n0,360",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    438.5,
+    534.2,
+    460.7,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,986\n0,902\n0,753\n0,606\n0,490",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    471.6,
+    534.2,
+    493.8,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,993\n0,946\n0,852\n0,741\n0,640",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 44,
+   "bbox": [
+    504.1,
+    534.2,
+    526.3,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "0,997\n0,977\n0,933\n0,873\n0,810",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 45,
+   "bbox": [
+    536.8,
+    534.2,
+    559.0,
+    579.9
+   ],
+   "tipo": "texto",
+   "texto": "1,000\n1,000\n1,000\n1,000\n1,000",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 46,
+   "bbox": [
+    78.0,
+    600.0,
+    227.6,
+    611.2
+   ],
+   "tipo": "titulo",
+   "texto": "6.3.2.4 Elementos triangulados",
+   "tamano": 10.0,
+   "negrita": true,
+   "nivel": 4
+  },
+  {
+   "i": 47,
+   "bbox": [
+    78.0,
+    619.3,
+    538.6,
+    642.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn celosías espaciales formadas por perfiles huecos atornillados en sus extremos se tomará co-\nmo longitud de pandeo la distancia entre ejes de nudos para cualquier barra.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 48,
+   "bbox": [
+    78.0,
+    648.4,
+    396.3,
+    659.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn vigas planas trianguladas se tomará como longitud de pandeo:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 49,
+   "bbox": [
+    100.7,
+    665.8,
+    490.7,
+    677.1
+   ],
+   "tipo": "texto",
+   "texto": "a)\npara los cordones, pandeo en el plano de la viga, la distancia entre ejes de nudos;",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 50,
+   "bbox": [
+    100.7,
+    683.4,
+    541.4,
+    717.6
+   ],
+   "tipo": "texto",
+   "texto": "b)\npara los cordones, pandeo fuera del plano, la longitud teórica de la barra medida entre pun-\ntos fijos por existir arriostramiento; en caso de no existir puntos fijos, se tratará como una\npieza de compresión variable.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 51,
+   "bbox": [
+    100.7,
+    723.9,
+    538.4,
+    735.1
+   ],
+   "tipo": "texto",
+   "texto": "c)\npara los montantes y diagonales, pandeo en el plano de la viga, la longitud libre entre barras;",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 52,
+   "bbox": [
+    100.7,
+    741.4,
+    522.4,
+    752.6
+   ],
+   "tipo": "texto",
+   "texto": "d)\npara los montantes y diagonales, pandeo fuera del plano, la longitud entre ejes de nudos.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 53,
+   "bbox": [
+    76.6,
+    253.9,
+    195.3,
+    264.2
+   ],
+   "tipo": "texto",
+   "texto": "N\nN",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 54,
+   "bbox": [
+    110.3,
+    273.4,
+    153.7,
+    292.7
+   ],
+   "tipo": "texto",
+   "texto": "L\naL",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 55,
+   "bbox": [
+    97.9,
+    247.5,
+    178.7,
+    258.9
+   ],
+   "tipo": "texto",
+   "texto": "Imax\nImin",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 56,
+   "bbox": [
+    76.6,
+    359.1,
+    197.8,
+    372.0
+   ],
+   "tipo": "texto",
+   "texto": "Imax\nImin\nImin N\nN",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 57,
+   "bbox": [
+    135.5,
+    382.2,
+    146.6,
+    391.1
+   ],
+   "tipo": "texto",
+   "texto": "aL",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 58,
+   "bbox": [
+    136.4,
+    394.0,
+    143.0,
+    402.9
+   ],
+   "tipo": "texto",
+   "texto": "L",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 59,
+   "bbox": [
+    81.5,
+    440.7,
+    199.0,
+    455.3
+   ],
+   "tipo": "texto",
+   "texto": "N\nN\nImax\nParábola",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 60,
+   "bbox": [
+    78.9,
+    489.0,
+    197.5,
+    501.5
+   ],
+   "tipo": "texto",
+   "texto": "N\nN Imin\nParábola\nImin",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 61,
+   "bbox": [
+    133.6,
+    511.8,
+    140.3,
+    520.7
+   ],
+   "tipo": "texto",
+   "texto": "L",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 62,
+   "bbox": [
+    135.4,
+    535.2,
+    147.6,
+    546.4
+   ],
+   "tipo": "texto",
+   "texto": "Imax",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 63,
+   "bbox": [
+    133.0,
+    567.2,
+    179.4,
+    580.7
+   ],
+   "tipo": "texto",
+   "texto": "aL\nL",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 64,
+   "bbox": [
+    81.5,
+    542.1,
+    200.5,
+    551.5
+   ],
+   "tipo": "texto",
+   "texto": "N\nN",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

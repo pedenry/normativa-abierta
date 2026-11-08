@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0114",
+  "ruta_oficial": "8.5.4",
+  "ruta_semantica": "8.5.4 Pasadores",
+  "titulo": "8.5.4 Pasadores",
+  "nivel": 1,
+  "parent_id": "a0110",
+  "seccion_estimada": "8.5.4 Pasadores",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 70,
+   "bbox": [
+    74.1,
+    388.7,
+    152.6,
+    399.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1bd5f0f5b36e1392cc16b8321f42524d08d89a561c59c7bac4acbd05265c851a",
+   "literal": "8.5.4 Pasadores"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0114",
+  "parent_id_original": "a0110",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.5.4 Pasadores",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0110",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.5 Resistencia de los medios de unión. Uniones atornilladas. / 8.5.4 Pasadores",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7c26e45453f43a547ed01d21ab916d39ac3d6d1a6cb1da8f3b5fb0d83f587a4e"
+ },
+ "paginas": [
+  70,
+  71,
+  72
+ ],
+ "etiquetas_impresas": [
+  "70",
+  "71",
+  "72"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.5.4 Pasadores\n1\nSon articulaciones a las que se requiere libertad de giro y están formadas por un pasador que atra-\nviesa chapas agujereadas dispuestas en los elementos a unir.\n2\nEn el caso en que no se requiera libertad de giro y la longitud del pasador sea menor de tres veces\nsu diámetro, podrá comprobarse como si fuese una unión atornillada de un solo tornillo.\n3\nLas chapas de la unión, se dispondrán de forma que se eviten excentricidades y se produzcan las\nmínimas distorsiones en las líneas de fuerza. Sus características geométricas deben cumplir con\nlas limitaciones establecidas en una de las versiones descritas en la figura 8.4., siendo fyd=fy/γM0 la\nresistencia de cálculo del acero de la chapa empleada.\nFigura 8.4 Condiciones geométricas para las chapas de las uniones con pasadores\nFEd\nFEd\nFEd\nd0\nd0\n2,5 d0\nt\nt\n0,3 d0\n1,6 d0\n1,3 d0\nc\na\nFEd\nEspesor prefijado\nGeometría prefijada\n3\nd\ntf\n2\nF\nc\n;\n3\nd\n2\ntf\n2\nF\na\n0\nyd\nEd\n0\nyd\nEd\n+\n≥\n+\n≥\nt\n5,2\nd\n;\nf\nF\n7,0\nt\n0\nyd\nEd\n≤\n≥\n\nDocumentoBásico SE-A Acero\nSE-A-69\n4\nSe verificarán:\na)\nla resistencia a cortante del pasador:\n2\nM\nub\n2\nRd\n,\nV\nEd\n,\nV\nf\n4\n6,0\nF\nF\nγ\nπφ\n=\n≤\n(8.17)\nsiendo\nfub\nresistencia última del acero del pasador.\nφ\ndiámetro del pasador.\nb)\nla resistencia a flexión del pasador\n2\nM\nyb\n3\nRd\nEd\nf\n32\n8,0\nM\nM\nγ\nπφ\n=\n≤\n(8.18)\nc)\nla resistencia al esfuerzo combinado de cortante y flexión en el pasador:\n1\nF\nF\nM\nM\n2\nRd\n,\nV\nEd\n,\nV\n2\nRd\nEd\n≤\n\n\n\n\n\n\n+\n\n\n\n\n\n\n(8.19)\nMEd y FV.Ed son el momento y el esfuerzo cortante de cálculo de la sección considerada:\nd)\nla resistencia a aplastamiento de la chapa\n2\nM\ny\nRd\n,\nb\nEd\n,\nb\nf\nd\nt\n5,1\nF\nF\nγ\n=\n≤\n(8.20)\nsiendo\nFb,Ed\nel esfuerzo transmitido por la chapa considerada al pasador:\nLos esfuerzos en el pasador y en cada una de las chapas se calcularán a partir de las\ndistribuciones de tensión indicadas en la figura 8.5.\n(\n)\na\n2\nc\n4\nb\n8\nF\nM\nEd\nEd\n+\n+\n=\nFigura 8.5 Momento flector en el pasador\n0,5 FEd\n0,5 FEd\nb\nd0\nd\na\nc\nFEd\n\nDocumentoBásico SE-A Acero\nSE-A-70",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0070.png",
+  "../figura/p0071.png",
+  "../figura/p0072.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

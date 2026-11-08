@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0088",
+  "ruta_oficial": "5.2",
+  "ruta_semantica": "5.2  Control de la ejecución",
+  "titulo": "5.2  Control de la ejecución",
+  "nivel": 1,
+  "parent_id": "a0077",
+  "seccion_estimada": "5.2  Control de la ejecución",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 41,
+   "bbox": [
+    70.9,
+    71.4,
+    229.7,
+    84.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d2eb7b0395b1198075a74c1e3e5546f12d9b3392b05982329533b1e78f4a949e",
+   "literal": "5.2  Control de la ejecución"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0077",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "artículo 7"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2  Control de la ejecución",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0077",
+   "ruta_semantica": "5   Construcción / 5.2  Control de la ejecución",
+   "seccion_estimada": "5   Construcción",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7fd603470c6ca7255a5ebe964525f8bb32658fde376cb1092f5f3a702c7db6c4"
+ },
+ "paginas": [
+  41
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "5.2  Control de la ejecución\n1\nEl control de la ejecución de las obras se realizará de acuerdo con las especificaciones del proyec-\nto, sus anexos y las modificaciones autorizadas por el director de obra y las instrucciones del direc-\ntor de la ejecución de la obra, conforme a lo indicado en el artículo 7.3 de la Parte I del CTE y de-\nmás normativa vigente de aplicación.\n2\nSe comprobará que la ejecución de la obra se realiza de acuerdo con los controles establecidos en\nel pliego de condiciones del proyecto y con la frecuencia indicada en el mismo.\n3\nSe incluirá en la documentación de la obra ejecutada cualquier modificación que pueda introducirse\ndurante la ejecución, sin que en ningún caso dejen de cumplirse las condiciones mínimas señaladas\nen este Documento Básico.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "artículo 7"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

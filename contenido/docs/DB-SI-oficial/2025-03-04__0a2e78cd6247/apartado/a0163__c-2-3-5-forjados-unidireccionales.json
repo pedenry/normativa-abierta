@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0163",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.2.3 Vigas / C.2.3.5 Forjados unidireccionales",
+  "titulo": "C.2.3.5 Forjados unidireccionales",
+  "nivel": 4,
+  "parent_id": "a0158",
+  "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 60,
+   "bbox": [
+    70.9,
+    703.8,
+    233.0,
+    714.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "48f8c45d2ec61fabdc36c85b15b4f99cadb98a15917f16478949b86e3d875a31",
+   "literal": "C.2.3.5 Forjados unidireccionales"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0110",
+  "parent_id_original": "a0158",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.2.3.5 Forjados unidireccionales",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0158",
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.2.3 Vigas / C.2.3.5 Forjados unidireccionales",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f5bf5d82905b8f89493ef2b4b0ca85f4b52b54f103c41621ce947c5c791bc22b"
+ },
+ "paginas": [
+  60
+ ],
+ "etiquetas_impresas": [
+  "60"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Documento Básico SI en caso de Incendio",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0060_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0060.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

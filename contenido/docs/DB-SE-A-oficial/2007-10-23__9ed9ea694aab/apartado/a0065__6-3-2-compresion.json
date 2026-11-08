@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0065",
+  "ruta_oficial": "6.3.2",
+  "ruta_semantica": "6.3.2 Compresión",
+  "titulo": "6.3.2 Compresión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.2 Compresión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 35,
+   "bbox": [
+    78.0,
+    701.7,
+    164.2,
+    712.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "df402a41d5862a7628e894982eda669424b37fd31aa47920803338872fc1cb41",
+   "literal": "6.3.2 Compresión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0071",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 6.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2 Compresión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.3 Resistencia de las barras 6.3.1 Tracción / 6.3.2 Compresión",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3416c413e7dc9d4ffbcc29aef3796c43d0939b21a2e4e7cc98f5f8319b3f2654"
+ },
+ "paginas": [
+  35,
+  36
+ ],
+ "etiquetas_impresas": [
+  "35",
+  "36"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.3.2 Compresión\n1\nLa resistencia de las barras a compresión, Nc,Rd, no superará la resistencia plástica de la sección\nbruta, Npl,Rd, calculada según el apartado 6.2, y será menor que la resistencia última de la barra a\npandeo, Nb,Rd, calculada según se indica en los siguientes apartados.\n\nDocumentoBásico SE-A Acero\nSE-A-34\n2\nEn general será necesario comprobar la resistencia a pandeo en cada posible plano en que pueda\nflectar la pieza. Este DB no cubre el fenómeno de pandeo por torsión, que puede presentarse en\npiezas, generalmente abiertas con paredes delgadas, en las que el eje de la barra deformada no\nqueda contenido en un plano.\n3\nComo capacidad a pandeo por flexión, en compresión centrada, de una barra de sección constan-\nte, puede tomarse\nyd\nRd\n,\nb\nf\nA\nN\n⋅\n⋅\nχ\n=\n(6.17)\nsiendo\nA\nárea de la sección tranversal en clases 1, 2 y 3, o área eficaz\neff\nA\nen secciones de clase\n4,\nyd\nf\nresistencia de cálculo del acero, tomando\n1\nM\ny\nyd\n/\nf\nf\nγ\n=\ncon\n05\n,1\n1\nM=\nγ\nde acuerdo a 2.3.3\nχ\ncoeficiente de reducción por pandeo, cuyo valor puede obtenerse en los epígrafes siguien-\ntes en función de la esbeltez reducida y la curva de pandeo apropiada al caso.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0035.png",
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0066"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

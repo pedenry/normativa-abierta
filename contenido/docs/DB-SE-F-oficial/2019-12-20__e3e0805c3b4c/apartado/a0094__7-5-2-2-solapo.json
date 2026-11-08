@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0094",
+  "ruta_oficial": "7.5.2.2",
+  "ruta_semantica": "7.5.2.2 Solapo",
+  "titulo": "7.5.2.2 Solapo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.5.2.2 Solapo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 43,
+   "bbox": [
+    70.9,
+    715.0,
+    143.2,
+    724.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "865ff037d4be4cfc34ae2637ef304b36fefba7fc778d33346aa7ec56fc6f23f0",
+   "literal": "7.5.2.2 Solapo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0101",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.5.2.2 Solapo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.5 Disposiciones relativas a las armaduras 7.5.1 Sección mínima de la armadura / 7.5.2 Anclajes y empalmes 7.5.2.1 Anclaje / 7.5.2.2 Solapo",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7065e3a3e82aba462a44c9717a28a8b4d2d859309c79b6a2d82f3eea6bd635de"
+ },
+ "paginas": [
+  43,
+  44
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "2"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "7.5.2.2 Solapo\n1\nMientras sea posible, no se dispondrán solapos de armaduras en zonas fuertemente solicitadas, o\ndonde varíen las dimensiones de la sección (ejemplo: un escalonado en el espesor del muro). La\ndistancia libre entre dos armaduras solapadas no será menor que dos diámetros ni que 20 mm.\n\nDocumento Básico SE-F Fábrica\nSE-F-40\n2\nLa longitud de solapo en las armaduras de tendel se podrá obtener en función del resultado de los\nensayos realizados para obtener su longitud de anclaje.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0043.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

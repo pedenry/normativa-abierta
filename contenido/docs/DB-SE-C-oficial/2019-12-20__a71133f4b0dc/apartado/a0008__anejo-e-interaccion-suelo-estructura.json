@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0008",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo E. Interacción suelo-estructura",
+  "titulo": "Anejo E. Interacción suelo-estructura",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo E. Interacción suelo-estructura",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    70.9,
+    331.6,
+    250.7,
+    344.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ef8e80d3e7ed9a1a43c784f90f968ebb1e53035b44209ccb03c2d850861f834c",
+   "literal": "Anejo E. Interacción suelo-estructura"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0015",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo E. Interacción suelo-estructura",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Interacción suelo-estructura",
+   "seccion_estimada": "Anejo E. Interacción suelo-estructura",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cc975aa875135f12174494269786683e9bddcdc07020b996f0f85e1840948fb5"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "Anejo E. Interacción suelo-estructura\nE.1 Concepto de rigidez relativa terreno-estructura\nE.2 Estimación de las condiciones de rigidez relativa terreno-estructura\nE.3 Criterios de rigidez para cimentaciones directas\nE.4 Otros factores a considerar en la interacción suelo-estructura\nE.5 Modelos de interacción. Módulo de balasto",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,65 @@
+{
+ "documento": "GUIA-PDF-f3314b0414fe",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon Fichas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__e58e54b822cf",
+ "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+ "apartado": {
+  "id_tecnico": "a0056",
+  "ruta_oficial": null,
+  "ruta_semantica": "Guía de elección / en función de la concentración de radón existente",
+  "titulo": "en función de la concentración de radón existente",
+  "nivel": 3,
+  "parent_id": "a0055",
+  "seccion_estimada": "Guía de elección"
+ },
+ "paginas": [
+  22,
+  23
+ ],
+ "etiquetas_impresas": [
+  "22",
+  "23"
+ ],
+ "tipos": [
+  "notas",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "en función de la concentración de radón existente\nSolera\nBarrera\nSellado (1)\nBarrera + Despresurización\nSellado (1) + Despresurización\nBarrera +\nCámara de aire ventilada (2)\nMejora ventilación del local habitable (3)\nPromedio anual de concentración de radón\n> 600 Bq/m3\n≤ 600 Bq/m3\n\n23\n>> volver al índice >\n>> volver al índice >\nGuía de elección\nNotas tablas 2, 3 y 4:\n(1)\tSi no se puede colocar la barrera adecuadamente, debe al menos sellarse la solera o el forjado.\n(2)\tAlternativamente, si es viable puede disponerse una cámara de aire ventilada sobre la solera existente.\n(3)\tDe forma complementaria, si el nivel de ventilación existente del local habitable es inferior al exigido en el\nCTE, se puede mejorar la ventilación hasta alcanzar lo exigido.\n(4)\tDe forma complementaria, se deben hacer estancas las puertas que comuniquen el sótano con el local ha­\nbitable.\nTabla 3. \u0007 Soluciones orientativas de protección frente al radón en caso de forjado",
+ "notas": [
+  "Notas tablas 2, 3 y 4:"
+ ],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0022_t01.json",
+  "../tabla/p0023_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0022.png",
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon+Fichas.pdf",
+  "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0055",
+  "nivel": 3,
+  "seccion_estimada": "Guía de elección",
+  "ruta_semantica": "Guía de elección / en función de la concentración de radón existente"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

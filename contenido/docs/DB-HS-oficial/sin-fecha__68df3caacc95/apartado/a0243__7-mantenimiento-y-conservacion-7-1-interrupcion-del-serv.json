@@ -1,0 +1,70 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0243",
+  "ruta_oficial": "7",
+  "ruta_semantica": "Fragmento de PDF p104",
+  "titulo": "7 Mantenimiento y conservación 7.1 Interrupción del servicio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p104",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p104",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Mantenimiento y conservación 7.1 Interrupción del servicio",
+   "seccion_estimada": "7 Mantenimiento y conservación 7.1 Interrupción del servicio",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e7e34f16c2bc3a03b93c807dc625d7c743973c1f977e4b960f010d9feef23e35"
+ },
+ "paginas": [
+  104
+ ],
+ "etiquetas_impresas": [
+  "104"
+ ],
+ "tipos": [],
+ "texto": "7 Mantenimiento y conservación 7.1 Interrupción del servicio\n7.1 Interrupción del servicio\n1\nEn las instalaciones de aguade consumo humano que no se pongan en servicio después de 4 se-\nmanas desde su terminación, o aquellas que permanezcan fuera de servicio más de 6 meses, se\ncerrará su conexión y se procederá a su vaciado.\n2\nLas acometidas que no sean utilizadas inmediatamente tras su terminación o que estén paradas\ntemporalmente, deben cerrarse en la conducción de abastecimiento. Las acometidas que no se uti-\nlicen durante 1 año deben ser taponadas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0244",
+  "a0245"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

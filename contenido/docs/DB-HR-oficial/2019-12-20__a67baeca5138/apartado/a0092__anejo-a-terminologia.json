@@ -1,0 +1,95 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0092",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología",
+  "titulo": "Anejo A. Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 43,
+   "bbox": [
+    70.9,
+    95.3,
+    223.4,
+    111.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "7d39cdea0924f1137f4ef08133def8bd8dd1c7224b1e9f5ec9c3b57a13bcd91a",
+   "literal": "Anejo A. Terminología"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0008",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo A. Terminología",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e5bf44d565e0aeca3891832b268d70f1614fdf7a400cd960a939f51f0ed41c2d"
+ },
+ "paginas": [
+  43
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo A. Terminología\nAbsorción acústica, A: Cantidad de energía acústica, en m2, absorbida por un objeto del campo acústi-\nco. Es función de la frecuencia.\nPuede calcularse, para absorbentes planos, en cadabanda de frecuencia f, mediante la expresión si-\nguiente:\nS\nA\nf\nf\n·\n\n=\n[m2]\n(A.1)\nsiendo\nAf\nabsorción acústica para la banda de frecuencia f, [m2];\nf\ncoeficiente de absorción acústica del material para la banda de frecuencia f;\nS\nárea del material, [m2].\nAislamiento acústico a ruido aéreo: Diferencia de niveles estandarizada, ponderada A, en dBA, entre\nel recinto emisor y el receptor.\nPara recintos interiores se utiliza el índice DnT,A.\nPara recintos en los que alguno de sus cerramientos constituye una fachada o una cubierta en las que el\nruido exterior dominante es el de automóviles o el de aeronaves, se utiliza el índice D2m,nT,Atr.\nPara recintos en los que alguno de sus cerramientos constituye una fachada o una cubierta en las que el\nruido exterior dominante es el ferroviario o el de estaciones ferroviarias, se utiliza el índice D2m,nT,A.\nAislamiento acústico a ruido de impactos: Protección frente al ruido de impactos.\nViene determinado por el nivel global de presión de ruido de impactos estandarizado, L’nT,w, en dB.\nÁrea acústica*: Ámbito territorial, delimitado por la Administración competente, que presenta el mismo\nobjetivo de calidad acústica.\nLas áreas acústicas se clasificarán, en atención al uso predominante del suelo, en los tipos que determi-\nnen las comunidades autónomas, las cuales habrán de prever, al menos, los siguientes:\na)\nSectores del territorio con predominio de suelo de uso residencial.\nb)\nSectores del territorio con predominio de suelo de uso industrial.\nc)\nSectores del territorio con predominio de suelo de uso recreativo y de espectáculos.\nd)\nSectores del territorio con predominio de suelo de uso terciario distinto del contemplado en el\npárrafo anterior.\ne)\nSectores del territorio con predominio de suelo de uso sanitario, docente y cultural que requie-\nra de especial protección contra la contaminación acústica.\nf)\nSectores del territorio afectados a sistemas generales de infraestructuras de transporte, u otros\nequipamientos públicos que los reclamen.\ng)\nEspacios naturales que requieran una especial protección contra la contaminación acústica.\nÁrea de absorción acústica equivalente, A: Absorción acústica, en m2, correspondiente a un objeto de\nsuperficie no definida. Corresponde a la absorción de una superficie con coeficiente de absorción acústi-\nca igual a 1 y área igual a la absorción total del elemento.\nBancada de inercia: Perfil de acero o de hormigón reforzado con armaduras, capaz de absorber los\nesfuerzos causados por el funcionamiento de un equipo, particularmente durante los arranques.\n* Definición procedente de la Ley 37/2003 de 17 de noviembre, del Ruido",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0043.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0093",
+  "a0094",
+  "a0096",
+  "a0097",
+  "a0099",
+  "a0100",
+  "a0101",
+  "a0102",
+  "a0103",
+  "a0105",
+  "a0106"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

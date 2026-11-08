@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-C · p. 106 — 9.3.2 Estabilidad</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">DB-SE-C</a> › p. 106</nav>
+
+<header class="meta">
+<p><strong>DB-SE-C</strong> · 9.3.2 Estabilidad · versión 2019-12-20</p>
+<p>SHA256: <code>a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e</code> · página física 106 de 165 · métodos de encabezado
+solo si están cotejados.</p>
+<p><a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">Documento</a> · <a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__p0105.html">← p. 105</a> · <a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__p0107.html">p. 107 →</a></p>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/pagina/p0106.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/bloque/p0106.json">JSON de bloques</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/fuente.pdf#page=106">PDF p. 106</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0106.png">imagen PNG</a></p>
+</header>
+<nav class="paginas"><a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">Documento</a> <a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__p0105.html">← p. 105</a> <a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__p0107.html">p. 107 →</a></nav>
+<h2>Encabezado de la página</h2><ul><li><a href="../apartado/db-se-c-oficial-2019-12-20-a71133f4b0dc__a0233.html">9.3.2 Estabilidad</a> <span>· candidato tipográfico · PDF p. 106</span></li></ul>
+
+<pre class="literal">Documento Básico SE-C Cimientos 
+SE-C-101 
+e) 
+pérdida de la fuerza de anclaje por excesivo desplazamiento de la cabeza de transmisión o por 
+fluencia y relajación; 
+f) 
+rotura o excesiva deformación de partes de la estructura anclada como consecuencia de la 
+aplicación de la fuerza de anclaje; 
+g) 
+pérdida de la estabilidad global del terreno y de la estructura de contención; 
+h) 
+interacción inaceptable de grupos de anclajes con el terreno y las estructuras adyacentes. 
+2 
+Para la comprobación de los estados límite de servicio de la estructura anclada se considerará cada 
+anclaje como un muelle cuya constante se determinará según las leyes de la Elasticidad a partir de 
+la longitud libre equivalente del anclaje y sus características geométricas y mecánicas. 
+9.3.2 Estabilidad 
+1 
+El análisis de la estabilidad del anclaje comprenderá, al menos, los siguientes aspectos: 
+a) 
+comprobación de la tensión admisible; 
+b) 
+comprobación al deslizamiento del tirante dentro del bulbo de anclaje; 
+c) 
+comprobación de la seguridad frente al arrancamiento del bulbo. 
+2 
+La verificación de estos estados límite para cada situación de dimensionado se hará utilizando la 
+expresión (2.2), estando Ed definida en la expresión (9.1) y viniendo Rd dada en los apartados si-
+guientes: 
+3 
+Para la comprobación de la tensión admisible del tirante: 
+Rd = min (AT · fPK/M1; AT · fYK/M2)  
+ 
+ 
+ 
+ 
+ 
+ 
+      (9.2) 
+siendo 
+AT  
+la sección del tirante; 
+fPK  
+el límite de rotura del acero del tirante; 
+fYK  
+el límite elástico del acero del tirante; 
+M1 
+en anclajes provisionales 1,25 y anclajes permanentes 1,30; 
+M2 
+en anclajes provisionales 1,10 y en anclajes permanentes 1,15. 
+4 
+Para la comprobación del deslizamiento del tirante dentro del bulbo de anclaje: 
+Rd= Lb · PT · lim/R  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      (9.3) 
+siendo 
+Lb  
+longitud de cálculo del bulbo; 
+PT  
+perímetro nominal del tirante; 
+lim 
+adherencia límite entre el tirante y la lechada expresada en MPa; 
+R  
+igual a 1,2. 
+donde 
+lim= 6,9 (fCK /22,5)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     (9.4) 
+fCK 
+resistencia característica de la lechada expresada en MPa; 
+Para esta comprobación, el exceso de longitud del bulbo por encima de 14 m se minorará por un 
+coeficiente de 0,70 a fin de tener en cuenta su posible rotura progresiva. 
+5 
+Para la comprobación de la seguridad frente al arrancamiento del bulbo: 
+Rd =  ·DN · Lb · aadm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      (9.5) 
+siendo 
+DN 
+el diámetro nominal del bulbo 
+aadm  
+la adherencia admisible frente al deslizamiento o arrancamiento del terreno 
+
+
+'
+'
+'
+m
+R
+adm
+tg
+·
+c
+1
+a
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      (9.6) 
+donde 
+R  = 1,35 
+cm ´  
+la cohesión efectiva del terreno en el contacto terreno-bulbo minorada por un coeficiente 
+de 1,2. 
+</pre>
+<figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0106.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0106.png" alt="Página 106"></a><figcaption>Imagen de la página 106 (PNG ya extraído; prevalece sobre fórmulas).</figcaption></figure>
+<h2>Tablas candidatas de esta página</h2><ul><li>Sin tabla JSON para esta página.</li></ul>
+<h2>Referencias, notas y excepciones (página y vecinas)</h2><ul><li><a href="../apartado/db-se-c-oficial-2019-12-20-a71133f4b0dc__a0230.html">ID a0230 · Definiciones y tipologías</a></li><li><a href="../apartado/db-se-c-oficial-2019-12-20-a71133f4b0dc__a0231.html">ID a0231 · Acciones a considerar y datos geométricos</a></li><li><a href="../apartado/db-se-c-oficial-2019-12-20-a71133f4b0dc__a0235.html">ID a0235 · Condiciones constructivas y de control</a></li></ul>
+<h2>Apartados que incluyen esta página</h2><ul><li><a href="../apartado/db-se-c-oficial-2019-12-20-a71133f4b0dc__a0232.html">ID a0232 · Fragmento de PDF p105</a></li><li><a href="../apartado/db-se-c-oficial-2019-12-20-a71133f4b0dc__a0233.html">9.3.2 · 9.3.2 Estabilidad</a></li><li><a href="../apartado/db-se-c-oficial-2019-12-20-a71133f4b0dc__a0234.html">ID a0234 · Fragmento de PDF p106</a></li></ul>
+
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

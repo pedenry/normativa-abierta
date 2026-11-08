@@ -1,0 +1,389 @@
+{
+ "documento": null,
+ "pagina": 97,
+ "etiqueta_impresa": "97",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-95",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    541.4,
+    119.1
+   ],
+   "tipo": "texto",
+   "texto": "6\nLa rigidez inicial y secante rotacional de la unión se determinará como en el caso de las uniones\natornilladas, apartado 8.8.6, considerando exclusivamente como componentes básicos de la unión\nlas regiones del alma del pilar a cortante, tracción y compresión, de rigideces Swv, Swt, y Swc respec-\ntivamente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    221.6,
+    550.1,
+    393.6,
+    560.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.22 Uniones viga-pilar soldadas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    577.6,
+    386.3,
+    591.0
+   ],
+   "tipo": "titulo",
+   "texto": "8.9 Uniones de perfiles huecos en las vigas de celosía",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    606.4,
+    252.5,
+    617.5
+   ],
+   "tipo": "texto",
+   "texto": "8.9.1 Alcance y campo de aplicación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    74.1,
+    625.8,
+    541.4,
+    660.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nEste apartado se refiere a los nudos de las estructuras de celosía planas, (vigas trianguladas)\nconstituidas por perfiles huecos (rectangulares, circulares o cuadrados) o por perfiles huecos com-\nbinados con perfiles abiertos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    74.1,
+    666.2,
+    538.6,
+    688.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nSe supone la continuidad de los cordones y, por tanto, las uniones a las que se refiere este aparta-\ndo son de las barras de alma (diagonales y montantes) a los cordones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    74.1,
+    695.3,
+    541.4,
+    717.9
+   ],
+   "tipo": "texto",
+   "texto": "3\nLas resistencias de los nudos se expresan en función de las resistencias de cálculo ante esfuerzos\naxiles de las piezas del alma.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    724.2,
+    541.4,
+    747.0
+   ],
+   "tipo": "texto",
+   "texto": "4\nEstas reglas son aplicables tanto a perfiles huecos laminados en caliente conforme a UNE-EN\n10210:1994 como conformados en frío conforme a UNE-EN 10219:1998.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.1,
+    753.0,
+    472.1,
+    766.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "5\nEl coeficiente parcial de seguridad γMj  para la resistencia de los nudos será γMj = 1,0",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    261.5,
+    206.1,
+    290.4,
+    224.3
+   ],
+   "tipo": "texto",
+   "texto": "zona de\ncortante",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    254.8,
+    227.5,
+    296.1,
+    257.3
+   ],
+   "tipo": "texto",
+   "texto": "zona de\ncompresión",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    261.5,
+    172.4,
+    293.6,
+    206.2
+   ],
+   "tipo": "texto",
+   "texto": "zona de\ntracción",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    149.8,
+    327.6,
+    208.3,
+    351.1
+   ],
+   "tipo": "texto",
+   "texto": "a) sin rigidizar",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    326.6,
+    327.3,
+    498.6,
+    350.8
+   ],
+   "tipo": "texto",
+   "texto": "b) con rigidizadores alineados con las alas",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    169.4,
+    221.9,
+    177.7,
+    242.9
+   ],
+   "tipo": "texto",
+   "texto": "twc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    155.5,
+    295.8,
+    163.8,
+    316.9
+   ],
+   "tipo": "texto",
+   "texto": "bfc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    314.5,
+    266.8,
+    321.7,
+    290.3
+   ],
+   "tipo": "texto",
+   "texto": "tfc",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    357.4,
+    175.8,
+    363.8,
+    196.9
+   ],
+   "tipo": "texto",
+   "texto": "tfb",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    329.5,
+    159.9,
+    336.7,
+    180.9
+   ],
+   "tipo": "texto",
+   "texto": "ab",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    259.9,
+    303.9,
+    268.2,
+    324.9
+   ],
+   "tipo": "texto",
+   "texto": "twc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    285.4,
+    304.4,
+    290.5,
+    325.4
+   ],
+   "tipo": "texto",
+   "texto": "rc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    166.0,
+    148.1,
+    180.2,
+    169.1
+   ],
+   "tipo": "texto",
+   "texto": "bef,fb",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    162.1,
+    390.3,
+    173.5,
+    411.4
+   ],
+   "tipo": "texto",
+   "texto": "bef,t",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    162.1,
+    453.3,
+    174.6,
+    474.4
+   ],
+   "tipo": "texto",
+   "texto": "bef,c",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    147.1,
+    420.9,
+    151.4,
+    441.9
+   ],
+   "tipo": "texto",
+   "texto": "ls",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    147.4,
+    519.6,
+    281.4,
+    543.0
+   ],
+   "tipo": "texto",
+   "texto": "c) con refuerzo de chapa de alma",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    326.1,
+    518.8,
+    499.6,
+    552.6
+   ],
+   "tipo": "texto",
+   "texto": "d) con uno o varios rigidizadores alineados\n    con las alas, o en una diagonal.",
+   "tamano": 9.1,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

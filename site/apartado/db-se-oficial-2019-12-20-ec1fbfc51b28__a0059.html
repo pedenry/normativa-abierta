@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE · 5.3.2 Estimación de la resistencia característica</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">DB-SE</a> › 5.3.2</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">DB-SE</a> · 5.3.2 Estimación de la resistencia característica · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0059 · PDF pág. 22-23 · documento DB-SE · SHA256 ec1fbfc51b28…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/apartado/a0059__5-3-2-estimacion-de-la-resistencia-caracteristica.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/apartado/a0059__5-3-2-estimacion-de-la-resistencia-caracteristica.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">Ámbito del documento</a> · <a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-oficial-2019-12-20-ec1fbfc51b28.html">documento y tablas</a></p>
+<nav><a href="db-se-oficial-2019-12-20-ec1fbfc51b28__a0058.html">← ID a0058 · PDF pág. 21-22</a> <a href="db-se-oficial-2019-12-20-ec1fbfc51b28__a0060.html">ID a0060 · PDF pág. 23-25 →</a></nav>
+<h1><span class="aviso">ID a0059 · PDF pág. 22-23</span> — 5.3.2 Estimación de la resistencia característica</h1>
+<p>ID técnico a0059 · PDF pág. 22-23 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 22 (candidato tipográfico); no validado por persona · padre: raíz</p>
+<pre class="literal">5.3.2 Estimación de la resistencia característica
+1
+En ausencia de información previa o de otros datos más precisos, se adoptará como valor caracte-
+rístico el fractil del 5%, suponiendo una distribución normal:
+R
+R
+est
+,
+k
+k -
+m
+R
+
+
+
+
+(5.2)
+siendo
+mR
+valor medio de la muestra
+R
+desviación típica de la muestra, se estimará a partir de los resultados experimentales
+k
+coeficiente que depende del tamaño de la muestra (número de ensayos, n), según tabla
+5.1
+2
+Cuando exista información previa relativa a la desviación típica de la distribución, R, ésta se consi-
+derará conocida a priori. En estos casos, suponiendo una distribución normal, el valor característico
+de la resistencia correspondiente a un fractil del 5% se estimará a partir de la relación:
+R
+R
+est
+k,
+k -
+m
+R
+
+
+
+
+(5.3)
+siendo
+mR
+valor medio de la muestra
+R
+desviación típica de la distribución
+k
+coeficiente que depende del tamaño de la muestra (número de ensayos, n), según tabla
+5.1
+Tabla 5.1. Valores del coeficiente k para un fractil de 5%
+Número de ensayos, n
+Desviación típica
+3
+4
+6
+8
+10
+20
+30
+100
+infinito
+desconocida
+3,15
+2,68
+2,34
+2,19
+2,10
+1,93
+1,87
+1,76
+1,64
+previamente conocida
+2,03
+1,98
+1,92
+1,88
+1,86
+1,79
+1,77
+1,71
+1,64
+
+Documento Básico SE Seguridad Estructural
+SE - 17</pre>
+<h2>Tablas en estas páginas</h2><ul><li>p. 22 · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/tabla/p0022_t01.json">p0022_t01.json</a> · <a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/tabla/p0022_t01.csv">.csv</a></li></ul><h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0022.png"><img class="figura" src="../../contenido/docs/DB-SE-oficial/2019-12-20__ec1fbfc51b28/figura/p0022.png" alt="Página 22"></a><figcaption>Página visual 22 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

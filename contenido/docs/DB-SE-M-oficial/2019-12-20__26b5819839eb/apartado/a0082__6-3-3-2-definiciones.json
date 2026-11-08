@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0082",
+  "ruta_oficial": "6.3.3.2",
+  "ruta_semantica": "6.3.3.2  Definiciones",
+  "titulo": "6.3.3.2  Definiciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.3.2  Definiciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 37,
+   "bbox": [
+    70.9,
+    238.9,
+    169.3,
+    248.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f58ec7bedbddde471bb09b0655eb3408a4c602e898aaba246c2584672707ef2f",
+   "literal": "6.3.3.2  Definiciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0092",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.2  Definiciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6  Estados límite últimos / 6.3  Estabilidad de piezas. / 6.3.3  Vuelco lateral de vigas 6.3.3.1  Consideraciones generales / 6.3.3.2  Definiciones",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2f61cdfec6c261014f3b1f22de8ac0f5cf4cd5b4301c90119e58908231cd6086"
+ },
+ "paginas": [
+  37
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "definiciones",
+  "figuras"
+ ],
+ "texto": "6.3.3.2  Definiciones\n1\nEsbeltez relativa a flexión.\nLa esbeltez relativa a flexión, rel,m, de una viga se determina mediante la siguiente expresión:\n\n\ncrit\nm,\nk\nm,\nm\nrel,\nf\n=\n(6.36)\nsiendo:\nfm,k\nresistencia característicaa flexión;\nm,crit\ntensión crítica a flexión calculada de acuerdo con la teoría de la estabilidad elástica, utilizando\nlos valores característicos de los módulos de elasticidad, que en piezas de directriz recta y",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0037.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

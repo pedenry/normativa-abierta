@@ -1,0 +1,481 @@
+{
+ "documento": null,
+ "pagina": 33,
+ "etiqueta_impresa": "33",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-31",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    101.4,
+    73.4,
+    430.3,
+    85.3
+   ],
+   "tipo": "texto",
+   "texto": "-\nPerfiles en I, H o U cargados perpendicularmente al alma: AV = A -d·tw",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    101.4,
+    90.6,
+    418.8,
+    103.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-\nSecciones armadas cargadas paralelamente a las almas: AV = Σ d·t",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    101.4,
+    108.9,
+    462.1,
+    121.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-\nSecciones armadas cargadas perpendicularmente a las almas: AV = A - Σ d·t",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    101.4,
+    127.1,
+    303.3,
+    140.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-\nSecciones circulares huecas: AV = 2·A / π",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    101.4,
+    145.6,
+    240.0,
+    157.5
+   ],
+   "tipo": "texto",
+   "texto": "-\nSecciones macizas: AV = A",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    101.4,
+    163.1,
+    517.6,
+    175.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo A la sección total, y d, tf, tw y r1 según significados de la figura del Anejo B de este DB.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    78.0,
+    180.6,
+    521.2,
+    191.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nSe descontarán los agujeros únicamente cuando la resistencia última sea inferior a la plástica:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    211.1,
+    217.4,
+    216.6,
+    228.5
+   ],
+   "tipo": "texto",
+   "texto": "3",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    164.2,
+    199.7,
+    207.9,
+    228.5
+   ],
+   "tipo": "texto",
+   "texto": "f\nA\n3",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    102.2,
+    201.1,
+    541.0,
+    220.8
+   ],
+   "tipo": "texto",
+   "texto": "f\nA\n9,0\nyd\nV\nud\nneta\n,\nV\n⋅\n<\n⋅\n⋅\n(6.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    78.0,
+    243.2,
+    311.5,
+    254.4
+   ],
+   "tipo": "texto",
+   "texto": "6.2.5 Resistencia de las secciones a compresión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    78.0,
+    262.5,
+    358.7,
+    274.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia de las secciones a compresión, Nc,Rd, será",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    100.7,
+    280.1,
+    532.4,
+    291.3
+   ],
+   "tipo": "texto",
+   "texto": "a)\nla resistencia plástica de la sección bruta (ecuación 6.2) para las secciones de clases 1 a 3;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    100.7,
+    297.6,
+    411.3,
+    308.8
+   ],
+   "tipo": "texto",
+   "texto": "b)\nla resistencia de la sección eficaz para las secciones de clase 4:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    124.6,
+    314.9,
+    541.0,
+    328.8
+   ],
+   "tipo": "texto",
+   "texto": "yd\nef\nRd\n,\nu\nf\nA\nN\n⋅\n=\n(6.6)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    78.0,
+    338.1,
+    541.4,
+    360.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nSe descontará el área de los agujeros cuando no se dispongan los correspondientes tornillos o\ncuando se trate de agujeros rasgados o sobredimensionados.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    78.0,
+    374.2,
+    287.0,
+    385.3
+   ],
+   "tipo": "texto",
+   "texto": "6.2.6 Resistencia de las secciones a flexión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    78.0,
+    393.5,
+    337.0,
+    405.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia de las secciones a flexión, Mc.Rd, será:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    100.7,
+    411.0,
+    460.8,
+    422.2
+   ],
+   "tipo": "texto",
+   "texto": "a)\nla resistencia plástica de la sección bruta para las secciones de clase 1 y 2:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    124.6,
+    428.4,
+    541.0,
+    442.3
+   ],
+   "tipo": "texto",
+   "texto": "yd\npl\nRd\n,\npl\nf\nW\nM\n⋅\n=\n(6.7)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    123.4,
+    451.5,
+    155.7,
+    462.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    123.4,
+    469.1,
+    481.2,
+    481.0
+   ],
+   "tipo": "texto",
+   "texto": "Wpl\nmódulo resistente plástico correspondiente a la fibra con mayor tensión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    100.7,
+    486.5,
+    444.7,
+    497.7
+   ],
+   "tipo": "texto",
+   "texto": "b)\nla resistencia elástica de la sección bruta para las secciones de clase 3:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    124.6,
+    503.9,
+    541.0,
+    517.8
+   ],
+   "tipo": "texto",
+   "texto": "yd\nel\nRd\n,\nel\nf\nW\nM\n⋅\n=\n(6.8)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    123.4,
+    527.0,
+    155.7,
+    538.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    123.4,
+    544.5,
+    481.2,
+    556.5
+   ],
+   "tipo": "texto",
+   "texto": "Wel\nmódulo resistente elástico correspondiente a la fibra con mayor tensión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    100.7,
+    562.1,
+    379.1,
+    573.3
+   ],
+   "tipo": "texto",
+   "texto": "c)\nla resistencia a abolladura para las secciones de clase 4:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    124.6,
+    579.4,
+    541.0,
+    593.3
+   ],
+   "tipo": "texto",
+   "texto": "yd\neff\nRd\n,\n0\nf\nW\nM\n⋅\n=\n(6.9)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    123.4,
+    602.6,
+    155.7,
+    613.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    123.4,
+    620.0,
+    534.9,
+    632.0
+   ],
+   "tipo": "texto",
+   "texto": "Wef\nmódulo elástico de la sección eficaz (correspondiente a la fibra con mayor tensión).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    78.0,
+    637.5,
+    373.6,
+    648.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa existencia de agujeros se considerará según su situación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    100.7,
+    655.1,
+    541.3,
+    689.2
+   ],
+   "tipo": "texto",
+   "texto": "a)\nsólo se descontará el área de los agujeros situados en la zona comprimida, cuando no se\ndispongan los correspondientes tornillos o cuando se trate de agujeros rasgados o sobredi-\nmensionados;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    100.7,
+    695.6,
+    538.7,
+    718.2
+   ],
+   "tipo": "texto",
+   "texto": "b)\nsi los agujeros se sitúan en la zona traccionada se descontarán únicamente cuando la resis-\ntencia última de la zona traccionada es inferior a la plástica:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    124.9,
+    724.4,
+    541.0,
+    738.3
+   ],
+   "tipo": "texto",
+   "texto": "yd\nt\nud\nt,\nneta\nf\nA\nf\nA\n9,0\n⋅\n<\n⋅\n⋅\n(6.10)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

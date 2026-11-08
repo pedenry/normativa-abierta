@@ -1,0 +1,115 @@
+{
+ "documento": null,
+ "pagina": 53,
+ "etiqueta_impresa": "53",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.1,
+    39.2,
+    375.7,
+    48.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HE Ahorro de energía",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    222.0,
+    51.4,
+    375.6,
+    60.3
+   ],
+   "tipo": "texto",
+   "texto": "Anejo F. Demanda de referencia de ACS",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    293.2,
+    796.9,
+    304.3,
+    805.8
+   ],
+   "tipo": "texto",
+   "texto": "53",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    56.7,
+    76.4,
+    541.4,
+    110.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nEl consumo de ACS a una temperatura (T), de preparación, distribución o uso, distinta de la de referencia\n(60ºC), se puede obtener a partir del consumo de ACS a la temperatura de referencia usando las\nsiguientes expresiones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    93.1,
+    123.2,
+    134.5,
+    134.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "D(T) = ∑",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    136.7,
+    119.5,
+    173.7,
+    137.0
+   ],
+   "tipo": "texto",
+   "texto": "12  Di(T)\ni=1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    74.6,
+    147.0,
+    194.6,
+    177.5
+   ],
+   "tipo": "texto",
+   "texto": "Di(T) = Di(60ºC)\n60-Ti\nT-Ti\ndonde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    76.6,
+    180.8,
+    489.4,
+    249.5
+   ],
+   "tipo": "texto",
+   "texto": "D(T)\nDemanda de agua caliente sanitaria anual a la temperatura T elegida;\nDi(T)\nDemanda de agua caliente sanitaria para el mes i, a la temperatura T elegida;\nDi(60 ºC) Demanda de agua caliente sanitaria para el mes i, a la temperatura de 60 ºC;\nT\nTemperatura del acumulador final;\nTi\nTemperatura media del agua fría en el mes i (según Anejo G).",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

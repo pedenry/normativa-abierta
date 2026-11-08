@@ -1,0 +1,95 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0065",
+  "ruta_oficial": "2.4.2",
+  "ruta_semantica": "2.4.2 Condiciones de las soluciones constructivas",
+  "titulo": "2.4.2 Condiciones de las soluciones constructivas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.4.2 Condiciones de las soluciones constructivas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    167.0,
+    316.0,
+    178.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3fe81e4a485b14ec57e01fe52a9485f0ddbf96b3fd69ceb661d30e668408c2cf",
+   "literal": "2.4.2 Condiciones de las soluciones constructivas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-HS"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.2 Condiciones de las soluciones constructivas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.4 Cubiertas 2.4.1 Grado de impermeabilidad / 2.4.2 Condiciones de las soluciones constructivas",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9051b308523671b4bc2ed7fe8f0e48fda243aaaf5387bedd8cf8ce570ce6e502"
+ },
+ "paginas": [
+  28,
+  29
+ ],
+ "etiquetas_impresas": [
+  "28",
+  "29"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.4.2 Condiciones de las soluciones constructivas\n1\nLas cubiertas deben disponer de los elementos siguientes:\na)\nun sistema de formación de pendientes cuando la cubierta sea plana o cuando sea inclinada y\nsu soporte resistente no tenga la pendiente adecuada al tipo de protección y de impermeabili-\nzación que se vaya a utilizar;\nb)\nuna barrera contra el vapor inmediatamente por debajo del aislante térmico cuando, según el\ncálculo descrito en la sección HE1 del DB “Ahorro de energía”, se prevea que vayan a produ-\ncirse condensaciones en dicho elemento;\nc)\nuna capa separadora bajo el aislante térmico, cuando deba evitarse el contacto entre materia-\nles químicamente incompatibles;\nd)\nun aislante térmico, según se determine en la sección HE1 del DB “Ahorro de energía”;\ne)\nuna capa separadora bajo la capa de impermeabilización, cuando deba evitarse el contacto\nentre materiales químicamente incompatibles o la adherencia entre la impermeabilización y el\nelemento que sirve de soporte en sistemas no adheridos;\nf)\nuna capa de impermeabilización cuando la cubierta sea plana o cuando sea inclinada y el sis-\ntema de formación de pendientes no tenga la pendiente exigida en la tabla 2.10 o el solapo de\nlas piezas de la protección sea insuficiente;\ng)\nuna capa separadora entre la capa de protección y la capa de impermeabilización, cuando\ni)\ndeba evitarse la adherencia entre ambas capas;\nii)\nla impermeabilización tenga una resistencia pequeña al punzonamiento estático;\niii)\nse utilice como capa de protección solado flotante colocado sobre soportes, grava, una\ncapa de rodadura de hormigón, una capa de rodadura de aglomerado asfáltico dispuesta\nsobre una capa de mortero o tierra vegetal; en este último caso además debe disponerse\ninmediatamente por encima de la capa separadora, una capa drenante y sobre ésta una\ncapa filtrante; en el caso de utilizarse grava la capa separadora debe ser antipunzonante;\nh)\nuna capa separadora entre la capa de protección y el aislante térmico, cuando\ni)\nse utilice tierra vegetal como capa de protección; además debe disponerse inmediata-\nmente por encima de esta capa separadora, una capa drenante y sobre ésta una capa fil-\ntrante;\nii)\nla cubierta sea transitable para peatones; en este caso la capa separadora debe ser anti-\npunzonante;\niii)\nse utilice grava como capa de protección; en este caso la capa separadora debe ser fil-\ntrante, capaz de impedir el paso de áridos finos y antipunzonante;\ni)\nuna capa de protección, cuando la cubierta sea plana, salvo que la capa de impermeabiliza-\nción sea autoprotegida;\nj)\nun tejado, cuando la cubierta sea inclinada, salvo que la capa de impermeabilización sea auto-\nprotegida;\nk)\nun sistema de evacuación de aguas, que puede constar de canalones, sumideros y rebosade-\nros, dimensionado según el cálculo descrito en la sección HS 5 del DB-HS.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n29",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-HS"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0029_t01.json",
+  "../tabla/p0029_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0028.png",
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

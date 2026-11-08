@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0048",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes",
+  "titulo": "Sección SI 3 Evacuación de ocupantes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 22,
+   "bbox": [
+    70.9,
+    71.3,
+    272.0,
+    107.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "e11636e0995a272c81be901f216669f92cf2d32c64adc6b17b3e9c69655680a1",
+   "literal": "Sección SI 3 Evacuación de ocupantes"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0017",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección SI 3 Evacuación de ocupantes",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección SI 3 Evacuación de ocupantes",
+   "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "056f1c118fa4f033482bad83c6261707a00e185b63292837a5cddc6cb6134abb"
+ },
+ "paginas": [
+  22
+ ],
+ "etiquetas_impresas": [
+  "22"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Sección SI 3 Evacuación de ocupantes\nEvacuación de ocupantes\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0022.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0049"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

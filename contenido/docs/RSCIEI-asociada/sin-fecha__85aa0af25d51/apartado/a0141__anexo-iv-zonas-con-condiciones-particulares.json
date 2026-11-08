@@ -1,0 +1,92 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0141",
+  "ruta_oficial": "ANEXO-IV",
+  "ruta_semantica": "ANEXO IV. Zonas con condiciones particulares",
+  "titulo": "ANEXO IV. Zonas con condiciones particulares",
+  "nivel": 2,
+  "parent_id": "a0140",
+  "seccion_estimada": "ANEXO IV. Zonas con condiciones particulares",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 99,
+   "bbox": [
+    212.3,
+    250.4,
+    382.9,
+    264.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "bfc1de3c11638e6eb0d3147f125d68ef823b52fc14b0f6dd6913a8f019d76738",
+   "literal": "ANEXO IV. Zonas con condiciones particulares"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0048",
+  "parent_id_original": "a0140",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SUA 4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "ANEXO IV. Zonas con condiciones particulares",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0140",
+   "ruta_semantica": "ANEXO III / ANEXO IV. Zonas con condiciones particulares",
+   "seccion_estimada": "ANEXO III",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e1ce9999e220bde078065dba7dade5be59e4062249d95b62a3bd6a5c82f1f382"
+ },
+ "paginas": [
+  99
+ ],
+ "etiquetas_impresas": [
+  "99"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "El alumbrado de emergencia cumplirá con los requisitos aplicables de la sección 4\n«Seguridad frente al riesgo causado por iluminación inadecuada» del Documento Básico de\nSeguridad de utilización y accesibilidad del Código Técnico de Edificación (CTE DB-SUA 4).\n10. Señalización de los medios de protección.\n10.1 Los medios de protección contra incendios de utilización manual (tales como\nextintores, pulsadores de alarma, BIE o hidrantes) deberán señalizarse para facilitar su\nlocalización.\n10.2 Dicha señalización deberá cumplir lo establecido en la sección 2.ª del anexo I del\nRIPCI.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SUA 4"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0140",
+   "ruta_oficial": "ANEXO-III",
+   "titulo": "ANEXO III",
+   "archivo_json": "a0140__anexo-iii.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

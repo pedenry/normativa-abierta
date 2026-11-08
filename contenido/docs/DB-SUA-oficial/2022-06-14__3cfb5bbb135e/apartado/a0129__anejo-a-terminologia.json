@@ -1,0 +1,105 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0129",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A Terminología",
+  "titulo": "Anejo A Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 35,
+   "bbox": [
+    262.2,
+    48.3,
+    349.5,
+    57.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "f9e6fe15150c947cf90fd8b7bdc22f72a9d8cfdeaf6ec7dc3ad77b4bc4829cbe",
+   "literal": "Anejo A Terminología"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0087",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB SI",
+   "DB SI 4",
+   "UNE-EN",
+   "apartado 4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo A Terminología",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A Terminología",
+   "seccion_estimada": "Anejo A Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cd719b592ea288a1250564bee2a87c050584c0345a7235e1fbd15250b05c5b10"
+ },
+ "paginas": [
+  35
+ ],
+ "etiquetas_impresas": [
+  "35"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo A. Terminología\n35\nAnejo A Terminología\nAlojamiento accesible\nHabitación de hotel, de albergue, de residencia de estudiantes, apartamento turístico o alojamiento simi-\nlar, que cumple todas las características que le sean aplicables de las exigibles a las viviendas accesi-\nbles para usuarios de silla de ruedas y personas con discapacidad auditiva, y contará con un sistema de\nalarma que transmita señales visuales visibles desde todo punto interior, incluido el aseo.\nAscensor accesible\nAscensor que cumple la norma UNE-EN 81-70:2004 relativa a la “Accesibilidad a los ascensores de per-\nsonas, incluyendo personas con discapacidad”, así como las condiciones que se establecen a continua-\nción:\n-\nLa botonera incluye caracteres en Braille y en alto relieve, contrastados cromáticamente. En grupos\nde varios ascensores, el ascensor accesible tiene llamada individual / propia.\n-\nLas dimensiones de la cabina cumplen las condiciones de la tabla que se establece a continuación,\nen función del tipo de edificio:\nDimensiones mínimas, anchura x profundidad (m)\nEn edificios de uso Residencial Vivienda\nsin viviendas accesibles para\nusuarios de silla de ruedas\ncon viviendas accesibles para\nusuarios de silla de ruedas\nEn otros edificios, con superficie útil en plantas distintas a las de acceso\n≤ 1.000 m2\n> 1.000 m2\n- Con una puerta o con dos\npuertas enfrentadas\n1,00 x 1,25\n1,10 x 1,40\n- Con dos puertas en ángulo\n1,40 x 1,40\n1,40 x 1,40\n-\nCuando además deba ser ascensor de emergencia conforme a DB SI 4-1, tabla 1.1 cumplirá también\nlas características que se establecen para éstos en el Anejo SI A de DB SI.\nEficiencia del sistema de protección\nProbabilidad de que un sistema de protección contra el rayo intercepte las descargas sin riesgo para la\nestructura e instalaciones.\nIluminancia, E\nFlujo luminoso por unidad de área de la superficie iluminada. En el sistema de unidades SI, la unidad de\niluminancia es el lux (lx), que es la iluminancia de una superficie que recibe un flujo luminoso de un lu-\nmen repartido sobre un m2 de superficie.\nItinerario accesible\nItinerario que, considerando su utilización en ambos sentidos, cumple las condiciones que se establecen\na continuación:\n- Desniveles\n- Los desniveles se salvan mediante rampa accesible conforme al apartado 4 del SUA 1, o\nascensor accesible. No se admiten escalones\n- Espacio para giro  - Diámetro Ø 1,50 m libre de obstáculos en el vestíbulo de entrada, o portal, al fondo de\npasillos de más de 10 m y frente a ascensores accesibleso al espacio dejado en previsión\npara ellos",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SI",
+  "DB SI 4",
+  "UNE-EN",
+  "apartado 4"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0035.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0130",
+  "a0131",
+  "a0132",
+  "a0133",
+  "a0134",
+  "a0135",
+  "a0136",
+  "a0137",
+  "a0138"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

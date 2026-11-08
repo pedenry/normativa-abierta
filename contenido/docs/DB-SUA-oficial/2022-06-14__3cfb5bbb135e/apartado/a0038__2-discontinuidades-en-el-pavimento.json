@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0038",
+  "ruta_oficial": "2",
+  "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 2 Discontinuidades en el pavimento",
+  "titulo": "2 Discontinuidades en el pavimento",
+  "nivel": 2,
+  "parent_id": "a0036",
+  "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 8,
+   "bbox": [
+    70.9,
+    723.8,
+    336.7,
+    739.5
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "549ee487e088f7797e8970aacec5b9563ef33f8cb9049773d468cbf76cd72b6f",
+   "literal": "2 Discontinuidades en el pavimento"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0009",
+  "parent_id_original": "a0036",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2 Discontinuidades en el pavimento",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0036",
+   "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 2 Discontinuidades en el pavimento",
+   "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "58bdbff42055fb4108010dacc59f2e8aa6a937ae4524f2bae994ea3443dd1307"
+ },
+ "paginas": [
+  8
+ ],
+ "etiquetas_impresas": [
+  "8"
+ ],
+ "tipos": [
+  "excepciones",
+  "figuras"
+ ],
+ "texto": "Discontinuidades en el pavimento\n1\nExcepto en zonas de uso restringido o exterioresy conel fin de limitar el riesgo de caídas como con-\nsecuencia de traspiés o de tropiezos, el suelo debe cumplir las condiciones siguientes:",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0050",
+   "ruta_oficial": "4.2.2",
+   "titulo": "4.2.2 Tramos",
+   "archivo_json": "a0050__4-2-2-tramos.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0008.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0039"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

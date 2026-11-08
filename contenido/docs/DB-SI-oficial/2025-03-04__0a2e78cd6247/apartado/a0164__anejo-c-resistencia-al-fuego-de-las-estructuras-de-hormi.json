@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0164",
+  "ruta_oficial": "ANEJO-C",
+  "ruta_semantica": "Fragmento de PDF p60",
+  "titulo": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p60",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p60",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9b18517fadaabf6a7a65a314d16a03686fd913e045091c614d956bd7e34c71d5"
+ },
+ "paginas": [
+  60
+ ],
+ "etiquetas_impresas": [
+  "60"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado\n60\nREI 120\n120\n35\n20\n30\nREI 180\n150\n50\n30\n40\nREI 240\n175\n60\n50\n50\n(1)\nLos recubrimientos por exigencias de durabilidad pueden requerir valores superiores.\n(2)\nIxyIyson las luces de la losa, siendo Iy Ix.\n2\nPara losas macizas sobre apoyos lineales y en los casos de resistencia al fuego R 90 o mayor, la\narmadura de negativos deberá prolongarse un 33% de la longitud del tramo con una cuantía no infe-\nrior a un 25% de la requerida en extremos sustentados.\n3\nPara losas macizas sobre apoyos puntuales y en los casos de resistencia al fuego R 90 o mayor, el\n20% de la armadura superior sobre soportes deberá prolongarse a lo largo de todo el tramo.\n4\nLas vigas planas con macizados laterales mayores que 10cm se pueden asimilar a losas unidireccio-\nnales.\nC.2.3.4 Forjados bidireccionales\n1\nMediante la tabla C.5 puede obtenerse la resistencia al fuego de las secciones de los forjado nerva-\ndos bidireccionales, referida al ancho mínimo de nervio y a la distancia mínima equivalente al eje de\nla armadura inferior traccionada. Si el forjado debe cumplir una función de compartimentación de in-\ncendios (criterios R, E e I) su espesor deberá ser al menos el que se establece en la tabla, pero\ncuando se requiera únicamente una función resistente (criterio R) basta con que el espesor será el\nnecesario para cumplir con los requisitos del proyecto a temperatura ambiente. A estos efectos, po-\ndrá considerarse como espesor el solado o cualquier otro elemento que mantenga su función aislan-\nte durante todo el periodo de resistencia al fuego.\nSi los forjados disponen de elementos de entrevigado cerámicos o de hormigón y revestimiento infe-\nrior, para resistencia al fuego R 120 o menor bastará con que se cumpla lo establecido en el punto 1\ndel apartado C.2.3.5.\nTabla C.5 Forjados bidireccionales\nResistencia al fuego\nAnchura de nervio mínimo bmín / Distancia mínima\nequivalente al eje am (1) (mm)\nEspesor mínimo\nhmin (mm)\nOpción 1\nOpción 2\nOpción 3\nREI 30\n80 / 20\n120 / 15\n200 / 10\n60\nREI 60\n100 /30\n150 / 25\n200 / 20\n80\nREI 90\n120 / 40\n200 / 30\n250 / 25\n100\nREI 120\n160 / 50\n250 / 40\n300 / 35\n120\nREI 180\n200 / 70\n300 / 60\n400 / 55\n150\nREI 240\n250 / 90\n350 / 75\n500 / 70\n175\n(1)\nLos recubrimientos por exigencias de durabilidad pueden requerir valores superiores.\n2\nEn losas nervadas sobre apoyos puntuales y en los casos de resistencia al fuego R 90 o mayor, el\n20% de la armadura superior sobre soportes se distribuirá en toda la longitud del vano, en la banda\nde soportes. Si la losa nervada se dispone sobre apoyos lineales, la armadura de negativos se pro-\nlongará un 33% de la longitud del vano con una cuantía no inferior a un 25% de la requerida en apo-\nyos.\nC.2.3.5 Forjados unidireccionales\n1\nSi los forjados disponen de elementos de entrevigado cerámicos o de hormigón y revestimiento infe-\nrior, para resistencia al fuego R 120 o menor bastará con que se cumpla el valor de la distancia mí-\nnima equivalente al eje de las armaduras establecidos para losas macizas en la tabla C.4, pudiéndo-\nse contabilizar, a efectos de dicha distancia, los espesores equivalentes de hormigón con los criterios",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0060_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0060.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0165",
+  "a0166",
+  "a0167"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

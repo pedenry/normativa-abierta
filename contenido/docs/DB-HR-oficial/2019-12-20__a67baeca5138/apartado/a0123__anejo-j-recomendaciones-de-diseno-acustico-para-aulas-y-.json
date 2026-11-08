@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0123",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo J. Recomendaciones de diseño acústico para aulas y salas de conferencias",
+  "titulo": "Anejo J. Recomendaciones de diseño acústico para aulas y salas de conferencias",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo J. Recomendaciones de diseño acústico para aulas y salas de conferencias",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 73,
+   "bbox": [
+    70.9,
+    95.3,
+    542.6,
+    127.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "fd80da793c8733899081cb9dfa50e755e5f1eabe2b32a764427705b501e4d54a",
+   "literal": "Anejo J. Recomendaciones de diseño acústico para aulas y salas de conferencias"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0033",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo J. Recomendaciones de diseño acústico para aulas y salas de conferencias",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo J. Recomendaciones de diseño acústico para aulas y salas de conferencias",
+   "seccion_estimada": "Anejo J. Recomendaciones de diseño acústico para aulas y salas de conferencias",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "febf2ccb9cfe37762868de6044dc87a879ce105f632d26d2eed59650fca02031"
+ },
+ "paginas": [
+  73
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo J. Recomendaciones de diseño acústico para aulas y salas de conferencias\nconferencias\n1\nEn el caso de aulas y salas de conferencias de volumen hasta 350 m3, las siguientes recomenda-\nciones sobre la geometría de los recintos y la distribución de los materiales absorbentes tienen por\nobjeto mejorar la inteligibilidad de la palabra.\n2\nDeben evitarse los recintos cúbicos o con proporciones entre lados que sean números enteros.\n3\nEn cuanto a la distribución de los materiales absorbentes, se recomienda una de las dos opciones\nde diseño siguientes (Véase figura J.1):\na)\nopción 1. Se dispondrá un material absorbente acústico en toda la superficie del techo, la pa-\nred frontal será reflectante y la pared trasera será absorbente acústica para minimizar los ecos\ntardíos;\nb)\nopción 2. Se dispondrá un material absorbente acústico en el techo, pero sólo se cubrirá la\nparte trasera del techo, dejando una banda de 3 m de ancho de material reflectante en la parte\ndelantera del techo. La pared frontal será reflectante y en la pared trasera se dispondrá un ma-\nterial absorbente acústico de coeficiente de absorción acústica similar al del techo.\nOpción 1\nOpción 2\nFigura J.1. Vista en planta de las opciones 1 y 2\n4\nPara valores iguales de absorción acústica total de los elementos que componen el recinto, es más\nrecomendable disponer un pasillo central que dos pasillos laterales para el acceso de alumnos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0073.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

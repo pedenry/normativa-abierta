@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0183",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.1 Generalidades",
+  "titulo": "D.1 Generalidades",
+  "nivel": 2,
+  "parent_id": "a0182",
+  "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 69,
+   "bbox": [
+    70.9,
+    144.3,
+    206.8,
+    159.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "de8603a48f2c0c5ff83d72ee13400137b02fdb2daf235c76fc5732b68d86ed8d",
+   "literal": "D.1 Generalidades"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0118",
+  "parent_id_original": "a0182",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.1 Generalidades",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0182",
+   "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.1 Generalidades",
+   "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c2fecbd7ba98aa8b879fcd2aa3cfdeaf510c1742eb7a64cba7f788bafd0e5775"
+ },
+ "paginas": [
+  69
+ ],
+ "etiquetas_impresas": [
+  "69"
+ ],
+ "tipos": [],
+ "texto": "D.1 Generalidades\n1\nEn este anejo se establece un método simplificado que permite determinar la resistencia de los ele-\nmentos de acero ante la acción representada por la curva normalizada tiempo-temperatura.\n2\nEn el análisis del elemento puede considerarse que las coacciones en los apoyos y extremos del\nmismo en situación de cálculo frente a fuego no varían con respecto de las que se producen a tem-\nperatura normal.\n3\nSe admite que la clase de las secciones transversales en situación de cálculo frente a fuego es la\nmisma que a temperatura normal.\n4\nEn elementos con secciones de pared delgada, (clase 4), la temperatura del acero en todas las sec-\nciones transversales no debe superar los 350 ºC.\n5\nEn cuanto a la resistencia al fuego de los elementos de acero revestidos con productos de protección\ncon marcado CE, los valores de protección que éstos aportan serán los avalados por dicho marcado.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0184",
+  "a0186",
+  "a0187",
+  "a0188"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,99 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0003",
+  "ruta_oficial": "14",
+  "ruta_semantica": "Fragmento de PDF p1",
+  "titulo": "14 Junio 2022",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p1",
+  "clasificacion_navegacion": "fragmento_portada",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "fragmento_portada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p1",
+  "referencias_filtradas": [
+   "Real Decreto 314/2006"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 Junio 2022",
+   "seccion_estimada": "14 Junio 2022",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0143e4dc02daf090ae197f8234927d116666319488146cea17c52b4a977e84aa"
+ },
+ "paginas": [
+  1,
+  2
+ ],
+ "etiquetas_impresas": [
+  "1",
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "14 Junio 2022\n\nDocumento Básico HE Ahorro de energía\nINTRODUCCIÓN\nDisposiciones normativas publicadas en el Boletín Oficial del Estado\nEl articulado de este Documento Básico fue aprobado por el Real Decreto 314/2006, de\n17 de marzo (BOE 28/03/2006) y posteriormente ha sido modificado por las siguientes",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto 314/2006"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": null,
+   "titulo": "VI Términos y definiciones",
+   "archivo_json": "a0018__vi-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0001.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0004",
+  "a0005",
+  "a0006",
+  "a0007",
+  "a0008",
+  "a0009",
+  "a0010",
+  "a0011",
+  "a0012",
+  "a0013",
+  "a0019",
+  "a0020",
+  "a0021"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

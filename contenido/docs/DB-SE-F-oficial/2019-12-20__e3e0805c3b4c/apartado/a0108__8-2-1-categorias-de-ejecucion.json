@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0108",
+  "ruta_oficial": "8.2.1",
+  "ruta_semantica": "8.2.1 Categorías de ejecución",
+  "titulo": "8.2.1 Categorías de ejecución",
+  "nivel": 1,
+  "parent_id": "a0107",
+  "seccion_estimada": "8.2.1 Categorías de ejecución",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 48,
+   "bbox": [
+    70.9,
+    416.0,
+    216.5,
+    426.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "230ce2c182aa916c6ff4c31a371732fefbc2d876c45673d7cfa01ef005f44eda",
+   "literal": "8.2.1 Categorías de ejecución"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0116",
+  "parent_id_original": "a0107",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE EN",
+   "une dos"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.2.1 Categorías de ejecución",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0107",
+   "ruta_semantica": "8 Control de la ejecución 8.1 Recepción de materiales / 8.2 Control de la fábrica / 8.2.1 Categorías de ejecución",
+   "seccion_estimada": "8 Control de la ejecución 8.1 Recepción de materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "eea73a3ce516b404cd9ac208bb9aeb167189c7108dfc91448ac7d9e4a00ba8ed"
+ },
+ "paginas": [
+  48,
+  49
+ ],
+ "etiquetas_impresas": [
+  "4",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "8.2.1 Categorías de ejecución\n1\nSe establecen tres categorías de ejecución: A, B y C, según las reglas siguientes.\nCategoría A:\na)\nSe usan piezas que dispongan certificación de sus especificaciones sobre tipo y grupo, dimen-\nsiones y tolerancias, resistencia normalizada, succión, y retracción o expansión por humedad.\nb)\nEl mortero dispone de especificaciones sobre su resistencia a la compresión y a la flexotracción\na 7 y 28 días.\nc)\nLa fábrica dispone de un certificado de ensayos previos a compresión según la norma UNE EN\n1052-1:1999, a tracción y a corte según la norma UNE EN 1052-4:2001.\nd)\nDurante la ejecución se realiza una inspección diaria de la obra ejecutada, así como el control y\nla supervisión continuada por parte del constructor.\nCategoría B:\na)\nLas piezas están dotadas de las especificación correspondientes a la categoría A, excepto en lo\nque atañe a las propiedades de succión, de retracción y expansión por humedad.\nb)\nSe dispone de especificaciones del mortero sobre sus resistencias a compresión y a flexotrac-\nción, a 28 días.\nc)\nDurante la ejecución se realiza una inspección diaria de la obra ejecutada, así como el control y\nla supervisión continuada por parte del constructor.\nCategoría C:\nCuando no se cumpla alguno de los requisitos establecidos para la categoría B.\n\nDocumento Básico SE-F Fábrica\nSE-F-45\nFigura 8.1 Tolerancias de muros verticales.\nTabla 8.2 Tolerancias para elementos de fábrica\nPosición\nTolerancia, en mm\nDesplome\nEn la altura del piso\nEn la altura total del edificio\n20\n50\nAxialidad\n20\nPlaneidad  (1)\nEn 1 metro\nEn 10 metros\n5\n20\nEspesor\nDe la hoja del muro (2)\nDel muro capuchino completo\n25 mm\n+10\n(1)\nLa planeidad se mide a partir de una línea recta que une dos puntos cualesquiera del elemento de fábrica.\n(2)\nExcluyendo el caso en que el espesor de la hoja está directamente vinculada a las tolerancias de fabricación de las      piezas\n(en fábricas a soga o a tizón). Puede llegar al +5% del espesor de la hoja.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN",
+  "une dos"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0049.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,78 @@
+{
+ "documento": "GUIA-PDF-a5d4ef5252ba",
+ "code": "GUIA",
+ "title": "IEE 2016",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "2016-11-01",
+ "version_dir": "2016-11-01__813669d3066c",
+ "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+ "apartado": {
+  "id_tecnico": "a0017",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo 3. Valoración del aislamiento acústico de elementos de separación horizontales y sus mejoras / sección,",
+  "titulo": "sección,",
+  "nivel": 2,
+  "parent_id": "a0003",
+  "seccion_estimada": "Anejo 3. Valoración del aislamiento acústico de elementos de separación horizontales y sus mejoras"
+ },
+ "paginas": [
+  27,
+  28,
+  29
+ ],
+ "etiquetas_impresas": [
+  "27",
+  "28",
+  "29"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "sección,\ndisminuyendo\nel\naislamiento\nacústico\ndel\nparamento y permitiendo el paso de ruido por su\ninterior.\n\nGuía para la cumplimentación de la parte IV del IEE. Condiciones básicas de protección frente al ruido\n28\nLas cuestiones planteadas en el IEE están orientadas a\ndetectar los focos de ruido en los cuartos húmedos: red\ndescolgada, falso techo que no tiene un buen\naislamiento acústico por ser registrable, tener luminarias\nempotradas, etc.\nFigura IV.2.15. Principales focos de transmisión de ruido en los cuartos húmedos. Sección vertical.\n1\nTransmisión del ruido aéreo provocado por el paso del líquido por las tuberías\n2\nTransmisión de ruido estructural provocado por contactos rígidos entre las tuberías y la estructura del edificio debido a que\nlos pasos de las tuberías han sido sellados con espumas rígidas o mortero.\n3\nHuecos entre las tuberías y el forjado no sellados, incluso con pérdida del material de entrevigado.\n4\nLa ausencia de suelo flotante significa que el aislamiento a ruido de impactos es pobre. El ruido de pisadas, caída de objetos,\netc. se transmite a la estructura del edificio y a las tuberías.\n5\nSujeción de las tuberías de forma rígida mediante abrazaderas que no tienen un material elástico.\n6\nAnclaje de las bajantes a elementos ligeros, como tabiques de masa por unidad de superficie inferior a 150 kg/m2, como por\nejemplo, particiones de ladrillo hueco.\n7\nFalso techo sin material absorbente acústico, poco estanco o sin un sellado perimetral.\nPara una correcta ejecución de la red de cuartos húmedos, véase la ficha CH de la Guía de Aplicación del DB HR.\n⓲\nDebe cumplimentarse el IEE siempre que las puertas de\ngaraje estén ancladas a la fachada de recintos\nprotegidos, ya estén estos situados al lado o encima de\nlas puertas. Es este caso, el ruido suele deberse a las\nvibraciones transmitidas por el motor y a los impactos\nprovocados por la puerta, siendo especialmente\nmolestos en dormitorios por la noche.\nLas cuestiones que resalta el IEE están orientadas a\ndetectar si existe un sistema de amortiguación entre el\nmotor, la puerta y los elementos constructivos del\nedificio, como son las fachadas, forjados, etc. Véase\nficha INST-PG Puertas de garaje de la Guía de\nAplicación del DB HR Protección frente al ruido.\n⓳\nEn este apartado puede consignarse cualquier aspecto\nrelativo al ruido producido por las instalaciones no\ncomentado anteriormente.\n\nGuía para la cumplimentación de la parte IV del IEE. Condiciones básicas de protección frente al ruido\n29",
+ "notas": [],
+ "ambito": null,
+ "referencias": [
+  "DB HR"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0029_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0027.png",
+  "../figura/p0028.png",
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/IEE_2016.pdf",
+  "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0018",
+  "a0019",
+  "a0020",
+  "a0021",
+  "a0022",
+  "a0023",
+  "a0024",
+  "a0025",
+  "a0026",
+  "a0027",
+  "a0028"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0003",
+  "nivel": 2,
+  "seccion_estimada": "Anejo 3. Valoración del aislamiento acústico de elementos de separación horizontales y sus mejoras",
+  "ruta_semantica": "Anejo 3. Valoración del aislamiento acústico de elementos de separación horizontales y sus mejoras / sección,"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

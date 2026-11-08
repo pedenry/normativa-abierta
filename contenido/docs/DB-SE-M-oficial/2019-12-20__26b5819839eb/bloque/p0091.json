@@ -1,0 +1,142 @@
+{
+ "documento": null,
+ "pagina": 91,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 85",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    106.9,
+    72.5,
+    538.6,
+    93.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "El valor de cálculo de la fuerza de estabilización Fd, en cada punto de restricción de la pieza, de-\nbe tomarse como mínimo:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    88.8,
+    98.4,
+    541.3,
+    134.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Fd = Nd / 80 para madera maciza;\n (10.60)\nFd = Nd / 100 para madera laminada encolada y microlaminada.\n(10.61)\nb) Vigas o piezas flectadas.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    106.9,
+    141.9,
+    541.3,
+    174.8
+   ],
+   "tipo": "texto",
+   "texto": "El valor de cálculo de la fuerza de estabilización Fd , del borde comprimido de una viga o pieza\nflectada de sección rectangular, debe determinarse utilizando las expresiones (10.60) y (10.61),\ntomando como axil Nd, el valor deducido de la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    109.3,
+    180.2,
+    541.3,
+    205.0
+   ],
+   "tipo": "texto",
+   "texto": "h\nM\n)\nk\n1\n(\nN\nd\ncrit\nd\n\n\n(10.62)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    108.1,
+    206.4,
+    541.3,
+    273.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nkcrit\n valor del factor por vuelco lateral (véase apartado 6.3.3.3), considerando la viga o pieza\nflectada no arriostrada lateralmente en toda su longitud;\nMd\nmomento flector máximo de cálculo en la viga, o pieza flectada;\nh\ncanto de la pieza simple flectada.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    109.3,
+    278.4,
+    541.3,
+    339.0
+   ],
+   "tipo": "texto",
+   "texto": "Debe tenerse en cuenta que la fuerza de estabilización Fd puede actuar en ambos sentidos\n(compresión y tracción) en cada punto de restricción lateral. Y que además de la fuerza axial Fd,\no la que resulte de la acumulación de dos o más fuerzas Fd procedentes de otras barras de atado\n(véase figura 10.12) pueden existir otras solicitaciones ocasionadas por cargas que soportan di-\nrectamente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    554.5,
+    459.3,
+    586.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 10.12 Posible acumulación de cargas axiales en barras de atado",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    109.3,
+    595.1,
+    541.3,
+    617.7
+   ],
+   "tipo": "texto",
+   "texto": "El coeficiente de rigidez de un determinado apoyo es igual al valor de la carga necesaria para\nprovocar un desplazamiento unidad.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

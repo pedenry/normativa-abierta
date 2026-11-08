@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0156",
+  "ruta_oficial": "10.2.2",
+  "ruta_semantica": "10.2.2 Conformado",
+  "titulo": "10.2.2 Conformado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.2.2 Conformado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 112,
+   "bbox": [
+    74.1,
+    319.3,
+    167.0,
+    330.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5860833e415ec19e15cdab6beae5e50feae7ca5bb8f0af329c41392447739ce8",
+   "literal": "10.2.2 Conformado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0147",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2.2 Conformado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.2 Operaciones de fabricación en taller 10.2.1 Corte / 10.2.2 Conformado",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e773542f553e15a19e016f4bcf074d08e7452d3193d6a1a8a075300451d48d18"
+ },
+ "paginas": [
+  112
+ ],
+ "etiquetas_impresas": [
+  "112"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "10.2.2 Conformado\n1\nEl acero se puede doblar, prensar o forjar hasta que adopte la forma requerida, utilizando procesos\nde conformado en caliente o en frío, siempre que las características del material no queden por\ndebajo de los valores especificados.\n2\nPara el conformado en caliente se seguirán las recomendaciones del productor siderúrgico. El con-\nformado se realizará con el material en estado rojo cereza, manejando de forma adecuada la tem-\nperatura, el tiempo y la velocidad de enfriamiento. No se permitirá el doblado o conformado en el\nintervalo de calor azul (250ºC a 380ºC), ni para aceros termomecánicos o templados y revenidos,\nsalvo que se realicen ensayos que demuestren que, tras el proceso, siguen cumpliendo los requisi-\ntos especificados en el pliego de condiciones.\n3\nSe puede emplear la conformación mediante la aplicación controlada de calor siguiendo los crite-\nrios del párrafo anterior.\n4\nSe permite el conformado en frío, pero no la utilización de martillazos.\n5\nLos radios de acuerdo mínimos para el conformado en frío son:\nEspesor de la chapa (mm)\nRadio (interior) del acuerdo\nt ≤ 4\nt\n4 < t  ≤ 8\n1,5 t\n8 < t  ≤ 12\n2 t\n12 < t  ≤ 24\n3 t",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0112.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

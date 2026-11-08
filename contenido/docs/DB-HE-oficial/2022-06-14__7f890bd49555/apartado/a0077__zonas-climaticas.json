@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0077",
+  "ruta_oficial": null,
+  "ruta_semantica": "Zonas climáticas",
+  "titulo": "Zonas climáticas",
+  "nivel": 1,
+  "parent_id": "a0076",
+  "seccion_estimada": "Zonas climáticas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 46,
+   "bbox": [
+    56.7,
+    130.9,
+    192.7,
+    144.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4bf2191ab39c765e0035a2b571c3c638efd9fe54c9af37dfd6de60a91edd91d5",
+   "literal": "Zonas climáticas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0076",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Zonas climáticas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0076",
+   "ruta_semantica": "Anejo B. Zonas climáticas / Zonas climáticas",
+   "seccion_estimada": "Anejo B. Zonas climáticas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e2ef432b53ea31aff905ea4c50a0395cc6fb972f0c6be60ea06a29ac868c791c"
+ },
+ "paginas": [
+  46,
+  47
+ ],
+ "etiquetas_impresas": [
+  "46",
+  "47"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Zonas climáticas\n1\nLa tabla a-Anejo B permite obtener la zona climática (Z.C.) de un emplazamiento en función de su\nprovincia y su altitud respecto al nivel del mar (h):\nTabla a-Anejo B. Zonas climáticas\nAltitud sobre el nivel del mar (h)\nProvincia\n≤\n50\nm\n51\n-\n100\nm\n101\n-\n150\nm\n111\n-\n200\nm\n201\n-\n250\nm\n251\n-\n300\nm\n301\n-\n350\nm\n351\n-\n400\nm\n401\n-\n450\nm\n451\n-\n500\nm\n501\n-\n550\nm\n551\n-\n600\nm\n601\n-\n650\nm\n651\n-\n700\nm\n701\n-\n750\nm\n751\n-\n800\nm\n801\n-\n850\nm\n851\n-\n900\nm\n901\n-\n950\nm\n951\n-\n1000\nm\n1001\n-\n1050\nm\n1051\n-\n1250\nm\n1251\n-\n1300\nm\n≥\n1301\nm\nAlbacete\nC3\nD3\nE1\nAlicante/Alacant\nB4\nC3\nD3\nAlmería\nA4\nB4\nB3\nC3\nD3\nAraba/Álava\nD1\nE1\nAsturias\nC1\nD1\nE1\nÁvila\nD2\nD1\nE1\nBadajoz\nC4\nC3\nD3\nBalears, Illes\nB3\nC3\nBarcelona\nC2\nD2\nD1\nE1\nBizkaia\nC1\nD1\nBurgos\nD1\nE1\nCáceres\nC4\nD3\nE1\nCádiz\nA3\nB3\nC3\nC2\nD2\nCantabria\nC1\nD1\nE1\nCastellón/Castelló\nB3\nC3\nD3\nD2\nE1\nCeuta\nB3\nCiudad Real\nC4\nC3\nD3\nCórdoba\nB4\nC4\nD3\nCoruña, A\nC1\nD1\nCuenca\nD3\nD2\nE1\nGipuzkoa\nD1\nE1\nGirona\nC2\nD2\nE1\nGranada\nA4\nB4\nC4\nC3\nD3\nE1\nGuadalajara\nD3\nD2\nE1\nHuelva\nA4\nB4\nB3\nC3\nD3\nHuesca\nC3\nD3\nD2\nE1\nJaén\nB4\nC4\nD3\nE1\nLeón\nE1\nLleida\nC3\nD3\nE1\nLugo\nD1\nE1\nMadrid\nC3\nD3\nD2\nE1\nMálaga\nA3\nB3\nC3\nD3\nMelilla\nA3\nMurcia\nB3\nC3\nD3\nNavarra\nC2\nD2\nD1\nE1\nOurense\nC3\nC2\nD2\nE1\nPalencia\nD1\nE1\nPalmas, Las\nα3\nA2\nB2\nC2\nPontevedra\nC1\nD1\nRioja, La\nC2\nD2\nE1\nSalamanca\nD2\nE1\nSanta Cruz de Tenerife\nα3\nA2\nB2\nC2\nSegovia\nD2\nE1\nSevilla\nB4\nC4\nSoria\nD2\nD1\nE1\nTarragona\nB3\nC3\nD3\nTeruel\nC3\nC2\nD2\nE1\nToledo\nC4\nD3\nValencia/València\nB3\nC3\nD2\nE1\nValladolid\nD2\nE1\nZamora\nD2\nE1\nZaragoza\nC3\nD3\nE1\n\nDocumento Básico HE Ahorro de energía\nAnejo B. Zonas climáticas\n47\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0046_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0046.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0061",
+  "ruta_oficial": null,
+  "ruta_semantica": "cada planta más",
+  "titulo": "cada planta más",
+  "nivel": 1,
+  "parent_id": "a0053",
+  "seccion_estimada": "cada planta más",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 27,
+   "bbox": [
+    87.9,
+    488.7,
+    538.9,
+    499.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d031dfa9d1776255663b1ee4f893beaeac8bab3257b0bed787297568df236467",
+   "literal": "cada planta más"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0053",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "cada planta más",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0053",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 4 Dimensionado de los medios de evacuación / cada planta más",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c7e1bd70fe3a9d2a5f74f553a527c7bb8b660a895f6fc555ec2545526eceabec"
+ },
+ "paginas": [
+  27
+ ],
+ "etiquetas_impresas": [
+  "27"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "cada planta más\n1,00\n132\n160\n224\n288\n352\n416\n480\n+32\n1,10\n145\n176\n248\n320\n392\n464\n536\n+36\n1,20\n158\n192\n274\n356\n438\n520\n602\n+41\n1,30\n171\n208\n302\n396\n490\n584\n678\n+47\n1,40\n184\n224\n328\n432\n536\n640\n744\n+52\n1,50\n198\n240\n356\n472\n588\n704\n820\n+58\n1,60\n211\n256\n384\n512\n640\n768\n896\n+64\n1,70\n224\n272\n414\n556\n698\n840\n982\n+71\n1,80\n237\n288\n442\n596\n750\n904\n1058\n+77\n1,90\n250\n304\n472\n640\n808\n976\n1144\n+84\n2,00\n264\n320\n504\n688\n872\n1056\n1240\n+92\n2,10\n277\n336\n534\n732\n930\n1128\n1326\n+99\n2,20\n290\n352\n566\n780\n994\n1208\n1422\n+107\n2,30\n303\n368\n598\n828\n1058\n1288\n1518\n+115\n2,40\n316\n384\n630\n876\n1122\n1368\n1614\n+123",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0027.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

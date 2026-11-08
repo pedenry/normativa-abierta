@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0057",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p24",
+  "titulo": "Anejo F.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p24",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p24",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F.",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2e2b2134c5c06452d527f9a28988dac6593b57b8a56a4fc4b1520b4600ad6afb"
+ },
+ "paginas": [
+  24,
+  25
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo F.\n = (1,1 + a/h ) < 1,4\n(5.15)\ndonde:\na\nla distancia del borde del área cargada al borde vertical del muro más próximo);\nh\nla altura del paño hasta el nivel en que se aplica la carga.\n3\nLa excentricidad de la carga en su acometida al muro no será mayor de t/4.\n\nDocumento Básico SE-F Fábrica\nSE-F-21\n4\nAdemás debe comprobarse la compresión repartida en la longitud eficaz Lef incluyendo el efecto de\ncualquier otra carga vertical, particularmente cuando inciden cargas concentradas próximas, que so-\nlapan sus longitudes eficaces, adoptando las medidas que procedan para garantizar el equilibrio.\n5\nLa carga concentrada se apoyará sobre piezas u otro material macizo en una longitud igual a la del\nárea cargada incrementada en una longitud adicional al efecto de que las tensiones, suponiendo que\nse reparten con un ángulo de 60º, sean soportables para el material que constituye el muro.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0024.png",
+  "../figura/p0025.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0058",
+  "a0059",
+  "a0061",
+  "a0065",
+  "a0066",
+  "a0071"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

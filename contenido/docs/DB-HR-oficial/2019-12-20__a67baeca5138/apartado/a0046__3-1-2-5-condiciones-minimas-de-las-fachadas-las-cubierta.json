@@ -1,0 +1,99 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0046",
+  "ruta_oficial": "3.1.2.5",
+  "ruta_semantica": "3.1.2.5  Condiciones mínimas de las fachadas, las cubiertas y los suelos en contacto con el aire exterior.",
+  "titulo": "3.1.2.5  Condiciones mínimas de las fachadas, las cubiertas y los suelos en contacto con el aire exterior.",
+  "nivel": 1,
+  "parent_id": "a0043",
+  "seccion_estimada": "3.1.2.5  Condiciones mínimas de las fachadas, las cubiertas y los suelos en contacto con el aire exterior.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 22,
+   "bbox": [
+    70.9,
+    572.2,
+    541.4,
+    594.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "bf614bb53d6233a48a27bed3a4f7b7ab840fea8b30259af6c8eb2d8ccf4d7d3e",
+   "literal": "3.1.2.5  Condiciones mínimas de las fachadas, las cubiertas y los suelos en contacto con el aire exterior."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0043",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.2.5  Condiciones mínimas de las fachadas, las cubiertas y los suelos en contacto con el aire exterior.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0043",
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / Elementos de separación verticales / 3.1.2.5  Condiciones mínimas de las fachadas, las cubiertas y los suelos en contacto con el aire exterior.",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b224703142153d1edcbb5434217cb6fa5ac9eca851d3d65b006e559052b871e9"
+ },
+ "paginas": [
+  22,
+  23,
+  24
+ ],
+ "etiquetas_impresas": [
+  "3",
+  null,
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.1.2.5  Condiciones mínimas de las fachadas, las cubiertas y los suelos en contacto con el aire exterior.\nexterior.\n1\nEn la tabla 3.4 se expresan los valores mínimos que deben cumplir los elementos que forman los\nhuecos y la parte ciega de la fachada, la cubierta o el suelo en contacto con el aire exterior, en fun-\nción de los valores límite de aislamiento acústico entre un recinto protegido y el exterior indicados\nen la tabla 2.1 y del porcentaje de huecos expresado como la relación entre la superficie del hueco\ny la superficie total de la fachada vista desde el interior de cada recinto protegido.\n2\nEl parámetro acústico que define los componentes de una fachada, una cubierta o un suelo en con-\ntacto con el aire exterior es el índice global de reducción acústica, ponderado A, para ruido exterior\ndominante de automóviles o de aeronaves, RA,tr, de la parte ciega y de los elementos que forman el\nhueco.\n3\nEste índice, RAtr, caracteriza al conjunto formado por la ventana, la caja de persiana y el aireador si\nlo hubiera.\n\nDocumento Básico HR - Protección frente al ruido\nHR-17\nEn el caso de que el aireador no estuviera integrado en el hueco, sino que se colocara en el cerra-\nmiento, debe aplicarse la opción general.\n4\nEn el caso de que la fachada del recintoprotegido fuera en esquina o tuviera quiebros, el porcentaje\nde huecos se determina en función de la superficie total del perímetro de la fachada vista desde el\ninterior del recinto.\nTabla 3.4 Parámetros acústicos de fachadas, cubiertas y suelos en contacto con el aire exterior de recintos\nprotegidos\nNivel límite exigido\n(Tabla 2.1)\nD2m,nT,Atr\ndBA\nParte\nciega\n100 %\nRA,tr\ndBA\nParte\nciega \n100 %\nRA,tr\ndBA\nHuecos\nPorcentaje de huecos\nRA,tr de los componentes del hueco(2)\ndBA\nHasta 15 %\nDe 16 a\n30%\nDe 31 a\n60%\nDe 61 a\n80%\nDe 81 a\n100%\nD2m,nT,Atr = 30\n33\n35\n26\n29\n31\n32\n33\n40\n25\n28\n30\n31\n45\n25\n28\n30\n31\nD2m,nT,Atr = 32\n35\n35\n30\n32\n34\n34\n35\n40\n27\n30\n32\n34\n45\n26\n29\n32\n33\nD2m,nT,Atr = 34(1)\n36\n40\n30\n33\n35\n36\n36\n45\n29\n32\n34\n36\n50\n28\n31\n34\n35\nD2m,nT,Atr = 36(1)\n38\n40\n33\n35\n37\n38\n38\n45\n31\n34\n36\n37\n50\n30\n33\n36\n37\nD2m,nT,Atr = 37\n39\n40\n35\n37\n39\n39\n39\n45\n32\n35\n37\n38\n50\n31\n34\n37\n38\nD2m,nT,Atr = 41(1)\n43\n45\n39\n40\n42\n43\n43\n50\n36\n39\n41\n42\n55\n35\n38\n41\n42\nD2m,nT,Atr = 42\n44\n50\n37\n40\n42\n43\n44\n55\n36\n39\n42\n43\n60\n36\n39\n42\n43\nD2m,nT,Atr = 46(1)\n48\n50\n43\n45\n47\n48\n48\n55\n41\n44\n46\n47\n60\n40\n43\n46\n47\nD2m,nT,Atr = 47\n49\n55\n42\n45\n47\n48\n49\n60\n41\n44\n47\n48\nD2m,nT,Atr = 51(1)\n53\n55\n48\n50\n52\n53\n53\n60\n46\n49\n51\n52\n(1) Los valores de estos niveles límite se refieren a los que resultan de incrementar 4 dBA los exigidos en la tabla 2.1, cuando el\nruido exterior dominante es el de aeronaves.\n(2) El índice RA,tr  de los componentes del hueco expresado en la tabla 3.4 se aplica a las ventanas que dispongan de aireadores,\nsistemas de microventilación o cualquier otro sistema de abertura de admisión de aire con dispositivos de cierre en posición ce-\nrrada.\n\nDocumento Básico HR - Protección frente al ruido\nHR-18",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0022_t01.json",
+  "../tabla/p0023_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0022.png",
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

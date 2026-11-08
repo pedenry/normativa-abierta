@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0160",
+  "ruta_oficial": "10.2.6",
+  "ruta_semantica": "10.2.6 Empalmes",
+  "titulo": "10.2.6 Empalmes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.2.6 Empalmes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 113,
+   "bbox": [
+    74.1,
+    671.8,
+    157.5,
+    682.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "dd99dd66e0785c53652a84bb1c54c581ffe7dfc8df98246ff257a6335be56c51",
+   "literal": "10.2.6 Empalmes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0151",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2.6 Empalmes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.2 Operaciones de fabricación en taller 10.2.1 Corte / 10.2.6 Empalmes",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7bd3467b66d58e8b3b69adef79ffe44d8a5cf8f274363934f70fea0bf75f4167"
+ },
+ "paginas": [
+  113,
+  114
+ ],
+ "etiquetas_impresas": [
+  "113",
+  "114"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.2.6 Empalmes\n1\nNo se permitirán más empalmes que los establecidos en el proyecto o autorizados por el director\nde obra. Dichos empalmes se realizarán conforme al procedimiento establecido.\n\nDocumentoBásico SE-A Acero\nSE-A-112",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0113.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

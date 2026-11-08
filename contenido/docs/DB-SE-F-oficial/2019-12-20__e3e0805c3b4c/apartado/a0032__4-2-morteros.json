@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0032",
+  "ruta_oficial": "4.2",
+  "ruta_semantica": "4.2 Morteros",
+  "titulo": "4.2 Morteros",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2 Morteros",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    70.9,
+    452.6,
+    148.9,
+    464.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "923ea130ec804a5e0c16b91f435c207c6e6d464c0a98a6d722173e4b2585c481",
+   "literal": "4.2 Morteros"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0034",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2 Morteros",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas / 4.2 Morteros",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "02879e543863ad84a66ac27fd7c2e8e43aa2c5404fe6051e943bbfd36cc1aa6d"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.2 Morteros\n1\nLos morteros para fábricas pueden ser ordinarios, de junta delgada o ligeros. El mortero de junta\ndelgada se puede emplear cuando las piezas sean rectifiquen o moldeen y permitan construir el muro\ncon tendeles de espesor entre 1 y 3 mm.\n2\nLos morteros ordinarios pueden especificarse por:\na)\nResistencia: se designan por la letra M seguida de la resistencia a compresión en N/mm2\nb)\nDosificación en volumen: se designan por la proporción, en volumen, de los componentes fun-\ndamentales (por ejemplo 1:1:5 cemento, cal y arena) La elaboración incluirá las adiciones, adi-\ntivos y cantidad de agua, con los que se supone que se obtiene el valor de fm  supuesto.\n3\nEl mortero ordinario para fábricas convencionales no será inferior a M1. El mortero ordinario para\nfábrica armada o pretensada, los morteros de junta delgada y los morteros ligeros, no serán inferiores\na M4. En cualquier caso, para evitar roturas frágiles de los muros, la resistencia a la compresión del\nmortero no debe ser superior al 0,75 de la resistencia normalizada de las piezas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0077",
+  "ruta_oficial": "6.3.2.5",
+  "ruta_semantica": "6.3.2.5 Pilares de edificios",
+  "titulo": "6.3.2.5 Pilares de edificios",
+  "nivel": 1,
+  "parent_id": "a0073",
+  "seccion_estimada": "6.3.2.5 Pilares de edificios",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 41,
+   "bbox": [
+    78.0,
+    132.5,
+    204.7,
+    143.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0e118823e99891f0d8411c43d897900aea8e0d542ff530d744660c36721f5b51",
+   "literal": "6.3.2.5 Pilares de edificios"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0077",
+  "parent_id_original": "a0073",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.5 Pilares de edificios",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0073",
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores. / Perfiles L / 6.3.2.5 Pilares de edificios",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c432192e8f874851e0d4e3686b579289a7ad1f24a19a6f532ef6816369b84234"
+ },
+ "paginas": [
+  41,
+  42
+ ],
+ "etiquetas_impresas": [
+  "41",
+  "42"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.2.5 Pilares de edificios\n1\nLa longitud de pandeo Lk de un tramo de pilar de longitud L unido rígidamente a las demás piezas\nde un pórtico intraslacional o de un pórtico traslacional en cuyo análisis se haya empleado un mé-\ntodo de segundo orden que no considere las imperfecciones de los propios pilares, o el método de\nmayoración de acciones horizontales descrito en 5.3.1, puede obtenerse del cociente:\n(\n)\n(\n)\n1\n247\n,0\n364\n,0\n2\n265\n,0\n145\n,0\n1\nL\nL\n2\n1\n2\n1\n2\n1\n2\n1\nk\n≤\nη\nη\n⋅\n−\nη\n+\nη\n⋅\n−\nη\nη\n⋅\n−\nη\n+\nη\n⋅\n+\n=\n=\nβ\n(6.24)\n2\nLa longitud de pandeo de un tramo de pilar unido rígidamente a las demás piezas de un pórtico\ntraslacional en cuyo análisis no se hayan contemplado los efectos de segundo orden puede obte-\nnerse del cociente:\n(\n)\n(\n)\n1\n6,0\n8,0\n1\n12\n,0\n2,0\n1\nL\nL\n2\n1\n2\n1\n2\n1\n2\n1\nk\n≥\nη\nη\n⋅\n+\nη\n+\nη\n⋅\n−\nη\nη\n⋅\n−\nη\n+\nη\n⋅\n−\n=\n=\nβ\n(6.25)\nLos cocientes β pueden obtenerse en la figura 6.4.\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\nη2\nη1\n0,55\n0,57\n0,60\n0,65\n0,70\n0,75\n0,80\n0,90\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\nη2\nη1\n1,1\n1,25\n1,5\n1,75\n2\n2,5\n3\n5\nIntraslacional 6.3.2.5-1\nTraslacional 6.3.2.5-2\nFigura 6.4 Cocientes de longitud de pandeo a longitud de barra\n3\nLos coeficientes de distribución η1 y η2 anteriores se obtienen de:\n22\n21\n2\nc\n2\nc\n2\n12\n11\n1\nc\n1\nc\n1\nK\nK\nK\nK\nK\nK\nK\nK\nK\nK\nK\nK\n+\n+\n+\n+\n=\nη\n+\n+\n+\n+\n=\nη\n(6.26)\nsiendo\nKc\ncoeficiente de rigidez EI/L del tramo de pilar analizado;\nKi\ncoeficiente de rigidez EI/L del siguiente tramo de pilar en el nudo i, nulo caso de no existir;\nKij\ncoeficiente de rigidez eficaz de la viga en el nudo i, y posición j.\n\nDocumentoBásico SE-A Acero\nSE-A-40\nSi los tramos sucesivos tienen diferente relación\ncri\nN\n/\nN\n, la aproximación de β obtenida, y por tan-\nto la de la misma\ncri\nN\n, están del lado de la seguridad.\nFigura 6.5 Coeficientes de distribución\n4\nLos coeficientes de rigidez eficaz de las vigas pueden determinarse de acuerdo con la tabla 6.5,\nsiempre que permanezcan elásticas bajo los momentos de cálculo.\nTabla 6.5 Coeficiente de rigidez eficaz para una viga en comportamiento elástico\nCoeficiente de rigidez eficaz K de la viga\nCondiciones de coacción al giro en la vi-\nga en el extremo contrario al considerado.\nsin compresión relevante\ncon compresión(1)\nempotrado\n1,0 EI/L\n1,0 EI/L (1-0,4 N/Ncri)\narticulado\n0,75 EI/L\n0,75 EI/L (1 - 1,0 N/Ncri)\ngiro igual y de igual signo\n1,5 EI/L\n1,5 EI/L (1-0,2 N/Ncri)\ngiro igual y y de signo opuesto\n0,5 EI/L\n0,5 EI/L (1-1,0 N/Ncri)\ngiro θa en el nudo considerado y giro θb en el\notro\n(1 + 0,5 θb / θa) EI/L\n-\n(1) Ncri se refiere al valor crítico a compresión de la viga considerada. El caso general (-) no está contemplado\nCuando por la situación de dimensionado considerada, el momento de cálculo en cualquiera de\nlas vigas supera a Welfyd debe suponerse que la viga está articulada en el punto o puntos corres-\npondientes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0041_t01.json",
+  "../tabla/p0041_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0041.png",
+  "../figura/p0042.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

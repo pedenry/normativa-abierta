@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0064",
+  "ruta_oficial": "5.4.4",
+  "ruta_semantica": "5.4.4 Arco estribado en sus extremos",
+  "titulo": "5.4.4 Arco estribado en sus extremos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.4.4 Arco estribado en sus extremos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    732.0,
+    253.8,
+    742.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "92db629af4a164f1303aa8f80a203a90485cd32eff755bd5d156859b83304831",
+   "literal": "5.4.4 Arco estribado en sus extremos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0064",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4.4 Arco estribado en sus extremos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. / 5.4 Muros con acciones laterales locales 5.4.1 Generalidades / 5.4.4 Arco estribado en sus extremos",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "67c49b68a5b07bc373c3a99ecc4b6233d972a2f7c69fcb82cdf2ad347339dfcf"
+ },
+ "paginas": [
+  28,
+  29,
+  30
+ ],
+ "etiquetas_impresas": [
+  "3",
+  "1",
+  "18"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "5.4.4 Arco estribado en sus extremos\n\nDocumento Básico SE-F Fábrica\nSE-F-25\n1\nCuando un muro se ejecuta entre extremos capaces de resistir empuje, puede suponerse que las\nacciones perpendiculares a su plano se resisten mediante arcos verticales u horizontales, si se adop-\ntan las medidas constructivas adecuadas a ese comportamiento.\n2\nEl cálculo como arco se basa en el de tres articulaciones, dos en los extremos y uno en una sección\nintermedia, situadas en el centro de bielas de ancho 0,1·td, siendo td el canto del sólido capaz en\ndonde se puede inscribir el arco (figura 5.10)\n3\nLa altura del arco, r, viene dada por la ecuación:\nr  =  2/3 · (td - d)\n(5.30)\nsiendo:\ntd\nel canto del arco\nd\nla deformación del arco debida al valor de cálculo de la acción lateral; puede despreciarse para\npaños con una relación de longitud a canto de no más de 25. En otro caso resulta del lado de la\nseguridad adoptar d = td /4\nFigura 5.10 Comportamiento del muro como arco rebajado.\n4\nA efectos de comprobar la capacidad de respuesta de los estribos, como valor de cálculo del empuje\nmáximo, por unidad de longitud o altura del muro, Nad, puede tomarse:\nNad = qd·L2 / 4·td\n(5.31)\ny cuando la deformación lateral es pequeña, la resistencia lateral de cálculo, qRd, es:\n2\n2\nd\n2\n2\nd\nd\nd\nRd\nL\nE\n2\nf\nL\n3\nt\n2\n1\n2\nt\nf\n9\n16\nq\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(5.32)\nsiendo:\nfd\nla resistencia de cálculo de la fábrica\ntd\nel canto del arco\nL\nla longitud o altura del arco\n5\nPequeñas variaciones en el valor de L pueden alterar los valores obtenidos en el cálculo del arco, por\nlo que esta comprobación no es fiable para fábricas que tengan retracción en su dirección.\n\nDocumento Básico SE-F Fábrica\nSE-F-26",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0029_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0028.png",
+  "../figura/p0029.png",
+  "../figura/p0030.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

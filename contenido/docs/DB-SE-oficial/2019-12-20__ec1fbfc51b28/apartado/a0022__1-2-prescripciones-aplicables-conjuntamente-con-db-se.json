@@ -1,0 +1,105 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0022",
+  "ruta_oficial": "1.2",
+  "ruta_semantica": "1.2 Prescripciones aplicables conjuntamente con DB-SE",
+  "titulo": "1.2 Prescripciones aplicables conjuntamente con DB-SE",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1.2 Prescripciones aplicables conjuntamente con DB-SE",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 7,
+   "bbox": [
+    70.9,
+    295.1,
+    395.7,
+    307.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7b19d48cd21dd0ffd9d802dc28faaf1ba05fdec959fd12b02ecb098e1af692f0",
+   "literal": "1.2 Prescripciones aplicables conjuntamente con DB-SE"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0017",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE",
+   "DB-SE-A",
+   "DB-SE-AE",
+   "DB-SE-C",
+   "DB-SE-F",
+   "DB-SE-M",
+   "DB-SI"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB-SE\n1",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "1.2 Prescripciones aplicables conjuntamente con DB-SE",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas / 1.2 Prescripciones aplicables conjuntamente con DB-SE",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fed8a3b1796f902bf8d8fb1ff0a1060c7e6a38f3f13da38fca6a1fc41ceb749c"
+ },
+ "paginas": [
+  7,
+  9
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "1.2 Prescripciones aplicables conjuntamente con DB-SE\n1\nEl DB-SE constituye la base para los Documentos Básicos siguientes y se utilizará conjuntamente\ncon ellos:\n-\nDB-SE-AE\nAcciones en la edificación\n-\nDB-SE-C\nCimientos\n-\nDB-SE-A\nAcero\n-\nDB-SE-F\nFábrica\n-\nDB-SE-M\nMadera\n-\nDB-SI\nSeguridad en caso de incendio\n2\nDeberán tenerse en cuenta, además, las especificaciones de la normativa siguiente:\n-\nNCSE\nNorma de construcción sismorresistente: parte general y edificación\n-\nEHE\nInstrucción de hormigón estructural\n-\nEFHE\nInstrucción para el proyecto y la ejecución de forjados unidireccionales\nde hormigón estructural realizados con elementos prefabricados\n\nDocumento Básico SE Seguridad Estructural\nSE - 3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE",
+  "DB-SE\n1",
+  "DB-SE-A",
+  "DB-SE-AE",
+  "DB-SE-C",
+  "DB-SE-F",
+  "DB-SE-M",
+  "DB-SI"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

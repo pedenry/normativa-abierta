@@ -1,0 +1,122 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0127",
+  "ruta_oficial": "5.3.4.1.1",
+  "ruta_semantica": "5.3.4.1.1 Criterios básicos",
+  "titulo": "5.3.4.1.1 Criterios básicos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.3.4.1.1 Criterios básicos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 55,
+   "bbox": [
+    70.9,
+    175.2,
+    196.4,
+    185.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9fd8a52002c66971d16d4b791ddf3576288f69657a39d802a9f5f59d0a264c10",
+   "literal": "5.3.4.1.1 Criterios básicos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0146",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3.4.1.1 Criterios básicos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 5.3.4 Carga de hundimiento 5.3.4.1 Generalidades / 5.3.4.1.1 Criterios básicos",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d4b6dc54655310b673c9f3c25f08d1b29cea40c7477f87b46e5ab2727a567d5d"
+ },
+ "paginas": [
+  55
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.3.4.1.1 Criterios básicos\n1\nLa resistencia característica al hundimiento de un pilote aislado se considerará dividida en dos par-\ntes (véase Figura 5.5): resistencia por punta y resistencia por fuste\nfk\npk\nck\nR\nR\nR\n\n\n(5.8)\nsiendo\nRck\nla resistencia frente a la carga vertical que produce el hundimiento;\nRpk\nla parte de la resistencia que se supone soportada por la punta;\nRfk\nla parte de la resistencia que se supone soportada por el contacto pilote-terreno en el\nfuste.\nFigura 5.5. Esquema de distribución de la carga de un pilote aislado\n2\nPara estimar ambas componentes de la resistencia se supondrá que son proporcionales a las áreas\nde contacto respectivas de acuerdo con las expresiones:\nA\n.\nq =\nR\np\np\npk\n(5.9)\n\n\nL\n0\nf\nf\nfk\ndz\n·\np\n·\nR\n(5.10)\nsiendo\nqp\nla resistencia unitaria por la punta según F.2.1\nAp\nel área de la punta\nf\nla resistencia unitaria por el fuste, obtenida de F.2.1\nL\nla longitud del pilote dentro del terreno\npf\nel perímetro de la sección transversal del pilote, considerada según 5.1.2.2.2\nz\nla profundidad contada desde la parte superior del pilote en contacto con el terreno",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0055.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

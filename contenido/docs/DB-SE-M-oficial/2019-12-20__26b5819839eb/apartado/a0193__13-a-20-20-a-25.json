@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0193",
+  "ruta_oficial": null,
+  "ruta_semantica": "> 13 a 20 > 20 a 25",
+  "titulo": "> 13 a 20 > 20 a 25",
+  "nivel": 1,
+  "parent_id": "a0176",
+  "seccion_estimada": "> 13 a 20 > 20 a 25",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 117,
+   "bbox": [
+    226.2,
+    257.1,
+    524.1,
+    266.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "53961736e642ed0fcd31a0bee2c832605023f54e59079b981f8861d8fb61cc21",
+   "literal": "> 13 a 20 > 20 a 25"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0176",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "> 13 a 20 > 20 a 25",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0176",
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / > 13 a 20 > 20 a 25",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a26e11e56e93c833a1dcff25ae0b2e023fb7621921eb3b8f68448ed102335ecb"
+ },
+ "paginas": [
+  117
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "> 13 a 20 > 20 a 25\n> 20 a 25",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0117_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0117.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

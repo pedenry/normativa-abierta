@@ -1,0 +1,84 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0177",
+  "ruta_oficial": "2.1.4",
+  "ruta_semantica": "2.1.4 Mantenimiento",
+  "titulo": "2.1.4 Mantenimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.1.4 Mantenimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 83,
+   "bbox": [
+    70.9,
+    173.6,
+    172.7,
+    184.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3df2a18bcc09a89b02a1ab96a2e466cd07bd5098a0576a7dba551ef681d4a864",
+   "literal": "2.1.4 Mantenimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.1.4 Mantenimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Caracterización y cuantificación de las exigencias 2.1 Propiedades de la instalación / 2.1.4 Mantenimiento",
+   "seccion_estimada": "2 Caracterización y cuantificación de las exigencias 2.1 Propiedades de la instalación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4527f99320acfe02e9b6745c8829e6edf600aa0d6765e289e6aa75c434594ff5"
+ },
+ "paginas": [
+  83
+ ],
+ "etiquetas_impresas": [
+  "83"
+ ],
+ "tipos": [
+  "excepciones",
+  "figuras"
+ ],
+ "texto": "2.1.4 Mantenimiento\n1\nExcepto en viviendas aisladas y adosadas, los elementos y equipos de la instalación que lo requie-\nran, tales como el grupo de presión, los sistemas de tratamiento de agua o los contadores, deben\ninstalarse en locales cuyas dimensiones sean suficientes para que pueda llevarse a cabo su man-\ntenimiento adecuadamente.\n2\nLas redes de tuberías, incluso en las instalaciones interiores particulares si fuera posible, deben\ndiseñarse de tal forma que sean accesibles para su mantenimiento y reparación, para lo cual deben\nestar a la vista, alojadas en huecos o patinillos registrables o disponer de arquetas o registros.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0083.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

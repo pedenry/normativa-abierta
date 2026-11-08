@@ -1,0 +1,484 @@
+{
+ "documento": null,
+ "pagina": 66,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 60",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.6,
+    424.1,
+    83.6
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa penetración mínima de la parte roscada en la pieza debe ser igual a 6d.",
+   "tamano": 11.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    91.1,
+    405.2,
+    101.0
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn uniones con tirafondos deben cumplirse las siguientes condiciones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    88.8,
+    108.6,
+    541.3,
+    118.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "6 mm ≤ d ≤ 12 mm\n(8.56)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    126.1,
+    541.3,
+    165.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "0,6 ≤ d1/d ≤ 0,75\n(8.57)\nsiendo:\nd\ndiámetro exterior de la parte roscada;",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    172.5,
+    280.7,
+    182.5
+   ],
+   "tipo": "texto",
+   "texto": "d1 el diámetro interior de la parte roscada",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    191.0,
+    541.3,
+    212.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "5\nEl valor característico de la resistencia al arranque, Fax,α,Rk, de la unión con tirafondos cargados\naxialmente se obtiene de la expresión:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    96.5,
+    223.4,
+    211.2,
+    244.7
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n2\n2\nd\nef\nk,\nax\nef\nRk\n,\n,\nax\nsen\ncos\n2,1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    91.3,
+    218.6,
+    541.3,
+    235.9
+   ],
+   "tipo": "texto",
+   "texto": "k\nl·\nd\nf\nn\nF\n(8.58)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    90.1,
+    248.3,
+    123.5,
+    258.2
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    91.9,
+    259.4,
+    541.3,
+    275.2
+   ],
+   "tipo": "texto",
+   "texto": "8\n,\n0\nk\n1,\n0\nef\n5\n,\n0\nk,\nax\nl\nd\n52\n,0\nf\n\n\n\n\n(8.59)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    104.8,
+    278.3,
+    145.3,
+    306.8
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    91.4,
+    279.3,
+    541.3,
+    298.4
+   ],
+   "tipo": "texto",
+   "texto": "8\n/\nd\nmin\nkd\n(8.60)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    90.1,
+    308.9,
+    541.3,
+    341.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Fax,α,Rk  valor característico de la resistencia al arranque de la unión, para el ángulo α;\nfax,α,k  valor característico de la resistencia al arranque con un ángulo α con respecto a la dirección",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    343.3,
+    541.3,
+    459.8
+   ],
+   "tipo": "texto",
+   "texto": "de las fibras\nlef\nlongitud de penetración en la pieza de punta de la parte roscada,\nρk\ndensidad característica;\nα\nángulo entre el eje del tirafondo y la dirección de la fibra, con α ≥30º.\nnef\nnúmero eficaz de tirafondos;\nnef=n0,9\n(8.61)\nsiendo n el número de tirafondos actuando conjuntamente en la unión.\n6\nCuando no se satisfagan las condiciones de las ecuaciones (8.56) y (8.57), Fax,α,Rk, debe tomarse de\nla siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    236.2,
+    478.4,
+    245.5,
+    485.4
+   ],
+   "tipo": "texto",
+   "texto": "8,\n0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    225.0,
+    502.3,
+    228.9,
+    509.3
+   ],
+   "tipo": "texto",
+   "texto": "a",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    96.5,
+    487.3,
+    228.5,
+    508.6
+   ],
+   "tipo": "texto",
+   "texto": "k\n2\n2\nef\nk,\nax\nef\nRk\n,\n,\nax\nsen\ncos\n2,1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    91.3,
+    482.4,
+    235.8,
+    510.3
+   ],
+   "tipo": "texto",
+   "texto": "l·d\nf\nn\nF\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    213.6,
+    481.1,
+    235.8,
+    510.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    213.6,
+    481.1,
+    217.5,
+    492.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    219.2,
+    481.9,
+    224.9,
+    507.4
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    106.0,
+    488.2,
+    541.3,
+    508.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n(8.62)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    90.1,
+    513.0,
+    541.3,
+    581.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nfax,k\nvalor característico de la resistencia al arranque perpendicular a la fibra. Este valor debe ser\nproporcionado por el fabricante de los tirafondos o determinado de acuerdo con la norma\nUNE-EN 14592:2009+A1:2012 para la densidad asociada ρa;\na\ndensidad asociada a fax,k,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    585.8,
+    541.3,
+    608.3
+   ],
+   "tipo": "texto",
+   "texto": "7\nEl valor característico de la resistencia a punzonamiento de las conexiones con tirafondos cargados\naxialmente debería tomarse de la expresión siguiente:",
+   "tamano": 11.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    204.6,
+    614.3,
+    214.0,
+    621.3
+   ],
+   "tipo": "texto",
+   "texto": "8\n,\n0",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    193.4,
+    638.1,
+    197.3,
+    645.2
+   ],
+   "tipo": "texto",
+   "texto": "a",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    91.3,
+    623.3,
+    204.3,
+    646.1
+   ],
+   "tipo": "texto",
+   "texto": "k\n2\nh\nk,\nhead\nef\nRk\n,\n,\nax\n.\nd\nf\nn\nF\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    182.0,
+    616.9,
+    204.3,
+    646.1
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    182.0,
+    616.9,
+    185.9,
+    628.4
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    106.1,
+    617.8,
+    541.3,
+    643.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n(8.63)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    90.1,
+    648.8,
+    541.3,
+    682.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "siendo:\nFax,,Rk valor característico de la resistencia a punzonamiento de la conexión con un ángulo α con",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 33,
+   "bbox": [
+    90.1,
+    684.1,
+    288.7,
+    705.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "respecto a la fibra en N, con α ≥ 30º.\ndh\ndiámetro de la cabeza del tirafondo",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 34,
+   "bbox": [
+    70.9,
+    710.3,
+    538.5,
+    732.7
+   ],
+   "tipo": "texto",
+   "texto": "8\nEl valor característico de la resistencia a tracción de la conexión (arranque de la cabeza del tirafon-\ndo o capacidad de tracción del fuste), Ft,Rk, debe tomarse de la expresión siguiente:",
+   "tamano": 11.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    91.3,
+    748.0,
+    541.3,
+    761.3
+   ],
+   "tipo": "texto",
+   "texto": "k,\ntens\nef\nRk\n,t\nf\nn\nF\n\n(8.64)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

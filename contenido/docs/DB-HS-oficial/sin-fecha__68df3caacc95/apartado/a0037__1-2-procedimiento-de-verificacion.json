@@ -1,0 +1,126 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": "1.2",
+  "ruta_semantica": "1.2 Procedimiento de verificación",
+  "titulo": "1.2 Procedimiento de verificación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1.2 Procedimiento de verificación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    70.9,
+    440.3,
+    273.3,
+    453.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "42a573cff940d6ead0cbbdeaf48439a627ce80e996087bc0b4988a36deaf2564",
+   "literal": "1.2 Procedimiento de verificación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado\n2.3.2",
+   "apartado\n2.4.2",
+   "apartado 2",
+   "apartado 2.1.1",
+   "apartado 2.1.2",
+   "apartado 2.1.3",
+   "apartado 2.2.1",
+   "apartado 2.2.2",
+   "apartado 2.2.3",
+   "apartado 2.3.1",
+   "apartado 2.3.3",
+   "apartado 2.4.3",
+   "apartado 2.4.4",
+   "apartado 3",
+   "apartado 4",
+   "apartado 5",
+   "apartado 6"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1.2 Procedimiento de verificación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación / 1.2 Procedimiento de verificación",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2732b4335a5ac065c1604f6a1bf5bc83635366e315c571e5ffbbfe9c3f261eeb"
+ },
+ "paginas": [
+  10,
+  11
+ ],
+ "etiquetas_impresas": [
+  "10",
+  "11"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "1.2 Procedimiento de verificación\n1\nPara la aplicación de esta sección debe seguirse la secuencia que se expone a continuación.\n2\nCumplimiento de las siguientes condiciones de diseño del apartado 2 relativas a los elementos\nconstructivos:\na)\nmuros:\ni) sus características deben corresponder con las especificadas en el apartado 2.1.2 según el\ngrado de impermeabilidad exigido en al apartado 2.1.1;\nii) las características de los puntos singulares del mismo deben corresponder con las especifi-\ncadas en el apartado 2.1.3;\nb)\nsuelos:\ni) sus características deben corresponder con las especificadas en el apartado 2.2.2 según el\ngrado de impermeabilidad exigido en el apartado 2.2.1;\nii) las características de los puntos singulares de los mismos deben corresponder con las espe-\ncificadas en el apartado 2.2.3;\nc)\nfachadas:\ni) las características de las fachadas deben corresponder con las especificadas en el apartado\n2.3.2 según el grado de impermeabilidad exigido en al apartado 2.3.1;\nii) las características de los puntos singulares de las mismas deben corresponder con las espe-\ncificadas en el apartado 2.3.3;\nd)\ncubiertas:\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n11\ni) las características de las cubiertas deben corresponder con las especificadas en el apartado\n2.4.2;\nii) las características de los componentes de las mismas deben corresponder con las especifi-\ncadas en el apartado 2.4.3;\niii) las características de los puntos singulares de las mismas deben corresponder con las espe-\ncificadas en el apartado 2.4.4.\n3\nCumplimiento de las condiciones de dimensionado del apartado 3 relativas a los tubos de drenaje, a\nlas canaletas de recogida del agua filtrada en los muros parcialmente estancos y a las bombas de\nachique.\n4\nCumplimiento de las condiciones relativas a los productos de construcción del apartado 4.\n5\nCumplimiento de las condiciones de construcción del apartado 5.\n6\nCumplimiento de las condiciones de mantenimiento y conservación del apartado 6.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado\n2.3.2",
+  "apartado\n2.4.2",
+  "apartado 2",
+  "apartado 2.1.1",
+  "apartado 2.1.2",
+  "apartado 2.1.3",
+  "apartado 2.2.1",
+  "apartado 2.2.2",
+  "apartado 2.2.3",
+  "apartado 2.3.1",
+  "apartado 2.3.3",
+  "apartado 2.4.3",
+  "apartado 2.4.4",
+  "apartado 3",
+  "apartado 4",
+  "apartado 5",
+  "apartado 6"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0011_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0010.png",
+  "../figura/p0011.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0016",
+  "ruta_oficial": null,
+  "ruta_semantica": "VII Terminología",
+  "titulo": "VII Terminología",
+  "nivel": 2,
+  "parent_id": null,
+  "seccion_estimada": "VII Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 7,
+   "bbox": [
+    70.9,
+    250.7,
+    198.2,
+    266.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "fd1dd412963d0aa11790310e8e535a2beb71ebb81e1d02209e6ab2a7cfd46be1",
+   "literal": "VII Terminología"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0008",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "VII Terminología",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo SI A de este DB deberán cumplir, salvo indicación en otro sentido, las condiciones particulares / VII Terminología",
+   "seccion_estimada": "Anejo SI A de este DB deberán cumplir, salvo indicación en otro sentido, las condiciones particulares",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1d5b0e8380b31788e1fc9721da7560f81684354de7f05bc8d19472a76602d23f"
+ },
+ "paginas": [
+  7,
+  8
+ ],
+ "etiquetas_impresas": [
+  "7",
+  "8"
+ ],
+ "tipos": [],
+ "texto": "VII Terminología\nTerminología\nA efectos de aplicación de este DB, los términos que figuran en letra cursiva deben utilizarse conforme al\nsignificado y a las condiciones que se establecen para cada uno de ellos, bien en el anejo SI A de este\nDB, cuando se trate de términos relacionados únicamente con el requisito básico \"Seguridad en caso de\nincendio\", o bien en el Anejo III de la Parte I de este CTE, cuando sean términos de uso común en el\nconjunto del Código.\n\nDocumento Básico SI Seguridad en caso de Incendio\nÍNDICE\n8\nÍndice",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

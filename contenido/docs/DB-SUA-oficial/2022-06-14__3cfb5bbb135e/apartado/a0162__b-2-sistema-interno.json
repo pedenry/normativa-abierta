@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0162",
+  "ruta_oficial": null,
+  "ruta_semantica": "B.2 Sistema interno",
+  "titulo": "B.2 Sistema interno",
+  "nivel": 2,
+  "parent_id": "a0160",
+  "seccion_estimada": "B.2 Sistema interno",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 45,
+   "bbox": [
+    70.9,
+    590.4,
+    215.3,
+    606.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "0c82407f75c1a70afe096ee93584be278cb181ae18ad4bbbacfc4348508c3023",
+   "literal": "B.2 Sistema interno"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0122",
+  "parent_id_original": "a0160",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.2 Sistema interno",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0160",
+   "ruta_semantica": "Anejo B. Características de las instalaciones de protección frente al rayo / B.2 Sistema interno",
+   "seccion_estimada": "Anejo B. Características de las instalaciones de protección frente al rayo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8c832b8a478ef0552317b9880b78eff75565e854938cc25cbc7296cbb983ea07"
+ },
+ "paginas": [
+  45,
+  46
+ ],
+ "etiquetas_impresas": [
+  "45",
+  "46"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "B.2 Sistema interno\n1\nEste sistema comprende los dispositivos que reducen los efectos eléctricos y magnéticos de la co-\nrriente de la descarga atmosférica dentro del espacio a proteger.\n2\nDeberá unirse la estructura metálica del edificio, la instalación metálica, los elementos conductores\nexternos, los circuitos eléctricos y de telecomunicación del espacio a proteger y el sistema externo\nde protección si lo hubiera, con conductores de equipotencialidad o protectores de sobretensiones a\nla red de tierra.\n3\nCuando no pueda realizarse la unión equipotencial de algún elemento conductor, los conductores de\nbajada se dispondrán a una distancia de dicho elemento superior a la distancia de seguridad ds. La\ndistancia de seguridad ds será igual a:\nds = 0,1·L\nsiendo\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad\nAnejo B. Características de las instalaciones de protección frente al rayo\n46\nL\nla distancia vertical desde el punto en que se considera la proximidad hasta la toma de tierra de\nla masa metálica o la unión equipotencial más próxima. En el caso de canalizaciones exteriores\nde gas, la distancia de seguridad será de 5 m como mínimo.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0045.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

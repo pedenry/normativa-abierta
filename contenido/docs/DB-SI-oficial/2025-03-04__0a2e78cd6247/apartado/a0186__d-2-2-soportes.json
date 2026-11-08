@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0186",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.1 Generalidades / D.2.2 Soportes",
+  "titulo": "D.2.2 Soportes",
+  "nivel": 3,
+  "parent_id": "a0183",
+  "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 70,
+   "bbox": [
+    70.9,
+    665.3,
+    161.6,
+    678.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "c395b469b28e8d88d5e1667a8dc46e56aeecc2dade4a7ba0715bec8c4aeb6f74",
+   "literal": "D.2.2 Soportes"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0121",
+  "parent_id_original": "a0183",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SE-A"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.2.2 Soportes",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0183",
+   "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.1 Generalidades / D.2.2 Soportes",
+   "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a3c100734306232fd71702f2deb64617b84915a366a77e7c4d9852c24c8418db"
+ },
+ "paginas": [
+  70,
+  71
+ ],
+ "etiquetas_impresas": [
+  "70",
+  "71"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "D.2.2 Soportes\nD.2.2.1 Soportes de estructuras arriostradas\n1\nEn soportes de acero revestidos mediante elementos de fábrica en todo el contorno expuesto al fue-\ngo, se puede considerar del lado de la seguridad que la resistencia al fuego del soporte es, al menos\nigual a la resistencia al fuego correspondiente al elemento de fábrica.\n\nDocumento Básico SI en caso de Incendio\nAnejo D. Resistencia al fuego de los elementos de acero\n71\n2\nEn el caso de estructuras arriostradas en las que cada sector no abarque más de una planta y en las\nque la sección del soporte se haya determinado adoptando como longitud de pandeo al menos el 0,7\nde la altura entre plantas, la resistencia al fuego puede determinarse mediante la tabla D.1.\n3\nEn cualquier caso, en soportes de pared no delgada (clases 1,2 o 3), la capacidad resistente de\ncálculo considerando pandeo de un elemento sometido a flexocompresión puede verificarse, a partir\nde las solicitaciones obtenidas de la combinación de acciones en caso de incendio, mediante las ex-\npresiones generales de DB-SE-A usando los valores modificados dados a continuación:\na) el límite elástico se reducirá multiplicándolo por el coeficiente ky,de la tabla D.2\nb) como longitud de pandeo se tomará, en estructuras arriostradas y si el sector de incendio no\nabarca más de una planta, la mitad de la altura entre plantas intermedias, o el 0,7 de la altura de\nla última planta.\nc)\ncomo curva de pandeo se utilizará la curva c, con independencia del tipo de sección transversal\no el plano de pandeo.\nd) la esbeltez reducida se incrementará multiplicándola por el coeficiente k, de la tabla D.2\nTabla D.2 Valores de los parámetros mecánicos del acero en función de la temperatura\nTemperatura (ºC)\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\n1200\nk y, =  f y,/ f y\n1,00\n1,00\n1,00\n1,00\n0,78\n0,47\n0,23\n0,11\n0,06\n0,04\n0,00\nk , =\n_\nθ\n_\nλ\n/\nλ\n1,00\n1,05\n1,11\n1,19\n1,14\n1,23\n1,33\n-\n-\n-\n-",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE-A"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0070_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0070.png",
+  "../figura/p0071.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

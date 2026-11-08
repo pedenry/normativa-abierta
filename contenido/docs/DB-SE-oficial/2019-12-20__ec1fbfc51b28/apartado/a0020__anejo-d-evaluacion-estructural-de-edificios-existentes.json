@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0020",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes",
+  "titulo": "Anejo D Evaluación estructural de edificios existentes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 5,
+   "bbox": [
+    70.9,
+    677.8,
+    331.2,
+    692.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "literal": "Anejo D Evaluación estructural de edificios existentes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0014",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo D Evaluación estructural de edificios existentes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D Evaluación estructural de edificios existentes",
+   "seccion_estimada": "Anejo D Evaluación estructural de edificios existentes",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "46be65e4bc89c343165c3ff255ef90e856a4e37b3d0cdc33fde960a60c704a1e"
+ },
+ "paginas": [
+  5,
+  6,
+  7
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [],
+ "texto": "Anejo D Evaluación estructural de edificios existentes\nD.1 Generalidades\nD.2 Criterios básicos para la evaluación\nD.3 Recopilación de información\nD.4 Análisis estructural\nD.5 Verificación\nD.6 Evaluación cualitativa\n\nDocumento Básico SE Seguridad Estructural\nSE - iv\nD.7 Resultados de la evaluación\nD.8 Medidas\n\nDocumento Básico SE Seguridad Estructural\nSE - 1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

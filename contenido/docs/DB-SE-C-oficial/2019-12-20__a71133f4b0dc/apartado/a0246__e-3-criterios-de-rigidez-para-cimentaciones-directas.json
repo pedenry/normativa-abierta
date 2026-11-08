@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0246",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.3 Criterios de rigidez para cimentaciones directas",
+  "titulo": "E.3 Criterios de rigidez para cimentaciones directas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "E.3 Criterios de rigidez para cimentaciones directas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 131,
+   "bbox": [
+    70.9,
+    558.9,
+    418.7,
+    573.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3f2ce68729cff64a317b60d1a55b83b8dcc3346f69ea1e59d0c5358003ec09dd",
+   "literal": "E.3 Criterios de rigidez para cimentaciones directas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 4.1.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.3 Criterios de rigidez para cimentaciones directas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura / E.3 Criterios de rigidez para cimentaciones directas",
+   "seccion_estimada": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "920cf06862a203698e932013c9f2868a53f790fbd363c86681662bce72646e8e"
+ },
+ "paginas": [
+  131,
+  132,
+  133
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "E.3 Criterios de rigidez para cimentaciones directas\n1\nSe podrá considerar que una zapata aislada es rígida (concepto de rigidez relativa) cuando a efec-\ntos de cálculo, la distribución de presiones a que de lugar sobre el terreno pueda considerarse li-\nneal. A efectos prácticos, se considerará aceptable la hipótesis de rigidez relativa cuando (Figura\nE.3):\n4\nsB\nc\nc\nk\nB\nI\nE\n4\n4\nv\n\n\n(E.2)\nsiendo\nv\nel vuelo de la zapata en una dirección cualquiera;\nEc\nel módulo de deformación del material de la zapata (usualmente hormigón armado) re-\npresentativo del tipo de carga y su duración;\nIc\nel momento de inercia de la sección de la zapata perpendicular a la dirección del vuelo\nconsiderado respecto a la horizontal que pasa por su centro de gravedad;\nB\nel ancho de la zapata en dirección perpendicular al vuelo considerado.\n\nDocumento Básico SE-C Cimientos\nSE-C-127\nksB\nel módulo de balasto de cálculo, representativo de las dimensiones del cimiento (véase\napartado E.5).\nFigura E.3. Criterio de rigidez relativa para zapatas aisladas\n2\nLa condición expresada en el apartado anterior será también de aplicación al caso de zapatas corri-\ndas en la dirección transversal a misma.\n3\nEn el caso de no cumplirse, la zapata se considerará flexible, y la distribución de presiones sobre el\nterreno y sus esfuerzos se obtendrán a partir de modelos de cálculo que consideren la interacción\nsuelo-estructura.\n4\nLa condición del párrafo 1 de este apartado suele verificarse con los cantos y vuelos usuales en\nzapatas aisladas sobre suelos. En cualquier caso se debe comprobar el cumplimiento de esta con-\ndición si se desea efectuar el cálculo con la hipótesis de distribución lineal de presiones sobre el te-\nrreno.\n5\nSalvo en el caso de zapatas aisladas sobre suelos muy rígidos o sobre roca, el cumplimiento de la\nrigidez estructural definida en el párrafo 4 del apartado 4.1.1 suele ser más restrictivo que la condi-\nción de rigidez relativa definida en el párrafo 1 de este apartado.\n6\nEn el caso general de que sobre una zapata aislada actúen momentos además de cargas vertica-\nles, se recomienda que la resultante de las acciones pase por el núcleo central de inercia.\n7\nSe considerará que una zapata combinada o corrida es rígida cuando a efectos de cálculo la distri-\nbución de presiones a que da lugar sobre el terreno pueda considerarse lineal. A efectos prácticos\nse considerará aceptable la hipótesis de rigidez relativa cuando (véase Figura E.4):\n4\nsB\nc\nc\nk\nB\nI\nE\n4\n2\n\n\nl\n(E.3)\n4\nsB\nc\nc\nk\nB\nI\nE\n4\n4\nv\n\n\n(E.4)\nsiendo\nl\nla luz del vano que separa, bien los dos pilares de una zapata combinada, bien dos pila-\nres cualesquiera de una zapata corrida;\nv\nla luz de cualquier voladizo en la dirección en la dirección longitudinal;\nB\nel ancho de la zapata (dirección transversal);\nEc\nel módulo de deformación del material de la zapata (usualmente hormigón armado) re-\npresentativo del tipo de carga y su duración.\n\nDocumento Básico SE-C Cimientos\nSE-C-128\nIc\nel momento de inercia de la zapata en un plano vertical, transversal (perpendicular al\nplano de alineación de pilares), respecto a la horizontal que pasa por su centro de gra-\nvedad.\nksB\nel módulo de balasto de cálculo, representativo de las dimensiones del cimiento (véase\napartado E.5).\nFigura E.4. Criterio de rigidez relativa para zapatas combinadas y corridas\n8\nEn el caso de no cumplirse la condición anterior la zapata se considerará flexible.\n9\nA efectos de cálculo y para los cantos habituales, las zapatas corridas que se empleen para el apo-\nyo de 3 o más pilares, los emparrillados y las losas, se diseñarán mediante el empleo de modelos\nde cálculo que tengan en cuenta la interaccción suelo-estructura. No obstante se considerará que\nestos elementos son rígidos y que la distribución de presiones en el suelo es lineal cuando se cum-\nplan simultáneamente las condiciones de rigidez definidas en el párrafo 3 del apartado E.2 y en el\npárrafo 7 de este apartado.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.1.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0131.png",
+  "../figura/p0132.png",
+  "../figura/p0133.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

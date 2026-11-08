@@ -1,0 +1,310 @@
+{
+ "documento": null,
+ "pagina": 49,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    215.0,
+    35.9,
+    396.9,
+    46.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HR - Protección frente al ruido",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    293.0,
+    797.1,
+    321.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "HR A-7",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.3,
+    541.4,
+    128.4
+   ],
+   "tipo": "texto",
+   "texto": "Índice de reducción acústica de un elemento constructivo, R: Aislamiento acústico, en dB, de un\nelemento constructivo medido en laboratorio. Es función de la frecuencia.\nSe define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    72.2,
+    130.1,
+    541.5,
+    155.8
+   ],
+   "tipo": "texto",
+   "texto": "A\nS\nlg\n10\nL\nL\nR\n2\n1\n\n+\n−\n=\n     [dB]\n(A.11)",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    155.8,
+    541.4,
+    375.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nL1\nnivel medio de presión sonora en el recinto emisor, [dB];\nL2\nnivel medio de presión sonora en el recinto receptor, [dB];\nS\nárea del elemento constructivo, [m2];\nA\nárea de absorción acústica equivalente del recinto receptor, [m2].\nÍndice de reducción acústica por vía indirecta, Rij: Diferencia entre los niveles sonoros de los recintos\nemisor y receptor, debida a la transmisión acústica por vía indirecta o por flancos.\nÍndice de reducción de vibraciones para caminos de transmisión sobre uniones de elementos\nconstructivos, Kij:. Diferencia entre los niveles medios de velocidad entre ambos lados de la unión,\npromediada en las dos direcciones, normalizada a la longitud de la unión y a la longitud de absorción\nequivalente de los elementos a cada lado. Es una magnitud relacionada con la transmisión de energía en\nuna unión de dos elementos constructivos\nSe define mediante la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    168.8,
+    385.4,
+    310.8,
+    405.7
+   ],
+   "tipo": "texto",
+   "texto": "dB\n0\nD\n;\ndB\na\na",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    72.2,
+    377.3,
+    282.4,
+    407.8
+   ],
+   "tipo": "texto",
+   "texto": "l\nlg\n10\nD\nK\nsitu\n,ij,v\nsitu\n,j\nsitu\n,i",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    79.4,
+    381.5,
+    541.3,
+    405.7
+   ],
+   "tipo": "texto",
+   "texto": "ij\nsitu\n,ij,v\nij\n\n\n\n+\n=\n     [dB]\n(A.12)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    411.3,
+    103.2,
+    445.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    71.0,
+    446.9,
+    541.3,
+    459.8
+   ],
+   "tipo": "texto",
+   "texto": "situ\n,ij,v\nD\n diferencia de niveles de velocidad promediada en los dos sentidos de propagación para cada",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    463.3,
+    540.9,
+    566.4
+   ],
+   "tipo": "texto",
+   "texto": "camino de transmisión ij sobre la unión, [dB];\nai, situ\nlongitud de absorción equivalente del elemento i medida in situ, [m];\naj, situ\nlongitud de absorción equivalente del elemento j medida in situ, [m];\nlij\nlongitud común de la arista de unión entre el elemento i y el j, [m].\nComo primera aproximación las longitudes de absorción equivalente pueden tomarse como\nai, situ= Si / l0 y aj, situ= Sj / l0, para todo tipo de elementos, con la longitud de acoplamiento de referencia l0\n=1 m. Para uniones en las que los elementos de flanco tengan un contacto reducido con el elemento de\nseparación, sólo se considerará la transmisión Ff cuyo valor no será menor que el valor Kij,min, cuya ex-\npresión viene dada por:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    200.4,
+    588.7,
+    204.3,
+    614.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    200.4,
+    579.2,
+    204.3,
+    591.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    133.1,
+    588.7,
+    137.1,
+    614.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    133.1,
+    579.2,
+    137.1,
+    591.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    196.3,
+    586.6,
+    200.2,
+    613.3
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    156.6,
+    580.2,
+    200.2,
+    613.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    156.6,
+    580.2,
+    160.5,
+    592.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    99.5,
+    588.9,
+    180.9,
+    601.2
+   ],
+   "tipo": "texto",
+   "texto": "+\n\n\n=",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    79.8,
+    595.1,
+    193.2,
+    610.8
+   ],
+   "tipo": "texto",
+   "texto": "j\ni\n0\nij\nmin\n,ij\nS",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    162.3,
+    583.6,
+    192.4,
+    608.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nS",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    72.2,
+    583.6,
+    541.5,
+    601.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nl\nl\nlg\n10\nK\n     [dB]\n(A.13)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    615.3,
+    356.1,
+    707.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "siendo\nij\ncaminos de transmisión Ff, Fd o Df;\nl0 = 1 m longitud de la arista de unión de referencia;\nSi\nárea del elemento excitado i (forjado), [m2];\nSj\nárea del elemento radiante j en el recinto receptor, [m2].",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

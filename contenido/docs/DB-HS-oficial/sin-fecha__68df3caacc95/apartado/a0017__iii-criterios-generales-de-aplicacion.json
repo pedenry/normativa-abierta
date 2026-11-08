@@ -1,0 +1,78 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0017",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p4",
+  "titulo": "III Criterios generales de aplicación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p4",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p4",
+  "referencias_filtradas": [
+   "UNE-EN",
+   "artículo 5"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 junio 20 o Bá / 13.6 Exigencia básica HS 6: Protección frente a la exposición al radón. / III Criterios generales de aplicación",
+   "seccion_estimada": "14 junio 20 o Bá",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2dd23b552b3c069dca2b3f45719c3614fe187ea3cd4c850af8fdf22fbfde9c2f"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "III Criterios generales de aplicación\nCriterios generales de aplicación\nPueden utilizarse otras soluciones diferentes a las contenidas en este DB, en cuyo caso deberá seguirse\nel procedimiento establecido en el artículo 5 del CTE, y deberá documentarse en el proyecto el\ncumplimiento de las exigencias básicas.\nEl “Catálogo de Elementos Constructivos del CTE” aporta valores para determinadas características\ntécnicas exigidas en este documento básico. Los valores que el Catálogo asigna a soluciones\nconstructivas que no se fabrican industrialmente sino que se generan en la obra tienen garantía legal en\ncuanto a su aplicación en los proyectos, mientras que para los productos de construcción fabricados\nindustrialmente dichos valores tienen únicamente carácter genérico y orientativo.\nCuando se cita una disposición reglamentaria en este DB debe entenderse que se hace referencia a la\nversión vigente en el momento en el que se aplica el mismo. Cuando se cita una norma UNE, UNE-EN o\nUNE-EN ISO debe entenderse que se hace referencia a la versión que se indica, aun cuando exista una\nversión posterior, salvo en el caso de normas armonizadas UNE-EN que sean transposición de normas\nEN cuyas referencias hayan sido publicadas en el Diario Oficial de la Unión Europea, en el marco de la\naplicación del Reglamento (UE) nº 305/2011 del Parlamento Europeo y del Consejo, de 9 de marzo de\n2011, por el que se establecen condiciones armonizadas para la comercialización de productos de\nconstrucción y se deroga la Directiva 89/106/CEE del Consejo, en cuyo caso la cita se deberá relacionar\ncon la última Comunicación de la Comisión que incluya dicha referencia. En el caso de normas de\nmétodos de ensayo referenciadas en las normas armonizadas, debe aplicarse la versión incluida en las\nnormas armonizadas UNE-EN citadas anteriormente.\nLas normas recogidas en este DB podrán ser sustituidas por otras de las utilizadas en cualquiera de los\notros Estados miembros de la Unión Europea, o que sean parte del Acuerdo sobre el Espacio Económico\nEuropeo, y en aquellos Estados que tengan un acuerdo de asociación aduanera con la Unión Europea,\nsiempre que se demuestre que poseen especificaciones técnicas equivalentes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN",
+  "artículo 5"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0004.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

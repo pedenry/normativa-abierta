@@ -1,0 +1,455 @@
+{
+ "documento": null,
+ "pagina": 52,
+ "etiqueta_impresa": "52",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.1,
+    39.2,
+    375.7,
+    48.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HE Ahorro de energía",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    222.0,
+    51.4,
+    375.6,
+    60.3
+   ],
+   "tipo": "texto",
+   "texto": "Anejo F. Demanda de referencia de ACS",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    293.2,
+    796.9,
+    304.3,
+    805.8
+   ],
+   "tipo": "texto",
+   "texto": "52",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    56.7,
+    81.6,
+    369.9,
+    99.5
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo F Demanda de referencia de ACS",
+   "tamano": 16.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 4,
+   "bbox": [
+    56.7,
+    102.8,
+    531.9,
+    174.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa demanda de referencia de ACS para edificios de uso residencial privado se obtendrá considerando\nunas necesidades de 28 litros/día·persona (a 60ºC), una ocupación al menos igual a la mínima\nestablecida en la tabla a-Anejo F y, en el caso de viviendas multifamiliares, un factor de centralización\nde acuerdo a la tabla b-Anejo F, incrementadas de acuerdo con las pérdidas térmicas por distribución,\nacumulación y recirculación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    114.4,
+    184.7,
+    483.4,
+    194.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla a-Anejo F. Valores mínimos de ocupación de cálculo en uso residencial privado",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    161.0,
+    204.3,
+    434.9,
+    214.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Número de dormitorios\n1\n2\n3\n4\n5\n6\n≥6",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    161.0,
+    226.8,
+    432.4,
+    236.8
+   ],
+   "tipo": "texto",
+   "texto": "Número de Personas\n1,5\n3\n4\n5\n6\n6\n7",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    130.1,
+    254.2,
+    467.8,
+    264.3
+   ],
+   "tipo": "texto",
+   "texto": "Tabla b-Anejo F. Valor del factor de centralización en viviendas multifamiliares",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    81.9,
+    272.9,
+    504.8,
+    282.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nº viviendas\nN≤3\n4≤N≤10\n11≤N≤20\n21≤N≤50\n51≤N≤75 76≤N≤100\nN≥101",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    81.9,
+    294.4,
+    500.3,
+    304.5
+   ],
+   "tipo": "texto",
+   "texto": "Factor de centralización\n1\n0,95\n0,90\n0,85\n0,80\n0,75\n0,70",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    56.7,
+    313.1,
+    541.4,
+    396.3
+   ],
+   "tipo": "texto",
+   "texto": "2\nPara el cálculo de la demanda de referencia de ACS para edificios de uso distinto al residencial privado\nse consideran como aceptables los valores de la tabla c-Anejo F que recoge valores orientativos de la\ndemanda de ACS para usos distintos del residencial privado, a la temperatura de referencia de 60ºC, que\nserán incrementados de acuerdo con las pérdidas térmicas por distribución, acumulación y recirculación.\nLa demanda de referencia de ACS para casos no incluidos en la tabla c-Anejo F se obtendrá a partir de\nnecesidades de ACS contrastadas por la experiencia o recogidas por fuentes de reconocida solvencia.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    109.4,
+    406.5,
+    488.5,
+    416.6
+   ],
+   "tipo": "texto",
+   "texto": "Tabla c-Anejo F Demanda orientativa de ACS para usos distintos del residencial privado",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    139.7,
+    422.6,
+    435.5,
+    432.6
+   ],
+   "tipo": "texto",
+   "texto": "Criterio de demanda\nLitros/día·persona",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    139.7,
+    439.0,
+    401.3,
+    449.0
+   ],
+   "tipo": "texto",
+   "texto": "Hospitales y clínicas\n55",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    139.7,
+    454.8,
+    401.3,
+    464.9
+   ],
+   "tipo": "texto",
+   "texto": "Ambulatorio y centro de salud\n41",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    139.7,
+    470.7,
+    401.3,
+    480.7
+   ],
+   "tipo": "texto",
+   "texto": "Hotel *****\n69",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    139.7,
+    486.6,
+    401.3,
+    496.6
+   ],
+   "tipo": "texto",
+   "texto": "Hotel ****\n55",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    139.7,
+    502.4,
+    401.3,
+    512.4
+   ],
+   "tipo": "texto",
+   "texto": "Hotel ***\n41",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    139.7,
+    518.2,
+    401.3,
+    528.3
+   ],
+   "tipo": "texto",
+   "texto": "Hotel/hostal **\n34",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    139.7,
+    534.1,
+    401.3,
+    544.1
+   ],
+   "tipo": "texto",
+   "texto": "Camping\n21",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    139.7,
+    549.9,
+    401.3,
+    560.0
+   ],
+   "tipo": "texto",
+   "texto": "Hostal/pensión *\n28",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    139.7,
+    565.8,
+    401.3,
+    575.8
+   ],
+   "tipo": "texto",
+   "texto": "Residencia\n41",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    139.7,
+    581.7,
+    401.3,
+    591.7
+   ],
+   "tipo": "texto",
+   "texto": "Centro penitenciario\n28",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    139.7,
+    597.5,
+    401.3,
+    607.5
+   ],
+   "tipo": "texto",
+   "texto": "Albergue\n24",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    139.7,
+    613.3,
+    401.3,
+    623.4
+   ],
+   "tipo": "texto",
+   "texto": "Vestuarios/Duchas colectivas\n21",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    139.7,
+    629.2,
+    398.8,
+    639.2
+   ],
+   "tipo": "texto",
+   "texto": "Escuela sin ducha\n4",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    139.7,
+    645.0,
+    401.3,
+    655.1
+   ],
+   "tipo": "texto",
+   "texto": "Escuela con ducha\n21",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    139.7,
+    660.9,
+    401.3,
+    670.9
+   ],
+   "tipo": "texto",
+   "texto": "Cuarteles\n28",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    139.7,
+    676.8,
+    401.3,
+    686.8
+   ],
+   "tipo": "texto",
+   "texto": "Fábricas y talleres\n21",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    139.7,
+    692.6,
+    398.8,
+    702.6
+   ],
+   "tipo": "texto",
+   "texto": "Oficinas\n2",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    139.7,
+    708.4,
+    401.3,
+    718.5
+   ],
+   "tipo": "texto",
+   "texto": "Gimnasios\n21",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    139.7,
+    724.3,
+    398.8,
+    734.3
+   ],
+   "tipo": "texto",
+   "texto": "Restaurantes\n8",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    139.7,
+    740.1,
+    398.8,
+    750.2
+   ],
+   "tipo": "texto",
+   "texto": "Cafeterías\n1",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": null,
+  "ruta_semantica": "Construcción, mantenimiento y conservación",
+  "titulo": "Construcción, mantenimiento y conservación",
+  "nivel": 1,
+  "parent_id": "a0030",
+  "seccion_estimada": "Construcción, mantenimiento y conservación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    56.7,
+    492.4,
+    356.1,
+    505.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2479206422f855f53be1f4e2d25b09c67f2f3d57840b7859c0880313cbb5943a",
+   "literal": "Construcción, mantenimiento y conservación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0030",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "artículo 7"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Construcción, mantenimiento y conservación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0030",
+   "ruta_semantica": "Anejo H / Sección HE 0 Limitación del consumo energético / Construcción, mantenimiento y conservación",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dbd431581e1713856d36975178bdb6a4a9d7253b129c9909211a46f2fe611b49"
+ },
+ "paginas": [
+  13,
+  14,
+  15
+ ],
+ "etiquetas_impresas": [
+  "13",
+  "14",
+  "15"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Construcción, mantenimiento y conservación\n6.1\nEjecución\n1\nLas obras de construcción del edificio se ejecutarán con sujeción al proyecto y sus modificaciones\nautorizadas por el director de obra previa conformidad del promotor, a la legislación aplicable, a las\nnormas de la buena práctica constructiva, y a las instrucciones del director de obra y del director de la\nejecución de la obra, conforme a lo indicado en el artículo 7 de la Parte I del CTE.\n6.2\nControl de la ejecución de la obra\n1\nEl control de la ejecución de las obras se realizará de acuerdo con las especificaciones del proyecto, sus\nanexos y modificaciones autorizados por el director de obra y las instrucciones del director de la ejecución\nde la obra, conforme a lo indicado en el artículo 7.3 de la Parte I del CTE y demás normativa vigente de\naplicación.\n2\nSe comprobará que la ejecución de la obra se realiza de acuerdo con los controles y con la frecuencia\nde los mismos establecida en el pliego de condiciones del proyecto.\n3\nCualquier modificación que pueda introducirse durante la ejecución de la obra quedará en la\ndocumentación de la obra ejecutada sin que en ningún caso dejen de cumplirse las condiciones mínimas\nseñaladas en este Documento Básico.\n4\nEn el Libro del Edificio se incluirá la documentación referente a las características de los productos,\nequipos y sistemas incorporados a la obra.\n\nDocumento Básico HE Ahorro de energía\nHE 0. Limitación del consumo energético\n14\n6.3\nControl de la obra terminada\n1\nEl control de la obra terminada debe seguir los criterios indicados en el artículo 7.4 de la Parte I del CTE.\n2\nEn esta Sección del Documento Básico no se prescriben pruebas finales.\n6.4\nMantenimiento y conservación del edificio\n1\nEl plan de mantenimiento incluido en el Libro del Edificio, contemplará las operaciones y periodicidad\nnecesarias para el mantenimiento, en el transcurso del tiempo, de los parámetros de diseño y\nprestaciones de la envolvente térmica e instalaciones.\n2\nAsí mismo, en el Libro del Edificio se documentará todas las intervenciones, ya sean de reparación,\nreforma o rehabilitación realizadas a lo largo de la vida útil del edificio.\n\nDocumento Básico HE Ahorro de energía\nHE 1. Condiciones para el control de la demanda energética\n15",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "artículo 7"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

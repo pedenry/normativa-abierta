@@ -1,0 +1,353 @@
+{
+ "documento": null,
+ "pagina": 61,
+ "etiqueta_impresa": "61",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-59",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    97.6,
+    144.9,
+    113.2
+   ],
+   "tipo": "titulo",
+   "texto": "8 Uniones",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    135.7,
+    194.8,
+    149.1
+   ],
+   "tipo": "titulo",
+   "texto": "8.1 Bases de cálculo",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    157.2,
+    541.3,
+    180.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas uniones se proyectarán de forma coherente con el conjunto de la estructura, lo que supone un\ncomportamiento acorde a las hipótesis supuestas en el análisis global.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    197.5,
+    250.2,
+    210.9
+   ],
+   "tipo": "titulo",
+   "texto": "8.2 Criterios de comprobación",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 6,
+   "bbox": [
+    74.1,
+    219.0,
+    541.4,
+    241.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas uniones se comprobarán a resistencia. Además se comprobará la capacidad de rotación de las\nuniones en las que se prevea la formación de rótulas plásticas en el análisis global.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    74.1,
+    248.1,
+    541.4,
+    283.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn toda unión debe verificarse que los valores de cálculo de los efectos de las acciones, Ed para\ncualquiera de las situaciones de cálculo (o combinaciones de acciones relevantes), no superan la\ncorrespondiente resistencia de cálculo, Rd, obtenida según el apartado 8.4, esto es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    98.0,
+    288.3,
+    541.0,
+    302.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "d\nd\nR\nE\n≤\n(8.1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.8,
+    309.5,
+    437.5,
+    320.7
+   ],
+   "tipo": "texto",
+   "texto": "debiéndose dimensionar con capacidad para resistir los mínimos siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    95.3,
+    327.0,
+    541.6,
+    349.8
+   ],
+   "tipo": "texto",
+   "texto": "a)\nen el caso de nudos rígidos y empalmes la mitad de la resistencia última de cada una de las\npiezas a unir;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    95.3,
+    356.0,
+    541.5,
+    378.7
+   ],
+   "tipo": "texto",
+   "texto": "b)\nen el caso de uniones articuladas la tercera parte del axil o el cortante último (según el caso)\nde la pieza a unir.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.1,
+    385.1,
+    541.4,
+    407.7
+   ],
+   "tipo": "texto",
+   "texto": "3\nEl reparto de los esfuerzos sobre la unión entre los elementos que la componen puede realizarse\nmediante métodos elásticos o plásticos. En cualquier caso:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.8,
+    414.0,
+    520.3,
+    425.2
+   ],
+   "tipo": "texto",
+   "texto": "a)\nlos esfuerzos sobre los elementos de la unión equilibrarán los aplicados a la propia unión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    96.8,
+    431.6,
+    401.8,
+    442.8
+   ],
+   "tipo": "texto",
+   "texto": "b)\nla distribución de esfuerzos será coherente con la de rigideces;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    96.8,
+    449.0,
+    541.4,
+    483.3
+   ],
+   "tipo": "texto",
+   "texto": "c)\nsi se utilizan criterios de distribución en régimen plástico, se supondrán mecanismos de fallo\nrazonables, por ejemplo los basados en la rotación como sólido rígido de una de las partes de\nla unión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    96.8,
+    489.5,
+    538.6,
+    512.2
+   ],
+   "tipo": "texto",
+   "texto": "d)\nsi se utilizan criterios de distribución en régimen plástico, se comprobará la capacidad de de-\nformación de los elementos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    74.1,
+    518.6,
+    541.4,
+    564.3
+   ],
+   "tipo": "texto",
+   "texto": "4\nDebe tenerse en cuenta la excentricidad existente en una unión. En el caso de uniones de angula-\nres atornilladas con al menos dos tornillos en una de las alas se podrán considerar las líneas de\ngramil de los tornillos como ejes de gravedad, considerando sólo la parte de sección de los angula-\nres cuyo eje de gravedad coincide con ellos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    74.1,
+    570.5,
+    541.4,
+    662.2
+   ],
+   "tipo": "texto",
+   "texto": "5\nSe deben considerar las tracciones adicionales debidas al “efecto palanca” (véase figura 8.1.a)) si\nla naturaleza de la unión hace que éstas aparezcan. En la evaluación de las tracciones debidas al\nefecto palanca, Q, se considerarán las rigideces relativas de las chapas de la unión y la geometría\nde la misma. El efecto palanca puede evitarse aumentando la rigidez de los elementos (chapa fron-\ntal) de la unión (figura 8.1.b)). Se admite convencionalmente que no hay efecto palanca si la longi-\ntud de alargamiento del tornillo o perno Lb (igual a la distancia entre la mitades de la cabeza y la\ntuerca, -o en caso de anclajes a cimientos, el punto a 8 diámetros desde la superficie de inserción\nen la zapata- ) supera el valor siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    134.9,
+    685.8,
+    150.2,
+    700.7
+   ],
+   "tipo": "texto",
+   "texto": "3\nef",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    142.9,
+    669.9,
+    160.1,
+    677.7
+   ],
+   "tipo": "texto",
+   "texto": "3\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    104.4,
+    683.5,
+    145.3,
+    698.8
+   ],
+   "tipo": "texto",
+   "texto": "b\nt\nl",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    98.0,
+    671.7,
+    541.0,
+    689.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "m\nd\n9,6\nL\n≥\n(8.2)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    96.8,
+    707.5,
+    208.0,
+    718.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo (ver figura 8.1.b):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    96.8,
+    725.0,
+    497.1,
+    737.0
+   ],
+   "tipo": "texto",
+   "texto": "lef\nla longitud eficaz en flexión de ala de la T, correspondiente al tornillo considerado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    96.8,
+    742.5,
+    257.6,
+    753.7
+   ],
+   "tipo": "texto",
+   "texto": "d\ndiámetro del tornillo o perno",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

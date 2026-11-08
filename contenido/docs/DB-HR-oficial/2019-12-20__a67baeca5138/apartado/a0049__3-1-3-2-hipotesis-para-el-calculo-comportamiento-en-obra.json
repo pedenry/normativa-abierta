@@ -1,0 +1,104 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0049",
+  "ruta_oficial": "3.1.3.2",
+  "ruta_semantica": "3.1.3.2  Hipótesis para el cálculo. Comportamiento en obra de los elementos constructivos",
+  "titulo": "3.1.3.2  Hipótesis para el cálculo. Comportamiento en obra de los elementos constructivos",
+  "nivel": 1,
+  "parent_id": "a0047",
+  "seccion_estimada": "3.1.3.2  Hipótesis para el cálculo. Comportamiento en obra de los elementos constructivos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 24,
+   "bbox": [
+    70.9,
+    511.5,
+    503.9,
+    522.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c81c9fbe57f6723e735ade91ee4f327c518067c95bdf05e027678e3719af9ee7",
+   "literal": "3.1.3.2  Hipótesis para el cálculo. Comportamiento en obra de los elementos constructivos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0047",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "3.1.3.2  Hipótesis para el cálculo. Comportamiento en obra de los elementos constructivos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0047",
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.1.3  Opción general. Método de cálculo de aislamiento acústico / 3.1.3.2  Hipótesis para el cálculo. Comportamiento en obra de los elementos constructivos",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0bf9d8d4e51472aba62597872e71b81f1a7becc2c89f54815404eaf72255e809"
+ },
+ "paginas": [
+  24,
+  25
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "3.1.3.2  Hipótesis para el cálculo. Comportamiento en obra de los elementos constructivos\n1\nLas transmisiones por vía directa y por vía de flancos deben establecerse en términos de aislamien-\nto medido in situ. No obstante, a efectos de este DB se consideran válidas las expresiones siguien-\ntes:\nlab\nsitu\nR\nR\n=\n[dB]\n(3.1)\nlab\n,n\nsitu\n,n\nL\nL\n=\n[dB]\n(3.2)\nsiendo\nRsitu\níndice de reducción acústica de un elemento medido in situ, [dB]\nRlab\níndice de reducción acústica de un elemento medido en laboratorio, [dB]\nLn,situ\nnivel de presión de ruido de impactos normalizado medido in situ, [dB]\nLn,lab\nnivel de presión de ruido de impactos normalizado medido en laboratorio, [dB]\n2\nDe igual forma, para revestimientos tales comotechos suspendidos, suelos flotantes y trasdosados,\nlos valores medidos in situ de la mejora del índice de reducción acústica, Rsitu, y de la reducción\ndel nivel de presión de ruido de impactos por revestimiento de la cara de emisión del elemento de\n\nDocumento Básico HR - Protección frente al ruido\nHR-19\nseparación, Lsitu, y de la cara de recepción del elemento de separación, Ld,situ, pueden aproximar-\nse a los valores medidos en laboratorio:\nlab\nsitu\nR\nR\nΔ\nΔ\n=\n[dB]\n(3.3)\nlab\nsitu\nL\nL\nΔ\nΔ\n=\n[dB]\n(3.4)\nlab\n,d\nsitu\n,d\nL\nL\nΔ\nΔ\n=\n[dB]\n(3.5)\nsiendo\nRlab mejora del índice de reducción acústica de un revestimiento de elemento constructivo verti-\ncal u horizontal medido en laboratorio, [dB];\nLlab\nreducción del nivel de presión de ruido de impactos de un revestimiento de forjado en la cara\nde emisión del elemento de separación medido en laboratorio, [dB];\nLd, lab reducción del nivel de presión de ruido de impactos mediante una capa adicional sobre la ca-\nra de recepción del elemento de separación medido en laboratorio, [dB].\nPara forjados homogéneos de masa por unidad de superficie menor que 300 kg/m2 o forjados de vi-\ngas de madera, no deben usarse los valores de reducción del nivel de presión de ruido de impactos,\nL, medidos sobre un forjado normalizado.\n3\nPara la aplicación de los valores ΔRA en el método de cálculo, en donde aparecen como sumando\nlineal, deben cumplirse las condiciones de uso siguientes:\na)\nla relación de masas por unidad de superficie entre el elemento constructivo base vertical y el\nrevestimiento debe ser igual o mayor que 2;\nb)\nla relación de masas por unidad de superficie entre el forjado y el suelo flotante debe ser igual\no mayor que 2.\n4\nEn el caso de que no se cumplan estas condiciones, debe utilizarse el índice global de reducción\nacústica, ponderado A, RA del conjunto formado por el elemento base vertical y los trasdosados o\ndel conjunto formado por el forjado y el suelo flotante.\n5\nPara la aplicación de los valores ΔLw en el método de cálculo, en donde aparecen como sumando\nlineal, debe cumplirse que la relación de masas por unidad de superficie entre el forjado y el suelo\nflotante debe ser igual o mayor que 2. Cuando no se cumpla esta condición debe utilizarse el nivel\nglobal de presión de ruido de impactos normalizado, Ln,w, del conjunto formado por el suelo flotante\ny el forjado.\n6\nPor simplificación en la notación, a partir de este punto se considerará:\nRlab = R, Ln,lab = Ln , Rlab = R, Llab = L y Ld,lab = Ld.\n7\nEn las uniones, la transmisión in situ se caracteriza por el índice de reducción de vibraciones para\ncada camino de transmisión del elemento i al j, Kij. Éste es función de la diferencia de niveles de ve-\nlocidad promediada en dirección\nsitu\n,ij,v\nD\n. Su valor puede calcularse mediante la norma UNE-EN\nISO 12354-1.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "UNE-EN"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0025.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0290",
+  "ruta_oficial": "5.6",
+  "ruta_semantica": "Fragmento de PDF p129",
+  "titulo": "5.6 Pruebas 5.6.1 Pruebas de estanqueidad parcial",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p129",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p129",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.6 Pruebas 5.6.1 Pruebas de estanqueidad parcial",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "14012cf45efd3e8e2bdc4d66166264d583b05502fa13fcc1df7e81716c22346f"
+ },
+ "paginas": [
+  129,
+  130
+ ],
+ "etiquetas_impresas": [
+  "129",
+  "130"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.6 Pruebas 5.6.1 Pruebas de estanqueidad parcial\n5.6.1 Pruebas de estanqueidad parcial\n1\nSe realizarán pruebas de estanqueidad parcial descargando cada aparato aislado o simultánea-\nmente, verificando los tiempos de desagüe, los fenómenos de sifonado que se produzcan en el pro-\npio aparato o en los demás conectados a la red, ruidos en desagües y tuberías y comprobación de\ncierres hidráulicos.\n2\nNo se admitirá que quede en el sifón de un aparato una altura de cierre hidráulico inferior a 25 mm.\n3\nLas pruebas de vaciado se realizarán abriendo los grifos de los aparatos, con los caudales mínimos\nconsiderados para cada uno de ellos y con la válvula de desagüe asimismo abierta; no se acumula-\nrá agua en el aparato en el tiempo mínimo de 1 minuto.\n4\nEn la red horizontal se probará cada tramo de tubería, para garantizar su estanqueidad introducien-\ndo agua a presión (entre 0,3 y 0,6 bar) durante diez minutos.\n5\nLas arquetas y pozos de registro se someterán a idénticas pruebas llenándolos previamente de\nagua y observando si se advierte o no un descenso de nivel.\n6\nSe controlarán al 100 % las uniones, entronques y/o derivaciones.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n130",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0129.png",
+  "../figura/p0130.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0291",
+  "a0292",
+  "a0293",
+  "a0294",
+  "a0295"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

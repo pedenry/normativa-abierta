@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0051",
+  "ruta_oficial": "4.6.2",
+  "ruta_semantica": "4.6.2  Elementos mecánicos de fijación",
+  "titulo": "4.6.2  Elementos mecánicos de fijación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.6.2  Elementos mecánicos de fijación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 20,
+   "bbox": [
+    70.9,
+    721.3,
+    258.9,
+    731.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "414802d73ca48f94521c12a143e3094c959132dc6eee86cb970cf0b315f7d7b3",
+   "literal": "4.6.2  Elementos mecánicos de fijación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0061",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.6.2  Elementos mecánicos de fijación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4  Materiales 4.1  Madera maciza / 4.6  Uniones 4.6.1  Uniones tradicionales / 4.6.2  Elementos mecánicos de fijación",
+   "seccion_estimada": "4  Materiales 4.1  Madera maciza",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "33c6424e0f4f06c43275d6f0904ab2580721584f89b4edc11b8800b833fc3ee8"
+ },
+ "paginas": [
+  20,
+  21,
+  23
+ ],
+ "etiquetas_impresas": [
+  "1",
+  null,
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.6.2  Elementos mecánicos de fijación\n1\nLos elementos mecánicos de fijación contemplados en este DB para la realización de las uniones\nson:\n\nDocumentoBásico SE-M Madera\nSE-M 15\na) de tipo clavija: clavos de fuste liso o con resaltos, grapas, tirafondos (tornillos rosca madera),\npernos o pasadores.\nb) conectores: de anillo, de placa o dentados.\n2\nEn el proyecto se especificará, para su utilización en estructuras de madera, y para cada tipo de\nelemento mecánico de fijación de tipo clavija:\na) resistencia característica a tracción del acero fu,k;\nb) información geométrica que permita la correcta ejecución de los detalles;\n\nDocumentoBásico SE-M Madera\nSE-M 17",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0020_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0020.png",
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0012",
+  "ruta_oficial": "8",
+  "ruta_semantica": "8 Uniones",
+  "titulo": "8 Uniones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8 Uniones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    668.2,
+    120.3,
+    681.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a88d2dd8be94f23ba4c15792f4b3261cf18425b318fd33e52c06f3015751d29f",
+   "literal": "8 Uniones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0009",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8 Uniones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones",
+   "seccion_estimada": "8 Uniones",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "651a9c358f0ee39a4658a28ff32b758dc439cb0b2208cb6b8f0c3ae1db1da1f2"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "8 Uniones\n8.1 Introducción\n8.2 Principios generales del cálculo de uniones\n8.3 Uniones de tipo clavija\n8.4 Uniones con conectores\n8.5 Uniones tradicionales",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

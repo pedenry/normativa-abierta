@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0033",
+  "ruta_oficial": "4.3",
+  "ruta_semantica": "4.3 Hormigón",
+  "titulo": "4.3 Hormigón",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3 Hormigón",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    70.9,
+    633.5,
+    154.3,
+    645.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "923ea130ec804a5e0c16b91f435c207c6e6d464c0a98a6d722173e4b2585c481",
+   "literal": "4.3 Hormigón"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0035",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3 Hormigón",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas / 4.3 Hormigón",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "35ab55d0307713c10d293a6c827aca3628a14f2ffcf2e69447f4f385df442122"
+ },
+ "paginas": [
+  13,
+  14
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.3 Hormigón\n1\nEl hormigón empleado para el relleno de huecos de la fábrica armada se caracteriza, a efectos de\ncálculo, por los valores de fck (resistencia característica a compresión) y de fcvk (resistencia caracte-\nrística a corte) asociado al anterior para la aplicación de este DB, de la tabla 4.2.\nTabla 4.2  Resistencia del hormigón\nResistencia característica a compresión  fck (N/mm2)\n20\n25\nResistencia característica a corte  fcvk (N/mm2)\n0,39\n0,45\n\nDocumento Básico SE-F Fábrica\nSE-F-10\n2\nEl tamaño máximo del árido no será mayor que 10 mm cuando el hormigón rellene huecos de dimen-\nsión no menor que 50 mm, o cuando el recubrimiento de las armaduras esté entre 15 y 25 mm. No\nserá mayor que 20 mm cuando el hormigón rellene huecos de dimensión no menor que 100 mm o\ncuando el recubrimiento de la armadura no sea menor que 25 mm.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png",
+  "../figura/p0014.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

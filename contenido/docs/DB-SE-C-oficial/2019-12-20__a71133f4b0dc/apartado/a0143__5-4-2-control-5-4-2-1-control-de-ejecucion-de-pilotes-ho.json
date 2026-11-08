@@ -1,0 +1,118 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0143",
+  "ruta_oficial": "5.4.2",
+  "ruta_semantica": "Fragmento de PDF p61",
+  "titulo": "5.4.2 Control 5.4.2.1 Control de ejecución de pilotes hormigonados in situ",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p61",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p61",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 5.4.2 Control 5.4.2.1 Control de ejecución de pilotes hormigonados in situ",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "85e899c044e929c2509019547b806bf33e7dd0dd8869119ae29783bab8c3062f"
+ },
+ "paginas": [
+  61,
+  62
+ ],
+ "etiquetas_impresas": [
+  "2",
+  "5"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "5.4.2 Control 5.4.2.1 Control de ejecución de pilotes hormigonados in situ\n5.4.2.1 Control de ejecución de pilotes hormigonados in situ\n1\nLa correcta ejecución del pilote, incluyendo la limpieza y en su caso el tratamiento de la punta son\nfactores fundamentales que afectan a su comportamiento, y que deben tomarse en consideración\npara asegurar la validez de los métodos de cálculo contemplados en este DB.\n2\nLos pilotes ejecutados “in situ” se controlarán durante la ejecución, confeccionando un parte que\ncontenga, al menos, los siguientes datos:\n\nDocumento Básico SE-C Cimientos\nSE-C-57\na)\ndatos del pilote (Identificación, tipo, diámetro, punto de replanteo, profundidad, etc.);\nb)\nlongitud de entubación (caso de ser entubado);\nc)\nvalores de las cotas: del terreno, de la cabeza del pilote, de la armadura, de la entubación, de\nlos tubos sónicos, etc;\nd)\ntipos de terreno atravesados (comprobación con el terreno considerado originalmente);\ne)\nniveles de agua;\nf)\narmaduras (tipos, longitudes, dimensiones, etc.);\ng)\nhormigones (tipo, características, etc.);\nh)\ntiempos (de perforación, de colocación de armaduras, de hormigonado);\ni)\nobservaciones (cualquier incidencia durante las operaciones de perforación y hormigonado).\n3\nDurante la ejecución se consideran adecuados los controles siguientes, según la norma UNE EN\n1536:2011+A1:2016 (tablas 6 a 11):\na)\ncontrol del replanteo;\nb)\ncontrol de la excavación;\nc)\ncontrol del lodo;\nd)\ncontrol de las armaduras;\ne)\ncontrol del hormigón.\n4\nEn el control de vertido de hormigón, al comienzo del hormigonado, el tubo Tremie no podrá des-\ncansar sobre el fondo, sino que se debe elevar unos 20 cm para permitir la salida del hormigón.\n5\nEn los pilotes de barrena continua se consideran adecuados los controles indicados en la tabla 12\nde la norma UNE EN 1536:2011+A1:2016. Cuando estos pilotes se ejecuten con instrumentación,\nse controlarán en tiempo real los parámetros de perforación y de hormigonado, permitiendo conocer\ny corregir instantáneamente las posibles anomalías detectadas.\n6\nSe pueden diferenciar dos tipos de ensayos de control:\na)\nensayos de integridad a lo largo del pilote;\nb)\nensayos de carga (estáticos o dinámicos).\n7\nLos ensayos de integridad tienen por objeto verificar la continuidad del fuste del pilote y la resisten-\ncia mecánica del hormigón.\n8\nPueden ser, según los casos, de los siguientes tres tipos:\na)\ntransparencia sónica;\nb)\nimpedancia mecánica;\nc)\nsondeos mecánicos a lo largo del pilote.\nAdemás, se podrá realizar un registro continuo de parámetros en pilotes de barrena continua.\n9\nEl número y la naturaleza de los ensayos se fijarán en el Pliego de condiciones del proyecto y se\nestablecerán antes del comienzo de los trabajos. El número de ensayos no debe ser inferior a 1 por\ncada 20 pilotes, salvo en el caso de pilotes aislados con diámetros entre 45 y 100 cm que no debe\nser inferior a 2 por cada 20 pilotes. En pilotes aislados de diámetro superior a 100 cm no debe ser\ninferior a 5 por cada 20 pilotes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0061.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0144"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0028",
+  "ruta_oficial": "3.1",
+  "ruta_semantica": "3.1 Clase de exposición",
+  "titulo": "3.1 Clase de exposición",
+  "nivel": 1,
+  "parent_id": "a0027",
+  "seccion_estimada": "3.1 Clase de exposición",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    70.9,
+    222.2,
+    213.0,
+    234.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "866e5d418926d6d41a6e92590c9c85af238b5bdba7a7da62c75731c080f0bd9f",
+   "literal": "3.1 Clase de exposición"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0029",
+  "parent_id_original": "a0027",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-HE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1 Clase de exposición",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0027",
+   "ruta_semantica": "3 Durabilidad / 3.1 Clase de exposición",
+   "seccion_estimada": "3 Durabilidad",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a3fb11296a71440e00169f735ebf1d84b4815b9ac00bb78893ab0560e207cb57"
+ },
+ "paginas": [
+  9,
+  10
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.1 Clase de exposición\n1\nLa clase de exposición define la agresividad del medio en el que debe mantenerse el elemento sin\nmenoscabo de sus propiedades.\n2\nEn las tablas 3.1 y 3.2 se describen las clases de exposición a las que puede estar expuesto un\nelemento. Para la asignación de la clase o clases a un elemento de fábrica, además de cuestiones\nrelativas al entorno (orientación, salinidad del medio, ataque químico, etc), se debe tener en cuenta\nla severidad de la exposición local a la humedad, es decir: la situación del elemento en el edificio y el\nefecto de ciertas soluciones constructivas (tales como la protección que pueden ofrecer aleros, cor-\nnisas y albardillas, dotados de un goterón adecuadamente dimensionado) y el efecto de revestimien-\ntos y chapados protectores.\n3\nSi se utiliza un acabado exterior impermeable al agua de lluvia, éste deber ser permeable al vapor,\npara evitar condensaciones de la masa del muro, en los términos establecidos en el DB-HE.\nTabla 3.1 Clases generales de exposición\nClase y designación\nTipo de proceso\nDescripción\nEjemplos\nInterior\nNo\nagresiva\nI\nNinguno\nInteriores de edificios no someti-\ndos a condensaciones\nInteriores de edificios, protegi-\ndos de la intemperie\nExterior\nHumedad\nmedia\nII a\nCarbonatación del conglome-\nrante.\nExpansión de los núcleos de\ncal\nExteriores sometidos a la acción\ndel agua en zonas con precipita-\nción media anual inferior a 600\nmm.\nExteriores protegidos de la llu-\nvia\nHumedad\nalta\nII b\nCarbonatación rápida del con-\nglomerante.\nExpansión de los núcleos de\ncal.\nInteriores con humedades relati-\nvas >65% o condensaciones, o\ncon precipitación media anual\nsuperior a 600 mm.\nExteriores no protegidos de la\nlluvia. Sótanos no ventilados.\nCimentaciones.\nMedio\nmarino\nMarino aé-\nreo\nIII a\nCorrosión de las armaduras\npor cloruros.\nExpansión de los núcleos de\ncal.\nProximidad al mar por encima\ndel nivel de pleamar. Zonas cos-\nteras\nProximidad a la costa. Panta-\nlanes, obras de defensa litoral\ne  instalaciones portuarias.\nMarino su-\nmergido\nIII b\nCorrosión de las armaduras\npor cloruros.\nSulfatación y destrucción por\nexpansividad del conglome-\nrante y de los derivados del ce-\nmento.\nExpansión de los núcleos de\ncal.\nPor debajo del nivel mínimo de\nbajamar permanentemente.\nTerrenos ricos en sulfatos.\nRecorrido de marea en  di-\nques, pantalanes y obras de\ndefensa litoral.\nMarino al-\nternado\nIII c\nCorrosión rápida de las arma-\nduras por cloruros.\nSulfatación y destrucción por\nexpansividad del conglome-\nrante y de los derivados del ce-\nmento.\nZonas marinas situadas en el re-\ncorrido de carrera de mareas.\nÍdem III b.\nOtros cloruros\n(no marinos)\nIV\nÍdem que III c.\nSufalatación y carbonatación.\nAgua con un contenido elevado\nde cloro. Exposición a sales pro-\ncedentes del deshielo\nPiscinas. Zonas de nieve (alta\nmontaña). Estaciones de trata-\nmiento de aguas\n\nDocumento Básico SE-F Fábrica\nSE-F-6\nTabla 3.2 Clases específicas de exposición\nClase y designación\nAgua\nSuelo\nQuímica agresiva\npH\nCO2\nagresivo\nmg CO2/l\nIón\namonio\nmg NH4/l\nIón\nmagnesio\nmg Mg/l\nIón sulfato\nmg SO4/l\nResiduo\nseco\nGr.acidez\nBauman-\nGully\nIón sulfato\nmg SO4/kg\nsuelo seco\nDébil\nQa\n6,5 –\n5,5\n15 – 40\n15 - 30\n300 -1000\n200 - 600\n75 250\n> 20\n2000 -3000\nMedia\nQb\n5,5 –\n4,5\n40 – 100\n30 - 60\n1000 - 3000\n600 - 3000\n50 75\nInusual\n3000 -12000\nFuerte\nQc\n< 4,5\n> 100\n> 60\n> 3000\n> 3000\n< 50\nInusual\n> 12000\nCon heladas\nTipo de proceso\nEjemplos\nsin sales fundentes\nH\nAtaque hielo-deshielo. (1)\nConstrucciones en zonas de alta montaña.\nEstaciones invernales\ncon sales fundentes\nF\nAtaque por sales fundentes (2)\nTableros de pasarelas o barandillas de puentes\nen zonas de alta montaña\nErosión\nE\nProcesos de abrasión o cavitación (3)\nPilas de puente en cauces muy torrenciales.\n(1) Elementos en contacto frecuente con agua o zonas con humedad relativa en invierno superior al 75% y que tengan una probabi-\nlidad anual superior al 50% de alcanzar al menos una vez temperaturas por debajo de 5ºC\n(2) Elementos próximos al tráfico de vehículos o peatones en zonas de más de 5 nevadas anuales o con un valor medio de la\ntemperatura mínima en los meses de invierno inferior a 0ºC\n(3) Elementos sometidos a desgaste superficial o singulares de construcciones hidráulicas. Elementos de diques, pantalanes y\nobras de defensa litoral que se encuentren sometidos a fuertes oleajes",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-HE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0010_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0009.png",
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

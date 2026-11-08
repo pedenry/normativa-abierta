@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0085",
+  "ruta_oficial": "6.3.3.5",
+  "ruta_semantica": "6.3.3.5 Cargas concentradas",
+  "titulo": "6.3.3.5 Cargas concentradas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.3.5 Cargas concentradas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 48,
+   "bbox": [
+    78.0,
+    144.7,
+    216.0,
+    155.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6fc5e703e6b6d90090e795cc266fd23b7fe20aa33646f42d07532f642ab3128a",
+   "literal": "6.3.3.5 Cargas concentradas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0084",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.5 Cargas concentradas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección en doble T / 6.3.3.5 Cargas concentradas",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "322e69bf54c5423d9d7a7759a5532d7989ec0138e392e6bae4631413dcc5e254"
+ },
+ "paginas": [
+  48
+ ],
+ "etiquetas_impresas": [
+  "48"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.3.5 Cargas concentradas\n1\nNo es necesario comprobar la resistencia del alma de una pieza frente a la aplicación de una car-\nga concentrada (o una reacción en un apoyo)  actuando sobre las alas si se disponen rigidizado-\nres dimensionados tal como se indica en el apartado anterior, para resistir una compresión igual a\nla fuerza concentrada aplicada (o la reacción).\n2\nNo es necesario rigidizar el alma de una pieza sometida a cargas concentradas actuando sobre\nlas alas si se cumple que:\n1\nF\nF\nRd\n,\nb\nEd≤\n(6.42)\nsiendo\nFEd\nvalor de cálculo de la carga concentrada, ;\nFb,Rd\nresistencia de cálculo del alma frente a cargas concentradas.\n3\nLa resistencia de cálculo del alma frente a cargas concentradas viene dada por:\n1\nM\nef\nw\ny\nRd\n,\nb\nL\nt\nf\nF\nγ\n⋅\n⋅\n=\n(6.43)\nsiendo\ny\nF\nef\nL\nl\n⋅\nχ\n=\n(6.44)\n1\n5,0\nF\nF\n≤\nλ\n=\nχ\n(6.45)\ncr\ny\nw\ny\nF\nF\nf\nt\n⋅\n⋅\n=\nλ\nl\n(6.46)\nd\nt\nE\nk\n9,0\nF\n3\nF\ncr\n⋅\n⋅\n⋅\n=\n(6.47)\nLos valores de\ny\nl y de kF dependen del caso considerado, de entre los representados en la figura\n6.6:\n-\nCaso a): carga (o reacción) aplicada a un ala y equilibrada por cortantes en el alma.\n2\nF\na\nd\n2\n6\nk\n\n\n\n\n\n\n+\n=",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0048_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0048.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

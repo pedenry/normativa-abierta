@@ -1,0 +1,101 @@
+{
+ "documento": null,
+ "pagina": 39,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-34",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    552.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nSi existe nivel freático a la altura de apoyo de la cimentación o por encima, para poder aplicar las\nformulas anteriores debe garantizarse mediante un adecuado proceso constructivo que las caracte-\nrísticas mecánicas del terreno de cimentación no se alteran respecto a los valores determinados en\nel reconocimiento geotécnico.\n4\nLas formulas anteriores se considerarán aplicables para cimentaciones superficiales de hasta 5 m\nde ancho real (B). Para anchuras superiores a 5 m deben siempre comprobarse los asientos de\nacuerdo con el apartado F.1.2.2.\n5\nCuando el asiento admisible de cualquier elemento de cimentación sea inferior a 25 mm, el análisis\nde asientos debe llevarse a cabo de acuerdo con el apartado F.1.2.2.\n6\nSerá necesaria en todo caso la comprobación de que no se producen asientos excesivos debidos a\nla presencia de cargas próximas y suelos menos firmes situados a mayor profundidad que 2B* des-\nde la base de la cimentación.\n7\nSi existiera flujo de agua en el entorno de la cimentación superficial se requerirá un estudio especí-\nfico de la solución a adoptar.\n8\nCuando se realicen ensayos de penetración estáticos o dinámicos continuos se podrá aplicar el\nmétodo descrito anteriormente siempre y cuando se utilicen correlaciones bien establecidas con el\nresultado NSPT del ensayo SPT.\n9\nLas correlaciones suelen mostrar un marcado carácter local y deben justificarse convenientemente,\ncomo puede ser mediante la realización de penetrómetros continuos situados a corta distancia de\nsondeos en los que se cuente con pruebas SPT.\n10\nExcepto para aquellos casos en los que sea preceptiva la realización de sondeos mecánicos, se\npodrá llevar a cabo la estimación de las presiones verticales admisibles de cimentación a partir de\nla ejecución exclusiva de penetrómetros continuos siempre que concurran las siguientes circuns-\ntancias:\na)\ncuando exista una correlación de suficiente nivel de confianza entre la resistencia a la penetra-\nción del ensayo realizado y las propiedades mecánicas del terreno, establecidas por el re-\nconocimiento específico o preliminar efectuado para el edificio en estudio o los reconocimien-\ntos efectuados en las edificaciones próximas;\nb)\ncuando la correlación entre la resistencia a la penetración y las propiedades mecánicas del te-\nrreno provenga de estudios e investigaciones efectuadas en la zona en terrenos análogos a\nlos encontrados en el área de edificación;\nc)\ncuando exista en la localidad del emplazamiento de la edificación una tradición firmemente es-\ntablecida entre el ensayo de penetración continua empleado y la presión vertical admisible, y\nsiempre que la nueva edificación tenga un número de plantas similar, su nivel de cimentación\nno profundice respecto a los contiguos más de 1,50 m, y la modulación de la superestructura y\nlas cargas por apoyo sean similares.\n11\nA efectos prácticos se podrán tomar los valores de la presión vertical admisible (qadm) que figuran en\nla tabla 4.4, calculadas para valores de NSPT = 10. Para valores de NSPT > 10, la presión admisible varía\nproporcionalmente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    151.2,
+    555.9,
+    464.0,
+    565.6
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 4.4  Presiones admisibles en suelos granulares para N=10, (kN/m2)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    92.2,
+    572.8,
+    351.6,
+    581.8
+   ],
+   "tipo": "texto",
+   "texto": "B (m)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    121.4,
+    588.7,
+    508.2,
+    597.7
+   ],
+   "tipo": "texto",
+   "texto": "0,8 m\n1,0 m\n1,2 m\n1,5 m\n2,0 m\n3,0 m\n5,0 m",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    604.6,
+    517.4,
+    693.0
+   ],
+   "tipo": "texto",
+   "texto": "St\nD (m)\nD (m)\nD (m)\nD (m)\nD (m)\nD (m)\nD (m)\n(mm)\n0,5\n2\n0,5\n2\n0,5\n2\n0,5\n2\n0,5\n2\n0,5\n2\n0,5\n2\n10\n58\n62\n56\n62\n57\n65\n51\n60\n46\n55\n41\n47\n37\n41\n15\n87\n94\n84\n94\n85\n98\n77\n90\n69\n83\n61\n71\n56\n61\n20\n116\n125\n112\n125\n114\n130\n102\n120\n92\n110\n82\n95\n74\n81\n25\n145\n156\n140\n156\n142\n163\n128\n150\n115\n138\n102\n118\n93\n102",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

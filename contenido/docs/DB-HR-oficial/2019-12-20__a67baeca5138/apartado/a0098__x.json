@@ -1,0 +1,76 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0098",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p50",
+  "titulo": "",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p50",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p50",
+  "referencias_filtradas": [
+   "Real Decreto 1513/2005"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología / Frecuencia, f: Número de pulsaciones de una onda acústica sinusoidal ocurridas en un segundo. / ",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e8d068397c6ce097b82bb17ba7189b8cdb9c489f93805ddd3cd76b18d672863b"
+ },
+ "paginas": [
+  50
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "\n=\n−\n\n−\n=\nn\n1\ni\n10\n/)\n'\nR\nL\n(\nA\ni\ni,\nAr\n10\nlg\n10\n'\nR\n[dBA]\n(A.14)\nsiendo\nR’i\níndice de reducción acústica aparente en la banda de frecuencia i, [dB];\nLAr,i\nvalor del espectro del ruido rosa normalizado, ponderado A, en la banda de frecuencia i, [dBA];\ni\nrecorre todas las bandas de frecuencia de tercio de octava de 100 Hz a 5 kHz.\nÍndice global de reducción acústica aparente, R’w: Valor en decibelios de la curva de referencia, a\n500 Hz, ajustada a los valores experimentales del índice de reducción acústica aparente, R’.\nÍndice global de reducción acústica, ponderado A, de un elemento constructivo, RA: Valoración\nglobal, en dBA, del índice de reducción acústica, R, para un ruido incidente rosa normalizado, ponderado\nA.\nLos índices de reducción acústica se determinarán mediante ensayo en laboratorio. No obstante, y en\nausencia de ensayo, puede decirse que el índice de reducción acústica proporcionado por un elemento\nconstructivo de una hoja de materiales homogéneos, es función casi exclusiva de su masa y son aplica-\nbles las siguientes expresiones (ley de masa) que determinan el aislamiento RA, en función de la masa\npor unidad de superficie, m, expresada en kg/m2:\n5\nm\nlg\n6,\n16\nR\nm\n/\nkg\n150\nm\nA\n2\n+\n\n=\n\n[dBA]\n(A.15)\n5,\n38\nm\nlg\n5,\n36\nR\nm\n/\nkg\n150\nm\nA\n2\n−\n\n=\n\n[dBA]\n(A.16)\nA partir de los valores del índice de reducción acústica R, obtenidos mediante ensayo en laboratorio,\neste índice se define mediante la expresión siguiente:\n\n=\n−\n\n−\n=\nn\n1\ni\n10\n/)\nR\nL\n(\nA\ni\ni,\nAr\n10\nlg\n10\nR\n[dBA]\n(A.17)\nsiendo\nRi\nvalor del índice de reducción acústica en la banda de frecuencia i, [dB];\nLAr,i,\nvalor del espectro del ruido rosa, ponderado A, en la banda de frecuencia i, [dBA];\ni\nrecorre todas las bandas de frecuencia de tercio de octava de 100 Hz a 5 kHz.\nDe forma aproximada puede considerarse que\nC\nR\nR\nw\nA\n+\n=\n.\nÍndice global de reducción acústica, ponderado A, para ruido exterior dominante de automóviles,\nRAtr: Valoración global, en dBA, del índice de reducción acústica, R, para un ruido exterior de automóvi-\nles.\n*Definición procedente del Real Decreto 1513/2005, de 16 de diciembre, por el que se desarrolla la Ley 37/2003, de 17 de no-\nviembre, del Ruido, en lo referente a la evaluación y gestión del ruido ambiental.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto 1513/2005"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0050.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

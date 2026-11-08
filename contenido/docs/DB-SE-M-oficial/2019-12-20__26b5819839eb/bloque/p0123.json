@@ -1,0 +1,414 @@
+{
+ "documento": null,
+ "pagina": 123,
+ "etiqueta_impresa": "1",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    286.9,
+    797.9,
+    324.7,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 117",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    285.7,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo G. Longitudes de pandeo",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    134.9,
+    169.7,
+    146.9
+   ],
+   "tipo": "texto",
+   "texto": "G.1 Introducción",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    156.3,
+    538.5,
+    189.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEste anejo permite la determinación de la longitud de pandeo de barras de algunos tipos estructura-\nles para analizar la inestabilidad de pandeo por flexión, mediante la consideración de barras equiva-\nlentes.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    208.1,
+    211.7,
+    220.1
+   ],
+   "tipo": "texto",
+   "texto": "G.2 Longitud de pandeo",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    229.7,
+    533.5,
+    239.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa longitud de barra equivalente (longitud de pandeo) lk, se calcula mediante la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    90.1,
+    243.5,
+    541.3,
+    268.4
+   ],
+   "tipo": "texto",
+   "texto": "Lk = ·s o lk = ·h\n(G.1)\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    90.1,
+    273.2,
+    286.7,
+    284.6
+   ],
+   "tipo": "texto",
+   "texto": "\ncoeficiente definido según la tabla G.1;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    88.8,
+    290.1,
+    538.6,
+    339.6
+   ],
+   "tipo": "texto",
+   "texto": "s o h longitudes definidas en la tabla G.1.\nSi se tiene en cuenta la influencia en la deformación del cortante, la longitud de barra equivalente pa-\nra secciones rectangulares, se puede obtener de la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    148.6,
+    365.2,
+    181.8,
+    375.2
+   ],
+   "tipo": "texto",
+   "texto": "S\n·\n)\ns·\n(",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.8,
+    349.5,
+    172.0,
+    370.0
+   ],
+   "tipo": "texto",
+   "texto": "·I·\nE\n1\n·s·\nl\n2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    171.6,
+    347.3,
+    175.5,
+    354.3
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.5,
+    360.7,
+    157.3,
+    375.2
+   ],
+   "tipo": "texto",
+   "texto": "k\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    105.1,
+    348.0,
+    204.6,
+    365.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n  ó",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    258.1,
+    364.9,
+    291.0,
+    374.9
+   ],
+   "tipo": "texto",
+   "texto": "S\n·\n)\nh·\n(",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    205.9,
+    349.5,
+    281.5,
+    369.8
+   ],
+   "tipo": "texto",
+   "texto": "·I·\nE\n1\n·\nh·\nl\n2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    280.9,
+    347.4,
+    284.8,
+    354.4
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    208.3,
+    360.7,
+    266.9,
+    374.8
+   ],
+   "tipo": "texto",
+   "texto": "k\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    216.1,
+    348.0,
+    541.3,
+    365.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n (G.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    92.5,
+    396.0,
+    541.3,
+    432.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nS = G·A/1,2\n(G.3)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    92.5,
+    438.5,
+    125.5,
+    448.4
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    92.5,
+    453.9,
+    327.9,
+    463.9
+   ],
+   "tipo": "texto",
+   "texto": "G\nmódulo de elasticidad transversal característico;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    92.5,
+    469.4,
+    222.4,
+    479.4
+   ],
+   "tipo": "texto",
+   "texto": "A\nsuperficie de la sección;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    92.5,
+    484.9,
+    329.5,
+    494.9
+   ],
+   "tipo": "texto",
+   "texto": "E\nmódulo de elasticidad longitudinal característico;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    500.4,
+    267.0,
+    523.9
+   ],
+   "tipo": "texto",
+   "texto": "I\nmomento de inercia de la sección.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    171.2,
+    524.7,
+    440.6,
+    536.1
+   ],
+   "tipo": "texto",
+   "texto": "Tabla G.1. Coeficientes de la longitud de pandeo  para barras",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 27,
+   "bbox": [
+    70.9,
+    543.3,
+    474.0,
+    554.8
+   ],
+   "tipo": "texto",
+   "texto": "Sistema estructural\nCoeficientes ",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    81.8,
+    617.6,
+    90.1,
+    627.6
+   ],
+   "tipo": "texto",
+   "texto": "1",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 29,
+   "bbox": [
+    197.4,
+    566.5,
+    274.6,
+    576.5
+   ],
+   "tipo": "texto",
+   "texto": "Pilar Biarticulado",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    426.1,
+    616.5,
+    451.3,
+    627.9
+   ],
+   "tipo": "texto",
+   "texto": " = 1",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

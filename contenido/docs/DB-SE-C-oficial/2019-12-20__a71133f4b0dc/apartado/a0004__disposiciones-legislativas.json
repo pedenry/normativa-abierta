@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0004",
+  "ruta_oficial": null,
+  "ruta_semantica": "Disposiciones legislativas",
+  "titulo": "Disposiciones legislativas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Disposiciones legislativas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 2,
+   "bbox": [
+    141.8,
+    659.9,
+    271.9,
+    669.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "cdc9c01c1eae86992302c505e6cafc028e8367343c71da02f3957ac33faffc5a",
+   "literal": "Disposiciones legislativas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0001",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE-C",
+   "Real Decreto 1371/2007",
+   "Real Decreto 314/2006",
+   "Real Decreto 732/2019"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Disposiciones legislativas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "20 diciembre 2019 Documento BásicoSE-C / Disposiciones legislativas",
+   "seccion_estimada": "20 diciembre 2019 Documento BásicoSE-C",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4605f26ebb19ae6a5ebfbacc356d21cbf218b5446e0abcf96b5d197813ba6948"
+ },
+ "paginas": [
+  2,
+  3,
+  4
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "definiciones",
+  "referencias"
+ ],
+ "texto": "Disposiciones legislativas\nEl articulado de este Documento Básico fue aprobado por el Real Decreto 314/2006, de\n17 de marzo (BOE 28-marzo-2006) y posteriormente ha sido modificado por las siguien-\ntes disposiciones:\n-\nReal Decreto 1371/2007 de 19 de octubre (BOE 23-octubre-2007)\n-\nReal Decreto 732/2019, de 20 de diciembre (BOE 27-diciembre-2019)\n\nDocumento Básico SE-C Cimientos\nSE-C-i\nÍndice\n1\nGeneralidades\n1.1\nÁmbito de aplicación\n1.2\nCondiciones particulares para el cumplimiento del DB-SE-C\n2\nBases de cálculo\n2.1\nGeneralidades\n2.2\nMétodo de los estados límite\n2.3\nVariables básicas\n2.4\nVerificaciones basadas en el formato de los coeficientes parciales\n3\nEstudio geotécnico\n3.1\nGeneralidades\n3.2\nReconocimiento del terreno\n3.3\nContenido del estudio geotécnico\n4\nCimentaciones directas\n4.1\nDefiniciones y tipologías\n4.2\nAnálisis y dimensionado\n4.3\nPresión admisible y de hundimiento\n4.4\nAsiento de las cimentaciones directas\n4.5\nCondiciones constructivas\n4.6\nControl\n5\nCimentaciones profundas\n5.1\nDefiniciones y tipologías\n5.2\nAcciones a considerar\n5.3\nAnálisis y dimensionado\n5.4\nCondiciones constructivas y de control\n6\nElementos de contención\n6.1\nDefiniciones y tipologías\n6.2\nAcciones a considerar y datos geométricos\n6.3\nAnálisis y dimensionado\n6.4\nCondiciones constructivas y de control\n7\nAcondicionamiento del terreno\n7.1\nCriterios básicos\n7.2\nExcavaciones\n7.3\nRellenos\n7.4\nGestión del agua\n8\nMejora o refuerzo del terreno\n8.1\nGeneralidades\n8.2\nCondiciones iniciales del terreno\n8.3\nElección del procedimiento de mejora o refuerzo del terreno\n\nDocumento Básico SE-C Cimientos\nSE-C-ii\n8.4\nCondiciones constructivas y de control\n9\nAnclajes al terreno\n9.1\nDefiniciones y tipologías\n9.2\nAcciones a considerar y datos geométricos\n9.3\nAnálisis y dimensionado\n9.4\nCondiciones constructivas y de control",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE-C",
+  "Real Decreto 1371/2007",
+  "Real Decreto 314/2006",
+  "Real Decreto 732/2019"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

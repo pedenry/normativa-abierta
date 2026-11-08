@@ -1,0 +1,53 @@
+{
+ "indice": 1,
+ "pagina": 72,
+ "etiqueta_impresa": "4",
+ "bbox": [
+  228.0,
+  476.6,
+  400.5,
+  641.0
+ ],
+ "filas": 1,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "x x\nH\nKa",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Kp\n1\n2\nKo\nESTADO EN\nREPOSO",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "x x\nH\nKa",
+  "Kp\n1\n2\nKo\nESTADO EN\nREPOSO"
+ ],
+ "header": {
+  "names": [
+   "x x\nH\nKa",
+   "Kp\n1\n2\nKo\nESTADO EN\nREPOSO"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB97D3D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADC5D5A60>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0072.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

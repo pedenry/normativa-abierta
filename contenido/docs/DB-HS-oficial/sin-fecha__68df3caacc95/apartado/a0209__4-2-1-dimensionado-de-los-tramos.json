@@ -1,0 +1,91 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0209",
+  "ruta_oficial": "4.2.1",
+  "ruta_semantica": "4.2.1 Dimensionado de los tramos",
+  "titulo": "4.2.1 Dimensionado de los tramos",
+  "nivel": 1,
+  "parent_id": "a0208",
+  "seccion_estimada": "4.2.1 Dimensionado de los tramos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 90,
+   "bbox": [
+    70.9,
+    674.7,
+    238.8,
+    685.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9c0968eee0385f866d7096700c27d25027e6e2e4fe8f886eaa1186fe8ccd222a",
+   "literal": "4.2.1 Dimensionado de los tramos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0208",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2.1 Dimensionado de los tramos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0208",
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio / 4.2 Dimensionado de las redes de distribución / 4.2.1 Dimensionado de los tramos",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f65e96675bb3c394eb7f33715a1892df99c27780c8edd219bbba7a6506a378f9"
+ },
+ "paginas": [
+  90,
+  91
+ ],
+ "etiquetas_impresas": [
+  "90",
+  "91"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.2.1 Dimensionado de los tramos\n1\nEl dimensionado de la red se hará a partir del dimensionado de cada tramo, y para ello se partirá\ndel circuito considerado como más desfavorable que será aquel que cuente con la mayor pérdida\nde presión debida tanto al rozamiento como a su altura geométrica.\n2\nEl dimensionado de los tramos se hará de acuerdo al procedimiento siguiente:\na)\nel caudal máximo de cada tramos será igual a la suma de los caudales de los puntos de con-\nsumo alimentados por el mismo de acuerdo con la tabla 2.1.\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n91\nb)\nestablecimiento de los coeficientes de simultaneidad de cada tramo de acuerdo  con un criterio\nadecuado.\nc)\ndeterminación del caudal de cálculo en cada tramo como producto del caudal máximo por el\ncoeficiente de simultaneidad correspondiente.\nd)\nelección de una velocidad de cálculo comprendida dentro de los intervalos siguientes:\ni)\ntuberías metálicas: entre 0,50 y 2,00 m/s\nii)\ntuberías termoplásticas y multicapas: entre 0,50 y 3,50 m/s\ne)\nObtención del diámetro correspondiente a cada tramo en función del caudal y de la velocidad.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0090_t01.json",
+  "../tabla/p0091_t01.json",
+  "../tabla/p0091_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0090.png",
+  "../figura/p0091.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0009",
+  "ruta_oficial": null,
+  "ruta_semantica": "II Ámbito de aplicación",
+  "titulo": "II Ámbito de aplicación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "II Ámbito de aplicación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    556.1,
+    217.7,
+    568.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "11b769baf0793faac83df0c4d757d3df1d39d4b86622980ff32d5f6c05a9589d",
+   "literal": "II Ámbito de aplicación"
+  },
+  "navegacion_motivo": "ambito_global_verificado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "ambito_global_verificado",
+  "scope": "global",
+  "referencias_filtradas": [
+   "artículo 2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "II Ámbito de aplicación",
+  "ruta_fuente": "ambito_global_verificado",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Artículo 10. Exigencias básicas de seguridad estructural (SE) / II Ámbito de aplicación",
+   "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5a6df76de3d83e5415aaed89e8b1b6138a26510f5c3b72e5c39f287cdaec752c"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "ambito",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "II Ámbito de aplicación\nÁmbito de aplicación\nEl ámbito de aplicación de este DB es el que se establece con carácter general para el conjunto del CTE\nen su artículo 2 (Parte I).",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "artículo 2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

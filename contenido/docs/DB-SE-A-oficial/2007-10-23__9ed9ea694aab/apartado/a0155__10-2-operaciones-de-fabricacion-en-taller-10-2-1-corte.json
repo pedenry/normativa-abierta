@@ -1,0 +1,77 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0155",
+  "ruta_oficial": "10.2",
+  "ruta_semantica": "Fragmento de PDF p112",
+  "titulo": "10.2 Operaciones de fabricación en taller 10.2.1 Corte",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p112",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p112",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.2 Operaciones de fabricación en taller 10.2.1 Corte",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "13dd14fa756e7bda0a02407919e1be9955419971e757469b6f83be946d941341"
+ },
+ "paginas": [
+  112
+ ],
+ "etiquetas_impresas": [
+  "112"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.2 Operaciones de fabricación en taller 10.2.1 Corte\n10.2.1 Corte\n1\nSe debe realizar por medio de sierra, cizalla, corte térmico (oxicorte) automático y, solamente si és-\nte no es practicable, oxicorte manual.\n2\nSe aceptarán cortes obtenidos directamente por oxicorte siempre que no tengan irregularidades\nsignificativas y se hayan eliminado los restos de escoria.\n3\nEl pliego de condiciones especificará las zonas que no es admisible material endurecido tras pro-\ncesos de corte.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0112.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0156",
+  "a0157",
+  "a0158",
+  "a0159",
+  "a0160"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

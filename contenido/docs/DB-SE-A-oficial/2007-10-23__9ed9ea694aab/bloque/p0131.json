@@ -1,0 +1,512 @@
+{
+ "documento": null,
+ "pagina": 131,
+ "etiqueta_impresa": "131",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    298.2,
+    792.0,
+    335.6,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-129",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    87.5,
+    246.9,
+    100.9
+   ],
+   "tipo": "titulo",
+   "texto": "11.2 Tolerancias de ejecución",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 3,
+   "bbox": [
+    112.6,
+    109.5,
+    500.2,
+    119.6
+   ],
+   "tipo": "texto",
+   "texto": "Descripción\nSímbolo\ntolerancia\nFigura\nObservaciones",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    78.0,
+    131.8,
+    230.9,
+    152.3
+   ],
+   "tipo": "texto",
+   "texto": "Dimensiones totales del con-\njunto del edificio\n∆l",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    249.6,
+    125.8,
+    341.8,
+    158.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "±20 mm para l ≤30 m\n±(20 + 0,25 (l-30)) mm\npara 30 m < l < 210 m",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    359.8,
+    131.8,
+    542.2,
+    152.3
+   ],
+   "tipo": "texto",
+   "texto": "11.1\n11.2\nPara la altura del edificio, reemplazar\nl por h",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    78.0,
+    185.7,
+    379.8,
+    206.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nivel superior del plano del\npiso\n∆h1\n±5 mm\n11.2",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    391.1,
+    164.7,
+    538.2,
+    227.5
+   ],
+   "tipo": "texto",
+   "texto": "En el caso de elementos de forjado\nen que no exista margen para la ni-\nvelación de las desviaciones con re-\nlación a la altura nominal, puede ser\nadecuado especificar\n∆h1 = +0 mm / -10 mm",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    78.0,
+    233.6,
+    200.6,
+    285.1
+   ],
+   "tipo": "texto",
+   "texto": "Desviación en inclinación de\nlos pilares:\na) entre forjados (distancia hc)\nb) máxima desviación de la\ndirectriz",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    219.9,
+    249.1,
+    230.9,
+    259.6
+   ],
+   "tipo": "texto",
+   "texto": "Vh",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    220.9,
+    259.5,
+    230.8,
+    269.9
+   ],
+   "tipo": "texto",
+   "texto": "Vl",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    249.6,
+    243.9,
+    539.9,
+    274.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "0,0035 hl\n0,0035 (∑ hl) 3/(n+2)\n11.3\nLa tolerancia máxima en el piso “n”\ndepende de la altura hl  y del número\nn de pisos",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    78.0,
+    291.6,
+    393.7,
+    312.4
+   ],
+   "tipo": "texto",
+   "texto": "Flecha del pilar entre forjados\nconsecutivos (altura hc)\nf0\n0,015 hl\n11.3",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    78.0,
+    328.8,
+    379.8,
+    350.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Flecha lateral de una viga (luz\nlb)\nf\n0,0015 lb\n≤ 40 mm\n11.4",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    391.1,
+    318.4,
+    539.1,
+    360.7
+   ],
+   "tipo": "texto",
+   "texto": "En el caso de vigas que soporten lo-\nsas prefabricadas de hormigón, la al-\ntura mínima de apoyo debe respe-\ntarse (véase también ∆lb)",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    78.0,
+    366.7,
+    393.7,
+    387.2
+   ],
+   "tipo": "texto",
+   "texto": "Excentricidad no intencionada\ndel apoyo de una viga\ne0\n5 mm\n11.5",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    78.0,
+    393.6,
+    393.7,
+    414.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Distancia entre pilares adya-\ncentes de cualquier sección\n∆ls\n± 15 mm\n11.1",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    78.0,
+    420.5,
+    393.7,
+    441.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Distancia entre vigas adya-\ncentes de cualquier sección\n∆lt\n± 20 mm\n11.2",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    78.0,
+    452.6,
+    192.5,
+    535.1
+   ],
+   "tipo": "texto",
+   "texto": "Vigas y pilares soldados:\n- flecha local del alma entre\nlas alas superior e inferior\n- inclinación del alma entre\nlas alas\n- excentricidad del alma con\nrelación al centro de una de\nlas alas",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    221.2,
+    447.4,
+    229.7,
+    478.6
+   ],
+   "tipo": "texto",
+   "texto": "fw",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    220.2,
+    482.2,
+    230.6,
+    499.3
+   ],
+   "tipo": "texto",
+   "texto": "vw",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    218.5,
+    502.9,
+    232.3,
+    520.0
+   ],
+   "tipo": "texto",
+   "texto": "vwe",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    284.2,
+    457.8,
+    314.3,
+    478.6
+   ],
+   "tipo": "texto",
+   "texto": "hw /150",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    286.7,
+    482.2,
+    311.8,
+    499.3
+   ],
+   "tipo": "texto",
+   "texto": "hw /75",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    249.6,
+    502.9,
+    311.3,
+    530.0
+   ],
+   "tipo": "texto",
+   "texto": "b / 40",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    359.8,
+    488.8,
+    379.8,
+    498.9
+   ],
+   "tipo": "texto",
+   "texto": "11.6",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    391.1,
+    452.6,
+    541.3,
+    535.1
+   ],
+   "tipo": "texto",
+   "texto": "hw= altura del alma\nb= ancho del ala\nEl valor fw se refiere a la deformación\ntotal del alma\nLas deformaciones locales no deben\nsobrepasar fw = 6 mm en 1000 mm\nde longitud",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    72.4,
+    546.8,
+    534.2,
+    567.2
+   ],
+   "tipo": "texto",
+   "texto": "Partes unidas a una viga o un\npilar\ne1\n5 mm en cualquier di-\nrección\n11.7\nEjemplo: cubrejuntas, placas de ba-\nse",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    72.4,
+    573.7,
+    200.5,
+    604.5
+   ],
+   "tipo": "texto",
+   "texto": "Base de un pilar con relación al\neje vertical que pasa por la ca-\nbeza del pilar inferior",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    220.4,
+    573.7,
+    537.7,
+    604.5
+   ],
+   "tipo": "texto",
+   "texto": "e2\n5 mm en cualquier di-\nrección\n11.8\nEn geometrías intencionalmente in-\nclinadas, eje según dirección de pro-\nyecto.",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    72.4,
+    610.9,
+    393.8,
+    631.4
+   ],
+   "tipo": "texto",
+   "texto": "Cubrejuntas adyacentes de\nuna viga\ne1\n5 mm en cualquier di-\nrección\n-",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    72.4,
+    637.8,
+    282.4,
+    658.3
+   ],
+   "tipo": "texto",
+   "texto": "Nivel de las superficies de\napoyo de las vigas\n∆hc\n+ 0 mm",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    281.9,
+    643.0,
+    393.8,
+    658.3
+   ],
+   "tipo": "texto",
+   "texto": "- 10 mm\n11.9",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    72.4,
+    664.7,
+    393.8,
+    685.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Posición de las superficies de\napoyo a los pilares\ne3\n± 5 mm\n11.9",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 35,
+   "bbox": [
+    72.4,
+    691.6,
+    189.9,
+    722.5
+   ],
+   "tipo": "texto",
+   "texto": "Falta de planeidad de placas\nen el caso de superficies de\ncontacto.",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    223.1,
+    696.8,
+    393.8,
+    717.2
+   ],
+   "tipo": "texto",
+   "texto": "-\n1 mm sobre una longi-\ntud de 300 mm\n-",
+   "tamano": 9.1,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    72.4,
+    734.0,
+    379.8,
+    754.5
+   ],
+   "tipo": "texto",
+   "texto": "Flecha de pilares o de vigas\nf\n0,001 hl , o   0,001 lb\n11.3\n11.4",
+   "tamano": 9.1,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

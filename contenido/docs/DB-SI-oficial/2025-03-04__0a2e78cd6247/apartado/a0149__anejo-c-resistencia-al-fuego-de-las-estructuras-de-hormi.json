@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0149",
+  "ruta_oficial": "ANEJO-C",
+  "ruta_semantica": "Fragmento de PDF p56",
+  "titulo": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p56",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p56",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "efb953904e601f03b9c0ed5518763f0ca93cf458e50b25d62b918e423079b42b"
+ },
+ "paginas": [
+  56
+ ],
+ "etiquetas_impresas": [
+  "56"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado\n56\nTabla B.4. Valores de los coeficientes\ni,n\n\nsegún las medidas activas existentes\nDetección automática\n1,n\n\nAlarma automática a bomberos\n2\n,n\n\nExtinción automática\n3\n,n\n\n0,87\n0,87\n0,61\n5\nLos valores de\nc\n pueden obtenerse de la tabla B.5. En el caso de edificios en los que no sea admi-\nsible que puedan quedar fuera de servicio o en los que se pueda haber un número elevado de vícti-\nmas en caso de incendio, como es el caso de los hospitales, los valores indicados deben ser multi-\nplicados por 1,5.\nTabla B.5. Valores de\nc\npor las posibles consecuencias del incendio, según la altura de\nevacuación del edificio\nAltura de evacuación\nc\n\nEdificios con altura de evacuación descendente de más de 28 m o ascendente de más\nde una planta.\n2,0\nEdificios con altura de evacuación descendente entre 15 y 28 m o ascendente hasta 2,8\nm. Aparcamientos bajo otros usos.\n1,5\nEdificios con altura de evacuación descendente de menos 15 m o de uso Aparcamiento\nexclusivo\n1,0",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0056.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0150",
+  "a0151",
+  "a0152"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

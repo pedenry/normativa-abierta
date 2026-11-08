@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0144",
+  "ruta_oficial": "10.2.1.3",
+  "ruta_semantica": "10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas",
+  "titulo": "10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas",
+  "nivel": 1,
+  "parent_id": "a0141",
+  "seccion_estimada": "10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 84,
+   "bbox": [
+    70.9,
+    72.4,
+    396.6,
+    82.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7ca2f756d44371ece34b52ceb90e326144c1bb59cf05d3cb9a8bcf5d6130e051",
+   "literal": "10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0166",
+  "parent_id_original": "a0141",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0141",
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.2  Soportes compuestos / 10.2.1  Soportes compuestos enlazados por separadores o presillas / 10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9a9a2f1248dabe71a979bca2566707c990f169a163aeb0b816fa23c929784863"
+ },
+ "paginas": [
+  84,
+  85
+ ],
+ "etiquetas_impresas": [
+  null,
+  "1"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas\n1\nEl esfuerzo en las piezas de fijación, separadores y presillas, debe deducirse de acuerdo con lo indi-\ncado en la figura 10.4, en función del esfuerzo cortante total en los cordones,Vd ,  obtenido mediante\nlas expresiones siguientes:\nTd=Vd . l1 /a1\nFigura 10.4 Distribución de esfuerzos en cordones, separadores y presillas.\nc\nd\n,c\nd\nk\n120\nF\nV\npara  ef < 30\n(10.35)\nc\nef\nd\n,c\nd\nk\n3600\nF\nV\n\n\npara 30  ef <  60\n(10.36)\nc\nd\n,c\nd\nk\n60\nF\nV\npara 60  ef\n(10.37)\nsiendo:\nFc,d\nvalor de cálculo del esfuerzo axial aplicado;\nef\nesbeltez eficaz obtenida de la ecuación (10.31);\nkc\ncoeficiente de pandeo asociado a la esbeltez mecánica ef, obtenido en el punto b) del apar-\ntado 10.2.1.2.\n2\nDe la Figura 10.4 se establecen los esfuerzos, así como otras consideraciones relativas a esfuerzos\ny deslizamiento de las uniones, a tener en cuenta en el cálculo y dimensionado de cordones, sepa-\nradores y presillas.\na) Esfuerzo cortante en el cordón.\nComo consecuencia del cortante total, cada cordón deberá resistir un esfuerzo cortante per-\npendicular a la fibra, de valor:\nVd /n\n(10.38)\nsiendo:\nVd\nesfuerzo cortante total del soporte según las expresiones (10.35) a (10.37);\nn\nnúmero de cordones del soporte.\nb) Esfuerzos en separadores y presillas.\nCada separador y presilla se calculará para resistir los siguientes esfuerzos:\ni) cortante:\n-\nsoporte de dos cordones;\nT2,s,d = Vd l1/a1\npara cada separador\n(10.39)\nT2,p,d = 0,5.Vd l1/a1\npara cada presilla\n(10.40)\n-\nsoporte de tres cordones;\n\nDocumentoBásico SE-M Madera\nSE-M 79\nT3,s,d = 0,5.Vd l1/a1\npara cada separador\n(10.41)\nT3,p,d = 0,25.Vd l1/a1\npara cada presilla\n(10.42)\n-\nsoporte de cuatro cordones.\nT4,s,e,d = 0,3.Vd l1/a1\npara cada separador extremo\n(10.43)\nT4,s,c,d = 0,4.Vd l1/a1\npara cada separador central\n(10.44)\nT4,p,e,d = 0,15.Vd l1/a1\npara cada presilla extrema\n(10.45)\nT4,p,c,d = 0,2.Vd l1/a\npara cada presilla central\n(10.46)\nii) momento (solamente para presillas):\n-\nsoporte de dos cordones;\nM2,p,d = Td .a1/4\npara cada presilla\n(10.47)\n-\nsoporte de tres cordones;\nM3,p,d = Td .a1/3\npara cada presilla\n(10.48)\n-\nsoporte de cuatro cordones.\nM4,p,d = Td .a1/2,4\npara cada presilla\n(10.49)\nsiendo:\nVd\nesfuerzo cortante total del soporte definido en el punto a);\nTd =\nVd . l1/a1;\nl1\nseparación entre uniones con separadores o presillas (véase figura 10.3);\na1=\na+h;\na y h\nseparación entre cordones y grueso del cordón, respectivamente, (véase\nfigura 10.3).\nc) Esfuerzos en las uniones (cordón-separador o cordón-presilla).\nLa unión (cordón-separador o cordón-presilla), tanto encolada como con elementos mecánicos\nde fijación, deberá resistir los esfuerzos que le correspondan de los determinados anteriormente,\necuaciones (10.38) a (10.49).",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0084.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,121 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0189",
+  "ruta_oficial": "6.3.3.2.3",
+  "ruta_semantica": "6.3.3.2.3 Deslizamiento",
+  "titulo": "6.3.3.2.3 Deslizamiento",
+  "nivel": 1,
+  "parent_id": "a0186",
+  "seccion_estimada": "6.3.3.2.3 Deslizamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 90,
+   "bbox": [
+    70.9,
+    72.4,
+    182.7,
+    82.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9bec680af68766d548b829c8df6a611e88592a2d244cb330ef41cca6135cc008",
+   "literal": "6.3.3.2.3 Deslizamiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0215",
+  "parent_id_original": "a0186",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.2.3 Deslizamiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0186",
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / 6.3.3.2 Estabilidad / 6.3.3.2.3 Deslizamiento",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6f30696b9c12e2c5ff5f9d9c9bae06076d4c9633d440beb6745d91e51ec401db"
+ },
+ "paginas": [
+  90
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.3.3.2.3 Deslizamiento\n1\nEste estado límite debe comprobarse tan sólo en aquellos casos en los que la máxima componente\nde los empujes horizontales sobre el muro sea mayor del 10% de la carga vertical total.\n2\nEn suelos granulares, la seguridad frente al deslizamiento por la base puede determinarse median-\nte la fórmula:\n*\ntg\nN\nT\nR\n\n\n\n(6.16)\nsiendo\nN y T\nlas componentes normal y tangencial de la resultante de las fuerzas de empuje, elemen-\ntos de arriostramiento y peso propio sobre el plano de la base (Figura 6.15).\n'\n3\n2\n*\n\n\n\nsiendo\n(6.17)\n’\nel ángulo de rozamiento interno efectivo del terreno\n3\nCuando el suelo posea cohesión y rozamiento:\nT  (N·tg  + c*·B) / R\n(6.18)\n'\n3\n2\n*\n\n\n\n(6.19)\nsiendo\nc*\nla cohesión reducida del suelo (c* = 0,5 c'K 0,05 MPa)\nB\nel ancho de la base del muro\nc’K\nla cohesión efectiva del terreno\n4\nLos coeficientes de seguridad R se definen en la tabla 2.1.\n5\nNo se tendrá en cuenta el efecto estabilizador del empuje pasivo, salvo justificación especial.\n6\nSi el muro está provisto de zarpa se considerará el deslizamiento según las superficies más proba-\nbles (véase Figura 6.15).\nFigura 6.15. Posibles superficies de deslizamiento en muro con zarpa",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0090.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

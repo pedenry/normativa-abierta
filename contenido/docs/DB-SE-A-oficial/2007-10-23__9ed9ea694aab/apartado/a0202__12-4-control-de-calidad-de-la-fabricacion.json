@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0202",
+  "ruta_oficial": "12.4",
+  "ruta_semantica": "12.4 Control de calidad de la fabricación",
+  "titulo": "12.4 Control de calidad de la fabricación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "12.4 Control de calidad de la fabricación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 135,
+   "bbox": [
+    74.1,
+    477.0,
+    307.0,
+    490.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "dffe2770b37290369f83f2d440a9a4900a2be6301e5875cf573823ecd8d4561c",
+   "literal": "12.4 Control de calidad de la fabricación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0198",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "12.4 Control de calidad de la fabricación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "12 Control de calidad 12.1 Generalidades / 12.4 Control de calidad de la fabricación",
+   "seccion_estimada": "12 Control de calidad 12.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7166e6316d063ac212afe4a2a90893caf0a9ea9ef74f178bf70b4d69be2b0ee6"
+ },
+ "paginas": [
+  135,
+  136
+ ],
+ "etiquetas_impresas": [
+  "135",
+  "136"
+ ],
+ "tipos": [],
+ "texto": "12.4 Control de calidad de la fabricación\n1\nLa calidad de cada proceso de fabricación se define en la documentación de taller y su control tie-\nne por objetivo comprobar su coherencia con la especificada en la documentación general del pro-\nyecto (por ejemplo, que las tolerancias geométricas de cada dimensión respetan las generales, que\nla preparación de cada superficie será adecuada al posterior tratamiento o al rozamiento supuesto,\netc.)\n2\nEl control de calidad de la fabricación tiene por objetivo asegurar que ésta se ajusta a la especifi-\ncada en la documentación de taller.\n12.4.1 Control de calidad de la documentación de taller\n1\nLa documentación de fabricación, elaborada por el taller, deberá ser revisada y aprobada por la di-\nrección facultativa de la obra. Se comprobará que la documentación consta, al menos, los siguien-\ntes documentos:\na)\nUna memoria de fabricación que incluya:\ni)\nel cálculo de las tolerancias de fabricación de cada componente, así como su coheren-\ncia con el sistema general de tolerancias, los procedimientos de corte, de doblado, el\nmovimiento de las piezas, etc.\nii)\nlos procedimiento de soldadura que deban emplearse, preparación de bordes, precalen-\ntamientos requeridos etc.\n\nDocumentoBásico SE-A Acero\nSE-A-134\niii)\nel tratamiento de las superficies, distinguiendo entre aquellas que formarán parte de las\nuniones soldadas, las que constituirán las superficies de contacto en uniones atornilladas\npor rozamiento o las destinadas a recibir algún tratamiento de protección.\nc)\nLos planos de taller para cada elemento de la estructura (viga, tramo de pilar, tramo de cordón\nde celosía, elemento de triangulación, placa de anclaje, etc.) o para cada componente simple\nsi el elemento requiriese varios componentes simples, con toda la información precisa para su\nfabricación y, en particular:\ni)\nEl material de cada componente.\nii)\nLa identificación de perfiles y otros productos.\niii)\nLas dimensiones y sus tolerancias.\niv)\nLos procedimientos de fabricación (tratamientos térmicos, mecanizados, forma de ejecu-\nción de los agujeros y de los acuerdos, etc.) y las herramientas a emplear.\nv)\nLas contraflechas.\nvi)\nEn el caso de uniones atornilladas, los tipos, dimensiones forma de apriete de los torni-\nllos (especificando los parámetros correspondientes).\nvii) En el caso de uniones soldadas, las dimensiones de los cordones, el tipo de preparación,\nel orden de ejecución, etc.\nd)\nUn plan de puntos de inspección donde se indiquen los procedimientos de control interno de\nproducción desarrollados por el fabricante, especificando los elementos a los que se aplica\ncada inspección, el tipo (visual, mediante ensayos no destructivos, etc.) y nivel, los medios de\ninspección, las decisiones derivadas de cada uno de los resultados posibles, etc.\n2\nAsimismo, se comprobará, con especial atención, la compatibilidad entre los distintos procedimien-\ntos de fabricación y entre éstos y los materiales empleados.\n12.4.2 Control de calidad de la fabricación\n1\nEstablecerá los mecanismos necesarios para comprobar que los medios empleados en cada pro-\nceso son los adecuados a la calidad prescrita.\n2\nEn concreto, se comprobará que cada operación se efectúa en el orden y con las herramientas es-\npecificadas (especialmente en el caso de las labores de corte de chapas y perfiles), que el perso-\nnal encargado de cada operación posee la cualificación adecuada (especialmente en el caso de los\nsoldadores), que se mantiene el adecuado sistema de trazado que permita identificar el origen de\ncada incumplimiento, etc.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

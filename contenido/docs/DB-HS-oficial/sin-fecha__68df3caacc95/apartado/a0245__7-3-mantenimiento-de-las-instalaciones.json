@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0245",
+  "ruta_oficial": "7.3",
+  "ruta_semantica": "7.3 Mantenimiento de las instalaciones",
+  "titulo": "7.3 Mantenimiento de las instalaciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.3 Mantenimiento de las instalaciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 104,
+   "bbox": [
+    70.9,
+    406.9,
+    298.3,
+    420.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ad7f1d73e8d39465ce698dcf130c651a48b484bfc675dd0c2873799806b006eb",
+   "literal": "7.3 Mantenimiento de las instalaciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "Real Decreto 865/2003"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.3 Mantenimiento de las instalaciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Mantenimiento y conservación 7.1 Interrupción del servicio / 7.3 Mantenimiento de las instalaciones",
+   "seccion_estimada": "7 Mantenimiento y conservación 7.1 Interrupción del servicio",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "75f321b9ec4c188a06d4339164a73a89220aa3d610543a66ec233f70863547ad"
+ },
+ "paginas": [
+  104,
+  105
+ ],
+ "etiquetas_impresas": [
+  "104",
+  "105"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "7.3 Mantenimiento de las instalaciones\n1\nLas operaciones de mantenimiento relativas a las instalaciones de fontanería recogerán detallada-\nmente las prescripciones contenidas para estas instalaciones en el Real Decreto 865/2003 sobre\ncriterios higiénico-sanitarios para la prevención y control de la legionelosis, y particularmente todo lo\nreferido en su Anexo 3.\n2\nLos equipos que necesiten operaciones periódicas de mantenimiento, tales como elementos de\nmedida, control, protección y maniobra, así como válvulas, compuertas, unidades terminales, que\ndeban quedar ocultos, se situarán en espacios que permitan la accesibilidad.\n3\nSe aconseja situar las tuberías en lugares que permitan la accesibilidad a lo largo de su recorrido\npara facilitar la inspección de las mismas y de sus accesorios.\n4\nEn caso de contabilización del consumo mediante batería de contadores, las montantes hasta cada\nderivación particular se considerará que forman parte de la instalación general, a efectos de con-\nservación y mantenimiento puesto que discurren por zonas comunes del edificio;\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n105",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto 865/2003"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

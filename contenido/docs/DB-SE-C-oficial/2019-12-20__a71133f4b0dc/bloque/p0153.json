@@ -1,0 +1,244 @@
+{
+ "documento": null,
+ "pagina": 153,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-148",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    71.8,
+    541.3,
+    107.8
+   ],
+   "tipo": "texto",
+   "texto": "\nun parámetro variable según el tipo de transmisión de cargas al terreno, =1 para pilotes\nque trabajan principalmente por punta y =0.5 para pilotes flotantes. Para situaciones in-\ntermedias, se adoptará el siguiente valor de :",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    94.3,
+    121.5,
+    112.0,
+    133.0
+   ],
+   "tipo": "texto",
+   "texto": " =",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    114.2,
+    130.8,
+    129.4,
+    142.6
+   ],
+   "tipo": "texto",
+   "texto": "ck\nR",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    120.5,
+    116.6,
+    542.5,
+    134.4
+   ],
+   "tipo": "texto",
+   "texto": "1\n (0,5 Rfk + Rpk)\n(F.45)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    151.2,
+    312.5,
+    190.2
+   ],
+   "tipo": "texto",
+   "texto": "donde\nRpk\nes la carga de hundimiento por punta;\nRfk\nes la carga de hundimiento por fuste.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    201.7,
+    257.7,
+    211.7
+   ],
+   "tipo": "texto",
+   "texto": "F.2.6.2 Consideración del efecto grupo",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    217.2,
+    541.3,
+    290.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn los grupos de pilotes, y debido a la interferencia de las cargas, el asiento de cada pilote puede\nser mayor. Para tenerlo en cuenta, se podrán adoptar las siguientes simplificaciones:\n2\nPara pilotes columna, trabajando por punta en roca, separados más de tres diámetros, el efecto\ngrupo se considera despreciable.\n3\nPara otras situaciones se puede suponer que toda la carga del grupo está uniformemente repartida\nen un plano situado a la profundidad \"z\" bajo la superficie del terreno:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    94.3,
+    296.8,
+    542.5,
+    308.9
+   ],
+   "tipo": "texto",
+   "texto": "z =  · l 2\n(F.46)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.6,
+    315.9,
+    541.3,
+    340.3
+   ],
+   "tipo": "texto",
+   "texto": "con los significados de \"\" y \" l 2\" indicados anteriormente y con unas dimensiones transversales B1\nx L1 dadas por:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    94.3,
+    346.4,
+    542.5,
+    358.4
+   ],
+   "tipo": "texto",
+   "texto": "B1 = Bgrupo + (1 - ) l 2\n(F.47)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    94.3,
+    365.5,
+    542.5,
+    377.5
+   ],
+   "tipo": "texto",
+   "texto": "L1 = Lgrupo + (1 - ) l 2\n(F.48)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    385.9,
+    541.3,
+    433.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo Bgrupo y Lgrupo las dimensiones del grupo, considerando planos exteriores tangentes a los pilo-\ntes externos del grupo.\n4\nEl cálculo del asiento debido a esta carga vertical repartida en profundidad se estimará de acuerdo\ncon los procedimientos generales de cálculo de asientos de cimentaciones superficiales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    455.1,
+    397.2,
+    467.1
+   ],
+   "tipo": "texto",
+   "texto": "F.2.7 Estimación de movimientos horizontales en pilotes",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    478.7,
+    172.1,
+    488.6
+   ],
+   "tipo": "texto",
+   "texto": "F.2.7.1 Pilote aislado",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    494.2,
+    541.3,
+    602.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara el cálculo de los movimientos horizontales del pilote se podrá utilizar la teoría de la “viga elás-\ntica” o del “coeficiente de balasto”.\n2\nAunque las soluciones \"exactas\" de este problema están bien resueltas mediante ábacos y curvas,\nen el presente DB se admitirá como suficientemente preciso utilizar la solución aproximada que se\nesquematiza en la Figura F.8.\n3\nEn la solución aproximada de la Figura F.8 la parte del pilote que queda dentro del terreno queda\nsustituida, a efectos del cálculo de esfuerzos y movimientos al nivel del terreno, por una varilla rígi-\nda de longitud L, sujeta a su base mediante un resorte vertical, otro horizontal y otro de giro, tal co-\nmo se indica en la figura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    175.0,
+    732.1,
+    437.0,
+    752.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura F.8. Barra equivalente para el cálculo de movimientos",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

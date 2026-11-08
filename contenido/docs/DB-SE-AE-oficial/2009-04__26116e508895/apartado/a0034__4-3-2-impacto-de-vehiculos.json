@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0034",
+  "ruta_oficial": "4.3.2",
+  "ruta_semantica": "4.3.2 Impacto de vehículos",
+  "titulo": "4.3.2 Impacto de vehículos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3.2 Impacto de vehículos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 17,
+   "bbox": [
+    70.9,
+    527.8,
+    229.7,
+    541.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0c6401ec3556277a996480c76f00e1bdbf3fd4d4a839f2871906ab6eafe5653d",
+   "literal": "4.3.2 Impacto de vehículos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0033",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.2 Impacto de vehículos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Acciones accidentales 4.1 Sismo / 4.3 Impacto 4.3.1 Generalidades / 4.3.2 Impacto de vehículos",
+   "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8c953e63f2e0936a2774cff9183d7c21ab16c3fd828b4a00fe7b080d8a8b95fa"
+ },
+ "paginas": [
+  17,
+  18
+ ],
+ "etiquetas_impresas": [
+  "17",
+  "18"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.3.2 Impacto de vehículos\n1\nLa acción de impacto de vehículos desde el exterior del edificio, se considerará donde y cuando lo\nestablezca la ordenanza municipal. El impacto desde el interior debe considerarse en todas las zo-\nnas cuyo uso suponga la circulación de vehículos.\n2\nLos valores de cálculo de las fuerzas estáticas equivalentes debidas al impacto de vehículos de\nhasta 30 kN de peso total, son de 50 kN en la dirección paralela la vía y de 25 kN en la dirección\nperpendicular, no actuando simultáneamente.\n3\nLa fuerza equivalente de impacto se considerará actuando en un plano horizontal y se aplicará so-\nbre una superficie rectangular de 0,25 m de altura y una anchura de 1,5 m, o la anchura del elemen-\nto si es menor, y a una altura de 0,6 m por encima del nivel de rodadura, en el caso de elementos\nverticales, o la altura del elemento, si es menor que 1,8 m en los horizontales.\n4\nEn zonas en las que se prevea la circulación de carretillas elevadoras, el valor de cálculo de la fuer-\nza estática equivalente debida a su impacto será igual a cinco veces el peso máximo autorizado de\nla carretilla. Se aplicará sobre una superficie rectangular de 0,4 m de altura y una anchura de 1,5 m,\no la anchura del elemento si es menor, y a una altura dependiente de la forma de la carretilla; en\nausencia de información específica se supondrá una altura de 0,75 m por encima del nivel de roda-\ndura.\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 14\n5\nLas características de la carretilla considerada deberán reflejarse en la memoria del proyecto y en\nlas instrucciones de uso y mantenimiento.\n6\nCuando en las instrucciones de uso y mantenimiento del edificio, se mencione otro tipo de vehícu-\nlos, por ejemplo helicópteros, deberá definirse en el proyecto el valor característico y el modelo em-\npleado para la acción correspondiente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

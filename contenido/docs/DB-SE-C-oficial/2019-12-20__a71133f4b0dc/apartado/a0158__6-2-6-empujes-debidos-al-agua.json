@@ -1,0 +1,121 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0158",
+  "ruta_oficial": "6.2.6",
+  "ruta_semantica": "6.2.6 Empujes debidos al agua",
+  "titulo": "6.2.6 Empujes debidos al agua",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.6 Empujes debidos al agua",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 75,
+   "bbox": [
+    70.9,
+    72.7,
+    253.8,
+    84.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1f606d08caf59c0fd4dd37ad8739c0f0824ec75d04aa7cc1f716647191487220",
+   "literal": "6.2.6 Empujes debidos al agua"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0183",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.6 Empujes debidos al agua",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 6.2.6 Empujes debidos al agua",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a1f315754f838fda476f0865b3f0e4a462f6964e19183da6eff3e7792f5e4776"
+ },
+ "paginas": [
+  75
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.2.6 Empujes debidos al agua\n1\nEn relación con los empujes debidos al agua se considerarán dos casos principales:\na)\nestado hidrostático;\nb)\nagua en circulación.\n2\nSalvo justificación en contra los cálculos se efectuarán por el método de las  presiones efectivas. En\nel caso que exista una capa freática en reposo en el trasdós del elemento de contención, se consi-\nderará el empuje debido al terreno sumergido, total o parcialmente, y el empuje hidrostático del\nagua.\n3\nEn la Figura 6.7 se ilustran los diagramas de presiones del terreno, PS, y del agua, Pw, correspon-\ndientes a diversos ejemplos, con superficie del terreno horizontal.\nFigura 6.7. Empujes con agua en el trasdós y superficie del terreno horizontal\n4\nEn caso de existir agua en circulación, debe determinarse la red de corriente o filtración correspon-\ndiente a las condiciones de contorno, en el elemento de contención y en el terreno. Para ello se\npueden utilizar métodos analíticos, gráficos o analógicos.\n5\nEn estos casos las presiones sobre el elemento de contención se deducirán de la red de corriente,\nal igual que las presiones de agua que actúen sobre las cuñas deslizantes a tantear para obtener la\nsuperficie de deslizamiento crítica.\n6\nPara la determinación de la red de corriente se hará una estimación cuidadosa de la permeabilidad,\nintroduciendo las correcciones oportunas por anisotropía, estratificación, etc. (véase tabla D.28)\n7\nDe acuerdo con las condiciones del emplazamiento del elemento de contención, se estudiarán los\nsiguientes casos:\na)\nfiltración hacia el sistema de drenaje de la capa freática existente en el terreno;\nb)\ninfiltración vertical del agua de lluvia.\n8\nCuando al nivel de la base del elemento de contención no exista un estrato impermeable y sea po-\nsible la filtración bajo el elemento de contención, debe calcularse la fuerza de subpresión corres-\npondiente a partir de la red de filtración.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0075.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

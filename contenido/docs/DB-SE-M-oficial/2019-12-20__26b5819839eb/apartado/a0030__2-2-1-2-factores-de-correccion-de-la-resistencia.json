@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0030",
+  "ruta_oficial": "2.2.1.2",
+  "ruta_semantica": "2.2.1.2  Factores de corrección de la resistencia",
+  "titulo": "2.2.1.2  Factores de corrección de la resistencia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2.1.2  Factores de corrección de la resistencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    70.9,
+    316.9,
+    300.5,
+    326.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9cc006869544e086a3d6929bd3e34ea4ebf9881729314fe271f4a114723877a6",
+   "literal": "2.2.1.2  Factores de corrección de la resistencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0032",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2.1.2  Factores de corrección de la resistencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2  Bases de cálculo 2.1  Generalidades / 2.2  Propiedades de los materiales 2.2.1  Valores característicos de las propiedades de los materiales / 2.2.1.2  Factores de corrección de la resistencia",
+   "seccion_estimada": "2  Bases de cálculo 2.1  Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "385e7cf6f86f18de2de5a42fc92f0a6af1b4c2ef6667d275222da564551f9744"
+ },
+ "paginas": [
+  9,
+  10,
+  11
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2.2.1.2  Factores de corrección de la resistencia\n1\nMadera maciza:\nfactor de altura kh: En piezas de madera aserrada de sección rectangular, si el canto en flexión o la\nmayor dimensión de la sección en tracción paralela es menor que 150 mm, los valores característi-\ncos fm,k y ft,0,k pueden multiplicarse por el factor kh.\n2\n,\n0\nh\n)\nh\n/\n150\n(\nk\n\n 1,3\n(2.1)\nsiendo:\nh canto en flexión o mayor dimensión de la sección en tracción, [mm].\n2\nMadera laminada encolada:\na) factor de altura kh: en piezas de madera laminada encolada de sección rectangular, si el canto en\nflexión o la mayor dimensión de la sección en tracción paralela es menor que 600 mm, los valo-\nres característicos fm,g,k y ft,0,g,k  pueden multiplicarse por el factor kh.\n(2.2)\nsiendo:\nh\ncanto en flexión o mayor dimensión de la sección en tracción, [mm].\nb) factor de volumen kvol: cuando el volumen V de la zona considerada en la comprobación, según\nse define en cada caso, sea mayor que V0 (V0=0,01 m3) y esté sometido a esfuerzos de tracción\nperpendicular a la fibra con tensiones repartidas uniformemente, la resistencia característica a\ntracción perpendicular, ft,90,g,k se multiplicará por el kvol.\n2\n,\n0\n0\nvol\nV\nV\nk\n\n\n\n\n\n\n\n(2.3)\n3\nMadera microlaminada:\na) factor de altura kh: en piezas de madera microlaminada de sección rectangular, si el canto en fle-\nxión es diferente a 300 mm, el valor característico fm,k  puede multiplicarse por el factor kh.\ns\nh\n)\nh\n/\n300\n(\nk\n\n 1,2\n(2.4)\nsiendo:\nh\ncanto en flexión de la sección, [mm];\ns\nfactor que debe definir el fabricante de acuerdo con la norma UNE-EN 14374:2005.\n\nDocumentoBásico SE-M Madera\nSE-M 4\nb) factor de longitud kL: En piezas de madera microlaminada sometidas a tracción paralela si la lon-\ngitud difiere de 3000 mm, el valor característico de la resistencia a tracción paralela, ft,0,k debe\nmultiplicarse por el factor kL.\n2\n/\ns\nL\n)\nL\n/\n3000\n(\nk\n\n 1,1\n(2.5)\nsiendo:\nL\nlongitud de la pieza, [mm];\ns\nfactor que debe definir el fabricante.\n4\nFactor de carga compartida ksys.\nCuando un conjunto de elementos estructurales a flexión similares, dispuestos a intervalos regu-\nlares se encuentre, transversalmente conectado a través de un sistema continuo de distribución\nde carga, las propiedades resistentes características de los elementos del conjunto pueden mul-\ntiplicarse por un factor denominado de carga compartida ksys.\nSiempre que el sistema de distribución de carga sea capaz de transferir las cargas de un ele-\nmento a otros que estén en sus proximidades, puede tomarse un valor de ksys=1,1.\nLa comprobación de resistencia del sistema de distribución de la carga, debe realizarse supo-\nniendo una duración corta de las acciones y con el coeficiente parcial de seguridad del material\nM .\nEn sistemas de cerchas con separación máxima de 1,20 m se puede suponer que los listones,\ncorreas o paneles son eficaces para transmitir la carga siempre que estos sistemas de distribu-\nción sean continuos sobre al menos dos vanos, y las juntas estén contrapeadas.\nPara pisos de losas macizas de madera laminada pueden utilizarse los valores de ksys obtenidos\na través del gráfico de la de la figura 2.1.\nFigura 2.1 Factor ksys para losas macizas de madera laminada.\n5\nEn la tabla 2.1 se incluyen valores particularizados para algunos de los factores de corrección.\nTabla 2.1 Factores de corrección\nFactor\nAplicación\nde altura\nMadera aserrada:  canto (mm)\n40\n70\n100\n150\nFactor kh de corrección de fm,k y ft,0,k\n1,3\n1,2\n1,1\n1,0\nMadera laminada: canto (mm)\n<240\n300\n400\n600\nFactor kh corrector de fm,g,k y ft,0,g,k\n1,10\n1,07\n1,04\n1,00\nde volumen\nMadera laminada : volumen de la zona afectada (m3)\n<0,010\n0,015\n0,020\n0,030\nFactor kvol corrector de ft,90,g,k\n1,00\n0,92\n0,87\n0,80\n\nDocumentoBásico SE-M Madera\nSE-M 5",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0009.png",
+  "../figura/p0010.png",
+  "../figura/p0011.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

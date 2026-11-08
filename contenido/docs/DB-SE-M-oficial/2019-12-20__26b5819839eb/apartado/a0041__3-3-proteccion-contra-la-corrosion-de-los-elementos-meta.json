@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0041",
+  "ruta_oficial": "3.3",
+  "ruta_semantica": "3.3  Protección contra la corrosión de los elementos metálicos",
+  "titulo": "3.3  Protección contra la corrosión de los elementos metálicos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3  Protección contra la corrosión de los elementos metálicos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 17,
+   "bbox": [
+    70.9,
+    530.0,
+    431.1,
+    542.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "fd0d71f25cbe3567124d85c0cd0977bb10c3250813ae4c233109edc5c76a0bdb",
+   "literal": "3.3  Protección contra la corrosión de los elementos metálicos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0046",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3  Protección contra la corrosión de los elementos metálicos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3  Durabilidad 3.1  Introducción / 3.3  Protección contra la corrosión de los elementos metálicos",
+   "seccion_estimada": "3  Durabilidad 3.1  Introducción",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "77d4683a11e487353409f88a960600d7340ec1e9eaab93e6b82d4b5cf2190b6b"
+ },
+ "paginas": [
+  17,
+  18
+ ],
+ "etiquetas_impresas": [
+  "5",
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.3  Protección contra la corrosión de los elementos metálicos\n1\nEn la tabla 3.2 se incluyen los valoresmínimos del espesor del revestimiento de protección frente a\nla corrosión o el tipo de acero necesario según las diferentes clases de servicio.\nTabla 3.2 Protección mínima frente a la corrosión (relativa a la norma ISO 2081), o tipo de acero necesario\nElemento de fijación\nClase de servicio\n1\n2\n3\nClavos y tirafondos con d  4 mm\nNinguna\nFe/Zn 12c (1)\nFe/Zn 25c (2)\nPernos, pasadores y clavos con d > 4 mm\nNinguna\nNinguna\nFe/Zn 25c (2)\nGrapas\nFe/Zn 12c (1)\nFe/Zn 12c (1)\nAcero inoxidable\nPlacas dentadas y chapas de acero con espesor\nde hasta 3 mm\nFe/Zn 12c (1)\nFe/Zn 12c (1)\nAcero inoxidable\nChapas de acero con espesor por encima de 3\nhasta 5 mm\nNinguna\nFe/Zn 12c (1)\nFe/Zn 25c (2)\nChapas de acero con espesor superior a 5 mm\nNinguna\nNinguna\nFe/Zn 25c (2)\n(1)\nSi se emplea galvanizado en caliente la protección Fe/Zn 12c debe sustituirse por Z 275, y la protección Fe/Zn 25c debe\nsustituirse por Z 350.\n(2)\nEn condiciones expuestas especialmente a la corrosión debe considerarse la utilización de Fe/Zn 40c, un galvanizado en\ncaliente más grueso o acero inoxidable\n\nDocumentoBásico SE-M Madera\nSE-M 12",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0017_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

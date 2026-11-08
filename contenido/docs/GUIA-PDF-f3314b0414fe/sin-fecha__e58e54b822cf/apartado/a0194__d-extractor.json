@@ -1,0 +1,61 @@
+{
+ "documento": "GUIA-PDF-f3314b0414fe",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon Fichas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__e58e54b822cf",
+ "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+ "apartado": {
+  "id_tecnico": "a0194",
+  "ruta_oficial": null,
+  "ruta_semantica": "1   arqueta de ladrillo 2   capa de relleno / d) Extractor",
+  "titulo": "d) Extractor",
+  "nivel": 3,
+  "parent_id": "a0193",
+  "seccion_estimada": "1   arqueta de ladrillo 2   capa de relleno"
+ },
+ "paginas": [
+  54,
+  55
+ ],
+ "etiquetas_impresas": [
+  "54",
+  "55"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "d) Extractor\nLa función del extractor es aumentar la potencia de\nextracción con respecto a la que se obtendría de\nforma natural, incrementando así el radio de acción\nde la despresurización y la eficiencia del sistema.\n2\n\n4\nSolución B3 • Despresurización del terreno\nB3\n4\nGeneralmente, un sistema natural de extracción no\nserá capaz de extraer de forma eficiente el radón y,\npor lo tanto, garantizar las concentraciones de radón\nadecuadas.\nEs recomendable que el extractor se disponga en el\nexterior del edificio (Figura 5) para, por un lado, limitar\nel riesgo de entrada de radón en el interior del edificio\nen caso de fugas y por otro, proteger a los usuarios\ndel ruido. En el caso de que se coloque el extractor en\nel interior del edificio, es preferible que se ubique en\nun local no habitable (Figura 6) próximo al exterior de\nforma que la longitud del conducto desde el extractor\nhasta el exterior sea lo más corta posible.\n1   extractor\n1\nFigura 6 - Extractor en local no habitable\nPodrá ser necesario disponer en el conducto una\nderivación o un by-pass en el conducto de extracción\nque permita evacuar el agua de condensación y filtración\nprotegiendo el extractor de posibles averías (Figura 7).\nLos extractores situados en el exterior del edificio serán\nresistentes a la intemperie o se protegerán con algún\nelemento adicional.\nPodría emplearse un medidor de radón electrónico\nconectado al extractor, de forma que lo active cuando\nlas concentraciones de radón superen un nivel deter­\nminado, evitando así su funcionamiento continuo y\nprolongando su vida útil.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0054_t01.json",
+  "../tabla/p0055_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0054.png",
+  "../figura/p0055.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon+Fichas.pdf",
+  "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0193",
+  "nivel": 3,
+  "seccion_estimada": "1   arqueta de ladrillo 2   capa de relleno",
+  "ruta_semantica": "1   arqueta de ladrillo 2   capa de relleno / d) Extractor"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

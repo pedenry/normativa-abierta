@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-23d2f2198c3b",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__6765d0c34c51",
+ "sha256": "6765d0c34c51fbe193c3ed0c1378b710f98f086d16e2b68fc28ed36e143fdaea",
+ "apartado": {
+  "id_tecnico": "a0023",
+  "ruta_oficial": null,
+  "ruta_semantica": "8 \t escalera abierta / Radón procedente de los materiales de construcción",
+  "titulo": "Radón procedente de los materiales de construcción",
+  "nivel": 3,
+  "parent_id": "a0021",
+  "seccion_estimada": "8 \t escalera abierta"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Radón procedente de los materiales de construcción\nde construcción\nEn general, se estima que los materiales de construc­\nción contribuyen a la concentración media de radón en\nel interior de las viviendas con un valor de entre 10 y\n20 Bq/m3 que, si no existieran aportaciones de radón\nprovenientes del terreno, estaría muy alejada del nivel\nde referencia de 300 Bq/m3. Por este motivo, el radón\nprocedente de los materiales de construcción no se\nconsidera en esta Guía.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0009_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0009.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon.pdf",
+  "sha256": "6765d0c34c51fbe193c3ed0c1378b710f98f086d16e2b68fc28ed36e143fdaea",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0021",
+  "nivel": 3,
+  "seccion_estimada": "8 \t escalera abierta",
+  "ruta_semantica": "8 \t escalera abierta / Radón procedente de los materiales de construcción"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

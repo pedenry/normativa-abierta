@@ -1,0 +1,113 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0093",
+  "ruta_oficial": "6.6",
+  "ruta_semantica": "6.6  Piezas con agujeros",
+  "titulo": "6.6  Piezas con agujeros",
+  "nivel": 1,
+  "parent_id": "a0058",
+  "seccion_estimada": "6.6  Piezas con agujeros",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 45,
+   "bbox": [
+    70.9,
+    533.9,
+    213.1,
+    545.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "368c2f38008429eee2c55ed8445cabdb43fc17a80cf7de394cd27c038ec38151",
+   "literal": "6.6  Piezas con agujeros"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0102",
+  "parent_id_original": "a0058",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2",
+   "apartado 6.5.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.6  Piezas con agujeros",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0058",
+   "ruta_semantica": "6  Estados límite últimos / 6.6  Piezas con agujeros",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b852a98dbe35442f82a9c254caa4d618a9a4f59bd4eede36146b2d564d7b7d28"
+ },
+ "paginas": [
+  45,
+  46,
+  47
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.6  Piezas con agujeros\n1\nLa comprobación de la resistencia a cortante de una pieza con agujeros como los indicados en la\nfigura 6.17, y bajo las condiciones siguientes:\nlv  ≥ h\nlz ≥ max (h, 300 mm)\nlA  ≥ h/2\nhru  ≥ 0,25·h\nhrl  ≥ 0,25·h\na  ≤ h\nhd  ≤ 0,4·h\nr  ≥ 15 mm\nse basa en la comprobación una viga equivalente con una entalladura según se ilustra en la figura\n6.18 y utilizando el método de comprobación expuesto en el apartado 6.5.2.\n\nDocumentoBásico SE-M Madera\nSE-M 40\nComo modelo de análisis se considera el usual modelo simplificado para viga Vierendeel, de forma\nque se supone que los momentos locales de los cordones son nulos en el centro de la barra; y ade-\nmás se supone que el cortante de cada cordón es proporcional a su área. De este modo, La sección\nesta sometida a unos cortantes Vu y Vl  respectivamente, definidos por las expresiones siguientes:\nrl\nru\nru\nd\nu\nh\nh\nh\nV\nV\n\n\n\n(6.72)\nrl\nru\nrl\nd\nl\nh\nh\nh\nV\nV\n\n\n\n(6.73)\nsiendo:\nVd cortante total de cálculo en la sección, figura 6.18.\n2\nEl análisis de la estructura deberá ser acorde con el anterior modelo de viga Vierendeel. En los ca-\nsos hiperestáticos el proyectista deberá revisar la corrección de las hipótesis simplificadas adopta-\ndas, ya que en algunos casos los puntos de momentos local nulo de los cordones están muy aleja-\ndos de los puntos intermedios; quedando en todo caso bajo su criterio y reponsabilidad la elección\ndel modelo de análisis.\n3\nEn el caso de 3 de forma circular, de acuerdo con el modelo simplificado expuesto, la comprobación\nde la resistencia a cortante debe realizarse considerando una pendiente de la entalladura de 1:1, fi-\ngura 6.18.\nFigura 6.17 Dimensiones del agujero y distancias.\n4\nEn las piezas en las que no se cumplan las hipótesis de partida del modelo de análisis, o bajo criterio\ndel proyectista, se considerarán los principios generales del Capt. 5.\n5\nBajo las hipótesis expuestas en el apartado 2; no será necesario realizar ninguna comprobación para\nlos agujeros con una dimensión interior, d, menor que -0,1·h.\n6\nFigura 6.18 Las vigas con agujeros situados en el centro de la viga se comprobarán a cortante considerando\nun efecto equivalente como si se tratara de una entalladura en la viga. A la izquierda se representan los agu-\njeros y a la derecha la entalladura equivalente.\n\nDocumentoBásico SE-M Madera\nSE-M 41",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2",
+  "apartado 6.5.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0047_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0045.png",
+  "../figura/p0046.png",
+  "../figura/p0047.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

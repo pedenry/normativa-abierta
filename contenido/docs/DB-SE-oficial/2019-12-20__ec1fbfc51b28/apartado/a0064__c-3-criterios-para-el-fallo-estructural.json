@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0064",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.3 Criterios para el fallo estructural",
+  "titulo": "C.3 Criterios para el fallo estructural",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.3 Criterios para el fallo estructural",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 29,
+   "bbox": [
+    70.9,
+    72.7,
+    281.0,
+    84.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "55b6840e723d1c68c2fb5d4d7c30e4237c45e3683c3c4019c538694f7a818e2e",
+   "literal": "C.3 Criterios para el fallo estructural"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.3 Criterios para el fallo estructural",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.3 Criterios para el fallo estructural",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "906110debaa7b2cb4527d51a04dd2c6e13b0b721a2e705b268f2cfa6ded0e23b"
+ },
+ "paginas": [
+  29,
+  30,
+  31
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  "3"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "C.3 Criterios para el fallo estructural\nC.3.1 Estados límite últimos\n1\nSe supone que el criterio de fallo de una estructura o de un elemento estructural se rige según una\nfunción g(X) de las variables básicas X, de manera que:\na)\nPara el estado deseado\ng(X) > 0\n(C.1a)\nb)\nPara el estado límite\ng(X) = 0\n(C.1b)\nc)\nPara el estado no deseado\ng(X) < 0\n(C.1c)\nFigura C.1 Representación de la función g(X) para el caso con dos variables básicas X1 y X2; X= (X1,\nX2)\n2\nLas variables básicas X pueden depender del tiempo (por ejemplo las acciones ambientales extre-\nmas pueden variar con el tiempo, los materiales constitutivos pueden estar afectados por mecanis-\nmos de deterioro en función del tiempo, la resistencia puede disminuir con el tiempo debido a pro-\ncesos de fatiga).\nEn general, algunas de las variables de X se deben representar mediante procesos estocásticos.\nEn particular, la variabilidad con el tiempo significa que los máximos y mínimos de las variables de\nX no se producen al mismo tiempo.\nLa dependencia del tiempo implica que la probabilidad de fallo está asociada con un periodo de re-\nferencia elegido, t0.\n3\nEl fallo de una estructura o de un elemento estructural se asocia con su transición de un estado\ndeseado a un estado no deseado. Para la mayoría de los estados límite últimos, la probabilidad de\nfallo se puede representar a través de la relación:\nPf = [g(X) < 0]\n(C.2)\nLa probabilidad de que no exista fallo de una estructura o de un elemento estructural (probabilidad\nde supervivencia, Ps, o fiabilidad) es el complemento de la probabilidad de fallo:\nPs = 1 - Pf\n(C.3)\n4\nSi se analiza la fiabilidad de un elemento estructural o de una sección transversal con respecto a un\ndeterminado mecanismo de fallo y una determinada combinación de acciones e influencias, la fun-\nción g(X) se puede describir, normalmente, a través de una expresión única derivada del compor-\ntamiento mecánico. En estos casos, el análisis se puede considerar como un análisis de un elemen-\nto (en este contexto, elemento se emplea desde el punto de vista probabilista de la palabra).\n5\nEn los casos en los que se contemple más de un mecanismo de fallo para un elemento estructural,\no si se estudian simultáneamente varios elementos estructurales, la función g(X) puede considerar-\nse como una función compuesta por varias funciones g1(X), g2(X)... .\n\nDocumento Básico SE Seguridad Estructural\nSE - 24\nUn análisis que tenga en cuenta simultáneamente varias condiciones gi(X) < 0 se denomina análisis\nde un sistema. La definición de la función g(X) depende fuertemente de las características del sis-\ntema (sistemas en los que el fallo de una sección conduce al fallo total; sistemas redundantes; sis-\ntemas con un comportamiento combinado).\nFigura C.2 Dominios de fallo para un ejemplo con dos funciones g1(X1, X2) y g2(X1, X2) con dos varia-\nbles básicas X1 y X2. a) Fallo del sistema producido por el de una sección; b) Fallo de un sistema re-\ndundante\n6\nEn una aplicación directa de los métodos probabilistas explícitos se debe demostrar que en el pe-\nriodo de referencia, t0, la probabilidad de fallo de la estructura o del elemento estructural, Pf, no su-\npera la probabilidad de fallo admisible, Pf,0\n0\n,f\nf\nP\nP\n\n(C.4)\nC.3.2 Estados límite de servicio\n1\nPara algunos estados límite de servicio, la transición de un estado deseado a un estado no desea-\ndo corresponde a un límite que puede estar acotado al estar asociado con una realidad mecánica.\nPara otros estados límite de servicio, sin embargo, esta transición se produce en condiciones poco\nacotadas y difusas. En estos casos, la transición está relacionada con una disminución más o me-\nnos rápida del grado de la aptitud al servicio.\n2\nEn términos generales, se puede definir un grado de la aptitud al servicio, , en función de un pará-\nmetro relacionado con el comportamiento en servicio,  (por ejemplo la deformación de una viga, la\nintensidad de las vibraciones de un forjado)\n0 ≤ () ≤ 1\n(C.5)\nPara el parámetro  se pueden establecer dos límites\na)\n1: la obra se puede usar sin restricciones\nb)\n2: la obra no se puede usar.\nFigura C.3 Grado de la aptitud al servicio, μ, en función del parámetro de servicio, \n\nDocumento Básico SE Seguridad Estructural\nSE - 25\n3\nEn algunos casos, a efectos de una optimización económica, el grado de la aptitud al servicio se\npuede expresar en términos económicos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0029.png",
+  "../figura/p0030.png",
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

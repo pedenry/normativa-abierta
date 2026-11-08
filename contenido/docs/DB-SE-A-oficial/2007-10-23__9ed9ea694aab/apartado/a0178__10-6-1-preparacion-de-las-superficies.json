@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0178",
+  "ruta_oficial": "10.6.1",
+  "ruta_semantica": "10.6.1 Preparación de las superficies",
+  "titulo": "10.6.1 Preparación de las superficies",
+  "nivel": 1,
+  "parent_id": "a0177",
+  "seccion_estimada": "10.6.1 Preparación de las superficies",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 118,
+   "bbox": [
+    74.1,
+    148.3,
+    252.0,
+    159.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "269c37f216106d71c54b3ab03051269adc73bc810f613bfa8e5b9d11650b00e9",
+   "literal": "10.6.1 Preparación de las superficies"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0172",
+  "parent_id_original": "a0177",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN",
+   "UNE-EN-ISO"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.6.1 Preparación de las superficies",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0177",
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.6 Tratamientos de protección / 10.6.1 Preparación de las superficies",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f26a68e2510b8cbba77947593eb60dd552e4a13c415d244539da02ab967c9f16"
+ },
+ "paginas": [
+  118
+ ],
+ "etiquetas_impresas": [
+  "118"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "10.6.1 Preparación de las superficies\n1\nLas superficies se prepararán adecuadamente. Pueden tomarse como referencia las normas UNE-\nEN-ISO 8504-1:2002 e UNE-EN-ISO 8504-2:2002 para limpieza por chorro abrasivo, y UNE-EN-\nISO 8504-3:2002 para limpieza por herramientas mecánicas y manuales.\n2\nSe realizarán ensayos de procedimiento de los procesos por chorreado a lo largo de la producción,\ncon objeto de asegurar su adecuación para el proceso de recubrimiento posterior.\n3\nSe repararán, de acuerdo con esta norma, todos los defectos de superficie detectados en el proce-\nso de preparación.\n4\nLas superficies que esté previsto que vayan a estar en contacto con el hormigón, no deben en ge-\nneral pintarse, sino simplemente limpiarse.\n5\nEl sistema de tratamiento en zonas que lindan una superficie que estará en contacto con el hormi-\ngón, debe extenderse al menos 30 mm de dicha zona.\n6\nSe debe extremar el cuidado y acuerdo con lo especificado en el pliego de condiciones en el caso\nde superficies de rozamiento, siguiendo lo indicado en el punto de ejecución y montaje en taller. En\ncualquier caso estas superficies deben protegerse tras su preparación hasta su armado con cubier-\ntas impermeables.\n7\nNo se utilizarán materiales que perjudiquen la calidad de una soldadura a menos de 150 mm de la\nzona a soldar y tras realizar la soldadura, no se debe pintar sin antes haber eliminado las escorias.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN",
+  "UNE-EN-ISO"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

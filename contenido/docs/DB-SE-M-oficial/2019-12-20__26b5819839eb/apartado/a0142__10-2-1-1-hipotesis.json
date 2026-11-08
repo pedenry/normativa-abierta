@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0142",
+  "ruta_oficial": "10.2.1.1",
+  "ruta_semantica": "10.2.1.1  Hipótesis",
+  "titulo": "10.2.1.1  Hipótesis",
+  "nivel": 1,
+  "parent_id": "a0141",
+  "seccion_estimada": "10.2.1.1  Hipótesis",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 82,
+   "bbox": [
+    70.9,
+    590.0,
+    160.3,
+    600.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "89f1cbbb098587ee02c2572cd4d30b9f4fd8ea5406b96aaa6638c5a9674b5696",
+   "literal": "10.2.1.1  Hipótesis"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0164",
+  "parent_id_original": "a0141",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 10.2.1.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2.1.1  Hipótesis",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0141",
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.2  Soportes compuestos / 10.2.1  Soportes compuestos enlazados por separadores o presillas / 10.2.1.1  Hipótesis",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7bb09c11bd32b3d82b701096b946961b49b84ab7099689b6b4e311a5a1a53e0f"
+ },
+ "paginas": [
+  82,
+  83
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "10.2.1.1  Hipótesis\n1\nSe tendrán en cuenta las hipótesis siguientes (véase figura 10.3):\na) el soporte se encuentra sometido a carga axial concéntrica Fc;\nb) los soportes están biarticulados con una longitud l;\nc) los cordones son de una pieza con la longitud completa del soporte;\nd) la sección transversal se compone de 2, 3 ó 4 cordones iguales;\ne) la sección transversal tiene dos ejes de simetría;\nf)\nel número mínimo de tramos en los que queda dividido el soporte es de 3; es decir los cordones\nse encuentran conectados al menos en los extremos y en los dos puntos intermedios situados a\nlos tercios de la longitud del soporte;\n\nDocumentoBásico SE-M Madera\nSE-M 77\ng) la distancia libre entre cordones, a, no es superior a 3 veces el espesor del cordón, h, en sopor-\ntes con separadores y no superior a 6 veces el espesor del cordón en soportes con presillas;\nh) los esfuerzos de los separadores y presillas se calculan de acuerdo con el apartado 10.2.1.3;\ni)\nla dimensión del separador, l2, cumple la condición siguiente: l2 /a  1,5;\nj)\nla dimensión de la presilla, l2, cumple la condición siguiente: l2 /a  2;\nk) existen como mínimo 4 clavos o 2 pernos con conectores en cada plano de cortante. En uniones\nclavadas existen al menos 4 clavos situados en una fila en cada extremo, en la dirección longitu-\ndinal del soporte.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 10.2.1.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0083_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0082.png",
+  "../figura/p0083.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

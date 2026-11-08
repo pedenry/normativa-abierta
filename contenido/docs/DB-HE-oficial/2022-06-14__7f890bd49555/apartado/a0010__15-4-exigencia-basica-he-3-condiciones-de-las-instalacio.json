@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0010",
+  "ruta_oficial": "15.4",
+  "ruta_semantica": "Fragmento de PDF p3",
+  "titulo": "15.4. Exigencia básica HE 3: Condiciones de las instalaciones de iluminación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p3",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p3",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 Junio 2022 / 15.4. Exigencia básica HE 3: Condiciones de las instalaciones de iluminación",
+   "seccion_estimada": "14 Junio 2022",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e1154598b74dbaf4f38d43adf53b965a6e2b0d9d0fea1a8090894338edbbe6ae"
+ },
+ "paginas": [
+  3,
+  4
+ ],
+ "etiquetas_impresas": [
+  "3",
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "15.4. Exigencia básica HE 3: Condiciones de las instalaciones de iluminación\nLos edificios dispondrán de instalaciones de iluminación adecuadas a las necesidades de sus usuarios y\na la vez eficaces energéticamente, disponiendo de un sistema de control que permita ajustar su\nfuncionamiento a la ocupación real de la zona, así como de un sistema de regulación que optimice el\naprovechamiento de la luz natural en las zonas que reúnan unas determinadas condiciones.\n\nDocumento Básico HE Ahorro de energía\nINTRODUCCIÓN\n4",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": null,
+   "titulo": "VI Términos y definiciones",
+   "archivo_json": "a0018__vi-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png",
+  "../figura/p0004.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

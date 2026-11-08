@@ -1,0 +1,115 @@
+{
+ "indice": 1,
+ "pagina": 35,
+ "etiqueta_impresa": "2",
+ "bbox": [
+  97.2,
+  362.4,
+  542.2,
+  457.8
+ ],
+ "filas": 3,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Variable X\ni",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Factor de sensibilidad \ni",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Resistencia",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "Variable dominante de resistencia\nOtras variables de resistencia",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "0,8\n0,4 · 0,8 = 0,32",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Acciones / influencias",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "Acción / influencia dominante\nOtras variables relativas a acciones /\ninfluencias",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "- 0,7\n- 0,4 · 0,7 = -0,28",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "Variable X\ni",
+  "Factor de sensibilidad \ni"
+ ],
+ "header": {
+  "names": [
+   "",
+   "Variable X\ni",
+   "Factor de sensibilidad \ni"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E330>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96DEB0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96C440>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E900>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E870>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96DD90>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E300>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E1E0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E060>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0035.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

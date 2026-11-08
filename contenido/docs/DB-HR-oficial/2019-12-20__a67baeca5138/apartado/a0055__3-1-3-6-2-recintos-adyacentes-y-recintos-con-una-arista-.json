@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0055",
+  "ruta_oficial": "3.1.3.6.2",
+  "ruta_semantica": "3.1.3.6.2  Recintos adyacentes y recintos con una arista horizontal común",
+  "titulo": "3.1.3.6.2  Recintos adyacentes y recintos con una arista horizontal común",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.3.6.2  Recintos adyacentes y recintos con una arista horizontal común",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    72.1,
+    501.9,
+    425.7,
+    513.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "af552a3211b6375d2d6b556130a16d89998aceba6226c0a2205994e590218012",
+   "literal": "3.1.3.6.2  Recintos adyacentes y recintos con una arista horizontal común"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.3.6.2  Recintos adyacentes y recintos con una arista horizontal común",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos /   / 3.1.3.6.2  Recintos adyacentes y recintos con una arista horizontal común",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4f0b73d866357ee3185f2d5c2141766ca6d96af6c3a507608e9b455c63bb4684"
+ },
+ "paginas": [
+  31
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.1.3.6.2  Recintos adyacentes y recintos con una arista horizontal común\nEn estos casos no existen transmisiones directas. Las expresiones resultantes son inmediatas a la vista\nde las figuras correspondientes y de las relaciones para los distintos caminos de transmisión indirecta\nseñalados en el punto anterior para Ln,w ij:\n\n\n\n\n\n\n\n\n\n=\n\n=\nn\n1\nj\nij,\nw\n,n\nL\n1\n.\n0\nw\n,n\n10\nlg\n10\n'L\n[dB]\n(3.24)\ncon la misma notación que la expresión 3.21.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

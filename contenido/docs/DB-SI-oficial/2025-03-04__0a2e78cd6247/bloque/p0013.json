@@ -1,0 +1,402 @@
+{
+ "documento": null,
+ "pagina": 13,
+ "etiqueta_impresa": "13",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    209.3,
+    35.9,
+    402.4,
+    46.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI Seguridad en caso de Incendio",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    256.2,
+    47.3,
+    355.5,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "SI 1. Propagación interior",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "13",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    84.9,
+    98.3,
+    527.5,
+    109.8
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 1.2 Resistencia al fuego de las paredes, techos y puertas que delimitan sectores de incendio(1) (2)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.4,
+    118.4,
+    463.2,
+    128.5
+   ],
+   "tipo": "texto",
+   "texto": "Elemento\nResistencia al fuego",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.4,
+    136.1,
+    293.8,
+    146.2
+   ],
+   "tipo": "texto",
+   "texto": "Plantas bajo",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    248.7,
+    146.4,
+    283.2,
+    156.5
+   ],
+   "tipo": "texto",
+   "texto": "rasante",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    311.8,
+    136.1,
+    531.6,
+    146.2
+   ],
+   "tipo": "texto",
+   "texto": "Plantas sobre rasante en edificio con altura de eva-",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    403.1,
+    146.4,
+    442.6,
+    156.5
+   ],
+   "tipo": "texto",
+   "texto": "cuación:",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    228.3,
+    164.2,
+    520.3,
+    174.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "h ≤ 15 m\n15 < h ≤ 28 m\nh > 28 m",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.4,
+    182.9,
+    223.8,
+    213.8
+   ],
+   "tipo": "texto",
+   "texto": "Paredes y techos(3) que separan al\nsector considerado del resto del\nedificio, siendo su uso previsto:(4)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    74.4,
+    222.9,
+    515.2,
+    243.4
+   ],
+   "tipo": "texto",
+   "texto": "-\nSector de riesgo mínimo en\nedificio de cualquier uso\n(no se admite)\nEI 120\nEI 120\nEI 120",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.4,
+    252.4,
+    515.2,
+    283.1
+   ],
+   "tipo": "texto",
+   "texto": "-\nResidencial Vivienda, Residen-\ncial Público, Docente, Adminis-\ntrativo\nEI 120\nEI 60\nEI 90\nEI 120",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    74.4,
+    292.3,
+    515.2,
+    312.6
+   ],
+   "tipo": "texto",
+   "texto": "-\nComercial, Pública concurren-\ncia, Hospitalario\nEI 120(5)\nEI 90\nEI 120\nEI 180",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    74.4,
+    321.5,
+    515.2,
+    331.9
+   ],
+   "tipo": "texto",
+   "texto": "-\nAparcamiento(6)\nEI 120(7)\nEI 120\nEI 120\nEI 120",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    74.4,
+    341.2,
+    223.9,
+    361.6
+   ],
+   "tipo": "texto",
+   "texto": "Puertas de paso entre sectores de\nincendio",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    229.5,
+    341.2,
+    534.2,
+    361.7
+   ],
+   "tipo": "texto",
+   "texto": "EI2 t-C5 siendo t la mitad del tiempo de resistencia al fuego requerido a la\npared en la que se encuentre, o bien la cuarta parte cuando el paso se reali-",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    255.4,
+    361.9,
+    510.7,
+    371.9
+   ],
+   "tipo": "texto",
+   "texto": "ce a través de un vestíbulo de independencia y de dos puertas.",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    74.4,
+    380.9,
+    537.5,
+    399.4
+   ],
+   "tipo": "texto",
+   "texto": "(1)\nConsiderando la acción del fuego en el interior del sector, excepto en el caso de los sectores de riesgo mínimo, en los que\núnicamente es preciso considerarla desde el exterior del mismo.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    74.4,
+    402.7,
+    537.5,
+    430.0
+   ],
+   "tipo": "texto",
+   "texto": "Un elemento delimitador de un sector de incendios puede precisar una resistencia al fuego diferente al considerar la acción\ndel fuego por la cara opuesta, según cual sea la función del elemento por dicha cara: compartimentar una zona de riesgo\nespecial, una escalera protegida, etc.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    74.4,
+    433.0,
+    537.4,
+    451.4
+   ],
+   "tipo": "texto",
+   "texto": "(2)\nComo alternativa puede adoptarse el tiempo equivalente de exposición al fuego, determinado conforme a lo establecido en\nel apartado 2 del Anejo SI B.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    74.4,
+    454.4,
+    537.3,
+    509.6
+   ],
+   "tipo": "texto",
+   "texto": "(3)\nCuando el techo separe de una planta superior debe tener al menos la misma resistencia al fuego que se exige a las pare-\ndes, pero con la característica REI en lugar de EI, al tratarse de un elemento portante y compartimentador de incendios. En\ncambio, cuando sea una cubierta no destinada a actividad alguna, ni prevista para ser utilizada en la evacuación, no precisa\ntener una función de compartimentación de incendios, por lo que sólo debe aportar la resistencia al fuego R que le corres-\nponda como elemento estructural, excepto en las franjas a las que hace referencia el capítulo 2 de la Sección SI 2, en las\nque dicha resistencia debe ser REI.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    74.4,
+    512.6,
+    535.5,
+    531.1
+   ],
+   "tipo": "texto",
+   "texto": "(4)\nLa resistencia al fuego del suelo es función del uso al que esté destinada la zona existente en la planta inferior. Véase apar-\ntado 3 de la Sección SI 6 de este DB.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    74.4,
+    533.9,
+    322.3,
+    543.2
+   ],
+   "tipo": "texto",
+   "texto": "(5)\nEI 180 si la altura de evacuación del edificio es mayor que 28 m.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    74.4,
+    546.2,
+    537.3,
+    564.7
+   ],
+   "tipo": "texto",
+   "texto": "(6)\nResistencia al fuego exigible a las paredes que separan al aparcamiento de zonas de otro uso. En relación con el forjado de\nseparación, ver nota (3).",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    74.4,
+    567.6,
+    239.2,
+    576.8
+   ],
+   "tipo": "texto",
+   "texto": "(7)\nEI 180 si es un aparcamiento robotizado.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    70.9,
+    604.6,
+    343.0,
+    620.2
+   ],
+   "tipo": "titulo",
+   "texto": "2\nLocales y zonas de riesgo especial",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 27,
+   "bbox": [
+    70.9,
+    628.8,
+    541.4,
+    662.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nLos locales y zonas de riesgo especial integrados en los edificios se clasifican conforme los grados\nde riesgo alto, medio y bajo según los criterios que se establecen en la tabla 2.1. Los locales y las\nzonas así clasificados deben cumplir las condiciones que se establecen en la tabla 2.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    70.9,
+    669.3,
+    541.4,
+    737.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos locales destinados a albergar instalaciones y equipos regulados por reglamentos específicos,\ntales como transformadores, maquinaria de aparatos elevadores, calderas, depósitos de combusti-\nble, contadores de gas o electricidad, etc. se rigen, además, por las condiciones que se establecen\nen dichos reglamentos.  Las condiciones de ventilación de los locales y de los equipos exigidas por\ndicha reglamentación deberán solucionarse de forma compatible con las de compartimentación esta-\nblecidas en este DB.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    88.8,
+    744.3,
+    541.2,
+    767.0
+   ],
+   "tipo": "texto",
+   "texto": "A los efectos de este DB se excluyen los equipos situados en las cubiertas de los edificios, aunque\nestén protegidos mediante elementos de cobertura.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

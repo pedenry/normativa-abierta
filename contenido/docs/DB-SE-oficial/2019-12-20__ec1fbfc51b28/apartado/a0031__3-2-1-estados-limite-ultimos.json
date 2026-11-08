@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0031",
+  "ruta_oficial": "3.2.1",
+  "ruta_semantica": "3.2.1 Estados límite últimos",
+  "titulo": "3.2.1 Estados límite últimos",
+  "nivel": 1,
+  "parent_id": "a0030",
+  "seccion_estimada": "3.2.1 Estados límite últimos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    70.9,
+    482.5,
+    204.9,
+    492.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f240b9a2b3bfd857230a253d81c796e0f76f77d9a20c9b68fa9164edc087a634",
+   "literal": "3.2.1 Estados límite últimos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0028",
+  "parent_id_original": "a0030",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2.1 Estados límite últimos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0030",
+   "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.2 Estados límite / 3.2.1 Estados límite últimos",
+   "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "909aae7c26380790b4a1892b10e6e4342b5b45d426e1a47574026c2de5fdafc4"
+ },
+ "paginas": [
+  11
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "3.2.1 Estados límite últimos\n1\nLos estados límite últimos son los que, de ser superados, constituyen un riesgo para las personas,\nya sea porque producen una puesta fuera de servicio del edificio o el colapso total o parcial del\nmismo.\n2\nComo estados límite últimos deben considerarse los debidos a:\na)\npérdida del equilibrio del edificio, o de una parte estructuralmente independiente, considerado\ncomo un cuerpo rígido;\nb)\nfallo por deformación excesiva, transformación de la estructura o de parte de ella en un meca-\nnismo, rotura de sus elementos estructurales (incluidos los apoyos y la cimentación) o de sus\nuniones, o inestabilidad de elementos estructurales incluyendo los originados por efectos de-\npendientes del tiempo (corrosión, fatiga).",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

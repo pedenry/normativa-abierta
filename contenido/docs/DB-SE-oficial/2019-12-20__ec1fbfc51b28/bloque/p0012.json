@@ -1,0 +1,154 @@
+{
+ "documento": null,
+ "pagina": 12,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    293.6,
+    797.9,
+    318.1,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE - 6",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    72.5,
+    541.3,
+    119.9
+   ],
+   "tipo": "texto",
+   "texto": "b)\nlas vibraciones que causen una falta de confort de las personas, o que afecten a la funcionali-\ndad de la obra;\nc)\nlos daños o el deterioro que pueden afectar desfavorablemente a la apariencia, a la durabilidad\no a la funcionalidad de la obra.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    135.7,
+    195.0,
+    147.7
+   ],
+   "tipo": "titulo",
+   "texto": "3.3 Variables básicas",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    159.1,
+    167.7,
+    169.1
+   ],
+   "tipo": "texto",
+   "texto": "3.3.1 Generalidades",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    175.8,
+    541.3,
+    246.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl análisis estructural se realiza mediante modelos en los que intervienen las denominadas varia-\nbles básicas, que representan cantidades físicas que caracterizan las acciones, influencias ambien-\ntales, propiedades de materiales y del terreno, datos geométricos, etc. Si la incertidumbre asociada\ncon una variable básica es importante, se considerará como variable aleatoria.\n2\nCuando se realice una verificación mediante métodos de análisis de la fiabilidad según el Anejo C\npuede emplearse directamente la representación probabilista de las variables.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    257.6,
+    143.2,
+    267.6
+   ],
+   "tipo": "texto",
+   "texto": "3.3.2 Acciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    279.1,
+    245.4,
+    289.1
+   ],
+   "tipo": "texto",
+   "texto": "3.3.2.1 Clasificación de las acciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    295.8,
+    541.3,
+    539.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas acciones a considerar en el cálculo se clasifican por su variación en el tiempo en:\na)\nacciones permanentes (G): Son aquellas que actúan en todo instante sobre el edificio con po-\nsición constante. Su magnitud puede ser constante (como el peso propio de los elementos\nconstructivos o las acciones y empujes del terreno) o no (como las acciones reológicas o el\npretensado), pero con variación despreciable o tendiendo monótonamente hasta un valor lími-\nte.\nb)\nacciones variables (Q): Son aquellas que pueden actuar o no sobre el edificio, como las debi-\ndas al uso o las acciones climáticas.\nc)\nacciones accidentales (A): Son aquellas cuya probabilidad de ocurrencia es pequeña pero de\ngran importancia, como sismo, incendio, impacto o explosión.\nLas deformaciones impuestas (asientos, retracción, etc.) se considerarán como acciones perma-\nnentes o variables, atendiendo a su variabilidad.\n2\nLas acciones también se clasifican por:\na)\nsu naturaleza: en directas o indirectas;\nb)\nsu variación espacial: en fijas o libres;\nc)\nla respuesta estructural: en estáticas o dinámicas.\n3\nLa magnitud de la acción se describe por diversos valores representativos, dependiendo de las\ndemás acciones que se deban considerar simultáneas con ella, tales como valor característico, de\ncombinación, frecuente y casi permanente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    551.0,
+    199.9,
+    561.0
+   ],
+   "tipo": "texto",
+   "texto": "3.3.2.2 Valor característico",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    567.7,
+    541.3,
+    762.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor característico de una acción, Fk, se define, según el caso, por su valor medio, por un fractil\nsuperior o inferior, o por un valor nominal.\n2\nComo valor característico de las acciones permanentes, Gk, se adopta, normalmente, su valor me-\ndio. En los casos en los que la variabilidad de una acción permanente pueda ser importante (con un\ncoeficiente de variación superior entre 0,05 y 0,1, dependiendo de las características de la estructu-\nra), o cuando la respuesta estructural sea muy sensible a la variación de de la misma, se considera-\nrán dos valores característicos: un valor característico superior, correspondiente al fractil del 95% y\nun valor característico inferior, correspondiente al fractil 5%, suponiendo una distribución estadística\nnormal.\n3\nPara la acción permanente debida al pretensado, P, se podrá definir, en cada instante t, un valor\ncaracterístico superior, Pk,sup(t), y un valor característico inferior, Pk,inf(t). En algunos casos, el pre-\ntensado también se podrá representar por su valor medio, Pm(t).\n4\nComo valor característico de las acciones variables, Qk, se adopta, normalmente, alguno de los\nsiguientes valores:\na)\nun valor superior o inferior con una determinada probabilidad de no ser superado en un perio-\ndo de referencia específico;",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

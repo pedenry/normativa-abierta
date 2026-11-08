@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0150",
+  "ruta_oficial": "6.1.1.2",
+  "ruta_semantica": "6.1.1.2 Pantallas de pilotes",
+  "titulo": "6.1.1.2 Pantallas de pilotes",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.1.1.2 Pantallas de pilotes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 65,
+   "bbox": [
+    70.9,
+    467.2,
+    202.5,
+    477.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "98cdd521b3bba1176a1622088f7da89049698e81d81aa6e81a5b977436665eec",
+   "literal": "6.1.1.2 Pantallas de pilotes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0174",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.1.1.2 Pantallas de pilotes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Definiciones y tipologías 6.1.1 Pantallas / 6.1.1.2 Pantallas de pilotes",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "20c5484c7bf0f216953d00c5cc73429f7a96debfc28da4d90532b268dd006117"
+ },
+ "paginas": [
+  65
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.1.1.2 Pantallas de pilotes\n1\nComúnmente las pantallas de pilotes se efectúan mediante pilotes perforados, aunque en determi-\nnadas ocasiones podrían ejecutarse con pilotes prefabricados hincados.\n2\nSi no hay necesidad de que la pantalla sea estanca, los pilotes podrán disponerse con una cierta\nseparación entre ellos, con separaciones entre ejes inferiores al doble del diámetro de los pilotes,\nsalvo justificación en contra.\n3\nEn la estabilidad del terreno entre pilotes separados se podrá tener en cuenta el efecto de arco. La\nseparación entre pilotes se determinará en función de la naturaleza del terreno, de los esfuerzos a\nresistir y de la capacidad de flexión de los pilotes.\n4\nCuando la excavación haya de permanecer abierta mucho tiempo, y sobre todo, si el terreno es\nmeteorizable y pierde rápidamente sus características resistentes en contacto con el aire, debe pro-\ntegerse la banda de terreno que queda vista entre pilotes por medio de hormigón proyectado.\n5\nCuando haya que excavar bajo el nivel freático será necesario que los pilotes sean secantes entre\nsí, por lo que la pantalla deberá efectuarse mediante pilotes perforados o aplicar otras técnicas de\ntratamiento del terreno entre pilotes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0065_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0065.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

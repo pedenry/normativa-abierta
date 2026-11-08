@@ -1,0 +1,225 @@
+{
+ "documento": null,
+ "pagina": 9,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.6,
+    797.9,
+    320.1,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-4",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    538.6,
+    84.7
+   ],
+   "tipo": "titulo",
+   "texto": "2.3.4 Parámetros de los materiales de construcción utilizados en la cimentación",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    89.3,
+    541.3,
+    122.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas características de los materiales utilizados en la construcción de la cimentación deben repre-\nsentarse mediante sus valores característicos, que se determinarán de acuerdo con el apartado\n3.3.4 del DB-SE.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    144.0,
+    217.7,
+    156.0
+   ],
+   "tipo": "titulo",
+   "texto": "2.3.5 Datos geométricos",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    160.7,
+    541.3,
+    306.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nA la hora de definir la configuración geométrica para cada tipo de cimentación se tendrán en cuenta\nlas consideraciones que se hacen en los capítulos correspondientes de este DB dedicando especial\natención a la cota y pendiente de la superficie del terreno, los niveles de excavación y la definición\nde los niveles piezométricos del agua del terreno en cada una de las situaciones de dimensionado a\nlas que sus posibles variaciones puedan dar lugar.\n2\nLos valores de cálculo de la dimensiones geométricas de la cimentación coincidirán con sus valores\nnominales reflejados en los planos de ejecución.\n3\nEn los casos en que las posibles desviaciones de una dimensión geométrica de su valor nominal\npuedan tener una influencia significativa en el comportamiento de la cimentación, el valor de cálculo\nde esta dimensión quedará definido por el que sea más desfavorable, resultante de sumar o restar\nla desviación al valor nominal de la dimensión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    320.1,
+    532.2,
+    350.1
+   ],
+   "tipo": "titulo",
+   "texto": "2.4\nVerificaciones basadas en el formato de los coeficientes parcia-\nles",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    372.0,
+    192.3,
+    384.0
+   ],
+   "tipo": "titulo",
+   "texto": "2.4.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    388.6,
+    541.3,
+    568.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa utilización del formato de los coeficientes parciales implica la verificación de que, para las situa-\nciones de dimensionado de la cimentación, no se supere ninguno de los estados límite pertinentes,\nal introducir en los modelos correspondientes, los valores de cálculo para las distintas variables que\ndescriben los efectos de las acciones sobre la cimentación y la resistencia del terreno.\n2\nLos valores de cálculo de las variables descritas en el párrafo anterior se obtienen a partir de sus\nvalores representativos y característicos respectivamente, multiplicándolos o dividiéndolos por los\ncorrespondientes coeficientes parciales.\n3\nEl dimensionado de la cimentación como elemento que ejerce presiones sobre el terreno se realiza-\nrá exclusivamente con el formato de acciones y coeficientes de seguridad indicados, a tal efecto, en\neste DB.\n4\nLa comprobación de la capacidad estructural de la cimentación, como elemento estructural a di-\nmensionar, puede realizarse con el formato general de acciones y coeficientes de seguridad inclui-\ndos en el DB-SE, y en el resto de Documentos Básicos relativos a la seguridad estructural de los di-\nferentes materiales o la instrucción EHE, o utilizando el formato de acciones y coeficientes de segu-\nridad incluidos a tal efecto en este DB.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    590.3,
+    237.1,
+    602.3
+   ],
+   "tipo": "titulo",
+   "texto": "2.4.2 Estados límite últimos",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    613.8,
+    226.9,
+    623.8
+   ],
+   "tipo": "texto",
+   "texto": "2.4.2.1 Verificaciones a efectuar",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    629.3,
+    538.6,
+    665.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara las diferentes situaciones de dimensionado se deben verificar los estados límite últimos co-\nrrespondientes, según se indica en el apartado 2.2.1.2.\n2\nEn todas estas verificaciones se utilizarán los valores de cálculo de las variables involucradas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    676.8,
+    247.5,
+    686.8
+   ],
+   "tipo": "texto",
+   "texto": "2.4.2.2 Verificación de la Estabilidad",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    692.3,
+    541.3,
+    713.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl equilibrio de la cimentación (estabilidad al vuelco o estabilidad frente a la subpresión) quedará\nverificado, si para las situaciones de dimensionado pertinentes se cumple la condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    85.3,
+    720.7,
+    542.5,
+    732.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed,dst  Ed,stb\n(2.1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    88.9,
+    739.6,
+    430.8,
+    764.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "siendo\n  Ed,dst\nel valor de cálculo del efecto de las acciones desestabilizadoras;",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

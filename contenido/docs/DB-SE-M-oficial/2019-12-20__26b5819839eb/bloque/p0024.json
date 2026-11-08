@@ -1,0 +1,336 @@
+{
+ "documento": null,
+ "pagina": 24,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 18",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    207.7,
+    84.7
+   ],
+   "tipo": "titulo",
+   "texto": "5.3  Sistemas de barras",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    101.0,
+    199.3,
+    111.0
+   ],
+   "tipo": "texto",
+   "texto": "5.3.1  Principios generales",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    120.7,
+    541.3,
+    153.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn las estructuras habituales de edificación formadas por barras (elementos en donde una dimen-\nsión predomina sobre las otras dos), sean soportes, vigas o estructuras trianguladas se consideran,\npara los tipos descritos en el código, los siguientes modelos:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    161.3,
+    241.9,
+    171.2
+   ],
+   "tipo": "texto",
+   "texto": "a) comportamiento de las barras",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    106.9,
+    178.8,
+    541.3,
+    223.2
+   ],
+   "tipo": "texto",
+   "texto": "i)\nanálisis en primer orden, considerando que la madera es un material homogéneo e isótropo,\ntomando como parámetro básico del material el módulo de deformación, E, longitudinal (se-\ngún la dirección de la fibra). La verificación de la estabilidad se realiza a través del método\nde la longitud de pandeo equivalente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    106.9,
+    230.7,
+    541.3,
+    240.7
+   ],
+   "tipo": "texto",
+   "texto": "ii) análisis en primer orden similar al anterior salvo en la verificación de la estabilidad, que se",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    124.8,
+    242.3,
+    366.6,
+    252.2
+   ],
+   "tipo": "texto",
+   "texto": "realiza mediante un análisis global en segundo orden.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    88.8,
+    259.8,
+    196.4,
+    269.7
+   ],
+   "tipo": "texto",
+   "texto": "b) uniones en cerchas",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    106.9,
+    277.2,
+    541.3,
+    310.2
+   ],
+   "tipo": "texto",
+   "texto": "i)\npara cerchas usuales, con luces no mayores de 20m, no será necesario considerar la defor-\nmación local en la unión siempre que la relación entre la luz y el canto máximo de la cercha\nno sea mayor que 10.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    106.9,
+    317.7,
+    541.3,
+    327.7
+   ],
+   "tipo": "texto",
+   "texto": "ii) para el resto de casos se considerará una deformación local de la unión de tipo lineal de",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    124.8,
+    329.3,
+    541.3,
+    396.7
+   ],
+   "tipo": "texto",
+   "texto": "acuerdo con los datos de Kser descritos en el apartado 7.1. Según se describe en ese apar-\ntado, el valor de Kser de las tablas se usará en las comprobaciones de los estados límite de\nservicio, mientras que para las comprobaciones de los estados límite ultimos se considerará\nun valor de 2/3 del anterior. Para modelizar este efecto se pueden añadir barras ficticias en\nlas uniones que tengan la misma ridigez que la unión o bién trabajar con una rigidez equiva-\nlente de la barra de modo que su rigidez sea la de la barra original más las uniones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    106.6,
+    404.3,
+    538.5,
+    425.6
+   ],
+   "tipo": "texto",
+   "texto": "En cualquier caso se podrán usar modelos más complejos basados en ensayos o en los princi-\npios generales",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    88.8,
+    433.2,
+    363.2,
+    443.1
+   ],
+   "tipo": "texto",
+   "texto": "c) uniones de apoyo y empalme de estructuras adinteladas:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    106.9,
+    450.7,
+    538.6,
+    472.2
+   ],
+   "tipo": "texto",
+   "texto": "i)\nen el caso de uniones articuladas se considerará que en la unión no hay deslizamiento al-\nguno:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    106.9,
+    479.7,
+    541.3,
+    489.7
+   ],
+   "tipo": "texto",
+   "texto": "ii) en el caso de uniones en las que se pretenda conseguir un empotramiento se considerará el",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    124.8,
+    491.3,
+    541.3,
+    524.1
+   ],
+   "tipo": "texto",
+   "texto": "ridigez eficaz de la unión en función del deslizamiento de las uniones. La mayoría de las\nuniones rígidas con clavijas son a lo sumo semiempotramientos, y en muchos casos llegan a\ncomportarse casi como articulaciones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    538.6,
+    219.4,
+    548.5
+   ],
+   "tipo": "texto",
+   "texto": "5.3.2  Estructuras trianguladas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    558.2,
+    541.3,
+    602.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn el análisis de estructuras trianguladas, líneas que representan las barras del sistema son aquellas\nque unen los centros de gravedad de las secciones. En caso de utilizar, como línea de referencia de\nla barra, una distinta a la anterior, se tendrá en cuenta en dicho análisis los efectos de la excentrici-\ndad respecto a dicha línea.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    610.2,
+    541.3,
+    643.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos empalmes realizados en las barras de piezas de celosía pueden ser considerados como rígidos\nsi su rotación real, debida a las acciones, no tiene efectos significativos sobre las leyes de distribu-\nción de esfuerzos. Este requisito se cumple si se verifican las siguientes condiciones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    88.8,
+    650.7,
+    541.3,
+    660.7
+   ],
+   "tipo": "texto",
+   "texto": "a) el empalme tiene una capacidad de carga que corresponde, al menos, a 1,5 veces la hipótesis",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    106.9,
+    662.1,
+    191.4,
+    672.1
+   ],
+   "tipo": "texto",
+   "texto": "más desfavorable;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    88.8,
+    679.7,
+    538.5,
+    689.6
+   ],
+   "tipo": "texto",
+   "texto": "b) el empalme tiene una capacidad portante que corresponde, al menos, a la combinación de fuer-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    106.9,
+    691.2,
+    541.3,
+    724.2
+   ],
+   "tipo": "texto",
+   "texto": "zas y momentos aplicados, siempre que las barras de madera no estén sometidas a tensiones\nde flexión superiores a 0,3 veces su resistencia de cálculo a flexión. Además, si se considera el\nempalme como una articulación, el conjunto debe ser estable.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0171",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.4 Relación de especies arbóreas",
+  "titulo": "C.4 Relación de especies arbóreas",
+  "nivel": 1,
+  "parent_id": "a0167",
+  "seccion_estimada": "C.4 Relación de especies arbóreas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 112,
+   "bbox": [
+    70.9,
+    336.7,
+    271.7,
+    348.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c18de027f74190909945711bbd03e7a8108cecd60715bab1723a52f673116075",
+   "literal": "C.4 Relación de especies arbóreas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0167",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.4 Relación de especies arbóreas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0167",
+   "ruta_semantica": "Anejo C. Asignación de clase resistente. Madera aserrada. / C.4 Relación de especies arbóreas",
+   "seccion_estimada": "Anejo C. Asignación de clase resistente. Madera aserrada.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cd6425205cb31a42aa69f9b18dc197574a60092330b5a9977ed621a4b246c99d"
+ },
+ "paginas": [
+  112,
+  113
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "C.4 Relación de especies arbóreas\n1\nEn la tabla C.3 se incluye la relación de las especies arbóreas, citadas en la Tabla C.1, indicando el\nnombre botánico, y su procedencia.\n2\nOtras denominaciones posibles de la especie arbórea, locales o comerciales, se identificarán por su\nnombre botánico.\nTabla C.3. Especies arbóreas, citadas en la Tabla C.1.\nEspecie arbórea\nNombre botánico\nProcedencia\nAbeto\nAbies alba. Mill.\nAustria\nEuropa:C,N,E y NE\nFrancia\nHolanda\nReino Unido\nChopo\nPopulus sp.\nEspaña\nFalso abeto\nPicea abies Karst.\nFrancia\nEuropa:C,N,E y NE\nIroko\nMilicia excelsa y regia\nAfrica\nJarrah\nEucaliptus marginata sm.\nAustralia\nPino insignis\nPinus radiata D. Don.\nEspaña\nPino laricio\nPinus nigra Arnold.\nEspaña\nPino Oregón\nPseudotsuga menziessii Fr.\nCanadá\nEE.UU\nFrancia\nPino pinaster\nPinus pinaster Ait.\nEspaña\nFrancia\nPino silvestre\nPinus sylvestris L.\nAustria\nEspaña\nEuropa:C,N,E y NE\nHolanda\nReino Unido\nTeca\nTectona grandis L.\nAfrica\nAsia SE\n\nDocumentoBásico SE-M Madera\nSE-M 107",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0112_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0112.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

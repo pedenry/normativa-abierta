@@ -1,0 +1,115 @@
+{
+ "documento": null,
+ "pagina": 43,
+ "etiqueta_impresa": "43",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    210.5,
+    36.2,
+    401.2,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-AE Acciones en la edificación",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.0,
+    795.0,
+    324.9,
+    806.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-AE 39",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    69.3,
+    209.4,
+    89.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla D.12 Cubiertas cilíndricas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    472.7,
+    418.2,
+    491.1
+   ],
+   "tipo": "texto",
+   "texto": "Notas:",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    93.6,
+    494.4,
+    541.1,
+    505.7
+   ],
+   "tipo": "texto",
+   "texto": "- Para 0 < g/d < 0,5, el coeficiente de presión exterior, cpe,10, correspondiente a la superficie A, se obtendrá",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    105.0,
+    504.7,
+    224.3,
+    515.9
+   ],
+   "tipo": "texto",
+   "texto": "mediante interpolación lineal.",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    522.0,
+    541.1,
+    533.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Para 0,2 ≤ f/d ≤ 0,3 y g/d ≥ 0,5, se adoptará el más desfavorable de los dos posibles valores del coeficiente",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    105.0,
+    533.3,
+    328.7,
+    543.7
+   ],
+   "tipo": "texto",
+   "texto": "de presión exterior, cpe,10,  correspondiente a la zona A.",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

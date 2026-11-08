@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0098",
+  "ruta_oficial": "3",
+  "ruta_semantica": "Sección SUA 7  Seguridad frente al riesgo causado por vehículos en movimiento / 3 Protección de recorridos peatonales",
+  "titulo": "3 Protección de recorridos peatonales",
+  "nivel": 2,
+  "parent_id": "a0093",
+  "seccion_estimada": "Sección SUA 7  Seguridad frente al riesgo causado por vehículos en movimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 27,
+   "bbox": [
+    70.9,
+    456.6,
+    353.1,
+    472.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "861ab1ae5d96c84a66568f265e9f8b967d47df1cda5d4f4433b149db59a1845f",
+   "literal": "3 Protección de recorridos peatonales"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0064",
+  "parent_id_original": "a0093",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 3.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Protección de recorridos peatonales",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0093",
+   "ruta_semantica": "Sección SUA 7  Seguridad frente al riesgo causado por vehículos en movimiento / 3 Protección de recorridos peatonales",
+   "seccion_estimada": "Sección SUA 7  Seguridad frente al riesgo causado por vehículos en movimiento",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "798c360425e3f690ecd74d338a167ad21eaa03aac0577c419ba956021816361a"
+ },
+ "paginas": [
+  27
+ ],
+ "etiquetas_impresas": [
+  "27"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Protección de recorridos peatonales\n1\nEn plantas de Aparcamiento con capacidad mayor que 200 vehículos o con superficie mayor que\n5000 m2, los itinerarios peatonales de zonas de uso público se identificarán mediante pavimento dife-\nrenciado con pinturas o relieve, o bien dotando a dichas zonas de un nivel más elevado. Cuando di-\ncho desnivel exceda de 55 cm, se protegerá conforme a lo que se establece en el apartado 3.2 de la\nsección SUA 1.\n2\nFrente a las puertas que comunican los aparcamientos a los que hace referencia el punto 1 anterior\ncon otras zonas, dichos itinerarios se protegerán mediante la disposición de barreras situadas a una\ndistancia de las puertas de 1,20 m, como mínimo, y con una altura de 80 cm, como mínimo.\n4",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

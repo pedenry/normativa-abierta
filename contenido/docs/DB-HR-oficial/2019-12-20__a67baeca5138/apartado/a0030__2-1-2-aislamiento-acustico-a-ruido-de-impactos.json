@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0030",
+  "ruta_oficial": "2.1.2",
+  "ruta_semantica": "2.1.2  Aislamiento acústico a ruido de impactos",
+  "titulo": "2.1.2  Aislamiento acústico a ruido de impactos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.1.2  Aislamiento acústico a ruido de impactos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    70.9,
+    243.4,
+    298.9,
+    254.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "886eab7439becabddc8727529b239f6254b50968e367b7430c27dd5d7c0aae91",
+   "literal": "2.1.2  Aislamiento acústico a ruido de impactos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.1.2  Aislamiento acústico a ruido de impactos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2    Caracterización y cuantificación de las exigencias / 2.1  Valores límite de aislamiento 2.1.1  Aislamiento acústico a ruido aéreo / 2.1.2  Aislamiento acústico a ruido de impactos",
+   "seccion_estimada": "2    Caracterización y cuantificación de las exigencias",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d5c0d25c1098d022214fbf4794929062c8aba5fd90b6c2252a9a1e71e8b5a55d"
+ },
+ "paginas": [
+  10
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "2.1.2  Aislamiento acústico a ruido de impactos\nLos elementos constructivos de separación horizontales deben tener, en conjunción con los elementos\nconstructivos adyacentes, unas características tales que se cumpla:\na)\nEn los recintos protegidos:\ni)\nProtección frente al ruido procedente generado en recintos no pertenecientes a la misma\nunidad de uso:\nEl nivel global de presión deruido de impactos, L’nT,w, en un recinto protegido colindante\nvertical, horizontalmente o que tenga una arista horizontal común con cualquier otro re-\ncinto habitable o protegido del edificio, no perteneciente a la misma unidad de uso y que\nno sea recinto de instalaciones o de actividad, no será mayor que 65 dB.\nEsta exigencia no es de aplicación en el caso de recintos protegidos colindantes horizon-\ntalmente con una escalera..\nii)\nProtección frente al ruido generado en recintos de instalaciones o en recintos de activi-\ndad:\nEl nivel global de presión de ruido de impactos, L’nT,w, en un recinto protegido colindante\nvertical, horizontalmente o que tenga una arista horizontal común con un recinto de acti-\nvidad o con un recinto de instalaciones no será mayor que 60 dB.\nb)\nEn los recintos habitables:\ni)\nProtección frente al ruido generado de recintos de instalaciones o en recintos de activi-\ndad:\nEl nivel global de presión de ruido de impactos, L’nT,w, en un recinto habitable colindante\nvertical, horizontalmente o que tenga una arista horizontal común con un recinto de acti-\nvidad o con un recinto de instalaciones no será mayor que 60 dB.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,273 @@
+{
+ "documento": null,
+ "pagina": 11,
+ "etiqueta_impresa": "11",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    210.5,
+    36.2,
+    401.2,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-AE Acciones en la edificación",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    795.0,
+    322.7,
+    806.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-AE 7",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    69.3,
+    538.6,
+    92.0
+   ],
+   "tipo": "texto",
+   "texto": "característico se obtendrá de la tabla 3.3. La fuerza se considerará aplicada a 1,2 m o sobre el bor-\nde superior del elemento, si éste está situado a menos altura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    156.0,
+    112.8,
+    456.0,
+    122.8
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 3.3 Acciones sobre las barandillas y otros elementos divisorios",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    123.6,
+    489.5,
+    180.4
+   ],
+   "tipo": "texto",
+   "texto": "Categoría de uso\nFuerza horizontal [kN/m]\nC5\n3,0\nC3, C4, E, F\n1,6\nResto de los casos\n0,8",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    186.7,
+    541.4,
+    256.1
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn las zonas de tráfico y aparcamiento, los parapetos, petos o barandillas y otros elementos que\ndelimiten áreas accesibles para los vehículos deben resistir una fuerza horizontal, uniformemente\ndistribuida sobre una longitud de 1 m, aplicada a 1,2 m de altura sobre el nivel de la superficie de\nrodadura o sobre el borde superior del elemento si éste está situado a menos altura, cuyo valor ca-\nracterístico se definirá en el proyecto en función del uso específico y de las características del edifi-\ncio, no siendo inferior a qk = 50 kN.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    261.7,
+    538.6,
+    284.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nLos elementos divisorios, tales como tabiques, deben soportar una fuerza horizontal mitad a la defi-\nnida en la tabla 3.3, según el uso a cada lado del mismo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    299.9,
+    130.9,
+    313.3
+   ],
+   "tipo": "titulo",
+   "texto": "3.3 Viento",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    325.7,
+    190.3,
+    339.1
+   ],
+   "tipo": "titulo",
+   "texto": "3.3.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    344.3,
+    541.5,
+    378.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa distribución y el valor de las presiones que ejerce el viento sobre un edificio y las fuerzas resul-\ntantes dependen de la forma y de las dimensiones de la construcción, de las características y de la\npermeabilidad de su superficie, así como de la dirección, de la intensidad y del racheo del viento.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    384.8,
+    541.4,
+    419.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nLas disposiciones de este Documento Básico no son aplicables a los edificios situados en altitudes\nsuperiores a 2.000 m. En estos casos, las presiones del viento se deben establecer a partir de da-\ntos empíricos disponibles.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    425.3,
+    541.4,
+    459.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn general, los edificios ordinarios no son sensibles a los efectos dinámicos del viento. Este Docu-\nmento Básico no cubre las construcciones de esbeltez superior a 6, en las que sí deben tenerse en\ncuenta dichos efectos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    472.9,
+    203.6,
+    486.3
+   ],
+   "tipo": "titulo",
+   "texto": "3.3.2 Acción del viento",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    491.6,
+    541.3,
+    515.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa acción de viento, en general una fuerza perpendicular a la superficie de cada punto expuesto, o\npresión estática, qe puede expresarse como:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    93.4,
+    520.6,
+    541.1,
+    532.5
+   ],
+   "tipo": "texto",
+   "texto": "qe =  qb · ce · cp\n(3.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    538.1,
+    128.5,
+    549.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    93.4,
+    555.6,
+    541.4,
+    589.8
+   ],
+   "tipo": "texto",
+   "texto": "qb\nla presión dinámica del viento. De forma simplificada, como valor en cualquier punto del territo-\nrio español, puede adoptarse 0,5 kN/m2. Pueden obtenerse valores más precisos mediante el\nanejo D, en función del emplazamiento geográfico de la obra.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    93.4,
+    596.1,
+    541.4,
+    641.8
+   ],
+   "tipo": "texto",
+   "texto": "ce\nel coeficiente de exposición, variable con la altura del punto considerado, en función del grado\nde aspereza del entorno donde se encuentra ubicada la construcción. Se determina de acuer-\ndo con lo establecido en 3.3.3. En edificios urbanos de hasta 8 plantas puede tomarse un valor\nconstante, independiente de la altura, de 2,0.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    93.4,
+    648.1,
+    541.3,
+    682.3
+   ],
+   "tipo": "texto",
+   "texto": "cp\nel coeficiente eólico o de presión, dependiente de la forma y orientación de la superficie res-\npecto al viento, y en su caso, de la situación del punto respecto a los bordes de esa superficie;\nun valor negativo indica succión. Su valor se establece en 3.3.4 y 3.3.5.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    688.6,
+    541.4,
+    757.3
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos edificios se comprobarán ante la acción del viento en todas direcciones, independientemente de\nla existencia de construcciones contiguas medianeras, aunque generalmente bastará la considera-\nción en dos sensiblemente ortogonales cualesquiera. Para cada dirección se debe considerar la ac-\nción en los dos sentidos. Si se procede con un coeficiente eólico global, la acción se considerará\naplicada con una excentricidad en planta del 5% de la dimensión máxima del edificio en el plano\nperpendicular a la dirección de viento considerada y del lado desfavorable.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

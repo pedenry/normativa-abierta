@@ -1,0 +1,67 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0033",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p9",
+  "titulo": "Sección HS 6 Protección frente a la exposición al radón",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p9",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p9",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Apéndice C / Sección HS 6 Protección frente a la exposición al radón",
+   "seccion_estimada": "Apéndice C",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "47f6e514d41830d44f28ac58f03ef379c3407a05a23402e73eba821c24296dcf"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [],
+ "texto": "Sección HS 6 Protección frente a la exposición al radón\n1\nÁmbito de aplicación\n2\nCaracterización y cuantificación de la exigencia\n3\nVerificación y justificación del cumplimiento de la exigencia\n3.1 Barrera de protección\n3.2 Espacio de contención ventilado\n3.3 Despresurización del terreno\n4\nProductos de construcción\n4.1 Características exigibles a los productos\n4.2 Control de recepción en obra de productos\n5\nConstrucción\n5.1 Ejecución\n5.2 Control de la ejecución\n5.3 Control de la obra terminada\n6\nMantenimiento y conservación\nApéndice A\nTerminología\nApéndice B\nClasificación de municipios en función del potencial de radón\nApéndice C\nDeterminación del promedio anual de concentración de radón en el aire de los\nlocales habitables de un edificio",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

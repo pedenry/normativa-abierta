@@ -1,0 +1,601 @@
+{
+ "documento": null,
+ "pagina": 94,
+ "etiqueta_impresa": "94",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-92",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    96.8,
+    73.4,
+    358.0,
+    84.6
+   ],
+   "tipo": "texto",
+   "texto": "a)\nRigidez del alma del pilar frente a cortante (de nudo):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    125.3,
+    97.5,
+    197.0,
+    117.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "β\n=\nvc\nwv",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    118.2,
+    92.2,
+    541.0,
+    109.8
+   ],
+   "tipo": "texto",
+   "texto": "A\nz\nE\n38\n,0\nS\n(8.71)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.8,
+    125.9,
+    360.7,
+    137.1
+   ],
+   "tipo": "texto",
+   "texto": "b)\nRigidez del alma del pilar frente a la tracción de nudo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    193.6,
+    167.3,
+    197.1,
+    175.1
+   ],
+   "tipo": "texto",
+   "texto": "c",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    177.1,
+    144.6,
+    222.9,
+    159.3
+   ],
+   "tipo": "texto",
+   "texto": "wc\nwc\n,t,\nef\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    125.9,
+    159.4,
+    193.1,
+    173.2
+   ],
+   "tipo": "texto",
+   "texto": "wt\nd",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    118.2,
+    146.4,
+    541.0,
+    165.4
+   ],
+   "tipo": "texto",
+   "texto": "t\nb\nz\nE\n7,0\nS\n=\n(8.72)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    96.8,
+    182.4,
+    377.4,
+    193.6
+   ],
+   "tipo": "texto",
+   "texto": "c)\nRigidez del alma del pilar frente a la compresión de nudo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    196.0,
+    223.7,
+    199.5,
+    231.5
+   ],
+   "tipo": "texto",
+   "texto": "c",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    178.7,
+    201.0,
+    226.0,
+    215.8
+   ],
+   "tipo": "texto",
+   "texto": "wc\nwc\n,c,\nef\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    125.9,
+    215.9,
+    195.5,
+    229.7
+   ],
+   "tipo": "texto",
+   "texto": "wc\nd",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    118.2,
+    202.8,
+    541.0,
+    221.8
+   ],
+   "tipo": "texto",
+   "texto": "t\nb\nz\nE\n7,0\nS\n=\n(8.73)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    96.8,
+    238.8,
+    274.0,
+    250.0
+   ],
+   "tipo": "texto",
+   "texto": "d)\nRigidez del ala del pilar en flexión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    183.0,
+    274.7,
+    186.9,
+    289.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nc",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    172.2,
+    257.5,
+    204.3,
+    272.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "3\nfc\nfc\n,\nef\n2",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    125.8,
+    272.3,
+    182.3,
+    287.6
+   ],
+   "tipo": "texto",
+   "texto": "f\nm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    118.2,
+    259.3,
+    541.0,
+    278.4
+   ],
+   "tipo": "texto",
+   "texto": "t\nl\nz\nE\n9,0\nS\n=\n(8.74)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    96.8,
+    296.4,
+    289.0,
+    307.6
+   ],
+   "tipo": "texto",
+   "texto": "e)\nRigidez de la chapa frontal en flexión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    180.8,
+    333.2,
+    184.8,
+    348.0
+   ],
+   "tipo": "texto",
+   "texto": "3\np",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    172.3,
+    315.5,
+    200.1,
+    330.3
+   ],
+   "tipo": "texto",
+   "texto": "3\np\np,\nef\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    125.8,
+    330.8,
+    180.3,
+    346.1
+   ],
+   "tipo": "texto",
+   "texto": "f\nm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    118.2,
+    317.2,
+    541.0,
+    336.8
+   ],
+   "tipo": "texto",
+   "texto": "t\nl\nz\nE\n9,0\nS\n=\n(8.75)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    96.8,
+    356.9,
+    299.7,
+    368.1
+   ],
+   "tipo": "texto",
+   "texto": "f)\nRigidez de los tornillos en alargamiento:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    174.1,
+    397.2,
+    177.9,
+    405.0
+   ],
+   "tipo": "texto",
+   "texto": "b",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    171.4,
+    375.3,
+    190.1,
+    390.2
+   ],
+   "tipo": "texto",
+   "texto": "s\n2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    125.5,
+    389.3,
+    173.3,
+    403.1
+   ],
+   "tipo": "texto",
+   "texto": "b\nL",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    118.2,
+    377.1,
+    541.0,
+    395.4
+   ],
+   "tipo": "texto",
+   "texto": "A\nz\nE\n6,1\nS\n=\n(8.76)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    96.8,
+    412.3,
+    134.6,
+    423.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    96.8,
+    429.8,
+    262.0,
+    441.0
+   ],
+   "tipo": "texto",
+   "texto": "z\nbrazo de palanca de la unión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    96.8,
+    447.3,
+    244.2,
+    459.2
+   ],
+   "tipo": "texto",
+   "texto": "Avc\nárea de cortante del pilar",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    96.8,
+    464.6,
+    420.8,
+    476.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "β\ndiferencia relativa de momentos de viga, según expresión (8.62).",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 34,
+   "bbox": [
+    96.8,
+    483.0,
+    505.0,
+    495.0
+   ],
+   "tipo": "texto",
+   "texto": "bef,t.wc, bef,c,wc   anchos eficaces del alma del pilar en tracción y compresión respectivamente",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    96.8,
+    500.6,
+    538.6,
+    524.0
+   ],
+   "tipo": "texto",
+   "texto": "dc\ncanto h del pilar menos dos veces la suma de espesor de ala tfc y radio de acuerdo ala-\nalma rc, (distancia entre puntos de acuerdo)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    96.8,
+    529.5,
+    284.9,
+    541.5
+   ],
+   "tipo": "texto",
+   "texto": "twc, tfc  espesores de alma y alas del pilar",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    96.8,
+    547.1,
+    257.0,
+    559.0
+   ],
+   "tipo": "texto",
+   "texto": "tp\nespesor de la chapa frontal,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    96.8,
+    564.5,
+    541.3,
+    587.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "lef,fc, lef,p\nlongitudes eficaces en flexión del ala del pilar y de la chapa respectivamente frente a\nla tracción de los tornillos",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 39,
+   "bbox": [
+    96.8,
+    593.6,
+    541.5,
+    639.3
+   ],
+   "tipo": "texto",
+   "texto": "mc, mp\ndistancia del tornillo (o la fila) a la línea de formación de la rótula plástica (o charnela)\njunto al alma del casquillo en T del modelo (el alma del pilar para la flexión del ala de éste,\nel ala de la viga para la flexión de la parte extendida de la chapa frontal, el alma de la viga\npara la flexión de la parte interior de la chapa frontal)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    96.8,
+    645.5,
+    295.4,
+    657.5
+   ],
+   "tipo": "texto",
+   "texto": "As\nArea resistente a tracción del tornillo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 41,
+   "bbox": [
+    96.8,
+    663.0,
+    541.4,
+    685.8
+   ],
+   "tipo": "texto",
+   "texto": "Lb\nLongitud de elongación del tornillo igual a la distancia entre el centro de la cabeza y el de la\ntuerca.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    74.1,
+    692.0,
+    541.4,
+    715.5
+   ],
+   "tipo": "texto",
+   "texto": "15\nEn caso de existir rigidizador para alguno de los componentes básicos a), b), o c) anteriores podrá\nsuponerse infinita la correspondiente rigidez Swv, Swt, o Swc.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    74.1,
+    721.1,
+    541.4,
+    744.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "16\nLa rigidez rotacional secante de la unión para un momento Mj,Ed menor que el momento resistente\nMj,Rd de la unión será la siguiente:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 44,
+   "bbox": [
+    96.8,
+    750.0,
+    375.8,
+    762.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "a)\nSi Mj,Ed ≤ 2/3 Mj,Rd se tomará igual a la rigidez inicial, Sj,ini.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

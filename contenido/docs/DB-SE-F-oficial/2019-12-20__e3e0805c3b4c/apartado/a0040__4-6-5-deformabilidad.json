@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0040",
+  "ruta_oficial": "4.6.5",
+  "ruta_semantica": "4.6.5 Deformabilidad",
+  "titulo": "4.6.5 Deformabilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.6.5 Deformabilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 16,
+   "bbox": [
+    70.9,
+    570.0,
+    174.3,
+    580.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "13aa3ec6f1c560332ae14fa41b72b1cfb76e0623b7f638f3790786909f2d578d",
+   "literal": "4.6.5 Deformabilidad"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0043",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.6.5 Deformabilidad",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas / 4.6 Fábricas 4.6.1 Categoría de la ejecución / 4.6.5 Deformabilidad",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ac05d163b5dc58347e80864c2abe61f898f2809fc99b3cc23715ee7beb5671ea"
+ },
+ "paginas": [
+  16,
+  17
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "4"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "4.6.5 Deformabilidad\n1\nEl diagrama tensión-deformación de la fábrica tiene la forma genérica que se representa en la figura\n4.2-a. Como diagramas de cálculo pueden adoptarse los de las figuras 4.2-b o 4.2-c. Las fábricas con\npiezas huecas pueden presentar rotura frágil antes de desarrollar una rama horizontal y por tanto no\nse puede usar dicha parte del diagrama 4.2-b ni el 4.2-c\n2\nComo módulo de elasticidad secante instantáneo, E, de una fábrica puede tomarse igual a 1000 fk.\nPara cálculos de estados límites de servicio, se puede multiplicar el valor E por el factor 0,6. Para\ndeterminar deformaciones diferidas, el módulo a utilizar puede ser deducido del módulo de elasticidad\npara deformaciones instantáneas multiplicado por el coeficiente de fluencia que se deduce de la tabla\n4.7.\n3\nComo módulo de elasticidad transversal, G, puede tomarse el 40% del módulo de elasticidad E.\n4\nComo parámetros de deformación reológica y térmica de las fábricas se pueden emplear los valores\nde cálculo dados en la tabla 4.7.\n\nDocumento Básico SE-F Fábrica\nSE-F-13\nFigura 4.2. Diagramas de tensión a deformación o de las fábricas\nTabla 4.7 Deformabilidad de las fábricas\nTipo de pieza\nCoeficiente final de\nfluencia, \nRetracción o\nexpansión final por\nhumedad, (1) (mm/m)\nCoeficiente de\ndilatación térmica\n(10-6m/m ºC)\nCerámica\n1\n0,2 a 1,0 (2)\n6\nSilico-calcáreos\n1,5\n-0,2\n9\nHormigón ordinario y piedra artificial\n1,5\n-0,2\n10\nHormigón de árido ligero\n2\n-0,4(3)\n10\nHormigón celular de autoclave\n1,5\n0,2\n8\nPiedra natural\n1\n0,1\n7\n(1)Acortamiento negativo y alargamiento positivo\n(2)Depende del material\n(3)Para áridos ligeros de piedra pómez y de arcilla expandida; en otro caso el valor es  - 0,2",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0016.png",
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

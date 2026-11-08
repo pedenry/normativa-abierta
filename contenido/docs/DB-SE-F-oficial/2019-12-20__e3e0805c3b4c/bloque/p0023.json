@@ -1,0 +1,153 @@
+{
+ "documento": null,
+ "pagina": 23,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-19",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    88.8,
+    73.3,
+    541.4,
+    97.9
+   ],
+   "tipo": "texto",
+   "texto": " =\nt\ne\n2\n1\nm\n\n(5.10)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    103.3,
+    541.4,
+    223.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nem  = e + ep (5.11)\ndonde:\ne\nes la excentricidad debida a las solicitaciones en ese punto, según (5.9),\nep\nla excentricidad debida a pandeo, de valor\nep  =  0,00035 ·t · (hd / td)2\n(5.12)\n5\nLa excentricidad por fluencia puede considerarse nula para muros ejecutados con piezas cerámicas\no de piedra natural, y en muros ejecutados con otro tipo de piezas con esbeltez menor o igual a 15.\nPara tener en cuenta la fluencia, el valor ep se incrementará en:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    88.8,
+    233.9,
+    196.3,
+    255.1
+   ],
+   "tipo": "texto",
+   "texto": "ep =\nm\nd",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    117.0,
+    228.5,
+    544.3,
+    253.2
+   ],
+   "tipo": "texto",
+   "texto": "d\ne·t\n·\nt\nh\n·\n·\n002\n,0\n\n\n(5.13)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    260.8,
+    326.4,
+    299.6
+   ],
+   "tipo": "texto",
+   "texto": "donde:\nhd\n es la altura de cálculo, según el apartado 5.2.4\ntd\n es el espesor de cálculo del muro, según 5.2.5",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    311.0,
+    239.3,
+    321.0
+   ],
+   "tipo": "texto",
+   "texto": "5.2.4 Altura de cálculo de un muro",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    327.7,
+    541.4,
+    505.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nUn muro se considera arriostrado por otro en un borde vertical si:\na)\nNo es previsible que se produzcan fisuras entre ambos, como cuando ambos se ejecutan simul-\ntáneamente con materiales de análoga deformabilidad, están análogamente cargados, se enla-\nzan, y no son previsibles movimientos diferenciales entre ellos, por retracción, cargas, etc.\nb)\nLa unión entre el muro arriostrado y el arriostrante (mediante elementos de trabado, llaves u\notros medios) se proyecta para resistir los esfuerzos cortantes, las tracciones y/o las compresio-\nnes previsibles.\n2\nUn muro se considera arriostrante de un borde vertical de otro cuando:\na)\ntiene una longitud no menor que 1/5 de la altura libre del arriostrado, y\nb)\ntiene un espesor no menor que 0,3 del espesor eficaz del muro arriostrado, ni menor de 85 mm,\ny\nc)\nsi tiene huecos, la distancia entre ellos no es menor que 1/5 de la altura media de los huecos\n(véase figura 5.6) y cuando se prolonga más allá de cada hueco una distancia no menor que 1/5\nde la altura libre de la planta.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    149.3,
+    686.4,
+    471.5,
+    707.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.6 Longitud mínima de un muro arriostrante de un borde de otro.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    708.6,
+    541.4,
+    766.8
+   ],
+   "tipo": "texto",
+   "texto": "3\nTambién puede considerarse que sirve para arriostrar un borde cualquier otro elemento que tenga\nuna rigidez equivalente a la de un muro arriostrante de fábrica, según el párrafo anterior, y esté enla-\nzado al muro arriostrado mediante anclajes o llaves, proyectados específicamente para resistir los\ncortantes y las tracciones y compresiones que sean previsibles.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

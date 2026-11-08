@@ -1,0 +1,103 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0013",
+  "ruta_oficial": "12",
+  "ruta_semantica": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento",
+  "titulo": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    539.9,
+    438.3,
+    551.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5101f3aff7c0eb3520907cbf63ba6cd24ae93d9ee0ef9856c88d6f5ea7dc61ff",
+   "literal": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento",
+   "seccion_estimada": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6e87dbcf16ab86814f33a342376b684fc1a261c2e2726dde3559f9c2cba276fd"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento\nSe limitará el riesgo de que los usuarios puedan quedar accidentalmente aprisionados en recintos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0014",
+  "a0015",
+  "a0016",
+  "a0017",
+  "a0018",
+  "a0019",
+  "a0020",
+  "a0021",
+  "a0022",
+  "a0023",
+  "a0024",
+  "a0025",
+  "a0026",
+  "a0027",
+  "a0028",
+  "a0029",
+  "a0030",
+  "a0031",
+  "a0032"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

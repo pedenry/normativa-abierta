@@ -1,0 +1,101 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0106",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología / Presión acústica, p: Diferencia entre la presión total instantánea en un punto determinado, en presencia de una perturbación acústica y la presión estática en el mismo punto.",
+  "titulo": "Presión acústica, p: Diferencia entre la presión total instantánea en un punto determinado, en presencia de una perturbación acústica y la presión estática en el mismo punto.",
+  "nivel": 2,
+  "parent_id": "a0092",
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 55,
+   "bbox": [
+    70.9,
+    228.8,
+    541.4,
+    427.1
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "3cd755e4e945daa4425fd08f8864d76d293d06ea145b671f57e280a9063a25e2",
+   "literal": "Presión acústica, p: Diferencia entre la presión total instantánea en un punto determinado, en presencia de una perturbación acústica y la presión estática en el mismo punto."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0020",
+  "parent_id_original": "a0092",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "Presión acústica, p: Diferencia entre la presión total instantánea en un punto determinado, en presencia de una perturbación acústica y la presión estática en el mismo punto.",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0092",
+   "ruta_semantica": "Anejo A. Terminología / Presión acústica, p: Diferencia entre la presión total instantánea en un punto determinado, en presencia de una perturbación acústica y la presión estática en el mismo punto.",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dee6c236f39781dbcf2826aefb62d58bd4a8ed974b27046b1ba4aaf13c71b29a"
+ },
+ "paginas": [
+  55,
+  56,
+  57,
+  59
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Documento Básico HR - Protección frente al ruido\nHR A-13\nPonderación espectral A: Aproximación con signo menos de la línea isofónica con un nivel de sonori-\ndad igual a 40 fonios. En el margen de frecuencias de aplicación de este DB, la curva de ponderación A\nviene definida por los valores siguientes:\nTabla A.6 Valores de la curva de ponderación A\nFrecuencia\nHz\n100\n125\n160\n200\n250\n315\n400\n500\n630\nCurva de ponderación\ndBA\n-19,1\n-16,1\n-13,4\n-10,9\n-8,6\n-6,6\n-4,8\n-3,2\n-1,9\nFrecuencia\nHz\n800\n1000\n1250\n1600\n2000\n2500\n3150\n4000\n5000\nCurva de ponderación\ndBA\n-0,8\n0\n0,6\n1,0\n1,2\n1,3\n1,2\n1,0\n0,5\nLa ponderación espectral A se utiliza para compensar las diferencias de sensibilidad que el oído humano\ntiene para las distintas frecuencias dentro del campo auditivo.\nPotencia acústica, W: Energía emitida en la unidad de tiempo por una fuente acústica determinada.\nPresión acústica, p: Diferencia entre la presión total instantánea en un punto determinado, en presencia\nde una perturbación acústica y la presión estática en el mismo punto.\nRecinto: Espacio del edificio limitado por cerramientos, particiones o cualquier otro elemento de separa-\nción.\nRecinto de actividad: Aquellos recintos, en los edificios de uso residencial (público y privado), hospitala-\nrio o administrativo, en los que se realiza una actividad distinta a la realizada en el resto de los recintos\ndel edificio en el que se encuentra integrado, siempre que el nivel medio de presión sonora estandariza-\ndo, ponderado A, del recinto sea mayor que 70 dBA. Por ejemplo, actividad comercial, de pública concu-\nrrencia, etc.\nA partir de 80dBA se considera recinto ruidoso.\nTodos los aparcamientos se consideran recintos de actividad respecto a cualquier uso salvo los de uso\nprivativo en vivienda unifamiliar.\nRecinto de instalaciones:Recinto que contiene equipos de instalaciones colectivas del edificio, enten-\ndiendo como tales, todo equipamiento o instalación susceptible de alterar las condiciones ambientales de\ndicho recinto. A efectos de este DB, el recinto del ascensor no se considera un recinto de instalaciones a\nmenos que la maquinaria esté dentro del mismo.\nRecinto habitable:Recinto interior destinado al uso de personas cuya densidad de ocupación y tiempo\nde estancia exigen unas condiciones acústicas, térmicas y de salubridad adecuadas. Se consideran re-\ncintos habitables los siguientes:\na)\nhabitaciones y estancias (dormitorios, comedores, bibliotecas, salones, etc.) en edificios resi-\ndenciales;\nb)\naulas, salas de conferencias, bibliotecas, despachos, en edificios de uso docente;\nc)\nquirófanos, habitaciones, salas de espera, en edificios de uso sanitario u hospitalario;\nd)\noficinas, despachos; salas de reunión, en edificios de uso administrativo;\ne)\ncocinas, baños, aseos, pasillos. distribuidores y escaleras, en edificios de cualquier uso;\nf)\ncualquier otro con un uso asimilable a los anteriores.\nEn el caso en el que en un recinto se combinen varios usos de los anteriores siempre que uno de ellos\nsea protegido, a los efectos de este DB se considerará recinto protegido.\nSe consideran recintos no habitables aquellos no destinados al uso permanente de personas o cuya\nocupación, por ser ocasional o excepcional y por ser bajo el tiempo de estancia, sólo exige unas condi-\nciones de salubridad adecuadas. En esta categoría se incluyen explícitamente como no habitables los\ntrasteros, las cámaras técnicas y desvanes no acondicionados, y sus zonas comunes.\n\nDocumento Básico HR - Protección frente al ruido\nHR A-14\nRecinto protegido:Recinto habitable con mejores características acústicas. Se consideran recintos\nprotegidos los recintos habitables de los casos a), b), c), d).\nRecinto ruidoso: Recinto, de uso generalmente industrial, cuyas actividades producen un nivel medio\nde presión sonora estandarizado, ponderado A, en el interior del recinto, mayor que 80 dBA.\nReducción del nivel de presión de ruido de impactos (o mejora del aislamiento acústico a ruido de\nimpactos) de un suelo flotante o de un techo suspendido, L: Diferencia entre el nivel de presión de\nruido de impactos normalizado de un forjado normalizado de referencia con el suelo flotante o eltecho\nsuspendido y el propio del forjado de referencia. Es función de la frecuencia.\nReducción del nivel global de presión de ruido de impactos (o mejora global del aislamiento acús-\ntico a ruido de impactos) de un suelo flotante o de un techo suspendido, Lw: Diferencia entre el\nnivel global de presión de ruido de impactos normalizado del forjado de referencia normalizado y el cal-\nculado para ese forjado de referencia con el suelo flotante o el techo suspendido.\nRevestimiento: Capa colocada sobre un elemento constructivo base o soporte. Se consideran revesti-\nmientos los trasdosados en elementos constructivos verticales, los suelos flotantes, las moquetas y los\ntechos suspendidos, en elementos constructivos horizontales.\nRuido blanco: Ruido que contiene todas las frecuencias con la misma amplitud. Su espectro expresado\ncomo niveles de presión o potencia, en bandas de tercio de octava, es una recta de pendiente 3\ndB/octava. Se utiliza para efectuar las medidas normalizadas.\nRuido estacionario: Ruido continuo y estable en el tiempo. Se consideran ruidos estacionarios los pro-\ncedentes de instalaciones de aire acondicionado, ventiladores, compresores, bombas impulsoras, calde-\nras, quemadores, maquinaria de los ascensores, etc., rejillas y unidades terminales.\nRuido exterior dominante: Se considera que el ruido de aeronaves o el ruido ferroviario o el de esta-\nciones ferroviarias es dominante frente al ruido de automóviles en un espacio exterior dado cuando el\nespectro del ruido en ese espacio, ponderado A, desplazado en una cuantía de nivel adecuada propor-\nciona diferencias menores que 1,5 dBA en, por lo menos, 10 tercios de octava, al ajustarlo respectiva-\nmente al espectro del ruido de aeronaves o de estaciones ferroviarias.\nRuido rosa: Ruido cuyo espectro expresado como niveles de presión o potencia, en bandas de tercio de\noctava, consiste en una recta de pendiente 0 dB/octava. Se utiliza para efectuar las medidas normaliza-\ndas.\nSilenciador o unidad de atenuación: Dispositivo capaz de reducir el nivel de presión sonora entre su\nentrada y su salida que se acopla al conducto de salida de gases de equipos o redes de instalaciones\npara atenuar el ruido.\nSistema: Instalación compartida por dos recintos que hace que la transmisión de sonido se produzca de\nforma aérea indirecta. Es el caso de conductos de instalaciones, como conductos de ventilación o aire\nacondicionado, techos suspendidos, etc.\nSuelo flotante: Elemento constructivo sobre el forjado que comprende el solado con su capa de apoyo y\nel una capa de un material aislante a ruido de impactos.\nTabiquería de fábrica: Tabiquería formada por unidades de montaje en húmedo, tales como ladrillos\nhuecos, ladrillos perforados, bloques de hormigón, bloques de arcilla aligerada, tabiques de escayola\nmaciza, etc.\nTabiquería de entramado: Elemento constructivo formado por dos o más placas de yeso laminado,\nsujetas a una perfilería autoportante y con una cámara que puede estar rellena con un material poroso,\nelástico y acústicamente absorbente.\nTérmino de adaptación espectral, C, Ctr: Valor en decibelios, que se añade al valor de una magnitud\nglobal obtenida por el método de la curva de referencia de la ISO 717-1 (Rw, por ejemplo), para tener en\n\nDocumento Básico HR - Protección frente al ruido\nHR A-15\ncuenta las características de un espectro de ruido particular. Cada índice global, ponderado A, lleva in-\ncorporado el término de adaptación espectral del índice global asociado, derivado del método de la curva\nde referencia.\nCuando el ruido incidente es rosa o ruido ferroviario o de estaciones ferroviarias se usa el símbolo C y\ncuando es ruido de automóviles o aeronaves el símbolo es Ctr.\nTiempo de reverberación estructural de un elemento constructivo, Ts: Tiempo, en s, correspondien-\nte a una caída del nivel de vibración de 60 dB, a partir del cese de la excitación. Hay que distinguir entre\nlos valores medidos en laboratorio, Ts,lab y los medidos in situ, Ts,situ para el mismo elemento.\nTiempo de reverberación, T: Tiempo, en s, necesario para que el nivel de presión sonora disminuya 60\ndB después del cese de la fuente. En general es función de la frecuencia. Los valores de las exigencias\nestablecidos como límite, se entenderán como la media de los valores a 500, 1000 y 2000 Hz.\nLos valores del tiempo de reverberación se especificarán y usarán en los cálculos redondeados a la pri-\nmera cifra decimal. (Ejemplo: 1,25 → 1,3)\nTransmisión acústica directa: Transmisión del sonido al recinto receptor exclusivamente a través del\nelemento de separación, bien por su parte sólida o por partes de comunicación aérea, tales como rendi-\njas, aberturas o conductos, etc., si los hubiere.\nTransmisión acústica indirecta: Transmisión del sonido al recinto receptor a través de caminos de\ntransmisión distintos del directo. Puede ser aérea y estructural; también se llama transmisión por flancos.\nTrasdosado: Elemento suplementario del elemento constructivo vertical Se consideran los trasdosados\nsiguientes:\na) una o varias placas de yeso laminado sujetas a un entramado;\nb) un panel formado por una placa de yeso y una capa de material aislante adherido o anclado\nmecánicamente al elemento base;\nc) el conjunto formado por una hoja de fábrica con bandas elásticas perimétricas y una cámara re-\nllena con un material absorbente, poroso y elástico.\nUnidad de uso: Edificio o parte de un edificio que se destina a un uso específico, y cuyos usuarios están\nvinculados entre, sí bien por pertenecer a una misma unidad familiar, empresa, corporación, bien por\nformar parte de un grupo o colectivo que realiza la misma actividad. En cualquier caso, se consideran\nunidades de uso, las siguientes:\na) en edificios de vivienda, cada una de las viviendas;\nb) en edificios de uso hospitalario, y residencial público, cada habitación incluidos sus anexos;\nc) en edificios docentes, cada aula o sala de conferencias incluyendo sus anexos;\nZona común: Zona o zonas que dan servicio a varias unidades de uso.\n\nDocumento Básico HR - Protección frente al ruido\nHR B-1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0055_t01.json",
+  "../tabla/p0055_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0055.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

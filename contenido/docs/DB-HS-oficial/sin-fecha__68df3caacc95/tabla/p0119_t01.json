@@ -1,0 +1,71 @@
+{
+ "indice": 1,
+ "pagina": 119,
+ "etiqueta_impresa": "119",
+ "bbox": [
+  94.0,
+  186.2,
+  541.4,
+  234.7
+ ],
+ "filas": 2,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Superficie de cubierta en proyección horizontal (m2)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Número de sumideros",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "S < 100\n100 S < 200\n200  S < 500\nS > 500",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "2\n3\n4\n1 cada 150 m2",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Superficie de cubierta en proyección horizontal (m2)",
+  "Número de sumideros"
+ ],
+ "header": {
+  "names": [
+   "Superficie de cubierta en proyección horizontal (m2)",
+   "Número de sumideros"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB981580>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB983860>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9119A0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB910C80>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0119.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

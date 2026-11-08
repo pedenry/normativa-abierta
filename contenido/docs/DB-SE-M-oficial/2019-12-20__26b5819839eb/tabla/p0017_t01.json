@@ -1,0 +1,71 @@
+{
+ "indice": 1,
+ "pagina": 17,
+ "etiqueta_impresa": "5",
+ "bbox": [
+  64.8,
+  592.5,
+  544.1,
+  737.4
+ ],
+ "filas": 2,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Elemento de fijación",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Clase de servicio\n1 2 3",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Clavos y tirafondos con d  4 mm\nPernos, pasadores y clavos con d > 4 mm\nGrapas\nPlacas dentadas y chapas de acero con espesor\nde hasta 3 mm\nChapas de acero con espesor por encima de 3\nhasta 5 mm\nChapas de acero con espesor superior a 5 mm",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "Ninguna Fe/Zn 12c (1) Fe/Zn 25c (2)\nNinguna Ninguna Fe/Zn 25c (2)\nFe/Zn 12c (1) Fe/Zn 12c (1) Acero inoxidable\nFe/Zn 12c (1) Fe/Zn 12c (1) Acero inoxidable\nNinguna Fe/Zn 12c (1) Fe/Zn 25c (2)\nNinguna Ninguna Fe/Zn 25c (2)",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Elemento de fijación",
+  "Clase de servicio\n1 2 3"
+ ],
+ "header": {
+  "names": [
+   "Elemento de fijación",
+   "Clase de servicio\n1 2 3"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9060C0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB9064E0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB989CD0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB989DC0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0017.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

@@ -1,0 +1,60 @@
+{
+ "documento": "GUIA-PDF-58ad6aa65696",
+ "code": "GUIA",
+ "title": "Solucion C1 Ventilacion de los locales habitables",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__8e711eace63c",
+ "sha256": "8e711eace63c8ecfb73b727641d2918bf2380b10b975ba2b876b361f1b4479e8",
+ "apartado": {
+  "id_tecnico": "a0025",
+  "ruta_oficial": null,
+  "ruta_semantica": "7. COSTE / Eliminación de los shunts",
+  "titulo": "Eliminación de los shunts",
+  "nivel": 3,
+  "parent_id": "a0020",
+  "seccion_estimada": "7. COSTE"
+ },
+ "paginas": [
+  5,
+  6
+ ],
+ "etiquetas_impresas": [
+  "5",
+  "6"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Eliminación de los shunts\nLa eliminación o bloqueo de un tramo de shunt\ncolectivo en una vivienda es una acción muy gra­\nve que supone, por un lado la supresión de la\nventilación de las viviendas inferiores (Figura 8) y\npor otro, una disminución de la ventilación de las\nviviendas superiores, produciendo un detrimento\nde su calidad del aire y un aumento de su con­\ncentración de radón.\nFigura 7  - Acumulación de radón a lo largo de una semana en una vivienda con ventilación puntual el primer día\nBq/m3\nRadón\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\n1/8/16 0:12\n1/8/16 3:42\n1/8/16 7:12\n1/8/16 10:42\n1/8/16 14:12\n1/8/16 17:42\n1/8/16 21:12\n2/8/16 0:42\n2/8/16 4:12\n2/8/16 7:42\n2/8/16 11:12\n2/8/16 14:42\n2/8/16 18:12\n2/8/16 21:42\n3/8/16 1:12\n3/8/16 4:42\n3/8/16 8:12\n3/8/16 11:42\n3/8/16 15:12\n3/8/16 18:42\n3/8/16 22:12\n4/8/16 1:42\n4/8/16 5:12\n4/8/16 8:42\n4/8/16 12:12\n4/8/16 15:42\n4/8/16 19:12\n4/8/16 22:42\n5/8/16 2:12\n5/8/16 5:42\n5/8/16 9:12\n5/8/16 12:42\n5/8/16 16:12\n5/8/16 19:42\n5/8/16 23:12\n6/8/16 2:42\n6/8/16 6:12\n6/8/16 9:42\n6/8/16 13:12\n6/8/16 16:42\n6/8/16 20:12\n6/8/16 23:42\n7/8/16 3:12\n7/8/16 6:42\n7/8/16 10:12\n7/8/16 13:42\n7/8/16 17:12\n7/8/16 20:42\n\n6\nSolución C1 • Ventilación de los locales habitables\nC1\n6\nFigura 8  - Shunt colectivo interrumpido (arriba) y continuo (abajo)",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0006_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0005.png",
+  "../figura/p0006.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Solucion_C1_Ventilacion_de_los_locales_habitables.pdf",
+  "sha256": "8e711eace63c8ecfb73b727641d2918bf2380b10b975ba2b876b361f1b4479e8",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0020",
+  "nivel": 3,
+  "seccion_estimada": "7. COSTE",
+  "ruta_semantica": "7. COSTE / Eliminación de los shunts"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

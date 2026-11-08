@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0334",
+  "ruta_oficial": "2.1",
+  "ruta_semantica": "2.1 Determinación del número de detectores",
+  "titulo": "2.1 Determinación del número de detectores",
+  "nivel": 1,
+  "parent_id": "a0333",
+  "seccion_estimada": "2.1 Determinación del número de detectores",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 181,
+   "bbox": [
+    70.9,
+    315.0,
+    328.5,
+    328.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f29c94536731e0442bdbc3d97ec22e03f75f9f156b5cd4e2535f1544dbce787a",
+   "literal": "2.1 Determinación del número de detectores"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0333",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.1 Determinación del número de detectores",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0333",
+   "ruta_semantica": "2 Muestreo / 2.1 Determinación del número de detectores",
+   "seccion_estimada": "2 Muestreo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e27a074523506d6932d51e3022c7ab8d614737a0d55aa346052237a7e8ed44d1"
+ },
+ "paginas": [
+  181
+ ],
+ "etiquetas_impresas": [
+  "181"
+ ],
+ "tipos": [],
+ "texto": "2.1 Determinación del número de detectores\n1\nPara determinar el número de detectores a disponer, se definirán en primer lugar las zonas de\nmuestreo necesarias en el edificio.\n2\nLas zonas de muestreo se establecerán en aquellas plantas del edificio donde exista una\nprobabilidad más alta de presentar niveles elevados de radón. En particular:\na)\nbajo rasante, en cada una de las plantas en las que existan locales habitables;\nb)\nsobre rasante, en las dos plantas más bajas en las que haya locales habitables.\n3\nPara delimitar las zonas de muestreo, se tendrán en cuenta las siguientes condiciones:\na)\nEn cada unidad de uso se establecerá, al menos:\ni)\nuna zona de muestreo por cada 200 m2 de superficie útil;\nii)\nuna zona de muestreo por planta.\nb)\nEn unidades de uso con grandes áreas no compartimentadas (por ejemplo, oficinas de planta\nabierta, superficies de atención al público, etc.), se tendrá en cuenta lo siguiente:\ni)\ncuando la superficie sea superior a 1.000 m2 e inferior o igual a 5.000 m2, se podrá\nestablecer una zona de muestreo por cada 400 m2;\nii)\ncuando la superficie sea superior a 5.000 m2, se podrá establecer 1 zona de muestreo\npor cada 500 m2.\n4\nEn cada zona de muestreo se instalará al menos 1 detector, excepto en unidades de uso de\nsuperficie inferior a 200 m2 en los que se haya definido una única zona de muestreo, donde se\ninstalarán al menos 2 detectores.\n5\nEn el caso de los detectores pasivos, cuando, de acuerdo con las indicaciones anteriores, el número\nde detectores a exponer en un mismo edificio esté comprendido entre 15 y 25, será necesario\ncolocar un detector más, a modo de control. A partir de 25 detectores, se añadirá un detector de\ncontrol adicional por cada 20 detectores expuestos. Estos detectores se ubicarán en una zona del\nedificio en la que se prevea una baja concentración de radón.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

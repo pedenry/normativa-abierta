@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0010",
+  "ruta_oficial": "1",
+  "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación",
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 5,
+   "bbox": [
+    70.9,
+    81.5,
+    183.0,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "8c35b5f6f94cbd4faac3c19e9e69e329d72aa7c6b13322ba9c29d5533a161ee2",
+   "literal": "1 Generalidades 1.1 Ámbito de aplicación"
+  },
+  "navegacion_motivo": "ambito_global_verificado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "ambito_global_verificado",
+  "scope": "global",
+  "referencias_filtradas": [
+   "DB-SE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Generalidades 1.1 Ámbito de aplicación",
+  "ruta_fuente": "ambito_global_verificado",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2b453223361de9f78f83d08bf188bb4417946577ae1857f1caf01e1d2b0756b6"
+ },
+ "paginas": [
+  5,
+  7
+ ],
+ "etiquetas_impresas": [
+  "5",
+  "7"
+ ],
+ "tipos": [
+  "ambito",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "1 Generalidades 1.1 Ámbito de aplicación\n1.1 Ámbito de aplicación\n1\nEl campo de aplicación de este Documento Básico es el de la determinación de las acciones sobre\nlos edificios, para verificar el cumplimiento de los requisitos de seguridad estructural (capacidad por-\ntante y estabilidad) y aptitud al servicio, establecidos en el DB-SE.\n2\nEstán fuera del alcance de este Documento Básico las acciones y las fuerzas que actúan sobre\nelementos tales como aparatos elevadores o puentes grúa, o construcciones como los silos o los\ntanques.\n3\nEn general, las fuerzas de rozamiento no se definen en este Documento Básico, ya que se conside-\nran como efectos de las acciones.\n4\nSalvo que se indique lo contrario, todos los valores tienen el sentido de característicos.\n5\nLos tipos de acciones y su tratamiento se establecen en el DB-SE\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 3",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0005.png",
+  "../figura/p0007.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

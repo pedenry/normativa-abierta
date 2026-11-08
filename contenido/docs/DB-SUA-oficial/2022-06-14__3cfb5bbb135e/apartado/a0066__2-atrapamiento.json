@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0066",
+  "ruta_oficial": "2",
+  "ruta_semantica": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento / 2 Atrapamiento",
+  "titulo": "2 Atrapamiento",
+  "nivel": 2,
+  "parent_id": "a0060",
+  "seccion_estimada": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 19,
+   "bbox": [
+    70.9,
+    71.1,
+    200.5,
+    86.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "745e387d06cc4c7ccb6e83b92871bfb7c9ba7f9ed13a21e614cdb1c18d4a4f59",
+   "literal": "2 Atrapamiento"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0037",
+  "parent_id_original": "a0060",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2 Atrapamiento",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0060",
+   "ruta_semantica": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento / 2 Atrapamiento",
+   "seccion_estimada": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "38dbed7e8016daed76e81db399d92166b109bd53ad0fe75ec54745335bb932a1"
+ },
+ "paginas": [
+  19,
+  20
+ ],
+ "etiquetas_impresas": [
+  "19",
+  "20"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Atrapamiento\n1\nCon el fin de limitar el riesgo de atrapamiento producido por una puerta corredera de accionamiento\nmanual, incluidos sus mecanismos de apertura y cierre, la distancia a hasta el objeto fijo más próxi-\nmo será 20 cm, como mínimo (véase figura 2.1).\nFigura 2.1 Holgura para evitar atrapamientos\n2\nLos elementos de apertura y cierre automáticos dispondrán de dispositivos de protección adecuados\nal tipo de accionamiento y cumplirán con las especificaciones técnicas propias.\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad\nSUA 3. Seguridad frente al riesgo de aprisionamiento en recintos\n20",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0063",
+   "ruta_oficial": "1.2",
+   "titulo": "1.2 Impacto con elementos practicables",
+   "archivo_json": "a0063__1-2-impacto-con-elementos-practicables.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0019.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,71 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0095",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p45",
+  "titulo": "",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p45",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p45",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología / Banda de tercio de octava: Intervalo de frecuencias comprendido entre una frecuencia determinada f1 y una frecuencia f2 relacionadas por (f2/f1)3 = 2. / ",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8e5734c6cd840b6c6844cdd0c4c05cfb6ee65e6bd14795c3b78ce157f2f5878c"
+ },
+ "paginas": [
+  45
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "\n=\n−\n\n−\n=\nn\n1\ni\n10\n/)i,\nnT\n,\nm\n2\nD\ni,\nAr\nL\n(\nA\n,\nnT\n,\nm\n2\n10\nlg\n10\nD\n[dBA]\n(A.5)\nsiendo\nD2m,nT,idiferencia de niveles estandarizada, en la banda de frecuencia i, [dB];\nLAr,i\nvalor del espectro normalizado del ruido rosa, ponderado A, en la banda de frecuencia i, [dBA];\ni\nrecorre todas las bandas de frecuencia de tercio de octava de 100 Hz a 5 kHz.\nEn caso de que el ruido exterior dominante sea el ferroviario o el de estaciones ferroviarias también se\nutilizará este índice para la valoración global, pero usando los valores del espectro normalizado de ruido\nferroviario o de estaciones ferroviarias, ponderado A.\nDiferencia de niveles estandarizada, ponderada A, en fachadas, en cubiertas y en suelos en con-\ntacto con el aire exterior para ruido de automóviles, D2m,nT,Atr: Valoración global, en dBA, de la dife-\nrencia de niveles estandarizada de una fachada, una cubierta, o un suelo en contacto con el aire exterior,\nD2m,nT para un ruido exterior de automóviles.\nSe define mediante la expresión siguiente:\n\n=\n−\n\n−\n=\nn\n1\ni\n10\n/)i,\nnT\n,\nm\n2\nD\ni,\nAtr\nL\n(\nAtr\n,\nnT\n,\nm\n2\n10\nlg\n10\nD\n[dBA]\n(A.6)",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0045.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

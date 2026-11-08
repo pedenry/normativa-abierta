@@ -1,0 +1,131 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": "2.4.3",
+  "ruta_semantica": "Fragmento de PDF p13",
+  "titulo": "2.4.3 Estados límite de servicio 2.4.3.1 Verificaciones a efectuar",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p13",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p13",
+  "referencias_filtradas": [
+   "DB-SE",
+   "UNE 22381",
+   "apartado 2.2.1.3",
+   "apartado 2.3.2.2",
+   "apartado 4.3.2"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / 2.4.3 Estados límite de servicio 2.4.3.1 Verificaciones a efectuar",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3873cf0d47b04229bb1745eed63116f282c62e9d2658168b25a88972ec78507e"
+ },
+ "paginas": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  "12",
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2.4.3 Estados límite de servicio 2.4.3.1 Verificaciones a efectuar\n2.4.3.1 Verificaciones a efectuar\n1\nPara las diferentes situaciones de dimensionado se deben verificar los estados límite de servicio\ncorrespondientes, según se indica en el apartado 2.2.1.3.\n2\nLos módulos de deformación del terreno necesarios para la verificación de un adecuado comporta-\nmiento de la cimentación en servicio se representarán por sus valores medios representativos.\n3\nEl comportamiento adecuado de la cimentación, en relación con un determinado criterio, queda\nverificado si se cumple, para las situaciones de dimensionado pertinentes, la condición:\nEser Clim\n(2.5)\nsiendo\nEser\nel efecto de las acciones para una determinada situación de dimensionado;\nClim\nel valor límite para el mismo efecto.\n4\nEl valor de cálculo de los efectos de las acciones se determinará, para cada situación de dimensio-\nnado y cada criterio a verificar, a partir de la combinación de acciones que le corresponda entre las\nindicadas en el apartado 4.3.2 del DB-SE o según el apartado 2.3.2.2.\n5\nLos valores límite para los distintos efectos de las acciones deben estar en concordancia con el\nobjetivo de cada comprobación específica y se deben determinar para cada caso en el proyecto.\n6\nPara la determinación de los valores límite de los movimientos de la cimentación se tendrán en\ncuenta los siguientes aspectos:\na)\ngrado de fiabilidad en la estimación de dichos movimientos, en los casos de que se utilicen\nmétodos alternativos a los indicados en este DB;\nb)\nposibles movimientos del terreno y su evolución en el tiempo;\nc)\ntipo de estructura y materiales del edificio;\nd)\ntipo de cimentación y características del terreno;\ne)\ndistribución de cargas en el edificio;\nf)\nproceso constructivo del edificio;\ng)\nuso que se vaya a dar al edificio.\n7\nLos desplazamientos y deformaciones admisibles de las estructuras o servicios próximos, ajenos a\nla obra proyectada, se definirán en función de sus características y estado.\n8\nLa verificación de los estados límite de servicio relacionados con los movimientos de la cimentación\npodrá llevarse a cabo, mediante criterios basados en valores límite para los siguientes parámetros\n(véase Figura 2.1):\nFigura 2.1. Definiciones básicas del movimiento de cimentaciones\n\nDocumento Básico SE-C Cimientos\nSE-C-9\na)\nasiento, s, definido como el descenso de cualquier punto de la cimentación de un edificio (Ej.:\nsA);\nb)\nasiento diferencial, s, definido como la diferencia de asiento entre dos puntos cualesquiera de\nla cimentación;\nA\nB\nAB\ns\ns\ns\n\n\n\n(2.6)\nc)\ndistorsión angular, , definida como el asiento diferencial entre dos puntos dividido por la dis-\ntancia que les separa.\nAB\nA\nB\nAB\nAB\nAB\nL\ns\ns\nL\ns\n\n\n\n\n\n(2.7)\nSe denomina giro relativo o rotación relativa cuando el asiento diferencial está referido a la\ndistancia medida según la línea que define la inclinación media de la cimentación (línea A’ D’\nen la Figura 2.1);\nd)\ninclinación, , definida como el ángulo girado con respecto a la vertical según la línea media\nque define la posición deformada de la cimentación;\ne)\ndesplazamiento horizontal, x, definido como el movimiento horizontal de cualquier punto de la\ncimentación (Ej: xA);\nf)\ndesplazamiento horizontal diferencial, x, definido como la diferencia de movimiento horizontal\nentre dos puntos cualesquiera de la cimentación;\nA\nB\nAB\nx\nx\nx\n\n\n\n(2.8)\ng)\ndistorsión horizontal  definida como el desplazamiento horizontal diferencial entre dos puntos\ndividido por la distancia que los separa.\nAB\nA\nB\nAB\nAB\nAB\nL\nx\nx\nL\nx\n\n\n\n\n\n(2.9)\n9\nEn el caso de que no se especifiquen en el proyecto los valores límites de servicio de los movimien-\ntos de la cimentación del edificio podrán adoptarse los indicados en las tablas 2.2 y 2.3.\nTabla 2.2. Valores límite basados en la distorsión angular\nTipo de estructura\nLimite\nEstructuras isostáticas y muros de contención\n1/300\nEstructuras reticuladas con tabiquería de separación\n1/500\nEstructuras de paneles prefabricados\n1/700\nMuros de carga sin armar con flexión cóncava hacia arriba\n1/1000\nMuros de carga sin armar con flexión cóncava hacia abajo\n1/2000\nTabla 2.3.  Valores límite basados en la distorsión horizontal\nTipo de estructura\nLimite\nMuros de carga\n1/2000\n10\nEn los capítulos relativos a los diferentes tipos de cimentación se encuentran otros criterios de veri-\nficación de la aptitud al servicio de éstas relacionados más específicamente con los materiales y\nprocedimientos de construcción empleados.\n11\nPara las vibraciones previstas de corta duración se comprobará que los valores máximos de los\ncomponentes del vector velocidad del terreno y cimentación quedan por debajo de los valores esta-\nblecidos en las tablas 2.4 y 2.5.\n\nDocumento Básico SE-C Cimientos\nSE-C-10\n12\nPara vibraciones estacionarias se comprobará que las vibraciones horizontales medidas en el piso\nmás alto sean inferiores a 5 mm/s, y las verticales medidas en el centro de los forjados o techos\npermanezcan por debajo de 10 mm/s.\nTabla 2.4. Valores de referencia para el valor pico de la vibración del terreno en su mayor componente\nfrente a vibraciones de corta duración (UNE 22381:1993)\nClase de edificio\nFrecuencia principal (Hz)\n2-15\n15-75\n>75\nVelocidad\n[mm/s]\nDesplazamiento(1)\n[mm]\nVelocidad\n[mm/s]\nEdificios y naves industriales ligeras con estructuras de\nhormigón armado o metálicas.\n20\n0,212\n100\nEdificios de viviendas y otros similares en su construcción\ny/o en su utilización.\n9\n0,095\n45\nEdificios especialmente sensibles a las vibraciones.\n4\n0,042\n20\n(1)\nEn los tramos de frecuencias comprendidas entre 15 y 75 Hz se podrá calcular la velocidad equivalente conociendo la\nfrecuencia principal a través de la ecuación:\nv = 2· ·f · d\nsiendo\nv\nla velocidad de vibración equivalente en mm/s\nf\nla frecuencia principal en Hz\nd\nel desplazamiento admisible en mm indicado en la tabla\nTabla 2.5.  Valores de referencia para la velocidad de vibración (mm/s) de las cimentaciones frente a\nvibraciones de corta duración\nClase de edificio\nCimientos\nNivel del techo\ndel piso mas alto\nhabitable\nForjados o\nTechos\nValor máximo de las 3 componentes del\nvector velocidad\nVibraciones\nhorizontales en\ndos direcciones\nVibración ver-\ntical en el cen-\ntro\nFrecuencias\nTodas las fre-\ncuencias\nTodas las\nfrecuencias\n< 10 Hz\n10 a 15 Hz\n50 a 100(1) Hz\nEdificios\nutilizados\npara\nactividades\nindustriales\ny\nedificios industriales\n20\n20 a 40\n40 a 50\n40\n20\nEdificios de viviendas y otros\nsimilares en su construcción\ny/o su utilización. Edificios\ncon enlucidos\n5\n5 a 15\n15 a 20\n15\nEdificios\nespecialmente\nsensibles a las vibraciones\n3\n3 a 8\n8 a 10\n8\n(1) Para frecuencias superiores a 100 Hz se deben aplicar, como mínimo, los valores de referencia para 100 Hz\n\nDocumento Básico SE-C Cimientos\nSE-C-11\n3",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE",
+  "UNE 22381",
+  "apartado 2.2.1.3",
+  "apartado 2.3.2.2",
+  "apartado 4.3.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png",
+  "../figura/p0014.png",
+  "../figura/p0015.png",
+  "../figura/p0016.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0015",
+  "ruta_oficial": null,
+  "ruta_semantica": "VI Laboratorios de ensayo",
+  "titulo": "VI Laboratorios de ensayo",
+  "nivel": 2,
+  "parent_id": null,
+  "seccion_estimada": "VI Laboratorios de ensayo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 7,
+   "bbox": [
+    70.9,
+    71.1,
+    268.2,
+    86.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "fd1dd412963d0aa11790310e8e535a2beb71ebb81e1d02209e6ab2a7cfd46be1",
+   "literal": "VI Laboratorios de ensayo"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0007",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "Real Decreto\n411/1997",
+   "Real Decreto 1072/2015",
+   "Real Decreto 1715/2010",
+   "Real Decreto 2200/1995",
+   "Real Decreto 239/2013",
+   "Real Decreto 338/2010"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "VI Laboratorios de ensayo",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo SI A de este DB deberán cumplir, salvo indicación en otro sentido, las condiciones particulares / VI Laboratorios de ensayo",
+   "seccion_estimada": "Anejo SI A de este DB deberán cumplir, salvo indicación en otro sentido, las condiciones particulares",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cf186d68f28240b1e08802722d50b45aa5aef0f88ecd569f6d27b17bce1a7f1e"
+ },
+ "paginas": [
+  7
+ ],
+ "etiquetas_impresas": [
+  "7"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "VI Laboratorios de ensayo\nLaboratorios de ensayo\nLa clasificación, según las características de reacción al fuego o de resistencia al fuego, de los productos\nde construcción que aún no ostenten el marcado CE o los elementos constructivos, así como los ensa-\nyos necesarios para ello deben realizarse por laboratorios acreditados por una entidad oficialmente reco-\nnocida conforme al Real Decreto 2200/1995 de 28 de diciembre, modificado por el Real Decreto\n411/1997 de 21 de marzo, Real Decreto 338/2010, de 19 de marzo, Real Decreto 1715/2010, de 17 de\ndiciembre, Real Decreto 239/2013, de 5 de abril y Real Decreto 1072/2015, de 27 de noviembre.\nEn la fecha en la que los productos sin marcado CE se suministren a las obras, los certificados de ensa-\nyo y clasificación antes citados deberán tener una antigüedad menor que 5 años cuando se refieran a\nreacciónal fuego y menor que 10 años cuando se refieran a resistencia al fuego.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto\n411/1997",
+  "Real Decreto 1072/2015",
+  "Real Decreto 1715/2010",
+  "Real Decreto 2200/1995",
+  "Real Decreto 239/2013",
+  "Real Decreto 338/2010"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

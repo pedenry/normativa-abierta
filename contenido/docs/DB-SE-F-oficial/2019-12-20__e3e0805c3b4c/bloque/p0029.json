@@ -1,0 +1,283 @@
+{
+ "documento": null,
+ "pagina": 29,
+ "etiqueta_impresa": "1",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-25",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.4,
+    253.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nCuando un muro se ejecuta entre extremos capaces de resistir empuje, puede suponerse que las\nacciones perpendiculares a su plano se resisten mediante arcos verticales u horizontales, si se adop-\ntan las medidas constructivas adecuadas a ese comportamiento.\n2\nEl cálculo como arco se basa en el de tres articulaciones, dos en los extremos y uno en una sección\nintermedia, situadas en el centro de bielas de ancho 0,1·td, siendo td el canto del sólido capaz en\ndonde se puede inscribir el arco (figura 5.10)\n3\nLa altura del arco, r, viene dada por la ecuación:\nr  =  2/3 · (td - d)\n(5.30)\nsiendo:\ntd\nel canto del arco\nd\nla deformación del arco debida al valor de cálculo de la acción lateral; puede despreciarse para\npaños con una relación de longitud a canto de no más de 25. En otro caso resulta del lado de la\nseguridad adoptar d = td /4",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    178.2,
+    511.1,
+    485.7,
+    546.5
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.10 Comportamiento del muro como arco rebajado.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    547.9,
+    541.4,
+    612.0
+   ],
+   "tipo": "texto",
+   "texto": "4\nA efectos de comprobar la capacidad de respuesta de los estribos, como valor de cálculo del empuje\nmáximo, por unidad de longitud o altura del muro, Nad, puede tomarse:\nNad = qd·L2 / 4·td\n(5.31)\ny cuando la deformación lateral es pequeña, la resistencia lateral de cálculo, qRd, es:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    191.8,
+    657.9,
+    195.7,
+    664.9
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    242.9,
+    618.0,
+    246.8,
+    625.0
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    139.3,
+    624.3,
+    235.0,
+    644.6
+   ],
+   "tipo": "texto",
+   "texto": "d\n2\n2\nd\nd\nd",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    100.6,
+    656.1,
+    192.5,
+    670.0
+   ],
+   "tipo": "texto",
+   "texto": "Rd\nL",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    136.4,
+    626.4,
+    231.0,
+    650.4
+   ],
+   "tipo": "texto",
+   "texto": "E\n2\nf\nL\n3\nt\n2\n1\n2\nt\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    95.3,
+    645.0,
+    132.9,
+    669.0
+   ],
+   "tipo": "texto",
+   "texto": "9\n16\nq",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    238.7,
+    627.0,
+    242.5,
+    647.9
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    238.7,
+    645.3,
+    242.5,
+    656.7
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    238.7,
+    620.7,
+    242.5,
+    632.1
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    143.9,
+    627.0,
+    147.7,
+    647.9
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    143.9,
+    645.3,
+    147.7,
+    656.7
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    143.9,
+    620.7,
+    147.7,
+    632.1
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    217.7,
+    638.9,
+    220.2,
+    650.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    161.0,
+    624.9,
+    226.7,
+    642.6
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    113.3,
+    649.7,
+    541.4,
+    661.2
+   ],
+   "tipo": "texto",
+   "texto": "\n(5.32)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    674.8,
+    541.5,
+    748.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nfd\nla resistencia de cálculo de la fábrica\ntd\nel canto del arco\nL\nla longitud o altura del arco\n5\nPequeñas variaciones en el valor de L pueden alterar los valores obtenidos en el cálculo del arco, por\nlo que esta comprobación no es fiable para fábricas que tengan retracción en su dirección.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

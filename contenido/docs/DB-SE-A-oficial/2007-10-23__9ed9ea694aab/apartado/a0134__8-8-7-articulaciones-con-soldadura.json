@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0134",
+  "ruta_oficial": "8.8.7",
+  "ruta_semantica": "8.8.7 Articulaciones con soldadura.",
+  "titulo": "8.8.7 Articulaciones con soldadura.",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "8.8.7 Articulaciones con soldadura.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 95,
+   "bbox": [
+    74.1,
+    139.0,
+    244.8,
+    150.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "537fcefc44d5939c76e7edfd67a59dd16a9e828ce036555fb6222ece62accf8e",
+   "literal": "8.8.7 Articulaciones con soldadura."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0127",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "une la"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.8.7 Articulaciones con soldadura.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / 8.8.7 Articulaciones con soldadura.",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f5ebefb60c4cf6e3675215be1939681835d2f28cd839c5702accbad81e148fa0"
+ },
+ "paginas": [
+  95,
+  96
+ ],
+ "etiquetas_impresas": [
+  "95",
+  "96"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "8.8.7 Articulaciones con soldadura.\n1\nSe consideran los siguientes tipos, en los que se indica la posición de la articulación, a menudo ex-\ncéntrica respecto de la pieza de soporte:\na)\nSoldadura de alma (figura 8.21.a). Se cuidará que el elemento (soporte, carrera, etc.) al que\nse une la viga permita en su extremo el giro suficiente. Debe comprobarse la resistencia a cor-\ntante de la región soldada del alma de la viga.\nFigura 8.21 Articulaciones soldadas\nb)\nApoyo de viga sobre casquillo de angular. Se debe comprobar la resistencia del alma de la vi-\nga frente a la reacción y, por tanto, la necesidad de incluir rigidizadores. Se considerará que la\nreacción, Rd, está situada como se indica en la figura 8.21.b, para casquillos rigidizados y que\nactúa sobre el extremo de la viga (véase figura 8.21.c) cuanto no lo están.\nSe comprobará el ala del casquillo de angular a cortante (se considerará válido en este caso\nel cordón de soldadura si tiene una anchura de garganta de 0,7 veces el espesor del ala del\nangular) si éste no está rigidizado, y el rigidizador así como las soldaduras en caso contrario.\nc)\nArticulación con doble casquillo soldado. Se debe asegurar que la viga principal o soporte al\nque se une la viga articulada, permite un giro suficiente, así como la flexibilidad del casquillo,\nlo que exige no disponer cordones horizontales de soldadura..\nPara la comprobación de las soldaduras se considerará la reacción situada en la cara de los\ncasquillos soldados a la viga principal (figura 8.21.d).\nb) casquillo rigidizado\nd\nd\nRd\nRd\nRd\nc) casquillo sin rigidizador\nd) doble casquillo soldado\nRd\na=0,7t\nRd\nviga soporte\nNo soldar\nhorizontalmente\na) soldadura de alma\n\nDocumentoBásico SE-A Acero\nSE-A-94",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "une la"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0095_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0095.png",
+  "../figura/p0096.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

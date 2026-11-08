@@ -1,0 +1,141 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0045",
+  "ruta_oficial": "3.2.6",
+  "ruta_semantica": "3.2.6 Ensayos de laboratorio",
+  "titulo": "3.2.6 Ensayos de laboratorio",
+  "nivel": 1,
+  "parent_id": "a0010",
+  "seccion_estimada": "3.2.6 Ensayos de laboratorio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 20,
+   "bbox": [
+    70.9,
+    597.5,
+    242.4,
+    609.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "66009520cf02efb8503b0df0059b78b64be001de82f61d0baad3078813e20df0",
+   "literal": "3.2.6 Ensayos de laboratorio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0055",
+  "parent_id_original": "a0010",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-HS",
+   "UNE 80303-1"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "3.2.6 Ensayos de laboratorio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0010",
+   "ruta_semantica": "Anejo G. Normas de referencia / 3.2.6 Ensayos de laboratorio",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "316f0ea685242917f58b6d188dc421f9ccdbb7794ec754a4d4c2dc16680dd621"
+ },
+ "paginas": [
+  20,
+  21,
+  22,
+  23
+ ],
+ "etiquetas_impresas": [
+  null,
+  "4",
+  "2",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.2.6 Ensayos de laboratorio\n1\nDe todas las muestras obtenidas en calicatas o sondeos se hará una descripción detallando aque-\nllos aspectos que no son objeto de ensayo, como el color, olor, litología de las gravas o trozos de\nroca, presencia de escombros o materiales artificiales, etc, así como eventuales defectos en la cali-\ndad de la muestra, para ser incluida en algunas de las categorías A o B.\n2\nEl número de determinaciones del valor de un parámetro de una unidad geotécnica investigada\nserá el adecuado para que éste sea fiable. Para una superficie de estudio de hasta 2000 m2, en ca-\nda unidad de importancia geotécnica se considera orientativo el número de determinaciones que se\nindica en la tabla 3.7.\n3\nDeberá procurarse que los valores se obtengan de muestras procedentes de puntos de investiga-\nción diferentes, una vez que se hayan identificado como pertenecientes a la misma capa. Las de-\nterminaciones se podrán obtener mediante ensayos en laboratorio, o si es factible con ensayos in\nsitu, aplicando las oportunas correlaciones si fueran necesarias.\n\nDocumento Básico SE-C Cimientos\nSE-C-16\n4\nPara superficies mayores se multiplicarán los números de la tabla 3.7 por (s/2000)1/2, siendo s la\nsuperficie de estudio en m2.\nTabla 3.7. Número orientativo de determinaciones in situ o ensayos de laboratorio para superficies de estu-\ndio de hasta 2000 m2\nPropiedad\nTerreno\nT-1\nT-2\nIdentificación\nGranulometría\nPlasticidad\nDeformabilidad\nArcillas y limos\nArenas\nResistencia a compresión simple\nSuelos muy blandos\nSuelos blandos a duros\nSuelos fisurados\nResistencia al corte\nArcillas y Limos\nArenas\nContenido de sales agresivas\n3\n3\n4\n3\n4\n4\n5\n3\n3\n3\n6\n5\n6\n5\n6\n5\n7\n4\n5\n4\n5\nLos ensayos indicados en la tabla 3.7 corresponden a cada unidad geotécnica que pueda ser afec-\ntada por las cimentaciones. El número de determinaciones in situ o ensayos indicados corresponde\na edificios C-1 ó C-2. Para edificios C-3 o C-4 los valores del cuadro se recomienda incrementarlos\nen un 50%.\n6\nPara terrenos tipo T-3 se decidirá el tipo y número de determinaciones, que nunca serán inferiores a\nlas indicadas para el T-2.\n7\nEn la tabla D.18 se indican ensayos considerados adecuados para la determinación de las propie-\ndades más usuales de un suelo o de una roca matriz.\n8\nLos resultados de los ensayos granulométricos de suelos permitirán matizar los criterios de clasifi-\ncación denominándolos con una palabra según su componente principal que podrá acompañarse\nde calificativos y sufijos según los componentes secundarios teniendo en cuenta el baremo de pro-\nporción en % de peso de cada fracción de suelo según se indica en las tablas D.20 y D.21.\n9\nPara la comprobación de los estados límite considerados en los distintos capítulos de este DB se\ndistinguirá entre aquellos suelos cuya proporción en finos (limo + arcilla) sea inferior al 35% y los\nque superen dicha proporción, pudiéndose denominar unos y otros tal y como se indica en las ta-\nblas D.20 y D.21.\n10\nLa acidez Baumann-Gully y el contenido en sulfatos, detectados en muestras de suelo y rocas, así\ncomo determinados componentes químicos, presentes en el agua freática, permiten clasificar la\nagresividad química del terreno frente al hormigón. En la tabla D.22 figura la clasificación de la\nagresividad química recogida en la Instrucción de Hormigón Estructural EHE.\n11\nPara caracterizar la agresividad del agua freática se tomará como mínimo una muestra en el 50%\nde los sondeos.\n12\nLa Instrucción EHE establece el empleo de cementos que posean resistencia adicional a los sulfa-\ntos, según la norma UNE 80303-1:2017, para una exposición tipo Q, es decir, siempre que el con-\ntenido en sulfatos del terreno sea igual o mayor a 3000 mg/kg (SO42- en suelos  3000 mg/kg) y de\n600 mg/kg en el agua freática (SO42- en aguas  600 mg/l).\n3.3\nContenido del estudio geotécnico\n1\nEl estudio geotécnico incluirá los antecedentes y datos recabados, los trabajos de reconocimiento\nefectuados, la distribución de unidades geotécnicas, los niveles freáticos, las características geo-\ntécnicas del terreno identificando en las unidades relevantes los valores característicos de los pa-\nrámetros obtenidos y los coeficientes sismorresistentes, si fuere necesario.\n\nDocumento Básico SE-C Cimientos\nSE-C-17\n2\nEn el estudio se recogerá la distribución de unidades geotécnicas diferentes, sus espesores, exten-\nsión e identificación litológica, hasta la profundidad establecida en los reconocimientos. Para ello se\nelegirán los perfiles geotécnicos longitudinales y transversales que mejor representen la distribución\nde estas unidades. Para los edificios de categoría C-0 y C-1 el número de perfiles mínimo será de\ndos y para el resto de tres. Se determinará en su caso la unidad geotécnica resistente, así como las\nagrupaciones de unidades geotécnicas de similares características. Igualmente se recogerá la pro-\nfundidad de las aguas freáticas y, en su caso, las oscilaciones de las mismas.\n3\nDe cada una de las unidades geotécnicas relevantes se dará su identificación, en los términos con-\ntenidos en las tablas de este DB, y de acuerdo con los ensayos y otra información de contraste utili-\nzada, los parámetros esenciales para determinar la resistencias de cada unidad geotécnica, tales\ncomo densidad, rozamiento, cohesión, y los de deformabilidad, expansividad, colapso, y parámetros\nde agresividad de agua y terreno.\n4\nEn municipios con aceleración sísmica de al menos 0,08 g, o si se ha solicitado expresamente, de\ncada sondeo, se identificará la clasificación de cada unidad geotécnica o estrato a efectos de su\ncomportamiento sísmico, según la NSCE. Si no se ha explorado hasta 30 m de profundidad, se jus-\ntificará el valor asignado a los estratos por debajo de la profundidad explorada. El coeficiente C de\ncada sondeo se establecerá como promedio del valor de cada estrato, ponderado con su espesor.\nSi los resultados de los distintos sondeos son diferentes, se concluirá, justificadamente, el valor C\ncon el que debe obtenerse tanto la acción sísmica del emplazamiento, como el cálculo de dicho\nefecto en el edificio y sus cimientos. La justificación será tanto más matizada cuanto más se aparte\nel valor de C de 1,15\n5\nLos resultados del estudio, incluyendo la descripción del terreno, se referirán a las distintas unida-\ndes geotécnicas. En su caso, las posibles alternativas de solución de cimentación, excavación o\nelementos de contención en su caso, técnica y económicamente viables, se establecerán de acuer-\ndo con los problemas planteados así como de la posible interacción con otros edificios y servicios\npróximos.\n6\nEl estudio geotécnico contendrá un apartado expreso de conclusiones y, en su caso, a petición del\nproyectista o del Director de Obra, de recomendaciones constructivas en relación con la cimenta-\nción e incluirá los anejos necesarios. En el apartado de conclusiones y recomendaciones se recoge-\nrán éstas de tal forma que se puedan adoptar las soluciones más idóneas para la realización del\nproyecto para el que se ha hecho el estudio geotécnico. Asimismo se indicarán los posibles trabajos\ncomplementarios a realizar en fases posteriores, antes o durante la obra, a fin de subsanar las limi-\ntaciones que se hayan podido observar.\n7\nLas recomendaciones antedichas serán cualitativas y cuantitativas, concretando todos los valores\nnecesarios con la precisión requerida para ser utilizados para el análisis y dimensionado de los ci-\nmientos, los elementos de contención o el movimiento de tierras.\n8\nEl estudio, en función del tipo de cimentación, debe establecer los valores y especificaciones nece-\nsarios para el proyecto relativos a:\na)\ncota de cimentación;\nb)\npresión vertical admisible (y de hundimiento) en valor total y, en su caso, efectivo, tanto bruta\ncomo neta;\nc)\npresión vertical admisible de servicio (asientos tolerables) en valor total y, en su caso, efectivo,\ntanto bruta como neta;\nd)\nen el caso de pilotes, resistencia al hundimiento desglosada en resistencia por punta y por fus-\nte;\ne)\nparámetros geotécnicos del terreno para el dimensionado de elementos de contención. Empu-\njes del terreno: activo, pasivo y reposo;\nf)\ndatos de la ley “tensiones en el terreno-desplazamiento” para el dimensionado de elementos\nde pantallas u otros elementos de contención;\ng)\nmódulos de balasto para idealizar el terreno en cálculos de dimensionado de cimentaciones y\nelementos de contención, mediante modelos de interacción suelo-estructura;\nh)\nresistencia del terreno frente a acciones horizontales;\ni)\nasientos y asientos diferenciales, esperables y admisibles para la estructura del edificio y de\nlos elementos de contención que se pretende cimentar;\n\nDocumento Básico SE-C Cimientos\nSE-C-18\nj)\ncalificación del terreno desde el punto de vista de su ripabilidad, procedimiento de excavación\ny terraplenado más adecuado. Taludes estables en ambos casos, con carácter definitivo y du-\nrante la ejecución de las obras;\nk)\nsituación del nivel freático y variaciones previsibles. Influencia y consideración cuantitativa de\nlos datos para el dimensionado de cimentaciones, elementos de contención, drenajes, taludes\ne impermeabilizaciones;\nl)\nla proximidad a ríos o corrientes de agua que pudieran alimentar el nivel freático o dar lugar a\nla socavación de los cimientos, arrastres, erosiones o disoluciones;\nm)\ncuantificación de la agresividad del terreno y de las aguas que contenga, para su calificación al\nobjeto de establecer las medidas adecuadas a la durabilidad especificada en cimentaciones y\nelementos de contención, de acuerdo con los Documentos Básicos relativos a la seguridad es-\ntructural de los diferentes materiales o la instrucción EHE;\nn)\ncaracterización del terreno y coeficientes a emplear para realizar el dimensionado bajo el efec-\nto de la acción sísmica;\no)\ncuantificación de cuantos datos relativos al terreno y a las aguas que contenga sean necesa-\nrios para el dimensionado del edificio, en aplicación de este DB, otros Documentos Básicos re-\nlativos a la seguridad estructural de los diferentes materiales o la instrucción EHE, y a otros\nDB, especialmente al DB-HS (Habitabilidad: Salubridad);\np)\ncuantificación  de los problemas que pueden afectar a la excavación especialmente en el caso\nde edificaciones o servicios próximos existentes y las afecciones a éstos;\nq)\nrelación de asuntos concretos, valores determinados y aspectos constructivos a confirmar\ndespués de iniciada la obra, al inicio de las excavaciones, o en el momento adecuado que así\nse indique, y antes de ejecutar la cimentación, los elementos de contención o los taludes pre-\nvistos.\n3.4",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "DB-HS",
+  "UNE 80303-1"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0020.png",
+  "../figura/p0021.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

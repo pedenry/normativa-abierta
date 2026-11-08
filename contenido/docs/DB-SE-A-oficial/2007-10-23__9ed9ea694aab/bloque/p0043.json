@@ -1,0 +1,363 @@
+{
+ "documento": null,
+ "pagina": 43,
+ "etiqueta_impresa": "43",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-41",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    78.0,
+    73.3,
+    541.4,
+    107.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nSe denomina eje de inercia material al que pasa por el centro de gravedad de las secciones de\ntodos los perfiles simples que forman la pieza y eje de inercia libre al que no cumple esa condi-\nción.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.0,
+    113.8,
+    541.5,
+    136.6
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn el plano perpendicular al eje de inercia material el pandeo se comprueba como si se tratase de\nuna barra simple.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    78.0,
+    142.8,
+    541.4,
+    200.1
+   ],
+   "tipo": "texto",
+   "texto": "5\nEn el plano perpendicular a un eje de inercia libre se adoptará una imperfección inicial de valor\nL/500, del lado desfavorable, que será ampliada por el factor 1/(1-r), siendo r la relación de la\ncompresión de cálculo a la compresión crítica. Para determinar ésta, la inercia equivalente podrá\nobtenerse mediante un análisis de deformación frente a acción lateral uniforme en un modelo que\nincluya individualizadamente los elementos secundarios, presillas o triangulaciones de la pieza.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    100.7,
+    206.3,
+    541.4,
+    252.0
+   ],
+   "tipo": "texto",
+   "texto": "Obtenidos los esfuerzos de cada cordón, a partir de los de la pieza completa y la excentricidad ci-\ntada, se comprobará cada tramo de cordón entre elementos secundarios suponiendo para éste\nuna imperfección inicial igual a la definida en la tabla 5.8, ampliada a partir de la relación entre la\ncarga del cordón y la crítica local de este, suponiendo articulaciones en los extremos del tramo.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    78.0,
+    258.3,
+    485.2,
+    269.5
+   ],
+   "tipo": "texto",
+   "texto": "6\nEn el caso particular de presillas, como compresión crítica podrá tomarse la expresión",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    134.0,
+    292.9,
+    182.3,
+    307.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nt\n2\nt\n2\n2\nk",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    150.7,
+    277.5,
+    154.6,
+    285.3
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    109.3,
+    290.8,
+    178.0,
+    305.8
+   ],
+   "tipo": "texto",
+   "texto": "cri\ni/\nl\ni/\nL",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    101.9,
+    279.3,
+    168.0,
+    296.8
+   ],
+   "tipo": "texto",
+   "texto": "EA\nN",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    155.3,
+    293.7,
+    160.8,
+    305.9
+   ],
+   "tipo": "texto",
+   "texto": "+",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    120.4,
+    278.3,
+    541.0,
+    296.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "π\n=\n(6.27)",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    100.7,
+    314.8,
+    135.7,
+    326.1
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    100.7,
+    332.3,
+    322.5,
+    343.5
+   ],
+   "tipo": "texto",
+   "texto": "A\nLa sección total de los cordones de la barra,",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    100.7,
+    349.8,
+    472.5,
+    361.8
+   ],
+   "tipo": "texto",
+   "texto": "Lk\nLa longitud de pandeo de la pieza completa como si fuese de sección conexa,",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    100.7,
+    367.3,
+    381.3,
+    378.6
+   ],
+   "tipo": "texto",
+   "texto": "i\nradio de giro de la pieza completa, como si fuese conexa,",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    100.7,
+    384.8,
+    273.6,
+    396.8
+   ],
+   "tipo": "texto",
+   "texto": "lt\nlongitud del tramo entre presillas,",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    100.7,
+    402.3,
+    234.0,
+    414.3
+   ],
+   "tipo": "texto",
+   "texto": "it\nradio de giro del cordón.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    78.1,
+    437.3,
+    541.4,
+    460.0
+   ],
+   "tipo": "texto",
+   "texto": "7\nPara el cálculo de los elementos de celosía o presillas, al cortante global de la pieza se añadirá el\nprocedente de la imperfección ampliada, que puede tomarse de valor",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    102.7,
+    467.1,
+    541.0,
+    493.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "r\n1\n1\n150\nN\nV\nEd\nEd\n−\n⋅\n=\n(6.28)",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    100.7,
+    500.3,
+    541.4,
+    534.6
+   ],
+   "tipo": "texto",
+   "texto": "Las piezas de enlace se unirán rígidamente a los cordones, bien mediante tornillos (al menos dos\nen el caso de presillas), bien mediante soldadura, y en el caso de las comprimidas se comproba-\nrán frente a inestabilidad por pandeo.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    78.0,
+    547.9,
+    140.8,
+    559.1
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3 Flexión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    78.0,
+    574.4,
+    151.4,
+    585.6
+   ],
+   "tipo": "texto",
+   "texto": "6.3.3.1 General",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    78.0,
+    593.8,
+    541.4,
+    628.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nUna viga sometida a momentos flectores dentro de su plano, puede pandear lateralmente en caso\nde que la separación entre apoyos laterales supere un determinado valor. En estos casos, será\nnecesario efectuar una verificación de la seguridad frente a pandeo lateral.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    78.0,
+    634.3,
+    541.4,
+    657.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn la determinación de la resistencia frente a pandeo lateral de una viga también se tendrá en\ncuenta la interacción con la abolladura de las chapas comprimidas",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    78.0,
+    663.3,
+    541.4,
+    709.0
+   ],
+   "tipo": "texto",
+   "texto": "3\nNo será necesaria la comprobación a pandeo lateral cuando el ala comprimida se arriostra de\nforma continua o bien de forma puntual a distancias menores de 40 veces el radio de giro mínimo.\nNo obstante, en estos casos se deberá asegurar una rigidez y una resistencia adecuadas de los\napoyos laterales.",
+   "tamano": 10.1,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

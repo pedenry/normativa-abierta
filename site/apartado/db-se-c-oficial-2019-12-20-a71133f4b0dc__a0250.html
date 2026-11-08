@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-C · E.5 Modelos de interacción. Módulo de balasto</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">DB-SE-C</a> › a0250</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">DB-SE-C</a> · E.5 Modelos de interacción. Módulo de balasto · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0250 · PDF pág. 135-138 · documento DB-SE-C · SHA256 a71133f4b0dc…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/apartado/a0250__e-5-modelos-de-interaccion-modulo-de-balasto.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/apartado/a0250__e-5-modelos-de-interaccion-modulo-de-balasto.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">Ámbito del documento</a> · <a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">documento y tablas</a></p>
+<nav><a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__a0249.html">← ID a0249 · PDF pág. 135</a> <a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__a0251.html">ID a0251 · PDF pág. 138 →</a></nav>
+<h1><span class="aviso">ID a0250 · PDF pág. 135-138</span> — E.5 Modelos de interacción. Módulo de balasto</h1>
+<p>ID técnico a0250 · PDF pág. 135-138 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 135 (candidato tipográfico); no validado por persona · padre: raíz</p>
+<pre class="literal">E.5 Modelos de interacción. Módulo de balasto
+1
+El módulo de balasto ks se define como el cociente entre la presión vertical, q, aplicada sobre un
+determinado punto de un cimiento directo y el asiento, s, experimentado por dicho punto:
+s
+q
+k s
+(E.5)
+2
+El módulo de balasto así definido, tiene unidades de densidad, lo que indica que la hipótesis efec-
+tuada equivale a suponer que el terreno es un líquido de densidad ks, sobre el que “flota” la cimen-
+tación.
+3
+La estimación del módulo de balasto podrá realizarse:
+a)
+A partir de ensayos de carga con placa (véase tabla D.7). De acuerdo con los efectos descritos
+en el apartado E.4.2 y dado que las placas de ensayo son necesariamente de pequeño tama-
+ño, se debe prestar especial atención a la conversión del módulo obtenido en el ensayo, ksp, al
+módulo de cálculo representativo de la anchura, B, real del cimiento, ksB,. A este respecto se
+recomienda emplear placas de diámetro equivalente igual o superior a 60 cm.
+b)
+A partir de la determinación de parámetros de deformabilidad representativos del terreno bajo
+la zona de influencia de la cimentación, ya sea mediante ensayos in situ o de laboratorio, y el
+posterior cálculo geotécnico de asientos.
+4
+La conversión del módulo para placa de 30 cm, ks30, al coeficiente de referencia, ksB, se puede ob-
+tener mediante las siguientes expresiones: (véase tabla D.29)
+5
+Para zapata cuadrada de ancho B:
+a)
+Para terrenos cohesivos:
+B
+3,0
+k
+k
+30
+sp
+sB
+(E.6)
+
+Documento Básico SE-C Cimientos
+SE-C-131
+b)
+Para terrenos granulares:
+2
+30
+sp
+sB
+B
+·
+2
+3,0
+B
+k
+k
+
+
+
+
+
+
+
+
+(E.7)
+6
+Para zapata rectangular de ancho B, en cualquier tipo de terreno:
+
+
+
+
+
+
+
+L·
+2
+B
+1
+k
+k
+sB
+sBL
+(E.8)
+7
+La conversión del módulo para placa de 60 cm (ks60) al coeficiente de referencia ksB se puede obte-
+ner mediante las siguientes expresiones:
+8
+Para zapata cuadrada de ancho B:
+a)
+Para terrenos cohesivos:
+B
+6,0
+k
+k
+60
+sp
+sB
+(E.9)
+b)
+Para terrenos granulares:
+2
+2
+60
+sp
+sB
+B
+·
+2
+3,0
+B
+6,0
+2
+3,0
+6,0
+k
+k
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(E.10)
+9
+Para la cimentación de losas y emparrillados la fiabilidad de los módulos de balasto obtenidos a
+partir de ensayos de carga puede resultar insuficiente, dados los efectos de escala implicados
+(véase el apartado E.4.2). En estas circunstancias, se recomienda recurrir a la comprobación de di-
+chos módulos siguiendo los criterios del párrafo 3.b) anterior o, alternativamente, recurrir al empleo
+de métodos y modelos del terreno más avanzados.
+10
+La observación anterior puede cobrar especial importancia en el caso de existir terrenos heterogé-
+neos en la vertical (terrenos estratificados), cuando bajo un estrato rígido surge otro más deforma-
+ble. En estas circunstancias (véase la Figura E.8) el reducido bulbo de tensiones de la placa de en-
+sayo puede quedar limitado a las zonas más competentes del terreno, y no reflejar la deformabili-
+dad del conjunto terreno-cimentación.
+Figura E.8. Limitaciones del ensayo de carga con placa en terrenos estratificados
+
+Documento Básico SE-C Cimientos
+SE-C-133</pre>
+<h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0135.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0135.png" alt="Página 135"></a><figcaption>Página visual 135 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0136.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0136.png" alt="Página 136"></a><figcaption>Página visual 136 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0138.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0138.png" alt="Página 138"></a><figcaption>Página visual 138 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

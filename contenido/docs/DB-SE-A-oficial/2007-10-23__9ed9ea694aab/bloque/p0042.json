@@ -1,0 +1,340 @@
+{
+ "documento": null,
+ "pagina": 42,
+ "etiqueta_impresa": "42",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-40",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    100.7,
+    73.2,
+    538.6,
+    102.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Si los tramos sucesivos tienen diferente relación\ncri\nN\n/\nN\n, la aproximación de β obtenida, y por tan-\nto la de la misma\ncri\nN\n, están del lado de la seguridad.",
+   "tamano": 10.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    225.5,
+    364.3,
+    393.6,
+    374.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.5 Coeficientes de distribución",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    78.0,
+    380.7,
+    541.4,
+    403.4
+   ],
+   "tipo": "texto",
+   "texto": "4\nLos coeficientes de rigidez eficaz de las vigas pueden determinarse de acuerdo con la tabla 6.5,\nsiempre que permanezcan elásticas bajo los momentos de cálculo.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    136.2,
+    427.2,
+    483.0,
+    437.2
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 6.5 Coeficiente de rigidez eficaz para una viga en comportamiento elástico",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    78.2,
+    444.0,
+    508.9,
+    470.9
+   ],
+   "tipo": "texto",
+   "texto": "Coeficiente de rigidez eficaz K de la viga\nCondiciones de coacción al giro en la vi-\nga en el extremo contrario al considerado.\nsin compresión relevante\ncon compresión(1)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    147.2,
+    477.8,
+    516.0,
+    488.2
+   ],
+   "tipo": "texto",
+   "texto": "empotrado\n1,0 EI/L\n1,0 EI/L (1-0,4 N/Ncri)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    149.2,
+    494.6,
+    518.5,
+    505.0
+   ],
+   "tipo": "texto",
+   "texto": "articulado\n0,75 EI/L\n0,75 EI/L (1 - 1,0 N/Ncri)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    118.0,
+    511.5,
+    513.5,
+    521.9
+   ],
+   "tipo": "texto",
+   "texto": "giro igual y de igual signo\n1,5 EI/L\n1,5 EI/L (1-0,2 N/Ncri)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    107.9,
+    528.3,
+    513.5,
+    538.7
+   ],
+   "tipo": "texto",
+   "texto": "giro igual y y de signo opuesto\n0,5 EI/L\n0,5 EI/L (1-1,0 N/Ncri)",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    79.4,
+    544.9,
+    260.5,
+    556.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "giro θa en el nudo considerado y giro θb en el",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    161.0,
+    550.1,
+    472.8,
+    566.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "otro\n(1 + 0,5 θb / θa) EI/L\n-",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    78.0,
+    571.2,
+    514.8,
+    583.4
+   ],
+   "tipo": "texto",
+   "texto": "(1) Ncri se refiere al valor crítico a compresión de la viga considerada. El caso general (-) no está contemplado",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    100.7,
+    607.3,
+    541.3,
+    641.5
+   ],
+   "tipo": "texto",
+   "texto": "Cuando por la situación de dimensionado considerada, el momento de cálculo en cualquiera de\nlas vigas supera a Welfyd debe suponerse que la viga está articulada en el punto o puntos corres-\npondientes.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    78.0,
+    655.0,
+    255.8,
+    666.1
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2.6 Barras de sección compuesta",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    78.0,
+    674.4,
+    541.4,
+    697.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe denominan así a las piezas formadas por dos o más perfiles, enlazados mediante presillas o\nmediante una celosía triangular, de trazado regular y disposición simétrica",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    78.0,
+    703.3,
+    541.4,
+    737.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nEl número de tramos en que queda dividida la barra de sección compuesta por los elementos de\nenlace será igual o superior a 4, existiendo siempre un elemento de enlace al principio y al final de\nla barra.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    213.4,
+    227.3,
+    290.2,
+    236.6
+   ],
+   "tipo": "texto",
+   "texto": "Pilar a comprobar: Kc",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    347.8,
+    215.2,
+    451.4,
+    225.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Coeficiente de distribución η1",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    345.9,
+    278.2,
+    449.5,
+    288.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Coeficiente de distribución η2",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    331.9,
+    161.3,
+    341.4,
+    170.6
+   ],
+   "tipo": "texto",
+   "texto": "K1",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    333.4,
+    300.8,
+    342.9,
+    310.1
+   ],
+   "tipo": "texto",
+   "texto": "K2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    272.7,
+    184.5,
+    378.7,
+    194.6
+   ],
+   "tipo": "texto",
+   "texto": "K12\nK11",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    271.9,
+    252.0,
+    377.9,
+    262.1
+   ],
+   "tipo": "texto",
+   "texto": "K22\nK21",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

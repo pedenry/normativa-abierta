@@ -1,0 +1,413 @@
+{
+ "documento": null,
+ "pagina": 74,
+ "etiqueta_impresa": "74",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    192.5,
+    35.9,
+    419.3,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo E. Resistencia al fuego de las estructuras de madera",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    795.2,
+    311.9,
+    806.3
+   ],
+   "tipo": "texto",
+   "texto": "74",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    88.8,
+    71.3,
+    541.2,
+    82.4
+   ],
+   "tipo": "texto",
+   "texto": "b) que la resistencia de cálculo y los parámetros de cálculo de la rigidez se consideran constantes",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    108.1,
+    82.7,
+    541.0,
+    105.3
+   ],
+   "tipo": "texto",
+   "texto": "durante el incendio, tomando como tales los valores característicos multiplicados por el siguiente\nfactor kfi :",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    108.1,
+    111.7,
+    537.3,
+    122.8
+   ],
+   "tipo": "texto",
+   "texto": "para: madera maciza\nkfi = 1,25",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    134.8,
+    129.2,
+    537.3,
+    140.4
+   ],
+   "tipo": "texto",
+   "texto": "madera laminada encolada\nkfi = 1,15",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    134.8,
+    146.8,
+    537.3,
+    157.9
+   ],
+   "tipo": "texto",
+   "texto": "tableros derivados de la madera\nkfi = 1,15",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    134.8,
+    164.3,
+    537.3,
+    175.4
+   ],
+   "tipo": "texto",
+   "texto": "madera microlaminada (LVL)\nkfi = 1,10",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    134.8,
+    181.8,
+    537.3,
+    192.9
+   ],
+   "tipo": "texto",
+   "texto": "uniones con elementos laterales de madera y tableros derivados de la madera\nkfi = 1,15",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    134.8,
+    199.2,
+    537.3,
+    210.3
+   ],
+   "tipo": "texto",
+   "texto": "uniones con placas de acero externas\nkfi = 1,05",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    88.8,
+    216.7,
+    496.2,
+    227.8
+   ],
+   "tipo": "texto",
+   "texto": "c)\nque el factor de modificación Kmod en situación de incendio se tomará igual a la unidad.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    234.3,
+    379.6,
+    245.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn este método se consideran las siguientes hipótesis implícitas:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    88.8,
+    251.8,
+    540.9,
+    274.4
+   ],
+   "tipo": "texto",
+   "texto": "-\nSe analizan, a estos efectos, solamente los elementos estructurales individualmente en lugar de\nla estructura global.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    88.8,
+    280.7,
+    541.1,
+    303.3
+   ],
+   "tipo": "texto",
+   "texto": "-\nLas condiciones de contorno y apoyo, para el elemento estructural, se corresponden con las\nadoptadas para temperatura normal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    88.8,
+    309.8,
+    540.8,
+    332.4
+   ],
+   "tipo": "texto",
+   "texto": "-\nNo es necesario considerar las dilataciones térmicas en los elementos de madera, aunque sí en\notros materiales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    350.8,
+    253.7,
+    364.1
+   ],
+   "tipo": "texto",
+   "texto": "E.2.2 Profundidad carbonizada",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    372.5,
+    541.0,
+    406.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe considerará que se produce carbonización en todas las superficies de madera o de productos\nderivados de la madera expuestos al fuego y, en el caso de elementos protegidos, cuando ésta se\ninicie durante el tiempo de exposición al fuego especificado.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    413.1,
+    541.3,
+    458.6
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa profundidad carbonizada nominal de cálculo en una dirección, dchar,n, entendida como la distancia\nentre la superficie exterior de la sección inicial y la línea que define el frente de carbonización para\nun tiempo de exposición al fuego determinado, que incluye el efecto del redondeo de las aristas, se\ndetermina según la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    90.5,
+    465.0,
+    520.9,
+    479.5
+   ],
+   "tipo": "texto",
+   "texto": "t\n =\nd\nn\nn,\nchar\n\n(E.2)",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    88.8,
+    487.1,
+    123.9,
+    498.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.8,
+    504.5,
+    444.0,
+    515.6
+   ],
+   "tipo": "texto",
+   "texto": "ßn velocidad de carbonización nominal. Se determinará de acuerdo con E.2.3;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    88.8,
+    522.1,
+    246.1,
+    533.2
+   ],
+   "tipo": "texto",
+   "texto": "t\ntiempo de exposición al fuego.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    551.5,
+    379.1,
+    564.9
+   ],
+   "tipo": "texto",
+   "texto": "E.2.3 Velocidad de carbonización nominal de cálculo",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    70.9,
+    580.3,
+    218.1,
+    591.4
+   ],
+   "tipo": "texto",
+   "texto": "E.2.3.1 Madera sin protección",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    70.9,
+    599.7,
+    541.4,
+    634.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara maderas sin protección, la velocidad de carbonización nominal de cálculo, n, se considerará\nconstante durante todo el tiempo de exposición al fuego y su valor se determinará de acuerdo con la\ntabla E.1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    114.3,
+    647.6,
+    497.8,
+    658.6
+   ],
+   "tipo": "texto",
+   "texto": "Tabla E.1. Velocidad de carbonización nominal de cálculo, n, de maderas sin protección",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 26,
+   "bbox": [
+    503.9,
+    665.2,
+    514.2,
+    676.2
+   ],
+   "tipo": "texto",
+   "texto": "n",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 27,
+   "bbox": [
+    490.2,
+    682.5,
+    527.6,
+    691.8
+   ],
+   "tipo": "texto",
+   "texto": "(mm/min)",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 28,
+   "bbox": [
+    94.6,
+    698.5,
+    510.7,
+    708.8
+   ],
+   "tipo": "texto",
+   "texto": "Coníferas y haya",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 29,
+   "bbox": [
+    94.6,
+    715.0,
+    519.4,
+    726.0
+   ],
+   "tipo": "texto",
+   "texto": "Madera laminada encolada con densidad característica  290 kg/m3\n0,70",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    94.6,
+    732.0,
+    519.4,
+    742.9
+   ],
+   "tipo": "texto",
+   "texto": "Madera maciza con densidad característica  290 kg/m3\n0,80",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

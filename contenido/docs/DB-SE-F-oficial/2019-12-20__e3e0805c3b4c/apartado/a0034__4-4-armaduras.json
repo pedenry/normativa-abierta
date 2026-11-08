@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0034",
+  "ruta_oficial": "4.4",
+  "ruta_semantica": "4.4 Armaduras",
+  "titulo": "4.4 Armaduras",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.4 Armaduras",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    70.9,
+    132.7,
+    161.0,
+    144.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a50d85ca2f0f4a3bcd265221ab05e2515698e2d94401a90f3b76dd7372c45c3e",
+   "literal": "4.4 Armaduras"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0036",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "EN\n10138",
+   "UNE EN",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.4 Armaduras",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas / 4.4 Armaduras",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2bbce33784ada0f407f49b04f78028158462be51068dffc3353a21357347ad42"
+ },
+ "paginas": [
+  14
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "4.4 Armaduras\n1\nAdemás de los aceros establecidos en EHE, se consideran aceptables los aceros inoxidables según\nUNE-EN 10080:2006, UNE EN 10088-1:2015 y UNE-EN 845-3:2014, y para pretensar los de EN\n10138.\n2\nEl galvanizado, o cualquier tipo de protección equivalente, debe ser compatible con las características\ndel acero a proteger, no afectándolas desfavorablemente.\n3\nComo valor medio del módulo de elasticidad del acero, puede adoptarse el de 200 kN/mm2\n4\nLa resistencia característica de anclaje por adherencia de las armaduras puede obtenerse de la tabla\n4.3. Armaduras confinadas son las incluidas en secciones de hormigón de dimensiones no menores\nque 150 mm, o cuando el hormigón se halle confinado entre piezas. Las poco confinadas son las\nincluidas en mortero, o en secciones de hormigón con dimensiones menores que 150 mm, o cuando\nel hormigón no esté confinado entre piezas. Los valores indicados valen para hormigones de más\nresistencia.\nTabla 4.3  Resistencia característica de anclaje de armaduras (N/mm2)\nTipo de confinamiento\nPoco\nconfinada\nConfinada\nMortero\nM5-M9\nM10-M14\nsM15-M19\nM20\nHormigón\n\n\n\nHA25\nHA25\nbarras lisas de acero\n0,7\n1,2\n1,4\n1,5\n1,8\nbarras corrugadas de acero al carbono o inoxidable\n1\n1,5\n2\n2,5\n4,1\n5\nPara armaduras prefabricadas, como las armaduras de tendel, en ausencia de datos específicos, como\nresistencia característica de anclaje puede considerar la resistencia característica de anclaje de las\nbarras longitudinales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "EN\n10138",
+  "UNE EN",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0014.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

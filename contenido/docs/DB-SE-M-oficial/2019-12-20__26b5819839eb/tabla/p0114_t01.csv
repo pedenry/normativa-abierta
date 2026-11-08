@@ -1,0 +1,24 @@
+Propiedades,Expresión y valor obtenido
+"Resistencia, en N/mm2
+- Flexión fm,g,k
+- Tracción paralela ft,0,g,k
+- Tracción perpendicular ft,90,g,k
+- Compresión paralela fc,0,g,k
+- Compresión perpendicular fc,90,g,k
+- Cortante fv,g,k","fm,g,k = 7 + 1,15 ft,0,k = 23,1
+ft,0,g,k = 5 + 0,8 ft,0,k= 16,2
+ft,90,g,k = 0,2 + 0,015ft,0,k= 0,4
+fc,0,g,k = 7,2 (ft,0,k)0,45= 23,6
+fc,90,g,k = 0,7 (ft,0,k)0,5 = 2,6
+fv,g,k = 0,32 (ft,0,k)0,8= 2,6"
+"Rigidez, en kN/mm2
+- Módulo de elasticidad paralelo medio E0,g,medio
+- Módulo de elasticidad paralelo 50percentil E0,g,k
+- Módulo de elasticidad perpendicular medio E90,g,medio
+- Módulo de elasticidad transversal medio Gg, medio","E0,g,medio = 1,05 E0,medio= 11,55
+E0,g,k = 0,85 E0,medio= 9,35
+E90,g,medio = 0,035 E0,medio= 0,385
+Gg, medio = 0,065 E0,medio= 0,715"
+"Densidad, en kg/m3
+- Densidad característica 
+g,k"," g,k = 1,10  k = 385"

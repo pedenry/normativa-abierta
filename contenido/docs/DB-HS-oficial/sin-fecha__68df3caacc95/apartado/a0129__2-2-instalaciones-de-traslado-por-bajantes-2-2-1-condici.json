@@ -1,0 +1,76 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0129",
+  "ruta_oficial": "2.2",
+  "ruta_semantica": "Fragmento de PDF p54",
+  "titulo": "2.2 Instalaciones de traslado por bajantes 2.2.1 Condiciones generales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p54",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p54",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva / 2.2 Instalaciones de traslado por bajantes 2.2.1 Condiciones generales",
+   "seccion_estimada": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1c2fd20e43205966d504d135043200ecbbd93686145be0ab609e8a16bdcc39b6"
+ },
+ "paginas": [
+  54
+ ],
+ "etiquetas_impresas": [
+  "54"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.2 Instalaciones de traslado por bajantes 2.2.1 Condiciones generales\n2.2.1 Condiciones generales\n1\nLas compuertas de vertido deben situarse en zonas comunes y a una distancia de las viviendas\nmenor que 30 m, medidos horizontalmente.\n2\nEl traslado del vidrio no se debe realizar mediante el sistema de traslado\npor bajantes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0054_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0054.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0130"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

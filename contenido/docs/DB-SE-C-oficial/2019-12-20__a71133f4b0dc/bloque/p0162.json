@@ -1,0 +1,62 @@
+{
+ "documento": null,
+ "pagina": 162,
+ "etiqueta_impresa": "2",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-157",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    325.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa caracterización de los materiales en los cálculos tensodeformacionales debe ajustarse a partir de\nexperiencias comparables, con el mismo modelo de cálculo. La deformabilidad adoptada para los\nmateriales debe evaluarse tomando en consideración su nivel de deformación.\n3\nEl cálculo debe efectuarse con programas suficientemente contrastados en este tipo de estudios, y\nen su caso, deben efectuarse análisis de contraste con procedimientos clásicos.\n4\nLa pantalla se modelará como una viga elástica con unos elementos de interface que deben carac-\nterizar el contacto terreno - pantalla.\n5\nLas herramientas de cálculo deben eliminar las tracciones tanto en el terreno como en los elemen-\ntos de interface.\n6\nEl estudio geotécnico debe proporcionar los parámetros necesarios para definir el comportamiento\ntensodeformacional de los distintos niveles de terreno afectados por la obra.\n7\nLos cálculos se efectuarán considerando los valores representativos de las acciones y los valores\ncaracterísticos de los parámetros del terreno.\n8\nEste método de análisis permite estudiar pantallas con varios niveles de apuntalamiento o anclaje y\nconsiderar, en el cálculo, el proceso de ejecución. Asimismo permite estimar el movimiento de la\npantalla y de los elementos de cimentación o servicios próximos.\n9\nLa estabilidad de la pantalla debe comprobarse por uno de los dos procedimientos siguientes:\na)\nefectuando los cálculos minorando los parámetros resistentes del terreno. Se considerarán\ncoeficientes de seguridad, M, de 1,5 en situación permanente o transitoria y 1,2 en situación\nextraordinaria (tabla 2.1);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    93.6,
+    329.6,
+    538.5,
+    367.0
+   ],
+   "tipo": "texto",
+   "texto": "b)\ncalculando directamente el coeficiente de seguridad, M, que debe ser superior a 1,5 en situa-\nción permanente o transitoria y a 1,2 en situación extraordinaria.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

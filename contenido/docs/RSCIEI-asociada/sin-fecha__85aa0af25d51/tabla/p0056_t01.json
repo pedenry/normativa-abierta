@@ -1,0 +1,125 @@
+{
+ "indice": 1,
+ "pagina": 56,
+ "etiqueta_impresa": "56",
+ "bbox": [
+  42.5,
+  354.0,
+  552.8,
+  492.1
+ ],
+ "filas": 5,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "R",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Casuísticas",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "0,8",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "R será 0,8 en sectores o áreas de incendio dedicados exclusivamente a almacenamientos de baja altura (máximo 2,50 metros) y de superficie en planta limitada (inferior a 50 m2). A\nefectos de determinar esta superficie, no será necesario tener en cuenta almacenamientos de superficies inferiores, separados entre ellos por medio de un espacio libre a su\nalrededor de no menos de 2,5 metros, o bien, con elementos compartimentadores de resistencia EI 30 o superior.\nNo obstante lo anterior, no se podrá usar un valor de 0,8 para R cuando haya actividades donde la tabla 1.3.5 (columna Rmin) especifique un valor superior.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "1",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "R será 1 por defecto, siempre que no se den las casuísticas para ser un valor distinto, hecho que deberá justificarse debidamente.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "1,4",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "R será 1,4 cuando en el sector o área de incendio se cumpla una de las siguientes situaciones:\na) Cuando las actividades que se realizan en el sector o área de incendio, o las condiciones de estos, entrañen un aumento significativo de la probabilidad de inicio de un incendio,\ndebido a fuentes de naturaleza térmica, química o equivalente. Por ejemplo: trabajos habituales con chispas o llamas abiertas. También R será al menos 1,4 en el caso de que se\ndesarrolle en el lugar alguna de las actividades marcadas en la tabla 1.3.5 como tal (columna Rmin).\nb) Cuando existan zonas donde la distribución de los materiales hace que, ante un posible incendio, este se pueda propagar rápidamente. Por ejemplo: almacenamientos de\nmateriales combustibles de altura superior a 5 metros, los cuales ocupan una superficie en planta significativa (igual o superior a 100 m2). A efectos de determinar esta superficie, no\nserá necesario tener en cuenta almacenamientos de superficies inferiores, separados entre ellos por medio de un espacio libre a su alrededor de no menos de 5 metros, o bien, con\nelementos compartimentadores de resistencia EI 30 o superior.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 0,
+   "texto": "1,8",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 4,
+   "col": 1,
+   "texto": "R será 1,8 cuando en el sector o área de incendio se cumplan simultáneamente las dos situaciones a) y b) citadas en la fila superior. Por ejemplo, porque tenga una zona de trabajos\ncon llamas y una zona de almacenamiento donde se pueda propagar rápidamente el incendio.",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "R",
+  "Casuísticas"
+ ],
+ "header": {
+  "names": [
+   "R",
+   "Casuísticas"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96D010>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96EB10>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96EDE0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E0C0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96D2B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96FB60>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96D130>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96F5C0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96C1A0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96CBC0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0056.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0085",
+  "ruta_oficial": "5",
+  "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 5 Determinación de los efectos de las acciones durante el incendio",
+  "titulo": "5 Determinación de los efectos de las acciones durante el incendio",
+  "nivel": 2,
+  "parent_id": "a0080",
+  "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 40,
+   "bbox": [
+    70.9,
+    376.3,
+    538.8,
+    408.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "08bf023e3f93f60c3749adc89be441665af1dcfbfc484af26d316c601d38d00a",
+   "literal": "5 Determinación de los efectos de las acciones durante el incendio"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0042",
+  "parent_id_original": "a0080",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SE",
+   "apartado 4.2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5 Determinación de los efectos de las acciones durante el incendio",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0080",
+   "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 5 Determinación de los efectos de las acciones durante el incendio",
+   "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "010c5122a860d06bd4a22e75e3b61d0597cfa0a40270f91934fc1d43d08685ff"
+ },
+ "paginas": [
+  40,
+  41
+ ],
+ "etiquetas_impresas": [
+  "40",
+  "41"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Determinación de los efectos de las acciones durante el incen- dio\ndio\n1\nDeben ser consideradas las mismas acciones permanentes y variables que en el cálculo en situación\npersistente, si es probable que actúen en caso de incendio.\n2\nLos efectos de las acciones durante la exposición al incendio deben obtenerse del Documento Bási-\nco DB-SE.\n3\nLos valores de las distintas acciones y coeficientes deben ser obtenidos según se indica en el Do-\ncumento Básico DB-SE, apartado 4.2.2.\n4\nSi se emplean los métodos indicados en este Documento Básico para el cálculo de la resistencia al\nfuego estructural puede tomarse como efecto de la acción de incendio únicamente el derivado del\nefecto de la temperatura en la resistencia del elemento estructural.\n5\nComo simplificación para el cálculo se puede estimar el efecto de las acciones de cálculo en situa-\nción de incendio a partir del efecto de las acciones de cálculo a temperatura normal, como:\nEfi,d  =  fi  Ed\n(5.2)\nsiendo:\nEd efecto de las acciones de cálculo en situación persistente (temperatura normal);\nfi factor de reducción.\ndonde el factor fi se puede obtener como:\nK,1\nQ,1\nK\nG\nK,1\n1,1\nK\nfi\nQ\nγ\n+\nG\nγ\nQ\nψ\n+\nG\n=\nη\n(5.3)\ndonde el subíndice 1es la acción variable dominanteconsiderada en la situación persistente.\n\nDocumento Básico SI en caso de Incendio\nSI 6. Resistencia al fuego de la estructura\n41\n6",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE",
+  "apartado 4.2.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0040.png",
+  "../figura/p0041.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

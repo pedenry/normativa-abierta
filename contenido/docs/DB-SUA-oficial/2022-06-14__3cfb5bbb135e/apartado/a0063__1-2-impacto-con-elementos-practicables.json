@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0063",
+  "ruta_oficial": "1.2",
+  "ruta_semantica": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento / 1 Impacto / 1.2 Impacto con elementos practicables",
+  "titulo": "1.2 Impacto con elementos practicables",
+  "nivel": 3,
+  "parent_id": "a0061",
+  "seccion_estimada": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 17,
+   "bbox": [
+    70.9,
+    428.3,
+    316.5,
+    441.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "20b4bd7cfbc447ee3de6dd50b8bde136ac2205a3be757aee94ab1cb366c0c0eb",
+   "literal": "1.2 Impacto con elementos practicables"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0034",
+  "parent_id_original": "a0061",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB SI",
+   "apartado 4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1.2 Impacto con elementos practicables",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0061",
+   "ruta_semantica": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento / 1 Impacto / 1.2 Impacto con elementos practicables",
+   "seccion_estimada": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "917639db7275d3e01d1ac4d7804b5a041bc6e40b6580039354a355981f9871e7"
+ },
+ "paginas": [
+  17,
+  18
+ ],
+ "etiquetas_impresas": [
+  "17",
+  "18"
+ ],
+ "tipos": [
+  "excepciones",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Impacto con elementos practicables\n1\nExcepto en zonas de uso restringido, las puertas de recintos que no sean de ocupación nula (defini-\nda en el Anejo SI A del DB SI)situadas en el lateral de los pasillos cuya anchura sea menor que 2,50\nm se dispondrán de forma que el barrido de la hoja no invada el pasillo (véase figura 1.1). En pasillos\ncuya anchura exceda de 2,50 m, el barrido de las hojas de las puertas no debe invadir la anchura de-\nterminada, en función de las condiciones de evacuación, conforme al apartado 4 de la Sección SI 3\ndel DB SI.\nFigura 1.1 Disposición de puertas laterales a vías de circulación\n2\nLas puertas de vaivén situadas entre zonas de circulación tendrán partes transparentes o transluci-\ndasque permitan percibir la aproximación de las personas y que cubran la altura comprendida entre\n0,7 m y 1,5 m, como mínimo.\n3\nLas puertas industriales, comerciales, de garaje y portones cumplirán las condiciones de seguridad\nde utilización que se establecen en su reglamentación específica y tendrán marcado CE de confor-\nmidad con los correspondientes Reglamentos y Directivas Europeas.\n4\nLas puertas peatonales automáticas cumplirán las condiciones de seguridad de utilización que se\nestablecen en su reglamentación específica y tendrán marcado CE de conformidad con los corres-\npondientes Reglamentos y Directivas Europeas.\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad\nSUA 2. Seguridad frente al riesgo de impacto o de atrapamiento\n18\n1.3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SI",
+  "apartado 4"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0017.png",
+  "../figura/p0018.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

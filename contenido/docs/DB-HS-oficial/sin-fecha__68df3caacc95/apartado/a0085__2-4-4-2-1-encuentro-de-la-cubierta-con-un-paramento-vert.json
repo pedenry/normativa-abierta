@@ -1,0 +1,88 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0085",
+  "ruta_oficial": "2.4.4.2.1",
+  "ruta_semantica": "2.4.4.2.1 Encuentro de la cubierta con un paramento vertical",
+  "titulo": "2.4.4.2.1 Encuentro de la cubierta con un paramento vertical",
+  "nivel": 1,
+  "parent_id": "a0075",
+  "seccion_estimada": "2.4.4.2.1 Encuentro de la cubierta con un paramento vertical",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 36,
+   "bbox": [
+    70.9,
+    81.2,
+    360.2,
+    92.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "63f0af14c34bf8bd83fc52a8cb5a9e74a48f72892b76ffd0d473d3573f2c39d8",
+   "literal": "2.4.4.2.1 Encuentro de la cubierta con un paramento vertical"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0075",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2.4.4.2.9"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.4.2.1 Encuentro de la cubierta con un paramento vertical",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0075",
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.4 Cubiertas 2.4.1 Grado de impermeabilidad / 2.4.4 Condiciones de los puntos singulares / 2.4.4.2.1 Encuentro de la cubierta con un paramento vertical",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7614fa5047813f7ea5c24303ef51365c80485d2066d086346f5a380f1db65fa7"
+ },
+ "paginas": [
+  36
+ ],
+ "etiquetas_impresas": [
+  "36"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2.4.4.2.1 Encuentro de la cubierta con un paramento vertical\n1\nEn el encuentro de la cubierta con un paramento vertical deben disponerse elementos de protección\nprefabricados o realizados in situ.\n2\nLos elementos de protección deben cubrir como mínimo una banda del paramento vertical de 25 cm\nde altura por encima del tejado y su remate debe realizarse de forma similar a la descrita en las cu-\nbiertas planas.\n3\nCuando el encuentro se produzca en la parte inferior del faldón, debe disponerse un canalón y rea-\nlizarse según lo dispuesto en el apartado 2.4.4.2.9.\n4\nCuando el encuentro se produzca en la parte superior o lateral del faldón, los elementos de protec-\nción deben colocarse por encima de las piezas del tejado y prolongarse 10 cm como mínimo desde\nel encuentro (Véase la figura 2.16).\nFigura 2.16 Encuentro en la parte superior del faldón",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.4.4.2.9"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0034",
+  "ruta_oficial": null,
+  "ruta_semantica": "Consumo de energía primaria total",
+  "titulo": "Consumo de energía primaria total",
+  "nivel": 1,
+  "parent_id": "a0030",
+  "seccion_estimada": "Consumo de energía primaria total",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    56.7,
+    402.2,
+    277.2,
+    414.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "36fbac95248d4b87efdaf490f7fe3e08ee51164d6886608aa51179c0f16a3fe4",
+   "literal": "Consumo de energía primaria total"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0030",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Consumo de energía primaria total",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0030",
+   "ruta_semantica": "Anejo H / Sección HE 0 Limitación del consumo energético / Consumo de energía primaria total",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4ba6afcb9c02df1cbb18f36d09e2650d28ad7521dfe063f464c909945590be6c"
+ },
+ "paginas": [
+  10,
+  11
+ ],
+ "etiquetas_impresas": [
+  "10",
+  "11"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Consumo de energía primaria total\n1\nEl consumo de energía primaria total (Cep,tot) de los espacios contenidos en el interior de la envolvente\ntérmica del edificio o, en su caso, de la parte del edificio considerada, no superará el valor límite (Cep,tot,lim)\nobtenido de la tabla 3.2.a-HE0 o de la tabla 3.2.b-HE0:\nTabla 3.2.a - HE0\nValor límite Cep,tot,lim [kW·h/m2·año] para uso residencial privado\nZona climática de invierno\nα\nA\nB\nC\nD\nE\nEdificios nuevos y ampliaciones\n40\n50\n56\n64\n76\n86\nCambios de uso a residencial privado\ny reformas\n55\n75\n80\n90\n105\n115\nEn territorio extrapeninsular (Illes Balears, Canarias, Ceuta y Melilla) se multiplicarán los\nvalores de la tabla por 1,15\nTabla 3.2.b - HE0\nValor límite Cep,tot,lim [kW·h/m2·año] para uso distinto del residencial privado\nZona climática de invierno\nα\nA\nB\nC\nD\nE\n165 + 9 · CFI\n155 + 9 · CFI\n150 + 9 · CFI\n140 + 9 · CFI\n130 + 9 · CFI\n120 + 9 · CFI\nCFI: Carga interna media[W/m2]\nEn territorio extrapeninsular (Illes Balears, Canarias, Ceuta y Melilla)  se multiplicarán los valores\nresultantes por 1,40\n\nDocumento Básico HE Ahorro de energía\nHE 0. Limitación del consumo energético\n11\n2\nEn edificios que tengan unidades de uso residencial privado junto a otras de distinto uso, el valor límite\ndel consumo de energía primaria total (Cep,tot,lim) se deberá aplicar de forma independiente a cada una de\nlas partes del edificio con uso diferenciado.\n4",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0010_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

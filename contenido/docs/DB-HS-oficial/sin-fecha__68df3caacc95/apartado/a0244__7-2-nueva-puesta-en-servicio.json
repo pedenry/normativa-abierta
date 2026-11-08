@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0244",
+  "ruta_oficial": "7.2",
+  "ruta_semantica": "7.2 Nueva puesta en servicio",
+  "titulo": "7.2 Nueva puesta en servicio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.2 Nueva puesta en servicio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 104,
+   "bbox": [
+    70.9,
+    227.2,
+    241.0,
+    240.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ad7f1d73e8d39465ce698dcf130c651a48b484bfc675dd0c2873799806b006eb",
+   "literal": "7.2 Nueva puesta en servicio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.2 Nueva puesta en servicio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Mantenimiento y conservación 7.1 Interrupción del servicio / 7.2 Nueva puesta en servicio",
+   "seccion_estimada": "7 Mantenimiento y conservación 7.1 Interrupción del servicio",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9e6c4506e6fba0aa2ac15ef9d8d0654dbf7fa7ee267173b2402d1ca8f517fba0"
+ },
+ "paginas": [
+  104
+ ],
+ "etiquetas_impresas": [
+  "104"
+ ],
+ "tipos": [],
+ "texto": "7.2 Nueva puesta en servicio\n1\nEn instalaciones de descalcificación habrá que iniciar una regeneración por arranque manual.\n2\nLas instalaciones de agua de consumo humano que hayan sido puestas fuera de servicio y vacia-\ndas provisionalmente deben ser lavadas a fondo para la nueva puesta en servicio. Para ello se po-\ndrá seguir el procedimiento siguiente:\na)\npara el llenado de la instalación se abrirán al principio solo un poco las llaves de cierre, empe-\nzando por la llave de cierre principal. A continuación, para evitar golpes de ariete y daños, se\npurgarán de aire durante un tiempo las conducciones por apertura lenta de cada una de las\nllaves de toma, empezando por la más alejada o la situada más alta, hasta que no salga más\naire. A continuación se abrirán totalmente las llaves de cierre y lavarán las conducciones;\nb)\nuna vez llenadas y lavadas las conducciones y con todas las llaves de toma cerradas, se com-\nprobará la estanqueidad de la instalación por control visual de todas las conducciones accesi-\nbles, conexiones y dispositivos de consumo.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

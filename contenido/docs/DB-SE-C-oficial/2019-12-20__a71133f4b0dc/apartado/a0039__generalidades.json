@@ -1,0 +1,121 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0039",
+  "ruta_oficial": null,
+  "ruta_semantica": "Generalidades",
+  "titulo": "Generalidades",
+  "nivel": 1,
+  "parent_id": "a0010",
+  "seccion_estimada": "Generalidades",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 16,
+   "bbox": [
+    70.9,
+    110.0,
+    206.7,
+    124.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "be82288ad48fd8bf22aca7a00140ff241f3521bea678fb3ef63c0f55fb2bc14c",
+   "literal": "Generalidades"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0010",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Generalidades",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0010",
+   "ruta_semantica": "Anejo G. Normas de referencia / Generalidades",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "23913bf540a194ff92692657b63482efe3d8c6c68986c1f4546c01b3f9feb90b"
+ },
+ "paginas": [
+  16
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Generalidades\n1\nEl estudio geotécnico es el compendio de información cuantificada en cuanto a las características\ndel terreno en relación con el tipo de edificio previsto y el entorno donde se ubica, que es necesaria\npara proceder al análisis y dimensionado de los cimientos de éste u otras obras.\n2\nLas características del terreno de apoyo se determinarán mediante una serie de actividades que en\nsu conjunto se denomina reconocimiento del terreno y cuyos resultados quedarán reflejados en el\nestudio geotécnico.\n3\nEl reconocimiento del terreno, que se fijará en el estudio geotécnico en cuanto a su intensidad y\nalcance, dependerá de la información previa del plan de actuación urbanística, de la extensión del\nárea a reconocer, de la complejidad del terreno y de la importancia de la edificación prevista. Salvo\njustificación el reconocimiento no podrá ser inferior al establecido en este DB.\n4\nPara la realización del estudio deben recabarse todos los datos en relación con las peculiaridades y\nproblemas del emplazamiento, inestabilidad, deslizamientos, uso conflictivo previo tales como hor-\nnos, huertas o vertederos, obstáculos enterrados, configuración constructiva y de cimentación de\nlas construcciones limítrofes, la información disponible sobre el agua freática y pluviometría, ante-\ncedentes planimétricos del desarrollo urbano y, en su caso, sismicidad del municipio, de acuerdo\ncon la Norma de Construcción Sismorresistente NCSE vigente.\n5\nDado que las conclusiones del estudio geotécnico pueden afectar al proyecto en cuanto a la con-\ncepción estructural del edificio, tipo y cota de los cimientos, se debe acometer en la fase inicial de\nproyecto y en cualquier caso antes de que la estructura esté totalmente dimensionada.\n6\nLa autoría del estudio geotécnico corresponderá al proyectista, a otro técnico competente o, en su\ncaso, al Director de Obra y contará con el preceptivo visado colegial.\n3.2",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0016.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

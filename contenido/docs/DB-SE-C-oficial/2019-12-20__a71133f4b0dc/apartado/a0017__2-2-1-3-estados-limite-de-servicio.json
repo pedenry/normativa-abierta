@@ -1,0 +1,125 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0017",
+  "ruta_oficial": "2.2.1.3",
+  "ruta_semantica": "2.2.1.3 Estados límite de servicio",
+  "titulo": "2.2.1.3 Estados límite de servicio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2.1.3 Estados límite de servicio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 7,
+   "bbox": [
+    70.9,
+    105.4,
+    232.0,
+    115.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c56900919e2515fed1f194923a18a1b289a2ba7adf8612be346dc6598ceafb19",
+   "literal": "2.2.1.3 Estados límite de servicio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0027",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE",
+   "apartado\n3.2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2.1.3 Estados límite de servicio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Método de los estados límite 2.2.1 Estados límite / 2.2.1.3 Estados límite de servicio",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fbac79c1de6c622308137ee40802a87eec97493d9fc25c95dfcfda685380a3ef"
+ },
+ "paginas": [
+  7
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "2.2.1.3 Estados límite de servicio\n1\nSe considerarán estados límite de servicio todos aquellos clasificados como tales en el apartado\n3.2.2 del DB-SE.\n2\nComo estados límite de servicio deben considerarse los relativos a:\na)\nlos movimientos excesivos de la cimentación que puedan inducir esfuerzos y deformaciones\nanormales en el resto de la estructura que se apoya en ellos, y que aunque no lleguen a rom-\nperla afecten a la apariencia de la obra, al confort de los usuarios, o al funcionamiento de\nequipos e instalaciones;\nb)\nlas vibraciones que al transmitirse a la estructura pueden producir falta de confort en las per-\nsonas o reducir su eficacia funcional;\nc)\nlos daños o el deterioro que pueden afectar negativamente a la apariencia, a la durabilidad o a\nla funcionalidad de la obra.\n3\nOtras comprobaciones a efectuar en relación con la aptitud al servicio de la cimentación dependen\nde su tipología y se tratan en los capítulos correspondientes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE",
+  "apartado\n3.2.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

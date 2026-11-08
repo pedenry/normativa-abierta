@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0115",
+  "ruta_oficial": "1.2",
+  "ruta_semantica": "Sección SUA 9  Accesibilidad / 1 Condiciones de accesibilidad / 1.2 Dotación de elementos accesibles",
+  "titulo": "1.2 Dotación de elementos accesibles",
+  "nivel": 3,
+  "parent_id": "a0109",
+  "seccion_estimada": "Sección SUA 9  Accesibilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 32,
+   "bbox": [
+    70.9,
+    192.6,
+    305.1,
+    205.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "076d4205ab7568de16aa053ccafd3b6796c59c41dd25d84910920162c7c383bc",
+   "literal": "1.2 Dotación de elementos accesibles"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0075",
+  "parent_id_original": "a0109",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1.2 Dotación de elementos accesibles",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0109",
+   "ruta_semantica": "Sección SUA 9  Accesibilidad / 1 Condiciones de accesibilidad / 1.2 Dotación de elementos accesibles",
+   "seccion_estimada": "Sección SUA 9  Accesibilidad",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0807b6f7083e7259ed0050c06d80364bf899e49599239405c7d1a684f095a33d"
+ },
+ "paginas": [
+  32
+ ],
+ "etiquetas_impresas": [
+  "32"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Dotación de elementos accesibles\n1.2.1\nViviendas accesibles\n1\nLos edificios de uso Residencial Vivienda dispondrán del número de viviendas accesiblespara usua-\nrios de silla de ruedas y para personas con discapacidad auditiva según la reglamentación aplicable.\n1.2.2\nAlojamientos accesibles\n1\nLos establecimientos de uso Residencial Público deberán disponer del número de alojamientos ac-\ncesibles que se indica en la tabla 1.1:\nTabla 1.1 Número de alojamientos accesibles\nNúmero total de alojamientos\nNúmero de alojamientos accesibles\nDe 5 a 50\n1\nDe 51 a 100\n2\nDe 101 a 150\n4\nDe 151 a 200\n6\nMás de 200\n8, y uno más cada 50 alojamientos o fracción adicionales a 250\n1.2.3\nPlazas de aparcamiento accesibles\n1\nTodo edificio de uso Residencial Vivienda con aparcamiento propio contará con una plaza de apar-\ncamiento accesible por cada vivienda accesible para usuarios de silla de ruedas.\n2\nEn otros usos, todo edificio o establecimiento con aparcamiento propio cuya superficie construida\nexceda de 100 m2 contará con las siguientes plazas de aparcamiento accesibles:\na) En uso Residencial Público, una plaza accesible por cadaalojamiento accesible.\nb) En uso Comercial, Pública Concurrencia o Aparcamiento de uso público, una plaza accesible por\ncada 33 plazas de aparcamiento o fracción.\nc)\nEn cualquier otro uso, una plaza accesible por cada 50 plazas de aparcamiento o fracción, hasta\n200 plazas y una plaza accesible más por cada 100 plazas adicionales o fracción.\nEn todo caso, dichos aparcamientos dispondrán al menos de una plaza de aparcamiento accesible\npor cada plaza reservada para usuarios de silla de ruedas.\n1.2.4\nPlazas reservadas\n1\nLos espacios con asientos fijos para el público, tales como auditorios, cines, salones de actos, es-\npectáculos, etc., dispondrán de la siguiente reserva de plazas:\na) Una plaza reservada para usuarios de silla de ruedaspor cada 100 plazas o fracción.\nb) En espacios con más de 50 asientos fijos y en los que la actividad tenga una componente auditi-\nva, una plaza reservada para personas con discapacidad auditiva por cada 50 plazas o fracción.\n2\nLas zonas de espera con asientos fijos dispondrán de una plaza reservada parausuarios de silla de\nruedaspor cada 100 asientos o fracción.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0119",
+   "ruta_oficial": "1.2.8",
+   "titulo": "1.2.8 Mecanismos",
+   "archivo_json": "a0119__1-2-8-mecanismos.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0032.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0116",
+  "a0117",
+  "a0118",
+  "a0119"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

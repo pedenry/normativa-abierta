@@ -1,0 +1,88 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0323",
+  "ruta_oficial": "6",
+  "ruta_semantica": "6 Mantenimiento y conservación",
+  "titulo": "6 Mantenimiento y conservación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6 Mantenimiento y conservación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 143,
+   "bbox": [
+    70.9,
+    316.1,
+    302.2,
+    331.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c53e250623b5d2674993ca15f41bec7342a2d4d3a8523895f87f4247e573bf56",
+   "literal": "6 Mantenimiento y conservación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6 Mantenimiento y conservación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Mantenimiento y conservación",
+   "seccion_estimada": "6 Mantenimiento y conservación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c30869547e0fdfd77a29825661464ea495b183e5f585a51df3e33e59dcb0d2ea"
+ },
+ "paginas": [
+  143,
+  144
+ ],
+ "etiquetas_impresas": [
+  "143",
+  "144"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6 Mantenimiento y conservación\n1\nLas operaciones necesarias durante la vida de los sistemas de protección frente al radón para\nasegurar el funcionamiento, aumentar la fiabilidad y prolongar la duración de la misma, se\nenglobarán en un plan de mantenimiento.\n2\nDeben realizarse al menos las operaciones de mantenimiento que, junto con su periodicidad, se\nincluyen en la tabla 6.1 y las correcciones pertinentes en el caso de que se detecten defectos.\nDeben además seguirse las especificaciones concretas de los materiales y sistemas empleados\npara garantizar la durabilidad de los sistemas de protección:\nTabla 6.1 Operaciones de mantenimiento\nOperación\nPeriodicidad\nConductos\nLimpieza\n1\naño\nComprobación de la estanquidad aparente\n5\naños\nAberturas\nLimpieza\n1\naño\nExtractores\nLimpieza\n1\naño\nRevisión del estado de funcionalidad\n5\naños\nFiltros\nRevisión del estado\n6\nmeses\nLimpieza o sustitución\n1\naño\nSistemas de control\nRevisión del estado de sus automatismos\n2\naños\n\nDocumento Básico HS Salubridad\nHS 6 Protección frente a la exposición al radón\n144",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0143_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0143.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

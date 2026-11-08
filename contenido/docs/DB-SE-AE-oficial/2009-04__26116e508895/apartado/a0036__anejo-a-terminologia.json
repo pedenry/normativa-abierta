@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0036",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología",
+  "titulo": "Anejo A. Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 19,
+   "bbox": [
+    70.9,
+    81.5,
+    223.3,
+    97.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ee191eb64fe3d9199f14af1cbec54e4dcb5ea47f372f8aa6720b43efff2ae7a5",
+   "literal": "Anejo A. Terminología"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0035",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo A. Terminología",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4cad7df48e9826db94ee62ff86fefe21dfc7832c3370d272bf6730499818e981"
+ },
+ "paginas": [
+  19,
+  21
+ ],
+ "etiquetas_impresas": [
+  "19",
+  "21"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Anejo A. Terminología\n1\nA continuación se definen algunos términos técnicos que se emplean en este Documento Básico.\nLos términos de carácter general están definidos en el documento DB-SE.\nCarga: Fuerza, debida a la gravedad, que actúa sobre un edificio y que interesa a su estructura.\nCarga de nieve: Carga producida por la nieve.\nEsbeltez de un edificio: Relación entre la máxima altura sobre rasante y elfondo en la dirección\ndel viento\nImpacto: Colisión entre un cuerpo en movimiento y una construcción.\nPeriodo de retorno: Probabilidad de ocurrencia de un determinado evento en un periodo de refe-\nrencia definido.\nPeso propio: Carga producida por la gravedad en la masa de los elementos constructivos.\nSobrecarga de uso: Peso de todo lo que puede gravitar sobre el edificio por razón de su uso.\nSuperficie de aplicación: Superficie sobre la que actúa una fuerza concentrada.\nTemperatura ambiente: Temperatura del aire exterior en el emplazamiento de un edificio.\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 17",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0021.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

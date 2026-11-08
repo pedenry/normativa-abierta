@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0139",
+  "ruta_oficial": "10.1.2",
+  "ruta_semantica": "10.1.2  Vigas mixtas unidas con medios de fijación mecánicos",
+  "titulo": "10.1.2  Vigas mixtas unidas con medios de fijación mecánicos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.1.2  Vigas mixtas unidas con medios de fijación mecánicos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 81,
+   "bbox": [
+    70.9,
+    316.0,
+    368.3,
+    325.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a10260041b13065da2e5d81f3ca533716313ee15739ff6d8b41d9a53de169fba",
+   "literal": "10.1.2  Vigas mixtas unidas con medios de fijación mecánicos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0161",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.1.2  Vigas mixtas unidas con medios de fijación mecánicos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.1.2  Vigas mixtas unidas con medios de fijación mecánicos",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a7a4698e1556e99aa8124b5673fcd6398ff799668595c47f57b9ba8291269e08"
+ },
+ "paginas": [
+  81
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.1.2  Vigas mixtas unidas con medios de fijación mecánicos\n1\nSi la sección transversal de una pieza está formada de varias partes conectadas con medios mecá-\nnicos de fijación debe considerarse el deslizamiento de las uniones.\n2\nLos cálculos pueden considerar que entre fuerza y deslizamiento existe una relación lineal, que en\nalgunos casos se incluye en este DB a través del coeficiente Kser (tabla 7.1).\n3\nHay que resaltar que la tabla 7.1 no incluye clavijas inclinadas (con distintas técnicas de unión), de\nmucha mayor rigidez que las colocadas ortogonalmente a las piezas que unen. En ese caso, y siem-\npre que el sistema permita la formación de un mecanismo de biela tirante con la biela inclinada for-\nmando ángulos entre 40º y 60º con el plano de contacto, y para piezas cuya luz sea menor de 12m,\nse podrá prescindir del deslizamiento de la unión y realizar el análisis con la sección total a través de\nla teoría clásica de resistencia de materiales.\n4\nEn el caso de disponer los medios de fijación a distancias variables entre smin y smax  4·smin, en la\ndirección longitudinal, la fuerza rasante puede obtenerse considerando una separación eficaz sef, de-\nfinida por la expresión:\nsef =0,75·smin + 0,25 smax\n(10.28)",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0081.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

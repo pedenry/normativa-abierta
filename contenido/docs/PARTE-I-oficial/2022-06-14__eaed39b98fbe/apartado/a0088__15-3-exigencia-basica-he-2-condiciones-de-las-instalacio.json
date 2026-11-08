@@ -1,0 +1,85 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0088",
+  "ruta_oficial": "15.3",
+  "ruta_semantica": "Artículo 15. Exigencias básicas de ahorro de energía (HE) / 15.3. Exigencia básica HE 2: Condiciones de las instalaciones térmicas",
+  "titulo": "15.3. Exigencia básica HE 2: Condiciones de las instalaciones térmicas",
+  "nivel": 3,
+  "parent_id": "a0085",
+  "seccion_estimada": "Artículo 15. Exigencias básicas de ahorro de energía (HE)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    72.0,
+    651.3,
+    551.9,
+    701.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "a7e52f9363896815277074a4f6e16a23a8c9a7d7225e5f93311d26da2cb1ba6a",
+   "literal": "15.3. Exigencia básica HE 2: Condiciones de las instalaciones térmicas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0054",
+  "parent_id_original": "a0085",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "RITE"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "15.3. Exigencia básica HE 2: Condiciones de las instalaciones térmicas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0085",
+   "ruta_semantica": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades / Artículo 15. Exigencias básicas de ahorro de energía (HE) / 15.3. Exigencia básica HE 2: Condiciones de las instalaciones térmicas",
+   "seccion_estimada": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f911574cecb19c64cc7d11a55e11c26bc1b359f3f88a994cc7a1f602ad6f457b"
+ },
+ "paginas": [
+  15
+ ],
+ "etiquetas_impresas": [
+  "15"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "15.3. Exigencia básica HE 2: Condiciones de las instalaciones térmicas\nLas instalaciones térmicas de las que dispongan los edificios serán apropiadas para lograr el bienestar\ntérmico de sus ocupantes. Esta exigencia se desarrolla actualmente en el vigente Reglamento de Instala-\nciones Térmicas en los Edificios (RITE), y su aplicación quedará definida en el proyecto del edificio.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "RITE"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,71 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0003",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p1",
+  "titulo": "accesibilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p1",
+  "clasificacion_navegacion": "fragmento_portada",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "fragmento_portada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p1",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Portada y páginas previas / accesibilidad",
+   "seccion_estimada": "Portada y páginas previas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fc0f48885883a65eaa27ac6a930db489cc8fd19de1d6d47374998091ddb067ff"
+ },
+ "paginas": [
+  1
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "accesibilidad\nSUA 1 Seguridad frente al riesgo de caídas\nSUA 2 Seguridad frente al riesgo de impacto o de atrapamiento\nSUA 3 Seguridad frente al riesgo de aprisionamiento\nSUA 4 Seguridad frente al riesgo causado por iluminación\ninadecuada\nSUA 5 Seguridad frente al riesgo causado por situaciones con\nalta ocupación\nSUA 6 Seguridad frente al riesgo de ahogamiento\nSUA 7 Seguridad frente al riesgo causado por vehículos en\nmovimiento\nSUA 8 Seguridad frente al riesgo causado por la acción del rayo\nSUA 9 Accesibilidad",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0001.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

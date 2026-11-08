@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0098",
+  "ruta_oficial": "7.2.2.4",
+  "ruta_semantica": "7.2.2.4 Amortiguamiento",
+  "titulo": "7.2.2.4 Amortiguamiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.2.2.4 Amortiguamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 58,
+   "bbox": [
+    74.1,
+    545.5,
+    193.0,
+    556.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0b63a7ca89715550427555e70e4e03c19bb6215032c613bee774f975140d1e1e",
+   "literal": "7.2.2.4 Amortiguamiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0096",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.2.2.4 Amortiguamiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Estados límite de servicio / 7.2 Vibraciones 7.2.1 Generalidades / 7.2.2 Vibraciones transitorias en forjados 7.2.2.1 Percepción humana / 7.2.2.4 Amortiguamiento",
+   "seccion_estimada": "7 Estados límite de servicio",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c62b63e358d2547143f23493e12dda783644567331cec85b25161a7e990ac94d"
+ },
+ "paginas": [
+  58
+ ],
+ "etiquetas_impresas": [
+  "58"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "7.2.2.4 Amortiguamiento\n1\nEl porcentaje de amortiguamiento ζ disponible en un forjado depende de un gran número de pará-\nmetros tales como las características de la construcción, el espesor y el peso de la losa, la presen-\ncia de elementos como la protección contra incendios, instalaciones, falsos techos, revestimientos\ndel suelo, mobiliario, tabiques, etc, Por este motivo, la cuantificación del amortiguamiento disponi-\nble resulta extremadamente dificultoso.\n2\nA falta de un análisis más detallado, el porcentaje de amortiguamiento disponible en un forjado po-\ndrá estimarse de acuerdo con los siguientes criterios:\n-\nForjado solo (estructura)\nζ =3%\n-\nForjado acabado (con instalaciónes, falso, techo, revestimiento, mobiliario)\nζ =6%\n-\nForjado acabado con tabiques\nζ =12%",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0058.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

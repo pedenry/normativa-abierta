@@ -1,0 +1,402 @@
+{
+ "documento": null,
+ "pagina": 28,
+ "etiqueta_impresa": "28",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    210.5,
+    36.2,
+    401.2,
+    45.1
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-AE Acciones en la edificación",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.0,
+    795.0,
+    324.9,
+    806.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-AE 24",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    136.7,
+    69.3,
+    475.4,
+    79.3
+   ],
+   "tipo": "texto",
+   "texto": "Tabla D.1 Corrección de la velocidad básica en función del periodo de servicio",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    86.1,
+    530.7,
+    96.2
+   ],
+   "tipo": "texto",
+   "texto": "Periodo de retorno (años)\n1\n2\n5\n10\n20\n50\n200",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    103.0,
+    531.9,
+    113.1
+   ],
+   "tipo": "texto",
+   "texto": "Coeficiente corrector\n0,41\n0,78\n0,85\n0,90\n0,95\n1,00\n1,08",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    129.1,
+    244.3,
+    142.5
+   ],
+   "tipo": "texto",
+   "texto": "D.2 Coeficiente de exposición",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    147.7,
+    538.7,
+    170.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl coeficiente de exposición ce para alturas sobre el terreno, z, no mayores de 200 m, puede deter-\nminarse con la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.4,
+    176.7,
+    544.0,
+    188.6
+   ],
+   "tipo": "texto",
+   "texto": "ce = F · (F + 7 k)\n(D.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.4,
+    194.2,
+    544.0,
+    205.3
+   ],
+   "tipo": "texto",
+   "texto": "F = k ln (max (z,Z) / L)\n(D.3)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    211.7,
+    473.6,
+    222.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo k, L, Z  parámetros característicos de cada tipo de entorno, según la tabla D.2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    212.0,
+    246.6,
+    400.1,
+    256.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla D.2 Coeficientes para tipo de entorno",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    263.5,
+    487.4,
+    273.5
+   ],
+   "tipo": "texto",
+   "texto": "Parámetro",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    88.6,
+    271.4,
+    223.2,
+    281.4
+   ],
+   "tipo": "texto",
+   "texto": "Grado de aspereza del entorno",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    407.2,
+    279.8,
+    529.0,
+    289.8
+   ],
+   "tipo": "texto",
+   "texto": "k\nL (m)\nZ (m)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    75.0,
+    296.7,
+    524.3,
+    317.1
+   ],
+   "tipo": "texto",
+   "texto": "I\nBorde del mar o de un lago, con una superficie de agua en la  dirección\ndel viento de al menos 5 km de longitud\n0,156\n0,003\n1,0",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    73.7,
+    323.4,
+    524.3,
+    333.5
+   ],
+   "tipo": "texto",
+   "texto": "II\nTerreno rural  llano sin obstáculos ni arbolado de importancia\n0,17\n0,01\n1,0",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    72.5,
+    339.8,
+    382.2,
+    354.9
+   ],
+   "tipo": "texto",
+   "texto": "III Zona rural accidentada o llana con algunos obstáculos aislados,  como",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    88.6,
+    345.0,
+    524.4,
+    360.2
+   ],
+   "tipo": "texto",
+   "texto": "árboles o construcciones pequeñas\n0,19\n0,05\n2,0",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    72.0,
+    366.4,
+    524.4,
+    376.5
+   ],
+   "tipo": "texto",
+   "texto": "IV Zona urbana en general, industrial o forestal\n0,22\n0,3\n5,0",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    73.3,
+    382.8,
+    382.2,
+    398.0
+   ],
+   "tipo": "texto",
+   "texto": "V Centro de negocios de grandes ciudades, con profusión de edificios en",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.6,
+    388.0,
+    526.9,
+    403.2
+   ],
+   "tipo": "texto",
+   "texto": "altura\n0,24\n1,0\n10,0",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    70.9,
+    435.5,
+    279.1,
+    448.9
+   ],
+   "tipo": "texto",
+   "texto": "D.3 Coeficientes de presión exterior",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    454.1,
+    541.4,
+    476.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nLos coeficientes de presión exterior o eólico, cp, dependen de la dirección relativa del viento, de la\nforma del edificio, de la posición de elemento considerado y de su área de influencia.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    70.9,
+    483.2,
+    541.4,
+    574.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn las tablas D.3 a D.13 se dan valores de coeficientes de presión para diversas formas simples de\nconstrucciones, obtenidos como el pésimo de entre los del abanico de direcciones de viento defini-\ndas en cada caso. En todas ellas la variable A se refiere al área de influencia del elemento o punto\nconsiderado. El signo “ indica que el valor es idéntico al de la casilla superior. Cuando se aportan\ndos valores de distinto signo separados, significa que la acción de viento en la zona considerada\npuede variar de presión a succión, y que deben considerarse las dos posibilidades. En todas las ta-\nblas puede interpolarse linealmente para valores intermedios de las variables. Los valores nulos se\nofrecen para poder interpolar.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    70.9,
+    581.2,
+    541.4,
+    649.8
+   ],
+   "tipo": "texto",
+   "texto": "3\nPara comprobaciones locales de elementos de fachada o cubierta, el área de influencia será la del\npropio elemento. Para comprobaciones de elementos estructurales subyacentes, el área de asigna-\nción de carga. Si la zona tributaria del elemento se desarrolla en dos o más zonas de las estableci-\ndas en las tablas, como es el caso de análisis de elementos estructurales generales, el uso de los\ncoeficientes tabulados opera del lado de la seguridad, toda vez que no representan valores simultá-\nneos de la acción de viento.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    70.9,
+    654.4,
+    541.4,
+    678.8
+   ],
+   "tipo": "texto",
+   "texto": "4\nPara elementos con área de influencia A, entre 1 m2 y 10 m2, el coeficiente de presión exterior se\npuede obtener mediante la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    93.6,
+    685.1,
+    541.1,
+    697.1
+   ],
+   "tipo": "texto",
+   "texto": "cpe,A = cpe,1 +(cpe,10 – cpe,1)· log10A\n(D.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    93.6,
+    702.7,
+    128.7,
+    713.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    93.6,
+    718.3,
+    506.8,
+    732.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "cpe,10\ncoeficiente de presión exterior para elementos con un área de influencia A ≥ 10 m2",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 29,
+   "bbox": [
+    93.6,
+    735.9,
+    502.3,
+    749.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "cpe,1\ncoeficiente de presión exterior para elementos con un área de influencia A ≤ 1 m2",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

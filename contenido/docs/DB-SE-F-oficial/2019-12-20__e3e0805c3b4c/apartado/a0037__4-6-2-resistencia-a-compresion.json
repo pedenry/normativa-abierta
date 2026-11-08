@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": "4.6.2",
+  "ruta_semantica": "4.6.2 Resistencia a compresión",
+  "titulo": "4.6.2 Resistencia a compresión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.6.2 Resistencia a compresión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    70.9,
+    670.9,
+    224.9,
+    680.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a50d85ca2f0f4a3bcd265221ab05e2515698e2d94401a90f3b76dd7372c45c3e",
+   "literal": "4.6.2 Resistencia a compresión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0040",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "EN 1052",
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.6.2 Resistencia a compresión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas / 4.6 Fábricas 4.6.1 Categoría de la ejecución / 4.6.2 Resistencia a compresión",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "87914e897c4656e56025c2cb99e84926e688c0bbcddeef1116d386cafe3fe1ae"
+ },
+ "paginas": [
+  14,
+  15
+ ],
+ "etiquetas_impresas": [
+  "2",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "4.6.2 Resistencia a compresión\n1\nSe define resistencia característica a la compresión de la fábrica, fk, a la que puede determinarse\nmediante ensayos sobre probetas de fábrica según los criterios que se indican en las normas UNE-\nEN 1052-1:1999, UNE-EN 1052-2:2000, UNE-EN 1052-3:2003 y UNE-EN 1052-4:2001. Por tratarse\nde un material que no es isótropo, la resistencia se refiere a la dirección en que actúa el esfuerzo.\n2\nLa resistencia característica a la compresión de la fábrica, fk, correspondiente a un esfuerzo normal a\nlos tendeles, se podrá tomar por referencia a los valores de la tabla 4.4, que recoge los casos más\nusuales, o en general, deducirla de las expresiones del Anejo C.\n\nDocumento Básico SE-F Fábrica\nSE-F-11\nTabla 4.4 Resistencia característica a la compresión de fábricas usuales fk (N/mm2)\nResistencia normalizada de las piezas, fb(N/mm2)\n5\n10\n15\n20\n25\nResistencia del mortero, fm (N/mm2)\n2,5\n3,5\n5\n7,5\n7,5\n10\n10\n15\n15\nLadrillo macizo con junta delgada\n-\n-\n3\n3\n3\n3\n3\n3\n3\nLadrillo macizo\n2\n2\n4\n4\n6\n6\n8\n8\n10\nLadrillo perforado\n2\n2\n4\n4\n5\n6\n7\n8\n9\nBloques aligerados\n2\n2\n3\n4\n5\n5\n6\n7\n8\nBloques huecos\n1\n1\n2\n3\n4\n4\n5\n6\n6\n3\nCuando la solicitación sea paralela a los tendeles, la resistencia característica a compresión puede\ndeterminarse con el anejo C, adoptando como resistencia normalizada a compresión fb de la pieza la\ncorrespondiente a dicha dirección.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "EN 1052",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0014.png",
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

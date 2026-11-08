@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0074",
+  "ruta_oficial": "6.3.2.2",
+  "ruta_semantica": "6.3.2.2 Esfuerzos axiles variables",
+  "titulo": "6.3.2.2 Esfuerzos axiles variables",
+  "nivel": 1,
+  "parent_id": "a0073",
+  "seccion_estimada": "6.3.2.2 Esfuerzos axiles variables",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    78.0,
+    396.2,
+    238.7,
+    407.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a34d626729329d1fcd60c489fc65a629accf6639664288983a1c2a5a883392ae",
+   "literal": "6.3.2.2 Esfuerzos axiles variables"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0073",
+  "parent_id_original": "a0073",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.2 Esfuerzos axiles variables",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0073",
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores. / Perfiles L / 6.3.2.2 Esfuerzos axiles variables",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6bef6d54544770a1638c2560e5af4f0694babe50a23ed1b495e71c3d689e86b6"
+ },
+ "paginas": [
+  39
+ ],
+ "etiquetas_impresas": [
+  "39"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.3.2.2 Esfuerzos axiles variables\n1\nLas barras de sección constante solicitadas por esfuerzos axiles que varían de forma lineal o pa-\nrabólica a lo largo del eje podrán calcularse como sometidas a un esfuerzo axil constante de valor\nigual al máximo axil actuante y con la longitud de pandeo igual a:\nb\nN\n/\nN\na\n1\nL\nL\nmax\nmin\nk\n⋅\n+\n=\nen la que los parámetros a y b tienen los valores:\na) variación lineal, máximo en el centro:\ndoblemente articulada:   a = 2,18  b = 3,18\ndoblemente empotrada   a = 0,93  b = 7,72\nb) variación parabólica, máximo en el centro: doblemente articulada:   a = 1,09  b = 2,09\ndoblemente empotrada   a = 0,35  b = 5,40\nc) ménsula con máximo en el empotramiento: variación lineal:\na = 2,18  b = 3,18\nvariación parabólica\na = 1,09  b = 2,09\ne) variación lineal, máximo en un extremo:\ndoblemente articulada:   a = 0,88  b = 1,88\ndoblemente empotrada:   a = 0,93  b = 7,72\narticulada en el mínimo y empotrada en el máximo:\na = 1,65  b = 5,42\narticulada en el máximo y empotrada en el mínimo\na = 0,51  b = 3,09",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0039.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

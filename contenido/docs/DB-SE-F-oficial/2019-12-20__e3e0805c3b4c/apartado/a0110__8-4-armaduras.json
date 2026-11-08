@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0110",
+  "ruta_oficial": "8.4",
+  "ruta_semantica": "8.4 Armaduras",
+  "titulo": "8.4 Armaduras",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.4 Armaduras",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 49,
+   "bbox": [
+    70.9,
+    717.2,
+    161.0,
+    729.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "333e80f1af12b330329390f8d95365d2e19a89c189236dfde1251a128aea2c77",
+   "literal": "8.4 Armaduras"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0118",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.4 Armaduras",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Control de la ejecución 8.1 Recepción de materiales / 8.4 Armaduras",
+   "seccion_estimada": "8 Control de la ejecución 8.1 Recepción de materiales",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cdbe8498a6e55a70f1bf4038034883959f9b9b142ebe198e4d07ec4cacd54632"
+ },
+ "paginas": [
+  49,
+  50
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.4 Armaduras\n1\nLas barras y las armaduras de tendel se almacenarán, se doblarán y se colocarán en la fábrica sin\nque sufran daños que las inutilicen para su función (posibles erosiones que causen discontinuidades\nen la película autoprotectora, ya sea en el revestimiento de resina epoxídica o en el galvanizado).\n\nDocumento Básico SE-F Fábrica\nSE-F-46\n2\nToda armadura se examinará superficialmente antes de colocarla, y se comprobará que esté libre de\nsustancias perjudiciales que puedan afectar al acero, al hormigón, al mortero o a la adherencia entre\nellos.\n3\nSe evitarán los daños mecánicos, rotura en las soldaduras de las armaduras de tendel, y depósitos\nsuperficiales que afecten a la adherencia.\n4\nSe emplearán separadores y estribos cuando se precisen para mantener las armaduras en su posi-\nción con el recubrimiento especificado.\n5\nCuando sea necesario, se atará la armadura con alambre para asegurar que no se mueva mientras\nse vierte el mortero u el hormigón de relleno.\n6\nLas armaduras se solaparán sólo donde lo permita la dirección facultativa, bien de manera expresa\no por referencia a indicaciones reflejadas en planos.\n7\nEn muros con pilastras armadas, la armadura principal se fijará con antelación suficiente para ejecutar\nla fábrica sin entorpecimiento. Los huecos de fábrica en que se incluye la armadura se irán rellenando\ncon mortero u hormigón al levantarse la fábrica.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0049.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

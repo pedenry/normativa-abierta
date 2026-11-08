@@ -1,0 +1,80 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0199",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p118",
+  "titulo": "(UNE-EN 312:2010, tipo P7). Valores de las propiedades Propiedades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p118",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p118",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / (UNE-EN 312:2010, tipo P7). Valores de las propiedades Propiedades",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9ed315cbe99ff851b449570a2ee9650f8aaf0a3236071c8e8e38ad882e1dc914"
+ },
+ "paginas": [
+  118
+ ],
+ "etiquetas_impresas": [
+  "800"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "(UNE-EN 312:2010, tipo P7). Valores de las propiedades Propiedades\nPropiedades\nEspesor nominal, tnom , en mm\n> 6 a 13\n> 13 a 20\n> 20 a 25\n> 25 a 32\n> 32 a 40\n> 40\nResistencia (característica), en\nN/mm2\n- Flexión\nfm,p,k\n18,3\n16,7\n15,4\n14,2\n13,3\n12,5\n- Tracción\nft,p,k\n11,5\n10,6\n9,8\n9,4\n9,0\n8,0\n- Compresión\nfc,p,k\n15,5\n14,7\n13,7\n13,5\n13,2\n13,0\n- Cortante, en el grueso\nfv,p,k\n8,6\n8,1\n7,9\n7,4\n7,2\n7,0\n- Cortante, en el plano\nfr,p,k\n2,4\n2,2\n2,0\n1,9\n1,9\n1,8\nRigidez (media), en N/mm2\n- A flexión\nEm,p\n4600\n4200\n4000\n3900\n3500\n3200\n- A tracción\nEt,p\n2600\n2500\n2400\n2300\n2100\n2000\n- A compresión\nEc,p\n2600\n2500\n2400\n2300\n2100\n2000\n- A cortante, en el grueso\nGv,p\n1250\n1200\n1150\n1100\n1050\n1000\nDensidad, en kg/m3\n- Característica\np,k\n650\n600\n550\n550\n500\n500",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0118_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0118.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

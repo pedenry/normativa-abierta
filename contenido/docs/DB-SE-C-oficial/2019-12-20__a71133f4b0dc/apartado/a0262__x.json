@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0262",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p151",
+  "titulo": "",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p151",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p151",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 · (pl – Ko po) / ",
+   "seccion_estimada": "1 · (pl – Ko po)",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6a30150765f6b6a5082a8a08f2af109ce406b48a341ff8a4b845d703cf433b54"
+ },
+ "paginas": [
+  151,
+  152
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "4"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "\n1  ___________    Carga que actúa al nivel indicado\n2  -------------------    Hipótesis de traslación rígida del pilote (“e” negativo)\nsiendo\n’\nPeso efectivo (sumergido en su caso) del terreno\nKp\nCoeficiente de empuje pasivo. Puede suponerse: Kp=1,8\n\nel ángulo de rozamiento interno\nFigura F.6. Carga de rotura horizontal del terreno (c = 0)\n\nDocumento Básico SE-C Cimientos\nSE-C-147\n4\n8\n12\n16\n20\n1\n2\n4\n8\n10\ne\nD = 0\n60\n50\n40\n10\n0\n0\nD\nL\ne\nLONGITUD ENTERRADA, L/D\nRESISTENCIA HORIZONTAL,\nD\ncu\n2\n1\n2\n20\n30\nH\nH\n1  ____________    Carga que actúa al nivel indicado\n2  --------------------    Hipótesis de traslación rígida del pilote (“e” negativo)\nsiendo\ncu\nResistencia al corte sin drenaje\nFigura F.7. Carga de rotura horizontal del terreno ( = 0)",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0151_t01.json",
+  "../tabla/p0152_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0151.png",
+  "../figura/p0152.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

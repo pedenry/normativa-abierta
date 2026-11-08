@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0234",
+  "ruta_oficial": "5.1.3.1.3",
+  "ruta_semantica": "5.1.3.1.3 Depósito de presión",
+  "titulo": "5.1.3.1.3 Depósito de presión",
+  "nivel": 1,
+  "parent_id": "a0231",
+  "seccion_estimada": "5.1.3.1.3 Depósito de presión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 98,
+   "bbox": [
+    70.9,
+    748.6,
+    216.6,
+    759.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2e8e5d39d54d9a9c36bdbb9f25d66cea17c8af329906ad82cb63be46ab5b4040",
+   "literal": "5.1.3.1.3 Depósito de presión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0231",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.3.1.3 Depósito de presión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0231",
+   "ruta_semantica": "5 Construcción 5.1 Ejecución / 5.1.3 Ejecución de los sistemas de control de la presión / 5.1.3.1.3 Depósito de presión",
+   "seccion_estimada": "5 Construcción 5.1 Ejecución",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b7d1448fe4f038720ac1f5888874cb4355ae28a62bdb26f05107f6921264181c"
+ },
+ "paginas": [
+  98,
+  99,
+  100
+ ],
+ "etiquetas_impresas": [
+  "98",
+  "99",
+  "100"
+ ],
+ "tipos": [],
+ "texto": "5.1.3.1.3 Depósito de presión\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n99\n1\nEstará dotado de un presostato con manómetro, tarado a las presiones máxima y mínima de servi-\ncio, haciendo las veces de interruptor, comandando la centralita de maniobra y control de las bom-\nbas, de tal manera que estas sólo funcionen en el momento en que disminuya la presión en el inte-\nrior del depósito hasta los límites establecidos, provocando el corte de corriente, y por tanto la para-\nda de los equipos de bombeo, cuando se alcance la presión máxima del aire contenido en el depó-\nsito. Los valores correspondientes de reglaje han de figurar de forma visible en el depósito.\n2\nEn equipos con varias bombas de funcionamiento en cascada, se instalarán tantos presostatos\ncomo bombas se desee hacer entrar en funcionamiento. Dichos presostatos, se tararán mediante\nun valor de presión diferencial para que las bombas entren en funcionamiento consecutivo para\nahorrar energía.\n3\nCumplirán la reglamentación vigente sobre aparatos a presión y su construcción atenderá en cual-\nquier caso, al uso previsto. Dispondrán, en lugar visible, de una placa en la que figure la contraseña\nde certificación, las presiones máximas de trabajo y prueba, la fecha de timbrado, el espesor de la\nchapa y el volumen.\n4\nEl timbre de presión máxima de trabajo del depósito superará, al menos, en 1 bar, a la presión má-\nxima prevista a la instalación.\n5\nDispondrá de una válvula de seguridad, situada en su parte superior, con una presión de apertura\npor encima de la presión nominal de trabajo e inferior o igual a la presión de timbrado del depósito.\n6\nCon objeto de evitar paradas y puestas en marcha demasiado frecuentes del equipo de bombeo,\ncon el consiguiente gasto de energía, se dará un margen suficientemente amplio entre la presión\nmáxima y la presión mínima en el interior del depósito, tal como figura en los puntos correspondien-\ntes a su cálculo.\n7\nSi se instalaran varios depósitos, estos pueden disponerse tanto en línea como en derivación.\n8\nLas conducciones de conexión se instalarán de manera que el aire comprimido no pueda llegar ni a\nla entrada al depósito ni a su salida a la red de distribución.\n5.1.3.2\nFuncionamiento alternativo del grupo de presión convencional\n1\nSe preverá una derivación alternativa (by-pass) que una el tubo de alimentación con el tubo de sali-\nda del grupo hacia la red interior de suministro, de manera que no se produzca una interrupción to-\ntal del abastecimiento por la parada de éste y que se aproveche la presión de la red de distribución\nen aquellos momentos en que ésta sea suficiente para abastecer nuestra instalación.\n2\nEsta derivación llevará incluidas una válvula de tres vías motorizada y una válvula antirretorno pos-\nterior a ésta. La válvula de tres vías estará accionada automáticamente por un manómetro y su co-\nrrespondiente presostato, en función de la presión de la red de suministro, dando paso al agua\ncuando ésta tome valor suficiente de abastecimiento y cerrando el paso al grupo de presión, de\nmanera que éste sólo funcione cuando sea imprescindible. El accionamiento de la válvula también\npodrá ser manual para discriminar el sentido de circulación del agua en base a otras causas tales\ncómo avería, interrupción del suministro eléctrico, etc.\n3\nCuando en un edificio se produzca la circunstancia de tener que recurrir a un doble distribuidor prin-\ncipal para dar servicio a plantas con presión de red y servicio a plantas mediante grupo de presión\npodrá optarse por no duplicar dicho distribuidor y hacer funcionar la válvula de tres vías con presio-\nnes máxima y/o mínima para cada situación.\n4\nDadas las características de funcionamiento de los grupos de presión con accionamiento regulable,\nno será imprescindible, aunque sí aconsejable, la instalación de ningún tipo de circuito alternativo.\n5.1.3.3\nEjecución y montaje del reductor de presión\n1\nCuando existan baterías mezcladoras, se instalará una reducción de presión centralizada.\n2\nSe instalarán libres de presiones y preferentemente con la caperuza de muelle dispuesta en verti-\ncal.\n3\nAsimismo, se dispondrá de un racor de conexión para la instalación de un aparato de medición de\npresión o un puente de presión diferencial. Para impedir reacciones sobre el reductor de presión\ndebe disponerse en su lado de salida como tramo de retardo con la misma medida nominal, un tra-\nmo de tubo de una longitud mínima de cinco veces el diámetro interior.\n4\nSi en el lado de salida se encuentran partes de la instalación que por un cierre incompleto del re-\nductor serán sobrecargadas con una presión no admisible, hay que instalar una válvula de seguri-\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n100\ndad. La presión de salida del reductor en estos casos ha de ajustarse como mínimo un 20 % por\ndebajo de la presión de reacción de la válvula de seguridad.\n5\nSi por razones de servicio se requiere un by-pass, éste se proveerá de un reductor de presión. Los\nreductores de presión se elegirán de acuerdo con sus correspondientes condiciones de servicio y\nse instalarán de manera que exista circulación por ambos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

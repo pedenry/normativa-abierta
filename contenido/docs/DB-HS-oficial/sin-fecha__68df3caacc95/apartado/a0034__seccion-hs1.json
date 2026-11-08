@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0034",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección HS1",
+  "titulo": "Sección HS1",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección HS1",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    70.9,
+    71.4,
+    313.7,
+    218.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "42a573cff940d6ead0cbbdeaf48439a627ce80e996087bc0b4988a36deaf2564",
+   "literal": "Sección HS1"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0001",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección HS1",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS1",
+   "seccion_estimada": "Sección HS1",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9d139782648af1e6df1c1e5686e29346aea6fc99bdda0a60c5347749300d2391"
+ },
+ "paginas": [
+  10
+ ],
+ "etiquetas_impresas": [
+  "10"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Documento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n10",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0035"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

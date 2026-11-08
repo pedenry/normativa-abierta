@@ -1,0 +1,63 @@
+{
+ "documento": "GUIA-PDF-a5d4ef5252ba",
+ "code": "GUIA",
+ "title": "IEE 2016",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "2016-11-01",
+ "version_dir": "2016-11-01__813669d3066c",
+ "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+ "apartado": {
+  "id_tecnico": "a0006",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo 3. Valoración del aislamiento acústico de elementos de separación horizontales y sus mejoras / IV.0. INTRODUCCIÓN",
+  "titulo": "IV.0. INTRODUCCIÓN",
+  "nivel": 3,
+  "parent_id": "a0003",
+  "seccion_estimada": "Anejo 3. Valoración del aislamiento acústico de elementos de separación horizontales y sus mejoras"
+ },
+ "paginas": [
+  8,
+  9
+ ],
+ "etiquetas_impresas": [
+  "8",
+  "9"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "IV.0. INTRODUCCIÓN\nIV.0. INTRODUCCIÓN\nEl apartado de Protección frente al Ruido (DB HR) del Informe de Evaluación del Edificio (IEE) consiste en una evaluación\npreliminar de las condiciones acústicas de un edificio existente. Si bien el IEE realiza un informe general acerca del\nestado del edificio, el estudio de las prestaciones acústicas no puede generalizarse a nivel de edificio completo pues la\nacústica del edificio no es un problema global sino que va ligado a las características tanto geométricas como\nconstructivas de cada vivienda y recinto individual. Las exigencias de aislamiento acústico se establecen sobre recintos\nconcretos y dependen del tipo de colindancia que exista con los demás recintos del edificio.\nEl IEE plantea una serie de cuestiones desde el punto de vista acústico sobre la distribución de los recintos dentro de la\nvivienda y en relación a otras viviendas, zonas comunes y otros recintos del edificio. Otras cuestiones son relativas a la\ntipología de elementos constructivos, a las deficiencias acústicas que puedan presentar y a las instalaciones del edificio.\nMuchas de estas cuestiones no van a ser detectables en una inspección visual preliminar; sin embargo, son un indicativo\nde aquellos puntos críticos que son determinantes en la acústica de edificios y que pueden y deben tenerse en cuenta\nen una situación futura si se aborda una rehabilitación acústica del edificio o si se acusa un problema existente de ruido,\nya que pueden utilizarse como guión o lista de chequeo a seguir durante las intervenciones o pueden ser unas\nindicaciones útiles para diagnosticar dicho problema de ruido.\nPara poder realizar una valoración de las prestaciones acústicas de un edificio existente, es fundamental que el técnico\nrealice un estudio de cuáles son las vías de transmisión del ruido existentes y localice aquéllas que pueden ser\ndominantes en el comportamiento acústico final de los recintos.\nPor otra parte, existen una serie de pruebas de diagnosis acústica que pueden realizarse al margen de lo indicado en el\nIEE. Por ejemplo, ensayos de aislamiento acústico, cuestionarios de confort acústico, etc.\nEn los apartados siguientes se dan una serie de indicaciones que ayudan a cumplimentar los apartados de acústica del\nInforme de Evaluación del Edificio. Esta información puede completarse consultando otros documentos de apoyo\ndesarrollados para la aplicación del DB HR como son la Guía de Aplicación del DB HR y el Catálogo de Elementos\nConstructivos del CTE.\nEl contenido de “Condiciones básicas de Protección frente al Ruido” del IEE se aplica en el caso de uso residencial\nvivienda.\n\nGuía para la cumplimentación de la parte IV del IEE. Condiciones básicas de protección frente al ruido\n9",
+ "notas": [],
+ "ambito": null,
+ "referencias": [
+  "DB HR"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0008_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0008.png",
+  "../figura/p0009.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/IEE_2016.pdf",
+  "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0003",
+  "nivel": 3,
+  "seccion_estimada": "Anejo 3. Valoración del aislamiento acústico de elementos de separación horizontales y sus mejoras",
+  "ruta_semantica": "Anejo 3. Valoración del aislamiento acústico de elementos de separación horizontales y sus mejoras / IV.0. INTRODUCCIÓN"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

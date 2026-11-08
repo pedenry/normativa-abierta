@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0049",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 1 Compatibilidad de los elementos de evacuación",
+  "titulo": "1 Compatibilidad de los elementos de evacuación",
+  "nivel": 2,
+  "parent_id": "a0048",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 22,
+   "bbox": [
+    70.9,
+    252.9,
+    429.4,
+    268.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "e11636e0995a272c81be901f216669f92cf2d32c64adc6b17b3e9c69655680a1",
+   "literal": "1 Compatibilidad de los elementos de evacuación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0018",
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Compatibilidad de los elementos de evacuación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 1 Compatibilidad de los elementos de evacuación",
+   "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4d99ece645ce0d7c7ba029dcbdc5877bd8e21fc0b8d006c14fe75b94a5566c7a"
+ },
+ "paginas": [
+  22
+ ],
+ "etiquetas_impresas": [
+  "22"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Compatibilidad de los elementos de evacuación\n1\nLos establecimientos de uso Comercial o Pública concurrencia de cualquier superficie y los de uso\nDocente, Hospitalario, Residencial Públicoo Administrativo cuya superficie construida sea mayor que\n1.500 m2, si están integrados en un edificio cuyo uso previsto principal sea distinto del suyo, deben\ncumplir las siguientes condiciones:\na) sus salidas de uso habitual y los recorridos hasta el espacio exterior seguro estarán situados en\nelementos independientes de las zonas comunes del edificio y compartimentados respecto de\néste de igual forma que deba estarlo el establecimiento en cuestión, según lo establecido en el",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0022.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

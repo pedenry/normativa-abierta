@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0034",
+  "ruta_oficial": "2.4.2.6",
+  "ruta_semantica": "2.4.2.6 Valor de cálculo de la resistencia del terreno",
+  "titulo": "2.4.2.6 Valor de cálculo de la resistencia del terreno",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.4.2.6 Valor de cálculo de la resistencia del terreno",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    70.9,
+    72.4,
+    320.9,
+    82.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1892466a37ac4982e76e49594d348ef27f2dc99bb50388ef058a7c602891c57e",
+   "literal": "2.4.2.6 Valor de cálculo de la resistencia del terreno"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0044",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.2.6 Valor de cálculo de la resistencia del terreno",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / 2.4.2 Estados límite últimos 2.4.2.1 Verificaciones a efectuar / 2.4.2.6 Valor de cálculo de la resistencia del terreno",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "57dbdec3184732059641d84bb14988b34afaa6def4dc37699b79f80ad9bba194"
+ },
+ "paginas": [
+  11,
+  12
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.4.2.6 Valor de cálculo de la resistencia del terreno\n1\nEl valor de cálculo de la resistencia del terreno se podrá determinar utilizando la siguiente expre-\nsión:\n\n\n\n\n\n\n\n\n\n\n\nd\nM\nK\nrep\nF\nR\nd\na\n;\nX\n;\nF\nR\n1\nR\n(2.4)\nsiendo\nR\nel coeficiente parcial de resistencia\n2\nLos coeficientes R se definen en la tabla 2.1.\n3\nLa utilización conjunta de los valores F = 1, M = 1 y R = 1 en la expresión (2.4) proporciona, para\ncada tipo de cimentación y estado límite último el valor característico, RK, de la resistencia del te-\nrreno. En los capítulos 4 y 5 se identifican distintos procedimientos que pueden utilizarse para de-\nterminar dicho valor en cimentaciones directas y profundas.\n\nDocumento Básico SE-C Cimientos\nSE-C-7\nTabla 2.1. Coeficientes de seguridad parciales\nSituación de\ndimensionado\nTipo\nMateriales\nAcciones",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0011.png",
+  "../figura/p0012.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

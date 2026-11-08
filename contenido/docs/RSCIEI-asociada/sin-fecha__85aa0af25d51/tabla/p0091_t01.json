@@ -1,0 +1,177 @@
+{
+ "indice": 1,
+ "pagina": 91,
+ "etiqueta_impresa": "91",
+ "bbox": [
+  138.6,
+  520.4,
+  456.7,
+  569.5
+ ],
+ "filas": 4,
+ "columnas": 4,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Superficie del sector o área de incendio",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Nivel de riesgo intrínseco",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 3,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Configuración",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "(m2)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "Riesgo medio",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 3,
+   "texto": "Riesgo alto",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "A , B y C\nH",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "≥ 2.500\n≥ 3.500",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "NO\nSÍ",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 3,
+   "texto": "SÍ\nSÍ",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "D (1)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "≥ 10.000",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 2,
+   "texto": "SÍ",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 3,
+   "texto": "SÍ",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "Superficie del sector o área de incendio",
+  "Nivel de riesgo intrínseco",
+  ""
+ ],
+ "header": {
+  "names": [
+   "",
+   "Superficie del sector o área de incendio",
+   "Nivel de riesgo intrínseco",
+   null
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90D5B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90E3F0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90FF80>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90D9D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90DE50>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90E600>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90C320>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90C440>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90EA50>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90CF20>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90DDC0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90D640>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96C260>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96ECC0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E0C0>"
+  ]
+ ],
+ "notas_adyacentes": [
+  "Notas de la tabla:",
+  "Nota 1: En caso de existir varias áreas adyacentes, se debe computar la superficie\nconjunta de todas ellas, pudiendo exceptuar de la suma aquellas que sean de riesgo bajo."
+ ],
+ "imagen_pagina": "figura/p0091.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

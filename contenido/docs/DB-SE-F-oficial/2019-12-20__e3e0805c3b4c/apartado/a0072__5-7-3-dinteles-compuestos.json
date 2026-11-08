@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0072",
+  "ruta_oficial": "5.7.3",
+  "ruta_semantica": "5.7.3 Dinteles compuestos",
+  "titulo": "5.7.3 Dinteles compuestos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.7.3 Dinteles compuestos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 33,
+   "bbox": [
+    70.9,
+    105.2,
+    199.2,
+    115.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "257df3659d8e052c7f1ee4f39fa77e3a90f9d3aeede1ada27c5460824b3733ad",
+   "literal": "5.7.3 Dinteles compuestos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0074",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.7.3 Dinteles compuestos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. / 5.7 Vigas de gran canto 5.7.1 Análisis / 5.7.3 Dinteles compuestos",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d485b987a0cef32e4ec1fa992e96f58927c10add4ea4dc00ec717c0e7f7b5767"
+ },
+ "paginas": [
+  33,
+  35
+ ],
+ "etiquetas_impresas": [
+  "4",
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.7.3 Dinteles compuestos\n1\nSi se emplean dinteles prefabricados de hormigón armado o pretensado para trabajar conjuntamente\ncon la fábrica, y su rigidez es pequeña comparada con la de muro superior, se podrán aplicar los\ncriterios de las vigas de gran canto, siempre que se justifique que la longitud de entrega en cada\nextremo del dintel prefabricado es suficiente, y ésta no sea menor que 100 mm (véase la figura 5.18).\nFigura 5.14 Viga de gran canto con dintel compuesto\n2\nPara evitar sobrecargar las jambas de la fábrica, la entrega de los dinteles será superior a su canto.\n\nDocumento Básico SE-F Fábrica\nSE-F-31",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0033.png",
+  "../figura/p0035.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

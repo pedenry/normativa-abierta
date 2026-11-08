@@ -1,0 +1,141 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0157",
+  "ruta_oficial": "6.2.5",
+  "ruta_semantica": "6.2.5 Empujes del terreno sobre el elemento de contención",
+  "titulo": "6.2.5 Empujes del terreno sobre el elemento de contención",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.5 Empujes del terreno sobre el elemento de contención",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 71,
+   "bbox": [
+    70.9,
+    512.0,
+    415.1,
+    524.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7cf1905bbe0d1b04cf44413fe2f39b65b02813fa45fb2d1d996a777698e41ccd",
+   "literal": "6.2.5 Empujes del terreno sobre el elemento de contención"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0182",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 6.2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.5 Empujes del terreno sobre el elemento de contención",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 6.2.5 Empujes del terreno sobre el elemento de contención",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b87252aaefd1f9aa7b1e6d5a68a4a890bcbf5be004da3f2901907395d9069c36"
+ },
+ "paginas": [
+  71,
+  72,
+  73,
+  74,
+  75
+ ],
+ "etiquetas_impresas": [
+  "9",
+  "4",
+  null,
+  "12",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.2.5 Empujes del terreno sobre el elemento de contención\n1\nPara calcular los empujes del terreno sobre un elemento de contención o viceversa puede supo-\nnerse la siguiente ley de empujes unitarios:\nh = K · ´z + uz\n(6.11)\nsiendo\nh\ntensión horizontal total a la profundidad considerada\nK\nel coeficiente de empuje correspondiente\n'\nz\n\nla tensión efectiva vertical a la profundidad considerada\nuz\nla presión intersticial a la profundidad considerada.\n2\nSi existe una sobrecarga uniforme q sobre el terreno, ésta se puede sustituir por una altura de tie-\nrras equivalente He:\n\n\nq\ne\nH\n(6.12)\nsiendo\n  el peso especifico aparente de las tierras.\n3\nEn este caso los empujes unitarios sobre el muro se incrementarán, en toda la altura, en:\ne\nH\n·\n·\nK\nh\n\n\n\n(6.13)\n\nDocumento Básico SE-C Cimientos\nSE-C-67\n4\nSi el terreno de trasdós está estratificado, cada estrato puede transformarse en una sobrecarga\npara el subyacente, deduciéndose la ley de empujes en forma acumulativa.\n5\nSi el trasdós del elemento de contención es quebrado, la ley de empujes se obtendrá aplicando\npara cada tramo el coeficiente (K) correspondiente a su inclinación.\n6\nCuando la superficie del terreno sea irregular, el empuje resultante sobre el elemento de contención\nse determinará tanteando diversas superficies de rotura.\n7\nEn el planteamiento de un elemento de contención deben tenerse en cuenta, tanto los condicionan-\ntes geotécnicos como los relacionados con su funcionalidad, que entre otros serían:\na)\ngeometría y deformabilidad del elemento de contención;\nb)\ncaracterísticas geotécnicas e historia tensional de suelo retenido;\nc)\ncompactación requerida, en su caso, para el relleno;\nd)\nterreno de cimentación;\ne)\nmovimientos admisibles en la cabeza y el pie del elemento, así como en el terreno situado en\nel entorno;\nf)\nsituación del nivel freático y afección del elemento de contención y del sistema de drenaje al\nnivel freático del entorno;\ng)\nespacio disponible para la construcción;\nh)\nuso y durabilidad.\n8\nEn la valoración de los parámetros de cálculo y la evaluación de los empujes sobre los elementos\nde contención deben considerarse los siguientes puntos:\na)\nal valorar los empujes debe tenerse en cuenta la estabilidad en el tiempo de los materiales\nexistentes en el trasdós. En este sentido, los materiales deficientemente compactados o los ci-\nclos de humedad – sequedad debidos a un sistema de drenaje inadecuado, pueden provocar\nuna evolución en el tiempo del estado tensional y unas deformaciones diferidas que probable-\nmente no puedan ser seguidas por el elemento de contención, lo que daría lugar a empujes\nsuperiores a los correspondientes al estado activo;\nb)\nen la Figura 6.5 se recoge un esquema de relación entre empuje del terreno y los movimientos\nnecesarios para su desarrollo. Es importante resaltar los importantes movimientos necesarios\npara que se desarrolle el empuje pasivo.\nH\nx\nx\nESTADO EN\nREPOSO\nKo\nKp\nKa\n10.00\n8.00\n6.00\n5.00\n4.00\n3.00\n2.00\n1.00\n0.60\n0.80\n0.50\n0.40\n0.30\n0.20\n0.10\n5.10-3\n3.10-3\n10-3\n10-2\n3.10-2\n0\nx\nH\n1\n2\nTerreno granular denso\nTerreno granular suelto\nESTADO PASIVO\nESTADO ACTIVO\nK\n1\n2\nFigura 6.5. Relación entre empuje del terreno y los movimientos necesarios para su desarrollo\nc)\nen la tabla 6.2 se recoge una estimación de los valores de rotación de la pantalla necesarios\npara desarrollar las condiciones de rotura para distintos tipos de terreno:\n\nDocumento Básico SE-C Cimientos\nSE-C-68\nTabla 6.2. Rotación necesaria para alcanzar estados de plastificación\nTipo de suelo y compacidad o consistencia\nRotación x/H\nEstado\nactivo\nEstado\npasivo\nGranular denso\n10-3\n2·10-2\nGranular suelto\n4·10-3\n6·10-2\nCohesivo duro\n10-2\n2·10-2\nCohesivo blando\n2·10-2\n4·10-2\nd)\nel valor considerado para el empuje de tierras en el análisis de estados límite últimos será, en\ngeneral, diferente al valor a considerar en el análisis de estados límite de servicio en los que\nno se considera la rotura del terreno;\ne)\nla construcción de elementos de contención en las proximidades de edificaciones requiere limi-\ntar los movimientos asociados a éstos. Al limitar los movimientos horizontales de los elemen-\ntos de contención, debe considerarse un incremento en los empujes del terreno debido a que\nno se permite que éste desarrolle completamente su capacidad resistente.\nf)\nse evitará el empleo de suelos arcillosos o limosos en el relleno de trasdós de elementos de\ncontención. En caso de que sea necesario su empleo, debe considerarse en el cálculo un coe-\nficiente de empuje no inferior a 1;\ng)\nla compactación del material del trasdós del elemento de contención debe hacerse con pre-\ncaución, empleando medios ligeros. Una compactación intensa del terreno existente en la cu-\nña activa podría provocar un incremento sustancial del empuje. Cuando se empleen equipos\nligeros para obtener densidades de hasta el 95% de la máxima Proctor Normal, pueden em-\nplearse los criterios definidos en este capítulo para la determinación de los empujes. Cuando\nse empleen equipos pesados o se consideren densidades de compactación superiores al 95%\nde la máxima Proctor Normal, el cálculo del elemento de contención debe efectuarse em-\npleando un empuje no inferior al empuje al reposo;\nh)\nSi el terreno a contener se encuentra confinado entre dos elementos sensiblemente paralelos,\nel empuje de cada elemento podrá reducirse, por efecto silo, al correspondiente a un diagrama\nde empujes truncado por el plano medio entre ambos. En el caso de esquina de muros o pan-\ntallas, el diagrama de empujes estará limitado por el plano bisectriz .\ni)\nen elementos de contención en los que el relleno de trasdós se efectúa con los forjados ya\nconstruidos, los movimientos pueden ser tan pequeños que no permitan alcanzar las condicio-\nnes de empuje activo. En esas condiciones puede considerarse la distribución de empujes co-\nrrespondiente al empuje al reposo o bien considerar la distribución de empujes definida para\nestructuras de contención apuntaladas en la Figura 6.6;\nj)\nen caso de considerar la cohesión en los cálculos de empujes sobre los elementos de conten-\nción, su valor característico debe definirse de forma específica para este tipo de estudio, con-\nsiderando la dispersión y fiabilidad de la información disponible, su estabilidad en el tiempo, la\nposible presencia de fisuras en el terreno y la sensibilidad del estudio a dicho valor;\nk)\npara obras de carácter permanente el comportamiento a largo plazo de los elementos de con-\ntención debe estudiarse en tensiones efectivas. Para obras de carácter provisional en suelos\narcillosos, el cálculo puede hacerse a partir de la resistencia al corte no drenada;\nl)\npara la valoración de empujes estabilizadores en el intradós del elemento de contención, es\nimportante garantizar la permanencia y estabilidad en el tiempo de los materiales considerados\nasí como el movimiento necesario para desarrollar el estado tensional previsto. En este senti-\ndo debe preverse la posibilidad de la ejecución de excavaciones futuras junto al pie del ele-\nmento de contención para el tendido de servicios o futuros vaciados según se define en el\napartado 6.2.2;\nm)\nigualmente, deben considerarse los importantes movimientos necesarios para el desarrollo del\nempuje pasivo, en general incompatibles con las condiciones de seguridad y funcionalidad del\nelemento de contención.\n9\nEn el análisis de estados límite últimos por métodos de equilibrio límite se considerarán los siguien-\ntes criterios:\na)\nse considerará el empuje activo en el trasdós salvo para aquellos casos en los que, debido a la\nrigidez del elemento de contención, las restricciones impuestas a su deformación (anclajes,\napuntalamientos, forjados u otros), o por el proceso de puesta en obra del relleno o sensibili-\ndad a las deformaciones de edificaciones o servicios situados en las proximidades de la coro-\n\nDocumento Básico SE-C Cimientos\nSE-C-69\nnación del elemento de contención, no se puedan producir los movimientos mínimos necesa-\nrios para movilizarlo;\nb)\nsi existen cimentaciones de edificios o servicios sensibles a los movimientos, situados a poca\nprofundidad, a una distancia de la coronación del elemento de contención inferior a la mitad de\nsu altura, se considerará el empuje en reposo, K0 en el dimensionado del elemento de conten-\nción por procedimientos de equilibrio límite. Si la distancia está comprendida entre la mitad de\nla altura y la altura del elemento de contención, debe considerarse al menos un coeficiente K =\n(K0 + KA)/2.\nEstos valores podrán modificarse si se efectúa un estudio de detalle para el cálculo de los mo-\nvimientos;\nc)\nen cualquier caso, la presión de tierras considerada sobre el elemento de contención no será\ninferior a 0,25 veces la tensión efectiva vertical;\nd)\nel empuje pasivo estará afectado por un  coeficiente de seguridad E no superior a 0,6;\ne)\npara el cálculo de elementos de contención apuntalados en arena por métodos de equilibrio\nlímite, se utilizará el diagrama rectangular semiempírico de la Figura 6.6a. A estos empujes\ndeben añadirse los debidos a las presiones intersticiales. Para profundidades superiores a 12\nm debe comprobarse que dicho diagrama es aplicable.\nFigura 6.6. Diagramas de envolventes de empujes aparentes para elementos de contención apuntalados\nf)\npara elementos de contención apuntalados en arcillas saturadas blandas a medias (resistencia\nal corte no drenado inferior a 0,05 MPa) por métodos de equilibrio límite, se utilizará el diagra-\nma de la Figura 6.6b. Este diagrama corresponde a tensiones totales, pero debe comprobarse\nque en ningún punto la tensión total sea inferior a la presión intersticial. Si bajo el fondo de la\nexcavación existe un espesor importante de arcillas de consistencia blanda a media puede\nconsiderarse m = 0,4. Si existe una capa más resistente en el entorno del fondo de la excava-\nción, puede utilizarse m=1,0;\ng)\npara elementos de contención apuntalados en arcillas fisuradas rígidas a duras (resistencia al\ncorte no drenado superior a 0,05 MPa) por métodos de equilibrio límite, se utilizará el diagrama\nrectangular de la Figura 6.6c. En condiciones normales se considerarán valores de n com-\nprendidos entre 0,2 y 0,4 en función del tipo de arcilla, su grado de fracturación o fisuración, la\nposible evolución de su resistencia con el tiempo, la rigidez de los elementos de arriostramien-\nto y el periodo de tiempo previsto para la entibación. Los empujes están definidos en relación\ncon la tensión vertical total, (Z=H), pero el método no está planteado en tensiones totales. Si\nexiste el riesgo de que las fisuras de la arcilla estén rellenas de agua, debe considerarse adi-\ncionalmente el empuje del agua intersticial.\n10\nLos análisis de estados límite que consideren la interacción terreno - estructura se efectuarán, salvo\njustificación en contra, considerando el empuje al reposo en la situación inicial, previa al comienzo\nde la excavación.\n11\nSiempre que sea posible debe evitarse el empleo de rellenos cohesivos en el trasdós de elementos\nde contención.\n12\nEn relación con las acciones sísmicas se tendrán en cuenta la Norma de Construcción Sismorresis-\ntente NCSE vigente, de acuerdo con la sismicidad de cada zona.\n\nDocumento Básico SE-C Cimientos\nSE-C-70",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.2.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0072_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0071.png",
+  "../figura/p0072.png",
+  "../figura/p0073.png",
+  "../figura/p0074.png",
+  "../figura/p0075.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0190",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo D Resistencia al fuego de los elementos de acero / D.3 Conexiones",
+  "titulo": "D.3 Conexiones",
+  "nivel": 2,
+  "parent_id": "a0182",
+  "seccion_estimada": "Anejo D Resistencia al fuego de los elementos de acero",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 72,
+   "bbox": [
+    70.9,
+    584.3,
+    189.6,
+    599.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "188775ea52215c6619d5180e7af8f327ac52828ffc4d6bcba3b1899db3d2e0b4",
+   "literal": "D.3 Conexiones"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0124",
+  "parent_id_original": "a0182",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "D.3 Conexiones",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0182",
+   "ruta_semantica": "Anejo D. Resistencia al fuego de los elementos de acero / D.3 Conexiones",
+   "seccion_estimada": "Anejo D. Resistencia al fuego de los elementos de acero",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bf884d02ed9beb879149b99060615ad51461da852803b2f2cd9cdd261e76765e"
+ },
+ "paginas": [
+  72
+ ],
+ "etiquetas_impresas": [
+  "72"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "D.3 Conexiones\n1\nLa conexión entre elementos debe tener un valor de fi mayor que el valor pésimo de los elementos\nque une.\n2\nSi los elementos están revestidos, la unión entre los mismos debe estar asimismo revestida, de tal\nforma que el valor del coeficiente de aislamiento del material de revestimiento de la unión sea mayor\no igual al de los elementos.\nV\nA\nc\nd\nc\nm\ns\ns\np\np\n\n\n",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0072.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

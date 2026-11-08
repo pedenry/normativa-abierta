@@ -1,0 +1,100 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0067",
+  "ruta_oficial": null,
+  "ruta_semantica": "Escaleras para evacuación ascendente",
+  "titulo": "Escaleras para evacuación ascendente",
+  "nivel": 1,
+  "parent_id": "a0063",
+  "seccion_estimada": "Escaleras para evacuación ascendente",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    221.1,
+    513.8,
+    390.8,
+    523.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "65ddb03fbc1b441c0d3f5a7da09a7056cd354cf48b34313702eb48e667187f6a",
+   "literal": "Escaleras para evacuación ascendente"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0063",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Escaleras para evacuación ascendente",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0063",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 5 Protección de las escaleras / Escaleras para evacuación ascendente",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "676c75a26891d29f6750c082c1f5d15236b87db745d0cdc12e8b1b48d3694f6b"
+ },
+ "paginas": [
+  28,
+  29
+ ],
+ "etiquetas_impresas": [
+  "28",
+  "29"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Escaleras para evacuación ascendente\nUso Aparcamiento\nNo se admite\nNo se admite\nSe admite en todo caso\nOtro uso:    h ≤ 2,80 m\nSe admite en todo caso\nSe admite en todo caso\n2,80 < h ≤ 6,00 m P ≤ 100 personas\nSe admite en todo caso\nh > 6,00 m\nNo se admite\nSe admite en todo caso\n(1)\nLas escaleras para evacuación descendente y las escaleras para evacuación ascendente cumplirán en todas sus plantas\nrespectivas las condiciones más restrictivas de las correspondientes a los usos de los sectores de incendio con los que co-\nmuniquen en dichas plantas. Cuando un establecimiento contenido en un edificio de uso Residencial Vivienda no precise\nconstituir sector de incendio conforme al capítulo 1 de la Sección 1 de este DB, las condiciones exigibles a las escaleras co-\nmunes son las correspondientes a dicho uso.\n(2)\nLas escaleras que comuniquen sectores de incendio diferentes pero cuya altura de evacuación no exceda de la admitida para\nlas escaleras no protegidas, no precisan cumplir las condiciones de las escaleras protegidas, sino únicamente estar compar-\ntimentadas de tal forma que a través de ellas se mantenga la compartimentación exigible entre sectores de incendio, siendo\nadmisible la opción de incorporar el ámbito de la propia escalera a uno de los sectores a los que sirve.\n(3)\nCuando se trate de un establecimiento con menos de 20 plazas de alojamiento se podrá optar por instalar un sistema de\ndetección y alarma como medida alternativa a la exigencia de escalera protegida.\n\nDocumento Básico SI en caso de Incendio\nSI 3. Evacuación de ocupantes\n29\n6",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png",
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

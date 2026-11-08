@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0144",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p65",
+  "titulo": "Diseño 3.1 Condiciones generales de los sistemas de ventilación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p65",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p65",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS3 / 1.2 Procedimiento de verificación / Diseño 3.1 Condiciones generales de los sistemas de ventilación",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "220cb822f766fda73e4c10910acbb424a1d356f73376c5723b3f079fcf3e0597"
+ },
+ "paginas": [
+  65,
+  66
+ ],
+ "etiquetas_impresas": [
+  "65",
+  "66"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Diseño 3.1 Condiciones generales de los sistemas de ventilación\n3.1 Condiciones generales de los sistemas de ventilación\n3.1.1\nViviendas\n1\nLas viviendas deben disponer de un sistema general de ventilación que puede ser híbrida o mecáni-\nca con las siguientes características (véanse los ejemplos de la figura 3.1):\na)\nel aire debe circular desde los locales secos a los húmedos, para ello los comedores, los dor-\nmitorios y las salas de estar deben disponer de aberturas deadmisión; los aseos, las cocinas y\nlos cuartos de baño deben disponer de aberturas deextracción; las particiones situadas entre\nlos locales con admisión y los locales con extracción deben disponer de aberturas de paso;\nb)\nlos locales con varios usos de los del punto anterior, deben disponer en cada zona destinada a\nun uso diferente de las aberturas correspondientes;\nc)\ncomo aberturas de admisión, se dispondrán aberturas dotadas de aireadores o aperturas fijas\nde la carpintería, como son los dispositivos de microventilación con una permeabilidad al aire\nsegún UNE EN 12207:2017 en la posición de apertura de clase 1 o superior; no obstante,\ncuando las carpinterías exteriores sean de clase 1 de permeabilidad al aire según UNE EN\n12207:2017 pueden considerarse como aberturas de admisión las juntas de apertura;\nd)\ncuando la ventilación sea híbrida las aberturas de admisión deben comunicar directamente con\nel exterior;\ne)\nlos aireadores deben disponerse a una distancia del suelo mayor que 1,80 m;\nf)\ncuando algún local con extracción esté compartimentado, deben disponerse aberturas de paso\nentre los compartimentos; la abertura de extracción debe disponerse en el compartimento más\ncontaminado que, en el caso de aseos y cuartos de baños, es aquel en el que está situado el\ninodoro, y en el caso de cocinas es aquel en el que está situada la zona de cocción; la abertu-\nra de paso que conecta con el resto de la vivienda debe estar situada en el local menos con-\ntaminado;\ng)\nlas aberturas de extracción deben conectarse a conductos de extracción y deben disponerse a\nuna distancia del techo menor que 200 mm y a una distancia de cualquier rincón o esquina\nvertical mayor que 100 mm;\nh)\nun mismo conducto de extracción puede ser compartido por aseos, baños, cocinas y trasteros.\nabertura de admisión\nabertura de extracción\nconducto de extracción\nabertura de paso\nFigura 3.1 Ejemplos de ventilación en el interior de las viviendas\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n66\n2\nLas cocinas, comedores, dormitorios y salas de estar deben disponer de un sistema complementa-\nrio de ventilación natural. Para ello debe disponerse una ventana exterior practicable o una puerta\nexterior.\n3\nLas cocinas deben disponer de un sistema adicional específico de ventilación con extracción mecá-\nnica para los vapores y los contaminantes de la cocción. Para ello debe disponerse un extractor co-\nnectado a un conducto de extracción independiente de los de la ventilación general de la vivienda\nque no puede utilizarse para la extracción de aire de locales de otro uso. Cuando este conducto sea\ncompartido por varios extractores, cada uno de éstos debe estar dotado de una válvula automática\nque mantenga abierta su conexión con el conducto sólo cuando esté funcionando o de cualquier\notro sistema antirrevoco.\n3.1.2\nAlmacenes de residuos\n1\nEn los almacenes de residuos debe disponerse un sistema de ventilación que puede ser natural,\nhíbrida o mecánica.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0065_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0065.png",
+  "../figura/p0066.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0145",
+  "a0146",
+  "a0147"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

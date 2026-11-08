@@ -1,0 +1,87 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0036",
+  "ruta_oficial": "5.2",
+  "ruta_semantica": "Capítulo 2. Condiciones técnicas y administrativas / 5.2. Conformidad con el CTE de los productos, equipos y materiales",
+  "titulo": "5.2. Conformidad con el CTE de los productos, equipos y materiales",
+  "nivel": 3,
+  "parent_id": "a0034",
+  "seccion_estimada": "Capítulo 2. Condiciones técnicas y administrativas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 7,
+   "bbox": [
+    72.0,
+    683.1,
+    552.0,
+    756.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "74bf2dff956f6a606bf20b65bd3ced06aa3eb9656490020bb15a955c6d7412d6",
+   "literal": "5.2. Conformidad con el CTE de los productos, equipos y materiales"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0009",
+  "parent_id_original": "a0034",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Real Decreto 1329/1995",
+   "Real Decreto 1630/1992"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2. Conformidad con el CTE de los productos, equipos y materiales",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0034",
+   "ruta_semantica": "Capítulo 2. Condiciones técnicas y administrativas / 5.2. Conformidad con el CTE de los productos, equipos y materiales",
+   "seccion_estimada": "Capítulo 2. Condiciones técnicas y administrativas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5d7321821a4c3c052723dcd34480d250cd18801e20944cb4c17e3364e02b01a9"
+ },
+ "paginas": [
+  7
+ ],
+ "etiquetas_impresas": [
+  "7"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "5.2. Conformidad con el CTE de los productos, equipos y materiales\n1. Los productos de construcción que se incorporen con carácter permanente a los edificios, en función\nde su uso previsto, llevarán el marcado CE, de conformidad con la Directiva 89/106/CEE de productos\nde construcción, transpuesta por el Real Decreto 1630/1992 de 29 de diciembre, modificado por el\nReal Decreto 1329/1995 de 28 de julio, y disposiciones de desarrollo, u otras Directivas europeas que\nles sean de aplicación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto 1329/1995",
+  "Real Decreto 1630/1992"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

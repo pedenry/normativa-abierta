@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0174",
+  "ruta_oficial": "10.4.5",
+  "ruta_semantica": "10.4.5 Apriete de los tornillos pretensados",
+  "titulo": "10.4.5 Apriete de los tornillos pretensados",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.4.5 Apriete de los tornillos pretensados",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 116,
+   "bbox": [
+    74.1,
+    340.9,
+    278.2,
+    352.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a9d151da89e4f940c057e47d674da8075eb46acc2917b01ccdf345b8239a8f28",
+   "literal": "10.4.5 Apriete de los tornillos pretensados"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0168",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.4.5 Apriete de los tornillos pretensados",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.4 Uniones atornilladas 10.4.1 Utilización de tornillos / 10.4.5 Apriete de los tornillos pretensados",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c29f470d555af0caeb5ad139466d1e644c2498706991ee8007697aac882e8cb2"
+ },
+ "paginas": [
+  116,
+  117
+ ],
+ "etiquetas_impresas": [
+  "116",
+  "117"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "10.4.5 Apriete de los tornillos pretensados\n1\nLos tornillos de un grupo, antes de iniciar el pretensado, deben estar apretados como si fueran tor-\nnillos sin pretensar.\n2\nCon objeto de alcanzar un pretensado uniforme, el apriete se realizará progresivamente desde los\ntornillos centrales de un grupo hasta los bordes y posteriormente realizar ciclos adicionales de\napriete. Pueden utilizarse lubricantes entre las tuercas y tornillos o entre las arandelas y el compo-\nnente que gira, siempre que no se alcance la superficie de contacto, esté contemplado como posi-\nbilidad por el procedimiento y lo admita el pliego de condiciones.\n3\nSi un conjunto tornillo, tuerca y arandela (s) se ha apretado hasta el pretensado mínimo y luego\naflojado, debe ser retirado y descartar su utilización, salvo que lo admita el pliego de condiciones.\n4\nEl apriete se realizará siguiendo uno de los procedimientos que se indican a continuación, el cual,\ndebe estar calibrado mediante ensayos de procedimiento adecuados.\na)\nMétodo de control del par torsor\nSe utiliza una llave dinamométrica ajustada al par mínimo requerido para alcanzar el preten-\nsado mínimo anteriormente especificado.\nb)\nMétodo del giro de tuerca\nSe marca la posición de \"apretado a tope \" y luego se da el giro de la tuerca indicado en la ta-\nbla 10.1\nc)\nMétodo del indicador directo de tensión.\nLas separaciones medidas en las arandelas indicadoras de tensión pueden promediarse para\nestablecer la aceptabilidad del conjunto tornillo, tuerca y arandelas.\n\nDocumentoBásico SE-A Acero\nSE-A-115\nTabla 10.1 Valores indicativos del giro en el método de giro de tuerca\nEspesor nominal total de la unión e\nÁngulo de giro a aplicar (grados)\ne < 2d\n2d ≤ e < 4d\n4d ≤ e < 6d\n6d ≤ e < 8d\n8d ≤ e  < 10d\ne > 10 d\n120\n150\n180\n210\n240\n-\nTabla sólo válida para superficies a unir perpendiculares al eje del tornillo y para tornillos tipo 8,8\nd)\nMétodo combinado\nSe realiza un apriete inicial por el método a), con una llave ajustada a un par torsor con el que\nalcance el 75% del pretensado mínimo definido en este apartado, a continuación se marca la\nposición de la tuerca (como en el método b) y, por último, se da el giro de tuerca indicado en\nla tabla 10.2.\nTabla 10.2 Valores indicativos del giro adicional en el método combinado\nEspesor nominal total de la unión e\nÁngulo de giro a aplicar (grados)\ne < 2d\n2d ≤ e < 6d\n6d ≤ e < 10 d\ne > 10 d\n60\n90\n120\n-\nTabla sólo válida para superficies a unir perpendiculares al eje del tornillo y para tornillos tipo 8,8",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0117.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

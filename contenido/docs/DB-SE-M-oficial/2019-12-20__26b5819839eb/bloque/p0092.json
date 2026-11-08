@@ -1,0 +1,309 @@
+{
+ "documento": null,
+ "pagina": 92,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 86",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    278.4,
+    270.7,
+    394.3,
+    287.9
+   ],
+   "tipo": "texto",
+   "texto": "Figura 10.13",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    299.4,
+    339.4,
+    309.4
+   ],
+   "tipo": "texto",
+   "texto": "10.5.2  Sistemas de vigas y cerchas con arriostramiento",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    319.1,
+    541.3,
+    363.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn una serie de n piezas paralelas (como vigas o pares de cerchas) que requieren restricciones late-\nrales en puntos intermedios A, B, etc. (véase figura 10.14), debe disponerse un sistema de arrios-\ntramiento que, además de los esfuerzos debidos a otras acciones que pueden actuar (p.e. carga de\nviento), resista una carga lineal qd definida mediante la ecuación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    91.8,
+    369.3,
+    148.9,
+    395.7
+   ],
+   "tipo": "texto",
+   "texto": "L\n0\n5\nN\nn\nk =\nq\nd\n1\nd\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    504.5,
+    375.8,
+    541.3,
+    385.8
+   ],
+   "tipo": "texto",
+   "texto": "(10.63)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    90.1,
+    397.1,
+    124.8,
+    407.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    90.1,
+    412.5,
+    384.4,
+    422.5
+   ],
+   "tipo": "texto",
+   "texto": "n\nnúmero de piezas arriostradas asociadas al arriostramiento;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    90.1,
+    428.0,
+    541.3,
+    449.5
+   ],
+   "tipo": "texto",
+   "texto": "Nd\nvalor medio (a lo largo del elemento puede existir un esfuerzo variable) de cálculo de la\nsolicitación axil de compresión en la combinación más desfavorable;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    90.1,
+    455.0,
+    234.4,
+    465.0
+   ],
+   "tipo": "texto",
+   "texto": "L\nlongitud de la pieza en m;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    90.1,
+    470.5,
+    443.3,
+    480.5
+   ],
+   "tipo": "texto",
+   "texto": "k1\nFactor de imperfección corresponde al menor valor de los dos siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    130.1,
+    509.5,
+    135.0,
+    526.1
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    130.1,
+    485.3,
+    135.0,
+    511.5
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    163.9,
+    505.7,
+    169.4,
+    517.1
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    104.4,
+    484.9,
+    169.5,
+    509.7
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    151.1,
+    500.8,
+    190.3,
+    525.0
+   ],
+   "tipo": "texto",
+   "texto": "L\n15\nk",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    92.2,
+    486.4,
+    177.0,
+    511.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nk\nmin\nk",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    156.7,
+    511.9,
+    160.6,
+    518.9
+   ],
+   "tipo": "texto",
+   "texto": "1",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    156.8,
+    491.3,
+    160.7,
+    498.3
+   ],
+   "tipo": "texto",
+   "texto": "1",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    99.2,
+    504.2,
+    541.3,
+    519.7
+   ],
+   "tipo": "texto",
+   "texto": "1\n(10.64)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    88.8,
+    532.2,
+    541.3,
+    554.6
+   ],
+   "tipo": "texto",
+   "texto": "La deformación horizontal del sistema de arriostramiento debida qd y a cualquier otra carga externa,\nno debe exceder L/500",
+   "tamano": 11.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    138.6,
+    745.5,
+    473.3,
+    766.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 10.14 Sistema de vigas o cerchas que requieren restricciones laterales",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,108 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0089",
+  "ruta_oficial": "6.4.3",
+  "ruta_semantica": "6.4.3  Viga a dos aguas o con cambio de pendiente en una de las caras",
+  "titulo": "6.4.3  Viga a dos aguas o con cambio de pendiente en una de las caras",
+  "nivel": 1,
+  "parent_id": "a0086",
+  "seccion_estimada": "6.4.3  Viga a dos aguas o con cambio de pendiente en una de las caras",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 41,
+   "bbox": [
+    70.9,
+    241.4,
+    410.1,
+    251.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ef1126d6d7455027be0d17f34b4e89c649cd5c3dd40fc7d069ffed5f3b2578ca",
+   "literal": "6.4.3  Viga a dos aguas o con cambio de pendiente en una de las caras"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0097",
+  "parent_id_original": "a0086",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2.2.1.2",
+   "apartado 6.1.8",
+   "apartado 6.4.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.4.3  Viga a dos aguas o con cambio de pendiente en una de las caras",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0086",
+   "ruta_semantica": "6  Estados límite últimos / 6.4  Agotamiento de secciones en piezas de canto variable o curvas de madera laminada encolada o microlaminada / 6.4.3  Viga a dos aguas o con cambio de pendiente en una de las caras",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f95306b208c84cddc0a48a1dba3bb8f4ac26603bbcb5a4e84db08dd0af32e9ae"
+ },
+ "paginas": [
+  41,
+  42
+ ],
+ "etiquetas_impresas": [
+  "2",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "6.4.3  Viga a dos aguas o con cambio de pendiente en una de las caras\n1\nLas comprobaciones que se indican a continuación son aplicables únicamente a piezas de madera\nlaminada encolada o de madera microlaminada. Se define la zona de vértice, según la figura 6.12,\ncomo una zona localizada en el cambio de pendiente, siendo el semivano el resto. Se comprobará:\na) en los semivanos. En los dos tramos de viga con canto variable (figura 6.12), se realizarán las\ncomprobaciones indicadas en el apartado 6.4.2;\nFigura 6.12. Viga a dos aguas\nb) en la zona del vértice (zona rayada de la figura 6.12. El rayado se hace sólo para indicar la zo-\nna, ya que el laminado se supone paralelo a la cara inferior con pendiente constante):\ni)\ntensiones normales debidas a la flexión en la zona del vértice:\n\nen la zona del vértice, la tensión de cálculo a flexión, m,d, debe cumplir la siguiente con-\ndición:\nf\nd\nm,\nd\nm,\n\n(6.48)\nsiendo:\nfm,d\nresistencia de cálculo a flexión.\n\nla tensión de flexión en la sección central de la zona de vértice, m,d, puede obtenerse a\npartir de la siguiente ecuación (la clásica fórmula de resistencia de materiales modificada\npor el coeficiente kl):\nh\nb\nM\n6\nk =\n2\nap\nd\nap,\nl\nd\nm,\n\n(6.49)\nsiendo:\nkl = 1 + 1,4 tg ap + 5,4 tg2ap\n(6.50)\nMap,d\nmomento flector máximo de cálculo en la sección del vértice;\nb\nanchura de la sección;\nhap\naltura de sección en el vértice de la viga (figura 6.12);\nap\nángulo del faldón (figura 6.12).\n\nDocumentoBásico SE-M Madera\nSE-M 36\nii)\ntensiones de tracción perpendicular a la fibra:\n\nla tensión de cálculo máxima de tracción perpendicular a la fibra, t,90,d, debe cumplir la\nsiguiente condición:\nt,90,d  kdis·kvol ·ft,90,d\n(6.51)\nsiendo:\nb\np\n6,0\nbh\nM\n6\ntg\n·\n2,0 =\nd\n2\nap\nd\nap,\nap\nd\nt,90,\n\n\n\n\n(6.52)\nkdis  =1,4\ncoeficiente que tiene en cuenta el efecto de la distribución de tensiones de\ntracción perpendicular en la zona de vértice;\nkvol\nfactor de volumen definido en el apartado 2.2.1.2. En este caso, V, es el\nvolumen, en m3, de la zona de vértice (figura 6.12). Como valor máximo de V\ndebe tomarse 2/3 del volumen total de la viga;V0 = 0,01m3;\nft,90,d\nresistencia de cálculo a tracción perpendicular a la fibra;\npd\ncarga distribuida de compresión sobre la zona del vértice en el borde superior\nde la viga;\nb\nancho de la sección transversal de la viga.\n2\nAdemás, debe realizarse la comprobación a cortante según el apartado 6.1.8.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.2.1.2",
+  "apartado 6.1.8",
+  "apartado 6.4.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0041.png",
+  "../figura/p0042.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

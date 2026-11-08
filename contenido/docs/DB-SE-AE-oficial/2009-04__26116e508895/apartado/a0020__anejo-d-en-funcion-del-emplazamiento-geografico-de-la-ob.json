@@ -1,0 +1,80 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0020",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p11",
+  "titulo": "anejo D, en función del emplazamiento geográfico de la obra.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p11",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p11",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra.",
+   "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cc72abfd767f71443b1c5476193d22eb9f6529dcafd3f5211700eec2d24742d7"
+ },
+ "paginas": [
+  11,
+  12
+ ],
+ "etiquetas_impresas": [
+  "11",
+  "12"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "anejo D, en función del emplazamiento geográfico de la obra.\nce\nel coeficiente de exposición, variable con la altura del punto considerado, en función del grado\nde aspereza del entorno donde se encuentra ubicada la construcción. Se determina de acuer-\ndo con lo establecido en 3.3.3. En edificios urbanos de hasta 8 plantas puede tomarse un valor\nconstante, independiente de la altura, de 2,0.\ncp\nel coeficiente eólico o de presión, dependiente de la forma y orientación de la superficie res-\npecto al viento, y en su caso, de la situación del punto respecto a los bordes de esa superficie;\nun valor negativo indica succión. Su valor se establece en 3.3.4 y 3.3.5.\n2\nLos edificios se comprobarán ante la acción del viento en todas direcciones, independientemente de\nla existencia de construcciones contiguas medianeras, aunque generalmente bastará la considera-\nción en dos sensiblemente ortogonales cualesquiera. Para cada dirección se debe considerar la ac-\nción en los dos sentidos. Si se procede con un coeficiente eólico global, la acción se considerará\naplicada con una excentricidad en planta del 5% de la dimensión máxima del edificio en el plano\nperpendicular a la dirección de viento considerada y del lado desfavorable.\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 8\n3\nLa acción de viento genera además fuerzas tangenciales paralelas a la superficie. Se calculan co-\nmo el producto de la presión exterior por el coeficiente de rozamiento, de valor igual a 0,01 si la su-\nperficie es muy lisa, por ejemplo de acero o aluminio, 0,02 si es rugosa como en el caso de hormi-\ngón, y 0,04 si es muy rugosa, como en el caso de existencia de ondas, nervadura o pliegues. En las\nsuperficies a barlovento y sotavento no será necesario tener en cuenta la acción del rozamiento si\nsu valor no supera el 10% de la fuerza perpendicular debida a la acción del viento.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0011.png",
+  "../figura/p0012.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0021",
+  "a0022",
+  "a0023",
+  "a0024",
+  "a0026"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

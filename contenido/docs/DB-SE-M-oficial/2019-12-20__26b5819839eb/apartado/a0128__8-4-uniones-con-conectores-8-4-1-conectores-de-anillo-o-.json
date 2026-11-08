@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0128",
+  "ruta_oficial": "8.4",
+  "ruta_semantica": "Fragmento de PDF p67",
+  "titulo": "8.4  Uniones con conectores 8.4.1  Conectores de anillo o de placa",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p67",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p67",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / 8.4  Uniones con conectores 8.4.1  Conectores de anillo o de placa",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "427836b6a7ad5f0b4a42b5f0c7a6f3edfbcbfff693f2d391779827ab93cc5e57"
+ },
+ "paginas": [
+  67,
+  68,
+  69,
+  70
+ ],
+ "etiquetas_impresas": [
+  "3",
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "notas",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "8.4  Uniones con conectores 8.4.1  Conectores de anillo o de placa\n8.4.1  Conectores de anillo o de placa\n1\nEn uniones realizadas con conectores de anillo de tipo A (madera-madera) o conectores de placa de\ntipo B (acero-madera) según norma UNE-EN 912:2011, y con diámetro no mayor que 200 mm, el va-\nlor característico de la capacidad de carga para una fuerza paralela a la fibra, Fv,0,Rk, por conector y\npor plano de cortadura se obtiene de la siguiente expresión:\n\n\n\n\n\n\n)\nd\n5,\n31\n(\nh\nk\nk\n)\nd\n35\n(\nk\nk\nk\nk\nmin\nF\nc\ne\n3\n1\n5\n,1\nc\n4\n3\n2\n1\nRk\n,\n0\n,v\n(8.65)\nsiendo:\nFv,0,Rk\nvalor característico de la capacidad de carga paralela a la fibra, en [N];\ndc\ndiámetro del conector, [mm];\nhe\nprofundidad de inserción, [mm];\nki\nfactores de modificación, con i = 1 a 4, definidos a continuación.\nNota.- El primer término de la expresión (8.65) representa el fallo por cortadura y el segundo el fallo\npor aplastamiento.\n2\nEl diámetro del perno auxiliar se elegirá de acuerdo con la tabla 8.7.\nTabla 8.7 Requisitos geométricos de los pernos auxiliares de conectores\nTipo de conector\n(ver UNE-EN 912:2011)\ndc\n(mm)\nd mínimo\n(mm)\nd máximo\n(mm)\nA – A5\n 130\n12\n24\nA1, A4, A5\n> 130\n0,1dc\n24\nB\nd - 1\nd\ndc\ndiámetro del conector, [mm]\nd\ndiámetro del perno, [mm].\nEl proyectista indicará el tipo de conector usado en la unión. La definición exacta del conector no se-\nrá necesaria si la geometría definida es compatible con los productos comerciales disponibles para\nese tipo de conector. No obstante, y dado el limitado repertorio comercial de estos sistemas, se re-\ncomienda incluir en el proyecto la definición geométrica completa del conector o la marca de referen-\ncia que sirva para establecer un producto igual o similar.\n3\nEl espesor mínimo de las piezas externas de madera debe ser igual a 2,25·he, y el de la pieza inter-\nna de madera debe ser igual a 3,75·he, donde he es la profundidad de inserción (véase figura 8.13).\n\nDocumentoBásico SE-M Madera\nSE-M 62\nFigura 8.13 Espesores mínimos de las piezas.\n4\nEl factor k1, depende de los espesores de las piezas t1 y t2 y de la profundidad de inserción he de la\nunión, y su valor se define en la siguiente expresión:\ne\n2\ne\n1\n1\nh\n5\n/\nt\nh\n3\n/\nt\n1\nmin\nk\n(8.66)\n5\nEl factor k2 depende de la distancia a la testa cargada a3,t de la unión y se aplica únicamente en\nuniones con testa cargada (es decir, -30º  30º; con alfa según lo definido en 8.3.2.1.2), y se ob-\ntiene de la siguiente expresión:\nc\nt,\n3\na\n2\nd\n2\na\nk\nmin\nk\n\n(8.67)\nka  = 1,25   en uniones con un conector por plano de cortadura\nka  = 1,00   en uniones con más de un conector por plano de cortadura\n(8.68)\na3,t  se define en la tabla 8.8.\nPara otros valores de , el factor k2 se tomará igual a 1,0.\n6\nEl factor k3 depende de la densidad de la madera y se obtiene de la siguiente expresión:\n350\n75\n,1\nmin\nk\nk\n3\n\n\n(8.69)\nsiendo:\nk\nvalor característico de la densidad de la madera, [kg/m3].\n7\nEl factor k4 depende de los materiales unidos, y toma los siguientes valores:\nk4 = 1,0\npara uniones madera-madera;\n(8.70)\nk4 = 1,1\npara uniones acero-madera.\n(8.71)\n8\nEn las uniones con un solo conector por plano de cortadura trabajando sin que exista testa cargada\n(150º  210º), la primera condición de la ecuación 8.59 puede despreciarse.\n9\nEl valor característico de la capacidad de carga para una fuerza que forma un `` la dirección de la\nfibra, F,Rk, por conector y por plano de cortadura debe calcularse con la siguiente expresión:\n\n\n\n\n\n\n2\n2\n90\nRk\n,\n0\n,v\nRk\n,\ncos\nsen\nk\nF\nF\n(8.72)\ncon:\nk90 = 1,3 + 0,001  dc\n(8.73)\n\nDocumentoBásico SE-M Madera\nSE-M 63\nsiendo:\nFv,0,Rk\nvalor característico de la capacidad de carga de un conector sometido a una fuerza para-\nlela a la fibra, definido anteriormente;\ndc\ndiámetro del conector, [mm].\n10 Las separaciones y distancias mínimas deben ajustarse a las especificaciones de la tabla 8.8, con\nlos símbolos definidos en la figura 8.7.\nTabla 8.8 Separaciones y distancias mínimas para conectores de anillo y de placa.\nSeparaciones y distancias\n(véase figura 6.3.2.1b)\nÁngulo\nDistancia mínima\na1 (paralela a la fibra)\n0º  360º\n(1,2 + 0,8 cos )  dc\na2 (perpendicular a la fibra)\n0º  360º\n1,2  dc\na3,t (testa cargada)\n-90º  90º\n1,5  dc\na3,c (testa no cargada)\n90º  < 150º\n(0,4 + 1,6 sen )  dc\n150º  < 210º\n1,2  dc\n210º  270º\n(0,4 + 1,6 sen )  dc\na4,t (borde cargado\n0º  180º\n(0,6 + 0,2 sen )  dc\na4,c (borde no cargado)\n180º  360º\n0,6  dc\n11 Cuando los conectores se disponen al tresbolillo (véase figura 8.14), las distancias mínimas de sepa-\nración paralela y perpendicular a la fibra, a1 y a2 respectivamente, se pueden reducir por unos coefi-\ncientes (kai) siempre que se cumpla la condición:\n(ka1)2 + (ka2)2 1\n(8.74)\ncon\n0  ka1 1\n0  ka2 1\nsiendo:\nka1\nfactor de reducción de la distancia mínima paralela a la fibra;\nka2\nfactor de reducción de la distancia mínima perpendicular a la fibra.\nFigura 8.14 Distancias reducidas en conectores.\n12 La distancia paralela a la fibra ka1a1 puede, además, reducirse hasta un 50 %, siempre que la capa-\ncidad de carga se reduzca proporcionalmente hasta el 40 %.\n13 Cuando existe una fila de conectores dispuestos paralelos a la fibra y se encuentran cargados con\nuna fuerza paralela a la fibra, el número eficaz de conectores se obtendrá de la siguiente expresión:\nnef = 2 + (1 – n/20)  (n – 2 )\n(8.75)\nsiendo:\n\nDocumentoBásico SE-M Madera\nSE-M 64\nnef\nnúmero eficaz de conectores;\nn\nnúmero de conectores situados en una línea paralela a la fibra.\nLos conectores se consideran alineados con la fibra cuando ka2a2 < 0,5·ka1a1.",
+ "notas": [
+  "Nota.- El primer término de la expresión (8.65) representa el fallo por cortadura y el segundo el fallo"
+ ],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0067.png",
+  "../figura/p0068.png",
+  "../figura/p0069.png",
+  "../figura/p0070.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0129"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

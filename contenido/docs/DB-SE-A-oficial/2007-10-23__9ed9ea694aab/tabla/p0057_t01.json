@@ -1,0 +1,53 @@
+{
+ "indice": 1,
+ "pagina": 57,
+ "etiqueta_impresa": "57",
+ "bbox": [
+  118.1,
+  328.7,
+  156.3,
+  355.6
+ ],
+ "filas": 1,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "π\n2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "E I\na b\nm·L4",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "π\n2",
+  "E I\na b\nm·L4"
+ ],
+ "header": {
+  "names": [
+   "π\n2",
+   "E I\na b\nm·L4"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96AD50>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96C7A0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0057.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

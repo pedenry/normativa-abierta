@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0016",
+  "ruta_oficial": "12",
+  "ruta_semantica": "12 Tolerancias",
+  "titulo": "12 Tolerancias",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "12 Tolerancias",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    70.9,
+    234.0,
+    141.5,
+    247.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7a4b2b548967157b2ea95b4dee692a48f8b7452e4e467b22e1cbd20039b61b14",
+   "literal": "12 Tolerancias"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0013",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "12 Tolerancias",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "12 Tolerancias",
+   "seccion_estimada": "12 Tolerancias",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "527b7dbf85a6cb857e9d16af0062cacae6f39ad740fc1e4c812bffd48710e96f"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "12 Tolerancias\n12.1 Principios generales\n12.2 Elementos estructurales\n12.3 Celosías con uniones de placas dentadas",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

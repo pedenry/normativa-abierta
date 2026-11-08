@@ -1,0 +1,86 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0132",
+  "ruta_oficial": "2.2.3",
+  "ruta_semantica": "2.2.3 Condiciones particulares de las compuertas de vertido",
+  "titulo": "2.2.3 Condiciones particulares de las compuertas de vertido",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.2.3 Condiciones particulares de las compuertas de vertido",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 55,
+   "bbox": [
+    70.9,
+    414.7,
+    362.7,
+    425.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "aa058af5b7364e203d2c1a3fdf6353b7d047356830a75f5bfb3bd629b2e2d15d",
+   "literal": "2.2.3 Condiciones particulares de las compuertas de vertido"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.2.3 Condiciones particulares de las compuertas de vertido",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva / sección no menor que 350 cm2. / 2.2.3 Condiciones particulares de las compuertas de vertido",
+   "seccion_estimada": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0c905f683ef4e169e70ddd8bc4d8f612488eaa7d160bfb3730c6cdd299fb691d"
+ },
+ "paginas": [
+  55,
+  56
+ ],
+ "etiquetas_impresas": [
+  "55",
+  "56"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.2.3 Condiciones particulares de las compuertas de vertido\n1\nLas compuertas de vertido deben ser metálicas o de material con clase de reacción al fuego A1,\nimpermeable, anticorrosivo, imputrescible y resistente a los golpes. En función de las características\nde resistencia a fuego deben ser de clase EI-60. Las superficies interiores deben ser lisas.\n2\nPara que la unión de las compuertas con las bajantes sea estanca, debe disponerse un cierre con\nburlete elástico o adoptarse otra solución que produzca el mismo efecto.\n3\nLas compuertas deben ser de tal forma que permitan\na)\nel vertido de los residuos con facilidad;\nb)\nsu limpieza interior con facilidad;\nc)\nel acceso para eliminar los atascos que se produzcan en las bajantes.\n4\nLas compuertas deben ir provistas de cierre hermético y silencioso. Para evitar que cuando haya\nuna compuerta abierta se pueda abrir otra, debe disponerse un sistema de enclavamiento eléctrico\no adoptarse otra solución que produzca el mismo efecto.\n5\nCuando las compuertas sean circulares deben tener un diámetro comprendido entre 300 y 350 mm\ny, cuando sean rectangulares, deben tener unas dimensiones comprendidas entre 300x300 y\n350x350 mm.\n6\nLa zona situada alrededor de la compuerta y el suelo adyacente de acuerdo con la figura 2.3 deben\nrevestirse con un acabado impermeable que sea fácilmente lavable:\n\nDocumento Básico HS Salubridad\nHS 2 Recogida y evacuación de residuos\n56\nFigura 2.3 Zona de acabado impermeable y lavable",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0055.png",
+  "../figura/p0056.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,100 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0058",
+  "ruta_oficial": "4.4",
+  "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 4 Escaleras y rampas / 4.4 Pasillos escalonados de acceso a localidades en graderíos y tribunas",
+  "titulo": "4.4 Pasillos escalonados de acceso a localidades en graderíos y tribunas",
+  "nivel": 3,
+  "parent_id": "a0047",
+  "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    70.9,
+    579.1,
+    507.4,
+    592.5
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "6ca81c63248bb8eeda83fa87d50aea29183ac6a1ca9bc5056bd18eb202949190",
+   "literal": "4.4 Pasillos escalonados de acceso a localidades en graderíos y tribunas"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0029",
+  "parent_id_original": "a0047",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SI",
+   "apartado 4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.4 Pasillos escalonados de acceso a localidades en graderíos y tribunas",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0047",
+   "ruta_semantica": "Sección SUA 1  Seguridad frente al riesgo de caídas / 4 Escaleras y rampas / 4.4 Pasillos escalonados de acceso a localidades en graderíos y tribunas",
+   "seccion_estimada": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "fa20d417e5acaad66a5a735f743bf806043e6d267d01a31099daecd950d8a251"
+ },
+ "paginas": [
+  15
+ ],
+ "etiquetas_impresas": [
+  "15"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Pasillos escalonados de acceso a localidades en graderíos y tribunas\n1\nLos pasillos escalonados de acceso a localidades en zonas de espectadores tales como patios de\nbutacas, anfiteatros, graderíos o similares, tendrán escalones con una dimensión constante de con-\ntrahuella. Las huellas podrán tener dos dimensiones que se repitan en peldaños alternativos, con el\nfin de permitir el acceso a nivel a las filas de espectadores.\n2\nLa anchura de los pasillos escalonados se determinará de acuerdo con las condiciones de evacua-\nción que se establecen en el apartado 4 de la Sección SI 3 del DB-SI.\n5",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SI",
+  "apartado 4"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0038",
+   "ruta_oficial": "2",
+   "titulo": "2 Discontinuidades en el pavimento",
+   "archivo_json": "a0038__2-discontinuidades-en-el-pavimento.json"
+  },
+  {
+   "id_tecnico": "a0050",
+   "ruta_oficial": "4.2.2",
+   "titulo": "4.2.2 Tramos",
+   "archivo_json": "a0050__4-2-2-tramos.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

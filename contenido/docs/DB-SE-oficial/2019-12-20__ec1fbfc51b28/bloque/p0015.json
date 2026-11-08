@@ -1,0 +1,339 @@
+{
+ "documento": null,
+ "pagina": 15,
+ "etiqueta_impresa": "2",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    293.6,
+    796.4,
+    318.6,
+    806.4
+   ],
+   "tipo": "texto",
+   "texto": "SE - 9",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    414.9,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "4 Verificaciones basadas en coeficientes parciales",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    126.8,
+    177.0,
+    138.8
+   ],
+   "tipo": "titulo",
+   "texto": "4.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    145.3,
+    541.3,
+    227.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn la verificación de los estados límite mediante coeficientes parciales, para la determinación del\nefecto de las acciones, así como de la respuesta estructural, se utilizan los valores de cálculo de las\nvariables, obtenidos a partir de sus valores característicos, u otros valores representativos, multipli-\ncándolos o dividiéndolos por los correspondientes coeficientes parciales para las acciones y la re-\nsistencia, respectivamente.\n2\nLos valores de cálculo no tienen en cuenta la influencia de errores humanos groseros. Estos deben\nevitarse mediante una dirección de obra, utilización, inspección y mantenimiento adecuados.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    243.1,
+    209.6,
+    255.1
+   ],
+   "tipo": "titulo",
+   "texto": "4.2 Capacidad portante",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    266.5,
+    166.6,
+    276.5
+   ],
+   "tipo": "texto",
+   "texto": "4.2.1 Verificaciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    283.2,
+    541.3,
+    316.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe considera que hay suficiente estabilidad del conjunto del edificio o de una parte independiente\ndel mismo, si para todas las situaciones de dimensionado pertinentes, se cumple la siguiente condi-\nción.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    95.9,
+    322.9,
+    534.8,
+    336.2
+   ],
+   "tipo": "texto",
+   "texto": "stb\nd,\ndst\nd,\nE\nE\n\n(4.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    94.3,
+    345.6,
+    126.6,
+    355.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    363.1,
+    541.3,
+    425.2
+   ],
+   "tipo": "texto",
+   "texto": "Ed,dst\nvalor de cálculo del efecto de las acciones desestabilizadoras\nEd,stb\nvalor de cálculo del efecto de las acciones estabilizadoras\n2\nSe considera que hay suficiente resistencia de la estructura portante, de un elemento estructural,\nsección, punto o de una unión entre elementos, si para todas las situaciones de dimensionado per-\ntinentes, se cumple la siguiente condición.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    95.9,
+    431.8,
+    534.8,
+    445.1
+   ],
+   "tipo": "texto",
+   "texto": "d\nd\nR\nE\n\n(4.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    94.3,
+    453.6,
+    126.6,
+    463.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    93.6,
+    471.1,
+    364.7,
+    495.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\nvalor de cálculo del efecto de las acciones\nRd\nvalor de cálculo de la resistencia correspondiente",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    507.0,
+    222.1,
+    517.0
+   ],
+   "tipo": "texto",
+   "texto": "4.2.2 Combinación de acciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    523.7,
+    541.3,
+    545.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor de cálculo de los efectos de las acciones correspondiente a una situación persistente o\ntransitoria, se determina mediante combinaciones de acciones a partir de la expresión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    97.1,
+    551.2,
+    273.8,
+    572.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    97.1,
+    551.8,
+    324.1,
+    572.1
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n\n\n\n\n\n\n\n\n1\nj\n1\ni",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    114.8,
+    552.6,
+    538.5,
+    565.0
+   ],
+   "tipo": "texto",
+   "texto": "i\nk,\ni\n0,\ni\nQ,\nk,1\nQ,1\nP\nj\nk,\nj\nG,\nQ\nQ\nP\nG\n(4.3)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    93.6,
+    581.6,
+    321.0,
+    591.6
+   ],
+   "tipo": "texto",
+   "texto": "es decir, considerando la actuación simultánea de:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    93.6,
+    595.5,
+    538.1,
+    607.0
+   ],
+   "tipo": "texto",
+   "texto": "a)\ntodas las acciones permanentes, en valor de cálculo ( G · Gk ), incluido el pretensado ( P · P );",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    93.6,
+    610.7,
+    541.3,
+    633.6
+   ],
+   "tipo": "texto",
+   "texto": "b)\nuna acción variable cualquiera, en valor de cálculo ( Q · Qk ), debiendo adoptarse como tal una\ntras otra sucesivamente en distintos análisis;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    93.6,
+    637.5,
+    493.5,
+    649.0
+   ],
+   "tipo": "texto",
+   "texto": "c)\nel resto de las acciones variables, en valor de cálculo de combinación ( Q · 0 · Qk ).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    93.6,
+    652.7,
+    541.3,
+    713.0
+   ],
+   "tipo": "texto",
+   "texto": "Los valores de los coeficientes de seguridad, se establecen en la tabla 4.1 para cada tipo de ac-\nción, atendiendo para comprobaciones de resistencia a si su efecto es desfavorable o favorable,\nconsiderada globalmente.\nPara comprobaciones de estabilidad, se diferenciará, aun dentro de la misma acción, la parte favo-\nrable (la estabilizadora), de la desfavorable (la desestabilizadora).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    70.9,
+    716.9,
+    541.3,
+    754.3
+   ],
+   "tipo": "texto",
+   "texto": "Los valores de los coeficientes de simultaneidad, , se establecen en la tabla 4.2\n2\nEl valor de cálculo de los efectos de las acciones correspondiente a una situación extraordinaria, se\ndetermina mediante combinaciones de acciones a partir de la expresión",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

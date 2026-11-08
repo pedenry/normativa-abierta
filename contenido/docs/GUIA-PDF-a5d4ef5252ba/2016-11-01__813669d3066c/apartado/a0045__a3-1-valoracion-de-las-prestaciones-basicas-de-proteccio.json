@@ -1,0 +1,65 @@
+{
+ "documento": "GUIA-PDF-a5d4ef5252ba",
+ "code": "GUIA",
+ "title": "IEE 2016",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "2016-11-01",
+ "version_dir": "2016-11-01__813669d3066c",
+ "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+ "apartado": {
+  "id_tecnico": "a0045",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo 3 Valoración del aislamiento acústico de elementos de separación horizontales y sus / A3.1 Valoración de las prestaciones básicas de protección frente al ruido",
+  "titulo": "A3.1 Valoración de las prestaciones básicas de protección frente al ruido",
+  "nivel": 3,
+  "parent_id": "a0043",
+  "seccion_estimada": "Anejo 3 Valoración del aislamiento acústico de elementos de separación horizontales y sus"
+ },
+ "paginas": [
+  61,
+  62
+ ],
+ "etiquetas_impresas": [
+  "51",
+  "52"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "A3.1 Valoración de las prestaciones básicas de protección frente al ruido\nLa tabla A3.1 muestra una estimación de los niveles de aislamiento acústico a ruido aéreo y a ruido de impactos de\nforjados homogéneos. Para entrar en la tabla debe realizarse una estimación de la masa por unidad de superficie del\nforjado. Para ello, puede utilizarse como referencia los valores de masa por unidad de superficie del Catálogo de\nElementos Constructivos del Código Técnico de la Edificación.\nEn las viviendas anteriores a la aprobación del DB HR, los elementos de separación horizontales estaban formados por\nel forjado y varias capas de relleno (arena, mortero) que regularizaban la superficie del forjado y hacían de soporte del\npavimento. En estos casos, debe sumársele a la masa del forjado, la masa de cada una de las capas que forman el\nelemento de separación horizontal.\nPara cada intervención, la tabla A3.2 indica con una escala de colores los niveles de aislamiento acústico que pueden\nobtenerse en la edificación. Estos valores son orientativos, ya que el aislamiento acústico entre recintos depende de\notros factores, como son los elementos de flancos, sus uniones y la ejecución de cada una de las soluciones.\nLos niveles de aislamiento están expresados como diferencia de niveles estandarizada ponderada A, DnT,A, para ruido\naéreo y como nivel global de presión de ruido de impactos estandarizado, L’nT,w, que son los mismos índices que\naparecen en el DB HR.\n12 Bajo esta denominación se recogen las losas de hormigón, forjados con elementos aligerantes, ya sean cerámicos,  de hormigón o\nde poliestireno y los forjados de chapa colaborante\n\nGuía para la cumplimentación de la parte IV del IEE. Condiciones básicas de protección frente al ruido\n52\nTabla A3.1. Valoración del aislamiento acústico a ruido aéreo y de impactos entre recintos colindantes.\nElementos de separación horizontales\nValoración del estado inicial:\nAislamiento acústico obtenido según el tipo de intervención\nMasa por unidad de superficie del forjado\n(kg/m2)\n200-225\n225-250\n250-275\n275-300\n300-325\n325-350\n350-375\n375-400\n400-425\n425-450\nCaracterización inicial\nde los elementos de\nseparación\nhorizontales\nDnT,A\n(dBA)\nL’nT,w\n(dB)\nTabla A3.2. Niveles de aislamiento acústico a ruido aéreo y de impactos. Valoración final de las prestaciones\nAéreo\nImpactos\nColor/nivel\nDnT,A,\n(dBA)\nValoración final de las\nprestaciones\n(apartados IV.3 y IV.4.2)\nColor/nivel\nL’nT,w\n(dB)\nValoración final de las\nprestaciones\n(apartados IV.3 y IV.4.2)\nI\n≥ 50\nBUENO\nI\n≤ 65\nBUENO\nII\n45 – 49\nRAZONABLE\nII\n70 – 66\nRAZONABLE\nIII\n40-45\nREGULAR\nIII\n75 – 71\nREGULAR\nIV\n< 40\nDEFICIENTE\nIV\n> 75\nDEFICIENTE",
+ "notas": [],
+ "ambito": null,
+ "referencias": [
+  "DB HR"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0062_t01.json",
+  "../tabla/p0062_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0061.png",
+  "../figura/p0062.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/IEE_2016.pdf",
+  "sha256": "813669d3066c0ff79457d57b80b0512a4fbb248bc5db1f7baf473c369a064738",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0043",
+  "nivel": 3,
+  "seccion_estimada": "Anejo 3 Valoración del aislamiento acústico de elementos de separación horizontales y sus",
+  "ruta_semantica": "Anejo 3 Valoración del aislamiento acústico de elementos de separación horizontales y sus / A3.1 Valoración de las prestaciones básicas de protección frente al ruido"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

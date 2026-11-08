@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0046",
+  "ruta_oficial": "5.2.5",
+  "ruta_semantica": "5.2.5 Características de las secciones de clase 4",
+  "titulo": "5.2.5 Características de las secciones de clase 4",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.5 Características de las secciones de clase 4",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 23,
+   "bbox": [
+    74.1,
+    242.0,
+    309.2,
+    253.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1ed3dfcb628812d08d9de517e196e265356eda2c0720a28ffa8519addc4c8600",
+   "literal": "5.2.5 Características de las secciones de clase 4"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0051",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.5 Características de las secciones de clase 4",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / sección tubular / 5.2.5 Características de las secciones de clase 4",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "88d4e06e7c2534cc00df7e7dece5c46b3c8e2ca44c86184a81a073091c41a703"
+ },
+ "paginas": [
+  23,
+  24,
+  25,
+  26
+ ],
+ "etiquetas_impresas": [
+  "23",
+  "24",
+  "25",
+  "26"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "5.2.5 Características de las secciones de clase 4\n1\nEn caso de que alguno de los elementos planos que forman una sección transversal sea de clase\n4,la reducción, debida a la abolladura, de la rigidez y de la resistencia última, se tendrá en cuenta a\ntravés de la introducción de un ancho eficaz. Este procedimiento corresponde al método EER (Cla-\nse de sección 4), según la tabla 5.2.\n2\nEl ancho eficaz beff de un elemento plano comprimido de ancho bc podrá determinarse según la re-\nlación:\nbef=ρbc\n(5.1)\nsiendo\nbc\nel ancho de la zona comprimida del elemento plano total o parcialmente comprimido\nρ\nfactor de reducción\n3\nPara los elementos planos de cuyos bordes paralelos a la dirección de los esfuerzos por lo menos\nuno esté apoyado, el factor de reducción podrá determinarse como sigue:\n- para un elemento plano apoyado en los dos bordes:\n1\n)\n3\n(\n055\n,0\n1\n1\n2\np\np\n≤\n\n\n\n\n\n\n\n\n\n\nλ\nψ\n+\n−\nλ\n=\nρ\n(5.2a)\n- para un elemento plano apoyado en un borde\n2\np\np\n188\n,0\nλ\n−\nλ\n=\nρ\n(5.2b)\nsiendo:\np\nλ\nesbeltez relativa del elemento comprimido\nψ\nrelación de las tensiones en los bordes del elemento plano según tabla 5.6\n4\nLa esbeltez relativa del elemento total o parcialmente comprimido se podrá determinar según la re-\nlación\nσ\n=\nσ\n=\nλ\nk\nf\n235\n4\n,\n28\n)t/\nb\n(\nf\ny\ncr\ny\np\n(5.3)\n\nDocumentoBásico SE-A Acero\nSE-A-22\nsiendo\nb\nel ancho del elemento plano total o parcialmente comprimido\nt\nespesor del elemento plano\nkσ\ncoeficiente de abolladura según tabla 5.6\nσcr\ntensión crítica de abolladura elástica\n5\nDe acuerdo con la teoría lineal para materiales elásticos, la tensión crítica de abolladura elástica de\nun elemento plano solicitado por tensiones normales se obtendrá a partir de la relación:\nσcr=kσ·σE\n(5.4)\nsiendo\n2\n2\n2\n2\nE\nb\nt\nE\n9,0\nb\nt\n)\n1\n(\n12\nE\n\n\n\n\n\n\n≅\n\n\n\n\n\n\nυ\n−\nπ\n=\nσ\n(5.5)\n6\nLos coeficientes de abolladura kσ dependen de la relación entre longitud y ancho del elemento pla-\nno, de las condiciones de apoyo en los elementos adyacentes, así como del tipo de solicitación. En\nla determinación del ancho eficaz beff se deberá emplear el valor mínimo de los coeficientes de\nabolladura. En caso de que unas condiciones de borde más favorables no queden aseguradas, se\ndebería admitir que los bordes estén simplemente apoyados o libres. Los valores de kσ según la\ntabla 5.6, están basados en esta hipótesis, por lo que resultan conservadores\n7\nSi la resistencia última de una barra se alcanza para una tensión de compresión sb<fy, por ejemplo\npor pandeo o pandeo lateral, la determinación del ancho eficaz se podrá llevar a cabo utilizando el\nvalor de la tensión de compresión\nb\ny·\nfσ\nen lugar del límite elástico.\n8\nEn los modelos utilizados en el análisis global de la estructura son admisibles las siguientes simpli-\nficaciones:\na)\nconsiderar las características de la sección bruta, sin reducción alguna, en los modelos utili-\nzados en el análisis ante estados límite últimos. Como excepción, no se admite esta posibili-\ndad cuando las acciones o sus efectos dependan de los desplazamientos, y muy en particular,\ncuando se evalúe la seguridad ante fenómenos de embalsamiento (de agua en cubiertas muy\nflexibles, de hormigón en forjados mixtos, etc.) o de estabilidad;\nb)\nconsiderar las características de la sección eficaz, calculada a partir de la tensión de límite\nelástico y no de la tensión máxima de compresión, en los modelos utilizados en el análisis an-\nte estados límite de servicio.\n9\nEl eje neutro de la sección eficaz no coincide, en general, con el de la bruta. El producto del es-\nfuerzo axil (si existe) por la excentricidad induce un momento flector adicional a considerar (figura\n5.2.a).\n\nDocumentoBásico SE-A Acero\nSE-A-23\na) secciones comprimidas\nb) secciones flectadas\nFigura 5.2 Secciones eficaces\n\nDocumentoBásico SE-A Acero\nSE-A-24\nTabla 5.6 Ancho eficaz de elementos planos total o parcialmente comprimidos.\nCondiciones de apoyo y\nsolicitación\nCompresión +\nTracción -",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0023_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0023.png",
+  "../figura/p0024.png",
+  "../figura/p0025.png",
+  "../figura/p0026.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,119 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0179",
+  "ruta_oficial": "6.3.2.4.2",
+  "ruta_semantica": "6.3.2.4.2 Dimensiones y características de la sección transversal",
+  "titulo": "6.3.2.4.2 Dimensiones y características de la sección transversal",
+  "nivel": 1,
+  "parent_id": "a0177",
+  "seccion_estimada": "6.3.2.4.2 Dimensiones y características de la sección transversal",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 84,
+   "bbox": [
+    70.9,
+    217.4,
+    380.5,
+    227.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "8ffd48949be412753eb7f1a527b5a98154f8a9b05b432a81b1743c021debf545",
+   "literal": "6.3.2.4.2 Dimensiones y características de la sección transversal"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0205",
+  "parent_id_original": "a0177",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.4.2 Dimensiones y características de la sección transversal",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0177",
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). /  / 6.3.2.4 Dimensionado / 6.3.2.4.2 Dimensiones y características de la sección transversal",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "169aae55acaf44cc006f3fe1792e16ee58f66ff93121aac0defdfe3906314a90"
+ },
+ "paginas": [
+  84,
+  85
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [],
+ "texto": "6.3.2.4.2 Dimensiones y características de la sección transversal\n1\nLas características de la sección transversal de una pantalla vendrán fijadas por consideraciones de\nresistencia a los esfuerzos a los que se verá sometida. En ocasiones, puede estar condicionada por\nla necesidad de una rigidez determinada, con la que se limiten los movimientos del terreno en el\ntrasdós a valores tolerables.\n2\nLos esfuerzos que se deben tomar para el dimensionado son los que se deduzcan en las compro-\nbaciones de estabilidad en las diferentes fases de la ejecución y las comprobaciones de los estados\nlímite de servicio, con los que se obtendrá la envolvente de los máximos momentos flectores y es-\nfuerzos cortantes a lo largo de toda la pantalla.\n3\nEn los apartados que figuran a continuación se recogen indicaciones adicionales para los siguientes\ntipos de pantallas:\na)\npantallas de tablestacas;\nb)\npantallas continuas de hormigón;\nc)\npantallas de pilotes “in situ”.\n6.3.2.4.2.1 Pantallas de tablestacas\n1\nTablestacas de hormigón armado y pretensado:\na)\nse dimensionarán para que resistan los máximos esfuerzos mayorados durante el servicio, los\nesfuerzos que puedan producirse durante la hinca y los que se produzcan durante el transpor-\nte, igualmente mayorados. La forma de comprobación de la resistencia, de la sección trans-\nversal, en función de las características resistentes del hormigón y del acero, será la indicada\nen la Instrucción EHE;\nb)\nel recubrimiento del acero de las armaduras debe ser mayor o igual que 3 cm en agua dulce, y\nque 4 cm en agua salada y cumplirá las condiciones definidas en este DB y en la Instrucción\nEHE.\n2\nTablestacas de acero:\na)\nel perfil se elegirá de modo que con los esfuerzos de servicio, mayorados, no se supere en\nninguna sección la tensión de limite elástico según la calidad del acero, dividida por el coefi-\nciente de seguridad definido en la tabla 2.1;\nb)\nel perfil elegido debe permitir que pueda hincarse sin que se produzcan deterioros en cualquie-\nra de sus extremos;\nc)\nsi las tablestacas a emplear pueden haberse usado en otras obras previamente y ser de recu-\nperación, se adoptará un coeficiente de seguridad adicional para tener en cuenta posibles de-\nformaciones del perfil, tensiones residuales, pérdida de sección por corrosión, etc;\nd)\nsi la pantalla ha de permanecer en servicio durante mucho tiempo, en presencia de agua, se\nadoptarán medidas para evitar la corrosión. Si no se toma ninguna medida en ese sentido, el\nperfil no tendrá un espesor inferior a 8 mm y debe tomarse en consideración la pérdida de es-\npesor producida por la corrosión.\n6.3.2.4.2.2 Pantallas continuas de hormigón\n1\nLa pantalla se calculará estructuralmente considerando los coeficientes de seguridad definidos en la\ntabla 2.1, según los criterios definidos en este DB y de acuerdo con la Instrucción EHE. Se podrá\ntener en cuenta el peso propio de la pantalla, a fin de contar con un esfuerzo axil en la sección\n\nDocumento Básico SE-C Cimientos\nSE-C-80\ntransversal que proporciona una economía de armaduras. La forma de trabajo será la de flexión\nsimple o compuesta en planos verticales perpendiculares a la pantalla.\n2\nEn pantallas continuas y de pilotes”in situ” se recomienda utilizar, a efectos de cálculo a flexión, una\nresistencia característica del hormigón de 18 MPa para tomar en consideración las condiciones de\npuesta en obra.\n3\nLas paredes de la zanja, que constituyen el encofrado de la pantalla, son planas con bastantes irre-\ngularidades. El recubrimiento mínimo de las armaduras cumplirá las condiciones definidas en este\nDB y en la Instrucción EHE para piezas hormigonadas contra el terreno.\n4\nSi el terreno es cohesivo y muy estable y si no existen edificaciones en las proximidades, pueden\nexcavarse módulos de un ancho que oscila generalmente entre un valor mínimo correspondiente a\nla apertura de la cuchara, generalmente de 2,5 a 4,5m, y un valor máximo función de la estabilidad\ndel terreno.\n5\nEn las circunstancias opuestas, terrenos muy sueltos o en proximidad de medianerías en mal esta-\ndo o edificaciones muy susceptibles a los asentamientos o movimientos horizontales, la longitud de\nlos módulos o zanjas se reducirá todo lo posible.\n6.3.2.4.2.3 Pantallas de pilotes in situ\n1\nSe considerará a los pilotes como vigas de sección circular trabajando a flexión simple o compues-\nta, si se tiene en cuenta el peso propio. Se dimensionarán estructuralmente considerando los coefi-\ncientes de seguridad definidos en la tabla 2.1, según los criterios definidos en este DB y de acuerdo\ncon la Instrucción EHE.\n2\nEl recubrimiento mínimo de las armaduras cumplirá las condiciones definidas en este DB y en la\nInstrucción EHE para piezas hormigonadas contra el terreno.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

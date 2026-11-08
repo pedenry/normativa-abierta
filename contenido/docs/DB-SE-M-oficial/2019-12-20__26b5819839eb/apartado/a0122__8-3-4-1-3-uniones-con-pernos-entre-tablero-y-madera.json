@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0122",
+  "ruta_oficial": "8.3.4.1.3",
+  "ruta_semantica": "8.3.4.1.3  Uniones con pernos entre tablero y madera",
+  "titulo": "8.3.4.1.3  Uniones con pernos entre tablero y madera",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.3.4.1.3  Uniones con pernos entre tablero y madera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 63,
+   "bbox": [
+    70.9,
+    239.4,
+    324.5,
+    249.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e1a17125b11e2a276b4966f55fed22eb59ed0e24300362e85b6b44d4d0a74bfb",
+   "literal": "8.3.4.1.3  Uniones con pernos entre tablero y madera"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0135",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.4.1.3  Uniones con pernos entre tablero y madera",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / sección / Disposiciones constructivas. / 8.3.4.1.3  Uniones con pernos entre tablero y madera",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5229d35fac11a93e5865bde64ecadd5e864dc3ca13fd3dca6fe75a501f7f7e4b"
+ },
+ "paginas": [
+  63
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.3.4.1.3  Uniones con pernos entre tablero y madera\n1\nLa resistencia característica al aplastamiento para cualquier ángulo respecto a la dirección de la fibra\nen tablero contrachapado será:\nfh,k = 0,11 (1 - 0,01d)·k  (N/mm2)\n(8.54)\nsiendo:\nk\ndensidad característica de la madera, [kg/m3];\nd\ndiámetro del perno, [mm].\n2\nLa resistencia característica al aplastamiento para cualquier ángulo respecto a la dirección de la fibra\nen tableros de partículas y tableros de virutas orientadas (OSB) será:\nfh,k = 50·d-0,6·t0,2\n(8.55)",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0063.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

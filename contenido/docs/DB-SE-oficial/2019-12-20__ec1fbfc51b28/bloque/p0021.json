@@ -1,0 +1,196 @@
+{
+ "documento": null,
+ "pagina": 21,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    796.4,
+    320.8,
+    806.4
+   ],
+   "tipo": "texto",
+   "texto": "SE - 15",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    429.7,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "5 Verificaciones basadas en métodos experimentales",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    126.8,
+    177.0,
+    138.8
+   ],
+   "tipo": "titulo",
+   "texto": "5.1 Generalidades",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    145.3,
+    541.3,
+    227.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas verificaciones relativas a la seguridad estructural mediante ensayos están basadas en el esta-\nblecimiento experimental de parámetros que definan bien la respuesta de una determinada estruc-\ntura, de un elemento estructural o de una unión, o bien las acciones e influencias que actúen sobre\nellos.\n2\nNo se consideraran como parte de este procedimiento experimental los ensayos de recepción de\nmateriales o de su control de calidad, así como los ensayos del terreno para la redacción de infor-\nmes geotécnicos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    243.1,
+    253.7,
+    255.1
+   ],
+   "tipo": "titulo",
+   "texto": "5.2 Planteamiento experimental",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    261.6,
+    544.1,
+    623.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nDebe definirse de forma inequívoca el estado límite que debe verificarse y determinarse las zonas o\nlos puntos críticos desde el punto de vista del comportamiento de la estructura o del elemento con-\nsiderado.\n2\nLas probetas o muestras a ensayar se fabricarán empleando los materiales previstos en obra, apli-\ncando la misma técnica y, en la medida de lo posible, con las mismas dimensiones que los elemen-\ntos correspondientes. El muestreo se efectuará de manera aleatoria. Además, las probetas deberán\nreproducir adecuadamente las condiciones de apoyo y de puesta en carga de los elementos.\n3\nDeben minimizarse, en la medida de lo posible, las diferencias entre las condiciones en las cuales\nse realicen los ensayos y las condiciones del elemento estructural real. Cuando estas diferencias\ntengan una incidencia significativa, se tendrán en cuenta en la evaluación e interpretación de los re-\nsultados introduciendo unos factores de conversión que se establecerán mediante análisis experi-\nmental o teórico, o sobre la base de la experiencia. Estos factores están asociados con incertidum-\nbres que dependen de cada caso\n4\nEn los métodos empleados para deducir los valores de cálculo a partir de los resultados experimen-\ntales se tendrá en cuenta el número reducido de ensayos. En ausencia de un análisis más detalla-\ndo, la evaluación directa de los resultados se realizará según las indicaciones del apartado 5.5. Pa-\nra la evaluación de los resultados podrán emplearse otros métodos, siempre y cuando resulten con-\nsistentes con el formato de verificación establecido. En caso de que existan conocimientos previos\n(por ejemplo modelos de cálculo, ensayos previos), éstos se podrán tener en cuenta en la evalua-\nción de los resultados.\n5\nSi los resultados experimentales se usan en un análisis probabilista, los datos obtenidos pueden\nemplearse para la actualización de los parámetros estadísticos correspondientes.\n6\nLas conclusiones derivadas de una campaña experimental determinada sólo tienen validez para las\ncondiciones particulares de los ensayos, caracterizadas por el dispositivo experimental elegido, los\nmateriales de construcción y la técnica de fabricación empleados.\n7\nEn la evaluación e interpretación de los resultados se introducirán factores de conversión que ten-\ngan en cuenta las diferencias entre las condiciones del ensayo y las condiciones en obra que sean\nrelevantes, como el efecto de escala, la duración de la aplicación de la carga, las condiciones de\napoyo de las probetas o los efectos ambientales que puedan incidir en las propiedades de los mate-\nriales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    638.9,
+    259.8,
+    650.9
+   ],
+   "tipo": "titulo",
+   "texto": "5.3 Evaluación de los resultados",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    662.3,
+    167.7,
+    672.2
+   ],
+   "tipo": "texto",
+   "texto": "5.3.1 Generalidades",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    679.0,
+    541.3,
+    726.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa determinación del valor de cálculo de la resistencia de un elemento estructural o de un material\nmediante ensayos se basa en que la resistencia de la probeta empleada se representa a través de\nuna única variable y en que el tipo de rotura contemplado es determinante en todos los ensayos.\n2\nEl valor de cálculo de la resistencia, Rd, se determinará según la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    135.7,
+    755.3,
+    173.7,
+    762.3
+   ],
+   "tipo": "texto",
+   "texto": "Rd\nM",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    104.9,
+    740.2,
+    147.1,
+    754.5
+   ],
+   "tipo": "texto",
+   "texto": "est\nk,\nd",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    95.8,
+    735.0,
+    182.3,
+    760.4
+   ],
+   "tipo": "texto",
+   "texto": "m\nR\nR\n\n\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    514.3,
+    733.9,
+    534.8,
+    743.9
+   ],
+   "tipo": "texto",
+   "texto": "(5.1)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

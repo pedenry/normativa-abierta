@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0264",
+  "ruta_oficial": "4.2",
+  "ruta_semantica": "Fragmento de PDF p119",
+  "titulo": "4.2 Dimensionado de la red de evacuación de aguas pluviales 4.2.1 Red de pequeña evacuación de aguas pluviales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p119",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p119",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 4.2 Dimensionado de la red de evacuación de aguas pluviales 4.2.1 Red de pequeña evacuación de aguas pluviales",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e08e1d407683dcc6ac6bacf3cebd62840602b803948f43f180e22db1acd656ee"
+ },
+ "paginas": [
+  119
+ ],
+ "etiquetas_impresas": [
+  "119"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.2 Dimensionado de la red de evacuación de aguas pluviales 4.2.1 Red de pequeña evacuación de aguas pluviales\n4.2.1 Red de pequeña evacuación de aguas pluviales\n1\nEl área de la superficie de paso del elemento filtrante de una caldereta debe estar comprendida\nentre 1,5 y 2 veces la sección recta de la tubería a la que se conecta.\n2\nEl número mínimo de sumideros que deben disponerse es el indicado en la tabla 4.6, en función de\nla superficie proyectada horizontalmente de la cubierta a la que sirven.\nTabla 4.6 Número de sumideros en función de la superficie de cubierta\nSuperficie de cubierta en proyección horizontal (m\n2)\nNúmero de sumideros\nS < 100\n2\n100 S < 200\n3\n200  S < 500\n4\nS > 500\n1 cada 150 m\n2\n3\nEl número de puntos de recogida debe ser suficiente para que no haya desniveles mayores que 150\nmm y pendientes máximas del 0,5 %, y para evitar una sobrecarga excesiva de la cubierta.\n4\nCuando por razones de diseño no se instalen estos puntos de recogida debe preverse de algún\nmodo la evacuación de las aguas de precipitación, como por ejemplo colocando rebosaderos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0119_t01.json",
+  "../tabla/p0119_t02.json",
+  "../tabla/p0119_t03.json"
+ ],
+ "figuras": [
+  "../figura/p0119.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0265",
+  "a0266",
+  "a0267"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

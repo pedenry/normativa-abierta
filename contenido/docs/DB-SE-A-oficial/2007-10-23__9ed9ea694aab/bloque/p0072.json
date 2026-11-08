@@ -1,0 +1,287 @@
+{
+ "documento": null,
+ "pagina": 72,
+ "etiqueta_impresa": "72",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-70",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    87.5,
+    413.5,
+    100.9
+   ],
+   "tipo": "titulo",
+   "texto": "8.6 Resistencia de los medios de unión. Uniones soldadas.",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    116.3,
+    308.7,
+    127.5
+   ],
+   "tipo": "texto",
+   "texto": "8.6.1 Disposiciones constructivas y clasificación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    135.6,
+    541.4,
+    158.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas prescripciones que siguen serán aplicables cuando los elementos a unir tienen al menos 4 mm\nde espesor y son de aceros estructurales soldables.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    164.5,
+    541.4,
+    199.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\nSoldadura en ángulo. Se utiliza para unir elementos cuyas caras de fusión forman un ángulo (α)\ncomprendido entre 60º y 120º . Pueden ser uniones en T o de solape (figura 8.6). En el caso de\nuniones en T:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    97.5,
+    205.7,
+    426.0,
+    218.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-\nsi α > 120º ⇒ No se considerará que se pueden transmitir esfuerzos;",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    97.5,
+    223.9,
+    458.5,
+    236.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-\nsi α < 60º ⇒ Se considerará como soldadura a tope con penetración parcial.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    239.3,
+    326.1,
+    376.0,
+    336.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.6 Soldadura en ángulo",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.8,
+    342.5,
+    215.1,
+    353.7
+   ],
+   "tipo": "texto",
+   "texto": "Se observará lo siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    96.8,
+    360.0,
+    541.4,
+    382.7
+   ],
+   "tipo": "texto",
+   "texto": "a)\nlos cordones deben, si es posible, prolongarse rodeando las esquinas, con el mismo espesor\nde garganta y longitud dos veces dicho espesor. Esto debe indicarse en los planos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    96.8,
+    389.0,
+    541.4,
+    423.2
+   ],
+   "tipo": "texto",
+   "texto": "b)\nla longitud efectiva de un cordón de soldadura en ángulo será la total del cordón siempre que\nse mantenga el espesor de garganta nominal (véase figura 8.9), pero no se considerarán cor-\ndones cuya longitud sea inferior a 40 mm o a seis veces el ancho de garganta;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    96.8,
+    429.5,
+    541.3,
+    486.7
+   ],
+   "tipo": "texto",
+   "texto": "c)\nlos cordones de soldadura en ángulo pueden ser continuos o discontinuos (intermitentes). Es-\ntos últimos se utilizan sólo para unir entre sí elementos de secciones sencillas formando pie-\nzas de secciones de mayor complejidad, no deben utilizarse en ambientes corrosivos y siem-\npre deben cumplir las limitaciones establecidas en la figura 8.7. Debe interpretarse en ésta\nque:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    119.5,
+    493.0,
+    541.4,
+    515.7
+   ],
+   "tipo": "texto",
+   "texto": "i)\nla ejecución de los cordones de longitud L0 en los extremos de la pieza es un detalle\nobligatorio;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    119.5,
+    522.0,
+    541.5,
+    556.2
+   ],
+   "tipo": "texto",
+   "texto": "ii)\nla limitación de valor 0,25 b, siendo b la separación entre rigidizadores, se utiliza exclusi-\nvamente en casos de unión de rigidizadores a chapas o a otros elementos solicitados a\ncompresión o cortante;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    96.8,
+    562.5,
+    541.4,
+    585.1
+   ],
+   "tipo": "texto",
+   "texto": "d)\nno se utilizará un solo cordón de soldadura en ángulo para transmitir esfuerzos de tracción\nperpendiculares a su eje longitudinal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.1,
+    591.5,
+    541.5,
+    637.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nSoldadura a tope. Una soldadura a tope es de penetración total si la fusión entre el material base y\nel de aportación se produce en todo el espesor de la unión; se define como de penetración parcial,\ncuando la penetración sea inferior a dicho espesor. En ambos casos el tipo de unión podrá ser a\ntope o a tope en T (figura 8.8).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    74.1,
+    643.5,
+    495.9,
+    654.7
+   ],
+   "tipo": "texto",
+   "texto": "4\nSe evitarán en lo posible las configuraciones que induzcan el desgarro laminar. Para ello:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    96.8,
+    660.9,
+    541.4,
+    695.2
+   ],
+   "tipo": "texto",
+   "texto": "a)\nse tratarán de evitar uniones en las que la dirección principal de las tensiones de tracción sea\ntransversal a la dirección de laminación de las chapas que se unen (fuerzas en la dirección\ndel espesor);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    96.8,
+    701.4,
+    541.4,
+    735.7
+   ],
+   "tipo": "texto",
+   "texto": "b)\ncuando no sea posible evitar este tipo de uniones, se tomarán medidas para minimizar la po-\nsibilidad de que se produzca desgarro laminar en las chapas (por ejemplo, en uniones con\nchapa frontal (8.8.4), los tornillos reducen el riesgo de dicho tipo de rotura).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    226.9,
+    302.5,
+    400.0,
+    315.0
+   ],
+   "tipo": "texto",
+   "texto": "Unión en solape\nUnión en T",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

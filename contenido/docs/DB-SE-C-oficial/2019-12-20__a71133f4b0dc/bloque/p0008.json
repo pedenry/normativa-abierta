@@ -1,0 +1,181 @@
+{
+ "documento": null,
+ "pagina": 8,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.6,
+    797.9,
+    320.1,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-3",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    72.5,
+    538.5,
+    94.0
+   ],
+   "tipo": "texto",
+   "texto": "parciales. La información contenida en los apartados 2.3.2. a 2.3.5 se refiere a los valores represen-\ntativos y característicos de las distintas variables.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    115.7,
+    163.1,
+    127.7
+   ],
+   "tipo": "titulo",
+   "texto": "2.3.2 Acciones",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    132.4,
+    541.3,
+    165.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara cada situación de dimensionado de la cimentación se distinguirá entre acciones que actúan\nsobre el edificio y acciones geotécnicas que se transmiten o generan a través del terreno en que se\napoya.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    176.8,
+    232.5,
+    186.7
+   ],
+   "tipo": "texto",
+   "texto": "2.3.2.1 Acciones sobre el edificio",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    192.2,
+    541.3,
+    254.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas acciones sobre el edificio se clasifican tal y como se indica en el apartado 3.3.2.1 del DB-SE.\n2\nLos valores característicos y otros representativos de las acciones sobre el edificio se determinarán\nde acuerdo con el apartado 3.3.2.2 y 3.3.2.3 del DB-SE.\n3\nLa representación de las acciones dinámicas se hará de acuerdo con el contenido del apartado\n3.3.2.4 del DB-SE.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    265.7,
+    310.8,
+    275.6
+   ],
+   "tipo": "texto",
+   "texto": "2.3.2.2 Acciones del edificio sobre la cimentación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    281.3,
+    541.3,
+    374.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara situaciones persistentes y transitorias, y a efectos de aplicación de este DB, se considerará el\nvalor de cálculo de los efectos de las acciones sobre la cimentación a los determinados de acuerdo\ncon la expresión (4.3) del DB-SE, asignando el valor unidad a todos los coeficientes parciales para\nlas acciones permanentes y variables desfavorables y cero para las acciones variables favorables.\n2\nPara situaciones extraordinarias se considerarán el valor de cálculo de los efectos de las acciones\nsobre la cimentación determinados con la expresión (4.4) y (4.5) del DB-SE; igualmente asignando\nel valor unidad a todos los coeficientes parciales para las acciones permanentes y variables desfa-\nvorables y cero para acciones variables favorables.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    386.2,
+    525.2,
+    407.6
+   ],
+   "tipo": "texto",
+   "texto": "2.3.2.3 Acciones geotécnicas sobre la cimentación que se transmiten o generan a través del te-\nrreno.",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    413.3,
+    541.3,
+    501.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara cada situación de dimensionado habrá que tener en cuenta los valores representativos de los\ntipos siguientes de acciones:\na)\nacciones que actúan directamente sobre el terreno y que por razones de proximidad pueden\nafectar al comportamiento de la cimentación. Las acciones de este tipo que procedan de la es-\ntructura se determinarán de acuerdo con los criterios definidos en 2.3.2.2;\nb)\ncargas y empujes debidos al peso propio del terreno;\nc)\nacciones del agua existente en el interior del terreno.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    522.9,
+    362.4,
+    534.9
+   ],
+   "tipo": "titulo",
+   "texto": "2.3.3 Modelo geotécnico y parámetros del terreno",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    539.6,
+    541.3,
+    714.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara cada situación de dimensionado y estudio de estado límite se definirá un modelo geotécnico\ndel terreno que incorpore junto con los distintos tipos de materiales y sus superficies de contacto los\nniveles piezométricos pertinentes.\n2\nLas características del terreno deben quedar representadas, para cada situación de dimensionado y\nestado límite considerado, por una serie de valores característicos que normalmente se deducirán\nde la investigación geotécnica.\n3\nA efectos de aplicación de este DB se entiende como valor característico de un determinado pará-\nmetro del terreno a una estimación prudente de su valor en el contexto del estado límite que se\nconsidere. Esto implica que determinados parámetros del terreno pueden adoptar valores caracte-\nrísticos diferentes en función del estado límite considerado.\n4\nCuando se utilicen métodos estadísticos se definirá el valor característico de un determinado pará-\nmetro del terreno necesario para el estudio de un estado límite por:\na)\nel fractil del 5% en caso de que un valor bajo resulte desfavorable;\nb)\nel fractil del 95% en caso de que un valor alto resulte desfavorable.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

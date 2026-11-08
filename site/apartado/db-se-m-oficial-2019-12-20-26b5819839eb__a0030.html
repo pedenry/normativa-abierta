@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-M · 2.2.1.2  Factores de corrección de la resistencia</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">DB-SE-M</a> › 2.2.1.2</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">DB-SE-M</a> · 2.2.1.2  Factores de corrección de la resistencia · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0030 · PDF pág. 9-11 · documento DB-SE-M · SHA256 26b5819839eb…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/apartado/a0030__2-2-1-2-factores-de-correccion-de-la-resistencia.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/apartado/a0030__2-2-1-2-factores-de-correccion-de-la-resistencia.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">Ámbito del documento</a> · <a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">documento y tablas</a></p>
+<nav><a href="db-se-m-oficial-2019-12-20-26b5819839eb__a0029.html">← ID a0029 · PDF pág. 9</a> <a href="db-se-m-oficial-2019-12-20-26b5819839eb__a0031.html">ID a0031 · PDF pág. 11 →</a></nav>
+<h1><span class="aviso">ID a0030 · PDF pág. 9-11</span> — 2.2.1.2  Factores de corrección de la resistencia</h1>
+<p>ID técnico a0030 · PDF pág. 9-11 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 9 (candidato tipográfico); no validado por persona · padre: raíz</p>
+<pre class="literal">2.2.1.2  Factores de corrección de la resistencia
+1
+Madera maciza:
+factor de altura kh: En piezas de madera aserrada de sección rectangular, si el canto en flexión o la
+mayor dimensión de la sección en tracción paralela es menor que 150 mm, los valores característi-
+cos fm,k y ft,0,k pueden multiplicarse por el factor kh.
+2
+,
+0
+h
+)
+h
+/
+150
+(
+k
+
+ 1,3
+(2.1)
+siendo:
+h canto en flexión o mayor dimensión de la sección en tracción, [mm].
+2
+Madera laminada encolada:
+a) factor de altura kh: en piezas de madera laminada encolada de sección rectangular, si el canto en
+flexión o la mayor dimensión de la sección en tracción paralela es menor que 600 mm, los valo-
+res característicos fm,g,k y ft,0,g,k  pueden multiplicarse por el factor kh.
+(2.2)
+siendo:
+h
+canto en flexión o mayor dimensión de la sección en tracción, [mm].
+b) factor de volumen kvol: cuando el volumen V de la zona considerada en la comprobación, según
+se define en cada caso, sea mayor que V0 (V0=0,01 m3) y esté sometido a esfuerzos de tracción
+perpendicular a la fibra con tensiones repartidas uniformemente, la resistencia característica a
+tracción perpendicular, ft,90,g,k se multiplicará por el kvol.
+2
+,
+0
+0
+vol
+V
+V
+k
+
+
+
+
+
+
+
+(2.3)
+3
+Madera microlaminada:
+a) factor de altura kh: en piezas de madera microlaminada de sección rectangular, si el canto en fle-
+xión es diferente a 300 mm, el valor característico fm,k  puede multiplicarse por el factor kh.
+s
+h
+)
+h
+/
+300
+(
+k
+
+ 1,2
+(2.4)
+siendo:
+h
+canto en flexión de la sección, [mm];
+s
+factor que debe definir el fabricante de acuerdo con la norma UNE-EN 14374:2005.
+
+DocumentoBásico SE-M Madera
+SE-M 4
+b) factor de longitud kL: En piezas de madera microlaminada sometidas a tracción paralela si la lon-
+gitud difiere de 3000 mm, el valor característico de la resistencia a tracción paralela, ft,0,k debe
+multiplicarse por el factor kL.
+2
+/
+s
+L
+)
+L
+/
+3000
+(
+k
+
+ 1,1
+(2.5)
+siendo:
+L
+longitud de la pieza, [mm];
+s
+factor que debe definir el fabricante.
+4
+Factor de carga compartida ksys.
+Cuando un conjunto de elementos estructurales a flexión similares, dispuestos a intervalos regu-
+lares se encuentre, transversalmente conectado a través de un sistema continuo de distribución
+de carga, las propiedades resistentes características de los elementos del conjunto pueden mul-
+tiplicarse por un factor denominado de carga compartida ksys.
+Siempre que el sistema de distribución de carga sea capaz de transferir las cargas de un ele-
+mento a otros que estén en sus proximidades, puede tomarse un valor de ksys=1,1.
+La comprobación de resistencia del sistema de distribución de la carga, debe realizarse supo-
+niendo una duración corta de las acciones y con el coeficiente parcial de seguridad del material
+M .
+En sistemas de cerchas con separación máxima de 1,20 m se puede suponer que los listones,
+correas o paneles son eficaces para transmitir la carga siempre que estos sistemas de distribu-
+ción sean continuos sobre al menos dos vanos, y las juntas estén contrapeadas.
+Para pisos de losas macizas de madera laminada pueden utilizarse los valores de ksys obtenidos
+a través del gráfico de la de la figura 2.1.
+Figura 2.1 Factor ksys para losas macizas de madera laminada.
+5
+En la tabla 2.1 se incluyen valores particularizados para algunos de los factores de corrección.
+Tabla 2.1 Factores de corrección
+Factor
+Aplicación
+de altura
+Madera aserrada:  canto (mm)
+40
+70
+100
+150
+Factor kh de corrección de fm,k y ft,0,k
+1,3
+1,2
+1,1
+1,0
+Madera laminada: canto (mm)
+&lt;240
+300
+400
+600
+Factor kh corrector de fm,g,k y ft,0,g,k
+1,10
+1,07
+1,04
+1,00
+de volumen
+Madera laminada : volumen de la zona afectada (m3)
+&lt;0,010
+0,015
+0,020
+0,030
+Factor kvol corrector de ft,90,g,k
+1,00
+0,92
+0,87
+0,80
+
+DocumentoBásico SE-M Madera
+SE-M 5</pre>
+<h2>Referencias candidatas (filtradas; no censuran el texto)</h2><ul><li>UNE-EN</li></ul><h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0009.png"><img class="figura" src="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0009.png" alt="Página 9"></a><figcaption>Página visual 9 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0010.png"><img class="figura" src="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0010.png" alt="Página 10"></a><figcaption>Página visual 10 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0011.png"><img class="figura" src="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0011.png" alt="Página 11"></a><figcaption>Página visual 11 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0179",
+  "ruta_oficial": "2.3",
+  "ruta_semantica": "2.3 Ahorro de agua",
+  "titulo": "2.3 Ahorro de agua",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.3 Ahorro de agua",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 83,
+   "bbox": [
+    70.9,
+    355.0,
+    185.7,
+    368.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3df2a18bcc09a89b02a1ab96a2e466cd07bd5098a0576a7dba551ef681d4a864",
+   "literal": "2.3 Ahorro de agua"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3 Ahorro de agua",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Caracterización y cuantificación de las exigencias 2.1 Propiedades de la instalación / 2.3 Ahorro de agua",
+   "seccion_estimada": "2 Caracterización y cuantificación de las exigencias 2.1 Propiedades de la instalación",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "15a538108646ac8a8108ccd77140d1670525688321e38a40743add877d2bb50e"
+ },
+ "paginas": [
+  83
+ ],
+ "etiquetas_impresas": [
+  "83"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.3 Ahorro de agua\n1\nDebe disponerse un sistema de contabilización tanto de agua fría como de agua caliente para cada\nunidad de consumo individualizable.\n2\nEn las redes de ACS debe disponerse una red de retorno cuando la longitud de la tubería de ida al\npunto de consumo más alejado sea igual o mayor que 15 m.\n3\nEn las zonas de pública concurrencia de los edificios, los grifos de los lavabos y las cisternas deben\nestar dotados de dispositivos de ahorro de agua.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0177",
+   "ruta_oficial": "2.1.4",
+   "titulo": "2.1.4 Mantenimiento",
+   "archivo_json": "a0177__2-1-4-mantenimiento.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0083.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

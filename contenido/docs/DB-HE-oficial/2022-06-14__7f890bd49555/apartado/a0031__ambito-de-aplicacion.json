@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0031",
+  "ruta_oficial": null,
+  "ruta_semantica": "Ámbito de aplicación",
+  "titulo": "Ámbito de aplicación",
+  "nivel": 1,
+  "parent_id": "a0030",
+  "seccion_estimada": "Ámbito de aplicación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    56.7,
+    230.9,
+    216.7,
+    244.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9a67316ba280691108c738a9e679db742f0934a996c7dcd2812b221014a86d52",
+   "literal": "Ámbito de aplicación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0030",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Ámbito de aplicación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0030",
+   "ruta_semantica": "Anejo H / Sección HE 0 Limitación del consumo energético / Ámbito de aplicación",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "277f306060388a4b0c207045dc3a8377cffd09d09525a482e19df03d0a4985ee"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [
+  "ambito"
+ ],
+ "texto": "Ámbito de aplicación\n1\nEsta sección es de aplicación a:\na) edificios de nueva construcción;\nb) intervenciones en edificios existentes, en los siguientes casos:\n\nampliaciones en las que se incremente más de un 10% la superficie o el volumen construido de\nla unidad o unidades de uso sobre las que se intervenga, cuando la superficie útil ampliada supere\nlos 50 m2;\n\ncambios de uso, cuando la superficie útil total supere los 50 m2;\n\nreformas en las que se renueven de forma conjunta las instalaciones de generación térmica y\nmás del 25% de la superficie total de la envolvente térmica final del edificio.\nLas exigencias derivadas de ampliaciones y cambios de uso son de aplicación, respectivamente, a la\nparte ampliada y a la unidad o unidades de uso que cambian su uso, mientras que en el caso de las\nreformas referidas en este apartado, son de aplicación al conjunto del edificio.\n2\nSe excluyen del ámbito de aplicación:\na) los edificios protegidos oficialmente por ser parte de un entorno declarado o en razón de su particular\nvalor arquitectónico o histórico, en la medida en que el cumplimiento de determinadas exigencias\nbásicas de eficiencia energética pudiese alterar de manera inaceptable su carácter o aspecto, siendo\nla autoridad que dicta la protección oficial quien determine los elementos inalterables;\nb) construcciones provisionales con un plazo previsto de utilización igual o inferior a dos años;\nc) edificios industriales, de la defensa y agrícolas no residenciales, o partes de los mismos, de baja\ndemanda energética. Aquellas zonas que no requieran garantizar unas condiciones térmicas de\nconfort, como las destinadas a talleres y procesos industriales, se considerarán de baja demanda\nenergética;\nd) edificios aislados con una superficie útil total inferior a 50 m2.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

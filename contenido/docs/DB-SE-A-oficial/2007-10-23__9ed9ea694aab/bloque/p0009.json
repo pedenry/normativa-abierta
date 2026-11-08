@@ -1,0 +1,89 @@
+{
+ "documento": null,
+ "pagina": 9,
+ "etiqueta_impresa": "9",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    248.5,
+    37.7,
+    363.2,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    301.0,
+    792.0,
+    329.5,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-7",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    73.4,
+    541.6,
+    107.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn los casos en los que las posibles desviaciones de una dimensión geométrica de su valor nominal\npuedan tener una influencia significativa en la seguridad estructural (como en el análisis de los efec-\ntos de segundo orden), el valor de cálculo de esta dimensión quedará definido por:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    103.7,
+    116.7,
+    535.4,
+    130.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "a\na\na\nnom\nd\n∆\n±\n=\n(2.2)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    103.9,
+    140.0,
+    535.1,
+    175.9
+   ],
+   "tipo": "texto",
+   "texto": "a\n∆\ndesviación de una dimensión geométrica de su valor nominal, o el efecto acumulado de di-\nferentes desviaciones geométricas que se pueden producir simultáneamente y se define\nde acuerdo con las tolerancias admitidas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    99.3,
+    208.7,
+    541.3,
+    231.4
+   ],
+   "tipo": "texto",
+   "texto": "En el caso en que pueda determinarse por medición la desviación producida, se empleará dicho\nvalor.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

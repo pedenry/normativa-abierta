@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0144",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego",
+  "titulo": "Anejo B Tiempo equivalente de exposición al fuego",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 53,
+   "bbox": [
+    70.9,
+    95.3,
+    472.7,
+    113.1
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "cd4835f35d749e59548863c589ce0f54b9ce37f77e5c089b3975f5088d577065",
+   "literal": "Anejo B Tiempo equivalente de exposición al fuego"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0094",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SI",
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo B Tiempo equivalente de exposición al fuego",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo B Tiempo equivalente de exposición al fuego",
+   "seccion_estimada": "Anejo B Tiempo equivalente de exposición al fuego",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "36772bcc93dafcfba02ebaaf720de66b3688241050217af2f6d5999908699045"
+ },
+ "paginas": [
+  53
+ ],
+ "etiquetas_impresas": [
+  "53"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Anejo B Tiempo equivalente de exposición al fuego B.1 Generalidades\nB.1 Generalidades\n1\nEste anejo establece el procedimiento para obtener el tiempo equivalente de exposición al fuego\nque, según se indica en SI 6, puede usarse como alternativa de la duración de incendio a soportar,\ntanto a efectos estructurales como compartimentadores. El tiempo equivalente se obtiene teniendo\nen cuenta las características geométricas y térmicas del sector y el valor de cálculo de la carga de\nfuego.\n2\nEn este anejo se indica también la expresión de la curva normalizada tiempo-temperatura definida en\nla norma UNE EN 1363-1:2015 y que se utiliza como curva de fuego en los métodos de obtención de\nresistencias dados en este DB-SI. En la norma (Eurocódigo) UNE EN 1991-1-2:2004 se indican otras\ncurvas de fuego nominales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SI",
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0145",
+  "a0146",
+  "a0148"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0158",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p73",
+  "titulo": "sección interior tenga las dimensiones mínimas de ventilación previstas y deben sellarse los extre-",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p73",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p73",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS3 / sección interior tenga las dimensiones mínimas de ventilación previstas y deben sellarse los extre-",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "44a5fdfa496ecb870ef0286ad29c34d1f068ce357287da6d43b199ee3e6601f6"
+ },
+ "paginas": [
+  73,
+  74
+ ],
+ "etiquetas_impresas": [
+  "73",
+  "74"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "sección interior tenga las dimensiones mínimas de ventilación previstas y deben sellarse los extre-\nmos en su encuentro con el mismo. Los elementos de protección de las aberturas deben colocarse\nde tal modo que no se permita la entrada de agua desde el exterior.\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n74\n2\nLos elementos de protección de las aberturas de extracción cuando dispongan de lamas, deben\ncolocarse con éstas inclinadas en la dirección de la circulación del aire.\n6.1.2\nConductos de extracción\n1\nDebe preverse el paso de los conductos a través de los forjados y otros elementos de partición ho-\nrizontal de tal forma que se ejecuten aquellos elementos necesarios para ello tales como brochales\ny zunchos. Los huecos de paso de los forjados deben proporcionar una holgura perimétrica de 20\nmm y debe rellenarse dicha holgura con aislante térmico.\n2\nEl tramo de conducto correspondiente a cada planta debe apoyarse sobre el forjado inferior de la\nmisma.\n3\nPara conductos de extracción para ventilación híbrida, las piezas deben colocarse cuidando el\naplomado, admitiéndose una desviación de la vertical de hasta 15º con transiciones suaves.\n4\nDeben realizarse las uniones previstas en el sistema, cuidándose la estanquidad de sus juntas.\n5\nLas aberturas de extracción conectadas a conductos de extracción deben taparse adecuadamente\npara evitar la entrada de escombros u otros objetos en los conductos hasta que se coloquen los\nelementos de protección correspondientes.\n6\nSe consideran satisfactorios los conductos de chapa ejecutados según lo especificado en la norma\nUNE-EN 1507:2007.\n6.1.3\nSistemas de ventilación mecánicos\n1\nEl aspiradorhíbrido o el aspirador mecánico, en su caso, debe colocarse aplomado y sujeto al con-\nducto de extracción o a su revestimiento.\n2\nEl sistema de ventilación mecánica debe colocarse sobre el soporte de manera estable y utilizando\nelementos antivibratorios.\n3\nLos empalmes y conexiones deben ser estancos y estar protegidos para evitar la entrada o salida\nde aire en esos puntos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0074_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0074.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

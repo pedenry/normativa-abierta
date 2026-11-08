@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-23d2f2198c3b",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__6765d0c34c51",
+ "sha256": "6765d0c34c51fbe193c3ed0c1378b710f98f086d16e2b68fc28ed36e143fdaea",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": null,
+  "ruta_semantica": "Capítulo / ¿Qué tipos de detectores se pueden utilizar?",
+  "titulo": "¿Qué tipos de detectores se pueden utilizar?",
+  "nivel": 3,
+  "parent_id": "a0036",
+  "seccion_estimada": "Capítulo"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  "13"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "¿Qué tipos de detectores se pueden utilizar?\nEn el mercado existen distintos tipos de detectores que\npueden ser empleados (Figura 7). La elección del tipo\nde detector dependerá del objetivo de la medición.\nPara obtener el promedio anual de concentración de\nradón los más adecuados son los que emplean un mé­\ntodo de medición:\n■\nintegrada (de trazas, carbón activo y electretes) que\nproporcionan el promedio; o\n■\nen continuo (aparatos electrónicos) que además del\npromedio proporcionan la evolución de la concen­\ntración de radón a lo largo del tiempo, permitiendo\nde esta forma observar las alteraciones en la con­\ncentración de radón producidas por los cambios cli­\nmatológicos y otras variables.\nLos detectores más comúnmente utilizados para de­\nterminar el promedio anual son los que siguen el méto­\ndo de medición integrada, debido a su bajo coste. Ha­\nbitualmente el laboratorio envía el detector por correo\na los usuarios y estos lo devuelven por correo al labora­\ntorio que obtendrá el resultado de la medida.\nEl uso de los detectores que siguen el método de me­\ndición en continuo no está tan extendido por motivos\neconómicos, aunque tiene la ventaja frente a los que\nsiguen el método integrado que, al ofrecer una visión\nde la evolución de la concentración de radón, se pue­\nde utilizar para observar la influencia de distintos pará­\nmetros en la efectividad de la solución, optimizar una\nsolución, etc.\nSi se quiere realizar un rápido diagnóstico que permita\nidentificar los puntos de entrada de radón, se pueden\nemplear detectores con método de medición puntual\n(aparatos electrónicos). Estos puntos de entrada sue­\nlen ser grietas, huecos o discontinuidades en los ce­\nrramientos en contacto con el terreno que se hayan\nidentificado en la inspección visual del edificio. Sin em­\nbargo, este tipo de medición no se puede utilizar para\nla determinación del promedio anual.\nAdemás, los detectores se pueden clasificar en activos\no pasivos dependiendo, respectivamente, de si requie­\nren o no una fuente de alimentación para registro o vi­\nsualización de datos, bombas, etc. Los detectores con\nmétodo de medición en continuo suelen ser activos.\nLos resultados obtenidos con los detectores tienen una\nincertidumbre que oscila entre el 10% y el 30%.\nFigura 7 - \u0007Detectores más habituales: a) detector de trazas; b) electrete;\nc) dispositivos electrónicos; d) detector de carbón activo\nb)\na)\nc)\nd)",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0013_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon.pdf",
+  "sha256": "6765d0c34c51fbe193c3ed0c1378b710f98f086d16e2b68fc28ed36e143fdaea",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0036",
+  "nivel": 3,
+  "seccion_estimada": "Capítulo",
+  "ruta_semantica": "Capítulo / ¿Qué tipos de detectores se pueden utilizar?"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

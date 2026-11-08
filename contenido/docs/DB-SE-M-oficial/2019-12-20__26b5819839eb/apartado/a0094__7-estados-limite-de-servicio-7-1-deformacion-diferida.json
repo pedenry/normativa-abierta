@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0094",
+  "ruta_oficial": "7",
+  "ruta_semantica": "Fragmento de PDF p47",
+  "titulo": "7  Estados límite de servicio 7.1  Deformación diferida",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p47",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p47",
+  "referencias_filtradas": [
+   "DB SE",
+   "UNE-EN",
+   "apartado 4.3.3"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7  Estados límite de servicio 7.1  Deformación diferida",
+   "seccion_estimada": "7  Estados límite de servicio 7.1  Deformación diferida",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4ead8cfdd58552ba2feddc8afb91fdec26823d7b025778edd3f292a82dc003ef"
+ },
+ "paginas": [
+  47
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "7  Estados límite de servicio 7.1  Deformación diferida\n7.1  Deformación diferida\n1\nLa componente diferida de un desplazamiento, dif, se determina a partir de la expresión:\ndif = ini·2·kdef (7.1)\nsiendo:\nini\ndesplazamiento elástico;\n2\ncoeficiente de simultaneidad que se obtien de la tabla 4.2 del DB SE. Para las cargas perma-\nnentes, se adoptará 2=1;\nkdef factor de fluencia en función de la clase de servicio (véase tabla 7.1);\n2\nLas deformaciones diferidas deben evaluarse bajo la combinación de acciones que corresponda\nsegún lo definido en el DB SE, apartado 4.3.3. En el caso de la combinación casi permanente, sólo\nse multiplicará una vez por el factor 2\nTabla7.1 Valores de kdef para madera y productos derivados de la madera\nMaterial\nTipo de producto\nClase de servicio\n1\n2\n3\nMadera maciza\n0,60\n0,80\n2,00\nMadera laminada encolada\n0,60\n0,80\n2,00\nMadera microlaminada (LVL)\n0,60\n0,80\n2,00\nTablero contrachapado\nUNE-EN\n636:2012+A1:2015\nParte 1\n0,80\n-\n-\nParte 2\n0,80\n1,00\n-\nParte 3\n0,80\n1,00\n2,50\nTablero de virutas orientadas (OSB)\nUNE-EN 300:2007\nOSB/2\n2,25\n-\n-\nOSB/3, OSB/4\n1,50\n2,25\n-\nTablero de partículas\nUNE-EN 312:2010\nParte 4\n2,25\n-\n-\nParte 5\n2,25\n3,00\n-\nParte 6\n1,5\n-\n-\nParte 7\n1,50\n2,25\n-\nTablero de fibras duro\nUNE-EN 622-\n2:2004\nHB.LA\n2,25\n-\n-\nHB.HLS\n2,25\n3,00\n-\nTablero de fibras semiduro\nUNE-EN 622-\n3:2005\nMBH.LA\n3,00\n-\n-\nMBH.HLS\n3,00\n4,00\n-\nTablero de fibras de densidad media (DM)\nUNE-EN 622-\n5:2010\nMDF.LA\n2,25\n-\n-\nMDF.HLS\n2,25\n3,00\n-\nTablero de fibras blando\nUNE-EN 622-\n4:2010\n3,00\n4,00\n-\n3\nEn los casos en los que la tabla 7.1 no indica un valor de kdef, el tipo de material correspondiente no\npodrá utilizarse en dicha clase de servicio.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SE",
+  "UNE-EN",
+  "apartado 4.3.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0047_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0047.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0095",
+  "a0096"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

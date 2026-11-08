@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0024",
+  "ruta_oficial": "2.1.1",
+  "ruta_semantica": "2.1.1 Memoria",
+  "titulo": "2.1.1 Memoria",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.1.1 Memoria",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    70.9,
+    273.2,
+    139.8,
+    283.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1053204d687547acf03870e7f64f4eb0d6275c9daa175c746efc2537d354e3e8",
+   "literal": "2.1.1 Memoria"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0020",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.1.1 Memoria",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Documentación 2.1 Documentación del proyecto / 2.1.1 Memoria",
+   "seccion_estimada": "2 Documentación 2.1 Documentación del proyecto",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e63f2092ca3daf081ff54a7903c94f4580900b54fa7434458ef6b5121fb7527f"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [],
+ "texto": "2.1.1 Memoria\n1\nEn la memoria del proyecto se incluirá el programa de necesidades, en el que se describirán aque-\nllas características del edificio y del uso previsto que condicionan las exigencias de seguridad es-\ntructural, tanto en lo relativo a la capacidad portante como a la aptitud al servicio; las bases de\ncálculo y la declaración de cumplimiento de los DB o justificación documental del cumplimiento de\nlas exigencias básicas de seguridad, si se adoptan soluciones alternativas que se aparten total o\nparcialmente de los DB.\n2\nEn las bases de cálculo y en su caso, en el anejo de cálculo se incluirán los siguientes datos:\na)\nel periodo de servicio previsto, si difiere de 50 años;\nb)\nlas simplificaciones efectuadas sobre el edificio para transformarlo en uno o varios modelos de\ncálculo, que se describirán detalladamente, indicando el tipo estructural adoptado para el con-\njunto y sus partes, las características de las secciones, tipo de conexiones y condiciones de\nsustentación;\nc)\nlas características mecánicas consideradas para los materiales estructurales y para el terreno\nque lo sustenta, o en su caso actúa sobre el edificio;\nd)\nla geometría global (especificando las dimensiones a ejes de referencia) y cualquier elemento\nque pueda afectar al comportamiento o a la durabilidad de la estructura;\ne)\nlas exigencias relativas a la capacidad portante y a la aptitud al servicio, incluida la durabilidad,\nsi difieren de las establecidas en este documento;\nf)\nlas acciones consideradas, las combinaciones efectuadas y los coeficientes de seguridad utili-\nzados;\ng)\nde cada tipo de elemento estructural, la modalidad de análisis efectuado y los métodos de\ncálculo empleados; y\nh)\nen su caso, la modalidad de control de calidad previsto.\nSi el proyecto se desarrolla en dos fases (proyecto básico y proyecto de ejecución), en el proyecto\nbásico se incluirá, al menos, la información indicada en los puntos a) y d), así como las acciones de\naplicación al caso, los materiales previstos y los coeficientes de seguridad aplicables.\n3\nLos cálculos realizados con ordenador se completarán identificando los programas informáticos\nutilizados en cada una de las partes que han dado lugar a un tratamiento diferenciado, indicando el\nobjeto y el campo de aplicación del programa y explicando con precisión, la representación de los\ndatos introducidos y el tipo de los resultados generados por el programa.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

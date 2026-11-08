@@ -1,0 +1,101 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0035",
+  "ruta_oficial": null,
+  "ruta_semantica": "Procedimiento y datos para la determinación del consumo energético",
+  "titulo": "Procedimiento y datos para la determinación del consumo energético",
+  "nivel": 1,
+  "parent_id": "a0030",
+  "seccion_estimada": "Procedimiento y datos para la determinación del consumo energético",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    56.7,
+    132.0,
+    493.3,
+    145.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "920c0473732b005d8083c76ec33c598f1f087c71046411cda4e38ba083f6b8a9",
+   "literal": "Procedimiento y datos para la determinación del consumo energético"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0030",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "Procedimiento y datos para la determinación del consumo energético",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0030",
+   "ruta_semantica": "Anejo H / Sección HE 0 Limitación del consumo energético / Procedimiento y datos para la determinación del consumo energético",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "02eaf441163b9a73356bd58e8fece3ec5372d9b5d9abe26e031777dd602f08fc"
+ },
+ "paginas": [
+  11,
+  12,
+  13
+ ],
+ "etiquetas_impresas": [
+  "11",
+  "12",
+  "13"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Procedimiento y datos para la determinación del consumo energético\n4.1\nProcedimiento de cálculo\n1\nLas exigencias relativas al consumo de energía del edificio o parte del edificio establecidas en este\ndocumento básico se verificarán usando un procedimiento de cálculo acorde a las características\nestablecidas en este apartado.\n2\nEl procedimiento de cálculo debe permitir determinar la eficiencia energética, expresada como consumo\nde energía primaria no renovable (Cep,nren), y el consumo de energía primaria total (Cep,tot), necesario para\nmantener el edificio, o parte del edificio, por periodo de un año en las condiciones operacionales, cuando\nse somete a las solicitaciones interiores y solicitaciones exteriores definidas reglamentariamente.\n3\nEl procedimiento de cálculo debe permitir desglosar el consumo energético de energía final en función\ndel vector energético utilizado (tipo de combustible o electricidad) para satisfacer las necesidades\nenergéticas de cada uno de los servicios técnicos (calefacción, refrigeración, ACS, ventilación, control de\nla humedad y, en su caso, iluminación). Para ello, podrá emplear simulación mediante un modelo térmico\ndel edificio o métodos simplificados equivalentes, debiendo considerar, bien de forma detallada o bien de\nforma simplificada, los siguientes aspectos:\na) el diseño, emplazamiento y orientación del edificio;\nb) la evolución hora a hora en régimen transitorio de los procesos térmicos;\nc) el acoplamiento térmico entre zonas adyacentes del edificio a distintas temperaturas;\nd) las solicitaciones exteriores, las solicitaciones interiores y las condiciones operacionales, teniendo en\ncuenta la posibilidad de que los espacios se comporten en oscilación libre;\ne) las ganancias y pérdidas de energía por conducción a través de la envolvente térmica, compuesta\npor los cerramientos opacos, los huecos y los puentes térmicos, con consideración de la inercia\ntérmica de los materiales;\nf) las ganancias y pérdidas producidas por la radiación solar al atravesar los elementos transparentes o\nsemitransparentes y las relacionadas con el calentamiento de elementos opacos de la envolvente\ntérmica, considerando las propiedades de los elementos, su orientación e inclinación y las sombras\npropias del edificio u otros obstáculos que puedan bloquear dicha radiación;\ng) las ganancias y pérdidas de energía producidas por el intercambio de aire con el exterior debido a\nventilación e infiltraciones teniendo en cuenta las exigencias de calidad del aire de los distintos\nespacios y las estrategias de control empleadas;\nh) las necesidades de los servicios de calefacción, refrigeración, ACS y ventilación, control de la\nhumedad y, en usos distintos al residencial privado, de iluminación;\ni)  el dimensionado y los rendimientos de los equipos y sistemas de producción de frío y de calor, ACS,\nventilación, control de la humedad e iluminación;\nj) el empleo de distintas fuentes de energía, sean generadas in situ o remotamente o procedentes de\nbiomasa sólida, biogás o gases renovables;\nk) los coeficientes de paso de energía final a energía primaria procedente de fuentes renovables o no\nrenovables;\nl) la contribución de energías renovables producidas in situ o en las proximidades de la parcela o\nprocedentes de biomasa sólida, biogás o gases renovables.\n4\nEl cálculo de los indicadores de eficiencia energética, producción y consumo de energía se realizará\nempleando un intervalo de tiempo mensual.\n5\nLos coeficientes de paso empleados para la conversión de energía final a energía primaria (sea total,\nprocedente de fuentes renovables o procedente de fuentes no renovables) serán los publicados\noficialmente.\n6\nEl total de horas fuera de consigna no excederá el 4% del tiempo total de ocupación.\n7\nLos espacios del modelo tendrán asociadas unas condiciones operacionales y perfiles de uso de acuerdo\nal Anejo D.\n\nDocumento Básico HE Ahorro de energía\nHE 0. Limitación del consumo energético\n12\n8\nLos valores de la demanda de referencia de ACS se fijarán de acuerdo al Anejo F. El Anejo G incluye\nvalores de temperatura del agua de red para el cálculo del consumo de ACS.\n9\nEl cálculo del balance energético necesario para la verificación de las exigencias de este DB se realiza\nde acuerdo a la UNE-EN ISO 52000-1:2019 Evaluación global de la eficiencia energética de los edificios.\nParte 1: marco general y procedimientos, utilizando un factor de exportación kexp=0.\n10 A efectos de imputación a los distintos servicios, el reparto de la energía eléctrica producida in situ, en\ncada intervalo de tiempo, se hace proporcionalmente a los consumos eléctricos de los consumos\nconsiderados (calefacción, refrigeración, ventilación, ACS y en uso terciario, además, iluminación).\n11 En aquellos aspectos no definidos por este DB, el cálculo de las necesidades de energía, consumo\nenergético e indicadores energéticos estará de acuerdo con el Documento Reconocido de la Certificación\nenergética de edificios Condiciones técnicas de los procedimientos para la evaluación de la eficiencia\nenergética de los edificios.\n4.2\nSolicitaciones exteriores\n1\nSe consideran solicitaciones exteriores las acciones del clima sobre el edificio con efecto sobre su\ncomportamiento térmico.\n2\nA efectos de cálculo, se establece un conjunto de zonas climáticas para las que se especifica un clima\nde referencia que define las solicitaciones exteriores en términos de temperatura y radiación solar.\n3\nLa zona climática de cada localidad, así como su clima de referencia, se determina a partir de los valores\ntabulados recogidos en el Anejo B, o de documentos reconocidos elaborados por las Comunidades\nAutónomas.\n4.3\nSolicitaciones interiores y condiciones operacionales\n1\nSe consideran solicitaciones interiores las cargas térmicas generadas en el interior del edificio debidas a\nlos aportes de energía de los ocupantes, equipos e iluminación. Las solicitaciones interiores se\ncaracterizan mediante un perfil de uso que describe las cargas internas para cada tipo de espacio. Los\nespacios del modelo térmico tendrán asociado un perfil de uso de acuerdo con el Anejo D.\n2\nLas condiciones operacionales para espacios en uso residencial privado, se definen por los siguientes\nparámetros que se recogen en los perfiles de uso del Anejo D:\na) temperaturas de consigna alta;\nb) temperaturas de consigna baja;\nc) distribución horaria del consumo de ACS.\n4.4\nModelo térmico: Envolvente térmica y zonificación\n1\nEl modelo térmico del edificio estará compuesto por una serie de espacios conectados entre sí y con el\nexterior del edificio mediante la envolvente térmica del edificio, definida según los criterios del Anejo C.\n2\nLa definición de las zonas térmicas podrá diferir de la real siempre que refleje adecuadamente el\ncomportamiento térmico del edificio. En particular, podrá integrarse una zona térmica en otra mayor\nadyacente cuando no supere el 10% de la superficie útil de esta.\n3\nLos espacios del modelo térmico se clasificarán en espacioshabitables y espacios no habitables. Los\nprimeros se clasificarán además según su carga interna (baja, media, alta o muy alta), en su caso, y\nsegún su necesidad de mantener unas determinadas condiciones de temperatura para el bienestar\ntérmico de sus ocupantes (espaciosacondicionados o espacios no acondicionados).\n4.5\nSistemas de referencia en uso residencial privado\n1\nEn el caso de edificios de uso residencial privado, cuando no se defina en proyecto sistemas para el\nservicio de calefacción, refrigeración o calentamiento de agua, se considerará, a efectos de cálculo, la\npresencia de un sistema con las características indicadas en la tabla 4.5-HE0:\nTabla 4.5-HE0 Sistemas de referencia\nTecnología\nVector\nenergético\nRendimiento\nnominal\nProducción de calor y ACS\nGas natural\n0,92 (PCS)\nProducción de frío\nElectricidad\n2,60\n\nDocumento Básico HE Ahorro de energía\nHE 0. Limitación del consumo energético\n13\n4.6\nSuperficie para el cálculo de indicadores de consumo\n1\nLa superficie considerada en el cálculo de los indicadores de consumo se obtendrá como suma de las\nsuperficies útiles de los espacios habitables incluidos dentro de la envolvente térmica.\n2\nSe podrá excluir de la superficie de cálculo la de los espacios que deban mantener unas condiciones\nespecíficas determinadas no por el confort de los ocupantes sino por la actividad que en ellos se\ndesarrolla (laboratorios con condiciones de temperatura, cocinas industriales, salas de ordenadores,\npiscinas cubiertas, etc).\n5",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0012_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0012.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

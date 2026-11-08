@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0134",
+  "ruta_oficial": "2.3",
+  "ruta_semantica": "2.3 Espacios de almacenamiento inmediato en las viviendas",
+  "titulo": "2.3 Espacios de almacenamiento inmediato en las viviendas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.3 Espacios de almacenamiento inmediato en las viviendas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 56,
+   "bbox": [
+    70.9,
+    454.5,
+    419.8,
+    467.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "390222c127f960f14aedd5d62ab9559d53e620a3042f639dacce7dc903b49c41",
+   "literal": "2.3 Espacios de almacenamiento inmediato en las viviendas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3 Espacios de almacenamiento inmediato en las viviendas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva / 2.3 Espacios de almacenamiento inmediato en las viviendas",
+   "seccion_estimada": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "53fac86b38ba090009d2ac97cc0ca043c71cddc3ce6aa0077d0a7384f8f3d048"
+ },
+ "paginas": [
+  56,
+  57
+ ],
+ "etiquetas_impresas": [
+  "56",
+  "57"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.3 Espacios de almacenamiento inmediato en las viviendas\n1\nDeben disponerse en cada vivienda espacios para almacenar cada una de las cinco fracciones de\nlos residuos ordinarios generados en ella.\n2\nEn el caso de viviendas aisladas o agrupadas horizontalmente, para las fracciones de papel / cartón\ny vidrio, puede utilizarse como espacio de almacenamiento inmediato el almacén de contenedores\nde edificio.\n3\nLa capacidad de almacenamiento para cada fracción debe calcularse mediante la siguiente fórmula:\nv\nP\nCA\nC\n\n\n(2.3)\nsiendo\nC\nla capacidad de almacenamiento en la vivienda por fracción [dm3];\nCA el coeficiente de almacenamiento [dm3/persona] cuyo valor para cada fracción se obtiene en la\ntabla 2.3;\nTabla 2.3 Coeficiente de almacenamiento, CA\nFracción\nCA\nEnvases ligeros\nMateria orgánica\nPapel / cartón\nVidrio\nVarios\n7,80\n3,00\n10,85\n3,36\n10,50\nPv el número estimado de ocupantes habituales de la vivienda que equivale a la suma del número\ntotal de dormitorios sencillos y el doble de número total de dormitorios dobles.\n\nDocumento Básico HS Salubridad\nHS 2 Recogida y evacuación de residuos\n57\n4\nCon independencia de lo anteriormente expuesto, el espacio de almacenamiento de cada fracción\ndebe tener una superficie en planta no menor que 30x30 cm y debe ser igual o mayor que 45 dm3.\n5\nLos espacios destinados a materia orgánica y envases ligeros deben disponerse en la cocina o en\nzonas anejas auxiliares.\n6\nEstos espacios deben disponerse de tal forma que el acceso a ellos pueda realizarse sin que haya\nnecesidad de recurrir a elementos auxiliares y que el punto más alto esté situado a una altura no\nmayor que 1,20 m por encima del nivel del suelo.\n7\nEl acabado de la superficie de cualquier elemento que esté situado a menos de 30 cm de los límites\ndel espacio de almacenamiento debe ser impermeable y fácilmente lavable.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0057_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0056.png",
+  "../figura/p0057.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,89 @@
+{
+ "documento": "RD-314-2006-oficial",
+ "code": "RD-314-2006",
+ "title": "Real Decreto 314/2006: aprobación y Parte I del CTE",
+ "capa": "oficial",
+ "scope": "Marco legal y Parte I",
+ "version": "2022-06-15",
+ "version_dir": "2022-06-15__298090e145f5",
+ "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+ "apartado": {
+  "id_tecnico": "a0043",
+  "ruta_oficial": null,
+  "ruta_semantica": "Capítulo 3. Exigencias básicas / Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI).",
+  "titulo": "Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI).",
+  "nivel": 3,
+  "parent_id": "a0038",
+  "seccion_estimada": "Capítulo 3. Exigencias básicas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    90.7,
+    646.4,
+    409.2,
+    660.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "9bd7728ce207b3763dc4e1a9da8d43ae8709de1025deb56d58115654afe0b0c4",
+   "literal": "Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI)."
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0025",
+  "parent_id_original": "a0038",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Artículo 11",
+   "DB-SI"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI).",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0038",
+   "ruta_semantica": "CAPÍTULO 3 / Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI).",
+   "seccion_estimada": "CAPÍTULO 3",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "24d3aa6966d61abeba6f4258fff09235e28201367a0f279331889ec412139c5e"
+ },
+ "paginas": [
+  15,
+  16
+ ],
+ "etiquetas_impresas": [
+  "15",
+  "16"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Artículo 11.  Exigencias básicas de seguridad en caso de incendio (SI).\n1. El objetivo del requisito básico «Seguridad en caso de incendio» consiste en reducir a\nlímites aceptables el riesgo de que los usuarios de un edificio sufran daños derivados de un\nincendio de origen accidental, como consecuencia de las características de su proyecto,\nconstrucción, uso y mantenimiento.\n2. Para satisfacer este objetivo, los edificios se proyectarán, construirán, mantendrán y\nutilizarán de forma que, en caso de incendio, se cumplan las exigencias básicas que se\nestablecen en los apartados siguientes.\n3. El Documento Básico DB-SI especifica parámetros objetivos y procedimientos cuyo\ncumplimiento asegura la satisfacción de las exigencias básicas y la superación de los niveles\nmínimos de calidad propios del requisito básico de seguridad en caso de incendio, excepto\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 15\n\nen el caso de los edificios, establecimientos y zonas de uso industrial a los que les sea de\naplicación el «Reglamento de seguridad contra incendios en los establecimientos\nindustriales», en los cuales las exigencias básicas se cumplen mediante dicha aplicación.\n11.1 Exigencia básica SI 1: Propagación interior: se limitará el riesgo de propagación del\nincendio por el interior del edificio, tanto al mismo edificio como a otros edificios colindantes.\n11.2 Exigencia básica SI 2: Propagación exterior: se limitará el riesgo de propagación del\nincendio por el exterior, tanto en el edificio considerado como a otros edificios.\n11.3 Exigencia básica SI 3: Evacuación de ocupantes: el edificio dispondrá de los medios\nde evacuación adecuados para facilitar que los ocupantes puedan abandonarlo o alcanzar\nun lugar seguro dentro del mismo en condiciones de seguridad.\n11.4 Exigencia básica SI 4: Instalaciones de protección contra incendios: el edificio\ndispondrá de los equipos e instalaciones adecuados para hacer posible la detección, el\ncontrol y la extinción del incendio, así como la transmisión de la alarma a los ocupantes.\n11.5 Exigencia básica SI 5: Intervención de bomberos: se facilitará la intervención de los\nequipos de rescate y de extinción de incendios.\n11.6 Exigencia básica SI 6: Resistencia estructural al incendio: la estructura portante\nmantendrá su resistencia al fuego durante el tiempo necesario para que puedan cumplirse\nlas anteriores exigencias básicas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Artículo 11",
+  "DB-SI"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515",
+  "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

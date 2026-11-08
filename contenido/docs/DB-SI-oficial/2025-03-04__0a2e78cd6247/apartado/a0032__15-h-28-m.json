@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0032",
+  "ruta_oficial": "15",
+  "ruta_semantica": "15 < h ≤ 28 m",
+  "titulo": "15 < h ≤ 28 m",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "15 < h ≤ 28 m",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    228.3,
+    164.2,
+    520.3,
+    174.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "8945e32d36e14986f6bdb8809527432f9581a2e3bc08e5ddcca5cfd6fc89ffe5",
+   "literal": "15 < h ≤ 28 m"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "15 < h ≤ 28 m",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "15 < h ≤ 28 m",
+   "seccion_estimada": "15 < h ≤ 28 m",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8175b28e16432cf8c72c39d26f8765d6322b24dcc4f436dc86f36f71bcfc3ce3"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  "13"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "15 < h ≤ 28 m\nh > 28 m\nParedes y techos(3) que separan al\nsector considerado del resto del\nedificio, siendo su usoprevisto:(4)\n-\nSector de riesgo mínimo en\nedificio de cualquier uso\n(no se admite)\nEI 120\nEI 120\nEI 120\n-\nResidencial Vivienda, Residen-\ncial Público, Docente, Adminis-\ntrativo\nEI 120\nEI 60\nEI 90\nEI 120\n-\nComercial, Pública concurren-\ncia, Hospitalario\nEI 120(5)\nEI 90\nEI 120\nEI 180\n-\nAparcamiento(6)\nEI 120(7)\nEI 120\nEI 120\nEI 120\nPuertas de paso entre sectores de\nincendio\nEI2 t-C5 siendo t la mitad del tiempo de resistencia al fuego requerido a la\npared en la que se encuentre, o bien la cuarta parte cuando el paso se reali-\nce a través de un vestíbulo de independencia y de dos puertas.\n(1)\nConsiderando la acción del fuego en el interior del sector, excepto en el caso de los sectores de riesgo mínimo, en los que\núnicamente es preciso considerarla desde el exterior del mismo.\nUn elemento delimitador de un sector de incendios puede precisar una resistencia al fuego diferente al considerar la acción\ndel fuego por la cara opuesta, según cual sea la función del elemento por dicha cara: compartimentar una zona de riesgo\nespecial, una escalera protegida, etc.\n(2)\nComo alternativa puede adoptarse el tiempo equivalente de exposición al fuego, determinado conforme a lo establecido en\nel apartado 2 del Anejo SI B.\n(3)\nCuando el techo separe de una planta superior debe tener al menos la misma resistencia al fuego que se exige a las pare-\ndes, pero con la característica REI en lugar de EI, al tratarse de un elemento portante y compartimentador de incendios. En\ncambio, cuando sea una cubierta no destinada a actividad alguna, ni prevista para ser utilizada en la evacuación, no precisa\ntener una función de compartimentación de incendios, por lo que sólo debe aportar la resistencia al fuego R que le corres-\nponda como elemento estructural, excepto en las franjas a las que hace referencia el capítulo 2 de la Sección SI 2, en las\nque dicha resistencia debe ser REI.\n(4)\nLa resistenciaal fuego del suelo es función del uso al que esté destinada la zona existente en la planta inferior. Véase apar-\ntado 3 de la Sección SI 6 de este DB.\n(5)\nEI 180 si la altura de evacuación del edificio es mayor que 28 m.\n(6)\nResistencia al fuego exigible a las paredes que separan al aparcamiento de zonas de otro uso. En relación con el forjado de\nseparación, ver nota (3).\n(7)\nEI 180 si es un aparcamiento robotizado.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0033",
+  "a0039"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

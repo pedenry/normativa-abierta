@@ -1,0 +1,582 @@
+{
+ "documento": null,
+ "pagina": 52,
+ "etiqueta_impresa": "5",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 46",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    105.3
+   ],
+   "tipo": "texto",
+   "texto": "5\nEl valor característico de la resistencia al aplastamiento, fh,k, se puede obtener, en este capítulo, en\nfunción de el tipo de clavija y el tipo de material. En casos no descritos se puede recurrir a las nor-\nmas UNE-EN 383:2007 y UNE-EN 14358:2016.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    112.9,
+    541.3,
+    145.9
+   ],
+   "tipo": "texto",
+   "texto": "6\nEl valor característico del momento plástico, My,Rk, se puede obtener, en este capítulo, para seccio-\nnes cuadradas y circulares macizas de acero. En casos no cubiertos se podrá determina de acuerdo\ncon las normas UNE-EN 409:2009 y UNE-EN 14358:2016.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    153.5,
+    541.3,
+    174.9
+   ],
+   "tipo": "texto",
+   "texto": "7\nLos diferentes modos de fallo, correspondientes a cada expresión, se representan gráficamente en la\nfigura 8.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    121.1,
+    381.1,
+    490.8,
+    399.0
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.2 Modos de fallo en uniones de madera con madera y de madera con tablero.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    421.0,
+    252.1,
+    430.9
+   ],
+   "tipo": "texto",
+   "texto": "8.3.1.2  Uniones de acero con madera",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    439.5,
+    541.3,
+    507.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor característico de la capacidad de carga de las uniones entre acero y madera depende del\nespesor de las placas de acero. Las placas con espesor menor o igual que 0,5·d se clasifican como\nplacas delgadas y las placas con espesor mayor o igual que d, con una tolerancia en el diámetro del\nagujero inferior a 0,1d, se clasifican como placas gruesas. El valor característico de la capacidad de\ncarga de las uniones con placas de acero con grueso intermedio entre las delgadas y las gruesas\ndebe calcularse mediante interpolación lineal entre ambos casos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    514.5,
+    544.1,
+    558.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nDebe comprobarse la resistencia de la propia placa de acero. Si se respetan las distancias a los\nbordes derivadas de la madera, se podrá comprobar a partir de área resistente equivalente igual a\nd·t, siendo d el diámetro y t el espesor, y considerando una tensión de cálculo de (0,53·fy)(siendo fy\nla tensión en el límite elástico del acero de la placa).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    566.5,
+    170.6,
+    576.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nCortadura simple:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    88.8,
+    587.9,
+    218.6,
+    599.4
+   ],
+   "tipo": "texto",
+   "texto": "a) placa delgada (t  0,5d);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    144.2,
+    624.5,
+    242.0,
+    634.5
+   ],
+   "tipo": "texto",
+   "texto": "d\nf\nM\n2\n15\n,1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    91.2,
+    609.2,
+    205.6,
+    627.9
+   ],
+   "tipo": "texto",
+   "texto": "d\nt\nf\n4\n,0\nmin\nF",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    192.4,
+    629.4,
+    229.0,
+    636.4
+   ],
+   "tipo": "texto",
+   "texto": "k,1,h\nRk\n,y",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    96.8,
+    614.0,
+    234.8,
+    634.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nk,1,h\nRk\n,v\n\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    114.8,
+    607.7,
+    247.8,
+    633.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    514.8,
+    608.3,
+    540.7,
+    618.2
+   ],
+   "tipo": "texto",
+   "texto": "(8.17)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    514.8,
+    624.8,
+    540.7,
+    634.8
+   ],
+   "tipo": "texto",
+   "texto": "(8.18)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    88.8,
+    660.2,
+    197.5,
+    671.6
+   ],
+   "tipo": "texto",
+   "texto": "b) placa gruesa (t  d).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    145.2,
+    738.0,
+    187.0,
+    747.9
+   ],
+   "tipo": "texto",
+   "texto": "d\nt\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    145.0,
+    720.1,
+    227.8,
+    730.1
+   ],
+   "tipo": "texto",
+   "texto": "d\nf\nM\n3,2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    219.6,
+    693.7,
+    278.8,
+    712.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nt\nd\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    145.2,
+    685.5,
+    242.7,
+    703.7
+   ],
+   "tipo": "texto",
+   "texto": "M\n4\n2\nd\nt\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    91.2,
+    710.2,
+    138.8,
+    720.2
+   ],
+   "tipo": "texto",
+   "texto": "min\nF",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    148.1,
+    742.8,
+    175.4,
+    749.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nk,1,h",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    178.3,
+    724.9,
+    214.9,
+    731.9
+   ],
+   "tipo": "texto",
+   "texto": "k,1,h\nRk\n,y",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    222.5,
+    700.6,
+    261.2,
+    714.5
+   ],
+   "tipo": "texto",
+   "texto": "2\n1\nk,1,h",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    148.1,
+    690.4,
+    256.7,
+    705.4
+   ],
+   "tipo": "texto",
+   "texto": "Rk\n,y\n1\nk,1,h",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    96.8,
+    715.1,
+    110.4,
+    722.1
+   ],
+   "tipo": "texto",
+   "texto": "Rk\n,v",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    164.2,
+    736.5,
+    180.0,
+    747.9
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    159.2,
+    718.6,
+    220.8,
+    730.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    277.7,
+    691.2,
+    281.5,
+    717.4
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    277.7,
+    681.8,
+    281.5,
+    693.2
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    192.6,
+    691.2,
+    196.4,
+    717.4
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    192.6,
+    681.8,
+    196.4,
+    693.2
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    238.6,
+    692.2,
+    272.1,
+    712.7
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    164.2,
+    684.0,
+    233.4,
+    703.6
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    114.8,
+    708.8,
+    286.7,
+    725.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    514.8,
+    689.4,
+    540.7,
+    699.3
+   ],
+   "tipo": "texto",
+   "texto": "(8.19)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    514.8,
+    717.1,
+    540.7,
+    727.1
+   ],
+   "tipo": "texto",
+   "texto": "(8.20)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    514.8,
+    739.1,
+    540.7,
+    749.0
+   ],
+   "tipo": "texto",
+   "texto": "(8.21)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 41,
+   "bbox": [
+    70.9,
+    756.6,
+    166.2,
+    766.5
+   ],
+   "tipo": "texto",
+   "texto": "4\nCortadura doble:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    150.0,
+    266.1,
+    431.5,
+    274.1
+   ],
+   "tipo": "texto",
+   "texto": "(8.6)\n  (8.7)\n   (8.8)\n      (8.9)\n    (8.10)\n       (8.11)",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    150.0,
+    369.3,
+    345.0,
+    377.3
+   ],
+   "tipo": "texto",
+   "texto": "(8.12)\n  (8.13)\n (8.14)\n  (8.15)",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

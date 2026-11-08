@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0041",
+  "ruta_oficial": "3.5",
+  "ruta_semantica": "3.5 Verificaciones",
+  "titulo": "3.5 Verificaciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.5 Verificaciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    70.9,
+    277.2,
+    175.7,
+    289.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3e37a2be0525c1590cbae977998c7999b199d00b645601c721c9de90506901ab",
+   "literal": "3.5 Verificaciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0040",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.5 Verificaciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.5 Verificaciones",
+   "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1f3818bcf8cbc5056c25ba3dde56471dadaac7466466854599b8340677c5c50b"
+ },
+ "paginas": [
+  14,
+  15
+ ],
+ "etiquetas_impresas": [
+  "2",
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.5 Verificaciones\n1\nPara cada verificación, se identificará la disposición de las acciones simultáneas que deban tenerse\nen cuenta, como deformaciones previas o impuestas, o imperfecciones. Asimismo, deberán consi-\nderase las desviaciones probables en las disposiciones o en las direcciones de las acciones.\n2\nEn el marco del método de los estados límite, el cumplimiento de las exigencias estructurales se\ncomprobará utilizando el formato de los coeficientes parciales (véase apartado 4). Alternativamente,\nlas comprobaciones se podrán basar en una aplicación directa de los métodos de análisis de fiabili-\ndad (véase Anejo C).\n\nDocumento Básico SE Seguridad Estructural\nSE - 9",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

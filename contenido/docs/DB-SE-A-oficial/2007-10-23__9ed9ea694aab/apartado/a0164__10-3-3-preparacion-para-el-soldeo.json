@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0164",
+  "ruta_oficial": "10.3.3",
+  "ruta_semantica": "10.3.3 Preparación para el soldeo",
+  "titulo": "10.3.3 Preparación para el soldeo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.3.3 Preparación para el soldeo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 114,
+   "bbox": [
+    74.1,
+    424.7,
+    235.3,
+    435.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d74a44df2e4dda2e18261c4e8743dd6303cf146bdd09ce1bd1a9e8043cdcb12a",
+   "literal": "10.3.3 Preparación para el soldeo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0157",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.3.3 Preparación para el soldeo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución 10.1 Materiales / 10.3 Soldeo 10.3.1 Plan de soldeo / 10.3.3 Preparación para el soldeo",
+   "seccion_estimada": "10 Ejecución 10.1 Materiales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "49f6d0322c5a61ab3f19e714e0de8054322943238c621090050d82743789fcbb"
+ },
+ "paginas": [
+  114
+ ],
+ "etiquetas_impresas": [
+  "114"
+ ],
+ "tipos": [],
+ "texto": "10.3.3 Preparación para el soldeo\n1\nLas superficies y bordes deben ser los apropiados para el proceso de soldeo que se utilice y estar\nexentos de fisuras, entalladuras, materiales que afecten al proceso o calidad de las soldaduras y\nhumedad.\n2\nLos componentes a soldar deben estar correctamente colocados y fijos mediante dispositivos ade-\ncuados o soldaduras de punteo, pero no mediante soldaduras adicionales, y deben ser accesibles\npara el soldador. Se comprobará que las dimensiones finales están dentro de tolerancias, estable-\nciéndose los márgenes adecuados para la distorsión o contracción.\n3\nLos dispositivos provisionales para el montaje, deben ser fáciles de retirar sin dañar la pieza. Las\nsoldaduras que se utilicen deben ejecutarse siguiendo las especificaciones generales y, si se cor-\ntan al final del proceso, la superficie del metal base debe alisarse por amolado. Se eliminarán todas\nlas soldaduras de punteo no incorporadas a las soldaduras finales.\n4\nSe debe considerar la utilización de precalentamiento cuando el tipo de material del acero y/o la\nvelocidad de enfriamiento puedan producir un endurecimiento de la zona térmicamente afectada\npor el calor. Cuando se utilice, se extenderá 75 mm en cada componente del metal base.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

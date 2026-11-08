@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0229",
+  "ruta_oficial": "5.1.1.4.2",
+  "ruta_semantica": "5.1.1.4.2 Soportes",
+  "titulo": "5.1.1.4.2 Soportes",
+  "nivel": 1,
+  "parent_id": "a0222",
+  "seccion_estimada": "5.1.1.4.2 Soportes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 97,
+   "bbox": [
+    70.9,
+    475.6,
+    163.8,
+    486.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b8beef161f437f74b24095d53c87ba42ae694556c57b179b9aed4e8350a26fcc",
+   "literal": "5.1.1.4.2 Soportes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0222",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.1.4.2 Soportes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0222",
+   "ruta_semantica": "5 Construcción 5.1 Ejecución / 5.1.1 Ejecución de las redes de tuberías / 5.1.1.2  Uniones y juntas / 5.1.1.4.2 Soportes",
+   "seccion_estimada": "5 Construcción 5.1 Ejecución",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "25aeeb376478d184808cf6dbff2a8b5abbab4c4a4e0c5d7ce9b05e4257bc7325"
+ },
+ "paginas": [
+  97
+ ],
+ "etiquetas_impresas": [
+  "97"
+ ],
+ "tipos": [],
+ "texto": "5.1.1.4.2 Soportes\n1\nSe dispondrán soportes de manera que el peso de los tubos cargue sobre estos y nunca sobre los\npropios tubos o sus uniones.\n2\nNo podrán anclarse en ningún elemento de tipo estructural, salvo que en determinadas ocasiones\nno sea posible otra solución, para lo cual se adoptarán las medidas preventivas necesarias. La lon-\ngitud de empotramiento será tal que garantice una perfecta fijación de la red sin posibles despren-\ndimientos.\n3\nDe igual forma que para las grapas y abrazaderas se interpondrá un elemento elástico en los mis-\nmos casos, incluso cuando se trate de soportes que agrupan varios tubos.\n4\nLa máxima separación que habrá entre soportes dependerá del tipo de tubería, de su diámetro y de\nsu posición en la instalación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

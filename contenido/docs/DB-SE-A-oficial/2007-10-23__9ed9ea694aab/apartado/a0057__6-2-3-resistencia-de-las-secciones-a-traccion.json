@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0057",
+  "ruta_oficial": "6.2.3",
+  "ruta_semantica": "6.2.3 Resistencia de las secciones a tracción",
+  "titulo": "6.2.3 Resistencia de las secciones a tracción",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.3 Resistencia de las secciones a tracción",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 32,
+   "bbox": [
+    78.0,
+    433.3,
+    293.7,
+    444.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b2275f795d997f7a2a46d6f3b52b7cd035d8ec1d85eb6605944f81db3142a3f2",
+   "literal": "6.2.3 Resistencia de las secciones a tracción"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0063",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 8.5.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.3 Resistencia de las secciones a tracción",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.2 Resistencia de las secciones 6.2.1 Bases / 6.2.3 Resistencia de las secciones a tracción",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d5d4d3e22bc171905e0926060655b66706be874f0a32c5b73829ea7ab659aed6"
+ },
+ "paginas": [
+  32
+ ],
+ "etiquetas_impresas": [
+  "32"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.2.3 Resistencia de las secciones a tracción\n1\nComo resistencia de las secciones a tracción, Nt,Rd, puede emplearse la plástica de la sección bru-\nta sin superar la última de la sección neta:\nyd\nRd\n,\npl\nRd\n,t\nf\nA\nN\nN\n⋅\n=\n≤\n(6.2)\nud\nneta\nRd\n,\nu\nRd\n,t\nf\nA\n9,0\nN\nN\n⋅\n⋅\n=\n≤\n(6.3)\n2\nCuando se proyecte conforme a criterios de capacidad, la resistencia última de la sección neta se-\nrá mayor que la plástica de la sección bruta.\n3\nEn las secciones extremas en las que se practican los agujeros y rebajes de alas requeridos para\nla unión, se comprobará el desgarro del alma según se indica en el apartado 8.5.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.5.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0032.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

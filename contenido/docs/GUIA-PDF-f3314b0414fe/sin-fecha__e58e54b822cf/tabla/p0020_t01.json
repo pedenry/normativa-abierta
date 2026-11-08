@@ -1,0 +1,53 @@
+{
+ "indice": 1,
+ "pagina": 20,
+ "etiqueta_impresa": "20",
+ "bbox": [
+  544.8,
+  26.1,
+  595.3,
+  45.4
+ ],
+ "filas": 1,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "20",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "20"
+ ],
+ "header": {
+  "names": [
+   "",
+   "20"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C6D075A00>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C6C917590>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0020.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

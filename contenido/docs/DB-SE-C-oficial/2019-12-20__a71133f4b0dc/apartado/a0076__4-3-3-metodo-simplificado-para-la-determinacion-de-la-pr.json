@@ -1,0 +1,129 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0076",
+  "ruta_oficial": "4.3.3",
+  "ruta_semantica": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+  "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 38,
+   "bbox": [
+    70.9,
+    367.9,
+    534.6,
+    393.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ace7dd7bbd5568ccab163c72b49d28389af23e2528a118b4bc8da9c019f7bcc2",
+   "literal": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 4.2.3.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4c80d29ec175564bc306d29e10ebffaaca4f4af8baf988ba45b00e64e54be6e0"
+ },
+ "paginas": [
+  38,
+  39,
+  40
+ ],
+ "etiquetas_impresas": [
+  "1",
+  "3",
+  "1"
+ ],
+ "tipos": [
+  "excepciones",
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares\nde servicio en suelos granulares\n1\nEn suelos granulares la presión vertical admisible de servicio suele encontrarse limitada por condi-\nciones de asiento, más que por hundimiento. Dada la dificultad en el muestreo de estos suelos, un\nmétodo tradicional para el diseño de cimentaciones consiste en el empleo de correlaciones empíri-\ncas más o menos directas con ensayos de penetración, o con otro tipo de ensayos in situ a su vez\ncorrelacionables con el mismo (véase apartado 4.2.3.1).\n2\nA efectos de este DB, cuando la superficie del terreno sea marcadamente horizontal (pendiente\ninferior al 10%), la inclinación con la vertical de la resultante de las acciones sea menor del 10% y\nse admita la producción de asientos de hasta 25 mm, la presión vertical admisible de servicio podrá\nevaluarse mediante las siguientes expresiones basadas en el golpeo NSPT obtenido en el ensayo\nSPT.\na)\nPara B* < 1,2 m\n2\nkN/m\n25\nt\nS\n·\n*\nB\n3\nD\n1\nN\n12\nadm\nq\nSPT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(4.9)\nb)\nPara B*  1,2 m:\n2\nkN/m\n2\n*\nB\n0,3\n*\nB\n·\n25\nt\nS\n*\n3B\nD\n1\nN\n8\nd\nq\nSPT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(4.10)\nsiendo\nSt\nEl asiento total admisible, en mm.\nNSPT\nel valor medio de los resultados, obtenidos en una zona de influencia de la cimentación\ncomprendida entre un plano situado a una distancia 0,5B* por encima de su base y otro\nsituado a una distancia mínima 2B* por debajo de la misma;\nD\nla profundidad definida en el Anejo F\nEl valor de\n\n\n\n\n*\nB\n3\nD\n1\na introducir en las ecuaciones será menor o igual a 1,3.\n\nDocumento Básico SE-C Cimientos\nSE-C-34\n3\nSi existe nivel freático a la altura de apoyo de la cimentación o por encima, para poder aplicar las\nformulas anteriores debe garantizarse mediante un adecuado proceso constructivo que las caracte-\nrísticas mecánicas del terreno de cimentación no se alteran respecto a los valores determinados en\nel reconocimiento geotécnico.\n4\nLas formulas anteriores se considerarán aplicables para cimentaciones superficiales de hasta 5 m\nde ancho real (B). Para anchuras superiores a 5 m deben siempre comprobarse los asientos de\nacuerdo con el apartado F.1.2.2.\n5\nCuando el asiento admisible de cualquier elemento de cimentación sea inferior a 25 mm, el análisis\nde asientos debe llevarse a cabo de acuerdo con el apartado F.1.2.2.\n6\nSerá necesaria en todo caso la comprobación de que no se producen asientos excesivos debidos a\nla presencia de cargas próximas y suelos menos firmes situados a mayor profundidad que 2B* des-\nde la base de la cimentación.\n7\nSi existiera flujo de agua en el entorno de la cimentación superficial se requerirá un estudio especí-\nfico de la solución a adoptar.\n8\nCuando se realicen ensayos de penetración estáticos o dinámicos continuos se podrá aplicar el\nmétodo descrito anteriormente siempre y cuando se utilicen correlaciones bien establecidas con el\nresultado NSPT del ensayo SPT.\n9\nLas correlaciones suelen mostrar un marcado carácter local y deben justificarse convenientemente,\ncomo puede ser mediante la realización de penetrómetros continuos situados a corta distancia de\nsondeos en los que se cuente con pruebas SPT.\n10\nExcepto para aquellos casos en los que sea preceptiva la realización de sondeos mecánicos, se\npodrá llevar a cabo la estimación de las presiones verticales admisibles de cimentación a partir de\nla ejecución exclusiva de penetrómetros continuos siempre que concurran las siguientes circuns-\ntancias:\na)\ncuando exista una correlación de suficiente nivel de confianza entre la resistencia a la penetra-\nción del ensayo realizado y las propiedades mecánicas del terreno, establecidas por el re-\nconocimiento específico o preliminar efectuado para el edificio en estudio o los reconocimien-\ntos efectuados en las edificaciones próximas;\nb)\ncuando la correlación entre la resistencia a la penetración y las propiedades mecánicas del te-\nrreno provenga de estudios e investigaciones efectuadas en la zona en terrenos análogos a\nlos encontrados en el área de edificación;\nc)\ncuando exista en la localidad del emplazamiento de la edificación una tradición firmemente es-\ntablecida entre el ensayo de penetración continua empleado y la presión vertical admisible, y\nsiempre que la nueva edificación tenga un número de plantas similar, su nivel de cimentación\nno profundice respecto a los contiguos más de 1,50 m, y la modulación de la superestructura y\nlas cargas por apoyo sean similares.\n11\nA efectos prácticos se podrán tomar los valores de la presión vertical admisible (qadm) que figuran en\nla tabla 4.4, calculadas para valores de NSPT = 10. Para valores de NSPT > 10, la presión admisible varía\nproporcionalmente.\nTabla 4.4  Presiones admisibles en suelos granulares para N=10, (kN/m2)\nB (m)\n0,8 m\n1,0 m\n1,2 m\n1,5 m\n2,0 m\n3,0 m\n5,0 m\nSt\nD (m)\nD (m)\nD (m)\nD (m)\nD (m)\nD (m)\nD (m)\n(mm)\n0,5\n2\n0,5\n2\n0,5\n2\n0,5\n2\n0,5\n2\n0,5\n2\n0,5\n2\n10\n58\n62\n56\n62\n57\n65\n51\n60\n46\n55\n41\n47\n37\n41\n15\n87\n94\n84\n94\n85\n98\n77\n90\n69\n83\n61\n71\n56\n61\n20\n116\n125\n112\n125\n114\n130\n102\n120\n92\n110\n82\n95\n74\n81\n25\n145\n156\n140\n156\n142\n163\n128\n150\n115\n138\n102\n118\n93\n102\n\nDocumento Básico SE-C Cimientos\nSE-C-35",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.2.3.1"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0040_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0038.png",
+  "../figura/p0039.png",
+  "../figura/p0040.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

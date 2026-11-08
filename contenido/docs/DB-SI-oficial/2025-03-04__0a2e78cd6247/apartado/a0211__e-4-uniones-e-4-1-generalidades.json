@@ -1,0 +1,76 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0211",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p79",
+  "titulo": "E.4 Uniones E.4.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p79",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p79",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.4 Uniones E.4.1 Generalidades",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "466a1619c2cbd85a6d3bbbacdc722ae31690d5a4fa0c9754b050c3ac0fd5b7e5"
+ },
+ "paginas": [
+  79
+ ],
+ "etiquetas_impresas": [
+  "79"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "E.4 Uniones E.4.1 Generalidades\nE.4.1 Generalidades\n1\nEn este apartado se tratan las uniones entre elementos expuestos a la acción representada por la\ncurva normalizada tiempo-temperatura realizadas con clavos, pernos, pasadores y conectores de\nanillo y de placa de acuerdo con la norma UNE EN 912:2011 y con barras encoladas. Mientras en el\ntexto no se indique lo contrario, las reglas son solo de aplicación para resistencias al fuego no mayo-\nres que R 60.\n2\nLos apartados E.4.2 y E.4.3 son sólo válidos para uniones simétricas de tres elementos sometidas a\ncarga lateral.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0079.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,95 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0308",
+  "ruta_oficial": "3",
+  "ruta_semantica": "3 Verificación y justificación del cumplimiento de la exigencia",
+  "titulo": "3 Verificación y justificación del cumplimiento de la exigencia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3 Verificación y justificación del cumplimiento de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 138,
+   "bbox": [
+    70.9,
+    633.1,
+    496.7,
+    648.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "66d3fe0202830adcef540bb06247228b0c4b40a037cce2d3f2cd75f4f28cdcae",
+   "literal": "3 Verificación y justificación del cumplimiento de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 3.1",
+   "apartado 3.2",
+   "apartado 3.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Verificación y justificación del cumplimiento de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Verificación y justificación del cumplimiento de la exigencia",
+   "seccion_estimada": "3 Verificación y justificación del cumplimiento de la exigencia",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1377f4ed48093357cfa98bc662ae0093fac11b9201688f6d2c5f99536e4e4677"
+ },
+ "paginas": [
+  138,
+  139
+ ],
+ "etiquetas_impresas": [
+  "138",
+  "139"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "3 Verificación y justificación del cumplimiento de la exigencia\n1\nPara verificar el cumplimiento del nivel de referencia en los edificios ubicados en los términos\nmunicipales incluidos en el apéndice B, en función de la zona a la que pertenezca el municipio\ndeberán implementarse las siguientes soluciones, u otras que proporcionen un nivel de protección\nanálogo o superior:\na)\nEn los municipios de zona I, se dispondrá una barrera de protección, con las características in-\ndicadas en el apartado 3.1, entre el terreno y los locales habitables del edificio, que limite el pa-\nso de los gases provenientes del terreno.\nAlternativamente, se podrá disponer entre el terreno y los locales habitables del edificio una\ncámara de aire destinada a mitigar la entrada del gas radón a estos locales. En este caso, la\n\nDocumento Básico HS Salubridad\nHS 6 Protección frente a la exposición al radón\n139\ncámara de aire deberá estar ventilada según las indicaciones contenidas en el apartado 3.2 y\nseparada de los locales habitables mediante un cerramiento sin grietas, fisuras o discontinui-\ndades entre los elementos y sistemas constructivos que pudieran permitir el paso del radón.\nb)\nEn los municipios de zona II, se dispondrá una barrera de protección, con las características\nindicadas en el apartado 3.1 junto con un sistema adicional que podrá ser:\ni)\nun espacio de contención ventilado con las características indicadas en el apartado 3.2, si-\ntuado entre el terreno y los locales a proteger, para mitigar la entrada de radón provenien-\nte del terreno a los locales habitables mediante ventilación natural o mecánica;\nii)\no bien, un sistema de despresurización del terreno con las características indicadas en el\napartado 3.3, que permita extraer los gases contenidos en el terreno colindante al edificio.\n2\nCuando existan locales habitables situados en grandes áreas que no están protegidas, tales como\ncabinas de vigilante en garajes, podrá emplearse para la protección de dichos locales, como\nsolución alternativa a las establecidas en los párrafos anteriores, la creación de una sobrepresión en\nel interior del local habitable mediante la introducción de aire del exterior.\n3\nEn el caso de intervenciones en edificios existentes, la aplicación de las soluciones anteriores podrá\najustarse mediante la utilización de soluciones alternativas que, en conjunto, permitan limitar\nadecuadamente la entrada de radón. En todo caso es necesario que los locales habitables\ndispongan de un nivel de ventilación interior que cumpla con la reglamentación en vigor de calidad\ndel aire.\n4\nEn el caso de intervenciones en edificios existentes, cuando se disponga de valores medidos del\npromedio anual deconcentración de radón, obtenidos según el apéndice C, y alguna de las zonas\nde muestreo establecidas conforme a dicho apéndice supere el nivel de referencia, se tendrá en\ncuenta lo siguiente:\na)\nsi se presentan valores comprendidos entre 1 y 2 veces el nivel de referencia, se adoptarán las\nsolucionescorrespondientes a municipios de zona I;\nb)\nsi se presentan valores que superen 2 veces el nivel de referencia, se adoptarán las soluciones\ncorrespondientes a municipios de zona II.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3.1",
+  "apartado 3.2",
+  "apartado 3.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0309",
+  "a0311",
+  "a0312"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

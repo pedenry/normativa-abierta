@@ -1,0 +1,80 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0285",
+  "ruta_oficial": "5.4.3",
+  "ruta_semantica": "Fragmento de PDF p126",
+  "titulo": "5.4.3 Ejecución de las zanjas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p126",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p126",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.4  Ejecución de albañales y colectores 5.4.1 Ejecución de la red horizontal colgada / 5.4.3 Ejecución de las zanjas",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "640d4c8ce3e7d0dc3a2fae5d4d27b4ebca2d32327f5cf895b85db629e582e171"
+ },
+ "paginas": [
+  126,
+  127
+ ],
+ "etiquetas_impresas": [
+  "126",
+  "127"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.4.3 Ejecución de las zanjas\n1\nLas zanjas se ejecutarán en función de las características del terreno y de los materiales de las\ncanalizaciones a enterrar. Se considerarán tuberías más deformables que el terreno las de materia-\nles plásticos, y menos deformables que el terreno las de fundición, hormigón y gres.\n\nDocumento Básico HS Salubridad\nHS 5 Evacuación de aguas\n127\n2\nSin perjuicio del estudio particular del terreno que pueda ser necesario, se tomarán de forma gene-\nral, las siguientes medidas.\n5.4.3.1\nZanjas para tuberías de materiales plásticos\n1\nLas zanjas serán de paredes verticales; su anchura será el diámetro del tubo más 500 mm, y como\nmínimo de 0,60 m.\n2\nSu profundidad vendrá definida en el proyecto, siendo función de las pendientes adoptadas. Si la\ntubería discurre bajo calzada, se adoptará una profundidad mínima de 80 cm, desde la clave hasta\nla rasante del terreno.\n3\nLos tubos se apoyarán en toda su longitud sobre un lecho de material granular (arena/grava) o tie-\nrra exenta de piedras de un grueso mínimo de 10 + diámetro exterior/ 10 cm. Se compactarán los\nlaterales y se dejarán al descubierto las uniones hasta haberse realizado las pruebas de estanquei-\ndad. El relleno se realizará por capas de 10 cm, compactando, hasta 30 cm del nivel superior en\nque se realizará un último vertido y la compactación final.\n4\nLa base de la zanja, cuando se trate de terrenos poco consistentes, será un lecho de hormigón en\ntoda su longitud. El espesor de este lecho de hormigón será de 15 cm y sobre él irá el lecho descri-\nto en el párrafo anterior.\n5.4.3.2\nZanjas para tuberías de fundición, hormigón y gres\n1\nAdemás de las prescripciones dadas para las tuberías de materiales plásticos se cumplirán las si-\nguientes.\n2\nEl lecho de apoyo se interrumpirá reservando unos nichos en la zona donde irán situadas las juntas\nde unión.\n3\nUna vez situada la tubería, se rellenarán los flancos para evitar que queden huecos y se compacta-\nrán los laterales hasta el nivel del plano horizontal que pasa por el eje del tubo. Se utilizará relleno\nque no contenga piedras o terrones de más de 3 cm de diámetro y tal que el material pulverulento,\ndiámetro inferior a 0,1 mm, no supere el 12 %. Se proseguirá el relleno de los laterales hasta 15 cm\npor encima del nivel de la clave del tubo y se compactará nuevamente. La compactación de las ca-\npas sucesivas se realizará por capas no superiores a 30 cm y se utilizará material exento de piedras\nde diámetro superior a 1 cm.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0126.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

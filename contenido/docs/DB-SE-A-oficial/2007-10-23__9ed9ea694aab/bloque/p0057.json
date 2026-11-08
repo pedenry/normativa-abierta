@@ -1,0 +1,414 @@
+{
+ "documento": null,
+ "pagina": 57,
+ "etiqueta_impresa": "57",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-55",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    74.1,
+    73.4,
+    541.4,
+    107.5
+   ],
+   "tipo": "texto",
+   "texto": "4\nLa frecuencia propia del primer modo de vibración del forjado, su aceleración máxima así como su\namortiguamiento se podrán estimar según los apartados 7.2.2.2., 7.2.2.3 y 7.2.2.4, respectivamen-\nte.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    120.9,
+    229.2,
+    132.1
+   ],
+   "tipo": "texto",
+   "texto": "7.2.2.2 Frecuencia de oscilación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    140.4,
+    541.4,
+    163.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa frecuencia de oscilación de un forjado podrá ser evaluada mediante cualquier método dinámico\ncapaz de representar adecuadamente las características elásticas e inerciales de la estructura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    169.4,
+    541.3,
+    203.5
+   ],
+   "tipo": "texto",
+   "texto": "2\nA falta de un análisis más detallado, la frecuencia de oscilación de un forjado podrá estimarse a\npartir de la frecuencia propia de una viga hipotética cuyas características se basan en las siguien-\ntes hipótesis:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    209.9,
+    541.4,
+    232.5
+   ],
+   "tipo": "texto",
+   "texto": "-\nLa viga se considera mixta, independientemente del modo de construcción del forjado (con o\nsin conexión entre vigas metálicas y losa)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.8,
+    238.8,
+    455.9,
+    250.0
+   ],
+   "tipo": "texto",
+   "texto": "-\nEl ancho eficaz de la losa equivale a la separación s de las vigas metálicas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    96.8,
+    256.4,
+    541.5,
+    290.5
+   ],
+   "tipo": "texto",
+   "texto": "-\nEn caso de una losa aligerada (por ejemplo un forjado mixto donde las piezas proporcionan un\naligeramiento), ésta se considera con un espesor equivalente al de una losa maciza de peso\nidéntico.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    296.9,
+    541.4,
+    319.5
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa frecuencia propia del primer modo de vibración f1 de una viga biapoyada podrá determinarse\nsegún la relación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    101.5,
+    334.9,
+    153.1,
+    357.3
+   ],
+   "tipo": "texto",
+   "texto": "4\nb\na\n1\nL·\nm",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    98.7,
+    329.2,
+    541.0,
+    355.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "I\nE\n2\nf\nπ\n=\n(7.1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    96.8,
+    364.8,
+    129.1,
+    376.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.8,
+    382.4,
+    272.1,
+    393.6
+   ],
+   "tipo": "texto",
+   "texto": "E\nmódulo de elasticidad del acero",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    96.8,
+    399.8,
+    410.1,
+    411.8
+   ],
+   "tipo": "texto",
+   "texto": "Ib\nmomento de inercia de la sección mixta definida en 7.2.2.2. (2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    98.2,
+    420.9,
+    541.4,
+    455.2
+   ],
+   "tipo": "texto",
+   "texto": "m\nmasa por unidad de longitud de la viga en oscilación, incluyendo el peso propio de la viga\nde acero y la de losa, las cargas permanentes y una parte de la sobrecarga (valor casi per-\nmanente)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    96.8,
+    461.4,
+    238.8,
+    472.6
+   ],
+   "tipo": "texto",
+   "texto": "L\nluz de la viga biapoyada",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    96.8,
+    479.0,
+    541.5,
+    501.7
+   ],
+   "tipo": "texto",
+   "texto": "Las vigas continuas se podrán tratar, en primera aproximación, como vigas biapoyadas ya que los\nvanos adyacentes al vano analizado oscilan en sentido opuesto.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    74.1,
+    507.9,
+    541.4,
+    565.2
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn forjados con dos niveles de vigas (jácenas sobre las que se apoyan las correas perpendicula-\nres, que a su vez forman los apoyos de la losa), la frecuencia propia del sistema es más pequeña\nque la de un forjado equivalente pero con un solo nivel de vigas, ya que la rigidez del conjunto del\nsistema es mayor. A falta de un análisis más detallado, la frecuencia propia de un forjado con dos\nniveles de vigas se podrá estimar a partir de la relación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    102.4,
+    586.8,
+    179.5,
+    601.6
+   ],
+   "tipo": "texto",
+   "texto": "2\njac\n,1\n2\ncor\n,1\n2\nsis\n,1\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    169.6,
+    572.8,
+    175.1,
+    584.0
+   ],
+   "tipo": "texto",
+   "texto": "1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    131.0,
+    588.5,
+    133.8,
+    599.7
+   ],
+   "tipo": "texto",
+   "texto": "f",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    138.0,
+    572.8,
+    143.6,
+    584.0
+   ],
+   "tipo": "texto",
+   "texto": "1",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    99.6,
+    588.5,
+    102.4,
+    599.7
+   ],
+   "tipo": "texto",
+   "texto": "f",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    105.8,
+    572.8,
+    541.0,
+    590.4
+   ],
+   "tipo": "texto",
+   "texto": "1\n+\n=\n(7.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    96.8,
+    610.4,
+    129.1,
+    621.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    96.8,
+    627.9,
+    435.4,
+    639.9
+   ],
+   "tipo": "texto",
+   "texto": "f1,sis\nfrecuencia propia del primer modo de vibración del sistema (forjado)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    96.8,
+    645.5,
+    541.4,
+    668.1
+   ],
+   "tipo": "texto",
+   "texto": "f1,cor\nfrecuencia propia del primer modo de vibración de la correa considerando indeformables\nlas jácenas perpendiculares en las que se apoya.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    96.8,
+    674.4,
+    267.0,
+    686.4
+   ],
+   "tipo": "texto",
+   "texto": "f1,jac\nfrecuencia propia de la jácena",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    74.1,
+    699.0,
+    207.0,
+    710.2
+   ],
+   "tipo": "texto",
+   "texto": "7.2.2.3 Aceleración máxima",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 30,
+   "bbox": [
+    74.1,
+    718.4,
+    538.5,
+    741.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa aceleración máxima inicial de la vibración de un forjado, debido a un impulso I, se podrá deter-\nminar a partir de la relación:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

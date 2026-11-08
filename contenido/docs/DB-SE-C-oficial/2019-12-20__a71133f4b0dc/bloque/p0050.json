@@ -1,0 +1,89 @@
+{
+ "documento": null,
+ "pagina": 50,
+ "etiqueta_impresa": "2",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-45",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    131.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nDebe considerarse la forma y dimensiones del encepado a fin de incluir su peso, así como el de las\ntierras o aquello que pueda gravitar sobre éste, en el cómputo de las acciones.\n3\nEn su caso, se especificará el nivel del terreno alrededor del pilotaje. En aquellos casos en los que\npueda existir socavación habrá que considerar al menos, con carácter accidental, la situación co-\nrrespondiente a la máxima prevista",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    213.6,
+    407.6,
+    445.9,
+    428.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.2. Esquema de un posible pilotaje",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    450.6,
+    435.2,
+    462.6
+   ],
+   "tipo": "titulo",
+   "texto": "5.2.1 Acciones del resto de la estructura sobre la cimentación",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    467.2,
+    541.3,
+    601.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara el dimensionado del pilotaje se tomarán las acciones indicadas en el apartado 2.3.2.\n2\nEn el caso de un grupo de pilotes, para cada combinación de acciones se debe realizar un reparto\nde cargas entre los pilotes del grupo. Este reparto requiere de un proceso iterativo. Los coeficientes\nde reparto entre pilotes dependen de la naturaleza del terreno y de la rigidez de los pilotes y del en-\ncepado.\n3\nEn general, si el encepado que une los pilotes es suficientemente rígido, bastará con considerar la\ndistribución de cargas que se obtiene al suponer que los pilotes están articulados en cabeza y que\nel encepado es infinitamente rígido (véase Figura 5.3).\n4\nSi hubiera pilotes de distinto diámetro dentro de un mismo grupo, los valores de cálculo se de-\nterminarán para cada uno de los diámetros (o diámetros equivalentes para formas no circulares)\nque se usen.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

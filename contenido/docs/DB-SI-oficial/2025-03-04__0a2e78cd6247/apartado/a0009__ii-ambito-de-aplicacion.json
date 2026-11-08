@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0009",
+  "ruta_oficial": null,
+  "ruta_semantica": "II Ámbito de aplicación",
+  "titulo": "II Ámbito de aplicación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "II Ámbito de aplicación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    70.9,
+    118.6,
+    251.0,
+    134.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "d5f26711761ff1d7e4b005f938fd1f0602ddad370fd43da1ca1dbf3031b5da40",
+   "literal": "II Ámbito de aplicación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0003",
+  "parent_id_original": null,
+  "parent_motivo": "marcador_toc_verificado",
+  "scope": "global",
+  "referencias_filtradas": [
+   "artículo 2"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "II Ámbito de aplicación",
+  "ruta_fuente": "ambito_global_verificado",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Introducción / II Ámbito de aplicación",
+   "seccion_estimada": "Introducción",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "05f71b844e4c99a1a009efeb539cc44f65fb8e777c21270d15309a867ec8efde"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [
+  "ambito",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "II Ámbito de aplicación\nÁmbito de aplicación\nEl ámbito de aplicación de este DB es el que se establece con carácter general para el conjunto del CTE\nen su artículo 2 (Parte I) excluyendo los edificios, establecimientos y zonas de uso industrial a los que les\nsea de aplicación el “Reglamento de seguridad contra incendios en los establecimientos industriales”.\nEl contenido de este DB se refiere únicamente a las exigencias básicas relacionadas con el requisito\nbásico \"Seguridad en caso de incendio\". También deben cumplirse las exigencias básicas de los demás\nrequisitos básicos, lo que se posibilita mediante la aplicación del DB correspondiente a cada uno de\nellos.(1)\nEste CTE no incluye exigencias dirigidas a limitar el riesgo de inicio de incendio relacionado con las ins-\ntalaciones o los almacenamientos regulados por reglamentación específica, debido a que corresponde a\ndicha reglamentación establecer dichas exigencias.\nComo en el conjunto del CTE, el ámbito de aplicación de este DB son las obras de edificación. Por ello,\nlos elementos del entorno del edificio a los que les son de obligada aplicación sus condiciones son úni-\ncamente aquellos que formen parte del proyecto de edificación. Conforme al artículo 2, punto 3 de la ley\n38/1999, de 5 de noviembre, de Ordenación de la Edificación (LOE), se consideran comprendidas en la\nedificación sus instalaciones fijas y el equipamiento propio, así como los elementos de urbanización que\npermanezcan adscritos al edificio.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "artículo 2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0004.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

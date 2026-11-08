@@ -1,0 +1,95 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0070",
+  "ruta_oficial": null,
+  "ruta_semantica": "Justificación de la exigencia",
+  "titulo": "Justificación de la exigencia",
+  "nivel": 1,
+  "parent_id": "a0067",
+  "seccion_estimada": "Justificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    56.7,
+    328.3,
+    258.0,
+    341.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "31aa320111a7bab302b9833d3caa58ca5dda93755aceec82e4f90728ae7412bc",
+   "literal": "Justificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0067",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "artículo 7"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Justificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0067",
+   "ruta_semantica": "5 Construcción, mantenimiento y conservación / Sección HE 6 Dotaciones mínimas para la infraestructura de recarga de / Justificación de la exigencia",
+   "seccion_estimada": "5 Construcción, mantenimiento y conservación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "54168df749fc5d5c6c38a1820e94e64586e07788fc7d0337f19c789b9b6bbfe3"
+ },
+ "paginas": [
+  34,
+  35,
+  36
+ ],
+ "etiquetas_impresas": [
+  "34",
+  "35",
+  "36"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Justificación de la exigencia\n1\nPara justificar que un edificio cumple las exigencias de este DB, los documentos de proyecto incluirán la\nsiguiente información sobre el edificio o parte del edificio evaluada:\na) esquema de conexión utilizado para el dimensionado, según los descritos en el Reglamento\nelectrotécnico de baja tensión;\nb) descripción de la conducción principal y las canalizaciones dispuestas, indicando el porcentaje de\nplazas de aparcamiento que cuentan con sistemas de conducción de cables y el porcentaje mínimo\nexigido;\nc) número de estaciones de recarga instaladas y número mínimo resultante de la cuantificación de la\nexigencia.\nd) tipos de estaciones de recarga y potencia de las mismas.\n5\nConstrucción, mantenimiento y conservación\n5.1\nEjecución\n1\nLas obras de construcción del edificio se ejecutarán con sujeción al proyecto y sus modificaciones\nautorizadas por el director de obra previa conformidad del promotor, a la legislación aplicable, a lo\nespecificado en el Reglamento electrotécnico de baja tensión y en su Instrucción Técnica\nComplementaria ITC BT-52 \"Instalaciones con fines especiales. Infraestructura para la recarga de\nvehículos eléctricos”, a las normas de la buena práctica constructiva y a las instrucciones del director de\nobra y del director de la ejecución de la obra, conforme a lo indicado en el artículo 7 de la Parte I del CTE.\n5.2\nControl de la ejecución de la obra\n1\nEl control de la ejecución de la obra se realizará de acuerdo con las especificaciones del proyecto, sus\nanexos y modificaciones autorizados por el director de obra y las instrucciones del director de la ejecución\nde la obra, siguiendo lo especificado en el Reglamento electrotécnico de baja tensión, conforme a lo\nindicado en el artículo 7.3 de la Parte I del CTE y demás normativa vigente de aplicación.\n2\nSe comprobará que la ejecución de la obra se realiza de acuerdo con los controles y con la frecuencia\nde los mismos establecida en el pliego de condiciones del proyecto.\n3\nCualquier modificación que pueda introducirse durante la ejecución de la obra quedará en la\ndocumentación de la obra ejecutada sin que en ningún caso dejen de cumplirse las condiciones mínimas\nseñaladas en este Documento Básico.\n4\nEn el Libro del Edificio se incluirá la documentación referente a las características de los productos,\nequipos y sistemas incorporados a la obra.\n\nDocumento Básico HE Ahorro de energía\nHE 6. Dotaciones mínimas para la infraestructura de recarga de vehículos eléctricos\n35\n5.3\nControl de la obra terminada\n1\nEl control de la obra terminada debe seguir los criterios indicados en el artículo 7.4 de la Parte I del CTE.\n2\nEn esta Sección del Documento Básico no se prescriben pruebas finales.\n5.4\nMantenimiento y conservación del edificio\n1\nEl plan de mantenimiento incluido en el Libro del Edificio, contemplará las operaciones y periodicidad\nnecesarias para el mantenimiento, en el transcurso del tiempo, de los parámetros de diseño y\nprestaciones de la infraestructura de recarga de vehículos eléctricos.\n2\nAsí mismo, en el Libro del Edificio se documentará todas las intervenciones, ya sean de reparación,\nreforma o rehabilitación realizadas a lo largo de la vida útil del edificio.\n\nDocumento Básico HE Ahorro de energía",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "artículo 7"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0036_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

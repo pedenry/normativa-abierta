@@ -1,0 +1,246 @@
+{
+ "documento": null,
+ "pagina": 28,
+ "etiqueta_impresa": "28",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-26",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    96.8,
+    73.1,
+    490.4,
+    86.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "δH,d\ndesplazamiento horizontal relativo de la planta (del forjado de techo al de suelo).",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    96.8,
+    91.6,
+    541.3,
+    125.8
+   ],
+   "tipo": "texto",
+   "texto": "Si para alguna planta el valor del coeficiente r es superior a 0,1, la estructura debe considerarse\ntraslacional y, entonces, el análisis global de la estructura habrá de considerar los efectos de los\ndesplazamientos en alguna de las siguientes formas:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    96.8,
+    132.1,
+    541.4,
+    166.3
+   ],
+   "tipo": "texto",
+   "texto": "a)\nAnálisis en segundo orden, con la ayuda de modelos numéricos que incluyan, al menos, el\nefecto de los esfuerzos en la rigidez de la estructura. En el dimensionado de los pilares se uti-\nlizarán como longitudes de pandeo las correspondientes al modo intraslacional.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.8,
+    172.6,
+    541.4,
+    195.3
+   ],
+   "tipo": "texto",
+   "texto": "b)\nAnálisis elástico y lineal pero habiendo multiplicado todas las acciones horizontales sobre el\nedificio por el coeficiente de amplificación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    121.4,
+    203.0,
+    544.6,
+    228.5
+   ],
+   "tipo": "texto",
+   "texto": "r\n1\n1\n−\n(5.7)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    119.5,
+    234.6,
+    541.4,
+    291.8
+   ],
+   "tipo": "texto",
+   "texto": "Este procedimiento sólo es aplicable cuando r<0,33. En el dimensionado de los pilares se uti-\nlizarán como longitudes de pandeo las correspondientes al modo intraslacional. Las reaccio-\nnes en cimentación se obtendrán del citado modelo reduciendo las componentes de fuerza\nhorizontal en el valor del coeficiente de amplificación, de modo que resulten equivalentes a la\nresultante horizontal de las acciones de cálculo no amplificadas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    74.1,
+    309.3,
+    236.2,
+    322.7
+   ],
+   "tipo": "titulo",
+   "texto": "5.4 Imperfecciones iniciales",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    330.9,
+    541.4,
+    399.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn las comprobaciones de estabilidad lateral debe tenerse en cuenta el efecto de las de las des-\nviaciones geométricas de fabricación y montaje, de las tensiones residuales, de las variaciones lo-\ncales del límite elástico, etc. Ello puede hacerse considerando una configuración geométrica que\nse diferencia de la nominal en las imperfecciones relacionadas en el apartado 5.4.1, o añadiendo\nunas acciones cuyo efecto es el equivalente al de las imperfecciones, según se indica en el apar-\ntado 5.4.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.1,
+    413.0,
+    237.0,
+    424.2
+   ],
+   "tipo": "texto",
+   "texto": "5.4.1 Imperfecciones geométricas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    74.1,
+    432.4,
+    541.5,
+    489.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn estructuras de pórticos, en cada dirección analizada, a efectos de estabilidad, es suficiente con-\nsiderar un desplome lineal en altura, de valor L/200 si en esa dirección hay sólo dos soportes y una\naltura, y L/400 si hay al menos cuatro soportes y tres alturas. En casos intermedios puede usarse\nel valor L/300, siendo L la altura total de la construcción si es constante, y la altura media si es lige-\nramente variable.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    125.2,
+    495.9,
+    130.7,
+    507.1
+   ],
+   "tipo": "texto",
+   "texto": ".",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    229.3,
+    632.4,
+    385.9,
+    642.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.3 Desplome inicial pórticos",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    208.1,
+    683.7,
+    412.5,
+    694.1
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 5.8 Imperfecciones locales de barra, e0/L",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    120.4,
+    700.5,
+    520.9,
+    710.9
+   ],
+   "tipo": "texto",
+   "texto": "Curva de pandeo (según figura 6.3)\na0\na\nb\nc\nd",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    145.8,
+    716.9,
+    529.3,
+    727.0
+   ],
+   "tipo": "texto",
+   "texto": "Análisis global elástico\n1/350\n1/300\n1/250\n1/200\n1/150",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    145.6,
+    733.3,
+    529.3,
+    743.4
+   ],
+   "tipo": "texto",
+   "texto": "Análisis global plástico\n1/300\n1/250\n1/200\n1/150\n1/100",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

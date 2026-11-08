@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0084",
+  "ruta_oficial": null,
+  "ruta_semantica": "Temperatura media mensual del agua de red",
+  "titulo": "Temperatura media mensual del agua de red",
+  "nivel": 1,
+  "parent_id": "a0083",
+  "seccion_estimada": "Temperatura media mensual del agua de red",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 54,
+   "bbox": [
+    56.7,
+    130.9,
+    349.2,
+    144.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "99494d29c2a67dd7e59c91d363e33e2ec2af46a6311072a5130e0c21fa82b504",
+   "literal": "Temperatura media mensual del agua de red"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0083",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Temperatura media mensual del agua de red",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0083",
+   "ruta_semantica": "Anejo G. Temperatura del agua de red / Temperatura media mensual del agua de red",
+   "seccion_estimada": "Anejo G. Temperatura del agua de red",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "33efe7c26a2c1d3dfd95243c8b97866477ca8a4acb4c796a948b68458b68f654"
+ },
+ "paginas": [
+  54,
+  55,
+  56
+ ],
+ "etiquetas_impresas": [
+  "54",
+  "55",
+  "56"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Temperatura media mensual del agua de red\n1\nLa tabla a-Anejo G contiene la temperatura diaria media mensual (ºC) del agua fría de red para las\ncapitales de provincia, para su uso en el cálculo del consumo de ACS:\nTabla a-Anejo G. Temperatura diaria media mensual de agua fría (ºC)\nCapital de provincia\nAltitud\nEN\nFE\nMA\nAB\nMY\nJN\nJL\nAG\nSE\nOC\nNO\nDI\nA Coruña\n26\n10\n10\n11\n12\n13\n14\n16\n16\n15\n14\n12\n11\nAlbacete\n686\n7\n8\n9\n11\n14\n17\n19\n19\n17\n13\n9\n7\nAlicante/Alacant\n8\n11\n12\n13\n14\n16\n18\n20\n20\n19\n16\n13\n12\nAlmería\n16\n12\n12\n13\n14\n16\n18\n20\n21\n19\n17\n14\n12\nÁvila\n1131\n6\n6\n7\n9\n11\n14\n17\n16\n14\n11\n8\n6\nBadajoz\n186\n9\n10\n11\n13\n15\n18\n20\n20\n18\n15\n12\n9\nBarcelona\n12\n9\n10\n11\n12\n14\n17\n19\n19\n17\n15\n12\n10\nBilbao/Bilbo\n6\n9\n10\n10\n11\n13\n15\n17\n17\n16\n14\n11\n10\nBurgos\n929\n5\n6\n7\n9\n11\n13\n16\n16\n14\n11\n7\n6\nCáceres\n459\n9\n10\n11\n12\n14\n18\n21\n20\n19\n15\n11\n9\nCádiz\n14\n12\n12\n13\n14\n16\n18\n19\n20\n19\n17\n14\n12\nCastellón/Castelló\n27\n10\n11\n12\n13\n15\n18\n19\n20\n18\n16\n12\n11\nCeuta\n40\n11\n11\n12\n13\n14\n16\n18\n18\n17\n15\n13\n12\nCiudad Real\n628\n7\n8\n10\n11\n14\n17\n20\n20\n17\n13\n10\n7\nCórdoba\n106\n10\n11\n12\n14\n16\n19\n21\n21\n19\n16\n12\n10\nCuenca\n999\n6\n7\n8\n10\n13\n16\n18\n18\n16\n12\n9\n7\nGirona\n70\n8\n9\n10\n11\n14\n16\n19\n18\n17\n14\n10\n9\nGranada\n683\n8\n9\n10\n12\n14\n17\n20\n19\n17\n14\n11\n8\nGuadalajara\n685\n7\n8\n9\n11\n14\n17\n19\n19\n16\n13\n9\n7\nHuelva\n30\n12\n12\n13\n14\n16\n18\n20\n20\n19\n17\n14\n12\nHuesca\n488\n7\n8\n10\n11\n14\n16\n19\n18\n17\n13\n9\n7\nJaén\n568\n9\n10\n11\n13\n16\n19\n21\n21\n19\n15\n12\n9\nLas Palmas de Gran Canaria\n13\n15\n15\n16\n16\n17\n18\n19\n19\n19\n18\n17\n16\nLeón\n838\n6\n6\n8\n9\n12\n14\n16\n16\n15\n11\n8\n6\nLleida\n182\n7\n9\n10\n12\n15\n17\n20\n19\n17\n14\n10\n7\nLogroño\n385\n7\n8\n10\n11\n13\n16\n18\n18\n16\n13\n10\n8\nLugo\n454\n7\n8\n9\n10\n11\n13\n15\n15\n14\n12\n9\n8\nMadrid\n655\n8\n8\n10\n12\n14\n17\n20\n19\n17\n13\n10\n8\nMálaga\n11\n12\n12\n13\n14\n16\n18\n20\n20\n19\n16\n14\n12\nMelilla\n15\n12\n13\n13\n14\n16\n18\n20\n20\n19\n17\n14\n13\nMurcia\n39\n11\n11\n12\n13\n15\n17\n19\n20\n18\n16\n13\n11\nOurense\n139\n8\n10\n11\n12\n14\n16\n18\n18\n17\n13\n11\n9\nOviedo\n232\n9\n9\n10\n10\n12\n14\n15\n16\n15\n13\n10\n9\nPalencia\n734\n6\n7\n8\n10\n12\n15\n17\n17\n15\n12\n9\n6\nPalma de Mallorca\n15\n11\n11\n12\n13\n15\n18\n20\n20\n19\n17\n14\n12\nPamplona/Iruña\n490\n7\n8\n9\n10\n12\n15\n17\n17\n16\n13\n9\n7\nPontevedra\n27\n10\n11\n11\n13\n14\n16\n17\n17\n16\n14\n12\n10\nSalamanca\n800\n6\n7\n8\n10\n12\n15\n17\n17\n15\n12\n8\n6\nSan Sebastián\n12\n9\n9\n10\n11\n12\n14\n16\n16\n15\n14\n11\n9\nSanta Cruz de Tenerife\n5\n15\n15\n16\n16\n17\n18\n20\n20\n20\n18\n17\n16\nSantander\n11\n10\n10\n11\n11\n13\n15\n16\n16\n16\n14\n12\n10\nSegovia\n1002\n6\n7\n8\n10\n12\n15\n18\n18\n15\n12\n8\n6\nSevilla\n11\n11\n11\n13\n14\n16\n19\n21\n21\n20\n16\n13\n11\nSoria\n1063\n5\n6\n7\n9\n11\n14\n17\n16\n14\n11\n8\n6\nTarragona\n69\n10\n11\n12\n14\n16\n18\n20\n20\n19\n16\n12\n11\nTeruel\n912\n6\n7\n8\n10\n12\n15\n18\n17\n15\n12\n8\n6\nToledo\n629\n8\n9\n11\n12\n15\n18\n21\n20\n18\n14\n11\n8\nValencia\n13\n10\n11\n12\n13\n15\n17\n19\n20\n18\n16\n13\n11\nValladolid\n698\n6\n8\n9\n10\n12\n15\n18\n18\n16\n12\n9\n7\nVitoria-Gasteiz\n540\n7\n7\n8\n10\n12\n14\n16\n16\n14\n12\n8\n7\nZamora\n649\n6\n8\n9\n10\n13\n16\n18\n18\n16\n12\n9\n7\nZaragoza\n199\n8\n9\n10\n12\n15\n17\n20\n19\n17\n14\n10\n8\n\nDocumento Básico HE Ahorro de energía\nAnejo G. Temperatura del agua de red\n55\n2\nPara localidades distintas a las recogidas en la tabla a-Anejo G se podrá obtener la temperatura del agua\nfría de red (TAFY) mediante la siguiente expresión:\nTAFY = TAFCP - B · Az\ndonde:\nTAFCP\nes la temperatura media mensual de agua fría de la capital de provincia, obtenida de la tabla\na-Anejo G;\nB\nes un coeficiente de valor 0,0066 para los meses de octubre a marzo y 0,0033 para los meses\nde abril a septiembre;\nAz\nes la diferencia entre la altitud de la localidad y la de su capital de provincia\n(Az = Altitudlocalidad – Altitudcapital).\n3\nAlternativamente a los valores indicados en la tabla a-Anejo G, podrán utilizarse otras temperaturas de\nagua de red recogidas por fuentes de reconocida solvencia.\n\nDocumento Básico HE Ahorro de energía",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0054_t01.json",
+  "../tabla/p0056_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0054.png",
+  "../figura/p0056.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0038",
+  "ruta_oficial": "4.4",
+  "ruta_semantica": "4.4 Materiales de aportación",
+  "titulo": "4.4 Materiales de aportación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.4 Materiales de aportación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    74.1,
+    148.6,
+    238.2,
+    162.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a580b5aeba50fdeb3142e904fac8d6dee7ea9ee9cc123b306b699827ccf566e8",
+   "literal": "4.4 Materiales de aportación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0042",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.4 Materiales de aportación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 ≤ t ≤ 100 / 4.4 Materiales de aportación",
+   "seccion_estimada": "3 ≤ t ≤ 100",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2294595edf8393f686d485a944738a36f61ad33b080227f84d80fdf0513b0668"
+ },
+ "paginas": [
+  15
+ ],
+ "etiquetas_impresas": [
+  "15"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "4.4 Materiales de aportación\n1\nLas características mecánicas de los materiales de aportación serán en todos los casos superiores\na las del material base.\n2\nLas calidades de los materiales de aportación ajustadas a la norma UNE-EN ISO 14555:1999 se\nconsideran aceptables.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

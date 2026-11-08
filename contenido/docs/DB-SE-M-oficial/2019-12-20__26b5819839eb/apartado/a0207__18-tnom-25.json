@@ -1,0 +1,80 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0207",
+  "ruta_oficial": "18",
+  "ruta_semantica": "Fragmento de PDF p120",
+  "titulo": "18 < tnom, ≤ 25",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p120",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p120",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "18 < tnom, ≤ 25",
+   "seccion_estimada": "18 < tnom, ≤ 25",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0942321df7fcd2d093cfff7d7746e64b286a24e157875ff2fc580d7ef39f8de9"
+ },
+ "paginas": [
+  120,
+  121
+ ],
+ "etiquetas_impresas": [
+  "550",
+  "24"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "18 < tnom, ≤ 25\nResistencia  (característica), en N/mm2\nFlexión\nparalela\nfm,p,0,k\nfm,p,90,k\n18,0\n9,0\n16,4\n8,2\n14,8\n7,4\nperpendicular\nTracción\nparalela\nft,p,0,k\nft,p,90,k\n9,9\n7,2\n9,4\n7,0\n9,0\n6,8\nperpendicular\nCompresión\nparalela\nfc,p,0,k\nfc,p,90,k\n15,9\n12,9\n15,4\n12,7\n14,8\n12,4\nperpendicular\nCortante, en el grueso\nfv,p,k\n6,8\n6,8\n6,8\nCortante, en el plano\nfr,p,k\n1,0\n1,0\n1,0\nRigidez (media), en N/mm2\nA flexión\nparalela\nEm,0,p\nEm,90,p\n4930\n1980\n4930\n1980\n4930\n1980\nperpendicular\nA tracción\nparalela\nEt,0,p\nEt,90,p\n3800\n3000\n3800\n3000\n3800\n3000\nperpendicular\nA compresión\nparalela\nEc,0,p\nEc,90,p\n3800\n3000\n3800\n3000\n3800\n3000\nperpendicular\nA cortante, en el grueso\nGv,p\n1080\n1080\n1080\nA cortante, en el plano\nGr,p\n50\n50\n50\nDensidad, en kg/m3\nCaracterística\np,k\n550\n550\n550\nTabla E.12. Tableros de virutas orientadas de alta prestación para uso en ambiente húmedo (OSB/4). Valores\nde las propiedades.\nOSB/4 (UNE-EN 300:2007)\nDe alta prestación para su uso en ambiente húmedo\nEspesor nominal, tnom, en mm\nPropiedades\n6 < tnom, ≤ 10 10 < tnom, ≤ 18\n10 < tnom, ≤ 18\n18 < tnom, ≤ 25\nResistencia  (característica), en N/mm2\nFlexión\nparalela\nfm,p,0,k\nfm,p,90,k\n24,5\n13,0\n23,0\n12,2\n21,0\n11,4\nperpendicular\nTracción\nparalela\nft,p,0,k\nft,p,90,k\n11,9\n8,5\n11,4\n8,2\n10,9\n8,0\nperpendicular\nCompresión\nparalela\nfc,p,0,k\nfc,p,90,k\n18,1\n14,3\n17,6\n14,0\n17,0\n13,7\nperpendicular\nCortante, en el grueso\nfv,p,k\n6,9\n6,9\n6,9\nCortante, en el plano\nfr,p,k\n1,1\n1,1\n1,1\nRigidez (media), en N/mm2\nFlexión\nparalela\nEm,0,p\nEm,90,p\n6780\n2680\n6780\n2680\n6780\n2680\nperpendicular\nTracción\nparalela\nEt,0,p\nEt,90,p\n4300\n3200\n4300\n3200\n4300\n3200\nperpendicular\nCompresión\nparalela\nEc,0,p\nEc,90,p\n4300\n3200\n4300\n3200\n4300\n3200\nperpendicular\nA cortante, en el grueso\nGv,p\n1090\n1090\n1090\nA cortante, en el plano\nGr,p\n60\n60\n60\nDensidad, en kg/m3\nCaracterística\np,k\n550\n550\n550\n\nDocumentoBásico SE-M Madera\nSE-M 115",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0120.png",
+  "../figura/p0121.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

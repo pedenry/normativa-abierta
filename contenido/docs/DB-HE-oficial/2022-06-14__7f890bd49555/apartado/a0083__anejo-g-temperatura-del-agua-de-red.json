@@ -1,0 +1,88 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0083",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo G. Temperatura del agua de red",
+  "titulo": "Anejo G. Temperatura del agua de red",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo G. Temperatura del agua de red",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 54,
+   "bbox": [
+    225.7,
+    51.4,
+    371.8,
+    60.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "99494d29c2a67dd7e59c91d363e33e2ec2af46a6311072a5130e0c21fa82b504",
+   "literal": "Anejo G. Temperatura del agua de red"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0112",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo G. Temperatura del agua de red",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Temperatura del agua de red",
+   "seccion_estimada": "Anejo G. Temperatura del agua de red",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d787f391293c3f8b9bfd4ec5cc01369b2ceb0231f062b8ec5135f82c858ed6dc"
+ },
+ "paginas": [
+  54
+ ],
+ "etiquetas_impresas": [
+  "54"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo G. Temperatura del agua de red\n54\nAnejo G Temperatura del agua de red\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0054_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0054.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0084"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

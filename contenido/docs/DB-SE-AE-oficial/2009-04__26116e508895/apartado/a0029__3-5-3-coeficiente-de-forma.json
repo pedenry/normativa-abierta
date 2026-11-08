@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0029",
+  "ruta_oficial": "3.5.3",
+  "ruta_semantica": "3.5.3 Coeficiente de forma",
+  "titulo": "3.5.3 Coeficiente de forma",
+  "nivel": 1,
+  "parent_id": "a0026",
+  "seccion_estimada": "3.5.3 Coeficiente de forma",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    70.9,
+    698.8,
+    222.9,
+    712.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "aa8f76409dbd8cd869eae0ac67ba5b6f74254fe415147db0af155fc34ac871d8",
+   "literal": "3.5.3 Coeficiente de forma"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0026",
+  "parent_id_original": "a0026",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.5.3 Coeficiente de forma",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0026",
+   "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.5 Nieve / 3.5.3 Coeficiente de forma",
+   "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f7b1e5caf60934811b85d9eadeabd6506cde6f470a070e97c61a66a8c55b1b32"
+ },
+ "paginas": [
+  15,
+  16
+ ],
+ "etiquetas_impresas": [
+  "15",
+  "16"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.5.3 Coeficiente de forma\n1\nEl viento puede acompañar o seguir a las nevadas, lo que origina un depósito irregular de la nieve\nsobre las cubiertas. Por ello, el espesor de la capa de nieve puede ser diferente en cada faldón. Pa-\nra la determinación del coeficiente de forma de cada uno de ellos, se aplicarán sucesivamente las\nsiguientes reglas\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 12\n2\nEn un faldón limitado inferiormente por cornisas o limatesas, y en el que no hay impedimento al\ndeslizamiento de la nieve, el coeficiente de forma tiene el valor de 1 para cubiertas con inclinación\nmenor o igual que 30º y 0 para cubiertas con inclinación de mayor o igual que 60º (para valores in-\ntermedios se interpolará linealmente). Si hay impedimento, se tomará µ = 1 sea cual sea la inclina-\nción.\n3\nEn un faldón que limita inferiormente con una limahoya, lo que supone un impedimento al desliza-\nmiento de la nieve, se distinguen dos casos:\na)\nsi el faldón sucesivo está inclinado en el mismo sentido, como coeficiente de forma del de en-\ncima se tomará el correspondiente a la inclinación del de debajo en una anchura de 2m.\nb)\nsi está inclinado en sentido contrario, y la semisuma de las inclinaciones, β, es mayor de 30º,\nel coeficiente de forma de ambos será de 2,0; en otro caso será µ = 1 + β/30º en una anchura de\n2m.\nFigura 3.3 Coeficiente de forma en faldones\n4\nSe tendrán en cuenta las posibles distribuciones asimétricas de nieve, debidas al trasporte de la\nmisma por efecto del viento, reduciendo a la mitad el coeficiente de forma en las partes en que la\nacción sea favorable.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0015_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0015.png",
+  "../figura/p0016.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

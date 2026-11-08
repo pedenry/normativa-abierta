@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0022",
+  "ruta_oficial": "3.3.4",
+  "ruta_semantica": "3.3.4 Coeficiente eólico de edificios de pisos",
+  "titulo": "3.3.4 Coeficiente eólico de edificios de pisos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3.4 Coeficiente eólico de edificios de pisos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 12,
+   "bbox": [
+    70.9,
+    491.1,
+    328.3,
+    504.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c283e7d1e73c8bcf47a7732cd73b6400c98a48d795500253bcdc1f417458e8b0",
+   "literal": "3.3.4 Coeficiente eólico de edificios de pisos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0018",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3.4 Coeficiente eólico de edificios de pisos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.3.4 Coeficiente eólico de edificios de pisos",
+   "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "80e6addc87313a78ea96bcf67719dc51bcb95d7232c9f4e1480f7ed4b99c9b7e"
+ },
+ "paginas": [
+  12,
+  13
+ ],
+ "etiquetas_impresas": [
+  "12",
+  "13"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "3.3.4 Coeficiente eólico de edificios de pisos\n1\nEn edificios de pisos, con forjados que conectan todas las fachadas a intervalos regulares, con hue-\ncos o ventanas pequeños practicables o herméticos, y compartimentados interiormente, para el\nanálisis global de la estructura, bastará considerar coeficientes eólicos globales a barlovento y sota-\nvento, aplicando la acción de viento a la superficie proyección del volumen edificado en un plano\nperpendicular a la acción de viento. Como coeficientes eólicos globales, podrán adoptarse los de la\ntabla 3.5.\nTabla 3.5. Coeficiente eólico en edificios de pisos\nEsbeltez en el plano paralelo al viento\n< 0,25\n0,50\n0,75\n1,00\n1,25\n≥ 5,00\nCoeficiente eólico de presión, cp\n0,7\n0,7\n0,8\n0,8\n0,8\n0,8\nCoeficiente eólico de succión, cs\n-0,3\n-0,4\n-0,4\n-0,5\n-0,6\n-0,7\nPara otros casos y como alternativa al coeficiente eólico global se podrá determinar la acción de\nviento como resultante de la que existe en cada punto, a partir de los coeficientes eólicos que se es-\ntablecen en del Anejo D.2 para diversas formas canónicas, aplicando los de la que presente rasgos\nmás coincidentes con el caso analizado, considerando en su caso la forma conjunta del edificio con\nlos medianeros.\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 9\n2\nEn edificios con cubierta plana la acción del viento sobre la misma, generalmente de succión, opera\nhabitualmente del lado de la seguridad, y se puede despreciar.\n3\nPara análisis locales de elementos de fachada o cerramiento, tales como carpinterías, acristala-\nmientos, aplacados, anclajes, o correas, la acción de viento se determinará como resultante de la\nque existe en cada punto, a partir de los coeficientes eólicos que se establecen en el Anejo D.3 en\nel sentido indicado anteriormente",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0012.png",
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

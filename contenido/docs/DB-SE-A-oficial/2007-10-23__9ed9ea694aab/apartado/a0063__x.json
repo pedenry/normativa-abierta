@@ -1,0 +1,72 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0063",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p35",
+  "titulo": "( )",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p35",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p35",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.2 Resistencia de las secciones 6.2.1 Bases / ( )",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e7bcfe027cca995018a56d097f7427041b3f2fae73ec1638be4d448e2b0cfb30"
+ },
+ "paginas": [
+  35
+ ],
+ "etiquetas_impresas": [
+  "35"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "( )\n)\nRd\n,\npl\nyd\nEd\n,t\nRd\n,\nT\n,\npl\nV\n3\n/\nf\n1\nV\n\n\n\n\n\n\n\n\nτ\n−\n=\n(6.15)\n5\nFlexión y torsión:\nEn las comprobaciones en que intervenga la resistencia a flexión se empleará la resistencia a\nflexión reducida por la existencia de tensiones normales de torsión de alabeo:\nRd\n,c\nyd\nEd\n,\nw\nRd\n,\nT\n,c\nM\nf\n1\nM\n⋅\n\n\n\n\n\n\n\n\nσ\n−\n=\n(6.16)\nexpresión en la que la tensión normal máxima σw,Ed se determina mediante las expresiones de la\nteoría de torsión no uniforme.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0035.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

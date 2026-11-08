@@ -1,0 +1,144 @@
+{
+ "documento": null,
+ "pagina": 105,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-100",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    72.5,
+    541.3,
+    131.4
+   ],
+   "tipo": "texto",
+   "texto": "b)\nensayo de adecuación: prueba de carga in situ destinada a confirmar que el tipo de anclaje co-\nrrespondiente se adecua a las condiciones particulares del terreno existente;\nc)\nensayo de investigación: prueba de carga in situ destinada a establecer el estado límite último\nde un anclaje instalado por un procedimiento determinado en el terreno en estudio, así como el\ncomportamiento del anclaje en el intervalo de cargas previsto en servicio.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    145.4,
+    399.7,
+    159.4
+   ],
+   "tipo": "titulo",
+   "texto": "9.2\nAcciones a considerar y datos geométricos",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    164.2,
+    541.3,
+    373.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nAl establecer las situaciones en el proyecto deben considerarse:\na)\ntodas las fases de construcción y las posibles situaciones de solicitación a lo largo de la vida\nde la obra;\nb)\nla situación del nivel freático y las presiones intersticiales en acuíferos confinados.\nc)\nlas posibles consecuencias de la rotura de cualquier anclaje.\nd)\nla posibilidad de que las fuerzas de pretensado de los anclajes excedan a las solicitaciones\nprevistas para la estructura.\ne)\nla fuerza de pretensado del anclaje, P, se considerará como acción desfavorable para el cálcu-\nlo del anclaje.\nf)\nla resistencia característica, Ra,k, del anclaje se determinará en base a ensayos de adecuación\no a partir de experiencia contrastable.\ng)\nla resistencia de cálculo, Ra,d, se comprobará mediante ensayos de aceptación después de la\nejecución.\nh)\nlas medidas oportunas para evitar la corrosión. A estos efectos se considerarán válidas las\ncondiciones frente a la corrosión definidas en la norma UNE EN 1537:2015.\n2\nEl efecto de las acciones sobre el anclaje, Ed, se obtendrá mediante la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    93.6,
+    377.3,
+    536.3,
+    403.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed = E . PN\n      (9.1)\nsiendo",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    407.1,
+    541.3,
+    609.0
+   ],
+   "tipo": "texto",
+   "texto": "E\nel coeficiente de mayoración igual a 1,50 y 1,20 para anclajes permanentes y provisionales\nrespectivamente.\nPN    la carga nominal del anclaje, que es la mayor de:\na)\nla carga estricta obtenida al realizar el cálculo de la estabilidad del conjunto con los coeficien-\ntes de seguridad indicados en los capítulos anteriores;\nb)\nla carga obtenida, sin mayorar, en el cálculo de los estados límites de servicio.\n3\nSi la importancia de la obra o la trascendencia económica y social de la misma así lo aconsejan el\nProyectista o el Director de Obra podrá adoptar coeficientes de mayoración superiores a los indica-\ndos en el párrafo anterior.\n4\nSe prestará atención al dimensionado y posición de la placa de reparto de la cabeza del anclaje\npara evitar deformaciones excesivas de la misma, concentración de tensiones en la estructura de\napoyo, asentamientos inadmisibles del terreno del plano de apoyo, levantamiento de cuña pasivas y\ndescensos de las cabezas.\n5\nEl ancho de la placa de reparto será al menos el doble del diámetro de la perforación realizada en la\nestructura a anclar, y en ningún caso inferior a 20 cm. Su espesor será el suficiente para que no se\nregistren deformaciones apreciables durante el tensado, y nunca menor de 1 cm.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    623.0,
+    274.4,
+    637.0
+   ],
+   "tipo": "titulo",
+   "texto": "9.3\nAnálisis y dimensionado",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    658.9,
+    191.0,
+    670.9
+   ],
+   "tipo": "titulo",
+   "texto": "9.3.1 Estados límite",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    675.5,
+    541.3,
+    766.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe considerarán los siguientes estados límite últimos de un anclaje, tanto individualmente como en\ncombinación:\na)\nrotura estructural de la armadura o de la cabeza de transmisión, causada por las tensiones\naplicadas, por distorsión de la cabeza de transmisión o por corrosión;\nb)\npara anclajes inyectados, rotura del contacto entre el sólido inyectado y el terreno circundante.\nc)\nrotura del contacto entre la armadura y el material de sellado;\nd)\npara anclajes con placa de anclaje, rotura por insuficiente capacidad de reacción de ésta;",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

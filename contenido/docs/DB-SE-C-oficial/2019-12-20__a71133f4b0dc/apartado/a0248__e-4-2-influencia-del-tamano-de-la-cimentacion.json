@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0248",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.4.2 Influencia del tamaño de la cimentación",
+  "titulo": "E.4.2 Influencia del tamaño de la cimentación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "E.4.2 Influencia del tamaño de la cimentación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 133,
+   "bbox": [
+    70.9,
+    608.5,
+    332.4,
+    620.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2549a2c4ab342f2e8214ef23bb10bc411a4e579eca910f27c0e027c2004d594d",
+   "literal": "E.4.2 Influencia del tamaño de la cimentación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.4.2 Influencia del tamaño de la cimentación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura / E.4.2 Influencia del tamaño de la cimentación",
+   "seccion_estimada": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8d96398a056123cff35e1e238c9631de9b8fb1cfa44fb81f93693a45166adc4b"
+ },
+ "paginas": [
+  133,
+  134,
+  135
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E.4.2 Influencia del tamaño de la cimentación\n1\nEl incremento de presión transmitido al terreno por una cimentación directa disminuye progresiva-\nmente en profundidad con la distancia a ésta. A efectos de cálculo y salvo en el caso de suelos\nblandos, se podrá suponer que el límite de interés se circunscribe a puntos del terreno en los que el\nincremento de la presión vertical resulte mayor o igual al 10% de la presión media de contacto bajo\nla cimentación.\n2\nEl lugar geométrico del espacio de suelo definido en el apartado anterior se denomina habitual-\nmente “bulbo de tensiones”, cuya forma cualitativa se muestra en la Figura E.5. El incremento de\npresión recibido por el suelo más allá de este bulbo será, en la mayoría de los casos, lo suficiente-\nmente pequeño como para que sus efectos sean comparativamente despreciables, aunque en ge-\nneral debe comprobarse.\n\nDocumento Básico SE-C Cimientos\nSE-C-129\nFigura E.5. Concepto de bulbo de tensiones\n3\nLas observaciones anteriores indican que, a igualdad del resto de condiciones, el asiento que expe-\nrimentará una cimentación directa dependerá de las dimensiones del área cargada.\n4\nEste efecto se muestra de forma cualitativa en la Figura E.6, en donde se representan dos pilares\nque, recibiendo cargas distintas, transmiten presiones medias idénticas al terreno. Habida cuenta\nque la zapata de mayor tamaño tendrá una profundidad de influencia mayor (mayor bulbo de ten-\nsiones y mayor volumen de terreno sobretensionado), su asiento será también mayor.\nFigura E.6. Influencia de las dimensiones del cimiento\n5\nComo efecto adicional con respecto al fenómeno de la interacción, si ambos pilares pertenecen al\nmismo edificio y se encuentran conectados por la estructura, la tendencia al mayor asiento del pilar\n2 originará una redistribución de esfuerzos en la estructura, que tenderá a su vez a descargar dicho\npilar y transmitir parte de su carga a los pilares adyacentes.\n6\nSe debe por tanto prestar especial atención al diseño de las cimentaciones de estructuras con gran\nheterogeneidad de cargas ya que, incluso en la hipótesis de homogeneidad del terreno, el dimen-\nsionado realizado exclusivamente en función de una determinada presión admisible (véase el apar-\ntado 4.3) podría dar lugar a asientos diferenciales inadmisibles.\n7\nAsimismo, será de gran interés disponer de suficiente información geotécnica referente al posible\ncrecimiento del módulo de deformación del terreno con la profundidad, factor éste que puede con-\ntribuir a atenuar los asientos diferenciales asociados a la variación de las dimensiones de las zapa-\ntas.\n8\nSi el diseño de las cimentaciones da lugar a zapatas relativamente próximas, los bulbos de tensio-\nnes de las zapatas individuales solaparán en profundidad, por lo que, a efectos de asiento, habrá\nque comprobar la cimentación como si tuviera el ancho total del conjunto de las zapatas (véase la\nFigura E.7).\n\nDocumento Básico SE-C Cimientos\nSE-C-130\nFigura E.7. Influencia de la proximidad de los cimientos",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0133.png",
+  "../figura/p0134.png",
+  "../figura/p0135.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

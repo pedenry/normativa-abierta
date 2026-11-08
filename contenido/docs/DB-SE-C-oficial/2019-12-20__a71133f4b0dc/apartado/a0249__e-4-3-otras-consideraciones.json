@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0249",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.4.3 Otras consideraciones",
+  "titulo": "E.4.3 Otras consideraciones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "E.4.3 Otras consideraciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 135,
+   "bbox": [
+    70.9,
+    237.1,
+    235.1,
+    249.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b974dc8fbc03b7d7a77ee4b892894b9260c5ae6f70020a4c7b5855185e9f5ae1",
+   "literal": "E.4.3 Otras consideraciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.4.3 Otras consideraciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura / E.4.3 Otras consideraciones",
+   "seccion_estimada": "Anejo E. Interacción suelo-estructura E.1 Concepto de rigidez relativa terreno-estructura",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d182c4faa6c67f8229a83dbc4236e4d7086124f77b5841be06bf508de1ba188e"
+ },
+ "paginas": [
+  135
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E.4.3 Otras consideraciones\n1\nEn el análisis estructural, puede considerarse la utilización de modelos específicos para englobar\ndetalles de los cimientos, habitualmente no tenidos en cuenta, como puede ser el caso de vigas\ncentradoras o de elementos de arriostramiento entre cimientos.\n2\nLa resultante en la base del cimiento debe incluir la solicitación obtenida en el análisis estructural,\nincluyendo el peso propio del cimiento, y en su caso, pozo, y el de los materiales sueltos que gravi-\ntan sobre él.\n3\nEn el caso de edificios cimentados con zapatas aisladas y corridas, edificios con forjados o cámaras\nsanitarias y soleras, el valor característico qok al nivel de la base de apoyo de la cimentación corres-\nponde a la presión vertical del terreno en derredor del cimiento, es decir con su cota final. En este\ncaso, puede tenerse en cuenta el peso del encache, la solera y demás cargas permanentes que\npueda garantizarse que existirán durante el periodo de servicio del edificio.\n4\nEn el caso de edificios cimentados en losa, la presión vertical, qok, corresponde al peso de los ele-\nmentos permanentes en el exterior de la misma (véase D, en figura F.1).\n5\nSi sobre las zapatas o emparrillados se dispone una solera pasante, eficazmente engarzada y con\nsuficiente capacidad resistente, ésta puede acabar comportándose como una losa.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0135.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

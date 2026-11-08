@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0212",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.4.2 Uniones con piezas laterales de madera",
+  "titulo": "E.4.2 Uniones con piezas laterales de madera",
+  "nivel": 3,
+  "parent_id": null,
+  "seccion_estimada": "E.4.2 Uniones con piezas laterales de madera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 79,
+   "bbox": [
+    70.9,
+    335.0,
+    337.1,
+    348.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "b798625fa9043d7db5ba9ea9f4c7f30aca9373d9393fc044e339ccf7fb9dae19",
+   "literal": "E.4.2 Uniones con piezas laterales de madera"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0140",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE-M"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.4.2 Uniones con piezas laterales de madera",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.4.2 Uniones con piezas laterales de madera",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b3cd311188e3fa55cb0a52d7b305d24fc216d6a2bc6da343a55b5509865a1bc5"
+ },
+ "paginas": [
+  79
+ ],
+ "etiquetas_impresas": [
+  "79"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "E.4.2 Uniones con piezas laterales de madera\nE.4.2.1 Uniones no protegidas\n1\nMediante la tabla E.5 puede obtenerse la resistencia al fuego de uniones no protegidas entre madera\ny madera, cuyas separaciones, distancias entre elementos de fijación y espesor de la pieza lateral\ncumplan los requisitos mínimos definidos en el capítulo 8 del DB-SE-M.\nTabla E.5. Resistencia al fuego de uniones no protegidas con piezas laterales de madera\nResistencia al fuego\nCondiciones\nClavos lisos\nR-15\nd  2,8 mm(1)\nTirafondos\nR-15\nd  3,5 mm(1)\nPernos\nR-15\nt1 45 mm(2)\nPasadores\nR-20\nt1 45 mm(2)\nConectores\nR-15\nt1 45 mm(2)\n(1)\nd es el diámetro de la clavija\n(2)\nt1 es el espesor de la pieza lateral\n2\nEn uniones realizadas con pasadores, clavos o tirafondos en los que la cabeza no sobresalga de la\nsuperficie de la pieza, pueden considerarse resistencias al fuego superiores a las indicados en la ta-\nbla E.5 si se incrementa el espesor, la longitud y el ancho de las piezas laterales, así como las dis-\ntancias a la testa y a los bordes desde los elementos de fijación, una cantidad afi, definida por la si-\nguiente expresión:\n)\nt\n-\nt(\nk\na\nd\n,fi\nreq\nflux\nn\nfi\n\n\n\n(E.14)\nsiendo:\nnvelocidad de carbonización nominal de cálculo de la madera según tabla E.1.\nkfluxcoeficiente que tiene en cuenta el incremento del flujo de calor a través del elemento de fijación.\nPuede tomarse igual a 1,5.\ntreqtiempo requerido de resistencia al fuego, en minutos. Esta formulación no es válida resistencias\nal fuego superiores a 30 minutos\nf\nClavos y tirafondos\n0,2\nPernos, pasadores y conectores\n0,67",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE-M"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0079.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0213",
+  "a0214",
+  "a0215"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

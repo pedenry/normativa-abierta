@@ -1,0 +1,130 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0155",
+  "ruta_oficial": "6.2.3",
+  "ruta_semantica": "6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)",
+  "titulo": "6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 68,
+   "bbox": [
+    70.9,
+    702.5,
+    467.0,
+    714.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0de048a2d7b2f1f41a9250487277fda3ac15dcfed37bc79673d4019491f4e368",
+   "literal": "6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0180",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6926d64421f5477b7441b3960326e58d67af5b55b233c9fa4b895d55671bb7ba"
+ },
+ "paginas": [
+  68,
+  69,
+  70,
+  71
+ ],
+ "etiquetas_impresas": [
+  "5",
+  null,
+  "2",
+  "9"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)\n1\nEl empuje activo Pa se define como la resultante de los empujes unitarios, ’a, que puede determi-\nnarse mediante las siguientes fórmulas:\n\nDocumento Básico SE-C Cimientos\nSE-C-64\nA\nK\n'·\nc·\n2\nv'\n·\nA\nK\na\n'\n\n\n\n\n\n(6.1)\n)\n(\nsen\n·\na\n'\nah\n'\n\n\n\n\n\n\n\n(6.2)\n2\n)i\n(\nsen\n)i\n'\n(\nsen\n)·\n'\n(\nsen\n)\nsen(\n)'\n-\n(\n·sen\nβ\ncosec\nA\nK\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(6.3)\nsiendo\n’v\nla tensión efectiva vertical, de valor ’·z, siendo ’ el peso específico efectivo del terreno y\nz la altura del punto considerado respecto a la rasante del terreno en su acometida al\nmuro;\n’ah\nLa componente horizontal del empuje unitario\n’ y c’\nel ángulo de rozamiento interno y la cohesión del terreno o relleno del trasdós;\n, i\nlos ángulos indicados en la Figura 6.3;\n\nEl ángulo de rozamiento entre el muro y el terreno o relleno.\nFigura 6.3. Empuje activo\n2\nEn un terreno granular, homogéneo, el empuje activo, Pa, debido exclusivamente al terreno, será\nigual a:\nPa = KA · ’·H2 / 2\n(6.4)\nsiendo\n’\nel peso específico efectivo (aparente o sumergido) del terreno\n3\nEn el caso de muro vertical, y terreno horizontal si =0, el valor de KA=tg2(/4-’/2); siendo ’en ra-\ndianes.\n4\nEl empuje pasivo Pp se define como la resultante de los empujes unitarios ’p, pueden determinarse\nmediante las siguientes fórmulas:\nP\nK\n'·\nc·\n2\nv'\n·\nP\nK\np'\n\n\n\n\n\n(6.5)\n)\n(\nsen\n·\np'\nph\n'\n\n\n\n\n\n\n(6.6)\n\nDocumento Básico SE-C Cimientos\nSE-C-65\n2\n)i\n(\nsen\n)i\n'\n(\nsen\n)·\n'\n(\nsen\n)\nsen(\n)'\n(\n·sen\nβ\ncosec\nP\nK\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(6.7)\nsiendo\n’v\nla tensión efectiva vertical, de valor ’·z, siendo ’ el peso específico efectivo del terreno y\nz la altura del punto considerado respecto a la rasante del terreno en su acometida al\nmuro;\n’ph\nLa componente horizontal del empuje unitario pasivo\n’ y c’\nel ángulo de rozamiento interno y la cohesión del terreno\n, i y \nlos ángulos indicados en la Figura 6.4.\nFigura 6.4. Empuje pasivo\n5\nEn un terreno granular homogéneo, el empuje pasivo, Pp, debido exclusivamente al terreno, será\nigual a:\nPp = KP · ’·H2 / 2\n(6.8)\n6\nEn el caso de muro vertical, y terreno horizontal si =0, el valor de KP=tg2(/4+’/2); siendo ’en\nradianes.\n7\nEl rozamiento entre el terreno y el muro influye sobre la magnitud del movimiento necesario para la\nmovilización total de los empujes por lo que, salvo una justificación especial, se tendrán en cuenta\nlas estimaciones siguientes del ángulo de rozamiento  entre el terreno y el muro:\na)\npara empuje activo y muro rugoso;\n'\n3\n2 \n\n\n, como es la situación de muro encofrado contra el\nterreno\nb)\npara empuje activo y muro poco rugoso;\n'\n3\n1 \n\n\n, como es la situación de muro encofrado a\ndoble cara\nc)\npara empuje activo y muro liso:  = 0, si se emplea la hipótesis de Rankine o el empleo de lo-\ndos tixotrópicos\nd)\npara empuje pasivo:\n'\n3\n1 \n\n\n8\nEl valor de ’ empleado en la evaluación de  no debe superar el ángulo de rozamiento interno críti-\nco del suelo.\n\nDocumento Básico SE-C Cimientos\nSE-C-66\n9\nEl ángulo  puede ser positivo o negativo según el movimiento relativo del relleno respecto del ele-\nmento de contención. Usualmente  0 (componente de rozamiento hacia abajo); pero pueden\nexistir combinaciones de fuerzas que alteren el signo de , por lo que en estos casos especiales\ndeben comprobarse las hipótesis adoptadas sobre la dirección de la fuerza de rozamiento.\n10\nEn pantallas de pilotes se calculará el empuje activo sobre la superficie total de la pantalla.\n11\nEn pantallas de pilotes con separación entre ejes inferior a 3 veces su diámetro, se considerará el\nempuje pasivo sobre la superficie total de la pantalla de pilotes como si se tratara de una pantalla\ncontinua.\n12\nPara separaciones entre ejes de pilotes superiores a 3 veces el diámetro del pilote, el empuje pa-\nsivo se calculará sobre la superficie proyectada de cada pilote. Para profundidades superiores a 1,5\nveces el diámetro del pilote se considerarán valores del empuje pasivo sobre dicha superficie, tri-\nples a los definidos anteriormente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0069.png",
+  "../figura/p0070.png",
+  "../figura/p0071.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

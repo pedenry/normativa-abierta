@@ -1,0 +1,119 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0182",
+  "ruta_oficial": "6.3.3.1.1",
+  "ruta_semantica": "6.3.3.1.1 Generalidades",
+  "titulo": "6.3.3.1.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.3.1.1 Generalidades",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 86,
+   "bbox": [
+    70.9,
+    374.3,
+    184.3,
+    384.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "68f7ec675b61f6c1a477e953a005279d4521c15775b46e37119e86f3ad324962",
+   "literal": "6.3.3.1.1 Generalidades"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0209",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.1.1 Generalidades",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 6.3.3 Muros 6.3.3.1 Criterios básicos / 6.3.3.1.1 Generalidades",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7c008a6553971c4bccc4115e8862d1748273499eb4d9d1c4b4f29173acdd90ba"
+ },
+ "paginas": [
+  86,
+  87
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [],
+ "texto": "6.3.3.1.1 Generalidades\n1\nPara el correcto análisis y dimensionado de un muro se considerarán los siguientes aspectos:\na)\nla determinación de los parámetros geotécnicos del terreno se efectuará teniendo en cuenta\nlos valores más críticos a corto y largo plazo previsibles, que puedan presentarse en la vida\ndel muro;\nb)\nes necesario especificar las características del material a emplear para el relleno del trasdós.\nSi no se hace así, el cálculo debe basarse en el material más desfavorable de los eventual-\nmente utilizables;\nc)\ndeben determinarse los movimientos tolerables del muro, de los edificios y servicios próximos,\nya que de ellos dependen en gran parte los empujes a considerar e incluso el tipo de muro y\nelementos de sujeción a emplear.\nd)\ndebe comprobarse que los anclajes proyectados no afectan a los edificios y servicios próxi-\nmos;\ne)\nel muro y cada uno de los paños debe ser estable en todas las fases de la construcción. Esta\ncondición puede exigir el apuntalamiento de los muros de trasdós recortado mientras no se co-\nloque el relleno;\nf)\nla estabilidad del muro puede verse afectada por procesos de socavación, erosión o por elimi-\nnación del terreno al pie del mismo, por lo cual deben adoptarse las medidas protectoras opor-\ntunas cuando haya lugar.\n2\nEn muros de contención se debe tener en cuenta que un correcto dimensionado del drenaje a largo\nplazo del trasdós del muro, siempre es más ventajoso que el cálculo del muro, tomando en conside-\nración la totalidad de las presiones hidrostáticas y de filtración a las que previsiblemente pueda es-\ntar sometido. En muros de sótano deben tenerse en cuenta las consideraciones sobre la imper-\nmeabilidad.\n3\nSalvo en muros de muy escasa altura, la profundidad de apoyo de la cimentación respecto a la su-\nperficie no debe ser inferior a 0,80 m.\n4\nAl prever las características del material de relleno de trasdós se tendrá en cuenta que:\na)\nsi el muro ha de servir para soportar un pavimento, solera o cualquier tipo de tráfico, los asien-\ntos deben ser admisibles;\n\nDocumento Básico SE-C Cimientos\nSE-C-82\nb)\nlas propiedades de los suelos existentes en el emplazamiento del muro pueden variar nota-\nblemente, si se trata de suelos cohesivos, con las operaciones de excavación y nueva coloca-\nción en el trasdós;\nc)\nla permeabilidad de los materiales de relleno es de una importancia decisiva para los posibles\nempujes tanto por agua freática como infiltrada;\nd)\nse evitará el empleo de suelos arcillosos o limosos en el relleno de trasdós de muros, espe-\ncialmente en terrenos expansivos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

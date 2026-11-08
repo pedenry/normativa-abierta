@@ -1,0 +1,101 @@
+{
+ "documento": null,
+ "pagina": 28,
+ "etiqueta_impresa": "4",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    797.9,
+    320.2,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE - 22",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    241.4
+   ],
+   "tipo": "texto",
+   "texto": "4\nLas incertidumbres estadísticas están asociadas con la evaluación estadística de los resultados de\nensayos, mediciones u otras observaciones, y pueden ser debidas a:\na)\nla falta de identificación y de distinción entre diferentes poblaciones estadísticas;\nb)\nun número limitado de resultados que conduce a incertidumbres en la obtención de los pará-\nmetros estadísticos (por ejemplo del valor medio o de la desviación típica);\nc)\nla no consideración de las variaciones sistemáticas de las variables analizadas (por ejemplo de\nparámetros climáticos);\nd)\nuna extrapolación excesiva de la información estadística;\ne)\nla no consideración de posibles correlaciones;\nf)\nel empleo de distribuciones estadísticas para la descripción de incertidumbres cuyo origen sólo\nen parte es estadístico.\nNormalmente, las incertidumbres estadísticas se pueden reducir a través de un mayor número de\nensayos u observaciones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    252.8,
+    233.7,
+    262.8
+   ],
+   "tipo": "texto",
+   "texto": "C.2.2 Obtención de datos básicos",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    269.4,
+    541.3,
+    553.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nLos valores numéricos de los parámetros que caractericen un modelo y sus incertidumbres se pue-\nden obtener por las siguientes vías:\na)\nmediciones u observaciones;\nb)\nanálisis;\nc)\nadopción de decisiones.\nCon frecuencia, los valores numéricos de los parámetros se obtienen combinando datos obtenidos\npor diferentes vías. La resistencia a tracción del hormigón se puede determinar a partir de la medi-\nción de su resistencia a compresión y un análisis mediante una función de conversión; la sobrecar-\nga de un puente grúa se establece mediante decisión y las fuerzas dinámicas adicionales se pue-\nden determinar mediante análisis; las sobrecargas en edificios se pueden determinar mediante ob-\nservación en combinación con una hipótesis sobre la evolución futura.\n2\nLas variables básicas que tengan en cuenta las incertidumbres se caracterizarán mediante paráme-\ntros tales como el valor medio, la desviación típica, las correlaciones con otras variables y el tipo de\ndistribución estadística. En los casos en los que los valores numéricos de estos parámetros se de-\nterminen de acuerdo con C.2.2(1a) o C.2.2(1b), el procedimiento incluirá un análisis estadístico de\nlos datos y los resultados se representarán en términos estadísticos.\nSi por el contrario los valores numéricos de los parámetros de las variables básicas se determinan\nde acuerdo con C.2.2(1c) no es posible, normalmente, una representación directa en términos esta-\ndísticos. No obstante, a efectos de la aplicación de los métodos probabilistas, también a estas va-\nriables se les deben asignar parámetros estadísticos.\n3\nLas incertidumbres debidas a errores tales como los errores de medición o los efectos de escala, se\nevitarán mediante la adopción de medidas adecuadas como por ejemplo una gestión eficaz de la\ncalidad del proceso de obtención de los datos básicos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    564.7,
+    292.7,
+    574.7
+   ],
+   "tipo": "texto",
+   "texto": "C.2.3 Selección de distribuciones estadísticas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    581.4,
+    541.3,
+    749.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn muchos casos, el número reducido de datos disponibles no permite determinar de manera\ninequívoca una función de distribución estadística. Por este motivo, se seleccionará una distribución\nque tenga unas características apropiadas en relación con la variable básica considerada, teniendo\nen cuenta el posible sesgo.\n2\nPara las acciones permanentes se puede adoptar una distribución normal, siempre y cuando la\nposibilidad de que se produzcan valores negativos no resulte contradictoria con otras hipótesis y no\npueda ser la causa de resultados erróneos. En caso contrario, resultará más conveniente adoptar\nuna distribución del tipo logarítmica normal, Weibull, Gamma, o de valores extremos.\nPara las acciones variables, resulta más conveniente adoptar una distribución del tipo logarítmica\nnormal, Weibull, Gamma, o de valores extremos, particularmente si la distribución debe representar\nun valor máximo en un determinado periodo de tiempo.\n3\nPara las propiedades de los materiales y para las dimensiones, suele ser adecuada una distribución\ndel tipo normal o logarítmica normal. Si, debido a motivos físicos u otras circunstancias, no se pue-\nden producir valores negativos, resulta preferible una distribución logarítmica normal.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

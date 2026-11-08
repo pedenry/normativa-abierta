@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0148",
+  "ruta_oficial": "10.4.1.1",
+  "ruta_semantica": "10.4.1.1  Análisis simplificado",
+  "titulo": "10.4.1.1  Análisis simplificado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.4.1.1  Análisis simplificado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 86,
+   "bbox": [
+    70.9,
+    253.9,
+    214.8,
+    263.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "fe1ce533ee4ed21d575da3c89ae81cb9bca175c60ea176ff76ad9cad95e7a3da",
+   "literal": "10.4.1.1  Análisis simplificado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0172",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 10.4.1.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.4.1.1  Análisis simplificado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.4  Diafragmas 10.4.1  Diafragmas de forjados y cubiertas / 10.4.1.1  Análisis simplificado",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "00260d28a868d88a9721b23d76bcd69a90a3392f69178d0a94fd361a5a729443"
+ },
+ "paginas": [
+  86,
+  87
+ ],
+ "etiquetas_impresas": [
+  "2",
+  "1"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "10.4.1.1  Análisis simplificado\n1\nEste apartado se refiere a diafragmas simplemente apoyados de forjados y cubiertas, formados por\ntableros estructurales unidos al entramado de madera mediante elementos mecánicos de fijación\n(clavos, grapas, tirafondos, pernos).\n2\nLa capacidad de carga de los elementos de fijación en los bordes del tablero pueden incrementarse\nmultiplicando por un factor de 1,2 los valores obtenidos con el capítulo 8 relativo al cálculo de unio-\nnes.\n3\nEl análisis simplificado de diafragmas simplemente apoyados solicitados por una carga uniforme-\nmente repartida puede realizarse como se indica más adelante siempre que se cumplan las condi-\nciones siguientes:\na) la luz L varia entre 2b y 6b, siendo bel canto del diafragma;\nb) el fallo del diafragma es debido a los medios de fijación y no a los tableros;\nc) los paneles se fijarán de acuerdo con las especificaciones dadas en el apartado 10.4.1.2.\nLos cordones de borde (véase figura 10.6) deben proyectarse para resistir el esfuerzo axil de trac-\nción o compresión, N, derivado del momento flector:\nN=M/b\n(10.52)\nsiendo:\nM=ql2/8\n(10.53)\nSe supone que las tensiones tangenciales debidas a los esfuerzos cortantes que actúan sobre el dia-\nfragma se reparten uniformemente en todo el canto (b).\n4\nSi los paneles se disponen al tresbolillo (véase figura 10.5) la separación entre clavos en los bordes\ndiscontinuos de encuentro entre paneles puede incrementarse un 50% más (hasta un máximo de\n150 mm) sin aplicar reducción alguna en la capacidad de carga. Así mismo, se recomienda el uso de\nde la disposición al tresbolillo.\n\nDocumentoBásico SE-M Madera\nSE-M 81\n(1) Cordones de borde.\n(2) disposición de empalmes de tableros al tresbolillo.\n(3) Disposición de los tableros.\nFigura 10.5 Diafragma de forjado de cubierta con carga uniforme y tableros al tresbolillo (no se dibujan los\nmontantes que van sirviendo de apoyo a los tableros)",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 10.4.1.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0087.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

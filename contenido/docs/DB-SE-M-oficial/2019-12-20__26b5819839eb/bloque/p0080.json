@@ -1,0 +1,426 @@
+{
+ "documento": null,
+ "pagina": 80,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 74",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    106.9,
+    72.5,
+    541.3,
+    105.3
+   ],
+   "tipo": "texto",
+   "texto": "i)\ncomo modelo de análisis propuesto, el conjunto debe considerarse como una serie de vigas\ncon sección en I o en U, figura 10.2, con una anchura eficaz de las alas bef que debe cumplir\nlas condiciones siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    124.8,
+    112.1,
+    277.0,
+    123.6
+   ],
+   "tipo": "texto",
+   "texto": "\nen secciones en I (interiores):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    144.1,
+    128.1,
+    541.3,
+    152.5
+   ],
+   "tipo": "texto",
+   "texto": "bef = bc,ef + bw\nala comprimida\n(10.17)\nbef = bt,ef + bw\nala traccionada\n(10.18)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    124.8,
+    159.1,
+    281.3,
+    170.5
+   ],
+   "tipo": "texto",
+   "texto": "\nen secciones en U (extremos):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    144.1,
+    175.1,
+    541.3,
+    199.4
+   ],
+   "tipo": "texto",
+   "texto": "bef = 0,5·bc,ef + bw\nala comprimida\n(10.19)\nbef = 0,5·bt,ef + bw\nala traccionada\n(10.20)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    106.9,
+    206.7,
+    541.3,
+    216.7
+   ],
+   "tipo": "texto",
+   "texto": "ii) los valores máximos de anchuras eficaces de bc,ef y bt,ef no deben superar el valor máximo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    124.8,
+    218.3,
+    541.3,
+    251.3
+   ],
+   "tipo": "texto",
+   "texto": "calculado por flexibilidad frente a esfuerzos rasantes. Además, bc,ef no debe ser mayor que el\nvalor máximo calculado teniendo en cuenta la abolladura del ala. Estos valores máximos se\nindican en la tabla 10.1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    71.0,
+    265.8,
+    540.8,
+    274.8
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 10.1. Valores máximos de anchuras eficaces (bc,ef, o bt,ef) del ala debidas al efecto del flexibilidad frente",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    223.7,
+    276.1,
+    388.3,
+    285.1
+   ],
+   "tipo": "texto",
+   "texto": "a esfuerzos rasantes y a la abolladura",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    287.1,
+    503.6,
+    331.6
+   ],
+   "tipo": "texto",
+   "texto": "Material del ala\nAnchura debida al efecto de:\nFlexibilidad por rasante\nAbolladura\nTablero contrachapado con la dirección de la fibra en las\nchapas exteriores",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    332.9,
+    489.8,
+    384.4
+   ],
+   "tipo": "texto",
+   "texto": "paralela a las almas\n0,1·l\n20·hf\nperpendicular a las almas\n0,1·l\n25·hf\nTablero de virutas orientadas (OSB)\n0,15·l\n25·hf\nTablero de partículas y tablero de fibras con orientación\naleatoria de las partículas\n0,2·l\n30·hf",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    385.8,
+    271.0,
+    403.1
+   ],
+   "tipo": "texto",
+   "texto": "hf\nes, según corresponda, hf,c o hf,t (véase figura 10.2)\nl\nluz de la viga",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    106.9,
+    408.2,
+    501.8,
+    418.2
+   ],
+   "tipo": "texto",
+   "texto": "iii) como modelo de análisis del pandeo de las alas debe cumplir la siguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    126.1,
+    424.1,
+    540.9,
+    434.6
+   ],
+   "tipo": "texto",
+   "texto": "bf  2 be\n(10.21)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    126.1,
+    440.3,
+    160.8,
+    450.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    126.1,
+    455.7,
+    541.3,
+    477.1
+   ],
+   "tipo": "texto",
+   "texto": "be\nvalor del ancho eficaz del ala debido al efecto del pandeo local (abolladura), tabla\n10.1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    126.1,
+    482.7,
+    370.5,
+    492.7
+   ],
+   "tipo": "texto",
+   "texto": "bf\nla distancia libre entre almas (véase figura 10.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    88.8,
+    499.2,
+    421.9,
+    509.1
+   ],
+   "tipo": "texto",
+   "texto": "b) Tensiones normales en las alas (en la anchura eficaz bef , apartado a).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    106.6,
+    516.7,
+    541.3,
+    549.6
+   ],
+   "tipo": "texto",
+   "texto": "Las tensiones normales en la anchura eficaz de las alas, bef, considerando un reparto uniforme\nde tensiones en el ancho eficaz y el resto de hipótesis ya expuestas, deben cumplir las siguien-\ntes condiciones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    108.1,
+    553.5,
+    541.3,
+    579.2
+   ],
+   "tipo": "texto",
+   "texto": "f,c,d  ff,c,d\nala comprimida\n(10.22)\nf,t,d  ff,t,d\nala traccionada\n(10.23)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    108.1,
+    584.7,
+    142.8,
+    594.7
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    108.1,
+    599.5,
+    541.3,
+    622.4
+   ],
+   "tipo": "texto",
+   "texto": "f,c,d\n valor medio de la tensión de cálculo de compresión en la anchura eficaz del ala\ncomprimida;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    108.1,
+    627.2,
+    530.0,
+    638.6
+   ],
+   "tipo": "texto",
+   "texto": "f,t,d\nvalor medio de la tensión de cálculo de tracción en la anchura eficaz del ala traccionada;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    108.1,
+    644.1,
+    455.5,
+    654.1
+   ],
+   "tipo": "texto",
+   "texto": "ff,c,d\n resistencias de cálculo a compresión del tablero utilizado para las alas;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    108.1,
+    659.7,
+    439.0,
+    669.7
+   ],
+   "tipo": "texto",
+   "texto": "ff,t,d\n resistencias de cálculo a tracción del tablero utilizado para las alas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    88.8,
+    676.2,
+    261.4,
+    686.1
+   ],
+   "tipo": "texto",
+   "texto": "c) Tensiones normales en las almas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    106.6,
+    693.7,
+    487.3,
+    703.7
+   ],
+   "tipo": "texto",
+   "texto": "Las tensiones normales en las almas deben satisfacer las ecuaciones (10.8) y (10.9).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    88.8,
+    711.1,
+    307.0,
+    721.1
+   ],
+   "tipo": "texto",
+   "texto": "d) Superficies críticas a tensiones de rodadura:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    106.9,
+    728.6,
+    498.6,
+    738.6
+   ],
+   "tipo": "texto",
+   "texto": "i)\nen las superficies 1-1 de contacto madera-tablero, figura 10.2, debe verificarse que:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    124.8,
+    745.4,
+    256.9,
+    756.8
+   ],
+   "tipo": "texto",
+   "texto": "\nen secciones en doble T:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

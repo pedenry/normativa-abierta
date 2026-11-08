@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0201",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p76",
+  "titulo": "Anejo E. Resistencia al fuego de las estructuras de madera",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p76",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p76",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "05f363eca21764aa1ce0fe7fbe466b5ec0094a588c22af51db3fce0ab9bede25"
+ },
+ "paginas": [
+  76,
+  77
+ ],
+ "etiquetas_impresas": [
+  "76",
+  "77"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Anejo E. Resistencia al fuego de las estructuras de madera\n76\nFigura E.2. Ejemplos de paneles utilizados como revestimientos de protección contra el fuego\n2\nSalvo para los casos que se establecen en este Documento o para aquellos en que se disponga de\ninformación suficiente, el tiempo para el que se produce el inicio de la carbonización tch del elemento,\nel tiempo para el que se produce el fallo del revestimiento de protección contra el fuego u otros mate-\nriales de protección tf, así como las velocidades de carbonización en las diferentes fases, deben de-\nterminarse experimentalmente.\n3\nDebe tenerse en cuenta en el inicio de la carbonización y, cuando proceda, en la velocidad de car-\nbonización antes del fallo de la protección, el efecto de las juntas del revestimiento con holguras no\nrellenas mayores de 2mm.\nE.2.3.2.2 Inicio de la carbonización\n1\nEn el caso de revestimientos de protección consistentes en una o varias capas de tableros derivados\nde la madera o tableros de madera maciza, el tiempo de inicio de carbonización tch del elemento pro-\ntegido, en minutos,  puede obtenerse mediante la siguiente expresión:\n0\np\nch\nh\nt\n\n\n(E.4)\nsiendo:\nhp espesor del tablero, en caso de varias capas el espesor total, [mm];\nß0 velocidad de carbonización básica de cálculo (ver tabla E.3);\nTabla E.3. Velocidad de carbonización básica de cálculo, 0, de tableros de protección\nTableros(1)\n0  (mm/min)\nTableros de madera\n0,90\nTableros contrachapados\n1,00\nTableros derivados de la madera diferentes al tablero contrachapado\n0,90\n(1)\nLos valores se aplican para densidad característica de 450 kg/m3 y para un espesor del tablero de 20 mm. Para valo-\nres diferentes de la densidad característica k y del espesor hp del tablero, la velocidad de carbonización básica de\ncálculo se determina mediante la siguiente expresión:\nkt\nk0\n=\nt,\n0,\n\n\n\n(E.5)\nsiendo:\n\n\nk\n450\n=\nk\ny\n0,1\np\nh\n20\nmax\nt\nk\n\n(E.6) (E.7)\n\nDocumento Básico SI en caso de Incendio\nAnejo E. Resistencia al fuego de las estructuras de madera\n77\ndonde:\nk\ndensidad característica en kg/m3\nhp\nespesor del tablero en mm\n2\nEn el caso de muros o forjados formados por tableros unidos a un entramado de madera (ver figura\nE.2 c), el tiempo de inicio de carbonización tch de los elementos del entramado protegido puede ob-\ntenerse mediante la siguiente expresión:\n0\np\nch\nβ\nh\n=\nt\n- 4\n(E.8)\nsiendo:\nhp espesor del tablero, en caso de varias capas el espesor total, [mm];\nß0 velocidad de carbonización básica de cálculo (ver tabla E.3).\n3\nPara los casos de elementos protegidos mediante mantas de lana de roca, que cumplan las especifi-\ncaciones del párrafo 1 b) del apartado E.2.3.2.1, el tiempo para el que se produce el inicio de la car-\nbonización tch, puede obtenerse de la siguiente expresión:\n\n\nins\nins\nch\n20\nh\n07\n,0\nt\n\n\n\n(E.9)\nsiendo:\nhins\nespesor del material aislante en milímetros;\nins\ndensidad del material aislante en kg/m3.\n4\nEn el caso de elementos protegidos con una capa de paneles de yeso de tipo A, F o H, situados lejos\nde juntas entre paneles, o en las cercanías de juntas selladas o con aperturas menores de 2 mm, el\ntiempo de inicio de la carbonización, tch, en minutos, se obtiene de la expresión:\ntch = 2,8hp-14\n(E.10)\nSi el elemento protegido se encuentra cerca de juntas sin sellar, de espesor mayor de 2 mm, tch debe\ncalcularse según la expresión:\ntch = 2,8hp-23\n(E.11)\n5\nEn el caso de revestimientos compuestos por dos capas de paneles de yeso, se pueden emplear las\nexpresiones (E.10) y (E.11) siempre que las dos capas permanezcan unidas y su fallo se produzca\nde manera simultánea. La cercanía a las juntas entre paneles se evaluará en la capa exterior.\nE.2.3.2.3 Tiempos de fallo de revestimientos de protección\n1\nEl fallo del revestimiento de protección contra el fuego puede ocurrir por los siguiente motivos:\na) carbonización o degradación mecánica del material del revestimiento;\nb) insuficiente longitud de penetración de los elementos de fijación en la zona no carbonizada de la\nmadera;\nc)\nseparación o distancias inadecuadas de los elementos de fijación.\n2\nEn el caso de revestimientos de protección contra el fuego mediante tableros derivados de la madera\ny tableros de madera maciza o placas de yeso de tipo A o H, se considerará como tiempo de fallo del\nrevestimiento, tf, el tiempo para el que se produce el inicio de la carbonización del elemento protegi-\ndo, tch (ver apartado E.2.3.2.2).\n3\nEl tiempo de fallo por degradación mecánica del material de los paneles de yeso de tipo F debe de-\nterminarse mediante ensayos y será proporcionado por el fabricante.\n4\nPara evitar el fallo por insuficiente longitud de penetración de los elementos de fijación en la zona no\ncarbonizada, la, esta longitud será al menos de 10 mm. La longitud requerida del elemento de fijación\nse determinara mediante la expresión siguiente,\nl\nd\nh =\nl\na\nn,\nchar\np\nreq\n,f\n\n\n(E.12)",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0076.png",
+  "../figura/p0077.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0202",
+  "a0203",
+  "a0207"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

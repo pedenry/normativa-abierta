@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0063",
+  "ruta_oficial": "5.4.3",
+  "ruta_semantica": "5.4.3  Comprobación de la capacidad resistente",
+  "titulo": "5.4.3  Comprobación de la capacidad resistente",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.4.3  Comprobación de la capacidad resistente",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    292.3,
+    299.3,
+    302.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "92db629af4a164f1303aa8f80a203a90485cd32eff755bd5d156859b83304831",
+   "literal": "5.4.3  Comprobación de la capacidad resistente"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0063",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 4.5.2.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4.3  Comprobación de la capacidad resistente",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. / 5.4 Muros con acciones laterales locales 5.4.1 Generalidades / 5.4.3  Comprobación de la capacidad resistente",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9bef80843cb9a2b2aec483ac34e6213acd2c91f5e00ce52c911907584c8c3eac"
+ },
+ "paginas": [
+  28
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.4.3  Comprobación de la capacidad resistente\n1\nEs aceptable el uso de cualquier procedimiento que dé como resultado un conjunto de esfuerzos en\nequilibrio con las acciones consideradas.\n2\nEn cualquier dirección, el momento de cálculo aplicado, MSd, será menor o igual que el momento\nresistente, MRd, es decir:\nMSd MRd\n(5.25)\n3\nComo valor de MRd puede tomarse:\ncomo pieza a flexión, si no hay compresión:\nMRd = fxd · Z\n(5.26)\npieza a flexión, si hay compresión:\nMRd = (fxd + d) · Z\n(5.27)\ncomo arco con relación longitud a canto mayor de 35\nMRd = E·(td3 / L2)·r/8\n(5.28a)\ncomo arco con relación longitud a canto menor de 35\nMRd = (fd·td – fd2L2/ tdE)·r/2\n(5.28b)\nsiendo:\nZ\nmódulo resistente elástico a flexión de la sección bruta, igual a t2/6; en un muro apilastrado,\nse adoptará como longitud de resalto no más del décimo de la altura, para los sustentados\nen cabeza y base, y un quinto para los libres en cabeza.\nd\nvalor de cálculo de la tensión media de compresión del muro, en la sección que corres-\nponda\nr\naltura del arco, según 5.4.4\n4\nComo viga vertical, si no puede contarse con la resistencia a tracción, como es el caso de muros de\ncarga, en donde el fracaso del muro puede suponer el colapso de la estructura, o con acción sísmica:\nMRd1 = Nd · (t-2·e-Nd/fd)/2\n(5.29)\nsiendo:\nNd\nvalor de cálculo de la compresión vertical del muro debida a acciones verticales\nt\nel grueso del muro\ne\nla excentricidad de la compresión, con su signo, debida a las acciones verticales\n5\nEn otro caso, se podrá proceder análogamente, bien por reparto de los momentos isostáticos en cada\ndirección, de acuerdo a la relación de capacidades resistentes, tal como se ha hecho en (5.23) y\n(5.24), o por equilibrio límite en la situación de agotamiento por flexión, a partir de esos mismos pa-\nrámetros.\n6\nCuando en uno de los bordes exista una barrera antihumedad, no será necesario considerarla si la\ncarga vertical sobre la barrera asegura que, por causa del momento aplicado, no se supera la resis-\ntencia a la flexión (véase apartado 4.5.2.3). En otro caso se considerará como tendel hueco.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.5.2.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

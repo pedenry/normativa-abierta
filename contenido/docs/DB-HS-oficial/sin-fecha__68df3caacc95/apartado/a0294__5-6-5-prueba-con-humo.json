@@ -1,0 +1,78 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0294",
+  "ruta_oficial": "5.6.5",
+  "ruta_semantica": "Fragmento de PDF p130",
+  "titulo": "5.6.5 Prueba con humo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p130",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p130",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.6 Pruebas 5.6.1 Pruebas de estanqueidad parcial / 5.6.5 Prueba con humo",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "daac8c7804f70aad6551cbe9554cb398deb3ba1b993f21639315c0ab3e0b8f8d"
+ },
+ "paginas": [
+  130
+ ],
+ "etiquetas_impresas": [
+  "130"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.6.5 Prueba con humo\n1\nLa prueba con humo se efectuará sobre la red de aguas residuales y su correspondiente red de\nventilación.\n2\nDebe utilizarse un producto que produzca un humo espeso y que, además, tenga un fuerte olor.\n3\nLa introducción del producto se hará por medio de máquinas o bombas y se efectuará en la parte\nbaja del sistema, desde distintos puntos si es necesario, para inundar completamente el sistema,\ndespués de haber llenado con agua todos los cierres hidráulicos.\n4\nCuando el humo comience a aparecer por los terminales de cubierta del sistema, se taponarán és-\ntos a fin de mantener una presión de gases de 250 Pa.\n5\nEl sistema debe resistir durante su funcionamiento fluctuaciones de  250 Pa, para las cuales ha\nsido diseñado, sin pérdida de estanqueidad en los cierres hidráulicos.\n6\nLa prueba se considerará satisfactoria cuando no se detecte presencia de humo y olores en el inte-\nrior del edificio.\n6",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0130.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

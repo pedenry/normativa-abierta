@@ -1,0 +1,90 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0073",
+  "ruta_oficial": null,
+  "ruta_semantica": "CAPÍTULO I. Disposiciones generales",
+  "titulo": "CAPÍTULO I. Disposiciones generales",
+  "nivel": 2,
+  "parent_id": null,
+  "seccion_estimada": "CAPÍTULO I. Disposiciones generales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 35,
+   "bbox": [
+    269.9,
+    409.0,
+    325.4,
+    423.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "46aa4c4928c688711cfaee33c65969aa96fa80d9102cfe43852c7d0992b7bec1",
+   "literal": "CAPÍTULO I. Disposiciones generales"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0021",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "CAPÍTULO I. Disposiciones generales",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "apéndice. / CAPÍTULO I. Disposiciones generales",
+   "seccion_estimada": "apéndice.",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "98217bdbfdefcf2780abcc9d421871946572a6e480d938872e5074ba71d140a7"
+ },
+ "paginas": [
+  35
+ ],
+ "etiquetas_impresas": [
+  "35"
+ ],
+ "tipos": [],
+ "texto": "CAPÍTULO I Disposiciones generales\nDisposiciones generales",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": null,
+   "titulo": "Artículo 3. Definiciones.",
+   "archivo_json": "a0076__articulo-3-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0074",
+  "a0075",
+  "a0076"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

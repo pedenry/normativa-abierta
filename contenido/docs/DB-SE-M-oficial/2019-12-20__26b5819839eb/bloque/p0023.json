@@ -1,0 +1,460 @@
+{
+ "documento": null,
+ "pagina": 23,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 17",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    96.9,
+    220.4,
+    111.0
+   ],
+   "tipo": "titulo",
+   "texto": "5  Análisis estructural",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    134.9,
+    215.0,
+    146.9
+   ],
+   "tipo": "titulo",
+   "texto": "5.1  Principios generales",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    156.3,
+    541.3,
+    177.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "1\nPara el análisis relativo a situaciones de dimensionado transitorias y permanentes, se considerarán\nlos siguiente valores para los módulo de elasticidad longitudinal Ed, o transversal Gd.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    185.4,
+    538.5,
+    195.3
+   ],
+   "tipo": "texto",
+   "texto": "a) En comprobaciones de estado límite de servicio y estado límite último en régimen lineal (sin ana-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    106.9,
+    196.8,
+    250.8,
+    206.7
+   ],
+   "tipo": "texto",
+   "texto": "lizar la estabiliad global o local):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    106.6,
+    214.3,
+    541.3,
+    224.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed = Emedio\n (5.1)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    106.6,
+    231.8,
+    541.3,
+    241.8
+   ],
+   "tipo": "texto",
+   "texto": "Gd = Gmedio\n (5.2)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    106.7,
+    249.3,
+    141.7,
+    259.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    106.7,
+    266.9,
+    378.2,
+    276.8
+   ],
+   "tipo": "texto",
+   "texto": "Gmedio ;Emedio\nvalores medios según los datos del material.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    88.8,
+    284.4,
+    538.5,
+    294.3
+   ],
+   "tipo": "texto",
+   "texto": "b) En comprobaciones de estado límite ultimo relativas a estabilidad o en general en comprobacio-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    106.9,
+    295.8,
+    257.5,
+    305.7
+   ],
+   "tipo": "texto",
+   "texto": "nes realizadas en segundo orden",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    106.6,
+    313.3,
+    541.3,
+    323.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed = Ek\n (5.3)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    106.6,
+    330.8,
+    541.3,
+    340.8
+   ],
+   "tipo": "texto",
+   "texto": "Gd = Gk\n (5.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    106.7,
+    348.3,
+    141.7,
+    358.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    106.7,
+    365.9,
+    448.2,
+    375.8
+   ],
+   "tipo": "texto",
+   "texto": "Gk ;Ek\nvalor correspondiente al 5% percentil de la propiedad de rigidez.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    383.4,
+    541.3,
+    404.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\nPara el análisis relativo a situaciones de dimensionado extraordinarias, se considerará el siguiente\nvalor para los módulo de elasticidad longitudinal Ed, o transversal Gd:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    412.3,
+    541.3,
+    422.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed = Emedio\n (5.5)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    429.8,
+    541.3,
+    439.8
+   ],
+   "tipo": "texto",
+   "texto": "Gd = Gmedio\n (5.6)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    447.3,
+    541.3,
+    514.8
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn el análisis de estructuras compuestas por barras (es decir, elementos en los que predomina una\ndirección sobre las otras con una relación mínima entre largo y canto de 6), formando estructuras\ntrianguladas o estructuras de nudos rígidos o semirrígidos, y para el cálculo de solicitaciones globa-\nles (cortante, momento y axil) de la barra, se considerará válida la hipótesis de que el material es isó-\ntropo, elástico y lineal, considerando las deformaciones  instantaneas o a largo plazo a través de los\nmódulos descritos anteriormente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    70.9,
+    533.6,
+    261.1,
+    545.6
+   ],
+   "tipo": "titulo",
+   "texto": "5.2  Características de las barras",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    555.1,
+    180.1,
+    565.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nSecciones eficaces:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    88.8,
+    572.6,
+    538.6,
+    582.6
+   ],
+   "tipo": "texto",
+   "texto": "a) se consideran secciones eficaces las deducidas de las dimensiones nominales menos las reduc-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    106.9,
+    584.1,
+    184.2,
+    594.1
+   ],
+   "tipo": "texto",
+   "texto": "ciones previstas;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    88.8,
+    601.7,
+    541.3,
+    611.6
+   ],
+   "tipo": "texto",
+   "texto": "b) a estos efectos, no se consideran reducciones del área de la sección transversal las originadas",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    106.9,
+    613.1,
+    127.0,
+    623.0
+   ],
+   "tipo": "texto",
+   "texto": "por:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    106.9,
+    630.6,
+    444.0,
+    640.5
+   ],
+   "tipo": "texto",
+   "texto": "i)\nclavos con diámetro igual o inferior a 6 mm, introducidos sin pretaladro;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    106.9,
+    648.1,
+    541.3,
+    658.1
+   ],
+   "tipo": "texto",
+   "texto": "ii) agujeros simétricamente dispuestos para pernos, pasadores, tirafondos y clavos en piezas",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    124.8,
+    659.6,
+    232.6,
+    669.6
+   ],
+   "tipo": "texto",
+   "texto": "comprimidas axilmente;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    106.9,
+    677.1,
+    538.5,
+    687.1
+   ],
+   "tipo": "texto",
+   "texto": "iii) agujeros en la zona comprimida de las piezas a flexión, siempre que los agujeros estén re-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    124.8,
+    688.7,
+    343.8,
+    698.6
+   ],
+   "tipo": "texto",
+   "texto": "llenos con un material más rígido que la madera.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    88.8,
+    706.1,
+    541.3,
+    716.0
+   ],
+   "tipo": "texto",
+   "texto": "c) para la determinación de la sección eficaz de piezas con varias filas de elementos de fijación, a",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    106.9,
+    717.6,
+    541.3,
+    750.6
+   ],
+   "tipo": "texto",
+   "texto": "los agujeros contenidos en la sección se sumarán aquéllos que estén a una distancia, respecto\nde dicha sección, igual o menor que la mitad de la separación mínima (especificada para las\nuniones) entre elementos de fijación, medida en la dirección paralela a la fibra.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

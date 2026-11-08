@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0143",
+  "ruta_oficial": "10.2.1.2",
+  "ruta_semantica": "10.2.1.2  Capacidad de carga",
+  "titulo": "10.2.1.2  Capacidad de carga",
+  "nivel": 1,
+  "parent_id": "a0141",
+  "seccion_estimada": "10.2.1.2  Capacidad de carga",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 83,
+   "bbox": [
+    70.9,
+    201.4,
+    209.8,
+    211.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a17b86bfa5e3bf30c9f44dc1eb642b79ef73627176c09051f1c12da8c9ecc156",
+   "literal": "10.2.1.2  Capacidad de carga"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0165",
+  "parent_id_original": "a0141",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2.2.2.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2.1.2  Capacidad de carga",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0141",
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.2  Soportes compuestos / 10.2.1  Soportes compuestos enlazados por separadores o presillas / 10.2.1.2  Capacidad de carga",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4c5e48a9dcda3b4d9e46e5b9577ebc714ec12d03dadf5195bc5bd375e5a599f8"
+ },
+ "paginas": [
+  83,
+  84
+ ],
+ "etiquetas_impresas": [
+  "2",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "10.2.1.2  Capacidad de carga\n1\nSe tomará, como capacidad de carga del soporte, la que resulte menor de calcular a pandeo respec-\nto a las dos direcciones principales (véase figura 10.3):\na) Pandeo con desplazamiento en la dirección y (flectando respecto al eje z-z).\nCada cordón se comprobará para resistir la carga Fc /n (n, número de cordones y Fc,, carga axial\nconcéntrica) aplicando la ecuación (6.30).\nb) Pandeo con desplazamiento en la dirección z (flectando respecto al eje y-y).\nDebe cumplirse que:\nf\nk\nd\no,\nc,\nc\nd\no,\nc,\n\n\n(10.29)\nsiendo:\nA\nF\n=\ntot\nSd\nc,\nd\no,\nc,\n\n(10.30)\nFc,Sd\nvalor de cálculo de la carga axial concéntrica aplicada;\nAtot\nárea total de la sección transversal (véase figura 10.3);\nfc,0,d\nresistencia de cálculo a compresión paralela a la fibra de la madera del cordón;\nkc\ncoeficiente de pandeo determinado según la ecuación (6.32) correspondiente a la es-\nbeltez eficaz, ef , que se establece a continuación:\n\n\n\n\n2\n1\n2\nef\n2\nn\n+\n=\n(10.31)\nsiendo:\n\nesbeltez mecánica de un soporte de sección maciza con la misma longitud (l), el mis-\nmo área (Atot) y el mismo momento de inercia (Itot), es decir:\nI\nA\nl =\ntot\ntot\n\n(10.32)\n1\nesbeltez mecánica de los cordones. Se tomará para 1 el mayor de los dos valores si-\nguientes:\nh\nl\n12\n=\n1\n1\n\n(10.33)\n30\n=\n1\n\n(10.34)\nl1 y h\nsegún figura 10.2;\nn\nnúmero de cordones;\n\nfactor obtenido de la Tabla 10.2.\nTabla 10.2 Factor \nDuración de la carga (1)\nUnión de los separadores\nUnión de las presillas\nEncolados\nCon clavos\nCon pernos y conectores\nEncoladas\nClavadas\nPermanente/larga\n1\n4\n3,5\n3\n6\nMedia/corta\n1\n3\n2,5\n2\n4,5\n(1) Véase Clase de duración de la carga en el apartado 2.2.2.1\n\nDocumentoBásico SE-M Madera\nSE-M 78",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.2.2.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0083_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0083.png",
+  "../figura/p0084.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

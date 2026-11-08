@@ -1,0 +1,76 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0126",
+  "ruta_oficial": "2.1.2",
+  "ruta_semantica": "Fragmento de PDF p53",
+  "titulo": "2.1.2 Superficie 2.1.2.1 Superficie útil del almacén",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p53",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p53",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva / 2.1.2 Superficie 2.1.2.1 Superficie útil del almacén",
+   "seccion_estimada": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2a7cbdd62fd53639e862039aa35599bd9b9c49f15a97a92b349b7c7fdd0ee78f"
+ },
+ "paginas": [
+  53
+ ],
+ "etiquetas_impresas": [
+  "53"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.1.2 Superficie 2.1.2.1 Superficie útil del almacén\n2.1.2.1 Superficie útil del almacén\n1\nLa superficie útil del almacén debe calcularse mediante la fórmula siguiente:\n\n\n\n\n\n\n\n\n\nf\nf\nf\nf\nM\nC\nG\nT\nP\n8,0\nS\n(2.1)\nsiendo\nS\nla superficie útil [m2];\nP\nel número estimado de ocupantes habituales del edificio que equivale a la suma del número to-\ntal de dormitorios sencillos y el doble de número total de dormitorios dobles;\nTf\nel período de recogida de la fracción [días];\nGf el volumen generado de la fracción por persona y día [dm3/(persona·día)], que equivale a los\nsiguientes valores:\nPapel / cartón\n1,55\nEnvases ligeros\n8,40\nMateria orgánica 1,50\nVidrio\n0,48\nVarios\n1,50\nCf el factor de contenedor [m2/l], que depende de la capacidad del contenedor de edificio que el\nservicio de recogida exige para cada fracción y que se obtiene de la tabla 2.1;\nTabla 2.1 Factor de contenedor\nCapacidad del contenedor de edificio\nen l\nCf\nen m2/l\n120\n240\n330\n600\n800\n1.100\n0,0050\n0,0042\n0,0036\n0,0033\n0,0030\n0,0027\nMf un factor de mayoración que se utiliza para tener en cuenta que no todos los ocupantes del edi-\nficio separan los residuos y que es igual a 4 para la fracción varios y a 1 para las demás frac-\nciones.\n2\nCon independencia de lo anteriormente expuesto, la superficie útil del almacén debe ser como mí-\nnimo la que permita el manejo adecuado de los contenedores.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0053_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0053.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0127"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

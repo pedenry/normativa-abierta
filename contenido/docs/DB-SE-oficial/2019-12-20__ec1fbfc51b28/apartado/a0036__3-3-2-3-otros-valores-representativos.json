@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0036",
+  "ruta_oficial": "3.3.2.3",
+  "ruta_semantica": "3.3.2.3 Otros valores representativos",
+  "titulo": "3.3.2.3 Otros valores representativos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3.2.3 Otros valores representativos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    70.9,
+    157.3,
+    248.9,
+    167.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "04e070ca395c6cfcf26d75b6517cc45851f67c1238ee2924447e4b5d970df90d",
+   "literal": "3.3.2.3 Otros valores representativos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0035",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "3.3.2.3 Otros valores representativos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Análisis estructural y dimensionado 3.1 Generalidades / 3.3 Variables básicas 3.3.1 Generalidades / 3.3.2 Acciones 3.3.2.1 Clasificación de las acciones / 3.3.2.3 Otros valores representativos",
+   "seccion_estimada": "3 Análisis estructural y dimensionado 3.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6fbbfedab8fc49e37b68dc30866ac9b86e7a7a92979e9564be59005a165beefe"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "3.3.2.3 Otros valores representativos\n1\nEl valor de combinación de una acción variable representa su intensidad en caso de que, en un de-\nterminado periodo de referencia, actúe simultáneamente con otra acción variable, estadísticamente\nindependiente, cuya intensidad sea extrema. En este DB se representa como el valor característico\nmultiplicado por un coeficiente 0.\n2\nEl valor frecuente de una acción variable se determina de manera que sea superado durante el 1%\ndel tiempo de referencia. En este DB se representa como el valor característico multiplicado por un\ncoeficiente 1.\n3\nEl valor casi permanente de una acción variable se determina de manera que sea superado durante\nel 50% del tiempo de referencia. En este DB se representa como el valor característico multiplicado\npor un coeficiente 2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

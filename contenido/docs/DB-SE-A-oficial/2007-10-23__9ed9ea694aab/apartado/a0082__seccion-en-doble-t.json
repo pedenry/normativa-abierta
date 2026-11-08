@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0082",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p44",
+  "titulo": "sección en doble T",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p44",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "linea_sin_formato_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p44",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección en doble T",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "31bd794c5b6a8fbb88b65740da9c9d3d5ec54e39b4556ccfa55daed76d528b26"
+ },
+ "paginas": [
+  44,
+  45
+ ],
+ "etiquetas_impresas": [
+  "44",
+  "45"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "sección en doble T\nh/b > 2\nd\n0,76\nElementos con otras sec-\nciones\n-\nd\n0,76\nLa esbeltez relativa frente al pandeo lateral se determinará según la relación\ncr\ny\ny\nLT\nM\nf\nW\n=\nλ\n(6.34)\ndonde\nMcr\nmomento crítico elástico de pandeo lateral. El momento crítico elástico de pandeo lateral\nse determinará según la teoría de la elasticidad, por ejemplo de acuerdo con 6.3.3.3.\n2\nEn el caso de perfiles laminados o de perfiles armados equivalentes cuando\n4\n,0\nLT≤\nλ\nse podrá\nutilizar un valor de χLT=1.\n\nDocumentoBásico SE-A Acero\nSE-A-43\n3\nLos apoyos laterales del ala comprimida deberán dimensionarse con capacidad para resistir los\nesfuerzos a que van a estar sometidos. Los esfuerzos originados por las fuerzas de desvío del\nsoporte comprimido de una viga recta de canto constante podrán determinarse de acuerdo con\n5.4.1.5.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0044_t01.json",
+  "../tabla/p0045_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0044.png",
+  "../figura/p0045.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0083",
+  "a0084",
+  "a0085",
+  "a0086",
+  "a0087",
+  "a0089"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

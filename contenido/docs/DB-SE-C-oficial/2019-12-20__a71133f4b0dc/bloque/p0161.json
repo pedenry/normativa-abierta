@@ -1,0 +1,192 @@
+{
+ "documento": null,
+ "pagina": 161,
+ "etiqueta_impresa": "1",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-156",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    327.0,
+    212.4,
+    382.9,
+    218.4
+   ],
+   "tipo": "texto",
+   "texto": "DESPLAZAMIENTO",
+   "tamano": 6.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    274.3,
+    147.4,
+    280.5,
+    174.1
+   ],
+   "tipo": "texto",
+   "texto": "TENSION",
+   "tamano": 6.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    217.4,
+    252.3,
+    360.7,
+    259.0
+   ],
+   "tipo": "texto",
+   "texto": "(a)\n(b)",
+   "tamano": 6.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    307.6,
+    125.6,
+    345.5,
+    131.6
+   ],
+   "tipo": "texto",
+   "texto": "Estado pasivo",
+   "tamano": 6.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    315.2,
+    183.9,
+    362.5,
+    189.9
+   ],
+   "tipo": "texto",
+   "texto": "Estado en reposo",
+   "tamano": 6.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    310.4,
+    193.5,
+    346.5,
+    199.5
+   ],
+   "tipo": "texto",
+   "texto": "Estado activo",
+   "tamano": 6.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    252.2,
+    541.3,
+    395.5
+   ],
+   "tipo": "texto",
+   "texto": "Figura F.14. Pantalla modelada como viga elástica sobre muelles\n3\nEl estudio geotécnico debe proporcionar la información necesaria para definir la ley tensión - des-\nplazamiento de cada uno de los muelles, mediante:\na) coeficientes de balasto;\nb) coeficientes de empuje activo y pasivo;\nc) empuje al reposo (incluyendo los empujes debidos al terreno y al agua).\n4\nEl coeficiente de balasto kh se define como el cociente entre la presión horizontal (q) aplicada sobre\nun determinado punto del terreno en el paramento de la pantalla y el desplazamiento horizontal ()\nexperimentado por dicho punto:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    90.2,
+    401.5,
+    536.9,
+    425.6
+   ],
+   "tipo": "texto",
+   "texto": "\nq\nkh\n    (F.65)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    430.1,
+    541.3,
+    659.5
+   ],
+   "tipo": "texto",
+   "texto": "5\nEl coeficiente de balasto, así definido, tiene unidades de densidad.\n6\nEl coeficiente de balasto no es un parámetro intrínseco del material y en su definición debe tomarse\nen consideración la geometría y características de la pantalla y el nivel de excavación.\n7\nLa estimación del coeficiente de balasto podrá realizarse:\na)\na partir de correlaciones suficientemente contrastadas con parámetros geotécnicos del terreno;\nb)\na partir de la determinación de parámetros de deformabilidad representativos del terreno en la\nzona de influencia de la pantalla, ya sea mediante ensayos in situ o de laboratorio, y el poste-\nrior cálculo geotécnico para estimar movimientos en función del nivel de tensiones en la panta-\nlla.\n8\nPodrán considerarse valores del coeficiente de balasto diferentes en las ramas de carga y descar-\nga.\n9\nLos elementos de apoyo se modelarán mediante muelles caracterizados con sus leyes tensión -\ndesplazamiento.\n10\nLos cálculos se efectuarán considerando los valores representativos de las acciones y los valores\ncaracterísticos de los parámetros del terreno.\n11\nEste método de análisis permite estudiar pantallas con varios niveles de apuntalamiento o anclaje y\nconsiderar en el cálculo el proceso de ejecución. Asimismo, permite estimar el movimiento horizon-\ntal de la pantalla.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    663.4,
+    541.3,
+    697.8
+   ],
+   "tipo": "texto",
+   "texto": "12\nDeberá comprobarse que el cociente entre el empuje pasivo total y el movilizado, E, es superior a\n0,6 (pasivo movilizado inferior al 60%) en situaciones permanentes o transitorias y a 0,8 (pasivo\nmovilizado inferior al 80%) en situaciones extraordinarias (tabla 2.1).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    709.3,
+    534.4,
+    730.8
+   ],
+   "tipo": "texto",
+   "texto": "F.3.1.5 Métodos basados en modelos de elementos finitos o diferencias finitas para el estudio de\nla estabilidad de la pantalla",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    736.3,
+    541.3,
+    757.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl cálculo de la pantalla podrá efectuarse empleando modelos de elementos finitos o diferencias\nfinitas, considerando el comportamiento del terreno según un modelo elastoplástico.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

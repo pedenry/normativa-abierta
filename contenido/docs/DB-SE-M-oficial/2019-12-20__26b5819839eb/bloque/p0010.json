@@ -1,0 +1,244 @@
+{
+ "documento": null,
+ "pagina": 10,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.9,
+    36.2,
+    366.8,
+    46.0
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    794.4,
+    320.2,
+    802.5
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 4",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    88.8,
+    71.7,
+    538.5,
+    81.7
+   ],
+   "tipo": "texto",
+   "texto": "b) factor de longitud kL: En piezas de madera microlaminada sometidas a tracción paralela si la lon-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    106.9,
+    83.3,
+    541.3,
+    104.7
+   ],
+   "tipo": "texto",
+   "texto": "gitud difiere de 3000 mm, el valor característico de la resistencia a tracción paralela, ft,0,k debe\nmultiplicarse por el factor kL.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    109.3,
+    109.8,
+    540.5,
+    123.8
+   ],
+   "tipo": "texto",
+   "texto": "2\n/\ns\nL\n)\nL\n/\n3000\n(\nk\n\n 1,1\n (2.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    106.3,
+    128.4,
+    141.0,
+    138.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    106.8,
+    143.9,
+    245.8,
+    153.8
+   ],
+   "tipo": "texto",
+   "texto": "L\nlongitud de la pieza, [mm];",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    106.8,
+    159.3,
+    288.0,
+    169.3
+   ],
+   "tipo": "texto",
+   "texto": "s\nfactor que debe definir el fabricante.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    175.8,
+    234.3,
+    185.7
+   ],
+   "tipo": "texto",
+   "texto": "4\nFactor de carga compartida ksys.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    108.1,
+    193.3,
+    541.3,
+    237.7
+   ],
+   "tipo": "texto",
+   "texto": "Cuando un conjunto de elementos estructurales a flexión similares, dispuestos a intervalos regu-\nlares se encuentre, transversalmente conectado a través de un sistema continuo de distribución\nde carga, las propiedades resistentes características de los elementos del conjunto pueden mul-\ntiplicarse por un factor denominado de carga compartida ksys.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    108.1,
+    245.3,
+    538.5,
+    266.7
+   ],
+   "tipo": "texto",
+   "texto": "Siempre que el sistema de distribución de carga sea capaz de transferir las cargas de un ele-\nmento a otros que estén en sus proximidades, puede tomarse un valor de ksys=1,1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    108.1,
+    274.3,
+    541.3,
+    308.0
+   ],
+   "tipo": "texto",
+   "texto": "La comprobación de resistencia del sistema de distribución de la carga, debe realizarse supo-\nniendo una duración corta de las acciones y con el coeficiente parcial de seguridad del material\nM .",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    108.1,
+    315.6,
+    541.3,
+    348.5
+   ],
+   "tipo": "texto",
+   "texto": "En sistemas de cerchas con separación máxima de 1,20 m se puede suponer que los listones,\ncorreas o paneles son eficaces para transmitir la carga siempre que estos sistemas de distribu-\nción sean continuos sobre al menos dos vanos, y las juntas estén contrapeadas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    108.1,
+    356.0,
+    541.3,
+    377.5
+   ],
+   "tipo": "texto",
+   "texto": "Para pisos de losas macizas de madera laminada pueden utilizarse los valores de ksys obtenidos\na través del gráfico de la de la figura 2.1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    124.9,
+    571.2,
+    469.5,
+    602.9
+   ],
+   "tipo": "texto",
+   "texto": "Figura 2.1 Factor ksys para losas macizas de madera laminada.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    609.3,
+    513.0,
+    619.3
+   ],
+   "tipo": "texto",
+   "texto": "5\nEn la tabla 2.1 se incluyen valores particularizados para algunos de los factores de corrección.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    234.7,
+    626.5,
+    377.3,
+    635.5
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 2.1 Factores de corrección",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    640.3,
+    537.0,
+    726.4
+   ],
+   "tipo": "texto",
+   "texto": "Factor\nAplicación\nde altura\nMadera aserrada:  canto (mm)\n40\n70\n100\n150\nFactor kh de corrección de fm,k y ft,0,k\n1,3\n1,2\n1,1\n1,0\nMadera laminada: canto (mm)\n<240\n300\n400\n600\nFactor kh corrector de fm,g,k y ft,0,g,k\n1,10\n1,07\n1,04\n1,00\nde volumen\nMadera laminada : volumen de la zona afectada (m3)\n<0,010\n0,015\n0,020\n0,030\nFactor kvol corrector de ft,90,g,k\n1,00\n0,92\n0,87\n0,80",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

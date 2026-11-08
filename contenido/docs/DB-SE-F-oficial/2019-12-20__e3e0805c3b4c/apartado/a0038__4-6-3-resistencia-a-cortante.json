@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0038",
+  "ruta_oficial": "4.6.3",
+  "ruta_semantica": "4.6.3 Resistencia a cortante",
+  "titulo": "4.6.3 Resistencia a cortante",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.6.3 Resistencia a cortante",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 15,
+   "bbox": [
+    70.9,
+    237.2,
+    210.4,
+    247.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "58bafa0d91ca4e7697b036598f76b33737fcf2c19cc4d46e1a6975331d52caa1",
+   "literal": "4.6.3 Resistencia a cortante"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0041",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.6.3 Resistencia a cortante",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Materiales 4.1 Piezas / 4.6 Fábricas 4.6.1 Categoría de la ejecución / 4.6.3 Resistencia a cortante",
+   "seccion_estimada": "4 Materiales 4.1 Piezas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f539263bd00959c6e562914d4b1bb1ea0007892779bfae2f3e937e448ea07d07"
+ },
+ "paginas": [
+  15,
+  16
+ ],
+ "etiquetas_impresas": [
+  null,
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4.6.3 Resistencia a cortante\n1\nComo resistencia característica a cortante, fvk, de una fábrica con mortero ordinario y juntas llenas se\npuede tomar:\nmortero ordinario y juntas llenas\nfvk  =  fvko  +  0,36· k      0,065 fb\n(4.1)\nmortero ordinario y llagas a hueso fvk  =  fvko  +  0,45· k      0,045 fb\n(4.2)\nmortero ordinario y tendel hueco\nfvk  = fvko g/t + 0,36· kd    0,050 fb\n(4.3)\nsin superar el valor límite de la tabla 4.5, donde:\nfvko  es la resistencia a corte puro, con tensión de compresión nula, que puede determinarse de la\ntabla 4.5 para morteros ordinarios;\nk   si hay compresión, la tensión característica normal media perpendicular a la tabla, debida a la\ncompresión debida a las cargas permanentes sobre el nivel considerado,\nfb\nes la resistencia normalizada a compresión de las piezas de fábrica, con el esfuerzo actuando\nperpendicular a la tabla,\ng/t\nen fábrica de tendeles huecos, la relación de ancho total de las dos bandas de mortero, cada\nuna de ancho no menor de 30 mm, en los bordes exteriores de la pieza, maciza, a ancho total\nde muro. (véase figura 6.4).\n2\nEl cálculo de fvk, en las fábricas de mortero de junta delgada, con piezas de hormigón celular de\nautoclave, silico-calcáreas o de hormigón, se asimila al de piezas del mismo grupo y morteros de M10\na M20.\n2\nEl cálculo de fvk , en fábricas de mortero ligero, se realizará según el primer punto de este apartado,\nadoptando como mortero el M5.\n3\nLa resistencia a cortante puro de la fábrica fvko, cuando contenga barreras antihumedad se determi-\nnará con el mismo criterio utilizado para las fábricas de tendel hueco.\nTabla 4.5Resistencia característica a cortante para fábricas de mortero ordinario\nTipo de piezas\nfvko (N/mm2)\nLímite defvk (N/mm2) (1)\nMortero (2)\nM1\nM2,5\nM10\nM1\nM2,5\nM10\nmacizas\nLadrillo cerámico\n0,1\n0,2\n0,3\n1,2\n1,5\n1,7\nPiedra natura\n0,1\n0,15\n-\n1,0\n1,0\n-\nOtras\n0,1\n0,15\n0,2\n1,2\n1,5\n1,7\nperforadas\nLadrilo cerámico\n0,1\n0,2\n0,3\n1,4*\n1,2*\n1,0*\nOtras\n0,1\n0,15\n0,2\n1,4*\n1,2*\n1,0*\naligeradas\n0,1\n0,15\n0,2\n1,4*\n1,2*\n1,0*\nhuecas\n0,1\n0,2\n0,3\n**\n**\n**\n* La menor de las resistencias longitudinales a compresión.\n** Sin más limitaciones que las dadas por la ecuación 4.1\n(1) Para llagas a hueso, o con tendel hueco, el valor es el 70% del consignado\n(2) Para valores intermedios no se interpolará, sino que se empleará la columna correspondiente al valor inferior.\n\nDocumento Básico SE-F Fábrica\nSE-F-12",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0015.png",
+  "../figura/p0016.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

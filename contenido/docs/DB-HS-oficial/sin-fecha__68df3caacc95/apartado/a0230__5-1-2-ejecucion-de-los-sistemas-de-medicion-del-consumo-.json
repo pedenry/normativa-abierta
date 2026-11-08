@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0230",
+  "ruta_oficial": "5.1.2",
+  "ruta_semantica": "5.1.2 Ejecución de los sistemas de medición del consumo. Contadores",
+  "titulo": "5.1.2 Ejecución de los sistemas de medición del consumo. Contadores",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.1.2 Ejecución de los sistemas de medición del consumo. Contadores",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 97,
+   "bbox": [
+    70.9,
+    626.1,
+    413.2,
+    637.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b8beef161f437f74b24095d53c87ba42ae694556c57b179b9aed4e8350a26fcc",
+   "literal": "5.1.2 Ejecución de los sistemas de medición del consumo. Contadores"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.2 Ejecución de los sistemas de medición del consumo. Contadores",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Construcción 5.1 Ejecución / 5.1.2 Ejecución de los sistemas de medición del consumo. Contadores",
+   "seccion_estimada": "5 Construcción 5.1 Ejecución",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2fb25a4ec007d831cd37d671f85e56b045aaf528e8ece80b38e53a3b4d0e1352"
+ },
+ "paginas": [
+  97,
+  98
+ ],
+ "etiquetas_impresas": [
+  "97",
+  "98"
+ ],
+ "tipos": [],
+ "texto": "5.1.2 Ejecución de los sistemas de medición del consumo. Contadores\n5.1.2.1\nAlojamiento del contador general\n1\nLa cámara o arqueta de alojamiento estará construida de tal forma que una fuga de agua en la ins-\ntalación no afecte al resto del edificio. A tal fin, estará impermeabilizada y contará con un desagüe\nen su piso o fondo que garantice la evacuación del caudal de agua máximo previsto en la acometi-\nda. El desagüe lo conformará un sumidero de tipo sifónico provisto de rejilla de acero inoxidable re-\ncibida en la superficie de dicho fondo o piso. El vertido se hará a la red de saneamiento general del\nedificio, si ésta es capaz para absorber dicho caudal, y si no lo fuese, se hará directamente a la red\npública de alcantarillado.\n2\nLas superficies interiores de la cámara o arqueta, cuando ésta se realice “in situ”, se terminarán\nadecuadamente mediante un enfoscado, bruñido y fratasado, sin esquinas en el fondo, que a su\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n98\nvez tendrá la pendiente adecuada hacia el sumidero. Si la misma fuera prefabricada cumplirá los\nmismos requisitos de forma general.\n3\nEn cualquier caso, contará con la pre-instalación adecuada para una conexión de envío de señales\npara la lectura a distancia del contador.\n4\nEstarán cerradas con puertas capaces de resistir adecuadamente tanto la acción de la intemperie\ncomo posibles esfuerzos mecánicos derivados de su utilización y situación. En las mismas, se prac-\nticarán aberturas fijas, taladros o rejillas, que posibiliten la necesaria ventilación de la cámara. Irán\nprovistas de cerradura y llave, para impedir la manipulación por personas no autorizadas, tanto del\ncontador como de sus llaves.\n5.1.2.2\nContadores individuales aislados\n1\nSe alojarán en cámara, arqueta o armario según las distintas posibilidades de instalación y cum-\npliendo los requisitos establecidos en el apartado anterior en cuanto a sus condiciones de ejecu-\nción. En cualquier caso este alojamiento dispondrá de desagüe capaz para el caudal máximo con-\ntenido en este tramo de la instalación, conectado, o bien a la red general de evacuación del edificio,\no bien con una red independiente que recoja todos ellos y la conecte con dicha red general.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

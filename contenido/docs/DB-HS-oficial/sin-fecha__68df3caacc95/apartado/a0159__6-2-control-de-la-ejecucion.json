@@ -1,0 +1,91 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0159",
+  "ruta_oficial": "6.2",
+  "ruta_semantica": "6.2 Control de la ejecución",
+  "titulo": "6.2 Control de la ejecución",
+  "nivel": 1,
+  "parent_id": "a0139",
+  "seccion_estimada": "6.2 Control de la ejecución",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 74,
+   "bbox": [
+    70.9,
+    421.2,
+    229.0,
+    434.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9018ba7bb60b0f692cf7f2af94a7aadd92240cbb14cfb3b87ec2fd65b696cf07",
+   "literal": "6.2 Control de la ejecución"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0139",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "artículo 7"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2 Control de la ejecución",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0139",
+   "ruta_semantica": "Sección HS3 / 6.2 Control de la ejecución",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cab051df5de97957ec9533bccf0025cf56a0d8c28b54a5e525ab011cafcbc143"
+ },
+ "paginas": [
+  74
+ ],
+ "etiquetas_impresas": [
+  "74"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.2 Control de la ejecución\n1\nEl control de la ejecución de las obras debe realizarse de acuerdo con las especificaciones del pro-\nyecto, sus anejos y modificaciones autorizados por el director de obra y las instrucciones del direc-\ntor de la ejecución de la obra, conforme a lo indicado en el artículo 7.3 de la parte I del CTE y de-\nmás normativa vigente de aplicación.\n2\nDebe comprobarse que la ejecución de la obra se realiza de acuerdo con los controles y con la fre-\ncuencia de los mismos establecida en el pliego de condiciones del proyecto.\n3\nCualquier modificación que pueda introducirse durante la ejecución de la obra debe quedar en la\ndocumentación de la obra ejecutada sin que en ningún caso dejen de cumplirse las condiciones mí-\nnimas señaladas en este Documento Básico.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "artículo 7"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0074_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0074.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

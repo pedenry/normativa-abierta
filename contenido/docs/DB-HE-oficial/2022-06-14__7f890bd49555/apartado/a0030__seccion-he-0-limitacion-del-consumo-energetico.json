@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0030",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección HE 0 Limitación del consumo energético",
+  "titulo": "Sección HE 0 Limitación del consumo energético",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección HE 0 Limitación del consumo energético",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 9,
+   "bbox": [
+    56.7,
+    73.6,
+    329.7,
+    206.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9a67316ba280691108c738a9e679db742f0934a996c7dcd2812b221014a86d52",
+   "literal": "Sección HE 0 Limitación del consumo energético"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0007",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección HE 0 Limitación del consumo energético",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo H / Sección HE 0 Limitación del consumo energético",
+   "seccion_estimada": "Anejo H",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "27a29ff8700a801f90ae92e48b366133e605ec6cab83491b761fb26fca099c3a"
+ },
+ "paginas": [
+  9
+ ],
+ "etiquetas_impresas": [
+  "9"
+ ],
+ "tipos": [],
+ "texto": "Sección HE 0 Limitación del consumo energético\nLimitación del consumo energético\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0031",
+  "a0032",
+  "a0033",
+  "a0034",
+  "a0035",
+  "a0036",
+  "a0037"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

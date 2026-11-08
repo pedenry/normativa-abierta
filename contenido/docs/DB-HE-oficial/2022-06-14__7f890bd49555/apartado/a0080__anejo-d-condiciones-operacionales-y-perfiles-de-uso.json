@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0080",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo D. Condiciones operacionales y perfiles de uso",
+  "titulo": "Anejo D. Condiciones operacionales y perfiles de uso",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo D. Condiciones operacionales y perfiles de uso",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 49,
+   "bbox": [
+    195.7,
+    51.4,
+    401.9,
+    60.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "196892d8ebad8894d826185c6f858b4c2f0642440e8e2206bf3dd01dc9f01c8b",
+   "literal": "Anejo D. Condiciones operacionales y perfiles de uso"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0106",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo D. Condiciones operacionales y perfiles de uso",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo D. Condiciones operacionales y perfiles de uso",
+   "seccion_estimada": "Anejo D. Condiciones operacionales y perfiles de uso",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0ced7636cfdc3991962a2c707a018f1719709404c80b0a78a91a3d2dcc0f6ec0"
+ },
+ "paginas": [
+  49,
+  50,
+  51
+ ],
+ "etiquetas_impresas": [
+  "49",
+  "50",
+  "51"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo D. Condiciones operacionales y perfiles de uso\n49\nAnejo D Condiciones operacionales y perfiles de uso\n1\nLos espacios del modelo térmico tendrán asociadas unas condiciones operacionales y perfiles de uso\nque se correspondan con el uso concreto de cada espacio.\n2\nEl conjunto de temperaturas de consigna de las condiciones operacionales y el perfil de uso para espacios\nde uso residencial privado, a efectos de cálculo de la demanda energética, serán las especificadas en la\ntabla a-Anejo D, la tabla b-Anejo D y la tabla c-Anejo D:\nTabla a-Anejo D. Condiciones operacionales de espacios acondicionados\nen uso residencial privado\nHorario (semana tipo)\n0:00-6:59\n7:00-14:59\n15:00-22:59 23:00-23:59\nTemperatura de\nconsigna Alta (°C)\nEnero a Mayo\n–\n–\n–\n–\nJunio a Septiembre\n27\n–\n25\n27\nOctubre a Diciembre\n–\n–\n–\n–\nTemperatura de\nconsigna Baja (°C)\nEnero a Mayo\n17\n20\n20\n17\nJunio a Septiembre\n–\n–\n–\n–\nOctubre a Diciembre\n17\n20\n20\n17\nTabla b-Anejo D. Perfil de uso de espacios en uso residencial privado\nHorario (semana tipo)\nCarga interna W/m2\n0:00\n-\n6:59\n7:00\n-\n14:59\n15:00\n-\n17:59\n18:00\n-\n18:59\n19:00\n-\n22:59\n23:00\n-\n23:59\nOcupación (sensible)\nL\n2,15\n0,54\n1,08\n1,08\n1,08\n2,15\nS y F\n2,15\n2,15\n2,15\n2,15\n2,15\n2,15\nOcupación (latente)\nL\n1,36\n0,34\n0,68\n0,68\n0,68\n1,36\nS y F\n1,36\n1,36\n1,36\n1,36\n1,36\n1,36\nIluminación\nL, S y F\n0,44\n1,32\n1,32\n2,20\n4,40\n2,20\nEquipos\nL, S y F\n0,44\n1,32\n1,32\n2,20\n4,40\n2,20\nL: día laboral, S: sábado, F: domingo y festivo.\nTabla c-Anejo D. Perfil de uso de ACS de espacios en uso residencial privado\nHora\n%\nHora\n%\nHora\n%\nHora\n%\n0h\n1\n6h\n3\n12h\n5\n18h\n5\n1h\n0\n7h\n10\n13h\n5\n19h\n7\n2h\n0\n8h\n7\n14h\n4\n20h\n6\n3h\n0\n9h\n7\n15h\n3\n21h\n6\n4h\n0\n10h\n6\n16h\n4\n22h\n5\n5h\n1\n11h\n6\n17h\n4\n23h\n5\nEl % se refiere al tanto por ciento respecto a la demanda diaria de ACS.\n\nDocumento Básico HE Ahorro de energía\nAnejo D. Condiciones operacionales y perfiles de uso\n50\n3\nLas condiciones operacionales y el perfil de uso de usos distintos del residencial privado serán las que\nse definan en el proyecto, pudiendo emplear condiciones operacionales y perfiles de uso normalizados\ncuando las condiciones de uso de los espacios puedan ser asimilables.\n4\nEn el Documento Reconocido de la Certificación energética de edificios que establece las Condiciones\ntécnicas de los procedimientos para la evaluación de la eficiencia energética de los edificios, se define\nun conjunto de perfiles normalizados caracterizados por el uso, la carga interna (baja, media o alta) y el\nperiodo de utilización (8, 12, 16 y 24h).\n\nDocumento Básico HE Ahorro de energía",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0049_t01.json",
+  "../tabla/p0049_t02.json",
+  "../tabla/p0051_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0049.png",
+  "../figura/p0051.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0241",
+  "ruta_oficial": "6.3",
+  "ruta_semantica": "Fragmento de PDF p102",
+  "titulo": "6.3 Incompatibilidades 6.3.1 Incompatibilidad de los materiales y el agua",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p102",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p102",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Productos de construcción 6.1 Condiciones generales de los materiales / 6.3 Incompatibilidades 6.3.1 Incompatibilidad de los materiales y el agua",
+   "seccion_estimada": "6 Productos de construcción 6.1 Condiciones generales de los materiales",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7d6f474089d9245fd92ed8f05a74e3185e0a15508dcd3b79d76798ad7fea7e61"
+ },
+ "paginas": [
+  102,
+  103
+ ],
+ "etiquetas_impresas": [
+  "102",
+  "103"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3 Incompatibilidades 6.3.1 Incompatibilidad de los materiales y el agua\n6.3.1 Incompatibilidad de los materiales y el agua\n1\nSe evitará siempre la incompatibilidad de las tuberías de acero galvanizado y cobre controlando la\nagresividad del agua. Para los tubos de acero galvanizado se considerarán agresivas las aguas no\nincrustantes con contenidos de ión cloruro superiores a 250 mg/l. Para su valoración se empleará el\níndice de Langelier. Para los tubos de cobre se consideraran agresivas las aguas dulces y ácidas\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n103\n(pH inferior a 6,5) y con contenidos altos de CO2. Para su valoración se empleará el índice de Lu-\ncey.\n2\nPara los tubos de acero galvanizado las condiciones límites del agua a transportar, a partir de las\ncuales será necesario un tratamiento serán las de la tabla 6.1:\nTabla 6.1\nCaracterísticas\nAgua fría\nAgua caliente\nResistividad (Ohm x cm)\nTítulo alcalimétrico completo (TAC) meq/l\nOxígeno disuelto, mg/l\nCO2 libre, mg/l\nCO2 agresivo, mg/l\nCalcio (Ca2+), mg/l\nSulfatos (SO4\n2-), mg/l\nCloruros (Cl-), mg/l\nSulfatos + Cloruros, meq/l\n1.500 – 4.500\n1,6 mínimo\n4 mínimo\n30 máximo\n5 máximo\n32 mínimo\n150 máximo\n100 máximo\n-\n2.200 – 4.500\n1,6 mínimo\n-\n15 máximo\n-\n32 mínimo\n96 máximo\n71 máximo\n3 máximo\n3\nPara los tubos de cobre las condiciones límites del agua a transportar, a partir de las cuales será\nnecesario un tratamiento serán las de la tabla 6.2:\nTabla 6.2\nCaracterísticas\nAgua fría y agua caliente\npH\nCO2 libre, mg/l\nIndice de Langelier (IS)\nDureza total (TH), ºF\n7,0 mínimo\nno concentraciones altas\ndebe ser positivo\n5 mínimo (no aguas dulces)\n4\nPara las tuberías de acero inoxidable las calidades se seleccionarán en función del contenido de\ncloruros disueltos en el agua. Cuando éstos no sobrepasen los 200 mg/l se puede emplear el AISI-\n304. Para concentraciones superiores es necesario utilizar el AISI-316.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0103_t01.json",
+  "../tabla/p0103_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0103.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0242"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

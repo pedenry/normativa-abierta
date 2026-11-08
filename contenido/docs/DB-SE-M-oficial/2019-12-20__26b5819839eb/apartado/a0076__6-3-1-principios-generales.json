@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0076",
+  "ruta_oficial": "6.3.1",
+  "ruta_semantica": "6.3.1  Principios generales",
+  "titulo": "6.3.1  Principios generales",
+  "nivel": 1,
+  "parent_id": "a0075",
+  "seccion_estimada": "6.3.1  Principios generales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    70.9,
+    281.0,
+    199.3,
+    291.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "08ed3b1414e9d761c3b685d6e4dc0dc7797d2bdbc00accdcd3e2313f88404589",
+   "literal": "6.3.1  Principios generales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0086",
+  "parent_id_original": "a0075",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.1  Principios generales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0075",
+   "ruta_semantica": "6  Estados límite últimos / 6.3  Estabilidad de piezas. / 6.3.1  Principios generales",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "94f84299b56c2c05ab4d7bfec68cd4585462e48f65a4d267ee93dd7d219b58f8"
+ },
+ "paginas": [
+  34
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.3.1  Principios generales\n1\nAdemás de las tensiones provocadas por la flexión debida a las cargas transversales deben tenerse\nen cuenta las tensiones de flexión provocadas por las imperfecciones geométricas de la pieza (com-\nbaduras), excentricidades inevitables de las cargas y uniones y desplazamientos inducidos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0034.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

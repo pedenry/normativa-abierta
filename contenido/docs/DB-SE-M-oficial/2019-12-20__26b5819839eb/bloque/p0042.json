@@ -1,0 +1,322 @@
+{
+ "documento": null,
+ "pagina": 42,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 36",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    103.1,
+    75.5,
+    329.5,
+    85.4
+   ],
+   "tipo": "texto",
+   "texto": "ii)\ntensiones de tracción perpendicular a la fibra:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    124.8,
+    92.2,
+    541.3,
+    115.1
+   ],
+   "tipo": "texto",
+   "texto": "\nla tensión de cálculo máxima de tracción perpendicular a la fibra, t,90,d, debe cumplir la\nsiguiente condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    144.1,
+    120.9,
+    541.3,
+    132.3
+   ],
+   "tipo": "texto",
+   "texto": "t,90,d    kdis·kvol ·ft,90,d\n(6.51)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    145.3,
+    137.9,
+    180.0,
+    147.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    226.7,
+    155.4,
+    288.2,
+    181.7
+   ],
+   "tipo": "texto",
+   "texto": "b\np\n6,0\nbh",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    170.2,
+    154.4,
+    289.9,
+    182.0
+   ],
+   "tipo": "texto",
+   "texto": "M\n6\ntg\n·\n2,0 =\nd\n2\nap",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    147.0,
+    158.9,
+    277.5,
+    173.8
+   ],
+   "tipo": "texto",
+   "texto": "d\nap,\nap\nd\nt,90,\n\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    512.9,
+    162.0,
+    541.3,
+    171.9
+   ],
+   "tipo": "texto",
+   "texto": "(6.52)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    146.5,
+    189.3,
+    541.3,
+    210.8
+   ],
+   "tipo": "texto",
+   "texto": "kdis  =1,4\ncoeficiente que tiene en cuenta el efecto de la distribución de tensiones de\ntracción perpendicular en la zona de vértice;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    146.5,
+    216.3,
+    541.3,
+    249.2
+   ],
+   "tipo": "texto",
+   "texto": "kvol\nfactor de volumen definido en el apartado 2.2.1.2. En este caso, V, es el\nvolumen, en m3, de la zona de vértice (figura 6.12). Como valor máximo de V\ndebe tomarse 2/3 del volumen total de la viga;V0 = 0,01m3;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    146.5,
+    254.9,
+    444.6,
+    264.8
+   ],
+   "tipo": "texto",
+   "texto": "ft,90,d\nresistencia de cálculo a tracción perpendicular a la fibra;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    146.5,
+    270.3,
+    541.3,
+    291.8
+   ],
+   "tipo": "texto",
+   "texto": "pd\ncarga distribuida de compresión sobre la zona del vértice en el borde superior\nde la viga;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    146.5,
+    297.3,
+    384.8,
+    307.3
+   ],
+   "tipo": "texto",
+   "texto": "b\nancho de la sección transversal de la viga.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    313.8,
+    436.3,
+    323.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nAdemás, debe realizarse la comprobación a cortante según el apartado 6.1.8.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    338.2,
+    298.2,
+    348.1
+   ],
+   "tipo": "texto",
+   "texto": "6.4.4  Vigas con partes de su trazado curvadas.",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    357.8,
+    541.3,
+    390.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEste apartado se refiere a vigas cuyo alzado se corresponde con uno de los dos representados en\nlas figuras 6.13 y 6.14. Se ejemplifica en casos simétricos en los que la zona de vértice, correspon-\ndiente al trazado en curva, está en el centro.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    132.1,
+    485.0,
+    479.7,
+    504.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.13 Viga curva de canto constante (la laminación es paralela a las caras)",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    78.6,
+    646.3,
+    533.4,
+    656.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.14 Viga a dos aguas con intradós curvo (la laminación se interrumpe en la zona del vértice, en el",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    166.2,
+    657.5,
+    445.8,
+    666.5
+   ],
+   "tipo": "texto",
+   "texto": "cambio de pendiente, pero no en las zonas próximas al intradós)",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    88.8,
+    668.2,
+    312.9,
+    691.6
+   ],
+   "tipo": "texto",
+   "texto": "Deben efectuarse las comprobaciones siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    88.8,
+    699.1,
+    439.8,
+    709.1
+   ],
+   "tipo": "texto",
+   "texto": "a) en los tramos de directriz recta de la viga (exteriores a la zona del vértice):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    104.2,
+    716.6,
+    541.3,
+    749.5
+   ],
+   "tipo": "texto",
+   "texto": "i)\nen los dos tramos de directriz recta y canto constante de la viga (figura 6.13), se realizarán\nlas comprobaciones ya indicadas para piezas de sección constante (apartados 6.1, 6.2 y\n6.3);",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

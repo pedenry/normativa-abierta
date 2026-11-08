@@ -1,0 +1,74 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0040",
+  "ruta_oficial": "5",
+  "ruta_semantica": "Fragmento de PDF p17",
+  "titulo": "5 Análisis estructural 5.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p17",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p17",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c52a4dd2b733b2552e452bfa3cd2ef08c941a9b6ef28a2bd5bb1720f79315e6d"
+ },
+ "paginas": [
+  17
+ ],
+ "etiquetas_impresas": [
+  "17"
+ ],
+ "tipos": [],
+ "texto": "5 Análisis estructural 5.1 Generalidades\n5.1 Generalidades\n1\nEn general la comprobación ante cada estado límite se realiza en dos fases: determinación de los\nefectos de las acciones, o análisis (esfuerzos y desplazamientos de la estructura) y comparación\ncon la correspondiente limitación, o verificación (resistencias y flechas o vibraciones admisibles\nrespectivamente). Son admisibles los siguientes procedimientos:\na)\nlos basados en métodos incrementales que, en régimen no lineal, adecuen las características\nelásticas de secciones y elementos al nivel de esfuerzos actuantes.\nb)\nlos basados en métodos de cálculo en capacidad, que parten para el dimensionado de deter-\nminados elementos (normalmente los que presentan formas frágiles de fallo, como las unio-\nnes) no de los esfuerzos obtenidos en el análisis global sino de los máximos esfuerzos que\nles puedan ser transmitidos desde los elementos dúctiles (normalmente las barras) aledaños.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0041",
+  "a0045",
+  "a0047",
+  "a0048",
+  "a0050",
+  "a0053"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

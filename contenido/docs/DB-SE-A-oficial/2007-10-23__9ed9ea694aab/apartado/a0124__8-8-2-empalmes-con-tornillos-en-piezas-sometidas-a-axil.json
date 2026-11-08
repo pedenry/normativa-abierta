@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0124",
+  "ruta_oficial": "8.8.2",
+  "ruta_semantica": "8.8.2 Empalmes con tornillos en piezas sometidas a axil",
+  "titulo": "8.8.2 Empalmes con tornillos en piezas sometidas a axil",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "8.8.2 Empalmes con tornillos en piezas sometidas a axil",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 82,
+   "bbox": [
+    74.1,
+    432.9,
+    342.6,
+    444.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ce6aecdc2be3916169fcc36d08d8a2e7c82c6979169d5bb973842a6e3a5b961d",
+   "literal": "8.8.2 Empalmes con tornillos en piezas sometidas a axil"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0122",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 8.5"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.8.2 Empalmes con tornillos en piezas sometidas a axil",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / 8.8.2 Empalmes con tornillos en piezas sometidas a axil",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "57b5c72ba154b072fe02251612c7db158c444712ddc8812ece511d905b0ab9d9"
+ },
+ "paginas": [
+  82,
+  83
+ ],
+ "etiquetas_impresas": [
+  "82",
+  "83"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.8.2 Empalmes con tornillos en piezas sometidas a axil\n1\nSe admitirá la transmisión por contacto en elementos comprimidos únicamente si las superficies en\ncuestión se han preparado para resultar suficientemente planas y se evita toda posibilidad de des-\nplazamiento en cualquier situación de dimensionado. En este caso, el empalme asegurará la conti-\nnuidad de rigidez y se dimensionará para resistir a tracción donde existan momentos relevantes\ndebidos a excentricidades, imperfecciones iniciales y deformaciones de segundo orden u otras\ncausas.\n2\nLos empalmes a tracción se podrán realizar con cubrejuntas o por solape (figura 8.14). En las dis-\nposiciones indicadas en la figura 8.14 b) y d) aparecerá un momento debido a la excentricidad que\nse tendrá en cuenta en el dimensionado de la unión, por lo que únicamente se utilizará en el caso\nde barras que transmitan esfuerzos reducidos o en uniones de atado.\n3\nSe admite que la carga se reparte por igual entre los tornillos situados en una fila en la dirección de\nla tracción. No obstante, cuando la distancia L entre los ejes de los tornillos extremos de una unión\nen la dirección de la carga es mayor de 15 d, en la que d es el diámetro del vástago, la resistencia\nde cálculo Fv.Rd de cada tornillo, obtenida según el apartado 8.5, se reducirá multiplicándola por el\ncoeficiente:\nd\n200\nd\n15\nL\n1\nLf\n−\n−\n=\nβ\n(8.42)\nsiendo\n75\n,0\n0,1\nLf≥\nβ\n≥\n\nDocumentoBásico SE-A Acero\nSE-A-81\nFigura 8.14 Empalmes con tornillos\n4\nSi los tornillos deben atravesar forros intermedios con espesor total:\n3\nd\ntp>\n(8.43)\ndonde d es el diámetro del vástago, se reducirá la resistencia a cortadura del tornillo, utilizando el\nfactor:\n1\nt\n3\nd\n8\nd\n9\np\np\n≤\n+\n=\nβ\n(8.44)\nEn uniones a doble cortadura con forros a ambos lados del eje de la unión se tomará como valor\nde tp el mayor de los espesores de dichos forros.\n5\nEn uniones a solape con un solo tornillo, se dispondrán arandelas bajo la tuerca y bajo la cabeza,\nlimitándose la resistencia a aplastamiento Fb.Rd al valor:\nM2\nu\nRd\n,\nb\nt d\nf\n5,1\nF\nγ\n≤\n(8.45)\nsiendo\nt\nmenor espesor de las placas que se unen;\nfu\nresistencia a rotura del acero de las chapas que se unen.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.5"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0082.png",
+  "../figura/p0083.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

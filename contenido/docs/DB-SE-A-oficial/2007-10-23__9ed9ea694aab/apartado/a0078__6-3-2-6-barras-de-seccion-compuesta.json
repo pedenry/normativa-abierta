@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0078",
+  "ruta_oficial": "6.3.2.6",
+  "ruta_semantica": "6.3.2.6 Barras de sección compuesta",
+  "titulo": "6.3.2.6 Barras de sección compuesta",
+  "nivel": 1,
+  "parent_id": "a0073",
+  "seccion_estimada": "6.3.2.6 Barras de sección compuesta",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    78.0,
+    655.0,
+    255.8,
+    666.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "631e950fb406c387ca046f6cbca72bc29c28e8bc239efe5eb9d14db0bdeef632",
+   "literal": "6.3.2.6 Barras de sección compuesta"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0078",
+  "parent_id_original": "a0073",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.6 Barras de sección compuesta",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0073",
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores. / Perfiles L / 6.3.2.6 Barras de sección compuesta",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7f920e0f1f7c847f899d557cb1ce95ff63f5eacc43e1e62bab71071c4b365658"
+ },
+ "paginas": [
+  42,
+  43
+ ],
+ "etiquetas_impresas": [
+  "42",
+  "43"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6.3.2.6 Barras de sección compuesta\n1\nSe denominan así a las piezas formadas por dos o más perfiles, enlazados mediante presillas o\nmediante una celosía triangular, de trazado regular y disposición simétrica\n2\nEl número de tramos en que queda dividida la barra de sección compuesta por los elementos de\nenlace será igual o superior a 4, existiendo siempre un elemento de enlace al principio y al final de\nla barra.\nPilar a comprobar: Kc\nCoeficiente de distribución η1\nCoeficiente de distribución η2\nK1\nK2\nK12\nK11\nK22\nK21\n\nDocumentoBásico SE-A Acero\nSE-A-41\n3\nSe denomina eje de inercia material al que pasa por el centro de gravedad de las secciones de\ntodos los perfiles simples que forman la pieza y eje de inercia libre al que no cumple esa condi-\nción.\n4\nEn el plano perpendicular al eje de inercia material el pandeo se comprueba como si se tratase de\nuna barra simple.\n5\nEn el plano perpendicular a un eje de inercia libre se adoptará una imperfección inicial de valor\nL/500, del lado desfavorable, que será ampliada por el factor 1/(1-r), siendo r la relación de la\ncompresión de cálculo a la compresión crítica. Para determinar ésta, la inercia equivalente podrá\nobtenerse mediante un análisis de deformación frente a acción lateral uniforme en un modelo que\nincluya individualizadamente los elementos secundarios, presillas o triangulaciones de la pieza.\nObtenidos los esfuerzos de cada cordón, a partir de los de la pieza completa y la excentricidad ci-\ntada, se comprobará cada tramo de cordón entre elementos secundarios suponiendo para éste\nuna imperfección inicial igual a la definida en la tabla 5.8, ampliada a partir de la relación entre la\ncarga del cordón y la crítica local de este, suponiendo articulaciones en los extremos del tramo.\n6\nEn el caso particular de presillas, como compresión crítica podrá tomarse la expresión\n2\nt\n2\nt\n2\n2\nk\n2\ncri\ni/\nl\ni/\nL\nEA\nN\n+\nπ\n=\n(6.27)\nsiendo:\nA\nLa sección total de los cordones de la barra,\nLk\nLa longitud de pandeo de la pieza completa como si fuese de sección conexa,\ni\nradio de giro de la pieza completa, como si fuese conexa,\nlt\nlongitud del tramo entre presillas,\nit\nradio de giro del cordón.\n7\nPara el cálculo de los elementos de celosía o presillas, al cortante global de la pieza se añadirá el\nprocedente de la imperfección ampliada, que puede tomarse de valor\nr\n1\n1\n150\nN\nV\nEd\nEd\n−\n⋅\n=\n(6.28)\nLas piezas de enlace se unirán rígidamente a los cordones, bien mediante tornillos (al menos dos\nen el caso de presillas), bien mediante soldadura, y en el caso de las comprimidas se comproba-\nrán frente a inestabilidad por pandeo.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0042.png",
+  "../figura/p0043.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

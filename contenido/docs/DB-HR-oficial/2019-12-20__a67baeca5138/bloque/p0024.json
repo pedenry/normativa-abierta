@@ -1,0 +1,166 @@
+{
+ "documento": null,
+ "pagina": 24,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    215.0,
+    35.9,
+    396.9,
+    46.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HR - Protección frente al ruido",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    294.5,
+    797.1,
+    319.9,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "HR-18",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    92.4,
+    382.8,
+    103.5
+   ],
+   "tipo": "texto",
+   "texto": "3.1.3  Opción general. Método de cálculo de aislamiento acústico",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    109.0,
+    541.4,
+    157.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa opción general contiene un procedimiento de cálculo basado en el modelo simplificado para la\ntransmisión acústica estructural de la UNE-EN ISO 12354 partes 1, 2 y 3. También podrá utilizarse\nel modelo detallado que se especifica en esa norma.\n2\nLa transmisión acústica desde el exterior a un recinto de un edificio o entre dos recintos de un edifi-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    157.9,
+    541.2,
+    206.6
+   ],
+   "tipo": "texto",
+   "texto": "cio se produce siguiendo los caminos directos y los indirectos o por vía de flancos.\n3\nEn el cálculo de ruido aéreo se usa el aislamiento acústico aparente R’ (o índice de reducción acús-\ntica aparente), que se considera en su forma global RA’; en el cálculo de ruido de impactos se usa el\nnivel global de presión de ruido de impactos normalizado L’n,w.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    220.0,
+    245.5,
+    231.1
+   ],
+   "tipo": "texto",
+   "texto": "3.1.3.1  Procedimiento de aplicación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    236.4,
+    541.4,
+    498.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara el correcto diseño y dimensionado de los elementos constructivos de un edificio que propor-\ncionan el aislamiento acústico, tanto a ruido aéreo como a ruido de impactos, debe realizarse el di-\nseño y dimensionado de sus recintos teniendo en cuenta las diferencias en forma, tamaño y de\nelementos constructivos entre parejas de recintos, y considerando cada uno de ellos como recinto\nemisor y como recinto receptor.\n2\nDebe procederse separadamente al cálculo del aislamiento acústico a ruido aéreo tanto de elemen-\ntos de separación verticales (particiones y medianerías) y elementos de separación horizontales,\ncomo de fachadas y de cubiertas (véase figura 3.1), y al cálculo del aislamiento acústico a ruido de\nimpactos de los elementos de separación horizontales entre recintos superpuestos, entre recintos\nadyacentes y entre recintos con una arista horizontal común (véase figura 3.7).\n3\nA partir de los datos previos establecidos en el apartado 3.1.1, debe determinarse el aislamiento\nacústico a ruido aéreo (DnT,A, diferencia de niveles estandarizada, ponderada A) y el nivel global de\npresión de ruido de impactos estandarizado, L’nT,w, para un recinto, teniendo en cuenta las transmi-\nsiones acústicas directas de los elementos constructivos que lo separan de otros y también las\ntransmisiones acústicas indirectas por todos los caminos posibles, así como las características\ngeométricas del recinto, los elementos constructivos empleados y las formas de encuentro de los\nelementos constructivos entre sí.\n4\nLos valores finales de las magnitudes que definen las exigencias, diferencia de niveles estandariza-\nda, ponderada A, DnT,A, y nivel global de presión de ruido de impactos estandarizado ,L’nT,w, se ex-\npresarán redondeados a un número entero. Los valores de las especificaciones de productos y\nelementos constructivos podrán usarse redondeados a enteros o con un decimal y en las magnitu-\ndes de cálculos intermedios se usará una cifra decimal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    511.5,
+    503.9,
+    522.6
+   ],
+   "tipo": "texto",
+   "texto": "3.1.3.2  Hipótesis para el cálculo. Comportamiento en obra de los elementos constructivos",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    527.9,
+    538.6,
+    562.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas transmisiones por vía directa y por vía de flancos deben establecerse en términos de aislamien-\nto medido in situ. No obstante, a efectos de este DB se consideran válidas las expresiones siguien-\ntes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    94.9,
+    576.7,
+    541.5,
+    590.7
+   ],
+   "tipo": "texto",
+   "texto": "lab\nsitu\nR\nR\n=\n     [dB]\n(3.1)",
+   "tamano": 10.2,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    94.9,
+    591.6,
+    541.5,
+    605.7
+   ],
+   "tipo": "texto",
+   "texto": "lab\n,n\nsitu\n,n\nL\nL\n=\n     [dB]\n(3.2)",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    608.0,
+    541.4,
+    746.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nRsitu\níndice de reducción acústica de un elemento medido in situ, [dB]\nRlab\níndice de reducción acústica de un elemento medido en laboratorio, [dB]\nLn,situ\nnivel de presión de ruido de impactos normalizado medido in situ, [dB]\nLn,lab\nnivel de presión de ruido de impactos normalizado medido en laboratorio, [dB]\n2\nDe igual forma, para revestimientos tales como techos suspendidos, suelos flotantes y trasdosados,\nlos valores medidos in situ de la mejora del índice de reducción acústica, Rsitu, y de la reducción\ndel nivel de presión de ruido de impactos por revestimiento de la cara de emisión del elemento de",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

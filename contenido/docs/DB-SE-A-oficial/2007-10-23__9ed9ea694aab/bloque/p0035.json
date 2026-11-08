@@ -1,0 +1,472 @@
+{
+ "documento": null,
+ "pagina": 35,
+ "etiqueta_impresa": "35",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-33",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    100.7,
+    73.4,
+    541.4,
+    107.5
+   ],
+   "tipo": "texto",
+   "texto": "f)\nen el caso de perfiles laminados en I o H el efecto de interacción puede despreciarse cuando\nse consideran únicamente las alas en el cálculo de la resistencia a flexión y el alma en el cál-\nculo de la resistencia a cortante.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.0,
+    113.9,
+    205.8,
+    125.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nFlexión, axil y cortante:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    100.7,
+    131.4,
+    541.3,
+    165.6
+   ],
+   "tipo": "texto",
+   "texto": "a)\nsiempre que el cortante de cálculo no supere la mitad de la resistencia de cálculo de la sec-\nción (calculada en ausencia de otros esfuerzos), se emplearán las fórmulas de interacción\ndadas (véanse ecuaciones 6.11);",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    100.7,
+    171.9,
+    541.4,
+    218.4
+   ],
+   "tipo": "texto",
+   "texto": "b)\ncuando el cortante de cálculo supere la mitad de la resistencia de cálculo de la sección (cal-\nculada en ausencia de otros esfuerzos), la resistencia de ésta para el conjunto de esfuerzos\nse determinará utilizando para el área de cortante un valor reducido del límite elástico (o al-\nternativamente del espesor) conforme al factor (1-ρ), viniendo ρ dado por la ecuación 6.13.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    78.0,
+    224.6,
+    185.2,
+    235.8
+   ],
+   "tipo": "texto",
+   "texto": "4\nCortante y torsión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    100.7,
+    242.1,
+    541.4,
+    264.8
+   ],
+   "tipo": "texto",
+   "texto": "En las comprobaciones en que intervenga la resistencia a cortante se empleará la resistencia\nplástica a cortante reducida por la existencia de tensiones tangenciales de torsión uniforme:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    102.7,
+    270.9,
+    541.0,
+    284.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Rd\n,\nT\n,\npl\nRd\n,c\nV\nV\n≤\n(6.14)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    100.7,
+    293.1,
+    273.6,
+    304.3
+   ],
+   "tipo": "texto",
+   "texto": "siendo, en secciones huecas cerradas",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    160.7,
+    322.2,
+    197.6,
+    346.0
+   ],
+   "tipo": "texto",
+   "texto": "(\n)",
+   "tamano": 13.8,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    166.3,
+    328.6,
+    226.3,
+    345.9
+   ],
+   "tipo": "texto",
+   "texto": "Rd\n,\npl\nyd",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    102.7,
+    321.0,
+    211.1,
+    344.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\n,t\nRd\n,\nT\n,\npl\nV\n3\n/\nf\n1\nV",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    197.4,
+    321.6,
+    201.2,
+    348.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    197.4,
+    312.1,
+    201.2,
+    324.3
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    142.8,
+    321.6,
+    146.6,
+    348.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    134.4,
+    312.1,
+    541.0,
+    334.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "\nτ\n−\n=\n(6.15)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    78.0,
+    355.6,
+    179.1,
+    366.8
+   ],
+   "tipo": "texto",
+   "texto": "5\nFlexión y torsión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    100.7,
+    373.1,
+    541.4,
+    395.8
+   ],
+   "tipo": "texto",
+   "texto": "En las comprobaciones en que intervenga la resistencia a flexión se empleará la resistencia a\nflexión reducida por la existencia de tensiones normales de torsión de alabeo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    169.7,
+    418.1,
+    216.9,
+    433.7
+   ],
+   "tipo": "texto",
+   "texto": "Rd\n,c\nyd",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    101.9,
+    410.5,
+    202.8,
+    436.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\n,\nw\nRd\n,\nT\n,c\nM\nf\n1\nM\n⋅\n\n\n",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    185.2,
+    403.3,
+    189.0,
+    415.5
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    142.7,
+    412.7,
+    146.6,
+    436.2
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    134.3,
+    403.3,
+    541.0,
+    424.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "\nσ\n−\n=\n(6.16)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    100.7,
+    442.8,
+    541.4,
+    466.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "expresión en la que la tensión normal máxima σw,Ed se determina mediante las expresiones de la\nteoría de torsión no uniforme.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 25,
+   "bbox": [
+    78.0,
+    484.0,
+    245.4,
+    497.4
+   ],
+   "tipo": "titulo",
+   "texto": "6.3 Resistencia de las barras",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 26,
+   "bbox": [
+    78.0,
+    512.8,
+    147.5,
+    523.9
+   ],
+   "tipo": "texto",
+   "texto": "6.3.1 Tracción",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 27,
+   "bbox": [
+    78.0,
+    532.1,
+    541.4,
+    554.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe calcularán a tracción pura las barras con esfuerzo axil centrado. A estos efectos es admisible\ndespreciar los flectores:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    100.7,
+    561.2,
+    424.0,
+    572.4
+   ],
+   "tipo": "texto",
+   "texto": "a)\ndebidos al peso propio de las barras de longitudes inferiores a 6 m;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    100.7,
+    578.6,
+    361.8,
+    589.8
+   ],
+   "tipo": "texto",
+   "texto": "b)\ndebidos al viento en las barras de vigas trianguladas;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    100.7,
+    596.1,
+    541.4,
+    618.9
+   ],
+   "tipo": "texto",
+   "texto": "c)\ndebidos a la excentricidad en las barras de arriostramiento cuando su directriz no esté en el\nplano de la unión;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    78.0,
+    625.1,
+    541.4,
+    659.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa esbeltez reducida (definida en el siguiente apartado) de las barras en tracción de la estructura\nprincipal no superará el valor 3,0, pudiendo admitirse valores de hasta 4,0 en las barras de arrios-\ntramiento.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    78.0,
+    665.6,
+    541.4,
+    689.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa resistencia a tracción pura de la barra, Nt,Rd, será la resistencia plástica de la sección bruta,\nNpl,Rd, calculada según el apartado 6.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    78.0,
+    701.7,
+    164.2,
+    712.9
+   ],
+   "tipo": "texto",
+   "texto": "6.3.2 Compresión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 34,
+   "bbox": [
+    78.0,
+    721.1,
+    541.4,
+    756.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa resistencia de las barras a compresión, Nc,Rd, no superará la resistencia plástica de la sección\nbruta, Npl,Rd, calculada según el apartado 6.2, y será menor que la resistencia última de la barra a\npandeo, Nb,Rd, calculada según se indica en los siguientes apartados.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,218 @@
+{
+ "documento": null,
+ "pagina": 88,
+ "etiqueta_impresa": "2",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 82",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    139.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa resistencia al descuadre, Fv,Rd, de un muro diafragma, que consta de uno o más paneles en los\nque cada tablero queda fijado a un solo lado del entramado  de madera  mediante elementos mecá-\nnicos de fijación, asegurado convenientemente al levantamiento (mediante fuerzas verticales o an-\nclajes), solicitado por una fuerza horizontal Fk, que actúa en el borde superior,  puede determinarse\npor el procedimiento simplificado que se indica a continuación, siempre que se cumplan las condicio-\nnes siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    88.8,
+    147.5,
+    538.5,
+    157.4
+   ],
+   "tipo": "texto",
+   "texto": "a) La separación entre los elementos de fijación es constante a lo largo del perímetro de cada ta-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    106.9,
+    159.0,
+    139.7,
+    168.9
+   ],
+   "tipo": "texto",
+   "texto": "blero y",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    176.3,
+    336.3,
+    186.2
+   ],
+   "tipo": "texto",
+   "texto": "b) El ancho bi de cada panel es igual o superior a h/4.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    106.6,
+    190.9,
+    429.8,
+    212.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nbi y h\nlongitud y altura, respectivamente, del panel (véase figura 10.7).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    246.0,
+    358.3,
+    417.1,
+    376.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura 10.7 Muro diafragma",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    377.5,
+    541.3,
+    424.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nEl valor de cálculo de la resistencia al descuadre, Fv,Rd , de un muro diafragma que consta de varios\npaneles con un solo tablero fijado a un lado del entramado, puede calcularse aplicando la fórmula si-\nguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    88.8,
+    428.1,
+    541.3,
+    453.9
+   ],
+   "tipo": "texto",
+   "texto": "Fv,Rd =  Fi,v,Rd\n(10.54)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    90.1,
+    458.5,
+    508.4,
+    480.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nFi,v,Rd la resistencia al descuadre de cada panel (véase figura 10.8) definida por la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    147.7,
+    497.9,
+    152.7,
+    507.9
+   ],
+   "tipo": "texto",
+   "texto": "s",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    91.3,
+    482.6,
+    172.7,
+    502.0
+   ],
+   "tipo": "texto",
+   "texto": "c\nb\nF\nF\ni\ni\nRd\n,f\nRd\n,v,i",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    117.5,
+    481.1,
+    541.3,
+    500.1
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n (10.55)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    90.1,
+    509.5,
+    479.9,
+    600.7
+   ],
+   "tipo": "texto",
+   "texto": "donde:\nFf,Rd\nvalor de cálculo de la capacidad de carga lateral por elemento de fijación.\ns\nseparación entre elementos de fijación.\nbi\nanchura del módulo (b1, bi, bj, bn, (véase figura 10.8));\ns\nseparación entre elementos de fijación;\nci=1\npara bi   h/2;\nci= bi /(h/2)\npara bi  < h/2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    216.1,
+    735.9,
+    472.5,
+    764.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura 10.8 Solicitaciones sobre un panel",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

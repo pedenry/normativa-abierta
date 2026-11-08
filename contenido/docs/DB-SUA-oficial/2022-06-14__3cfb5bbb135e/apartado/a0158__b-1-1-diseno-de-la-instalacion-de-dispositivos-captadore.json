@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0158",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo B Características de las instalaciones de protección frente al rayo / B.1 Sistema externo / B.1.1 Diseño de la instalación de dispositivos captadores",
+  "titulo": "B.1.1 Diseño de la instalación de dispositivos captadores",
+  "nivel": 3,
+  "parent_id": "a0157",
+  "seccion_estimada": "Anejo B Características de las instalaciones de protección frente al rayo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    244.0,
+    404.4,
+    257.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "6877931184dc08114edde89ec326acbf3c4a25fb5d0f466c17a6a7a10b973046",
+   "literal": "B.1.1 Diseño de la instalación de dispositivos captadores"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0118",
+  "parent_id_original": "a0157",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.1.1 Diseño de la instalación de dispositivos captadores",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0157",
+   "ruta_semantica": "Anejo B Características de las instalaciones de protección frente al rayo / B.1 Sistema externo / B.1.1 Diseño de la instalación de dispositivos captadores",
+   "seccion_estimada": "Anejo B Características de las instalaciones de protección frente al rayo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "22ebab9c48208e6f15fbff8df6c46ea72c44bb120f468b3751d153ba12af4140"
+ },
+ "paginas": [
+  42,
+  43
+ ],
+ "etiquetas_impresas": [
+  "42",
+  "43"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "B.1.1 Diseño de la instalación de dispositivos captadores\n1\nLos dispositivos captadores podrán ser puntas Franklin, mallas conductoras y pararrayos con dispo-\nsitivo de cebado.\nB.1.1.1 Volumen protegido mediante puntas Franklin y mallas conductoras\n1\nEl diseño de la instalación se hará de manera que, en función del nivel de protección requerido, el\nedificio quede dentro del volumen protegido determinado por alguno de los siguientes métodos, que\npueden utilizarse de forma separada o combinada:\na) ángulo de protección;\nb) esfera rodante;\nc)\nmallado o retícula.\nB.1.1.1.1 Método del ángulo de protección\n1\nEl volumen protegido determinado por los dispositivos captadores está formado por la superficie de\nreferencia y la superficie generada por una línea que, pasando por el extremo del dispositivo capta-\ndor, gire formando un ángulo  con él. Los valores de los ángulos de protección  vienen dados en la\ntabla B.1 en función de la diferencia de altura entre la punta del pararrayos y el plano horizontal\nconsiderado h, para cada nivel de protección. Cuando se disponga un conductor horizontal uniendo\ndos puntas, el volumen protegido será el resultante de desplazar a lo largo del conductor el definido\npor las puntas (véase figura B.1).\nFigura B.1 Volumen protegido por captadores\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad\nAnejo B. Características de las instalaciones de protección frente al rayo\n43\nFigura B.2 Ángulo de protección, disposición para diferentes alturas\nTabla B.1 Ángulo de protección \nNivel de protección\nDiferencia de altura h entre la punta del pararrayos y el\nplano horizontal considerado\nm\n20\n30\n45\n60\n1\n25º\n*\n*\n*\n2\n35º\n25º\n*\n*\n3\n45º\n35º\n25º\n*\n4\n55º\n45º\n35º\n25º\n* En estos casos se emplean los métodos de esfera rodante y/o malla.\nB.1.1.1.2 Método de la esfera rodante\n1\nEl volumen protegido queda definido al hacer rodar una esfera de radio R sobre el edificio (véase\nfigura B.3). Las zonas que puedan ser tocadas por la esfera son susceptibles de ser alcanzados por\nlas descargas.\nFigura B.3 Esfera rodante en estructuras\n2\nEl radio de la esfera será el indicado en la tabla B.2 en función del nivel de protección.\nTabla B.2 Radio de la esfera rodante\nNivel de protección\nRadio de la esfera rodante\nm\n1\n20\n2\n30\n3\n45\n4\n60",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0042.png",
+  "../figura/p0043.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0159"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

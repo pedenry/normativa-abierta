@@ -1,0 +1,77 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0149",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p107",
+  "titulo": "sección",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p107",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p107",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / sección",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "488c3eb5ee0d26fd2bdf0c0e03b70de3b96df660d5339effcd042c3349fd8087"
+ },
+ "paginas": [
+  107,
+  108,
+  109
+ ],
+ "etiquetas_impresas": [
+  "107",
+  "108",
+  "109"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "sección\nhueca\ncuadrada\no\nrectangular\nde\nla\nbarra\ni\n(i = 0, 1 ó 2).\nbef\nanchura eficaz del enlace o conexión de una barra de alma con un cordón.\nbe.ov anchura efectiva del enlace o unión de la barra de alma solapante con la solapada.\nbw\nanchura efectiva del alma del cordón.\ndi\ndiámetro de la sección hueca circular de la barra i.\ndw\naltura del alma de un cordón de sección en I o en H.\ne\nexcentricidad de un nudo.\nfyi\nvalor de cálculo del límite elástico de la barra i.\ng\nseparación entre las barras de alma de un nudo en K o N.\nhi\naltura exterior de una sección de una barra i.\ni\nsubíndice utilizado para designar una barra de un nudo, i = 0 denota un cordón e i = 1 y 2 designa\na las barras de alma. En los nudos con dos barras de alma, i = 1 designa normalmente a la riostra\ncomprimida e i = 2 a la riostra traccionada.\ni, j\nsubíndices utilizados para designar a las barras solapante y solapada.\nkg, kp coeficientes definidos en la tabla 8.2.\nkn\ncoeficiente definido en la tabla 8.4.\nn\n= σo/fyo\nnp\n= σp/fyo\nro\nradio del acuerdo ala-alma de un cordón de sección en I o en H.\nti\nespesor de pared de la barra i.\ntf\nespesor del ala de una sección en doble T o en H.\ntw\nespesor del alma de una sección en doble T o en H.\nα\nfactor que da la contribución del ala del cordón frente a la resistencia al esfuerzo cortante.\nβ\nrelación entre el diámetro medio (o la anchura media) de la barra de alma y del cordón.\n0\n2\n1\n0\n1\n0\n2\n1\n0\n1\nb\n2\nb\nb\nó\nb\nb\n,\nd\n2\nd\nd\nó\nd\nd\n+\n+\nγ\nrelación entre el radio (o la mitad de la anchura) del cordón y el espesor de pared de éste.\n0\n0\n0\n0\nt\n2\nb\nó\nt\n2\nd\nγMj\ncoeficiente de seguridad parcial de la unión\nθi\nángulo entre el cordón y una barra de alma i.\nσo\ntensión máxima de compresión en el cordón debida al esfuerzo axial y al momento flector.\n\nDocumentoBásico SE-A Acero\nSE-A-106\nσp\nvalor de σo después de deducir la tensión debida a las componentes horizontales de los esfuerzos\nen las barras del nudo.\nLos nudos K, N, T, X y KT son descripciones abreviadas para los tipos de uniones o nudos representa-\ndos en la figura 8.26.\nFigura 8.26 Tipos de nudos\n\nDocumentoBásico SE-A Acero\nSE-A-107",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0107.png",
+  "../figura/p0108.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

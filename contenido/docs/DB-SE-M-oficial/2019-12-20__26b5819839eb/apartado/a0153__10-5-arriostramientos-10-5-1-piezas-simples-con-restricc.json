@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0153",
+  "ruta_oficial": "10.5",
+  "ruta_semantica": "Fragmento de PDF p90",
+  "titulo": "10.5  Arriostramientos 10.5.1  Piezas simples con restricciones intermedias",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p90",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p90",
+  "referencias_filtradas": [
+   "apartado 6.3.3.3"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.5  Arriostramientos 10.5.1  Piezas simples con restricciones intermedias",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c257af51162f99f17f432023d6090a76415bd03b4d1e13582e373ec8c3dd72f7"
+ },
+ "paginas": [
+  90,
+  91,
+  92
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "10.5  Arriostramientos 10.5.1  Piezas simples con restricciones intermedias\n10.5.1  Piezas simples con restricciones intermedias\n1\nEn piezas simples comprimidas, que requieran restricciones laterales intermedias a intervalos a\n(véase figura 10.11), las desviaciones iniciales de la forma recta entre los puntos de restricción de-\nben tomarse, para su cálculo, como a/500 en elementos de madera laminada encolada y de madera\nmicrolaminada y a/300 en otras piezas.\n2\nEn casos de peritación se podrán admitir desviaciones inciales mayores.\n3\nCada restricción intermedia debe aportar un coeficiente de rigidez mínimo C definido por la expresión\nsiguiente:\na\nN\nk\nC\nd\ns\n\n(10.58)\nsiendo:\nNd\nvalor medio de cálculo de la solicitación axil de compresión en la combinación más desfavo-\nrable;\na\nseparación entre secciones arriostradas;\nks\nfactor de modificación deducido de la expresión:\nks = 2(1+cos /m)\n(10.59)\ndonde:\nm\nnúmero de vanos de longitud a.\nFigura 10.11 Piezas simples con restricciones laterales intermedias.\n4\nComo consecuencia de la restricción aportada por las barras de atado se genera en los puntos de\narriostramiento una fuerza de estabilización, Fd , definida de la manera siguiente:\na) Soportes o piezas comprimidas.\n\nDocumentoBásico SE-M Madera\nSE-M 85\nEl valor de cálculo de la fuerza de estabilización Fd, en cada punto de restricción de la pieza, de-\nbe tomarse como mínimo:\nFd = Nd / 80 para madera maciza;\n(10.60)\nFd = Nd / 100 para madera laminada encolada y microlaminada.\n(10.61)\nb) Vigas o piezas flectadas.\nEl valor de cálculo de la fuerza de estabilización Fd , del borde comprimido de una viga o pieza\nflectada de sección rectangular, debe determinarse utilizando las expresiones (10.60) y (10.61),\ntomando como axil Nd, el valor deducido de la expresión siguiente:\nh\nM\n)\nk\n1\n(\nN\nd\ncrit\nd\n\n\n(10.62)\nsiendo:\nkcrit\nvalor del factor por vuelco lateral (véase apartado 6.3.3.3), considerando la viga o pieza\nflectada no arriostrada lateralmente en toda su longitud;\nMd\nmomento flector máximo de cálculo en laviga, opieza flectada;\nh\ncanto de lapieza simple flectada.\nDebe tenerse en cuenta que la fuerza de estabilización Fd puede actuar en ambos sentidos\n(compresión y tracción) en cada punto de restricción lateral. Y que además de la fuerza axial Fd,\no la que resulte de la acumulación de dos o más fuerzas Fd procedentes de otras barras de atado\n(véase figura 10.12) pueden existir otras solicitaciones ocasionadas por cargas que soportan di-\nrectamente.\nFigura 10.12 Posible acumulación de cargas axiales en barras de atado\nEl coeficiente de rigidez de un determinado apoyo es igual al valor de la carga necesaria para\nprovocar un desplazamiento unidad.\n\nDocumentoBásico SE-M Madera\nSE-M 86\nFigura 10.13",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.3.3.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0090.png",
+  "../figura/p0091.png",
+  "../figura/p0092.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0154"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

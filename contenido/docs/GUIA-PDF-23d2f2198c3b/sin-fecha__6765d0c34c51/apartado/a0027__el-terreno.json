@@ -1,0 +1,61 @@
+{
+ "documento": "GUIA-PDF-23d2f2198c3b",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__6765d0c34c51",
+ "sha256": "6765d0c34c51fbe193c3ed0c1378b710f98f086d16e2b68fc28ed36e143fdaea",
+ "apartado": {
+  "id_tecnico": "a0027",
+  "ruta_oficial": null,
+  "ruta_semantica": "8 \t escalera abierta / 1.3 \u0007¿Cuáles son los principales factores influyentes en la entrada y acumulación de radón proveniente del terreno? / El terreno",
+  "titulo": "El terreno",
+  "nivel": 3,
+  "parent_id": "a0025",
+  "seccion_estimada": "8 \t escalera abierta"
+ },
+ "paginas": [
+  9,
+  10
+ ],
+ "etiquetas_impresas": [
+  "9",
+  "10"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "El terreno\nEl terreno es un factor fundamental, al ser la fuente de\nradón. La exhalación de radón del terreno depende:\n■\npor un lado, de su composición geológica. Hay ti­\npos de terreno que producen una gran cantidad de\nradón, por ejemplo, los terrenos con alto contenido\nen uranio como son los procedentes de rocas ígneas\n(granito) y metamórficas (pizarras y esquistos); y,\n■\npor otro, al ser el radón gaseoso, de la capacidad\nde movimiento del radón en el terreno. Cuando se\ngenera el radón en el terreno no permanece en\nel punto en el que se forma, sino que puede mo­\nverse. Este movimiento se ve influido por factores\ncomo:\n\n10\n>> volver al índice >\nEl radón en el interior de los edificios\nFigura 4 - Influencia del grado de saturación de agua del terreno\n■\nla permeabilidad a los gases de la envolven­\nte: cuanto más permeable sea el cerramiento, por\nejemplo, por encontrarse deteriorado con fisuras o\ngrietas o porque esté constituido por un forjado de\nmadera, más sencillo será para el gas radón atrave­\nsarlo y penetrar en el edificio;\n■\nel tipo de solución constructiva de las distintas\ncomponentes de la envolvente: cuantos más obs­\ntáculos haya en el camino de entrada del gas, más\ndifícil será que penetre en el edificio (Figura 6). Por\nejemplo, si el edificio cuenta con una cámara sanita­\nria, supondrá un obstáculo al paso del gas;\n■\nlas instalaciones u otros elementos que pasen a\ntravés de la envolvente y rompan su homogeneidad\npermitiendo así el paso del gas en estos puntos, por\nejemplo, la presencia de una bajante que atraviese\nla solera;\n■\nla comunicación entre los sótanos y las plantas\nhabitables pueden posibilitar el desplazamiento del\ngas de las zonas bajas por donde penetra y su acu­\nmulación en las zonas altas habitables. En estos ca­\nsos, por ejemplo, la existencia de puertas estancas\ndificultará el paso del gas;\n■\nel sistema de ventilación, que puede tener un efec­\nto beneficioso o perjudicial. En la mayoría de casos\n- la permeabilidad al aire del terreno: a mayor per­\nmeabilidad, mayor facilidad de movimiento (Figura\n3). Así, por ejemplo, en macizos rocosos sin frac­\nturar, aunque la concentración de radón sea alta,\nserá difícil que escape de la roca, mientras que en\nterrenos fracturados el radón se moverá más rápi­\ndamente alcanzando el exterior o la envolvente de\nlos edificios con mayor facilidad;\nFigura 3 – Permeabilidad al aire según el terreno\n- el grado de saturación de agua del terreno: a mayor\nsaturación, menor facilidad de movimiento pues el\nagua contenida en el terreno presenta un coeficien­\nte de difusión inferior al del aire y retiene los gases\n(Figura 4). Si todo el terreno debajo de un edificio\ntiene un grado de saturación de agua similar, el\nefecto es favorable para la protección frente al ra­\ndón. Sin embargo, si el grado de saturación es he­\nterogéneo, por ejemplo, cuando la capa superficial\ndel terreno circundante de un edificio está saturada\nde agua por la lluvia, pero debajo de la edificación\nel terreno permanece seco, el efecto es desfavora­\nble al dificultarse la salida de radón al exterior por lo\nque tiende a aumentar su entrada al edificio.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0009_t01.json",
+  "../tabla/p0010_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0009.png",
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon.pdf",
+  "sha256": "6765d0c34c51fbe193c3ed0c1378b710f98f086d16e2b68fc28ed36e143fdaea",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0025",
+  "nivel": 3,
+  "seccion_estimada": "8 \t escalera abierta",
+  "ruta_semantica": "8 \t escalera abierta / 1.3 \u0007¿Cuáles son los principales factores influyentes en la entrada y acumulación de radón proveniente del terreno? / El terreno"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

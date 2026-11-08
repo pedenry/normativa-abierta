@@ -1,0 +1,80 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0156",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p57",
+  "titulo": " ",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p57",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p57",
+  "referencias_filtradas": [
+   "apartado 6"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado /  ",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2b6cdb9406cf70e8a22287b739ce94b4f76adf13add47cad3ffdf0eeb224f0c9"
+ },
+ "paginas": [
+  57,
+  58
+ ],
+ "etiquetas_impresas": [
+  "57",
+  "58"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": " \n\n\n\nyki\nsi\nsi\nsi\nyki\nsi\nm\nf\nA\nΔa\na\nf\nA\na\n(C.1)\nsiendo:\nAsiárea de cada una de las armaduras i, pasiva o activa;\nasidistancia del eje de cada una de las armaduras i, al paramento expuesto más próximo, conside-\nrando los revestimientos en las condiciones que ms adelante se establecen;\nfykiresistencia característica del acero de las armaduras i.;\nasicorrección debida a las diferentes temperaturas críticas del acero y a las condiciones particula-\nres de exposición al fuego, conforme a los valores de la tabla C.1, siendo fiel coeficiente de so-\nbredimensionado de la sección en estudio, definido en el apartado 6 del SI6. Las correcciones\npara valores de fi inferiores a 0,6 en vigas, losas y forjados, sólo podrán considerarse cuando\ndichos elementos estén sometidos a cargas distribuidas de forma sensiblemente uniforme. Para\nvalores intermedios se puede interpolar linealmente.\nTabla C.1. Valores de asi (mm)\nfi\nAcero de armar\nAcero de pretensar\nVigas(1) y\nlosas (forja-\ndos)\nResto de los\ncasos\nVigas(1) y losas (forjados)\nResto de los casos\nBarras\nAlambres\nBarras\nAlambres\n0,4\n+5\n0\n-5\n-10\n-10\n-15\n0,5\n0\n-10\n-15\n0,6\n-5\n-15\n-20\n(1)\nEn el caso de armaduras situadas en las esquinas de vigas con una sola capa de armadura se reducirán los\nvalores de asi en 10 mm, cuando el ancho de las mismas sea inferior a los valores debmin especificados en la\ncolumna 3 de la tabla C.3.\n\nDocumento Básico SI en caso de Incendio\nAnejo C. Resistencia al fuego de las estructuras de hormigón armado\n58\n3\nLos valores dados en las tablas siguientes son aplicables a hormigones de densidad normal, confec-\ncionados con áridos de naturaleza silícea. Cuando se empleen hormigones con áridos de naturaleza\ncaliza, en vigas, losas y forjados puede admitirse una reducción de un 10% tanto en las dimensiones\nde la sección recta como en la distancia equivalente al eje mínimas.\n4\nEn zonas traccionadas con recubrimientos de hormigón mayores de 50 mm debe disponerse una\narmadura de piel para prevenir el desprendimiento de dicho hormigón durante el periodo de resisten-\ncia al fuego, consistente en una malla con distancias inferiores a 150 mm entre armaduras (en am-\nbas direcciones), anclada regularmente en la masa de hormigón.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0057.png",
+  "../figura/p0058.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

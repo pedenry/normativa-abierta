@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0140",
+  "ruta_oficial": "10.2",
+  "ruta_semantica": "10.2  Soportes compuestos",
+  "titulo": "10.2  Soportes compuestos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.2  Soportes compuestos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 81,
+   "bbox": [
+    70.9,
+    532.7,
+    230.4,
+    544.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a10260041b13065da2e5d81f3ca533716313ee15739ff6d8b41d9a53de169fba",
+   "literal": "10.2  Soportes compuestos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0162",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.2  Soportes compuestos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.2  Soportes compuestos",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a0d0b8302da327c50f8dca413c6535dcceeece7bbd880d05d76e21c69c9d143c"
+ },
+ "paginas": [
+  81
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "10.2  Soportes compuestos\n1\nPara el cálculo de los soportes compuestos incluidos en este apartado, además de otras hipótesis\nque luego se expondran, se está considerando un modelo de flexión en viga Vierendeel (entramado\nsin triangulaciones y con empalmes de nudo rigido) en el que los momentos flectores locales de los\ncordones son nulos en los puntos equidistantes de las presillas. Para que el efecto Vierendeel se\nproduzca, se cumplirá que (véase figura 10.3), además de las comprobaciones de resistencia que se\nexpondrán, la relación (L1/L2 ≤ 6). Este requisito va dirigido a garantizar una relación de inercias ra-\nzonable, que en todo caso se podrá obtener de otro modo, pero que en ese caso deberá modelizarse\nde forma particular.\n2\nSe prescinde de cualquier deslizamiento local en las uniones de las presillas y los cordones.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0081.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0141"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

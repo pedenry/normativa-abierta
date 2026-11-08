@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0021",
+  "ruta_oficial": "3.3.3",
+  "ruta_semantica": "3.3.3 Coeficiente de exposición",
+  "titulo": "3.3.3 Coeficiente de exposición",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3.3 Coeficiente de exposición",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 12,
+   "bbox": [
+    70.9,
+    151.4,
+    252.4,
+    164.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c283e7d1e73c8bcf47a7732cd73b6400c98a48d795500253bcdc1f417458e8b0",
+   "literal": "3.3.3 Coeficiente de exposición"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0017",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3.3 Coeficiente de exposición",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "anejo D, en función del emplazamiento geográfico de la obra. / 3.3.3 Coeficiente de exposición",
+   "seccion_estimada": "anejo D, en función del emplazamiento geográfico de la obra.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8f96f789737cedb0aef15d905d7d69e9648cb54761fdf403cbfc4acee1f6a415"
+ },
+ "paginas": [
+  12
+ ],
+ "etiquetas_impresas": [
+  "12"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.3.3 Coeficiente de exposición\n1\nEl coeficiente de exposición tiene en cuenta los efectos de las turbulencias originadas por el relieve\ny la topografía del terreno. Su valor se puede tomar de la tabla 3.4, siendo la altura del punto consi-\nderado la medida respecto a la rasante media de la fachada a barlovento. Para alturas superiores a\n30 m los valores deben obtenerse de las expresiones generales que se recogen en el Anejo D. Para\npaneles prefabricados de gran formato el punto a considerar es su punto medio.\n2\nEn el caso de edificios situados en las cercanías de acantilados o escarpas de pendiente mayor de\n40º, la altura se medirá desde la base de dichos accidentes topográficos. Este Documento Básico\nsólo es de aplicación para alturas de acantilado o escarpa inferiores a 50 m.\n3\nA efectos de grado de aspereza, el entorno del edificio se clasificará en el primero de los tipos de la\ntabla 3.4 al que pertenezca, para la dirección de viento analizada.\nTabla 3.4. Valores del coeficiente de exposición ce\nAltura del punto considerado (m)\nGrado de aspereza del entorno\n3\n6\n9\n12\n15\n18\n24\n30\nI\nBorde del mar o de un lago, con una superficie de agua en la\ndirección del viento de al menos 5 km de longitud\n2,4\n2,7\n3,0\n3,1\n3,3\n3,4\n3,5\n3,7\nII Terreno rural  llano sin obstáculos ni arbolado de importancia\n2,1\n2,5\n2,7\n2,9\n3,0\n3,1\n3,3\n3,5\nIIIZona rural accidentada o llana con algunos obstáculos aislados,\ncomo árboles o construcciones pequeñas\n1,6\n2,0\n2,3\n2,5\n2,6\n2,7\n2,9\n3,1\nIV Zona urbana en general, industrial o forestal\n1,3\n1,4\n1,7\n1,9\n2,1\n2,2\n2,4\n2,6\nVCentro de negocio de grandes ciudades, con profusión de edificios\nen altura\n1,2\n1,2\n1,2\n1,4\n1,5\n1,6\n1,9\n2,0",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0012.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,107 @@
+{
+ "indice": 1,
+ "pagina": 29,
+ "etiqueta_impresa": "29",
+ "bbox": [
+  93.0,
+  255.8,
+  542.1,
+  348.8
+ ],
+ "filas": 4,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Uso Protección",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Pendiente\nen %",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Solado fijo\nPeatones\nTransitables Solado flotante\nVehículos Capa de rodadura",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "1-5 (1)\n1-5\n1-5 (1)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Grava\nNo transitables\nLámina autoprotegida",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "1-5\n1-15",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "Ajardinadas Tierra vegetal",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "1-5",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Uso Protección",
+  "Pendiente\nen %"
+ ],
+ "header": {
+  "names": [
+   "Tabla 2.9 Pendientes de cubiertas planas",
+   ""
+  ],
+  "external": true
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA14230>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA14440>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA14EC0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA14F50>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA15880>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA17050>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA15C10>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA148C0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0029.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

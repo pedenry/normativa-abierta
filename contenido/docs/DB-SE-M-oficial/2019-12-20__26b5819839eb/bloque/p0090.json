@@ -1,0 +1,233 @@
+{
+ "documento": null,
+ "pagina": 90,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 84",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.4,
+    263.6,
+    82.3
+   ],
+   "tipo": "texto",
+   "texto": "10.4.2.3  Consideraciones constructivas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    90.9,
+    541.3,
+    135.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl método simplificado de cálculo definido anteriormente, supone que la fijación del tablero se efec-\ntúa con una separación máxima de los clavos o tirafondos, a lo largo de los bordes de 150 mm para\nlos clavos y 200 mm para los tirafondos. En las líneas interiores la separación máxima será de 300\nmm.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    207.7,
+    247.3,
+    497.1,
+    282.6
+   ],
+   "tipo": "texto",
+   "texto": "(1)\nSeparación máxima entre clavos, 300 mm, en los montantes centrales.\n(2)\nMontante perimetral.\n(3)\nSeparación máxima entre clavos, 150 mm, en los montantes perimetrales.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    172.1,
+    283.9,
+    439.8,
+    303.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 10.10 Fijación de tableros en panel de muro-diafragma.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    319.2,
+    201.0,
+    331.2
+   ],
+   "tipo": "titulo",
+   "texto": "10.5  Arriostramientos",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    347.5,
+    322.7,
+    357.5
+   ],
+   "tipo": "texto",
+   "texto": "10.5.1  Piezas simples con restricciones intermedias",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    367.1,
+    541.3,
+    411.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn piezas simples comprimidas, que requieran restricciones laterales intermedias a intervalos a\n(véase figura 10.11), las desviaciones iniciales de la forma recta entre los puntos de restricción de-\nben tomarse, para su cálculo, como a/500 en elementos de madera laminada encolada y de madera\nmicrolaminada y a/300 en otras piezas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    419.3,
+    413.5,
+    429.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn casos de peritación se podrán admitir desviaciones inciales mayores.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    436.7,
+    541.3,
+    458.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nCada restricción intermedia debe aportar un coeficiente de rigidez mínimo C definido por la expresión\nsiguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    134.6,
+    481.3,
+    140.2,
+    491.3
+   ],
+   "tipo": "texto",
+   "texto": "a",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    98.9,
+    465.7,
+    541.3,
+    485.2
+   ],
+   "tipo": "texto",
+   "texto": "N\nk\nC\nd\ns\n\n (10.58)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    97.3,
+    495.7,
+    541.3,
+    616.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nNd\nvalor medio de cálculo de la solicitación axil de compresión en la combinación más desfavo-\nrable;\na\nseparación entre secciones arriostradas;\nks\nfactor de modificación deducido de la expresión:\nks = 2(1+cos /m)\n (10.59)\ndonde:\nm\n número de vanos de longitud a.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    687.0,
+    452.5,
+    719.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 10.11 Piezas simples con restricciones laterales intermedias.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    726.9,
+    541.3,
+    748.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "4\nComo consecuencia de la restricción aportada por las barras de atado se genera en los puntos de\narriostramiento una fuerza de estabilización, Fd , definida de la manera siguiente:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.8,
+    756.0,
+    252.0,
+    765.9
+   ],
+   "tipo": "texto",
+   "texto": "a) Soportes o piezas comprimidas.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0066",
+  "ruta_oficial": "5.6",
+  "ruta_semantica": "5.6 Fábrica armada a flexión",
+  "titulo": "5.6 Fábrica armada a flexión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.6 Fábrica armada a flexión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 30,
+   "bbox": [
+    70.9,
+    253.1,
+    234.9,
+    265.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0b3c05f15e6c38ba4ee35b073411d8ddba31c1b442d1774d7726a2023587ca23",
+   "literal": "5.6 Fábrica armada a flexión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0066",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.6 Fábrica armada a flexión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. / 5.6 Fábrica armada a flexión",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ccb226e3fc580e4facfc7129dae80652fd975d7c0480345dce6112433ef71912"
+ },
+ "paginas": [
+  30
+ ],
+ "etiquetas_impresas": [
+  "18"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.6 Fábrica armada a flexión\n1\nEste apartado trata de los elementos de fábrica armada, pretensado o confinada, sometidos\npredominantemente a flexión, tales como dinteles.\n2\nEn el instante de fisuración de la fábrica, la armadura debe estar por debajo de su límite elástico, lo\nque determina un criterio para cuantificar la armadura mínima requerida.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0030.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0067",
+  "a0068"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

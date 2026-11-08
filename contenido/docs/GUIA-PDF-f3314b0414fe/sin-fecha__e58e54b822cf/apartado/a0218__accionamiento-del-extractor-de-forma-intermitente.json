@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-f3314b0414fe",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon Fichas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__e58e54b822cf",
+ "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+ "apartado": {
+  "id_tecnico": "a0218",
+  "ruta_oficial": null,
+  "ruta_semantica": "1   extractor 2    shunt / Accionamiento del extractor de forma intermitente",
+  "titulo": "Accionamiento del extractor de forma intermitente",
+  "nivel": 3,
+  "parent_id": "a0217",
+  "seccion_estimada": "1   extractor 2    shunt"
+ },
+ "paginas": [
+  61
+ ],
+ "etiquetas_impresas": [
+  "61"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Accionamiento del extractor de forma intermitente\nintermitente\nNo es conveniente utilizar extractores con funciona­\nmiento intermitente enclavados al interruptor de la luz\no con detector de presencia, puesto que la ventilación\nproporcionada podría ser insuficiente para mantener\nuna concentración de radón adecuada.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0061_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0061.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon+Fichas.pdf",
+  "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0217",
+  "nivel": 3,
+  "seccion_estimada": "1   extractor 2    shunt",
+  "ruta_semantica": "1   extractor 2    shunt / Accionamiento del extractor de forma intermitente"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

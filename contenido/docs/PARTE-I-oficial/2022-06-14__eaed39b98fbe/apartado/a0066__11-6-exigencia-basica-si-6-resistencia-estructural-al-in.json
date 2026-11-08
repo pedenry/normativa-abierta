@@ -1,0 +1,79 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0066",
+  "ruta_oficial": "11.6",
+  "ruta_semantica": "Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI) / 11.6. Exigencia básica SI 6: Resistencia estructural al incendio",
+  "titulo": "11.6. Exigencia básica SI 6: Resistencia estructural al incendio",
+  "nivel": 3,
+  "parent_id": "a0060",
+  "seccion_estimada": "Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    72.0,
+    112.2,
+    552.0,
+    150.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "f519f4ce32602da496f73922d6fab59585c3636b19c9549596c90b80d283c4b3",
+   "literal": "11.6. Exigencia básica SI 6: Resistencia estructural al incendio"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0032",
+  "parent_id_original": "a0060",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "11.6. Exigencia básica SI 6: Resistencia estructural al incendio",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0060",
+   "ruta_semantica": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades / Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI) / 11.6. Exigencia básica SI 6: Resistencia estructural al incendio",
+   "seccion_estimada": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9808dab45bbd91dcc9f0ce02b4c3721a87c9aecf3bf50eb492c7076b17cee788"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  "13"
+ ],
+ "tipos": [],
+ "texto": "11.6. Exigencia básica SI 6: Resistencia estructural al incendio\nLa estructura portante mantendrá su resistencia al fuego durante el tiempo necesario para que puedan\ncumplirse las anteriores exigencias básicas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

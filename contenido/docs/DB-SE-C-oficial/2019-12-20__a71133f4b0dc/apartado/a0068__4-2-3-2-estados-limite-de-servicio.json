@@ -1,0 +1,130 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0068",
+  "ruta_oficial": "4.2.3.2",
+  "ruta_semantica": "4.2.3.2 Estados límite de servicio",
+  "titulo": "4.2.3.2 Estados límite de servicio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2.3.2 Estados límite de servicio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    70.9,
+    271.4,
+    232.0,
+    281.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "96707a8f118e2a3387c4e6b519ba1a11295074022ee53014533c9120a2a65b49",
+   "literal": "4.2.3.2 Estados límite de servicio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0080",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 4.2.1.2",
+   "apartado 4.4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2.3.2 Estados límite de servicio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / 4.2.3 Variables básicas y parámetros del terreno 4.2.3.1 Estados límite últimos / 4.2.3.2 Estados límite de servicio",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b8a0c172aacadb68c300ee9d9fc0dd6e308ddc8cf17bd8d3132730bde429d1d6"
+ },
+ "paginas": [
+  34,
+  35
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "4.2.3.2 Estados límite de servicio\n1\nPara la verificación de los estados límite de servicio será necesario contar con parámetros repre-\nsentativos de la deformabilidad del terreno. Normalmente dependerán del tipo de terreno en estudio\ny del método seleccionado para la estimación de asientos (véase apartado 4.4).\n2\nEn la estimación de asientos diferenciales, dependiendo del tipo estructural se debe prestar espe-\ncial atención a las consideraciones incluidas en el apartado 4.2.1.2.\n3\nEn el caso en que el tipo de terreno haga prever asientos diferidos a largo plazo será necesario\nllevar a cabo un estudio específico sobre la magnitud de los asientos y el tiempo que tardarán en\nproducirse.\n4\nEn situaciones de poco riesgo en las que exista experiencia local abundante, la comprobación de\nlos estados límite de servicio puede no requerir más información del terreno, aparte de las compro-\nbaciones de los perfiles geotécnicos, que las condiciones hidrogeológicas y las propiedades índice\nbásicas, necesarias para asegurar la similitud del caso considerado y los casos sobre los que se\ntiene experiencia. En cualquier caso, cuando se utilice este procedimiento para avalar la seguridad\nde la cimentación en estudio, debe dejarse constancia explícita de los parámetros geotécnicos, soli-\ncitaciones sobre la cimentación y tipos de cimiento.\n\nDocumento Básico SE-C Cimientos\nSE-C-30\n4.3",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.2.1.2",
+  "apartado 4.4"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0035.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

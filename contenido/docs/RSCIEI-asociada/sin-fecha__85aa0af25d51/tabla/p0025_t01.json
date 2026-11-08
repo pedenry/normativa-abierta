@@ -1,0 +1,89 @@
+{
+ "indice": 1,
+ "pagina": 25,
+ "etiqueta_impresa": "25",
+ "bbox": [
+  125.3,
+  202.7,
+  498.3,
+  222.5
+ ],
+ "filas": 2,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "(2)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Vinculado a una actividad sujeta a horarios: comercial, espectáculos, oficina, etc.",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "15",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "«Aparcamiento",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "En otros casos",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "40»",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "(2)",
+  "Vinculado a una actividad sujeta a horarios: comercial, espectáculos, oficina, etc.",
+  "15"
+ ],
+ "header": {
+  "names": [
+   "(2)",
+   "Vinculado a una actividad sujeta a horarios: comercial, espectáculos, oficina, etc.",
+   "15"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB969EE0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB969820>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96A0F0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96B290>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96B170>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96BBF0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0025.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

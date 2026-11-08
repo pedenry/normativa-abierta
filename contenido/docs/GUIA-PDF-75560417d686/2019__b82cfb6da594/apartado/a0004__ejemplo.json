@@ -1,0 +1,60 @@
+{
+ "documento": "GUIA-PDF-75560417d686",
+ "code": "GUIA",
+ "title": "Ejemplo A1 B3 Barrera frente al radon despresurizacion con red de tubos",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "2019",
+ "version_dir": "2019__b82cfb6da594",
+ "sha256": "b82cfb6da5942cde8faab2ee62add20f04f53a5a420ef129ee29213b841c415a",
+ "apartado": {
+  "id_tecnico": "a0004",
+  "ruta_oficial": null,
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO / EJEMPLO",
+  "titulo": "EJEMPLO",
+  "nivel": 3,
+  "parent_id": "a0003",
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO"
+ },
+ "paginas": [
+  1,
+  2
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "EJEMPLO\nA1+B3\nFigura 1 - Fachada y planta baja de la vivienda\ngaraje\nEfectividad\nCoste\nCoste por superficie\n93%\n5.620€\n102€/m2\n\n2\nFichas de ejemplos\nA1+B3\n2",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0001_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0001.png",
+  "../figura/p0002.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Ejemplo_A1+B3_Barrera_frente_al_radon+despresurizacion_con_red_de_tubos.pdf",
+  "sha256": "b82cfb6da5942cde8faab2ee62add20f04f53a5a420ef129ee29213b841c415a",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0003",
+  "nivel": 3,
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO / EJEMPLO"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

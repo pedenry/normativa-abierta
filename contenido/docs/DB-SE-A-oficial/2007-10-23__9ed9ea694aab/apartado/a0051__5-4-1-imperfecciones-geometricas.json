@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0051",
+  "ruta_oficial": "5.4.1",
+  "ruta_semantica": "5.4.1 Imperfecciones geométricas",
+  "titulo": "5.4.1 Imperfecciones geométricas",
+  "nivel": 1,
+  "parent_id": "a0050",
+  "seccion_estimada": "5.4.1 Imperfecciones geométricas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    74.1,
+    413.0,
+    237.0,
+    424.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "26f0a636342e6bf4484f2c392787d0473cfcfb33a328a848be90e74dcedf4973",
+   "literal": "5.4.1 Imperfecciones geométricas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0055",
+  "parent_id_original": "a0050",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4.1 Imperfecciones geométricas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0050",
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.4 Imperfecciones iniciales / 5.4.1 Imperfecciones geométricas",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "635e2e2d0ee9a72cda56d89e766ecfdc503d1876d291bf2fff043b25262da3a8"
+ },
+ "paginas": [
+  28,
+  29
+ ],
+ "etiquetas_impresas": [
+  "28",
+  "29"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.4.1 Imperfecciones geométricas\n1\nEn estructuras de pórticos, en cada dirección analizada, a efectos de estabilidad, es suficiente con-\nsiderar un desplome lineal en altura, de valor L/200 si en esa dirección hay sólo dos soportes y una\naltura, y L/400 si hay al menos cuatro soportes y tres alturas. En casos intermedios puede usarse\nel valor L/300, siendo L la altura total de la construcción si es constante, y la altura media si es lige-\nramente variable.\n.\nFigura 5.3 Desplome inicial pórticos\nTabla 5.8 Imperfecciones locales de barra, e0/L\nCurva de pandeo (según figura 6.3)\na0\na\nb\nc\nd\nAnálisis global elástico\n1/350\n1/300\n1/250\n1/200\n1/150\nAnálisis global plástico\n1/300\n1/250\n1/200\n1/150\n1/100\n\nDocumentoBásico SE-A Acero\nSE-A-27\n2\nEn los cálculos relativos a los elementos estabilizadores (arriostramientos) de estructuras de pórti-\ncos, se deberá tener en cuenta la inclinación inicial φ (según figura 5.3) para todos los pilares que\ndeban ser estabilizados por dichos elementos.\nCuando la estabilidad se asegure por medio de, por ejemplo, vigas o triangulaciones que enlazan\nlos elementos comprimidos con determinados puntos fijos, las fuerzas laterales que se deberán te-\nner en cuenta en los cálculos se obtendrán al admitir una desviación geométrica (flecha) inicial de\nvalor w0 en los elementos a estabilizar (figura 5.4). Además, también se tendrán en cuenta las im-\nperfecciones de los elementos estabilizadores.\n1\nn\n1\n2,0\nk\nmm\n60\nk\n500\nl\nw\nr\nr\nr\n0\n≤\n+\n=\n≤\n⋅\n=\n(5.8)\nnr = número de elementos a estabilizar\nw = flecha del elemento estabilizador\n3\nLas fuerzas laterales debidas a NEd y w0 pueden verse incrementadas de manera sustancial por las\nimprecisiones de ejecución y la deformación (flecha) w del sistema estabilizador (arriostramiento).\nEste incremento se deberá tener en cuenta.\nFigura 5.4 Flecha inicial de los elementos a estabilizar\n4\nCada elemento cuya función consista en proporcionar un apoyo lateral a un elemento o un cordón\ncomprimido deberá dimensionarse para resistir una fuerza lateral equivalente al 1,5% del esfuerzo\nde compresión máximo que solicite el elemento o el cordón a estabilizar.\n5\nPara la imperfección de las barras son admisibles dos planteamientos:\na)\nomitir cualquier imperfección de las barras en el análisis global, es decir, analizar la estructura\nconsiderando las barras rectas (que, en el caso de pórticos traslacionales unen nudos despla-\nzados), y comprobar posteriormente las barras a pandeo mediante el método del factor χ des-\ncrito en el articulado.\nb)\nanalizar la estructura considerando las barras deformadas (además de los nudos desplaza-\ndos) y mediante un análisis en segundo orden. En este caso se comprobaran las secciones a\nflexión compuesta y no se requiere la comprobación de la resistencia a pandeo de la barra. En\neste planteamiento se utilizarán las Imperfecciones relacionadas en la tabla 5.8.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png",
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

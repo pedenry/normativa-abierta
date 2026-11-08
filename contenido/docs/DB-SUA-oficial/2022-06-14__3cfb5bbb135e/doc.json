@@ -1,0 +1,979 @@
+{
+ "id": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "layer": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+ "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadUtilizacionAccesibilidad.html",
+ "version_label_literal": "MINISTERIO \nDE TRANSPORTES, MOVILIDAD \nY AGENDA URBANA  \n \n \n \nDocumento Básico SUA \nSeguridad de utilización y \naccesibilidad \nSUA 1 Seguridad frente al riesgo de caídas \nSUA 2 Seguridad frente al riesgo de impacto o de atrapamiento \nSUA 3 Seguridad frente al riesgo de aprisionamiento \nSUA 4 Seguridad frente al riesgo causado por iluminación \ninadecuada \nSUA 5 Seguridad frente al riesgo causado por situaciones con \nalta ocupación  \nSUA 6 Seguridad frente al riesgo de ahogamiento \nSUA 7 Seguridad frente al riesgo causado por vehículos en \nmovimiento \nSUA 8 Seguridad frente al riesgo causado por la acción del rayo \nSUA 9 Accesibilidad \n \n14 junio 2022",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "version_detectada": {
+  "corta": "2022-06-14",
+  "dir": "2022-06-14__3cfb5bbb135e",
+  "tipo": "fecha completa",
+  "literal": "14 junio 2022",
+  "fuente": "cover_text(fecha completa)",
+  "nota": "fecha detectada en texto literal; conservar portada"
+ },
+ "version_semantic_label": null,
+ "correccion_boe": null,
+ "fecha_comentarios": null,
+ "consolidation_update_date": null,
+ "fecha_notas": null,
+ "version_fuente": "cover_text(fecha completa)",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "pdf_nombre": "DB-SUA-oficial-3cfb5bbb13.pdf",
+ "paginas_pdf": 47,
+ "paginas_manifiesto": 47,
+ "license_status": "art13 disposicion legal",
+ "license_evidence": null,
+ "creditos": null,
+ "motivo_distribucion": "disposición legal (art. 13 TRLPI)",
+ "normativo": true,
+ "distribute": true,
+ "nota_capa": "",
+ "ambito_literal": {
+  "id_tecnico": "a0020",
+  "ruta_oficial": null,
+  "titulo": "II Ámbito de aplicación",
+  "texto": "II Ámbito de aplicación\nÁmbito de aplicación\nEl ámbito de aplicación de este DB es el que se establece con carácter general para el conjunto del CTE\nen el artículo 2 de la Parte I. Su contenido se refiere únicamente a las exigencias básicas relacionadas\ncon el requisito básico \"Seguridad de utilización y accesibilidad”. También deben cumplirse las exigen-\ncias básicas de los demás requisitos básicos, lo que se posibilita mediante la aplicación del DB corres-\npondiente a cada uno de ellos.\nLa protección frente a los riesgos específicos de:\n-\nlas instalaciones de los edificios;\n-\nlas actividades laborales;\n-\nlas zonas y elementos de uso reservado a personal especializado en mantenimiento, reparaciones,\netc.;\n-\nlos elementos para el público singulares y característicos de las infraestructuras del transporte, tales\ncomo andenes, pasarelas, pasos inferiores, etc.;\nasí como las condiciones de accesibilidad en estos últimos elementos, se regulan en su reglamentación\nespecífica.\nComo en el conjunto del CTE, el ámbito de aplicación de este DB son las obras de edificación. Por ello,\nlos elementos del entorno del edificio a los que les son aplicables sus condiciones son aquellos que for-\nmen parte del proyecto de edificación. Conforme al artículo 2, punto 3 de la ley 38/1999, de 5 de noviem-\nbre, de Ordenación de la Edificación (LOE), se consideran comprendidas en la edificación sus instalacio-\nnes fijas y el equipamiento propio, así como los elementos de urbanización que permanezcan adscritos\nal edificio.\nLas exigencias que se establezcan en este DB para los edificios serán igualmente aplicables a los esta-\nblecimientos."
+ },
+ "toc": [
+  {
+   "nivel": 1,
+   "titulo": "Introducción",
+   "pagina": 3
+  },
+  {
+   "nivel": 2,
+   "titulo": "I Objeto",
+   "pagina": 3
+  },
+  {
+   "nivel": 2,
+   "titulo": "II Ámbito de aplicación",
+   "pagina": 4
+  },
+  {
+   "nivel": 2,
+   "titulo": "III Criterios generales de aplicación",
+   "pagina": 4
+  },
+  {
+   "nivel": 2,
+   "titulo": "IV Condiciones particulares para el cumplimiento del DB-SUA",
+   "pagina": 5
+  },
+  {
+   "nivel": 2,
+   "titulo": "V Terminología",
+   "pagina": 5
+  },
+  {
+   "nivel": 1,
+   "titulo": "Índice",
+   "pagina": 6
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 1  Seguridad frente al riesgo de caídas",
+   "pagina": 8
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Resbaladicidad de los suelos",
+   "pagina": 8
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Discontinuidades en el pavimento",
+   "pagina": 8
+  },
+  {
+   "nivel": 2,
+   "titulo": "3 Desniveles",
+   "pagina": 9
+  },
+  {
+   "nivel": 3,
+   "titulo": "3.1 Protección de los desniveles",
+   "pagina": 9
+  },
+  {
+   "nivel": 3,
+   "titulo": "3.2 Características de las barreras de protección",
+   "pagina": 9
+  },
+  {
+   "nivel": 4,
+   "titulo": "3.2.1 Altura",
+   "pagina": 9
+  },
+  {
+   "nivel": 4,
+   "titulo": "3.2.2 Resistencia",
+   "pagina": 10
+  },
+  {
+   "nivel": 4,
+   "titulo": "3.2.3 Características constructivas",
+   "pagina": 10
+  },
+  {
+   "nivel": 4,
+   "titulo": "3.2.4 Barreras situadas delante de una fila de asientos fijos",
+   "pagina": 10
+  },
+  {
+   "nivel": 2,
+   "titulo": "4 Escaleras y rampas",
+   "pagina": 11
+  },
+  {
+   "nivel": 3,
+   "titulo": "4.1 Escaleras de uso restringido",
+   "pagina": 11
+  },
+  {
+   "nivel": 3,
+   "titulo": "4.2 Escaleras de uso general",
+   "pagina": 11
+  },
+  {
+   "nivel": 4,
+   "titulo": "4.2.1 Peldaños",
+   "pagina": 11
+  },
+  {
+   "nivel": 4,
+   "titulo": "4.2.2 Tramos",
+   "pagina": 12
+  },
+  {
+   "nivel": 4,
+   "titulo": "4.2.3 Mesetas",
+   "pagina": 13
+  },
+  {
+   "nivel": 4,
+   "titulo": "4.2.4 Pasamanos",
+   "pagina": 14
+  },
+  {
+   "nivel": 3,
+   "titulo": "4.3 Rampas",
+   "pagina": 14
+  },
+  {
+   "nivel": 4,
+   "titulo": "4.3.1 Pendiente",
+   "pagina": 14
+  },
+  {
+   "nivel": 4,
+   "titulo": "4.3.2 Tramos",
+   "pagina": 15
+  },
+  {
+   "nivel": 4,
+   "titulo": "4.3.3 Mesetas",
+   "pagina": 15
+  },
+  {
+   "nivel": 4,
+   "titulo": "4.3.4 Pasamanos",
+   "pagina": 15
+  },
+  {
+   "nivel": 3,
+   "titulo": "4.4 Pasillos escalonados de acceso a localidades en graderíos y tribunas",
+   "pagina": 15
+  },
+  {
+   "nivel": 2,
+   "titulo": "5 Limpieza de los acristalamientos exteriores",
+   "pagina": 15
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 2  Seguridad frente al riesgo de impacto o de atrapamiento",
+   "pagina": 17
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Impacto",
+   "pagina": 17
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.1 Impacto con elementos fijos",
+   "pagina": 17
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.2 Impacto con elementos practicables",
+   "pagina": 17
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.3 Impacto con elementos frágiles",
+   "pagina": 18
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.4 Impacto con elementos insuficientemente perceptibles",
+   "pagina": 18
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Atrapamiento",
+   "pagina": 19
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 3  Seguridad frente al riesgo de aprisionamiento en recintos",
+   "pagina": 20
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Aprisionamiento",
+   "pagina": 20
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 4  Seguridad frente al riesgo causado por iluminación inadecuada",
+   "pagina": 21
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Alumbrado normal en zonas de circulación",
+   "pagina": 21
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Alumbrado de emergencia",
+   "pagina": 21
+  },
+  {
+   "nivel": 3,
+   "titulo": "2.1 Dotación",
+   "pagina": 21
+  },
+  {
+   "nivel": 3,
+   "titulo": "2.2 Posición y características de las luminarias",
+   "pagina": 21
+  },
+  {
+   "nivel": 3,
+   "titulo": "2.3 Características de la instalación",
+   "pagina": 22
+  },
+  {
+   "nivel": 3,
+   "titulo": "2.4 Iluminación de las señales de seguridad",
+   "pagina": 22
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 5  Seguridad frente al riesgo causado por situaciones de alta ocupación",
+   "pagina": 23
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Ámbito de aplicación",
+   "pagina": 23
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Condiciones de los graderíos para espectadores de pie",
+   "pagina": 23
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+   "pagina": 25
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Piscinas",
+   "pagina": 25
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.1 Barreras de protección",
+   "pagina": 25
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.2 Características del vaso de la piscina",
+   "pagina": 25
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.1 Profundidad",
+   "pagina": 25
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.2 Pendiente",
+   "pagina": 25
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.3 Huecos",
+   "pagina": 25
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.4 Materiales",
+   "pagina": 25
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.3 Andenes",
+   "pagina": 26
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.4 Escaleras",
+   "pagina": 26
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Pozos y depósitos",
+   "pagina": 26
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 7  Seguridad frente al riesgo causado por vehículos en movimiento",
+   "pagina": 27
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Ámbito de aplicación",
+   "pagina": 27
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Características constructivas",
+   "pagina": 27
+  },
+  {
+   "nivel": 2,
+   "titulo": "3 Protección de recorridos peatonales",
+   "pagina": 27
+  },
+  {
+   "nivel": 2,
+   "titulo": "4 Señalización",
+   "pagina": 27
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 8  Seguridad frente al riesgo causado por la acción del rayo",
+   "pagina": 28
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Procedimiento de verificación",
+   "pagina": 28
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Tipo de instalación exigido",
+   "pagina": 29
+  },
+  {
+   "nivel": 1,
+   "titulo": "Sección SUA 9  Accesibilidad",
+   "pagina": 31
+  },
+  {
+   "nivel": 2,
+   "titulo": "1 Condiciones de accesibilidad",
+   "pagina": 31
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.1 Condiciones funcionales",
+   "pagina": 31
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.1.1 Accesibilidad en el exterior del edificio",
+   "pagina": 31
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.1.2 Accesibilidad entre plantas del edificio",
+   "pagina": 31
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.1.3 Accesibilidad en las plantas del edificio",
+   "pagina": 31
+  },
+  {
+   "nivel": 3,
+   "titulo": "1.2 Dotación de elementos accesibles",
+   "pagina": 32
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.1 Viviendas accesibles",
+   "pagina": 32
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.2 Alojamientos accesibles",
+   "pagina": 32
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.3 Plazas de aparcamiento accesibles",
+   "pagina": 32
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.4 Plazas reservadas",
+   "pagina": 32
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.5 Piscinas",
+   "pagina": 33
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.6 Servicios higiénicos accesibles",
+   "pagina": 33
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.7 Mobiliario fijo",
+   "pagina": 33
+  },
+  {
+   "nivel": 4,
+   "titulo": "1.2.8 Mecanismos",
+   "pagina": 33
+  },
+  {
+   "nivel": 2,
+   "titulo": "2 Condiciones y características de la información y señalización para la accesibilidad",
+   "pagina": 33
+  },
+  {
+   "nivel": 3,
+   "titulo": "2.1 Dotación",
+   "pagina": 33
+  },
+  {
+   "nivel": 3,
+   "titulo": "2.2 Características",
+   "pagina": 34
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo A Terminología",
+   "pagina": 35
+  },
+  {
+   "nivel": 2,
+   "titulo": "Alojamiento accesible",
+   "pagina": 35
+  },
+  {
+   "nivel": 2,
+   "titulo": "Ascensor accesible",
+   "pagina": 35
+  },
+  {
+   "nivel": 2,
+   "titulo": "Eficiencia del sistema de protección",
+   "pagina": 35
+  },
+  {
+   "nivel": 2,
+   "titulo": "Iluminancia, E",
+   "pagina": 35
+  },
+  {
+   "nivel": 2,
+   "titulo": "Itinerario accesible",
+   "pagina": 35
+  },
+  {
+   "nivel": 2,
+   "titulo": "Luminancia, L",
+   "pagina": 36
+  },
+  {
+   "nivel": 2,
+   "titulo": "Mecanismos accesibles",
+   "pagina": 36
+  },
+  {
+   "nivel": 2,
+   "titulo": "Nivel de protección",
+   "pagina": 36
+  },
+  {
+   "nivel": 2,
+   "titulo": "Plaza de aparcamiento accesible",
+   "pagina": 36
+  },
+  {
+   "nivel": 2,
+   "titulo": "Plaza reservada para personas con discapacidad auditiva",
+   "pagina": 37
+  },
+  {
+   "nivel": 2,
+   "titulo": "Plaza reservada para usuarios de silla de ruedas",
+   "pagina": 37
+  },
+  {
+   "nivel": 2,
+   "titulo": "Punto de atención accesible",
+   "pagina": 37
+  },
+  {
+   "nivel": 2,
+   "titulo": "Punto de llamada accesible",
+   "pagina": 37
+  },
+  {
+   "nivel": 2,
+   "titulo": "Servicios higiénicos accesibles",
+   "pagina": 37
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Administrativo",
+   "pagina": 39
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Aparcamiento",
+   "pagina": 39
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Comercial",
+   "pagina": 39
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Docente",
+   "pagina": 39
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso general",
+   "pagina": 39
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso privado",
+   "pagina": 39
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Pública Concurrencia",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso público",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Residencial Público",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Residencial Vivienda",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso restringido",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "Uso Sanitario",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "Vivienda accesible para usuarios de silla de ruedas",
+   "pagina": 40
+  },
+  {
+   "nivel": 2,
+   "titulo": "Vivienda accesible para personas con discapacidad auditiva",
+   "pagina": 41
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo B Características de las instalaciones de protección frente al rayo",
+   "pagina": 42
+  },
+  {
+   "nivel": 2,
+   "titulo": "B.1 Sistema externo",
+   "pagina": 42
+  },
+  {
+   "nivel": 3,
+   "titulo": "B.1.1 Diseño de la instalación de dispositivos captadores",
+   "pagina": 42
+  },
+  {
+   "nivel": 4,
+   "titulo": "B.1.1.1 Volumen protegido mediante puntas Franklin y mallas conductoras",
+   "pagina": 42
+  },
+  {
+   "nivel": 4,
+   "titulo": "B.1.1.2 Volumen protegido mediante pararrayos con dispositivo de cebado",
+   "pagina": 44
+  },
+  {
+   "nivel": 3,
+   "titulo": "B.1.2 Derivadores o conductores de bajada",
+   "pagina": 45
+  },
+  {
+   "nivel": 2,
+   "titulo": "B.2 Sistema interno",
+   "pagina": 45
+  },
+  {
+   "nivel": 2,
+   "titulo": "B.3 Red de tierra",
+   "pagina": 46
+  },
+  {
+   "nivel": 1,
+   "titulo": "Anejo C Normas relacionadas con la aplicación del DB SUA",
+   "pagina": 47
+  }
+ ],
+ "metodo_segmentacion": "toc+lineas",
+ "cobertura_caracteres_apartados": 0.984,
+ "referencias_globales": [
+  "Artículo 12",
+  "DB\nSI",
+  "DB SI",
+  "DB SI 3",
+  "DB SI 4",
+  "DB SUA",
+  "DB SUA\n47",
+  "DB se",
+  "DB-SI",
+  "DB-SI 1",
+  "DB-SUA",
+  "DBSUA",
+  "Real Decreto 1371/2007",
+  "Real Decreto 173/2010",
+  "Real Decreto 314/2006",
+  "Real Decreto 450/2022",
+  "Real Decreto 732/2019",
+  "UNE 41501",
+  "UNE 41901",
+  "UNE EN",
+  "UNE-EN",
+  "apartado 1",
+  "apartado 2",
+  "apartado 2.2",
+  "apartado 3.1",
+  "apartado 3.2",
+  "apartado 3.2.1",
+  "apartado 3.2.3",
+  "apartado 4",
+  "apartado 4.2.3",
+  "apartado 4.3.1",
+  "artículo 12",
+  "artículo 2",
+  "artículo 5",
+  "une en"
+ ],
+ "tablas_por_pagina": {
+  "13": [
+   {
+    "indice": 1,
+    "filas": 7,
+    "columnas": 5
+   }
+  ]
+ },
+ "figuras": [
+  {
+   "pagina": 1,
+   "motivos": [
+    "dibujos:19",
+    "imagen_incrustada"
+   ],
+   "archivo": "figura/p0001.png"
+  },
+  {
+   "pagina": 3,
+   "motivos": [
+    "dibujos:14"
+   ],
+   "archivo": "figura/p0003.png"
+  },
+  {
+   "pagina": 4,
+   "motivos": [
+    "dibujos:15"
+   ],
+   "archivo": "figura/p0004.png"
+  },
+  {
+   "pagina": 8,
+   "motivos": [
+    "dibujos:35",
+    "formulas"
+   ],
+   "archivo": "figura/p0008.png"
+  },
+  {
+   "pagina": 10,
+   "motivos": [
+    "dibujos:452"
+   ],
+   "archivo": "figura/p0010.png"
+  },
+  {
+   "pagina": 11,
+   "motivos": [
+    "dibujos:199"
+   ],
+   "archivo": "figura/p0011.png"
+  },
+  {
+   "pagina": 12,
+   "motivos": [
+    "dibujos:368"
+   ],
+   "archivo": "figura/p0012.png"
+  },
+  {
+   "pagina": 13,
+   "motivos": [
+    "tablas",
+    "dibujos:105",
+    "formulas"
+   ],
+   "archivo": "figura/p0013.png"
+  },
+  {
+   "pagina": 14,
+   "motivos": [
+    "dibujos:367"
+   ],
+   "archivo": "figura/p0014.png"
+  },
+  {
+   "pagina": 16,
+   "motivos": [
+    "dibujos:170"
+   ],
+   "archivo": "figura/p0016.png"
+  },
+  {
+   "pagina": 17,
+   "motivos": [
+    "dibujos:99"
+   ],
+   "archivo": "figura/p0017.png"
+  },
+  {
+   "pagina": 18,
+   "motivos": [
+    "dibujos:130"
+   ],
+   "archivo": "figura/p0018.png"
+  },
+  {
+   "pagina": 19,
+   "motivos": [
+    "dibujos:36"
+   ],
+   "archivo": "figura/p0019.png"
+  },
+  {
+   "pagina": 23,
+   "motivos": [
+    "dibujos:18",
+    "formulas"
+   ],
+   "archivo": "figura/p0023.png"
+  },
+  {
+   "pagina": 24,
+   "motivos": [
+    "dibujos:164"
+   ],
+   "archivo": "figura/p0024.png"
+  },
+  {
+   "pagina": 28,
+   "motivos": [
+    "dibujos:2190"
+   ],
+   "archivo": "figura/p0028.png"
+  },
+  {
+   "pagina": 29,
+   "motivos": [
+    "dibujos:91"
+   ],
+   "archivo": "figura/p0029.png"
+  },
+  {
+   "pagina": 30,
+   "motivos": [
+    "dibujos:24"
+   ],
+   "archivo": "figura/p0030.png"
+  },
+  {
+   "pagina": 32,
+   "motivos": [
+    "dibujos:11"
+   ],
+   "archivo": "figura/p0032.png"
+  },
+  {
+   "pagina": 34,
+   "motivos": [
+    "dibujos:18"
+   ],
+   "archivo": "figura/p0034.png"
+  },
+  {
+   "pagina": 35,
+   "motivos": [
+    "dibujos:28",
+    "formulas"
+   ],
+   "archivo": "figura/p0035.png"
+  },
+  {
+   "pagina": 36,
+   "motivos": [
+    "dibujos:17",
+    "formulas"
+   ],
+   "archivo": "figura/p0036.png"
+  },
+  {
+   "pagina": 37,
+   "motivos": [
+    "dibujos:8"
+   ],
+   "archivo": "figura/p0037.png"
+  },
+  {
+   "pagina": 38,
+   "motivos": [
+    "dibujos:30",
+    "formulas"
+   ],
+   "archivo": "figura/p0038.png"
+  },
+  {
+   "pagina": 41,
+   "motivos": [
+    "dibujos:38",
+    "formulas"
+   ],
+   "archivo": "figura/p0041.png"
+  },
+  {
+   "pagina": 42,
+   "motivos": [
+    "dibujos:744"
+   ],
+   "archivo": "figura/p0042.png"
+  },
+  {
+   "pagina": 43,
+   "motivos": [
+    "dibujos:514"
+   ],
+   "archivo": "figura/p0043.png"
+  },
+  {
+   "pagina": 44,
+   "motivos": [
+    "dibujos:38"
+   ],
+   "archivo": "figura/p0044.png"
+  },
+  {
+   "pagina": 45,
+   "motivos": [
+    "dibujos:164"
+   ],
+   "archivo": "figura/p0045.png"
+  }
+ ],
+ "formulas": {
+  "paginas": [
+   8,
+   13,
+   23,
+   35,
+   36,
+   38,
+   41
+  ],
+  "nota": "Texto de fórmulas extraído automáticamente: pendiente de verificación; consulte la imagen completa de la página. No se genera LaTeX."
+ },
+ "procedencia": {
+  "tipo": "PDF descargado del portal/BOE",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "pdf_nombre": "DB-SUA-oficial-3cfb5bbb13.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadUtilizacionAccesibilidad.html",
+  "copia_fiel": "fuente.pdf",
+  "nota": "Consérvese la URL oficial para versiones mutables."
+ },
+ "corpus_propio": true,
+ "conteos": {
+  "paginas": 47,
+  "apartados": 164,
+  "bloques": 823,
+  "tablas": 1,
+  "figuras": 29,
+  "paginas_png": 29,
+  "caracteres": 103149
+ },
+ "figuras_nota": "'figuras'/'paginas_png' cuentan páginas PNG renderizadas (no el número de figuras normativas).",
+ "tablas_pendientes_geometria": [],
+ "paginas_grafico_sin_celdas": [],
+ "nota_fallback_grafico": "Páginas gráficas de contexto escaso: sin enumeración de trazos ni tabla; PNG y PDF obligatorios; no son tablas validadas.",
+ "umbral_segmentos_tablas": 2000,
+ "metodo_tablas": "find_tables(use_layout=False, refine=True); guardián de segmentos antes de intentar celdas",
+ "segmentation_version": 2,
+ "advertencias": [
+  "Extracción automática; el cotejo humano está pendiente.",
+  "Semántica y tablas no equivalen a validación exhaustiva."
+ ],
+ "generado_por": "build.py",
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo",
+ "nota_segmentacion": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

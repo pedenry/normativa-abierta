@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0057",
+  "ruta_oficial": "5.3.4",
+  "ruta_semantica": "5.3.4  Análisis simplificado de celosías trianguladas con placas dentadas",
+  "titulo": "5.3.4  Análisis simplificado de celosías trianguladas con placas dentadas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.3.4  Análisis simplificado de celosías trianguladas con placas dentadas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 26,
+   "bbox": [
+    70.9,
+    455.2,
+    421.1,
+    465.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5b31f86d97421f38a1643faa08cfb7a8de7d951b55d3298552dd7c56a9a5296e",
+   "literal": "5.3.4  Análisis simplificado de celosías trianguladas con placas dentadas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0069",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3.4  Análisis simplificado de celosías trianguladas con placas dentadas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5  Análisis estructural 5.1  Principios generales / 5.3  Sistemas de barras 5.3.1  Principios generales / 5.3.4  Análisis simplificado de celosías trianguladas con placas dentadas",
+   "seccion_estimada": "5  Análisis estructural 5.1  Principios generales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5c9a7eba5724a5ebc092721f0c5cfa9d4ec531ea5a986306379786bd01d6dc90"
+ },
+ "paginas": [
+  26,
+  27,
+  29
+ ],
+ "etiquetas_impresas": [
+  "2",
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.3.4  Análisis simplificado de celosías trianguladas con placas dentadas\n1\nPara realizar el análisis simplificado de celosías trianguladas que se establece a continuación, deben\ncumplirse los requisitos siguientes:\na) no existen ángulos entrantes en el contorno;\nb) el ancho del apoyo está situado dentro de la longitud a1, y la distancia a2, figura 5.3, no es supe-\nrior a (a1 / 3) ni a 100 mm;\nc) la altura de la celosía es superior a 0,15 veces el vano total y 10 veces el canto del cordón ma-\nyor, véase figura 5.1;\nFigura 5.3 Geometría del apoyo\n2\nEl análisis simplificado consiste en los esfuerzos en las barras de la siguiente forma:\n\nDocumentoBásico SE-M Madera\nSE-M 21\na) las fuerzas axiales en las barras se determinan bajo la hipótesis de que todos los nudos están\narticulados;\nb) los momentos de flexión de las barras de un solo vano se determinan bajo la hipótesis de que\nsus extremos están articulados. Los momentos de flexión de aquellas barras de dos o más va-\nnos, que mantienen su continuidad (por ejemplo cordones) se determinan considerando que la\npieza (cordón) es una viga con un apoyo en cada nudo (viga continua). La influencia de los des-\nplazamientos de los nudos y de la rigidez parcial de las conexiones puede considerarse redu-\nciendo un 10 % los momentos en los apoyos interiores. Los momentos en los vanos se determi-\nnarán en función de los momentos resultantes en los nudos.\n\nDocumentoBásico SE-M Madera\nSE-M 23",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0026.png",
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

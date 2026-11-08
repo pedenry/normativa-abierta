@@ -1,0 +1,133 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0071",
+  "ruta_oficial": "4.3.1.2",
+  "ruta_semantica": "4.3.1.2 Métodos para la comprobación del estado límite último de hundimiento",
+  "titulo": "4.3.1.2 Métodos para la comprobación del estado límite último de hundimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3.1.2 Métodos para la comprobación del estado límite último de hundimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 35,
+   "bbox": [
+    70.9,
+    628.2,
+    448.1,
+    638.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d8a75a5f3ed95b50859eebb0bdc506aa457e6b3b42327a64931dde5de4e1d2cc",
+   "literal": "4.3.1.2 Métodos para la comprobación del estado límite último de hundimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0084",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 4.3.2",
+   "apartado 4.3.3",
+   "apartado 4.3.4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.3.1.2 Métodos para la comprobación del estado límite último de hundimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Presión admisible y de hundimiento 4.3.1 Generalidades / 4.3.1.2 Métodos para la comprobación del estado límite último de hundimiento",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f240e8ed4b3ab5d69c13bac44ad3e1669b93deb846840b8b308be376535f74f7"
+ },
+ "paginas": [
+  35,
+  36
+ ],
+ "etiquetas_impresas": [
+  null,
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "4.3.1.2 Métodos para la comprobación del estado límite último de hundimiento\n1\nEn cimentaciones sobre todo tipo de suelos la presión admisible o valor de cálculo de la resistencia\ndel terreno Rd se podrá determinar mediante la expresión (4.1) utilizando los métodos analíticos del\napartado 4.3.2 para la determinación de la presión de hundimiento y los valores R de la tabla 2.1.\n2\nEn el caso de cimentaciones sobre suelos con menos del 35% de finos, se podrá aplicar el método\nbasado en ensayos de penetración contenidos del apartado 4.3.3, con las limitaciones en él indica-\ndas, para obtener directamente la presión admisible de servicio, considerándose verificado de esta\nforma el estado límite último de hundimiento. En suelos cuyo contenido en gruesos de más de 20\nmm supere el 30% en peso, en función del resultado del ensayo, puede en su caso, ser convenien-\nte la comprobación de la fiabilidad de los valores deducidos de los ensayos SPT mediante ensayos\ntipo cross-hole o down-hole\n\nDocumento Básico SE-C Cimientos\nSE-C-31\n3\nEn el caso de cimentaciones en roca se podrá aplicar el contenido del apartado 4.3.4 para obtener\ndirectamente la carga admisible, considerándose comprobado de esta forma el estado límite último\nde hundimiento.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.3.2",
+  "apartado 4.3.3",
+  "apartado 4.3.4"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0035.png",
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

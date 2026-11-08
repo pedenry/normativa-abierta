@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0085",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo H. Determinación de la permeabilidad al aire del edificio",
+  "titulo": "Anejo H. Determinación de la permeabilidad al aire del edificio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo H. Determinación de la permeabilidad al aire del edificio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 56,
+   "bbox": [
+    179.4,
+    51.4,
+    418.1,
+    60.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9e13150baf416fdc1bbb556996ab2be57cfc304dc92acdce2299ef19c4388435",
+   "literal": "Anejo H. Determinación de la permeabilidad al aire del edificio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0115",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo H. Determinación de la permeabilidad al aire del edificio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo H. Determinación de la permeabilidad al aire del edificio",
+   "seccion_estimada": "Anejo H. Determinación de la permeabilidad al aire del edificio",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "319aaba34fd7eea37b4fb6e78f4de6d5166007148f48e294e89514fbae6c7a24"
+ },
+ "paginas": [
+  56
+ ],
+ "etiquetas_impresas": [
+  "56"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo H. Determinación de la permeabilidad al aire del edificio\n56\nAnejo H Determinación de la permeabilidad al aire del edificio\nLa determinación de la permeabilidad al aire del edificio debe realizarse con alguno de los métodos siguientes:\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0056_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0056.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0086",
+  "a0087"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

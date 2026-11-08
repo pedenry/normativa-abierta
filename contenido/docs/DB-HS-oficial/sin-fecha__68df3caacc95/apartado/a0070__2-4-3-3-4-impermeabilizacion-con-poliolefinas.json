@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0070",
+  "ruta_oficial": "2.4.3.3.4",
+  "ruta_semantica": "2.4.3.3.4 Impermeabilización con poliolefinas",
+  "titulo": "2.4.3.3.4 Impermeabilización con poliolefinas",
+  "nivel": 1,
+  "parent_id": "a0066",
+  "seccion_estimada": "2.4.3.3.4 Impermeabilización con poliolefinas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 30,
+   "bbox": [
+    70.9,
+    633.1,
+    288.0,
+    644.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "baccf090e15640354fca3d44ebf22ea30382e046e84f4a9b0ecc54809eb93d88",
+   "literal": "2.4.3.3.4 Impermeabilización con poliolefinas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0066",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.3.3.4 Impermeabilización con poliolefinas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0066",
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.4 Cubiertas 2.4.1 Grado de impermeabilidad / 2.4.3 Condiciones de los componentes / 2.4.3.3.4 Impermeabilización con poliolefinas",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "209b760603ed98e07df376fc5907c245dd9c8122bd1ee826094877a776bf7642"
+ },
+ "paginas": [
+  30,
+  31
+ ],
+ "etiquetas_impresas": [
+  "30",
+  "31"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "2.4.3.3.4 Impermeabilización con poliolefinas\n1\nDeben utilizarse láminas de alta flexibilidad.\n2.4.3.3.5\nImpermeabilización con un sistema de placas\n1\nEl solapo de las placas debe establecerse de acuerdo con la pendiente del elemento que les sirve\nde soporte y de otros factores relacionados con la situación de la cubierta, tales como zona eólica,\ntormentas y altitud topográfica.\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n31\n2\nDebe recibirse o fijarse al soporte una cantidad de piezas suficiente para garantizar su estabilidad\ndependiendo de la pendiente de la cubierta, del tipo de piezas y del solapo de las mismas, así como\nde la zona geográfica del emplazamiento del edificio.\n2.4.3.4\nCámara de aire ventilada\n1\nCuando se disponga una cámara de aire, ésta debe situarse en el lado exterior del aislante térmico\ny ventilarse mediante un conjunto de aberturas de tal forma que el cociente entre su área efectiva\ntotal, Ss, en cm2, y la superficie de la cubierta, Ac, en m2 cumpla la siguiente condición:\n30 >\nc\ns\nA\nS\n> 3\n(2.3)\n2.4.3.5\nCapa de protección\n1\nCuando se disponga una capa de protección, el material que forma la capa debe ser resistente a la\nintemperie en función de las condiciones ambientales previstas y debe tener un peso suficiente para\ncontrarrestar la succión del viento.\n2\nSe pueden usar los materiales siguientes u otro material que produzca el mismo efecto:\na)\ncuando la cubierta no sea transitable, grava, solado fijo o flotante, mortero, tejas y otros mate-\nriales que conformen una capa pesada y estable;\nb)\ncuando la cubierta sea transitable para peatones, solado fijo, flotante o capa de rodadura;\nc)\ncuando la cubierta sea transitable para vehículos, capa de rodadura.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

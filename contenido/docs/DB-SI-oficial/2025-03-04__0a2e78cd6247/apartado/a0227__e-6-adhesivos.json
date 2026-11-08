@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0227",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo SI E Resistencia al fuego de las estructuras de madera / E.6 Adhesivos",
+  "titulo": "E.6 Adhesivos",
+  "nivel": 2,
+  "parent_id": "a0195",
+  "seccion_estimada": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 84,
+   "bbox": [
+    70.9,
+    211.6,
+    181.0,
+    227.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "cdbc30edcf73e6c59a06e584db0d5c756ddc0c3233dfa7dff9f85df2699e05ff",
+   "literal": "E.6 Adhesivos"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0154",
+  "parent_id_original": "a0195",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.6 Adhesivos",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0195",
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.6 Adhesivos",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bb9c17b78d9e3cd558bd7e4aad920321671096bc707c93871663b74f0b1d08f0"
+ },
+ "paginas": [
+  84,
+  85
+ ],
+ "etiquetas_impresas": [
+  "84",
+  "85"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "E.6 Adhesivos\n1\nLos adhesivos para uso estructural deben producir uniones con resistencia y durabilidad tales que la\nintegridad del encolado se mantenga durante el periodo de resistencia al fuego exigido.\n2\nPara el encolado de madera con madera, madera con productos derivados de la madera o productos\nderivados de la madera con productos derivados de la madera, deberán utilizarse adhesivos de tipo\nfenol-formaldehído y aminoplásticos de tipo 1 de acuerdo con la norma UNE EN 301:2018 y adhesi-\nvos para tablero contrachapado y madera microlaminada de acuerdo con la norma UNE EN 314-\n1:2007 y UNE EN 314-2:1994.\n3\nPara el encolado de barras de acero, la temperatura de reblandecimiento del adhesivo deberá de-\nterminarse experimentalmente.\n\nDocumento Básico SI en caso de Incendio",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0084.png",
+  "../figura/p0085.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

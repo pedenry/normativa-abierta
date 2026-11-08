@@ -1,0 +1,72 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0145",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p106",
+  "titulo": "( )",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p106",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p106",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.9 Uniones de perfiles huecos en las vigas de celosía 8.9.1 Alcance y campo de aplicación / ( )",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "02bf1c2d2efe689ad538138b3136257fc271eed665f18babc3e82b1e91eac4da"
+ },
+ "paginas": [
+  106
+ ],
+ "etiquetas_impresas": [
+  "106"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "( )\n)\n\n\n\n\n\n\n\n\nγ\nθ\n=\nMj\n1\nw\nw\nyo\nRd\n,1\n1\nsen\nb\nt\nf\nN\nReducción de anchura eficaz\n\n\n\n\n\n\n\n\nγ\n=\nMj\nef\n1\ny1\nRd\n,1\n1\nb\nt\nf 2\nN\nNudos en K y N con separación\nEstabilidad del alma del\ncordón\n( )\n)\n\n\n\n\n\n\n\n\nγ\nθ\n=\nMj\n1\nw\nw\nyo\nRd\n,i\n1\nsen\nb\nt\nf\nN\nRed. de anchura eficaz\n\n\n\n\n\n\n\n\nγ\n=\nMj\nef\ni\ny1\nRd\n,1\n1\nb\nt\nf 2\nN\nNo es necesaria la com-\nprobación de anchura\nefectiva si:\ng/t1 ≥ 20 – 28 β\nβ≤ 1,0 – 0,03 γ     y\n0,75 ≤ d1/d2≤ 1,33 para\nperfil hueco circular\n0,75 ≤ b1/b2≤ 1,33 para\nperfil hueco rectangular\nCizallamiento del cordón\n( )\n)\n\n\n\n\n\n\n\n\nγ\nθ\n=\nMj\n1\nv\nyo\nRd\n,1\n1\nsen\n3\nA\nf\nN\nNudos en K y N con solape (1)\nReducción de anchura eficaz         25% ≤λov≤ 50%\n\n\n\n\n\n\n\n\nγ\n\n\n\n\n+\n+\n−\nλ\n=\nMj\nov\ne,\nef\ni\ni\nov\ni\nyi\nRd\n,i\n1\nb\nb\n)\nt 4\nh 2\n(\n50\nt\nf\nN\nReducción de anchura eficaz        50% ≤λov≤ 80%\n\n\n\n\n\n\n\n\nγ\n+\n+\n−\n=\nMj\nov\ne,\nef\ni\ni\ni\nyi\nRd\n,i\n1\n)\nb\nb\nt 4\nh\n(2\nt\nf\nN\nReducción de anchura eficaz                  λov≥ 80%\n\n\n\n\n\n\n\n\nγ\n\n\n\n\n+\n+\n−\nλ\n=\nMj\nov\ne,\neff\ni\ni\nov\ni\nyi\nRd\n,i\n1,1\nb\nb\n)\nt 4\nh 2\n(\n50\nt\nf\nN\n\n\n\n\n\n\n\n\nγ\n+\n+\n−\n=\nMj\nov\ne,\ni\ni\ni\ni\nyi\nRd\n,i\n1\n)\nb\nb\nt 4\nh\n(2\nt\nf\nN\nFunciones",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0106.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

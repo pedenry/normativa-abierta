@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0098",
+  "ruta_oficial": "7.5.4",
+  "ruta_semantica": "7.5.4 Separación de armaduras",
+  "titulo": "7.5.4 Separación de armaduras",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.5.4 Separación de armaduras",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 44,
+   "bbox": [
+    70.9,
+    343.3,
+    223.8,
+    353.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6657b339356997ee1c8bb06881417d86e4e352497c89286e9fc5c6ebdfa8044c",
+   "literal": "7.5.4 Separación de armaduras"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0105",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 5.6.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.5.4 Separación de armaduras",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.5 Disposiciones relativas a las armaduras 7.5.1 Sección mínima de la armadura / 7.5.4 Separación de armaduras",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "22a94b16c62047b1bedfb9afafcda53808a632af1a0cfe011dfd003187637d93"
+ },
+ "paginas": [
+  44
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "7.5.4 Separación de armaduras\n1\nEn general, la distancia libre entre armaduras adyacentes paralelas no será menor que el tamaño\nmáximo del árido más 5 mm, ni que el diámetro de la armadura, ni que 10 mm.\n2\nLa separación entre armaduras principales de tracción no será mayor que 600 mm, excepto la de\narmaduras concentradas en núcleos o cajeados, o en las armaduras de tendel.\n3\nCuando la armadura se encuentre en pilastras o cajeados, la fábrica situada entre estos núcleos se\ncalculará a tenor del apartado 5.6.2. El área total de la armadura principal no excederá el 4% de la",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 5.6.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

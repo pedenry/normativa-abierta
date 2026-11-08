@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0060",
+  "ruta_oficial": "6.2.6",
+  "ruta_semantica": "6.2.6 Resistencia de las secciones a flexión",
+  "titulo": "6.2.6 Resistencia de las secciones a flexión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.2.6 Resistencia de las secciones a flexión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 33,
+   "bbox": [
+    78.0,
+    374.2,
+    287.0,
+    385.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7b2c3517e8afe6db01bcf6c28a0fec903313ddc051e7986bbc1839bce06bc08f",
+   "literal": "6.2.6 Resistencia de las secciones a flexión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0066",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.2.6 Resistencia de las secciones a flexión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / 6.2 Resistencia de las secciones 6.2.1 Bases / 6.2.6 Resistencia de las secciones a flexión",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2f99966f6a2f4f24a8d2b9ad8ecbb7aec4ffa4c0b46cdbb1e149f194101690d6"
+ },
+ "paginas": [
+  33,
+  34
+ ],
+ "etiquetas_impresas": [
+  "33",
+  "34"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.2.6 Resistencia de las secciones a flexión\n1\nLa resistencia de las secciones a flexión, Mc.Rd, será:\na)\nla resistencia plástica de la sección bruta para las secciones de clase 1 y 2:\nyd\npl\nRd\n,\npl\nf\nW\nM\n⋅\n=\n(6.7)\nsiendo\nWpl\nmódulo resistente plástico correspondiente a la fibra con mayor tensión.\nb)\nla resistencia elástica de la sección bruta para las secciones de clase 3:\nyd\nel\nRd\n,\nel\nf\nW\nM\n⋅\n=\n(6.8)\nsiendo\nWel\nmódulo resistente elástico correspondiente a la fibra con mayor tensión.\nc)\nla resistencia a abolladura para las secciones de clase 4:\nyd\neff\nRd\n,\n0\nf\nW\nM\n⋅\n=\n(6.9)\nsiendo\nWef\nmódulo elástico de la sección eficaz (correspondiente a la fibra con mayor tensión).\n2\nLa existencia de agujeros se considerará según su situación:\na)\nsólo se descontará el área de los agujeros situados en la zona comprimida, cuando no se\ndispongan los correspondientes tornillos o cuando se trate de agujeros rasgados o sobredi-\nmensionados;\nb)\nsi los agujeros se sitúan en la zona traccionada se descontarán únicamente cuando la resis-\ntencia última de la zona traccionada es inferior a la plástica:\nyd\nt\nud\nt,\nneta\nf\nA\nf\nA\n9,0\n⋅\n<\n⋅\n⋅\n(6.10)\n\nDocumentoBásico SE-A Acero\nSE-A-32",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0033.png",
+  "../figura/p0034.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

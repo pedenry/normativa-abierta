@@ -1,0 +1,107 @@
+{
+ "indice": 1,
+ "pagina": 114,
+ "etiqueta_impresa": null,
+ "bbox": [
+  64.6,
+  102.2,
+  544.7,
+  324.4
+ ],
+ "filas": 4,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Propiedades",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Expresión y valor obtenido",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Resistencia, en N/mm2\n- Flexión fm,g,k\n- Tracción paralela ft,0,g,k\n- Tracción perpendicular ft,90,g,k\n- Compresión paralela fc,0,g,k\n- Compresión perpendicular fc,90,g,k\n- Cortante fv,g,k",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "fm,g,k = 7 + 1,15 ft,0,k = 23,1\nft,0,g,k = 5 + 0,8 ft,0,k= 16,2\nft,90,g,k = 0,2 + 0,015ft,0,k= 0,4\nfc,0,g,k = 7,2 (ft,0,k)0,45= 23,6\nfc,90,g,k = 0,7 (ft,0,k)0,5 = 2,6\nfv,g,k = 0,32 (ft,0,k)0,8= 2,6",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Rigidez, en kN/mm2\n- Módulo de elasticidad paralelo medio E0,g,medio\n- Módulo de elasticidad paralelo 50percentil E0,g,k\n- Módulo de elasticidad perpendicular medio E90,g,medio\n- Módulo de elasticidad transversal medio Gg, medio",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "E0,g,medio = 1,05 E0,medio= 11,55\nE0,g,k = 0,85 E0,medio= 9,35\nE90,g,medio = 0,035 E0,medio= 0,385\nGg, medio = 0,065 E0,medio= 0,715",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "Densidad, en kg/m3\n- Densidad característica \ng,k",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": " g,k = 1,10  k = 385",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Propiedades",
+  "Expresión y valor obtenido"
+ ],
+ "header": {
+  "names": [
+   "Propiedades",
+   "Expresión y valor obtenido"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA12D80>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA11490>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA12D20>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA137A0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA13200>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA11B80>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA12600>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA10380>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0114.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

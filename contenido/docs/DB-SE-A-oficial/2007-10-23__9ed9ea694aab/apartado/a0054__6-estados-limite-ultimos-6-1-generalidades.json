@@ -1,0 +1,82 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0054",
+  "ruta_oficial": "6",
+  "ruta_semantica": "Fragmento de PDF p31",
+  "titulo": "6 Estados límite últimos 6.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p31",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p31",
+  "referencias_filtradas": [
+   "apartado 3"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bd70db4dc37e4ff0b7037b7022debaf3dd122cc48b5e08222bd6abd8422ea15e"
+ },
+ "paginas": [
+  31
+ ],
+ "etiquetas_impresas": [
+  "31"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "6 Estados límite últimos 6.1 Generalidades\n6.1 Generalidades\n1\nLa comprobación frente a los estados límites últimos supone, en este DB, el análisis y la verifica-\nción ordenada de la resistencia de las secciones, de las barras y de las uniones.\n2\nAunque en el caso de las clases 1 y 2 es una opción holgadamente segura, es admisible utilizar\nen cualquier caso criterios de comprobación basados en distribuciones elásticas de tensiones,\nsiempre que en ningún punto de la sección, (y en clase 4, considerando sólo la eficaz), las tensio-\nnes de cálculo, combinadas conforme al criterio de plastificación de Von Mises, superen la resis-\ntencia de cálculo. En un punto de una chapa sometido a un estado plano de tensión sería:\nyd\n2\nxzd\nzd\nxd\n2\nzd\n2\nxd\nf\n3\n≤\nτ\n⋅\n+\nσ\n⋅\nσ\n−\nσ\n+\nσ\n(6.1)\n3\nEl valor del límite elástico utilizado será el correspondiente al material base según se indica en el\napartado 3 de este DB. No se considerará el efecto de endurecimiento derivado del conformado\nen frío o de cualquier otra operación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0055",
+  "a0064",
+  "a0067",
+  "a0082"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0199",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo SI E Resistencia al fuego de las estructuras de madera / E.2.3 Velocidad de carbonización nominal de cálculo",
+  "titulo": "E.2.3 Velocidad de carbonización nominal de cálculo",
+  "nivel": 3,
+  "parent_id": "a0195",
+  "seccion_estimada": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 74,
+   "bbox": [
+    70.9,
+    551.5,
+    379.1,
+    564.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "4c752a58026e13254e02cfd47704397fc7384f91618a38240bd24394dddcec7c",
+   "literal": "E.2.3 Velocidad de carbonización nominal de cálculo"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0130",
+  "parent_id_original": "a0195",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.2.3 Velocidad de carbonización nominal de cálculo",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0195",
+   "ruta_semantica": "Anejo SI E Resistencia al fuego de las estructuras de madera / E.2.3 Velocidad de carbonización nominal de cálculo",
+   "seccion_estimada": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ea01c24551c2f7e42f3378ac5acc632ce9f2edd2bece59482658c01b78e2203a"
+ },
+ "paginas": [
+  74
+ ],
+ "etiquetas_impresas": [
+  "74"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "E.2.3 Velocidad de carbonización nominal de cálculo\nE.2.3.1 Madera sin protección\n1\nPara maderas sin protección, la velocidad de carbonización nominal de cálculo, n, se considerará\nconstante durante todo el tiempo de exposición al fuego y su valor se determinará de acuerdo con la\ntabla E.1.\nTabla E.1. Velocidad de carbonización nominal de cálculo, n, de maderas sin protección\nn\n(mm/min)\nConíferas y haya\nMadera laminada encolada con densidad característica  290 kg/m3\n0,70\nMadera maciza con densidad característica  290 kg/m3\n0,80",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0074_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0074.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0200"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

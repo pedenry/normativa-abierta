@@ -1,0 +1,219 @@
+{
+ "documento": null,
+ "pagina": 106,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-101",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    186.4
+   ],
+   "tipo": "texto",
+   "texto": "e)\npérdida de la fuerza de anclaje por excesivo desplazamiento de la cabeza de transmisión o por\nfluencia y relajación;\nf)\nrotura o excesiva deformación de partes de la estructura anclada como consecuencia de la\naplicación de la fuerza de anclaje;\ng)\npérdida de la estabilidad global del terreno y de la estructura de contención;\nh)\ninteracción inaceptable de grupos de anclajes con el terreno y las estructuras adyacentes.\n2\nPara la comprobación de los estados límite de servicio de la estructura anclada se considerará cada\nanclaje como un muelle cuya constante se determinará según las leyes de la Elasticidad a partir de\nla longitud libre equivalente del anclaje y sus características geométricas y mecánicas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    208.2,
+    173.6,
+    220.2
+   ],
+   "tipo": "titulo",
+   "texto": "9.3.2 Estabilidad",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    224.9,
+    541.3,
+    330.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl análisis de la estabilidad del anclaje comprenderá, al menos, los siguientes aspectos:\na)\ncomprobación de la tensión admisible;\nb)\ncomprobación al deslizamiento del tirante dentro del bulbo de anclaje;\nc)\ncomprobación de la seguridad frente al arrancamiento del bulbo.\n2\nLa verificación de estos estados límite para cada situación de dimensionado se hará utilizando la\nexpresión (2.2), estando Ed definida en la expresión (9.1) y viniendo Rd dada en los apartados si-\nguientes:\n3\nPara la comprobación de la tensión admisible del tirante:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    93.7,
+    334.1,
+    536.3,
+    403.4
+   ],
+   "tipo": "texto",
+   "texto": "Rd = min (AT · fPK/M1; AT · fYK/M2)\n      (9.2)\nsiendo\nAT\nla sección del tirante;\nfPK\nel límite de rotura del acero del tirante;\nfYK\nel límite elástico del acero del tirante;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.7,
+    407.3,
+    412.1,
+    418.8
+   ],
+   "tipo": "texto",
+   "texto": "M1\nen anclajes provisionales 1,25 y anclajes permanentes 1,30;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    422.6,
+    446.2,
+    448.4
+   ],
+   "tipo": "texto",
+   "texto": "M2\nen anclajes provisionales 1,10 y en anclajes permanentes 1,15.\n4\nPara la comprobación del deslizamiento del tirante dentro del bulbo de anclaje:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.7,
+    452.3,
+    536.3,
+    507.2
+   ],
+   "tipo": "texto",
+   "texto": "Rd= Lb · PT · lim/R\n      (9.3)\nsiendo\nLb\nlongitud de cálculo del bulbo;\nPT\nperímetro nominal del tirante;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    93.7,
+    511.0,
+    433.2,
+    522.5
+   ],
+   "tipo": "texto",
+   "texto": "lim\nadherencia límite entre el tirante y la lechada expresada en MPa;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.7,
+    526.4,
+    193.6,
+    552.2
+   ],
+   "tipo": "texto",
+   "texto": "R\nigual a 1,2.\ndonde",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    556.0,
+    541.3,
+    622.4
+   ],
+   "tipo": "texto",
+   "texto": "lim= 6,9 (fCK /22,5)\n     (9.4)\nfCK\nresistencia característica de la lechada expresada en MPa;\nPara esta comprobación, el exceso de longitud del bulbo por encima de 14 m se minorará por un\ncoeficiente de 0,70 a fin de tener en cuenta su posible rotura progresiva.\n5\nPara la comprobación de la seguridad frente al arrancamiento del bulbo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    93.7,
+    626.3,
+    536.3,
+    681.2
+   ],
+   "tipo": "texto",
+   "texto": "Rd =  ·DN · Lb · aadm\n      (9.5)\nsiendo\nDN\nel diámetro nominal del bulbo\naadm\nla adherencia admisible frente al deslizamiento o arrancamiento del terreno",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    95.3,
+    683.8,
+    536.3,
+    713.1
+   ],
+   "tipo": "texto",
+   "texto": "\n\n'\n'\n'\nm\nR\nadm\ntg\n·\nc\n1\na\n\n\n\n\n\n      (9.6)",
+   "tamano": 13.6,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    93.7,
+    718.7,
+    124.3,
+    728.6
+   ],
+   "tipo": "texto",
+   "texto": "donde",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    93.7,
+    732.5,
+    541.3,
+    769.9
+   ],
+   "tipo": "texto",
+   "texto": "R  = 1,35\ncm ´\nla cohesión efectiva del terreno en el contacto terreno-bulbo minorada por un coeficiente\nde 1,2.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

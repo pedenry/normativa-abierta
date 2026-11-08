@@ -1,0 +1,414 @@
+{
+ "documento": null,
+ "pagina": 55,
+ "etiqueta_impresa": "55",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    172.5,
+    35.9,
+    439.3,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "55",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.1,
+    442.6,
+    86.7
+   ],
+   "tipo": "titulo",
+   "texto": "B.4 Valor de cálculo de la densidad de carga de fuego",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    95.2,
+    541.4,
+    129.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor de cálculo de la densidad de carga de fuego se determina en función del valor característico\nde la carga de fuego del sector, así como de la probabilidad de activación y de las previsibles conse-\ncuencias del incendio, como:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    88.8,
+    135.5,
+    520.9,
+    149.8
+   ],
+   "tipo": "texto",
+   "texto": "qf,d =q f,km\n1\nq\n\n2\nq\n\nn\n\nc\n\n(B.7)",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    157.8,
+    123.9,
+    168.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    175.2,
+    399.4,
+    186.3
+   ],
+   "tipo": "texto",
+   "texto": "qf,k valor característico de la densidad de carga de fuego, según B.5;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    192.8,
+    541.2,
+    238.5
+   ],
+   "tipo": "texto",
+   "texto": "m\ncoeficiente de combustión que tiene en cuenta la fracción del combustible que arde en el incen-\ndio. En los casos en los que el material incendiado sea de tipo celulósico (madera, papel, tejidos,\netc.) puede tomarse m= 0,8. Cuando se trate de otro tipo de material y no se conozca su coefi-\nciente de combustión puede tomarse m=1 del lado de la seguridad.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    90.5,
+    244.4,
+    476.3,
+    258.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nq\n\n coeficiente que tiene en cuenta el riesgo de iniciación debido al tamaño del sector,",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    90.5,
+    266.5,
+    496.3,
+    280.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nq\n\n coeficiente que tiene en cuenta el riesgo de iniciación debido al tipo de uso o actividad;",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    90.6,
+    288.5,
+    518.7,
+    305.3
+   ],
+   "tipo": "texto",
+   "texto": "n\n coeficiente que tiene en cuenta las medidas activas voluntarias existentes,\nn\n=\n1,\nn\n\n2\nn\n\n3\nn\n",
+   "tamano": 12.3,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    90.6,
+    313.4,
+    395.0,
+    327.7
+   ],
+   "tipo": "texto",
+   "texto": "c\n coeficiente de corrección según las consecuencias del incendio.",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    334.4,
+    541.4,
+    348.7
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos valores de\n1\nq\n\nse dan en la tabla B.2, pudiéndose obtener valores intermedios por interpolación",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    88.8,
+    350.9,
+    117.7,
+    362.0
+   ],
+   "tipo": "texto",
+   "texto": "lineal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    106.7,
+    375.1,
+    505.4,
+    389.4
+   ],
+   "tipo": "texto",
+   "texto": "Tabla B.2. Valores del coeficiente\n1\nq\n\n por el riesgo de iniciación debido al tamaño del sector",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    171.1,
+    397.7,
+    513.2,
+    411.9
+   ],
+   "tipo": "texto",
+   "texto": "Superficie del sector Af  [m2]\nRiesgo de iniciación\n1\nq\n",
+   "tamano": 10.3,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    224.1,
+    420.8,
+    469.3,
+    430.8
+   ],
+   "tipo": "texto",
+   "texto": "<20\n1,00",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    226.7,
+    437.1,
+    469.3,
+    447.2
+   ],
+   "tipo": "texto",
+   "texto": "25\n1,10",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    224.2,
+    453.6,
+    469.3,
+    463.6
+   ],
+   "tipo": "texto",
+   "texto": "250\n1,50",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    220.5,
+    469.9,
+    469.3,
+    479.9
+   ],
+   "tipo": "texto",
+   "texto": "2 500\n1,90",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    220.5,
+    486.2,
+    469.3,
+    496.2
+   ],
+   "tipo": "texto",
+   "texto": "5 000\n2,00",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    215.3,
+    502.5,
+    469.3,
+    512.6
+   ],
+   "tipo": "texto",
+   "texto": ">10 000\n2,13",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    536.9,
+    330.3,
+    553.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nLos valores de\n2\nq\n\n pueden obtenerse de la tabla B.3.",
+   "tamano": 11.8,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    113.1,
+    568.9,
+    498.9,
+    583.2
+   ],
+   "tipo": "texto",
+   "texto": "Tabla B.3. Valores del coeficiente\n2\nq\n\npor el riesgo de iniciación debido al uso o actividad",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    82.0,
+    591.8,
+    507.1,
+    606.1
+   ],
+   "tipo": "texto",
+   "texto": "Actividad\nRiesgo de iniciación\n2\nq\n",
+   "tamano": 10.3,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    82.0,
+    615.1,
+    462.6,
+    625.3
+   ],
+   "tipo": "texto",
+   "texto": "Vivienda, Administrativo, Residencial, Docente\n1,00",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    82.0,
+    631.4,
+    462.6,
+    641.6
+   ],
+   "tipo": "texto",
+   "texto": "Comercial, Aparcamiento, Hospitalario, Pública concurrencia\n1,25",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    82.0,
+    647.9,
+    462.6,
+    657.9
+   ],
+   "tipo": "texto",
+   "texto": "Locales de riesgo especial bajo\n1,25",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    82.0,
+    664.2,
+    462.6,
+    674.2
+   ],
+   "tipo": "texto",
+   "texto": "Locales de riesgo especial medio\n1,40",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    82.0,
+    680.6,
+    462.6,
+    690.7
+   ],
+   "tipo": "texto",
+   "texto": "Locales de riesgo especial alto\n1,60",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    70.9,
+    715.1,
+    325.5,
+    729.3
+   ],
+   "tipo": "texto",
+   "texto": "4\nLos valores de\ni,n\n\npueden obtenerse de la tabla B.4.",
+   "tamano": 10.3,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

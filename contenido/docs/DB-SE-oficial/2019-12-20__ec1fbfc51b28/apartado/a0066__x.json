@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0066",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p32",
+  "titulo": " ",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p32",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p32",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación /  ",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f0c9981123478f2290c3e294bcb6f9695d8e4bae162f50d77e3bef086a7792b3"
+ },
+ "paginas": [
+  32,
+  33
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": " \n\nf\n-1P\n-\n\n\n(C.9)\nLa tabla C.1 contiene valores numéricos para la relación entre el índice de fiabilidad, β, y la probabi-\nlidad de fallo, Pf.\nTabla C.1\nRelación entre el índice de fiabilidad, b, y la probabilidad de fallo, Pf\nPf\n10-1\n10-2\n10-3\n10-4\n10-5\n10-6\n10-7\n\n1,3\n2,3\n3,1\n3,7\n4,2\n4,7\n5,2\n2\nLos valores numéricos de la probabilidad de fallo (y de los correspondientes índices de fiabilidad) a\nlos que hacen referencia los principios de C.3 y que se pueden determinar según los métodos men-\ncionados en C.5, representan valores nominales y no describen la frecuencia real de fallos estructu-\nrales. Las diferencias sustanciales entre la probabilidad de fallo nominal y la frecuencia real de fa-\nllos estructurales se debe por un lado a que en realidad los fallos son debidos, en muchos casos, a\nerrores humanos y, por otro lado, a las simplificaciones introducidas a través de los modelos.\nDebido a que las probabilidades de fallo se deben interpretar como valores nominales, las probabi-\nlidades de fallo admisibles deben basarse en los resultados de una calibración. El empleo de valo-\nres de este tipo para caracterizar la fiabilidad requerida de una estructura está relacionado con un\nconjunto coherente y específico de modelos probabilistas y de modelos estructurales. No es admi-\nsible el empleo de valores calibrados para la probabilidad de fallo admisible (o para el índice de fia-\nbilidad requerido) en combinación con otros modelos, ya que conduce a resultados distorsionados\nen cuanto al nivel de fiabilidad.\n3\nLa tabla C.2 representa valores calibrados para el índice de fiabilidad requerido, referidos a todo el\nperiodo de servicio de la estructura, en función de las consecuencias de un fallo estructural y del\ncoste relativo de un incremento de la fiabilidad.\nTabla C.2 Valores nominales, referidos a todo el periodo de servicio, para el índice de fiabilidad reque-\nrido\nCoste relativo\npara incrementar\nla fiabilidad\nConsecuencias de un fallo estructural\ndespreciables\npequeñas\nmoderadas\ngrandes\nelevado\n0\n1,5\n2,3\n3,1\nmoderado\n1,3\n2,3\n3,1\n3,8\nbajo\n2,3\n3,1\n3,8\n4,3\nLos valores de la tabla C.2 se han deducido aplicando los métodos de los valores de cálculo (C.6),\nadoptando las siguientes hipótesis para las funciones de distribución de los modelos probabilistas:\na)\nmodelos de resistencia\nlognormal o Weibull\n\nDocumento Básico SE Seguridad Estructural\nSE - 27\nb)\nacciones permanentes\nnormal\nc)\nacciones variables\nGumbel.\n4\nLos valores recomendados para el índice de fiabilidad requerido, referidos a todo el periodo de ser-\nvicio de la estructura, son:\na)\npara estados límite de servicio\nreversibles\n = 0\nirreversibles\n = 1,5\nb)\npara fatiga\n = 2,3 a 3,1 (en función de las posibilidades de inspección)\nc)\npara estados límite últimos   = 3,1; 3,8; 4,3\nEl empleo de estos valores a efecto de un análisis probabilista explícito requiere necesariamente la\nadopción de las mismas hipótesis en las que se basan los valores nominales de la tabla C.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0032.png",
+  "../figura/p0033.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

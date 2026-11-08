@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0083",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p37",
+  "titulo": "sección constante puede obtenerse a partir de la expresión siguiente:",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p37",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p37",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6  Estados límite últimos / sección constante puede obtenerse a partir de la expresión siguiente:",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a1215aa1644f1ed2442c977a53b5cb2fc7af1534e47f7705dc2aaadb3df61417"
+ },
+ "paginas": [
+  37,
+  38
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "sección constante puede obtenerse a partir de la expresión siguiente:\ny\nef\nv\ntor\nk,\n0\nz\nk,\n0\ny\ncrit\n,y\ncrit\n,\nm\nW\nL\nI\nG\nI\nE\nW\nM\n\n\n\n\n\n\n\n\n\n\n\n(6.37)\nsiendo:\nE0,k\nmódulo de elasticidad longitudinal característico;\nG0,k\nmódulo de elasticidad transversal característico;\nv\ncoeficiente que define la longitud eficaz a vuelco lateral. Depende de las condiciones\nde apoyo y de la ley de cargas, tabla 6.2;\nIz\nmomento de inercia respecto al eje débil;\nItor\nmódulo de torsión;\nLef\nlongitud eficaz de vuelco lateral de la viga:\nLef = v·L\n(6.38)\ndonde:\nL\nluz de la viga;\nv\ncoeficiente que depende de las condiciones de carga y de la restricción de los extremos,\nobtenido según tabla 6.2;\nWy  módulo resistente respecto al eje fuerte.\nLa tensión crítica de flexión en piezas de madera de conífera de directriz recta y sección rectangular,\npuede obtenerse a partir de la siguiente expresión:\nh\nL\nb\nE\n78\n,0\nef\n2\nk,\n0\ncrit\n,\nm\n\n\n\n\n\n(6.39)\nsiendo:\nE0,k  módulo de elasticidad longitudinal característico;\nb\nanchura de la sección;\nh\naltura (canto) de la sección.\n\nDocumentoBásico SE-M Madera\nSE-M 32\nTabla 6.2 Valores del coeficiente v para vigas de sección constante con diferentes condiciones de carga y\nde restricción en los extremos.\nTipo de carga y viga\nv =Lef / L\nv  = 1,00\nv  = 0,95\nv = 0,8/\n = 1,35 - 1,4 x(L - x)/L2\nv  = 2,00\nv = 1,20\nv = 1,70\nv = 0,40\nv = 0,25\nLos valores que se dan en esta tabla son válidos para una viga cargada en su centro de gravedad y con la torsión impedida en los\napoyos. Si la carga se aplica en el borde comprimido la longitud eficaz Lef se incrementará en 2h y si es aplicada en el borde trac-\ncionado se reducirá en 0,5h, siendo h el canto de la pieza.\nT: sección central con desplazamiento lateral impedido en el borde superior.\n2\nLos ejemplos indicados en la tabla 6.2 tienen impedido el desplazamiento lateral en los apoyos y en\nlos dos últimos casos representados, también, en un punto intermedio. Generalmente, el sistema de\narriostramiento en vigas de cierta luz inmoviliza varios puntos intermedios y no son aplicables direc-\ntamente estos casos. En el caso de vigas biapoyadas esta comprobación se realiza para el tramo\narriostrado, donde el  momento es mayor, tomándose como distancia entre secciones arriostradas la\ncorrespondiente al tramo central, con v=1, como si el momento fuera constante.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0037.png",
+  "../figura/p0038.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0084",
+  "a0085"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

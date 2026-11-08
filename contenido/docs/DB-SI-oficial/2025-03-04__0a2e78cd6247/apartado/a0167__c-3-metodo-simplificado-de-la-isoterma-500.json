@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0167",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.3  Método simplificado de la isoterma 500",
+  "titulo": "C.3  Método simplificado de la isoterma 500",
+  "nivel": 2,
+  "parent_id": "a0154",
+  "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 61,
+   "bbox": [
+    70.9,
+    386.9,
+    370.9,
+    402.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "4b24cfb8b7df0f7bad8a594ba0fdccd0b81bee678b7650560ded9923296946a1",
+   "literal": "C.3  Método simplificado de la isoterma 500"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0112",
+  "parent_id_original": "a0154",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.3  Método simplificado de la isoterma 500",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0154",
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.3  Método simplificado de la isoterma 500",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f5b1a1273135c0055f28220b68b02eb81a881ad6687872caf7b55a83c9b73db0"
+ },
+ "paginas": [
+  61
+ ],
+ "etiquetas_impresas": [
+  "61"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "C.3  Método simplificado de la isoterma 500 C.3.1 Campo de aplicación\nC.3.1 Campo de aplicación\n1\nEste método es aplicable a elementos de hormigón armado y pretensado, solicitados por esfuerzos\nde compresión, flexión o flexocompresión.\n2\nPara poder aplicar este método, la dimensión del lado menor de las vigas o soportes expuestos por\ndicho lado y los contiguos debe ser mayor que la indicada en la tabla C.6.\nTabla C.6 Dimensión mínima de vigas y soportes\nResistencia al fuego\nR 60\nR 90\nR 120\nR 180\nR 240\nDimensión mínima de la sección recta (mm)\n90\n120\n160\n200\n280",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0061.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0168",
+  "a0169",
+  "a0170"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

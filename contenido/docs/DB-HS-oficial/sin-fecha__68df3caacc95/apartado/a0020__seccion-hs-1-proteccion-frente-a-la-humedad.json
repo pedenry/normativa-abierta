@@ -1,0 +1,67 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0020",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p6",
+  "titulo": "Sección HS 1  Protección frente a la humedad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p6",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p6",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 junio 20 o Bá / Sección HS 1  Protección frente a la humedad",
+   "seccion_estimada": "14 junio 20 o Bá",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bcd6457f1263f2619b9924e0b580cad3e01eda9384d667e6dd7530131f8899d8"
+ },
+ "paginas": [
+  6
+ ],
+ "etiquetas_impresas": [
+  "6"
+ ],
+ "tipos": [],
+ "texto": "Sección HS 1  Protección frente a la humedad\n1\nGeneralidades\n1.1 Ámbito de aplicación\n1.2 Procedimiento de verificación\n2\nDiseño\n2.1 Muros\n2.2 Suelos\n2.3 Fachadas\n2.4 Cubiertas\n3\nDimensionado\n3.1 Tubos de drenaje\n3.2 Canaletas de recogida\n3.3 Bombas de achique\n4\nProductos de Construcción\n4.1 Características exigibles a los productos\n4.2 Control de recepción en obra de productos\n5\nConstrucción\n5.1 Ejecución\n5.2 Control de la ejecución\n5.3 Control de la obra terminada",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

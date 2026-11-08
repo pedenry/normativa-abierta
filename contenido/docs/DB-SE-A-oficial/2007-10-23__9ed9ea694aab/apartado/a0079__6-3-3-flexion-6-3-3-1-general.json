@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0079",
+  "ruta_oficial": "6.3.3",
+  "ruta_semantica": "Fragmento de PDF p43",
+  "titulo": "6.3.3 Flexión 6.3.3.1 General",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p43",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p43",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección se define en apartados posteriores. / 6.3.3 Flexión 6.3.3.1 General",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ab3118c9224ada0d3b33ae61162e77955f9ca18eef8859fcae84da3e1ba15b63"
+ },
+ "paginas": [
+  43,
+  44
+ ],
+ "etiquetas_impresas": [
+  "43",
+  "44"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.3 Flexión 6.3.3.1 General\n6.3.3.1 General\n1\nUna viga sometida a momentos flectores dentro de su plano, puede pandear lateralmente en caso\nde que la separación entre apoyos laterales supere un determinado valor. En estos casos, será\nnecesario efectuar una verificación de la seguridad frente a pandeo lateral.\n2\nEn la determinación de la resistencia frente a pandeo lateral de una viga también se tendrá en\ncuenta la interacción con la abolladura de las chapas comprimidas\n3\nNo será necesaria la comprobación a pandeo lateral cuando el ala comprimida se arriostra de\nforma continua o bien de forma puntual a distancias menores de 40 veces el radio de giro mínimo.\nNo obstante, en estos casos se deberá asegurar una rigidez y una resistencia adecuadas de los\napoyos laterales.\n\nDocumentoBásico SE-A Acero\nSE-A-42",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0044_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0043.png",
+  "../figura/p0044.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0080"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

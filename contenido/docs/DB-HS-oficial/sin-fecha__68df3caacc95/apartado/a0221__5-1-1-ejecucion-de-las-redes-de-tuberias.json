@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0221",
+  "ruta_oficial": "5.1.1",
+  "ruta_semantica": "5.1.1 Ejecución de las redes de tuberías",
+  "titulo": "5.1.1 Ejecución de las redes de tuberías",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.1.1 Ejecución de las redes de tuberías",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 95,
+   "bbox": [
+    70.9,
+    213.5,
+    266.0,
+    224.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "93e2f9471a590605d5476c739e36f9439f31c03c9a4a21fda59a219f05a03d6c",
+   "literal": "5.1.1 Ejecución de las redes de tuberías"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.1 Ejecución de las redes de tuberías",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Construcción 5.1 Ejecución / 5.1.1 Ejecución de las redes de tuberías",
+   "seccion_estimada": "5 Construcción 5.1 Ejecución",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c9ca14c02721014a17b1442ef899a83cafd4429182c3c770deaf97af6ed36978"
+ },
+ "paginas": [
+  95
+ ],
+ "etiquetas_impresas": [
+  "95"
+ ],
+ "tipos": [],
+ "texto": "5.1.1 Ejecución de las redes de tuberías\n5.1.1.1\nCondiciones generales\n1\nLa ejecución de las redes de tuberías se realizará de manera que se consigan los objetivos previs-\ntos en el proyecto sin dañar o deteriorar al resto del edificio, conservando las características del\nagua de suministro respecto de su potabilidad, evitando ruidos molestos, procurando las condicio-\nnes necesarias para la mayor duración posible de la instalación así como las mejores condiciones\npara su mantenimiento y conservación.\n2\nLas tuberías ocultas o empotradas discurrirán preferentemente por patinillos o cámaras de fábrica\nrealizados al efecto o prefabricados, techos o suelos técnicos, muros cortina o tabiques técnicos. Si\nesto no fuera posible, por rozas realizadas en paramentos de espesor adecuado, no estando permi-\ntido su empotramiento en tabiques de ladrillo hueco sencillo. Cuando discurran por conductos, éstos\nestarán debidamente ventilados y contarán con un adecuado sistema de vaciado.\n3\nEl trazado de las tuberías vistas se efectuará en forma limpia y ordenada. Si estuvieran expuestas a\ncualquier tipo de deterioro por golpes o choques fortuitos, deben protegerse adecuadamente.\n4\nLa ejecución de redes enterradas atenderá preferentemente a la protección frente a fenómenos de\ncorrosión, esfuerzos mecánicos y daños por la formación de hielo en su interior. Las conducciones\nno deben ser instaladas en contacto con el terreno, disponiendo siempre de un adecuado revesti-\nmiento de protección. Si fuese preciso, además del revestimiento de protección, se procederá a rea-\nlizar una protección catódica, con ánodos de sacrificio y, si fuera el caso, con corriente impresa.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0222"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

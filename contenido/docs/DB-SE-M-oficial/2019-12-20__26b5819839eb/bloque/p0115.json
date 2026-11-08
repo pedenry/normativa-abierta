@@ -1,0 +1,338 @@
+{
+ "documento": null,
+ "pagina": 115,
+ "etiqueta_impresa": "750",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    286.9,
+    797.9,
+    324.7,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 109",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    97.0,
+    538.6,
+    127.0
+   ],
+   "tipo": "titulo",
+   "texto": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi-\ndad. Madera aserrada, madera laminada encolada y tableros",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    150.9,
+    191.0,
+    162.9
+   ],
+   "tipo": "titulo",
+   "texto": "E.1 Madera aserrada",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 4,
+   "bbox": [
+    72.1,
+    179.3,
+    501.8,
+    189.2
+   ],
+   "tipo": "texto",
+   "texto": "E.1.1 Valores de las propiedades asociadas a cada clase resistente de la madera aserrada",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    198.9,
+    541.3,
+    231.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn la tabla E.1 se indican los valores de las propiedades de resistencia, rigidez y densidad asociadas\na cada clase resistente para las especies de coníferas y chopo y en la tabla E.2 para las especies\nfrondosas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    73.2,
+    245.1,
+    538.5,
+    253.1
+   ],
+   "tipo": "texto",
+   "texto": "Tabla E.1 Madera aserrada. Especies de coníferas y chopo. Valores de las propiedades asociadas a cada Clase Resistente",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    254.8,
+    538.1,
+    290.9
+   ],
+   "tipo": "texto",
+   "texto": "Propiedades\nClase resistente\nC14\nC16\nC18\nC20\nC22\nC24\nC27\nC30\nC35\nC40\nC45\nC50\nResistencia\n(característica)\nen\nN/mm2",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    304.0,
+    537.3,
+    312.3
+   ],
+   "tipo": "texto",
+   "texto": "- Flexión\nfm,k\n14\n16\n18\n20\n22\n24\n27\n30\n35\n40\n45\n50",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    322.0,
+    537.3,
+    330.3
+   ],
+   "tipo": "texto",
+   "texto": "- Tracción paralela\nft,0,k\n8\n10\n11\n12\n13\n14\n16\n18\n21\n24\n27\n30",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    340.0,
+    538.4,
+    348.3
+   ],
+   "tipo": "texto",
+   "texto": "- Tracción perpendicular.\nft,90,k\n0,4\n0,4\n0,4\n0,4\n0,4\n0,4\n0,4\n0,4\n0,4\n0,4\n0,4\n0,4",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    358.0,
+    537.3,
+    366.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "- Compresión paralela\nfc,0,k\n16\n17\n18\n19\n20\n22\n22\n23\n25\n26\n27\n29",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    371.7,
+    538.4,
+    417.0
+   ],
+   "tipo": "texto",
+   "texto": "-Compresión perpendicular\nfc,90,k\n2,0\n2,2\n2,2\n2,3\n2,4\n2,5\n2,6\n2,7\n2,8\n2,9\n3,1\n3,2\n- Cortante\nfv,k\n3,0\n3,2\n3,4\n3,6\n3,8\n4,0\n4,0\n4,0\n4,0\n4,0\n4,0\n4,0\nRigidez, en kN/mm²\n- Módulo de elasticidad\nparalelo medio\nE0,medio\n7\n8\n9\n9,5\n10\n11\n11.5\n12\n13\n14\n15\n16",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    418.1,
+    540.7,
+    435.4
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nparalelo 50-percentíl\nE0,k\n4,7\n5,4\n6,0\n6,4\n6,7\n7,4\n7,7\n8,0\n8,7\n9,4\n10,0\n10,7",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    436.6,
+    540.7,
+    453.8
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nperpendicular medio\nE90,medio\n0,23\n0,27\n0,30\n0,32\n0,33\n0,37\n0,38\n0,40\n0,43\n0,47\n0,50\n0,53",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    455.0,
+    540.7,
+    513.4
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo transversal medio\nGmedio\n0,44\n0,50\n0,56\n0,59\n0,63\n0,69\n0,72\n0,75\n0,81\n0,88\n0,94\n1,00\nDensidad, en kg/m3\n- Densidad característica\nk\n290\n310\n320\n330\n340\n350\n370\n380\n400\n420\n440\n460\n- Densidad media\nmedio\n350\n370\n380\n390\n410\n420\n450\n460\n480\n500\n520\n550\nTabla E.2 Madera aserrada. Especies frondosas. Valores de las propiedades asociadas a cada Clase resis-",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    294.0,
+    514.7,
+    318.0,
+    523.7
+   ],
+   "tipo": "texto",
+   "texto": "tente",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    525.6,
+    533.6,
+    563.8
+   ],
+   "tipo": "texto",
+   "texto": "Propiedades\nClase Resistente\nD18\nD24\nD30\nD35\nD40\nD50\nD60\nD70\nResistencia\n(característica),\nen\nN/mm²",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    565.1,
+    535.3,
+    619.1
+   ],
+   "tipo": "texto",
+   "texto": "- Flexión\nfm,k\n18\n24\n30\n35\n40\n50\n60\n70\n- Tracción paralela\nft,0,k\n11\n14\n18\n21\n24\n30\n36\n42\n- Tracción perpendicular.\nft,90,k\n0,6\n0,6\n0,6\n0,6\n0,6\n0,6\n0,6\n0,6\n- Compresión paralela\nfc,0,k\n18\n21\n23\n25\n26\n29\n32\n34\n-Compresión\nperpendicular.\nfc,90,k\n7,5\n7,8\n8,0\n8,1\n8,3\n9,3\n10,5\n13,5",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    620.3,
+    533.1,
+    656.4
+   ],
+   "tipo": "texto",
+   "texto": "- Cortante\nfv,k\n3,4\n4,0\n4,0\n4,0\n4,0\n4,0\n4,5\n5,0\nRigidez, kN/mm²\n-Módulo de elasticidad\nparalelo medio\nE0,medio\n10\n11\n12\n12\n13\n14\n17\n20",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    657.6,
+    535.3,
+    674.8
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nparalelo 5º-percentíl\nE0,k\n8,4\n9,2\n10,1\n10,1\n10,9\n11,8\n14,3\n16,8",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    70.9,
+    676.0,
+    535.3,
+    693.3
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo de elasticidad\nperpendicular medio\nE90,medio\n0,67\n0,73\n0,80\n0,80\n0,86\n0,93\n1,13\n1,33",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    694.4,
+    535.3,
+    711.6
+   ],
+   "tipo": "texto",
+   "texto": "- Módulo transversal\nmedio\nGmedio\n0,63\n0,69\n0,75\n075\n0,81\n0,88\n1,06\n1,25",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    70.9,
+    712.5,
+    527.6,
+    724.4
+   ],
+   "tipo": "texto",
+   "texto": "Densidad, kg/m3",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 24,
+   "bbox": [
+    70.9,
+    728.1,
+    536.5,
+    747.3
+   ],
+   "tipo": "texto",
+   "texto": "-Densidad característica\nk\n500\n520\n530\n540\n550\n620\n700\n900\n- Densidad media\nmedio\n610\n630\n640\n650\n660\n750\n840\n1080",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

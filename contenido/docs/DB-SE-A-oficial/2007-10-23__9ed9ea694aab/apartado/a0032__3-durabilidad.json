@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0032",
+  "ruta_oficial": "3",
+  "ruta_semantica": "3 Durabilidad",
+  "titulo": "3 Durabilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3 Durabilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    74.1,
+    97.6,
+    166.6,
+    113.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "010dee241a02e060de3f3b8d60dba6a351a00e0f10a4e038dccea47e3f899ba2",
+   "literal": "3 Durabilidad"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0037",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-ENV"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Durabilidad",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Durabilidad",
+   "seccion_estimada": "3 Durabilidad",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6d8dde1f8c421d707b0a65472c7e1461d74e4bf924e111f110f3616139093a31"
+ },
+ "paginas": [
+  11,
+  13
+ ],
+ "etiquetas_impresas": [
+  "11",
+  "13"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3 Durabilidad\n1\nHa de prevenirse la corrosión del acero mediante una estrategia global que considere en forma je-\nrárquica al edificio en su conjunto (situación, uso, etc.), la estructura (exposición, ventilación, etc.),\nlos elementos (materiales, tipos de sección, etc.) y, especialmente, los detalles, evitando:\na)\nLa existencia de sistemas de evacuación de aguas no accesibles para su conservación que\npuedan afectar a elementos estructurales.\nb)\nla formación de rincones, en nudos y en uniones a elementos no estructurales, que favorez-\ncan el depósito de residuos o suciedad.\nc)\nel contacto directo con otros metales (el aluminio de las carpinterías de cerramiento, muros\ncortina, etc.).\nd)\nel contacto directo con yesos.\n2\nEn el proyecto de edificación se indicarán las protecciones adecuadas a los materiales para evitar\nsu corrosión, de acuerdo con las condiciones ambientales internas y externas del edificio. A tal fin\nse podrá utilizar la norma UNE-ENV 1090-1: 1997, tanto para la definición de ambientes, como pa-\nra la definición de las especificaciones a cumplir por las pinturas y barnices de protección, así co-\nmo por los correspondientes sistemas de aplicación.\n3\nLos materiales protectores deben almacenarse y utilizarse de acuerdo con las instrucciones del fa-\nbricante y su aplicación se realizará dentro del periodo de vida útil del producto y en el tiempo indi-\ncado para su aplicación, de modo que la protección quede totalmente terminada en dichos plazos.\n4\nA los efectos de la preparación de las superficies a proteger y del uso de las herramientas adecua-\ndas, se podrá utilizar la norma UNE-ENV 1090-1: 1997.\n5\nLas superficies que no se puedan limpiar por chorreado, se someterán a un cepillado metálico que\nelimine la cascarilla de laminación y después se deben limpiar para quitar el polvo, el aceite y la\ngrasa.\n6\nTodos los abrasivos utilizados en la limpieza y preparación de las superficies a proteger, deben ser\ncompatibles con los productos de protección a emplear.\n7\nLos métodos de recubrimiento: metalización, galvanización y pintura deben especificarse y ejecu-\ntarse de acuerdo con la normativa específica al respecto y las instrucciones del fabricante. Se po-\ndrá utilizar la norma UNE-ENV 1090-1: 1997.\n8\nSe definirán y cuidarán especialmente las superficies que deban resistir y transmitir esfuerzos por\nrozamiento, superficies de soldaduras y para el soldeo, superficies inaccesibles y expuestas exte-\nriormente, superficies en contacto con el hormigón, la terminación de las superficies de aceros re-\nsistentes a la corrosión atmosférica, el sellado de espacios en contacto con el ambiente agresivo y\nel tratamiento de los elementos de fijación. Para todo ello se podrá utilizar la norma UNE-ENV\n1090-1: 1997.\n9\nEn aquellas estructuras que, como consecuencia de las consideraciones ambientales indicadas,\nsea necesario revisar la protección de las mismas, el proyecto debe prever la inspección y mante-\nnimiento de las protecciones, asegurando, de modo permanente, los accesos y el resto de condi-\nciones físicas necesarias para ello.\n\nDocumentoBásico SE-A Acero\nSE-A-11",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-ENV"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

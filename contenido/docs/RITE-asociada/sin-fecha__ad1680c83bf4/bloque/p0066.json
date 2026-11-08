@@ -1,0 +1,376 @@
+{
+ "documento": null,
+ "pagina": 66,
+ "etiqueta_impresa": "66",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    90.7,
+    90.1,
+    507.3,
+    116.4
+   ],
+   "tipo": "texto",
+   "texto": "el reflujo del agua de forma segura en caso de caída de presión en la red pública, creando\nuna discontinuidad entre el circuito y la misma red pública.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    90.7,
+    114.1,
+    507.3,
+    152.4
+   ],
+   "tipo": "texto",
+   "texto": "Antes de este dispositivo se dispondrá una válvula de cierre, un filtro y un contador, en el\norden indicado. El llenado será manual, y se instalará también un presostato que actúe una\nalarma y pare los equipos.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    90.7,
+    150.1,
+    507.3,
+    200.4
+   ],
+   "tipo": "texto",
+   "texto": "En el tramo que conecta los circuitos cerrados al dispositivo de alimentación se instalará\nuna válvula automática de alivio que tendrá un diámetro mínimo DN 20 y estará tarada a una\npresión igual a la máxima de servicio en el punto de conexión más 0,2 a 0,3 bar, siempre\nmenor que la presión de prueba.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    90.7,
+    198.1,
+    507.3,
+    224.4
+   ],
+   "tipo": "texto",
+   "texto": "Se exceptúan de estas exigencias las calderas mixtas individuales hasta 70 kW, las\ncuales dispondrán, del correspondiente marcado CE.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    90.7,
+    222.1,
+    507.2,
+    248.4
+   ],
+   "tipo": "texto",
+   "texto": "2. El diámetro mínimo de las conexiones en función de la potencia útil nominal de la\ninstalación se elegirá de acuerdo a lo indicado en la tabla 3.4.2.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    107.7,
+    252.1,
+    351.2,
+    266.4
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 3.4.2.2 Diámetro de la conexión de alimentación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    192.7,
+    281.4,
+    402.6,
+    292.9
+   ],
+   "tipo": "texto",
+   "texto": "Potencia útil nominal kW Calor DN (mm) Frío DN (mm)",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    215.0,
+    291.3,
+    381.7,
+    332.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "P ≤ 70\n15\n20\n70 < P ≤ 150\n20\n25\n150 < P ≤ 400\n25\n32\n400 < P\n32\n40",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    90.7,
+    347.5,
+    507.3,
+    373.8
+   ],
+   "tipo": "texto",
+   "texto": "3. Si el agua estuviera mezclada con un aditivo, la solución se preparará en un depósito\ny se introducirá en el circuito por medio de una bomba, de forma manual o automática.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    107.7,
+    377.5,
+    232.6,
+    391.8
+   ],
+   "tipo": "texto",
+   "texto": "IT 1.3.4.2.3 Vaciado y purga",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    90.7,
+    395.5,
+    507.3,
+    421.8
+   ],
+   "tipo": "texto",
+   "texto": "1. Todas las redes de tuberías deben diseñarse de tal manera que puedan vaciarse de\nforma parcial o total.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    90.7,
+    419.5,
+    507.3,
+    445.8
+   ],
+   "tipo": "texto",
+   "texto": "2. Los vaciados parciales se harán en puntos adecuados del circuito, a través de un\nelemento que tendrá un diámetro mínimo nominal de 20 mm.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    90.7,
+    443.5,
+    507.3,
+    481.8
+   ],
+   "tipo": "texto",
+   "texto": "3. El vaciado total se hará por el punto accesible más bajo de la instalación a través de\nuna válvula cuy diámetro mínimo, en función de la potencia térmica del circuito, se indica en\nla tabla 3.4.2.3.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    107.7,
+    485.5,
+    326.7,
+    499.8
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 3.4.2.3 Diámetro de la conexión de vaciado",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    228.0,
+    514.9,
+    292.0,
+    526.3
+   ],
+   "tipo": "texto",
+   "texto": "Potencia térmica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    254.0,
+    524.5,
+    266.0,
+    535.9
+   ],
+   "tipo": "texto",
+   "texto": "kW",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    296.3,
+    514.9,
+    329.6,
+    535.9
+   ],
+   "tipo": "texto",
+   "texto": "Calor\nDN (mm)",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    235.0,
+    514.9,
+    367.3,
+    575.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Frío\nDN (mm)\nP ≤ 70\n20\n25\n70 < P ≤ 150\n25\n32\n150 < P ≤ 400\n32\n40\n400 < P\n40\n50",
+   "tamano": 8.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    90.7,
+    590.6,
+    507.3,
+    616.9
+   ],
+   "tipo": "texto",
+   "texto": "4. La conexión entre la válvula de vaciado y el desagüe se hará de forma que el paso de\nagua resulte visible. Las válvulas se protegerán contra maniobras accidentales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    90.7,
+    614.6,
+    507.4,
+    652.9
+   ],
+   "tipo": "texto",
+   "texto": "5. El vaciado de agua con aditivos peligrosos para la salud se hará en un depósito de\nrecogida para permitir su posterior tratamiento antes del vertido a la red de alcantarillado\npúblico.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    90.7,
+    650.6,
+    507.3,
+    676.9
+   ],
+   "tipo": "texto",
+   "texto": "6. Los puntos altos de los circuitos deben estar provistos de un dispositivo de purga de\naire, manual o automático. El diámetro nominal del purgador no será menor que 15 mm.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    107.7,
+    680.6,
+    207.8,
+    694.9
+   ],
+   "tipo": "texto",
+   "texto": "IT 1.3.4.2.4 Expansión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    90.7,
+    698.6,
+    507.3,
+    736.9
+   ],
+   "tipo": "texto",
+   "texto": "1. Los circuitos cerrados de agua o soluciones acuosas estarán equipados con un\ndispositivo de expansión de tipo cerrado, que permita absorber, sin dar lugar a esfuerzos\nmecánicos, el volumen de dilatación del fluido.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    90.7,
+    734.6,
+    507.3,
+    760.9
+   ],
+   "tipo": "texto",
+   "texto": "2. Es válido el diseño y dimensionado de los sistemas de expansión siguiendo los\ncriterios indicados en el capítulo 9 de la norma UNE 100155.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    107.7,
+    764.6,
+    241.7,
+    778.9
+   ],
+   "tipo": "texto",
+   "texto": "IT 1.3.4.2.5 Circuitos cerrados",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    207.7,
+    27.8,
+    387.6,
+    45.0
+   ],
+   "tipo": "texto",
+   "texto": "BOLETÍN OFICIAL DEL ESTADO",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    226.5,
+    43.5,
+    368.8,
+    57.8
+   ],
+   "tipo": "texto",
+   "texto": "LEGISLACIÓN CONSOLIDADA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    277.4,
+    802.3,
+    317.9,
+    815.2
+   ],
+   "tipo": "texto",
+   "texto": "Página 66",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

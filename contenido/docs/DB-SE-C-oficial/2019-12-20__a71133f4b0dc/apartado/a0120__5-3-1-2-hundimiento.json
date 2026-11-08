@@ -1,0 +1,128 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0120",
+  "ruta_oficial": "5.3.1.2",
+  "ruta_semantica": "5.3.1.2 Hundimiento",
+  "titulo": "5.3.1.2 Hundimiento",
+  "nivel": 1,
+  "parent_id": "a0118",
+  "seccion_estimada": "5.3.1.2 Hundimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 53,
+   "bbox": [
+    70.9,
+    573.7,
+    170.2,
+    583.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "08586eedc7a37c0e99816a6e39aa6bcd2b54a25f61de99539e1c50eb3c987ca3",
+   "literal": "5.3.1.2 Hundimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0138",
+  "parent_id_original": "a0118",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2.4.2.6",
+   "apartado 5.3.4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3.1.2 Hundimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0118",
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 5.3.1 Estados límite últimos / 5.3.1.2 Hundimiento",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bb1158db1fc9775315cd62647aa46501407dc0c7982c8b84c43ed033f51e0b31"
+ },
+ "paginas": [
+  53
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "5.3.1.2 Hundimiento\n1\nSe podrá producir este modo de rotura cuando la carga vertical sobre la cabeza del pilote supere la\nresistencia del terreno causando asientos desproporcionados. En el apartado 5.3.4, se establece un\nmétodo para la determinación de la carga de hundimiento, Rck.\n2\nTeniendo en cuenta el valor de los coeficientes de la tabla 2.1 y las consideraciones hechas en el\napartado 2.4.2.6 el valor de Rcd puede expresarse para cada situación de dimensionado mediante la\nsiguiente ecuación:\nR\nck\ncd\nR\nR\n\n\n(5.7)",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.4.2.6",
+  "apartado 5.3.4"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0053.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

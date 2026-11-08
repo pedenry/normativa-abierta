@@ -1,0 +1,591 @@
+{
+ "documento": null,
+ "pagina": 152,
+ "etiqueta_impresa": "152",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    298.2,
+    792.0,
+    335.6,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-150",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    96.8,
+    73.4,
+    541.4,
+    96.1
+   ],
+   "tipo": "texto",
+   "texto": "Para el espectro de tensiones nominales con carreras de tensión por encima y por debajo del límite\nde fatiga de amplitud constante, el daño de fatiga se representa mediante las curvas prolongadas:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    98.5,
+    103.2,
+    540.7,
+    116.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "6\n6\nm\nC\nR\nm\nR\n10\n.\n5\nN\npara\n3\nm\ncon\n10\n2\nN\n≤\n=\n⋅\nσ\n∆\n=\nσ\n∆\n(C.12)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    98.5,
+    125.0,
+    540.7,
+    138.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "8\n6\n6\nm\nD\nR\nm\nR\n10\nN\n10\n5\npara\n5\nm\ncon\n10\n5\nN\n≤\n≤\n⋅\n=\n⋅\nσ\n∆\n=\nσ\n∆\n(C.13)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    96.8,
+    145.9,
+    127.4,
+    157.1
+   ],
+   "tipo": "texto",
+   "texto": "donde",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    183.1,
+    179.4,
+    188.2,
+    187.2
+   ],
+   "tipo": "texto",
+   "texto": "D",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    153.8,
+    164.5,
+    166.8,
+    172.3
+   ],
+   "tipo": "texto",
+   "texto": "m\n/\n1",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    110.9,
+    167.8,
+    182.9,
+    194.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "L\n100\n5\nσ\n∆\n",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    127.6,
+    167.3,
+    153.5,
+    194.8
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    98.6,
+    167.3,
+    540.7,
+    185.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "\n=\nσ\n∆\n es el límite de truncamiento (figura C.1)\n(C.14)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    74.1,
+    201.8,
+    446.7,
+    214.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "2\nLas categorías de resistencia a la fatiga ∆σc o ∆τc se encuentran en las tablas:",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    142.0,
+    240.0,
+    406.8,
+    250.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla\nDetalle",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    134.3,
+    256.9,
+    175.8,
+    267.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.4",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    134.3,
+    271.2,
+    175.8,
+    281.3
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.5",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    134.3,
+    285.6,
+    175.8,
+    295.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.6",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    134.3,
+    299.9,
+    175.8,
+    310.0
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.7",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    134.3,
+    314.3,
+    175.8,
+    324.3
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.8",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    134.3,
+    328.6,
+    175.8,
+    338.7
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.9",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    134.3,
+    343.0,
+    175.8,
+    353.1
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.8",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    134.3,
+    357.3,
+    175.8,
+    367.4
+   ],
+   "tipo": "texto",
+   "texto": "Tabla C.9",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    263.2,
+    256.9,
+    358.7,
+    267.0
+   ],
+   "tipo": "texto",
+   "texto": "Detalles sin soldaduras",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    263.2,
+    271.2,
+    426.2,
+    281.3
+   ],
+   "tipo": "texto",
+   "texto": "Secciones armadas mediante soldadura",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    263.2,
+    285.6,
+    394.7,
+    295.7
+   ],
+   "tipo": "texto",
+   "texto": "Soldaduras a tope transversales",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    263.2,
+    299.9,
+    410.3,
+    310.0
+   ],
+   "tipo": "texto",
+   "texto": "Soldaduras y rigidizadores soldados",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    263.2,
+    314.3,
+    337.3,
+    324.3
+   ],
+   "tipo": "texto",
+   "texto": "Uniones soldadas",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    263.2,
+    328.6,
+    419.2,
+    338.7
+   ],
+   "tipo": "texto",
+   "texto": "Unión ala superior-alma en vigas carril",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    263.2,
+    343.0,
+    374.2,
+    353.1
+   ],
+   "tipo": "texto",
+   "texto": "Uniones de perfiles huecos",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    263.2,
+    357.3,
+    378.2,
+    367.4
+   ],
+   "tipo": "texto",
+   "texto": "Uniones de vigas de celosía",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    152.3,
+    616.2,
+    162.1,
+    625.9
+   ],
+   "tipo": "texto",
+   "texto": "10",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    148.4,
+    505.0,
+    162.1,
+    514.6
+   ],
+   "tipo": "texto",
+   "texto": "100",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    144.5,
+    393.7,
+    162.1,
+    403.3
+   ],
+   "tipo": "texto",
+   "texto": "1000",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    160.8,
+    621.9,
+    428.5,
+    633.5
+   ],
+   "tipo": "texto",
+   "texto": "104\n105\n106\n107\n108\n109",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    126.2,
+    438.4,
+    139.5,
+    581.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Carrera de tensiones normales (∆σR) (N/mm2)",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 34,
+   "bbox": [
+    293.3,
+    633.7,
+    347.4,
+    643.3
+   ],
+   "tipo": "texto",
+   "texto": "Número de ciclos",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    373.8,
+    513.4,
+    438.3,
+    524.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Límite de corte (∆σL)",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 36,
+   "bbox": [
+    307.0,
+    484.4,
+    415.6,
+    495.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Límite de amplitud constante (∆σD)",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 37,
+   "bbox": [
+    432.6,
+    526.7,
+    443.9,
+    607.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Categoría de detalle (∆σc)",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 38,
+   "bbox": [
+    181.7,
+    499.1,
+    184.2,
+    505.2
+   ],
+   "tipo": "texto",
+   "texto": "1",
+   "tamano": 4.5,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    202.3,
+    512.7,
+    206.1,
+    518.9
+   ],
+   "tipo": "texto",
+   "texto": "m",
+   "tamano": 4.5,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    244.1,
+    555.7,
+    253.0,
+    561.9
+   ],
+   "tipo": "texto",
+   "texto": "m=3",
+   "tamano": 4.5,
+   "negrita": false
+  },
+  {
+   "i": 41,
+   "bbox": [
+    268.0,
+    608.8,
+    340.2,
+    616.3
+   ],
+   "tipo": "texto",
+   "texto": "m=5\n2·106\n5·106",
+   "tamano": 4.5,
+   "negrita": false
+  },
+  {
+   "i": 42,
+   "bbox": [
+    423.1,
+    528.6,
+    430.6,
+    606.9
+   ],
+   "tipo": "texto",
+   "texto": "160\n140\n125\n112\n100\n90\n80\n71\n63\n56\n50\n45\n40\n36",
+   "tamano": 4.5,
+   "negrita": false
+  },
+  {
+   "i": 43,
+   "bbox": [
+    137.6,
+    648.6,
+    477.7,
+    658.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura C.1 Curvas de resistencia a la fatiga para rangos de tensiones normales",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

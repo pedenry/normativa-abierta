@@ -1,0 +1,104 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0054",
+  "ruta_oficial": "4.1",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 4 Dimensionado de los medios de evacuación / 4.1 Criterios para la asignación de los ocupantes",
+  "titulo": "4.1 Criterios para la asignación de los ocupantes",
+  "nivel": 3,
+  "parent_id": "a0053",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 25,
+   "bbox": [
+    70.9,
+    573.3,
+    368.4,
+    586.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "a7760cc932d5be0f224caed803a37049206dcd6300520bb7167b302e6c132742",
+   "literal": "4.1 Criterios para la asignación de los ocupantes"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0022",
+  "parent_id_original": "a0053",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "en 160"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.1 Criterios para la asignación de los ocupantes",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0053",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 4 Dimensionado de los medios de evacuación / 4.1 Criterios para la asignación de los ocupantes",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "df40a091a3d7163226d878b56a473d2671eb88d260e6414dd3b0383f9880a58b"
+ },
+ "paginas": [
+  25,
+  26
+ ],
+ "etiquetas_impresas": [
+  "25",
+  "26"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Criterios para la asignación de los ocupantes\n1\nCuando en una zona, en un recinto, en una planta o en el edificio deba existir más de una salida,\nconsiderando también como tales los puntos de paso obligado, la distribución de los ocupantes entre\nellas a efectos de cálculo debe hacerse suponiendo inutilizada una de ellas, bajo la hipótesis más\ndesfavorable.\n2\nA efectos del cálculo de la capacidad de evacuación de las escaleras y de la distribución de los ocu-\npantes entre ellas, cuando existan varias, no es preciso suponer inutilizada en su totalidad alguna de\nlas escaleras protegidas, de las especialmente protegidas o de las compartimentadas como los sec-\ntores de incendio, existentes. En cambio, cuando deban existir varias escaleras y estas sean no pro-\ntegidas y no compartimentadas, debe considerarse inutilizada en su totalidad alguna de ellas, bajo la\nhipótesis más desfavorable.\n3\nEn la planta de desembarco de una escalera, el flujo de personas que la utiliza deberá añadirse a la\nsalidade planta que les corresponda, a efectos de determinar la anchura de esta. Dicho flujo deberá\nestimarse, o bien en 160 A personas, siendo A la anchura, en metros, del desembarco de la escale-\n\nDocumento Básico SI en caso de Incendio\nSI 3. Evacuación de ocupantes\n26\nra, o bien en el número de personas que utiliza la escalera en el conjunto de las plantas, cuando este\nnúmero de personas sea menor que 160 A.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "en 160"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0025.png",
+  "../figura/p0026.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

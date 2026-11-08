@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0077",
+  "ruta_oficial": "1.1",
+  "ruta_semantica": "Sección SI 5 Intervención de los bomberos / 1 Condiciones de aproximación y entorno( ) / 1.1 Aproximación a los edificios",
+  "titulo": "1.1 Aproximación a los edificios",
+  "nivel": 3,
+  "parent_id": "a0076",
+  "seccion_estimada": "Sección SI 5 Intervención de los bomberos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 36,
+   "bbox": [
+    70.9,
+    303.6,
+    272.4,
+    317.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "6a63763412ed795db30b0852bc2cfe025c4fe83b78f63b538fd22e5bf155c6cb",
+   "literal": "1.1 Aproximación a los edificios"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0034",
+  "parent_id_original": "a0076",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 1.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1.1 Aproximación a los edificios",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0076",
+   "ruta_semantica": "Sección SI 5 Intervención de los bomberos / 1 Condiciones de aproximación y entorno( ) / 1.1 Aproximación a los edificios",
+   "seccion_estimada": "Sección SI 5 Intervención de los bomberos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a20dddc1811b0e45bb8ba6940c99a0ab8194f6cc44c1971c0a408860258190bf"
+ },
+ "paginas": [
+  36
+ ],
+ "etiquetas_impresas": [
+  "36"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Aproximación a los edificios\n1\nLos viales de aproximación de los vehículos de los bomberos a los espacios de maniobra a los que\nse refiere el apartado 1.2, deben cumplir las condiciones siguientes:\na) anchura mínima libre\n3,5 m;\nb) altura mínima libre o gálibo\n4,5 m;\nc)\ncapacidad portante del vial\n20 kN/m².\n2\nEn los tramos curvos, el carril de rodadura debe quedar delimitado por la traza de una corona circular\ncuyos radios mínimos deben ser 5,30 m y 12,50 m, con una anchura libre para circulación de 7,20 m.\n1.2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 1.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

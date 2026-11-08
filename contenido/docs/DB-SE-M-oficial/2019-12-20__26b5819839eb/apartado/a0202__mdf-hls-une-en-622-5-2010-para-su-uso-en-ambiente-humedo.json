@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0202",
+  "ruta_oficial": null,
+  "ruta_semantica": "MDF-HLS (UNE-EN 622-5:2010) Para su uso en ambiente Húmedo (1)",
+  "titulo": "MDF-HLS (UNE-EN 622-5:2010) Para su uso en ambiente Húmedo (1)",
+  "nivel": 1,
+  "parent_id": "a0176",
+  "seccion_estimada": "MDF-HLS (UNE-EN 622-5:2010) Para su uso en ambiente Húmedo (1)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 119,
+   "bbox": [
+    388.1,
+    101.5,
+    538.4,
+    120.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e94e3432f22e9562eff7848bde9db2984fe1941174a594272b2918db31463f2f",
+   "literal": "MDF-HLS (UNE-EN 622-5:2010) Para su uso en ambiente Húmedo (1)"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0176",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "MDF-HLS (UNE-EN 622-5:2010) Para su uso en ambiente Húmedo (1)",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0176",
+   "ruta_semantica": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros / MDF-HLS (UNE-EN 622-5:2010) Para su uso en ambiente Húmedo (1)",
+   "seccion_estimada": "Anejo E. Valores de las propiedades de resistencia, rigidez y densi- dad. Madera aserrada, madera laminada encolada y tableros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e5afa8a732d5f01a7a463844018e4e1d8318693cb83b90c2e0712fd634cf6ad2"
+ },
+ "paginas": [
+  119
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "MDF-HLS (UNE-EN 622-5:2010) Para su uso en ambiente Húmedo (1)\nPara su uso en ambiente Húmedo (1)\nEspesor nominal, tnom , en mm\nEspesor nominal, tnom , en mm\n>1,8 a 12\n>12 a 19\n>19 a 30\n>30\n>1,8 a 12\n>12 a 19\n> 19 a 30\n>30\nResistencia (característica), en N/mm2\n- Flexión\nfm,p,k\n21,0\n21,0\n21,0\n19,0\n22,0\n22,0\n21,0\n18,0\n- Tracción\nft,p,k.\n13,0\n12,5\n12,0\n10,0\n18,0\n16,5\n16,0\n13,0\n- Compresión\nfc,p,k\n13,0\n12,5\n12,0\n10,0\n18,0\n16,5\n16,0\n13,0\n- Cortante, en el grueso\nfv,p,k\n6,5\n6,5\n6,5\n5,0\n8,5\n8,5\n8,5\n7,0\n- Cortante, en el plano\nfr,p,k(**)\n-\n-\n-\n-\n- (2)\n-\n-\n-\nRigidez (media), en N/mm2\n- A flexión\nEm,p\n3700\n3000\n2900\n2700\n3700\n3200\n3100\n2800\n- A tracción\nEt,p\n2900\n2700\n2000\n1600\n3100\n2800\n2700\n2400\n- A compresión\nEc,p\n2900\n2700\n2000\n1600\n3100\n2800\n2700\n2400\n- A cortante, en el grueso\n(G)v,p\n800\n800\n800\n600\n1000\n1000\n1000\n800\nDensidad, en kg/m3\n- Característica\np,k\n650\n600\n550\n500\n650\n600\n550\n500\n(1)\nEn ambiente húmedo solo podrá usarse para cargas instantáneas o de corta duración.\n(2)\nEl valor de fr,p,k lo declarará el fabricante del tablero MDF-LA o del tablero MDF-HLS.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0119.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

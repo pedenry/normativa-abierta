@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0140",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p100",
+  "titulo": "( )",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p100",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p100",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.9 Uniones de perfiles huecos en las vigas de celosía 8.9.1 Alcance y campo de aplicación / ( )",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9eb6a4a9b4f8cdd031e62c8d6cbd408df1574e1075e7a76e001743da3c5efd32"
+ },
+ "paginas": [
+  100,
+  101
+ ],
+ "etiquetas_impresas": [
+  "100",
+  "101"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "( )\n)\n\n\n\n\n\n\n\n\nγ\nγ\nβ\n+\nθ\n=\nMj\np\n0,2\n2\n1\n2\no\nyo\nRd\n,1\n1\nk\n)\n14,2\n(2,8\nsen\nt\nf\nN\nNudos en X\nPlastificación del cordón\n( )\n)\n\n\n\n\n\n\n\n\nγ\nβ\nθ\n=\nMj\np\n1\n2\no\nyo\nRd\n,1\n1\nk )\n0,81\n-\n(1\n5,2\nsen\nt\nf\nN\nNudos en K y N con separación o recubrimiento (solape)\nPlastificación del cordón\n( )\n)\n( )\n)\n( )\n)\nRd\n,1\n2\n1\nRd\n.\n2\nMj\ng\np\no\n1\n1\n2\no\nyo\nRd\n.\n1\nN\nsen\nsen\nN\n1\nk\nk )\n/d\nd\n10,2\n(1,8\nsen\nt\nf\nN\nθ\nθ\n=\n\n\n\n\n\n\n\n\nγ\n+\nθ\n=\nPunzonamiento por esfuerzo cortante\nNudos en T, Y, X y\nNudos en K, N, KT con separación\ncuando di≤ do - 2 to\n( )\n)\n( )\n)\n\n\n\n\n\n\n\n\nγ\nθ\nθ\n+\nπ\n=\nMj\n1\n2\n1\ni\no\nyo\n.Rd\n,i\n1\nsen\n2\nsen\n1\nd\nt\n3\nf\nN\n;  i =1 ó 2\nFunciones\n1,0\nk\npero\nn)\n(compresió\n0\nn\npara\n)\nn\n(1\nn\n0,3\n- 1\nk\n(tracción)\n0\nn\npara\n1,0\nk\np\np\np\np\np\np\np\n≤\n>\n−\n=\n≤\n=\n\n\n\n\n\n\n\n\n+\nγ\n+\nγ\n=\n1\n1,33)\n-\ng/t\n(0,5\nexp\n0,024\n1\nk\no\n1,2\n0,2\ng\nγ = d0 / 2t0 ;  γMj = 1,0 (ver  8.9.1 5)\nβ = d1 / d0 en nudos T, Y, X;   β = (d1 + d2) / 2d0    en nudos K y N;   β = (d1 + d2 + d3) / 3d0    en nudos KT\n(véase figura 8.24)\nN1\nN2\nt1\nt2\nθ1\nθ2\nd1\nd2\nt0\ng\nd0\nd1\nt0\nt1\nd0\nN1\nθ1\nN1 t1\nd1\nd0\nt0\nθ1\n\nDocumentoBásico SE-A Acero\nSE-A-99\n0\n1\n2\n3\n4\n5\n−12\n−8\n−4\n0\n4\n8\n12\nkg\ng/t0\nnudos con solape\nnudos con separación\nγ=7,5\nγ=10\nγ=12,5\nγ=15\nγ=17,5\nγ=20\nγ=22,5\nγ=25\nFigura 8.24 Valores del coeficiente kg",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0100_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0100.png",
+  "../figura/p0101.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

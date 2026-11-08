@@ -1,0 +1,599 @@
+{
+ "documento": null,
+ "pagina": 58,
+ "etiqueta_impresa": "58",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-56",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    141.9,
+    89.0,
+    150.2,
+    100.2
+   ],
+   "tipo": "texto",
+   "texto": "M",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    98.4,
+    73.3,
+    541.0,
+    94.2
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "I\nf\n2\n9,0\na\n1\n0\nπ\n=\n(7.3)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    96.8,
+    106.4,
+    129.1,
+    117.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    98.3,
+    122.9,
+    278.3,
+    137.7
+   ],
+   "tipo": "texto",
+   "texto": "0\na\naceleración máxima inicial [m/s2]",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    96.8,
+    143.1,
+    410.7,
+    156.8
+   ],
+   "tipo": "texto",
+   "texto": "f1\nfrecuencia propia del primer modo de vibración del forjado [s-1]",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    96.8,
+    162.3,
+    188.6,
+    173.5
+   ],
+   "tipo": "texto",
+   "texto": "I\nimpulso [Ns]",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    96.8,
+    179.9,
+    215.3,
+    191.1
+   ],
+   "tipo": "texto",
+   "texto": "M\nmasa vibrante [kg]",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    74.1,
+    197.4,
+    541.5,
+    220.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn caso de que el impulso se deba al desplazamiento de una persona, se podrá admitir un valor de\nI=67 Ns",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    74.1,
+    226.4,
+    503.5,
+    237.6
+   ],
+   "tipo": "texto",
+   "texto": "3\nPara una viga biapoyada la masa vibrante eficaz podrá determinarse a partir de la relación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    96.8,
+    243.9,
+    541.0,
+    255.1
+   ],
+   "tipo": "texto",
+   "texto": "M=0,67·m·bL\n(7.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    96.8,
+    261.3,
+    129.1,
+    272.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    96.8,
+    278.9,
+    538.6,
+    301.5
+   ],
+   "tipo": "texto",
+   "texto": "m\nmasa por unidad de superficie del forjado en oscilación, incluyendo el peso propio, las car-\ngas permanente y una parte de la sobrecarga (valor cuasi-permanente)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    96.8,
+    307.8,
+    261.2,
+    319.0
+   ],
+   "tipo": "texto",
+   "texto": "b\nancho eficaz de la losa (b=s)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    96.8,
+    325.4,
+    279.7,
+    336.6
+   ],
+   "tipo": "texto",
+   "texto": "s\nseparación de las vigas de acero",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    96.8,
+    342.8,
+    240.9,
+    354.0
+   ],
+   "tipo": "texto",
+   "texto": "L\nluz de la viga biapoyada",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    74.1,
+    360.3,
+    541.3,
+    383.1
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn forjados con dos niveles de vigas (jácenas y correas), la superficie del forjado b·L a introducir en\nla relación (7.4) podrá determinarse de la siguiente manera:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    246.8,
+    408.3,
+    272.7,
+    416.1
+   ],
+   "tipo": "texto",
+   "texto": "jac\njac",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    234.7,
+    390.7,
+    238.6,
+    398.5
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    212.1,
+    416.2,
+    226.1,
+    424.0
+   ],
+   "tipo": "texto",
+   "texto": "jac\n,1",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    164.2,
+    400.5,
+    226.0,
+    416.1
+   ],
+   "tipo": "texto",
+   "texto": "sis\n,1\ncor\ncor",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    152.8,
+    391.2,
+    156.7,
+    399.0
+   ],
+   "tipo": "texto",
+   "texto": "2",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    130.0,
+    416.2,
+    144.2,
+    424.0
+   ],
+   "tipo": "texto",
+   "texto": "cor\n,1",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    130.7,
+    400.5,
+    262.2,
+    422.1
+   ],
+   "tipo": "texto",
+   "texto": "sis\n,1\nL\nb\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    127.2,
+    395.3,
+    212.8,
+    422.1
+   ],
+   "tipo": "texto",
+   "texto": "f\nL\nb\nf",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    98.2,
+    395.3,
+    233.9,
+    426.5
+   ],
+   "tipo": "texto",
+   "texto": "f\nbL\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    203.3,
+    393.4,
+    233.9,
+    426.4
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    148.0,
+    393.4,
+    207.2,
+    425.9
+   ],
+   "tipo": "texto",
+   "texto": "\n+\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    121.2,
+    394.0,
+    151.9,
+    425.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    112.7,
+    394.0,
+    541.0,
+    414.3
+   ],
+   "tipo": "texto",
+   "texto": "\n=\n(7.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    96.8,
+    433.4,
+    131.8,
+    444.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    96.8,
+    450.8,
+    343.0,
+    462.8
+   ],
+   "tipo": "texto",
+   "texto": "bcor\nancho de la losa tributaria de la correa (bcor= S)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    96.8,
+    468.3,
+    248.1,
+    479.5
+   ],
+   "tipo": "texto",
+   "texto": "S\nseparación de las correas",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    96.8,
+    485.9,
+    202.0,
+    497.8
+   ],
+   "tipo": "texto",
+   "texto": "Lcor\nluz de la correa",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    96.8,
+    503.3,
+    348.6,
+    515.3
+   ],
+   "tipo": "texto",
+   "texto": "bjac\nancho de la losa tributaria de la jácena (bjac=Lcor)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    96.8,
+    520.8,
+    203.1,
+    532.8
+   ],
+   "tipo": "texto",
+   "texto": "ljac\nluz de la jácena",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    74.1,
+    545.5,
+    193.0,
+    556.6
+   ],
+   "tipo": "texto",
+   "texto": "7.2.2.4 Amortiguamiento",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 38,
+   "bbox": [
+    74.1,
+    564.6,
+    541.4,
+    622.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl porcentaje de amortiguamiento ζ disponible en un forjado depende de un gran número de pará-\nmetros tales como las características de la construcción, el espesor y el peso de la losa, la presen-\ncia de elementos como la protección contra incendios, instalaciones, falsos techos, revestimientos\ndel suelo, mobiliario, tabiques, etc, Por este motivo, la cuantificación del amortiguamiento disponi-\nble resulta extremadamente dificultoso.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    74.1,
+    629.1,
+    538.6,
+    651.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nA falta de un análisis más detallado, el porcentaje de amortiguamiento disponible en un forjado po-\ndrá estimarse de acuerdo con los siguientes criterios:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    96.8,
+    657.8,
+    501.9,
+    670.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-\nForjado solo (estructura)\nζ =3%",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 41,
+   "bbox": [
+    96.8,
+    676.1,
+    501.9,
+    688.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-\nForjado acabado (con instalaciónes, falso, techo, revestimiento, mobiliario)\nζ =6%",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 42,
+   "bbox": [
+    96.8,
+    694.4,
+    507.4,
+    706.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "-\nForjado acabado con tabiques\nζ =12%",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 43,
+   "bbox": [
+    74.1,
+    719.9,
+    167.0,
+    731.1
+   ],
+   "tipo": "texto",
+   "texto": "7.2.2.5 Verificación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 44,
+   "bbox": [
+    74.1,
+    739.4,
+    541.5,
+    762.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa verificación, desde el punto de vista de la percepción humana, del comportamiento frente a las\nvibraciones transitorias de los forjados en edificios de viviendas, oficinas, escolares o comerciales",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

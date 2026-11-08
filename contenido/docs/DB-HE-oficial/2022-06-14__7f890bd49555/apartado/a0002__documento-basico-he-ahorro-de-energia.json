@@ -1,0 +1,71 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0002",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p1",
+  "titulo": "Documento Básico HE Ahorro de energía",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p1",
+  "clasificacion_navegacion": "fragmento_portada",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "fragmento_portada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p1",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Portada y páginas previas / Documento Básico HE Ahorro de energía",
+   "seccion_estimada": "Portada y páginas previas",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f08ec0e9a0dc424b188b1b4b4db8e5c3528f0acbd63db04cbb916814a7306736"
+ },
+ "paginas": [
+  1
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Documento Básico HE Ahorro de energía\nAhorro de energía\nHE0 Limitación del consumo energético\nHE1 Condiciones para el control de la demanda energética\nHE2 Condiciones de las instalaciones térmicas\nHE3 Condiciones de las instalaciones de iluminación\nHE4 Contribución mínima de energía renovable para cubrir la\ndemanda de agua caliente sanitaria\nHE5 Generación mínima de energía eléctrica procedente de\nfuentes renovables\nHE6 Dotaciones mínimas para la infraestructura de recarga de\nvehículos eléctricos",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0001.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

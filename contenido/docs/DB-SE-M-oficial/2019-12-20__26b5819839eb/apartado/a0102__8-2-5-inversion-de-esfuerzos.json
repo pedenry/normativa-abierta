@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0102",
+  "ruta_oficial": "8.2.5",
+  "ruta_semantica": "8.2.5  Inversión de esfuerzos",
+  "titulo": "8.2.5  Inversión de esfuerzos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.2.5  Inversión de esfuerzos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 50,
+   "bbox": [
+    70.9,
+    461.6,
+    209.9,
+    471.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "07546d07ef0c28276cf9375150dd6b8b6a62bb7d6abcc8062a555b941a6e17e4",
+   "literal": "8.2.5  Inversión de esfuerzos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0116",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.2.5  Inversión de esfuerzos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / 8.2  Principios generales del cálculo de uniones 8.2.1  Capacidad de carga / 8.2.5  Inversión de esfuerzos",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "710a90e19af3543ae69a71e2f9edb79c64a96fc4434801c3c1bf0f9c8709df59"
+ },
+ "paginas": [
+  50
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.2.5  Inversión de esfuerzos\n1\nEn el caso de que la solicitación en las piezas oscile entre un valor de tracción Ft, Ed y de compresión\nFc, Ed, y que además su origen sean acciones de larga o media duración (es decir, que si no se con-\nsideran ese tipo de acciones en la combinación no se producen inversión de esfuerzos), se dimen-\nsionará la unión para los dos valores siguientes: Ft,Ed + 0,5Fc,Ed y Fc,Ed + 0,5Ft,Ed , en valores absolu-\ntos, para tracción y compresión, respectivamente.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0050.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

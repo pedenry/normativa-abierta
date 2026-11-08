@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0068",
+  "ruta_oficial": null,
+  "ruta_semantica": "C.6 Métodos basados en la determinación de los valores de cálculo",
+  "titulo": "C.6 Métodos basados en la determinación de los valores de cálculo",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "C.6 Métodos basados en la determinación de los valores de cálculo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    70.9,
+    308.3,
+    459.1,
+    320.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e4da2f4da4317729ee2e7e4c1354a746c18235ee690a3fbe0a1801425149bae7",
+   "literal": "C.6 Métodos basados en la determinación de los valores de cálculo"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.6 Métodos basados en la determinación de los valores de cálculo",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación / C.6 Métodos basados en la determinación de los valores de cálculo",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "504bbac138cecad1f8c5b7f1ee96daaea876080fbf87912345c7b6f5cc55457f"
+ },
+ "paginas": [
+  34,
+  35
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "C.6 Métodos basados en la determinación de los valores de cálculo\nC.6.1 Generalidades\n1\nEl estado límite considerado podrá establecerse mediante un modelo de cálculo en términos de una\no varias funciónes g(...) de un conjunto de variables X1, X2, ... Xn relativas a las acciones, las carac-\nterísticas de los materiales, etc. En este caso, la condición de ausencia del fallo de la estructura\nasociado con el estado límite considerado, se podrá expresar en la forma\n \n\n0\nX\n...,\n,\nX\n,\nX\ng\nn\n2\n1\n\n(C.13)\n2\nA efectos de la verificación del estado límite considerado, la condición (C.13) se podrá expresar en\ntérminos de los valores de cálculo de las variables\n \n\n0\nx\n...,\n,\nx\n,\nx\ng\nnd\nd\n2\nd\n1\n\n(C.14)\nx1d, x2d, ..., xnd\nvalores de cálculo de las variables X1, X2, ..., Xn (según C.6.2).\nC.6.2 Valores de cálculo según el método FORM\n1\nEl valor de cálculo xid de la variable Xi depende de:\na)\nlos parámetros de la variable Xi;\nb)\nel tipo de distribución probabilista supuesta;\nc)\nel índice de fiabilidad, , requerido para el estado límite y la situación de dimensionado consi-\nderados;\nd)\nun factor i que describe la sensibilidad de la probabilidad de fallo, asociada con el estado lími-\nte y la situación de dimensionado considerados, con respecto a la variación de Xi.\n2\nPara una distribución arbitraria F(xi), los valores de cálculo se definen por\n \n\n \n\n\n\n\n\n\ni\nid\nx\nF\n(C.15)\nPara variables Xi con una distribución normal, se obtiene\n \n\ni\ni\ni\nid\nV\n1\nx\n\n\n\n\n\n\n\n(C.16)\nsiendo\ni\nvalor medio de la variable Xi\nVi\ncoeficiente de variación de la variable Xi.\nPara variables Xi con una distribución lognormal, se obtiene\n\n\ni\ni\ne\nx\ni\nid\n\n\n\n\n\n\n\n\n(C.17)\n\nDocumento Básico SE Seguridad Estructural\nSE - 29\ndonde\n2\ni\ni\ni\nV\n1 \n\n\n",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0035_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0035.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

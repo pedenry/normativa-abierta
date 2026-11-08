@@ -1,0 +1,71 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0145",
+  "ruta_oficial": "10.3",
+  "ruta_semantica": "Fragmento de PDF p85",
+  "titulo": "10.3  Celosías 10.3.1  Disposiciones generales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p85",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p85",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.3  Celosías 10.3.1  Disposiciones generales",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5bb73ea6a5fe4686db7b712b85f0c1af452eb53403ae13c76c47600ac8bdc5eb"
+ },
+ "paginas": [
+  85
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [
+  "formulas"
+ ],
+ "texto": "10.3  Celosías 10.3.1  Disposiciones generales\n10.3.1  Disposiciones generales\n1\nEn las celosías cargadas predominantemente en los nudos, el índice que corresponde a la suma de\nlos índices procedentes de la combinación de los esfuerzos axiales de compresión y de flexión,\necuaciones (6.19) y (6.20), se limita a 0,9 en vez de 1.\nPara las barras comprimidas, la longitud eficaz de pandeo es igual a la distancia máxima entre dos\npuntos de inflexión consecutivos de la deformada.\n2\nPara celosías trianguladas en su totalidad, se tomará una longitud de pandeo en el plano de la celo-\nsía y en cada barra igual a la distancia entre dos los nudos que la definen. Así mismo, se comproba-\nrá la estabilidad de la celosía fuera de su plano.\n3\nEn las celosías en las que se realice un análisis simplificado, en las ecuaciones (6.1) y (6.4), la resis-\ntencia a tracción y compresión de la madera en la dirección de la fibra se reducirán en un 30% to-\nmándose un valor de comparación con las tensiones de cálculo de 0,7 ft,0,d y de 0,7 fc,0,d.\n4\nTodas las uniones deben ser capaces de transmitir una fuerza Fr,d actuando en cualquier dirección\ndentro del plano de la celosía. Se supone que esta fuerza  Fr,d actúa durante un tiempo de aplicación\ncorto, en una clase de servicio 2 y con el valor siguiente:\nL\n1,0\n0,1\nFd,r\n\n\n\n(kN)\n(10.50)\nsiendo:\nL\nlongitud total de la celosía en metros.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0146"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

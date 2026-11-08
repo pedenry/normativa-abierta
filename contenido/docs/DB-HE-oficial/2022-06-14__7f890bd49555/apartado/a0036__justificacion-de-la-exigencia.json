@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0036",
+  "ruta_oficial": null,
+  "ruta_semantica": "Justificación de la exigencia",
+  "titulo": "Justificación de la exigencia",
+  "nivel": 1,
+  "parent_id": "a0030",
+  "seccion_estimada": "Justificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 13,
+   "bbox": [
+    56.7,
+    191.2,
+    258.0,
+    204.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2479206422f855f53be1f4e2d25b09c67f2f3d57840b7859c0880313cbb5943a",
+   "literal": "Justificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0030",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Justificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0030",
+   "ruta_semantica": "Anejo H / Sección HE 0 Limitación del consumo energético / Justificación de la exigencia",
+   "seccion_estimada": "Anejo H",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "301aed6dca7612e702d5998f07dd77cb715e00ffeee0c7c7c28e17dbb26c728c"
+ },
+ "paginas": [
+  13
+ ],
+ "etiquetas_impresas": [
+  "13"
+ ],
+ "tipos": [],
+ "texto": "Justificación de la exigencia\n1\nPara justificar el cumplimiento de las exigencias de esta sección, los documentos de proyecto incluirán\nla siguiente información sobre el edificio o parte del edificio evaluada:\na) la definición de la localidad y de la zona climática de ubicación;\nb) la definición de la envolvente térmica y sus componentes;\nc) el perfil de uso, nivel de acondicionamiento (acondicionado o no acondicionado), nivel de ventilación\nde cálculo y condiciones operacionales de los espacios habitables y de los espacios no habitables;\nd) el procedimiento empleado para el cálculo del consumo energético;\ne) la demanda energética de calefacción, refrigeración y ACS;\nf)\nel consumo energético (energía final consumida por vector energético) de los distintos servicios\ntécnicos (calefacción, refrigeración, ACS, ventilación, control de la humedad y, en su caso,\niluminación);\ng) la energía producida y la aportación de energía procedente de fuentes renovables;\nh) la descripción y disposición de los sistemas empleados para satisfacer las necesidades de los distintos\nservicios técnicos;\ni)\nlos rendimientos considerados para los distintos equipos de los servicios técnicos;\nj)\nlos factores empleados para la conversión de energía final a energía primaria;\nk) el consumo de energía primaria no renovable (Cep,nren) del edificio y el valor límite aplicable (Cep,nren,lim);\nl)\nel consumo de energía primaria total (Cep,tot) y el valor límite aplicable (Cep,tot,lim);\nm) el número de horas fuera de consigna y el valor límite aplicable.\n6",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,545 @@
+{
+ "documento": null,
+ "pagina": 78,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 72",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    88.9,
+    71.8,
+    541.3,
+    154.4
+   ],
+   "tipo": "texto",
+   "texto": "f,c,max,d\ntensión de cálculo a compresión en la fibra extrema comprimida del ala;\nf,t,max,d\ntensión de cálculo a tracción en la fibra extrema traccionada del ala;\nf,c,d\nvalor medio de la tensión de cálculo a compresión en el ala;\nf,t,d\nvalor medio de la tensión de cálculo a tracción en el ala;\nkc\ncoeficiente de pandeo lateral del ala comprimida de la viga, para el caso en que la pieza\nno está atada. Puede obtenerse para vigas cajón, como se indica en el apartado 6.3.2.2.,\necuación (6.32), para kc,z, partiendo en este caso de:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    90.6,
+    156.8,
+    156.3,
+    181.6
+   ],
+   "tipo": "texto",
+   "texto": "b\nL\n.\n12\nc\nz\nrel\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    173.6,
+    541.3,
+    273.8
+   ],
+   "tipo": "texto",
+   "texto": "(10.7)\ndonde:\nLc\ndistancia entre las secciones que tienen impedida la deformación lateral en el ala compri-\nmida;\nb\nancho definido en la figura 10.1;\nfm,d\nresistencia de cálculo a flexión del material de para las alas;\nfc,0,d\nresistencia de cálculo a compresión paralela del material de las alas;\nft,0,d\nresistencia de cálculo a tracción paralela del material de las alas;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    277.7,
+    541.3,
+    312.1
+   ],
+   "tipo": "texto",
+   "texto": "La comprobación estricta de f,c,d, pertece al ámbito de la estabilidad lateral en flexión, no en flexo-\ncompresión; y ya que en el diagrama de tensiones normales mostrado en la figura 10.1 no se está\nconsiderando ningún axil.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    319.7,
+    233.4,
+    329.6
+   ],
+   "tipo": "texto",
+   "texto": "3\nTensiones normales en el alma:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    337.1,
+    448.2,
+    347.0
+   ],
+   "tipo": "texto",
+   "texto": "a) las tensiones normales en el alma deben cumplir las siguientes condiciones:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    108.1,
+    350.9,
+    541.3,
+    376.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "w,c,max,d  fc,w,d\n(10.8)\nw,t,max,d  ft,w,d\n(10.9)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    88.8,
+    382.2,
+    538.5,
+    454.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nw,c,max,d  tensión de cálculo a compresión en el alma debida a la flexión;\nw,t,max,d\ntensión de cálculo a tracción en el alma debida a la flexión;\nfc,w,d\nresistencia de cálculo a compresión en el alma en flexión;\nft,w,d\nresistencia de cálculo a tracción en el alma en flexión.\nb) salvo que se conozcan las resistencias a compresión y a tracción del tablero trabajando de can-",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    106.9,
+    456.1,
+    541.3,
+    477.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "to, los valores de fc,w,d  y ft,w,d deben tomarse igual a la resistencia de compresión y tracción del\ntablero trabajando de tabla.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    485.1,
+    182.9,
+    495.1
+   ],
+   "tipo": "texto",
+   "texto": "4\nAbolladura del alma.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    88.8,
+    502.7,
+    186.0,
+    512.6
+   ],
+   "tipo": "texto",
+   "texto": "Debe verificarse que:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    90.1,
+    516.3,
+    544.0,
+    542.0
+   ],
+   "tipo": "texto",
+   "texto": "w\nw\nb\n70\nh\n\n\n(10.10)\ny",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    136.1,
+    583.0,
+    141.0,
+    603.9
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    136.1,
+    599.6,
+    141.0,
+    611.0
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    136.1,
+    557.0,
+    141.0,
+    577.5
+   ],
+   "tipo": "texto",
+   "texto": "\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    136.1,
+    573.5,
+    141.0,
+    584.9
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    136.1,
+    547.5,
+    141.0,
+    558.9
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    250.2,
+    587.4,
+    370.9,
+    610.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    169.2,
+    581.1,
+    254.0,
+    610.0
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    169.2,
+    580.8,
+    227.8,
+    599.4
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    252.8,
+    554.9,
+    337.6,
+    577.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    171.8,
+    548.4,
+    256.7,
+    577.5
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    171.8,
+    548.3,
+    230.5,
+    566.9
+   ],
+   "tipo": "texto",
+   "texto": "\n\n",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    127.9,
+    571.8,
+    133.4,
+    583.2
+   ],
+   "tipo": "texto",
+   "texto": "",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    217.8,
+    594.4,
+    397.1,
+    609.2
+   ],
+   "tipo": "texto",
+   "texto": "w\nw\nw\nd\n,\n0,\nv\nw",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    159.4,
+    587.2,
+    243.6,
+    601.4
+   ],
+   "tipo": "texto",
+   "texto": "c,f\nt,f\n2\nw",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    220.6,
+    561.8,
+    364.0,
+    576.6
+   ],
+   "tipo": "texto",
+   "texto": "w\nw\nd\n,\n0\n,v\nw",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    146.8,
+    554.5,
+    246.3,
+    568.8
+   ],
+   "tipo": "texto",
+   "texto": "c,f\nt,f\nw\nw",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    104.0,
+    577.8,
+    125.9,
+    584.8
+   ],
+   "tipo": "texto",
+   "texto": "Sd\n,\nw\n,v",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    211.8,
+    589.5,
+    391.5,
+    607.3
+   ],
+   "tipo": "texto",
+   "texto": "b·\n70\nh\nb·\n35\npara\nf·\nh",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    140.8,
+    582.3,
+    248.6,
+    599.5
+   ],
+   "tipo": "texto",
+   "texto": ")\nh\nh\n·(\n5,0\n1\n·\nb·\n35",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    214.4,
+    557.0,
+    358.2,
+    574.8
+   ],
+   "tipo": "texto",
+   "texto": "b·\n35\nh\npara\nf·\nh",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    140.6,
+    549.8,
+    251.2,
+    567.0
+   ],
+   "tipo": "texto",
+   "texto": ")\nh\nh\n·(\n5,0\n1\n·\nh·\nb",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    97.9,
+    573.3,
+    128.2,
+    584.7
+   ],
+   "tipo": "texto",
+   "texto": "F",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    507.0,
+    554.6,
+    538.5,
+    564.6
+   ],
+   "tipo": "texto",
+   "texto": "(10.11)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    507.0,
+    591.1,
+    538.5,
+    601.1
+   ],
+   "tipo": "texto",
+   "texto": "(10.12)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    70.9,
+    618.7,
+    475.9,
+    679.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo:\nhw, bw, hf,c y hf,t\ncantos y anchos definidos en la figura 10.1;\nFv,w,Sd\nesfuerzo cortante de cálculo, actuando en cada alma;\nfv,0,d (=fv,p,0,d)\nresistencia de cálculo a cortante de cizalladura del tablero del alma.\n5\nSuperficies críticas a tensiones tangenciales de rodadura.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    88.8,
+    687.1,
+    530.3,
+    697.1
+   ],
+   "tipo": "texto",
+   "texto": "En las secciones 1-1 de la figura 10.1, superficie de contacto tablero-madera, debe verificarse que:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    155.5,
+    720.7,
+    538.4,
+    743.6
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\nef\nf\nd\n90\nv\nb·\n4\nh\npara\nf\n(10.13)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

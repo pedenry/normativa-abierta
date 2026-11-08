@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0082",
+  "ruta_oficial": "5.1.1.2",
+  "ruta_semantica": "5.1.1.2  De entramado autoportante y trasdosados de entramado",
+  "titulo": "5.1.1.2  De entramado autoportante y trasdosados de entramado",
+  "nivel": 1,
+  "parent_id": "a0080",
+  "seccion_estimada": "5.1.1.2  De entramado autoportante y trasdosados de entramado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    70.9,
+    651.6,
+    379.4,
+    662.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "bf92aabaf9cf01b89bb469f82553fec8920e56e72089a272118366e6a8038d88",
+   "literal": "5.1.1.2  De entramado autoportante y trasdosados de entramado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0080",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE 102043"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.1.2  De entramado autoportante y trasdosados de entramado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0080",
+   "ruta_semantica": "5   Construcción / 5.1  Ejecución / 5.1.1  Elementos de separación verticales y tabiquería / 5.1.1.2  De entramado autoportante y trasdosados de entramado",
+   "seccion_estimada": "5   Construcción",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "55720cf30b60013db3fe67790f8112783f5de5451a55e062413bd9921cbf8ccc"
+ },
+ "paginas": [
+  39,
+  40
+ ],
+ "etiquetas_impresas": [
+  "2",
+  "3"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "5.1.1.2  De entramado autoportante y trasdosados de entramado\n1\nLos elementos de separación verticales de entramado autoportante y los trasdosados de entramado\nautoportante y adheridos deben montarse en obra según las especificaciones de la UNE 102043.\nEn ambos casos deben utilizarse los materiales de anclaje, tratamiento de juntas y bandas de es-\ntanquidad establecidos por el fabricante de los sistemas.\n2\nLas juntas entre las placas de yeso laminado y de las placas con otros elementos constructivos\ndeben tratarse con pastas y cintas para garantizar la estanquidad de la solución.\n\nDocumento Básico HR - Protección frente al ruido\nHR-34\n3\nEn el caso de elementos formados por varias capas superpuestas de placas de yeso laminado,\ndeben contrapearse las placas, de tal forma que no coincidan las juntas entre placas ancladas a un\nmismo lado de la perfilería autoportante.\n4\nEl material absorbente acústico o amortiguador de vibraciones puesto en la cámara debe rellenarla\nen toda su superficie, con un espesor de material adecuado al ancho de la perfilería utilizada.\n5\nEn el caso de trasdosados autoportantes aplicados a un elemento base de fábrica, se cepillará la\nfábrica para eliminar rebabas y se dejarán al menos 10 mm de separación entre la fábrica y los ca-\nnales de la perfilería.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE 102043"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

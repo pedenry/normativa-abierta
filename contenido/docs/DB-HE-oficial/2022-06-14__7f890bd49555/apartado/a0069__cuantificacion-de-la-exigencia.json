@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0069",
+  "ruta_oficial": null,
+  "ruta_semantica": "Cuantificación de la exigencia",
+  "titulo": "Cuantificación de la exigencia",
+  "nivel": 1,
+  "parent_id": "a0067",
+  "seccion_estimada": "Cuantificación de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 34,
+   "bbox": [
+    56.7,
+    76.5,
+    267.4,
+    89.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "31aa320111a7bab302b9833d3caa58ca5dda93755aceec82e4f90728ae7412bc",
+   "literal": "Cuantificación de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0067",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB SUA"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Cuantificación de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0067",
+   "ruta_semantica": "5 Construcción, mantenimiento y conservación / Sección HE 6 Dotaciones mínimas para la infraestructura de recarga de / Cuantificación de la exigencia",
+   "seccion_estimada": "5 Construcción, mantenimiento y conservación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bef8f8f5cd728ed36da9e547588a10b49e38ed715f231d2c6d1f6becac7b1ecc"
+ },
+ "paginas": [
+  34
+ ],
+ "etiquetas_impresas": [
+  "34"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Cuantificación de la exigencia\n1\nEn los edificios de uso residencial privado se instalarán sistemas de conducción de cables que permitan\nel futuro suministro a estaciones de recarga para el 100% de las plazas de aparcamiento.\n2\nEn los edificios de uso distinto al residencial privado se instalarán sistemas de conducción de cables que\npermitan el futuro suministro a estaciones de recarga para al menos el 20% de las plazas de aparcamiento.\nAdemás, se instalará una estación de recarga por cada 40 plazas de aparcamiento, o fracción.\nEn los edificios de uso distinto al residencial privado que sean titularidad de la Administración General\ndel Estado o de los organismos públicos vinculados a ella o dependientes de la misma, la dotación será\nmayor que la establecida con carácter general, debiéndose instalar  una estación de recarga por cada\n20 plazas de aparcamiento, o fracción.\nEn caso de que los aparcamientos dispongan de plazas de aparcamiento accesibles, según se\nestablece en el DB SUA, se instalará una estación de recarga por cada 5 plazas de aparcamiento\naccesibles. Las estaciones de recarga de estas plazas se computarán a efectos de cumplimiento de la\ncuantificación de la exigencia.\n3\nEn los edificios que tengan unidades de uso residencial privado junto a otras de distinto uso, en los que\nlas zonas de aparcamiento vinculadas a cada uso no estén claramente diferenciadas, se aplicará el\ncriterio correspondiente al uso característico del edificio.\n4",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SUA"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

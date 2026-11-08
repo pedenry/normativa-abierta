@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0109",
+  "ruta_oficial": "8.4.2",
+  "ruta_semantica": "8.4.2 Clasificación de las uniones por resistencia.",
+  "titulo": "8.4.2 Clasificación de las uniones por resistencia.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.4.2 Clasificación de las uniones por resistencia.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 65,
+   "bbox": [
+    74.1,
+    435.5,
+    312.6,
+    446.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "49fe575486c99305a08870f6972ceac5dfdf092ed40303ee901c5a22cc37c8c3",
+   "literal": "8.4.2 Clasificación de las uniones por resistencia."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0109",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.4.2 Clasificación de las uniones por resistencia.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.4 Resistencia 8.4.1 Principios de cálculo. / 8.4.2 Clasificación de las uniones por resistencia.",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3df3da42ceb5d586bfdf622ad857e5d7c46d7faddfb16e5521de2e5587a9d2d3"
+ },
+ "paginas": [
+  65,
+  66
+ ],
+ "etiquetas_impresas": [
+  "65",
+  "66"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.4.2 Clasificación de las uniones por resistencia.\n1\nNominalmente articuladas.\nSon aquellas capaces de transmitir los esfuerzos obtenidos en el análisis global de la estructura y\nsu resistencia de cálculo a flexión no es mayor de la cuarta parte del momento resistente plástico\nde cálculo de la pieza de menor resistencia unida y siempre que exista una capacidad de giro sufi-\nciente para permitir que en la estructura se formen todas las rótulas plásticas necesarias en el mo-\ndelo de análisis adoptado bajo las cargas consideradas.\n2\nTotalmente resistentes (o de resistencia completa).\nSu resistencia es mayor o igual que la de los elementos que conecta. Si en una unión con resisten-\ncia completa la relación entre su momento resistente, Mj.Rd, y el momento resistente plástico, Mpl.Rd,\nde la menor de las barras que conecta, es superior a 1,20, no es necesario considerar la capacidad\nde rotación de la unión.\n3\nParcialmente resistentes.\nSu resistencia es menor que la de los elementos unidos, aunque debe ser capaz de transmitir las\nfuerzas y momentos determinados en el análisis global de la estructura. La rigidez de estas unio-\nnes debe ser suficiente para evitar que se supere la capacidad de rotación de las rótulas plásticas\nque se deban formar en la estructura bajo las cargas consideradas. Si se requieren rótulas plásti-\ncas en las uniones parcialmente resistentes, éstas deben tener capacidad de rotación suficiente\npara permitir la formación en la estructura de todas las rótulas plásticas necesarias.\n\nDocumentoBásico SE-A Acero\nSE-A-64",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0065.png",
+  "../figura/p0066.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

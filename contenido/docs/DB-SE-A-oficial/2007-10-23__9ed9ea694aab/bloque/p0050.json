@@ -1,0 +1,795 @@
+{
+ "documento": null,
+ "pagina": 50,
+ "etiqueta_impresa": "50",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    252.1,
+    37.7,
+    366.7,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    302.3,
+    792.0,
+    335.3,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-48",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    172.5,
+    143.1,
+    446.6,
+    153.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.7 Ancho de la entrega rígida de una carga sobre un ala",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    78.0,
+    166.6,
+    270.9,
+    177.7
+   ],
+   "tipo": "texto",
+   "texto": "6.3.4 Interacción de esfuerzos en piezas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    78.0,
+    193.1,
+    284.9,
+    204.3
+   ],
+   "tipo": "texto",
+   "texto": "6.3.4.1 Elementos flectados y traccionados",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    78.0,
+    212.4,
+    541.4,
+    258.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn las piezas solicitadas por una combinación de un momento flector y un esfuerzo axil de trac-\nción, se comprobará, además de la resistencia a flexotracción de sus secciones, tal como se indi-\nca en 6.2.8, su resistencia frente al pandeo lateral considerando el esfuerzo axil y el momento\nflector como un efecto vectorial.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    100.7,
+    264.5,
+    448.6,
+    275.7
+   ],
+   "tipo": "texto",
+   "texto": "La tensión combinada en la fibra extrema comprimida se determina mediante:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    144.1,
+    282.7,
+    211.9,
+    308.8
+   ],
+   "tipo": "texto",
+   "texto": "A\nN\n8,0\nW",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    146.8,
+    283.4,
+    217.7,
+    295.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "M\nEd\n,t",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    153.2,
+    302.9,
+    166.4,
+    310.7
+   ],
+   "tipo": "texto",
+   "texto": "com",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    102.4,
+    288.6,
+    540.7,
+    302.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\nEd\n,\ncom\n⋅\n−\n=\nσ\n(6.49)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    100.7,
+    318.0,
+    133.0,
+    329.2
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    100.7,
+    335.4,
+    458.4,
+    347.4
+   ],
+   "tipo": "texto",
+   "texto": "Wcom momento resistente de la sección referido a la fibra extrema comprimida;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    100.7,
+    353.0,
+    293.3,
+    364.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Nt,Ed\nvalor de cálculo del axil de tracción;",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    100.7,
+    370.4,
+    298.3,
+    382.4
+   ],
+   "tipo": "texto",
+   "texto": "MEd\nvalor de cálculo del momento flector;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    100.7,
+    387.9,
+    244.8,
+    399.1
+   ],
+   "tipo": "texto",
+   "texto": "A\nárea bruta de la sección.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    100.7,
+    405.5,
+    401.1,
+    417.4
+   ],
+   "tipo": "texto",
+   "texto": "La comprobación se lleva a cabo utilizando un flector efectivo Mef,Sd",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    101.9,
+    422.7,
+    540.7,
+    436.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\n,\ncom\ncom\nEd\n,\nef\nW\nM\nσ\n⋅\n=\n(6.50)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    100.7,
+    444.9,
+    436.9,
+    456.1
+   ],
+   "tipo": "texto",
+   "texto": "y la resistencia de cálculo al pandeo lateral indicada en el apartado 6.3.3.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    78.0,
+    469.6,
+    285.4,
+    480.7
+   ],
+   "tipo": "texto",
+   "texto": "6.3.4.2 Elementos comprimidos y flectados",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    78.0,
+    488.9,
+    541.4,
+    534.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nA menos que se lleve a cabo un estudio más preciso mediante el procedimiento general descrito\nen 5.4, las comprobaciones de estabilidad de pieza se realizarán aplicando las fórmulas que se\nindican a continuación, distinguiendo entre las que sean sensibles o no a la torsión (por ejemplo\nsecciones abiertas o cerradas respectivamente).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    100.7,
+    540.9,
+    384.7,
+    552.1
+   ],
+   "tipo": "texto",
+   "texto": "La comprobación se llevará a cabo con las fórmulas siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    100.7,
+    558.5,
+    176.3,
+    569.7
+   ],
+   "tipo": "texto",
+   "texto": "Para toda pieza:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    366.2,
+    585.7,
+    450.4,
+    604.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nf\nW",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    224.5,
+    577.9,
+    422.8,
+    604.8
+   ],
+   "tipo": "texto",
+   "texto": "N\ne\nM\nc\nk\nf\nW",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    122.0,
+    577.3,
+    273.8,
+    606.2
+   ],
+   "tipo": "texto",
+   "texto": "N\ne\nM\nc\nk\nf\nA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    119.4,
+    578.7,
+    126.6,
+    589.9
+   ],
+   "tipo": "texto",
+   "texto": "N",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    376.2,
+    598.8,
+    398.8,
+    606.6
+   ],
+   "tipo": "texto",
+   "texto": "yd\nz",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    214.9,
+    583.1,
+    431.6,
+    606.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\nz,\nN\nEd\n,z\nz,\nm\nz\nz\nyd\ny\nLT",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 29,
+   "bbox": [
+    110.1,
+    582.5,
+    282.5,
+    608.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\ny,\nN\nEd\n,y\ny,\nm\ny\nyd\n*\ny",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 30,
+   "bbox": [
+    126.8,
+    583.9,
+    442.5,
+    604.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\n≤\n⋅",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 31,
+   "bbox": [
+    208.8,
+    576.9,
+    414.2,
+    604.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "⋅\n+\n⋅\n⋅\n⋅\nα\n+\n⋅\nχ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 32,
+   "bbox": [
+    103.4,
+    576.3,
+    265.1,
+    606.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "⋅\n+\n⋅\n⋅\n+\n⋅\n⋅\nχ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 33,
+   "bbox": [
+    450.7,
+    585.6,
+    541.0,
+    596.8
+   ],
+   "tipo": "texto",
+   "texto": "(6.51)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 34,
+   "bbox": [
+    100.7,
+    617.0,
+    381.3,
+    628.2
+   ],
+   "tipo": "texto",
+   "texto": "Además, sólo en piezas no susceptibles de pandeo por torsión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 35,
+   "bbox": [
+    366.2,
+    644.2,
+    450.4,
+    663.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nf\nW",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 36,
+   "bbox": [
+    235.9,
+    636.4,
+    422.8,
+    663.3
+   ],
+   "tipo": "texto",
+   "texto": "N\ne\nM\nc\nk\nf\nW",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 37,
+   "bbox": [
+    121.9,
+    635.8,
+    292.9,
+    664.7
+   ],
+   "tipo": "texto",
+   "texto": "N\ne\nM\nc\nk\nf\nA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 38,
+   "bbox": [
+    119.3,
+    637.2,
+    126.5,
+    648.4
+   ],
+   "tipo": "texto",
+   "texto": "N",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 39,
+   "bbox": [
+    376.2,
+    657.3,
+    398.8,
+    665.1
+   ],
+   "tipo": "texto",
+   "texto": "yd\nz",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 40,
+   "bbox": [
+    245.9,
+    641.6,
+    431.6,
+    665.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\nz,\nN\nEd\n,z\nz,\nm\nz\nyd\ny",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 41,
+   "bbox": [
+    110.0,
+    641.0,
+    301.6,
+    666.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\ny,\nN\nEd\n,y\ny,\nm\ny\ny\nyd\n*\nz",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 42,
+   "bbox": [
+    126.7,
+    642.4,
+    442.5,
+    663.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\n≤\n⋅",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 43,
+   "bbox": [
+    253.2,
+    635.4,
+    414.2,
+    663.3
+   ],
+   "tipo": "texto",
+   "texto": "⋅\n+\n⋅\n⋅\n+\n⋅",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 44,
+   "bbox": [
+    103.4,
+    634.8,
+    284.2,
+    664.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "⋅\n+\n⋅\n⋅\n⋅\nα\n+\n⋅\n⋅\nχ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 45,
+   "bbox": [
+    450.7,
+    644.1,
+    541.0,
+    655.3
+   ],
+   "tipo": "texto",
+   "texto": "(6.52)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 46,
+   "bbox": [
+    100.7,
+    675.5,
+    367.5,
+    686.7
+   ],
+   "tipo": "texto",
+   "texto": "Además, sólo en piezas susceptibles de pandeo por torsión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 47,
+   "bbox": [
+    329.8,
+    702.7,
+    414.0,
+    721.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nf\nW",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 48,
+   "bbox": [
+    219.8,
+    694.9,
+    386.5,
+    721.8
+   ],
+   "tipo": "texto",
+   "texto": "N\ne\nM\nc\nk\nf\nW",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 49,
+   "bbox": [
+    121.9,
+    694.3,
+    256.5,
+    723.2
+   ],
+   "tipo": "texto",
+   "texto": "N\ne\nM\nk\nf\nA",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 50,
+   "bbox": [
+    119.3,
+    695.7,
+    126.5,
+    706.9
+   ],
+   "tipo": "texto",
+   "texto": "N",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 51,
+   "bbox": [
+    339.8,
+    715.8,
+    362.5,
+    723.6
+   ],
+   "tipo": "texto",
+   "texto": "yd\nz",
+   "tamano": 7.0,
+   "negrita": false
+  },
+  {
+   "i": 52,
+   "bbox": [
+    210.2,
+    700.1,
+    395.2,
+    723.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\nz,\nN\nEd\n,z\nz,\nm\nz\nyd\ny\nLT",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 53,
+   "bbox": [
+    110.0,
+    699.5,
+    265.2,
+    725.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\ny,\nN\nEd\n,y\nyLT\nyd\n*\nz",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 54,
+   "bbox": [
+    126.7,
+    700.9,
+    406.1,
+    721.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Ed\n≤\n⋅",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 55,
+   "bbox": [
+    204.1,
+    693.9,
+    377.8,
+    721.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "⋅\n+\n⋅\n⋅\n+\n⋅\nχ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 56,
+   "bbox": [
+    103.4,
+    693.3,
+    247.8,
+    723.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "⋅\n+\n⋅\n+\n⋅\n⋅\nχ",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 57,
+   "bbox": [
+    414.7,
+    702.6,
+    540.7,
+    713.8
+   ],
+   "tipo": "texto",
+   "texto": "(6.53)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 58,
+   "bbox": [
+    100.7,
+    734.0,
+    131.3,
+    745.2
+   ],
+   "tipo": "texto",
+   "texto": "donde",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

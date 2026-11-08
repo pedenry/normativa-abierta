@@ -1,0 +1,75 @@
+{
+ "documento": null,
+ "pagina": 20,
+ "etiqueta_impresa": "7",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-16",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    210.7,
+    317.3,
+    401.3,
+    326.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.1 Análisis simplificado de un nudo.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    331.0,
+    541.5,
+    367.0
+   ],
+   "tipo": "texto",
+   "texto": "5\nPara asignar el momento a cada paño, será válido cualquier reparto que conserve el equilibrio (véase\nfigura 5.2 y 5.3)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    496.1,
+    541.5,
+    682.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.2 Equilibrio de nudos intermedios.\n6\nEn los nudos superiores se podrá suponer que la carga de los forjados acomete a los muros con una\nexcentricidad, (véase figura 5.3), igual a:\na)\nen el caso de muros extremos\n e = 0,25·t + 0,25·a\n(5.3)\nb)\nen el caso de muros interiores\n e = 0,25·t·(Ni – Nj) / (Ni + Nj)\n(5.4)\nsiendo:\nt\nel grueso del muro en los que acometen forjados por los dos lados, descontando los rehundidos\nen los bordes si los hubiere\na\n la profundidad con que se remete la tabica del forjado respecto a la cara exterior\nNi, Nj\nla carga que acomete por cada lado\n7\nA los efectos del cálculo, el arranque inferior del muro en la solera, forjado sanitario o zanja, puede\nconsiderarse como empotramiento perfecto.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

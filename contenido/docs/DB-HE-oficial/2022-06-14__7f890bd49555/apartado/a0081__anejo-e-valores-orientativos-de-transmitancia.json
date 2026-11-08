@@ -1,0 +1,98 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0081",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo E. Valores orientativos de transmitancia",
+  "titulo": "Anejo E. Valores orientativos de transmitancia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo E. Valores orientativos de transmitancia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 51,
+   "bbox": [
+    209.6,
+    51.4,
+    387.9,
+    60.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f08b45c6332f6b6868e1afa171c20eccf117ef9f6418af9dc9ff2e38791248c3",
+   "literal": "Anejo E. Valores orientativos de transmitancia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0108",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 3.1.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo E. Valores orientativos de transmitancia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Valores orientativos de transmitancia",
+   "seccion_estimada": "Anejo E. Valores orientativos de transmitancia",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "430c618f7c6b284ce951f26f4d9a0ddae80a8eb0a091b0acc45c6e24f5632591"
+ },
+ "paginas": [
+  51,
+  52
+ ],
+ "etiquetas_impresas": [
+  "51",
+  "52"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo E. Valores orientativos de transmitancia\n51\nAnejo E Valores orientativos de transmitancia\n1\nLa tabla a-Anejo E aporta valores orientativos de los parámetros característicos de la envolvente térmica\nque pueden resultar útiles para el predimensionado de soluciones constructivas de edificios de uso\nresidencial privado, para el cumplimiento de las condiciones establecidas para el coeficiente global de\ntransmisión de calor a través de la envolvente (apartado 3.1.1 – HE1):\nTabla a-Anejo E. Transmitancia térmica del elemento,\nU [W/m2 K]\nZona Climática de invierno\nα\nA\nB\nC\nD\nE\nMuros y suelos en contacto con el aire exterior, UM, US\n0,560,500,38 0,29 0,27 0,23\nCubiertas en contacto con el aire exterior, UC\n0,500,440,33 0,23 0,22 0,19\nElementos en contacto con espacios no habitables o con el terreno, UT\n0,800,800,69 0,48 0,48 0,48\nHuecos (conjunto de marco, vidrio y, en su caso, cajón de persiana), UH2,7\n2,7\n2,0\n2,0\n1,6\n1,5\n2\nLos valores anteriores presuponen un correcto tratamiento de los puentes térmicos.\n\nDocumento Básico HE Ahorro de energía",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 3.1.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0051_t01.json",
+  "../tabla/p0052_t01.json",
+  "../tabla/p0052_t02.json",
+  "../tabla/p0052_t03.json"
+ ],
+ "figuras": [
+  "../figura/p0051.png",
+  "../figura/p0052.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

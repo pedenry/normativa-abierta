@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0135",
+  "ruta_oficial": "8.8.8",
+  "ruta_semantica": "8.8.8 Uniones viga-pilar soldadas",
+  "titulo": "8.8.8 Uniones viga-pilar soldadas",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "8.8.8 Uniones viga-pilar soldadas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 96,
+   "bbox": [
+    74.1,
+    73.4,
+    234.8,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c9a52ed1f2d8f0da2f0b548bb12ace9f29f61f8002865704f363a83f80e885c0",
+   "literal": "8.8.8 Uniones viga-pilar soldadas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0128",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 8.8.6"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.8.8 Uniones viga-pilar soldadas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / 8.8.8 Uniones viga-pilar soldadas",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "44ebf0b5c3ed4884ef37b51475a44a36ad4d54587185c03f7aab25f4cc52cf77"
+ },
+ "paginas": [
+  96,
+  97
+ ],
+ "etiquetas_impresas": [
+  "96",
+  "97"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "8.8.8 Uniones viga-pilar soldadas\n1\nLa comprobación de la resistencia a flexión consistirá en verificar, al igual que en las atornilladas:\nRd\n,\nwp\nEd\n,\nwp\nRd\nEd\nV\nV\nM\nM\n≤\n≤\n(8.78)\n2\nLa resistencia a cortante del nudo se determinará en la forma definida para las atornilladas en\n8.8.6, e igualmente las resistencias de las zonas de tracción y compresión se reducirán en su caso\npor interacción con el cortante de nudo de cálculo en el alma del pilar.\n3\nEl momento resistente de cálculo, MRd, dependerá de la resistencia de los componentes de las zo-\nnas solicitadas a tracción, compresión y cortante. Este momento resistente se calculará multipli-\ncando la menor de las resistencias obtenidas para las zonas sometidas a tracción y compresión,\npor la distancia entre sus centros de resistencia.\n4\nResistencia de la zona solicitada a tracción.\na)\nLa resistencia a tracción de cálculo que como máximo puede admitir el ala del pilar sin rigidi-\nzar, para perfiles laminados, es:\n0\nM\nfb\n,\nef\nfb\nyb\nRd\n,t\nb\nt\nf\nF\nγ\n=\n(8.79)\nexpresión en las que el ancho eficaz del ala de la viga bef,fb es\nfc\nc\nwc\nfb\nef,\nfb\nyb\n2\nfc\nyc\nc\nwc\nfb\n,\nef\nt\n7\nr\n2\nt\nb\n:\ncon\nt\nf\nt\nf\n7\nr\n2\nt\nb\n+\n+\n≤\n+\n+\n=\n(8.80)\nsiendo\nlos subíndices b y c añadidos al límite elástico o cualquier otro parámetro, hacen referencia a\nla viga y pilar respectivamente (véase figura 8.22).\nPara perfiles soldados, son válidas las expresiones anteriores sin más que hacer\nc\nc\na\n2\nr=\n,\nsiendo ac el espesor de garganta de la soldadura de unión ala-alma del perfil soldado que\nforma el pilar.\nSi Ft.Rd es menor que el 70% de la resistencia completa del ala de la viga (fybtfbbfb/γM0), la unión\ndebe rigidizarse.\nLa soldadura de unión entre el ala de pilar y la viga debe dimensionarse para asegurar la re-\nsistencia completa del ala de la viga.\nb)\nLa resistencia de cálculo a tracción transversal del alma del pilar sin rigidizar es:\n0\nM\nef\nwc\nyc\nRd\n,t\nb\nt\nf\nF\nγ\n=\n(8.81)\nsiendo\nbef\nes el ancho eficaz, dado por:\nPerfiles laminados:\n(\n)\nc\nfc\nb\nfb\nef\nr\nt\n5\na\n2\n2\nt\nb\n+\n+\n+\n=\nPerfiles soldados: igual que el anterior haciendo\nc\nc\na\n2\nr=\nEl alma se puede reforzar mediante una chapa de alma o rigidizadores.\n5\nResistencia de la zona solicitada a compresión. La resistencia de cálculo a aplastamiento es igual\nque la indicada en el caso de las atornilladas, apartado 8.8.6, teniendo en cuenta que los anchos\neficaces bef son en este caso los indicados en el punto anterior para el alma del pilar sin rigidizar a\ntracción, o reforzada.\n\nDocumentoBásico SE-A Acero\nSE-A-95\n6\nLa rigidez inicial y secante rotacional de la unión se determinará como en el caso de las uniones\natornilladas, apartado 8.8.6, considerando exclusivamente como componentes básicos de la unión\nlas regiones del alma del pilar a cortante, tracción y compresión, de rigideces Swv, Swt, y Swc respec-\ntivamente.\nFigura 8.22 Uniones viga-pilar soldadas",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.8.6"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0097_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0096.png",
+  "../figura/p0097.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

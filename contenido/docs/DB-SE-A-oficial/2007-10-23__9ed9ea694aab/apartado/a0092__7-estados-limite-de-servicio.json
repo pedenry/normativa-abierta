@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0092",
+  "ruta_oficial": "7",
+  "ruta_semantica": "7 Estados límite de servicio",
+  "titulo": "7 Estados límite de servicio",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7 Estados límite de servicio",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 55,
+   "bbox": [
+    74.1,
+    97.6,
+    261.6,
+    113.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "4e0ada4fdccb859007b2f90fe0c8eeac9f93e4528c3c941ab9f111990d0f5628",
+   "literal": "7 Estados límite de servicio"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0088",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7 Estados límite de servicio",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Estados límite de servicio",
+   "seccion_estimada": "7 Estados límite de servicio",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "320b730c2282c4112914e5edab26176c21e9cdd3f0571ac814582e20a6af2e90"
+ },
+ "paginas": [
+  55
+ ],
+ "etiquetas_impresas": [
+  "55"
+ ],
+ "tipos": [],
+ "texto": "7 Estados límite de servicio\n1\nLos estados límite de servicio tienen como objeto verificar el cumplimiento de la exigencia básica\nSE-2: aptitud al servicio,\na)\nlimitando los daños en elementos constructivos no estructurales habituales, al limitar la defor-\nmación acumulada desde el momento de su puesta en obra (flecha activa);\nb)\nmanteniendo la apariencia geométrica de la estructura, limitando las desviaciones por defor-\nmación total respecto de la geometría con que el usuario reconoce a la estructura. Dicha des-\nviación puede acotarse limitando los desplazamientos, o estableciendo medidas iniciales que\ncontrarresten sus efectos, como las contraflechas.\n2\nLos estados límite a considerar y los valores límite de cada uno, flechas, desplomes y vibraciones,\nson los establecidos en SE 4.3, de acuerdo con el tipo de edificio, y el de los elementos implicados\nen la deformación.\n3\nPuede ser preciso establecer límites más exigentes en el caso de usos concretos, como es el caso\nde la limitación de vibraciones en salas especiales, como algunas de hospitales. Puede ser preciso\nigualmente por necesidades constructivas particulares, como las derivadas del soporte de carriles\nde grúas, o anclajes de muros cortina. En estos casos se emplearán los métodos establecidos en\neste DB para asegurar el respeto a los límites que pueda requerir el uso previsto o el sistema cons-\ntructivo adoptado, tal como lo establezca su fabricante.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0093",
+  "a0094",
+  "a0100"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

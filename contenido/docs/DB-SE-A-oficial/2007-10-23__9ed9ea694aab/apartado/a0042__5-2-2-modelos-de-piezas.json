@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0042",
+  "ruta_oficial": "5.2.2",
+  "ruta_semantica": "5.2.2 Modelos de piezas",
+  "titulo": "5.2.2 Modelos de piezas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.2 Modelos de piezas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 17,
+   "bbox": [
+    74.1,
+    535.6,
+    190.3,
+    546.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "2bad1a914e29362d127a0850a34c171e22643fdfa0c33f6a99a1dbb4877fdb94",
+   "literal": "5.2.2 Modelos de piezas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0048",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.2 Modelos de piezas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.2 Modelos del comportamiento estructural 5.2.1 Hipótesis / 5.2.2 Modelos de piezas",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e1d4fec8835626316f117981321294b1336ab6c832d46c8ac5f1585b1f66bbc2"
+ },
+ "paginas": [
+  17,
+  18
+ ],
+ "etiquetas_impresas": [
+  "17",
+  "18"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.2.2 Modelos de piezas\n1\nLa piezas de acero se representarán mediante modelos unidimensionales o bidimensionales de\nacuerdo a sus dimensiones relativas. En el caso en que la relación entre las dos dimensiones fun-\ndamentales de la pieza sea menor o igual que 2, deberán usarse modelos bidimensionales.\n2\nLas luces de cálculo de las piezas unidimensionales serán las distancias entre ejes de enlace. En\npiezas formando parte de entramados o pórticos estos ejes coinciden con las intersecciones de la\ndirectriz de la pieza con las de las adyacentes. En piezas embutidas en apoyos rígidos de dimen-\nsión importante en relación con su canto, puede situarse idealmente el eje en el interior del apoyo a\nmedio canto de distancia respecto del borde libre.\n3\nEn el análisis global de la estructura las piezas se representarán considerando sus secciones bru-\ntas, salvo en los casos indicados en 5.2.4, o cuando la reducción de una sección o de su eficacia\npueda afectar significativamente al modelo.\n4\nLa rigidez en torsión de las piezas puede ser ignorada en el análisis en los casos en que no resulte\nimprescindible para el equilibrio.\n\nDocumentoBásico SE-A Acero\nSE-A-16",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0018.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

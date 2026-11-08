@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0049",
+  "ruta_oficial": "5.3.1",
+  "ruta_semantica": "5.3.1 Traslacionalidad",
+  "titulo": "5.3.1 Traslacionalidad",
+  "nivel": 1,
+  "parent_id": "a0048",
+  "seccion_estimada": "5.3.1 Traslacionalidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 27,
+   "bbox": [
+    74.1,
+    381.4,
+    180.9,
+    392.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6a5d88d1853aef87659f2c3b6f88d352552788d925e8c63eea0ffcfb46f7f1d0",
+   "literal": "5.3.1 Traslacionalidad"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0053",
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3.1 Traslacionalidad",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.3 Estabilidad lateral global / 5.3.1 Traslacionalidad",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8c71ff592be8ff716ecacff65adc07fc10e4ba77104bd5007a020ba5605caadb"
+ },
+ "paginas": [
+  27,
+  28
+ ],
+ "etiquetas_impresas": [
+  "27",
+  "28"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.3.1 Traslacionalidad\n1\nEn el caso de las estructuras traslacionales, o no arriostradas, en las que los desplazamientos tie-\nnen una influencia sustancial en los esfuerzos, debe utilizarse un método de cálculo que incluya\nefectos no lineales y considere las imperfecciones iniciales, o sus acciones equivalentes, sustituto-\nrias de las desviaciones geométricas de fabricación y montaje, de las tensiones residuales, de las\ndeformaciones iniciales, variaciones locales del límite elástico, etc. Dicho método puede consistir\nen\na)\nAnálisis global en segundo orden considerando imperfecciones iniciales globales y en la geo-\nmetría de las piezas. En este caso en las comprobaciones de resistencia de las piezas no se\nconsiderarán los efectos de pandeo que ya estén representados en el modelo.\nb)\nAnálisis global en segundo orden considerando sólo las imperfecciones iniciales globales. En\neste caso  en las comprobaciones de resistencia se considerarán los efectos de pandeo de\nlas piezas. Una aproximación a los resultados obtenidos por este método se describe en el\napartado siguiente.\n2\nUna forma de evaluar la influencia de los desplazamientos en la distribución de esfuerzos y, por\ntanto, de caracterizar la condición de traslacionalidad, aplicable a estructuras de pórticos planos,\nconsiste en realizar un primer análisis en régimen elástico lineal y obtener, para cada planta, el co-\neficiente:\nh\nH\nV\nr\nd\n,\nH\nEd\nEd\nδ\n⋅\n=\n(5.6)\nsiendo\nHEd\nvalor de cálculo de las cargas horizontales totales (incluyendo las debidas a imperfeccio-\nnes) en la planta considerada y en todas las superiores. Coincide con el cortante total en\nlos pilares de la planta;\nVEd\nvalor de cálculo de las cargas verticales totales en la planta considerada y en todas las su-\nperiores. Coincide con el axil total en los pilares de la planta;\nh\naltura de la planta;\n\nDocumentoBásico SE-A Acero\nSE-A-26\nδH,d\ndesplazamiento horizontal relativo de la planta (del forjado de techo al de suelo).\nSi para alguna planta el valor del coeficiente r es superior a 0,1, la estructura debe considerarse\ntraslacional y, entonces, el análisis global de la estructura habrá de considerar los efectos de los\ndesplazamientos en alguna de las siguientes formas:\na)\nAnálisis en segundo orden, con la ayuda de modelos numéricos que incluyan, al menos, el\nefecto de los esfuerzos en la rigidez de la estructura. En el dimensionado de los pilares se uti-\nlizarán como longitudes de pandeo las correspondientes al modo intraslacional.\nb)\nAnálisis elástico y lineal pero habiendo multiplicado todas las acciones horizontales sobre el\nedificio por el coeficiente de amplificación:\nr\n1\n1\n−\n(5.7)\nEste procedimiento sólo es aplicable cuando r<0,33. En el dimensionado de los pilares se uti-\nlizarán como longitudes de pandeo las correspondientes al modo intraslacional. Las reaccio-\nnes en cimentación se obtendrán del citado modelo reduciendo las componentes de fuerza\nhorizontal en el valor del coeficiente de amplificación, de modo que resulten equivalentes a la\nresultante horizontal de las acciones de cálculo no amplificadas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0027.png",
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

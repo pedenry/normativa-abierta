@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0157",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.2.2 Soportes y muros",
+  "titulo": "C.2.2 Soportes y muros",
+  "nivel": 3,
+  "parent_id": "a0154",
+  "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 58,
+   "bbox": [
+    70.9,
+    187.2,
+    211.7,
+    200.5
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "966ad125e70a8854dd0256a62aa74d48dba728e54bbb18e90647111237128541",
+   "literal": "C.2.2 Soportes y muros"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0104",
+  "parent_id_original": "a0154",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "C.2.2 Soportes y muros",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0154",
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / C.2.2 Soportes y muros",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5ac65d3d5629c617d73b852cb9772e052f6ac4d8d35123a5724a7561272af030"
+ },
+ "paginas": [
+  58
+ ],
+ "etiquetas_impresas": [
+  "58"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "C.2.2 Soportes y muros\n1\nMediante la tabla C.2 puede obtenerse la resistencia al fuego de los soportes expuestos por tres o\ncuatro caras y de los muros portantes de sección estricta expuestos por una o por ambas caras, refe-\nrida a la distancia mínima equivalente al eje de las armaduras de las caras expuestas.\n2\nPara resistencias al fuego mayores que R 90 y cuando la armadura del soporte sea superior al 2%\nde la sección de hormigón, dicha armadura se distribuirá en todas sus caras. Esta condición no se\nrefiere a las zonas de solapo de armadura.\nTabla C.2. Elementos a compresión\nResistencia al fuego\nLado menor o espesor bmín / Distancia mínima equivalente al eje am (mm)(1)\nSoportes\nMuro de carga expuesto\npor una cara\nMuro de carga expuesto\npor ambas caras\nR 30\n150 / 15(2)\n100 / 15(3)\n120 / 15\nR 60\n200/ 20(2)\n120 / 15(3)\n140 / 15\nR 90\n250 /30\n140 / 20(3)\n160 / 25\nR 120\n250 / 40\n160 / 25(3)\n180 / 35\nR 180\n350 / 45\n200 / 40(3)\n250 / 45\nR 240\n400 / 50\n250 / 50(3)\n300 / 50\n(1)\nLos recubrimientos por exigencias de durabilidad pueden requerir valores superiores.\n(2)\nLos soportes ejecutados en obra deben tener, de acuerdo con la Instrucción EHE, una dimensión mínima de 250 mm.\n(3)\nLa resistencia al fuego aportada se puede considerar REI\n3\nSi el elemento está sometido a tracción se comprobará como elemento de acero revestido.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0058.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

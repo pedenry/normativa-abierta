@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0212",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p151",
+  "titulo": "( )",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p151",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p151",
+  "referencias_filtradas": [
+   "EN 1090"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Fatiga. Método de las curvas S-N C.1 Generalidades / ( )",
+   "seccion_estimada": "Anejo C. Fatiga. Método de las curvas S-N C.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e57c73b70a51e41f05a3055732d5c402ce87300cd5a818268394e4179a471e64"
+ },
+ "paginas": [
+  151,
+  152,
+  153,
+  154
+ ],
+ "etiquetas_impresas": [
+  "151",
+  "152",
+  "153",
+  "154"
+ ],
+ "tipos": [
+  "notas",
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "( )\n)\n*\n2\n,\nE\nFf\n1\n2\n,\nE\nFf\nk\nσ\n∆\nγ\n=\nσ\n∆\nγ\n(C.6)\nsiendo\n*\n2\n,\nE\nFf\nσ\n∆\nγ\nvalor de la carrera de tensiones calculada con un modelo simplificado de nudos arti-\nculados;\nk1\nfactor de amplificación dado en las tablas anteriores.\n4\nEn los detalles que no incluyen soldaduras o cuando éstas han sido sometidas a un tratamiento de\nalivio de tensiones, se puede considerar una carrera efectiva de tensión formada por la parte de\ntracción de la real y únicamente el 60% de la de compresión.\n5\nEl efecto escala para espesores mayores de 25 mm del material base en el que puede iniciarse y\npropagarse una fisura debe considerarse en los casos indicados en las tablas de categorías de de-\ntalle. La resistencia a la fatiga viene dada por:\nC\ns\nred\n,\nC\nk\nσ\n∆\n=\nσ\n∆\n(C.7)\nsiendo\n∆σC\nvalor dado como categoría de detalle en dichas tablas y ks el coeficiente minorador de la re-\nsistencia a fatiga por efecto escala, para espesores mayores de 25 mm, indicado en las\nmismas.\nC.3.3 Resistencia a la fatiga\n1\nLa resistencia a la fatiga en tensiones nominales se define mediante las curvas S-N de las figuras\nC.1 y C.2 que se aplican a cada categoría del detalle. Esta se designa mediante un número que\nrepresenta en N/mm2 los valores de referencia ∆σc o ∆τc para la resistencia a fatiga a 2 millones de\nciclos.\nLas curvas de las figuras C.1 y C.2 se definen para tensiones nominales de amplitud constante\nmediante las expresiones:\n10\n5\nN\npara\n3\nm\ncon\n10\n2\nN\n6\n6\nm\nC\nR\nm\nR\n⋅\n≤\n=\n⋅\nσ\n∆\n=\nσ\n∆\n(figura C.1)\n(C.8)\n8\n6\nm\nC\nR\nm\nR\n10\nN\npara\n5\nm\ncon\n10\n2\nN\n≤\n=\n⋅\nτ\n∆\n=\nτ\n∆\n(figura C.2)\n(C.9)\nsiendo\nC\nm\n/\n1\nD\n5\n2\nσ\n∆\n\n\n\n\n=\nσ\n∆\nlímite de fatiga de amplitud constante (figura C.1)\n(C.10)\nC\nm\n/\n1\nL\n100\n2\nτ\n∆\n\n\n\n\n=\nτ\n∆\nlímite de truncamiento (figura C.2)\n(C.11)\n\nDocumentoBásico SE-A Acero\nSE-A-150\nPara el espectro de tensiones nominales con carreras de tensión por encima y por debajo del límite\nde fatiga de amplitud constante, el daño de fatiga se representa mediante las curvas prolongadas:\n6\n6\nm\nC\nR\nm\nR\n10\n.\n5\nN\npara\n3\nm\ncon\n10\n2\nN\n≤\n=\n⋅\nσ\n∆\n=\nσ\n∆\n(C.12)\n8\n6\n6\nm\nD\nR\nm\nR\n10\nN\n10\n5\npara\n5\nm\ncon\n10\n5\nN\n≤\n≤\n⋅\n=\n⋅\nσ\n∆\n=\nσ\n∆\n(C.13)\ndonde\nD\nm\n/\n1\nL\n100\n5\nσ\n∆\n\n\n\n\n=\nσ\n∆\nes el límite de truncamiento (figura C.1)\n(C.14)\n2\nLas categorías de resistencia a la fatiga ∆σc o ∆τc se encuentran en las tablas:\nTabla\nDetalle\nTabla C.4\nTabla C.5\nTabla C.6\nTabla C.7\nTabla C.8\nTabla C.9\nTabla C.8\nTabla C.9\nDetalles sin soldaduras\nSecciones armadas mediante soldadura\nSoldaduras a tope transversales\nSoldaduras y rigidizadores soldados\nUniones soldadas\nUnión ala superior-alma en vigas carril\nUniones de perfiles huecos\nUniones de vigas de celosía\n10\n100\n1000\n104\n105\n106\n107\n108\n109\nCarrera de tensiones normales (∆σR) (N/mm2)\nNúmero de ciclos\nLímite de corte (∆σL)\nLímite de amplitud constante (∆σD)\nCategoría de detalle (∆σc)\n1\nm\nm=3\nm=5\n2·106\n5·106\n160\n140\n125\n112\n100\n90\n80\n71\n63\n56\n50\n45\n40\n36\nFigura C.1 Curvas de resistencia a la fatiga para rangos de tensiones normales\n\nDocumentoBásico SE-A Acero\nSE-A-151\n10\n100\n1000\n104\n105\n106\n107\n108\n109\nCarrera de tensiones tangenciales (∆τR) (N/mm2)\nNúmero de ciclos\nLímite de corte (∆τL)\nCategoría de detalle (∆τc)\n1\nm=5\n2·106\n100\n80\nFigura C.2 Curvas de resistencia a la fatiga para rangos de tensiones tangenciales\n3\nLa clasificación de los detalles ha sido establecida en función de las tensiones en las direcciones\nindicadas en las tablas por las flechas, tanto sobre la sección, cuando las fisuras pueden producir-\nse en el material base, como las calculadas en los cordones de soldadura cuando la rotura se pue-\nde producir en ellos.\n\nDocumentoBásico SE-A Acero\nSE-A-152\nTabla C.4 Detalles sin soldaduras\nCategoría\ndel detalle\nDetalles constructivos\nDescripción\nRequisitos\n160\nNota: la curva de resistencia a la fatiga corres-\npondiente a la categoría 160 es la más alta. Nin-\ngún detalle puede alcanzar una resistencia a la\nfatiga mayor para ningún número de ciclos\nProductos laminados y\nextruidos:\n1/ Placas y planos\n2/ Perfiles laminados\n3/Secciones huecas cir-\nculares o rectangulares\nsin soldadura\nDetalles 1) a 3):\nLos cortes vivos, las fisuras super-\nficiales y de laminación deben tra-\ntarse mediante amolado hasta\neliminarlas y dejar acuerdos sua-\nves\n140\n125\nPlacas cizalladas u oxi-\ncortadas:\n4/ Material cortado con\ngas o con cizalla con re-\npaso posterior.\n5/ Material con bordes\ncortados con gas presen-\ntando líneas de arrastre\nsomeras y regulares o\nmaterial cortado con má-\nquina de gas con poste-\nrior eliminación de las\nmarcas de borde. Corte\ncon gas con calidad\nacorde con la EN 1090\n4) Deben eliminarse todos los sig-\nnos visibles de discontinuidades\nde borde.\nLas áreas oxicortadas deben ser\nesmeriladas o rectificadas hasta\neliminar todas las marcas.\nCualquier marca de mecanizado\nprovocado, por ejemplo, por el\namolado, sólo puede ser paralela\na las direcciones de carga.\nDetalles 4) y 5)\nLos ángulos entrantes deben sua-\nvizarse mediante amolado (pen-\ndiente ≤ ¼) o evaluadas mediante\nlos adecuados factores de con-\ncentración de tensiones.\nNo se admiten las reparaciones\nmediante relleno con soldadura.\n100\nm=5\n6) y 7)\nProductos laminados y\nextruidos como en los\ndetalles 1), 2) y 3)\nDetalles 6) y 7)\n∆τ calculado mediante:\nIt\n)t(\nVS\n=\nτ\nCuando en los detalles 1-5 se utilicen aceros con resistencia mejorada a la corrosión utilícese la categoría siguiente inferior\n8/ Junta simétrica con\ndoble platabanda con\ntornillos pretensados de\nalta resistencia\n112\n8/ Junta simétrica con\ndoble platabanda con\ntornillos de inyección pre-\ntensados\n9/ Junta simétrica con\ndoble platabanda y torni-\nllos calibrados\n9/ Junta simétrica con\ndoble platabanda y torni-\nllos de inyección sin pre-\ntensar\n9/ ∆τ calcula-\ndo sobre la",
+ "notas": [
+  "Nota: la curva de resistencia a la fatiga corres-"
+ ],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "EN 1090"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0151.png",
+  "../figura/p0152.png",
+  "../figura/p0153.png",
+  "../figura/p0154.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

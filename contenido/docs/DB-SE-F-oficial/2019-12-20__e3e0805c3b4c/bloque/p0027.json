@@ -1,0 +1,141 @@
+{
+ "documento": null,
+ "pagina": 27,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-23",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.4,
+    250.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa capacidad resistente de cálculo a esfuerzo cortante vale:\nVRd = VRd1 + VRd2\n(5.17)\ndonde\nVRd1 = fvd·t·Ld\n(5.18)\nVRd2 = 0,67·As·fyd·Ld/s\n(5.19)\nsiendo:\nfvd\nla resistencia de cálculo a cortante de la fábrica, considerando la tensión vertical correspon-\ndiente, según 4.5.3\nt\nel espesor, en su caso residual, del muro\nLd\nla longitud comprimida del muro debida a las acciones verticales, equilibrando a las horizonta-\nles, descontando pues la zona de tracción, suponiendo una distribución lineal de tensiones\ns\nseparación entre las armaduras de tendel.\nEn cualquier caso, la capacidad resistente a cortante no puede ser superior a;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    254.3,
+    541.4,
+    291.6
+   ],
+   "tipo": "texto",
+   "texto": "VRd  2,0 N/mm2·t·Ld\n(5.20)\n4\nComo resistencia vertical a corte de la unión puede tomarse el valor de resistencia a cortante puro\n(véase tabla 4.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    175.2,
+    447.7,
+    436.8,
+    468.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.9 Evaluación a cortante de las armaduras de tendel.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    484.7,
+    305.7,
+    496.7
+   ],
+   "tipo": "titulo",
+   "texto": "5.4 Muros con acciones laterales locales",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    508.2,
+    170.4,
+    518.2
+   ],
+   "tipo": "texto",
+   "texto": "5.4.1 Generalidades",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    524.8,
+    544.3,
+    677.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl cálculo de muros sometidos a acciones laterales se puede basar en:\na)\nsu respuesta como pieza a flexión sustentada en uno o varios bordes\nb)\nsu respuesta como arco estribado entre ambos bordes.\nSi en ambas direcciones responde como pieza a flexión se dice que el comportamiento es de placa.\n2\nEn el caso en que el muro posea algún borde en el cual no se pueda garantizar la movilización de las\nreacciones necesarias para su equilibrio (por ejemplo bordes superiores no retacados a los forjados),\nse considerará que ese borde no es competente como sustentación de placa, o en esa dirección no\npuede darse el comportamiento en arco.\n3\nPara la respuesta como pieza a flexión, puede conseguirse empotramiento mediante llaves, por traba\nde las piezas o por tope contra los forjados cuando es pasante sobre éstos.\n4\nEn un muro capuchino se podrá considerar que ambas hojas colaboran en la resistencia a las accio-\nnes laterales, aunque sólo una de ellas esté directamente conectada a los elementos de sustentación.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    688.6,
+    269.9,
+    698.5
+   ],
+   "tipo": "texto",
+   "texto": "5.4.2 Análisis de solicitaciones en flexión",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    705.2,
+    541.4,
+    764.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEs aceptable el uso de cualquier procedimiento que dé como resultado un conjunto de esfuerzos en\nequilibrio con las acciones consideradas.\n2\nEn general, pueden tomarse como solicitaciones las procedentes del método de las líneas de rotura,\na partir de la capacidad resistente en la dirección paralela a los tendeles, MRd1, y en la perpendicular,\nMRd2, de acuerdo con los valores dados en 5.4.3.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

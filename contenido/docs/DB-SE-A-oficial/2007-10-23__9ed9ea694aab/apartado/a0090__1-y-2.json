@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0090",
+  "ruta_oficial": "1",
+  "ruta_semantica": "1 y 2",
+  "titulo": "1 y 2",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1 y 2",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 52,
+   "bbox": [
+    82.0,
+    171.1,
+    93.1,
+    196.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d0cad7be589eff713aff96b235e7848c05700f342e8302adee2f5e6a25d16aa3",
+   "literal": "1 y 2"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 y 2",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 y 2",
+   "seccion_estimada": "1 y 2",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3ed8fb0691e435fa6f6a0f2c7a3b764872656423016fe125c5e90ee443155665"
+ },
+ "paginas": [
+  52
+ ],
+ "etiquetas_impresas": [
+  "52"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "1 y 2\nHueca\ndelga-\nda\n( )\n)\nRd\n.\nC\ny\nEd\ny\nN\nN\n2,0\n1\nχ\n⋅\n−\nλ\n+\n( )\n)\nRd\n.\nC\nz\nEd\nz\nN\nN\n2,0\n1\nχ\n⋅\n−\nλ\n+\nz\n6,0\nλ\n+",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0052.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

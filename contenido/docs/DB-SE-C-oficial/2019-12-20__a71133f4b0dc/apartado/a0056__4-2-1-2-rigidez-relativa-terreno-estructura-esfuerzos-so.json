@@ -1,0 +1,131 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0056",
+  "ruta_oficial": "4.2.1.2",
+  "ruta_semantica": "4.2.1.2 Rigidez relativa terreno-estructura. Esfuerzos sobre los elementos de cimentación",
+  "titulo": "4.2.1.2 Rigidez relativa terreno-estructura. Esfuerzos sobre los elementos de cimentación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2.1.2 Rigidez relativa terreno-estructura. Esfuerzos sobre los elementos de cimentación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    70.9,
+    700.1,
+    500.4,
+    710.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "434d17d493ecd9cebdc16a079f5c2b0d3bd1737bbfb5cb0d239d117fa4612aaa",
+   "literal": "4.2.1.2 Rigidez relativa terreno-estructura. Esfuerzos sobre los elementos de cimentación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0067",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "4.2.1.2 Rigidez relativa terreno-estructura. Esfuerzos sobre los elementos de cimentación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Análisis y dimensionado 4.2.1 Criterios básicos / 4.2.1.2 Rigidez relativa terreno-estructura. Esfuerzos sobre los elementos de cimentación",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7be9e079714cbe224ea6fb1f8188b8be0f5a42a7c8c01bfa361fb54bebd4dd16"
+ },
+ "paginas": [
+  28,
+  29
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "4.2.1.2 Rigidez relativa terreno-estructura. Esfuerzos sobre los elementos de cimentación\n1\nLa transmisión de las cargas del edificio al terreno plantea un complejo problema de interacción\nentre los tres elementos implicados: estructura, cimentación y terreno. Los principales factores a\nconsiderar en dicho proceso de interacción serán el tipo y características del terreno, la forma y di-\nmensiones de la cimentación y la rigidez relativa terreno-estructura y terreno-cimentación.\n\nDocumento Básico SE-C Cimientos\nSE-C-24\n2\nAparte de la rigidez de la cimentación, la propia rigidez de la estructura a cimentar inducirá también\nrestricciones al movimiento y a la respuesta asociada del terreno. En el caso más general, cuando\nel terreno tienda a asentar por efecto de la presión aplicada, la estructura, en función de su rigidez,\nredistribuirá sus esfuerzos, modificando a su vez las solicitaciones sobre los cimientos y el terreno.\nLa situación de equilibrio final dependerá por tanto de la rigidez relativa del conjunto terreno-\ncimiento-estructura.\n3\nEn la actualidad no se dispone de métodos analíticos que permitan determinar con exactitud las\ncargas de estructura y su redistribución en función de la respuesta del terreno y los esfuerzos sobre\nlos cimientos correspondientes al equilibrio final.\n4\nSalvo en los casos en que tanto la estructura como la cimentación se consideren rígidas, los es-\nfuerzos en zapatas corridas, emparrillados y losas de cimentación se evaluarán teniendo en cuenta\nlos fenómenos de interacción terreno-estructura. A los efectos de este DB se podrán emplear los\nconceptos y métodos simplificados que figuran en el anejo E.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

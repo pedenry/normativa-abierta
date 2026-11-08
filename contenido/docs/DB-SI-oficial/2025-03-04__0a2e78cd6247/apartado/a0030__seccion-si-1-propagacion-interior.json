@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0030",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección SI 1 Propagación interior",
+  "titulo": "Sección SI 1 Propagación interior",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección SI 1 Propagación interior",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    70.9,
+    71.3,
+    231.9,
+    107.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "f7b3c367f9d41dfaea67771df3c6267e63b4b783c99fbb74d75ce7a55664be77",
+   "literal": "Sección SI 1 Propagación interior"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0009",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección SI 1 Propagación interior",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección SI 1 Propagación interior",
+   "seccion_estimada": "Sección SI 1 Propagación interior",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1a712df2ccc4a7d1d3a111839833ff93f13283db8f20ef07c40e52b0eea6f051"
+ },
+ "paginas": [
+  10
+ ],
+ "etiquetas_impresas": [
+  "10"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Sección SI 1 Propagación interior\nPropagación interior\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0031",
+   "ruta_oficial": "1",
+   "titulo": "1 Compartimentación en sectores de incendio",
+   "archivo_json": "a0031__1-compartimentacion-en-sectores-de-incendio.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0031"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

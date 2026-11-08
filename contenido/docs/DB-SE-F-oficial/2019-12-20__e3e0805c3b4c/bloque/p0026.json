@@ -1,0 +1,88 @@
+{
+ "documento": null,
+ "pagina": 26,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-22",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    161.5,
+    203.5,
+    450.6,
+    224.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 5.8 Anchura admisible para las alas de un muro transversal.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    225.9,
+    541.5,
+    532.1
+   ],
+   "tipo": "texto",
+   "texto": "3\nPara la distribución de las acciones horizontales se empleará la rigidez elástica de los muros de corte,\nincluidas las alas. Para muros de altura mayor que el doble de su longitud, puede despreciarse el\nefecto de la rigidez a cortante.\n4\nCuando los forjados puedan considerarse rígidos en su plano (por ejemplo, aquellos que cuentan con\nuna losa superior hormigonada en obra) queda del lado de la seguridad distribuir las acciones hori-\nzontales entre los muros a corte en proporción a su rigidez, admitiendo que todos tienen el mismo\ndesplazamiento.\n5\nCuando la resultante de las acciones horizontales no pasen por el metacentro, o centro de las rigide-\nces de los muros a corte, por disposición asimétrica en planta de éstos, o por otra razón, se conside-\nrará en los muros el efecto de la rotación del sistema (efecto torsor). Al equilibrio de dicho efecto de\nrotación colaboran eficazmente los muros transversales a la dirección en la que actúa la acción hori-\nzontal considerada.\n6\nEl esfuerzo cortante horizontal máximo en un muro, calculado por análisis elástico lineal, puede re-\nducirse en un 15 %, (atendiendo a una redistribución por fisuración limitada) siempre que se incre-\nmenten los cortantes correspondientes a los muros paralelos inmediatos de tal modo que se man-\ntenga el equilibrio frente a las acciones de cálculo aplicadas.\n7\nEl muro a corte, y en las alas unidas eficazmente a él mediante traba o amarres, debe considerar los\nefectos de las acciones:\na)\nen el muro, el esfuerzo normal por efecto de las cargas verticales permanentes, utilizando el\nvalor de cálculo con el coeficiente de seguridad que corresponde a acciones favorables, aplicado\ncon la excentricidad debida a la flexión que causan las acciones horizontales;\nb)\nen las alas, el esfuerzo normal;\nc)\nen el muro, el esfuerzo cortante horizontal\nd)\nen la unión del muro con cada ala, el esfuerzo cortante vertical (rasante) máximo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    543.4,
+    192.0,
+    553.3
+   ],
+   "tipo": "texto",
+   "texto": "5.3.2 Capacidad portante",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    560.0,
+    541.5,
+    769.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl esfuerzo cortante de cálculo aplicado, VSd, será menor o igual que el esfuerzo cortante resistente,\nVRd, es decir:\nVSd ≤ VRd\n(5.16)\n2\nSe considerará la combinación del esfuerzo normal y del esfuerzo cortante más desfavorable de las\nsiguientes:\na)\nEn el muro, el esfuerzo normal, por efecto de las cargas verticales, aplicado con la excentricidad\ndebida a la flexión que causan las acciones horizontales.\nb)\nEn cada ala, el esfuerzo normal.\nc)\nEn el muro, el esfuerzo cortante horizontal.\nd)\nEn la unión del muro con cada ala, el esfuerzo cortante vertical (rasante) máximo.\n3\nAl efecto de evaluar el esfuerzo normal que contribuye a la resistencia a cortante:\na)\nEn los muros que sustentan forjados bidireccionales, la carga de los forjados se repartirá alícuo-\ntamente entre los muros sustentantes.\nb)\nEn el caso de forjados unidireccionales, dotados de una losa superior y un encadenado de\napoyo, puede considerarse una distribución a 45º, en alzado, de la carga del forjado sobre los\nmuros no directamente cargados.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

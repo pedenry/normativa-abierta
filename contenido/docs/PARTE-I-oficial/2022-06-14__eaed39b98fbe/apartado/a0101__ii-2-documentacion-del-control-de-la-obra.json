@@ -1,0 +1,79 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0101",
+  "ruta_oficial": null,
+  "ruta_semantica": "ANEJO II. DOCUMENTACIÓN DEL SEGUIMIENTO DE LA OBRA / II.2. Documentación del control de la obra",
+  "titulo": "II.2. Documentación del control de la obra",
+  "nivel": 2,
+  "parent_id": "a0102",
+  "seccion_estimada": "ANEJO II. DOCUMENTACIÓN DEL SEGUIMIENTO DE LA OBRA",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 21,
+   "bbox": [
+    72.0,
+    485.8,
+    552.0,
+    554.3
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "6eb325a9cf78d3db6d9f58d42010d219fc07b19dcbb9e1240ef55a4d281f129f",
+   "literal": "II.2. Documentación del control de la obra"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0062",
+  "parent_id_original": "a0102",
+  "parent_motivo": "parent_toc_verificado_con_pagina",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "II.2. Documentación del control de la obra",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0102",
+   "ruta_semantica": "3. Cumplimiento del CTE / II.2. Documentación del control de la obra",
+   "seccion_estimada": "3. Cumplimiento del CTE",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "0aec5f6ee053b1ddd4dc9754b3e73c0327bd19444a699abb864ab5c1eab52b47"
+ },
+ "paginas": [
+  21
+ ],
+ "etiquetas_impresas": [
+  "21"
+ ],
+ "tipos": [],
+ "texto": "Código Técnico de la Edificación\nParte I\n21",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

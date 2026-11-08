@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-A · p. 18 — 5.2.3 Uniones entre elementos</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-a-oficial-2007-10-23-9ed9ea694aab.html">DB-SE-A</a> › p. 18</nav>
+
+<header class="meta">
+<p><strong>DB-SE-A</strong> · 5.2.3 Uniones entre elementos · versión 2007-10-23</p>
+<p>SHA256: <code>9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f</code> · página física 18 de 168 · métodos de encabezado
+solo si están cotejados.</p>
+<p><a href="../doc/db-se-a-oficial-2007-10-23-9ed9ea694aab.html">Documento</a> · <a href="db-se-a-oficial-2007-10-23-9ed9ea694aab__p0017.html">← p. 17</a> · <a href="db-se-a-oficial-2007-10-23-9ed9ea694aab__p0019.html">p. 19 →</a></p>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/pagina/p0018.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/bloque/p0018.json">JSON de bloques</a> · <a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/fuente.pdf#page=18">PDF p. 18</a> · <a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/figura/p0018.png">imagen PNG</a></p>
+</header>
+<nav class="paginas"><a href="../doc/db-se-a-oficial-2007-10-23-9ed9ea694aab.html">Documento</a> <a href="db-se-a-oficial-2007-10-23-9ed9ea694aab__p0017.html">← p. 17</a> <a href="db-se-a-oficial-2007-10-23-9ed9ea694aab__p0019.html">p. 19 →</a></nav>
+<h2>Encabezado de la página</h2><ul><li><a href="../apartado/db-se-a-oficial-2007-10-23-9ed9ea694aab__a0043.html">5.2.3 Uniones entre elementos</a> <span>· candidato tipográfico · PDF p. 18</span></li></ul>
+
+<pre class="literal">Documento Básico SE-A Acero 
+ 
+SE-A-16 
+5.2.3 Uniones entre elementos  
+1 
+Para representar el enlace entre dos o más piezas se requieren modelos que representen adecua-
+damente la geometría (las posiciones de los extremos de las piezas unidas), y la resistencia y rigi-
+dez de la unión (de los elementos y regiones locales de las piezas que materializan el enlace).  
+2 
+En función de la resistencia las uniones pueden ser articulaciones, de resistencia total o de resis-
+tencia parcial. 
+3 
+Dependiendo de la rigidez las uniones pueden ser articuladas, rígidas o semirrígidas, según su ri-
+gidez a rotación sea nula, total o intermedia. 
+4 
+Los límites entre los distintos tipos se establecen en el capítulo de uniones; el proyectista adoptará 
+las disposiciones precisas para clasificar la unión como articulada –permitiendo rotaciones apre-
+ciables sin la aparición de momentos relevantes- o rígida –asegurando mediante rigidización sufi-
+ciente la rotación conjunta de todas las secciones extremas de los elementos del nudo-, o para 
+considerar la rigidez parcial de la unión en los modelos empleados en el análisis.  
+5 
+Los métodos de análisis global utilizados y las hipótesis adoptadas respecto al comportamiento de 
+las uniones deben ser coherentes. En particular: 
+a) 
+cuando se realice un análisis global elástico y existan nudos de comportamiento semirrígido, 
+se considerará el comportamiento de la unión en función de su rigidez. Debe tomarse, en ge-
+neral, la rigidez, Sj, correspondiente al momento de cálculo Mj.Sd en cada situación. Como sim-
+plificación: 
+- si Mj,Sd ≤ 2/3 Mj,Rd , donde Mj,Rd es la resistencia de cálculo de la unión, se podrá usar la rigi-
+dez inicial del nudo Sj, ini, (figura 5.1.c) 
+- si Mj,Sd &gt; 2/3 Mj,Rd , se podrá usar el valor Sj, ini / η 
+donde: 
+η = 2 para uniones viga-pilar 
+ η = 3 para otro tipo de unión 
+b) 
+cuando se realice un análisis global elastoplástico se debe considerar el comportamiento de la 
+unión según su resistencia y rigidez. En este caso se podrá adoptar un diagrama bilineal sim-
+plificado como el indicado en la figura 5.1.d) para modelar el comportamiento de la unión. 
+c) 
+cuando se realice un análisis global rígido-plástico, para modelar el comportamiento de las 
+uniones bastará considerar su resistencia. 
+6 
+Las uniones semirrígidas entre cada dos barras (figura 5.1.a) se podrán modelar como un resorte 
+que une los ejes de las barras que concurren en el nudo (figura 5.1.b), que define las principales 
+propiedades siguientes: 
+a) 
+momento resistente, Mj,Rd, que es el máximo valor en la curva momento rotación M-Φ. 
+b) 
+rigidez al giro, Sj. 
+c) 
+la capacidad de rotación ΦCd es el máximo valor de la rotación en la curva M-Φ (figura 5.1.c). 
+d) 
+la curva real M-Φ no es lineal, pudiéndose adoptar un diagrama bilineal (figura 5.1.d) o trili-
+neal, siempre que la curva simplificada quede por debajo de la más precisa. 
+Podrán igualmente modelarse refiriéndolas a la rigidez de alguna de las barras que forman la 
+unión, mediante técnicas de condensación estática.  
+</pre>
+<figure><a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/figura/p0018.png"><img class="figura" src="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/figura/p0018.png" alt="Página 18"></a><figcaption>Imagen de la página 18 (PNG ya extraído; prevalece sobre fórmulas).</figcaption></figure>
+<h2>Tablas candidatas de esta página</h2><ul><li>Sin tabla JSON para esta página.</li></ul>
+<h2>Referencias, notas y excepciones (página y vecinas)</h2><ul><li><a href="../apartado/db-se-a-oficial-2007-10-23-9ed9ea694aab__a0039.html">4.5 · 4.5 Resistencia de cálculo</a></li><li><a href="../apartado/db-se-a-oficial-2007-10-23-9ed9ea694aab__a0043.html">5.2.3 · 5.2.3 Uniones entre elementos</a></li></ul>
+<h2>Apartados que incluyen esta página</h2><ul><li><a href="../apartado/db-se-a-oficial-2007-10-23-9ed9ea694aab__a0042.html">5.2.2 · 5.2.2 Modelos de piezas</a></li><li><a href="../apartado/db-se-a-oficial-2007-10-23-9ed9ea694aab__a0043.html">5.2.3 · 5.2.3 Uniones entre elementos</a></li></ul>
+
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

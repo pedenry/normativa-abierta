@@ -1,0 +1,63 @@
+{
+ "documento": "GUIA-PDF-39b41477de9d",
+ "code": "GUIA",
+ "title": "Ejemplo A2 B1 Sellado ventilacion de la camara sanitaria",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "2019",
+ "version_dir": "2019__fe6661055041",
+ "sha256": "fe666105504166eb540ca95d1f7591b53a4265882fc1352b75c196e67ce098ae",
+ "apartado": {
+  "id_tecnico": "a0003",
+  "ruta_oficial": "1",
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "titulo": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO"
+ },
+ "paginas": [
+  1,
+  2
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "1. DESCRIPCIÓN DEL EDIFICIO\n■\nUso: Residencial.\n■\nClasificación del municipio según el DB HS6 en fun­\nción del potencial de radón: No incluido.\n■\nSuperficie construida: 100 m2.\n■\nSuperficie en contacto con el terreno: 100 m2.\n■\nSuperficie construida bajo rasante: No.\n■\nTipo de ventilación de los locales habitables: Natu­\nral a través de huecos de ventanas.\n■\nPlantas y distribución: Una sola planta en la que se\nencuentran los locales habitables (Figura 1).\nFecha de intervención: 2019 · Coste de ejecución material:  400 €\nFigura 1 - Fachada y planta baja de la vivienda\nEfectividad\nCoste\nCoste por superficie\n47%\n400€\n4€/m2\n\n2\nEjemplo A2 + B1 • Sellado + ventilación de la cámara sanitaria\nA2+B12\nFigura 2 - Cámara sanitaria (arriba) y sección de la vivienda (abajo)",
+ "notas": [],
+ "ambito": null,
+ "referencias": [
+  "DB HS6"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0001_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0001.png",
+  "../figura/p0002.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Ejemplo_A2+B1_Sellado+ventilacion_de_la_camara_sanitaria.pdf",
+  "sha256": "fe666105504166eb540ca95d1f7591b53a4265882fc1352b75c196e67ce098ae",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": null,
+  "nivel": 1,
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

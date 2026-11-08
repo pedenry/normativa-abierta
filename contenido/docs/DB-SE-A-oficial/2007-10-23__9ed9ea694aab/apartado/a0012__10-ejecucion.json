@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0012",
+  "ruta_oficial": "10",
+  "ruta_semantica": "10 Ejecución",
+  "titulo": "10 Ejecución",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10 Ejecución",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    74.0,
+    71.8,
+    138.1,
+    85.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "52598ca803aedbc702d84d33d7ffbf1b2c1c3278a264774d9beac025a21de17f",
+   "literal": "10 Ejecución"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0010",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10 Ejecución",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10 Ejecución",
+   "seccion_estimada": "10 Ejecución",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f33408b7a30c2dfac2a1550c2999f69ea9862048f169c8e8403341f7425cf0f7"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [],
+ "texto": "10 Ejecución\n10.1 Materiales\n10.2 Operaciones de fabricación en taller\n10.3 Soldeo\n10.4 Uniones atornilladas\n10.5 Otros tipos de tornillos\n10.6 Tratamientos de protección\n10.7 Ejecución de soldeo y montaje en taller (tratamiento de protección)\n10.8 Control de fabricación en taller",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

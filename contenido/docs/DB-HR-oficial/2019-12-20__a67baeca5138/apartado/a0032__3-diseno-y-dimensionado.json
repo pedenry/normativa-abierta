@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0032",
+  "ruta_oficial": "3",
+  "ruta_semantica": "3   Diseño y dimensionado",
+  "titulo": "3   Diseño y dimensionado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3   Diseño y dimensionado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    70.9,
+    327.1,
+    250.1,
+    342.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "1f4693cac27657106f5117a52cc17f20ca4e5223e976c782b7a4a57ca3d53157",
+   "literal": "3   Diseño y dimensionado"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0004",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3   Diseño y dimensionado",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado",
+   "seccion_estimada": "3   Diseño y dimensionado",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c880c454df5e8d49b61497385653bcc08d8aff3cda184f489574f9594f498517"
+ },
+ "paginas": [
+  11
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "Documento Básico HR - Protección frente al ruido\nHR-5\ntendrán la absorción acústica suficiente de tal manera que el área de absorción acústica equivalen-\nte, A, sea al menos 0,2 m2 por cada metro cúbico del volumen del recinto.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0033"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0115",
+  "ruta_oficial": "8.3.2.2",
+  "ruta_semantica": "8.3.2.2  Carga axial (arranque)",
+  "titulo": "8.3.2.2  Carga axial (arranque)",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.3.2.2  Carga axial (arranque)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 58,
+   "bbox": [
+    70.9,
+    341.8,
+    215.4,
+    351.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "adaa3061c1948fdbc22cd23cc6ba52d170ff26bfd01b88b085c3646cf4cb886a",
+   "literal": "8.3.2.2  Carga axial (arranque)"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0127",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.2.2  Carga axial (arranque)",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / sección / Disposiciones constructivas: / 8.3.2.2  Carga axial (arranque)",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "50b2ea2524110c8dc2040e09f03c64e83130992b320cb422d941593e8ed3f48d"
+ },
+ "paginas": [
+  58,
+  59
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "8.3.2.2  Carga axial (arranque)\n1\nLos clavos utilizados para resistir esfuerzos axiales de cargas permanentes o de larga duración de-\nben ser corrugados.\n2\nNo se recomienda considerar capacidad alguna de transmisión de esfuerzos axiles en los clavos\ncolocados en la testa de la pieza.\n3\nCapacidad de carga al arranque.\na) La capacidad de carga característica al arranque de clavos introducidos perpendicular (figura\n8.8.a) u oblícuamente (figura 8.8.b) a la fibra, tomará el valor menor de los definidos en las fór-\nmulas siguientes (Las fórmulas (a) corresponden a la resistencia al arranque del clavo en la pie-\nza que recibe la punta, y las fórmulas (b) corresponden a la resistencia al hundimiento de la ca-\nbeza del clavo):\ni)\npara clavos que no sean de fuste liso  (puede verse la definición de la norma UNE-EN\n14545:2009):\n\n\n\n\n)\nb\n(\nd·\nf\n)\na\n(\nt·\nd·\nf\nF\n2\nh\nk,\nhead\npen\nk,\nax\nRk\n,\nax\n(8.39)\nii)\npara clavos de fuste liso:\n\n\n\n\n\n\n\n\n\n\n)\nb\n(\nd\nf\nt\nd\nf\n)\na\n(\nt\nd\nf\nF\n2\nh\nk\n,\nhead\nk\n,\nax\npen\nk\n,\nax\nRk\n,\nax\n(8.40)\nsiendo:\nfax,k\nresistencia característica al arranque en la pieza de la punta;\nfhead,k\nresistencia característica al hundimiento en la pieza de cabeza;\nd\ndiámetro del clavo [mm];\ntpen\nlongitud de la penetración en la pieza de punta o longitud de la parte corrugada que\nse encuentra en la pieza de punta, [mm];\nt\ngrueso de la pieza o longitud de la parte corrugada en la pieza de cabeza, [mm];\ndh\ndiámetro de la cabeza del clavo, [mm].\n\nDocumentoBásico SE-M Madera\nSE-M 53\nb) Los valores característicos, fax,k y fhead,k, para los casos no descritos a continuación, pueden de-\nterminarse de acuerdo con las normas UNE-EN 1382:2016, UNE-EN 1383:2016 y UNE-EN\n14358:2016.\nc) Los valores característicos para la resistencia de arranque y hundimiento de la cabeza del clavo,\npara clavos de fuste liso con una penetración en la pieza de punta de al menos 12·d, se definen\nen las expresiones siguientes:\n2\nk\n6\nk,\nax\n10\n20\nf\n\n\n\n\n\n(8.42)\n2\nk\n6\nk,\nhead\n10\n70\nf\n\n\n\n\n\n(8.43)\nsiendo:\nk\ndensidad característica de la madera, [kg/m3];\ndh\ndiámetro de la cabeza, [mm].\nd) En madera colocada con un contenido de humedad cercano al punto de saturación de la fibra, y\nque probablemente se secará bajo carga, los valores de fax,k y fhead,k deben multiplicarse por 2/3.\ne) En clavos corrugados sólo se considera capaz de transmitir carga axial a la parte corrugada.\nFigura 8.8, Clavado perpendicular (a) y oblicuo (b)\n4\nLongitud mínima de penetración:\na) en clavos de fuste liso la penetración en la pieza de punta tpen, debe ser al menos 8d. Si la pene-\ntración en la pieza de punta fuera inferior a 12d la capacidad de carga al arranque debe reducir-\nse por el factor (tpen/4d – 2);\nb) en clavos con corrugas o resaltes la penetración en la pieza de punta debe ser al menos 6·d. Si\nla penetración en la pieza de punta es inferior a 8d la capacidad de carga al arranque debe re-\nducirse por el factor (tpen/2d – 3).\n5\nSeparaciones y distancias mínimas:\na) las separaciones y distancias mínimas para clavos cargados axialmente serán las mismas que\npara los clavos cargados lateralmente. Para los clavos introducidos oblicuamente la distancia al\nborde cargado debe ser al menos igual a 10d, figura 8.8.b. Al menos existirán dos clavos obli-\ncuos en la unión;\nb) Los clavos colocados de forma oblícua se colocarán siempre formando pares simétricos.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0058.png",
+  "../figura/p0059.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

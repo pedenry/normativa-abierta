@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0258",
+  "ruta_oficial": "1",
+  "ruta_semantica": "1 · (pl – Ko po)",
+  "titulo": "1 · (pl – Ko po)",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1 · (pl – Ko po)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 148,
+   "bbox": [
+    116.8,
+    157.0,
+    542.5,
+    175.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b053b4cf10a48eff9e108ec06c6f3c04b65ae2a68b27443c2226d068948502ba",
+   "literal": "1 · (pl – Ko po)"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 · (pl – Ko po)",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1 · (pl – Ko po)",
+   "seccion_estimada": "1 · (pl – Ko po)",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ad986720ea70952b153556eccd13354f07826f25a60fd10af9290f7d8c1e0fb4"
+ },
+ "paginas": [
+  148
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "1 · (pl – Ko po)\n(F.38)\n4\nEl valor de f debe limitarse, en función del tipo de terreno, a los siguientes valores:\na)\nsuelos granulares\nf (máximo) = 120 kPa\nb)\nsuelos finos\nf (máximo) = 100 kPa",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0148.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0259",
+  "a0260",
+  "a0261",
+  "a0262",
+  "a0263",
+  "a0264",
+  "a0265",
+  "a0266"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

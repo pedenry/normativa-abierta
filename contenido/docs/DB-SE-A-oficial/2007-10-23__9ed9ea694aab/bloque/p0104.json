@@ -1,0 +1,233 @@
+{
+ "documento": null,
+ "pagina": 104,
+ "etiqueta_impresa": "104",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    298.2,
+    792.0,
+    335.6,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-102",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    87.6,
+    205.9,
+    291.0,
+    217.1
+   ],
+   "tipo": "texto",
+   "texto": "fallo por plastificación de la pared del cordón",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    339.4,
+    207.8,
+    507.9,
+    219.0
+   ],
+   "tipo": "texto",
+   "texto": "punzonamiento por esfuerzo cortante",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    310.6,
+    304.2,
+    536.8,
+    315.4
+   ],
+   "tipo": "texto",
+   "texto": "fallo de la barra de alma por reducción de anchura",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    405.1,
+    315.7,
+    442.3,
+    326.9
+   ],
+   "tipo": "texto",
+   "texto": "efectiva",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    79.0,
+    415.9,
+    296.9,
+    427.1
+   ],
+   "tipo": "texto",
+   "texto": "pandeo local de las paredes laterales del cordón",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    317.8,
+    412.4,
+    529.5,
+    423.6
+   ],
+   "tipo": "texto",
+   "texto": "pandeo local en cordón en la posición del nudo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    85.1,
+    512.6,
+    293.5,
+    523.8
+   ],
+   "tipo": "texto",
+   "texto": "pandeo local en barras de alma a compresión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    360.3,
+    500.4,
+    506.5,
+    523.8
+   ],
+   "tipo": "texto",
+   "texto": "fallo del cordón por cortante",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    194.3,
+    530.7,
+    423.3,
+    540.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.25 Modos de fallo. Secciones rectangulares",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    74.1,
+    554.1,
+    541.5,
+    576.7
+   ],
+   "tipo": "texto",
+   "texto": "8.9.6 Nudos soldados entre barras de alma de sección hueca y cordón de sección en doble T o\nen H",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    74.1,
+    585.0,
+    541.4,
+    619.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn los nudos de tipo separación, las resistencias de cálculo de los cordones teniendo en cuenta el\nesfuerzo cortante transmitido entre las barras de arriostramiento a los cordones deben determinar-\nse despreciando los momentos secundarios asociados, de la forma siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    98.3,
+    625.3,
+    541.0,
+    639.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "0\nM\n0\ny0\nRd\n0,\nRd\npl,\nsd\n/\n A\nf\nN\n:\n0,5\n/V\n   V\nSi\nγ\n=\n≤\n(8.84)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    98.4,
+    640.6,
+    541.0,
+    665.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "(\n)\n[\n]\n0\nM\n2\nRd\npl,\nsd\nv\n0\ny0\nRd\n0,\nRd\npl,\nsd\n/\n1\n/V\nV\nA\nA\nf\nN\n:\n1,0\n/V\n V\n0,5\nSi\nγ\n−\n−\n=\n≤\n<\n(8.85)",
+   "tamano": 14.2,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    74.1,
+    674.5,
+    541.4,
+    720.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nSiempre que la geometría de los nudos quede dentro del campo de validez indicado en la tabla 8.5\nlas resistencias de cálculo de los nudos deben determinarse aplicando las fórmulas dadas en la ta-\nbla 8.6. que corresponden a los modos de rotura por plastificación de la pared del cordón o rotura\nde barra de alma por reducción de la anchura eficaz.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    74.1,
+    726.5,
+    541.4,
+    749.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nPara los nudos que queden fuera del campo de validez dado en la tabla 8.5, habrá que realizar un\nanálisis más detallado considerando el resto de los modos de fallo posibles. Este análisis debe te-",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

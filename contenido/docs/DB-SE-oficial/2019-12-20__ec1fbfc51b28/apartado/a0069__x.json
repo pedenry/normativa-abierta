@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0069",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p35",
+  "titulo": " ",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p35",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p35",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación /  ",
+   "seccion_estimada": "Anejo C Principios de los métodos probabilistas explícito e implícito C.1 Objetivos y campo de aplicación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4dfce7dd15c7c17cccaf442738255695a84345df3de52c8a2c28b154345c4e09"
+ },
+ "paginas": [
+  35
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": " \n\n2\ni\ni\nV\n1\nln\n\n\n\nPara valores pequeños de Vi, por ejemplo\n25\n,0\nVi\n, se puede suponer:\ni\ni\n\n\n\ni\ni\nV\n\n\nC.6.3 Factores de sensibilidad según el método FORM\n1\nSi las variables aleatorias son estadísticamente independientes, los factores de sensibilidad, i, que\nse deben emplear en un análisis mediante el método FORM, tienen las siguientes propiedades:\n1\n1\ni\n\n\n\n(C.18)\n\n\n\n1\n2\ni\n(C.19)\n2\nEn principio, los valores de i se deben determinar a partir de un análisis, mediante el método\nFORM, de un conjunto representativo de obras. Este procedimiento requiere unos cálculos iterati-\nvos laboriosos, por lo que no se presta para aplicaciones prácticas. Por este motivo, la tabla C.3\ncontiene un conjunto de valores normalizados para i, basados en la experiencia.\nTabla C.3 Valores normalizados para los factores de sensibilidad i\nVariable Xi\nFactor de sensibilidad i\nResistencia\nVariable dominante de resistencia\nOtras variables de resistencia\n0,8\n0,4 · 0,8 = 0,32\nAcciones / influencias\nAcción / influencia dominante\nOtras variables relativas a acciones /\ninfluencias\n- 0,7\n- 0,4 · 0,7 = -0,28\nDebido a la adopción de unas hipótesis conservadoras, los valores indicados en la tabla C.3 no\ncumplen la condición (C.19). Con el fin de limitar los errores cometidos al aplicar estos valores, se\ndebe cumplir la siguiente condición:\n6,6\nσ\nσ\n0,16\nR1\nE1\n\n(C.20)\nsiendo\nE1\ndesviación típica de la variable correspondiente a la acción / influencia dominante\nR1\ndesviación típica de la variable dominante de resistencia.\n3\nAl efectuar un análisis estructural, no es posible saber de antemano cuál de las variables se debe\nconsiderar como dominante. A estos efectos, se deberá efectuar el análisis adoptándo como domi-\nnante cada una de las variables, con el fin de deducir según cual de ellas se rige el problema.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0035_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0035.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

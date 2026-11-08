@@ -1,0 +1,100 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0015",
+  "ruta_oficial": null,
+  "ruta_semantica": "III Criterios generales de aplicación",
+  "titulo": "III Criterios generales de aplicación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "III Criterios generales de aplicación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    70.9,
+    423.8,
+    308.5,
+    439.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "891792c666d4c2518ef39a791faedc8f6daf8896c9c06e633b18433b2d17f93d",
+   "literal": "III Criterios generales de aplicación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN",
+   "artículo 5"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "III Criterios generales de aplicación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "14 Junio 2022 / 15.7. Exigencia básica HE 6: Dotaciones mínimas para la infraestructura de recarga de vehículos / III Criterios generales de aplicación",
+   "seccion_estimada": "14 Junio 2022",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f332ec7850319df01f495a8455910b79bfda01e26a7ef0538537b5fcb0e22e54"
+ },
+ "paginas": [
+  4,
+  5
+ ],
+ "etiquetas_impresas": [
+  "4",
+  "5"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "III Criterios generales de aplicación\nPueden utilizarse otras soluciones diferentes a las contenidas en este DB, en cuyo caso deberá seguirse\nel procedimiento establecido en el artículo 5 de la Parte I del CTE, y deberá justificarse en el proyecto el\ncumplimiento del requisito básico y de las exigencias básicas.\nEl “Catálogo de Elementos Constructivos del CTE” aporta valores para determinadas características\ntécnicas exigidas en este DB. Los valores que el Catálogo asigna a soluciones constructivas que no se\nfabrican industrialmente, sino que se generan en la obra tienen garantía legal en cuanto a su aplicación\nen los proyectos, mientras que para los productos de construcción fabricados industrialmente dichos\nvalores tienen únicamente carácter genérico y orientativo.\nCuando se cita una disposición reglamentaria en este DB debe entenderse que se hace referencia a la\nversión vigente en el momento en el que se aplica el mismo. Cuando se cita una norma UNE, UNE-EN o\nUNE-EN ISO debe entenderse que se hace referencia a la versión que se indica, aun cuando exista una\nversión posterior, salvo en el caso normas armonizadas UNE-EN que sean transposición de normas EN\ncuyas referencias hayan sido publicadas en el Diario Oficial de la Unión Europea en el marco de la\naplicación del Reglamento (UE) nº 305/2011 del Parlamento Europeo y del Consejo, de 9 de marzo de\n2011, por el que se establecen condiciones armonizadas para la comercialización de productos de\nconstrucción y se deroga la Directiva89/106/CEE del Consejo, en cuyo caso la cita se deberá relacionar\ncon la última Comunicación de la Comisión que incluya dicha referencia. En el caso de normas de métodos\nde ensayo referenciadas en las normas armonizadas, debe aplicarse la versión incluida en las normas\narmonizadas UNE-EN citadas anteriormente.\nLas normas recogidas en este DB podrán ser sustituidas por otras de las utilizadas en cualquiera de los\nEstados miembros de la Unión Europea, o que sean parte del Acuerdo sobre el Espacio Económico\nEuropeo, y en aquellos Estados que tengan un acuerdo de asociación aduanera con la Unión Europea,\nsiempre que se demuestre que poseen especificaciones técnicas equivalentes.\n\nDocumento Básico HE Ahorro de energía\nINTRODUCCIÓN\n5",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN",
+  "artículo 5"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": null,
+   "titulo": "VI Términos y definiciones",
+   "archivo_json": "a0018__vi-terminos-y-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0004.png",
+  "../figura/p0005.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0077",
+  "ruta_oficial": "7.1.3",
+  "ruta_semantica": "7.1.3 Relleno de juntas",
+  "titulo": "7.1.3 Relleno de juntas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.1.3 Relleno de juntas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    70.9,
+    333.2,
+    184.3,
+    343.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6496270c1e9128d11732b21b93631a59a646e0c8265571b8a9f12bb606ebae03",
+   "literal": "7.1.3 Relleno de juntas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0081",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.1.3 Relleno de juntas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.1.3 Relleno de juntas",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "116b13d0deff151f1e5adc05f4542b3126726e04c9e5659d109fe870e50f469a"
+ },
+ "paginas": [
+  39
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "7.1.3 Relleno de juntas\n1\nUna llaga se considera llena si el mortero maciza el grueso total de la pieza en al menos el 40% de\nsu tizón; se considera hueca en caso contrario.\n2\nEl mortero debe llenar totalmente las juntas de tendel (salvo caso tendel hueco) y llagas, en función\ndel tipo de pieza utilizado.\n3\nCuando se especifique la utilización de juntas delgadas, las piezas se asentarán cuidadosamente\npara que las juntas mantengan el espesor establecido de manera uniforme.\n4\nEl llagueado en su caso, se realizará mientras el mortero esté fresco.\n5\nSin autorización expresa, en muros de espesor menor que 200 mm, las juntas no se rehundirán en\nuna profundidad mayor que 5 mm.\n6\nDe procederse al rejuntado, el mortero tendrá las mismas propiedades que el de asentar las piezas.\nAntes del rejuntado, se cepillará el material suelto, y si es necesario, se humedecerá la fábrica.\nCuando se rasque la junta se tendrá cuidado en dejar la distancia suficiente entre cualquier hueco\ninterior y la cara del mortero.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

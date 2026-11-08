@@ -1,0 +1,81 @@
+{
+ "documento": "RD-314-2006-oficial",
+ "code": "RD-314-2006",
+ "title": "Real Decreto 314/2006: aprobación y Parte I del CTE",
+ "capa": "oficial",
+ "scope": "Marco legal y Parte I",
+ "version": "2022-06-15",
+ "version_dir": "2022-06-15__298090e145f5",
+ "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+ "apartado": {
+  "id_tecnico": "a0057",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Fragmento de PDF p21",
+  "titulo": "1. Las obras de edificación dispondrán de una documentación de seguimiento que se",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p21",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p21",
+  "referencias_filtradas": [
+   "Real Decreto\n1627/1997"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "1. Las obras de edificación dispondrán de una documentación de seguimiento que se",
+   "seccion_estimada": "1. Las obras de edificación dispondrán de una documentación de seguimiento que se",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "b80bf151f58721d6f90185871b9ed6d72361da782b36aec7796a7e3b83cda154"
+ },
+ "paginas": [
+  21
+ ],
+ "etiquetas_impresas": [
+  "21"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "1. Las obras de edificación dispondrán de una documentación de seguimiento que se\ncompondrá, al menos, de:\na) El Libro de Órdenes y Asistencias de acuerdo con lo previsto en el Decreto 462/1971,\nde 11 de marzo.\nb) El Libro de Incidencias en materia de seguridad y salud, según el Real Decreto\n1627/1997, de 24 de octubre.\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 21",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto\n1627/1997"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0021_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0021.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515",
+  "sha256": "298090e145f5558aceae49702b2ce132fe8fe8671bd87d650217c6a24bdd65ba",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0058"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

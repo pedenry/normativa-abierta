@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0033",
+  "ruta_oficial": "2.3",
+  "ruta_semantica": "2.3  Ruido y vibraciones de las instalaciones",
+  "titulo": "2.3  Ruido y vibraciones de las instalaciones",
+  "nivel": 1,
+  "parent_id": "a0032",
+  "seccion_estimada": "2.3  Ruido y vibraciones de las instalaciones",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    70.9,
+    111.3,
+    328.5,
+    124.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1f4693cac27657106f5117a52cc17f20ca4e5223e976c782b7a4a57ca3d53157",
+   "literal": "2.3  Ruido y vibraciones de las instalaciones"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0032",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3  Ruido y vibraciones de las instalaciones",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0032",
+   "ruta_semantica": "3   Diseño y dimensionado / 2.3  Ruido y vibraciones de las instalaciones",
+   "seccion_estimada": "3   Diseño y dimensionado",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4b67e40fe2a5afb83b177f3c2cfa8f50ae94c1a5bdcccbf5d1c1581f117d2762"
+ },
+ "paginas": [
+  11
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "2.3  Ruido y vibraciones de las instalaciones\n1\nSe limitarán los niveles de ruido y de vibraciones que las instalaciones puedan transmitir a los recin-\ntos protegidos y habitables del edificio a través de las sujeciones o puntos de contacto de aquellas\ncon los elementos constructivos, de tal forma que no se aumenten perceptiblemente los niveles de-\nbidos a las restantes fuentes de ruido del edificio.\n2\nEl nivel de potencia acústica máximo de los equipos generadores de ruido estacionario (como los\nquemadores, las calderas, las bombas de impulsión, la maquinaria de los ascensores, los compre-\nsores, grupos electrógenos, extractores, etc) situados en recintos de instalaciones, así como las re-\njillas y difusores terminales de instalaciones de aire acondicionado, será tal que se cumplan los ni-\nveles de inmisión en los recintos colindantes, expresados en el desarrollo reglamentario de la Ley\n37/2003 del Ruido.\n3\nEl nivel de potencia acústica máximo de los equipos situados en cubiertas y zonas exteriores\nanejas, será tal que en el entorno del equipo y en los recintos habitables y protegidos no se superen\nlos objetivos de calidad acústica correspondientes.\n4\nAdemás se tendrán en cuenta las especificaciones de los apartados 3.3, 3.1.4.1.2, 3.1.4.2.2 y 5.1.4.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

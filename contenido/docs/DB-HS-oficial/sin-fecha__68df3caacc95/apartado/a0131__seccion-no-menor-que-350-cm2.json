@@ -1,0 +1,74 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0131",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p55",
+  "titulo": "sección no menor que 350 cm2.",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p55",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p55",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva / sección no menor que 350 cm2.",
+   "seccion_estimada": "2 Diseño y dimensionado 2.1 Almacén de contenedores de edificio y espacio de reserva",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "85cc5c1934c84cc20d5a2648e685185c841de2ed7e4e41487554424b09667491"
+ },
+ "paginas": [
+  55
+ ],
+ "etiquetas_impresas": [
+  "55"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "sección no menor que 350 cm2.\n7\nEl extremo superior de la bajante en los sistemas de traslado por gravedad y del conducto de venti-\nlación en los sistemas neumáticos deben desembocar en un espacio exterior adecuado de tal ma-\nnera que (véase la figura 2.2) el tramo exterior sobre la cubierta tenga una altura de 1 m como mí-\nnimo y supere las siguientes alturas en función de su emplazamiento:\na)\nla altura de cualquier obstáculo que esté a una distancia comprendida entre 2 y 10 m;\nb)\n1,3 veces la altura de cualquier obstáculo que esté a una distancia menor o igual que 2 m.\nFigura 2.2 Ejemplos de altura libre del extremo superior de la bajante sobre la cubierta\n8\nEn el extremo inferior de la bajante en los sistemas de traslado por gravedad debe disponerse una\ncompuerta de cierre y un sistema que impida que, como consecuencia de la acumulación de los re-\nsiduos en el tramo de la bajante inmediatamente superior a la compuerta de cierre, los residuos al-\ncancen la compuerta de vertido más baja.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0055.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0132",
+  "a0133"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

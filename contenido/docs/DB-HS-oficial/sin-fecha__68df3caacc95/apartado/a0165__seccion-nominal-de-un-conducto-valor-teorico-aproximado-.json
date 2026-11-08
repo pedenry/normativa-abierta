@@ -1,0 +1,71 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0165",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p77",
+  "titulo": "Sección nominal (de un conducto): valor teórico aproximado al valor real del área libre de la sección",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p77",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p77",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Apéndice A Terminología / Sección nominal (de un conducto): valor teórico aproximado al valor real del área libre de la sección",
+   "seccion_estimada": "Apéndice A Terminología",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ed64f22c81da047f6f11ce42cc3568a6bfe3e6c813ce67a4541fe053658fbb04"
+ },
+ "paginas": [
+  77,
+  78,
+  79
+ ],
+ "etiquetas_impresas": [
+  "77",
+  "78",
+  "79"
+ ],
+ "tipos": [],
+ "texto": "Sección nominal (de un conducto): valor teórico aproximado al valor real del área libre de la sección\nrecta de un conducto que se toma como representativo del mismo.\nSistema de detección de monóxido de carbono: sistema automático de vigilancia de la concentración\nde monóxido de carbono existente en un local. Se utiliza para poner en funcionamiento los aspiradores\nmecánicos del sistema de ventilación cuando se alcanzan los valores de la concentración considerados\ninadecuados o peligrosos.\nTemperatura de rocío: temperatura hasta la que debe ser enfriado el aire contenido en un local para\nque se inicie la condensación del vapor de agua debido a que se alcanza la saturación.\nTiro: movimiento ascendente del aire entre dos puntos producido por la diferencia de temperatura exis-\ntente entre ellos.\nVentilación de caudal constante: aquella en la que se mantiene el valor del caudal de ventilación en el\ntiempo, independientemente de la ocupación, uso u otros factores.\nVentilación de caudal variable: aquella en la que se modifica el valor del caudal de ventilación en el\ntiempo en función de la ocupación, uso u otros factores.\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n78\nVentilación mecánica: ventilación en la que la renovación del aire se produce por el funcionamiento de\naparatos electro-mecánicos dispuestos al efecto. Puede ser con admisión mecánica, con extracción me-\ncánica o equilibrada.\nVentilación híbrida: ventilación en la que, cuando las condiciones de presión y temperatura ambientales\nson favorables, la renovación del aire se produce como en la ventilación natural y, cuando son desfavo-\nrables, como en la ventilación con extracción mecánica.\nVentilación natural: ventilación en la que la renovación del aire se produce exclusivamente por la ac-\nción del viento o por la existencia de un gradiente de temperaturas entre el punto de entrada y el de sali-\nda.\nVentilación: proceso de renovación del aire de los locales para limitar el deterioro de su calidad, desde\nel punto de vista de su composición, que se realiza mediante entrada de aire exterior y evacuación de\naire viciado.\nVentilador: aparato electromecánico dotado de un motor y de un conjunto de aspas o de álabes accio-\nnados por él que se utiliza para extraer o impulsar el aire.\nZona térmica: zona geográfica que engloba todos los puntos en los que la temperatura media anual,\nTm, está comprendida dentro del mismo intervalo de los siguientes:\nzona W: Tm  14ºC\nzona X: 14ºC  Tm  16ºC\nzona Y: 16ºC  Tm  18ºC\nzona Z: 18ºC  Tm\n\nDocumento Básico HS Salubridad\nHS 3 Calidad del aire interior\n79",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

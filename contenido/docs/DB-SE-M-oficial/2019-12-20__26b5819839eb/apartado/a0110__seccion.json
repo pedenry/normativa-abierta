@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0110",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p54",
+  "titulo": "sección",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p54",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p54",
+  "referencias_filtradas": [
+   "apartado 8.3.1"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / sección",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "27eaac207eba8cfaf30ad09b13342f9f569202aaeddd1362b64407bbf1251127"
+ },
+ "paginas": [
+  54,
+  55
+ ],
+ "etiquetas_impresas": [
+  "7",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "sección\nde\nclavos\npara\nd\n180\n600\nf\nM\n6\n,2\nu\nRk\n,y\n\n\n\n(8.29)\ncuadrada\nsección\nde\nclavos\npara\nd\n270\n600\nf\nM\n6\n,2\nu\nRk\n,y\n\n\n\n(8.30)\nsiendo:\nMy,Rk\nvalor característico del momento plástico, [N·mm];\nd\ndiámetro o lado de la sección del clavo, [mm];\nfu\nresistencia característica a tracción del alambre, [N/mm2].\n5\nEn clavos introducidos con taladro previo, la separación a1 (véase figura 8.7) puede reducirse hasta\nun mínimo de 4·d, si la capacidad de carga se reduce por el factor siguiente:\n\nd\ncos\n3\n4\na\nk\n1\nr\n\n\n\n\n\n(8.31)\nEn uniones con clavos alineados con la dirección de la fibra y sometidos a una componente de la\nfuerza paralela a la fibra, a no ser que los clavos de esa fila estén colocados al tresbolillo con un des-\nfase de al menos -1·d- (véase figura 8.5), la capacidad de carga debe calcularse tomando como nú-\nmero eficaz de clavos el siguiente:\n\nDocumentoBásico SE-M Madera\nSE-M 49\nef\nk\nef\nn\nn\n\n(8.32)\nsiendo:\nnef\nnúmero eficaz de clavos alineados con la carga y la fibra;\nn\nnúmero de clavos alineados;\nkef\nfactor definido en la tabla 8.1.\nTabla 8.1 Valores de kef.\nSeparación\nkef\nSin pretaladro\nCon pretaladro\na1 14·d\n1,00\n1,00\na1 = 10·d\n0,85\n0,85\na1 = 7·d\n0,70\n0,70\na1 = 4·d\n-\n0,50\nPara separaciones intermedias se admite una interpolación lineal de kef.\nFigura 8.5 Clavos en una fila paralela a la fibra desplazados transversalmente una dimensión igual a d.\n6\nCuando la fuerza se ejerza con un ángulo respecto a la dirección de la fibra debe verificarse que la\ncomponente de la fuerza paralela a la fibra es menor o igual a la capacidad de carga calculada de\nacuerdo con el apartado 8.3.1.\n7\nEl número mínimo de clavos en una unión será de 2.\n8",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.3.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0055_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0054.png",
+  "../figura/p0055.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0111",
+  "a0117",
+  "a0118",
+  "a0120",
+  "a0125",
+  "a0126"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

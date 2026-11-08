@@ -1,0 +1,83 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0093",
+  "ruta_oficial": "ANEJO-I",
+  "ruta_semantica": "ANEJO I. CONTENIDO DEL PROYECTO",
+  "titulo": "ANEJO I. CONTENIDO DEL PROYECTO",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "ANEJO I. CONTENIDO DEL PROYECTO",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 17,
+   "bbox": [
+    71.4,
+    85.2,
+    551.9,
+    358.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "d291be1d2daacd2e2693807ed17b532491fdf698c8e09f554d58f0d8575a619f",
+   "literal": "ANEJO I. CONTENIDO DEL PROYECTO"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0059",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "ANEJO I. CONTENIDO DEL PROYECTO",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "ANEJO I. CONTENIDO DEL PROYECTO",
+   "seccion_estimada": "ANEJO I. CONTENIDO DEL PROYECTO",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ff6b431a24c64db90a70364122cac02e416c1755887b7624d4ad17e970e74a14"
+ },
+ "paginas": [
+  17
+ ],
+ "etiquetas_impresas": [
+  "17"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "ANEJO I. CONTENIDO DEL PROYECTO\n1. En este anejo se relacionan los contenidos del proyecto de edificación, sin perjuicio de lo que, en su\ncaso, establezcan las Administraciones competentes.\n2. Los marcados con asterisco (*) son los que, al menos, debe contener el Proyecto Básico.\n3. Cuando el proyecto se desarrolle o complete mediante proyectos parciales u otros documentos técni-\ncos, en la memoria del proyecto se hará referencia a éstos y a su contenido, y se integrarán en el pro-\nyecto por el proyectista, bajo su coordinación, como documentos diferenciados de tal forma que no se\nproduzca duplicidad de los mismos, ni en los honorarios a percibir por los autores de los distintos tra-\nbajos.\nContenido del proyecto\nObservaciones\nI. Memoria",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0017.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

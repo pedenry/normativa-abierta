@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0198",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo SI E Resistencia al fuego de las estructuras de madera / E.2.2 Profundidad carbonizada",
+  "titulo": "E.2.2 Profundidad carbonizada",
+  "nivel": 3,
+  "parent_id": "a0195",
+  "seccion_estimada": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 74,
+   "bbox": [
+    70.9,
+    350.8,
+    253.7,
+    364.1
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "4c752a58026e13254e02cfd47704397fc7384f91618a38240bd24394dddcec7c",
+   "literal": "E.2.2 Profundidad carbonizada"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0129",
+  "parent_id_original": "a0195",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.2.2 Profundidad carbonizada",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0195",
+   "ruta_semantica": "Anejo SI E Resistencia al fuego de las estructuras de madera / E.2.2 Profundidad carbonizada",
+   "seccion_estimada": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6998f8b781a2de54b2439442a16574113bdc56675ba7ae0e726bfc461c86b2e9"
+ },
+ "paginas": [
+  74
+ ],
+ "etiquetas_impresas": [
+  "74"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "E.2.2 Profundidad carbonizada\n1\nSe considerará que se produce carbonización en todas las superficies de madera o de productos\nderivados de la madera expuestos al fuego y, en el caso de elementos protegidos, cuando ésta se\ninicie durante el tiempo de exposición al fuego especificado.\n2\nLa profundidad carbonizada nominal de cálculo en una dirección, dchar,n, entendida como la distancia\nentre la superficie exterior de la sección inicial y la línea que define el frente de carbonización para\nun tiempo de exposición al fuego determinado, que incluye el efecto del redondeo de las aristas, se\ndetermina según la expresión siguiente:\nt\n=\nd\nn\nn,\nchar\n\n(E.2)\nsiendo:\nßn velocidad de carbonización nominal. Se determinará de acuerdo con E.2.3;\nt\ntiempo de exposición al fuego.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0074_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0074.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

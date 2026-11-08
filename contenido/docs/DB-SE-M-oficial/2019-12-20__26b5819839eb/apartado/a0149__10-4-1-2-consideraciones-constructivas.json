@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0149",
+  "ruta_oficial": "10.4.1.2",
+  "ruta_semantica": "10.4.1.2  Consideraciones constructivas",
+  "titulo": "10.4.1.2  Consideraciones constructivas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "10.4.1.2  Consideraciones constructivas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 87,
+   "bbox": [
+    70.9,
+    296.8,
+    263.6,
+    306.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "37a478e3b71e1d82adf1ac06ebbdd3246037903430103bd76ecec7c74bb24020",
+   "literal": "10.4.1.2  Consideraciones constructivas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0173",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "10.4.1.2  Consideraciones constructivas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas / 10.4  Diafragmas 10.4.1  Diafragmas de forjados y cubiertas / 10.4.1.2  Consideraciones constructivas",
+   "seccion_estimada": "10  Sistemas estructurales de madera y productos derivados 10.1  Vigas mixtas",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ff5e4a0c4611a5e487c6066a5e405795c13223186e52e6373e48b6b0a0c5c1de"
+ },
+ "paginas": [
+  87
+ ],
+ "etiquetas_impresas": [
+  "1"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "10.4.1.2  Consideraciones constructivas\n1\nLa aplicación del método simplificado de cálculo requiere que aquellos tableros que no estén sopor-\ntados por viguetas o pares de cerchas se conecten unos a otros utilizando listones/cubrejuntas que\npermitan la fijación resistente del tablero en dicho borde (véase figura 10.6). Deben utilizarse clavos\nanillados, clavos corrugados o tirafondos con una separación máxima de 150 mm a lo largo de los\nbordes del tablero. En las líneas internas el espaciamiento máximo no será superior a 300 mm.\nfigura 10.6 Ejemplos de uniones entre tableros y montantes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0087.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

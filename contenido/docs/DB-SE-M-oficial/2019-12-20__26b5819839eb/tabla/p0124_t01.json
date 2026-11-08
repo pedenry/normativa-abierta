@@ -1,0 +1,107 @@
+{
+ "indice": 1,
+ "pagina": 124,
+ "etiqueta_impresa": null,
+ "bbox": [
+  66.7,
+  105.7,
+  542.2,
+  762.7
+ ],
+ "filas": 4,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "2",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Pilar en voladizo\nE·I·2\n 4\nh·C\n\nC Coeficiente de muelle",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "3",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "Entramado\nPara la columna, r:\n54 (E·I) ·(1)\n   \nr 12 h ·C\nr ,r\nsiendo:\nh N\n r· i\nN h\nr i",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "4",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "Arco biarticulado o triarticulado de sección cons-\ntante.\nl =·s para 0,15  h/l  0,50\nk\nsiendo:\n=1,25\n(forma modal antimétrica de pandeo)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "5",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "Pilar\nPórtico a dos aguas triarticulado\nl = ·h (  15º)\nk S\n42EI S 1 s  EI S·N Rs2\n  \nS h  C  3EI R  EI R·N Sh2\nDintel\nl = ·s (  15º)\nk R\nh I ·N\n  R S\nR ss I ·N\nS R\nN axil en el dintel.\nR\nN axil en la columna\nS\n(forma modal antimétrica de pandeo)",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "2",
+  "Pilar en voladizo\nE·I·2\n 4\nh·C\n\nC Coeficiente de muelle"
+ ],
+ "header": {
+  "names": [
+   "",
+   "Sistema estructural Coeficientes "
+  ],
+  "external": true
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95AF00>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95BA70>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95BA10>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95A540>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95A840>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95AE10>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95BE30>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB95AFC0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0124.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0075",
+  "ruta_oficial": "7.1.1",
+  "ruta_semantica": "7.1.1 Humectación de las piezas",
+  "titulo": "7.1.1 Humectación de las piezas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.1.1 Humectación de las piezas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    70.9,
+    142.3,
+    228.7,
+    152.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6496270c1e9128d11732b21b93631a59a646e0c8265571b8a9f12bb606ebae03",
+   "literal": "7.1.1 Humectación de las piezas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0079",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.1.1 Humectación de las piezas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.1.1 Humectación de las piezas",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f8f10060c894efef605c3318ac24d3a795f47673176134dd8182aabbf6dd8425"
+ },
+ "paginas": [
+  39
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "7.1.1 Humectación de las piezas\n1\nLas piezas, fundamentalmente las de cerámica (exceptuando los ladrillos completamente hidrofuga-\ndos y aquellos que tienen una succión inferior a 0,10 gr/cm2 min) se humedecerán antes de la ejecu-\nción de la fábrica, por aspersión o por inmersión. La cantidad de agua embebida en la pieza debe ser\nla necesaria para que al ponerla en contacto con el mortero no haga cambiar la consistencia de este,\nes decir, para que la pieza ni absorba agua, ni la aporte.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

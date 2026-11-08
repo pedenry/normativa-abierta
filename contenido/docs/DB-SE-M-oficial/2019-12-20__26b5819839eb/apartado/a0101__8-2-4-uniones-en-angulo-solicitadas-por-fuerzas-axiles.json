@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0101",
+  "ruta_oficial": "8.2.4",
+  "ruta_semantica": "8.2.4  Uniones en ángulo solicitadas por fuerzas axiles",
+  "titulo": "8.2.4  Uniones en ángulo solicitadas por fuerzas axiles",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.2.4  Uniones en ángulo solicitadas por fuerzas axiles",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 49,
+   "bbox": [
+    70.9,
+    565.0,
+    332.7,
+    574.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "7fd763d182f635428acfa6a414dddfa3420596cb3f89739a48242178dc71354e",
+   "literal": "8.2.4  Uniones en ángulo solicitadas por fuerzas axiles"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0115",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.2.4  Uniones en ángulo solicitadas por fuerzas axiles",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / 8.2  Principios generales del cálculo de uniones 8.2.1  Capacidad de carga / 8.2.4  Uniones en ángulo solicitadas por fuerzas axiles",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ff6ad7421969da088dbead8bde19aef2d1f78dff80fccda4756b26cc808c9e09"
+ },
+ "paginas": [
+  49,
+  50
+ ],
+ "etiquetas_impresas": [
+  null,
+  "3"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.2.4  Uniones en ángulo solicitadas por fuerzas axiles\n1\nEn estas uniones, y debido a que la fuerza actúa con un ángulo  con respecto a la dirección de la\nfibra en una de las piezas, debe tenerse en cuenta el efecto de hienda debido a las tensiones provo-\ncadas por una componente (Fd·sen , perpendicular a la fibra, (véase figura 8.1).\n2\nEn este caso debe cumplirse la siguiente condición:\nRd\n,\n90\nEd\n,v\nF\nF\n\n(8.1)\nsiendo:\n\n\n\n\n\n\n\n2\n,\nEd\n,\nv\n1,\nEd\n,\nv\nEd\n,v\nF\nF\nmax\nF\n(8.2)\ndonde:\nFv,Ed,1, Fv,Ed,2\nvalores de cálculo de los esfuerzos cortantes a cada lado de la unión (figura 8.1);\nF90,Rd\nvalor de cálculo frente a la hienda, calculada a partir de su valor característico, F90,Rk,\nsegún ecuación (8.3).\n\nDocumentoBásico SE-M Madera\nSE-M 44\n3\nEn coníferas y chopo, la capacidad de carga característica frente a la hienda para la disposición de\nla figura 8.1, viene definida por la siguiente expresión:\n\n\n\n\n\n\n\n\n\n\nh\nh\n1\nh\nw\nb\n14\nF\ne\ne\nRk\n,\n90\n(8.3)\nsiendo:\n\n\n\n\n\n\n\n\n\n\n\n\n\nresto\nel\npara\n1\ndentadas\nplacas\npara\n1\n100\nw\nw\n35\n,\n0\npl\n(8.4)\ndonde:\nF90,Rk   valor característico de la capacidad de carga frente a la hienda,  [N];\nhe\ndistancia desde el borde cargado de la pieza central hasta el eje del elemento mecánico de\nfijación más alejado; [mm];\nb\nespesor de la pieza central, [mm];\nh\ncanto de la pieza central, [mm];\nw\nfactor de modificación;\nwpl\nancho de la placa dentada en dirección paralela a la fibra, [mm].\nFigura 8.1 Fuerza oblicua transmitida en una unión.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0049.png",
+  "../figura/p0050.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

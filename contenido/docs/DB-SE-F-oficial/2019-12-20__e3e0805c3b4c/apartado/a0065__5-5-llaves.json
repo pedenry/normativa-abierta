@@ -1,0 +1,84 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0065",
+  "ruta_oficial": "5.5",
+  "ruta_semantica": "5.5 Llaves",
+  "titulo": "5.5 Llaves",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.5 Llaves",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 30,
+   "bbox": [
+    70.9,
+    72.7,
+    135.0,
+    84.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0b3c05f15e6c38ba4ee35b073411d8ddba31c1b442d1774d7726a2023587ca23",
+   "literal": "5.5 Llaves"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0065",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.5 Llaves",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. / 5.5 Llaves",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "db6b4e3236acb4135b8af34eae63b587cb607ed5a930a1aa253b2cb89f617771"
+ },
+ "paginas": [
+  30
+ ],
+ "etiquetas_impresas": [
+  "18"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.5 Llaves\n1\nEn los muros capuchinos, sometidos a acciones laterales, se dispondrán llaves que sean capaces de\ntrasladar la acción horizontal de una hoja a otra y capaces de transmitirla a los extremos.\n2\nEs suficiente un número de llaves igual a:\nn = qd / Fd\n(5.34)\nsiendo:\nqd\nel valor de cálculo de la acción lateral por unidad de superficie\nFd\nla resistencia de cálculo a compresión o tracción de una llave, que se especificará en proyecto.\n3\nEn un muro capuchino, la acción que se transmite a cada hoja, se determinará distribuyendo la acción\ndel viento de forma proporcional a la resistencia a carga lateral que ofrece cada hoja.\n4\nEn un muro de revestimiento se considerará que las llaves transmiten toda la acción lateral qd al muro\nportante.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0030.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0154",
+  "ruta_oficial": "ANEJO-C",
+  "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "titulo": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 57,
+   "bbox": [
+    70.9,
+    71.2,
+    537.8,
+    86.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "2b65461d65916c9f1b9471764efc5b2b1e4fdd5ab053703e9e6a86bf4db8ed53",
+   "literal": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0100",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a3474f86b4468d76bc3c987069088c0062fba5a556b6d5de0b3e982e33b9060f"
+ },
+ "paginas": [
+  57
+ ],
+ "etiquetas_impresas": [
+  "57"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado\n57\nAnejo C. Resistencia al fuego de las estructuras de hormigón armado C.1  Generalidades\nC.1  Generalidades\nEn este anejo se establecen métodos simplificados y tablas que permiten determinar la resistencia de los\nelementos de hormigón ante la acción representada por la curva normalizada tiempo-temperatura.\nLos elementos estructurales deben diseñarse de forma que, ante el desconchado (spalling) del hormi-\ngón, el fallo por anclaje o por pérdida de capacidad de giro tenga una menor probabilidad de aparición\nque el fallo por flexión, por esfuerzo cortante o por cargas axiles.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0057.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0155",
+  "a0156",
+  "a0157",
+  "a0158"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

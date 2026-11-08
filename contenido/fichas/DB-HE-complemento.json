@@ -1,0 +1,30 @@
+{
+ "id": "DB-HE-complemento",
+ "codigo": "DB-HE",
+ "titulo": "DB-HE Climas referencia",
+ "capa": "complemento",
+ "scope": "Ahorro de energía",
+ "url": "https://www.codigotecnico.org/pdf/Documentos/HE/20170202-DOC-DB-HE-0-Climas de referencia.pdf",
+ "landing": "https://www.codigotecnico.org/DocumentosCTE/AhorroEnergia.html",
+ "version_label_literal": "Ministerio de Fomento\nSecretaría de Estado de Infraestructuras, Transporte y Vivienda\nDirección General de Arquitectura, Vivienda y Suelo\nDocumento descriptivo climas de referencia\nFEBRERO 2017\nÍndice\n1\nObjeto\n1\n2\nClima de referencia\n1\n3\nClimas de referencia en soporte informático\n1\n3.1\nEl formato .MET . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n1\n3.2\nParámetros normativos\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n2\n3.3\nOtros parámetros no normativos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n2\nApéndice A Correlaciones de validez contrastada\n4\nA.1 Temperatura de rocío\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n4\nA.2 Temperatura efectiva del cielo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n4\nA.3 Humedad especíﬁca . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n4\nApéndice B Correlaciones de severidades climáticas estacionales y deﬁnición de zonas climáticas\n6\nB.1\nSeveridad climática de invierno . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n6\nB.2\nSeveridad climática de verano\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n6\nB.3\nDeﬁnición de zonas climáticas\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n6\n1.\nObjeto\nEste documento describe los parámetros que caracterizan los climas de referencia del DB HE, las correla-\nciones que se han establecido para determinar las severidades climáticas estacionales y los intervalos de\nseveridades climáticas considerados para deﬁnir los climas de referencia del DB HE.\n2.\nClima de referencia\nEl clima de referencia deﬁne las solicitaciones exteriores de cálculo para un año tipo a través de una serie de\nparámetros (temperatura, humedad, radiación solar. . . ), representativos de una zona climática.\n3.\nClimas de referencia en soporte informático\n3.1.\nEl formato .MET\nLos datos climáticos correspondientes a los climas de referencia se publican en formato .MET.\nEste formato se estructura en líneas de texto con campos separados por espacios y su organización es la\nsiguiente:\n1. Primera línea con una cadena de texto identiﬁcativa del archivo de datos.\n2. Segunda línea con datos de: latitud, longitud, altitud y longitud de referencia para el cálculo de la hora\noﬁcial.\n3. Siguen 8760 líneas con datos horarios formados por los campos siguientes:\na) Mes (1 a 12);\nVersión 2.0 / febrero 2017\nPágina 1 de 7",
+ "version": "2017-02",
+ "version_dir": "2017-02__95b6610eee28",
+ "version_detectada": {
+  "corta": "2017-02",
+  "dir": "2017-02__95b6610eee28",
+  "tipo": "mes/año",
+  "literal": "FEBRERO 2017",
+  "fuente": "cover_text(mes/año)",
+  "nota": "fecha detectada en texto literal; conservar portada"
+ },
+ "version_fuente": "cover_text(mes/año)",
+ "sha256": "95b6610eee2860aca0ebc4c29dfa4b30fc74b3821f79d7771dc6f24e1956c55d",
+ "distribute": false,
+ "license_status": "permiso redistribucion pendiente; solo ficha",
+ "license_evidence": null,
+ "creditos": null,
+ "normativo": false,
+ "relacionado": "DB-HE-oficial",
+ "motivo": "licencia de redistribución no aclarada; solo ficha/enlace y procesado local",
+ "estado": "preparado_local_privado"
+}

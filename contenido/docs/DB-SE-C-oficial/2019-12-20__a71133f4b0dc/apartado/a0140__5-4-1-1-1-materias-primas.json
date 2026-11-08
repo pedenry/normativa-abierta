@@ -1,0 +1,123 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0140",
+  "ruta_oficial": "5.4.1.1.1",
+  "ruta_semantica": "5.4.1.1.1 Materias primas",
+  "titulo": "5.4.1.1.1 Materias primas",
+  "nivel": 1,
+  "parent_id": "a0139",
+  "seccion_estimada": "5.4.1.1.1 Materias primas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 60,
+   "bbox": [
+    70.9,
+    272.9,
+    191.5,
+    282.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d04471b5a66c8128dfe5f15adf38e05944e258911e82e5bda5621271f0996721",
+   "literal": "5.4.1.1.1 Materias primas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0162",
+  "parent_id_original": "a0139",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4.1.1.1 Materias primas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0139",
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Condiciones constructivas y de control 5.4.1 Condiciones constructivas / 5.4.1.1 Pilotes hormigonados “in situ” / 5.4.1.1.1 Materias primas",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "41a813ce0a8a64ab7d6d637c324d3957b03e323f0c97c768f7adac2297faba41"
+ },
+ "paginas": [
+  60,
+  61
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.4.1.1.1 Materias primas\n1\nTanto las materias primas como la dosificación de los hormigones, se ajustarán a lo indicado en la\nInstrucción de Hormigón Estructural EHE.\na)\nAgua\nEl agua para la mezcla debe cumplir lo expuesto en la Instrucción EHE, de forma que no pue-\nda afectar a los materiales constituyentes del elemento a construir.\nb)\nCemento\nEl cemento a utilizar en el hormigón de los pilotes se ajustará a los tipos definidos en la vigente\ninstrucción para la recepción de cemento. Pueden emplearse otros cementos cuando se espe-\ncifiquen y tengan una eficacia probada en condiciones determinadas.\nNo se recomienda la utilización de cementos de gran finura de molido y el alto calor de hidra-\ntación, debido a altas dosificaciones a emplear. No será recomendable el empleo de cementos\nde aluminato de calcio, siendo preferible el uso de cementos con adiciones (tipo II), porque se\nha manifestado que éstas mejoran la trabajabilidad y la durabilidad, reduciendo la generación\nde calor durante el curado.\nEn el caso de que el nivel de agresividad sea muy elevado, se emplearán cementos con la ca-\nracterística especial de resistencia a sulfatos o agua de mar (SR/MR)\nc)\nÁridos\nLos áridos cumplirán las especificaciones contenidas en el artículo 28º de la Instrucción de\nHormigón Estructural EHE.\nA fin de evitar la segregación, la granulometría de los áridos será continua. Es preferible el\nempleo de áridos redondeados cuando la colocación del hormigón se realice mediante tubo\nTremie.\nEl tamaño máximo del árido se limitará a treinta y dos milímetros (32 mm), o a un cuarto (1/4)\nde la separación entre redondos longitudinales, eligiéndose la menor en ambas dimensiones.\nEn condiciones normales se utilizarán preferiblemente tamaños máximos de árido de veinticin-\nco milímetros (25 mm), si es rodado, y de veinte milímetros (20 mm), si procede de macha-\nqueo.\nd)\nAditivos\nPara conseguir las propiedades necesarias para la puesta en obra del hormigón, se podrán uti-\nlizar con gran cuidado reductores de agua y plastificantes, incluidos los superplastificantes,\ncon el fin de evitar el rezume o segregación que podría resultar por una elevada proporción de\nagua.\nSe limitará, en general, la utilización de aditivos de tipo superfluidificante de duración limitada\nal tiempo de vertido, que afecten a una prematura rigidez de la masa, al tiempo de fraguado y\na la segregación. En el caso de utilización se asegurará que su dosificación no provoque estos\nefectos secundarios y mantenga unas condiciones adecuadas en la fluidez del hormigón du-\nrante el periodo completo del hormigonado de cada pilote.\n\nDocumento Básico SE-C Cimientos\nSE-C-56",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0061.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

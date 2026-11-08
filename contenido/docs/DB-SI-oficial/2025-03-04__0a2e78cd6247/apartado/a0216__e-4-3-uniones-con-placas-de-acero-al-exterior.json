@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0216",
+  "ruta_oficial": null,
+  "ruta_semantica": "E.4.3 Uniones con placas de acero al exterior",
+  "titulo": "E.4.3 Uniones con placas de acero al exterior",
+  "nivel": 3,
+  "parent_id": null,
+  "seccion_estimada": "E.4.3 Uniones con placas de acero al exterior",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 81,
+   "bbox": [
+    70.9,
+    686.6,
+    335.8,
+    699.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "4c42b24baa5c1e759e4c44d46f74c3b34f1560261879320ee7358560991cea6e",
+   "literal": "E.4.3 Uniones con placas de acero al exterior"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0144",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "E.4.3 Uniones con placas de acero al exterior",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.4.3 Uniones con placas de acero al exterior",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "47a8d43a856c1ad3966b496f2b5965d52fc4829d7d4b1e617172e9f6d47df4fb"
+ },
+ "paginas": [
+  81
+ ],
+ "etiquetas_impresas": [
+  "81"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E.4.3 Uniones con placas de acero al exterior\nE.4.3.1 Uniones no protegidas\n1\nLa capacidad resistente de las placas de acero se determina mediante la aplicación de las reglas\ndefinidas en el anejo D de este Documento.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0081.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0217"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

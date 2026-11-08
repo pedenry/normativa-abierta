@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-A · 5.3.1 Traslacionalidad</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-a-oficial-2007-10-23-9ed9ea694aab.html">DB-SE-A</a> › 5.3.1</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-a-oficial-2007-10-23-9ed9ea694aab.html">DB-SE-A</a> · 5.3.1 Traslacionalidad · versión 2007-10-23 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0049 · PDF pág. 27-28 · documento DB-SE-A · SHA256 9ed9ea694aab…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/apartado/a0049__5-3-1-traslacionalidad.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/apartado/a0049__5-3-1-traslacionalidad.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-a-oficial-2007-10-23-9ed9ea694aab.html">Ámbito del documento</a> · <a href="../doc/db-se-a-oficial-2007-10-23-9ed9ea694aab.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-a-oficial-2007-10-23-9ed9ea694aab.html">documento y tablas</a></p>
+<nav><a href="db-se-a-oficial-2007-10-23-9ed9ea694aab__a0048.html">← ID a0048 · PDF pág. 26-27</a> <a href="db-se-a-oficial-2007-10-23-9ed9ea694aab__a0050.html">ID a0050 · PDF pág. 28 →</a></nav>
+<h1><span class="aviso">ID a0049 · PDF pág. 27-28</span> — 5.3.1 Traslacionalidad</h1>
+<p>ID técnico a0049 · PDF pág. 27-28 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 27 (candidato tipográfico); no validado por persona · padre: a0048</p>
+<pre class="literal">5.3.1 Traslacionalidad
+1
+En el caso de las estructuras traslacionales, o no arriostradas, en las que los desplazamientos tie-
+nen una influencia sustancial en los esfuerzos, debe utilizarse un método de cálculo que incluya
+efectos no lineales y considere las imperfecciones iniciales, o sus acciones equivalentes, sustituto-
+rias de las desviaciones geométricas de fabricación y montaje, de las tensiones residuales, de las
+deformaciones iniciales, variaciones locales del límite elástico, etc. Dicho método puede consistir
+en
+a)
+Análisis global en segundo orden considerando imperfecciones iniciales globales y en la geo-
+metría de las piezas. En este caso en las comprobaciones de resistencia de las piezas no se
+considerarán los efectos de pandeo que ya estén representados en el modelo.
+b)
+Análisis global en segundo orden considerando sólo las imperfecciones iniciales globales. En
+este caso  en las comprobaciones de resistencia se considerarán los efectos de pandeo de
+las piezas. Una aproximación a los resultados obtenidos por este método se describe en el
+apartado siguiente.
+2
+Una forma de evaluar la influencia de los desplazamientos en la distribución de esfuerzos y, por
+tanto, de caracterizar la condición de traslacionalidad, aplicable a estructuras de pórticos planos,
+consiste en realizar un primer análisis en régimen elástico lineal y obtener, para cada planta, el co-
+eficiente:
+h
+H
+V
+r
+d
+,
+H
+Ed
+Ed
+δ
+⋅
+=
+(5.6)
+siendo
+HEd
+valor de cálculo de las cargas horizontales totales (incluyendo las debidas a imperfeccio-
+nes) en la planta considerada y en todas las superiores. Coincide con el cortante total en
+los pilares de la planta;
+VEd
+valor de cálculo de las cargas verticales totales en la planta considerada y en todas las su-
+periores. Coincide con el axil total en los pilares de la planta;
+h
+altura de la planta;
+
+DocumentoBásico SE-A Acero
+SE-A-26
+δH,d
+desplazamiento horizontal relativo de la planta (del forjado de techo al de suelo).
+Si para alguna planta el valor del coeficiente r es superior a 0,1, la estructura debe considerarse
+traslacional y, entonces, el análisis global de la estructura habrá de considerar los efectos de los
+desplazamientos en alguna de las siguientes formas:
+a)
+Análisis en segundo orden, con la ayuda de modelos numéricos que incluyan, al menos, el
+efecto de los esfuerzos en la rigidez de la estructura. En el dimensionado de los pilares se uti-
+lizarán como longitudes de pandeo las correspondientes al modo intraslacional.
+b)
+Análisis elástico y lineal pero habiendo multiplicado todas las acciones horizontales sobre el
+edificio por el coeficiente de amplificación:
+r
+1
+1
+−
+(5.7)
+Este procedimiento sólo es aplicable cuando r&lt;0,33. En el dimensionado de los pilares se uti-
+lizarán como longitudes de pandeo las correspondientes al modo intraslacional. Las reaccio-
+nes en cimentación se obtendrán del citado modelo reduciendo las componentes de fuerza
+horizontal en el valor del coeficiente de amplificación, de modo que resulten equivalentes a la
+resultante horizontal de las acciones de cálculo no amplificadas.</pre>
+<h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/figura/p0027.png"><img class="figura" src="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/figura/p0027.png" alt="Página 27"></a><figcaption>Página visual 27 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/figura/p0028.png"><img class="figura" src="../../contenido/docs/DB-SE-A-oficial/2007-10-23__9ed9ea694aab/figura/p0028.png" alt="Página 28"></a><figcaption>Página visual 28 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

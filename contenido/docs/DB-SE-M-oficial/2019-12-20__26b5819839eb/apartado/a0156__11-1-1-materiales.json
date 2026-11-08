@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0156",
+  "ruta_oficial": "11.1.1",
+  "ruta_semantica": "11.1.1  Materiales",
+  "titulo": "11.1.1  Materiales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "11.1.1  Materiales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 93,
+   "bbox": [
+    70.9,
+    163.2,
+    156.0,
+    173.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "497f0676fe986af94511cf5ac05721db02e74f7966d47fa0351c0df5767f2e6e",
+   "literal": "11.1.1  Materiales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0183",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "11.1.1  Materiales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "11  Ejecución 11.1  Principios generales / 11.1.1  Materiales",
+   "seccion_estimada": "11  Ejecución 11.1  Principios generales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d7d146e4ded65c8c8d74641737901a834493ff2b79faf78eba9f2f2535d3fd52"
+ },
+ "paginas": [
+  93
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "11.1.1  Materiales\n1\nAntes de su utilización en la construcción, la madera debe secarse, en la medida que sea posible,\nhasta alcanzar contenidos de humedad adecuados a la obra acabada (humedad de equilibrio higros-\ncópico).\n2\nSi los efectos de las contracciones o mermas no se consideran importantes, o si han sido reempla-\nzadas las partes dañadas de la estructura, pueden aceptarse contenidos más elevados de humedad\ndurante el montaje siempre que se asegure que la madera podrá secarse al contenido de humedad\ndeseado.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

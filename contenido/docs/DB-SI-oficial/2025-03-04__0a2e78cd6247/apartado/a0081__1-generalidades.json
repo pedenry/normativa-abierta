@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0081",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 1 Generalidades",
+  "titulo": "1 Generalidades",
+  "nivel": 2,
+  "parent_id": "a0080",
+  "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 38,
+   "bbox": [
+    70.9,
+    252.9,
+    206.8,
+    268.6
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "37dbce73f65c797be81dea74b54cfdd5c22efa04c586fbb334d4dcf1a41bc1b0",
+   "literal": "1 Generalidades"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0038",
+  "parent_id_original": "a0080",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Generalidades",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0080",
+   "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 1 Generalidades",
+   "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5b498d899ae440f6a0ed2114cc1857cab2457f097f696f4b5823b5f4117880f6"
+ },
+ "paginas": [
+  38
+ ],
+ "etiquetas_impresas": [
+  "38"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Generalidades\n1\nLa elevación de la temperatura que se produce como consecuencia de un incendio en un edificio\nafecta a su estructura de dos formas diferentes. Por un lado, los materiales ven afectadas sus pro-\npiedades, modificándose de forma importante su capacidad mecánica. Por otro, aparecen acciones\nindirectas como consecuencia de las deformaciones de los elementos, que generalmente dan lugar a\ntensiones que se suman a las debidas a otras acciones.\n2\nEn este Documento Básico se indican únicamente métodos simplificados de cálculo suficientemente\naproximados para la mayoría de las situaciones habituales (véase anejos B a F). Estos métodos sólo\nrecogen el estudio de la resistencia al fuego de los elementos estructurales individuales ante la curva\nnormalizada tiempo temperatura.\n3\nPueden adoptarse otros modelos de incendio para representar la evolución de la temperatura duran-\nte el incendio, tales como las denominadas curvas paramétricas o, para efectos locales los modelos\nde incendio de una o dos zonas o de fuegos localizados o métodos basados en dinámica de fluidos\n(CFD, según siglas inglesas) tales como los que se contemplan en la norma UNE-EN 1991-1-2:2004.\nEn dicha norma se recogen, asimismo, también otras curvas nominales para fuego exterior o para\nincendios producidos por combustibles de gran poder calorífico, como hidrocarburos, y métodos para\nel estudio de los elementos externos situados fuera de la envolvente del sector de incendio y a los\nque el fuego afecta a través de las aberturas en fachada.\n4\nEn las normas UNE-EN 1992-1-2:2011, UNE-EN 1993-1-2:2016, UNE-EN 1994-1-2:2016, UNE-EN\n1995-1-2:2016, se incluyen modelos de resistencia para los materiales.\n5\nLos modelos de incendio citados en el párrafo 3 son adecuados para el estudio de edificios singula-\nres o para el tratamiento global de la estructura o parte de ella, así como cuando se requiera un es-\ntudio más ajustado a la situación de incendio real.\n6\nEn cualquier caso, también es válido evaluar el comportamiento de una estructura, de parte de ella o\nde un elemento estructural mediante la realización de los ensayos que establece el Real Decre-\nto842/2013 de 31 de octubre.\n7\nSi se utilizan los métodos simplificados indicados en este Documento Básico no es necesario tener\nen cuenta las acciones indirectas derivadas del incendio.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

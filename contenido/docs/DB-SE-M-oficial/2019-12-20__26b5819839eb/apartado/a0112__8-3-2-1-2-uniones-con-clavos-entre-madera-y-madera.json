@@ -1,0 +1,99 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0112",
+  "ruta_oficial": "8.3.2.1.2",
+  "ruta_semantica": "8.3.2.1.2  Uniones con clavos entre madera y madera",
+  "titulo": "8.3.2.1.2  Uniones con clavos entre madera y madera",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.3.2.1.2  Uniones con clavos entre madera y madera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 55,
+   "bbox": [
+    70.9,
+    560.3,
+    324.5,
+    570.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f8f52b2d1c6b0adf9961ded2d1d85e3febe0667430def7ed26314364429e1606",
+   "literal": "8.3.2.1.2  Uniones con clavos entre madera y madera"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0124",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.2.1.2  Uniones con clavos entre madera y madera",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8  Uniones 8.1  Introducción / sección / Disposiciones constructivas: / 8.3.2.1.2  Uniones con clavos entre madera y madera",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "94705d3310faa1b0def0eaac667c12510f13c6c5d197a70352b0728faa0ac9d6"
+ },
+ "paginas": [
+  55,
+  56,
+  57
+ ],
+ "etiquetas_impresas": [
+  null,
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "8.3.2.1.2  Uniones con clavos entre madera y madera\n1\nResistencia al aplastamiento:\nLa resistencia característica al aplastamiento en clavos con diámetro menor o igual a 8 mm y para\ncualquier ángulo con respecto a la fibra, puede obtenerse de las expresiones siguientes:\na) sin taladro previo:\n)\nmm\n/\nN\n(\nd\n082\n,0\nf\n2\n3\n,\n0\nk\nk,h\n\n\n\n\n\n(8.33)\nb) con taladro previo:\n\n\n)\nmm\n/\nN\n(\nd\n01\n,0\n1\n082\n,0\nf\n2\nk\nk,h\n\n\n\n\n\n\n(8.34)\nsiendo:\nk\ndensidad característica de la madera, [kg/m3];\nd\ndiámetro del clavo, [mm].\n2\nSolape de clavos:\na) En uniones del tipo de la representada en la figura 8.6, los clavos introducidos desde ambas ca-\nras pueden solapar en la pieza central, siempre que la distancia (t - t2) sea mayor que 4·d.\n\nDocumentoBásico SE-M Madera\nSE-M 50\nFigura 8.6 Solape de clavos.\n3\nPenetración del clavo:\na) Como ya se ha comentado, se recomienda una penetración de los clavos, en cada pieza de ma-\ndera, de entre 10 y 12 diámetros. Con menos penetración se pierde mucha eficacia, y con más\nno se consigue más capacidad de carga.\n4\nClavos en la testa de la pieza:\na) Sólo se admite el uso de clavos de fuste liso en la testa de la pieza para el caso de elementos\nsecundarios; como por ejemplo para la fijación de una pieza de cabecero de los pares de una\ncubierta. El valor de cálculo de su capacidad de carga se tomará igual a 1/3 del valor correspon-\ndiente a un clavado normal.\nb) En clavos que no son de fuste liso (es decir, con resaltos de distinto tipo; puede verse la defini-\nción precisa en la norma UNE-EN 14545:2009) colocados en la testa de la pieza, se tomará co-\nmo capacidad de carga de cálculo 1/3 del valor correspondiente a un clavado normal, siempre\nque se cumplan las siguientes condiciones:\ni)\nlos clavos se encuentran sometidos exclusivamente a carga lateral;\nii) al menos existen tres clavos por unión;\niii) la penetración en la pieza de punta es como mínimo igual a 10·d;\niv) la unión no está expuesta a las condiciones de la clase de servicio 3;\nv) se cumplen los valores de separación de la tabla 8.2.\n5\nSeparaciones y distancias mínimas:\nLas separaciones y distancias mínimas se dan en la tabla 8.2, con las definiciones incluidas en la fi-\ngura 8.7.\nTabla 8.2 Uniones con clavos en madera con madera y bajo carga lateral.\nSeparaciones y distancias mínimas.\nSeparaciones y distancias\n(véase figura 8.7)\nÁngulo\nDistancia mínima\nSin pretaladro\nCon pretalado\nk 420 kg/m3\n420 kg/m3 < k  500 kg/m3\na1 (paralela a la fibra)\n0º  360º\nd < 5mm; (5+5cos )d\n(7+8cos )d\n(4+cos )d\nd  5mm; (5+7cos )d\na2 (perpendicular a la fibra)\n0º  360º\n5d\n7d\n(3+sen )d\na3,t (testa cargada)\n- 90º  90º\n(10+5 cos )d\n(15+5 cos )d\n(7+5 cos )d\na3,c (testa no cargada)\n90º  270º\n10d\n15d\n7d\na4,t (borde cargado)\n0º  180º\nd<5 mm; (5+2 sen )d\nd<5 mm; (7+2 sen )d\nd<5 mm; (3+2 sen )d\nd≥5 mm; (5+5 sen )d\nd≥5 mm; (7+5 sen )d\nd≥5 mm; (3+4 sen )d\na4,c (borde no cargado)\n180º  360º\n5d\n7d\n3d\n\nDocumentoBásico SE-M Madera\nSE-M 51\nFigura 8.7 Separaciones, distancias y ángulo .\n6\nPretaladro:\nDebe realizarse pretaladrado cuando el espesor de las piezas de madera sea menor que,\n\n400\n30\nd\n13\nd\n7\nmax\nt\nk\n\n\n\n\n\n\n(8.35)\nsiendo:\nt\nespesor mínimo, [mm];\nk densidad característica de la madera, [kg/m3];\nd\ndiámetro del clavo, [mm].",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0055_t01.json",
+  "../tabla/p0056_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0055.png",
+  "../figura/p0056.png",
+  "../figura/p0057.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

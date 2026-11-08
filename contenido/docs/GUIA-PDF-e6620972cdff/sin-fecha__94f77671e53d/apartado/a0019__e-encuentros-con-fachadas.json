@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-e6620972cdff",
+ "code": "GUIA",
+ "title": "Solucion A2 Sellado de fisuras grietas encuentros y juntas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__94f77671e53d",
+ "sha256": "94f77671e53d6c5bfbb3e11fe735cc62d88d7c8f29220581305f2bc5112cd350",
+ "apartado": {
+  "id_tecnico": "a0019",
+  "ruta_oficial": null,
+  "ruta_semantica": "2 \t sellante / e) Encuentros con fachadas",
+  "titulo": "e) Encuentros con fachadas",
+  "nivel": 3,
+  "parent_id": "a0017",
+  "seccion_estimada": "2 \t sellante"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "e) Encuentros con fachadas\nEl encuentro con una fachada se podrá sellar retiran­\ndo el rodapié, introduciendo un elemento de fondo de\njunta elástico y posteriormente inyectando un sellante\nflexible que permita el movimiento diferencial entre\nlas dos estructuras (Figura 7).\nSi el rodapié no se puede retirar se podrá inyectar\nel material sellante, aunque esta solución es menos\neficaz.\n1   \tfondo de junta 2 \t sellante\n2 \t sellante\n1\n2\n2\nFigura 7 - \u0007Sellado del encuentro de una solera con una fachada retiran­\ndo el rodapié (arriba) y sin retirarlo (abajo)",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0003_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Solucion_A2_Sellado_de_fisuras_grietas_encuentros_y_juntas.pdf",
+  "sha256": "94f77671e53d6c5bfbb3e11fe735cc62d88d7c8f29220581305f2bc5112cd350",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0017",
+  "nivel": 3,
+  "seccion_estimada": "2 \t sellante",
+  "ruta_semantica": "2 \t sellante / e) Encuentros con fachadas"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

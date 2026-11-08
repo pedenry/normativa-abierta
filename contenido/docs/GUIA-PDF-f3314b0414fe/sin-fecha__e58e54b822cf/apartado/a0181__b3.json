@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-f3314b0414fe",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon Fichas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__e58e54b822cf",
+ "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+ "apartado": {
+  "id_tecnico": "a0181",
+  "ruta_oficial": null,
+  "ruta_semantica": "Solucion B3 - Despresurizacion del terreno / B3",
+  "titulo": "B3",
+  "nivel": 3,
+  "parent_id": "a0179",
+  "seccion_estimada": "Solucion B3 - Despresurizacion del terreno"
+ },
+ "paginas": [
+  52
+ ],
+ "etiquetas_impresas": [
+  "52"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "B3\nLa efectividad de esta solución depende en gran\nmedida de la permeabilidad del sustrato en contacto\ncon el edificio y de la estanqueidad del cerramiento en\ncontacto con el terreno. Para que su efectividad sea la\nóptima, la permeabilidad del sustrato y la estanqueidad\ndel cerramiento tienen que ser altas.\nUna de las mayores dificultades radica en asegurar\nque el radio de acción de la despresurización ge­\nnerada alcance toda la planta o muro a proteger te­\nniendo en cuenta las características del sustrato y la\npresencia de zonas poco permeables y obstáculos al\nflujo del aire como rocas, muretes de cimentación o\nzapatas.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0052_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0052.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon+Fichas.pdf",
+  "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0179",
+  "nivel": 3,
+  "seccion_estimada": "Solucion B3 - Despresurizacion del terreno",
+  "ruta_semantica": "Solucion B3 - Despresurizacion del terreno / B3"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,75 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0061",
+  "ruta_oficial": "5.4",
+  "ruta_semantica": "Fragmento de PDF p27",
+  "titulo": "5.4 Muros con acciones laterales locales 5.4.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p27",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p27",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. / 5.4 Muros con acciones laterales locales 5.4.1 Generalidades",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c88d155a7adef875f5292bfe9c05ffb8b2d131b1b6fd6d42a70933ebb730b95b"
+ },
+ "paginas": [
+  27
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.4 Muros con acciones laterales locales 5.4.1 Generalidades\n5.4.1 Generalidades\n1\nEl cálculo de muros sometidos a acciones laterales se puede basar en:\na)\nsu respuesta como pieza a flexión sustentada en uno o varios bordes\nb)\nsu respuesta como arco estribado entre ambos bordes.\nSi en ambas direcciones responde como pieza a flexión se dice que el comportamiento es de placa.\n2\nEn el caso en que el muro posea algún borde en el cual no se pueda garantizar la movilización de las\nreacciones necesarias para su equilibrio (por ejemplo bordes superiores no retacados a los forjados),\nse considerará que ese borde no es competente como sustentación de placa, o en esa dirección no\npuede darse el comportamiento en arco.\n3\nPara la respuesta como pieza a flexión, puede conseguirse empotramiento mediante llaves, por traba\nde las piezas o por tope contra los forjados cuando es pasante sobre éstos.\n4\nEn un muro capuchino se podrá considerar que ambas hojas colaboran en la resistencia a las accio-\nnes laterales, aunque sólo una de ellas esté directamente conectada a los elementos de sustentación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0027.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0062",
+  "a0063",
+  "a0064"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

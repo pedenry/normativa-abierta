@@ -1,0 +1,78 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0289",
+  "ruta_oficial": "5.5.2",
+  "ruta_semantica": "Fragmento de PDF p129",
+  "titulo": "5.5.2 Dispositivos de elevación y control",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p129",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p129",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 5.5 Ejecución de los sistemas de elevación y bombeo 5.5.1 Depósito de recepción / 5.5.2 Dispositivos de elevación y control",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dbdc869e52a39155492ed6ecd62ee898cb6d62ac86db7394d71d778d3fa06eab"
+ },
+ "paginas": [
+  129
+ ],
+ "etiquetas_impresas": [
+  "129"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.5.2 Dispositivos de elevación y control\n1\nLas bombas tendrán un diseño que garantice una protección adecuada contra las materias sólidas\nen suspensión en el agua.\n2\nPara controlar la marcha y parada de la bomba se utilizarán interruptores de nivel, instalados en los\nniveles alto y bajo respectivamente. Se instalará además un nivel de alarma por encima del nivel\nsuperior y otro de seguridad por debajo del nivel mínimo.\n3\nSi las bombas son dos o más, se multiplicará proporcionalmente el número de interruptores. Se\nañadirá, además un dispositivo para alternar el funcionamiento de las bombas con el fin de mante-\nnerlas en igual estado de uso, con un funcionamiento de las bombas secuencial.\n4\nCuando exista riesgo de flotación de los equipos, éstos se fijarán a su alojamiento para evitar dicho\nriesgo. En caso de existencia de fosa seca, ésta dispondrá de espacio suficiente para que haya, al\nmenos, 600 mm alrededor y por encima de las partes o componentes que puedan necesitar mante-\nnimiento. Igualmente, se le dotará de sumidero de al menos 100 mm de diámetro, ventilación ade-\ncuada e iluminación mínima de 200 lux.\n5\nTodas las conexiones de las tuberías del sistema de bombeo y elevación estarán dotadas de los\nelementos necesarios para la no transmisión de ruidos y vibraciones. El depósito de recepción que\ncontenga residuos fecales no estará integrado en la estructura del edificio.\n6\nEn la entrada del equipo se dispondrá una llave de corte, así como a la salida y después de la vál-\nvula de retención. No se realizará conexión alguna en la tubería de descarga del sistema. No se co-\nnectará la tubería de descarga a bajante de cualquier tipo. La conexión con el colector de desagüe\nse hará siempre por gravedad. En la tubería de descarga no se colocarán válvulas de aireación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0129.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

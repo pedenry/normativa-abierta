@@ -1,0 +1,101 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0036",
+  "ruta_oficial": "3.1.2",
+  "ruta_semantica": "3.1.2  Opción simplificada: Soluciones de aislamiento acústico",
+  "titulo": "3.1.2  Opción simplificada: Soluciones de aislamiento acústico",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.2  Opción simplificada: Soluciones de aislamiento acústico",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    70.9,
+    567.4,
+    371.6,
+    578.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1f4693cac27657106f5117a52cc17f20ca4e5223e976c782b7a4a57ca3d53157",
+   "literal": "3.1.2  Opción simplificada: Soluciones de aislamiento acústico"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 2.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.2  Opción simplificada: Soluciones de aislamiento acústico",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.1.2  Opción simplificada: Soluciones de aislamiento acústico",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5eb791cdd075d1f26830c1d5313e7eb3a7ad4c644d281c8df63cb3573b10307c"
+ },
+ "paginas": [
+  11,
+  12
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.1.2  Opción simplificada: Soluciones de aislamiento acústico\n1\nLa opción simplificada proporciona soluciones de aislamiento que dan conformidad a las exigencias\nde aislamiento a ruido aéreo y a ruido de impactos.\n2\nUna solución de aislamiento es el conjunto de todos los elementos constructivos que conforman un\nrecinto (tales como elementos de separación verticales y horizontales, tabiquería, medianerías, fa-\nchadas y cubiertas) y que influyen en la transmisión del ruido y de las vibraciones entre recintos ad-\nyacentes o entre el exterior y un recinto. (Véase figura 3.1).\n\nDocumento Básico HR - Protección frente al ruido\nHR-6\nFigura 3.1. Elementos que componen dos recintos y que influyen en la transmisión de ruido entre ambos\n3\nPara cada uno de dichos elementos constructivos se establecen en tablas los valores mínimos de\nlos parámetros acústicos que los definen, para que junto con el resto de condiciones establecidas\nen este DB, particularmente en el punto 3.1.4, se satisfagan los valores límite de aislamiento esta-\nblecidos en el apartado 2.1.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.1"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0012.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0037",
+  "a0038",
+  "a0039"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

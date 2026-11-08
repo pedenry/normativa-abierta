@@ -1,0 +1,71 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0225",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p83",
+  "titulo": "E.5 Disposiciones constructivas E.5.1 Muros y forjados",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p83",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p83",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo E. Resistencia al fuego de las estructuras de madera / E.5 Disposiciones constructivas / E.5 Disposiciones constructivas E.5.1 Muros y forjados",
+   "seccion_estimada": "Anejo E. Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "336aff187f4144b2225c8dc8fffa0e45067333ab1293156c0f7d32264a6da979"
+ },
+ "paginas": [
+  83
+ ],
+ "etiquetas_impresas": [
+  "83"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "E.5 Disposiciones constructivas E.5.1 Muros y forjados\nE.5.1 Muros y forjados\nE.5.1.1 Dimensiones y separaciones\n1\nLa separación entre ejes de montantes de muros entramados y de viguetas de forjado no debe su-\nperar los 625 mm\n2\nEn los muros, los paneles individuales deben tener un espesor mínimo tp,min.\n8\n70\nl\nmax\nt\np\nmin\n,\np\n\n(E.22)\nsiendo:\ntp,min\nespesor mínimo del panel en milímetros\nlp\nluz del panel (separación entre las piezas del entramado) en milímetros.\n3\nEn los elementos constructivos con una sola capa en cada lado, los tableros derivados de la madera\ndeberán tener una densidad característica de al menos 350 kg/m3.\nE.5.1.2 Detalles de las uniones de los tableros\n1\nLos tableros deben fijarse al entramado de madera.\n2\nPara los paneles o tableros de madera o derivados de la madera fijados con clavos, la separación\nmáxima entre clavos será de 150 mm. La profundidad mínima de penetración debe ser ocho veces el\ndiámetro del elemento de fijación para tableros portantes y seis veces el diámetro del elemento de fi-\njación para los tableros no portantes. Si los paneles se fijan con tirafondos, la separación máxima se-\nrá de 250 mm.\n3\nLos cantos de los tableros deberán quedar en contacto con una holgura máxima de 1 mm. Deben\nfijarse al entramado en al menos dos bordes opuestos. En el caso de capas múltiples este requisito\nse aplica a la capa externa.\n4\nEn el caso de capas múltiples las juntas de los paneles deben desfasarse al menos 60 mm. Cada\npanel se fijará de manera individual.\nE.5.1.3 Aislamiento\n1\nLas capas de materiales aislantes o tableros que sean tenidos en cuenta en el cálculo deben fijarse\nal entramado de madera de tal forma que se evite el fallo prematuro o descuelgue.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0083.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

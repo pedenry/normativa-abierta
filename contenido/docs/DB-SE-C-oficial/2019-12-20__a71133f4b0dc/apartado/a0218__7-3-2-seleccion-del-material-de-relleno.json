@@ -1,0 +1,119 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0218",
+  "ruta_oficial": "7.3.2",
+  "ruta_semantica": "7.3.2 Selección del material de relleno",
+  "titulo": "7.3.2 Selección del material de relleno",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.3.2 Selección del material de relleno",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 100,
+   "bbox": [
+    70.9,
+    705.2,
+    295.8,
+    717.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "99ae2a1a5b8bc0a5913d6f05d86251d9bfb2c6844766226c532e9e24a12ae49f",
+   "literal": "7.3.2 Selección del material de relleno"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0250",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.3.2 Selección del material de relleno",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / 7.3.2 Selección del material de relleno",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5f9ff3cd6ce02f09216003d4f4f27bd7474a8a13112cf870e17ca5fa925c751d"
+ },
+ "paginas": [
+  100,
+  101
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [],
+ "texto": "7.3.2 Selección del material de relleno\n1\nLos criterios de selección del material adecuado para su utilización en un relleno se basan en la\nobtención, tras el proceso de compactación, de la resistencia, rigidez y permeabilidad necesarias en\nel relleno. Estos criterios dependerán, por tanto, del propósito del relleno y de los requisitos del ser-\nvicio o construcción a disponer sobre el mismo.\n\nDocumento Básico SE-C Cimientos\nSE-C-96\n2\nLos materiales que, según los casos, pueden ser utilizados para rellenos de edificación incluyen la\nmayor parte de los suelos predominantemente granulares e incluso algunos productos resultantes\nde la actividad industrial tales como ciertas escorias y cenizas pulverizadas. Algunos productos ma-\nnufacturados, tales como agregados ligeros, podrán utilizarse en determinados casos. Los suelos\ncohesivos podrán ser tolerables pero requieren una especial selección y las condiciones de coloca-\nción y compactación precisas.\n3\nSe tomarán en consideración los siguientes aspectos en la selección de un material para relleno:\na)\ngranulometría;\nb)\nresistencia a la trituración y desgaste;\nc)\ncompactabilidad;\nd)\npermeabilidad;\ne)\nplasticidad;\nf)\nresistencia del subsuelo;\ng)\ncontenido en materia orgánica;\nh)\nagresividad química;\ni)\nefectos contaminantes;\nj)\nsolubilidad;\nk)\ninestabilidad de volumen;\nl)\nsusceptibilidad a las bajas temperaturas y a la helada;\nm)\nresistencia a la intemperie;\nn)\nposibles cambios de propiedades debidos a la excavación, transporte y colocación;\no)\nposible cementación tras su colocación.\n4\nSi los materiales no son apropiados en su estado natural, podrán mejorarse por:\na)\najuste de su humedad;\nb)\nestabilización con cal o cemento;\nc)\ncorrección de granulometría;\nd)\nprotección con un material apropiado;\ne)\nutilización de capas drenantes intercaladas.\n5\nNormalmente no se utilizarán los suelos expansivos o solubles. Tampoco los susceptibles a la hela-\nda o que contengan, en alguna proporción, hielo, nieve o turba si van a emplearse como relleno es-\ntructural.\n6\nEn caso de duda, debe ensayarse el material en préstamo, definiéndose en proyecto el tipo, núme-\nro y frecuencia de losensayos en función del tipo y heterogeneidad del material y de la naturaleza\nde la construcción en que vaya a utilizarse el relleno.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

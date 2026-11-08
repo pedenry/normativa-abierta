@@ -1,0 +1,101 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0020",
+  "ruta_oficial": "1.2",
+  "ruta_semantica": "1.2 Condiciones particulares para el cumplimiento del DB-SE-A",
+  "titulo": "1.2 Condiciones particulares para el cumplimiento del DB-SE-A",
+  "nivel": 1,
+  "parent_id": "a0019",
+  "seccion_estimada": "1.2 Condiciones particulares para el cumplimiento del DB-SE-A",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 5,
+   "bbox": [
+    70.9,
+    295.4,
+    434.9,
+    308.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "31360482918009055b677f3f97213cbf41f311208dfc893a2f294146496d1e9f",
+   "literal": "1.2 Condiciones particulares para el cumplimiento del DB-SE-A"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0020",
+  "parent_id_original": "a0019",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SE",
+   "DB-SE-A",
+   "apartado 2",
+   "apartado 4",
+   "apartado 8"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "1.2 Condiciones particulares para el cumplimiento del DB-SE-A",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0019",
+   "ruta_semantica": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas / 1.2 Condiciones particulares para el cumplimiento del DB-SE-A",
+   "seccion_estimada": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1c62203f3145a398dd90482fb596517231fe3141deac261058c4cfe3308f5837"
+ },
+ "paginas": [
+  5,
+  7
+ ],
+ "etiquetas_impresas": [
+  "5",
+  "7"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "1.2 Condiciones particulares para el cumplimiento del DB-SE-A\n1\nLa aplicación de los procedimientos de este DB se llevará a cabo de acuerdo con las condiciones\nparticulares que en el mismo se establecen, con las condiciones particulares indicadas en el DB-SE\ny con las condiciones generales para el cumplimiento del CTE, las condiciones del proyecto, las\ncondiciones en la ejecución de las obras y las condiciones del edificio que figuran en los artículos 5,\n6, 7 y 8 respectivamente de la parte I del CTE.\n2\nLa documentación del proyecto será la que se figura en el apartado 2 Documentación del DB-SE in-\ncluyendo además:\na)\nlas características mecánicas consideradas para los aceros en chapas y perfiles, tornillos, ma-\nteriales de aportación, pinturas y materiales de protección de acuerdo con las especificaciones\nque figuran en el apartado 4 de este DB;\nb)\nlas dimensiones a ejes de referencia de las barras y la definición de perfiles, de las secciones\narmadas, chapas, etc.;\nlas uniones (medios de unión, dimensiones y disposición de los tornillos o cordones) conforme\ncon lo prescrito en el apartado 8 de este DB.\n\nDocumentoBásico SE-A Acero\nSE-A-5",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "DB-SE",
+  "DB-SE-A",
+  "apartado 2",
+  "apartado 4",
+  "apartado 8"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

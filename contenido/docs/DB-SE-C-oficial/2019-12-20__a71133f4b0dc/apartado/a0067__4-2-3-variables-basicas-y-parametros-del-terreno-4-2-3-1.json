@@ -1,0 +1,121 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0067",
+  "ruta_oficial": "4.2.3",
+  "ruta_semantica": "Fragmento de PDF p32",
+  "titulo": "4.2.3 Variables básicas y parámetros del terreno 4.2.3.1 Estados límite últimos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p32",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p32",
+  "referencias_filtradas": [
+   "apartado 4.3.3"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / 4.2.3 Variables básicas y parámetros del terreno 4.2.3.1 Estados límite últimos",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "13523a64c8abdb9a42d5dc8c8d1735472456379c1656bb5a8ca0ca174dcfe5d6"
+ },
+ "paginas": [
+  32,
+  33,
+  34
+ ],
+ "etiquetas_impresas": [
+  null,
+  "3",
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "4.2.3 Variables básicas y parámetros del terreno 4.2.3.1 Estados límite últimos\n4.2.3.1 Estados límite últimos\n1\nPara la verificación del estado límite último frente al hundimiento en suelos será necesario contar\ncon una estimación fiable de la resistencia al corte característica de las unidades geotécnicas re-\nlevantes. Dicha resistencia vendrá expresada, en términos de tensiones efectivas, por el ángulo de\nrozamiento interno (’) y la cohesión (c’), preferiblemente obtenidos mediante ensayos de corte tria-\nxiales (CU ó CD). No obstante, se podrá recurrir a las siguientes simplificaciones:\na)\nEn suelos granulares limpios y sin cohesión que no contengan más de un 30% en peso de par-\ntículas de más de 20 mm de diámetro, se podrá estimar el ángulo de rozamiento interno a par-\n\nDocumento Básico SE-C Cimientos\nSE-C-28\ntir de métodos indirectos tales como el golpeo del ensayo SPT o la resistencia por la punta del\npenetrómetro estático, qc  según la tabla 4.1 (Figura D.1).\nTabla 4.1  Correlación entre golpeo NSPT, y CPT con el ángulo de rozamiento\nMuy\nsueltoSuelto\nMedio-\ndenso\nDenso\nMuy\ndenso\nÁngulo de rozamiento interno del terreno\n30º\n32º\n34º\n36º\n38º\n40º\n42º\nGolpeo NSPT (número)\n10\n15\n22\n30\n36\n45\n55\nResistencia por punta del penetrómetro estático (MPa)\n-\n2\n4\n7\n15\n21\n30\nPara la verificación directa del estado límite último de hundimiento se podrá recurrir asimismo\na los métodos simplificados descritos en el apartado 4.3.3, basados en ensayos de penetra-\nción. Si se dispone de resultados de ensayos de penetración estática, la resistencia por la pun-\nta medida, qc, se podrá correlacionar con el golpeo del ensayo SPT de acuerdo con la tabla\n4.2 (Figura D.2) en función de la granulometría del terreno.\nTabla 4.2 Correlación entre CPT y NSPT\nArena\nArena limosa\nArena limosa\no limo\nLimo arcilloso o\narcilla limosa\nArcilla\nqc / N  (MPa / nº30 )\n0,5\n0,4\n0,3\n0,2\n0,1\nD50 (mm)\n0,3\n0,1\n0,04\n0,01\n0,001\nPara el caso de construcciones del tipo C-3 y C-4 se puede recurrir a la comprobación de los\nparámetros de resistencia obtenidos indirectamente por los procedimientos anteriores median-\nte la ejecución de ensayos de laboratorio con muestras recompactadas.\nb)\nEn suelos granulares limpios sin cohesión cuyo contenido en partículas de tamaño mayor que\n20 mm supere el 30% en peso, los ensayos SPT, de penetración dinámica o estática pueden\nproporcionar resultados en exceso elevados a consecuencia del gran tamaño de las partículas\nmás gruesas del suelo. Para estas situaciones se recomienda recurrir al empleo de ensayos\ntipo cross-hole o down-hole para la estimación de los parámetros de deformabilidad.\nc)\nEn suelos finos sin cohesión (limos no cohesivos) podrán ser de aplicación los criterios apun-\ntados en el párrafo a) anterior.\nd)\nEn suelos finos (limos y arcillas), saturados y de baja permeabilidad, habrá que comprobar las\nsituaciones de dimensionado transitorias de carga sin drenaje. Bajo esta hipótesis se supone\nque los incrementos de presión intersticial generados por las cargas del edificio no se disipan\ntras su aplicación. En términos generales y salvo justificación expresa en contra, se supondrá\nque puede darse esta situación de dimensionado si el coeficiente de permeabilidad del terreno\nsaturado resulta inferior a k=0,001 mm/s. En este caso la resistencia al corte del terreno podrá\nexpresarse en términos de tensiones totales, representada mediante un ángulo de rozamiento\ninterno =0 y una cohesión c=cu, ésta última denominada resistencia al corte sin drenaje. El\nvalor de dicha resistencia provendrá de ensayos triaxiales UU o CU, o en su caso, de compre-\nsión simple. Asimismo podrá haber sido obtenida de forma indirecta a partir de ensayos in situ\n(molinete, penetrómetro estático, presiómetro). Salvo que se cuente con una dilatada expe-\nriencia local, para la selección final de la resistencia al corte sin drenaje a emplear en cálculo\nserá recomendable que el estudio geotécnico cuente, para casos importantes, con diferentes\ntipos de ensayo, tanto de campo como de laboratorio, con el fin de comparar resultados y se-\nleccionar su valor característico.\ne)\nEn formaciones rocosas se podrán aplicar los métodos simplificados recogidos en 4.3.4. Para\nello será necesario que el estudio geotécnico contenga información descriptiva suficiente en\ncuanto al tipo de roca, su estructura y grado de meteorización. Asimismo debe contener una\nvaloración cuantitativa de la resistencia a la compresión simple y de los índices RQD y RMR.\n2\nSi bien la verificación del estado límite de hundimiento depende de numerosos factores que han de\nser analizados en cada situación particular, a efectos de predimensionado la tabla D.25 recoge al-\ngunas cifras orientativas del valor de cálculo de la resistencia del terreno (Rd), tradicionalmente de-\nnominada presión admisible (qadm), en función del tipo de terreno.\n3\nPara la verificación del estado límite último frente a la estabilidad global será necesario contar con\nlos parámetros de resistencia al corte de las unidades geotécnicas implicadas (ángulo de ro-\n\nDocumento Básico SE-C Cimientos\nSE-C-29\nzamiento interno y cohesión), en términos de tensiones efectivas (c’, ’) para situaciones drenadas\no en tensiones totales (c=cu, =0) para situaciones transitorias sin drenaje.\n4\nPara la verificación del estado límite último de deslizamiento a lo largo de superficies de contacto\nterreno-cimiento, será necesario establecer la resistencia al corte de dicho contacto. Si, el modelo\nempleado para el terreno es un modelo de rotura del tipo Mohr-Coulomb ( = a’ + · tg ’), como va-\nlores para cimentaciones convencionales de hormigón armado ejecutadas sobre suelo se pueden\nadoptar para la adherencia (a’) (componente cohesiva) y el ángulo de rozamiento terreno-cimiento\n(’) (componente friccional), los siguientes valores:\na)\nen términos de tensiones efectivas y para un terreno de resistencia al corte definida por pará-\nmetros efectivos (c’, ’): a’ = 0; ’ = 3/4';\nb)\nen términos de tensiones totales para situaciones transitorias en las que el proyectista consi-\ndere necesario emplear cálculos en condiciones sin drenaje: ’ = 0; a' = cu.\n5\nEn cimientos sobre terrenos expansivos en la zona susceptible de alteración de humedad, se reco-\nmienda que las presiones transmitidas al terreno no sean significativamente inferiores a la de hin-\nchamiento.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 4.3.3"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0032.png",
+  "../figura/p0033.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0068"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

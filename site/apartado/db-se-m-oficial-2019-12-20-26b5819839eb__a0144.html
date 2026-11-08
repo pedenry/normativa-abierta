@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-M · 10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">DB-SE-M</a> › 10.2.1.3</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">DB-SE-M</a> · 10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0144 · PDF pág. 84-85 · documento DB-SE-M · SHA256 26b5819839eb…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/apartado/a0144__10-2-1-3-esfuerzos-en-las-piezas-de-fijacion-separadores.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/apartado/a0144__10-2-1-3-esfuerzos-en-las-piezas-de-fijacion-separadores.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">Ámbito del documento</a> · <a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">documento y tablas</a></p>
+<nav><a href="db-se-m-oficial-2019-12-20-26b5819839eb__a0143.html">← ID a0143 · PDF pág. 83-84</a> <a href="db-se-m-oficial-2019-12-20-26b5819839eb__a0145.html">ID a0145 · PDF pág. 85 →</a></nav>
+<h1><span class="aviso">ID a0144 · PDF pág. 84-85</span> — 10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas</h1>
+<p>ID técnico a0144 · PDF pág. 84-85 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 84 (candidato tipográfico); no validado por persona · padre: a0141</p>
+<pre class="literal">10.2.1.3  Esfuerzos en las piezas de fijación, separadores y presillas
+1
+El esfuerzo en las piezas de fijación, separadores y presillas, debe deducirse de acuerdo con lo indi-
+cado en la figura 10.4, en función del esfuerzo cortante total en los cordones,Vd ,  obtenido mediante
+las expresiones siguientes:
+Td=Vd . l1 /a1
+Figura 10.4 Distribución de esfuerzos en cordones, separadores y presillas.
+c
+d
+,c
+d
+k
+120
+F
+V
+para  ef &lt; 30
+(10.35)
+c
+ef
+d
+,c
+d
+k
+3600
+F
+V
+
+
+para 30  ef &lt;  60
+(10.36)
+c
+d
+,c
+d
+k
+60
+F
+V
+para 60  ef
+(10.37)
+siendo:
+Fc,d
+valor de cálculo del esfuerzo axial aplicado;
+ef
+esbeltez eficaz obtenida de la ecuación (10.31);
+kc
+coeficiente de pandeo asociado a la esbeltez mecánica ef, obtenido en el punto b) del apar-
+tado 10.2.1.2.
+2
+De la Figura 10.4 se establecen los esfuerzos, así como otras consideraciones relativas a esfuerzos
+y deslizamiento de las uniones, a tener en cuenta en el cálculo y dimensionado de cordones, sepa-
+radores y presillas.
+a) Esfuerzo cortante en el cordón.
+Como consecuencia del cortante total, cada cordón deberá resistir un esfuerzo cortante per-
+pendicular a la fibra, de valor:
+Vd /n
+(10.38)
+siendo:
+Vd
+esfuerzo cortante total del soporte según las expresiones (10.35) a (10.37);
+n
+número de cordones del soporte.
+b) Esfuerzos en separadores y presillas.
+Cada separador y presilla se calculará para resistir los siguientes esfuerzos:
+i) cortante:
+-
+soporte de dos cordones;
+T2,s,d = Vd l1/a1
+para cada separador
+(10.39)
+T2,p,d = 0,5.Vd l1/a1
+para cada presilla
+(10.40)
+-
+soporte de tres cordones;
+
+DocumentoBásico SE-M Madera
+SE-M 79
+T3,s,d = 0,5.Vd l1/a1
+para cada separador
+(10.41)
+T3,p,d = 0,25.Vd l1/a1
+para cada presilla
+(10.42)
+-
+soporte de cuatro cordones.
+T4,s,e,d = 0,3.Vd l1/a1
+para cada separador extremo
+(10.43)
+T4,s,c,d = 0,4.Vd l1/a1
+para cada separador central
+(10.44)
+T4,p,e,d = 0,15.Vd l1/a1
+para cada presilla extrema
+(10.45)
+T4,p,c,d = 0,2.Vd l1/a
+para cada presilla central
+(10.46)
+ii) momento (solamente para presillas):
+-
+soporte de dos cordones;
+M2,p,d = Td .a1/4
+para cada presilla
+(10.47)
+-
+soporte de tres cordones;
+M3,p,d = Td .a1/3
+para cada presilla
+(10.48)
+-
+soporte de cuatro cordones.
+M4,p,d = Td .a1/2,4
+para cada presilla
+(10.49)
+siendo:
+Vd
+esfuerzo cortante total del soporte definido en el punto a);
+Td =
+Vd . l1/a1;
+l1
+separación entre uniones con separadores o presillas (véase figura 10.3);
+a1=
+a+h;
+a y h
+separación entre cordones y grueso del cordón, respectivamente, (véase
+figura 10.3).
+c) Esfuerzos en las uniones (cordón-separador o cordón-presilla).
+La unión (cordón-separador o cordón-presilla), tanto encolada como con elementos mecánicos
+de fijación, deberá resistir los esfuerzos que le correspondan de los determinados anteriormente,
+ecuaciones (10.38) a (10.49).</pre>
+<h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0084.png"><img class="figura" src="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0084.png" alt="Página 84"></a><figcaption>Página visual 84 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

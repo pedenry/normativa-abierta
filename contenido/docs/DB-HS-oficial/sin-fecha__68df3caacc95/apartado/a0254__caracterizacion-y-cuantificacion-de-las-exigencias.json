@@ -1,0 +1,90 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0254",
+  "ruta_oficial": null,
+  "ruta_semantica": "Caracterización y cuantificación de las exigencias",
+  "titulo": "Caracterización y cuantificación de las exigencias",
+  "nivel": 1,
+  "parent_id": "a0253",
+  "seccion_estimada": "Caracterización y cuantificación de las exigencias",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 111,
+   "bbox": [
+    70.9,
+    462.2,
+    440.0,
+    477.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b4576682e99a7399fdf6e2c8cb89c226fc1e9351049def1f4495e6faeb21aa2a",
+   "literal": "Caracterización y cuantificación de las exigencias"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0253",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Caracterización y cuantificación de las exigencias",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0253",
+   "ruta_semantica": "Sección HS5 / 1.2 Procedimiento de verificación / Caracterización y cuantificación de las exigencias",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d90b9a9a072b9c2bf00a357de8cec15500741b8b4238e7e0f8f860cd68c1ca9a"
+ },
+ "paginas": [
+  111
+ ],
+ "etiquetas_impresas": [
+  "111"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Caracterización y cuantificación de las exigencias\n1\nDeben disponerse cierres hidráulicos en la instalación que impidan el paso del aire contenido en\nella a los locales ocupados sin afectar al flujo de residuos.\n2\nLas tuberías de la red de evacuación deben tener el trazado más sencillo posible, con unas distan-\ncias y pendientes que faciliten la evacuación de los residuos y ser autolimpiables. Debe evitarse la\nretención de aguas en su interior.\n3\nLos diámetros de las tuberías deben ser los apropiados para transportar los caudales previsibles en\ncondiciones seguras.\n4\nLas redes de tuberías deben diseñarse de tal forma que sean accesibles para su mantenimiento y\nreparación, para lo cual deben disponerse a la vista o alojadas en huecos o patinillos registrables.\nEn caso contrario deben contar con arquetas o registros.\n5\nSe dispondrán sistemas de ventilación adecuados que permitan el funcionamiento de los cierres\nhidráulicos y la evacuación de gases mefíticos.\n6\nLa instalación no debe utilizarse para la evacuación de otro tipo de residuos que no sean aguas\nresiduales o pluviales.\n3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0111.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

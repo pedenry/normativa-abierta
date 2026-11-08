@@ -1,0 +1,207 @@
+{
+ "documento": null,
+ "pagina": 30,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    224.4,
+    37.1,
+    387.3,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE Seguridad Estructural",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    291.4,
+    797.9,
+    320.2,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE - 24",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    93.6,
+    72.5,
+    541.3,
+    116.9
+   ],
+   "tipo": "texto",
+   "texto": "Un análisis que tenga en cuenta simultáneamente varias condiciones gi(X) < 0 se denomina análisis\nde un sistema. La definición de la función g(X) depende fuertemente de las características del sis-\ntema (sistemas en los que el fallo de una sección conduce al fallo total; sistemas redundantes; sis-\ntemas con un comportamiento combinado).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    97.0,
+    276.7,
+    537.3,
+    297.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura C.2 Dominios de fallo para un ejemplo con dos funciones g1(X1, X2) y g2(X1, X2) con dos varia-",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    100.6,
+    299.1,
+    531.7,
+    308.1
+   ],
+   "tipo": "texto",
+   "texto": "bles básicas X1 y X2. a) Fallo del sistema producido por el de una sección; b) Fallo de un sistema re-",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    309.4,
+    538.5,
+    356.0
+   ],
+   "tipo": "texto",
+   "texto": "dundante\n6\nEn una aplicación directa de los métodos probabilistas explícitos se debe demostrar que en el pe-\nriodo de referencia, t0, la probabilidad de fallo de la estructura o del elemento estructural, Pf, no su-\npera la probabilidad de fallo admisible, Pf,0",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    95.9,
+    362.8,
+    534.8,
+    376.1
+   ],
+   "tipo": "texto",
+   "texto": "0\n,f\nf\nP\nP\n\n(C.4)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    392.4,
+    223.2,
+    402.4
+   ],
+   "tipo": "texto",
+   "texto": "C.3.2 Estados límite de servicio",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    409.1,
+    541.3,
+    465.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara algunos estados límite de servicio, la transición de un estado deseado a un estado no desea-\ndo corresponde a un límite que puede estar acotado al estar asociado con una realidad mecánica.\nPara otros estados límite de servicio, sin embargo, esta transición se produce en condiciones poco\nacotadas y difusas. En estos casos, la transición está relacionada con una disminución más o me-\nnos rápida del grado de la aptitud al servicio.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    468.9,
+    541.3,
+    504.0
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn términos generales, se puede definir un grado de la aptitud al servicio, , en función de un pará-\nmetro relacionado con el comportamiento en servicio,  (por ejemplo la deformación de una viga, la\nintensidad de las vibraciones de un forjado)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    94.3,
+    510.9,
+    534.8,
+    522.4
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "0 ≤ () ≤ 1\n(C.5)",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.6,
+    529.1,
+    333.6,
+    540.6
+   ],
+   "tipo": "texto",
+   "texto": "Para el parámetro  se pueden establecer dos límites",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    93.6,
+    544.4,
+    307.7,
+    555.8
+   ],
+   "tipo": "texto",
+   "texto": "a)\n1: la obra se puede usar sin restricciones",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    93.6,
+    559.6,
+    247.1,
+    571.1
+   ],
+   "tipo": "texto",
+   "texto": "b)\n2: la obra no se puede usar.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    125.9,
+    743.4,
+    486.0,
+    764.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Figura C.3 Grado de la aptitud al servicio, μ, en función del parámetro de servicio, ",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  }
+ ],
+ "error_tablas": null
+}

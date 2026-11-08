@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0260",
+  "ruta_oficial": null,
+  "ruta_semantica": "F.2.4 Cimentaciones de pilotes en roca",
+  "titulo": "F.2.4 Cimentaciones de pilotes en roca",
+  "nivel": 1,
+  "parent_id": "a0258",
+  "seccion_estimada": "F.2.4 Cimentaciones de pilotes en roca",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 149,
+   "bbox": [
+    70.9,
+    179.3,
+    300.3,
+    191.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ec5d1e24ef029e96633200a8d4e89dea1ea487d743c5a7128eb65784fdd861fb",
+   "literal": "F.2.4 Cimentaciones de pilotes en roca"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0258",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "F.2.4 Cimentaciones de pilotes en roca",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0258",
+   "ruta_semantica": "1 · (pl – Ko po) / F.2.4 Cimentaciones de pilotes en roca",
+   "seccion_estimada": "1 · (pl – Ko po)",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "85dc64803b5a27c20aac0e741bc2cd06f47dce93e131fcbc1d5bc44c5d49522c"
+ },
+ "paginas": [
+  149
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "F.2.4 Cimentaciones de pilotes en roca\n1\nEl valor de cálculo de la resistencia por punta en roca qp,d de los pilotes excavados se podrá calcu-\nlar de acuerdo con lo indicado en el capítulo 4 para cimentaciones superficiales en roca, introdu-\nciendo un coeficiente df para tener en cuenta la longitud de empotramiento en roca:\nf\nu\nsp\nd\n,\np\nd\nq\nK\nq\n\n(F.41)\nsiendo\nKsp\nel coeficiente dado por la expresión (4.12)\nqu\nla resistencia a compresión simple de la roca\n3\nd\nL\n4,0\n1\nd\nr\nf\n\n\n\n(F.42)\nsiendo\nLr\nprofundidad de empotramiento en roca de la misma o mejor calidad que la existente en\nla base del apoyo\nd\ndiámetro real o equivalente (igual área) del pilote\n2\nLa longitud del empotramiento debe medirse a partir de la profundidad en que se obtiene contacto\ncon la roca en toda la sección del pilote. Esta profundidad dependerá de la inclinación local del te-\ncho rocoso.\n3\nDebe garantizarse la continuidad de la roca con características no inferiores a las consideradas en\nel cálculo del pilote, al menos, en una profundidad de tres diámetros por debajo del apoyo de la\npunta.\n4\nDentro de esta zona de roca se debe considerar, para la evaluación de la resistencia de los pilotes\nperforados, un valor de cálculo de la resistencia unitaria por fuste f,d (MPa) igual a:\n5\n,\n0\nu\nd\n,f\nq\n2,0\n\n\n(F.43)\nqu, vendrá especificado en MPa, debiéndose verificar siempre que la roca es estable en agua.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0149.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

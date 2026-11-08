@@ -1,0 +1,62 @@
+{
+ "documento": "GUIA-PDF-53103f0ba4da",
+ "code": "GUIA",
+ "title": "Ejemplo A2 B3 Sellado despresurizacion con red de tubos",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "2017",
+ "version_dir": "2017__c3d129965a82",
+ "sha256": "c3d129965a820e79889b15a57c180b33f580cc46a59ea9a7e6e546ed982714f5",
+ "apartado": {
+  "id_tecnico": "a0003",
+  "ruta_oficial": "1",
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "titulo": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO"
+ },
+ "paginas": [
+  1
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "1. DESCRIPCIÓN DEL EDIFICIO\n■\nUso: Residencial.\n■\nClasificación del municipio según el DB HS6 en fun­\nción del potencial de radón: Zona II.\n■\nSuperficie construida: 150 m2.\n■\nSuperficie en contacto con el terreno: 75 m2.\n■\nSuperficie construida bajo rasante: No.\n■\nTipo de ventilación: Natural a través de huecos de\nventanas.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [
+  "DB HS6"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0001_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0001.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Ejemplo_A2+B3_Sellado+despresurizacion_con_red_de_tubos.pdf",
+  "sha256": "c3d129965a820e79889b15a57c180b33f580cc46a59ea9a7e6e546ed982714f5",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0004"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": null,
+  "nivel": 1,
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0015",
+  "ruta_oficial": "3",
+  "ruta_semantica": "3 Análisis estructural y dimensionado",
+  "titulo": "3 Análisis estructural y dimensionado",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3 Análisis estructural y dimensionado",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 5,
+   "bbox": [
+    70.9,
+    250.7,
+    254.0,
+    265.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9ca6508d3a6d01255e42a317fc55fb53e5c052de1a5255a0ac2dd801e9863a71",
+   "literal": "3 Análisis estructural y dimensionado"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0008",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3 Análisis estructural y dimensionado",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Análisis estructural y dimensionado",
+   "seccion_estimada": "3 Análisis estructural y dimensionado",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bd211c9f72f8af31361aa96432659317f10455eb17512cc50b7d71e42fe759a3"
+ },
+ "paginas": [
+  5
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "3 Análisis estructural y dimensionado\n3.1 Generalidades\n3.2 Estados límite\n3.3 Variables básicas\n3.4 Modelos para el análisis estructural\n3.5 Verificaciones",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

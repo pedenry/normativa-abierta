@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0035",
+  "ruta_oficial": "4.4",
+  "ruta_semantica": "4.4. Otras acciones accidentales",
+  "titulo": "4.4. Otras acciones accidentales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.4. Otras acciones accidentales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 18,
+   "bbox": [
+    70.9,
+    146.0,
+    259.0,
+    159.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a7d407cc4b9dc3a96870017c4bef68ccad25a2c309f463710268e759440a4aec",
+   "literal": "4.4. Otras acciones accidentales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0034",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.4. Otras acciones accidentales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Acciones accidentales 4.1 Sismo / 4.4. Otras acciones accidentales",
+   "seccion_estimada": "4 Acciones accidentales 4.1 Sismo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6e473232e375c764a71c08240a3f7fa2571bec40113078f0637ac97da5ae0577"
+ },
+ "paginas": [
+  18,
+  19
+ ],
+ "etiquetas_impresas": [
+  "18",
+  "19"
+ ],
+ "tipos": [],
+ "texto": "4.4. Otras acciones accidentales\n1\nEn los edificios con usos tales como fábricas químicas, laboratorios o almacenes de materiales\nexplosivos, se hará constar en el proyecto las acciones accidentales específicas consideradas, con\nindicación de su valor característico y su modelo.\n\nDocumento Básico SE-AE Acciones en la edificación\nSE-AE 15",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

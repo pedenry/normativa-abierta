@@ -1,0 +1,87 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0071",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo A. Terminología",
+  "titulo": "Anejo A. Terminología",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Anejo A. Terminología",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 36,
+   "bbox": [
+    255.7,
+    51.4,
+    341.9,
+    60.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a57b73c23e2b006efebbcbbc5adf3b75553384cc54b2076c691c16dd06ae08dd",
+   "literal": "Anejo A. Terminología"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0091",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Anejo A. Terminología",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo A. Terminología",
+   "seccion_estimada": "Anejo A. Terminología",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e95590c094ba255444e272acd018876bef7b1cb8861675b388182daba0ab2602"
+ },
+ "paginas": [
+  36
+ ],
+ "etiquetas_impresas": [
+  "36"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Anejo A. Terminología\n36\nAnejo A Terminología\nAbsortividad (α): fracción de la radiación solar incidente a una superficie que es absorbida por la misma.\nPuede tomar valores de 0,0 (0% de radiación absorbida) hasta 1,0 (100% de radiación absorbida).\nAdiabático: ver Cerramiento adiabático.\nBienestar térmico: Condiciones interiores de temperatura, humedad y velocidad del aire establecidas\nreglamentariamente que se considera producen una sensación de bienestar adecuada y suficiente a sus\nocupantes.\nCarga interna: conjunto de solicitaciones generadas en el interior del edificio, debidas, fundamentalmente, a\nlos aportes de energía de las fuentes internas (ocupantes, equipos eléctricos, iluminación, etc.). Se expresa\nen W/m².\nLa carga interna media (CFI) cuantifica la carga interna del edificio o zona del edificio a lo largo de una semana\ntipo. De acuerdo a ella puede clasificarse un espacio, una zona o el conjunto del edificio siguiendo la tabla a-",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0036_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0036.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

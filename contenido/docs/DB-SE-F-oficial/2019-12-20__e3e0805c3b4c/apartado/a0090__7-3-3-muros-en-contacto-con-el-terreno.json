@@ -1,0 +1,85 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0090",
+  "ruta_oficial": "7.3.3",
+  "ruta_semantica": "7.3.3 Muros en contacto con el terreno",
+  "titulo": "7.3.3 Muros en contacto con el terreno",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "7.3.3 Muros en contacto con el terreno",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 42,
+   "bbox": [
+    70.9,
+    334.8,
+    259.3,
+    344.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1faa43d099691adb7f84c02f7778d1ca27b8e2f69d49775e1c8daefff5c7d37a",
+   "literal": "7.3.3 Muros en contacto con el terreno"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0095",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-HS"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "7.3.3 Muros en contacto con el terreno",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.3 Enlaces 7.3.1 Enlace entre muros y forjados / 7.3.3 Muros en contacto con el terreno",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "26e53580f9172866b8ad7ccf8ad4046b3270f4a66ffe0e3e1a1f0cdeb4a9282f"
+ },
+ "paginas": [
+  42
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "7.3.3 Muros en contacto con el terreno\n1\nLa fábrica en contacto con el terreno será tal que no se vea afectada desfavorablemente por las\ncondiciones del terreno o bien estará adecuadamente protegida para ello.\n2\nSe tomarán medidas protectoras para las fábricas que puedan ser dañadas por efecto de la humedad\nen contacto con el terreno. Se aplicarán las prescripciones indicadas en la sección correspondiente\ndel DB-HS.\n3\nCuando sea previsible que el terreno contenga sustancias químicas agresivas para la fábrica, ésta se\nconstruirá con materiales resistentes a dichas sustancias o bien se protegerá de modo que quede\naislada de las sustancias químicas agresivas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-HS"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

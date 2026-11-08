@@ -1,0 +1,124 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0190",
+  "ruta_oficial": "6.3.3.2.4",
+  "ruta_semantica": "6.3.3.2.4 Vuelco",
+  "titulo": "6.3.3.2.4 Vuelco",
+  "nivel": 1,
+  "parent_id": "a0186",
+  "seccion_estimada": "6.3.3.2.4 Vuelco",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 90,
+   "bbox": [
+    70.9,
+    636.2,
+    148.2,
+    646.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9bec680af68766d548b829c8df6a611e88592a2d244cb330ef41cca6135cc008",
+   "literal": "6.3.3.2.4 Vuelco"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0216",
+  "parent_id_original": "a0186",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.2.4 Vuelco",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0186",
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / 6.3.3.2 Estabilidad / 6.3.3.2.4 Vuelco",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 5,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9f79d4126fb074fc6776595d56df7e6ef2ffe6d74b55874d08061f902b0deb6d"
+ },
+ "paginas": [
+  90,
+  91
+ ],
+ "etiquetas_impresas": [
+  null,
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "6.3.3.2.4 Vuelco\n1\nEn general puede prescindirse de esta comprobación cuando la resultante de las fuerzas que ac-\ntúan sobre el muro, incluido el peso propio y la resultante de posibles elementos de sostenimiento\n(anclajes, forjados o arriostramientos intermedios), tenga su punto de aplicación dentro del núcleo\ncentral de la base. En el caso de bases rectangulares indefinidas, el núcleo central es una faja de\nancho: B/3.\n2\nSi V es la componente vertical de la resultante sobre la base del muro y e su excentricidad, puede\nsuponerse que las presiones del terreno siguen una ley lineal, con valores extremos (véase Figura\n6.16):\n\nDocumento Básico SE-C Cimientos\nSE-C-86\n\n\n\n\n\n\n\n\nB\ne\n6\n1\nB\nV\nmax\n(6.20)\nSi e = 0,\nB\nV\n\n\n(6.21)\nSi\n0\ny\nB\nV\n·\n2\n,\n6\nB\ne\nmín\nmáx\n\n\n\n\n(6.22)\nSi e > 6\nB se produciría el despegue de uno de los bordes, aumentando notablemente la tensión en\notro borde.\nFigura 6.16. Estabilidad al vuelco\n3\nLa estabilidad al vuelco se verificará con los criterios definidos en el capítulo 2, comparando los\nmomentos de cálculo desestabilizantes y estabilizantes respecto de la arista exterior de la base de\nla zapata.\n4\nNo se tendrá en cuenta el efecto estabilizador del empuje pasivo, salvo justificación especial.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0090.png",
+  "../figura/p0091.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

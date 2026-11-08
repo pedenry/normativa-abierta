@@ -1,0 +1,57 @@
+{
+ "documento": "GUIA-PDF-064012f7a12a",
+ "code": "GUIA",
+ "title": "Solucion B1 Ventilacion del espacio de contencion camara de aire",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__b78448d0a375",
+ "sha256": "b78448d0a375f9e7c0c436e93ac99588913afe934ff10824f8413d3918b0e9c7",
+ "apartado": {
+  "id_tecnico": "a0011",
+  "ruta_oficial": null,
+  "ruta_semantica": "1   cámara bufa / a) Ventilación natural",
+  "titulo": "a) Ventilación natural",
+  "nivel": 3,
+  "parent_id": "a0010",
+  "seccion_estimada": "1   cámara bufa"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "a) Ventilación natural\nLa cámara de aire se ventilará practicando las corres­\npondientes aberturas de ventilación (Figura 5).\nFigura 5 - Abertura de ventilación\nFigura 6 - Distribución de aberturas en planta\nSe seguirán las indicaciones generales siguientes en\ncuanto a diseño, ubicación y dimensionado:\n■\nlas aberturas se colocarán distribuidas de forma\nhomogénea en todo el perímetro (Figura 6) para\nevitar zonas con aire estancado. Sin embargo, en el\ncaso de una cámara horizontal con una superficie\nen planta de menos de 100 m2, las aberturas po­\ndrán disponerse en la misma fachada siempre que\nningún punto de la cámara diste más de 10 m de\nalguna de ellas;\n■\nel área del conjunto de aberturas será de al menos\n10 cm2 por metro lineal del perímetro de la cámara\nmedido en horizontal, aunque para concentracio­\nnes de radón superiores a 600 Bq/m3 es muy pro­\nbable que el área necesaria sea superior;\n■\nlas aberturas se ubicarán por encima de la cota que\npueda alcanzar la acumulación de nieve, en su caso;\n■\ncuando la cámara quede a un nivel inferior a la cota\nexterior, podrá realizarse una pequeña excavación\nen el terreno circundante (si la diferencia de cota es\npequeña) o disponerse un conducto periscópico\n(Figura 7) que comunique la cámara con el exterior.\nDe entre todas las posibilidades de configuración de\neste conducto se recomiendan las que no atraviesen\nel forjado, para evitar un punto crítico de entrada de\nradón;",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0003_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Solucion_B1_Ventilacion_del_espacio_de_contencion_camara_de_aire.pdf",
+  "sha256": "b78448d0a375f9e7c0c436e93ac99588913afe934ff10824f8413d3918b0e9c7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0010",
+  "nivel": 3,
+  "seccion_estimada": "1   cámara bufa",
+  "ruta_semantica": "1   cámara bufa / a) Ventilación natural"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

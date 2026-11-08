@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0056",
+  "ruta_oficial": "5.3.3",
+  "ruta_semantica": "5.3.3  Pórticos y arcos planos",
+  "titulo": "5.3.3  Pórticos y arcos planos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.3.3  Pórticos y arcos planos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 25,
+   "bbox": [
+    70.9,
+    316.1,
+    214.3,
+    326.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3d0197366c5da12f0aeaa990c3b710b895a2a2b6a10e88289221fb71531e5a6d",
+   "literal": "5.3.3  Pórticos y arcos planos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0068",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.3.3  Pórticos y arcos planos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5  Análisis estructural 5.1  Principios generales / 5.3  Sistemas de barras 5.3.1  Principios generales / 5.3.3  Pórticos y arcos planos",
+   "seccion_estimada": "5  Análisis estructural 5.1  Principios generales",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "2e48946cd8aef827df2d22c1c111d5738cede94849acd5bada68fc384ceda45b"
+ },
+ "paginas": [
+  25,
+  26
+ ],
+ "etiquetas_impresas": [
+  null,
+  "2"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "5.3.3  Pórticos y arcos planos\n1\nCuando los esfuerzos generados como consecuencia del desplazamiento de la estructura no sean\ndespreciables, debe relizarse un análisis de segundo orden como sucede con algunos pórticos tras-\nlacionales en los que los esfuerzos axiales de compresión no están muy alejados de las cargas críti-\ncas de pandeo. Los esfuerzos deben determinarse considerando, además, las posibles imperfeccio-\nnes geométricas y estructurales, es decir, las desviaciones entre los ejes geométricos y el centro\nelástico de la sección transversal, debidas, por ejemplo, a la falta de homogeneidad del material, y\nlas combaduras previas de las piezas. Éstas se estiman de la manera siguiente:\na) pórticos planos; la forma imperfecta de la estructura puede considerarse como equivalente a una\ndesviación inicial que es una aproximación a la deformada real, obtenida mediante la aplicación\nde ángulos de giro Φ en los soportes de la estructura junto con una combadura inicial de forma\nsinusoidal entre nudos de la estructura definida por la excentricidad máxima e.\nEl valor mínimo de , en radianes, debe ser:\n = 0,005\npara h5 m\n(5.6)\nh\n5\n005\n,0 =\n\npara h>5m\n(5.7)\nsiendo:\nh\nlongitud del soporte, [m];\nel valor mínimo de e debe ser:\ne = 0,0025·l\n(5.8)\nsiendo:\nl\nlongitud de la viga, [m].\nb) Arcos; para tener en cuenta las desviaciones en el análisis lineal de segundo orden se tomarán\nlas deformaciones iniciales siguientes (figura 5.2).\nEl valor mínimo de e debe ser:\ne = 0,0025·l1  para carga simétrica\n(5.9)\ne = 0,0025·l2  para carga no simétrica\n(5.10)\nsiendo:\n\nDocumentoBásico SE-M Madera\nSE-M 20\nl1 y l2  longitud de la cuerda, desde el punto de apoyo al punto de intersección de la directriz del\narco con su deformada en análisis de primer orden, para carga simétrica y no simétrica,\nrespectivamente.\na) Definición de la geometría inicial\nb) Desviación correspondiente a carga simétrica\nc) Desviación correspondiente a carga asimétrica\nFigura 5.2 Ejemplo de desviaciones iniciales de la geometría de un pórtico a dos aguas y de un arco",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0025.png",
+  "../figura/p0026.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

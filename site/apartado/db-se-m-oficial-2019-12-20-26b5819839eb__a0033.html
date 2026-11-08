@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB-SE-M · 2.2.3  Valor de cálculo de las propiedades del material y de las uniones</title><link rel="stylesheet" href="../estilo.css">
+</head><body>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">DB-SE-M</a> › 2.2.3</nav>
+
+<header class="meta">
+<p><a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">DB-SE-M</a> · 2.2.3  Valor de cálculo de las propiedades del material y de las uniones · versión 2019-12-20 · capa oficial</p>
+</header>
+<div class="cita"><strong>Cita:</strong> ID técnico a0033 · PDF pág. 11-15 · documento DB-SE-M · SHA256 26b5819839eb…</div>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/apartado/a0033__2-2-3-valor-de-calculo-de-las-propiedades-del-material-y.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/apartado/a0033__2-2-3-valor-de-calculo-de-las-propiedades-del-material-y.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/fuente.pdf">PDF fuente</a></p>
+<p><a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">Ámbito del documento</a> · <a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html#ambito">texto del ámbito</a> ·
+<a href="../doc/db-se-m-oficial-2019-12-20-26b5819839eb.html">documento y tablas</a></p>
+<nav><a href="db-se-m-oficial-2019-12-20-26b5819839eb__a0032.html">← ID a0032 · PDF pág. 11</a> <a href="db-se-m-oficial-2019-12-20-26b5819839eb__a0034.html">ID a0034 · PDF pág. 15 →</a></nav>
+<h1><span class="aviso">ID a0033 · PDF pág. 11-15</span> — 2.2.3  Valor de cálculo de las propiedades del material y de las uniones</h1>
+<p>ID técnico a0033 · PDF pág. 11-15 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 11 (candidato tipográfico); no validado por persona · padre: raíz</p>
+<pre class="literal">2.2.3  Valor de cálculo de las propiedades del material y de las uniones
+1
+El valor de cálculo, Xd, de una propiedad del material (resistencia) se define como:
+
+
+
+
+
+
+
+
+
+M
+k
+mod
+d
+X
+k
+X
+(2.6)
+siendo:
+Xk   valor característico de la propiedad del material;
+M
+coeficiente parcial de seguridad para la propiedad del material definido en la tabla 2.3;
+kmod   factor de modificación, cuyos valores figuran en la tabla 2.4 teniendo en cuenta, previamente, la
+clase de duración de la combinación de carga de acuerdo con la tabla 2.2 y la clase de servicio
+del apartado 2.2.2.2.
+
+DocumentoBásico SE-M Madera
+SE-M 6
+Tabla 2.3 Coeficientes parciales de seguridad para el material, M.
+Situaciones persistentes y transitorias:
+- Madera maciza
+1,30
+- Madera laminada encolada
+1,25
+- Madera microlaminada, tablero contrachapado, tablero de virutas orientadas
+1,20
+- Tablero de partículas y tableros de fibras (duros, medios, densidad media, blandos)
+1,30
+- Uniones
+1,30
+- Placas clavo
+1,25
+Situaciones extraordinarias:
+1,0
+2
+De manera análoga se define el valor de la capacidad de carga de cálculo (referida a una unión o un
+sistema estructural), Rd, según la expresión:
+
+
+
+
+
+
+
+
+
+M
+k
+mod
+d
+R
+k
+R
+(2.7)
+siendo:
+Rk
+valor característico de la capacidad de carga;
+M
+coeficienteparcial de seguridad para la propiedad del material definido en la tabla 2.3
+kmod
+factor de modificación, cuyos valores figuran en la tabla 2.4 teniendo en cuenta, previamente,
+la clase de duración de la combinación de la carga de acuerdo con la tabla 2.2 y la clase de
+servicio del apartado 2.2.2.2.
+Tabla 2.4 Valores del factor kmod.
+Material
+Norma
+Clase
+de
+servicio
+Clase de duración de la carga
+Permanente Larga
+Media
+Corta
+Instantánea
+Madera maciza
+UNE-EN 14081-
+1:2016
+1
+0,60
+0,70
+0,80
+0,90
+1,10
+2
+0,60
+0,70
+0,80
+0,90
+1,10
+3
+0,50
+0,55
+0,65
+0,70
+0,90
+Madera laminada
+encolada
+UNE-EN 14080:2013
+1
+0,60
+0,70
+0,80
+0,90
+1,10
+2
+0,60
+0,70
+0,80
+0,90
+1,10
+3
+0,50
+0,55
+0,65
+0,70
+0,90
+Madera  microlaminada
+UNE-EN 14374:2005,
+UNE-EN
+14279:2007+A1:2009
+1
+0,60
+0,70
+0,80
+0,90
+1,10
+2
+0,60
+0,70
+0,80
+0,90
+1,10
+3
+0,50
+0,55
+0,65
+0,70
+0,90
+Tablero contrachapado
+UNE-EN
+636:2012+A1:2015
+Tipo EN 636-1,2 y 3
+1
+0,60
+0,70
+0,80
+0,90
+1,10
+Tipo EN 636-2 y 3
+2
+0,60
+0,70
+0,80
+0,90
+1,10
+Tipo EN 636-3
+3
+0,50
+0,55
+0,65
+0,70
+0,90
+Tablero de virutas
+orientadas (OSB) 1
+UNE-EN 300:2007
+OSB/2
+1
+0,30
+0,45
+0,65
+0,85
+1,10
+OSB/3, OSB/4
+1
+0,40
+0,50
+0,70
+0,90
+1,10
+OSB/3, OSB/4
+2
+0,30
+0,40
+0,55
+0,70
+0,90
+Tablero de partículas
+UNE-EN 312:2010
+Tipo P4, Tipo P5
+1
+0,30
+0,45
+0,65
+0,85
+1,10
+Tipo P5
+2
+0,20
+0,30
+0,45
+0,60
+0,80
+Tipo P6, Tipo P7
+1
+0,40
+0,50
+0,70
+0,90
+1,10
+Tipo P7
+2
+0,30
+0,40
+0,55
+0,70
+0,90
+Tablero de fibras duro
+UNE-EN 622-2:2004
+HB.LA, HB.HLA 1 o 2
+1
+0,30
+0,45
+0,65
+0,85
+1,10
+HB.HLA 1 o 2
+2
+0,20
+0,30
+0,45
+0,60
+0,80
+Tablero de fibras semi-
+duro
+UNE-EN 622-3:2005
+MBH.LA 1 o 2,
+1
+0,20
+0,40
+0,60
+0,80
+1,10
+MBH.HLS1 o 2
+1
+0,20
+0,40
+0,60
+0,80
+1,10
+MBH.HLS1 o 2
+2
+-
+-
+-
+0,45
+0,80
+Tablero de fibras MDF
+UNE-EN 622-5:2010
+MDF.LA, MDF.HLS
+1
+0,20
+0,40
+0,60
+0,80
+1,10
+MDF.HLS
+2
+-
+-
+-
+0,45
+0,80
+1OSB = Oriented Strand Board. El acrónimo es usado frecuentemente en lengua inglesa y se ha acuñado como un nombre usual
+para el material en otros idiomas, como de hecho sucede ya en el nuestro
+
+DocumentoBásico SE-M Madera
+SE-M 7
+Si una combinación de acciones incluye acciones pertenecientes a diferentes clases de duración, el
+factor kmod debe elegirse como el correspondiente a la acción de más corta duración.
+
+DocumentoBásico SE-M Madera
+SE-M 9</pre>
+<h2>Referencias candidatas (filtradas; no censuran el texto)</h2><ul><li>EN 636</li><li>UNE-EN</li><li>apartado 2.2.2.2</li></ul><h2>Tablas en estas páginas</h2><ul><li>p. 12 · <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/tabla/p0012_t01.json">p0012_t01.json</a> · <a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/tabla/p0012_t01.csv">.csv</a></li></ul><h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0011.png"><img class="figura" src="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0011.png" alt="Página 11"></a><figcaption>Página visual 11 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0012.png"><img class="figura" src="../../contenido/docs/DB-SE-M-oficial/2019-12-20__26b5819839eb/figura/p0012.png" alt="Página 12"></a><figcaption>Página visual 12 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
+<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
+El JSON es la fuente; este HTML es caché reproducible.</footer>
+</body></html>

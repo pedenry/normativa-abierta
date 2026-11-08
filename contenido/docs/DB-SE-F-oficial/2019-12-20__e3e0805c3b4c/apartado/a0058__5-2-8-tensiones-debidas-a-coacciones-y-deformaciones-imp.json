@@ -1,0 +1,88 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0058",
+  "ruta_oficial": "5.2.8",
+  "ruta_semantica": "5.2.8 Tensiones debidas a coacciones y deformaciones impuestas",
+  "titulo": "5.2.8 Tensiones debidas a coacciones y deformaciones impuestas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.8 Tensiones debidas a coacciones y deformaciones impuestas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 25,
+   "bbox": [
+    70.9,
+    154.3,
+    391.6,
+    164.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "20504803ba3593d1cf8efe82c2fc26a0209fa643c017ab70b376e6a1937bb1dc",
+   "literal": "5.2.8 Tensiones debidas a coacciones y deformaciones impuestas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0056",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.8 Tensiones debidas a coacciones y deformaciones impuestas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo F. / 5.2.8 Tensiones debidas a coacciones y deformaciones impuestas",
+   "seccion_estimada": "Anejo F.",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "29cdeff9a3c64a05d8bcbc5ec40d19f88eec3760021e93ca8a2b5f64faefe431"
+ },
+ "paginas": [
+  25
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "5.2.8 Tensiones debidas a coacciones y deformaciones impuestas\n1\nPuede prescindirse del cálculo de los efectos debidos a la retracción, fluencia y variaciones de tem-\nperatura en fábricas sustentantes, cuando se disponen juntas de dilatación de acuerdo con las con-\ndiciones indicadas en el apartado 2.2 de este DB.\n2\nLa anchura de las juntas de dilatación debe permitir el máximo movimiento previsible de la fábrica.\n3\nPuede prescindirse del cálculo de los efectos debidos a los asientos diferenciales de la cimentación\ny a la deformación de otros elementos estructurales que sirvan de soporte al propio muro, cuando la\ndiferencia de deformación vertical de los elementos sustentadores no supere el valor de 1/1000 de la\nseparación entre dichos elementos.\nFigura 5.7 Muros con cargas concentradas.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0025.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

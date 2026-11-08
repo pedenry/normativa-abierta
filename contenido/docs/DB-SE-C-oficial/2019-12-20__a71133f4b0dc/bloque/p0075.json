@@ -1,0 +1,103 @@
+{
+ "documento": null,
+ "pagina": 75,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-70",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    253.8,
+    84.7
+   ],
+   "tipo": "titulo",
+   "texto": "6.2.6 Empujes debidos al agua",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    89.3,
+    541.3,
+    217.7
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn relación con los empujes debidos al agua se considerarán dos casos principales:\na)\nestado hidrostático;\nb)\nagua en circulación.\n2\nSalvo justificación en contra los cálculos se efectuarán por el método de las  presiones efectivas. En\nel caso que exista una capa freática en reposo en el trasdós del elemento de contención, se consi-\nderará el empuje debido al terreno sumergido, total o parcialmente, y el empuje hidrostático del\nagua.\n3\nEn la Figura 6.7 se ilustran los diagramas de presiones del terreno, PS, y del agua, Pw, correspon-\ndientes a diversos ejemplos, con superficie del terreno horizontal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    369.4,
+    541.3,
+    598.4
+   ],
+   "tipo": "texto",
+   "texto": "Figura 6.7. Empujes con agua en el trasdós y superficie del terreno horizontal\n4\nEn caso de existir agua en circulación, debe determinarse la red de corriente o filtración correspon-\ndiente a las condiciones de contorno, en el elemento de contención y en el terreno. Para ello se\npueden utilizar métodos analíticos, gráficos o analógicos.\n5\nEn estos casos las presiones sobre el elemento de contención se deducirán de la red de corriente,\nal igual que las presiones de agua que actúen sobre las cuñas deslizantes a tantear para obtener la\nsuperficie de deslizamiento crítica.\n6\nPara la determinación de la red de corriente se hará una estimación cuidadosa de la permeabilidad,\nintroduciendo las correcciones oportunas por anisotropía, estratificación, etc. (véase tabla D.28)\n7\nDe acuerdo con las condiciones del emplazamiento del elemento de contención, se estudiarán los\nsiguientes casos:\na)\nfiltración hacia el sistema de drenaje de la capa freática existente en el terreno;\nb)\ninfiltración vertical del agua de lluvia.\n8\nCuando al nivel de la base del elemento de contención no exista un estrato impermeable y sea po-\nsible la filtración bajo el elemento de contención, debe calcularse la fuerza de subpresión corres-\npondiente a partir de la red de filtración.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    620.3,
+    293.7,
+    632.3
+   ],
+   "tipo": "titulo",
+   "texto": "6.2.7 Empujes debidos a sobrecargas",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    636.8,
+    541.3,
+    730.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nCuando la magnitud de las sobrecargas es reducida en comparación con el empuje total sobre el\nelemento de contención (sobrecarga inferior al 30% del empuje total), la obtención de los empujes\ndebidos a éstas puede efectuarse mediante la Teoría de la Elasticidad. Se admite la validez del\nprincipio de superposición. Si el elemento de contención se considera fijo, la tensión horizontal de-\nterminada por procedimientos elásticos debe duplicarse.\n2\nEn casos de sobrecargas moderadas, habituales de edificación, como simplificación se podrán\nadoptar los criterios de la Figura 6.8 superponiendo los empujes debidos al terreno y los debidos a\nla sobrecarga.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

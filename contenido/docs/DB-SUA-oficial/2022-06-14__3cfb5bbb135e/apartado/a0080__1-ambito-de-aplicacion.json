@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0080",
+  "ruta_oficial": "1",
+  "ruta_semantica": "Sección SUA 5  Seguridad frente al riesgo causado por situaciones de alta ocupación / 1 Ámbito de aplicación",
+  "titulo": "1 Ámbito de aplicación",
+  "nivel": 2,
+  "parent_id": "a0078",
+  "seccion_estimada": "Sección SUA 5  Seguridad frente al riesgo causado por situaciones de alta ocupación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 23,
+   "bbox": [
+    70.9,
+    246.3,
+    251.0,
+    261.9
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "f8feb6027f0366406b0220467175a7578a6131f882f3efcbdbaa8174dd1f4609",
+   "literal": "1 Ámbito de aplicación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0048",
+  "parent_id_original": "a0078",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SI"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1 Ámbito de aplicación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0078",
+   "ruta_semantica": "Sección SUA 5  Seguridad frente al riesgo causado por situaciones de alta ocupación / 1 Ámbito de aplicación",
+   "seccion_estimada": "Sección SUA 5  Seguridad frente al riesgo causado por situaciones de alta ocupación",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c0e786de4d6282dcc9d1c4a43c61ff59263b9600ad1d14ebdec35c75f9169227"
+ },
+ "paginas": [
+  23
+ ],
+ "etiquetas_impresas": [
+  "23"
+ ],
+ "tipos": [
+  "ambito",
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Ámbito de aplicación\n1\nLas condiciones establecidas en esta Sección son de aplicación a los graderíos de estadios, pabe-\nllones polideportivos, centros de reunión, otros edificios de uso cultural, etc. previstos para más de\n3000 espectadores de pie(1). En todo lo relativo a las condiciones de evacuación les es también de\naplicación la Sección SI 3 del Documento Básico DB-SI.\n2",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SI"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,71 @@
+{
+ "indice": 2,
+ "pagina": 122,
+ "etiqueta_impresa": "122",
+ "bbox": [
+  94.0,
+  352.7,
+  541.1,
+  384.3
+ ],
+ "filas": 2,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Diámetro del colector de salida [mm]\n100 150 200 250 300 350 400 450 500",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "L x A [cm]",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "40 x 40 50 x 50 60 x 60 60 x 70 70 x 70 70 x 80 80 x 80 80 x 90 90 x 90",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "Diámetro del colector de salida [mm]\n100 150 200 250 300 350 400 450 500"
+ ],
+ "header": {
+  "names": [
+   "",
+   "Tabla 4.13 Dimensiones de las arquetas"
+  ],
+  "external": true
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB1FF7D0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB1FF440>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA15A00>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA15700>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0122.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

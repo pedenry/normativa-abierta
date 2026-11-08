@@ -1,0 +1,33 @@
+---
+
+
+documento: "DB-HS Salubridad"
+id: "DB-HS-oficial"
+capa: "oficial"
+version: "2022-06-14"
+id_tecnico: "a0059"
+ruta_oficial: null
+ruta_semantica: "Fragmento de PDF p19"
+parent_id: null
+nivel: 1
+titulo: "edificio en m"
+paginas_fisicas: "19-19"
+paginas_impresas: "19-19"
+sha256_documento: "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b"
+tipos: "figuras"
+seccion_estimada: "Fragmento de PDF p19"
+titulo_navegacion: "Fragmento de PDF p19"
+ruta_fuente: "fragmento_sin_jerarquia"
+clasificacion_navegacion: "no_encabezado"
+es_encabezado_navegacion: false
+sha256_body_normativo: "da5f2f031b0cee5f9c2bf9d68c00d0b713b4c7df6747b39df318100e9a9cb222"
+---
+
+# a0059 Fragmento de PDF p19
+
+edificio en m
+en m
+
+## Figuras / fórmulas
+
+- figura/p0019.png (página visual; fórmulas extraídas pendientes de verificación)

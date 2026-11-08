@@ -1,0 +1,77 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0092",
+  "ruta_oficial": "7.5",
+  "ruta_semantica": "Fragmento de PDF p42",
+  "titulo": "7.5 Disposiciones relativas a las armaduras 7.5.1 Sección mínima de la armadura",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p42",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p42",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Ejecución 7.1 Ejecución de muros / 7.5 Disposiciones relativas a las armaduras 7.5.1 Sección mínima de la armadura",
+   "seccion_estimada": "7 Ejecución 7.1 Ejecución de muros",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "7652a510389a11d5aaba9d94782120d2e41a6fcddd56315f437064298056f5a5"
+ },
+ "paginas": [
+  42,
+  43
+ ],
+ "etiquetas_impresas": [
+  null,
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "7.5 Disposiciones relativas a las armaduras 7.5.1 Sección mínima de la armadura\n7.5.1 Sección mínima de la armadura\n1\nLa sección de la armadura principal no será menor que el 0,1% de la sección del muro (producto del\ncanto útil por el ancho eficaz que se considera). En los muros en que los tendeles se han armado\npara incrementar su resistencia frente a cargas laterales, la sección de dicha armadura no será menor\nque el 0,03 % del área bruta de la sección.\n2\nCuando las armaduras de los tendeles se dispongan para controlar la fisuración o para dotar a la\nfábrica de ductilidad, el área de la armadura no será menor que el 0,03 % y la separación vertical no\nserá mayor que 600 mm.\n3\nUn elemento de fábrica con una armadura incluida en sus huecos, solicitada a flexión en una direc-\nción, necesita de otra armadura transversal en dirección perpendicular a la principal. El área de la\narmadura transversal no será menor que 0,05 % del producto del ancho total por el canto útil.\n\nDocumento Básico SE-F Fábrica\nSE-F-39\n4\nLa armadura transversal puede colaborar en el control de la fisuración debida a movimientos térmicos\no a la humedad.\n5\nEn muros con pilastras armadas u otras construcciones similares no se precisa armadura transversal,\na menos que sea necesaria para enlazar la fábrica al hormigón de relleno.\n6\nLas armaduras tendrán un diámetro nominal mínimo de 6 mm. Las barras corrugadas o grafiladas\ntendrán un diámetro nominal mínimo de 6mm. Las barras o alambres de las mallas o armaduras de\ntendel tendrán un diámetro nominal mínimo de 5mm. En el caso de armaduras electrosoldadas en\ncelosía, podrán emplearse, en los elementos transversales de conexión de la celosía, alambres de 4\ny 4,5 mm de diámetro.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0043.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0093",
+  "a0097",
+  "a0098"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

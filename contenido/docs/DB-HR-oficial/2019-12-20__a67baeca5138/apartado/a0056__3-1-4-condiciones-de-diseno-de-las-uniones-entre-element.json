@@ -1,0 +1,102 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0056",
+  "ruta_oficial": "3.1.4",
+  "ruta_semantica": "3.1.4  Condiciones de diseño de las uniones entre elementos constructivos",
+  "titulo": "3.1.4  Condiciones de diseño de las uniones entre elementos constructivos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.4  Condiciones de diseño de las uniones entre elementos constructivos",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 31,
+   "bbox": [
+    70.9,
+    677.5,
+    431.1,
+    688.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "af552a3211b6375d2d6b556130a16d89998aceba6226c0a2205994e590218012",
+   "literal": "3.1.4  Condiciones de diseño de las uniones entre elementos constructivos"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 2.1",
+   "apartado 5"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.4  Condiciones de diseño de las uniones entre elementos constructivos",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.1.4  Condiciones de diseño de las uniones entre elementos constructivos",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1aa274503e1dd1a7ffd215bab421a6a6b9ff5e6b3a475735b4c98872f047dc12"
+ },
+ "paginas": [
+  31,
+  32
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.1.4  Condiciones de diseño de las uniones entre elementos constructivos\nDeben cumplirse las siguientes condiciones relativas a las uniones entre los diferentes elementos cons-\ntructivos, para que junto a las condiciones establecidas en cualquiera de las dos opciones y las condicio-\nnes de ejecución establecidas en el apartado 5, se satisfagan los valores límite de aislamiento especifi-\ncados en el apartado 2.1.\n\nDocumento Básico HR - Protección frente al ruido\nHR-26",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.1",
+  "apartado 5"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0031.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0057",
+  "a0059"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

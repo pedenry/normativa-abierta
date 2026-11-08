@@ -1,0 +1,284 @@
+{
+ "documento": null,
+ "pagina": 82,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 76",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    152.9,
+    349.1,
+    459.0,
+    370.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura 10.3 Soportes compuestos: a) con separadores. b) con presillas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    88.8,
+    371.4,
+    538.8,
+    406.5
+   ],
+   "tipo": "texto",
+   "texto": "Para columnas con dos cordones de área A, el área Atot y el momento de inercia total Itotse determi-\nnan según las expresiones siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    88.8,
+    414.1,
+    129.1,
+    424.1
+   ],
+   "tipo": "texto",
+   "texto": "Atot = 2A",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    431.3,
+    198.8,
+    441.6
+   ],
+   "tipo": "texto",
+   "texto": "Itot = b((2h + a)3 - a3))/12",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    88.8,
+    449.0,
+    366.1,
+    459.0
+   ],
+   "tipo": "texto",
+   "texto": "Para columnas con tres cordones, Atot y Itot se calculan según:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    466.5,
+    129.1,
+    476.5
+   ],
+   "tipo": "texto",
+   "texto": "Atot = 3A",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    88.8,
+    483.8,
+    253.6,
+    494.0
+   ],
+   "tipo": "texto",
+   "texto": "Itot = b((3h + 2a)3 - (h + 2a)3 + h3) /12",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    88.8,
+    501.6,
+    123.8,
+    511.5
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    88.8,
+    519.1,
+    502.4,
+    529.1
+   ],
+   "tipo": "texto",
+   "texto": "Atot y A\nárea total de la sección transversal del soporte y de un cordón, respectivamente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    88.8,
+    536.6,
+    473.6,
+    546.6
+   ],
+   "tipo": "texto",
+   "texto": "Itot e Iz\nmomento de inercia respecto al eje y y respecto al eje z, respectivamente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    88.8,
+    554.0,
+    471.4,
+    564.0
+   ],
+   "tipo": "texto",
+   "texto": "a, b y h\nseparación entre cordones, ancho y grueso del cordón, respectivamente.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    590.0,
+    160.3,
+    600.0
+   ],
+   "tipo": "texto",
+   "texto": "10.2.1.1  Hipótesis",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    608.6,
+    382.0,
+    618.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe tendrán en cuenta las hipótesis siguientes (véase figura 10.3):",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    88.8,
+    626.0,
+    385.8,
+    636.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "a) el soporte se encuentra sometido a carga axial concéntrica Fc;",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.8,
+    643.5,
+    333.7,
+    653.5
+   ],
+   "tipo": "texto",
+   "texto": "b) los soportes están biarticulados con una longitud l;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    88.8,
+    661.1,
+    411.0,
+    671.0
+   ],
+   "tipo": "texto",
+   "texto": "c) los cordones son de una pieza con la longitud completa del soporte;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    88.8,
+    678.6,
+    394.2,
+    688.5
+   ],
+   "tipo": "texto",
+   "texto": "d) la sección transversal se compone de 2, 3 ó 4 cordones iguales;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    88.8,
+    696.1,
+    325.3,
+    706.1
+   ],
+   "tipo": "texto",
+   "texto": "e) la sección transversal tiene dos ejes de simetría;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.8,
+    713.5,
+    541.3,
+    746.5
+   ],
+   "tipo": "texto",
+   "texto": "f)\nel número mínimo de tramos en los que queda dividido el soporte es de 3; es decir los cordones\nse encuentran conectados al menos en los extremos y en los dos puntos intermedios situados a\nlos tercios de la longitud del soporte;",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

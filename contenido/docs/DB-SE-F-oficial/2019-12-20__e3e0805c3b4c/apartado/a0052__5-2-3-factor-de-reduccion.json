@@ -1,0 +1,93 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0052",
+  "ruta_oficial": "5.2.3",
+  "ruta_semantica": "5.2.3 Factor de reducción ",
+  "titulo": "5.2.3 Factor de reducción ",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.3 Factor de reducción ",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 22,
+   "bbox": [
+    70.9,
+    119.1,
+    210.3,
+    130.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "fd91b6bf0509601a6bac939209c21474a7a1bd854959f30f0a8c8548e941ef50",
+   "literal": "5.2.3 Factor de reducción "
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0051",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 5.2.2",
+   "apartado 5.2.4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.3 Factor de reducción ",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Comportamiento estructural 5.1 Generalidades / 5.2 Muros sometidos predominantemente a carga vertical 5.2.1 Análisis de solicitaciones / 5.2.3 Factor de reducción ",
+   "seccion_estimada": "5 Comportamiento estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f1f9c1afdd04bc6a663d8c57901a079782582343be848e435982d8cbcbfe6cce"
+ },
+ "paginas": [
+  22,
+  23
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "5.2.3 Factor de reducción \n3\nEn cabeza y base de muro (figura 5.4), el factor de reducción, , vale:\nen cabeza\n =\nt\ne\n2\n1\n(5.7)\nen base\n =\nt\na\n2\nt\ne\n2\n1\n\n\n(5.8)\nsiendo:\na\nla profundidad con que se remete la tabica del forjado respecto a la cara exterior del muro (figu-\nras 5.2 y 5.3)\ne\nla excentricidad total de la sección que se comprueba. Salvo que se haya obtenido por capaci-\ndad, según el apartado 5.2.2, se considerará:\ne = MSd/NSd+ ea > 0,05·t (5.9)\ndonde:\nMSd\nes el momento flector de cálculo de la sección que se comprueba, deducido del mo-\ndelo estructural adoptado, debido a carga vertical, más, en su caso, el debido a las\nacciones laterales locales, según 5.5\nNSd\nes el esfuerzo normal de cálculo en la sección que se comprueba, deducido del mo-\ndelo estructural, en general considerando las plantas superiores sin sobrecarga.\nea\nes un incremento de excentricidad por ejecución. Si la categoría de ejecución es la B,\nea =  hd /450. Si la categoría de ejecución es la A, ea =  hd /500.  Si la categoría es la\nC, se adoptará el valor ea = 20 mm, si se trata de un tramo entre forjados y ea = 50\nmm, si corresponde a un tramo libre en su extremo superior o su altura es la total del\nedificio. En las expresiones anteriores, hd es la altura de cálculo del muro, según el\napartado 5.2.4\nFigura 5.5. Normales y momentos flectores en un muro.\n4\nEn paños entre tramos sucesivos de forjados, a media altura (figura 5.5), el factor de reducción  se\ndeterminará, de forma simplificada a partir de la ecuación (5.10). La formulación completa para la\ndeterminación de  a media altura se encuentra en el Anejo D.\n\nDocumento Básico SE-F Fábrica\nSE-F-19\n =\nt\ne\n2\n1\nm\n\n(5.10)\nsiendo:\nem  = e + ep (5.11)\ndonde:\ne\nes la excentricidad debida a las solicitaciones en ese punto, según (5.9),\nep\nla excentricidad debida a pandeo, de valor\nep  =  0,00035 ·t · (hd / td)2\n(5.12)\n5\nLa excentricidad por fluencia puede considerarse nula para muros ejecutados con piezas cerámicas\no de piedra natural, y en muros ejecutados con otro tipo de piezas con esbeltez menor o igual a 15.\nPara tener en cuenta la fluencia, el valor ep se incrementará en:\nep =\nm\nd\nd\ne·t\n·\nt\nh\n·\n·\n002\n,0\n\n\n(5.13)\ndonde:\nhd\nes la altura de cálculo, según el apartado 5.2.4\ntd\nes el espesor de cálculo del muro, según 5.2.5",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 5.2.2",
+  "apartado 5.2.4"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0022.png",
+  "../figura/p0023.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

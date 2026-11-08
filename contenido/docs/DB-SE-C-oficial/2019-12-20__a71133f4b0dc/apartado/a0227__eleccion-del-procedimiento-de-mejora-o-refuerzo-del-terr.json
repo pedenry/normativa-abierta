@@ -1,0 +1,117 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0227",
+  "ruta_oficial": null,
+  "ruta_semantica": "Elección del procedimiento de mejora o refuerzo del terreno",
+  "titulo": "Elección del procedimiento de mejora o refuerzo del terreno",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Elección del procedimiento de mejora o refuerzo del terreno",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 104,
+   "bbox": [
+    70.9,
+    127.0,
+    510.1,
+    141.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d0befe75438deba55878fc072e655b131faa9266b78b56ec83727c48da201f6e",
+   "literal": "Elección del procedimiento de mejora o refuerzo del terreno"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Elección del procedimiento de mejora o refuerzo del terreno",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Sección 1, a los efectos de este DB el control de las presiones originadas por el agua en el relleno / Elección del procedimiento de mejora o refuerzo del terreno",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "623856d0d8d26c4523b09a222cd36ede867e91955770ee7f52f764c8904cb6cd"
+ },
+ "paginas": [
+  104
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [],
+ "texto": "Elección del procedimiento de mejora o refuerzo del terreno\n1\nLa mejora o refuerzo del terreno podrá hacerse mediante su mezcla con aglomerantes hidráulicos,\nsustitución, precarga, compactación dinámica, vibro-flotación, inyección, inyección de alta presión\n(jet grouting), u otros procedimientos que garanticen un incremento adecuado de sus propiedades.\n2\nPara elegir el proceso más adecuado de mejora o refuerzo del terreno deben tomarse en conside-\nración, según proceda, los siguientes factores:\na)\nespesor y propiedades del suelo o relleno a mejorar;\nb)\npresiones intersticiales en los diferentes estratos;\nc)\nnaturaleza, tamaño y posición de la estructura a apoyar en el terreno;\nd)\nprevención de daños a las obras o servicios adyacentes;\ne)\nmejora provisional o permanente del terreno;\nf)\nen términos de las deformaciones previsibles, la relación entre el método de mejora del terreno\ny la secuencia constructiva;\ng)\nlos efectos en el entorno, incluso la posible contaminación por substancias tóxicas (en el caso\nen que éstas se introdujeran en el terreno en el proceso de mejora) o las modificaciones en el\nnivel freático;\nh)\nla degradación de los materiales a largo plazo (por ejemplo en el caso de inyecciones de mate-\nriales inestables).\n8.4",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

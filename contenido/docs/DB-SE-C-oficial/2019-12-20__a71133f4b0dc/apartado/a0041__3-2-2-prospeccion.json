@@ -1,0 +1,129 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0041",
+  "ruta_oficial": "3.2.2",
+  "ruta_semantica": "3.2.2 Prospección",
+  "titulo": "3.2.2 Prospección",
+  "nivel": 1,
+  "parent_id": "a0010",
+  "seccion_estimada": "3.2.2 Prospección",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 18,
+   "bbox": [
+    70.9,
+    549.3,
+    181.7,
+    561.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a9e6ebda2a25610f245027c93c0948fd29c6e3b86e880971011fca2406bdbcd4",
+   "literal": "3.2.2 Prospección"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0051",
+  "parent_id_original": "a0010",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Real Decreto\n1627/1997"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.2.2 Prospección",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0010",
+   "ruta_semantica": "Anejo G. Normas de referencia / 3.2.2 Prospección",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "9f1e120ac79a68dbf2653a1ddce4325e971342879ae98491a657d906da7241e5"
+ },
+ "paginas": [
+  18,
+  19
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.2.2 Prospección\n1\nLa prospección del terreno podrá llevarse a cabo mediante calicatas, sondeos mecánicos, pruebas\ncontinuas de  penetración o métodos geofísicos. En el anejo C se describen las principales técnicas\nde prospección así como su aplicabilidad, que se llevarán a cabo de acuerdo con el Real Decreto\n1627/1997, de 24 de octubre, por el que se establecen disposiciones mínimas de seguridad y salud\nen las obras de construcción.\n2\nEn los reconocimientos de los tipos de construcción C-0 y grupo de terreno T-1, las pruebas de\npenetración deben complementarse siempre con otras técnicas de reconocimiento como podrían\nser calicatas. En otros casos, en el  reconocimiento se podrán utilizar las pruebas de penetración\npara la identificación de unidades geotécnicas, que deben contrastarse mediante sondeos mecáni-\ncos.\n3\nEn el marco del presente DB no se pueden utilizar exclusivamente métodos geofísicos para carac-\nterizar el terreno, debiendo siempre contrastarse sus resultados con los sondeos mecánicos.\n4\nEn general, se podrán aplicar las técnicas geofísicas para la caracterización geotécnica y geológica,\ncon el objeto de complementar datos, mejorar su correlación, acometer el estudio de grandes su-\nperficies y determinar los cambios laterales de facies, no siendo aconsejable en cascos urbanos\nconsolidados.\n\nDocumento Básico SE-C Cimientos\nSE-C-14",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto\n1627/1997"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0018.png",
+  "../figura/p0019.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

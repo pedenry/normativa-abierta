@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0125",
+  "ruta_oficial": "8.8.3",
+  "ruta_semantica": "8.8.3 Uniones en T atornilladas y a tracción.",
+  "titulo": "8.8.3 Uniones en T atornilladas y a tracción.",
+  "nivel": 1,
+  "parent_id": "a0120",
+  "seccion_estimada": "8.8.3 Uniones en T atornilladas y a tracción.",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 83,
+   "bbox": [
+    74.1,
+    578.8,
+    284.8,
+    590.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "e70ead51267aa8939827c8bac34e833899d1cb3780c3974f44943a124dcedff6",
+   "literal": "8.8.3 Uniones en T atornilladas y a tracción."
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0123",
+  "parent_id_original": "a0120",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.8.3 Uniones en T atornilladas y a tracción.",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0120",
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.8 Algunas uniones típicas / 8.8.3 Uniones en T atornilladas y a tracción.",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "34961223f71098933aec43a844b654758461da24dc416f9682783ced8a75071e"
+ },
+ "paginas": [
+  83,
+  84
+ ],
+ "etiquetas_impresas": [
+  "83",
+  "84"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.8.3 Uniones en T atornilladas y a tracción.\nSe tratan en este apartado uniones en las que la pieza o chapa traccionada se remata frontalmente con\nuna chapa o rigidizador atornillada al otro elemento de la unión. Sólo se consideran formas en T (tam-\nbién denominadas casquillos) para la sección paralela a las tracciones y perpendicular al espesor de la\nchapa que compone la pieza traccionada (fig. 8.15). En las uniones rígidas o semirrígidas de este tipo\nentre viga –con chapa frontal– y ala de pilar, la chapa frontal en el pilar es el ala, y la traccionada el al-\nma, lo que da origen a las denominaciones de ala y alma para las respectivas chapas.\n1\nLa carga de rotura será la menor de las obtenidas:\na)\nPor rotura a tracción del alma.\nb)\nPor rotura a tracción de los tornillos.\n∑\n=\nRd\n,t\nmax\n,d\nF\nF\n(8.46)\n\nDocumentoBásico SE-A Acero\nSE-A-82\nDonde el sumatorio se refiere a todos los tornillos de la unión y Ft.Rd es la resistencia de cálcu-\nlo a tracción de un tornillo.\nEsto supone una forma rígida de rotura e implica la utilización de rigidizadores adecuados o\nun ala muy gruesa.\nc)\nPor rotura a tracción de los tornillos y formación simultanea de rótulas (charnelas o líneas de\nrotura) en la zona de entronque ala-alma, lo que supone un mecanismo menos rígido de rotu-\nra.\ns\nm\nF\ns\nM\nb 2\nF\nRd\n,t\np\nmax\n,d\n+\n+\n=",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0083.png",
+  "../figura/p0084.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

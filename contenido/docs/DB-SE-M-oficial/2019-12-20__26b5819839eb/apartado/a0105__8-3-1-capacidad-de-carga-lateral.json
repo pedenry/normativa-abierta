@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0105",
+  "ruta_oficial": "8.3.1",
+  "ruta_semantica": "8.3.1  Capacidad de carga lateral",
+  "titulo": "8.3.1  Capacidad de carga lateral",
+  "nivel": 1,
+  "parent_id": "a0104",
+  "seccion_estimada": "8.3.1  Capacidad de carga lateral",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 51,
+   "bbox": [
+    70.9,
+    72.2,
+    228.4,
+    82.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "38e9762638816694157d5e2f09e851db0c71536b5e7eadc881acfb0eaea7afec",
+   "literal": "8.3.1  Capacidad de carga lateral"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0118",
+  "parent_id_original": "a0104",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.3.1  Capacidad de carga lateral",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0104",
+   "ruta_semantica": "8  Uniones 8.1  Introducción / 8.3  Uniones de tipo clavija / 8.3.1  Capacidad de carga lateral",
+   "seccion_estimada": "8  Uniones 8.1  Introducción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "698765af4de44220d2a4d73ec7593cf35be3dc19788f7ee145d3de3d50394c57"
+ },
+ "paginas": [
+  51
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.3.1  Capacidad de carga lateral\n1\nEl valor característico de la capacidad de carga lateral de un elemento mecánico de fijación, Fv,Rk,\ndebe tomarse como el menor valor de los obtenidos en cada grupo de expresiones correspondientes\na las distintas opciones de uniones.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0051.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0106",
+  "a0107"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,271 @@
+{
+ "documento": null,
+ "pagina": 37,
+ "etiqueta_impresa": "5",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-32",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    85.3,
+    76.9,
+    542.5,
+    101.0
+   ],
+   "tipo": "texto",
+   "texto": "V\nH\ntan\n\n\n(4.5)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    85.3,
+    109.5,
+    542.5,
+    134.0
+   ],
+   "tipo": "texto",
+   "texto": "V\nH\ntan\nB\nB \n\n(4.6)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    85.3,
+    142.5,
+    542.5,
+    167.0
+   ],
+   "tipo": "texto",
+   "texto": "V\nH\ntan\nL\nL \n\n(4.7)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    174.5,
+    541.3,
+    274.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo\n  H\nla componente horizontal de la resultante de las acciones\n  HB, HL\nlas componentes de H en dos direcciones ortogonales (habitualmente paralelas a los\nejes o direcciones principales de la cimentación)\n8\nNormalmente, el plano de cimentación será horizontal. Si ese plano tuviese una ligera inclinación, el\nconcepto vertical y horizontal podrán cambiarse por normal y tangencial al plano de cimentación y\nseguir aplicando las reglas indicadas. Las inclinaciones superiores al 3(H): 1(V) requerirán técnicas\nde análisis específicas que exceden el alcance de este DB.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    295.7,
+    534.5,
+    307.7
+   ],
+   "tipo": "titulo",
+   "texto": "4.3.2 Determinación de la presión de hundimiento mediante métodos analíticos.",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    319.2,
+    234.1,
+    329.2
+   ],
+   "tipo": "texto",
+   "texto": "4.3.2.1 Expresión analítica básica",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    334.8,
+    541.3,
+    356.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa presión de hundimiento de una cimentación directa vendrá definida por la ecuación (4.8). Podrá\nexpresarse en presiones totales o efectivas, brutas o netas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    85.3,
+    363.7,
+    542.5,
+    389.3
+   ],
+   "tipo": "texto",
+   "texto": "\n\n\n\n\n\n\n\n\nt\ni\ns\nd\nN\n*\nB\n2\n1\nt\ni\ns\nd\nN\nq\nt\ni\ns\nd\nN\nc\nq\nK\nq\nq\nq\nq\nq\nK\n0\nc\nc\nc\nc\nc\nK\nh\n(4.8)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    88.9,
+    396.7,
+    481.0,
+    464.8
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nqh\nla presión vertical de hundimiento o resistencia característica del terreno Rk;\nq0K\nla presión vertical característica alrededor del cimiento al nivel de su base;\ncK\nel valor característico de la cohesión del terreno;\nB*\nel ancho equivalente del cimiento;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    88.9,
+    468.5,
+    495.0,
+    480.0
+   ],
+   "tipo": "texto",
+   "texto": "K\nel peso específico característico del terreno por debajo de la base del cimiento;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    88.9,
+    485.3,
+    541.3,
+    495.2
+   ],
+   "tipo": "texto",
+   "texto": "Nc, Nq, N los factores de capacidad de carga. Son adimensionales y dependen exclusivamente del",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    141.5,
+    496.1,
+    541.3,
+    519.0
+   ],
+   "tipo": "texto",
+   "texto": "valor característico del ángulo de rozamiento interno característico del terreno (k). Se\ndenominan respectivamente factor de cohesión, de sobrecarga y de peso específico;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    88.9,
+    524.3,
+    541.3,
+    557.2
+   ],
+   "tipo": "texto",
+   "texto": "dc, dq, d\nlos coeficientes correctores de influencia para considerar la resistencia al corte del te-\nrreno situado por encima y alrededor de la base del cimiento. Se denominan factores de\nprofundidad;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    88.9,
+    562.6,
+    538.3,
+    572.5
+   ],
+   "tipo": "texto",
+   "texto": "sc, sq, s\nlos coeficientes correctores de influencia para considerar la forma en planta del cimiento;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    88.9,
+    577.8,
+    541.3,
+    599.2
+   ],
+   "tipo": "texto",
+   "texto": "ic, iq, i\nlos coeficientes correctores de influencia para considerar el efecto de la inclinación de la\nresultante de las acciones con respecto a la vertical;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    88.9,
+    604.6,
+    541.3,
+    625.9
+   ],
+   "tipo": "texto",
+   "texto": "tc, tq, t\nlos coeficientes correctores de influencia para considerar la proximidad del cimiento a un\ntalud.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    629.8,
+    541.3,
+    739.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos parámetros característicos de la resistencia al corte del terreno (ck, k) deben ser representati-\nvos, para cada situación de dimensionado, de la resistencia del terreno en una profundidad com-\nprendida, al menos, entre vez y vez y media el ancho real de la cimentación (B), a contar desde la\nbase de ésta.\n3\nLa expresión (4.8) se podrá ampliar con factores de influencia adicionales para tener en cuenta la\nexistencia de una capa rígida a escasa profundidad bajo la cimentación, la inclinación de la base de\nla zapata, etc. Los factores a emplear en estos casos deben encontrarse suficientemente justifica-\ndos y documentados, y se ajustarán a los criterios comúnmente aceptados en Mecánica del Suelo.\n4\nEl desarrollo de los coeficientes correctores de influencia figura en el Anejo F",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    743.1,
+    541.3,
+    766.0
+   ],
+   "tipo": "texto",
+   "texto": "5\nA efectos prácticos, si el terreno es uniforme (de peso específico aparente aproximado ’ = 18\nkN/m3) y si la cimentación se encuentra por encima del nivel freático, sobre terreno horizontal, se",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

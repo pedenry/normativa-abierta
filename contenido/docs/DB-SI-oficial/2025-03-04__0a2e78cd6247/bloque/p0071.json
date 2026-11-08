@@ -1,0 +1,456 @@
+{
+ "documento": null,
+ "pagina": 71,
+ "etiqueta_impresa": "71",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    197.6,
+    35.9,
+    414.1,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio\nAnejo D. Resistencia al fuego de los elementos de acero",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "71",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.3,
+    541.4,
+    105.3
+   ],
+   "tipo": "texto",
+   "texto": "2\nEn el caso de estructuras arriostradas en las que cada sector no abarque más de una planta y en las\nque la sección del soporte se haya determinado adoptando como longitud de pandeo al menos el 0,7\nde la altura entre plantas, la resistencia al fuego puede determinarse mediante la tabla D.1.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    111.7,
+    541.2,
+    157.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn cualquier caso, en soportes de pared no delgada (clases 1,2 o 3), la capacidad resistente de\ncálculo considerando pandeo de un elemento sometido a flexocompresión puede verificarse, a partir\nde las solicitaciones obtenidas de la combinación de acciones en caso de incendio, mediante las ex-\npresiones generales de DB-SE-A usando los valores modificados dados a continuación:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    88.8,
+    164.5,
+    464.3,
+    175.8
+   ],
+   "tipo": "texto",
+   "texto": "a) el límite elástico se reducirá multiplicándolo por el coeficiente ky, de la tabla D.2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    88.8,
+    182.0,
+    540.9,
+    193.2
+   ],
+   "tipo": "texto",
+   "texto": "b) como longitud de pandeo se tomará, en estructuras arriostradas y si el sector de incendio no",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    108.1,
+    193.4,
+    541.4,
+    216.1
+   ],
+   "tipo": "texto",
+   "texto": "abarca más de una planta, la mitad de la altura entre plantas intermedias, o el 0,7 de la altura de\nla última planta.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    222.4,
+    541.4,
+    245.1
+   ],
+   "tipo": "texto",
+   "texto": "c)\ncomo curva de pandeo se utilizará la curva c, con independencia del tipo de sección transversal\no el plano de pandeo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    88.8,
+    252.3,
+    506.5,
+    263.4
+   ],
+   "tipo": "texto",
+   "texto": "d) la esbeltez reducida se incrementará multiplicándola por el coeficiente k, de la tabla D.2",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    118.9,
+    276.5,
+    493.2,
+    286.6
+   ],
+   "tipo": "texto",
+   "texto": "Tabla D.2 Valores de los parámetros mecánicos del acero en función de la temperatura",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    103.7,
+    290.3,
+    542.2,
+    300.4
+   ],
+   "tipo": "texto",
+   "texto": "Temperatura (ºC)\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\n1200",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    112.7,
+    304.1,
+    541.0,
+    314.5
+   ],
+   "tipo": "texto",
+   "texto": "k y, =  f y, / f y\n1,00\n1,00\n1,00\n1,00\n0,78\n0,47\n0,23\n0,11\n0,06\n0,04\n0,00",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    112.7,
+    328.1,
+    144.7,
+    339.1
+   ],
+   "tipo": "texto",
+   "texto": "k , =",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    146.8,
+    318.7,
+    165.0,
+    336.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "_\nθ\n_",
+   "tamano": 7.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    146.5,
+    323.1,
+    533.7,
+    339.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "λ\n/\nλ\n1,00\n1,05\n1,11\n1,19\n1,14\n1,23\n1,33\n-\n-\n-\n-",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    354.8,
+    352.5,
+    368.2
+   ],
+   "tipo": "texto",
+   "texto": "D.2.3 Determinación de la temperatura del acero",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    376.7,
+    541.3,
+    410.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara comprobar vigas o soportes, en función de la variación de los parámetros mecánicos del acero,\nestablecidas en la tabla D.2, es preciso obtener la temperatura en el elemento, mediante un cálculo\nincremental, de acuerdo con la variación de la temperatura del sector.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    416.9,
+    538.7,
+    441.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nPara acero sin revestir, el incremento de temperatura en el acero, s,t, suponiéndola distribuida uni-\nformemente en la sección, en un incremento de tiempo t, se determina mediante la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    126.1,
+    456.2,
+    181.6,
+    474.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "Δt\nh\nρ\nc",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    90.9,
+    448.9,
+    171.6,
+    476.0
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "/V\nA\n=\nΔθ\nd\nnet,\ns\ns",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 20,
+   "bbox": [
+    103.6,
+    453.9,
+    521.4,
+    469.1
+   ],
+   "tipo": "texto",
+   "texto": "m\ns,t\n\n(D.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 21,
+   "bbox": [
+    88.8,
+    483.5,
+    123.9,
+    494.6
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    88.8,
+    501.1,
+    331.5,
+    512.2
+   ],
+   "tipo": "texto",
+   "texto": "Am/V\nfactor de forma, según se define en D.2.1;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    88.8,
+    518.5,
+    541.0,
+    541.3
+   ],
+   "tipo": "texto",
+   "texto": "cs\ncalor específico del acero, que puede suponerse independiente de la temperatura, y de\nvalor cs = 600 J/kgK;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    88.8,
+    547.5,
+    541.3,
+    570.2
+   ],
+   "tipo": "texto",
+   "texto": "h’net,d\nvalor de cálculo del flujo de calor neto por unidad de área (W/m2), que se considera suma\ndel valor del flujo de calor por radiación h’net,r  y por convección h’net,c , siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    141.9,
+    576.1,
+    521.4,
+    595.2
+   ],
+   "tipo": "texto",
+   "texto": "h’net,r  = \nf\nm\n\n[(\nr\n+ 273)4–(\ns\n+ 273)4],\n[W/m2]\n(D.2)",
+   "tamano": 13.5,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    141.9,
+    602.4,
+    175.2,
+    613.5
+   ],
+   "tipo": "texto",
+   "texto": "donde:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    157.8,
+    618.8,
+    501.5,
+    631.2
+   ],
+   "tipo": "texto",
+   "texto": "\nfactor de configuración, de valor 1,0 si no existen datos específicos;",
+   "tamano": 10.2,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    156.0,
+    637.1,
+    491.6,
+    649.3
+   ],
+   "tipo": "texto",
+   "texto": "f\nemisividad del fuego, de valor 1,0 si no existen datos específicos;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    156.0,
+    655.4,
+    539.3,
+    667.5
+   ],
+   "tipo": "texto",
+   "texto": "m\nemisividad superficial del material, que en el caso del acero tiene valor 0,50;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 30,
+   "bbox": [
+    157.8,
+    673.4,
+    541.1,
+    700.0
+   ],
+   "tipo": "texto",
+   "texto": "r\n\ntemperatura de radiación efectiva en el sector de incendio [ºC], que puede\ntomarse igual a la del gas según B.2 ;",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 31,
+   "bbox": [
+    157.8,
+    705.9,
+    393.9,
+    720.5
+   ],
+   "tipo": "texto",
+   "texto": "s\n\ntemperatura superficial del elemento (ºC), y",
+   "tamano": 10.6,
+   "negrita": false
+  },
+  {
+   "i": 32,
+   "bbox": [
+    157.8,
+    726.6,
+    426.9,
+    739.1
+   ],
+   "tipo": "texto",
+   "texto": "\nconstante de Boltzmann; igual a  5,67·10-8 W/m2 K4",
+   "tamano": 10.1,
+   "negrita": false
+  },
+  {
+   "i": 33,
+   "bbox": [
+    141.9,
+    745.7,
+    521.4,
+    764.7
+   ],
+   "tipo": "texto",
+   "texto": "h’net,c=\nc\n(\ng\n–\ns\nΘ )\n[W/m2]\n(D.3)",
+   "tamano": 12.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

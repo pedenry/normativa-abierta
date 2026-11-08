@@ -1,0 +1,120 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0148",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p64",
+  "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p64",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p64",
+  "referencias_filtradas": [
+   "DB-HS",
+   "apartado 6.3.2.1"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / Definiciones y tipologías 6.1.1 Pantallas",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bf7e239e911c8fba588f9e1f1433ac17a7d972bac9b063b3e7d8ea5dd30718bf"
+ },
+ "paginas": [
+  64,
+  65
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "definiciones",
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Definiciones y tipologías 6.1.1 Pantallas\n6.1.1 Pantallas\n1\nSe denomina pantallas a los elementos de contención de tierras que se emplean para realizar ex-\ncavaciones verticales en aquellos casos en los que el terreno, los edificios u otras estructuras ci-\nmentadas en las inmediaciones de la excavación, no serían estables sin sujeción, o bien, se trata\nde eliminar posibles filtraciones de agua a través de los taludes de la excavación y eliminar o redu-\ncir a límites admisibles las posibles filtraciones a través del fondo de la misma, o de asegurar la es-\ntabilidad de éste frente a fenómenos de sifonamiento. Se construyen desde la superficie del terreno\npreviamente a la ejecución de la excavación y trabajan fundamentalmente a flexión. Quedan exclui-\ndas las pantallas que tienen únicamente por objeto la impermeabilización o estanqueidad.\n2\nSi la excavación se produce por debajo del nivel freático, habrá que prever una impermeabilización\nsuplementaria al propio hormigón conforme a lo indicado en el DB-HS Sección 1.\n3\nLa pantalla cumple una labor estructural de contención de tierras, y de impermeabilización del vaso,\npero no puede considerarse un elemento totalmente terminado ni absolutamente impermeable, da-\ndas las características intrínsecas del material y del proceso de ejecución. En cualquier caso será\nnecesario prever un acabado final de su superficie, ya que se hormigona contra el propio terreno.\nEn general, la fase crítica en la vida de la pantalla es la de la ejecución.\n4\nLas condiciones esenciales de las pantallas que las diferencian de los muros y las entibaciones,\nson:\na)\nse ejecutan previamente a la excavación;\nb)\nen general alcanzan una profundidad bajo el fondo de excavación que no es pequeña en rela-\nción con la altura libre de la pantalla;\n\nDocumento Básico SE-C Cimientos\nSE-C-60\nc)\nel empotramiento de la pantalla en el terreno por debajo del fondo de la excavación es, en ge-\nneral, indispensable para su estabilidad, constituyendo en ocasiones el único elemento que la\nproporciona y siendo el peso propio de la pantalla un factor de influencia muy escasa o nula;\nd)\nson estructuras flexibles y resisten los empujes del suelo deformándose.\n5\nEn la tabla 6.1 se recogen los diversos tipos de pantallas que se consideran en este DB:\nTabla 6.1. Tipos de pantallas\nPantallas ejecutadas\nenteramente in situ\nPantallas continuas de hormigón\nPantallas de pilotes\nPantallas de\nelementos\nprefabricados\nHincadas\nTablestacas de hormigón armado o pretensado\nTablestacas de acero\nTablestacas de madera\nDe paneles de hormigón armado o pretensado que se colocan en una zanja pre-\nviamente excavada\n6\nLas pantallas pueden requerir en muchos casos sujeción en uno o varios puntos de su altura libre,\nademás del empotramiento en el terreno por debajo del nivel de excavación, bien sea por estabili-\ndad, resistencia o para impedir excesivas deformaciones horizontales o verticales del terreno en el\ntrasdós. En el apartado 6.3.2.1 se describen los procedimientos más habituales.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-HS",
+  "apartado 6.3.2.1"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0065_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0065.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0149",
+  "a0150",
+  "a0151"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

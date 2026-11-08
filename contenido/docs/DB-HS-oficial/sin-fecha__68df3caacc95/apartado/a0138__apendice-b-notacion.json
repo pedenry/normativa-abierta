@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0138",
+  "ruta_oficial": null,
+  "ruta_semantica": "Apéndice B Notación",
+  "titulo": "Apéndice B Notación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Apéndice B Notación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 62,
+   "bbox": [
+    70.9,
+    95.3,
+    224.0,
+    110.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "a80d96bc53f27c024aad175849399f1b09f9d1ca4a7305ece41029960b616d1b",
+   "literal": "Apéndice B Notación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Apéndice B Notación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Apéndice B Notación",
+   "seccion_estimada": "Apéndice B Notación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "4a4a43e80de546a6d0f7d47e59d96a2f741a6d9da291eb275a6edf5a5432e3aa"
+ },
+ "paginas": [
+  62
+ ],
+ "etiquetas_impresas": [
+  "62"
+ ],
+ "tipos": [],
+ "texto": "Apéndice B Notación\n1\nEn este apéndice se recogen, ordenados alfabéticamente, los símbolos correspondientes a las\nmagnitudes que se utilizan en esta sección del DB junto con sus unidades.\nC:\ncapacidad de almacenamiento en la vivienda por fracción, [dm3].\nCA:\ncoeficiente de almacenamiento, [dm3/persona].\nCC:\ncapacidad de cada contenedor, [l].\nCf:\nfactor de contenedor adimensional.\nFf:\nfactor de fracción adimensional.\nGf: volumen generado de la fracción por persona y día, [dm3/(persona·día)].\nMf:\nfactor de mayoración adimensional.\nP:\nnúmero estimado de ocupantes habituales del edificio.\nPv:\nnúmero estimado de ocupantes habituales de la vivienda.\nS:\nsuperficie útil, [m2].\nSC:\nsuperficie necesaria para el almacenamiento y maniobra de un contenedor de edificio, [m2].\nSR:\nsuperficie de reserva, [m2].\nTf:\nperíodo de recogida de la fracción, [día].",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

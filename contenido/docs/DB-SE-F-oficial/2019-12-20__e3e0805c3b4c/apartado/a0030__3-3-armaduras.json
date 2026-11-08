@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0030",
+  "ruta_oficial": "3.3",
+  "ruta_semantica": "3.3 Armaduras",
+  "titulo": "3.3 Armaduras",
+  "nivel": 1,
+  "parent_id": "a0027",
+  "seccion_estimada": "3.3 Armaduras",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    70.9,
+    713.3,
+    161.0,
+    725.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "dec568ace8a9b6d26324be4f28339ded94b3d59f6adc63042208e5ffcf104175",
+   "literal": "3.3 Armaduras"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0031",
+  "parent_id_original": "a0027",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3 Armaduras",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0027",
+   "ruta_semantica": "3 Durabilidad / 3.3 Armaduras",
+   "seccion_estimada": "3 Durabilidad",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "054a0ba0ecc853dec20d6cca199dcefc8497aaab7e2c6fcbef4a80dd61562256"
+ },
+ "paginas": [
+  10,
+  11,
+  13
+ ],
+ "etiquetas_impresas": [
+  null,
+  "6",
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3.3 Armaduras\n1\nCon acero galvanizado, o en clases III, IV o Q con cualquier subclase con acero inoxidable austení-\ntico, basta un recubrimiento mínimo de 15 mm. Por galvanizado se entiende el de una capa de al\nmenos 900 g/m2 de cinc. Una protección equivalente es una capa de cinc de 60 g/m2 y capa de epoxi\n\nDocumento Básico SE-F Fábrica\nSE-F-7\nde espesor mínimo de 80 m y espesor medio de 100 m. Un equivalente al acero inoxidable auste-\nnítico macizo, a efectos de protección, puede obtenerse revistiendo el acero al carbono con, al menos,\n1 mm de acero inoxidable austenítico.\n2\nLos tratamientos de protección se realizarán después de conformadas las barras cuidando de que no\nse deterioren a lo largo del proceso de ejecución posterior.\n3\nPara las armaduras de tendel, en clase I, pueden utilizarse armaduras de acero al carbono sin protec-\nción. Para las clases IIa y IIb, deben utilizarse armaduras de acero al carbono protegidas mediante\ngalvanizado fuerte o protección equivalente, a menos que la fábrica este terminada mediante un en-\nfoscado de sus caras expuestas, el mortero de la fábrica sea no inferior a M5 y el recubrimiento lateral\nmínimo de la armadura no sea inferior a 30 mm, en cuyo caso podrán utilizarse armaduras de acero\nal carbono sin protección. Para las clases III, IV, H, F y Q, en todas las subclases las armaduras de\ntendel serán de acero inoxidable austenítico o equivalente.\n4\nEn cualquier caso:\na)\nel espesor mínimo del recubrimiento de mortero respecto al borde exterior, no será menor que\n15 mm, según la figura 3.1,\nb)\nel recubrimiento de mortero, por encima y por debajo de la armadura de tendel, no sea menor\nque 2 mm, como se indica en la figura 3.1, incluso para los morteros de junta delgada\nc)\nla armadura se dispondrá de modo que se garantice la constancia del recubrimiento.\nFigura 3.1 Recubrimientos de las armaduras de tendel.\n5\nLos extremos cortados de toda barra que constituya una armadura, excepto las de acero inoxidable,\ntendrán el recubrimiento que le corresponda en cada caso o la protección equivalente.\n6\nEn el caso de cámaras rellenas o aparejos distintos de los habituales, el recubrimiento será no menor\nque 20 mm ni de su diámetro.\n\nDocumento Básico SE-F Fábrica\nSE-F-9",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0010_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0010.png",
+  "../figura/p0011.png",
+  "../figura/p0013.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

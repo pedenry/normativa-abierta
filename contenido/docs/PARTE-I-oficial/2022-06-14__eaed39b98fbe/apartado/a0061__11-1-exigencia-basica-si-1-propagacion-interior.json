@@ -1,0 +1,79 @@
+{
+ "documento": "PARTE-I-oficial",
+ "code": "PARTE-I",
+ "title": "Parte I",
+ "capa": "oficial",
+ "scope": "Parte I",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__eaed39b98fbe",
+ "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+ "apartado": {
+  "id_tecnico": "a0061",
+  "ruta_oficial": "11.1",
+  "ruta_semantica": "Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI) / 11.1. Exigencia básica SI 1: Propagación interior",
+  "titulo": "11.1. Exigencia básica SI 1: Propagación interior",
+  "nivel": 3,
+  "parent_id": "a0060",
+  "seccion_estimada": "Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI)",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 12,
+   "bbox": [
+    72.0,
+    549.6,
+    541.8,
+    588.0
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "294b954a0754be7753e41d85c2975b3ce802faf1b4091159074444b43ececf06",
+   "literal": "11.1. Exigencia básica SI 1: Propagación interior"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0027",
+  "parent_id_original": "a0060",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "11.1. Exigencia básica SI 1: Propagación interior",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0060",
+   "ruta_semantica": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades / Artículo 11. Exigencias básicas de seguridad en caso de incendio (SI) / 11.1. Exigencia básica SI 1: Propagación interior",
+   "seccion_estimada": "Capítulo 3. Exigencias básicas Artículo 9. Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "59b213735f442b567e0827a94b68abbc01fcde03eed8d1401d8acd02c944ba74"
+ },
+ "paginas": [
+  12
+ ],
+ "etiquetas_impresas": [
+  "12"
+ ],
+ "tipos": [],
+ "texto": "11.1. Exigencia básica SI 1: Propagación interior\nSe limitará el riesgo de propagación del incendio por el interior del edificio, tanto al mismo edificio como a\notros edificios colindantes.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/Parte1/Parte_I_jun2022.pdf",
+  "sha256": "eaed39b98fbe715e9db817ab9bde93a5031c3d2c07440dd6a8653572b053a07f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

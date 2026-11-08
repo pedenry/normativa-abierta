@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0265",
+  "ruta_oficial": "4.2.2",
+  "ruta_semantica": "Fragmento de PDF p119",
+  "titulo": "4.2.2 Canalones",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p119",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p119",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS5 / 4.2 Dimensionado de la red de evacuación de aguas pluviales 4.2.1 Red de pequeña evacuación de aguas pluviales / 4.2.2 Canalones",
+   "seccion_estimada": "Sección HS5",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "186e16faeb45d48f091c7e3a7c84b423f80ff376abae74f8dd1b24d9091800e3"
+ },
+ "paginas": [
+  119
+ ],
+ "etiquetas_impresas": [
+  "119"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.2.2 Canalones\n1\nEl diámetro nominal del canalón de evacuación de aguas pluviales de sección semicircular para una\nintensidad pluviométrica de 100 mm/h se obtiene en la tabla 4.7 en función de su pendiente y de la\nsuperficie a la que sirve.\nTabla 4.7 Diámetro del canalón para un régimen pluviométrico de 100 mm/h\nMáxima superficie de cubierta en proyección horizontal (m\n2)\nDiámetro nominal del canalón\n(mm)\nPendiente del canalón\n0.5 %\n1 %\n2 %\n4 %\n35\n45\n65\n95\n100\n60\n80\n115\n165\n125\n90\n125\n175\n255\n150\n185\n260\n370\n520\n200\n335\n475\n670\n930\n250\n2\nPara un régimen con intensidad pluviométrica diferente de 100 mm/h (véase el Anexo B), debe apli-\ncarse un factor f de corrección a la superficie servida tal que:\nf = i / 100\n(4.1)\nsiendo\ni\nla intensidad pluviométrica que se quiere considerar.\n3\nSi la sección adoptada para el canalón no fuese semicircular, la sección cuadrangular equivalente\ndebe ser un 10 % superior a la obtenida como sección semicircular.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0257",
+   "ruta_oficial": "3.3",
+   "titulo": "3.3 Elementos que componen las instalaciones 3.3.1 Elementos en la red de evacuación",
+   "archivo_json": "a0257__3-3-elementos-que-componen-las-instalaciones-3-3-1-eleme.json"
+  }
+ ],
+ "tablas": [
+  "../tabla/p0119_t01.json",
+  "../tabla/p0119_t02.json",
+  "../tabla/p0119_t03.json"
+ ],
+ "figuras": [
+  "../figura/p0119.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

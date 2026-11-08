@@ -1,0 +1,99 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0084",
+  "ruta_oficial": "6.3.3.4",
+  "ruta_semantica": "6.3.3.4 Abolladura del alma por cortante",
+  "titulo": "6.3.3.4 Abolladura del alma por cortante",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.3.4 Abolladura del alma por cortante",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 46,
+   "bbox": [
+    78.0,
+    594.7,
+    270.3,
+    605.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "0a0005cecbb7811c0f19bafe4f1644cf327e7f4acabd6b9004d29e4c4b00db6b",
+   "literal": "6.3.3.4 Abolladura del alma por cortante"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0083",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 6.3.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.3.4 Abolladura del alma por cortante",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "6 Estados límite últimos 6.1 Generalidades / sección en doble T / 6.3.3.4 Abolladura del alma por cortante",
+   "seccion_estimada": "6 Estados límite últimos 6.1 Generalidades",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6fd799d8c8a9a2070855527e7f79be8125faaef3a25d67aa4a5d4a526ecf116e"
+ },
+ "paginas": [
+  46,
+  47,
+  48
+ ],
+ "etiquetas_impresas": [
+  "46",
+  "47",
+  "48"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "6.3.3.4 Abolladura del alma por cortante\n1\nNo es preciso comprobar la resistencia a la abolladura del alma en las barras en las que se cum-\npla:\nε\n⋅\n<\n70\nt\nd\n(6.36)\nni en aquellas en las que, disponiendo de rigidizadores en sus extremos (e intermedios, en su ca-\nso), se cumpla:\nτ\n⋅\nε\n⋅\n<\nk\n30\nt\nd\n(6.37)\nsiendo\nd, t\ndimensiones del alma (altura y espesor);\n\nDocumentoBásico SE-A Acero\nSE-A-45\ny\nref\nf\nf\n=\nε\ncon fref = 235 N/mm2.\nkτ es igual:\n-\nkτ =\n2\nd\na\n34\n,5\n4\n\n\n\n\n\n\n+\nSi existen rigidizadores separados una distancia  a<d\n-\nkτ =\n2\nd\na\n4\n34\n,5\n\n\n\n\n\n\n+\nSi existen rigidizadores separados una distancia  a ≥ d\n-\nkτ=5,34\nSi existen rigidizadores sólo en las secciones extremas\n2\nLa inercia Is de la sección formada por el rigidizador más una anchura de alma a cada lado del ri-\ngidizador igual a 15 twε,  con relación a su fibra neutra, paralela al plano del alma, ha de ser:\n2\nd\na\nsi\na\nt\nd\n5,1\nl\n2\n3\n3\ns\n<\n⋅\n≥\n(6.38)\n2\nd\na\nsi\nt\nd\n75\n,0\nl\n3\ns\n≥\n⋅\n⋅\n≥\n(6.39)\n3\nLa resistencia del alma a abolladura por cortante se obtiene de:\n1\nM\nb\nRd\n,\nb\nt\nd\nV\nγ\nτ\n⋅\n⋅\n=\n(6.40)\nsiendo\n\n\n\n\n\n\n\n\nλ\n⋅\n=\nτ\n\n\n\n\n\n\n\n\n\n\n\n\n−\nλ\n⋅\n−\n⋅\n=\nτ\n=\nτ\nw\n_\ny\nb\nw\n_\ny\nb\ny\nb\n9,0\n3\nf\n8,0\n625\n,0\n1\n3\nf\n3\nf\nsi\nw\n_\nw\n_\nw\n_\n2,1\n2,1\n8,0\n8,0\nλ\n≤\n<\nλ\n<\n≤\nλ\ndonde\nτ\nε\n=\nλ\nk\n4\n,\n37\nt/\nd\nw\n4\nCada rigidizador intermedio se dimensionará como un soporte solicitado por el esfuerzo de com-\npresión:\nRd\n,\nb\nEd\nEd\nV\nV\nN\n−\n=\n(6.41)\nsiendo\nVEd\nvalor de cálculo del esfuerzo cortante\nVb,Rd\nvalor de cálculo de la resistencia a abolladura por cortante\n\nDocumentoBásico SE-A Acero\nSE-A-46\nEn caso de existir cargas exteriores que puedan actuar directamente sobre el rigidizador, éstas se\nañadirán al valor de NEd. La sección resistente incluirá el rigidizador mas una anchura de alma a\ncada lado del rigidizador, igual a 10 twε. La verificación de la seguridad estructural del rigidizador\nse llevará a cabo de acuerdo con los métodos del apartado 6.3.2, utilizando la curva de pandeo c\ncon una longitud de pandeo de 0,8 d.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.3.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0047_t01.json",
+  "../tabla/p0048_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0046.png",
+  "../figura/p0047.png",
+  "../figura/p0048.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

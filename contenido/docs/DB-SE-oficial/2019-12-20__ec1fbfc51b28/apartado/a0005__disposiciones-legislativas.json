@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0005",
+  "ruta_oficial": null,
+  "ruta_semantica": "Disposiciones legislativas",
+  "titulo": "Disposiciones legislativas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Disposiciones legislativas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 2,
+   "bbox": [
+    141.8,
+    619.8,
+    271.9,
+    629.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "04a1583754245f6a23b41d460e809d95280227a19bad9c8737877eb075474b08",
+   "literal": "Disposiciones legislativas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0001",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "Real Decreto 1371/2007",
+   "Real Decreto 314/2006",
+   "Real Decreto 732/2019"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Disposiciones legislativas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "20 diciembre 2019 Documento BásicoSE / Disposiciones legislativas",
+   "seccion_estimada": "20 diciembre 2019 Documento BásicoSE",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ae6c6518a503e3b97ed892e229ffd8f335996e4be1667ee9462ef4482911c9fb"
+ },
+ "paginas": [
+  2,
+  3
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Disposiciones legislativas\nEl articulado de este Documento Básico fue aprobado por el Real Decreto 314/2006, de\n17 de marzo (BOE 28-marzo-2006) y posteriormente ha sido modificado por las siguien-\ntes disposiciones:\n-\nReal Decreto 1371/2007 de 19 de octubre (BOE 23-octubre-2007)\n-\nCorrección de errores y erratas del Real Decreto 314/2006, de 17 de marzo, por el\nque se aprueba el Código Técnico de la Edificación (BOE 25-enero-2008)\n-\nOrden VIV/984/2009, de 15 de abril (BOE 23-abril-2009)\n-\nReal Decreto 732/2019, de 20 de diciembre (BOE 27-diciembre-2019)\n\nDocumento Básico SE Seguridad Estructural\nSE - i",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto 1371/2007",
+  "Real Decreto 314/2006",
+  "Real Decreto 732/2019"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

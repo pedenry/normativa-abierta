@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HE-oficial",
+ "code": "DB-HE",
+ "title": "DB-HE Ahorro de energía",
+ "capa": "oficial",
+ "scope": "Ahorro de energía",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__7f890bd49555",
+ "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+ "apartado": {
+  "id_tecnico": "a0058",
+  "ruta_oficial": null,
+  "ruta_semantica": "Caracterización de la exigencia",
+  "titulo": "Caracterización de la exigencia",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Caracterización de la exigencia",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    56.7,
+    433.6,
+    274.1,
+    447.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "1c16b3d8ee6f472fa603bbc269db435892f55f0e6411fbc2de876916fad32255",
+   "literal": "Caracterización de la exigencia"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Caracterización de la exigencia",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Construcción, mantenimiento y conservación / Sección HE 4 Contribución mínima de energía renovable para cubrir la / Caracterización de la exigencia",
+   "seccion_estimada": "5 Construcción, mantenimiento y conservación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "16debf8c49d7f575ce945dc4e4093a8652de9990820e1f921d538f3cad5ce4f1"
+ },
+ "paginas": [
+  28
+ ],
+ "etiquetas_impresas": [
+  "28"
+ ],
+ "tipos": [],
+ "texto": "Caracterización de la exigencia\n1\nLos edificios satisfarán sus necesidades de ACS y de calentamiento de agua para la climatización de\npiscina cubierta empleando en gran medida energía procedente de fuentes renovables o procesos de\ncogeneración renovables; bien generada en el propio edificio o bien a través de la conexión a un sistema\nurbano de calefacción.\n3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HE/DBHE.pdf",
+  "sha256": "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

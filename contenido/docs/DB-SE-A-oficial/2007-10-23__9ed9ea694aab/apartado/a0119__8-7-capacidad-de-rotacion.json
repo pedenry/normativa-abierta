@@ -1,0 +1,87 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0119",
+  "ruta_oficial": "8.7",
+  "ruta_semantica": "8.7 Capacidad de rotación",
+  "titulo": "8.7 Capacidad de rotación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.7 Capacidad de rotación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 76,
+   "bbox": [
+    74.1,
+    470.7,
+    226.1,
+    484.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "84a295401ef6a6e96cd4817469df17e4eb15f9807c5b6377bb282b13291964b6",
+   "literal": "8.7 Capacidad de rotación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0119",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.7 Capacidad de rotación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.7 Capacidad de rotación",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ff6e01b2edfe00bbdfa1c546142850cfce2121670ddc0c8318ad8fece7b0dad3"
+ },
+ "paginas": [
+  76,
+  77
+ ],
+ "etiquetas_impresas": [
+  "76",
+  "77"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.7 Capacidad de rotación\n1\nCuando se realice un análisis global plástico, las uniones en las que se requiera la existencia de ró-\ntula plástica y sean de resistencia parcial, y aquellas totalmente resistentes que lo precisen (las\nque verifican\nRd\n,\nPl\nRd\nM\n2,1\nM\n<\n), deben tener una capacidad de giro suficiente.\n2\nEn general, salvo los supuestos incluidos en este DB, la capacidad de giro se determinará median-\nte ensayos.\n3\nNo podrá suponerse que hay capacidad de giro suficiente para un análisis global plástico en una\nunión atornillada en la que el valor de la resistencia al momento flector esté regida por la resisten-\ncia de los tornillos a cortante .\n4\nPuede suponerse que hay capacidad de giro suficiente para un análisis plástico en una unión viga-\npilar, tanto atornillada como soldada, en la que la resistencia al momento flector esté condicionada\npor la resistencia de la zona solicitada a cortante (cortante de nudo),.\n5\nUniones viga-pilar soldadas.\na)\nSe podrá suponer que una unión viga-pilar soldada tiene capacidad de giro suficiente para un\nanálisis plástico en los supuestos siguientes:\ni)\nsi se trata de una unión de resistencia completa;\nii)\nsi el pilar está rigidizado en continuidad con las alas de la viga en las zonas de trac-\nción y compresión del nudo.\niii)\nsi el pilar está rigidizado en la zona del nudo solicitada a tracción y no en la zona de\ncompresión.\nt\ncnom\nanom,1\nanom,2\n\nDocumentoBásico SE-A Acero\nSE-A-75\nb)\nSi la unión no está rigidizada y se dimensiona siguiendo las reglas específicas enunciadas en\neste DB, puede suponerse que tiene una capacidad de giro plástico Φcd de valor:\nradianes\n015\n,0\ncd=\nΦ\n(8.25)\nc)\nSi el alma del pilar está rigidizado en la zona de compresión pero no en la zona de tracción,\nsiempre que la resistencia al momento flector no esté regida por la resistencia a cortante del\nalma del pilar, la capacidad de giro\ncd\nΦ\npuede suponerse:\nb\nc\ncd\nh\nh\n025\n,0\n=\nΦ\n(8.26)\nsiendo\nhc y hb respectivamente, el canto de la sección normal del pilar y la viga.\n6\nUniones viga-pilar atornilladas.\nSe puede suponer que una unión viga-pilar atornillada con chapa frontal tiene suficiente capacidad\nde rotación para un análisis plástico, si se satisfacen las dos condiciones siguientes:\na)\nel valor de la resistencia al momento esta regido por alguno de los siguientes componentes de\nla unión:\ni)\nel ala del pilar a flexión;\nii)\nla chapa frontal a flexión;\nb)\nel espesor t del ala del pilar o de la chapa frontal que rige la resistencia, cumple la condición\nsiguiente:\ny\nub\nf\nf\nd\n36\n,0\nt≤\n(8.27)\nsiendo\nd\ndiámetro nominal de los tornillos;\nfub\ntensión de rotura de los tornillos;\nfy\nlímite elástico del componente básico relevante de la unión.\n7\nPara otros casos la capacidad de giro se determinará usando modelos de cálculo apropiados,\nsiempre que estén suficientemente contrastados.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0076.png",
+  "../figura/p0077.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

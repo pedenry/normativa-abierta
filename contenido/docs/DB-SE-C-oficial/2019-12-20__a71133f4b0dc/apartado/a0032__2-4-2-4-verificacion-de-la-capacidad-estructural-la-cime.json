@@ -1,0 +1,130 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0032",
+  "ruta_oficial": "2.4.2.4",
+  "ruta_semantica": "2.4.2.4 Verificación de la capacidad estructural la cimentación",
+  "titulo": "2.4.2.4 Verificación de la capacidad estructural la cimentación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.4.2.4 Verificación de la capacidad estructural la cimentación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 10,
+   "bbox": [
+    70.9,
+    363.1,
+    369.7,
+    373.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "6c2c631f07a4e9efff6f403b165f51ab51322bb73359824ac322bade013961b2",
+   "literal": "2.4.2.4 Verificación de la capacidad estructural la cimentación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0042",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "DB-SE",
+   "apartado 2.4.2.5",
+   "apartado 4.2.4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.4.2.4 Verificación de la capacidad estructural la cimentación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / 2.4.2 Estados límite últimos 2.4.2.1 Verificaciones a efectuar / 2.4.2.4 Verificación de la capacidad estructural la cimentación",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "f24c24362aff6273794c900c227214bb363e1a6d6c400279aeb9503aaf8232de"
+ },
+ "paginas": [
+  10
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "2.4.2.4 Verificación de la capacidad estructural la cimentación\n1\nLa resistencia de la cimentación como elemento estructural quedará verificada si el valor de cálculo\ndel efecto de las acciones del edificio y del terreno sobre la cimentación no supera el valor de cálcu-\nlo de la resistencia de la cimentación como elemento estructural. (véase 2.4.1)\n2\nLos valores de cálculo del efecto de las acciones del edificio y del terreno sobre la cimentación se\ndeterminarán según el apartado 2.4.2.5.\n3\nEl valor de cálculo de la resistencia de la cimentación como elemento estructural se determinará\nsegún el apartado 4.2.4 del DB-SE y según las reglas de los Documentos Básicos relativos a la se-\nguridad estructural de los diferentes materiales o la instrucción EHE.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SE",
+  "apartado 2.4.2.5",
+  "apartado 4.2.4"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0010.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

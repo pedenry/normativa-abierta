@@ -1,0 +1,249 @@
+{
+ "documento": null,
+ "pagina": 99,
+ "etiqueta_impresa": "99",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    250.1,
+    37.7,
+    364.8,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.4,
+    792.0,
+    333.4,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-97",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    222.8,
+    279.7,
+    394.9,
+    289.7
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.23 Excentricidad de los nudos",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    74.1,
+    303.2,
+    156.5,
+    314.4
+   ],
+   "tipo": "texto",
+   "texto": "8.9.3 Soldaduras",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    74.1,
+    322.5,
+    541.4,
+    368.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe debe soldar todo el perímetro de la sección con una soldadura a tope, en ángulo, o una combi-\nnación de ambas. Sin embargo, en los nudos con solape parcial, sólo es necesario soldar la parte\nescondida de la unión cuando los valores de los axiles son tales que las componentes perpendicu-\nlares al cordón no difieren en más de un 20%.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    74.1,
+    374.6,
+    541.4,
+    431.8
+   ],
+   "tipo": "texto",
+   "texto": "2\nLa resistencia de cálculo de la soldadura por unidad de longitud sobre el perímetro de la unión no\ndebe ser inferior a la resistencia de cálculo a tracción de la sección transversal de la barra por uni-\ndad de longitud del perímetro. Se exceptúan aquellos casos en que puedan justificarse técnica-\nmente soldaduras más pequeñas considerando tanto la resistencia del nudo como su capacidad de\ndeformación y/o su capacidad de giro.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    74.1,
+    445.1,
+    335.9,
+    456.3
+   ],
+   "tipo": "texto",
+   "texto": "8.9.4 Nudos soldados entre perfiles huecos circulares",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    74.1,
+    464.6,
+    541.4,
+    510.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas resistencias de cálculo de los nudos pueden determinarse aplicando las fórmulas dadas en la\ntabla 8.2, que corresponden a los modos de fallo por plastificación de la cara del cordón, o punzo-\nnamiento por cortante de viga de la pared del cordón, siempre que la geometría de los nudos per-\nmanezca dentro del campo de validez siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    96.8,
+    516.3,
+    194.6,
+    527.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "a)\n0,2 ≤ di/do ≤ 1,0",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    96.8,
+    533.3,
+    251.9,
+    544.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "b)\nClase 1 ó 2 y  (10 ≤ di/ ti ≤ 50)",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    96.8,
+    550.3,
+    457.5,
+    561.7
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "c)\nClase 1 ó 2 y (10 ≤ do/ to ≤ 50) en general, pero (10 ≤ do/ to ≤ 40) para nudos en X",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    96.8,
+    567.4,
+    328.0,
+    578.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "d)\nλov ≥ 25% (proporción de solape, véase Anejo B)",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    96.8,
+    584.4,
+    286.0,
+    595.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "e)\ng ≥ t1 + t2 (separación, véase Anejo B)",
+   "tamano": 9.1,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    74.1,
+    601.7,
+    541.4,
+    658.9
+   ],
+   "tipo": "texto",
+   "texto": "2\nPara los nudos que queden fuera del campo de validez dado anteriormente, debe realizarse un\nanálisis más detallado, considerando los modos de fallo por hundimiento o pandeo de la pared late-\nral (o el alma) del cordón, por fallo por cortante del cordón, por fallo por reducción de la anchura\neficaz en la unión de la pieza de alma, o por abolladura local, análisis que debe considerar los\nmomentos secundarios en los nudos provocados por su rigidez a flexión.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    277.8,
+    113.4,
+    293.6,
+    122.3
+   ],
+   "tipo": "texto",
+   "texto": "e=0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    310.1,
+    174.2,
+    325.9,
+    183.1
+   ],
+   "tipo": "texto",
+   "texto": "e>0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    319.1,
+    254.4,
+    334.9,
+    263.3
+   ],
+   "tipo": "texto",
+   "texto": "e<0",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    373.8,
+    129.2,
+    399.0,
+    138.5
+   ],
+   "tipo": "texto",
+   "texto": "h0, o d0",
+   "tamano": 8.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

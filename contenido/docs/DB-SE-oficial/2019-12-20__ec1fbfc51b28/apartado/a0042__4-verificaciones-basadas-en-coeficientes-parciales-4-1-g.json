@@ -1,0 +1,76 @@
+{
+ "documento": "DB-SE-oficial",
+ "code": "DB-SE",
+ "title": "DB-SE Seguridad estructural",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__ec1fbfc51b28",
+ "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+ "apartado": {
+  "id_tecnico": "a0042",
+  "ruta_oficial": "4",
+  "ruta_semantica": "Fragmento de PDF p15",
+  "titulo": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p15",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p15",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "seccion_estimada": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1322790d172606e6edf51b0a039bef37b3f81d2e840e62da3e30f16a4b221f5a"
+ },
+ "paginas": [
+  15
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "4 Verificaciones basadas en coeficientes parciales 4.1 Generalidades\n4.1 Generalidades\n1\nEn la verificación de los estados límite mediante coeficientes parciales, para la determinación del\nefecto de las acciones, así como de la respuesta estructural, se utilizan los valores de cálculo de las\nvariables, obtenidos a partir de sus valores característicos, u otros valores representativos, multipli-\ncándolos o dividiéndolos por los correspondientes coeficientes parciales para las acciones y la re-\nsistencia, respectivamente.\n2\nLos valores de cálculo no tienen en cuenta la influencia de errores humanos groseros. Estos deben\nevitarse mediante una dirección de obra, utilización, inspección y mantenimiento adecuados.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE.pdf",
+  "sha256": "ec1fbfc51b28c4d62667aec480585b76fe31727ccf1615015a5d2d2677763f8f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0043",
+  "a0044",
+  "a0048",
+  "a0053"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

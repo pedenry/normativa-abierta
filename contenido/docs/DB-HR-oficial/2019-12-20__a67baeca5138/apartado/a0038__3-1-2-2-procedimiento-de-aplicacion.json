@@ -1,0 +1,99 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0038",
+  "ruta_oficial": "3.1.2.2",
+  "ruta_semantica": "3.1.2.2  Procedimiento de aplicación",
+  "titulo": "3.1.2.2  Procedimiento de aplicación",
+  "nivel": 1,
+  "parent_id": "a0036",
+  "seccion_estimada": "3.1.2.2  Procedimiento de aplicación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 12,
+   "bbox": [
+    70.9,
+    424.0,
+    245.5,
+    435.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9f8bf8039fd08f137a671d0da912619e2c8504843a6d0fe7772d861b23292209",
+   "literal": "3.1.2.2  Procedimiento de aplicación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0036",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado\n3.1.2.5",
+   "apartado 3.1.2.3",
+   "apartado 3.1.2.4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.2.2  Procedimiento de aplicación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0036",
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos / 3.1.2  Opción simplificada: Soluciones de aislamiento acústico / 3.1.2.2  Procedimiento de aplicación",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "20b0dd1c5b9fc6e4b12fba01f7a2a166580391fe6fd37566432ba2527bd01cc5"
+ },
+ "paginas": [
+  12
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "3.1.2.2  Procedimiento de aplicación\nPara el diseño y dimensionado de los elementos constructivos, deben elegirse:\na)\nla tabiquería;\nb)\nlos elementos de separación horizontales y los verticales (véase apartado 3.1.2.3):\ni)\nentre unidades de uso diferentes o entre una unidad de uso y cualquier otro recinto del\nedificio que no sea de instalaciones o de actividad;\nii)\nentre un recinto protegido o un recinto habitable y un recinto de actividad o un recinto de\ninstalaciones;\nc)\nlas medianerías (véase apartado 3.1.2.4);\nd)\nlas fachadas, las cubiertas y los suelos en contacto con el aire exterior. (véase apartado\n3.1.2.5)",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado\n3.1.2.5",
+  "apartado 3.1.2.3",
+  "apartado 3.1.2.4"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0012.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

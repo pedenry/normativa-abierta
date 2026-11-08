@@ -1,0 +1,96 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0064",
+  "ruta_oficial": null,
+  "ruta_semantica": "Usoprevisto(1) Condiciones según tipo de protección de la escalera",
+  "titulo": "Usoprevisto(1) Condiciones según tipo de protección de la escalera",
+  "nivel": 1,
+  "parent_id": "a0063",
+  "seccion_estimada": "Usoprevisto(1) Condiciones según tipo de protección de la escalera",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    72.6,
+    237.9,
+    427.4,
+    248.2
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "65ddb03fbc1b441c0d3f5a7da09a7056cd354cf48b34313702eb48e667187f6a",
+   "literal": "Usoprevisto(1) Condiciones según tipo de protección de la escalera"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0063",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Usoprevisto(1) Condiciones según tipo de protección de la escalera",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0063",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 5 Protección de las escaleras / Usoprevisto(1) Condiciones según tipo de protección de la escalera",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "695ad8dceec4ded41e94c2fdf4dd731c9471d14390790485508ca695db3d4123"
+ },
+ "paginas": [
+  28
+ ],
+ "etiquetas_impresas": [
+  "28"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Usoprevisto(1) Condiciones según tipo de protección de la escalera\nCondiciones según tipo de protección de la escalera\nh = altura de evacuación de la escalera\nP = número de personas a las que sirve en el conjunto de plantas",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

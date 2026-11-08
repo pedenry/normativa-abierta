@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0339",
+  "ruta_oficial": "3.4",
+  "ruta_semantica": "3.4 Análisis de los detectores y expresión de resultados de medida",
+  "titulo": "3.4 Análisis de los detectores y expresión de resultados de medida",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.4 Análisis de los detectores y expresión de resultados de medida",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 183,
+   "bbox": [
+    70.9,
+    122.4,
+    457.9,
+    135.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f401bcb50009f16209f7d8bbe8e4c9536ad0b3896dcfcc0cc2e1b040ecf13a28",
+   "literal": "3.4 Análisis de los detectores y expresión de resultados de medida"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.4 Análisis de los detectores y expresión de resultados de medida",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Medición 3.1 Entidades de medida / 3.4 Análisis de los detectores y expresión de resultados de medida",
+   "seccion_estimada": "3 Medición 3.1 Entidades de medida",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "35d227213bb7fa7a6e0ff447d01d1a171775b9aebf4b75e84b1f07d26f08eea1"
+ },
+ "paginas": [
+  183
+ ],
+ "etiquetas_impresas": [
+  "183"
+ ],
+ "tipos": [],
+ "texto": "3.4 Análisis de los detectores y expresión de resultados de medida\n1\nLos valores medidos por cada detector, asociados a su correspondiente código identificativo, deben\npresentarse en el informe emitido por la entidad de medida como concentración media de radón\n(Bq/m3) durante el periodo de exposición. El valor de concentración o exposición debe expresarse\njunto con el de la incertidumbre expandida y el factor k utilizado. Es necesario indicar siempre el\nvalor del límite de detección del procedimiento y/o aparato o sistema de medición empleado.\n2\nEl informe de resultados debe incluir, además, la siguiente información:\na)\nidentificación de la entidad de medida;\nb)\nidentificación del cliente;\nc)\nfecha de emisión del informe;\nd)\nfecha de inicio y final de la exposición;\ne)\ncaracterísticas y tipos de detectores;\nf)\nprocedimiento de lectura;\ng)\nidentificación y localización de cada detector sobre plano;\nh)\ncircunstancias meteorológicas y ambientales que puedan haber afectado al resultado;\ni)\nla representación en continuo de los datos almacenados por los sensores de cada detector, en\ncaso de que éste permita disponer de ella;\nj)\nfabricante del dispositivo, modelo, límites de medición del aparato, así como el error inducido\npor el mismo;\nk)\ncualquier otra información relevante que pudiera influir en el resultado de las medidas;\nl)\nfirma de la persona o personas que asuman la responsabilidad técnica del informe.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

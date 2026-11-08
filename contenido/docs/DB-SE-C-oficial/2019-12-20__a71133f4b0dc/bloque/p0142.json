@@ -1,0 +1,140 @@
+{
+ "documento": null,
+ "pagina": 142,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-137",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    88.7,
+    323.2,
+    523.3,
+    344.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura F.3. Definición de asiento instantáneo, de consolidación primaria y de compresión secundaria",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    348.8,
+    541.3,
+    517.2
+   ],
+   "tipo": "texto",
+   "texto": "a)\nasiento instantáneo (Si): se produce de manera inmediata o simultánea con la aplicación de la\ncarga. Si el suelo es de baja permeabilidad y se encuentra saturado, en los momentos iniciales\napenas se produce drenaje alguno, de manera que este asiento inicial corresponde a una dis-\ntorsión del suelo, sin cambio de volumen;\nb)\nasiento de consolidación primaria (Sc): se desarrolla a medida que se disipan los excesos de\npresión intersticial generados por la carga y se eleva la presión efectiva media en el terreno, lo\nque permite la reducción progresiva del volumen de huecos del suelo. Este asiento es espe-\ncialmente importante en suelos arcillosos saturados, ya que puede dilatarse considerablemen-\nte en el tiempo;\nc)\nasiento de compresión secundaria (Ss): se produce en algunos suelos que presentan una cier-\nta fluencia (deformación a presión efectiva constante). Aunque puede comenzar desde los\nprimeros momentos tras la aplicación de la carga, habitualmente sólo puede distinguirse con\nclaridad una vez finalizado el proceso de consolidación primaria.\n2\nEl asiento total resultante será por tanto la suma de las tres componentes anteriores:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    85.3,
+    524.8,
+    542.5,
+    534.7
+   ],
+   "tipo": "texto",
+   "texto": "St = Si + Sc + Ss\n(F.18)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    542.3,
+    541.3,
+    624.2
+   ],
+   "tipo": "texto",
+   "texto": "3\nEn relación con este DB, los suelos en los que se puedan desarrollar asientos de compresión se-\ncundaria no despreciables se considerarán desfavorables (tipo T-3 de acuerdo con la tabla 3.2) En\nestos casos se requerirá un estudio especializado para estimar estos asientos y evaluar su repercu-\nsión en la construcción.\n4\nEn los suelos de permeabilidad elevada y en los parcialmente saturados, se podrá suponer que el\nasiento se produce de manera prácticamente simultánea a la aplicación de la carga, por lo que Si y\nSc no llegarán a diferenciarse.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    635.8,
+    531.7,
+    645.7
+   ],
+   "tipo": "texto",
+   "texto": "F.1.2.2 Suelos granulares con una proporción en peso de partículas de más de 20 mm inferior al",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    106.2,
+    647.3,
+    129.0,
+    657.2
+   ],
+   "tipo": "texto",
+   "texto": "30%",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    662.8,
+    541.3,
+    730.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nSi bien para estimar el asiento de una cimentación directa en un terreno de estas características\npodrán utilizarse correlaciones que permiten determinar el módulo de deformación del terreno en\nfunción de los resultados obtenidos en ensayos de penetración estática o dinámica realizados “in si-\ntu”, se puede utilizar la expresión (F.19) de Burland y Burbidge, basada directamente en los resulta-\ndos obtenidos en el ensayo SPT o deducidos de ensayos de penetración a través de correlaciones\ndebidamente contrastadas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    95.9,
+    739.3,
+    542.5,
+    754.0
+   ],
+   "tipo": "texto",
+   "texto": "c\n7\n.\n0\nb\ns\nl\ni\nI·\nB\n·\n'q·\nf·\nf\nS \n(F.19)",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0031",
+  "ruta_oficial": "2.5.2",
+  "ruta_semantica": "2.5.2 Desviaciones de una dimensión geométrica",
+  "titulo": "2.5.2 Desviaciones de una dimensión geométrica",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.5.2 Desviaciones de una dimensión geométrica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 8,
+   "bbox": [
+    70.9,
+    731.5,
+    309.4,
+    742.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "35acd50fc9c7c1ae6bad473528bc8eac6c99b29132b7ae7aa550080ae5a7216b",
+   "literal": "2.5.2 Desviaciones de una dimensión geométrica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0036",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.5.2 Desviaciones de una dimensión geométrica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Bases de cálculo 2.1 Generalidades / 2.5 Geometría 2.5.1 Valor de cálculo / 2.5.2 Desviaciones de una dimensión geométrica",
+   "seccion_estimada": "2 Bases de cálculo 2.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "6b4a08096d45c3406710f342be80212405575892cf6d90df495fe15866823ea6"
+ },
+ "paginas": [
+  8,
+  9,
+  11
+ ],
+ "etiquetas_impresas": [
+  "8",
+  "9",
+  "11"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "2.5.2 Desviaciones de una dimensión geométrica\n\nDocumentoBásico SE-A Acero\nSE-A-7\n1\nEn los casos en los que las posibles desviaciones de una dimensión geométrica de su valor nominal\npuedan tener una influencia significativa en la seguridad estructural (como en el análisis de los efec-\ntos de segundo orden), el valor de cálculo de esta dimensión quedará definido por:\na\na\na\nnom\nd\n∆\n±\n=\n(2.2)\na\n∆\ndesviación de una dimensión geométrica de su valor nominal, o el efecto acumulado de di-\nferentes desviaciones geométricas que se pueden producir simultáneamente y se define\nde acuerdo con las tolerancias admitidas.\nEn el caso en que pueda determinarse por medición la desviación producida, se empleará dicho\nvalor.\n\nDocumentoBásico SE-A Acero\nSE-A-9",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0008.png",
+  "../figura/p0009.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

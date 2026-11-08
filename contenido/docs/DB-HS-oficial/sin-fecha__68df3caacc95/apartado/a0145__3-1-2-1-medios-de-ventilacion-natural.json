@@ -1,0 +1,83 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0145",
+  "ruta_oficial": "3.1.2.1",
+  "ruta_semantica": "3.1.2.1 Medios de ventilación natural",
+  "titulo": "3.1.2.1 Medios de ventilación natural",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.1.2.1 Medios de ventilación natural",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 66,
+   "bbox": [
+    70.9,
+    254.6,
+    244.9,
+    265.8
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c830e103b2c01ce5e7d7ec216f597d771e66acc1142bf5659ad96f2498956db4",
+   "literal": "3.1.2.1 Medios de ventilación natural"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.1.2.1 Medios de ventilación natural",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección HS3 / 1.2 Procedimiento de verificación / Diseño 3.1 Condiciones generales de los sistemas de ventilación / 3.1.2.1 Medios de ventilación natural",
+   "seccion_estimada": "Sección HS3",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8ffa3e19bc64983d9c7fa56854ae370ae43e13e37eae62b7c16811917fac438f"
+ },
+ "paginas": [
+  66
+ ],
+ "etiquetas_impresas": [
+  "66"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.1.2.1 Medios de ventilación natural\n1\nCuando el almacén se ventile a través de aberturas mixtas, éstas deben disponerse al menos en dos\npartes opuestas del cerramiento, de tal forma que ningún punto de la zona diste más de 15 m de la\nabertura más próxima.\n2\nCuando los almacenes se ventilen a través de aberturas de admisión y extracción, éstas deben co-\nmunicar directamente con el exteriory la separación vertical entre ellas debe ser como mínimo 1,5\nm.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0066.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

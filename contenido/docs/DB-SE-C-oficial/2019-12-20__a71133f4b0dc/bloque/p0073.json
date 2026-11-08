@@ -1,0 +1,114 @@
+{
+ "documento": null,
+ "pagina": 73,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-68",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    156.8,
+    72.1,
+    455.0,
+    94.5
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 6.2. Rotación necesaria para alcanzar estados de plastificación",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    90.5,
+    109.7,
+    278.5,
+    118.7
+   ],
+   "tipo": "texto",
+   "texto": "Tipo de suelo y compacidad o consistencia",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    339.2,
+    99.3,
+    444.9,
+    118.7
+   ],
+   "tipo": "texto",
+   "texto": "Rotación x/H\nEstado",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    341.3,
+    120.0,
+    369.8,
+    129.0
+   ],
+   "tipo": "texto",
+   "texto": "activo",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    460.8,
+    109.7,
+    490.9,
+    118.7
+   ],
+   "tipo": "texto",
+   "texto": "Estado",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    120.0,
+    541.3,
+    771.0
+   ],
+   "tipo": "texto",
+   "texto": "pasivo\nGranular denso\n10-3\n2·10-2\nGranular suelto\n4·10-3\n6·10-2\nCohesivo duro\n10-2\n2·10-2\nCohesivo blando\n2·10-2\n4·10-2\nd)\nel valor considerado para el empuje de tierras en el análisis de estados límite últimos será, en\ngeneral, diferente al valor a considerar en el análisis de estados límite de servicio en los que\nno se considera la rotura del terreno;\ne)\nla construcción de elementos de contención en las proximidades de edificaciones requiere limi-\ntar los movimientos asociados a éstos. Al limitar los movimientos horizontales de los elemen-\ntos de contención, debe considerarse un incremento en los empujes del terreno debido a que\nno se permite que éste desarrolle completamente su capacidad resistente.\nf)\nse evitará el empleo de suelos arcillosos o limosos en el relleno de trasdós de elementos de\ncontención. En caso de que sea necesario su empleo, debe considerarse en el cálculo un coe-\nficiente de empuje no inferior a 1;\ng)\nla compactación del material del trasdós del elemento de contención debe hacerse con pre-\ncaución, empleando medios ligeros. Una compactación intensa del terreno existente en la cu-\nña activa podría provocar un incremento sustancial del empuje. Cuando se empleen equipos\nligeros para obtener densidades de hasta el 95% de la máxima Proctor Normal, pueden em-\nplearse los criterios definidos en este capítulo para la determinación de los empujes. Cuando\nse empleen equipos pesados o se consideren densidades de compactación superiores al 95%\nde la máxima Proctor Normal, el cálculo del elemento de contención debe efectuarse em-\npleando un empuje no inferior al empuje al reposo;\nh)\nSi el terreno a contener se encuentra confinado entre dos elementos sensiblemente paralelos,\nel empuje de cada elemento podrá reducirse, por efecto silo, al correspondiente a un diagrama\nde empujes truncado por el plano medio entre ambos. En el caso de esquina de muros o pan-\ntallas, el diagrama de empujes estará limitado por el plano bisectriz .\ni)\nen elementos de contención en los que el relleno de trasdós se efectúa con los forjados ya\nconstruidos, los movimientos pueden ser tan pequeños que no permitan alcanzar las condicio-\nnes de empuje activo. En esas condiciones puede considerarse la distribución de empujes co-\nrrespondiente al empuje al reposo o bien considerar la distribución de empujes definida para\nestructuras de contención apuntaladas en la Figura 6.6;\nj)\nen caso de considerar la cohesión en los cálculos de empujes sobre los elementos de conten-\nción, su valor característico debe definirse de forma específica para este tipo de estudio, con-\nsiderando la dispersión y fiabilidad de la información disponible, su estabilidad en el tiempo, la\nposible presencia de fisuras en el terreno y la sensibilidad del estudio a dicho valor;\nk)\npara obras de carácter permanente el comportamiento a largo plazo de los elementos de con-\ntención debe estudiarse en tensiones efectivas. Para obras de carácter provisional en suelos\narcillosos, el cálculo puede hacerse a partir de la resistencia al corte no drenada;\nl)\npara la valoración de empujes estabilizadores en el intradós del elemento de contención, es\nimportante garantizar la permanencia y estabilidad en el tiempo de los materiales considerados\nasí como el movimiento necesario para desarrollar el estado tensional previsto. En este senti-\ndo debe preverse la posibilidad de la ejecución de excavaciones futuras junto al pie del ele-\nmento de contención para el tendido de servicios o futuros vaciados según se define en el\napartado 6.2.2;\nm)\nigualmente, deben considerarse los importantes movimientos necesarios para el desarrollo del\nempuje pasivo, en general incompatibles con las condiciones de seguridad y funcionalidad del\nelemento de contención.\n9\nEn el análisis de estados límite últimos por métodos de equilibrio límite se considerarán los siguien-\ntes criterios:\na)\nse considerará el empuje activo en el trasdós salvo para aquellos casos en los que, debido a la\nrigidez del elemento de contención, las restricciones impuestas a su deformación (anclajes,\napuntalamientos, forjados u otros), o por el proceso de puesta en obra del relleno o sensibili-\ndad a las deformaciones de edificaciones o servicios situados en las proximidades de la coro-",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

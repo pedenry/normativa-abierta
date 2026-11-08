@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0089",
+  "ruta_oficial": "1.2",
+  "ruta_semantica": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento / 1 Piscinas / 1.2 Características del vaso de la piscina",
+  "titulo": "1.2 Características del vaso de la piscina",
+  "nivel": 3,
+  "parent_id": "a0087",
+  "seccion_estimada": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 25,
+   "bbox": [
+    70.9,
+    441.9,
+    322.5,
+    455.2
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "2ca84e9641b4f11d0b0c07dccb7ae953130b7e0d629e660455bdf0b099de743e",
+   "literal": "1.2 Características del vaso de la piscina"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0053",
+  "parent_id_original": "a0087",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "1.2 Características del vaso de la piscina",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0087",
+   "ruta_semantica": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento / 1 Piscinas / 1.2 Características del vaso de la piscina",
+   "seccion_estimada": "Sección SUA 6  Seguridad frente al riesgo de ahogamiento",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c272c21fea04d3f71d65ecee4a473d17ef9823013078abef86aeeefea7a8b31c"
+ },
+ "paginas": [
+  25,
+  26
+ ],
+ "etiquetas_impresas": [
+  "25",
+  "26"
+ ],
+ "tipos": [
+  "referencias"
+ ],
+ "texto": "Características del vaso de la piscina\n1.2.1\nProfundidad\n1\nLa profundidad del vaso en piscinas infantiles será 50 cm, como máximo. En el resto de piscinas la\nprofundidad será de 3 m, como máximo, y contarán con zonas cuya profundidad será menor que\n1,40 m.\n2\nSe señalizarán los puntos en donde se supere la profundidad de 1,40 m, e igualmente se señalizará\nel valor de la máxima y la mínima profundidad en sus puntos correspondientes mediante rótulos al\nmenos en las paredes del vaso y en el andén, con el fin de facilitar su visibilidad, tanto desde dentro\ncomo desde fuera del vaso.\n1.2.2\nPendiente\n1\nLos cambios de profundidad se resolverán mediante pendientes que serán, como máximo, las si-\nguientes:\na) En piscinas infantiles el 6%;\nb) En piscinas de recreo o polivalentes, el 10 % hasta una profundidad de 1,40 m y el 35% en el\nresto de las zonas.\n1.2.3\nHuecos\n1\nLos huecos practicados en el vaso estarán protegidos mediante rejas u otro dispositivo de seguridad\nque impidan el atrapamiento de los usuarios.\n1.2.4\nMateriales\n1\nEn zonas cuya profundidad no exceda de 1,50 m, el material del fondo será de Clase 3 en función de\nsu resbaladicidad, determinada de acuerdo con lo especificado en el apartado 1 de la Sección\nSUA 1.\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad\nSUA 6. Seguridad frente al riesgo de ahogamiento\n26\n2\nEl revestimiento interior del vaso será de color claro con el fin de permitir la visión del fondo.\n1.3",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 1"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0091",
+   "ruta_oficial": "1.4",
+   "titulo": "1.4 Escaleras",
+   "archivo_json": "a0091__1-4-escaleras.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

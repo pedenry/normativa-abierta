@@ -1,0 +1,53 @@
+{
+ "indice": 1,
+ "pagina": 6,
+ "etiqueta_impresa": "6",
+ "bbox": [
+  87.8,
+  216.3,
+  539.6,
+  232.6
+ ],
+ "filas": 1,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Ubicación del edificio y tipo de afección de ruido. Distribución del edificio",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Ubicación del edificio y tipo de afección de ruido. Distribución del edificio",
+  ""
+ ],
+ "header": {
+  "names": [
+   "Ubicación del edificio y tipo de afección de ruido. Distribución del edificio",
+   ""
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C6D081070>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000014C0494CF20>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0006.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

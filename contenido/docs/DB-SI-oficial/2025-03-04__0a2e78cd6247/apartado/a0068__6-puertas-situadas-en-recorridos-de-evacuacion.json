@@ -1,0 +1,110 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0068",
+  "ruta_oficial": "6",
+  "ruta_semantica": "Sección SI 3 Evacuación de ocupantes / 6 Puertas situadas en recorridos de evacuación",
+  "titulo": "6 Puertas situadas en recorridos de evacuación",
+  "nivel": 2,
+  "parent_id": "a0048",
+  "seccion_estimada": "Sección SI 3 Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 29,
+   "bbox": [
+    70.9,
+    96.2,
+    416.2,
+    111.8
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "2f5da3be899c1debd4ded507a9a26308ad727712d5e9c888a5216cc01174161d",
+   "literal": "6 Puertas situadas en recorridos de evacuación"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0025",
+  "parent_id_original": "a0048",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB SUA",
+   "UNE\nEN",
+   "UNE 85121",
+   "UNE-EN",
+   "apartado 4.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6 Puertas situadas en recorridos de evacuación",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0048",
+   "ruta_semantica": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida / 6 Puertas situadas en recorridos de evacuación",
+   "seccion_estimada": "capítulo 1 de la Sección 1 de este DB. No obstante, dichos elementos podrán servir como salida",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e5ba9beb72b5e0c946d016852b711dcc7ffd62e01f48097f6bc172db94c7de25"
+ },
+ "paginas": [
+  29
+ ],
+ "etiquetas_impresas": [
+  "29"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Puertas situadas en recorridos de evacuación\n1\nLas puertas previstas como salida de planta o de edificio y las previstas para la evacuación de más\nde 50 personas serán abatibles con eje de giro vertical y su sistema de cierre, o bien no actuará\nmientras haya actividad en las zonas a evacuar, o bien consistirá en un dispositivo de fácil y rápida\napertura desde el lado del cual provenga dicha evacuación, sin tener que utilizar una llave y sin tener\nque actuar sobre más de un mecanismo. Las anteriores condiciones no son aplicables cuando se tra-\nte de puertas automáticas.\n2\nSe considera que satisfacen el anterior requisito funcional los dispositivos de apertura mediante ma-\nnilla o pulsador conforme a la norma UNE-EN 179:2009, cuando se trate de la evacuación de zonas\nocupadas por personas que en su mayoría estén familiarizados con la puerta considerada, así como\nen caso contrario, cuando se trate de puertas con apertura en el sentido de la evacuación conforme\nal punto 3 siguiente, los de barra horizontal de empuje o de deslizamiento conforme a la norma UNE\nEN 1125:2009.\n3\nAbrirá en el sentido de la evacuación toda puerta de salida:\na) prevista para el paso de más de 200 personas en edificios de uso Residencial Vivienda o de 100\npersonas en los demás casos, o bien.\nb) prevista para más de 50 ocupantes del recinto o espacio en el que esté situada.\nPara la determinación del número de personas que se indica en a) y b) se deberán tener en cuenta\nlos criterios de asignación de los ocupantes establecidos en el apartado 4.1 de esta Sección.\n4\nCuando existan puertas giratorias, deben disponerse puertas abatibles de apertura manual contiguas\na ellas, excepto en el caso de que las giratorias sean automáticas y dispongan de un sistema que\npermita el abatimiento de sus hojas en el sentido de la evacuación, ante una emergencia o incluso\nen el caso de fallo de suministro eléctrico, mediante la aplicación manual de una fuerza no superior a\n220 N. La anchura útil de este tipo de puertas y de las de giro automático después de su abatimiento,\ndebe estar dimensionada para la evacuación total prevista.\n5\nLas puertas peatonales automáticas dispondrán de un sistema que en caso de fallo en el suministro\neléctrico o en caso de señal de emergencia, cumplirá las siguientes condiciones, excepto en posición\nde cerrado seguro:\na) Que, cuando se trate de una puerta corredera o plegable, abra y mantenga la puerta abierta o\nbien permita su apertura abatible en el sentido de la evacuación mediante simple empuje con\nuna fuerza total que no exceda de 220 N. La opción de apertura abatible no se admite cuando la\npuerta esté situada en un itinerario accesible según DB SUA.\nb) Que, cuando se trate de una puerta abatible o giro-batiente (oscilo-batiente), abra y mantenga la\npuerta abierta o bien permita su abatimiento en el sentido de la evacuación mediante simple\nempuje con una fuerza total que no exceda de 150 N. Cuando la puerta esté situada en un itine-\nrario accesible según DB SUA, dicha fuerza no excederá de 25 N, en general, y de 65 N cuando\nsea resistente al fuego.\nLa fuerza de apertura abatible se considera aplicada de forma estática en el borde de la hoja, per-\npendicularmente a la misma y a una altura de 1000 ±10 mm,\nLas puertas peatonales automáticas se someterán obligatoriamente a las condiciones de manteni-\nmiento conforme a la norma UNE 85121:2018.\n7",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SUA",
+  "UNE\nEN",
+  "UNE 85121",
+  "UNE-EN",
+  "apartado 4.1"
+ ],
+ "definiciones": [],
+ "excepciones": [
+  {
+   "id_tecnico": "a0052",
+   "ruta_oficial": "3",
+   "titulo": "3 Número de salidas y longitud de los recorridos de evacuación",
+   "archivo_json": "a0052__3-numero-de-salidas-y-longitud-de-los-recorridos-de-evac.json"
+  },
+  {
+   "id_tecnico": "a0071",
+   "ruta_oficial": "9",
+   "titulo": "9 Evacuación de personas con discapacidad en caso de incendio",
+   "archivo_json": "a0071__9-evacuacion-de-personas-con-discapacidad-en-caso-de-inc.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

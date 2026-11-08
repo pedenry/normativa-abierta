@@ -1,0 +1,405 @@
+{
+ "documento": null,
+ "pagina": 20,
+ "etiqueta_impresa": "20",
+ "ancho": 595.2,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    235.2,
+    36.2,
+    376.5,
+    54.3
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico  HS Salubridad\nHS 1 Protección frente a la humedad",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    300.2,
+    795.0,
+    311.8,
+    806.2
+   ],
+   "tipo": "texto",
+   "texto": "20",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    86.5,
+    70.9,
+    554.0,
+    386.9
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    260.3,
+    387.0,
+    367.3,
+    397.1
+   ],
+   "tipo": "texto",
+   "texto": "Figura 2.5 Zonas eólicas",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    407.5,
+    316.0,
+    418.6
+   ],
+   "tipo": "texto",
+   "texto": "2.3.2 Condiciones de las soluciones constructivas",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    426.9,
+    541.5,
+    461.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nLas condiciones exigidas a cada solución constructiva en función de la existencia o no de revesti-\nmiento exterior y del grado de impermeabilidad se obtienen en la tabla 2.7. En algunos casos estas\ncondiciones son únicas y en otros se presentan conjuntos optativos de condiciones.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    193.7,
+    464.4,
+    418.3,
+    474.4
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 2.7 Condiciones de las soluciones de fachada",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    136.1,
+    484.2,
+    469.9,
+    494.3
+   ],
+   "tipo": "texto",
+   "texto": "Con revestimiento exterior\nSin revestimiento exterior",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    72.1,
+    516.5,
+    82.2,
+    632.5
+   ],
+   "tipo": "texto",
+   "texto": "Grado de impermeabilidad",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    88.0,
+    513.1,
+    100.5,
+    523.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤1",
+   "tamano": 9.0,
+   "negrita": true,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    177.5,
+    528.1,
+    202.6,
+    537.0
+   ],
+   "tipo": "texto",
+   "texto": "R1+C1",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    202.6,
+    526.8,
+    211.0,
+    537.0
+   ],
+   "tipo": "texto",
+   "texto": "(1)",
+   "tamano": 5.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    390.0,
+    513.6,
+    400.2,
+    522.5
+   ],
+   "tipo": "texto",
+   "texto": "C1",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    400.2,
+    512.3,
+    436.6,
+    522.5
+   ],
+   "tipo": "texto",
+   "texto": "(1)+J1+N1",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    88.0,
+    537.9,
+    496.0,
+    551.9
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤2\nB1+C1+J1+N1\nC2+H1+J1+N1\nC2+J2+N2\nC1",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    496.0,
+    536.6,
+    534.8,
+    546.8
+   ],
+   "tipo": "texto",
+   "texto": "(1)+H1+J2+",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    505.3,
+    547.1,
+    517.7,
+    556.0
+   ],
+   "tipo": "texto",
+   "texto": "N2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 17,
+   "bbox": [
+    88.0,
+    566.7,
+    405.7,
+    580.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤3\nR1+B1+C1\nR1+C2\nB2+C1+J1+N1\nB1+C2+H1+J1",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 18,
+   "bbox": [
+    371.9,
+    566.7,
+    536.7,
+    584.9
+   ],
+   "tipo": "texto",
+   "texto": "+N1\nB1+C2+J2+N2\nB1+C1+H1+J2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    502.9,
+    576.0,
+    520.0,
+    584.9
+   ],
+   "tipo": "texto",
+   "texto": "+N2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    88.0,
+    599.6,
+    261.0,
+    609.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤4\nR1+B2+C1\nR1+B1+C2\nR2+C1",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 21,
+   "bbox": [
+    261.0,
+    598.9,
+    535.7,
+    609.1
+   ],
+   "tipo": "texto",
+   "texto": "(1)\nB2+C2+H1+J1+N1\nB2+C2+J2+N2\nB2+C1+H1+J2+N2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 22,
+   "bbox": [
+    88.0,
+    624.5,
+    228.0,
+    638.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "≤5\nR3+C1\nB3+C1\nR1+B2+",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 23,
+   "bbox": [
+    208.3,
+    633.6,
+    220.7,
+    642.5
+   ],
+   "tipo": "texto",
+   "texto": "C2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    244.0,
+    624.5,
+    273.3,
+    633.4
+   ],
+   "tipo": "texto",
+   "texto": "R2+B1+",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    253.6,
+    629.1,
+    426.7,
+    642.5
+   ],
+   "tipo": "texto",
+   "texto": "C1\nB3+C1",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    93.7,
+    647.0,
+    329.7,
+    657.2
+   ],
+   "tipo": "texto",
+   "texto": "(1)\nCuando la fachada sea de una sóla hoja, debe utilizarse C2.",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 27,
+   "bbox": [
+    70.9,
+    663.5,
+    541.5,
+    709.2
+   ],
+   "tipo": "texto",
+   "texto": "2\nA continuación se describen las condiciones agrupadas en bloques homogéneos. En cada bloque el\nnúmero de la denominación de la condición indica el nivel de prestación de tal forma que un número\nmayor corresponde a una prestación mejor, por lo que cualquier condición puede sustituir en la ta-\nbla a las que tengan el número de denominación más pequeño de su mismo bloque.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 28,
+   "bbox": [
+    93.7,
+    717.5,
+    344.3,
+    728.7
+   ],
+   "tipo": "texto",
+   "texto": "R) Resistencia a la filtración del revestimiento exterior:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 29,
+   "bbox": [
+    113.7,
+    732.1,
+    541.4,
+    754.7
+   ],
+   "tipo": "texto",
+   "texto": "R1\nEl revestimiento exterior debe tener al menos una resistencia media a la filtración. Se\nconsidera que proporcionan esta resistencia los siguientes:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

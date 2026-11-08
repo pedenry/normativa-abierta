@@ -1,0 +1,81 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0117",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p67",
+  "titulo": "",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p67",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p67",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos / ",
+   "seccion_estimada": "Anejo G. Cálculo del aislamiento acústico de elementos constructivos mixtos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "da6173b9e2f1c575515083f4bc86771b811a430182e9d3bdeaf67f71c2ca4506"
+ },
+ "paginas": [
+  67,
+  68,
+  69
+ ],
+ "etiquetas_impresas": [
+  null,
+  "0",
+  null
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "\n=\n−\nn\nj\nR\ni\nA\nm\nA\ni\nS\nS\nR\n1\n10\n,\n,\n10\n·\n·lg\n10\n[dBA]\n(G.1)\nsiendo\nRm,A\níndice global de reducción acústica, ponderado A, del elemento constructivo mixto, [dBA];\nRi,A\níndice global de reducción acústica, ponderado A, del elemento i, [dBA];\nS\nárea total del elemento constructivo mixto, [m2];\nSi\nárea del elemento i, [m2];\n2\nLa situación más corriente combina dos elementos de aislamiento acústico diferentes, cuya expre-\nsión es:\n\n\n\n\n+\n−\n\n−\n=\n−\n−\nS\nS\n10\n)\nS\nS\n1\n(\nlg\n10\nR\nR\n2\n10\n/)\nA\n,2\nR\nA\n,1\nR\n(\n2\nA\n,2\nA\n,\nm\n[dBA]\n(G.2)\nsiendo\nRm,A\níndice global de reducción acústica, ponderado A, del elemento constructivo mixto, [dBA];\nR1,A\níndice global de reducción acústica, ponderado A, del elemento de mayor aislamiento acústi-\nco, generalmente la parte ciega de la fachada o de la cubierta, [dBA];\nR2,A\níndice global de reducción acústica, ponderado A, del elemento de menor aislamiento, gene-\nralmente los huecos, puertas, ventanas y lucernarios, [dBA];\nS2\nárea del elemento de menor aislamiento, [m2];\nS\nárea total del elemento constructivo mixto, [m2].\nEl sumando logarítmico representa, por tanto, el cambio de índice global de reducción acústica res-\npecto a R2,A que ocasiona la presencia del elemento de área S1 e índice global de reducción acústi-\nca R1,A.\nLa forma más práctica de esta expresión, en las aplicaciones, consiste en suponer R2,A < R1,A, es\ndecir, expresar el índice global de reducción acústica del elemento constructivo mixto en términos\ndel elemento de menor aislamiento.\n3\nLa siguiente gráfica expresa el incremento de aislamiento sobre R2,A en función de la relación de\náreas S/S2 y la diferencia R1,A-R2,A. El valor obtenido en la gráfica se sumará al valor R2,A para obte-\nner Rm,A.\n\nDocumento Básico HR - Protección frente al ruido\nHR G-2\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\nS/S2\nRm,A-R2,A Incremento sobre R2,A\n20\nR1,A-R2,A (dBA)\n15\n10\n5\nR1,A-R2,A>20\nFigura G.1 Índice global de reducción acústica de elementos constructivos mixtos\n4\nEn la práctica, R1,A-R2,A>20. En estos casos en los que R1,A>>R2,A, puede usarse:\n\n\n\n\n\n\n\n+\n=\n2\nA\n,\n2\nA\n,\nm\nS\nS\nlg\n10\nR\nR\n[dBA]\n(G.3)\n\nDocumento Básico HR - Protección frente al ruido\nHR H-1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0069_t01.json",
+  "../tabla/p0069_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0067.png",
+  "../figura/p0068.png",
+  "../figura/p0069.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

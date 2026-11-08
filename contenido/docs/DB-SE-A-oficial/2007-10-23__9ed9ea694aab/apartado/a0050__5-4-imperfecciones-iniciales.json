@@ -1,0 +1,91 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0050",
+  "ruta_oficial": "5.4",
+  "ruta_semantica": "5.4 Imperfecciones iniciales",
+  "titulo": "5.4 Imperfecciones iniciales",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.4 Imperfecciones iniciales",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 28,
+   "bbox": [
+    74.1,
+    309.3,
+    236.2,
+    322.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "26f0a636342e6bf4484f2c392787d0473cfcfb33a328a848be90e74dcedf4973",
+   "literal": "5.4 Imperfecciones iniciales"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0054",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 5.4.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.4 Imperfecciones iniciales",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Análisis estructural 5.1 Generalidades / 5.4 Imperfecciones iniciales",
+   "seccion_estimada": "5 Análisis estructural 5.1 Generalidades",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "8b834168377f07084d50397cc3e74d7bbe90bd8f069f903a418bb25ed3fde9d7"
+ },
+ "paginas": [
+  28
+ ],
+ "etiquetas_impresas": [
+  "28"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "5.4 Imperfecciones iniciales\n1\nEn las comprobaciones de estabilidad lateral debe tenerse en cuenta el efecto de las de las des-\nviaciones geométricas de fabricación y montaje, de las tensiones residuales, de las variaciones lo-\ncales del límite elástico, etc. Ello puede hacerse considerando una configuración geométrica que\nse diferencia de la nominal en las imperfecciones relacionadas en el apartado 5.4.1, o añadiendo\nunas acciones cuyo efecto es el equivalente al de las imperfecciones, según se indica en el apar-\ntado 5.4.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 5.4.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0051",
+  "a0052"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

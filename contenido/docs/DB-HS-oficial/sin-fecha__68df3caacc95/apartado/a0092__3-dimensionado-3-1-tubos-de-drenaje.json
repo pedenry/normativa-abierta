@@ -1,0 +1,84 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0092",
+  "ruta_oficial": "3",
+  "ruta_semantica": "Fragmento de PDF p38",
+  "titulo": "3 Dimensionado 3.1 Tubos de drenaje",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p38",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p38",
+  "referencias_filtradas": [
+   "apartado 2.1.1",
+   "apartado 2.2.1"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Dimensionado 3.1 Tubos de drenaje",
+   "seccion_estimada": "3 Dimensionado 3.1 Tubos de drenaje",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a27594fedfdd7bbec0c8493dff345e78ef34eb079ef6b7bf8deed138eed7a1c9"
+ },
+ "paginas": [
+  38
+ ],
+ "etiquetas_impresas": [
+  "38"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "3 Dimensionado 3.1 Tubos de drenaje\n3.1 Tubos de drenaje\n1\nLas pendientes mínima y máxima y el diámetro nominal mínimo de los tubos de drenaje deben ser\nlos que se indican en la tabla 3.1.\nTabla 3.1 Tubos de drenaje\nGrado de im-\npermeabilidad (1)\nPendiente\nmínima\nen ‰\nPendiente má-\nxima\nen ‰\nDiámetro nominal mínimo\nen mm\nDrenes bajo suelo\nDrenes en el perímetro\ndel muro\n1\n3\n14\n125\n150\n2\n3\n14\n125\n150\n3\n5\n14\n150\n200\n4\n5\n14\n150\n200\n5\n8\n14\n200\n250\n(1)\nEste grado de impermeabilidad es el establecido en el apartado 2.1.1 para muros y en el apartado 2.2.1 para suelos.\n2\nLa superficie de orificios del tubo drenante por metro lineal debe ser como mínimo la obtenida de la\ntabla 3.2.\nTabla 3.2 Superficie mínima de orificios de los tubos de drenaje\nDiámetro nominal\nSuperficie total mínima de orificios\nen cm2/m\n125\n10\n150\n10\n200\n12\n250\n17",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.1.1",
+  "apartado 2.2.1"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0038_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0038.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0093",
+  "a0094"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

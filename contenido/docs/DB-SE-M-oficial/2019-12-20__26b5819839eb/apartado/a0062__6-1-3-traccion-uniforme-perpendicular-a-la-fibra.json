@@ -1,0 +1,101 @@
+{
+ "documento": "DB-SE-M-oficial",
+ "code": "DB-SE-M",
+ "title": "DB-SE-M Madera",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__26b5819839eb",
+ "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+ "apartado": {
+  "id_tecnico": "a0062",
+  "ruta_oficial": "6.1.3",
+  "ruta_semantica": "6.1.3  Tracción uniforme perpendicular a la fibra",
+  "titulo": "6.1.3  Tracción uniforme perpendicular a la fibra",
+  "nivel": 1,
+  "parent_id": "a0059",
+  "seccion_estimada": "6.1.3  Tracción uniforme perpendicular a la fibra",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 29,
+   "bbox": [
+    70.9,
+    533.6,
+    301.6,
+    543.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "cf35af26e2567cb40032a9d2a8c840a0e9e7bfc9b9a331e1988057ede274a973",
+   "literal": "6.1.3  Tracción uniforme perpendicular a la fibra"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0073",
+  "parent_id_original": "a0059",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "apartado 2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.1.3  Tracción uniforme perpendicular a la fibra",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0059",
+   "ruta_semantica": "6  Estados límite últimos / 6.1  Agotamiento de secciones sometidas a tensiones orientadas según las di- recciones principales / 6.1.3  Tracción uniforme perpendicular a la fibra",
+   "seccion_estimada": "6  Estados límite últimos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3accfc20193d31ea30081e069c6a7917d33b85a391051fedf6fa1644414bca1b"
+ },
+ "paginas": [
+  29
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "6.1.3  Tracción uniforme perpendicular a la fibra\n1\nDeterminadas las tensiones de cálculo, debe cumplirse la siguiente condición:\nt,90,d ft,90,d\nmadera maciza\n(6.2)\nt,90,d kvol·ft,90,d  madera laminada encolada y madera microlaminada\n(6.3)\nsiendo:\nt,90,d\ntensión de cálculo a tracción perpendicular a la fibra;\nft,90,d\nresistencia de cálculo a tracción perpendicular a la fibra;\nkvol\nfactor de volumen definido en el apartado 2.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1  Generalidades 1.1  Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 2.2"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0077",
+   "ruta_oficial": "6.3.2",
+   "titulo": "6.3.2  Pandeo de columnas solicitadas a flexión compuesta. (Pandeo por flexión) 6.3.2.1  Definiciones:",
+   "archivo_json": "a0077__6-3-2-pandeo-de-columnas-solicitadas-a-flexion-compuesta.json"
+  },
+  {
+   "id_tecnico": "a0082",
+   "ruta_oficial": "6.3.3.2",
+   "titulo": "6.3.3.2  Definiciones",
+   "archivo_json": "a0082__6-3-3-2-definiciones.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0029.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-M.pdf",
+  "sha256": "26b5819839ebfda78b0b119c5e76a0a37773b0d763c05688541870075df93718",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

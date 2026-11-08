@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0072",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección SI 4 Instalaciones de protección contra incendios",
+  "titulo": "Sección SI 4 Instalaciones de protección contra incendios",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Sección SI 4 Instalaciones de protección contra incendios",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 32,
+   "bbox": [
+    70.9,
+    71.3,
+    418.5,
+    107.4
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "4dd5640d92e421ad573ad10aba789d54b54d6f1cfcc33a379a84555f4cbba985",
+   "literal": "Sección SI 4 Instalaciones de protección contra incendios"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0029",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección SI 4 Instalaciones de protección contra incendios",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Sección SI 4 Instalaciones de protección contra incendios",
+   "seccion_estimada": "Sección SI 4 Instalaciones de protección contra incendios",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "3f990daf64cc382fb762a540f8c46a09edea28692bda48519fdccf67ad969871"
+ },
+ "paginas": [
+  32
+ ],
+ "etiquetas_impresas": [
+  "32"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Sección SI 4 Instalaciones de protección contra incendios\nInstalaciones de protección contra incendios\n1",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0032.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0073",
+  "a0074"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

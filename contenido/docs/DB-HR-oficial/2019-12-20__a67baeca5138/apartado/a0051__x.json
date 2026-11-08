@@ -1,0 +1,92 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0051",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p26",
+  "titulo": " ",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p26",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p26",
+  "referencias_filtradas": [
+   "UNE-EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos /  ",
+   "seccion_estimada": "3   Diseño y dimensionado 3.1  Aislamiento acústico a ruido aéreo y a ruido de impactos",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5fb2803b43281d987f5d19f13df5af856dda99d026b0fa78b120b6659fb214cb"
+ },
+ "paginas": [
+  26,
+  27,
+  28
+ ],
+ "etiquetas_impresas": [
+  "2",
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": " \n\n \n\n=\n−\n=\n−\n=\n−\n=\n=\n−\n−\nsi\n,\nei\nai\nA\n,\nai\n,n\nD\n1,\n0\ns\n0\nn\n1\nF\nA\n,\nFd\nR\n1,\n0\nn\n1\nf\nA\n,\nDf\nR\n1,\n0\nn\n1\nf\nF\nA\n,\nFf\nR\n1,\n0\nA\n,\nDd\nR\n1,\n0\nA\n10\nS\nA\n10\n10\n10\n10\nlg\n10\n'\nR\n[dBA] (3.8)\nsiendo\nRDd,A índice global de reducción acústica para la transmisión directa, en dB (dBA, para ruido rosa);\nRFf,A\níndice global de reducción acústica para la transmisión indirecta, del camino Ff, en dB (dBA,\npara ruido rosa);\nRDf,A\níndice global de reducción acústica para la transmisión indirecta, del camino Df, en dB (dBA,\npara ruido rosa);\nRFd,A índice global de reducción acústica para la transmisión indirecta, del camino Fd, en dB (dBA,\npara ruido rosa);\nDn,ai,A diferencia de niveles normalizada, ponderada A, para la transmisión de ruido aéreo por vía\ndirecta, a través de aireadores u otros elementos de construcciónpequeños, Dn,e,A, o por vía\nindirecta, Dn,s,A, a través de distribuidores y pasillos o a través de sistemas tales como con-\nductos de instalaciones de aire acondicionado o ventilación;\nn\nnúmero de elementos de flanco del recinto, que normalmente es 4 pero puede ser diferente\nsegún el diseño del recinto;\nSs\nárea compartida del elemento de separación, [m2];\nA0\nárea de absorción equivalente de referencia, de valor A0=10 m2.\n4\nEl índice global de reducción acústica para la transmisión directa se determina a partir de los datos\ndel elemento de separación según la expresión que sigue:\n\nDocumento Básico HR - Protección frente al ruido\nHR-21\nA\n,\nDd\nA\n,\nS\nA\n,\nDd\nR\nR\nR\n\n+\n=\n[dBA]\n(3.9)\nsiendo\nRS,A\níndice global de reducción acústica del elemento de separación para ruido rosa incidente,\n[dBA];\nRDd,A mejora del índice global de reducción acústica, por efecto de revestimientos del lado de la\nemisión y de la recepción, en dBA, para ruido rosa. Este valor se obtiene directamente de\nresultados disponibles por ensayos en laboratorio para la combinación elegida o se puede\ndeducir de los resultados obtenidos de cada uno de los revestimientos por separado:\nUn revestimiento:\nA\nd,\nA\n,\nDd\nA\n,\nD\nA\n,\nDd\nR\nR\nó\nR\nR\n\n=\n\n\n=\n\n[dBA]\n(3.10)\nDos revestimientos:\n2\nR\nR\nR\nó\n2\nR\nR\nR\nD,A\nA\n,d\nA\n,\nDd\nd,A\nA\n,\nD\nA\n,\nDd\n\n+\n\n=\n\n\n+\n\n=\n\n[dBA] (3.11)\nSe elegirá como valor mitad para el caso de dos revestimientos, el menor de ellos.\n5\nLos valores de los índices globales de reducción acústica para la transmisión por flancos se deter-\nminan mediante las expresiones:\nf\n0\ns\nFf\nA\n,\nFf\nA\n,f\nA\n,\nF\nA\n,\nFf\nl\nl\nS\nlg\n10\nK\nR\n2\nR\nR\nR\n\n+\n+\n\n+\n+\n=\n[dBA]\n(3.12)\nf\n0\ns\nDf\nA\n,\nDf\nA\n,f\nA\n,\nS\nA\n,\nDf\nl\nl\nS\nlg\n10\nK\nR\n2\nR\nR\nR\n\n+\n+\n+\n+\n=\nΔ\n[dBA]\n(3.13)\nf\n0\ns\nFd\nA\n,\nFd\nA\n,\nS\nA\n,\nF\nA\n,\nFd\nl\nl\nS\nlg\n10\nK\nR\n2\nR\nR\nR\n\n+\n+\n+\n+\n=\nΔ\n[dBA]\n(3.14)\nsiendo\nRF,A\níndice global de reducción acústica del elemento de flanco F, (en dBA, para ruido rosa),\nRf,A\níndice global de reducción acústica del elemento de flanco f, (en dBA, para ruido rosa),\nRFf,A mejora del índice global de reducción acústica, por efecto de revestimientos del elemento de\nflanco, del lado de la emisión y de la recepción, (en dBA, para ruido rosa),\nRDf,A mejora del índice global de reducción acústica, por efecto de revestimientos en el elemento\nde separación del lado de la emisión y/o del elemento de flanco en la recepción, (en dBA,\npara ruido rosa),\nRFd,A mejora del índice global de reducción acústica, por efecto de revestimientos en el elemento\nde flanco del lado de la emisión y/o del elemento de separación en la recepción, (en dBA,\npara ruido rosa).\nEstos valores se obtienen directamente de resultados disponibles por ensayos en laboratorio\npara la combinación elegida o se pueden deducir de los resultados obtenidos en cada una\nde las capas implicadas independientemente (ij= Ff; Fd o Df):\nUn revestimiento:\nA\nj,\nA\n,ij\nA\n,i\nA\n,ij\nR\nR\nó\nR\nR\nΔ\nΔ\nΔ\nΔ\n=\n=\n[dBA]\n(3.15)\nDos revestimientos:\n2\nR\nR\nR\nó\n2\nR\nR\nR\nA\ni,\nA\n,j\nA\n,ij\nA\nj,\nA\n,i\nA\n,ij\nΔ\nΔ\nΔ\nΔ\nΔ\nΔ\n+\n=\n+\n=\n[dBA]\n(3.16)\nSe elegirá como valor mitad para el caso de dos revestimientos, el menor de ellos.\n\nDocumento Básico HR - Protección frente al ruido\nHR-22\nKij\níndice de reducción de vibraciones para el camino por flancos ij (ij = Ff; Fd o Df), [dB];\nLos Kij pueden calcularse de acuerdo a la norma UNE-EN ISO 12354-1.\nSs\nárea compartida del elemento de separación, en m2\nlf\nlongitud común de la arista de unión entre el elemento de separación y los elementos de\nflancos F y f, [m];\nl0\nlongitud de la arista de unión de referencia, de valor l0 = 1 m.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE-EN"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0039",
+   "ruta_oficial": "3.1.2.3",
+   "titulo": "3.1.2.3  Elementos de separación 3.1.2.3.1  Definición y composición de los elementos de separación",
+   "archivo_json": "a0039__3-1-2-3-elementos-de-separacion-3-1-2-3-1-definicion-y-c.json"
+  }
+ ],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0026.png",
+  "../figura/p0027.png",
+  "../figura/p0028.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0052"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

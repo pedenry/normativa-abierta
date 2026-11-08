@@ -1,0 +1,116 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0132",
+  "ruta_oficial": null,
+  "ruta_semantica": "Sección 3. Evacuación de ocupantes",
+  "titulo": "Sección 3. Evacuación de ocupantes",
+  "nivel": 1,
+  "parent_id": "a0128",
+  "seccion_estimada": "Sección 3. Evacuación de ocupantes",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 79,
+   "bbox": [
+    210.1,
+    215.4,
+    385.2,
+    229.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "f65ba77bd64dcd4eee81d771ae7fd6d020dae226e6cc065cb48fb2009ae8e8f0",
+   "literal": "Sección 3. Evacuación de ocupantes"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0128",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "DB-SI",
+   "apartado\n2",
+   "apartado 3",
+   "apartado 4",
+   "apartado 6",
+   "apartado 8.3",
+   "artículo 4"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Sección 3. Evacuación de ocupantes",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0128",
+   "ruta_semantica": "ANEXO II / Sección 3. Evacuación de ocupantes",
+   "seccion_estimada": "ANEXO II",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "06612525b09be4a918a74a63632852970b4c44a89fee65f9d86a8c8ebb34e536"
+ },
+ "paginas": [
+  79,
+  80,
+  81
+ ],
+ "etiquetas_impresas": [
+  "79",
+  "80",
+  "81"
+ ],
+ "tipos": [
+  "notas",
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "Sección 3. Evacuación de ocupantes\n1. Compatibilidad de los elementos de evacuación.\n1.1 Cuando en un edificio de tipo AV o AH coexistan establecimientos industriales y no\nindustriales, la evacuación a través de las zonas comunes del edificio deberá satisfacer las\ncondiciones establecidas en el CTE DB-SI, mientras que la evacuación por el interior de los\nestablecimientos industriales deberá satisfacer las condiciones expuestas en el apartado 3\nde la presente sección.\nLa evacuación del establecimiento industrial podrá realizarse por las zonas comunes del\nedificio siempre que el acceso a estos se realice a través de un vestíbulo de independencia.\nSi el número de ocupantes del establecimiento industrial (P, calculado según el apartado\n2) es superior a 50 personas, deberá contar con una salida independiente del resto del\nedificio.\n1.2 Para los establecimientos industriales en edificios con zonas de uso no industrial bajo\nla misma titularidad que deban constituir sectores de incendio independientes de acuerdo\ncon el artículo 4 del reglamento, «Compatibilidad reglamentaria», la evacuación de dichos\nsectores de uso no industrial deberá satisfacer las condiciones establecidas en el CTE DB-\nSI.\n1.3 La evacuación de los establecimientos industriales ubicados en edificios de tipo AV o\nAH donde todos los establecimientos sean de uso industrial, o bien, en donde coexistan\nestablecimientos industriales y no industriales que no compartan recorridos de evacuación a\ntravés de zonas comunes, así como también en edificios de tipo B o C, deberá satisfacer las\ncondiciones expuestas en el apartado 3.\n1.4 La evacuación de los establecimientos industriales ubicados en espacios abiertos\n(configuración tipo D) deberá satisfacer las condiciones expuestas en el apartado 4.\n2. Cálculo de la ocupación.\nPara la aplicación de las exigencias relativas a la evacuación de los establecimientos\nindustriales, se determinará su ocupación, «P», para cada uno de sus sectores, deducida de\nlas siguientes expresiones:\na) P = 1,10 p, cuando p < 100.\nb) P = 110 + 1,05 (p – 100), cuando 100 < p < 200.\nc) P = 215 + 1,03 (p – 200), cuando 200 < p < 500.\nd) P = 524 + 1,01 (p – 500), cuando 500 < p.\nDonde «p» representa el número de personas que ocupa el sector de incendio, de\nacuerdo con la documentación laboral que regule el funcionamiento de la actividad.\nLos valores obtenidos para «P», según las anteriores expresiones, se redondearán al\nentero inmediatamente superior.\n3. Evacuación de los establecimientos industriales ubicados en edificios.\n3.1 Número de salidas y longitud de los recorridos de evacuación.\n3.1.1 Número de salidas: Se basará en lo dispuesto en el apartado 3 de la Sección SI 3\ndel CTE DB-SI, a partir de la ocupación calculada según el presente reglamento y añadiendo\nlas siguientes consideraciones:\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 79\n\na) Los sectores de incendio de riesgo intrínseco alto de superficie construida superior a\n50 m2 deberán disponer de, al menos, dos salidas alternativas.\nb) Los sectores de incendio de riesgo intrínseco medio o bajo, de superficie construida\nsuperior a 50 m2 deberán disponer de, al menos, dos salidas alternativas, cuando su número\nde ocupantes (P) sea superior a 50 personas, o cuando esté previsto para ser utilizado para\nla evacuación de más de 50 personas (incluyendo posibles ocupantes de otras zonas del\nestablecimiento que deban utilizar el paso por dicho sector para alcanzar la salida).\n3.1.2 La longitud de los recorridos de evacuación de los sectores de incendio hasta la\nsalida de planta o de edificio, no superarán los valores indicados en la siguiente tabla y\nprevalecerán sobre los establecidos en la tabla 3.1 de la Sección SI 3 del CTE DB-SI:\nTabla 2.3.1\nLongitud del recorrido de evacuación según el número de salidas y el nivel de riesgo\nintrínseco del sector de incendio\nUna salida\nDos o más salidas alternativas\nNivel de riesgo\nintrínseco\nDistancia a la salida (1)\n(3) (4)\nDistancia del recorrido sin\nalternativa (2) (4)\nDistancia a la salida más\npróxima (1) (4)\nRiesgo bajo (5).\n50 m\n50 m\n65 m\nRiesgo medio.\n35 m\n35 m\n50 m\nRiesgo alto.\n20 m\n20 m\n35 m\nNotas de la tabla:\nNota 1: Se refiere a la distancia total desde cualquier origen de evacuación hasta la\nsalida de planta o salida de edificio.\nNota 2: Se refiere a la longitud de los recorridos de evacuación desde su origen hasta\nllegar a algún punto desde el cual existan al menos dos recorridos alternativos.\nNota 3: Cuando un sector solo disponga de una salida y su recorrido de evacuación pase\npor otros sectores intermedios hasta la salida de planta o de edificio, la longitud máxima de\ndicho recorrido será la aplicable al sector que tenga un nivel de riesgo mayor.\nNota 4: Las longitudes de los recorridos de evacuación incluidas en la tabla 2.3.1 se\npodrán aumentar usando los coeficientes indicados según las siguientes condiciones. (Los\ncoeficientes no son acumulativos, por lo que solo se podrá aplicar uno de ellos):\na) En sectores de incendio protegidos con un sistema fijo de extinción automática\nbasada en agua, u otros tipos de sistemas fijos de extinción automática que sean\ncompatibles para poder funcionar durante la fase de evacuación, los recorridos podrán\nincrementarse un 25 %.\nb) En sectores de incendio dotados con un sistema para el control de humos y de calor\nsegún el apartado 8.3 del anexo III, diseñado con los objetivos de protección de los medios\nde evacuación y de facilitación de las operaciones de lucha contra incendios, los recorridos\npodrán incrementarse un 25 %.\nc) En sectores situados en la planta de salida del edificio, con dos o más salidas directas\nal exterior, con altura de techo igual o mayor a 8 metros y protegidos por un sistema fijo de\nextinción automática compatible para poder funcionar durante la fase de evacuación: Los\nrecorridos podrán incrementarse hasta un 100 % respecto a los valores indicados en la tabla,\nsin que puedan superar un máximo de 90 metros. En el caso de que el sector tenga varias\nplantas o entreplantas, solo se podrá aplicar lo anterior a la evacuación procedente de\norígenes de evacuación situados en la planta de salida del edificio.\nNota 5: Para sectores clasificados como riesgo bajo nivel 1 en donde se justifique que\nlos materiales existentes (incluyendo tanto el contenido almacenado como los productos de\nconstrucción y los revestimientos) sean incombustibles o de muy baja combustibilidad y\nemisión de humo (de clase A1 o A2, o de un comportamiento equivalente) en un 95 % de\nmasa, podrá aumentarse la distancia máxima de los recorridos de evacuación hasta ser esta\nde 100 metros en casos de una salida; o bien, de hasta 150 metros hasta la salida más\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 80\n\npróxima en casos de dos o más salidas y con una distancia del recorrido sin alternativa de\nmáximo 100 metros. (Cuando aplique esta nota no se podrán aplicar los coeficientes de la\nnota 4).\n3.1.3 Otras consideraciones:\na) La salida de planta desde un sector a otro sector de incendio alternativo no precisará\nde vestíbulo de independencia siempre y cuando el sector de origen tenga una ocupación\n(P) de hasta 25 personas (en su caso, incluyendo también a aquellos ocupantes\nprovenientes de otras zonas que deban utilizar el paso por dicho sector para alcanzar la\nsalida), o bien, cuando la altura libre de planta en ambos sectores sea igual o mayor de 5\nmetros.\nb) En las zonas de los sectores cuya actividad impide la presencia de personal (por\nejemplo, en almacenes operados automáticamente), los requisitos de evacuación serán de\naplicación solamente a las zonas donde pueda existir presencia habitual de personas. Esta\nparticularidad deberá estar justificada.\nc) Los requisitos de esta sección no son aplicables a las condiciones de evacuación de\nzonas de uso exclusivo por personal especializado en mantenimiento, reparaciones,\ncontroles o actividades similares, cuyo acceso y evacuación son particulares, como pueden\nser un foso de ascensor, una galería de instalaciones, una cubierta de uso restringido, entre\notros, ni a los elementos destinados a dicho personal, tales como escalas o accesos. La\nregulación de las condiciones de evacuación de dichas zonas y elementos corresponde a la\nreglamentación de seguridad en el trabajo o bien a la específica de las instalaciones y\nequipos de que se trate.\n3.2 Dimensionado de los medios de evacuación.\nEl dimensionado de los medios de evacuación se efectuará de acuerdo al apartado 4 de\nla Sección SI 3 del CTE DB-SI, añadiendo la siguiente consideración: La anchura de los\npasillos no debe ser inferior a 1 metro y la anchura de puertas y pasos debe ser, como\nmínimo, de 80 cm.\n3.3 Protección de las escaleras y de los pasillos.\n3.3.1 Las escaleras que se prevean para evacuación descendente serán protegidas\ncuando superen la altura de evacuación de 14 metros.\nLas escaleras para evacuación ascendente serán protegidas cuando salven alturas de\nevacuación superiores a 1,50 metros y estén previstas para más de 25 personas, o bien,\nsalven alturas de evacuación superiores a 2,8 metros.\n3.3.2 Los pasillos protegidos deberán cumplir lo dispuesto en las definiciones del CTE\nDB-SI, con las siguientes consideraciones adicionales:\na) La ventilación para la protección frente al humo de los pasillos protegidos, cuando\nesta sea prevista mediante sistemas de presión diferencial, incluirá puntos de impulsión de\naire al menos cada 10 metros de longitud de pasillo.\nb) Excepcionalmente, los pasillos protegidos cuyos accesos sean siempre desde plantas\nsuperiores, podrán disponer de un número de accesos superior a dos.\n3.4 Puertas situadas en recorridos de evacuación.\nLas puertas situadas en recorridos de evacuación serán conformes al apartado 6 de la",
+ "notas": [
+  "Notas de la tabla:",
+  "Nota 1: Se refiere a la distancia total desde cualquier origen de evacuación hasta la",
+  "Nota 2: Se refiere a la longitud de los recorridos de evacuación desde su origen hasta",
+  "Nota 3: Cuando un sector solo disponga de una salida y su recorrido de evacuación pase",
+  "Nota 4: Las longitudes de los recorridos de evacuación incluidas en la tabla 2.3.1 se",
+  "Nota 5: Para sectores clasificados como riesgo bajo nivel 1 en donde se justifique que",
+  "nota 4)."
+ ],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB-SI",
+  "apartado\n2",
+  "apartado 3",
+  "apartado 4",
+  "apartado 6",
+  "apartado 8.3",
+  "artículo 4"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0080_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0080.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

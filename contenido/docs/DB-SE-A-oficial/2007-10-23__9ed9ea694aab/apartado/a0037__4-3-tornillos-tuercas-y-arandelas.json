@@ -1,0 +1,95 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0037",
+  "ruta_oficial": "4.3",
+  "ruta_semantica": "4.3 Tornillos, tuercas y arandelas",
+  "titulo": "4.3 Tornillos, tuercas y arandelas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.3 Tornillos, tuercas y arandelas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 14,
+   "bbox": [
+    74.1,
+    626.9,
+    266.9,
+    640.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "d52265d9ff5fbdbcc83b54824914a53976bbd0605f84500461205721640ff1ad",
+   "literal": "4.3 Tornillos, tuercas y arandelas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0041",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "4.3 Tornillos, tuercas y arandelas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 ≤ t ≤ 100 / 4.3 Tornillos, tuercas y arandelas",
+   "seccion_estimada": "3 ≤ t ≤ 100",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ce54c22fdbe646cd0989c49897ef73716be750d6888a7e77b4444a9ca818e7ba"
+ },
+ "paginas": [
+  14,
+  15
+ ],
+ "etiquetas_impresas": [
+  "14",
+  "15"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "4.3 Tornillos, tuercas y arandelas\n1\nEn la tabla 4.3 se resumen las características mecánicas mínimas de los aceros de los tornillos de\ncalidades normalizadas en la normativa ISO.\nTabla 4.3 Características mecánicas de los aceros de los tornillos, tuercas y arandelas\nClase\n4.6\n5.6\n6.8\n8.8\n10.9\nTensión de límite elástico fy (N/mm2)\n240\n300\n480\n640\n900\nTensión de rotura fu (N/mm2)\n400\n500\n600\n800\n1000\n\nDocumentoBásico SE-A Acero\nSE-A-13\n2\nEn el contexto de este DB se entenderá por tornillo el conjunto tornillo, tuerca y arandela (simple o\ndoble).\n3\nEn los tornillos de alta resistencia utilizados como pretensados, se controlará el apriete.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0014.png",
+  "../figura/p0015.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

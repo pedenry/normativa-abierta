@@ -1,0 +1,89 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0086",
+  "ruta_oficial": "6",
+  "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 6 Determinación de la resistencia al fuego",
+  "titulo": "6 Determinación de la resistencia al fuego",
+  "nivel": 2,
+  "parent_id": "a0080",
+  "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 41,
+   "bbox": [
+    70.9,
+    71.1,
+    377.9,
+    86.7
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "2f41dd753d2676c753df283951cce3f8c05728677bff2aa40a2d48d61a0c784e",
+   "literal": "6 Determinación de la resistencia al fuego"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0043",
+  "parent_id_original": "a0080",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "Real Decreto 842/2013"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6 Determinación de la resistencia al fuego",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0080",
+   "ruta_semantica": "Sección SI 6 Resistencia al fuego de la estructura / 6 Determinación de la resistencia al fuego",
+   "seccion_estimada": "Sección SI 6 Resistencia al fuego de la estructura",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "cc7c1fef9d316e88c377da36e20a33952b6da755a7222c77ac9b0c9ba117862b"
+ },
+ "paginas": [
+  41
+ ],
+ "etiquetas_impresas": [
+  "41"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "Determinación de la resistencia al fuego\n1\nLa resistencia al fuego de un elemento puede establecerse de alguna de las formas siguientes:\na) comprobando las dimensiones de su sección transversal con lo indicado en las distintas tablas\nsegún el material dadas en los anejos C a F, para las distintas resistencias al fuego;\nb) obteniendo su resistencia por los métodos simplificados dados en los mismos anejos.\nc)\nmediante la realización de los ensayos que establece el Real Decreto 842/2013 de 31 de octu-\nbre.\n2\nEn el análisis del elemento puede considerarse que las coacciones en los apoyos y extremos del\nelemento durante el tiempo de exposición al fuego no varían con respecto a las que se producen a\ntemperatura normal.\n3\nCualquier modo de fallo no tenido en cuenta explícitamente en el análisis de esfuerzos o en la res-\npuesta estructural deberá evitarse mediante detalles constructivos apropiados.\n4\nSi el anejo correspondiente al material específico (C a F) no indica lo contrario, los valores de los\ncoeficientes parciales de resistencia en situación de incendio deben tomarse iguales a la unidad:\nM,fi = 1\n5\nEn la utilización de algunas tablas de especificaciones de hormigón y acero se considera el coefi-\nciente de sobredimensionado fi,definido como:\nd,0\nfi,\nd\nfi,\nfi\nR\nE\n=\nμ\n(6.1)\nsiendo:\n0\n,d\n,fi\nR\nresistencia del elemento estructural en situación de incendio en el instante inicial t=0, a\ntemperatura normal.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "Real Decreto 842/2013"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0041.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

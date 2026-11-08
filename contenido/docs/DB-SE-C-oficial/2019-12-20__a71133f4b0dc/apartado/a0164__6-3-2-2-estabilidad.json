@@ -1,0 +1,129 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0164",
+  "ruta_oficial": "6.3.2.2",
+  "ruta_semantica": "6.3.2.2 Estabilidad",
+  "titulo": "6.3.2.2 Estabilidad",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "6.3.2.2 Estabilidad",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 79,
+   "bbox": [
+    70.9,
+    229.4,
+    162.5,
+    239.4
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "ac0f9db9a55dc779e97dcbf780e55db99808f7bd12183b07092b82931ac7dddc",
+   "literal": "6.3.2.2 Estabilidad"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0191",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 6.3.1"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "6.3.2.2 Estabilidad",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / sección rectangular en planta (véase Figura 4.12). / 6.3.2 Pantallas 6.3.2.1 Criterios básicos / 6.3.2.2 Estabilidad",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "5a6fa4d85fa9591c69e0b6decb289a4106c3d533efb3e288a77460516226baef"
+ },
+ "paginas": [
+  79
+ ],
+ "etiquetas_impresas": [
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "6.3.2.2 Estabilidad\n1\nLa comprobación de la estabilidad de una pantalla de contención debe hacerse, según los criterios\ndefinidos en el apartado 6.3.1, en la situación pésima para todas y cada una de las fases de la ex-\ncavación o de la construcción del edificio, a menos que la estabilidad en una determinada fase im-\nplique necesariamente la estabilidad en otras con un mayor grado de seguridad, en cuyo caso po-\ndrá prescindirse de las comprobaciones correspondientes a éstas.\n2\nLos cálculos de estabilidad en cada fase deben verificarse al menos los siguientes estados límite:\na)\nestabilidad global;\nb)\nestabilidad del fondo de la excavación;\nc)\nestabilidad propia de la pantalla;\nd)\nestabilidad de los elementos de sujeción;\ne)\nestabilidad en las edificaciones próximas;\nf)\nestabilidad de las zanjas, en el caso de pantallas de hormigón armado.\n3\nLa estabilidad debe verificarse bien para cada pantalla por separado o bien para el conjunto de\npantallas del edificio.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 6.3.1"
+ ],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0079.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0165",
+  "a0166"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,86 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0159",
+  "ruta_oficial": null,
+  "ruta_semantica": "Anejo B Características de las instalaciones de protección frente al rayo / B.1 Sistema externo / B.1.1 Diseño de la instalación de dispositivos captadores / B.1.1.2 Volumen protegido mediante pararrayos con dispositivo de cebado",
+  "titulo": "B.1.1.2 Volumen protegido mediante pararrayos con dispositivo de cebado",
+  "nivel": 4,
+  "parent_id": "a0158",
+  "seccion_estimada": "Anejo B Características de las instalaciones de protección frente al rayo",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 44,
+   "bbox": [
+    70.9,
+    404.0,
+    429.8,
+    415.1
+   ],
+   "metodo": "toc_pdf_literal",
+   "sha256_texto_pagina": "1814a5f6fc675e25ceededc97046cffa5f1b76af3541dafe37dab823e560e815",
+   "literal": "B.1.1.2 Volumen protegido mediante pararrayos con dispositivo de cebado"
+  },
+  "navegacion_motivo": "marcador_toc_verificado",
+  "navegacion_id": "n0120",
+  "parent_id_original": "a0158",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.1.1.2 Volumen protegido mediante pararrayos con dispositivo de cebado",
+  "ruta_fuente": "toc_verificado_literal",
+  "extraccion_anterior": {
+   "parent_id": "a0158",
+   "ruta_semantica": "Anejo B Características de las instalaciones de protección frente al rayo / B.1 Sistema externo / B.1.1 Diseño de la instalación de dispositivos captadores / B.1.1.2 Volumen protegido mediante pararrayos con dispositivo de cebado",
+   "seccion_estimada": "Anejo B Características de las instalaciones de protección frente al rayo",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a469bfae1bdcc6d8f72f9a456cc3860c8e7d15c96c6a78f54e81c0614d5d3dba"
+ },
+ "paginas": [
+  44,
+  45
+ ],
+ "etiquetas_impresas": [
+  "44",
+  "45"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Documento Básico SUA Seguridad de utilización y accesibilidad\nAnejo B. Características de las instalaciones de protección frente al rayo\n44\nB.1.1.1.3 Método de la malla\n1\nEl volumen protegido es el definido por una malla rectangular cuya dimensión mayor será la indicada\nen la tabla B.3 en función del nivel de protección.\nTabla B.3 Dimensión de la retícula\nNivel de protección\nDimensión de la retícula\nm\n1\n5\n2\n10\n3\n15\n4\n20\n2\nLas condiciones para que la protección sea efectiva son las siguientes:\na) los conductores captadores situados en la cubierta deben estar colocados en:\ni)\nel perímetro de la cubierta;\nii) en la superficie de la cubierta formando una malla de la dimensión exigida;\niii) en la línea de limatesa de la cubierta, cuando la pendiente de la cubierta sea superior al\n10%;\nb) en las superficies laterales de la estructura la malla debe disponerse a alturas superiores al radio\nde la esfera rodante correspondiente al nivel de protección exigido;\nc)\nninguna instalación metálica debe sobresalir fuera del volumen protegido por las mallas.\n3\nEn edificios de altura superior a 60 m protegidos mediante malla conductora, se deberá disponer\ntambién una malla conductora para proteger el 20% superior de la fachada.\nB.1.1.2 Volumen protegido mediante pararrayos con dispositivo de cebado\n1\nCuando se utilicen pararrayos con dispositivo de cebado, el volumen protegido por cada punta se\ndefine de la siguiente forma (véase figura B.4):\na) bajo el plano horizontal situado 5 m por debajo de la punta, el volumen protegido es el de una\nesfera cuyo centro se sitúa en la vertical de la punta a una distancia D y cuyo radio es:\nL\nD\nR\n\n\n\nsiendo\nR el radio de la esfera en m que define la zona protegida\nD distancia en m que figura en la tabla B.4 en función del nivel de protección\nL distancia en m función del tiempo del avance en el cebado t del pararrayos en s. Se adop-\ntará L=t para valores de t inferiores o iguales a 60 s, y L=60 m para valores de t su-\nperiores.\nTabla B.4 Distancia D\nNivel de protección\nDistancia D\nm\n1\n20\n2\n30\n3\n45\n4\n60\nb) por encima de este plano, el volumen protegido es el de un cono definido por la punta de capta-\nción y el círculo de intersección entre este plano y la esfera.\n\nDocumento Básico SUA Seguridad de utilización y accesibilidad",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0044.png",
+  "../figura/p0045.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

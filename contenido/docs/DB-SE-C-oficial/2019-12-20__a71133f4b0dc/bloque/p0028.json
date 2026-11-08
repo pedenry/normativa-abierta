@@ -1,0 +1,142 @@
+{
+ "documento": null,
+ "pagina": 28,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.3,
+    797.9,
+    322.3,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-23",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.1,
+    541.3,
+    323.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 4.6. Tipos de losas de cimentación\n4\nLas losas de cimentación se utilizarán preferentemente para reducir los asientos diferenciales en\nterrenos heterogéneos, o cuando exista una variabilidad importante de cargas entre apoyos cerca-\nnos. El sistema de cimentación por losa tiende a integrar estas heterogeneidades, aunque a cambio\nde una distribución irregular de las presiones sobre el terreno.\n5\nTambién podrá ser conveniente una solución mediante losa cuando, aunque el terreno de apoyo\nsea homogéneo y resistente, el edificio contenga sótanos y su cota inferior se sitúe por debajo del\nnivel freático. En estos casos se debe tener en cuenta los posibles empujes ascensionales del agua\nsubálvea (subpresión) y los requisitos de estanquidad necesarios.\n6\nCuando el edificio vaya a disponer de sótanos y se vaya a cimentar por medio de losa, es posible\nque el peso de las tierras excavadas sea semejante al peso total del edificio. En ese caso, la pre-\nsión unitaria neta que transmitirá la losa al terreno será del mismo orden de magnitud que la presión\nefectiva preexistente, y los asientos serán probablemente de pequeña entidad. Esta situación parti-\ncular se denomina cimentación compensada.\n7\nLa cimentación compensada de edificios con zonas de diferente altura (y por tanto de peso) podrá\nrequerir la disposición de un número variable de sótanos distribuidos de forma proporcional al nú-\nmero de plantas a construir por encima de la superficie del terreno. En estas circunstancias será\npreciso disponer juntas estructurales debidamente tratadas entre las diferentes zonas del edificio, e\nintentar que el centro de gravedad de las acciones de la estructura en cada zona coincida con el\ncentro de gravedad de las losas, de forma que se reduzca cualquier tendencia al giro. Asimismo se-\nrá necesario analizar con detalle los asientos inducidos sobre las construcciones colindantes.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    337.3,
+    274.4,
+    351.3
+   ],
+   "tipo": "titulo",
+   "texto": "4.2\nAnálisis y dimensionado",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    373.1,
+    210.3,
+    385.1
+   ],
+   "tipo": "titulo",
+   "texto": "4.2.1 Criterios básicos",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 3
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    396.6,
+    232.5,
+    406.6
+   ],
+   "tipo": "texto",
+   "texto": "4.2.1.1 Concepto de hundimiento",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    412.2,
+    541.3,
+    456.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn un cimiento, la aplicación de una carga vertical creciente V, da lugar a un asiento creciente, (Fi-\ngura 4.7). Las diversas formas que pueden adoptar las curvas presión–asiento dependen en gene-\nral de la forma y tamaño de la zapata, de la naturaleza y resistencia del suelo y de la carga aplicada\n(tipo, velocidad de aplicación, frecuencia, etc.).",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    569.5,
+    541.3,
+    688.6
+   ],
+   "tipo": "texto",
+   "texto": "Figura 4.7. Concepto de presión de hundimiento\n2\nMientras la carga V sea pequeña o moderada, el asiento crecerá de manera aproximadamente pro-\nporcional a la carga aplicada. Sin embargo, si la carga V sigue aumentando, la pendiente de la rela-\nción asiento-carga se acentuará, llegando finalmente a una situación en la que puede sobrepasarse\nla capacidad portante del terreno, agotando su resistencia al corte y produciéndose movimientos\ninadmisibles, situación que se identifica con el hundimiento.\n3\nLa carga V para la cual se alcanza el hundimiento es función de la resistencia al corte del terreno,\nde las dimensiones y forma de la cimentación, de la profundidad a la que está situada, del peso es-\npecífico del terreno y de las condiciones del agua subálvea.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    700.1,
+    500.4,
+    710.0
+   ],
+   "tipo": "texto",
+   "texto": "4.2.1.2 Rigidez relativa terreno-estructura. Esfuerzos sobre los elementos de cimentación",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    70.9,
+    715.7,
+    541.3,
+    760.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa transmisión de las cargas del edificio al terreno plantea un complejo problema de interacción\nentre los tres elementos implicados: estructura, cimentación y terreno. Los principales factores a\nconsiderar en dicho proceso de interacción serán el tipo y características del terreno, la forma y di-\nmensiones de la cimentación y la rigidez relativa terreno-estructura y terreno-cimentación.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

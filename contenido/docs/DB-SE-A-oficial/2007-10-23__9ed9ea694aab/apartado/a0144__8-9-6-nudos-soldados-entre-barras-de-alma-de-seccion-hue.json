@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0144",
+  "ruta_oficial": "8.9.6",
+  "ruta_semantica": "8.9.6 Nudos soldados entre barras de alma de sección hueca y cordón de sección en doble T o",
+  "titulo": "8.9.6 Nudos soldados entre barras de alma de sección hueca y cordón de sección en doble T o",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.9.6 Nudos soldados entre barras de alma de sección hueca y cordón de sección en doble T o",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 104,
+   "bbox": [
+    74.1,
+    554.1,
+    541.5,
+    576.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "cc0e38a4c3c9237aa976bc4ce192a3805d15bbe8754af26d73e3305d378c4bee",
+   "literal": "8.9.6 Nudos soldados entre barras de alma de sección hueca y cordón de sección en doble T o"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.9.6 Nudos soldados entre barras de alma de sección hueca y cordón de sección en doble T o",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / 8.9 Uniones de perfiles huecos en las vigas de celosía 8.9.1 Alcance y campo de aplicación / 8.9.6 Nudos soldados entre barras de alma de sección hueca y cordón de sección en doble T o",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "16a7581a1f2b0778a4372dcd9fd38642899d9687f243d3bcbfdefe0832949922"
+ },
+ "paginas": [
+  104,
+  105,
+  106
+ ],
+ "etiquetas_impresas": [
+  "104",
+  "105",
+  "106"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "8.9.6 Nudos soldados entre barras de alma de sección hueca y cordón de sección en doble T o\nen H\n1\nEn los nudos de tipo separación, las resistencias de cálculo de los cordones teniendo en cuenta el\nesfuerzo cortante transmitido entre las barras de arriostramiento a los cordones deben determinar-\nse despreciando los momentos secundarios asociados, de la forma siguiente:\n0\nM\n0\ny0\nRd\n0,\nRd\npl,\nsd\n/\nA\nf\nN\n:\n0,5\n/V\nV\nSi\nγ\n=\n≤\n(8.84)\n(\n)\n[ ]\n]\n0\nM\n2\nRd\npl,\nsd\nv\n0\ny0\nRd\n0,\nRd\npl,\nsd\n/\n1\n/V\nV\nA\nA\nf\nN\n:\n1,0\n/V\nV\n0,5\nSi\nγ\n−\n−\n=\n≤\n<\n(8.85)\n2\nSiempre que la geometría de los nudos quede dentro del campo de validez indicado en la tabla 8.5\nlas resistencias de cálculo de los nudos deben determinarse aplicando las fórmulas dadas en la ta-\nbla 8.6. que corresponden a los modos de rotura por plastificación de la pared del cordón o rotura\nde barra de alma por reducción de la anchura eficaz.\n3\nPara los nudos que queden fuera del campo de validez dado en la tabla 8.5, habrá que realizar un\nanálisis más detallado considerando el resto de los modos de fallo posibles. Este análisis debe te-\n\nDocumentoBásico SE-A Acero\nSE-A-103\nner en cuenta, también, los momentos secundarios en los nudos causados por su rigidez a la\nflexión.\nTabla 8.5 Campo de aplicación de la tabla 8.6 para los nudos soldados entre barras de alma de sección\nhueca y cordones de sección en doble T o en H\nParámetros de nudo (i =1 ó 2, j = riostra solapada)\n1\n1\n1\n1\n1\n1\nt\nd\n,\nt\nh\n,\nt\nb\nTipo\nde\nnudo\ni\ni\nb\nh\ni\nj\nb\nb\nw\nw\nt\nd\no\no\nt\nb\nCompresión\nTracción\nNudo en X\n0,2\nb\nh\n5,0\ni\ni≤\n≤\nyo\nw\nw\nf\nE\n2,1\nt\nd\n≤\ny\nmm\n400\ndw≤\nNudo en T\nNudo en Y\nNudo en K\ncon separa-\nción\nNudo en N\ncon separa-\nción\n0,1\nb\nh\ni\ni=\nNudo en K\ncon solape\nNudo en N\ncon solape\n0,2\nb\nh\n5,0\ni\ni≤\n≤\n75\n,0\nb\nb\ni\nj≥\nyo\nw\nw\nf\nE\nt\nd\n15\n≤\ny\nmm\n400\ndw≤\nyo\no\no\nf\nE\n75\n,0\nt\nb\n≤\n1\ny\n1\n1\n1\ny\n1\n1\n1\ny\n1\n1\nf\nE\n1,1\nt\nd\nf\nE\n1,1\nt\nb\nf\nE\n1,1\nt\nh\n≤\n≤\n≤\n35\nt\nd\n35\nt\nb\n35\nt\nh\n1\n1\n1\n1\n1\n1\n≤\n≤\n≤\n\nDocumentoBásico SE-A Acero\nSE-A-104\nTabla 8.6 Resistencias de cálculo de nudos soldados entre barras de alma de sección hueca y cordo-\nnes de sección en doble T o en H\nTipo de nudo\nResistencia de cálculo\ni = 1 ó 2, j = riostra solapada\nNudos en X, Y y T\nPlastificación del alma del cordón",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0104.png",
+  "../figura/p0105.png",
+  "../figura/p0106.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

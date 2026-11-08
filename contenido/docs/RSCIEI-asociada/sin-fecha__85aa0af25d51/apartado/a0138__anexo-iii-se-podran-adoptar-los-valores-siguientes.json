@@ -1,0 +1,86 @@
+{
+ "documento": "RSCIEI-asociada",
+ "code": "RSCIEI",
+ "title": "RSCIEI",
+ "capa": "asociada",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-04-10",
+ "version_dir": "sin-fecha__85aa0af25d51",
+ "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+ "apartado": {
+  "id_tecnico": "a0138",
+  "ruta_oficial": "ANEXO-III",
+  "ruta_semantica": "Fragmento de PDF p86",
+  "titulo": "anexo III, se podrán adoptar los valores siguientes:",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p86",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p86",
+  "referencias_filtradas": [
+   "apartado 8.3"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "anexo III, se podrán adoptar los valores siguientes:",
+   "seccion_estimada": "anexo III, se podrán adoptar los valores siguientes:",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "38b3ba5a348711583662d96bee026cba514192c249de47d01ff85b436bfc0346"
+ },
+ "paginas": [
+  86
+ ],
+ "etiquetas_impresas": [
+  "86"
+ ],
+ "tipos": [
+  "notas",
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "anexo III, se podrán adoptar los valores siguientes:\nTabla 2.5.2\nNivel de riesgo intrínsecoTipo B\nTipo C\nRiesgo bajo.\nR 15\nNo se exige justificar la resistencia.\nRiesgo medio.\nR 30\nR 15\nRiesgo alto.\nR 60\nR 30\nNota: Esta tabla aplica solamente a la estructura principal de las cubiertas ligeras, sin\nconsiderar a los pilares o cualquier otro soporte de la misma. A estos efectos, la tabla se\naplicará a los dinteles, cerchas o elementos equivalentes. Por el contrario, esta tabla no\naplica a los elementos secundarios de la cubierta, los cuales no precisarían de protección,\ncomo por ejemplo las correas de cubierta que no tengan función principal portante.\n1.3.2 En edificios sobre rasante de una sola planta y con cubierta ligera, cuando la\nsuperficie total del sector de incendios esté protegida por un sistema fijo de extinción\nautomática y un sistema para el control de humos y de calor según el apartado 8.3 del anexo\nIII, la resistencia al fuego de las estructuras portantes podrá adoptar los siguientes valores:\nTabla 2.5.3\nNivel de riesgo intrínsecoTipo AHTipo BTipo C\nRiesgo bajo.\nR 60\nR 30\nR 30\nRiesgo medio.\nR 90\nR 30\nR 30\nRiesgo alto.\nR 120\nR 30\nR 30\nNota: Para poder aplicar esta tabla en edificios AH, la estructura de cubierta considerada\ndebe ser independiente respecto de los otros establecimientos.\n1.3.3 En edificios de establecimientos industriales de una sola planta y que constituyan\nun solo sector de incendios, o con zonas administrativas en más de una planta pero\ncompartimentadas del uso industrial según su reglamentación específica y con estructura\nindependiente, situados en edificios de tipo C separados al menos 10 metros de otros\nestablecimientos así como de límites de parcelas con posibilidad de edificar en ellas y libres\nde mercancías combustibles o elementos intermedios susceptibles de propagar el incendio,\ny protegidos por un sistema fijo de extinción automática y un sistema para el control de\nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 86",
+ "notas": [
+  "Nota: Esta tabla aplica solamente a la estructura principal de las cubiertas ligeras, sin",
+  "Nota: Para poder aplicar esta tabla en edificios AH, la estructura de cubierta considerada"
+ ],
+ "ambito": {
+  "titulo": "Artículo 2. Ámbito de aplicación.",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 8.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0086_t01.json",
+  "../tabla/p0086_t02.json"
+ ],
+ "figuras": [
+  "../figura/p0086.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.boe.es/eli/es/rd/2025/03/04/164/con",
+  "sha256": "85aa0af25d51e5b58d8975a4eefbf76d3f57a8933445cfe814ae9c4818a2e3e7",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0139"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,79 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0015",
+  "ruta_oficial": "13",
+  "ruta_semantica": "13 Inspección y mantenimiento",
+  "titulo": "13 Inspección y mantenimiento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "13 Inspección y mantenimiento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 4,
+   "bbox": [
+    74.0,
+    344.8,
+    225.4,
+    358.1
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "52598ca803aedbc702d84d33d7ffbf1b2c1c3278a264774d9beac025a21de17f",
+   "literal": "13 Inspección y mantenimiento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0013",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "13 Inspección y mantenimiento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "13 Inspección y mantenimiento",
+   "seccion_estimada": "13 Inspección y mantenimiento",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "a61d03495087eb55e7a05155d6b984f53e61ec537bd0563476184dedb82fd2a6"
+ },
+ "paginas": [
+  4
+ ],
+ "etiquetas_impresas": [
+  "4"
+ ],
+ "tipos": [],
+ "texto": "13 Inspección y mantenimiento\n13.1 Inspección",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

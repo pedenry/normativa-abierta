@@ -1,0 +1,270 @@
+{
+ "documento": null,
+ "pagina": 146,
+ "etiqueta_impresa": "3",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-141",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    529.4,
+    82.4
+   ],
+   "tipo": "texto",
+   "texto": "3\nLa resistencia unitaria por fuste en suelos granulares se podrá estimar con la expresión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    96.1,
+    90.0,
+    542.5,
+    104.5
+   ],
+   "tipo": "texto",
+   "texto": "kPa\n120\ntg\nf\nk f\n'\nv\nf\n\n\n\n\n\n\n\n\n(F.31)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    93.6,
+    112.9,
+    125.9,
+    122.9
+   ],
+   "tipo": "texto",
+   "texto": "siendo",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    93.6,
+    126.8,
+    353.7,
+    167.2
+   ],
+   "tipo": "texto",
+   "texto": "'v\nla presión vertical efectiva al nivel considerado;\nKf\nel coeficiente de empuje horizontal;\nf\nel factor de reducción del rozamiento del fuste;",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    171.1,
+    541.3,
+    245.9
+   ],
+   "tipo": "texto",
+   "texto": "\nel ángulo de rozamiento interno del suelo granular.\n4\nPara pilotes hincados se tomará Kf = 1 y para pilotes perforados se tomará Kf = 0,75. Para pilotes\nhíbridos, ejecutados con ayudas que reducen el desplazamiento del terreno, se tomará un valor in-\ntermedio en función de la magnitud de esa ayuda.\n5\nPara pilotes de hormigón \"in situ\" o de madera se tomará f=1. Para pilotes prefabricados de hormi-\ngón se tomará f = 0,9 y para pilotes de acero en el fuste se tomará f = 0,8.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    257.4,
+    169.8,
+    267.4
+   ],
+   "tipo": "texto",
+   "texto": "F.2.1.2 Suelos finos",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    273.0,
+    541.3,
+    331.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nLa carga de hundimiento de pilotes verticales en suelos limosos o arcillosos, evaluada mediante\nfórmulas estáticas, debe calcularse en dos situaciones que corresponden al hundimiento sin drenaje\no a corto plazo y el hundimiento con drenaje o a largo plazo.\n2\nLa resistencia unitaria de hundimiento por punta a corto plazo se podrá obtener mediante la expre-\nsión siguiente:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    94.3,
+    339.5,
+    542.5,
+    349.4
+   ],
+   "tipo": "texto",
+   "texto": "qp  = Np cu\n(F.32)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    357.0,
+    541.3,
+    445.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo\ncu\nla resistencia al corte sin drenaje del suelo limoso o arcilloso, teniendo en cuenta la pre-\nsión de confinamiento al nivel de la punta (entorno comprendido entre dos diámetros por\nencima y dos diámetros por debajo de ella) obtenida en célula triaxial o, en su caso, en-\nsayo de compresión simple.\nNp\ndepende del empotramiento del pilote, pudiéndose adoptar un valor igual a 9.\n3\nLa resistencia unitaria de hundimiento por fuste a corto plazo será:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    116.3,
+    453.4,
+    228.2,
+    479.8
+   ],
+   "tipo": "texto",
+   "texto": ")\nkPa\nen\nc\ny\n(\nc\n100\nc\n100\nu\nf\nu",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    96.1,
+    458.3,
+    542.5,
+    477.9
+   ],
+   "tipo": "texto",
+   "texto": "u\nf\n\n\n\n\n(F.33)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    487.8,
+    541.3,
+    550.6
+   ],
+   "tipo": "texto",
+   "texto": "4\nEn pilotes con fuste de acero en suelos finos, el valor de f a corto plazo se afectará por un coefi-\nciente reductor de 0,8.\n5\nPara determinar la resistencia de hundimiento a largo plazo, se utilizará el ángulo de rozamiento\nefectivo deducido de los ensayos de laboratorio, despreciando el valor de la cohesión. Para ello se\nutilizarán las expresiones (F.30) y (F.31) correspondientes a suelos granulares.",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    554.5,
+    541.3,
+    579.8
+   ],
+   "tipo": "texto",
+   "texto": "6\nLa resistencia unitaria por fuste a largo plazo f no superará, salvo justificación, al valor límite de 0,1\nMPa.",
+   "tamano": 12.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    601.5,
+    525.3,
+    627.3
+   ],
+   "tipo": "texto",
+   "texto": "F.2.2 Determinación de la resistencia de hundimiento mediante ensayos de pe-\nnetración “in situ”",
+   "tamano": 12.0,
+   "negrita": true
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    638.9,
+    277.2,
+    648.8
+   ],
+   "tipo": "texto",
+   "texto": "F.2.2.1 Métodos basados en el ensayo SPT",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    654.5,
+    541.3,
+    713.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl método de evaluación de la seguridad frente a hundimiento de pilotes basado en el SPT es válido\npara pilotes perforados y para pilotes hincados en suelos granulares, que no tengan gran propor-\nción de gravas gruesas cantos ó bolos (<30% de tamaño mayor de 2 cm) que pueda desvirtuar el\nresultado del ensayo, en base a la heterogeneidad de los registros obtenidos.\n2\nLa resistencia unitaria por punta se puede evaluar, para pilotes hincados, con la expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    96.0,
+    721.6,
+    542.5,
+    734.1
+   ],
+   "tipo": "texto",
+   "texto": "(MPa)\nN\nf =\nq\nN\np\n(F.34)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 19,
+   "bbox": [
+    93.6,
+    743.9,
+    239.2,
+    768.4
+   ],
+   "tipo": "texto",
+   "texto": "siendo\nfN = 0,4\npara pilotes hincados",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

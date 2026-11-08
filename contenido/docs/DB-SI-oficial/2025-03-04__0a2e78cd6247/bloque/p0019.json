@@ -1,0 +1,234 @@
+{
+ "documento": null,
+ "pagina": 19,
+ "etiqueta_impresa": "19",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    228.8,
+    35.9,
+    383.1,
+    46.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SI en caso de Incendio",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    255.4,
+    47.3,
+    356.4,
+    56.3
+   ],
+   "tipo": "texto",
+   "texto": "SI 2. Propagación exterior",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 2,
+   "bbox": [
+    300.3,
+    797.0,
+    311.4,
+    805.9
+   ],
+   "tipo": "texto",
+   "texto": "19",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    71.3,
+    235.5,
+    107.4
+   ],
+   "tipo": "titulo",
+   "texto": "Sección SI 2\nPropagación exterior",
+   "tamano": 16.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    252.9,
+    267.5,
+    268.6
+   ],
+   "tipo": "titulo",
+   "texto": "1\nMedianerías y fachadas",
+   "tamano": 14.0,
+   "negrita": true,
+   "nivel": 1
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    277.2,
+    455.7,
+    288.3
+   ],
+   "tipo": "texto",
+   "texto": "1\nLos elementos verticales separadores de otro edificio deben ser al menos EI 120.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    294.6,
+    541.4,
+    363.3
+   ],
+   "tipo": "texto",
+   "texto": "2\nCon el fin de limitar el riesgo de propagación exterior horizontal del incendio a través de la fachada\nentre dos sectores de incendio, entre una zona de riesgo especial alto y otras zonas o hacia una es-\ncalera protegida o pasillo protegido desde otras zonas, los puntos de sus fachadas que no sean al\nmenos EI 60 deben estar separados la distancia d en proyección horizontal que se indica a continua-\nción, como mínimo, en función del ángulo α formado por los planos exteriores de dichas fachadas.\nPara valores intermedios del ángulo α, la distancia d puede obtenerse por interpolación lineal.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    88.8,
+    369.6,
+    538.7,
+    403.8
+   ],
+   "tipo": "texto",
+   "texto": "Cuando se trate de edificios diferentes y colindantes, los puntos de la fachada del edificio considera-\ndo que no sean al menos EI 60 cumplirán el 50% de la distancia d hasta la bisectriz del ángulo for-\nmado por ambas fachadas.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    95.7,
+    410.3,
+    518.6,
+    420.6
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "α\n0º(1)\n45º\n60º\n90º\n135º\n180º",
+   "tamano": 9.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    95.7,
+    427.4,
+    518.1,
+    437.4
+   ],
+   "tipo": "texto",
+   "texto": "d (m)\n3,00\n2,75\n2,50\n2,00\n1,25\n0,50",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    443.9,
+    275.2,
+    453.2
+   ],
+   "tipo": "texto",
+   "texto": "(1) Refleja el caso de fachadas enfrentadas paralelas",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    98.6,
+    486.9,
+    219.2,
+    581.9
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    346.8,
+    463.3,
+    511.0,
+    582.0
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    106.8,
+    573.1,
+    513.8,
+    597.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura 1.1. Fachadas enfrentadas\nFigura 1.2. Fachadas a 45º",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 14,
+   "bbox": [
+    104.5,
+    617.4,
+    265.2,
+    730.0
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 15,
+   "bbox": [
+    388.0,
+    626.5,
+    505.0,
+    730.2
+   ],
+   "tipo": "imagen",
+   "texto": "",
+   "tamano": 0.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    106.8,
+    721.2,
+    507.9,
+    745.3
+   ],
+   "tipo": "texto",
+   "texto": "Figura 1.3. Fachadas a 60º\nFigura 1.4. Fachadas a 90º",
+   "tamano": 9.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

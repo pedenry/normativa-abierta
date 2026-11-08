@@ -1,0 +1,89 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0061",
+  "ruta_oficial": "2.3.2",
+  "ruta_semantica": "2.3.2 Condiciones de las soluciones constructivas",
+  "titulo": "2.3.2 Condiciones de las soluciones constructivas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "2.3.2 Condiciones de las soluciones constructivas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 20,
+   "bbox": [
+    70.9,
+    407.5,
+    316.0,
+    418.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "180efc369692db09fe614196f1329f043193638af2c1bd9248e7a07e26597f20",
+   "literal": "2.3.2 Condiciones de las soluciones constructivas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "2.3.2 Condiciones de las soluciones constructivas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "2 Diseño 2.1 Muros / 2.3 Fachadas 2.3.1 Grado de impermeabilidad / 2.3.2 Condiciones de las soluciones constructivas",
+   "seccion_estimada": "2 Diseño 2.1 Muros",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "da6231a701e64748affa2bdb76cbe5b86524295a1b683437aa6b83dbd2253abb"
+ },
+ "paginas": [
+  20,
+  21
+ ],
+ "etiquetas_impresas": [
+  "20",
+  "21"
+ ],
+ "tipos": [
+  "formulas",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "2.3.2 Condiciones de las soluciones constructivas\n1\nLas condiciones exigidas a cada solución constructiva en función de la existencia o no de revesti-\nmiento exterior y del grado de impermeabilidad se obtienen en la tabla 2.7. En algunos casos estas\ncondiciones son únicas y en otros se presentan conjuntos optativos de condiciones.\nTabla 2.7 Condiciones de las soluciones de fachada\nCon revestimiento exterior\nSin revestimiento exterior\nGrado de impermeabilidad\n≤1\nR1+C1\n(1)\nC1\n(1)+J1+N1\n≤2\nB1+C1+J1+N1\nC2+H1+J1+N1\nC2+J2+N2\nC1\n(1)+H1+J2+\nN2\n≤3\nR1+B1+C1\nR1+C2\nB2+C1+J1+N1\nB1+C2+H1+J1\n+N1\nB1+C2+J2+N2\nB1+C1+H1+J2\n+N2\n≤4\nR1+B2+C1\nR1+B1+C2\nR2+C1\n(1)\nB2+C2+H1+J1+N1\nB2+C2+J2+N2\nB2+C1+H1+J2+N2\n≤5\nR3+C1\nB3+C1\nR1+B2+\nC2\nR2+B1+\nC1\nB3+C1\n(1)\nCuando la fachada sea de una sóla hoja, debe utilizarse C2.\n2\nA continuación se describen las condiciones agrupadas en bloques homogéneos. En cada bloque el\nnúmero de la denominación de la condición indica el nivel de prestación de tal forma que un número\nmayor corresponde a una prestación mejor, por lo que cualquier condición puede sustituir en la ta-\nbla a las que tengan el número de denominación más pequeño de su mismo bloque.\nR) Resistencia a la filtración del revestimiento exterior:\nR1\nEl revestimiento exterior debe tener al menos una resistencia media a la filtración. Se\nconsidera que proporcionan esta resistencia los siguientes:\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n21\n-\nrevestimientos continuos de las siguientes características:\n·\nespesor comprendido entre 10 y 15 mm, salvo los acabados con una capa\nplástica delgada;\n·\nadherencia al soporte suficiente para garantizar su estabilidad;\n·\npermeabilidad al vapor suficiente para evitar su deterioro como consecuencia\nde una acumulación de vapor entre él y la hoja principal;\n·\nadaptación a los movimientos del soporte y comportamiento aceptable frente a\nla fisuración;\n·\ncuando se dispone en fachadas con el aislante por el exterior de la hoja princi-\npal, compatibilidad química con el aislante y disposición de una armadura cons-\ntituida por una malla de fibra de vidrio o de poliéster.\n-\nrevestimientos discontinuos rígidos pegados de las siguientes características:\n·\nde piezas menores de 300 mm de lado;\n·\nfijación al soporte suficiente para garantizar su estabilidad;\n·",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0020_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0020.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

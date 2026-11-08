@@ -1,0 +1,326 @@
+---
+
+documento: "DB-HE2 RITE"
+id: "RITE-asociada"
+capa: "asociada"
+version: "2022-08-02"
+id_tecnico: "a0116"
+ruta_oficial: null
+ruta_semantica: "apéndice:"
+parent_id: null
+nivel: 1
+titulo: "apéndice:"
+paginas_fisicas: "85-90"
+paginas_impresas: "85-90"
+sha256_documento: "ad1680c83bf4c7f5c656af1794c32ad0669ad9f36ac293737ff3f95177ff7b26"
+tipos: "referencias"
+seccion_estimada: "apéndice:"
+titulo_navegacion: "apéndice:"
+ruta_fuente: "candidato_tipografico_plano"
+clasificacion_navegacion: "encabezado"
+es_encabezado_navegacion: true
+sha256_body_normativo: "3f08e2fa69710808c906f4adb4faeaa94743da8eb92b9bf886a629892a2a3704"
+referencias_auto_md: "sin_cambio_en_MD; usar referencias_filtradas del JSON"
+---
+
+# a0116 apéndice:
+
+> Reglamentacion asociada al CTE (no es un Documento Basico).
+
+apéndice:
+Aire de expulsión (EHA): (Exhaust air): es el aire extraído de uno o más locales y
+expulsado al exterior.
+Aire de extracción (AE) (Extract air): aire tratado que sale de un local.
+Aire exterior (ODA) (Outdoor air): aire que entra en el sistema procedente del exterior
+antes de cualquier tratamiento.
+Aire de impulsión (SUP) (Supply air): aire que entra tratado en el local o en el sistema
+después de cualquier tipo de tratamiento.
+Aire interior (IDA) (Indoor air): aire tratado en el local o en la zona.
+Aparato de calefacción local: un dispositivo de calefacción que emite calor por
+transferencia directa o en combinación con la transferencia de calor a un fluido a fin de
+alcanzar y mantener un nivel térmico adecuado para el ser humano en el espacio cerrado en
+el que el producto está situado, eventualmente combinado con la producción de calor para
+otros espacios, y equipado con uno o más generadores de calor que convierten directamente
+la electricidad o combustibles gaseosos o líquidos en calor por medio del uso del efecto de
+Joule o la combustión de combustibles, respectivamente.
+Aparato de calefacción local de combustible sólido: un aparato de calefacción local
+abierto por su parte frontal, un aparato de calefacción local cerrado en su parte frontal o una
+cocina que utilicen combustible sólido.
+Biomasa: la fracción biodegradable de los productos, residuos y desechos de origen
+biológico procedentes de actividades agrarias, incluidas las sustancias de origen vegetal y
+de origen animal, de la silvicultura y de las industrias conexas, incluidas la pesca y la
+acuicultura, así como la fracción biodegradable de los residuos, incluidos los residuos
+industriales y municipales de origen biológico.
+Biomasa leñosa: la biomasa procedente de árboles, arbustos y matas, incluida la madera
+en tronco, la madera desbastada, la madera comprimida en forma de pellets, la madera
+comprimida en forma de briquetas y el serrín.
+Biomasa no leñosa: la biomasa distinta de la leñosa, incluida la paja, el miscanthus, la
+caña, las pepitas, el grano, los huesos de aceituna, el orujillo y las cáscaras de frutos secos.
+Biocombustibles sólidos: aquellos combustibles sólidos no fósiles compuestos por
+materia vegetal o animal, o producidos a partir de la misma mediante procesos físicos o
+químicos, susceptibles de ser utilizados en aplicaciones energéticas, como por ejemplo los
+huesos de aceituna, las cáscaras de almendra, los pelets, las astillas y los orujillos.
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+Página 85
+
+Bomba de calor: Máquina, dispositivo o instalación que transfiere calor del entorno
+natural, como el aire, el agua o la tierra, al edificio o a aplicaciones industriales invirtiendo el
+flujo natural de calor, de modo que fluya de una temperatura más baja a una más alta. En el
+caso de las bombas de calor reversible, también pueden trasladar calor del edificio al
+entorno natural.
+Caldera: equipo a presión en el que el calor procedente de cualquier fuente de energía
+se transfiere a los usos térmicos del edificio por medio de un circuito de agua cerrado. No se
+incluyen en esta definición aquellos equipos basados en motores de combustión interna o
+externa, los de cogeneración o bomba de calor.
+Calefacción: proceso por el que se controla solamente la temperatura del aire de los
+espacios con carga negativa.
+Calefacción y refrigeración urbana: cuando la producción de calor o frío es única para un
+conjunto de usuarios que utilizan una misma red urbana. En inglés se conoce como «district
+heating».
+Calentador de agua caliente sanitaria a gas, llamado calentador a gas: todo aparato
+dedicado exclusivamente a la producción de agua caliente sanitaria en el que el calor
+procedente de la combustión de combustibles gaseosos, es transferido directamente por
+medio de un circuito abierto al agua de consumo.
+Calentador de agua caliente sanitaria a gas por acumulación, calentador a gas con un
+depósito de acumulación de agua integrado con las condiciones térmicas de uso.
+Calentador instantáneo de agua caliente sanitaria a gas es el calentador a gas que
+realiza el calentamiento en función del caudal de agua extraído.
+Calor Residual: Calor que es necesario evacuar para asegurar el funcionamiento de
+cualquier proceso y que puede ser aprovechado total o parcialmente como calor útil; en
+especial el necesario evacuar para asegurar el funcionamiento del ciclo termodinámico de
+producción de energía eléctrica o mecánica, (en equipos de cogeneración), o de bombas de
+calor y que puede ser también aprovechado total o parcialmente como calor útil.
+Captador solar térmico: dispositivo diseñado para absorber la radiación solar y transmitir
+la energía térmica así producida a un fluido de trabajo que circula por su interior.
+Climatización: acción y efecto de climatizar, es decir de dar a un espacio cerrado las
+condiciones de temperatura, humedad relativa, calidad del aire y, a veces, también de
+presión, necesarias para el bienestar de las personas y/o la conservación de las cosas.
+Clo: unidad de resistencia térmica de la ropa; 1 clo = 0,155 m2 °C/W.
+Coeficiente de eficiencia energética de una máquina frigorífica:
+En la modalidad de calefacción; COP (acrónimo del inglés «Coefficient of Performance»)
+es la relación entre la capacidad calorífica y la potencia efectivamente absorbida por la
+unidad.
+En la modalidad de refrigeración; EER (acrónimo del inglés «Energy Efficiency Ratio») es
+la relación entre la capacidad frigorífica y la potencia efectivamente absorbida por la unidad.
+Conjunto caldera-sistema de combustión: en las calderas de biomasa se sustituye la
+denominación caldera-generador por caldera-sistema de combustión, dado que la
+combustión se produce por medio de sistemas que no son equiparables a un quemador.
+Contenedores específicos de biocombustible: sistemas de almacenamiento de
+biocombustible prefabricados que se producen bajo condiciones que se presumen uniformes
+y son ofrecidos a la venta como depósitos listos para instalar.
+Decipol (dp): se define como la calidad del aire en un espacio con una fuente de
+contaminación de fuerza 1 olf, ventilada por 10 L/s de aire limpio.
+Director de la instalación: técnico titulado competente bajo cuya dirección se realiza la
+ejecución de las instalaciones térmicas que requiera la realización de un proyecto.
+Director de mantenimiento: técnico titulado competente bajo cuya dirección deber
+realizarse el mantenimiento de las instalaciones térmicas cuya potencia térmica nominal total
+instalada sea igual o mayor que 5.000 kW en calor y/o 1.000 kW en frío, así como las
+instalaciones de calefacción o refrigeración solar cuya potencia térmica sea mayor que 400
+kW.
+Edificio: construcción techada con paredes en la que se emplea energía para
+acondicionar el ambiente interior.
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+Página 86
+
+Edificios o locales institucionales: son aquellos donde se reúnen personas que carecen
+de libertad plena par abandonarlos en cualquier momento. Ejemplo: hospitales, residencias
+de ancianos, centros penitenciarios, colegios y centros de enseñanza infantil, primaria,
+secundaria y bachillerato, cuarteles y similares.
+Edificios o locales de pública concurrencia: son aquellos donde se reúnen personas para
+desarrollar actividades de carácter público o privado, en los que los ocupantes tienen libertad
+para abandonarlos en cualquier momento. Ejemplo: teatros, cines, auditorios, estaciones de
+transporte, pabellones deportivos, centros de enseñanza universitaria, aeropuertos, locales
+para el culto, salas de fiestas, discotecas, salas de espectáculos y actividades recreativas,
+salas de exposiciones, bibliotecas, museos y similares.
+Empresa comercializadora: en su ámbito, aquella empresa definida como tal en la Ley
+34/1998, de 7 de octubre, del sector de hidrocarburos, o en la Ley 24/2013, de 26 de
+diciembre, del Sector Eléctrico.
+Empresa distribuidora: persona jurídica que ostenta la titularidad de una red de
+distribución de energía.
+Empresa suministradora: aquella empresa legalmente capacitada para proveer energía y
+productos energéticos (gas, electricidad, productos petrolíferos, agua, etc.).
+Energía ambiente: la energía térmica presente de manera natural y la energía
+acumulada en un ambiente confinado, que puede almacenarse en el aire ambiente (excluido
+el aire de salida) o en las aguas superficiales o residuales.
+Energía convencional: aquella energía tradicional, normalmente comercializada, que
+entra en el cómputo del Producto Interior Bruto de la nación.
+Energía geotérmica: la energía almacenada en forma de calor bajo la superficie de la
+tierra sólida.
+Energía procedente de fuentes renovables o energía renovable: la energía procedente
+de fuentes renovables no fósiles, es decir, energía eólica, energía solar (solar térmica y solar
+fotovoltaica) y energía geotérmica, energía ambiente, energía mareomotriz, energía
+undimotriz y otros tipos de energía oceánica, energía hidráulica y energía procedente de
+biomasa, gases de vertedero, gases de plantas de depuración, y biogás.
+Energía residual: energía inevitable generada como subproducto de un proceso principal.
+Entidad reconocida: aquella entidad autorizada para impartir los cursos de formación de
+profesionales autorizados en instalaciones térmicas de los edificios e inscrita en el registro
+especial del órgano competente de la Comunidad Autónoma.
+Equipo autónomo de generación de calor: es el equipo, compacto o no, que contiene
+todos los elementos necesarios para la producción de calor, dentro de un único cerramiento,
+preparado para instalar en el exterior del edificio y realizar el mantenimiento desde el exterior
+del mismo.
+Equipo de energía de apoyo: generador que complementa el aporte solar y cuya
+potencia térmica es suficiente para que pueda proporcionar la energía suficiente para cubrir
+la demanda prevista.
+AE 1: (bajo nivel de contaminación) aire que procede de los locales en los que las
+emisiones más importantes de contaminantes proceden de los materiales de construcción y
+decoración, además de las personas. Está excluido el aire que procede de locales donde se
+permite fumar.
+AE 2: (moderado nivel de contaminación) aire procedente de locales ocupado con más
+contaminantes que la categoría anterior, en los que, además, no está prohibido fumar.
+AE 3: (alto nivel de contaminación) aire de locales con producción de productos
+químicos, humedad, etc.
+AE 4: (muy alto nivel de contaminación) aire que contiene sustancias olorosas y
+contaminantes perjudiciales para la salud, en concentraciones mayores que las permitidas
+en el aire interior de la zona ocupada.
+Espacio interior: a efectos de la obligación de la autorregulación de temperaturas, debe
+entenderse como una parte o una división de un edificio confinado por paredes, suelo y
+techo, como por ejemplo una habitación.
+Fluido portador: medio empleado para transportar energía térmica en las canalizaciones
+de una instalación de climatización.
+Generador: equipo para la producción de calor o frío.
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+Página 87
+
+Generador de aire caliente: es un tipo especial de generador de calor, en el cual el fluido
+portador de la energía térmica es el aire.
+IDA 1: aire de calidad alta.
+IDA 2: aire de calidad media.
+IDA 3: aire de calidad mediocre.
+IDA 4: aire de calidad baja.
+Generador de calor: la parte de una instalación de calefacción que genera calor útil
+mediante uno o varios de los siguientes procesos:
+a) La combustión de combustibles en, por ejemplo, una caldera.
+b) El efecto Joule en los elementos calefactores de un sistema de calefacción por
+resistencia eléctrica.
+c) La captura de calor del aire ambiente, del aire extraído de un sistema de ventilación o
+del agua o de la tierra utilizando una bomba de calor.
+Generador de calor mediante energía solar: la parte de una instalación térmica que
+genera calor útil mediante el aprovechamiento de la radiación solar.
+Instalaciones centralizadas: aquellas en las que la producción de calor es única para
+todo el edificio, realizándose su distribución desde la central generadora a las
+correspondientes viviendas y/ó locales por medio de fluidos térmicos.
+Instalación de aire acondicionado: Combinación de elementos necesarios para
+proporcionar un tipo de tratamiento del aire interior, mediante el cual la temperatura está
+controlada o puede bajarse.
+Instalación de calefacción: combinación de elementos necesarios para proporcionar un
+tipo de tratamiento del aire interior, mediante el cual se incrementa la temperatura.
+Instalación técnica del edificio: equipos técnicos destinados a calefacción y refrigeración
+de espacios, ventilación, agua caliente sanitaria, iluminación integrada, automatización y
+control de edificios, generación de electricidad in situ, o una combinación de los mismos,
+incluidas las instalaciones que utilicen energía procedente de fuentes renovables, de un
+edificio o de una unidad de este. Una instalación técnica del edificio está conformada por una
+instalación térmica, por la iluminación integrada o por la posible generación de electricidad in
+situ.
+Instalación térmica: Se considera instalación térmica la instalación fija de climatización
+(calefacción, refrigeración y ventilación) destinada a atender la demanda de bienestar
+térmico e higiene de las personas, o la instalación destinada a la producción de agua
+caliente sanitaria (ACS), incluidas las interconexiones a redes urbanas de calefacción o
+refrigeración y los sistemas de automatización y control.
+Instalador autorizado: toda persona física acreditada mediante el correspondiente carné
+profesional expedido por el órgano competente de la Comunidad Autónoma.
+Licencia municipal de obras: documento municipal que autoriza la ejecución de las
+obras.
+Local habitable: local interior destinado al uso de personas cuya densidad de ocupación
+y tiempo de estancia exigen unas condiciones térmicas, acústicas y de salubridad
+adecuadas.
+Local no habitable: local interior no destinado al uso permanente de personas o cuya
+ocupación, por ser ocasional o excepcional y por ser bajo el tiempo de estancia, sólo exige
+unas condiciones de salubridad adecuadas. En esta categoría se incluyen explícitamente
+como no habitables los garajes, trasteros, huecos de escaleras, rellanos de ascensores,
+cuartos de servicio, salas de máquinas, las cámaras técnicas, los desvanes no
+acondicionados, sus zonas comunes, y locales similares.
+Local de servicio: espacio normalmente no habitado destinado por ejemplo a cuarto de
+contadores, limpieza etc.
+Local técnico: espacio destinado únicamente a albergar maquinaria de las instalaciones
+térmicas.
+Mantenedor autorizado: toda persona física acreditada mediante el correspondiente
+carné profesional expedido por el órgano competente de la Comunidad Autónoma.
+Marcado «CE»: marcado que deben llevar los productos de construcción para su libre
+circulación en el territorio de los Estados miembros de la Unión Europea y países parte del
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+Página 88
+
+Espacio Económico Europeo, conforme a las condiciones establecidas en la Directiva
+89/106/CEE u otras Directivas que les sean de aplicación.
+Met: unidad metabólica; 1 met = 58,2 W/m2.
+Nivel de comunicaciones: corresponde a todos los controladores e interfaces de
+comunicación del sistema de gestión, así como a los buses de comunicación, drivers, redes,
+etc.
+Nivel de gestión y telegestión: corresponde a los puestos centrales, programas
+residentes y periféricos asociados a los puestos centrales, tales como impresoras, pantallas
+de vídeo, módems, routers, etc.
+Nivel de proceso: corresponde a los controladores, tanto analógicos como digitales, que
+manejan los elementos del nivel de periferia.
+Nivel de unidades de campo: corresponde a los equipos de campo como: elementos
+primarios de medida, sondas, unidades de ambiente, termostatos, indicadores de estados y
+alarmas, así como elementos finales de control y mando, válvulas, actuadores, variadores de
+tensión/frecuencia, elementos finales de control, etc.
+Organismos de Control: son entidades públicas o privadas, con personalidad jurídica,
+que se constituyen con la finalidad de verificar el cumplimiento de carácter obligatorio de las
+condiciones de seguridad de productos e instalaciones industriales, establecidas por los
+Reglamentos de Seguridad Industrial, mediante actividades de certificación, ensayo,
+inspección o auditoria, de acuerdo con el Real Decreto 2200/1995, de 28 de diciembre.
+ODA 1: aire puro que se ensucia sólo temporalmente (por ejemplo polen).
+ODA 2: aire con concentraciones altas de partículas y, o de gases contaminantes.
+ODA 3: aire con concentraciones muy altas de gases contaminantes (ODA 3G) y, o de
+partículas (ODA 3P).
+Porcentaje estimado de insatisfechos (PPD) (Predicted Percentage of Dissatisfied):
+proporciona datos sobre la incomodidad o insatisfacción térmica basándose en la estimación
+del porcentaje de personas susceptibles de sentir demasiado calor o demasiado frío en unas
+condiciones ambientales dadas. (UNE-EN ISO 7730).
+Potencia útil nominal (expresada en kW) o Potencia térmica nominal: la potencia
+calorífica máxima que, según determine y garantice el fabricante, puede suministrarse en
+funcionamiento continuo, ajustándose a los rendimientos útiles declarados por el fabricante.
+Proyectista: agente que redacta el proyecto por encargo de la propiedad y con sujeción a
+la normativa correspondiente.
+Refrigeración: en climatización, proceso que controla solamente la temperatura del aire
+de los espacios con carga positiva.
+Rendimiento: relación entre la potencia útil y la potencia nominal de un generador.
+Rendimiento útil (expresado en porcentaje): la relación entre el flujo calorífico transmitido
+al agua de la caldera y el producto del poder calorífico inferior a presión constante del
+combustible por el consumo expresado en cantidad de combustible por unidad de tiempo.
+Sistema: conjunto de equipos y aparatos que, relacionados entre sí, constituyen una
+instalación de climatización.
+Sistema de automatización y control de edificios: sistema que incluya todos los
+productos, programas informáticos y servicios de ingeniería que puedan apoyar el
+funcionamiento eficiente energéticamente, económico y seguro de las instalaciones técnicas
+del edificio mediante controles automatizados y facilitando su gestión manual de dichas
+instalaciones técnicas del edificio.
+Sistema de transporte de biocombustible sólido: sistema para movimiento de
+biocombustible dentro de la instalación que puede realizarse por diferentes medios como,
+por ejemplo, suelos con rascadores horizontales hidráulicos, rascadores giratorios, suelos
+inclinados con tornillo sin fin o suelos inclinados con sistema de alimentación neumático.
+Sistema mixto: técnica de acondicionamiento en la que el control de las condiciones
+térmicas interiores está a cargo de un subsistema (ventiloconvectores, inductores, aparatos
+autónomos, techos radiantes, suelos radiantes, radiadores, etc.) en combinación con el
+subsistema de ventilación.
+Sistema solar prefabricado: son los que se producen bajo condiciones que se presumen
+uniformes y son ofrecidos a la venta como equipos completos y listos para instalar bajo un
+solo nombre comercial. Pueden ser compactos o partidos, y por otro lado constituir un
+sistema integrado o bien un conjunto y configuración uniforme de componentes.
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+Página 89
+
+Sistema todo-aire: técnica de acondicionamiento en la que el control de las condiciones
+térmicas interiores está a cargo del sistema de ventilación.
+Superficie de apertura de captación solar instalada: máxima proyección plana de la
+superficie del captador transparente expuesta a la radiación solar incidente no concentrada.
+Superficie de calefacción: superficie de intercambio de calor que está en contacto con el
+fluido transmisor.
+SUP 1: aire de impulsión que contiene solamente aire exterior (ODA).
+SUP 2: aire de impulsión que contiene aire exterior (ODA) y aire de recirculación (RCA).
+Técnico titulado competente: persona que está en posesión de una titulación técnica,
+universitaria, que lo habilita para el ejercicio de la actividad regulada en este RITE, de
+acuerdo con sus respectivas especialidades y competencias y determinada por las
+
+## Referencias detectadas (literal)
+
+- RITE
+- Real Decreto 2200/1995
+- UNE-EN

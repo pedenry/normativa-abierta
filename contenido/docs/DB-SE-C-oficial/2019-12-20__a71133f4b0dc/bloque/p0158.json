@@ -1,0 +1,75 @@
+{
+ "documento": null,
+ "pagina": 158,
+ "etiqueta_impresa": "4",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    240.8,
+    37.1,
+    370.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-C Cimientos",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    287.2,
+    797.9,
+    324.6,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-C-153",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.5,
+    541.3,
+    302.6
+   ],
+   "tipo": "texto",
+   "texto": "4\nLos cálculos se podrán efectuar, en las fases intermedias de la excavación o de la construcción del\nedificio, considerando los valores representativos de las acciones y los valores característicos de\nlos parámetros del terreno. En el intradós se considerará únicamente una fracción del empuje pasi-\nvo (ya que los corrimientos que serian necesarios para su movilización completa son demasiado\ngrandes). En la elección de dicha fracción del empuje pasivo va implícito el coeficiente de seguridad\nde la estabilidad de la pantalla. Se tomarán los empujes activos sin afectar por ningún coeficiente\nde seguridad y los pasivos disminuidos, con relación a los de cálculo, por el coeficiente, E, definido\nen la tabla 2.1.\n5\nSe plantean las siguientes alternativas para el estudio de la pantalla:\na)\npantalla en voladizo;\nb)\npantalla con un punto de sujeción;\nc)\npantalla con más de un punto de sujeción;\nF.3.1.1 Pantalla en voladizo\n1\nEn la Figura F.11a se representa la deformada de la pantalla y las leyes de empujes unitarios a\nambos lados de la misma, supuesto un terreno homogéneo sin cohesión y sin agua así como sin\nconstrucciones ni servicios en su entorno.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    415.9,
+    541.3,
+    709.2
+   ],
+   "tipo": "texto",
+   "texto": "Figura F.11. Pantalla en voladizo\n2\nEn la Figura F.11b se representan las leyes de empujes simplificadas por encima del punto P de\nmomento nulo, y la resultante R de los empujes por debajo de dicho punto que se supone actuando\nen P.\n3\nEl planteamiento del equilibrio de fuerzas y momentos con el diagrama de la Figura F.11b, permite\ndeterminar las dos incógnitas R y to. En general, será suficiente establecer la nulidad de los momen-\ntos en P, con lo que se obtendrá to.\n4\nPara determinar el empotramiento total de la pantalla, to + t, para que sea estable, se podrá aplicar\nla regla empírica:\nt = 0,2 to\n     (F.62)\n5\nEste exceso de profundidad por debajo del punto de momento nulo es suficiente para que pueda\ndesarrollarse la fuerza R necesaria para mantener el equilibrio.\n6\nLa magnitud de los empujes del terreno y del agua puede determinarse por medio de los criterios\ndefinidos en el apartado 6.2, no debiendo ser inferior el empuje unitario obtenido, a 0,25·´v.\n7\nSi la pantalla es de tablestacas metálicas, el ángulo de rozamiento del terreno con la pantalla se\nconsiderará nulo. En cualquier otro caso no debe tomarse mayor de los dos tercios del ángulo de\nrozamiento interno del terreno.\n8\nEl rozamiento de la pantalla con el terreno en el intradós (lado de los empujes pasivos) se conside-\nrará nulo.\n9\nEn el cálculo de los empujes se tendrán en cuenta las sobrecargas de cualquier tipo que puedan\nexistir sobre el terreno en el trasdós de la pantalla.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    713.1,
+    541.3,
+    762.0
+   ],
+   "tipo": "texto",
+   "texto": "10\nEl coeficiente E de minoración del empuje pasivo se define en la tabla 2.1.\n11\nSi la excavación se hace por debajo del nivel freático se considerará, a cada lado de la pantalla, la\ncorrespondiente ley de presiones intersticiales y de empujes del terreno, en términos de tensiones\nefectivas.",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

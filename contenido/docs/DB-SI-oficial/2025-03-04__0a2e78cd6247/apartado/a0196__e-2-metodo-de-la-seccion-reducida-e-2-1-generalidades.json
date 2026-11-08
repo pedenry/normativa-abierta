@@ -1,0 +1,78 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0196",
+  "ruta_oficial": null,
+  "ruta_semantica": "Fragmento de PDF p73",
+  "titulo": "E.2 Método de la sección reducida E.2.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p73",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p73",
+  "referencias_filtradas": [
+   "DB SE-M"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo SI E Resistencia al fuego de las estructuras de madera / E.2 Método de la sección reducida E.2.1 Generalidades",
+   "seccion_estimada": "Anejo SI E Resistencia al fuego de las estructuras de madera",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ef4879e761a48073d62e4f347c7ac0b3a1af56bcf0fc8b80ba0217dd419b1f15"
+ },
+ "paginas": [
+  73
+ ],
+ "etiquetas_impresas": [
+  "73"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "E.2 Método de la sección reducida E.2.1 Generalidades\nE.2.1 Generalidades\n1\nLa comprobación de la capacidad portante de un elemento estructural de madera se realiza por los\nmétodos establecidos en DB SE-M, teniendo en cuenta las reglas simplificadas para el análisis de\nelementos establecidos en E.3, y considerando:\na) una sección reducida de madera, obtenida eliminando de la sección inicial la profundidad eficaz\nde carbonización, def, en las caras expuestas, alcanzada durante el periodo de tiempo conside-\nrado;\nd\nk +\nd\n=\nd\n0\n0\nn\nchar,\nef\n·\n(E.1)\nsiendo:\ndchar,n profundidad carbonizada nominal de cálculo, se determinará de acuerdo con el apartado\nE.2.2.\nd0\nde valor igual a 7 mm\nk0\nde valor igual a 1 para un tiempo, t, mayor o igual a 20 minutos y t/20 para tiempos infe-\nriores, en el caso de superficies no protegidas o superficies protegidas cuyo tiempo del\ninicio de la carbonización, tch, sea menor o igual que 20 minutos. Para superficies prote-\ngidas cuyo tiempo del inicio de la carbonización, tch, sea mayor que 20 minutos se consi-\nderará que k0 varía linealmente desde cero hasta uno durante el intervalo de tiempo\ncomprendido entre cero y tch, siendo constante e igual a uno a partir de dicho punto.\n1\nSuperficie inicial del elemento\n2\nLímite de la sección residual\n3\nLímite de la sección eficaz\nFigura E.1. Definición de la sección residual y eficaz.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SE-M"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0073.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0197"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

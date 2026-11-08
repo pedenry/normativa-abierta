@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-AE-oficial",
+ "code": "DB-SE-AE",
+ "title": "DB-SE-AE Acciones en la edificación",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2009-04",
+ "version_dir": "2009-04__26116e508895",
+ "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+ "apartado": {
+  "id_tecnico": "a0019",
+  "ruta_oficial": "3.3.2",
+  "ruta_semantica": "3.3.2 Acción del viento",
+  "titulo": "3.3.2 Acción del viento",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "3.3.2 Acción del viento",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 11,
+   "bbox": [
+    70.9,
+    472.9,
+    203.6,
+    486.3
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "b1100b8ccb578b71aaab1f43f3d6c8af9f6eebbefa439664d40df0f1097484d4",
+   "literal": "3.3.2 Acción del viento"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0016",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "3.3.2 Acción del viento",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "3 Acciones variables 3.1 Sobrecarga de uso / 3.3 Viento 3.3.1 Generalidades / 3.3.2 Acción del viento",
+   "seccion_estimada": "3 Acciones variables 3.1 Sobrecarga de uso",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "d7177832a97011078c86fa09e05852592eb431d2656e86e4981dd83b92c2c4b9"
+ },
+ "paginas": [
+  11
+ ],
+ "etiquetas_impresas": [
+  "11"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "3.3.2 Acción del viento\n1\nLa acción de viento, en general una fuerza perpendicular a la superficie de cada punto expuesto, o\npresión estática, qe puede expresarse como:\nqe =  qb · ce · cp\n(3.1)\nsiendo:\nqb\nla presión dinámica del viento. De forma simplificada, como valor en cualquier punto del territo-\nrio español, puede adoptarse 0,5 kN/m2. Pueden obtenerse valores más precisos mediante el",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0011.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-AE.pdf",
+  "sha256": "26116e5088955f0c6963a6187270cad282e1e7bf5a53a90f695c8fa50b4e4487",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

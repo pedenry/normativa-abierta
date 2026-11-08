@@ -1,0 +1,79 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0081",
+  "ruta_oficial": "5.1.1.1",
+  "ruta_semantica": "5.1.1.1  De fábrica o paneles prefabricados pesados y trasdosados de fábrica",
+  "titulo": "5.1.1.1  De fábrica o paneles prefabricados pesados y trasdosados de fábrica",
+  "nivel": 1,
+  "parent_id": "a0080",
+  "seccion_estimada": "5.1.1.1  De fábrica o paneles prefabricados pesados y trasdosados de fábrica",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 39,
+   "bbox": [
+    70.9,
+    313.6,
+    440.1,
+    324.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "bf92aabaf9cf01b89bb469f82553fec8920e56e72089a272118366e6a8038d88",
+   "literal": "5.1.1.1  De fábrica o paneles prefabricados pesados y trasdosados de fábrica"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0080",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.1.1.1  De fábrica o paneles prefabricados pesados y trasdosados de fábrica",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0080",
+   "ruta_semantica": "5   Construcción / 5.1  Ejecución / 5.1.1  Elementos de separación verticales y tabiquería / 5.1.1.1  De fábrica o paneles prefabricados pesados y trasdosados de fábrica",
+   "seccion_estimada": "5   Construcción",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "650492d761eed9b193e163a16e54684d23a9dd1107798d2ae3f7c053d3fdb869"
+ },
+ "paginas": [
+  39
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [],
+ "texto": "5.1.1.1  De fábrica o paneles prefabricados pesados y trasdosados de fábrica\n1\nDeben rellenarse las llagas y los tendeles con mortero ajustándose a las especificaciones del fabri-\ncante de las piezas.\n2\nDeben retacarse con mortero las rozas hechas para paso de instalaciones de tal manera que no se\ndisminuya el aislamiento acústico inicialmente previsto.\n3\nEn el caso de elementos de separación verticales formados por dos hojas de fábrica separadas por\nuna cámara, deben evitarse las conexiones rígidas entre las hojas que puedan producirse durante\nla ejecución del elemento, debidas, por ejemplo, a rebabas de mortero o restos de material acumu-\nlados en la cámara. El material absorbente acústico o amortiguador de vibraciones situado en la\ncámara debe cubrir toda su superficie. Si éste no rellena todo el ancho de la cámara, debe fijarse a\nuna de las hojas, para evitar el desplazamiento del mismo dentro de la cámara.\n4\nCuando se empleen bandas elásticas, éstas deben quedar adheridas al forjado y al resto de parti-\nciones y fachadas, para ello deben usarse los morteros y pastas adecuadas para cada tipo de ma-\nterial.\n5\nEn el caso de elementos de separación verticales con bandas elásticas (tipo 2) cuyo acabado su-\nperficial sea un enlucido, deben evitarse los contactos entre el enlucido de la hoja que lleva bandas\nelásticas en su perímetro y el enlucido del techo en su encuentro con el forjado superior, para ello,\nse prolongará la banda elástica o se ejecutará un corte entre ambos enlucidos. Para rematar la jun-\nta, podrán utilizarse cintas de celulosa microperforada.\n6\nDe la misma manera, deben evitarse:\na)\nlos contactos entre el enlucido del tabique o de la hoja interior de fábrica de la fachada que lle-\nven bandas elásticas en su encuentro con un elemento de separación vertical de una hoja de\nfábrica (Tipo 1) y el enlucido de ésta;\nb)\nlos contactos entre el enlucido de la hoja que lleva bandas elásticas en su perímetro y el enlu-\ncido de la hoja principal de las fachadas de una sola hoja, ventiladas o con el aislamiento por\nel exterior.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

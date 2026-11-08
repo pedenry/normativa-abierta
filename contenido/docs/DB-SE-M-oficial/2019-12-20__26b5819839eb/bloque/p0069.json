@@ -1,0 +1,192 @@
+{
+ "documento": null,
+ "pagina": 69,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    244.6,
+    35.3,
+    367.0,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-M Madera",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.2,
+    797.9,
+    322.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "SE-M 63",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    90.1,
+    80.0,
+    124.8,
+    113.0
+   ],
+   "tipo": "texto",
+   "texto": "siendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    90.1,
+    120.0,
+    538.5,
+    152.9
+   ],
+   "tipo": "texto",
+   "texto": "Fv,0,Rk\nvalor característico de la capacidad de carga de un conector sometido a una fuerza para-\nlela a la fibra, definido anteriormente;\ndc\n diámetro del conector, [mm].",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    154.4,
+    541.3,
+    204.9
+   ],
+   "tipo": "texto",
+   "texto": "10 Las separaciones y distancias mínimas deben ajustarse a las especificaciones de la tabla 8.8, con\nlos símbolos definidos en la figura 8.7.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    216.5,
+    483.4,
+    246.6
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 8.8 Separaciones y distancias mínimas para conectores de anillo y de placa.\nSeparaciones y distancias\n(véase figura 6.3.2.1b)\nÁngulo\nDistancia mínima",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    248.0,
+    481.4,
+    338.3
+   ],
+   "tipo": "texto",
+   "texto": "a1 (paralela a la fibra)\n       0º    360º\n(1,2 + 0,8 cos )  dc\na2 (perpendicular a la fibra)\n       0º    360º\n1,2  dc\na3,t (testa cargada)\n    -90º    90º\n1,5  dc\na3,c (testa no cargada)\n     90º   < 150º\n(0,4 + 1,6 sen )  dc\n   150º   < 210º\n1,2  dc\n   210º    270º\n(0,4 + 1,6 sen )  dc\na4,t (borde cargado\n       0º    180º\n(0,6 + 0,2 sen )  dc\na4,c (borde no cargado)\n   180º    360º\n0,6  dc",
+   "tamano": 9.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    368.0,
+    538.6,
+    401.0
+   ],
+   "tipo": "texto",
+   "texto": "11 Cuando los conectores se disponen al tresbolillo (véase figura 8.14), las distancias mínimas de sepa-\nración paralela y perpendicular a la fibra, a1 y a2 respectivamente, se pueden reducir por unos coefi-\ncientes (kai) siempre que se cumpla la condición:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 8,
+   "bbox": [
+    90.1,
+    412.4,
+    540.5,
+    494.4
+   ],
+   "tipo": "texto",
+   "texto": "(ka1)2 + (ka2)2  1\n(8.74)\ncon\n0  ka1  1\n0  ka2  1\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    90.1,
+    501.2,
+    416.3,
+    522.7
+   ],
+   "tipo": "texto",
+   "texto": "ka1\nfactor de reducción de la distancia mínima paralela a la fibra;\nka2\nfactor de reducción de la distancia mínima perpendicular a la fibra.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    201.7,
+    647.9,
+    410.3,
+    656.9
+   ],
+   "tipo": "texto",
+   "texto": "Figura 8.14 Distancias reducidas en conectores.",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    70.9,
+    661.0,
+    538.5,
+    683.9
+   ],
+   "tipo": "texto",
+   "texto": "12 La distancia paralela a la fibra ka1a1 puede, además, reducirse hasta un 50 %, siempre que la capa-\ncidad de carga se reduzca proporcionalmente hasta el 40 %.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    691.4,
+    541.3,
+    712.8
+   ],
+   "tipo": "texto",
+   "texto": "13 Cuando existe una fila de conectores dispuestos paralelos a la fibra y se encuentran cargados con\nuna fuerza paralela a la fibra, el número eficaz de conectores se obtendrá de la siguiente expresión:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    90.1,
+    724.1,
+    540.5,
+    758.7
+   ],
+   "tipo": "texto",
+   "texto": "nef = 2 + (1 – n/20)  (n – 2 )\n(8.75)\nsiendo:",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

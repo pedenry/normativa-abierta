@@ -1,0 +1,369 @@
+{
+ "documento": null,
+ "pagina": 8,
+ "etiqueta_impresa": "8",
+ "ancho": 595.0,
+ "alto": 842.0,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    248.5,
+    37.7,
+    363.2,
+    48.9
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-A Acero",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    301.0,
+    792.0,
+    329.5,
+    803.2
+   ],
+   "tipo": "texto",
+   "texto": "SE-A-6",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    73.4,
+    206.1,
+    84.6
+   ],
+   "tipo": "texto",
+   "texto": "2.3.2 Efecto de las acciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 3,
+   "bbox": [
+    93.6,
+    92.9,
+    523.9,
+    115.6
+   ],
+   "tipo": "texto",
+   "texto": "Para cada situación de dimensionado, los valores de cálculo del efecto de las acciones se obten-\ndrán mediante las reglas de combinación indicadas en DB SE 4.2.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    128.9,
+    413.8,
+    140.1
+   ],
+   "tipo": "texto",
+   "texto": "2.3.3 Coeficientes parciales de seguridad para determinar la resistencia",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    148.4,
+    538.6,
+    171.1
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara los coeficientes parciales para la resistencia se adoptarán, normalmente, los siguientes valo-\nres:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 6,
+   "bbox": [
+    93.6,
+    177.1,
+    496.1,
+    190.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "a)\nγM0 = 1,0 5\ncoeficiente parcial de seguridad relativo a la plastificación del material",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 7,
+   "bbox": [
+    93.6,
+    195.4,
+    511.2,
+    208.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "b)\nγM1 = 1,05\ncoeficiente parcial de seguridad relativo a los fenómenos de inestabilidad",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    93.6,
+    213.7,
+    541.4,
+    237.3
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "c)\nγM2 = 1,25\ncoeficiente parcial de seguridad relativo a la resistencia última del material o\nsección, y a la resistencia de los medios de unión",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 9,
+   "bbox": [
+    93.6,
+    243.4,
+    541.4,
+    267.1
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "d)\nγM3 = 1,1\ncoeficiente parcial para la resistencia al deslizamiento de uniones con tornillos\npretensados en Estado Límite de Servicio.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 10,
+   "bbox": [
+    93.6,
+    273.1,
+    541.4,
+    296.8
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γM3 = 1,25\ncoeficiente parcial para la resistencia al deslizamiento de uniones con tornillos\npretensazos en Estado Límite de Último.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 11,
+   "bbox": [
+    93.6,
+    302.9,
+    541.4,
+    326.5
+   ],
+   "tipo": "formula_sospechosa",
+   "texto": "γM3 = 1,4\ncoeficiente parcial para la resistencia al deslizamiento de uniones con tornillos\npretensazos y agujeros rasgados o con sobremedida.",
+   "tamano": 10.0,
+   "negrita": false,
+   "pendiente_verificacion": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    70.9,
+    332.9,
+    504.8,
+    344.1
+   ],
+   "tipo": "texto",
+   "texto": "2\nLos coeficientes parciales para la resistencia frente a la fatiga están definidos en el Anejo C.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 13,
+   "bbox": [
+    70.9,
+    361.6,
+    241.7,
+    375.0
+   ],
+   "tipo": "titulo",
+   "texto": "2.4 Estados límite de servicio",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 14,
+   "bbox": [
+    70.9,
+    390.2,
+    264.4,
+    401.4
+   ],
+   "tipo": "texto",
+   "texto": "2.4.1 Condiciones que deben verificarse",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 15,
+   "bbox": [
+    70.9,
+    409.7,
+    541.4,
+    455.4
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe considera que hay un comportamiento adecuado, en relación con las deformaciones, las vibra-\nciones o el deterioro, si se cumple, para las situaciones de dimensionado pertinentes, que el efecto\nde las acciones no alcanza el valor límite admisible establecido para el mismo de acuerdo a DB SE\n4.3",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 16,
+   "bbox": [
+    70.9,
+    468.7,
+    208.8,
+    479.9
+   ],
+   "tipo": "texto",
+   "texto": "2.4.2 Efecto de las acciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 17,
+   "bbox": [
+    70.9,
+    488.2,
+    538.6,
+    510.9
+   ],
+   "tipo": "texto",
+   "texto": "1\nPara cada situación de dimensionado, los valores de cálculo del efecto de las acciones se obten-\ndrán mediante las reglas de combinación indicadas DB SE.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 18,
+   "bbox": [
+    70.9,
+    524.2,
+    206.6,
+    535.4
+   ],
+   "tipo": "texto",
+   "texto": "2.4.3 Propiedades elásticas.",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 19,
+   "bbox": [
+    70.9,
+    543.7,
+    447.5,
+    554.8
+   ],
+   "tipo": "texto",
+   "texto": "1\nSe emplearán valores medios para las propiedades elásticas de los materiales.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 20,
+   "bbox": [
+    70.9,
+    572.3,
+    157.0,
+    585.7
+   ],
+   "tipo": "titulo",
+   "texto": "2.5 Geometría",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 21,
+   "bbox": [
+    70.9,
+    601.0,
+    178.2,
+    612.2
+   ],
+   "tipo": "texto",
+   "texto": "2.5.1 Valor de cálculo",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 22,
+   "bbox": [
+    70.9,
+    620.5,
+    534.8,
+    631.6
+   ],
+   "tipo": "texto",
+   "texto": "1\nEl valor de cálculo de una dimensión geométrica se representa normalmente por su valor nominal:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 23,
+   "bbox": [
+    103.7,
+    640.8,
+    535.4,
+    654.8
+   ],
+   "tipo": "texto",
+   "texto": "nom\nd\na\na\n=\n(2.1)",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 24,
+   "bbox": [
+    103.7,
+    665.8,
+    360.9,
+    678.8
+   ],
+   "tipo": "texto",
+   "texto": "d\na\nvalor de cálculo de una dimensión geométrica,",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 25,
+   "bbox": [
+    103.7,
+    686.8,
+    387.4,
+    699.8
+   ],
+   "tipo": "texto",
+   "texto": "nom\na\nvalor nominal de la misma dimensión, en el proyecto.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 26,
+   "bbox": [
+    70.9,
+    731.5,
+    309.4,
+    742.7
+   ],
+   "tipo": "texto",
+   "texto": "2.5.2 Desviaciones de una dimensión geométrica",
+   "tamano": 10.0,
+   "negrita": true
+  }
+ ],
+ "error_tablas": null
+}

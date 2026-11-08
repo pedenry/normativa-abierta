@@ -1,0 +1,92 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0051",
+  "ruta_oficial": "5.2.2",
+  "ruta_semantica": "5.2.2 Capacidad portante",
+  "titulo": "5.2.2 Capacidad portante",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "5.2.2 Capacidad portante",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 21,
+   "bbox": [
+    70.9,
+    589.0,
+    192.0,
+    598.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "926c51aa75b5e71c69c5f6e103625af70b9d496d6f9a1f7f79c6280d3fbce83e",
+   "literal": "5.2.2 Capacidad portante"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0050",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "apartado 5.2.3"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "5.2.2 Capacidad portante",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "5 Comportamiento estructural 5.1 Generalidades / 5.2 Muros sometidos predominantemente a carga vertical 5.2.1 Análisis de solicitaciones / 5.2.2 Capacidad portante",
+   "seccion_estimada": "5 Comportamiento estructural 5.1 Generalidades",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "bb5ec1f962631b5dae730f51ccff6283f48013cd1b91426a589760f828095761"
+ },
+ "paginas": [
+  21,
+  22
+ ],
+ "etiquetas_impresas": [
+  null,
+  null
+ ],
+ "tipos": [
+  "referencias",
+  "formulas",
+  "figuras"
+ ],
+ "texto": "5.2.2 Capacidad portante\n1\nEn todo paño de un muro de fábrica, la compresión vertical de cálculo, Nsd, será menor o igual que\nsu resistencia vertical de cálculo, NRd, es decir:\nNSd    NRd\n(5.5)\n2\nEn muros de una hoja (o de dos hojas unidas rígidamente), la capacidad resistente vertical de cálculo\na compresión vertical, NRd, por unidad de longitud, vale:\nNRd=·t·fd\n(5.6)\ndonde:\n\nes el factor de reducción del grueso del muro por efecto de la esbeltez y/o de la excentricidad\nde la carga que se calcula según el apartado 5.2.3.\nt\nes el espesor del muro\n\nDocumento Básico SE-F Fábrica\nSE-F-18\nfd\nes la resistencia de cálculo a compresión de la fábrica. Cuando el área A, en m2, de la sección\nhorizontal de un muro sea menor que 0,1m2, se reducirá por el factor 0,7+3·A\n3\nEn muros capuchinos se comprobará cada hoja por separado.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "apartado 5.2.3"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0021.png",
+  "../figura/p0022.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

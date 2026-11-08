@@ -1,0 +1,60 @@
+{
+ "documento": "GUIA-PDF-f3314b0414fe",
+ "code": "GUIA",
+ "title": "Guia de rehabilitacion frente al radon Fichas",
+ "capa": "guia",
+ "scope": "Complementos oficiales",
+ "version": "sin-fecha",
+ "version_dir": "sin-fecha__e58e54b822cf",
+ "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+ "apartado": {
+  "id_tecnico": "a0264",
+  "ruta_oficial": null,
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO / EJEMPLO A2+B3",
+  "titulo": "EJEMPLO A2+B3",
+  "nivel": 3,
+  "parent_id": "a0263",
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO"
+ },
+ "paginas": [
+  73,
+  74
+ ],
+ "etiquetas_impresas": [
+  "73",
+  "74"
+ ],
+ "tipos": [
+  "tablas",
+  "figuras"
+ ],
+ "texto": "EJEMPLO A2+B3\nA2+B3\ngaraje\nFigura 1 - Sección y planta baja de la vivienda\nEfectividad\nCoste\nCoste por superficie\n88%\n2.500€\n43€/m2\n\n2\nEjemplo A2+B3 • Sellado + despresurización con red de tubos\nA2+B32\nconsidera suficiente para asegurar la calidad del\naire interior sin tener en cuenta el radón. Además, se\nquiere evitar el posible incremento de la demanda\nenergética de climatización consecuencia de una\naumento excesivo de la ventilación.",
+ "notas": [],
+ "ambito": null,
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0073_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0073.png",
+  "../figura/p0074.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/GuiasyOtros/GuiaRadon/Guia_de_rehabilitacion_frente_al_radon+Fichas.pdf",
+  "sha256": "e58e54b822cf4ab00e258f0eb50c0f06a8c04e3730a7f530d224485e2a5bb02e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "jerarquia_estimada": {
+  "parent_id": "a0263",
+  "nivel": 3,
+  "seccion_estimada": "1. DESCRIPCIÓN DEL EDIFICIO",
+  "ruta_semantica": "1. DESCRIPCIÓN DEL EDIFICIO / EJEMPLO A2+B3"
+ },
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,82 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0094",
+  "ruta_oficial": "7.2",
+  "ruta_semantica": "Fragmento de PDF p55",
+  "titulo": "7.2 Vibraciones 7.2.1 Generalidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p55",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p55",
+  "referencias_filtradas": [
+   "DB SE",
+   "apartado 7.2.2"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "7 Estados límite de servicio / 7.2 Vibraciones 7.2.1 Generalidades",
+   "seccion_estimada": "7 Estados límite de servicio",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "db616c4d33f59c79a5a27946d3d0f96d59d4a57684ea7e507a6b096b2450badc"
+ },
+ "paginas": [
+  55,
+  56
+ ],
+ "etiquetas_impresas": [
+  "55",
+  "56"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "7.2 Vibraciones 7.2.1 Generalidades\n7.2.1 Generalidades\n1\nLas estructuras en las que las acciones variables puedan inducir vibraciones deberán concebirse\nde modo que se eviten los posibles fenómenos de resonancia que podrían provocar roturas por fa-\ntiga o afectar negativamente la resistencia última.\n2\nEn el caso de que una estructura esté sometida a unas acciones periódicas de alternancia rápida,\nse deberá analizar su comportamiento frente a las vibraciones. Se deberán examinar, en este con-\ntexto, los efectos sobre la aptitud al servicio de la estructura en cuanto a:\n-\nel confort de los usuarios del edificio;\n-\nel comportamiento de los elementos no estructurales;\n-\nel funcionamiento de equipos e instalaciones.\n3\nEn los forjados de edificación se pueden distinguir entre vibraciones de carácter continuo y transito-\nrio. Vibraciones continuas son las inducidas por el funcionamiento de máquinas con piezas en mo-\nvimiento o por los movimientos rítmicos de personas al practicar deportes, bailar, etc.\n\nDocumentoBásico SE-A Acero\nSE-A-54\n4\nLas exigencias relativas al comportamiento frente a las vibraciones contínuas están reflejadas en el\ndocumento DB SE. En el caso de las obras destinadas a usos para los que el DB SE no defina\nninguna exigencia específica, o si se requiere un análisis más detallado, se podrá adoptar como\ncriterio de aceptación el límite superior de las vibraciones continuas  en términos de la aceleración\nmáxima admisible en función de la frecuencia de oscilación (figura 7.1)\n5\nLa circulación normal de las personas puede inducir vibraciones en un forjado en caso de que éste\ntenga una masa reducida y este apoyado en vigas con luces importantes y rigideces pequeñas. En\neste tipo de forjados, dimensionados para resistir cargas estáticas, se debería verificar el compor-\ntamiento frente a las vibraciones transitorias. En ausencia de otras exigencias, más restrictivas,\nque no estén basadas en la percepción humana (veáse 7.2.1 (2), la verificación se podrá efectuar\nde acuerdo con lo establecido en el apartado 7.2.2.",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB SE",
+  "apartado 7.2.2"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0056.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0095"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

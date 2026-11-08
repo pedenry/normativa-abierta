@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SUA-oficial",
+ "code": "DB-SUA",
+ "title": "DB-SUA Seguridad de utilización y accesibilidad",
+ "capa": "oficial",
+ "scope": "Seguridad utilización y accesibilidad",
+ "version": "2022-06-14",
+ "version_dir": "2022-06-14__3cfb5bbb135e",
+ "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+ "apartado": {
+  "id_tecnico": "a0014",
+  "ruta_oficial": "12.4",
+  "ruta_semantica": "12.4. Exigencia básica SUA 4: Seguridad frente al riesgo causado por iluminación inadecuada",
+  "titulo": "12.4. Exigencia básica SUA 4: Seguridad frente al riesgo causado por iluminación inadecuada",
+  "nivel": 1,
+  "parent_id": "a0013",
+  "seccion_estimada": "12.4. Exigencia básica SUA 4: Seguridad frente al riesgo causado por iluminación inadecuada",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    582.9,
+    519.5,
+    594.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "5101f3aff7c0eb3520907cbf63ba6cd24ae93d9ee0ef9856c88d6f5ea7dc61ff",
+   "literal": "12.4. Exigencia básica SUA 4: Seguridad frente al riesgo causado por iluminación inadecuada"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0013",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "12.4. Exigencia básica SUA 4: Seguridad frente al riesgo causado por iluminación inadecuada",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0013",
+   "ruta_semantica": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento / 12.4. Exigencia básica SUA 4: Seguridad frente al riesgo causado por iluminación inadecuada",
+   "seccion_estimada": "12. 3. Exigencia básica SUA 3: Seguridad frente al riesgo de aprisionamiento",
+   "nivel": 2,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "99ed7658c4c35bd7c8fe039241632a910bfd1e45fcfcd305b991b9de0ed5b7aa"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "12.4. Exigencia básica SUA 4: Seguridad frente al riesgo causado por iluminación inadecuada\nSe limitará el riesgo de daños a las personas como consecuencia de una iluminación inadecuada en\nzonas de circulación de los edificios, tanto interiores como exteriores, incluso en caso de emergencia o\nde fallo del alumbrado normal.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+  "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

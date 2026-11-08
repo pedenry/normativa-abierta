@@ -1,0 +1,77 @@
+{
+ "documento": "DB-HR-oficial",
+ "code": "DB-HR",
+ "title": "DB-HR Protección frente al ruido",
+ "capa": "oficial",
+ "scope": "Protección frente al ruido",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a67baeca5138",
+ "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+ "apartado": {
+  "id_tecnico": "a0074",
+  "ruta_oficial": "4",
+  "ruta_semantica": "Fragmento de PDF p37",
+  "titulo": "4   Productos de construcción 4.1  Características exigibles a los productos",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Fragmento de PDF p37",
+  "clasificacion_navegacion": "no_encabezado",
+  "es_encabezado_navegacion": false,
+  "encabezado_fuente_contrastado": false,
+  "navegacion_motivo": "sin_linea_de_encabezado",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "anulado_no_encabezado",
+  "titulo_navegacion": "Fragmento de PDF p37",
+  "referencias_filtradas": [
+   "UNE EN"
+  ],
+  "referencias_db_descartadas": [],
+  "ruta_fuente": "fragmento_sin_jerarquia",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4   Productos de construcción 4.1  Características exigibles a los productos",
+   "seccion_estimada": "4   Productos de construcción 4.1  Características exigibles a los productos",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "e137daa9c5367dc381c1334fab4846173ac511dd7ccaaef9cd4292b993a7246d"
+ },
+ "paginas": [
+  37
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [
+  "referencias",
+  "formulas"
+ ],
+ "texto": "4   Productos de construcción 4.1  Características exigibles a los productos\n4.1  Características exigibles a los productos\n1\nLos productos utilizados en edificación y que contribuyen a la protección frente al ruido se caracteri-\nzan por sus propiedades acústicas, que debe proporcionar el fabricante.\n2\nLos productos que componen los elementos constructivos homogéneos se caracterizan por la masa\npor unidad de superficie kg/m2.\n3\nLos productos utilizados para aplicaciones acústicas se caracterizan por:\na)\nla resistividad al flujo del aire, r, en kPa s/m2, obtenida según UNE EN 29053, y la rigidez di-\nnámica, s’, en MN/m3, obtenida según UNE EN 29052-1 en el caso de productos de relleno de\nlas cámaras de los elementos constructivos de separación.\nb)\nla rigidez dinámica, s’, en MN/m3, obtenida según UNE EN 29052-1 y la clase de compresibili-\ndad, definida en sus propias normas UNE, en el caso de productos aislantes de ruido de im-\npactos utilizados en suelos flotantes y bandas elásticas.\nc)\nel coeficiente de absorción acústica, α, al menos, para las frecuencias de 500, 1000 y 2000 Hz\ny el coeficiente de absorción acústica medio αm, en el caso de productos utilizados como ab-\nsorbentes acústicos.\nEn caso de no disponer del valor del coeficiente de absorción acústica medio m, podrá utili-\nzarse el valor del coeficiente de absorción acústica ponderado, w.\n4\nEn el pliego de condiciones del proyecto deben expresarse las características acústicas de los pro-\nductos utilizados en los elementos constructivos de separación.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE EN"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf",
+  "sha256": "a67baeca5138bb1f121f797d23a79a4557bd9ac4abacd954024893e05411eeab",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [
+  "a0075",
+  "a0076"
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

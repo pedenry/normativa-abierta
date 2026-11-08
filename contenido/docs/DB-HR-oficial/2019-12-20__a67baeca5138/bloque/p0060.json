@@ -1,0 +1,88 @@
+{
+ "documento": null,
+ "pagina": 60,
+ "etiqueta_impresa": null,
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    215.0,
+    35.9,
+    396.9,
+    46.5
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico HR - Protección frente al ruido",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 1,
+   "bbox": [
+    293.0,
+    797.1,
+    321.5,
+    806.0
+   ],
+   "tipo": "texto",
+   "texto": "HR B-2",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    71.3,
+    540.9,
+    197.4
+   ],
+   "tipo": "texto",
+   "texto": "fref:\nFrecuencia de referencia de valor 1000 Hz, [Hz]\nf0:\nFrecuencia de resonancia, [Hz]\nh:\nAltura libre de un recinto, [m]\nk’:\nRigidez dinámica de una suspensión o sistema antivibratorio, [MN/m3]\nlf:\nLongitud común de la arista de unión entre el elemento de separación y los elementos de\nflancos F y f, [m]\nlij:\nLongitud común de la arista de unión entre el elemento i y el j, [m]\nl0:\nLongitud de la arista de unión de referencia de valor 1 m, [m]\nm:\nMasa por unidad de superficie, [kg/m2]\nm:\nCarga máxima, [kg/m2]\nm:\nCoeficiente de absorción acústica en el seno del aire, [m-1]",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    200.7,
+    543.8,
+    639.9
+   ],
+   "tipo": "texto",
+   "texto": "m\nm\n Coeficiente de absorción acústica medio en el aire, para las frecuencias de 500, 1000 y 2000\nHz, [m-1]\nn:\n Número de elementos de flanco del recinto\nn:\nNúmero de caminos indirectos\nn:\nNúmero total de materiales caracterizados por un coeficiente de absorción acústica diferente\np:\n Presión acústica, [Pa]\np0:\nPresión sonora de referencia, de valor 2·10-5 Pa, [Pa]\np(t):\nPresión acústica en el instante t, [Pa]\nr:\nResistividad al flujo del aire, [kPa s/m2]\ns’:\nRigidez dinámica, [MN/m3]\nA:\nÁrea de absorción acústica equivalente, [m2]\nA:\nÁrea de absorción acústica equivalente de un recinto, [m2]\nAf:\nAbsorción acústica para la banda de frecuencia f, [m2]\nAi:\nValor de la ponderación A en la banda de frecuencia i, [dBA]\nAO:\nÁrea de absorción acústica equivalente de un mueble fijo, [m2]\nAO,m:\n Área de absorción acústica equivalente media de un mueble fijo, [m2];\nA0:\nÁrea de absorción equivalente de referencia, para viviendas es 10 m2, [m2]\nC:\nAmortiguamiento del sistema antivibratorio\nC:\n Término de adaptación espectral del índice de reducción acústica para ruido rosa incidente,\n[dB]\nCtr:\n Término de adaptación espectral del índice de reducción acústica para ruido de automóviles\ny ruido de aeronaves, [dB]\nC0:\nAmortiguamiento crítico\nD:\nPérdidas por inserción, [dBA/m]\nD:\nDiferencia de niveles entre recintos, [dB]\nDn,ai,A:\n Diferencia de niveles normalizada, ponderada A, para la transmisión de ruido aéreo por vía\ndirecta ei o indirecta Si de todos los sistemas instalados, [dBA]\nDnT:\nDiferencia de niveles estandarizada entre recintos interiores, [dB]\nDnT,i:\nDiferencia de niveles estandarizada en la banda de frecuencia i, [dB]\nDnT,w:\nDiferencia global de niveles estandarizada, [dB]\nDnT,A:\nDiferencia de niveles estandarizada, ponderada A, entre recintos interiores, [dBA]\nDn,e:\nDiferencia de niveles normalizada de un elemento de construcción pequeño, [dB]\nDn,e,A:\n Diferencia de niveles normalizada, ponderada A, de un elemento de construcción pequeño,\n[dBA]\nDn,e,Atr:\n Diferencia de niveles normalizada, ponderada A, de un elemento de construcción pequeño,\npara ruido exterior dominante de automóviles o de aeronaves, [dBA]\nDn,s,A:\n Diferencia de niveles normalizada, ponderada A, para transmisión indirecta a través de un\nsistema s, [dBA]",
+   "tamano": 11.9,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    72.0,
+    643.1,
+    538.5,
+    658.5
+   ],
+   "tipo": "texto",
+   "texto": "situ\n,ij,\nv\nD\n:\nDiferencia de niveles de velocidad promediada en los dos sentidos de propagación para ca-",
+   "tamano": 12.2,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    661.3,
+    541.4,
+    764.5
+   ],
+   "tipo": "texto",
+   "texto": "da camino de transmisión ij sobre la unión medida in situ, [dB]\nD2m,nT:\nDiferencia de niveles estandarizada en fachadas y en cubiertas, [dB]\nD2m,nT,A:\nDiferencia de niveles estandarizada, ponderada A, en fachadas y en cubiertas, para ruido\nrosa y para ruido exterior dominante ferroviario o de estaciones ferroviarias, [dBA]\nD2m,nT,Atr:\nDiferencia de niveles estandarizada, ponderada A, en fachadas y en cubiertas, para ruido\nexterior dominante de automóviles o de aeronaves, [dBA]\nD2m,nT,Ai\nDiferencia de niveles estandarizada, ponderada A, en la banda de frecuencia i, [dB]\nKij:\nÍndice de reducción de vibraciones para cada camino de transmisión ij (ij = Ff; Fd o Df)\nKij min:\nValor mínimo del índice de reducción de vibraciones",
+   "tamano": 10.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

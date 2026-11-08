@@ -1,0 +1,85 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0117",
+  "ruta_oficial": null,
+  "ruta_semantica": "Apéndice B Notación",
+  "titulo": "Apéndice B Notación",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "Apéndice B Notación",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 50,
+   "bbox": [
+    70.9,
+    95.3,
+    219.9,
+    110.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "c6b25828832a0add973cae68bc12fd3776b70c64a8c530ba605d102ba2b97cff",
+   "literal": "Apéndice B Notación"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "Apéndice B Notación",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Apéndice B Notación",
+   "seccion_estimada": "Apéndice B Notación",
+   "nivel": 1,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "ed3f4e85ae213be8cacfd6116b19b99f63fa71d8d939b98343496eb9cbf3b47f"
+ },
+ "paginas": [
+  50,
+  51
+ ],
+ "etiquetas_impresas": [
+  "50",
+  "51"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "Apéndice B Notación\n1\nEn este apéndice se recogen, ordenados alfabéticamente, los símbolos que se utilizan en esta sec-\nción del DB junto con las correspondientes magnitudes y unidades.\nAh: superficie de la hoja interior de un muro parcialmente estanco, [m2].\nAs: superficie del suelo elevado, [m2].\nAc: superficie de la cubierta, [m2].\nH: diferencia entre la profundidad de la cara superior de la capa impermeable y el nivel freático an-\ntes de la intervención, [m].\nho: diferencia entre la profundidad de la cara superior de la capa impermeable y el nivel freático en\nel punto del terreno donde está situado el tubo drenante, [m].\nKs: coeficiente de permeabilidad del terreno, [m/s ó cm/s].\nNF: nivel freático, [m].\nP: profundidad del arranque del muro con respecto a la superficie del terreno, [m];\np:\níndice pluviométrico anual, [mm].\nq:\ncaudal de drenaje por metro lineal de muro, [m3/(s.m)].\nR: radio de acción del drenaje, equivalente a la distancia de la zona de recarga del acuífero, [m].\nSs: área efectiva total de las aberturas de ventilación de una cámara, [cm2].\nV: valor básico de la velocidad del viento, [m/s].\n\nDocumento Básico  HS Salubridad\nHS 1 Protección frente a la humedad\n51",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0051.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

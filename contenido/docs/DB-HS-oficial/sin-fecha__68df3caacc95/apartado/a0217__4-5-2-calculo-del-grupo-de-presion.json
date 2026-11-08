@@ -1,0 +1,93 @@
+{
+ "documento": "DB-HS-oficial",
+ "code": "DB-HS",
+ "title": "DB-HS Salubridad",
+ "capa": "oficial",
+ "scope": "Salubridad",
+ "version": "2022-06-14",
+ "version_dir": "sin-fecha__68df3caacc95",
+ "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+ "apartado": {
+  "id_tecnico": "a0217",
+  "ruta_oficial": "4.5.2",
+  "ruta_semantica": "4.5.2 Cálculo del grupo de presión",
+  "titulo": "4.5.2 Cálculo del grupo de presión",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.5.2 Cálculo del grupo de presión",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 93,
+   "bbox": [
+    70.9,
+    144.5,
+    239.9,
+    155.7
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "23c998f4b1bed7eb315272e9989c49d4d836fcfb7bb2f4b240c221bda804701b",
+   "literal": "4.5.2 Cálculo del grupo de presión"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [
+   "UNE 100030"
+  ],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.5.2 Cálculo del grupo de presión",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "4 Dimensionado 4.1 Reserva de espacio en el edificio / 4.5 Dimensionado de los equipos, elementos y dispositivos de la instalación 4.5.1 Dimensionado de los contadores / 4.5.2 Cálculo del grupo de presión",
+   "seccion_estimada": "4 Dimensionado 4.1 Reserva de espacio en el edificio",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c46d1ca4a30d138618d58e66443c4b848673735e02b6f9898447dd745aa8ba5b"
+ },
+ "paginas": [
+  93,
+  94
+ ],
+ "etiquetas_impresas": [
+  "93",
+  "94"
+ ],
+ "tipos": [
+  "referencias",
+  "tablas",
+  "figuras"
+ ],
+ "texto": "4.5.2 Cálculo del grupo de presión\n4.5.2.1\nCálculo del depósito auxiliar de alimentación\n1\nEl volumen del depósito se calculará en función del tiempo previsto de utilización, aplicando la si-\nguiente expresión:\n60\nt\nQ\nV\n\n\n\n(4.1)\nsiendo\nV  es el volumen del depósito [l];\nQ  es el caudal máximo simultáneo [dm\n3/s];\nt  es el tiempo estimado (de 15 a 20) [min].\n2\nLa estimación de la capacidad de agua se podrá realizar con los criterios de la norma\nUNE 100030:2017.\n4.5.2.2\nCálculo de las bombas\n1\nEl cálculo de las bombas se hará en función del caudal y de las presiones de arranque y parada de\nla/s bomba/s (mínima y máxima respectivamente), siempre que no se instalen bombas de caudal\nvariable. En este segundo caso la presión será función del caudal solicitado en cada momento y\nsiempre constante.\n2\nEl número de bombas a instalar en el caso de un grupo de tipo convencional, excluyendo las de\nreserva, se determinará en función del caudal total del grupo. Se dispondrán dos bombas para cau-\ndales de hasta 10 dm3/s, tres para caudales de hasta 30 dm3/s y 4 para más de 30 dm3/s.\n3\nEl caudal de las bombas será el máximo simultáneo de la instalación o caudal punta y vendrá fijado\npor el uso y necesidades de la instalación.\n4\nLa presión mínima o de arranque (Pb) será el resultado de sumar la altura geométrica de aspiración\n(Ha), la altura geométrica (Hg), la pérdida de carga del circuito (Pc) y la presión residual en el grifo,\nllave o fluxor (Pr).\n\nDocumento Básico HS Salubridad\nHS 4 Suministro de agua\n94\n4.5.2.3\nCálculo del depósito de presión\n1\nPara la presión máxima se adoptará un valor que limite el número de arranques y paradas del grupo\nde forma que se prolongue lo más posible la vida útil del mismo. Este valor estará comprendido en-\ntre 2 y 3 bar por encima del valor de la presión mínima.\n2\nEl cálculo de su volumen se hará con la fórmula siguiente:\nVn  =  Pb x Va / Pa\n(4.2)\nsiendo\nVn\nes el volumen útil del depósito de membrana;\nPb\nes la presión absoluta mínima;\nVa\nes el volumen mínimo de agua;\nPa\nes la presión absoluta máxima.",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "UNE 100030"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [
+  "../tabla/p0094_t01.json"
+ ],
+ "figuras": [
+  "../figura/p0094.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+  "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,141 @@
+{
+ "indice": 1,
+ "pagina": 118,
+ "etiqueta_impresa": "800",
+ "bbox": [
+  69.2,
+  573.0,
+  539.5,
+  743.0
+ ],
+ "filas": 4,
+ "columnas": 3,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Propiedades",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Duros (UNE-EN 622-2:2004)\nPara su uso en ambiente húmedo\nEspesor nominal, t en mm\nnom,\n 3,5 > 3,5 a 5,5 > 5,5",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 2,
+   "texto": "Semiduros (UNE-EN 622-3:2005)\nPara su uso en ambiente seco\nEspesor nominal, t en mm\nnom,\n 10 > 10",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Resistencia (característica), en N/mm2\n- Flexión f\nm,p,k\n- Tracción f\nt,p,k\n- Compresión f\nc,p,k\n- Cortante, en el grueso f\nv,p,k\n- Cortante, en el plano f\nr,p,k",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "37,0 35,0 32,0\n27,0 26,0 23,0\n28,0 27,0 24,0\n19,0 18,0 16,0\n3,0 3,0 2,5",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 2,
+   "texto": "17,0 15,0\n9,0 8,0\n9,0 8,0\n5,5 4,5\n0,3 0,25",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "Rigidez (media), en N/mm2\n- A flexión E\nm,p\n- A tracción E\nt,p\n- A compresión E\nc,p\n- A cortante, en el grueso G\nv,p",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "5000 4800 4600\n5000 4800 4600\n5000 4800 4600\n2100 2000 1900",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 2,
+   "texto": "3100 2900\n3100 2900\n3100 2900\n1300 1200",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 0,
+   "texto": "Densidad, en kg/m3\n- Característica \np,k",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 1,
+   "texto": "900 850 800",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 3,
+   "col": 2,
+   "texto": "650 600",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Propiedades",
+  "Duros (UNE-EN 622-2:2004)\nPara su uso en ambiente húmedo\nEspesor nominal, t en mm\nnom,\n 3,5 > 3,5 a 5,5 > 5,5",
+  "Semiduros (UNE-EN 622-3:2005)\nPara su uso en ambiente seco\nEspesor nominal, t en mm\nnom,\n 10 > 10"
+ ],
+ "header": {
+  "names": [
+   "Propiedades",
+   "Duros (UNE-EN 622-2:2004)\nPara su uso en ambiente húmedo\nEspesor nominal, t en mm\nnom,\n 3,5 > 3,5 a 5,5 > 5,5",
+   "Semiduros (UNE-EN 622-3:2005)\nPara su uso en ambiente seco\nEspesor nominal, t en mm\nnom,\n 10 > 10"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1C890>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1C260>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1C4A0>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1E3C0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1FBC0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1CB90>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1FE00>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1C440>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1FC50>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1C800>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1F6B0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADBA1E420>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0118.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

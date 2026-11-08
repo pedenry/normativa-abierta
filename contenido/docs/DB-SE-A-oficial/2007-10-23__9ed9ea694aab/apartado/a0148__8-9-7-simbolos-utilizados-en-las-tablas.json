@@ -1,0 +1,83 @@
+{
+ "documento": "DB-SE-A-oficial",
+ "code": "DB-SE-A",
+ "title": "DB-SE-A Acero",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2007-10-23",
+ "version_dir": "2007-10-23__9ed9ea694aab",
+ "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+ "apartado": {
+  "id_tecnico": "a0148",
+  "ruta_oficial": "8.9.7",
+  "ruta_semantica": "8.9.7 Símbolos utilizados en las tablas",
+  "titulo": "8.9.7 Símbolos utilizados en las tablas",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "8.9.7 Símbolos utilizados en las tablas",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 107,
+   "bbox": [
+    74.1,
+    73.4,
+    258.6,
+    84.6
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "9151454ea72d8435939f5b7a1505de5d4dec6ba99bdcd1ecde04009a7d9e71af",
+   "literal": "8.9.7 Símbolos utilizados en las tablas"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0137",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "8.9.7 Símbolos utilizados en las tablas",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "8 Uniones 8.1 Bases de cálculo / Sección hueca circular / 8.9.7 Símbolos utilizados en las tablas",
+   "seccion_estimada": "8 Uniones 8.1 Bases de cálculo",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "c9920580945acc6b90382e3b6fee7b30ac1ed926fc621e910a046e1c593a5d61"
+ },
+ "paginas": [
+  107
+ ],
+ "etiquetas_impresas": [
+  "107"
+ ],
+ "tipos": [
+  "figuras"
+ ],
+ "texto": "8.9.7 Símbolos utilizados en las tablas\nAi\nárea de la sección transversal de la barra i.\nAv\nárea de esfuerzo cortante de la sección del cordón.\nNi\nesfuerzo axial en la barra i.\nNi, Rd resistencia de cálculo del nudo para un esfuerzo axial en la barra i.\na\nespesor de garganta de una soldadura de ángulo.\nbi\nanchura\nexterior\nde\nla",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación y consideraciones previas",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0107.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-A.pdf",
+  "sha256": "9ed9ea694aabfbda3bfbbef40dfe9223fde05d13c35bc2ba9751e5a96a22a64f",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

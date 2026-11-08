@@ -1,0 +1,94 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0007",
+  "ruta_oficial": null,
+  "ruta_semantica": "Objeto",
+  "titulo": "Objeto",
+  "nivel": 1,
+  "parent_id": "a0005",
+  "seccion_estimada": "Objeto",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 3,
+   "bbox": [
+    70.9,
+    148.8,
+    154.5,
+    164.5
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "74d8ca21112a9b12ccb522a86e26dc8891a226d9773bac5ebc9360fd5d39ff6b",
+   "literal": "Objeto"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": "a0005",
+  "parent_motivo": "parent_original_encabezado_anterior",
+  "referencias_filtradas": [
+   "artículo 11"
+  ],
+  "referencias_db_descartadas": [
+   {
+    "literal": "DB se",
+    "motivo": "codigo_db_no_oficial_o_sin_sintaxis"
+   }
+  ],
+  "titulo_navegacion": "Objeto",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": "a0005",
+   "ruta_semantica": "Introducción / I Objeto / Objeto",
+   "seccion_estimada": "Introducción",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "dfbe1309017b7f00b6971d979e1da2927ed6fd33c01f8c6ebbcc6cb1fa99b587"
+ },
+ "paginas": [
+  3
+ ],
+ "etiquetas_impresas": [
+  "3"
+ ],
+ "tipos": [
+  "referencias",
+  "figuras"
+ ],
+ "texto": "Objeto\nEste Documento Básico (DB) tiene por objeto establecer reglas y procedimientos que permiten cumplir\nlas exigencias básicas de seguridad en caso de incendio. Las secciones de este DB se corresponden\ncon las exigencias básicas SI 1 a SI 6. La correcta aplicación de cada Sección supone el cumplimiento\nde la exigencia básica correspondiente. La correcta aplicación del conjunto del DB supone que se satis-\nface el requisito básico \"Seguridad en caso de incendio\".\nTanto el objetivo del requisito básico como las exigencias básicas se establecen en el artículo 11 de la\nParte 1 de este CTE y son los siguientes:",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [
+  "DB se",
+  "artículo 11"
+ ],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0003.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

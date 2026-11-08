@@ -1,0 +1,533 @@
+{
+ "id": "GUIA-PDF-1fc513e273a1",
+ "version": "sin-fecha",
+ "metodo": "lineas",
+ "apartados": [
+  {
+   "id_tecnico": "a0001",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "Portada y páginas previas",
+   "seccion_estimada": "Portada y páginas previas",
+   "parent_id": null,
+   "titulo": "Portada y páginas previas",
+   "nivel": 0,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0001__portada-y-paginas-previas.md",
+   "archivo_json": "apartado/a0001__portada-y-paginas-previas.json",
+   "sha256_texto": "58dcd1aaed7de98bfadeab863e3d641fe9a42f898aa1c2d55f1dda40e5eaedc8",
+   "caracteres": 128,
+   "primera_linea": "Efectividad con concentración"
+  },
+  {
+   "id_tecnico": "a0002",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "Portada y páginas previas / VENTILACIÓN DEL ESPACIO DE CONTENCIÓN: LOCALES NO HABITABLES",
+   "seccion_estimada": "Portada y páginas previas",
+   "parent_id": "a0001",
+   "titulo": "VENTILACIÓN DEL ESPACIO DE CONTENCIÓN: LOCALES NO HABITABLES",
+   "nivel": 3,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0002__ventilacion-del-espacio-de-contencion-locales-no-habitab.md",
+   "archivo_json": "apartado/a0002__ventilacion-del-espacio-de-contencion-locales-no-habitab.json",
+   "sha256_texto": "49c80b0282c7a5162c9129eb6607d0d616dab7fd563e51a4964ad7e918c4a581",
+   "caracteres": 94,
+   "primera_linea": "VENTILACIÓN DEL ESPACIO DE CONTENCIÓN: LOCALES NO HABITABLES"
+  },
+  {
+   "id_tecnico": "a0003",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "Portada y páginas previas / SOLUCIÓN",
+   "seccion_estimada": "Portada y páginas previas",
+   "parent_id": "a0001",
+   "titulo": "SOLUCIÓN",
+   "nivel": 3,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "referencias",
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [
+    "DB HS3",
+    "RITE"
+   ],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0003__solucion.md",
+   "archivo_json": "apartado/a0003__solucion.json",
+   "sha256_texto": "e8c30ffccfbdab9b627eb7bf4d53ab584456530d19777ae6ac95f4f8ed06739f",
+   "caracteres": 1461,
+   "primera_linea": "SOLUCIÓN"
+  },
+  {
+   "id_tecnico": "a0004",
+   "ruta_oficial": "3",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "3. EFECTIVIDAD",
+   "seccion_estimada": "3. EFECTIVIDAD",
+   "parent_id": null,
+   "titulo": "3. EFECTIVIDAD",
+   "nivel": 1,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0004__3-efectividad.md",
+   "archivo_json": "apartado/a0004__3-efectividad.json",
+   "sha256_texto": "7ae9d4f721b0548fa98d1d3db3c430d785a071c35c38d11ab11acd4b949cf471",
+   "caracteres": 117,
+   "primera_linea": "3. EFECTIVIDAD"
+  },
+  {
+   "id_tecnico": "a0005",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1. FINALIDAD",
+   "seccion_estimada": "1. FINALIDAD",
+   "parent_id": null,
+   "titulo": "1. FINALIDAD",
+   "nivel": 1,
+   "paginas": [
+    1
+   ],
+   "etiquetas_impresas": [
+    null
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0005__1-finalidad.md",
+   "archivo_json": "apartado/a0005__1-finalidad.json",
+   "sha256_texto": "615a483b21c876712ac90d4016e79dab882ef71d59dcedb3bbc3a1622af32769",
+   "caracteres": 1118,
+   "primera_linea": "1. FINALIDAD"
+  },
+  {
+   "id_tecnico": "a0006",
+   "ruta_oficial": "2",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "2. CUÁNDO SE UTILIZA",
+   "seccion_estimada": "2. CUÁNDO SE UTILIZA",
+   "parent_id": null,
+   "titulo": "2. CUÁNDO SE UTILIZA",
+   "nivel": 1,
+   "paginas": [
+    1,
+    2
+   ],
+   "etiquetas_impresas": [
+    null,
+    "2"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0006__2-cuando-se-utiliza.md",
+   "archivo_json": "apartado/a0006__2-cuando-se-utiliza.json",
+   "sha256_texto": "b29b0233709a648e28be1f353b43b32a74c196c0a605a131a615ecd799aa0d83",
+   "caracteres": 312,
+   "primera_linea": "2. CUÁNDO SE UTILIZA"
+  },
+  {
+   "id_tecnico": "a0007",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "2. CUÁNDO SE UTILIZA / b) Ventilación mecánica",
+   "seccion_estimada": "2. CUÁNDO SE UTILIZA",
+   "parent_id": "a0006",
+   "titulo": "b) Ventilación mecánica",
+   "nivel": 3,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0007__b-ventilacion-mecanica.md",
+   "archivo_json": "apartado/a0007__b-ventilacion-mecanica.json",
+   "sha256_texto": "a2df930631562885a5ac982edfd89279837b1096a09c9d1a389cc14a223c5210",
+   "caracteres": 2028,
+   "primera_linea": "b) Ventilación mecánica"
+  },
+  {
+   "id_tecnico": "a0008",
+   "ruta_oficial": "4",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "4. DIFICULTAD DE INSTALACIÓN",
+   "seccion_estimada": "4. DIFICULTAD DE INSTALACIÓN",
+   "parent_id": null,
+   "titulo": "4. DIFICULTAD DE INSTALACIÓN",
+   "nivel": 1,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0008__4-dificultad-de-instalacion.md",
+   "archivo_json": "apartado/a0008__4-dificultad-de-instalacion.json",
+   "sha256_texto": "41293b5ff30a6f50b5bdbdbb6cfaad84738bdbdc919f6ff1c7ceb88d75d43af0",
+   "caracteres": 219,
+   "primera_linea": "4. DIFICULTAD DE INSTALACIÓN"
+  },
+  {
+   "id_tecnico": "a0009",
+   "ruta_oficial": "5",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "5. CÓMO SE CONSIGUE",
+   "seccion_estimada": "5. CÓMO SE CONSIGUE",
+   "parent_id": null,
+   "titulo": "5. CÓMO SE CONSIGUE",
+   "nivel": 1,
+   "paginas": [
+    2
+   ],
+   "etiquetas_impresas": [
+    "2"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0009__5-como-se-consigue.md",
+   "archivo_json": "apartado/a0009__5-como-se-consigue.json",
+   "sha256_texto": "0dccbc9c56178bda36a06055910ed291bd903b3fcad3e43bd7dcb4aa24673be6",
+   "caracteres": 432,
+   "primera_linea": "5. CÓMO SE CONSIGUE"
+  },
+  {
+   "id_tecnico": "a0010",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "5. CÓMO SE CONSIGUE / a) Ventilación natural",
+   "seccion_estimada": "5. CÓMO SE CONSIGUE",
+   "parent_id": "a0009",
+   "titulo": "a) Ventilación natural",
+   "nivel": 3,
+   "paginas": [
+    2,
+    3
+   ],
+   "etiquetas_impresas": [
+    "2",
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0010__a-ventilacion-natural.md",
+   "archivo_json": "apartado/a0010__a-ventilacion-natural.json",
+   "sha256_texto": "b948870a334bbe75d2fb0a60faf0cf087f024618cbdec6cb50440878ae7d3a37",
+   "caracteres": 885,
+   "primera_linea": "a) Ventilación natural"
+  },
+  {
+   "id_tecnico": "a0011",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1   conducto de admisión 2  conducto de extracción",
+   "seccion_estimada": "1   conducto de admisión 2  conducto de extracción",
+   "parent_id": null,
+   "titulo": "1   conducto de admisión 2  conducto de extracción",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0011__1-conducto-de-admision-2-conducto-de-extraccion.md",
+   "archivo_json": "apartado/a0011__1-conducto-de-admision-2-conducto-de-extraccion.json",
+   "sha256_texto": "ce05f6a50016f5afc6d2fb8876d0757f4375635c997d53589508f59744e40c1d",
+   "caracteres": 76,
+   "primera_linea": "1   conducto de admisión 2  conducto de extracción"
+  },
+  {
+   "id_tecnico": "a0012",
+   "ruta_oficial": "3",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "3  extractor",
+   "seccion_estimada": "3  extractor",
+   "parent_id": null,
+   "titulo": "3  extractor",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0012__3-extractor.md",
+   "archivo_json": "apartado/a0012__3-extractor.json",
+   "sha256_texto": "e1b96dd32ab7950dfcc34fbc33d67fce792ae03a5fb34537bbd42ca33a3ad2d5",
+   "caracteres": 59,
+   "primera_linea": "3  extractor"
+  },
+  {
+   "id_tecnico": "a0013",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1   conducto de extracción 2  extractor",
+   "seccion_estimada": "1   conducto de extracción 2  extractor",
+   "parent_id": null,
+   "titulo": "1   conducto de extracción 2  extractor",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0013__1-conducto-de-extraccion-2-extractor.md",
+   "archivo_json": "apartado/a0013__1-conducto-de-extraccion-2-extractor.json",
+   "sha256_texto": "c53102bb203c0956237d4204af0bdad44816e7cbe6e97aad68de596007d5f071",
+   "caracteres": 540,
+   "primera_linea": "1   conducto de extracción 2  extractor"
+  },
+  {
+   "id_tecnico": "a0014",
+   "ruta_oficial": "1",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "1   extractor 2  by-pass",
+   "seccion_estimada": "1   extractor 2  by-pass",
+   "parent_id": null,
+   "titulo": "1   extractor 2  by-pass",
+   "nivel": 1,
+   "paginas": [
+    3
+   ],
+   "etiquetas_impresas": [
+    "3"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0014__1-extractor-2-by-pass.md",
+   "archivo_json": "apartado/a0014__1-extractor-2-by-pass.json",
+   "sha256_texto": "474f4785768fa1297a40b042e31500fdda6a372bc3ab621b464c7ca6e1a793d3",
+   "caracteres": 529,
+   "primera_linea": "1   extractor 2  by-pass"
+  },
+  {
+   "id_tecnico": "a0015",
+   "ruta_oficial": "6",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "6. PUNTOS CRÍTICOS Reducción del caudal de ventilación",
+   "seccion_estimada": "6. PUNTOS CRÍTICOS Reducción del caudal de ventilación",
+   "parent_id": null,
+   "titulo": "6. PUNTOS CRÍTICOS Reducción del caudal de ventilación",
+   "nivel": 1,
+   "paginas": [
+    3,
+    4
+   ],
+   "etiquetas_impresas": [
+    "3",
+    "4"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0015__6-puntos-criticos-reduccion-del-caudal-de-ventilacion.md",
+   "archivo_json": "apartado/a0015__6-puntos-criticos-reduccion-del-caudal-de-ventilacion.json",
+   "sha256_texto": "07f44c0369a30838402fe64a71d1fb49dd6cd7154f26787849fc630409f6e002",
+   "caracteres": 562,
+   "primera_linea": "6. PUNTOS CRÍTICOS Reducción del caudal de ventilación"
+  },
+  {
+   "id_tecnico": "a0016",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "6. PUNTOS CRÍTICOS Reducción del caudal de ventilación / Escasa admisión en ventilación mecánica",
+   "seccion_estimada": "6. PUNTOS CRÍTICOS Reducción del caudal de ventilación",
+   "parent_id": "a0015",
+   "titulo": "Escasa admisión en ventilación mecánica",
+   "nivel": 3,
+   "paginas": [
+    4
+   ],
+   "etiquetas_impresas": [
+    "4"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0016__escasa-admision-en-ventilacion-mecanica.md",
+   "archivo_json": "apartado/a0016__escasa-admision-en-ventilacion-mecanica.json",
+   "sha256_texto": "e11fa3b626fe4a56633dfe0570c94e3b7c9b1b1e5fe86dd3b62d82b1ac11b4c8",
+   "caracteres": 636,
+   "primera_linea": "Escasa admisión en ventilación mecánica"
+  },
+  {
+   "id_tecnico": "a0017",
+   "ruta_oficial": "7",
+   "ruta_fuente": "numeracion_literal",
+   "ruta_semantica": "7. COSTE",
+   "seccion_estimada": "7. COSTE",
+   "parent_id": null,
+   "titulo": "7. COSTE",
+   "nivel": 1,
+   "paginas": [
+    4
+   ],
+   "etiquetas_impresas": [
+    "4"
+   ],
+   "tipos": [
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0017__7-coste.md",
+   "archivo_json": "apartado/a0017__7-coste.json",
+   "sha256_texto": "0b8f14153bddeee4f30a197697136915bb3f6769860ad770a90205ce7a2923f1",
+   "caracteres": 503,
+   "primera_linea": "7. COSTE"
+  },
+  {
+   "id_tecnico": "a0018",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "7. COSTE / OBSERVACIONES Zonas climáticas frías",
+   "seccion_estimada": "7. COSTE",
+   "parent_id": "a0017",
+   "titulo": "OBSERVACIONES Zonas climáticas frías",
+   "nivel": 3,
+   "paginas": [
+    4,
+    5
+   ],
+   "etiquetas_impresas": [
+    "4",
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0018__observaciones-zonas-climaticas-frias.md",
+   "archivo_json": "apartado/a0018__observaciones-zonas-climaticas-frias.json",
+   "sha256_texto": "d9d01c73d518e2adcb0180a8a569214a1597f2b1905cab06591332dbfed024fe",
+   "caracteres": 1073,
+   "primera_linea": "OBSERVACIONES Zonas climáticas frías"
+  },
+  {
+   "id_tecnico": "a0019",
+   "ruta_oficial": null,
+   "ruta_fuente": "sin_numeracion_en_titulo",
+   "ruta_semantica": "7. COSTE / sección HS6 Protección frente a la exposición al radón.",
+   "seccion_estimada": "7. COSTE",
+   "parent_id": "a0017",
+   "titulo": "sección HS6 Protección frente a la exposición al radón.",
+   "nivel": 2,
+   "paginas": [
+    5
+   ],
+   "etiquetas_impresas": [
+    "5"
+   ],
+   "tipos": [
+    "tablas",
+    "figuras"
+   ],
+   "referencias": [],
+   "sin_texto_propio": false,
+   "archivo": "apartado/a0019__seccion-hs6-proteccion-frente-a-la-exposicion-al-radon.md",
+   "archivo_json": "apartado/a0019__seccion-hs6-proteccion-frente-a-la-exposicion-al-radon.json",
+   "sha256_texto": "eb461212d64065f6b81f01e946b572c641e10e2b47cab5c783b18c1a1f9344f8",
+   "caracteres": 3088,
+   "primera_linea": "sección HS6 Protección frente a la exposición al radón."
+  }
+ ],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "segmentacion_estado": "automatica_pendiente_cotejo"
+}

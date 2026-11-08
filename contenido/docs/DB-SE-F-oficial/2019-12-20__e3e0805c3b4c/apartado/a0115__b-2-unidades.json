@@ -1,0 +1,81 @@
+{
+ "documento": "DB-SE-F-oficial",
+ "code": "DB-SE-F",
+ "title": "DB-SE-F Fábrica",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__e3e0805c3b4c",
+ "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+ "apartado": {
+  "id_tecnico": "a0115",
+  "ruta_oficial": null,
+  "ruta_semantica": "B.2 Unidades",
+  "titulo": "B.2 Unidades",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "B.2 Unidades",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 58,
+   "bbox": [
+    70.9,
+    465.9,
+    150.3,
+    477.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "3fc8f54b0366561ea370c6adeb69b76c087c68260764c7c14b91a0a5b1bcac41",
+   "literal": "B.2 Unidades"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "B.2 Unidades",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo B. Notación y unidades B.1 Notación / B.2 Unidades",
+   "seccion_estimada": "Anejo B. Notación y unidades B.1 Notación",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "1bb16e0107d0b80a75d250dee43e7129465776150d4e18147e83cdaef0cae3e2"
+ },
+ "paginas": [
+  58,
+  59
+ ],
+ "etiquetas_impresas": [
+  "3",
+  "5"
+ ],
+ "tipos": [],
+ "texto": "B.2 Unidades\n1\nSe utiliza el Sistema Internacional de Unidades de Medida, SI.\n2\nPara los cálculos se recomienda el uso de las unidades siguientes:\n- fuerzas y cargas:\nkN, kN/m, kN/m²\n- masa:\nkg\n- longitud:\nm, mm\n- tensiones:\nN/mm²\n- momentos:\nkN ·m\n3\nA efectos prácticos se podrá considerar la siguiente correspondencia entre las unidades de fuerza de\nlos sistemas MKS y SI: 1 kilopondio [1 kp] = 10 Newton [10 N]\n\nDocumento Básico SE-F Fábrica\nSE-F-55",
+ "notas": [],
+ "ambito": {
+  "titulo": "1 Generalidades 1.1 Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-F.pdf",
+  "sha256": "e3e0805c3b4c307519c26dc34c3fdbf143d842edd013c91b0f52d2c73403d91c",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,53 @@
+{
+ "indice": 1,
+ "pagina": 161,
+ "etiqueta_impresa": "1",
+ "bbox": [
+  283.0,
+  122.0,
+  425.9,
+  207.9
+ ],
+ "filas": 1,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Estado pasivo\nEstado en reposo\nEstado activo",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "",
+  "Estado pasivo\nEstado en reposo\nEstado activo"
+ ],
+ "header": {
+  "names": [
+   "",
+   "Estado pasivo\nEstado en reposo\nEstado activo"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB96E900>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADD42A2A0>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0161.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

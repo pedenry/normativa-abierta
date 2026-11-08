@@ -1,0 +1,88 @@
+{
+ "indice": 1,
+ "pagina": 120,
+ "etiqueta_impresa": "120",
+ "bbox": [
+  96.7,
+  193.1,
+  540.8,
+  286.8
+ ],
+ "filas": 3,
+ "columnas": 2,
+ "celdas": [
+  {
+   "fila": 0,
+   "col": 0,
+   "texto": "Superficie proyectada (m2)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 0,
+   "col": 1,
+   "texto": "Diámetro nominal del colector\n(mm)",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 0,
+   "texto": "Pendiente del colector\n1 % 2 % 4 %",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 1,
+   "col": 1,
+   "texto": "",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 0,
+   "texto": "125 178 253\n229 323 458\n310 440 620\n614 862 1.228\n1.070 1.510 2.140\n1.920 2.710 3.850\n2.016 4.589 6.500",
+   "bbox": null,
+   "extras": {}
+  },
+  {
+   "fila": 2,
+   "col": 1,
+   "texto": "90\n110\n125\n160\n200\n250\n315",
+   "bbox": null,
+   "extras": {}
+  }
+ ],
+ "celdas_con_geometria": 0,
+ "encabezado_probable": [
+  "Superficie proyectada (m2)",
+  "Diámetro nominal del colector\n(mm)"
+ ],
+ "header": {
+  "names": [
+   "Superficie proyectada (m2)",
+   "Diámetro nominal del colector\n(mm)"
+  ],
+  "external": false
+ },
+ "header_rows": 1,
+ "placements": [
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90CB30>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90EF90>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB90E120>"
+  ],
+  [
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB963FE0>",
+   "<pymupdf._table_spans.SpanCell object at 0x0000022ADB962A20>"
+  ]
+ ],
+ "notas_adyacentes": [],
+ "imagen_pagina": "figura/p0120.png",
+ "conservar_pagina_visual": true,
+ "metodo_extraccion": "find_tables(use_layout=False, refine=True)",
+ "error_filas": null
+}

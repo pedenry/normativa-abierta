@@ -1,0 +1,117 @@
+{
+ "documento": "DB-SE-C-oficial",
+ "code": "DB-SE-C",
+ "title": "DB-SE-C Cimientos",
+ "capa": "oficial",
+ "scope": "Seguridad Estructural",
+ "version": "2019-12-20",
+ "version_dir": "2019-12-20__a71133f4b0dc",
+ "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+ "apartado": {
+  "id_tecnico": "a0057",
+  "ruta_oficial": "4.2.1.3",
+  "ruta_semantica": "4.2.1.3 Modelos de interacción",
+  "titulo": "4.2.1.3 Modelos de interacción",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "4.2.1.3 Modelos de interacción",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 29,
+   "bbox": [
+    70.9,
+    238.0,
+    220.2,
+    247.9
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "356b6d5150bb597f718f7257c454e228ce1520ab2285cf983bc25f0cdac1837c",
+   "literal": "4.2.1.3 Modelos de interacción"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": "n0068",
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "4.2.1.3 Modelos de interacción",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo G. Normas de referencia / Análisis y dimensionado 4.2.1 Criterios básicos / 4.2.1.3 Modelos de interacción",
+   "seccion_estimada": "Anejo G. Normas de referencia",
+   "nivel": 4,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "080521a8afc6256b12262c018108d0d10c6b124d89c094875bdb561e52d76c49"
+ },
+ "paginas": [
+  29
+ ],
+ "etiquetas_impresas": [
+  "2"
+ ],
+ "tipos": [],
+ "texto": "4.2.1.3 Modelos de interacción\n1\nPara casos sencillos y habituales, en general para los edificios de tipo C-0, C-1 y C-2 y grupo de\nterreno T1 y T2, se podrán emplear métodos basados en el modelado del terreno por medio de coe-\nficientes de balasto, sistema éste que, aunque sujeto a limitaciones, cuenta con una amplia expe-\nriencia práctica. (Véase anejo E).\n2\nPara aquellas situaciones en las que las características del terreno o la estructura resulten espe-\ncialmente complejas (en el sentido de no ajustarse a la práctica habitual), será preferible emplear\nmétodos avanzados que incorporen modelos de comportamiento del terreno más acordes con la\nrealidad.\n3\nPara situaciones en las que el terreno resulte heterogéneo en sentido horizontal, será recomenda-\nble emplear herramientas de cálculo que permitan introducir módulos de balasto variables capaces\nde reproducir dicha heterogeneidad.\n4\nEn el estado actual del conocimiento la obtención de parámetros de deformabilidad del terreno y la\nestimación de asientos están sujetas a incertidumbres considerables. Para edificios de categorías\nC-3 y C-4 se recomienda llevar a cabo análisis de sensibilidad que permitan estudiar la influencia en\nel dimensionado final de posibles desviaciones de los parámetros característicos seleccionados.",
+ "notas": [],
+ "ambito": {
+  "titulo": "Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [
+  {
+   "id_tecnico": "a0048",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0048__definiciones-y-tipologias.json"
+  },
+  {
+   "id_tecnico": "a0070",
+   "ruta_oficial": "4.3.1.1",
+   "titulo": "4.3.1.1 Definiciones",
+   "archivo_json": "a0070__4-3-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0103",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 5.1.1 Definiciones",
+   "archivo_json": "a0103__definiciones-y-tipologias-5-1-1-definiciones.json"
+  },
+  {
+   "id_tecnico": "a0148",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías 6.1.1 Pantallas",
+   "archivo_json": "a0148__definiciones-y-tipologias-6-1-1-pantallas.json"
+  },
+  {
+   "id_tecnico": "a0230",
+   "ruta_oficial": null,
+   "titulo": "Definiciones y tipologías",
+   "archivo_json": "a0230__definiciones-y-tipologias.json"
+  }
+ ],
+ "excepciones": [
+  {
+   "id_tecnico": "a0076",
+   "ruta_oficial": "4.3.3",
+   "titulo": "4.3.3 Método simplificado para la determinación de la presión vertical admisible de servicio en suelos granulares",
+   "archivo_json": "a0076__4-3-3-metodo-simplificado-para-la-determinacion-de-la-pr.json"
+  }
+ ],
+ "tablas": [],
+ "figuras": [],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf",
+  "sha256": "a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}

@@ -1,0 +1,194 @@
+{
+ "documento": null,
+ "pagina": 30,
+ "etiqueta_impresa": "18",
+ "ancho": 595.3,
+ "alto": 841.9,
+ "bloques": [
+  {
+   "i": 0,
+   "bbox": [
+    245.9,
+    37.1,
+    365.8,
+    45.2
+   ],
+   "tipo": "texto",
+   "texto": "Documento Básico SE-F Fábrica",
+   "tamano": 8.0,
+   "negrita": true
+  },
+  {
+   "i": 1,
+   "bbox": [
+    289.9,
+    798.0,
+    321.9,
+    806.1
+   ],
+   "tipo": "texto",
+   "texto": "SE-F-26",
+   "tamano": 8.0,
+   "negrita": false
+  },
+  {
+   "i": 2,
+   "bbox": [
+    70.9,
+    72.7,
+    135.0,
+    84.7
+   ],
+   "tipo": "titulo",
+   "texto": "5.5 Llaves",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 3,
+   "bbox": [
+    70.9,
+    91.2,
+    541.4,
+    127.2
+   ],
+   "tipo": "texto",
+   "texto": "1\nEn los muros capuchinos, sometidos a acciones laterales, se dispondrán llaves que sean capaces de\ntrasladar la acción horizontal de una hoja a otra y capaces de transmitirla a los extremos.\n2\nEs suficiente un número de llaves igual a:",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 4,
+   "bbox": [
+    70.9,
+    131.8,
+    544.3,
+    237.2
+   ],
+   "tipo": "texto",
+   "texto": "n = qd / Fd\n(5.34)\nsiendo:\nqd\nel valor de cálculo de la acción lateral por unidad de superficie\nFd\nla resistencia de cálculo a compresión o tracción de una llave, que se especificará en proyecto.\n3\nEn un muro capuchino, la acción que se transmite a cada hoja, se determinará distribuyendo la acción\ndel viento de forma proporcional a la resistencia a carga lateral que ofrece cada hoja.\n4\nEn un muro de revestimiento se considerará que las llaves transmiten toda la acción lateral qd al muro\nportante.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 5,
+   "bbox": [
+    70.9,
+    253.1,
+    234.9,
+    265.1
+   ],
+   "tipo": "titulo",
+   "texto": "5.6 Fábrica armada a flexión",
+   "tamano": 12.0,
+   "negrita": true,
+   "nivel": 2
+  },
+  {
+   "i": 6,
+   "bbox": [
+    70.9,
+    271.6,
+    541.4,
+    319.0
+   ],
+   "tipo": "texto",
+   "texto": "1\nEste apartado trata de los elementos de fábrica armada, pretensado o confinada, sometidos\npredominantemente a flexión, tales como dinteles.\n2\nEn el instante de fisuración de la fábrica, la armadura debe estar por debajo de su límite elástico, lo\nque determina un criterio para cuantificar la armadura mínima requerida.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 7,
+   "bbox": [
+    70.9,
+    330.4,
+    223.2,
+    340.3
+   ],
+   "tipo": "texto",
+   "texto": "5.6.1 Análisis de solicitaciones",
+   "tamano": 10.0,
+   "negrita": true
+  },
+  {
+   "i": 8,
+   "bbox": [
+    70.9,
+    347.0,
+    541.5,
+    420.5
+   ],
+   "tipo": "texto",
+   "texto": "1\nA efectos del análisis, la luz de cálculo Ld, de elementos aislados o continuos, se mide en general\nhasta el eje de cada elemento de sustentación, pero no más de hasta la cara más medio canto útil, d\n(figura 5.13). Como canto útil se tomará, como en el caso de hormigón, la distancia entre el eje de la\narmadura principal traccionada y el borde opuesto.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 9,
+   "bbox": [
+    93.6,
+    530.7,
+    527.3,
+    567.7
+   ],
+   "tipo": "texto",
+   "texto": "a)\n  b)\nFigura 5.11 Luz de cálculo de elementos en flexión",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 10,
+   "bbox": [
+    70.9,
+    581.4,
+    541.4,
+    669.4
+   ],
+   "tipo": "texto",
+   "texto": "2\nA efectos La luz libre de un elemento de fábrica armada se limitará a los valores dados en la tabla\n5.3.\n3\nPara asegurar la estabilidad lateral, la distancia libre entre apoyos no será mayor que 60 bc ni que\n250·bc2/d, siendo bc el ancho de la sección comprimida a mitad de vano, y d el canto útil de la viga.\n4\nEn los voladizos arriostrados lateralmente sólo en el apoyo, la luz libre no será mayor que 25 bc ni\nque 100·bc2/d, siendo bc el ancho de la sección en el apoyo.",
+   "tamano": 10.0,
+   "negrita": false
+  },
+  {
+   "i": 11,
+   "bbox": [
+    172.3,
+    673.5,
+    442.1,
+    682.5
+   ],
+   "tipo": "texto",
+   "texto": "Tabla 5.3 Limitaciones de la relación entre luz libre a canto útil",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 12,
+   "bbox": [
+    100.9,
+    687.4,
+    474.7,
+    708.7
+   ],
+   "tipo": "texto",
+   "texto": "Condiciones de borde\nRelación de luz libre a canto útil\nMuro (1)\nViga",
+   "tamano": 9.0,
+   "negrita": true
+  },
+  {
+   "i": 13,
+   "bbox": [
+    122.8,
+    712.8,
+    471.1,
+    758.9
+   ],
+   "tipo": "texto",
+   "texto": "Apoyado\n35\n20\nContinuo\n45\n26\nBidireccional\n45\n-\nVoladizo\n18\n7",
+   "tamano": 9.0,
+   "negrita": false
+  }
+ ],
+ "error_tablas": null
+}

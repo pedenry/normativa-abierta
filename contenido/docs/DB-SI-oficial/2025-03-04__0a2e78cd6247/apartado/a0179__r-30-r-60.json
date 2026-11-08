@@ -1,0 +1,90 @@
+{
+ "documento": "DB-SI-oficial",
+ "code": "DB-SI",
+ "title": "DB-SI Seguridad en caso de incendio",
+ "capa": "oficial",
+ "scope": "Seguridad en caso de incendio",
+ "version": "2025-03-04",
+ "version_dir": "2025-03-04__0a2e78cd6247",
+ "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+ "apartado": {
+  "id_tecnico": "a0179",
+  "ruta_oficial": null,
+  "ruta_semantica": "R-30 R-60",
+  "titulo": "R-30 R-60",
+  "nivel": 1,
+  "parent_id": null,
+  "seccion_estimada": "R-30 R-60",
+  "clasificacion_navegacion": "encabezado",
+  "es_encabezado_navegacion": true,
+  "encabezado_fuente_contrastado": {
+   "contrastado": true,
+   "pagina": 66,
+   "bbox": [
+    170.9,
+    258.8,
+    536.6,
+    283.0
+   ],
+   "metodo": "linea_bloque_literal",
+   "sha256_texto_pagina": "752117c3d626cebe4d8f6734181db6e2ff5b01732b5797d81a393fcd254bef8d",
+   "literal": "R-30 R-60"
+  },
+  "navegacion_motivo": "linea_verificada",
+  "navegacion_id": null,
+  "parent_id_original": null,
+  "parent_motivo": "sin_parent_verificable",
+  "referencias_filtradas": [],
+  "referencias_db_descartadas": [],
+  "titulo_navegacion": "R-30 R-60",
+  "ruta_fuente": "candidato_tipografico_plano",
+  "extraccion_anterior": {
+   "parent_id": null,
+   "ruta_semantica": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado / R-30 R-60",
+   "seccion_estimada": "Anejo C. Resistencia al fuego de las estructuras de hormigón armado",
+   "nivel": 3,
+   "estado": "obsoleta",
+   "nota": "extracción anterior; no usar como relación vigente"
+  },
+  "sha256_body_normativo": "80daf476e7a7296f2bf70d6db4f2dbd4be7564b89775d17f1b9c4b71ac6bd3be"
+ },
+ "paginas": [
+  66,
+  67,
+  68
+ ],
+ "etiquetas_impresas": [
+  "66",
+  "67",
+  "68"
+ ],
+ "tipos": [
+  "formulas",
+  "figuras"
+ ],
+ "texto": "R-30 R-60\nR-60\nR-90 R-120\nR-120\nFigura C.6. Isotermas para cuartos de sección de 300 x 300 mm expuestos por ambas caras\n\nDocumento Básico SI en caso de Incendio\nAnejo C. Resistencia al fuego de las estructuras de hormigón armado\n67\nR-30\nR-60\nR-90\nR-120\nFigura C.7. Isotermas de un cuarto de sección circular de 300 mm de diámetro expuesta perimetralmente\n\nDocumento Básico SI en caso de Incendio\nAnejo C. Resistencia al fuego de las estructuras de hormigón armado\n68\nR-30  -  R-240\nFigura C.8. Distribución de temperaturas en el espesor de secciones planas expuestas por una cara h ≥ 200\nmm",
+ "notas": [],
+ "ambito": {
+  "titulo": "II Ámbito de aplicación",
+  "archivo": "../doc.json#ambito"
+ },
+ "referencias": [],
+ "definiciones": [],
+ "excepciones": [],
+ "tablas": [],
+ "figuras": [
+  "../figura/p0066.png",
+  "../figura/p0067.png",
+  "../figura/p0068.png"
+ ],
+ "fuente": {
+  "pdf": "../fuente.pdf",
+  "url": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI.pdf",
+  "sha256": "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+  "nota": "PDF íntegro en ../fuente.pdf (ruta relativa a este JSON); URL oficial mutable"
+ },
+ "hijos": [],
+ "jerarquia_verificada": false,
+ "ruta_oficial_verificada": false,
+ "advertencia_jerarquia": "Segmentación automática pendiente de cotejo; ID técnico y página PDF son la referencia estable. No es jerarquía oficial verificada."
+}
