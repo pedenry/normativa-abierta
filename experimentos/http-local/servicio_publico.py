@@ -9,10 +9,11 @@ plataforma con proxy TLS. El HTTPS se aporta con un túnel/proxy externo.
 import argparse
 import hashlib
 import json
+import os
 import re
 import threading
 from http.server import ThreadingHTTPServer
-from urllib.parse import parse_qs, quote, urlparse
+from urllib.parse import parse_qs, quote, urlsplit, urlparse
 
 import http_consulta as H
 
@@ -26,13 +27,32 @@ TIMEOUT = 15
 PERMITIDOS = {
     "/": set(),
     "/robots.txt": set(),
-    "/buscar": {"q", "doc", "version", "version_antes_de", "prueba"},
-    "/leer": {"doc", "page", "prueba"},
+    "/buscar": {"q", "doc", "version", "version_antes_de", "prueba", "utm_source"},
+    "/leer": {"doc", "page", "prueba", "utm_source"},
 }
 ERR = {400: "solicitud_invalida", 404: "no_encontrado", 405: "metodo_no_permitido",
        414: "uri_demasiado_larga", 503: "servicio_ocupado"}
 _LOCK = threading.Lock()
 _N = 0
+
+
+def _base_externa():
+    raw = os.environ.get("RENDER_EXTERNAL_URL")
+    if not raw:
+        return None
+    try:
+        u = urlsplit(raw.strip())
+        puerto = u.port
+        host = (u.hostname or "").lower()
+    except ValueError:
+        return None
+    if u.scheme.lower() != "https" or u.username or u.password or u.query or u.fragment:
+        return None
+    if u.path not in ("", "/") or puerto not in (None, 443):
+        return None
+    if host != "onrender.com" and not host.endswith(".onrender.com"):
+        return None
+    return "https://" + host
 
 
 def _siguiente():
@@ -76,6 +96,9 @@ class Handler(H.Handler):
             if len(vs[0]) > MAX_Q:
                 self.send_error(400)
                 return False
+        if "utm_source" in qs and qs["utm_source"][0] != "chatgpt.com":
+            self.send_error(400)
+            return False
         if "prueba" in qs:
             p = qs["prueba"][0]
             if not re.fullmatch(r"[A-Za-z0-9]{1,32}", p):
@@ -133,12 +156,16 @@ class Handler(H.Handler):
         self.send_error(404)
 
     def _propagar(self, obj):
-        if not self._prueba:
-            return
+        base = _base_externa()
         for l in obj.get("lecturas") or []:
             h = l.get("href")
-            if isinstance(h, str) and h.startswith("/leer") and "prueba=" not in h:
-                l["href"] = h + ("&" if "?" in h else "?") + "prueba=" + quote(self._prueba)
+            if not isinstance(h, str) or not h.startswith("/leer"):
+                continue
+            if base:
+                h = base + h
+            if self._prueba and "prueba=" not in h:
+                h += ("&" if "?" in h else "?") + "prueba=" + quote(self._prueba)
+            l["href"] = h
 
     def _enlazar(self, obj):
         doc_id = obj.get("documento")
