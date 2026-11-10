@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 11284,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 11136
+    },
+    "output_tokens": 771,
+    "output_tokens_details": {
+      "reasoning_tokens": 187
+    },
+    "total_tokens": 12055
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"cumple\", \"alcance\": \"Anchura libre de paso de un itinerario accesible en uso Administrativo, incluyendo el estrechamiento puntual y sus condiciones de longitud y separación a huecos de paso o cambios de dirección.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal / itinerario accesible\", \"exigencia\": \"En uso Administrativo, los pasillos y pasos de un itinerario accesible deben tener anchura libre de paso ≥ 1,20 m; se admiten estrechamientos puntuales de anchura ≥ 1,00 m, de longitud ≤ 0,50 m y con separación ≥ 0,65 m a huecos de paso o a cambios de dirección.\", \"dato_proyecto\": \"Anchura general 1,25 m; ancho del estrechamiento 1,05 m; longitud del estrechamiento 0,40 m; separación al hueco de paso 0,70 m; trazado recto, sin cambios de dirección.\", \"comparacion\": \"La anchura general supera 1,20 m. El estrechamiento puntual supera 1,00 m, su longitud es menor que 0,50 m y la separación al hueco de paso es mayor que 0,65 m. Además, no hay cambios de dirección.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible y condición de Pasillos y pasos\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E04.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal con estrechamiento puntual\"}}, {\"elemento\": \"Uso Administrativo\", \"exigencia\": \"Las condiciones del itinerario accesible indicadas para el uso Administrativo son aplicables al edificio de este uso.\", \"dato_proyecto\": \"Uso del edificio: Administrativo.\", \"comparacion\": \"El uso del proyecto coincide con el supuesto normativo consultado.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, Uso Administrativo\", \"pagina_fisica\": 39, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E04.pdf\", \"pagina\": 1, \"elemento\": \"Uso del edificio: Administrativo\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La comprobación se limita al alcance consultado: anchura libre de paso del pasillo principal como itinerario accesible y condiciones del estrechamiento puntual.\"]}"
+        }
+      ]
+    }
+  ]
+}

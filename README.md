@@ -1,31 +1,70 @@
 # Normativa Abierta
 
-**[Abrir consulta publicada](https://pedenry.github.io/normativa-abierta/)** · [Mapa del repositorio](https://github.com/pedenry/normativa-abierta/tree/main/contenido) · [Changelog](changelog/) · [Licencias](LICENCIAS.md)
+Normativa de edificación preparada para consultar textos y experimentar con recuperación de evidencia para asistentes de IA. Conserva fuente, edición, hash y páginas. **No es un certificador automático de cumplimiento ni un catálogo completo de normativa vigente.**
 
-Objetivo futuro: normativa de edificación más allá del CTE, con cobertura real y trazable. Hoy el paquete publicable contiene **31 PDF redistribuibles**: **15 disposiciones legales** (Parte I, los 11 DB, RD 314/2006, RITE y RSCIEI) más **16 guías con permiso editorial expreso**. El inventario de trabajo tiene 88 fuentes, pero **50 PDF privados no se incluyen**; otras 7 fuentes son sólo fichas HTML. No es «toda la normativa».
+[Visor público](https://pedenry.github.io/normativa-abierta/) · [Uso local con agentes](docs/uso-local.md) · [Colaborar](CONTRIBUTING.md) · [Seguridad](SECURITY.md) · [Licencias](LICENCIAS.md)
 
-Estado publicado y verificado: **1582 páginas** y **3033 segmentos** de los 31 documentos. Navegación: `index.html` → `site/materia` → documento → apartado/página. Contenido en `contenido/docs/{ID}/{versión_SHA}/`; índices y manifiestos en `contenido/indice/` y cada documento; condiciones en `LICENCIAS.md` y `licencias/`; cambios en `changelog/`.
+## Qué contiene
 
-## Uso desde un modelo
+El corpus público tiene **31 PDF redistribuibles**, 1.582 páginas y 3.033 segmentos: 15 documentos legales y 16 guías con permiso editorial. La evidencia de reutilización está en [licencias](licencias/). Las fuentes privadas del inventario de trabajo no forman parte de la entrega.
 
-Instrucción técnica: abra directamente la URL pública, sin instalar MCP ni usar una cuenta de GitHub. **No se afirma que el fetch real en ChatGPT/Claude esté probado.** Use el índice y las páginas literales; conserve siempre la URL de origen, versión, SHA256, apartado, página física, notas, tablas y condiciones aplicables. Si un dato no aparece, declare la ausencia; no lo complete por inferencia.
+Las páginas y apartados de `contenido/` permiten localizar el texto; el PDF original sigue siendo la referencia para tablas, fórmulas y dibujos. La extracción automática no ha recibido una revisión técnica humana completa. Una edición disponible no determina por sí sola su aplicabilidad a un proyecto.
 
-Ejemplos de pregunta, sin respuestas esperadas: «¿Qué exige la exigencia básica SE 2 sobre aptitud al servicio?»; «¿Se considera el empuje pasivo en cimentaciones directas?». Una respuesta útil debe citar la fuente y no equivale a verificación íntegra de cumplimiento.
+## Cómo utilizarlo
 
-## Fuentes y derechos
+| Necesidad | Entrada | Función |
+| --- | --- | --- |
+| Leer normativa | [Visor](https://pedenry.github.io/normativa-abierta/) | Navegar por materia, documento, apartado y página. |
+| Recuperar evidencia con un agente local | [Guía](docs/uso-local.md) y [adaptador](experimentos/http-local/adaptador_contexto.py) | Buscar y entregar páginas literales al asistente. No requiere clave API para recuperar texto. |
+| Repetir la comparación con un modelo | [Piloto SUA](evaluacion/piloto_sua/README.md) | Ensayo por API frente a PDF indexado, con gasto y permisos explícitos. |
 
-Textos basados en el portal del CTE y el BOE; las guías conservan la atribución editorial de los JSON de permisos. Cada documento indica versión, SHA256 y URL de origen. `LICENSE-CODE` cubre sólo el código original, no la normativa ni documentos de terceros; no se aplica una licencia MIT global. El aviso del portal CTE y el art. 13 TRLPI no son un permiso global. Atribución BOE cuando proceda: «Basado en datos de la Agencia Estatal Boletín Oficial del Estado».
+Pegar un enlace en un chat no ejecuta el adaptador. Para el uso local, el asistente debe poder ejecutar Python y acceder a la carpeta. Su interfaz puede bastar: no hace falta desplegar una web propia. Usar un modelo remoto puede enviarle planos y textos; recuperación local no significa modelo local.
 
-## Validación y límites
+## Primera consulta
 
-Validación local previa: 31/31 con documento, páginas, citas y versión; 6/6 condiciones de fuente; 12/12 variantes por fuente. El evaluador léxico legacy queda en 27/31, con cuatro flags visibles (SA01, SI01, T02, T07), sin ocultarlos.
+Requisitos: Git y Python 3.12 o posterior. Descarga el repositorio:
 
-Baseline B sobre texto ya extraído del documento pertinente: ratio mediano **1,01059** (no es ahorro mediano demostrado); flujo rico CLI **1.979.859** total / **2.133.119** base. No es consumo real de un modelo. El preprocesado ya está hecho y evita reextraer PDF, pero **no se atribuye porcentaje de tokens** a la comparación A (PDF multimodal vs preparado), que **no está medida**; no se usó API pagada. Fuentes: https://developers.openai.com/api/docs/guides/file-inputs y https://platform.claude.com/docs/en/build-with-claude/pdf-support (admiten texto+imagen de PDF; no demuestran chats).
+```sh
+git clone https://github.com/pedenry/normativa-abierta.git
+cd normativa-abierta
+```
 
-Límites: segmentación y jerarquía automáticas no verificadas humanamente; celdas, fórmulas y semántica pueden requerir contraste con el PDF. El mecanismo de conservación ignora espacios, no orden ni semántica. El PDF original y los hashes siguen siendo la referencia.
+La [guía de uso](docs/uso-local.md) explica el entorno y el contador opcional. Esta consulta funciona sin clave API:
 
-## Publicación
+```sh
+python -B experimentos/http-local/adaptador_contexto.py --consulta "Anchura libre de paso de un pasillo en itinerario accesible de uso Administrativo" --documento DB-SUA-oficial --version 2022-06-14 --presupuesto 20000 --max 3
+```
 
-Publicado y verificado en https://pedenry.github.io/normativa-abierta/ (commit de contenido `d6424d99a5e406c002bc3aa5360ba20a306b6788`; Pages workflow SUCCESS `42523296620`; pusher real `pedenry`). La compatibilidad real en ChatGPT/Claude sigue sin probarse. Entrada relativa: `index.html`. Sin publicación de tests, respuestas esperadas, herramientas internas ni rutas privadas.
+Usa `python3` si así se llama el ejecutable en tu equipo. El resultado es JSON con estado, páginas y `texto_contexto`. Recupera normativa: no analiza por sí solo planos ni comprueba un edificio entero. No sustituye una edición ausente.
 
-La insignia de GitHub puede autodetectar «MIT» por `LICENSE-CODE`; **no es una licencia global**: sólo cubre el código original, no normativa ni documentos de terceros. Los derechos se rigen por cada fuente en `LICENCIAS.md`.
+## Qué se ha medido
+
+El [piloto SUA](changelog/2026-11-10-pedenry-evaluacion-adaptador-pdf-sua.changelog.md) comparó 8 casos sintéticos, 3 repeticiones por método y el mismo modelo:
+
+| Evaluación | Adaptador | PDF indexado |
+| --- | ---: | ---: |
+| Tokens API: entrada + salida | 252.776 | 423.093 |
+| Veredicto esperado | 24/24 | 23/24 |
+| Rúbrica completa, incluidas citas aplicables | 23/24 | 3/24 |
+
+El consumo bruto fue **40,3 % menor**. Solo 3 de las 24 parejas superan todos los criterios en ambos métodos: todas son abstenciones por una edición ausente. No demuestra ahorro con calidad equivalente en comprobaciones completas de proyectos reales. Gran parte de la diferencia de calidad procede de páginas citadas incorrectamente. La revisión fue por IA, no por un técnico humano.
+
+Los [resultados depurados](evaluacion/piloto_sua/resultados-publicos/) conservan respuestas, recuperación y contadores, junto a la [referencia](evaluacion/piloto_sua/referencia.md) y el [protocolo](evaluacion/piloto_sua/protocolo.md). Los ensayos anteriores permanecen en [changelog](changelog/). Estos resultados no se trasladan automáticamente a ChatGPT, Codex, Claude u otro modelo o interfaz.
+
+## Colaboración y estructura
+
+[CONTRIBUTING.md](CONTRIBUTING.md) explica propuestas, agentes y pull requests. [AGENTS.md](AGENTS.md) contiene instrucciones portables; no obliga a un proveedor concreto.
+
+- `contenido/`: fuentes públicas, índices, páginas y apartados.
+- `site/` e `index.html`: visor estático.
+- `experimentos/http-local/`: recuperador, adaptador y servidores experimentales.
+- `evaluacion/piloto_sua/`: casos sintéticos, pruebas y evidencia depurada.
+- `docs/`: uso y revisión de publicación.
+- `licencias/` y `LICENCIAS.md`: derechos por fuente.
+- `changelog/`: cambios y mediciones fechados.
+
+## Derechos y seguridad
+
+[LICENSE-CODE](LICENSE-CODE) cubre el código original. **No hay una licencia MIT global para los documentos.** Revisa [LICENCIAS.md](LICENCIAS.md) y cada ficha antes de redistribuir. Conserva créditos y, cuando proceda, «Basado en datos de la Agencia Estatal Boletín Oficial del Estado».
+
+No publiques planos de clientes, claves, conversaciones privadas ni resultados crudos de API. Los fallos de seguridad se comunican por el [canal privado](https://github.com/pedenry/normativa-abierta/security/advisories/new), según [SECURITY.md](SECURITY.md).

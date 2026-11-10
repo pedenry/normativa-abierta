@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 10487,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 10368
+    },
+    "output_tokens": 523,
+    "output_tokens_details": {
+      "reasoning_tokens": 117
+    },
+    "total_tokens": 11010
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_cumple\", \"alcance\": \"Anchura libre de paso de la puerta del itinerario principal, respecto a los requisitos de puertas de un itinerario accesible del DB-SUA.\", \"comprobaciones\": [{\"elemento\": \"Puerta del itinerario principal\", \"exigencia\": \"Las puertas de un itinerario accesible deben tener una anchura libre de paso ≥ 0,80 m medida en el marco y aportada por no más de una hoja; además, en el ángulo de máxima apertura, la anchura libre de paso reducida por el grosor de la hoja debe ser ≥ 0,78 m.\", \"dato_proyecto\": \"Puerta de una hoja; hueco en marco: 0,82 m; anchura libre de paso a máxima apertura: 0,76 m.\", \"comparacion\": \"La anchura libre de paso a máxima apertura indicada (0,76 m) es inferior al mínimo exigido de 0,78 m. Aunque el hueco en marco es 0,82 m, el valor relevante aportado para la comprobación de la anchura libre a máxima apertura no alcanza el mínimo normativo.\", \"estado\": \"no_cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología · Itinerario accesible · Puertas\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E06.pdf\", \"pagina\": 2, \"elemento\": \"Puerta del itinerario principal\"}}], \"datos_faltantes\": [], \"observaciones\": [\"No se ha inferido ninguna medida del dibujo: se han usado solo las cotas anotadas en el documento sintético.\", \"La comprobación se limita al requisito de anchura libre de paso consultado.\"]}"
+        }
+      ]
+    }
+  ]
+}

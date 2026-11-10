@@ -1,0 +1,122 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["estado", "alcance", "comprobaciones", "datos_faltantes", "observaciones"],
+  "properties": {
+    "estado": {
+      "type": "string",
+      "enum": ["cumple", "no_cumple", "no_comprobable"]
+    },
+    "alcance": {
+      "type": "string"
+    },
+    "comprobaciones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "elemento",
+          "exigencia",
+          "dato_proyecto",
+          "comparacion",
+          "estado",
+          "cita_norma",
+          "cita_proyecto"
+        ],
+        "properties": {
+          "elemento": {
+            "type": "string"
+          },
+          "exigencia": {
+            "type": "string"
+          },
+          "dato_proyecto": {
+            "type": "string"
+          },
+          "comparacion": {
+            "type": "string"
+          },
+          "estado": {
+            "type": "string",
+            "enum": ["cumple", "no_cumple", "no_comprobable"]
+          },
+          "cita_norma": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "documento",
+              "version",
+              "disposicion",
+              "pagina_fisica",
+              "url"
+            ],
+            "properties": {
+              "documento": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
+              },
+              "disposicion": {
+                "type": "string"
+              },
+              "pagina_fisica": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "url": {
+                "type": "string"
+              }
+            }
+          },
+          "cita_proyecto": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "archivo",
+              "pagina",
+              "elemento"
+            ],
+            "properties": {
+              "archivo": {
+                "type": "string"
+              },
+              "pagina": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "elemento": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "datos_faltantes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observaciones": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

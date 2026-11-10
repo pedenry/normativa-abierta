@@ -1,0 +1,46 @@
+{
+  "fase": "desarrollo",
+  "fecha": "2026-11-10T12:21:07.910528+00:00",
+  "modelo": "gpt-5.4-mini-2026-03-17",
+  "fuente_sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "fixture_sha256": "13b6e7a17d1d460bff4943203aff53273068f2c8aaf34588692914320fb8f84d",
+  "config": {
+    "max_resultados": 3,
+    "presupuesto_contexto": 20000,
+    "repeticiones": 1,
+    "budget_usd": 4
+  },
+  "slots": [
+    {
+      "id": "D01-r1-pdf_indexado",
+      "repeticion": 1,
+      "brazo": "pdf_indexado"
+    },
+    {
+      "id": "D01-r1-adaptador",
+      "repeticion": 1,
+      "brazo": "adaptador"
+    }
+  ],
+  "codigo_sha256": [
+    {
+      "archivo": "cliente_api.py",
+      "sha256": "3896046376eb46d1334ba126c6fda536ea53906132f799a80db735446a9906d9"
+    },
+    {
+      "archivo": "generar_fixtures.py",
+      "sha256": "32f68a2ef38666c431be62ad032af848dde456fb9ab23b5bcce2839fd6b91177"
+    },
+    {
+      "archivo": "solicitudes.py",
+      "sha256": "7ed946ebee20d3a842eac6a78e6a7c831d56bf143e6369f86e5363474bddd07d"
+    }
+  ],
+  "estado": "completado",
+  "cleanup": {
+    "[identificador omitido]": "borrado",
+    "[identificador omitido]#2": "borrado"
+  },
+  "coste_usd": 0.021253,
+  "final": "2026-11-10T12:21:38.690446+00:00"
+}

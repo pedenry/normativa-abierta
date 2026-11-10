@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 10487,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 515,
+    "output_tokens_details": {
+      "reasoning_tokens": 132
+    },
+    "total_tokens": 11002
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_cumple\", \"alcance\": \"Puerta de un itinerario accesible: anchura libre de paso exigida por DB-SUA para puertas.\", \"comprobaciones\": [{\"elemento\": \"Puerta de una hoja del itinerario principal\", \"exigencia\": \"La puerta debe tener anchura libre de paso ≥ 0,80 m medida en el marco y, en el ángulo de máxima apertura, la anchura libre de paso reducida por el grosor de la hoja debe ser ≥ 0,78 m; además debe estar aportada por no más de una hoja.\", \"dato_proyecto\": \"Hueco en marco: 0,82 m. Anchura libre de paso a máxima apertura: 0,76 m. Puerta de una hoja.\", \"comparacion\": \"Cumple la exigencia de 0,80 m en el marco (0,82 m ≥ 0,80 m), pero no cumple la exigencia en máxima apertura (0,76 m < 0,78 m).\", \"estado\": \"no_cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología · Itinerario accesible · Puertas\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E06.pdf\", \"pagina\": 2, \"elemento\": \"Puerta del itinerario principal\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La comprobación se limita al alcance consultado y a las cotas legibles del documento aportado.\", \"No se han inferido medidas del dibujo; se han usado únicamente las cotas anotadas en el plano esquemático.\"]}"
+        }
+      ]
+    }
+  ]
+}

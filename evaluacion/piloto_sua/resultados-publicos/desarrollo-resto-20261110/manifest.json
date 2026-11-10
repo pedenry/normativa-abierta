@@ -1,0 +1,87 @@
+{
+  "fase": "desarrollo",
+  "fecha": "2026-11-10T12:23:46.274733+00:00",
+  "modelo": "gpt-5.4-mini-2026-03-17",
+  "fuente_sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+  "fixture_sha256": {
+    "D02": "b764de669ec6065756ef95a5aaaf35c5a48d0443232d27e99e61fa00995c4cfe",
+    "D03": "21b2a8463b50f4562d8938267f747719cf1781fc9b476cb8b6cb2355b3fee852",
+    "D04": "59d47f33dbca3f992ba1827ea67b5042f5971a79367c6baf3b4fbf4deddd9c58"
+  },
+  "config": {
+    "max_resultados": 3,
+    "presupuesto_contexto": 20000,
+    "repeticiones": 1,
+    "budget_usd": 4,
+    "gastado_previo": 0.021253
+  },
+  "slots": [
+    {
+      "id": "D02-r1-pdf_indexado",
+      "repeticion": 1,
+      "brazo": "pdf_indexado"
+    },
+    {
+      "id": "D02-r1-adaptador",
+      "repeticion": 1,
+      "brazo": "adaptador"
+    },
+    {
+      "id": "D03-r1-adaptador",
+      "repeticion": 1,
+      "brazo": "adaptador"
+    },
+    {
+      "id": "D03-r1-pdf_indexado",
+      "repeticion": 1,
+      "brazo": "pdf_indexado"
+    },
+    {
+      "id": "D04-r1-pdf_indexado",
+      "repeticion": 1,
+      "brazo": "pdf_indexado"
+    },
+    {
+      "id": "D04-r1-adaptador",
+      "repeticion": 1,
+      "brazo": "adaptador"
+    }
+  ],
+  "archivos_sha256": [
+    {
+      "archivo": "casos.json",
+      "sha256": "ec6c273b995b11a3cca94172e6ccb4e77b938ae420b15dfb35d94f0a38c6de37"
+    },
+    {
+      "archivo": "cliente_api.py",
+      "sha256": "3896046376eb46d1334ba126c6fda536ea53906132f799a80db735446a9906d9"
+    },
+    {
+      "archivo": "esquema_respuesta.json",
+      "sha256": "b845f1cc215089ec9e411ef28cbc0179004c42b03e3e1f59146b926785be1631"
+    },
+    {
+      "archivo": "generar_fixtures.py",
+      "sha256": "32f68a2ef38666c431be62ad032af848dde456fb9ab23b5bcce2839fd6b91177"
+    },
+    {
+      "archivo": "protocolo.md",
+      "sha256": "b26f6f343cc366c1c5cdfe6cd87651726a74b0e7107f1738dd01c4df389c7ad8"
+    },
+    {
+      "archivo": "referencia.md",
+      "sha256": "dc08c3839ed4dfe2b497384ade34c97305ac4afadcfba2c45f194eee40c4c8e0"
+    },
+    {
+      "archivo": "solicitudes.py",
+      "sha256": "7ed946ebee20d3a842eac6a78e6a7c831d56bf143e6369f86e5363474bddd07d"
+    }
+  ],
+  "estado": "completado",
+  "cleanup": {
+    "[identificador omitido]": "borrado",
+    "[identificador omitido]#2": "borrado"
+  },
+  "coste_usd": 0.10263075,
+  "final": "2026-11-10T12:25:01.357107+00:00"
+}

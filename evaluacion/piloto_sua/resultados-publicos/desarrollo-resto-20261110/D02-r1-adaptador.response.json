@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 10487,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 605,
+    "output_tokens_details": {
+      "reasoning_tokens": 192
+    },
+    "total_tokens": 11092
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"cumple\", \"alcance\": \"Se evalúa exclusivamente la anchura libre de paso de la puerta consultada para su condición dentro de un itinerario accesible, con base en la edición indicada del DB-SUA y en las cotas legibles del plano adjunto.\", \"comprobaciones\": [{\"elemento\": \"Puerta del itinerario principal (una hoja)\", \"exigencia\": \"Para puertas de itinerario accesible: anchura libre de paso ≥ 0,80 m medida en el marco y aportada por no más de una hoja; en el ángulo de máxima apertura, la anchura libre de paso reducida por el grosor de la hoja debe ser ≥ 0,78 m.\", \"dato_proyecto\": \"Hueco en marco: 0,85 m. Anchura libre de paso a máxima apertura: 0,80 m. Puerta de una hoja.\", \"comparacion\": \"0,85 m ≥ 0,80 m y 0,80 m ≥ 0,78 m.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología · Itinerario accesible / Puertas\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"D02.pdf\", \"pagina\": 2, \"elemento\": \"Puerta del itinerario principal · \\\"hueco en marco: 0,85 m\\\" y \\\"anchura libre de paso a máxima apertura: 0,80 m\\\"\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La comprobación se limita a la anchura libre de paso y no evalúa otros requisitos de la puerta o del itinerario accesible.\", \"No se han inferido medidas: se han usado únicamente las cotas anotadas en el documento adjunto.\"]}"
+        }
+      ]
+    }
+  ]
+}

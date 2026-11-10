@@ -1,0 +1,962 @@
+{
+  "autor": "Codex",
+  "tipo": "revision_manual_IA",
+  "nota": "No es validación humana; gold y PDFs cotejados por Codex; E06 dudosos contrastados con OpenCode.",
+  "notas_agregadas": [
+    "páginas correctas E01-E06 = 36; PDF cita p.35 (incluidos algunos usos secundarios: p.38 en lugar de p.39); asignación fila a fila no suministrada por Codex"
+  ],
+  "filas": [
+    {
+      "run_id": "E01-r1-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20 Admin",
+        "cita_proyecto: E01.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E01-r1-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20 Admin",
+        "cita_proyecto: E01.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E01-r2-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20 Admin",
+        "cita_proyecto: E01.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E01-r2-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20 Admin",
+        "cita_proyecto: E01.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E01-r3-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20 Admin",
+        "cita_proyecto: E01.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E01-r3-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20 Admin",
+        "cita_proyecto: E01.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E02-r1-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.10<1.20 Admin sin excepción vivienda",
+        "cita_proyecto: E02.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.41; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E02-r1-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.10<1.20 Admin sin excepción vivienda",
+        "cita_proyecto: E02.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E02-r2-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.10<1.20 Admin sin excepción vivienda",
+        "cita_proyecto: E02.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E02-r2-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.10<1.20 Admin sin excepción vivienda",
+        "cita_proyecto: E02.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E02-r3-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.10<1.20 Admin sin excepción vivienda",
+        "cita_proyecto: E02.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E02-r3-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.10<1.20 Admin sin excepción vivienda",
+        "cita_proyecto: E02.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E03-r1-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: común vivienda 1.10 admite excepción",
+        "cita_proyecto: E03.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E03-r1-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: común vivienda 1.10 admite excepción",
+        "cita_proyecto: E03.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E03-r2-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: común vivienda 1.10 admite excepción",
+        "cita_proyecto: E03.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E03-r2-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: común vivienda 1.10 admite excepción",
+        "cita_proyecto: E03.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E03-r3-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: común vivienda 1.10 admite excepción",
+        "cita_proyecto: E03.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E03-r3-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: común vivienda 1.10 admite excepción",
+        "cita_proyecto: E03.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E04-r1-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20",
+        "Referencia esperada: 1.05>=1",
+        "Referencia esperada: 0.40<=0.50",
+        "Referencia esperada: 0.70>=0.65",
+        "cita_proyecto: E04.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E04-r1-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20",
+        "Referencia esperada: 1.05>=1",
+        "Referencia esperada: 0.40<=0.50",
+        "Referencia esperada: 0.70>=0.65",
+        "cita_proyecto: E04.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E04-r2-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20",
+        "Referencia esperada: 1.05>=1",
+        "Referencia esperada: 0.40<=0.50",
+        "Referencia esperada: 0.70>=0.65",
+        "cita_proyecto: E04.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E04-r2-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20",
+        "Referencia esperada: 1.05>=1",
+        "Referencia esperada: 0.40<=0.50",
+        "Referencia esperada: 0.70>=0.65",
+        "cita_proyecto: E04.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E04-r3-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20",
+        "Referencia esperada: 1.05>=1",
+        "Referencia esperada: 0.40<=0.50",
+        "Referencia esperada: 0.70>=0.65",
+        "cita_proyecto: E04.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E04-r3-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: 1.25>=1.20",
+        "Referencia esperada: 1.05>=1",
+        "Referencia esperada: 0.40<=0.50",
+        "Referencia esperada: 0.70>=0.65",
+        "cita_proyecto: E04.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E05-r1-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: mismas medidas salvo separación ilegible reconocida",
+        "cita_proyecto: E05.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E05-r1-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: mismas medidas salvo separación ilegible reconocida",
+        "cita_proyecto: E05.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E05-r2-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: mismas medidas salvo separación ilegible reconocida",
+        "cita_proyecto: E05.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E05-r2-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: mismas medidas salvo separación ilegible reconocida",
+        "cita_proyecto: E05.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E05-r3-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: mismas medidas salvo separación ilegible reconocida",
+        "cita_proyecto: E05.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E05-r3-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: mismas medidas salvo separación ilegible reconocida",
+        "cita_proyecto: E05.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E06-r1-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: marco 0.82>=0.80",
+        "Referencia esperada: efectivo 0.76<0.78",
+        "Referencia esperada: una hoja",
+        "cita_proyecto: E06.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E06-r1-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: marco 0.82>=0.80",
+        "Referencia esperada: efectivo 0.76<0.78",
+        "Referencia esperada: una hoja",
+        "cita_proyecto: E06.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)",
+        "observación: compara adicionalmente 0.76<0.80; aritmética redundante, sin fallo del marco; norma y condición decisiva 0.76<0.78 correctas"
+      ]
+    },
+    {
+      "run_id": "E06-r2-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: marco 0.82>=0.80",
+        "Referencia esperada: efectivo 0.76<0.78",
+        "Referencia esperada: una hoja",
+        "cita_proyecto: E06.pdf p2",
+        "alcance: elemento solicitado",
+        "observación: compara adicionalmente 0.76<0.80; aritmética redundante, sin fallo del marco; norma y condición decisiva 0.76<0.78 correctas",
+        "claridad: no adjudica el marco explícitamente; revisión OpenCode [identificador omitido] coincide"
+      ]
+    },
+    {
+      "run_id": "E06-r2-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: marco 0.82>=0.80",
+        "Referencia esperada: efectivo 0.76<0.78",
+        "Referencia esperada: una hoja",
+        "cita_proyecto: E06.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E06-r3-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: marco 0.82>=0.80",
+        "Referencia esperada: efectivo 0.76<0.78",
+        "Referencia esperada: una hoja",
+        "cita_proyecto: E06.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E06-r3-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: marco 0.82>=0.80",
+        "Referencia esperada: efectivo 0.76<0.78",
+        "Referencia esperada: una hoja",
+        "cita_proyecto: E06.pdf p2",
+        "alcance: elemento solicitado",
+        "cita_norma: cita p.35; página correcta p.36 (E01-E06)"
+      ]
+    },
+    {
+      "run_id": "E07-r1-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: L 3m => 8%",
+        "Referencia esperada: 9>8",
+        "Referencia esperada: 1.5<=2",
+        "cita_proyecto: E07.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E07-r1-pdf_indexado",
+      "criterios": {
+        "estado": false,
+        "condiciones": false,
+        "datos_proyecto": true,
+        "cita_norma": false,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: L 3m => 8%",
+        "Referencia esperada: 9>8",
+        "Referencia esperada: 1.5<=2",
+        "cita_proyecto: E07.pdf p2",
+        "alcance: elemento solicitado",
+        "estado: se abstiene; cita 11/35 por recuperar evidencia insuficiente",
+        "condiciones: se abstiene; cita 11/35 por recuperar evidencia insuficiente",
+        "cita_norma: se abstiene; cita 11/35 por recuperar evidencia insuficiente"
+      ]
+    },
+    {
+      "run_id": "E07-r2-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: L 3m => 8%",
+        "Referencia esperada: 9>8",
+        "Referencia esperada: 1.5<=2",
+        "cita_proyecto: E07.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E07-r2-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": false,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: L 3m => 8%",
+        "Referencia esperada: 9>8",
+        "Referencia esperada: 1.5<=2",
+        "cita_proyecto: E07.pdf p2",
+        "alcance: elemento solicitado",
+        "condiciones: citan p.14 pero aplican 6% en vez de 8%"
+      ]
+    },
+    {
+      "run_id": "E07-r3-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: L 3m => 8%",
+        "Referencia esperada: 9>8",
+        "Referencia esperada: 1.5<=2",
+        "cita_proyecto: E07.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E07-r3-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": false,
+        "datos_proyecto": true,
+        "cita_norma": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: L 3m => 8%",
+        "Referencia esperada: 9>8",
+        "Referencia esperada: 1.5<=2",
+        "cita_proyecto: E07.pdf p2",
+        "alcance: elemento solicitado",
+        "condiciones: citan p.14 pero aplican 6% en vez de 8%"
+      ]
+    },
+    {
+      "run_id": "E08-r1-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [
+        "cita_norma"
+      ],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: fuente 2010 ausente",
+        "Referencia esperada: no sustituir 2022",
+        "Referencia esperada: plano 1.25 legible",
+        "cita_proyecto: E08.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E08-r1-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [
+        "cita_norma"
+      ],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: fuente 2010 ausente",
+        "Referencia esperada: no sustituir 2022",
+        "Referencia esperada: plano 1.25 legible",
+        "cita_proyecto: E08.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E08-r2-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [
+        "cita_norma"
+      ],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: fuente 2010 ausente",
+        "Referencia esperada: no sustituir 2022",
+        "Referencia esperada: plano 1.25 legible",
+        "cita_proyecto: E08.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E08-r2-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [
+        "cita_norma"
+      ],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: fuente 2010 ausente",
+        "Referencia esperada: no sustituir 2022",
+        "Referencia esperada: plano 1.25 legible",
+        "cita_proyecto: E08.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    },
+    {
+      "run_id": "E08-r3-adaptador",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [
+        "cita_norma"
+      ],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: fuente 2010 ausente",
+        "Referencia esperada: no sustituir 2022",
+        "Referencia esperada: plano 1.25 legible",
+        "cita_proyecto: E08.pdf p2",
+        "alcance: elemento solicitado",
+        "claridad: pide confirmación redundante del ancho constante y usa una palabra no española; nota de claridad, dato y abstención correctos"
+      ]
+    },
+    {
+      "run_id": "E08-r3-pdf_indexado",
+      "criterios": {
+        "estado": true,
+        "condiciones": true,
+        "datos_proyecto": true,
+        "cita_proyecto": true,
+        "alcance": true
+      },
+      "na": [
+        "cita_norma"
+      ],
+      "errores_criticos": [],
+      "evidencia": [
+        "Referencia esperada: fuente 2010 ausente",
+        "Referencia esperada: no sustituir 2022",
+        "Referencia esperada: plano 1.25 legible",
+        "cita_proyecto: E08.pdf p2",
+        "alcance: elemento solicitado"
+      ]
+    }
+  ]
+}

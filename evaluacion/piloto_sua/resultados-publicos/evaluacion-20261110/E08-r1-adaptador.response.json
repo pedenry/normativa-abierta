@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 1181,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "reasoning_tokens": 334
+    },
+    "total_tokens": 1941
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_comprobable\", \"alcance\": \"Anchura libre de paso del pasillo principal como itinerario accesible en uso Administrativo, según la edición solicitada de 11/03/2010 del DB-SUA.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"Determinar la anchura libre de paso exigida para un itinerario accesible en uso Administrativo conforme a la edición 2010-03-11 del DB-SUA.\", \"dato_proyecto\": \"Anchura libre de paso acotada en el proyecto: 1,25 m. Uso del edificio: Administrativo.\", \"comparacion\": \"No es posible comparar con el requisito normativo solicitado porque la edición 2010-03-11 del DB-SUA no está disponible en el corpus recuperado; no se sustituye por la edición 2022.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2010-03-11\", \"disposicion\": \"No recuperable en el corpus para esta edición solicitada; versión disponible solo 2022-06-14.\", \"pagina_fisica\": null, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E08.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · anchura libre de paso: 1,25 m\"}}], \"datos_faltantes\": [\"Texto legible de la disposición aplicable en la edición 2010-03-11 del DB-SUA para itinerario accesible en uso Administrativo (anchura libre de paso).\"], \"observaciones\": [\"El proyecto sí aporta una cota legible de 1,25 m en el pasillo principal, pero la norma solicitada no está disponible en la edición exacta indicada; por tanto no puede emitirse un juicio de cumplimiento con esa edición.\", \"No se ha utilizado la edición 2022 como sustitución, conforme a la instrucción recibida.\"]}"
+        }
+      ]
+    }
+  ]
+}
