@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 11294,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 11136
+    },
+    "output_tokens": 1082,
+    "output_tokens_details": {
+      "reasoning_tokens": 170
+    },
+    "total_tokens": 12376
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_comprobable\", \"alcance\": \"Anchura libre de paso del pasillo principal como itinerario accesible en uso Administrativo, incluyendo el estrechamiento puntual y su separación respecto a huecos de paso o cambios de dirección.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal / itinerario accesible (uso Administrativo)\", \"exigencia\": \"La anchura libre de paso debe ser al menos 1,20 m; se admiten estrechamientos puntuales de anchura ≥ 1,00 m, longitud ≤ 0,50 m y con separación ≥ 0,65 m a huecos de paso o a cambios de dirección.\", \"dato_proyecto\": \"Anchura general 1,25 m; ancho del estrechamiento 1,05 m; longitud del estrechamiento 0,40 m; la cota de separación al hueco de paso está deteriorada y no es legible.\", \"comparacion\": \"Cumple las cotas legibles de anchura general, anchura del estrechamiento y longitud del estrechamiento. No puede verificarse la condición de separación mínima de 0,65 m al hueco de paso o a cambios de dirección porque la cota está ilegible.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible y Pasillos y pasos\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E05.pdf\", \"pagina\": 2, \"elemento\": \"Plano esquemático acotado del pasillo principal con estrechamiento puntual\"}}, {\"elemento\": \"Uso del edificio\", \"exigencia\": \"El uso Administrativo es un supuesto contemplado en la definición de itinerario accesible aplicable a edificios de este uso.\", \"dato_proyecto\": \"Uso del edificio: Administrativo.\", \"comparacion\": \"El uso declarado es compatible con la regla aplicada para itinerarios accesibles en uso Administrativo.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Uso Administrativo\", \"pagina_fisica\": 39, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E05.pdf\", \"pagina\": 1, \"elemento\": \"Identificación del proyecto y uso del edificio\"}}, {\"elemento\": \"Condición de paso cercano al estrechamiento\", \"exigencia\": \"Debe poder comprobarse una separación mínima de 0,65 m entre el estrechamiento puntual y un hueco de paso o un cambio de dirección.\", \"dato_proyecto\": \"La nota indica que la cota de separación al hueco de paso está deteriorada en el original: valor no legible. También se indica trazado recto, sin cambios de dirección, y que el hueco dibujado es la única abertura cercana del pasillo.\", \"comparacion\": \"No es posible verificar la separación mínima requerida con el dato disponible. La existencia de un hueco cercano no permite medir ni comprobar el valor exigido.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible, condición de estrechamientos puntuales\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E05.pdf\", \"pagina\": 2, \"elemento\": \"Nota sobre la cota de separación al hueco de paso y descripción del trazado\"}}], \"datos_faltantes\": [\"Valor legible de la cota de separación entre el estrechamiento puntual y el hueco de paso, para verificar si es ≥ 0,65 m.\"], \"observaciones\": [\"No se han inferido medidas por el dibujo; solo se han usado las cotas anotadas.\", \"Las cotas legibles del estrechamiento son compatibles con el requisito de ancho y longitud, pero falta un dato imprescindible para cerrar la comprobación completa.\"]}"
+        }
+      ]
+    }
+  ]
+}

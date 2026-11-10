@@ -30,13 +30,19 @@ TIPOS = {".json": "application/json; charset=utf-8",
          ".txt": "text/plain; charset=utf-8", ".pdf": "application/pdf",
          ".png": "image/png", ".csv": "text/csv; charset=utf-8"}
 ESTADO = {}
+MAX_CONSULTA = 2000  # longitud máxima de `q` en /buscar (caracteres)
 
 
 def docs_publicos(cont):
     filas = ESTADO["A"].cargar_indice(cont)
     docs = ESTADO["A"].cargar_docs(cont, filas)
-    # Índice público completo: A calcula IDF global antes del filtro de capas.
-    # El filtrado de candidatos por defecto (oficial+asociada) permanece intacto.
+    # Sólo corpus distribuible: doc.json con distribute is True (mismo criterio
+    # que adaptador_contexto), aplicado antes del IDF global. El filtrado de
+    # candidatos por defecto (oficial+asociada) permanece intacto.
+    permitidos = {d for d, (dj, _base) in docs.items()
+                  if (dj or {}).get("distribute") is True}
+    filas = [f for f in filas if f["documento"] in permitidos]
+    docs = {d: v for d, v in docs.items() if d in permitidos}
     return filas, docs
 
 
@@ -87,6 +93,44 @@ def plan_lecturas(busq):
 
 class Handler(BaseHTTPRequestHandler):
     server_version = "NormativaAbiertaHttpLocal/1.0"
+    # Validación de Host activa por defecto (sólo loopback con el puerto real
+    # del socket). Una subclase puede desactivarla explícitamente con
+    # validar_host = False, sin depender del Host del cliente ni del puerto:
+    # p. ej. el Handler público detrás de un proxy TLS, que presenta el Host
+    # externo.
+    validar_host = True
+
+    @staticmethod
+    def _host_y_puerto(crudo):
+        """Separa host y puerto de la cabecera Host (soporta [::1]:8080)."""
+        v = (crudo or "").strip().lower()
+        if v.startswith("["):
+            h, _, resto = v.partition("]")
+            return h.lstrip("["), (resto[1:] if resto.startswith(":") else "")
+        h, sep, p = v.rpartition(":")
+        return (h, p) if sep else (v, "")
+
+    def _host_valido(self):
+        """Host debe ser 127.0.0.1/localhost con el puerto real del socket.
+
+        Sin puerto sólo se acepta si el servidor escucha en el 80.
+        """
+        crudo = self.headers.get("Host")
+        if not crudo:
+            return False
+        host, puerto = self._host_y_puerto(crudo)
+        if host not in ("127.0.0.1", "localhost"):
+            return False
+        try:
+            real = int(self.server.server_port)
+        except Exception:
+            return False
+        if puerto == "":
+            return real == 80
+        try:
+            return int(puerto) == real
+        except ValueError:
+            return False
 
     def _json(self, obj, code=200):
         b = json.dumps(obj, ensure_ascii=False).encode("utf-8")
@@ -108,6 +152,9 @@ class Handler(BaseHTTPRequestHandler):
         self.send_error(405, "sólo GET")
 
     def do_GET(self):
+        if self.validar_host and not self._host_valido():
+            self.send_error(403, "host no permitido")
+            return
         u = urlparse(self.path)
         qs = parse_qs(u.query, keep_blank_values=True)
         if u.path == "/":
@@ -123,6 +170,9 @@ class Handler(BaseHTTPRequestHandler):
                                      "/buscar?q=consulta&doc=ID&version=YYYY-MM-DD "
                                      "(o version_antes_de=YYYY-MM-DD; doc obligatorio)"},
                            400)
+                return
+            if len(q) > MAX_CONSULTA:
+                self._json({"error": "consulta_demasiado_larga"}, 400)
                 return
             terminos = [t for t in re.split(r"[\s,;]+", q) if len(t) > 1]
             docs_ver = [v for v in (qs.get("doc") or [])]
@@ -202,7 +252,8 @@ class Handler(BaseHTTPRequestHandler):
                                 "lecturas": plan_lecturas(busq),
                                 "advertencias": busq.get("advertencias") or []})
             except Exception as e:
-                self._json({"error": "fallo_busqueda", "detalle": str(e)}, 500)
+                sys.stderr.write("fallo_busqueda: %r\n" % (e,))
+                self._json({"error": "fallo_busqueda"}, 500)
             return
         if u.path == "/leer":
             doc = (qs.get("doc") or [""])[0]
@@ -219,11 +270,12 @@ class Handler(BaseHTTPRequestHandler):
                     ESTADO["cont"], ESTADO["filas"], ESTADO["docs"],
                     SimpleNamespace(documento=doc, apartado=None, pagina=page,
                                     expandir=0), ESTADO["encs"])
-            except SystemExit as e:
-                self._json({"error": str(e)}, 404)
+            except SystemExit:
+                self._json({"error": "documento o página no disponible"}, 404)
                 return
             except Exception as e:
-                self._json({"error": "fallo_lectura", "detalle": str(e)}, 500)
+                sys.stderr.write("fallo_lectura: %r\n" % (e,))
+                self._json({"error": "fallo_lectura"}, 500)
                 return
             pg = lec.get("pagina") or {}
             docf = lec.get("documento") or {}
@@ -236,8 +288,13 @@ class Handler(BaseHTTPRequestHandler):
             return
         if u.path == "/estatico":
             rel = unquote((qs.get("path") or [""])[0])
-            if (not rel or rel.startswith("/") or ".." in Path(rel).parts or
-                    "\\" in rel or re.match(r"^[A-Za-z]:", rel)):
+            partes = Path(rel).parts
+            if (not rel or rel.startswith("/") or ".." in partes or
+                    "\\" in rel or re.match(r"^[A-Za-z]:", rel) or
+                    any(x.startswith(".") for x in partes)):
+                self.send_error(403)
+                return
+            if Path(rel).suffix.lower() not in TIPOS:
                 self.send_error(403)
                 return
             cand = ESTADO["P"] / rel

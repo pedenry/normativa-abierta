@@ -1,0 +1,36 @@
+# Entornos y datos de trabajo
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.local/
+_trabajo/
+repo-preparacion/
+proyectos/
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*
+secrets*
+token.json
+.netrc
+.opencode/
+opencode.json
+opencode.jsonc
+*.log
+# Publicar solo la exportación depurada; conservar crudos localmente
+evaluacion/piloto_sua/resultados/
+# Borradores locales anteriores a la preparación pública
+changelog/2026-11-09-pedenry-objetivo-normativa-abierta.intent.md
+changelog/2026-11-10-pedenry-exploracion-consulta-comprobacion.intent.md
+changelog/2026-11-10-pedenry-exploracion-alternativas.propuesta.md

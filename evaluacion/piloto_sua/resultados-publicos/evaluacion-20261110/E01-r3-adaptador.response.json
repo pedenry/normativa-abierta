@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 10986,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 10880
+    },
+    "output_tokens": 460,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 11446
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"cumple\", \"alcance\": \"anchura libre de paso del pasillo principal como parte de un itinerario accesible en un edificio de uso Administrativo.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"En itinerarios accesibles, los pasillos y pasos deben ունենալ una anchura libre de paso ≥ 1,20 m. La excepción de 1,10 m aplica solo en zonas comunes de edificios de uso Residencial Vivienda, no al uso Administrativo.\", \"dato_proyecto\": \"Anchura libre de paso: 1,25 m (sección constante en todo el recorrido).\", \"comparacion\": \"1,25 m ≥ 1,20 m; la anchura declarada satisface la exigencia aplicable.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible / condición de pasillos y pasos: «Anchura libre de paso ≥ 1,20 m. En zonas comunes de edificios de uso Residencial Vivienda se admite 1,10 m»\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E01.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · anchura libre de paso: 1,25 m\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La comprobación se limita a la anchura libre de paso del pasillo principal para el itinerario accesible consultado.\", \"El plano es esquemático y no a escala; se ha utilizado únicamente la cota anotada, conforme a la memoria del proyecto sintético.\"]}"
+        }
+      ]
+    }
+  ]
+}

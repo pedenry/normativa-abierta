@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 11960,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 11776
+    },
+    "output_tokens": 413,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 12373
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"cumple\", \"alcance\": \"Anchura libre de paso del pasillo de zona común de un edificio de uso Residencial Vivienda para considerar el itinerario accesible.\", \"comprobaciones\": [{\"elemento\": \"Pasillo de zona común\", \"exigencia\": \"En pasillos y pasos de un itinerario accesible: anchura libre de paso ≥ 1,20 m. En zonas comunes de edificios de uso Residencial Vivienda se admite 1,10 m.\", \"dato_proyecto\": \"Anchura libre de paso: 1,10 m. El elemento está situado en zona común de un edificio de uso Residencial Vivienda.\", \"comparacion\": \"La anchura del pasillo coincide con la admisión específica de 1,10 m para zonas comunes de edificios de uso Residencial Vivienda.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible, apartado “Pasillos y pasos”\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E03.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo de zona común · anchura libre de paso: 1,10 m\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La comprobación se limita exclusivamente a la anchura libre de paso del pasillo consultado, sin valorar otros requisitos del itinerario accesible no aportados en el documento sintético.\"]}"
+        }
+      ]
+    }
+  ]
+}

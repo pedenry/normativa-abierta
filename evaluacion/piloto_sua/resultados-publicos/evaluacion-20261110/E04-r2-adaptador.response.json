@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 11284,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 11136
+    },
+    "output_tokens": 1140,
+    "output_tokens_details": {
+      "reasoning_tokens": 296
+    },
+    "total_tokens": 12424
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"cumple\", \"alcance\": \"Se evalúa exclusivamente si el pasillo principal del proyecto sintético cumple la anchura libre de paso exigida para un itinerario accesible en uso Administrativo, incluyendo la admisión de estrechamientos puntuales y su separación respecto a huecos de paso o cambios de dirección, con base en las cotas legibles aportadas en la página 2 del proyecto y en el DB-SUA 2022-06-14.\", \"comprobaciones\": [{\"elemento\": \"Uso del edificio y ámbito de aplicación del requisito de accesibilidad\", \"exigencia\": \"El uso Administrativo está dentro del ámbito de la definición de itinerario accesible aplicable al DB-SUA; para este uso, el itinerario accesible debe cumplir las condiciones del Anejo A.\", \"dato_proyecto\": \"Uso del edificio: Administrativo.\", \"comparacion\": \"La condición de uso coincide con la definida por el DB-SUA para uso Administrativo.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A, Terminología, ‘Uso Administrativo’\", \"pagina_fisica\": 39, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E04.pdf\", \"pagina\": 1, \"elemento\": \"Uso del edificio: Administrativo\"}}, {\"elemento\": \"Anchura libre de paso del itinerario accesible\", \"exigencia\": \"Pasillos y pasos: anchura libre de paso ≥ 1,20 m.\", \"dato_proyecto\": \"Anchura general: 1,25 m.\", \"comparacion\": \"La anchura general indicada supera el mínimo exigido de 1,20 m.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A, Terminología, ‘Itinerario accesible’ → ‘Pasillos y pasos’\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E04.pdf\", \"pagina\": 2, \"elemento\": \"anchura general: 1,25 m\"}}, {\"elemento\": \"Admisión del estrechamiento puntual\", \"exigencia\": \"Se admiten estrechamientos puntuales de anchura ≥ 1,00 m, de longitud ≤ 0,50 m, y con separación ≥ 0,65 m a huecos de paso o a cambios de dirección.\", \"dato_proyecto\": \"ancho estrechamiento: 1,05 m; longitud estrechamiento: 0,40 m; separación al hueco de paso: 0,70 m.\", \"comparacion\": \"El estrechamiento tiene anchura superior a 1,00 m, longitud inferior a 0,50 m y separación al hueco de paso superior a 0,65 m; por tanto, entra dentro de la excepción admitida.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A, Terminología, ‘Itinerario accesible’ → ‘Pasillos y pasos’ → estrechamientos puntuales\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E04.pdf\", \"pagina\": 2, \"elemento\": \"ancho estrechamiento: 1,05 m; longitud estrechamiento: 0,40 m; separación al hueco de paso: 0,70 m\"}}], \"datos_faltantes\": [], \"observaciones\": [\"No se infiere ninguna medida por apariencia del plano; solo se usan las cotas anotadas.\", \"La comprobación se limita al alcance consultado y no evalúa la conformidad global del edificio ni otros requisitos del DB-SUA.\"]}"
+        }
+      ]
+    }
+  ]
+}

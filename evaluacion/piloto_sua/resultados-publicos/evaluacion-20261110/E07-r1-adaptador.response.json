@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 10684,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "reasoning_tokens": 185
+    },
+    "total_tokens": 11419
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_cumple\", \"alcance\": \"Solo se han evaluado las pendientes longitudinal y transversal de la rampa accesible del itinerario principal, según DB-SUA 2022-06-14.\", \"comprobaciones\": [{\"elemento\": \"Pendiente longitudinal de la rampa accesible\", \"exigencia\": \"En itinerarios accesibles, la pendiente longitudinal máxima será del 10% cuando la longitud sea menor que 3 m, del 8% cuando la longitud sea menor que 6 m y del 6% en el resto de los casos. Si la rampa es curva, la pendiente longitudinal máxima se medirá en el lado más desfavorable.\", \"dato_proyecto\": \"Pendiente longitudinal: 9 %; longitud en planta: 3,00 m.\", \"comparacion\": \"Con una longitud de 3,00 m, la rampa entra en el tramo de longitud menor que 6 m; el máximo permitido es 8 %. La pendiente proyectada es 9 %, por encima del máximo.\", \"estado\": \"no_cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"4.3.1.1 a)\", \"pagina_fisica\": 14, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E07.pdf\", \"pagina\": 2, \"elemento\": \"Rampa del itinerario principal · pendiente longitudinal: 9 % · longitud en planta: 3,00 m\"}}, {\"elemento\": \"Pendiente transversal de la rampa accesible\", \"exigencia\": \"La pendiente transversal de las rampas que pertenezcan a itinerarios accesibles será del 2%, como máximo.\", \"dato_proyecto\": \"Pendiente transversal: 1,5 %.\", \"comparacion\": \"La pendiente transversal proyectada es 1,5 %, igual o inferior al máximo de 2 %.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"4.3.1.2\", \"pagina_fisica\": 14, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E07.pdf\", \"pagina\": 2, \"elemento\": \"Rampa del itinerario principal · pendiente transversal: 1,5 %\"}}], \"datos_faltantes\": [], \"observaciones\": [\"No se han evaluado otros requisitos de la rampa ni del edificio, conforme al alcance solicitado.\"]}"
+        }
+      ]
+    }
+  ]
+}

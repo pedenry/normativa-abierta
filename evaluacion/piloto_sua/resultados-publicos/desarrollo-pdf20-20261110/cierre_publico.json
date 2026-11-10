@@ -1,0 +1,23 @@
+{
+  "run": "desarrollo-pdf20-20261110",
+  "conteo": {
+    "manifest": 1,
+    "consumo_filas": 4,
+    "respuestas": 4,
+    "recuperaciones": 4
+  },
+  "recursos_estados": {
+    "vector_stores": {
+      "borrado": 1
+    },
+    "files": {
+      "borrado": 1
+    }
+  },
+  "costes_observados": {
+    "coste_run_usd": 0.073516,
+    "coste_acumulado_observado_usd": 0.1974,
+    "respuestas_con_coste": 4
+  },
+  "nota": "estimacion de coste; cache subset de entrada, reasoning de salida"
+}

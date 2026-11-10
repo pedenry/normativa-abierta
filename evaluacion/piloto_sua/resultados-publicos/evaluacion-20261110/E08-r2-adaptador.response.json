@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 1181,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 1024
+    },
+    "output_tokens": 570,
+    "output_tokens_details": {
+      "reasoning_tokens": 114
+    },
+    "total_tokens": 1751
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_comprobable\", \"alcance\": \"Se consulta únicamente si el pasillo principal del proyecto adjunto cumple la anchura libre de paso exigida para un itinerario accesible en uso Administrativo según la edición de 11/03/2010 del DB-SUA.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"Anchura libre de paso exigida para un itinerario accesible en uso Administrativo en la edición solicitada del DB-SUA (11/03/2010).\", \"dato_proyecto\": \"Anchura libre de paso anotada: 1,25 m. Uso del edificio: Administrativo.\", \"comparacion\": \"No comprobable: no se dispone de la edición 11/03/2010 del DB-SUA para contrastar la exigencia aplicable; el corpus indica que solo está disponible la edición 2022-06-14 y que no se sustituye la edición solicitada.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2010-03-11\", \"disposicion\": \"No disponible en el corpus recuperado; la edición solicitada no ha podido ser consultada.\", \"pagina_fisica\": null, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E08.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · anchura libre de paso: 1,25 m; uso del edificio: Administrativo\"}}], \"datos_faltantes\": [\"Texto legible de la disposición aplicable de la edición 11/03/2010 del DB-SUA sobre anchura libre de paso para itinerario accesible en uso Administrativo.\", \"Página física exacta de esa disposición en la edición solicitada.\"], \"observaciones\": [\"El expediente aportado sí permite leer la cota del proyecto (1,25 m) en la página 2, pero no sustituye la falta de la norma en la edición pedida.\", \"No se infiere la medida del dibujo; se usa solo la cota anotada.\", \"No se emite juicio global ni sobre vigencia normativa.\"]}"
+        }
+      ]
+    }
+  ]
+}

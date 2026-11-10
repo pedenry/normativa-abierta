@@ -1,0 +1,25 @@
+{
+  "run": "evaluacion-20261110",
+  "conteo": {
+    "manifest": 1,
+    "consumo_filas": 48,
+    "respuestas": 48,
+    "recuperaciones": 8,
+    "revision_codex.json": 1,
+    "resumen_consumo.json": 1
+  },
+  "recursos_estados": {
+    "vector_stores": {
+      "borrado": 1
+    },
+    "files": {
+      "borrado": 1
+    }
+  },
+  "costes_observados": {
+    "coste_run_usd": 0.601467,
+    "coste_acumulado_observado_usd": 0.798868,
+    "respuestas_con_coste": 48
+  },
+  "nota": "estimacion de coste; cache subset de entrada, reasoning de salida"
+}

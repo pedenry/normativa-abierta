@@ -1,0 +1,23 @@
+{
+  "run": "desarrollo-resto-20261110",
+  "conteo": {
+    "manifest": 1,
+    "consumo_filas": 6,
+    "respuestas": 6,
+    "recuperaciones": 3
+  },
+  "recursos_estados": {
+    "vector_stores": {
+      "borrado": 1
+    },
+    "files": {
+      "borrado": 1
+    }
+  },
+  "costes_observados": {
+    "coste_run_usd": 0.102631,
+    "coste_acumulado_observado_usd": 0.123884,
+    "respuestas_con_coste": 6
+  },
+  "nota": "estimacion de coste; cache subset de entrada, reasoning de salida"
+}

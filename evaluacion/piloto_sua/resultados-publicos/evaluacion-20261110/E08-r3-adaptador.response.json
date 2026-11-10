@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 1181,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 1024
+    },
+    "output_tokens": 627,
+    "output_tokens_details": {
+      "reasoning_tokens": 158
+    },
+    "total_tokens": 1808
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_comprobable\", \"alcance\": \"Anchura libre de paso del pasillo principal como itinerario accesible en uso Administrativo, según la edición solicitada de 11/03/2010 del DB-SUA.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"En la edición solicitada del DB-SUA debe poder verificarse la anchura libre de paso exigida para un itinerario accesible en uso Administrativo.\", \"dato_proyecto\": \"Plano esquemático acotado: anchura libre de paso indicada de 1,25 m; uso del edificio: Administrativo; el plano indica sección constante en todo el recorrido.\", \"comparacion\": \"No puede contrastarse con la exigencia de la edición 2010-03-11 porque esa edición no está disponible en los स्रोत recuperados; no se sustituye por la edición 2022 disponible.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2010-03-11\", \"disposicion\": \"Edición solicitada no disponible en el corpus recuperado; solo consta disponibilidad de la edición 2022-06-14 del documento de referencia general, que no puede sustituir a la edición pedida.\", \"pagina_fisica\": null, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E08.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · anchura libre de paso: 1,25 m\"}}], \"datos_faltantes\": [\"Texto legible de la disposición aplicable de la edición 2010-03-11 del DB-SUA sobre anchura libre de paso en itinerarios accesibles para uso Administrativo.\", \"Confirmación documental de que la cota 1,25 m corresponde al elemento evaluado en toda su longitud bajo la edición normativa solicitada.\"], \"observaciones\": [\"No se ha utilizado la edición 2022 como sustituta de la solicitada.\", \"La evidencia del proyecto sí aporta una cota legible (1,25 m), pero sin la disposición exacta de la edición 2010-03-11 no es posible afirmar cumplimiento o incumplimiento.\"]}"
+        }
+      ]
+    }
+  ]
+}

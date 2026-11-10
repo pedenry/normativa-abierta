@@ -1,0 +1,39 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 2657,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2304
+    },
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "reasoning_tokens": 405
+    },
+    "total_tokens": 3475
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "file_search_call",
+      "status": "completed",
+      "queries": [
+        "Según la edición de 11 de marzo de 2010 del DB-SUA, ¿el pasillo principal del proyecto adjunto cumple la anchura libre de paso exigida para un itinerario accesible en uso Administrativo?",
+        "DB-SUA 2010-03-11 itinerario accesible anchura libre de paso uso Administrativo pasillo principal",
+        "DB-SUA itinerario accesible anchura libre de paso uso Administrativo 2010 página 47"
+      ]
+    },
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_comprobable\", \"alcance\": \"Se consulta únicamente si el pasillo principal del proyecto adjunto cumple la anchura libre de paso exigida para un itinerario accesible en uso Administrativo, según la edición de 11/03/2010 del DB-SUA.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"Anchura libre de paso exigida para un itinerario accesible en uso Administrativo conforme al DB-SUA 2010-03-11.\", \"dato_proyecto\": \"La memoria del proyecto indica una anchura libre de paso de 1,25 m en el pasillo principal, con sección constante en todo el recorrido.\", \"comparacion\": \"No comprobable: falta el texto normativo legible y recuperado de la edición solicitada para contrastar el valor del proyecto con la exigencia aplicable.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2010-03-11\", \"disposicion\": \"No recuperada en fuente legible para esta consulta\", \"pagina_fisica\": null, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E08.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · anchura libre de paso: 1,25 m\"}}], \"datos_faltantes\": [\"Texto normativo legible del DB-SUA 2010-03-11 aplicable al itinerario accesible en uso Administrativo, con disposición y página física verificables.\"], \"observaciones\": [\"La documentación del proyecto es un documento sintético de prueba y declara expresamente que no corresponde a una obra real ni debe medirse sobre el dibujo, solo sobre las cotas anotadas.\", \"No se ha podido recuperar del PDF normativo una cita legible y verificable para la exigencia concreta solicitada; por ello no se emite contraste de cumplimiento.\"]}"
+        }
+      ]
+    }
+  ]
+}

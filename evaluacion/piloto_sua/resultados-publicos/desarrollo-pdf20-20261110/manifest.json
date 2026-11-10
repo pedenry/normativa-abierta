@@ -1,0 +1,108 @@
+{
+  "creado_utc": "2026-11-10T12:29:11Z",
+  "modelo": "gpt-5.4-mini-2026-03-17",
+  "estado": "completado",
+  "config": {
+    "split": "desarrollo",
+    "ids": null,
+    "repeticiones": 1,
+    "max_resultados": 3,
+    "max_context_tokens": 20000,
+    "budget_usd": 4.0,
+    "spent_before_usd": 0.12388375,
+    "dry_run": false
+  },
+  "fuente": {
+    "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+    "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+    "sha256_esperado": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958"
+  },
+  "casos": [
+    {
+      "id": "D01",
+      "pdf_sha256": "13b6e7a17d1d460bff4943203aff53273068f2c8aaf34588692914320fb8f84d"
+    },
+    {
+      "id": "D02",
+      "pdf_sha256": "b764de669ec6065756ef95a5aaaf35c5a48d0443232d27e99e61fa00995c4cfe"
+    },
+    {
+      "id": "D03",
+      "pdf_sha256": "21b2a8463b50f4562d8938267f747719cf1781fc9b476cb8b6cb2355b3fee852"
+    },
+    {
+      "id": "D04",
+      "pdf_sha256": "59d47f33dbca3f992ba1827ea67b5042f5971a79367c6baf3b4fbf4deddd9c58"
+    }
+  ],
+  "pdfs": {
+    "D01": "13b6e7a17d1d460bff4943203aff53273068f2c8aaf34588692914320fb8f84d",
+    "D02": "b764de669ec6065756ef95a5aaaf35c5a48d0443232d27e99e61fa00995c4cfe",
+    "D03": "21b2a8463b50f4562d8938267f747719cf1781fc9b476cb8b6cb2355b3fee852",
+    "D04": "59d47f33dbca3f992ba1827ea67b5042f5971a79367c6baf3b4fbf4deddd9c58"
+  },
+  "slots": [
+    {
+      "id": "D01-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "D01",
+      "repeticion": 1
+    },
+    {
+      "id": "D02-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "D02",
+      "repeticion": 1
+    },
+    {
+      "id": "D03-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "D03",
+      "repeticion": 1
+    },
+    {
+      "id": "D04-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "D04",
+      "repeticion": 1
+    }
+  ],
+  "preparacion": {
+    "segundos_total": 4.354,
+    "por_caso": {
+      "D01": 2.288,
+      "D02": 0.698,
+      "D03": 0.706,
+      "D04": 0.662
+    },
+    "nota": "preparacion local sin modelo; no es entrada API observada"
+  },
+  "creados": {},
+  "nota_ejecucion": "Calibracion: planificar filtrado en memoria a pdf_indexado; 4 casos dev, max_num_results20. No se cambian archivos ni se repite candidato. Entrypoint CLI con filtro temporal, slots reales reflejados en manifest.",
+  "hashes_codigo": [
+    {
+      "archivo": "casos.json",
+      "sha256": "ec6c273b995b11a3cca94172e6ccb4e77b938ae420b15dfb35d94f0a38c6de37"
+    },
+    {
+      "archivo": "solicitudes.py",
+      "sha256": "8cd760feaef9fe2057067aa3b16547179c88a43210e0ff192fa2aac9907bd863"
+    },
+    {
+      "archivo": "esquema_respuesta.json",
+      "sha256": "b845f1cc215089ec9e411ef28cbc0179004c42b03e3e1f59146b926785be1631"
+    },
+    {
+      "archivo": "cliente_api.py",
+      "sha256": "3896046376eb46d1334ba126c6fda536ea53906132f799a80db735446a9906d9"
+    },
+    {
+      "archivo": "ejecutar.py",
+      "sha256": "19e4c7fa17d852f0166b4d1924563105a9e1d4dbeec37bb0619edb71becc7489"
+    },
+    {
+      "archivo": "adaptador_contexto.py",
+      "sha256": "9746ac84272020fce0cb4fb343049061e82eb050f32d3141bbb9df719d07b91d"
+    }
+  ]
+}

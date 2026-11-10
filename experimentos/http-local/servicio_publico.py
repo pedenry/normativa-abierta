@@ -11,6 +11,7 @@ import hashlib
 import json
 import os
 import re
+import socket
 import threading
 from http.server import ThreadingHTTPServer
 from urllib.parse import parse_qs, quote, urlsplit, urlparse
@@ -64,6 +65,11 @@ def _siguiente():
 
 class Handler(H.Handler):
     server_version = "NormativaAbiertaPublico/1.0"
+    # Tras el proxy TLS el Host presentado es el externo (no loopback): se
+    # desactiva explícitamente la validación de Host de http_consulta.Handler.
+    # La desactivación es por atributo de clase, sin depender del Host del
+    # cliente ni del puerto.
+    validar_host = False
 
     def setup(self):
         super().setup()
@@ -288,9 +294,45 @@ class Servidor(ThreadingHTTPServer):
             self.sem.release()
             self._cerrar(request)
 
-    def process_request_thread(self, request, client_address):
+    def _interrumpir(self, request):
+        """Cierre duro del socket: SHUT_RDWR + close interrumpe un recv bloqueado.
+
+        SHUT_WR solo no basta para sacar al hilo de lectura de cabeceras de su
+        bloqueo; el cierre completo (RDWR y close) sí lo interrumpe.
+        """
         try:
-            super().process_request_thread(request, client_address)
+            request.shutdown(socket.SHUT_RDWR)
+        except Exception:
+            pass
+        try:
+            request.close()
+        except Exception:
+            pass
+
+    def process_request_thread(self, request, client_address):
+        # Plazo absoluto por conexión aceptada (anti-slowloris), además del
+        # timeout de inactividad por operación de setup(): si las cabeceras
+        # llegan a goteo el socket se cierra a los TIMEOUT segundos totales.
+        # El Timer es daemon; se cancela antes de liberar el semáforo y el
+        # slot se libera una sola vez incluso con excepciones. Las conexiones
+        # rechazadas (503) no crean timer. Límite: esto no sustituye a un
+        # rate-limit ni al proxy TLS de producción.
+        timer = None
+        try:
+            try:
+                timer = threading.Timer(TIMEOUT, self._interrumpir,
+                                        args=(request,))
+                timer.daemon = True
+                timer.start()
+            except Exception:
+                self._interrumpir(request)
+                return
+            try:
+                super().process_request_thread(request, client_address)
+            finally:
+                if timer is not None:
+                    timer.cancel()
+                self._interrumpir(request)
         finally:
             self.sem.release()
 

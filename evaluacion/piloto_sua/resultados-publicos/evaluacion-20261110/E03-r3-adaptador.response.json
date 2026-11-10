@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 11960,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 11776
+    },
+    "output_tokens": 439,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 12399
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"cumple\", \"alcance\": \"Se evalúa únicamente si el pasillo de zona común del edificio de uso Residencial Vivienda cumple la anchura libre de paso exigida por el DB-SUA para un itinerario accesible.\", \"comprobaciones\": [{\"elemento\": \"Pasillo de zona común del edificio (itinerario accesible)\", \"exigencia\": \"En zonas comunes de edificios de uso Residencial Vivienda, la anchura libre de paso admitida para un itinerario accesible es de 1,10 m.\", \"dato_proyecto\": \"Anchura libre de paso: 1,10 m.\", \"comparacion\": \"La anchura proyectada coincide con la mínima admitida en zonas comunes de edificios de uso Residencial Vivienda.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A, Terminología, definición de Itinerario accesible: «Pasillos y pasos – Anchura libre de paso ≥ 1,20 m. En zonas comunes de edificios de uso Residencial Vivienda se admite 1,10 m»\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E03.pdf\", \"pagina\": 2, \"elemento\": \"«anchura libre de paso: 1,10 m» en el plano esquemático acotado del pasillo de zona común\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La consulta se limita a la anchura libre de paso del pasillo; no se verifican otras condiciones del itinerario accesible ni del edificio.\", \"La evidencia aportada permite comprobar la cota de anchura; el resto de parámetros no se analizan.\"]}"
+        }
+      ]
+    }
+  ]
+}

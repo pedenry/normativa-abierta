@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 11294,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 11136
+    },
+    "output_tokens": 1207,
+    "output_tokens_details": {
+      "reasoning_tokens": 211
+    },
+    "total_tokens": 12501
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_comprobable\", \"alcance\": \"Anchura libre de paso de un itinerario accesible en uso Administrativo, incluyendo el estrechamiento puntual y su separación respecto a huecos de paso o cambios de dirección.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal del proyecto\", \"exigencia\": \"En un itinerario accesible de uso Administrativo, los pasillos y pasos deben tener anchura libre de paso ≥ 1,20 m.\", \"dato_proyecto\": \"Anchura general acotada: 1,25 m.\", \"comparacion\": \"1,25 m ≥ 1,20 m; la anchura general cumple.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible: “Pasillos y pasos - Anchura libre de paso ≥ 1,20 m”.\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E05.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · cota “anchura general: 1,25 m”\"}}, {\"elemento\": \"Estrechamiento puntual del pasillo\", \"exigencia\": \"En un itinerario accesible de uso Administrativo se admiten estrechamientos puntuales de anchura ≥ 1,00 m y de longitud ≤ 0,50 m.\", \"dato_proyecto\": \"Anchura del estrechamiento: 1,05 m; longitud del estrechamiento: 0,40 m.\", \"comparacion\": \"1,05 m ≥ 1,00 m y 0,40 m ≤ 0,50 m; el estrechamiento cumple estas dos condiciones.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible: “Estrechamientos puntuales de anchura ≥ 1,00 m, de longitud ≤ 0,50 m, y con separación ≥ 0,65 m a huecos de paso o a cambios de dirección”.\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E05.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · cotas “ancho estrechamiento: 1,05 m” y “longitud estrechamiento: 0,40 m”\"}}, {\"elemento\": \"Separación del estrechamiento respecto al hueco de paso\", \"exigencia\": \"El estrechamiento puntual debe tener separación ≥ 0,65 m respecto a huecos de paso o a cambios de dirección.\", \"dato_proyecto\": \"La cota de separación al hueco de paso está deteriorada en el original: valor no legible.\", \"comparacion\": \"No puede verificarse si la separación es ≥ 0,65 m porque el dato está ilegible.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible: “Estrechamientos puntuales de anchura ≥ 1,00 m, de longitud ≤ 0,50 m, y con separación ≥ 0,65 m a huecos de paso o a cambios de dirección”.\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E05.pdf\", \"pagina\": 2, \"elemento\": \"Nota sobre el hueco de paso: “La cota de separación al hueco de paso está deteriorada en el original: valor no legible.”\"}}], \"datos_faltantes\": [\"Valor legible de la separación entre el estrechamiento puntual y el hueco de paso/cambio de dirección.\"], \"observaciones\": [\"No se aprecia incumplimiento probado con los datos legibles: la anchura general (1,25 m) y el estrechamiento puntual (1,05 m de ancho y 0,40 m de longitud) satisfacen los mínimos normativos citados.\", \"La condición decisiva pendiente de comprobación es la separación mínima de 0,65 m respecto al hueco de paso o al cambio de dirección; al ser ilegible, la comprobación completa no es posible.\", \"La consulta se ha evaluado solo para el pasillo principal y el alcance indicado, sin extenderse al resto del edificio.\"]}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "generado_utc": "2026-11-10T15:00:29.864464+00:00",
+  "origen": "resultados",
+  "originales_preservados": true,
+  "omitidos": [
+    "*.request.json",
+    "api_llamadas.jsonl",
+    "recursos.json (solo leido para estados)",
+    "error_http_*.json",
+    "cleanup.json",
+    "encrypted_content, file_data, vector_store_id, file_id, request_id, access_programs, billing, image, ruta, python",
+    "razonamiento y metadatos de responses fuera de la lista permitida",
+    "IDs resp_/req_/vs_/msg_/rs_/fs_/file-/ses_ -> [identificador omitido]",
+    "rutas absolutas locales -> [ruta local omitida]"
+  ],
+  "runs": {
+    "desarrollo-d01-20261110": {
+      "manifest": 1,
+      "consumo_filas": 2,
+      "respuestas": 2,
+      "recuperaciones": 1
+    },
+    "desarrollo-pdf20-20261110": {
+      "manifest": 1,
+      "consumo_filas": 4,
+      "respuestas": 4,
+      "recuperaciones": 4
+    },
+    "desarrollo-resto-20261110": {
+      "manifest": 1,
+      "consumo_filas": 6,
+      "respuestas": 6,
+      "recuperaciones": 3
+    },
+    "evaluacion-20261110": {
+      "manifest": 1,
+      "consumo_filas": 48,
+      "respuestas": 48,
+      "recuperaciones": 8,
+      "revision_codex.json": 1,
+      "resumen_consumo.json": 1
+    }
+  }
+}

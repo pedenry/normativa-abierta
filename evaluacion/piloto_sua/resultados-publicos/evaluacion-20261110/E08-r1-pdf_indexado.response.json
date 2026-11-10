@@ -1,0 +1,57 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3108,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1151,
+    "output_tokens_details": {
+      "reasoning_tokens": 722
+    },
+    "total_tokens": 4259
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "file_search_call",
+      "status": "completed",
+      "queries": [
+        "Según la edición de 11 de marzo de 2010 del DB-SUA, ¿el pasillo principal del proyecto adjunto cumple la anchura libre de paso exigida para un itinerario accesible en uso Administrativo?",
+        "DB-SUA 2010-03-11 itinerario accesible uso Administrativo anchura libre de paso pasillo principal",
+        "DB-SUA Anchura libre de paso itinerario accesible uso Administrativo 2010 página"
+      ]
+    },
+    {
+      "type": "file_search_call",
+      "status": "completed",
+      "queries": [
+        "E08 pasillo principal anchura libre de paso 1,25 m uso Administrativo",
+        "Proyecto ficticio PF-2026-E08 pasillo principal anchura libre de paso 1,25 m",
+        "anchura libre de paso 1,25 m longitud 8,00 m pasillo principal administrativo"
+      ]
+    },
+    {
+      "type": "file_search_call",
+      "status": "completed",
+      "queries": [
+        "DB-SUA anchura libre de paso itinerario accesible 2010 1,20 m uso administrativo",
+        "DB-SUA itinerario accesible anchura libre de paso uso administrativo 1,20",
+        "DB-SUA 2010 anchura libre de paso itinerario accesible"
+      ]
+    },
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_comprobable\", \"alcance\": \"Verificar si el pasillo principal del proyecto PF-2026-E08 cumple la anchura libre de paso exigida para un itinerario accesible en uso Administrativo según la edición 2010-03-11 del DB-SUA.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"Anchura libre de paso exigida para un itinerario accesible en uso Administrativo según DB-SUA 2010-03-11.\", \"dato_proyecto\": \"La memoria del proyecto indica una anchura libre de paso de 1,25 m para el pasillo principal y señala que la sección es constante en todo el recorrido.\", \"comparacion\": \"Con la información del proyecto se dispone de una cota declarada, pero no se ha podido recuperar una cita legible de la disposición normativa aplicable para contrastar formalmente la exigencia.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA\", \"version\": \"2010-03-11\", \"disposicion\": \"\", \"pagina_fisica\": null, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E08.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · uso del edificio: Administrativo · anchura libre de paso: 1,25 m\"}}], \"datos_faltantes\": [\"Cita legible de la disposición concreta del DB-SUA 2010-03-11 que fija la anchura libre de paso exigida para itinerario accesible en uso Administrativo.\", \"Página física del DB-SUA donde figure esa disposición recuperada y legible.\"], \"observaciones\": [\"El proyecto adjunto declara 1,25 m de anchura libre de paso en el pasillo principal, pero no se dispone aquí de una cita normativa legible para efectuar la comprobación con soporte documental suficiente.\", \"No se infiere la medida del dibujo; se toma únicamente la cota anotada en el plano esquemático.\"]}"
+        }
+      ]
+    }
+  ]
+}

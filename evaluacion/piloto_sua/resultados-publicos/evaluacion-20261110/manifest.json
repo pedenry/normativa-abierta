@@ -1,0 +1,395 @@
+{
+  "creado_utc": "2026-11-10T12:32:27Z",
+  "modelo": "gpt-5.4-mini-2026-03-17",
+  "estado": "completado",
+  "config": {
+    "split": "evaluacion",
+    "ids": null,
+    "repeticiones": 3,
+    "max_resultados": 3,
+    "max_context_tokens": 20000,
+    "budget_usd": 4.0,
+    "spent_before_usd": 0.197401,
+    "dry_run": false
+  },
+  "fuente": {
+    "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+    "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+    "sha256_esperado": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958"
+  },
+  "casos": [
+    {
+      "id": "E01",
+      "pdf_sha256": "e3fc2ba4e0df6e28e21fa4443bac422cbebf9cd46f439d51b2b0a14b429ff230"
+    },
+    {
+      "id": "E02",
+      "pdf_sha256": "54142f671d79012c8408300a114f1f0dda39c90172a38c6dee416be9821213e9"
+    },
+    {
+      "id": "E03",
+      "pdf_sha256": "1d9ae3227fce4821842c44736c6f5004a2139018e5b8e7e59746a885fa003675"
+    },
+    {
+      "id": "E04",
+      "pdf_sha256": "0fe881fb1323d386943f088676954cdd7f1b4c9973f40e58cad5a0b8284882fb"
+    },
+    {
+      "id": "E05",
+      "pdf_sha256": "73940600878b77307ba9f29b94a0129b6cfdf98707118390ce117cf77c4506a8"
+    },
+    {
+      "id": "E06",
+      "pdf_sha256": "e8ead705c2d9001c18ff5c579625a257f146814b37506f9e1adc3d6d9edac2c6"
+    },
+    {
+      "id": "E07",
+      "pdf_sha256": "faa44cc50ee415a002e53fe0e932921335a5df19b2b04a8a22f625cc1c8c99a6"
+    },
+    {
+      "id": "E08",
+      "pdf_sha256": "555bcbb4729028bd0ecdb530888f68eabadb3b1ad30cb0d69bd8ddb6f1ee6371"
+    }
+  ],
+  "pdfs": {
+    "E01": "e3fc2ba4e0df6e28e21fa4443bac422cbebf9cd46f439d51b2b0a14b429ff230",
+    "E02": "54142f671d79012c8408300a114f1f0dda39c90172a38c6dee416be9821213e9",
+    "E03": "1d9ae3227fce4821842c44736c6f5004a2139018e5b8e7e59746a885fa003675",
+    "E04": "0fe881fb1323d386943f088676954cdd7f1b4c9973f40e58cad5a0b8284882fb",
+    "E05": "73940600878b77307ba9f29b94a0129b6cfdf98707118390ce117cf77c4506a8",
+    "E06": "e8ead705c2d9001c18ff5c579625a257f146814b37506f9e1adc3d6d9edac2c6",
+    "E07": "faa44cc50ee415a002e53fe0e932921335a5df19b2b04a8a22f625cc1c8c99a6",
+    "E08": "555bcbb4729028bd0ecdb530888f68eabadb3b1ad30cb0d69bd8ddb6f1ee6371"
+  },
+  "slots": [
+    {
+      "id": "E01-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E01",
+      "repeticion": 1
+    },
+    {
+      "id": "E01-r1-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E01",
+      "repeticion": 1
+    },
+    {
+      "id": "E01-r2-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E01",
+      "repeticion": 2
+    },
+    {
+      "id": "E01-r2-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E01",
+      "repeticion": 2
+    },
+    {
+      "id": "E01-r3-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E01",
+      "repeticion": 3
+    },
+    {
+      "id": "E01-r3-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E01",
+      "repeticion": 3
+    },
+    {
+      "id": "E02-r1-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E02",
+      "repeticion": 1
+    },
+    {
+      "id": "E02-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E02",
+      "repeticion": 1
+    },
+    {
+      "id": "E02-r2-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E02",
+      "repeticion": 2
+    },
+    {
+      "id": "E02-r2-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E02",
+      "repeticion": 2
+    },
+    {
+      "id": "E02-r3-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E02",
+      "repeticion": 3
+    },
+    {
+      "id": "E02-r3-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E02",
+      "repeticion": 3
+    },
+    {
+      "id": "E03-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E03",
+      "repeticion": 1
+    },
+    {
+      "id": "E03-r1-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E03",
+      "repeticion": 1
+    },
+    {
+      "id": "E03-r2-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E03",
+      "repeticion": 2
+    },
+    {
+      "id": "E03-r2-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E03",
+      "repeticion": 2
+    },
+    {
+      "id": "E03-r3-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E03",
+      "repeticion": 3
+    },
+    {
+      "id": "E03-r3-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E03",
+      "repeticion": 3
+    },
+    {
+      "id": "E04-r1-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E04",
+      "repeticion": 1
+    },
+    {
+      "id": "E04-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E04",
+      "repeticion": 1
+    },
+    {
+      "id": "E04-r2-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E04",
+      "repeticion": 2
+    },
+    {
+      "id": "E04-r2-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E04",
+      "repeticion": 2
+    },
+    {
+      "id": "E04-r3-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E04",
+      "repeticion": 3
+    },
+    {
+      "id": "E04-r3-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E04",
+      "repeticion": 3
+    },
+    {
+      "id": "E05-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E05",
+      "repeticion": 1
+    },
+    {
+      "id": "E05-r1-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E05",
+      "repeticion": 1
+    },
+    {
+      "id": "E05-r2-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E05",
+      "repeticion": 2
+    },
+    {
+      "id": "E05-r2-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E05",
+      "repeticion": 2
+    },
+    {
+      "id": "E05-r3-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E05",
+      "repeticion": 3
+    },
+    {
+      "id": "E05-r3-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E05",
+      "repeticion": 3
+    },
+    {
+      "id": "E06-r1-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E06",
+      "repeticion": 1
+    },
+    {
+      "id": "E06-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E06",
+      "repeticion": 1
+    },
+    {
+      "id": "E06-r2-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E06",
+      "repeticion": 2
+    },
+    {
+      "id": "E06-r2-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E06",
+      "repeticion": 2
+    },
+    {
+      "id": "E06-r3-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E06",
+      "repeticion": 3
+    },
+    {
+      "id": "E06-r3-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E06",
+      "repeticion": 3
+    },
+    {
+      "id": "E07-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E07",
+      "repeticion": 1
+    },
+    {
+      "id": "E07-r1-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E07",
+      "repeticion": 1
+    },
+    {
+      "id": "E07-r2-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E07",
+      "repeticion": 2
+    },
+    {
+      "id": "E07-r2-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E07",
+      "repeticion": 2
+    },
+    {
+      "id": "E07-r3-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E07",
+      "repeticion": 3
+    },
+    {
+      "id": "E07-r3-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E07",
+      "repeticion": 3
+    },
+    {
+      "id": "E08-r1-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E08",
+      "repeticion": 1
+    },
+    {
+      "id": "E08-r1-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E08",
+      "repeticion": 1
+    },
+    {
+      "id": "E08-r2-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E08",
+      "repeticion": 2
+    },
+    {
+      "id": "E08-r2-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E08",
+      "repeticion": 2
+    },
+    {
+      "id": "E08-r3-adaptador",
+      "brazo": "adaptador",
+      "caso_id": "E08",
+      "repeticion": 3
+    },
+    {
+      "id": "E08-r3-pdf_indexado",
+      "brazo": "pdf_indexado",
+      "caso_id": "E08",
+      "repeticion": 3
+    }
+  ],
+  "preparacion": {
+    "segundos_total": 7.89,
+    "por_caso": {
+      "E01": 2.324,
+      "E02": 1.078,
+      "E03": 1.066,
+      "E04": 0.971,
+      "E05": 0.82,
+      "E06": 0.804,
+      "E07": 0.826,
+      "E08": 0.001
+    },
+    "nota": "preparacion local sin modelo; no es entrada API observada"
+  },
+  "creados": {},
+  "hashes_codigo": [
+    {
+      "archivo": "casos.json",
+      "sha256": "ec6c273b995b11a3cca94172e6ccb4e77b938ae420b15dfb35d94f0a38c6de37"
+    },
+    {
+      "archivo": "solicitudes.py",
+      "sha256": "8cd760feaef9fe2057067aa3b16547179c88a43210e0ff192fa2aac9907bd863"
+    },
+    {
+      "archivo": "esquema_respuesta.json",
+      "sha256": "b845f1cc215089ec9e411ef28cbc0179004c42b03e3e1f59146b926785be1631"
+    },
+    {
+      "archivo": "cliente_api.py",
+      "sha256": "3896046376eb46d1334ba126c6fda536ea53906132f799a80db735446a9906d9"
+    },
+    {
+      "archivo": "ejecutar.py",
+      "sha256": "19e4c7fa17d852f0166b4d1924563105a9e1d4dbeec37bb0619edb71becc7489"
+    },
+    {
+      "archivo": "adaptador_contexto.py",
+      "sha256": "9746ac84272020fce0cb4fb343049061e82eb050f32d3141bbb9df719d07b91d"
+    }
+  ]
+}

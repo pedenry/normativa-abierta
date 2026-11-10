@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 11294,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "reasoning_tokens": 189
+    },
+    "total_tokens": 12192
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_comprobable\", \"alcance\": \"Anchura libre de paso de un pasillo principal en un itinerario accesible de uso Administrativo, incluyendo el estrechamiento puntual y sus condiciones asociadas de longitud y separación a huecos de paso o cambios de dirección.\", \"comprobaciones\": [{\"elemento\": \"Itinerario accesible en pasillos y pasos (uso Administrativo)\", \"exigencia\": \"Anchura libre de paso ≥ 1,20 m. Se admiten estrechamientos puntuales de anchura ≥ 1,00 m, de longitud ≤ 0,50 m, y con separación ≥ 0,65 m a huecos de paso o a cambios de dirección.\", \"dato_proyecto\": \"Anchura general 1,25 m; estrechamiento puntual 1,05 m; longitud del estrechamiento 0,40 m; separación a hueco de paso: no legible.\", \"comparacion\": \"La anchura general cumple (1,25 ≥ 1,20) y el estrechamiento cumple en anchura y longitud (1,05 ≥ 1,00; 0,40 ≤ 0,50). No puede comprobarse la condición de separación mínima de 0,65 m al hueco de paso, porque la cota está deteriorada e ilegible.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible / Pasillos y pasos\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E05.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal con estrechamiento puntual\"}}, {\"elemento\": \"Condición de separación respecto a huecos de paso o cambios de dirección\", \"exigencia\": \"Separación ≥ 0,65 m a huecos de paso o a cambios de dirección.\", \"dato_proyecto\": \"La nota del plano indica que la cota de separación al hueco de paso está deteriorada en el original y no es legible.\", \"comparacion\": \"No es posible contrastar la medida exigida con el dato del proyecto.\", \"estado\": \"no_comprobable\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible / Pasillos y pasos\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E05.pdf\", \"pagina\": 2, \"elemento\": \"Nota sobre la cota de separación al hueco de paso\"}}], \"datos_faltantes\": [\"Cota legible de separación entre el estrechamiento puntual y el hueco de paso, para verificar el mínimo de 0,65 m.\"], \"observaciones\": [\"El uso del edificio es Administrativo, por lo que aplica la condición de itinerario accesible del Anejo A.\", \"No se han inferido medidas a partir del dibujo; solo se han usado las cotas anotadas.\", \"La falta de legibilidad de una condición exigible impide emitir cumplimiento o incumplimiento probado sobre ese extremo.\"]}"
+        }
+      ]
+    }
+  ]
+}

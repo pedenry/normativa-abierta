@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 10986,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 10880
+    },
+    "output_tokens": 478,
+    "output_tokens_details": {
+      "reasoning_tokens": 102
+    },
+    "total_tokens": 11464
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_cumple\", \"alcance\": \"Anchura libre de paso del pasillo principal, como elemento de un itinerario accesible en un edificio de uso Administrativo.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"En un itinerario accesible, los pasillos y pasos deben tener una anchura libre de paso ≥ 1,20 m; la reducción a 1,10 m solo se admite en zonas comunes de edificios de uso Residencial Vivienda.\", \"dato_proyecto\": \"Anchura libre de paso: 1,10 m.\", \"comparacion\": \"La anchura anotada (1,10 m) es inferior al mínimo exigido (1,20 m) para uso Administrativo; la excepción de 1,10 m no aplica a este uso.\", \"estado\": \"no_cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología, definición de Itinerario accesible / condición de pasillos y pasos; página 36\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E02.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · anchura libre de paso: 1,10 m\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La comprobación se limita a la anchura libre de paso indicada en el plano acotado. No se han evaluado otras condiciones del itinerario accesible no incluidas en la consulta.\", \"Las cotas del proyecto se toman solo de la anotación legible del plano; no se infieren medidas del dibujo sin escala.\"]}"
+        }
+      ]
+    }
+  ]
+}

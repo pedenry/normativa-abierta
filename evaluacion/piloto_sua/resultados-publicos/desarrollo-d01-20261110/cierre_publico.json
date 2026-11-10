@@ -1,0 +1,23 @@
+{
+  "run": "desarrollo-d01-20261110",
+  "conteo": {
+    "manifest": 1,
+    "consumo_filas": 2,
+    "respuestas": 2,
+    "recuperaciones": 1
+  },
+  "recursos_estados": {
+    "vector_stores": {
+      "borrado": 1
+    },
+    "files": {
+      "borrado": 1
+    }
+  },
+  "costes_observados": {
+    "coste_run_usd": 0.021253,
+    "coste_acumulado_observado_usd": 0.021253,
+    "respuestas_con_coste": 2
+  },
+  "nota": "estimacion de coste; cache subset de entrada, reasoning de salida"
+}

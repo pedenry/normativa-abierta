@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 10986,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 10880
+    },
+    "output_tokens": 511,
+    "output_tokens_details": {
+      "reasoning_tokens": 111
+    },
+    "total_tokens": 11497
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"cumple\", \"alcance\": \"Anchura libre de paso del pasillo principal respecto a la exigencia del DB-SUA para un itinerario accesible en edificio de uso Administrativo.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"En un itinerario accesible, los pasillos y pasos deben tener anchura libre de paso ≥ 1,20 m; no se admiten escalones y la pendiente en sentido de la marcha debe ser ≤ 4% o cumplir condiciones de rampa accesible.\", \"dato_proyecto\": \"Anchura libre de paso indicada: 1,25 m. Sección constante en todo el recorrido.\", \"comparacion\": \"1,25 m ≥ 1,20 m, por lo que la anchura libre de paso indicada cumple la exigencia aplicable para pasillos de itinerario accesible.\", \"estado\": \"cumple\", \"cita_norma\": {\"documento\": \"DB-SUA (CTE)\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A. Terminología. Definición de Itinerario accesible: “Pasillos y pasos – Anchura libre de paso ≥ 1,20 m”.\", \"pagina_fisica\": 36, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E01.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · anchura libre de paso: 1,25 m\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La comprobación se limita a la anchura libre de paso del pasillo principal solicitada en la consulta. No se verifica aquí el resto de condiciones del itinerario accesible ni la conformidad global del edificio.\", \"La identificación de uso Administrativo del proyecto se corresponde con el anejo A del DB-SUA, donde se define este uso.\"]}"
+        }
+      ]
+    }
+  ]
+}

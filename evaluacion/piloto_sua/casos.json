@@ -1,0 +1,268 @@
+{
+  "descripcion": "Casos sintéticos del piloto SUA. Entradas públicas sin referencia: el estado esperado, los umbrales y los criterios están solo en referencia.json (se preparará después). datos_plano es dato del generador de fixtures y no debe entregarse al modelo ni al recuperador.",
+  "generador": "generar_fixtures.py (reportlab, invariant=1). Codex lo ejecutará tras el hook de PDF; no generar archivos antes.",
+  "fuente": {
+    "documento": "DB-SUA-oficial",
+    "version": "2022-06-14",
+    "sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+    "enlace": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf"
+  },
+  "convenciones": {
+    "paginas": "p1 memoria (uso, alcance, edición hipotética fijada; proyecto ficticio), p2 plano esquemático acotado",
+    "cotas": "solo en p2; la memoria no repite medidas",
+    "unidades": "cotas en m; pendientes en %",
+    "escala": "plano sin escala; solo valen las cotas anotadas",
+    "limite": "documento sintético; sin certificación de edificio ni afirmación de vigencia"
+  },
+  "casos": [
+    {
+      "id": "D01",
+      "split": "desarrollo",
+      "archivo_pdf": "fixtures/D01.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "¿El pasillo principal del proyecto adjunto cumple la anchura libre de paso exigida por el DB-SUA para un itinerario accesible en un edificio de uso Administrativo?",
+      "titulo": "Proyecto ficticio PF-2026-D01 · edificio administrativo (documento sintético)",
+      "tipo": "pasillo_recto",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Pasillo principal",
+        "vista": "planta",
+        "anchura_libre_m": 1.30,
+        "longitud_m": 8.00,
+        "notas_plano": ["Sección constante en todo el recorrido."],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "D02",
+      "split": "desarrollo",
+      "archivo_pdf": "fixtures/D02.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "¿La puerta del proyecto adjunto cumple los requisitos de anchura libre de paso del DB-SUA para puertas de un itinerario accesible?",
+      "titulo": "Proyecto ficticio PF-2026-D02 · edificio administrativo (documento sintético)",
+      "tipo": "puerta_una_hoja",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Puerta del itinerario principal",
+        "vista": "planta",
+        "hojas": 1,
+        "ancho_marco_m": 0.85,
+        "ancho_libre_efectivo_m": 0.80,
+        "maxima_apertura": true,
+        "notas_plano": ["Puerta de una hoja."],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "D03",
+      "split": "desarrollo",
+      "archivo_pdf": "fixtures/D03.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "¿Las pendientes de la rampa accesible del proyecto adjunto cumplen lo exigido por el DB-SUA para rampas de itinerario accesible?",
+      "titulo": "Proyecto ficticio PF-2026-D03 · edificio administrativo (documento sintético)",
+      "tipo": "rampa_recta",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Rampa del itinerario principal",
+        "vistas": ["alzado", "sección transversal"],
+        "forma": "recta",
+        "longitud_m": 2.50,
+        "pendiente_longitudinal_pct": 9.0,
+        "pendiente_transversal_pct": 1.0,
+        "notas_plano": [],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "D04",
+      "split": "desarrollo",
+      "archivo_pdf": "fixtures/D04.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "¿Las pendientes de la rampa accesible del proyecto adjunto cumplen lo exigido por el DB-SUA para rampas de itinerario accesible?",
+      "titulo": "Proyecto ficticio PF-2026-D04 · edificio administrativo (documento sintético)",
+      "tipo": "rampa_recta",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Rampa del itinerario principal",
+        "vistas": ["alzado", "sección transversal"],
+        "forma": "recta",
+        "longitud_m": 4.00,
+        "pendiente_longitudinal_pct": 7.0,
+        "pendiente_transversal_pct": null,
+        "notas_plano": ["La sección transversal no indica pendiente en el original."],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "E01",
+      "split": "evaluacion",
+      "archivo_pdf": "fixtures/E01.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "¿El pasillo principal del proyecto adjunto cumple la anchura libre de paso exigida por el DB-SUA para un itinerario accesible en un edificio de uso Administrativo?",
+      "titulo": "Proyecto ficticio PF-2026-E01 · edificio administrativo (documento sintético)",
+      "tipo": "pasillo_recto",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Pasillo principal",
+        "vista": "planta",
+        "anchura_libre_m": 1.25,
+        "longitud_m": 8.00,
+        "notas_plano": ["Sección constante en todo el recorrido."],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "E02",
+      "split": "evaluacion",
+      "archivo_pdf": "fixtures/E02.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "¿El pasillo principal del proyecto adjunto cumple la anchura libre de paso exigida por el DB-SUA para un itinerario accesible en un edificio de uso Administrativo?",
+      "titulo": "Proyecto ficticio PF-2026-E02 · edificio administrativo (documento sintético)",
+      "tipo": "pasillo_recto",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Pasillo principal",
+        "vista": "planta",
+        "anchura_libre_m": 1.10,
+        "longitud_m": 8.00,
+        "notas_plano": ["Sección constante en todo el recorrido."],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "E03",
+      "split": "evaluacion",
+      "archivo_pdf": "fixtures/E03.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "¿El pasillo del proyecto adjunto, situado en zona común de un edificio de uso Residencial Vivienda, cumple la anchura libre de paso exigida por el DB-SUA para un itinerario accesible?",
+      "titulo": "Proyecto ficticio PF-2026-E03 · edificio residencial de viviendas (documento sintético)",
+      "tipo": "pasillo_recto",
+      "uso": "Residencial Vivienda",
+      "datos_plano": {
+        "elemento": "Pasillo de zona común",
+        "vista": "planta",
+        "anchura_libre_m": 1.10,
+        "longitud_m": 6.00,
+        "notas_plano": ["Sección constante en todo el recorrido."],
+        "memoria_extra": ["El pasillo se sitúa en zona común del edificio (elemento común de la comunidad de propietarios)."]
+      }
+    },
+    {
+      "id": "E04",
+      "split": "evaluacion",
+      "archivo_pdf": "fixtures/E04.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "El pasillo principal del proyecto adjunto tiene un estrechamiento puntual. ¿Cumple la anchura libre de paso exigida por el DB-SUA para un itinerario accesible en uso Administrativo, incluidas las condiciones del estrechamiento?",
+      "titulo": "Proyecto ficticio PF-2026-E04 · edificio administrativo (documento sintético)",
+      "tipo": "pasillo_con_estrechamiento",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Pasillo principal con estrechamiento puntual",
+        "vista": "planta",
+        "anchura_general_m": 1.25,
+        "estrechamiento": {
+          "anchura_m": 1.05,
+          "longitud_m": 0.40
+        },
+        "separacion_al_hueco_m": 0.70,
+        "hueco": "hueco de paso (puerta)",
+        "notas_plano": [],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "E05",
+      "split": "evaluacion",
+      "archivo_pdf": "fixtures/E05.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "El pasillo principal del proyecto adjunto tiene un estrechamiento puntual. ¿Cumple la anchura libre de paso exigida por el DB-SUA para un itinerario accesible en uso Administrativo, incluidas las condiciones del estrechamiento?",
+      "titulo": "Proyecto ficticio PF-2026-E05 · edificio administrativo (documento sintético)",
+      "tipo": "pasillo_con_estrechamiento",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Pasillo principal con estrechamiento puntual",
+        "vista": "planta",
+        "anchura_general_m": 1.25,
+        "estrechamiento": {
+          "anchura_m": 1.05,
+          "longitud_m": 0.40
+        },
+        "separacion_al_hueco_m": null,
+        "separacion_cota_ilegible": true,
+        "hueco": "hueco de paso (puerta)",
+        "notas_plano": ["La cota de separación al hueco de paso está deteriorada en el original: valor no legible."],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "E06",
+      "split": "evaluacion",
+      "archivo_pdf": "fixtures/E06.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "¿La puerta del proyecto adjunto cumple los requisitos de anchura libre de paso del DB-SUA para puertas de un itinerario accesible?",
+      "titulo": "Proyecto ficticio PF-2026-E06 · edificio administrativo (documento sintético)",
+      "tipo": "puerta_una_hoja",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Puerta del itinerario principal",
+        "vista": "planta",
+        "hojas": 1,
+        "ancho_marco_m": 0.82,
+        "ancho_libre_efectivo_m": 0.76,
+        "maxima_apertura": true,
+        "notas_plano": ["Puerta de una hoja."],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "E07",
+      "split": "evaluacion",
+      "archivo_pdf": "fixtures/E07.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "Evalúa únicamente las pendientes (longitudinal y transversal) de la rampa accesible del proyecto adjunto según el DB-SUA. No se piden otros requisitos ni un dictamen sobre el resto del edificio.",
+      "titulo": "Proyecto ficticio PF-2026-E07 · edificio administrativo (documento sintético)",
+      "tipo": "rampa_recta",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Rampa del itinerario principal",
+        "vistas": ["alzado", "sección transversal"],
+        "forma": "recta",
+        "longitud_m": 3.00,
+        "pendiente_longitudinal_pct": 9.0,
+        "pendiente_transversal_pct": 1.5,
+        "notas_plano": [],
+        "memoria_extra": []
+      }
+    },
+    {
+      "id": "E08",
+      "split": "evaluacion",
+      "archivo_pdf": "fixtures/E08.pdf",
+      "documento": "DB-SUA-oficial",
+      "version": "2010-03-11",
+      "consulta": "Según la edición de 11 de marzo de 2010 del DB-SUA, ¿el pasillo principal del proyecto adjunto cumple la anchura libre de paso exigida para un itinerario accesible en uso Administrativo?",
+      "titulo": "Proyecto ficticio PF-2026-E08 · edificio administrativo (documento sintético)",
+      "tipo": "pasillo_recto",
+      "uso": "Administrativo",
+      "datos_plano": {
+        "elemento": "Pasillo principal",
+        "vista": "planta",
+        "anchura_libre_m": 1.25,
+        "longitud_m": 8.00,
+        "notas_plano": ["Sección constante en todo el recorrido."],
+        "memoria_extra": []
+      }
+    }
+  ]
+}

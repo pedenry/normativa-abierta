@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 10986,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 510,
+    "output_tokens_details": {
+      "reasoning_tokens": 161
+    },
+    "total_tokens": 11496
+  },
+  "incomplete_details": null,
+  "error": null,
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"estado\": \"no_cumple\", \"alcance\": \"Anchura libre de paso del pasillo principal como parte de un itinerario accesible en edificio de uso Administrativo.\", \"comprobaciones\": [{\"elemento\": \"Pasillo principal\", \"exigencia\": \"En un itinerario accesible, los pasillos y pasos deben tener una anchura libre de paso ≥ 1,20 m. La reducción a 1,10 m solo se admite en zonas comunes de edificios de uso Residencial Vivienda.\", \"dato_proyecto\": \"Anchura libre de paso anotada: 1,10 m.\", \"comparacion\": \"1,10 m < 1,20 m; la excepción de 1,10 m no aplica al uso Administrativo.\", \"estado\": \"no_cumple\", \"cita_norma\": {\"documento\": \"DB-SUA-oficial\", \"version\": \"2022-06-14\", \"disposicion\": \"Anejo A, Terminología, definición de Itinerario accesible; condición de 'Pasillos y pasos'\", \"pagina_fisica\": 41, \"url\": \"https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf\"}, \"cita_proyecto\": {\"archivo\": \"E02.pdf\", \"pagina\": 2, \"elemento\": \"Pasillo principal · anchura libre de paso: 1,10 m\"}}], \"datos_faltantes\": [], \"observaciones\": [\"La evidencia del proyecto es legible y contiene la cota expresa de anchura libre de paso, por lo que no es necesario inferir medidas del dibujo.\", \"No se ha evaluado el resto de condiciones del itinerario accesible; solo la anchura libre de paso consultada.\"]}"
+        }
+      ]
+    }
+  ]
+}
