@@ -50,7 +50,7 @@ Las búsquedas todavía pueden consumir recursos al recorrer el corpus. El servi
 
 ## Evidencia reproducible
 
-Comprobaciones locales ejecutadas: 19 pruebas del piloto y exportación; 6 pruebas HTTP; consulta del README sobre el corpus real; simulación de las 48 solicitudes sin llamadas API. También se comprobó con un socket local que el plazo absoluto corta una conexión pese al goteo de cabeceras y permite atender la siguiente petición. La exportación se contrastó contra los originales: 60 respuestas y filas de consumo, 841.131 tokens y 22 hashes, sin cambios semánticos en las respuestas ni en los contadores.
+Comprobaciones locales ejecutadas y superadas: 19 pruebas del piloto y exportación; 8 pruebas HTTP; consulta del README sobre el corpus real; simulación de las 48 solicitudes sin llamadas API. Las pruebas HTTP incluyen cierre pese al goteo de cabeceras, recuperación del slot y cierre si no arranca el temporizador. Como control negativo, se desactivó el arranque del temporizador mediante un mock: la prueba de goteo falló como debía, sin modificar la implementación. La exportación se contrastó contra los originales: 60 respuestas y filas de consumo, 841.131 tokens y 22 hashes, sin cambios semánticos en las respuestas ni en los contadores.
 
 Los PDF se marcan como binarios en `.gitattributes`; los archivos de texto nuevos se normalizan para trabajar desde Windows y Linux sin modificar el contenido de los PDF.
 
