@@ -1,0 +1,429 @@
+{
+  "fecha_utc": "2026-11-15T19:46:43.519253+00:00",
+  "pruebas": {
+    "piloto": 19,
+    "http": 14,
+    "resultado": "33 aprobadas; ejecutadas antes de este script",
+    "resumen_consumo_historico": "recalculado sin llamadas API"
+  },
+  "baseline": {
+    "fichas_anteriores_intactas": 88,
+    "segmentos_anteriores_intactos": 3033
+  },
+  "corpus": {
+    "documentos": 46,
+    "paginas": 4324,
+    "segmentos": 5775,
+    "fichas": 103
+  },
+  "hashes_derechos": {
+    "fuentes": 15,
+    "coinciden": true,
+    "distribute_true": true,
+    "paginas_nuevas": 2742,
+    "paginas_vacias": 0
+  },
+  "consultas": [
+    {
+      "id": "BOE-A-1997-22614",
+      "consulta": "coordinador seguridad salud elaboracion proyecto",
+      "version": "2010-03-23",
+      "estado": "ok",
+      "paginas": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tokens_proxy": 8197,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-1999-21567",
+      "consulta": "responsabilidad civil diez anos danos materiales",
+      "version": "2022-06-15",
+      "estado": "ok",
+      "paginas": [
+        4,
+        5,
+        6,
+        13,
+        12,
+        14
+      ],
+      "tokens_proxy": 7425,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2002-18099",
+      "consulta": "instalaciones enlace centralizacion contadores",
+      "version": "2025-09-03",
+      "estado": "ok",
+      "paginas": [
+        47,
+        106,
+        107,
+        108,
+        102,
+        103,
+        104
+      ],
+      "tokens_proxy": 4617,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2006-15345",
+      "consulta": "instalaciones receptoras combustibles gaseosos",
+      "version": "2025-09-03",
+      "estado": "ok",
+      "paginas": [
+        2,
+        93,
+        94,
+        95,
+        76,
+        77,
+        78
+      ],
+      "tokens_proxy": 9181,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2007-18397",
+      "consulta": "objetivos calidad acustica interiores edificaciones",
+      "version": "2012-07-26",
+      "estado": "ok",
+      "paginas": [
+        4,
+        11,
+        12,
+        13,
+        23,
+        22,
+        24
+      ],
+      "tokens_proxy": 8036,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2008-2486",
+      "consulta": "estudio gestion residuos construccion demolicion",
+      "version": "2008-02-13",
+      "estado": "ok",
+      "paginas": [
+        3,
+        7,
+        8,
+        9,
+        6
+      ],
+      "tokens_proxy": 6292,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2011-5834",
+      "consulta": "registro principal recinto instalaciones telecomunicaciones",
+      "version": "2026-11-05",
+      "estado": "ok",
+      "paginas": [
+        27,
+        62,
+        63,
+        64,
+        65
+      ],
+      "tokens_proxy": 5727,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2015-11723",
+      "consulta": "deber legal conservacion edificaciones",
+      "version": "2023-05-25",
+      "estado": "ok",
+      "paginas": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "tokens_proxy": 5327,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2017-6606",
+      "consulta": "extintores portatiles mantenimiento",
+      "version": "2025-09-03",
+      "estado": "ok",
+      "paginas": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "tokens_proxy": 5169,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2021-13488",
+      "consulta": "itinerario peatonal accesible anchura",
+      "version": "2026-09-03",
+      "estado": "ok",
+      "paginas": [
+        5,
+        14,
+        15,
+        16,
+        4,
+        6
+      ],
+      "tokens_proxy": 6585,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2021-13681",
+      "consulta": "recubrimiento nominal armaduras hormigon",
+      "version": "2021-08-10",
+      "estado": "ok",
+      "paginas": [
+        10,
+        122,
+        123,
+        124,
+        1549,
+        663,
+        664,
+        665
+      ],
+      "tokens_proxy": 18402,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2021-9176",
+      "consulta": "certificado eficiencia energetica edificios",
+      "version": "2025-07-23",
+      "estado": "ok",
+      "paginas": [
+        2,
+        17,
+        18,
+        19,
+        14,
+        15,
+        16
+      ],
+      "tokens_proxy": 8847,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2022-10297",
+      "consulta": "plan prevencion control legionella",
+      "version": "2024-07-03",
+      "estado": "ok",
+      "paginas": [
+        1,
+        2,
+        6,
+        5,
+        7
+      ],
+      "tokens_proxy": 6314,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2023-628",
+      "consulta": "instalaciones interiores edificios prioritarios",
+      "version": "2023-01-11",
+      "estado": "ok",
+      "paginas": [
+        2,
+        81,
+        82,
+        83,
+        79,
+        80
+      ],
+      "tokens_proxy": 6808,
+      "avisos_fuente_completos": true
+    },
+    {
+      "id": "BOE-A-2024-7258",
+      "consulta": "mantenimiento inspecciones periodicas ascensores",
+      "version": "2025-09-03",
+      "estado": "ok",
+      "paginas": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "tokens_proxy": 6755,
+      "avisos_fuente_completos": true
+    }
+  ],
+  "edicion_ausente": {
+    "estado": "version_no_disponible",
+    "paginas": []
+  },
+  "regresion_sua": {
+    "estado": "ok",
+    "paginas": [
+      15,
+      35,
+      36,
+      37,
+      33,
+      34,
+      40,
+      41,
+      42
+    ],
+    "coincide_anterior": true
+  },
+  "ejemplo_rebt": {
+    "consulta": "Instalaciones de enlace centralización de contadores",
+    "estado": "ok",
+    "version": "2025-09-03",
+    "paginas": [
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 47,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "c5af0b19f99e6fdac75a1da9e6dbb545951e3ae00fec84cd0f2727d2f506adfe",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0047.md",
+        "motivo": "auxiliar"
+      },
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 106,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "a9336d27ac055930370dfd2bb34d8e95ce1786256fdc9c3354cfd0e7f49b06e3",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0106.md",
+        "motivo": "continuada"
+      },
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 107,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "534fc94eb987bd51c42263c454ae875975713e72014d726e13da58f053d99d4c",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0107.md",
+        "motivo": "primaria"
+      },
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 108,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "ae075d360bd3d17bb965861f588a444fbab9ab482e49546164a46c645dfe3434",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0108.md",
+        "motivo": "continuada"
+      },
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 102,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "dc15beb1c6a72991b47490a7fb412096311a3e317ab07310c56204f30d2db82d",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0102.md",
+        "motivo": "continuada"
+      },
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 103,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "305c32b5594002d2ac4af23c90c77cb9c83ca5630e4f1d31067ab596ad333bc5",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0103.md",
+        "motivo": "primaria"
+      },
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 104,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "dde6cdb5c0cdc3d557d4d58e7c8f25c381cc000c400222eee1d34946082df203",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0104.md",
+        "motivo": "continuada"
+      },
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 109,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "5169805b8664c01b18c46b1f4fe964d223189ea3d3ae34c47b3385e059f4b9ff",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0109.md",
+        "motivo": "primaria"
+      },
+      {
+        "doc": "BOE-A-2002-18099",
+        "version": "2025-09-03",
+        "sha256": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+        "pagina": 110,
+        "url_fuente": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf",
+        "texto_sha256": "8d0c4ed35add1dd17c7b34e826491fb2b85048bbb1d1a31993863e85dc0f2081",
+        "etiqueta_impresa": null,
+        "archivo": "docs/BOE-A-2002-18099/2025-09-03__e101577e04e6/pagina/p0110.md",
+        "motivo": "continuada"
+      }
+    ],
+    "tokens_proxy": 6647,
+    "resultados": [
+      {
+        "id_tecnico": "p0107",
+        "titulo": "Pagina fisica 107 - Baja tension",
+        "paginas": [
+          107
+        ]
+      },
+      {
+        "id_tecnico": "p0103",
+        "titulo": "Pagina fisica 103 - Baja tension",
+        "paginas": [
+          103
+        ]
+      },
+      {
+        "id_tecnico": "p0109",
+        "titulo": "Pagina fisica 109 - Baja tension",
+        "paginas": [
+          109
+        ]
+      }
+    ]
+  },
+  "pruebas_ingesta": {
+    "importacion_aislada": true,
+    "idempotencia_byte_a_byte": true,
+    "hash_invalido_rechazado_sin_modificar_corpus": true,
+    "fuente": "BOE-A-1997-22614"
+  },
+  "limites": [
+    "Verificación de recuperación y procedencia; no evaluación legal ni humana.",
+    "No se volvió a extraer todo el corpus.",
+    "No se midió consumo API nuevo.",
+    "Cotejo visual previo limitado a dos páginas; no ampliado en esta ejecución."
+  ]
+}

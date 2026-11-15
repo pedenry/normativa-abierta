@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0126",
+  "titulo": "Pagina fisica 126 - Baja tension",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 126",
+  "seccion_estimada": "Pagina fisica 126",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    126
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0126.md",
+  "archivo_json": "apartado/p0126.json",
+  "caracteres": 3998,
+  "primera_linea": "                                BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "5aa17aa0418ba2702779ed23eada22c43e4b9302c996cd6b892d64552c7d200e",
+  "texto": "                                BOLETÍN OFICIAL DEL ESTADO\n                                     LEGISLACIÓN CONSOLIDADA\n\n\n\n         Tabla 4. Valores medios aproximados de la resistividad en función del terreno\n\n\n                         Naturaleza del terreno                      Valor medio de la resistividad Ohm.m\n     Terrenos cultivables y fértiles, terraplenes compactos y húmedos                   50\n         Terraplenes cultivables poco fértiles y otros terraplenes                     500\n         Suelos pedregosos desnudos, arenas secas permeables                          3.000\n\nTabla 5. Fórmulas para estimar la resistencia de tierra en función de la resistividad del\n                               terreno y las características del electrodo\n\n\n                                   Electrodo                Resistencia de Tierra en Ohm\n                                 Placa enterrada                      R = 0,8 ρ/P\n                                   Pica vertical                        R = ρ/L\n                      Conductor enterrado horizontalmente              R = 2 ρ/L\n                                        ρ, resistividad del terreno (Ohm.m)\n                                           P, perímetro de la placa (m)\n                                     L, longitud de la pica o del conductor (m)\n\n    10. TOMAS DE TIERRA INDEPENDIENTES\n    Se considerará independiente una toma de tierra respecto a otra, cuando una de las\ntomas de tierra, no alcance, respecto a un punto de potencial cero, una tensión superior a 50\nV cuando por la otra circula la máxima corriente de defecto a tierra prevista.\n    11.   SEPARACIÓN  ENTRE  LAS  TOMAS  DE  TIERRA  DE  LAS  MASAS  DE  LAS\nINSTALACIONES   DE   UTILIZACIÓN   Y   DE   LAS   MASAS   DE   UN   CENTRO   DE\nTRANSFORMACIÓN\n    Se verificará que las masas puestas a tierra en una instalación de utilización, así como\nlos conductores de protección asociados a estas masas o a los relés de protección de masa,\nno están unidas a la toma de tierra de las masas de un centro de transformación, para evitar\nque durante la evacuación de un defecto a tierra en el centro de transformación, las masas\nde la instalación de utilización puedan quedar sometidas a tensiones de contacto peligrosas.\nSi no se hace el control de independencia del punto 10, entre las puesta a tierra de las\nmasas de las instalaciones de utilización respecto a la puesta a tierra de protección o masas\ndel centro de transformación, se considerará que las tomas de tierra son eléctricamente\nindependientes cuando se cumplan todas y cada una de las condiciones siguientes:\n    a) No exista canalización metálica conductora (cubierta metálica de cable no aislada\nespecialmente, canalización de agua, gas, etc.) que una la zona de tierras del centro de\ntransformación con la zona en donde se encuentran los aparatos de utilización.\n    b) La distancia entre las tomas de tierra del centro de transformación y las tomas de\ntierra u otros elementos conductores enterrados en los locales de utilización es al menos\nigual a 15 metros para terrenos cuya resistividad no sea elevada (<100 ohmios.m). Cuando\nel terreno sea muy mal conductor, la distancia se calculará, aplicando la fórmula: siendo:\n\n\n\n\n    D: distancia entre electrodos, en metros\n    ρ: resistividad media del terreno en ohmios.metro\n    Id: intensidad de defecto a tierra, en amperios, para el lado de alta tensión, que será\nfacilitado por la empresa eléctrica\n    U: 1200 V para sistemas de distribución TT, siempre que el tiempo de eliminación del\ndefecto en la instalación de alta tensión sea menor o igual a 5 segundos y 250 V, en caso\ncontrario.  Para  redes  TN,  U  será  inferior  a  dos  veces  la  tensión  de  contacto  máxima\nadmisible de la instalación definida en el punto 1.1 de la MIE-RAT 13 del Reglamento sobre\nCondiciones Técnicas y Garantía de Seguridad en Centrales Eléctricas, Subestaciones y\nCentros de Transformación.\n\n\n\n\n                                                  Página 126"
+}

@@ -33,3 +33,29 @@
 | RD-314-2006-oficial | RD-314-2006 | oficial | 2022-06-15 | 26 | sí | docs/RD-314-2006-oficial/2022-06-15__298090e145f5 |
 | RITE-asociada | RITE | asociada | 2022-08-02 | 97 | sí | docs/RITE-asociada/sin-fecha__ad1680c83bf4 |
 | RSCIEI-asociada | RSCIEI | asociada | 2025-04-10 | 108 | sí | docs/RSCIEI-asociada/sin-fecha__85aa0af25d51 |
+
+<!-- ampliacion-boe-2026-11-15 -->
+
+## Ampliación BOE 2026-11-15
+
+Capa asociada, código = ID, distribución sí. Los fragmentos se generan por página física; la jerarquía de artículos no está verificada. 14 versiones son consolidados informativos; BOE-A-2021-13681 (Código Estructural) es el texto original y no incorpora correcciones posteriores. La edición no determina la aplicabilidad (verificar ámbito y régimen transitorio).
+
+| id | versión | páginas | materia | ficha |
+|---|---|---|---|---|
+| BOE-A-1997-22614 | 2010-03-23 | 22 | Seguridad y salud en obras | [ficha](../fichas/BOE-A-1997-22614.json) |
+| BOE-A-1999-21567 | 2022-06-15 | 23 | LOE | [ficha](../fichas/BOE-A-1999-21567.json) |
+| BOE-A-2002-18099 | 2025-09-03 | 288 | Baja tensión | [ficha](../fichas/BOE-A-2002-18099.json) |
+| BOE-A-2006-15345 | 2025-09-03 | 96 | Gas | [ficha](../fichas/BOE-A-2006-15345.json) |
+| BOE-A-2007-18397 | 2012-07-26 | 33 | Ruido | [ficha](../fichas/BOE-A-2007-18397.json) |
+| BOE-A-2008-2486 | 2008-02-13 | 13 | Residuos de construcción | [ficha](../fichas/BOE-A-2008-2486.json) |
+| BOE-A-2011-5834 | 2026-11-05 | 122 | Telecomunicaciones | [ficha](../fichas/BOE-A-2011-5834.json) |
+| BOE-A-2015-11723 | 2023-05-25 | 56 | Suelo y rehabilitación | [ficha](../fichas/BOE-A-2015-11723.json) |
+| BOE-A-2017-6606 | 2025-09-03 | 45 | Protección contra incendios | [ficha](../fichas/BOE-A-2017-6606.json) |
+| BOE-A-2021-13488 | 2026-09-03 | 25 | Accesibilidad en espacios públicos urbanizados | [ficha](../fichas/BOE-A-2021-13488.json) |
+| BOE-A-2021-13681 | 2021-08-10 | 1789 | Código Estructural | [ficha](../fichas/BOE-A-2021-13681.json) |
+| BOE-A-2021-9176 | 2025-07-23 | 36 | Certificación energética | [ficha](../fichas/BOE-A-2021-9176.json) |
+| BOE-A-2022-10297 | 2024-07-03 | 53 | Legionelosis | [ficha](../fichas/BOE-A-2022-10297.json) |
+| BOE-A-2023-628 | 2023-01-11 | 92 | Agua de consumo | [ficha](../fichas/BOE-A-2023-628.json) |
+| BOE-A-2024-7258 | 2025-09-03 | 49 | Ascensores | [ficha](../fichas/BOE-A-2024-7258.json) |
+
+<!-- /ampliacion-boe-2026-11-15 -->

@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "fecha": "2026-11-15",
+  "descripcion": "Primera tanda de normativa espanola de edificacion adicional al CTE/RITE/RSCIEI, para ingesta reproducible desde el BOE.",
+  "origen_encargo": "Encargo autorizado 2026-11-15. Los 15 identificadores fueron verificados por Codex contra las paginas act.php del BOE; las denominaciones de 'tema' proceden del encargo y son informativas.",
+  "verificacion_ids": "Codex (encargo 2026-11-15): paginas act.php accesibles para los 15 IDs. En todas salvo BOE-A-2021-13681 la pagina ofrece un enlace /buscar/pdf/AAAA/{ID}-consolidado.pdf; en BOE-A-2021-13681 la pagina enlaza el PDF original. El script detecta el enlace real de cada pagina y nunca inventa un consolidado.",
+  "api_oficial": {
+    "documentacion": "https://www.boe.es/datosabiertos/api/api.php",
+    "endpoints_previstos": [
+      "/legislacion-consolidada/id/{ID}/metadatos",
+      "/legislacion-consolidada/id/{ID}/texto"
+    ],
+    "estado": "no usada en esta tanda: respondio HTTP 400/404 en la verificacion de Codex (2026-11-15); retest pendiente",
+    "alternativa_usada": "pagina oficial https://www.boe.es/buscar/act.php?id={ID}"
+  },
+  "captura": {
+    "metodo": "descarga HTML de act.php + analisis con html.parser.HTMLParser; PDF por el enlace real de la pagina (consolidado si existe; si no, original); firma %PDF- obligatoria",
+    "host": "https://www.boe.es o https://boe.es (solo HTTPS, validado tambien tras cada redireccion)",
+    "pausa_entre_solicitudes_s": 1,
+    "timeout_s": 30,
+    "max_reintentos_transitorios": 2,
+    "max_bytes": 62914560
+  },
+  "licencia": {
+    "nombre": "Aviso legal del BOE",
+    "url": "https://www.boe.es/informacion/aviso_legal/index.php",
+    "condiciones": "Permite la extraccion y reordenacion con atribucion, indicando fechas y transformaciones. El consolidado es informativo y no tiene valor oficial.",
+    "atribucion": "Basado en datos de la Agencia Estatal Boletín Oficial del Estado"
+  },
+  "exclusiones": [
+    "Textos UNE (licencia propia, no incluidos)",
+    "Obras recopilatorias de Biblioteca Juridica (condiciones de licencia distintas)"
+  ],
+  "jurisdiccion_general": "estatal (inferencia por publicacion en el BOE; emisor, ambito y regimen transitorio concretos por confirmar en cada pagina y quedan pendientes)",
+  "fuentes": [
+    {
+      "id": "BOE-A-1999-21567",
+      "tema": "LOE: Ley de Ordenacion de la Edificacion",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-21567",
+      "notas": "Denominacion del encargo; el titulo real lo extrae el script de la pagina oficial."
+    },
+    {
+      "id": "BOE-A-2021-13681",
+      "tema": "Codigo Estructural",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-13681",
+      "notas": "Segun el encargo, la pagina enlaza el PDF original y no ofrece -consolidado.pdf; el script detecta el enlace real y no inventa consolidado."
+    },
+    {
+      "id": "BOE-A-2002-18099",
+      "tema": "REBT: Reglamento electrotecnico para baja tension",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099",
+      "notas": "Denominacion del encargo; el titulo real lo extrae el script de la pagina oficial."
+    },
+    {
+      "id": "BOE-A-2011-5834",
+      "tema": "ICT (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-5834",
+      "notas": "Solo el identificador viene del encargo; el script registra el titulo real extraido."
+    },
+    {
+      "id": "BOE-A-2017-6606",
+      "tema": "RIPCI: Reglamento de instalaciones de proteccion contra incendios",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606",
+      "notas": "Denominacion del encargo; el titulo real lo extrae el script de la pagina oficial."
+    },
+    {
+      "id": "BOE-A-2024-7258",
+      "tema": "Ascensores (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-7258",
+      "notas": "Solo el identificador viene del encargo; el script registra el titulo real extraido."
+    },
+    {
+      "id": "BOE-A-2021-9176",
+      "tema": "Certificacion energetica de edificios (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-9176",
+      "notas": "Solo el identificador viene del encargo; el script registra el titulo real extraido."
+    },
+    {
+      "id": "BOE-A-2008-2486",
+      "tema": "Residuos de construccion y demolicion (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-2486",
+      "notas": "Solo el identificador viene del encargo; el script registra el titulo real extraido."
+    },
+    {
+      "id": "BOE-A-1997-22614",
+      "tema": "Seguridad y salud en obras de construccion (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-22614",
+      "notas": "Solo el identificador viene del encargo; el script registra el titulo real extraido."
+    },
+    {
+      "id": "BOE-A-2007-18397",
+      "tema": "Ruido (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-18397",
+      "notas": "Solo el identificador viene del encargo; el script registra el titulo real extraido."
+    },
+    {
+      "id": "BOE-A-2023-628",
+      "tema": "Agua: consumo en edificios (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-628",
+      "notas": "Solo el identificador viene del encargo; el script registra el titulo real extraido."
+    },
+    {
+      "id": "BOE-A-2015-11723",
+      "tema": "Suelo y rehabilitacion (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11723",
+      "notas": "Solo el identificador viene del encargo; el script registra el titulo real extraido."
+    },
+    {
+      "id": "BOE-A-2021-13488",
+      "tema": "Orden TMA/851/2021: accesibilidad en espacios publicos urbanizados (alcance distinto de los interiores de edificios)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-13488",
+      "notas": "Denominacion procedente del encargo; el titulo real lo extrae el script de la pagina oficial."
+    },
+    {
+      "id": "BOE-A-2022-10297",
+      "tema": "RD 487/2022: legionelosis (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-10297",
+      "notas": "Denominacion procedente del encargo; el titulo real lo extrae el script de la pagina oficial."
+    },
+    {
+      "id": "BOE-A-2006-15345",
+      "tema": "RD 919/2006: gas (denominacion exacta por confirmar en la pagina)",
+      "url_act": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-15345",
+      "notas": "Denominacion procedente del encargo; el titulo real lo extrae el script de la pagina oficial."
+    }
+  ]
+}

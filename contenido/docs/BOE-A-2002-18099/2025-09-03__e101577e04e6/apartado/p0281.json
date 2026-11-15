@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0281",
+  "titulo": "Pagina fisica 281 - Baja tension",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 281",
+  "seccion_estimada": "Pagina fisica 281",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    281
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0281.md",
+  "archivo_json": "apartado/p0281.json",
+  "caracteres": 4354,
+  "primera_linea": "                               BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "9af88e3fabc5414d0874b163e92a0cbe1d339b3cf31f6fb3a4be3257098300dc",
+  "texto": "                               BOLETÍN OFICIAL DEL ESTADO\n                                    LEGISLACIÓN CONSOLIDADA\n\n\n\n    4. PREVISIÓN DE CARGAS SEGÚN EL ESQUEMA DE LA INSTALACIÓN\n    4.1 Esquema colectivo con un contador principal común (esquemas 1a, 1b y 1c). La\ninstalación del SPL será opcional, en edificios de nueva construcción a criterio del promotor y\nen instalaciones en edificios existentes a criterio del titular del suministro, o, en su caso, de la\nJunta de Propietarios. El dimensionamiento de las instalaciones de enlace y la previsión de\ncargas se realizará considerando un factor de simultaneidad de las cargas del vehículo\neléctrico con el resto de la instalación igual a 0,3 cuando se instale el SPL y de 1,0 cuando\nno se instale. Como entrada de información el SPL recibirá la medida de intensidad que\ncircula por la LGA.\n\n                   Pedificio = (P1 + P2 + P3 + P4 ) + 0,3 ∙ P5 (se instala el SPL)\n\n                    Pedificio = (P1 + P2 + P3 + P4 ) + P5 (no se instala el SPL)\n    Donde:\n    P1  Carga  correspondiente  al  conjunto  de  viviendas  obtenida  como  el  número  de\nviviendas por el coeficiente de simultaneidad de la tabla 1 de la (ITC) BT-10.\n    P2 Carga correspondiente a los servicios generales.\n    P3 Carga correspondiente a locales comerciales y oficinas.\n    P4 Carga correspondiente a los garajes distintas de la recarga del vehículo eléctrico.\n    P5 Carga prevista para la recarga del vehículo eléctrico.\n    En el proyecto o memoria técnica de diseño de instalaciones en edificios existentes se\nincluirá el cálculo del número máximo de estaciones de recarga que se pueden alimentar\nteniendo en cuenta la potencia disponible en la LGA y considerando la suma de la potencia\ninstalada en todas las estaciones de recarga con el factor de simultaneidad que corresponda\ncon el resto de la instalación, según se disponga o no del SPL.\n    El número de estaciones de recarga posibles para cada circuito de recarga colectivo y su\nprevisión de carga se calcularán, teniendo en cuenta la potencia prevista de cada estación\ncon  un  factor  de  simultaneidad  entre  las  estaciones  de  recarga  igual  a  la  unidad.  No\nobstante, el número de estaciones por circuito de recarga colectivo podrá aumentarse y el\nfactor de simultaneidad entre ellas disminuirse si se dispone de un sistema de control que\nmida la intensidad que pasa por el circuito de recarga colectivo y reduzca la intensidad\ndisponible en las estaciones, evitando las sobrecargas en el circuito de recarga colectivo.\n    4.2 Esquema individual (esquemas 2, 3a y 3b). El dimensionamiento de las instalaciones\nde enlace y la previsión de cargas se realizará considerando un factor de simultaneidad de\nlas cargas del vehículo eléctrico con el resto de cargas de la instalación igual a 1,0.\n    En los esquemas 3a y 3b, la función de control de potencia contratada para la estación\nde recarga se realizará con el contador principal, sin necesidad de instalar un ICP externo al\ncontador.\n    4.3 Esquema 4 (esquemas 4a y 4b). La previsión de cargas se realizará considerando un\nfactor de simultaneidad de las cargas del vehículo eléctrico con el resto de circuitos de la\ninstalación igual a 1,0. Para calcular el número de estaciones de recarga en un circuito de\nrecarga colectivo y la simultaneidad entre ellas según el esquema 4b, se aplicará lo indicado\nen el apartado 4.1.\n    5. REQUISITOS GENERALES DE LA INSTALACIÓN\n    En los locales cerrados de edificios destinados a aparcamientos o estacionamientos\ncolectivos de uso público o privado, se podrá realizar la operación de recarga de baterías\nsiempre que dicha operación se realice sin desprendimiento de gases durante la recarga y\nque dichos locales no estén clasificados como locales con riesgo de incendio o explosión\nsegún la (ITC) BT-29. En el local donde se realice la recarga del vehículo eléctrico se\ncolocará un cartel reflectante en el punto de recarga que identifique que no está permitida la\nrecarga de baterías con desprendimiento de gases.\n    Los circuitos de recarga colectivos discurrirán preferentemente por zonas comunes.\n    Para los esquemas 1a, 1b, 1c, 2, 3a y 3b, los contadores principales se ubicarán en el\npropio local o armario destinado a albergar la concentración de contadores o, en caso que\n\n\n                                                  Página 281"
+}

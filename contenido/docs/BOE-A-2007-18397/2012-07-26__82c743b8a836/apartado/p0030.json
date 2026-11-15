@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0030",
+  "titulo": "Pagina fisica 30 - Ruido",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 30",
+  "seccion_estimada": "Pagina fisica 30",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    30
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0030.md",
+  "archivo_json": "apartado/p0030.json",
+  "caracteres": 3528,
+  "primera_linea": "                                 BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "d44a2f69425e1e072f3f2c5d79b6193c6d34b0d2699e2955cd9a78cbc7145772",
+  "texto": "                                 BOLETÍN OFICIAL DEL ESTADO\n                                      LEGISLACIÓN CONSOLIDADA\n\n\n\n                                            Frecuencia         wm\n                                                 Hz       factor   dB\n                                                  1        0,833   -1,59\n                                                1,25       0,907   -0,85\n                                                 1,6       0,934   -0,59\n                                                  2        0,932   -0,61\n                                                 2,5       0,910   -0,82\n                                                3,15       0,872   -1,19\n                                                  4        0,818   -1,74\n                                                  5        0,750   -2,50\n                                                 6,3       0,669   -3,49\n                                                  8        0,582   -4,70\n                                                 10        0,494   -6,12\n                                                12,5       0,411   -7,71\n                                                 16        0,337   -9,44\n                                                 20        0,274  -11,25\n                                                 25        0,220  -13,14\n                                                31,5       0,176  -15,09\n                                                 40        0,140  -17,10\n                                                 50        0,109  -19,23\n                                                 63      0,0834   -21,58\n                                                 80      0,0604   -24,38\n\n    Seguidamente  se  obtendrán  los  valores  de  aceleración  global  ponderada  para  los\ndistintos instantes de tiempo (para cada espectro) mediante la siguiente fórmula:\n\n\n\n\n\n\n\n    Donde:\n    – aw,i,j: el valor eficaz (RMS, slow) de la señal de aceleración expresado en m/s2, para\ncada  una  de  las  bandas  de  tercio  de  octava  (j)  y  para  los  distintos  instantes  de  la\nmedición (i).\n    – wm,j: el valor de la ponderación frecuencial wm para cada una de las bandas de tercio\nde octava (j).\n    – aw,i : el valor eficaz (RMS, slow) de la señal de aceleración global ponderada para los\ndistintos instantes de la medición.\n    Finalmente, para encontrar el valor de aw (MTVV) debe escogerse el valor máximo de las\ndistintas aceleraciones globales ponderadas, para los distintos instantes de medición\n\n                                                 aw = max{aw,i}i\n    2. Procedimientos de medición de vibraciones.\n    Los  procedimientos  de  medición  in  situ  utilizados  para  la  evaluación  del  índice  de\nvibración que establece este real decreto se adecuarán a las prescripciones siguientes:\n    a) Previamente a la realización de las mediciones es preciso identificar los posibles focos\nde vibración, las direcciones dominantes y sus características temporales.\n    b) Las mediciones se realizarán sobre el suelo en el lugar y momento de mayor molestia\ny en la dirección dominante de la vibración si esta existe y es claramente identificable. Si la\ndirección   dominante   no   está   definida   se   medirá   en   tres   direcciones   ortogonales\nsimultáneamente, obteniendo el valor eficaz aw,i(t) en cada una de ellas y el índice de\nevaluación como suma cuadrática, en el tiempo t, aplicando la expresión:\n\n\n\n\n\n\n\n\n\n\n                                                    Página 30"
+}

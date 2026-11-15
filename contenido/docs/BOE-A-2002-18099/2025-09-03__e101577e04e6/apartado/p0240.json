@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0240",
+  "titulo": "Pagina fisica 240 - Baja tension",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 240",
+  "seccion_estimada": "Pagina fisica 240",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    240
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0240.md",
+  "archivo_json": "apartado/p0240.json",
+  "caracteres": 3516,
+  "primera_linea": "                               BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "bbf434e249526e917ba0850cfa66450f4c6f35acdfa20fd3fc77ce65ac232ca2",
+  "texto": "                               BOLETÍN OFICIAL DEL ESTADO\n                                    LEGISLACIÓN CONSOLIDADA\n\n\n\n    I.3.1 Tolerancia en régimen permanente:\n    El sistema de limitación de potencia deberá garantizar que en régimen permanente la\nproducción de energía cumple con los requisitos del apartado I.2 en función del tipo de\ninstalación ensayada.\n    La prueba se debe repetir con los diferentes generadores tipo que vayan a evaluarse\npara el sistema, pudiéndose probar cada uno de ellos por separado.\n    Para verificar esta condición se realiza el ensayo con la secuencia de operaciones\nsiguiente:\n    1. Conectar el generador a ensayar a una fuente de energía que alimente el generador y\nque sea capaz de suministrar una potencia igual o superior a la potencia del generador a\nensayar.\n    2. Conectar el generador a la red a ensayar.\n    3. Establecer el valor de carga de acuerdo a los valores indicados en la tabla 1.\n    4. Esperar un tiempo de al menos dos segundos antes de comenzar la medida.\n    5. Medir la potencia intercambiada en el punto de ensayo, con una incertidumbre mejor o\nigual al 0,5 %, realizando medidas cada 50 ms.\n\nTabla 1. Definición de cargas. Valores en % sobre la potencia nominal del generador a\n                                                  ensayar\n\n\n                            Régimen de conexión      Fase R    Fase S    Fase T\n                                                    90÷100%\n                            Monofásico.             10÷20%\n                                                       0\n                                                    90÷100%   90÷100%   90÷100%\n                                                    10÷20%    10÷20%    10÷20%\n                                                       0          0         0\n                            Trifásico.              90÷100%   60÷70%    60÷70%\n                                                    60÷70%    60÷70%    60÷70%\n                                                    30÷40%    60÷70%    60÷70%\n                                                       0      60÷70%    60÷70%\n\n    La prueba se da por válida si en un ensayo de 2 minutos, los valores de la potencia\ninyectada medida cada 50 ms aguas arriba del punto de interconexión entre generación y\nconsumo, en cada una de las fases, cumplen con los requisitos indicados en los puntos I.2.1\no I.2.2, según corresponda.\n    I.3.2 Respuesta ante desconexiones de carga:\n    El sistema de limitación de potencia deberá́ garantizar que, ante una desconexión de\ncarga, el generador reajusta su producción llegando de nuevo al régimen permanente en\nmenos de 2 segundos.\n    La prueba se debe repetir con los diferentes generadores tipo que vayan a evaluarse\npara el sistema, pudiéndose probar cada uno de ellos por separado.\n    Para verificar esta condición se realiza el ensayo con la secuencia de operaciones\nsiguiente:\n    1. Conectar el generador a ensayar a una fuente de energía que alimente el generador y\nque sea capaz de suministrar una potencia igual o superior a la potencia del generador a\nensayar.\n    2. Conectar el generador a la red a ensayar.\n    3. Realizar las desconexiones de carga propuestas en la tabla 2.\n    4. Medir la potencia intercambiada con la red, con una precisión de al menos el 0,5 %,\nrealizando medidas cada 50 ms en una ventana de tiempo de 2 minutos que comprenda al\nmenos un minuto antes y después de la desconexión de carga.\n\n\n\n\n\n\n\n                                                Página 240"
+}

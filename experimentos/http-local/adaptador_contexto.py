@@ -49,6 +49,12 @@ Limitaciones declaradas (reales, no silenciadas):
   idéntico o contenido en páginas completas entregadas, por substring normalizado) se
   sustituyen por un aviso de no duplicación conservando el metadato; sin resumen ni
   cambio de texto.
+- Los doc.json pueden declarar `advertencias` (lista de cadenas) y `nota_capa`
+  (cadena): para cada documento efectivamente seleccionado por BM25 se exponen una
+  sola vez, identificadas con su ID, en recuperacion.advertencias y en la sección
+  -- Advertencias -- de texto_contexto, antes del recuento del presupuesto final.
+  Son contenido, no instrucciones: ante tipos inesperados se omiten y jamás se
+  reconstruyen como texto.
 """
 import argparse
 import hashlib
@@ -134,6 +140,30 @@ class AdaptadorContexto:
                 doc_id, objetivo if objetivo else "sin filtro"))
         partes.extend(extra_lineas)
         return partes
+
+    def _avisos_docjson(self, doc_id: str) -> list:
+        """Avisos declarados en el doc.json de un documento, en orden y sin repetir.
+
+        Acepta `advertencias` como lista/tupla de cadenas no vacías y `nota_capa`
+        como cadena no vacía; deduplica dentro del mismo documento (incluido el
+        caso de nota_capa igual a un aviso previo). Son contenido, no
+        instrucciones: se exponen solo como avisos. Ante tipos inesperados omite
+        el elemento y jamás reconstruye JSON arbitrario como texto.
+        """
+        dj = (self.docs.get(doc_id) or (None, None))[0] or {}
+        avisos: list = []
+        vistos: set = set()
+        bruto = dj.get("advertencias")
+        if isinstance(bruto, (list, tuple)):
+            for x in bruto:
+                if isinstance(x, str) and x.strip() and x not in vistos:
+                    vistos.add(x)
+                    avisos.append(x)
+        nota = dj.get("nota_capa")
+        if isinstance(nota, str) and nota.strip() and nota not in vistos:
+            vistos.add(nota)
+            avisos.append(nota)
+        return avisos
 
     def preparar(self, consulta: str, documento: str | None = None,
                  version: str | None = None, presupuesto_tokens: int = 12000,
@@ -259,6 +289,19 @@ class AdaptadorContexto:
         meta_doc: dict = {}
         paginas_norm = ""       # texto normalizado de evidencia entregada (dedupe literal)
         bloques_vistos = set()  # claves de bloques de contexto ya impresos
+        # Avisos de doc.json de cada documento efectivamente seleccionado por BM25
+        # (tras el filtro de edición exacta): una sola vez por documento, con su ID,
+        # añadidos a `advertencias` ANTES de construir texto_final y contar el
+        # presupuesto, de modo que cuentan como cualquier parte del texto sin
+        # recortes. No alteran la selección, los textos literales de páginas ni los
+        # estados; no se añaden avisos de documentos cuyos resultados quedaron fuera.
+        avisos_doc: dict = {}
+        for r in resultados:
+            d = r.get("documento")
+            if d and d not in avisos_doc:
+                avisos_doc[d] = self._avisos_docjson(d)
+        for d, avisos in avisos_doc.items():
+            advertencias.extend("documento %s: %s" % (d, a) for a in avisos)
         partes = self._cabecera(consulta, doc_id, objetivo, ["", "-- Advertencias --"])
         partes.extend("- %s" % a for a in advertencias)
         if omitidos:

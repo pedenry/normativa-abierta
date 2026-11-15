@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0092",
+  "titulo": "Pagina fisica 92 - Baja tension",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 92",
+  "seccion_estimada": "Pagina fisica 92",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    92
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0092.md",
+  "archivo_json": "apartado/p0092.json",
+  "caracteres": 2779,
+  "primera_linea": "                               BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "3d9ab2435e76745e89e2d4bca9b17064a2689d5235677bcdfa9e139008d74932",
+  "texto": "                               BOLETÍN OFICIAL DEL ESTADO\n                                    LEGISLACIÓN CONSOLIDADA\n\n\n\n    El esquema IT no tiene ningún punto de la alimentación conectado directamente a tierra.\nLas masas de la instalación receptora están puestas directamente a tierra (figura 5).\n\n                               Figura 5. Esquema de distribución tipo IT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    En este esquema la intensidad resultante de un primer defecto fase-masa o fase-tierra,\ntiene un valor lo suficientemente reducido como para no provocar la aparición de tensiones\nde contacto peligrosas.\n    La limitación del valor de la intensidad resultante de un primer defecto fase-masa o fase-\ntierra se obtiene bien por la ausencia de conexión a tierra en la alimentación, o bien por la\ninserción de una impedancia suficiente entre un punto de la alimentación (generalmente el\nneutro) y tierra. A este efecto puede resultar necesario limitar la extensión de la instalación\npara disminuir el efecto capacitivo de los cables con respecto a tierra.\n    En este tipo de esquema se recomienda no distribuir el neutro.\n    1.4 Aplicación de los tres tipos de esquemas\n    La elección de uno de los tres tipos de esquemas debe hacerse en función de las\ncaracterísticas técnicas y económicas de cada instalación. Sin embargo, hay que tener en\ncuenta los siguientes principios.\n    a) Las redes de distribución pública de baja tensión tienen un punto puesto directamente\na tierra por prescripción reglamentaria. Este punto es el punto neutro de la red. El esquema\nde  distribución  para  instalaciones  receptoras  alimentadas  directamente  de  una  red  de\ndistribución pública de baja tensión es el esquema TT.\n    b) En instalaciones alimentadas en baja tensión, a partir de un centro de transformación\nde abonado, se podrá elegir cualquiera de los tres esquemas citados.\n    c) No obstante lo dicho en a), puede establecerse un esquema IT en parte o partes de\nuna instalación alimentada directamente de una red de distribución pública mediante el uso\nde transformadores adecuados, en cuyo secundario y en la parte de la instalación afectada\nse establezcan las disposiciones que para tal esquema se citan en el apartado 1.3.\n    2. PRESCRIPCIONES ESPECIALES EN LAS REDES DE DISTRIBUCIÓN PARA LA\nAPLICACIÓN DEL ESQUEMA TN\n    Para que las masas de la instalación receptora puedan estar conectadas a neutro como\nmedida de protección contra contactos indirectos, la red de alimentación debe cumplir las\nsiguientes prescripciones especiales:\n    a) La sección del conductor neutro debe, en todo su recorrido, ser como mínimo igual a\nla indicada en la tabla siguiente, en función de la sección de los conductores de fase.\n\n\n\n\n\n\n                                                  Página 92"
+}
