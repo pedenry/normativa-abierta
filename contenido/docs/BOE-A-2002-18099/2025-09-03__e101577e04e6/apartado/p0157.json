@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0157",
+  "titulo": "Pagina fisica 157 - Baja tension",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 157",
+  "seccion_estimada": "Pagina fisica 157",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    157
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0157.md",
+  "archivo_json": "apartado/p0157.json",
+  "caracteres": 3378,
+  "primera_linea": "                               BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "ff1277a39679a3423d61582c114f6ef47c416c4bca1624573f8f181044a5483c",
+  "texto": "                               BOLETÍN OFICIAL DEL ESTADO\n                                    LEGISLACIÓN CONSOLIDADA\n\n\n\n    La utilización de tales dispositivos no constituye por sí mismo una medida de protección\ncompleta y requiere el empleo de una de las medidas de protección enunciadas en los\napartados 3.1 a 3.4 de la presente instrucción.\n    4. PROTECCIÓN CONTRA LOS CONTACTOS INDIRECTOS\n    Esta  protección  se  consigue  mediante  la  aplicación  de  algunas  de  las  medidas\nsiguientes:\n    4.1 Protección por corte automático de la alimentación\n    El corte automático de la alimentación después de la aparición de un fallo está destinado\na impedir que una tensión de contacto de valor suficiente, se mantenga durante un tiempo tal\nque puede dar como resultado un riesgo.\n    Debe existir una adecuada coordinación entre el esquema de conexiones a tierra de la\ninstalación utilizado de entre los descritos en la ITC-BT-08 y las características de los\ndispositivos de protección.\n    El corte automático de la alimentación está prescrito cuando puede producirse un efecto\npeligroso en las personas o animales domésticos en caso de defecto, debido al valor y\nduración de la tensión de contacto. Se utilizará como referencia lo indicado en la norma UNE\n20.572-1.\n    La tensión límite convencional es igual a 50 V, valor eficaz en corriente alterna, en\ncondiciones normales. En ciertas condiciones pueden especificarse valores menos elevados,\ncomo por ejemplo, 24 V para las instalaciones de alumbrado público contempladas en la\nITC-BT-09, apartado 10.\n    Se describen a continuación aquellos aspectos más significativos que deben reunir los\nsistemas de protección en función de los distintos esquemas de conexión de la instalación,\nsegún la ITC-BT-08 y que la norma UNE 20.460-4-41 define cada caso.\n    4.1.1 Esquemas TN, características y prescripciones de los dispositivos de protección.\n    Una puesta a tierra múltiple, en puntos repartidos con regularidad, puede ser necesaria\npara asegurarse de que el potencial del conductor de protección se mantiene, en caso de\nfallo, lo más próximo posible al de tierra. Por la misma razón, se recomienda conectar el\nconductor de protección a tierra en el punto de entrada de cada edificio o establecimiento.\n    Las características de los dispositivos de protección y las secciones de los conductores\nse eligen de manera que, si se produce en un lugar cualquiera un fallo, de impedancia\ndespreciable, entre un conductor de fase y el conductor de protección o una masa, el corte\nautomático se efectúe en un tiempo igual, como máximo, al valor especificado, y se cumpla\nla condición siguiente:\n\n                                                 Zs x Ia ≤ U0\n\n    donde:\n    Zs es la impedancia del bucle de defecto, incluyendo la de la fuente, la del conductor\nactivo hasta el punto de defecto y la del conductor de protección, desde el punto de defecto\nhasta la fuente.\n    Ia es la corriente que asegura el funcionamiento del dispositivo de corte automático en un\ntiempo como máximo igual al definido en la tabla 1 para tensión nominal igual a U0. En caso\nde utilización de un dispositivo de corriente diferencial-residual, Ia es la corriente diferencial\nasignada\n    U0 es la tensión nominal entre fase y tierra, valor eficaz en corriente alterna.\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                 Página 157"
+}

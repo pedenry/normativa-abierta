@@ -6,7 +6,9 @@ Normativa de edificación preparada para consultar textos y experimentar con rec
 
 ## Qué contiene
 
-El corpus público tiene **31 PDF redistribuibles**, 1.582 páginas y 3.033 segmentos: 15 documentos legales y 16 guías con permiso editorial. La evidencia de reutilización está en [licencias](licencias/). Las fuentes privadas del inventario de trabajo no forman parte de la entrega.
+El corpus distribuible tiene **46 PDF**, 4.324 páginas y 5.775 segmentos: 30 documentos legales y 16 guías con permiso editorial. La [ampliación BOE](ingesta/README.md) añade 15 disposiciones y 2.742 páginas al corpus inicial de 31 PDF. La evidencia de reutilización está en [licencias](licencias/). Las fuentes privadas del inventario de trabajo no forman parte de la entrega.
+
+Las 15 fuentes nuevas están en `contenido/` y se consultan con el adaptador local por su identificador `BOE-A-…`. Están segmentadas por página física, sin atribuirles una jerarquía de artículos verificada. El visor estático se genera a partir del mismo corpus mediante el [generador público y su proceso de publicación](docs/generacion-visor.md).
 
 Las páginas y apartados de `contenido/` permiten localizar el texto; el PDF original sigue siendo la referencia para tablas, fórmulas y dibujos. La extracción automática no ha recibido una revisión técnica humana completa. Una edición disponible no determina por sí sola su aplicabilidad a un proyecto.
 
@@ -57,6 +59,7 @@ Los [resultados depurados](evaluacion/piloto_sua/resultados-publicos/) conservan
 
 - `contenido/`: fuentes públicas, índices, páginas y apartados.
 - `site/` e `index.html`: visor estático.
+- `herramientas/generar_site.py`: generación reproducible del visor desde el corpus distribuible.
 - `experimentos/http-local/`: recuperador, adaptador y servidores experimentales.
 - `evaluacion/piloto_sua/`: casos sintéticos, pruebas y evidencia depurada.
 - `docs/`: uso y revisión de publicación.

@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0150",
+  "titulo": "Pagina fisica 150 - Baja tension",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 150",
+  "seccion_estimada": "Pagina fisica 150",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    150
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0150.md",
+  "archivo_json": "apartado/p0150.json",
+  "caracteres": 3748,
+  "primera_linea": "                               BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "db5efbf7da6da7da33e3349003c4926325e6aa28e3862d5f63d008503e91c62a",
+  "texto": "                               BOLETÍN OFICIAL DEL ESTADO\n                                     LEGISLACIÓN CONSOLIDADA\n\n\n\n    1. PROTECCIÓN DE LAS INSTALACIONES\n    1.1 Protección contra sobreintensidades\n    Todo circuito estará protegido contra los efectos de las sobreintensidades que puedan\npresentarse en el mismo, para lo cual la interrupción de este circuito se realizará en un\ntiempo conveniente o estará dimensionado para las sobreintensidades previsibles.\n    Las sobreintensidades pueden estar motivadas por:\n    – Sobrecargas debidas a los aparatos de utilización o defectos de aislamiento de gran\nimpedancia.\n    – Cortocircuitos.\n    – Descargas eléctricas atmosféricas\n    a) Protección contra sobrecargas. El límite de intensidad de corriente admisible en un\nconductor ha de quedar en todo caso garantizada por el dispositivo de protección utilizado.\n    El dispositivo de protección podrá estar constituido por un interruptor automático de corte\nomnipolar  con  curva  térmica  de  corte,  o  por  cortacircuitos  fusibles  calibrados  de\ncaracterísticas de funcionamiento adecuadas.\n    b)  Protección  contra  cortocircuitos.  En  el  origen  de  todo  circuito  se  establecerá  un\ndispositivo de protección contra cortocircuitos cuya capacidad de corte estará de acuerdo\ncon la intensidad de cortocircuito que pueda presentarse en el punto de su conexión. Se\nadmite, no obstante, que cuando se trate de circuitos derivados de uno principal, cada uno\nde estos circuitos derivados disponga de protección contra sobrecargas, mientras que un\nsolo dispositivo general pueda asegurar la protección contra cortocircuitos para todos los\ncircuitos derivados.\n    Se admiten como dispositivos de protección contra cortocircuitos los fusibles calibrados\nde características de funcionamiento adecuadas y los interruptores automáticos con sistema\nde corte omnipolar.\n    La norma UNE 20.460-4-43 recoge en su articulado todos los aspectos requeridos para\nlos dispositivos de protección en sus apartados:\n    432 Naturaleza de los dispositivos de protección.\n    433 Protección contra las corrientes de sobrecarga.\n    434 Protección contra las corrientes de cortocircuito.\n    435 Coordinación entre la protección contra las sobrecargas y la protección contra los\ncortocircuitos.\n    436 Limitación de las sobreintensidades por las características de alimentación.\n    1.2 Aplicación de las medidas de protección\n    La  norma  UNE  20.460-4-473  define  la  aplicación  de  las  medidas  de  protección\nexpuestas  en  la  norma  UNE  20.460-4-43  según  sea  por  causa  de  sobrecargas  o\ncortocircuito,  señalando  en  cada  caso  su  emplazamiento  u  omisión,  resumiendo  los\ndiferentes casos en la siguiente tabla.\n\n                                                    Tabla 1\n\n\n                          Circuitos           3 F + N             3 F     F + N   2 F\n                                       SN ≥ SF      SN < SF\n                          Esquemas   F  F  F  N   F  F  F  N   F  F   F   F   N   F F\n                           TN – C    P  P P    -  P  P  P   ‒  P  P   P   P   -   P P\n                                                           (1)\n                            TN – S   P  P P    -  P  P  P  P   P  P   P   P   -   P P\n                                                          (3)(5)\n                              TT     P  P P    -  P  P  P  P   P  P   P   P   -   P P\n                                                          (3)(5)     (2)(4)         (2)\n                              IT     P  P P   P   P  P  P  P   P  P   P   P   P   P P\n                                             (3)(6)       (3)(6)            (6)(3)  (2)\n\n\n    NOTAS:\n\n\n                                                  Página 150"
+}

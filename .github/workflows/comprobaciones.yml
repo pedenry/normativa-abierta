@@ -23,6 +23,7 @@ jobs:
         run: |
           python -B -m unittest discover -s evaluacion/piloto_sua -p 'test_*.py' -v
           python -B -m unittest discover -s experimentos/http-local/tests -p 'test_*.py' -v
+          python -B -m unittest discover -s herramientas/tests -p 'test_*.py' -v
       - name: Recalcular consumo publicado
         run: python -B evaluacion/piloto_sua/resumir_consumo.py --run evaluacion/piloto_sua/resultados-publicos/evaluacion-20261110
 

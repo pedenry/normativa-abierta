@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0242",
+  "titulo": "Pagina fisica 242 - Baja tension",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 242",
+  "seccion_estimada": "Pagina fisica 242",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    242
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0242.md",
+  "archivo_json": "apartado/p0242.json",
+  "caracteres": 2211,
+  "primera_linea": "                               BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "55030435613c4b60182c3f27967c9915f4564ae6b4e9fd006cd0724dfe3dc6b9",
+  "texto": "                               BOLETÍN OFICIAL DEL ESTADO\n                                    LEGISLACIÓN CONSOLIDADA\n\n\n\n    1. Conectar el generador a ensayar a una fuente de energía que alimente el generador y\nque sea capaz de suministrar una potencia igual o superior a la potencia del generador a\nensayar.\n    2. Conectar el generador a la red interior a ensayar.\n    3. Establecer una carga del 60 % y el 70 % de la potencia nominal del generador.\n    4.  Cortar  la  comunicación  entre  el  elemento  de  control  y  el  equipo  de  medida  de\npotencia.\n    5. Medir el tiempo transcurrido entre el corte de la comunicación y la desconexión del\ngenerador o limitación total de potencia del generador (0 %).\n    6. Medir la potencia generada por el generador, con una precisión de al menos el 0,5 %,\nrealizando medidas cada 50 ms.\n    La prueba se repetirá́ 3 veces.\n    La prueba se da por válida si el generador se desconecta o reduce hasta cero la\npotencia generada en menos de 2 segundos.\n    Repetir la prueba cortando la comunicación entre el elemento de control y el generador.\n    I.3.5 Determinación del número máximo de generadores:\n    En caso de que el sistema de reducción de potencia pueda utilizarse con más de un\ngenerador, se repetirán los siguientes ensayos con dos generadores trabajando en paralelo,\naportando cada uno de ellos entre el 40 % y el 60 % de la potencia total de las cargas, de\nmanera que entre ambos cubran el 100 % del consumo.\n    1. Tolerancia en régimen permanente.\n    2. Respuesta ante desconexiones de carga.\n    En este caso se medirán los tiempos de respuesta del sistema y se compararán con los\ntiempos obtenidos en caso de un único generador. La diferencia de tiempos resultante\npermitirá́  determinar  el  número  máximo  de  generadores  que  se  podrán  conectar  en  la\ninstalación de acuerdo a:\n\n\n\n\n\n    Siendo:\n    N: Número máximo de generadores que es posible incluir en el sistema\n    t1: Tiempo de respuesta con un único generador. Se tomará el tiempo de respuesta\nmáximo obtenido.\n    tr: Diferencia entre el tiempo de respuesta máximo con uno y dos generadores.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                 Página 242"
+}

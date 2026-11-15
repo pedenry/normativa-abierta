@@ -1,20 +1,20 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DB-SE-C · 6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)</title><link rel="stylesheet" href="../estilo.css">
+<title>6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)</title><link rel="stylesheet" href="../estilo.css">
 </head><body>
-<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">DB-SE-C</a> › 6.2.3</nav>
+<nav><a href="../index.html">Índice</a> › <a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">DB-SE-C</a></nav>
 
-<header class="meta">
-<p><a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">DB-SE-C</a> · 6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP) · versión 2019-12-20 · capa oficial</p>
-</header>
-<div class="cita"><strong>Cita:</strong> ID técnico a0155 · PDF pág. 68-71 · documento DB-SE-C · SHA256 a71133f4b0dc…</div>
-<p>Formatos: <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/apartado/a0155__6-2-3-calculo-de-los-coeficientes-de-empuje-activo-ka-y-.json">JSON compacto</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/apartado/a0155__6-2-3-calculo-de-los-coeficientes-de-empuje-activo-ka-y-.md">Markdown</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/fuente.pdf">PDF fuente</a></p>
-<p><a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">Ámbito del documento</a> · <a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html#ambito">texto del ámbito</a> ·
-<a href="../doc/db-se-c-oficial-2019-12-20-a71133f4b0dc.html">documento y tablas</a></p>
-<nav><a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__a0154.html">← ID a0154 · PDF pág. 68</a> <a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__a0156.html">ID a0156 · PDF pág. 71 →</a></nav>
-<h1><span class="aviso">ID a0155 · PDF pág. 68-71</span> — 6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)</h1>
-<p>ID técnico a0155 · PDF pág. 68-71 · <strong>jerarquía no validada por persona</strong> · contrastado con el literal de la página 68 (candidato tipográfico); no validado por persona · padre: raíz</p>
+<h1>6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)</h1>
+<header class="meta"><p><strong>DB-SE-C Cimientos</strong> · edición 2019-12-20 · capa oficial</p>
+<p>Documento <code>DB-SE-C-oficial</code> · SHA-256 del PDF <code>a71133f4b0dca253e45ea3071c70f2a512354bcc5cd841bf89b1a502f567ac5e</code></p>
+<p><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/fuente.pdf">Copia fiel del PDF fuente</a> · <a href="https://www.codigotecnico.org/pdf/Documentos/SE/DBSE-C.pdf">Fuente oficial</a></p>
+<p><a href="https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html">Ficha de la disposición en la fuente oficial</a></p>
+
+<div class="aviso"><strong>Alcance y límites</strong><ul><li>Extracción automática sin revisión técnica humana completa. Contraste tablas, fórmulas, notas y excepciones con el PDF. La edición disponible no determina la vigencia ni la aplicabilidad a un proyecto.</li><li>Extracción automática; el cotejo humano está pendiente.</li><li>Semántica y tablas no equivalen a validación exhaustiva.</li></ul></div></header>
+<div class="cita">ID técnico a0155 · páginas físicas <a href="../pagina/db-se-c-oficial-2019-12-20-a71133f4b0dc__p0068.html">68</a>, <a href="../pagina/db-se-c-oficial-2019-12-20-a71133f4b0dc__p0069.html">69</a>, <a href="../pagina/db-se-c-oficial-2019-12-20-a71133f4b0dc__p0070.html">70</a>, <a href="../pagina/db-se-c-oficial-2019-12-20-a71133f4b0dc__p0071.html">71</a></div>
+<nav><a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__a0154.html">← a0154</a> · <a href="db-se-c-oficial-2019-12-20-a71133f4b0dc__a0156.html">a0156 →</a></nav>
+<p>Formatos: <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/apartado/a0155__6-2-3-calculo-de-los-coeficientes-de-empuje-activo-ka-y-.json">JSON del segmento</a> · <a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/apartado/a0155__6-2-3-calculo-de-los-coeficientes-de-empuje-activo-ka-y-.md">Markdown</a></p>
 <pre class="literal">6.2.3 Cálculo de los coeficientes de empuje activo (KA) y pasivo (KP)
 1
 El empuje activo Pa se define como la resultante de los empujes unitarios, ’a, que puede determi-
@@ -24,15 +24,15 @@ Documento Básico SE-C Cimientos
 SE-C-64
 A
 K
-'·
+&#x27;·
 c·
 2
-v'
+v&#x27;
 ·
 A
 K
 a
-'
+&#x27;
 
 
 
@@ -44,9 +44,9 @@ a
 sen
 ·
 a
-'
+&#x27;
 ah
-'
+&#x27;
 
 
 
@@ -60,16 +60,16 @@ ah
 (
 sen
 )i
-'
+&#x27;
 (
 sen
 )·
-'
+&#x27;
 (
 sen
 )
 sen(
-)'
+)&#x27;
 -
 (
 ·sen
@@ -137,14 +137,14 @@ El empuje pasivo Pp se define como la resultante de los empujes unitarios ’
 mediante las siguientes fórmulas:
 P
 K
-'·
+&#x27;·
 c·
 2
-v'
+v&#x27;
 ·
 P
 K
-p'
+p&#x27;
 
 
 
@@ -155,9 +155,9 @@ p'
 (
 sen
 ·
-p'
+p&#x27;
 ph
-'
+&#x27;
 
 
 
@@ -173,16 +173,16 @@ SE-C-65
 (
 sen
 )i
-'
+&#x27;
 (
 sen
 )·
-'
+&#x27;
 (
 sen
 )
 sen(
-)'
+)&#x27;
 (
 ·sen
 β
@@ -244,7 +244,7 @@ movilización total de los empujes por lo que, salvo una justificación especial
 las estimaciones siguientes del ángulo de rozamiento  entre el terreno y el muro:
 a)
 para empuje activo y muro rugoso;
-'
+&#x27;
 3
 2 
 
@@ -253,7 +253,7 @@ para empuje activo y muro rugoso;
 terreno
 b)
 para empuje activo y muro poco rugoso;
-'
+&#x27;
 3
 1 
 
@@ -265,7 +265,7 @@ para empuje activo y muro liso:  = 0, si se emplea la hipótesis de Rankine o
 dos tixotrópicos
 d)
 para empuje pasivo:
-'
+&#x27;
 3
 1 
 
@@ -292,7 +292,9 @@ Para separaciones entre ejes de pilotes superiores a 3 veces el diámetro del pi
 sivo se calculará sobre la superficie proyectada de cada pilote. Para profundidades superiores a 1,5
 veces el diámetro del pilote se considerarán valores del empuje pasivo sobre dicha superficie, tri-
 ples a los definidos anteriormente.</pre>
-<h2>Página visual</h2><figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0069.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0069.png" alt="Página 69"></a><figcaption>Página visual 69 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0070.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0070.png" alt="Página 70"></a><figcaption>Página visual 70 (fuente para fórmulas/tablas/figuras)</figcaption></figure><figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0071.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0071.png" alt="Página 71"></a><figcaption>Página visual 71 (fuente para fórmulas/tablas/figuras)</figcaption></figure><p class="aviso">PDF fuente redistribuible: copia fiel enlazada en esta página (SHA256 verificado).</p>
-<footer>Generado estáticamente desde JSON normalizado; sin JavaScript ni servicios externos.
-El JSON es la fuente; este HTML es caché reproducible.</footer>
+
+<figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0069.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0069.png" alt="Página física 69"></a><figcaption>Página visual 69, para contrastar fórmulas, tablas y figuras.</figcaption></figure>
+<figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0070.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0070.png" alt="Página física 70"></a><figcaption>Página visual 70, para contrastar fórmulas, tablas y figuras.</figcaption></figure>
+<figure><a href="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0071.png"><img class="figura" src="../../contenido/docs/DB-SE-C-oficial/2019-12-20__a71133f4b0dc/figura/p0071.png" alt="Página física 71"></a><figcaption>Página visual 71, para contrastar fórmulas, tablas y figuras.</figcaption></figure>
+<footer>Generado estáticamente desde el corpus normalizado; sin JavaScript ni servicios externos. El HTML es una vista reproducible; conserve la fuente y la edición al citar.</footer>
 </body></html>

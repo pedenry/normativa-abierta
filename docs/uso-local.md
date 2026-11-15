@@ -34,6 +34,20 @@ El adaptador no necesita credenciales ni llama a un modelo. Lee el estado, todo 
 
 Los documentos se identifican en `contenido/docs/`; cada `doc.json` contiene edición, fuente y derechos. No adivines el ID ni la edición. El ejemplo reproduce la edición del piloto, no afirma qué norma resulta aplicable hoy a una obra.
 
+## Otras disposiciones del BOE
+
+El mismo adaptador incluye las quince fuentes de la [ampliación BOE](../ingesta/README.md): LOE, Código Estructural, baja tensión, telecomunicaciones, protección contra incendios, ascensores, certificación energética, residuos, seguridad de obra, ruido, agua, suelo y rehabilitación, accesibilidad de espacios públicos urbanizados, legionelosis y gas. No necesitas volver a descargar ni extraer los PDF para consultar un checkout que ya contenga la integración.
+
+Por ejemplo, para recuperar evidencia del REBT en la edición incorporada:
+
+```sh
+python -B experimentos/http-local/adaptador_contexto.py --consulta "Instalaciones de enlace centralización de contadores" --documento BOE-A-2002-18099 --version 2025-09-03 --presupuesto 20000 --max 3 --salida .local/contexto-rebt.json
+```
+
+Consulta las ediciones disponibles en [el índice de documentos](../contenido/indice/documentos.md) y en cada `doc.json`. Un filtro de edición ausente devuelve `version_no_disponible`, sin sustituirlo por la edición incorporada.
+
+Los fragmentos nuevos corresponden a páginas físicas completas. No son artículos ni apartados oficiales contrastados. Los avisos de la fuente acompañan al contexto y cuentan dentro de su presupuesto. Catorce PDF son textos consolidados meramente informativos; el Código Estructural es la publicación original de 10 de agosto de 2021, con correcciones posteriores pendientes de cotejo. Las tablas, fórmulas, dibujos, ámbito y régimen transitorio requieren revisión frente al PDF. La ampliación no extiende los resultados del piloto SUA a estas materias.
+
 ## Trabajar con planos
 
 Guarda los planos fuera del repositorio o en `.local/`. No los añadas a Git. Confirma que puedes compartirlos con el proveedor del modelo antes de darle acceso.

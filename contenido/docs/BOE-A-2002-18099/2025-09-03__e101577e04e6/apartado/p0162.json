@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0162",
+  "titulo": "Pagina fisica 162 - Baja tension",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 162",
+  "seccion_estimada": "Pagina fisica 162",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    162
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0162.md",
+  "archivo_json": "apartado/p0162.json",
+  "caracteres": 2227,
+  "primera_linea": "                               BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "56890c5ca200c875a2dfa5cfeeb4977e0406e97121b0885200e8d4ba935a7c10",
+  "texto": "                               BOLETÍN OFICIAL DEL ESTADO\n                                    LEGISLACIÓN CONSOLIDADA\n\n\n\nFigura 6. Esquema IT unido a tierra por impedancia Z y con las puestas a tierra de la\n                                alimentación y de las masas separadas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    En el esquema IT, se utilizan los dispositivos de protección siguientes:\n    – Controladores permanentes de aislamiento\n    – Dispositivos de protección de corriente diferencial-residual\n    – Dispositivos de protección de máxima corriente, tales como fusibles, interruptores\nautomáticos.\n    Si se ha previsto un controlador permanente de primer defecto para indicar la aparición\nde un primer defecto de una parte activa a masa o a tierra, debe activar una señal acústica o\nvisual.\n    Después de la aparición de un primer defecto, las condiciones de interrupción de la\nalimentación en un segundo defecto deben ser las siguientes:\n    – Cuando se pongan a tierra masas por grupos o individualmente, las condiciones de\nprotección son las del esquema TT, salvo que el neutro no debe ponerse a tierra.\n    – Cuando  las  masas  estén  interconectadas  mediante  un  conductor  de  protección,\ncolectivamente a tierra, se aplican las condiciones del esquema TN, con protección mediante\nun dispositivo contra sobreintensidades de forma que se cumplan las condiciones siguientes:\n    a) si el neutro no esta distribuido: 2 x Zs x Ia ≤ U\n    b) si el neutro esta distribuido: 2 x Zs’ x Ia ≤ U0\n    donde:\n    Zs es la impedancia del bucle de defecto constituido por el conductor de fase y el\nconductor de protección.\n    Zs’  es  la  impedancia  del  bucle  de  defecto  constituido  por  el  conductor  neutro,  el\nconductor de protección y el de fase.\n    Ia es la corriente que garantiza el funcionamiento del dispositivo de protección de la\ninstalación en un tiempo t, según la tabla 2, ó tiempos superiores, con 5 segundos como\nmáximo, para aquellos casos especiales contemplados en la norma UNE 20.460-4-41.\n    U es la tensión entre fases, valor eficaz en corriente alterna.\n    U0 es la tensión entre fase y neutro, valor eficaz en corriente alterna\n\n\n\n\n\n\n\n\n\n\n                                                  Página 162"
+}

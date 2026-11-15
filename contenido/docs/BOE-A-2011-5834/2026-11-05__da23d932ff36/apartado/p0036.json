@@ -1,0 +1,26 @@
+{
+  "id_tecnico": "p0036",
+  "titulo": "Pagina fisica 36 - Telecomunicaciones",
+  "ruta_oficial": null,
+  "ruta_semantica": "Pagina fisica 36",
+  "seccion_estimada": "Pagina fisica 36",
+  "parent_id": null,
+  "nivel": 1,
+  "paginas": [
+    36
+  ],
+  "etiquetas_impresas": [
+    null
+  ],
+  "tipos": [],
+  "referencias": [],
+  "jerarquia_verificada": false,
+  "ruta_oficial_verificada": false,
+  "es_encabezado_navegacion": false,
+  "archivo": "apartado/p0036.md",
+  "archivo_json": "apartado/p0036.json",
+  "caracteres": 4016,
+  "primera_linea": "                                BOLETÍN OFICIAL DEL ESTADO",
+  "sha256_texto": "c171f6b9e1f0e09ead3a6db1e00d387c798dbe9d137cf9256573a375aa63c53b",
+  "texto": "                                BOLETÍN OFICIAL DEL ESTADO\n                                      LEGISLACIÓN CONSOLIDADA\n\n\n\n                           N.º pares (N)  N.º cables            Tipo de cable\n                           100 < N ≤ 125       2       1(100p)+1(25p) o 1(75p)+1(50p)\n                           125 < N ≤ 150       2           1(100p)+1(50p) o 2(75p)\n                           150 < N ≤ 175       2               1(100p)+1(75p)\n                           175 < N ≤ 200       2                   2(100p)\n                           200 < N ≤ 225       3           2(100p)+1(25p) o 3(75p)\n                           225 < N ≤ 250       3      2(100p)+1(50p) o 1(100p)+2(75p)\n                           250 < N ≤ 275       3               2(100p)+1(75p)\n                           275 < N ≤ 300       3                   3(100p)\n\n    El dimensionado de la red de distribución se proyectará con cable o cables multipares,\ncuyos pares estarán todos conectados en las regletas de salida del punto de interconexión.\n    En el caso de edificios con una red de distribución/dispersión inferior o igual a 30 pares,\nésta podrá realizarse con cable de uno o dos pares desde el punto de distribución instalado\nen el registro principal. Del registro principal partirán, en su caso, los cables de acometida\nque subirán por las plantas para acabar directamente en los PAU.\n    Los puntos de distribución estarán formados por las regletas de conexión en cantidad\nsuficiente para agotar con holgura toda la posible demanda de la planta correspondiente. El\nnúmero de regletas se hallará calculando el cociente entero redondeado por exceso que\nresulte de dividir el total de pares del cable, o de los cables, de distribución por el número de\nplantas y por cinco o diez, según el tipo de regleta a utilizar.\n    b) Edificaciones con varias verticales.\n    La red de cada vertical será tratada como una red de distribución independiente, y se\ndiseñará, por tanto, de acuerdo con lo indicado en el apartado anterior.\n    3.3.3. Redes de cables coaxiales.\n    a) Edificaciones con una vertical:\n    i) Configuración en estrella:\n    Se empleará en edificaciones con un número de PAU no superior a 20. En el registro\nprincipal los cables serán terminados en un conector tipo F, mientras que en los PAU se\nconectarán a los distribuidores de cada usuario situados en los mismos.\n    ii) Configuración en árbol-rama:\n    Se  empleará  en  edificaciones  con  un  número  de  PAU  superior  a  20.  La  red  de\ndistribución se realizará con un único cable coaxial que saldrá del registro principal situado\nen el RITI y terminará en el último registro secundario. En cada registro secundario se\ninsertará el derivador apropiado para alimentar los PAU de cada planta. En el panel de salida\ndel registro principal, el cable coaxial que constituye la red de distribución será terminado en\nun conector tipo F.\n    b) Edificaciones con varias verticales.\n    La red de cada vertical será tratada como una red de distribución independiente, y se\ndiseñará, por tanto, de acuerdo con lo indicado en el apartado anterior.\n    3.3.4. Redes de cables de fibra óptica.\n    a) Edificaciones con una vertical.\n    Conocida la necesidad futura a medio y largo plazo, tanto por plantas como en el total de\nla  edificación,  o  estimada  dicha  necesidad  según  lo  indicado  en  el  apartado  3.1.4,  se\ndimensionará la red de distribución con arreglo a los siguientes criterios:\n    i) La cifra de demanda prevista se multiplicará por el factor 1,2 lo que asegura una\nreserva suficiente para prever posibles averías de algunas fibras ópticas o alguna desviación\npor exceso sobre la demanda prevista.\n    ii) Obtenido de esta forma el número teórico de fibras ópticas necesarias, se utilizará el\ncable multifibra normalizado de capacidad igual o superior a dicho valor o combinaciones de\nvarios cables normalizados, teniendo también en cuenta la técnica de instalación que se\n\n\n\n\n                                                    Página 36"
+}

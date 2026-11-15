@@ -1,0 +1,37 @@
+{
+  "id": "BOE-A-1999-21567",
+  "code": "BOE-A-1999-21567",
+  "title": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación.",
+  "layer": "asociada",
+  "scope": "Ordenacion de la edificacion",
+  "version": "2022-06-15",
+  "version_dir": "2022-06-15__6702f07752ca",
+  "version_label_literal": "Última modificación: 15 de junio de 2022",
+  "sha256": "6702f07752caa8ee848a1b23c8db86175d8a1f00dcbd8a5b912e3fc2a72c80c7",
+  "url": "https://www.boe.es/buscar/pdf/1999/BOE-A-1999-21567-consolidado.pdf",
+  "landing": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-21567",
+  "distribute": true,
+  "normativo": true,
+  "license_status": "art13 disposicion legal; reutilizacion BOE",
+  "license_evidence": "licencias/ampliacion-boe-2026-11-15.json",
+  "creditos": "Basado en datos de la Agencia Estatal Boletín Oficial del Estado",
+  "ambito_literal": null,
+  "conteos": {
+    "paginas": 23,
+    "apartados": 23,
+    "caracteres": 93958
+  },
+  "tablas_por_pagina": {},
+  "figuras": [],
+  "formulas": {},
+  "metodo_segmentacion": "pagina_fisica",
+  "nota_capa": "consolidado",
+  "extraccion": "pypdf 6.14.2 layout; strip_rotated=False",
+  "advertencias": [
+    "Consolidado meramente informativo, sin valor oficial.",
+    "Extraccion automatica: tablas, formulas y notas sin cotejar.",
+    "Etiquetas impresas desconocidas; jerarquia no verificada; figuras no cotejadas.",
+    "Ambito y regimen transitorio pendientes de verificacion.",
+    "Atribucion: Basado en datos de la Agencia Estatal Boletín Oficial del Estado"
+  ]
+}
