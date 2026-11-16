@@ -21,7 +21,7 @@ Uso:
         [--contenido RUTA] [--presupuesto 12000] [--max 5] [--salida ruta.json]
 
 Estados: ok | sin_resultados | version_no_disponible | documento_no_disponible |
-presupuesto_excedido. Los filtros documento/versión se validan ANTES de buscar; la
+presupuesto_excedido | aclaracion_necesaria. Los filtros documento/versión se validan ANTES de buscar; la
 versión solicitada se contrasta por igualdad exacta con la del doc.json y jamás se
 sustituye por otra. El presupuesto se aplica al texto_contexto FINAL serializado
 (incluidos metadatos): si excede, el texto se conserva íntegro con excedido=true —
@@ -55,6 +55,54 @@ Limitaciones declaradas (reales, no silenciadas):
   -- Advertencias -- de texto_contexto, antes del recuento del presupuesto final.
   Son contenido, no instrucciones: ante tipos inesperados se omiten y jamás se
   reconstruyen como texto.
+- Sin --documento, la consulta puede resolver ámbito territorial SOLO con los
+  metadatos ya cargados (jurisdiccion/municipio de los doc.json; tildes/case y
+  variantes genéricas sin prefijo administrativo). Con ámbito reconocido, el
+  conjunto de búsqueda = fuentes nacionales complementarias (sin metadato
+  territorial) + autonómicas de la jurisdicción pedida + municipales solo del
+  municipio pedido; nunca otra jurisdicción o ciudad, y la ubicación sola no
+  decide el nivel normativo. La CCAA padre de un municipio se deriva del
+  metadato de la propia fuente municipal. Intención municipal explícita
+  («ayuntamiento de X», «ordenanza municipal de X») sin fuentes incorporadas:
+  sin_resultados explicado, sin sustituir por otra ciudad ni por la CCAA de
+  nombre similar; «licencia/trámite» a secas no es intención municipal. Varios
+  territorios se unen explícitamente con traza; el filtro documento/versión
+  explícito tiene precedencia y no se infiere nada. Mención territorial no
+  resoluble: búsqueda global con aviso, sin afirmar vigencia. Sin mención:
+  global intacta y sin claves nuevas. La vista de búsqueda puede derivarse del
+  literal (trazada en resolucion_ambito y cabecera); la consulta original se
+  conserva. Detectar municipios sin incorporar exige mayúscula tras «en/para».
+- Sin --documento y sin mención territorial resuelta, si la consulta plantea
+  materia que se decide con normas autonómicas o municipales (régimen y
+  clasificación del suelo, edificabilidad, aprovechamientos, cesiones;
+  licencias, trámites, declaraciones responsables, plazos, documentación,
+  actividad, altura, linderos, parcelas, segregaciones o su aplicación a una
+  reforma o proyecto dentro del dominio urbano-constructivo), se devuelve
+  aclaracion_necesaria ANTES de buscar: campos_requeridos y pregunta en
+  español, sin resultados ni fuente, edición o jurisdicción inferidas.
+  Detección por intención con vocabulario operativo: «suelo» o «registro» a
+  secas no bastan. El marco estatal/nacional pedido expresamente no pide
+  lugar y limita los candidatos a fuentes nacionales por la puerta
+  documentos_permitidos (sin tocar el IDF global ni el ranking); un «marco
+  normativo» genérico sin escala no supone estatal y sí puede aclarar. Si
+  junto a la escala estatal se pide también autonómica o municipal, la
+  consulta es mixta: la exclusividad nacional no procede y vuelve al cauce
+  general (aclaración o búsqueda global). Cabeza municipal sin operativa
+  local («cesión … al ayuntamiento») no exige municipio si la materia ya es
+  de régimen autonómico.
+- Sin --documento y sin ámbito resuelto, una consulta de relación/conexión
+  («qué conecta una entidad … de una X») puede derivar una vista de búsqueda
+  que enfoca la entidad pedida y omite la cola final subordinada con artículo
+  indeterminado (contexto, no objeto de la relación); la consulta original se
+  conserva y la vista queda trazada en advertencias y `vista_busqueda`.
+- Con marco estatal exclusivo (sin documento ni ámbito resuelto), una
+  consulta conceptual de definición («cuáles son [entidad] que
+  distingue/define/establece/regula …») puede acotar los candidatos
+  nacionales a las fuentes cuyo texto en disco contiene literalmente la
+  frase normalizada de la entidad, con vista enfocada para BM25 (mismas
+  filas e IDF global) y traza en advertencias y `vista_busqueda`; sin
+  coincidencia literal se conserva el conjunto nacional completo y la
+  consulta original, sin sustitución autonómica.
 """
 import argparse
 import hashlib
@@ -76,10 +124,334 @@ except Exception as e:  # pragma: no cover
 
 CONTENIDO_DEFECTO = Path(__file__).resolve().parents[2] / "contenido"
 ESTADOS = ("ok", "sin_resultados", "version_no_disponible",
-           "documento_no_disponible", "presupuesto_excedido")
+           "documento_no_disponible", "presupuesto_excedido",
+           "aclaracion_necesaria")
 _RANGO_MOTIVO = {"primaria": 0, "fuente_apartado": 1, "continuada": 2, "auxiliar": 3}
 
 __all__ = ["AdaptadorContexto", "CONTENIDO_DEFECTO", "ESTADOS"]
+
+
+# --- ámbito territorial: resolución SOLO desde jurisdiccion/municipio de los
+# doc.json ya cargados; vocabulario administrativo genérico, sin IDs ni casos.
+_CABECERAS_TERRITORIO = (
+    "comunidad autonoma de", "comunidad foral de", "comunidad de",
+    "comunitat de", "region de", "principado de", "provincia de",
+    "ciudad de", "diputacion de", "comunidad", "comunitat",
+    "islas de", "illes de", "islas", "illes", "isla de", "isla")
+_ARTICULOS = ("de", "del", "la", "el", "los", "las")
+# «en/para + Nombre propio»: SOLO para detectar menciones no resolubles con el
+# corpus; la resolución efectiva exige correspondencia en metadatos.
+_PATRON_EN_NOMBRE = re.compile(
+    r"\b(?i:en|para)\s+(?:el\s+|la\s+|los\s+|las\s+)?"
+    r"([A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]{3,}(?:\s+(?:de\s+|del\s+|la\s+|el\s+)*"
+    r"[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]{3,})*)")
+# Intención municipal explícita: cabeza municipal + «de» antes del nombre
+# («ayuntamiento de X», «ordenanza municipal de X», «ciudad de X»), o léxico
+# municipal en la consulta junto a mención libre. «Licencia» o «trámite» a
+# secas NO es intención municipal: la ubicación sola no decide el nivel.
+_CABEZAS_MUNICIPALES = ("ayuntamiento", "ajuntament", "municipio", "ciudad",
+                        "ordenanza", "ordenanzas", "municipal", "municipales")
+_LEXICO_MUNICIPAL = re.compile(
+    r"\b(?:ayuntamiento|ajuntament|ordenanzas?|municipales?|municipios?)\b")
+
+
+def _palabras_ambito(t):
+    """Palabras normalizadas (tildes/case/puntuación fuera) de un texto."""
+    return re.sub(r"[^0-9a-z ]+", " ", A.norm(t)).split()
+
+
+def _variantes_alias(canon):
+    """Claves de alias: forma completa y variantes sin prefijo administrativo
+    genérico ni artículo inicial («Comunidad de Madrid» -> «...madrid», «madrid»)."""
+    claves, base = [], _palabras_ambito(canon)
+    if base:
+        claves.append(" ".join(base))
+        for pref in _CABECERAS_TERRITORIO:
+            pp = pref.split()
+            if len(base) > len(pp) and base[:len(pp)] == pp:
+                resto = base[len(pp):]
+                while resto and resto[0] in _ARTICULOS:
+                    resto = resto[1:]
+                if resto:
+                    claves.append(" ".join(resto))
+        if len(base) > 1 and base[0] in _ARTICULOS:
+            claves.append(" ".join(base[1:]))
+    out, vistos = [], set()
+    for c in claves:
+        if len(c) >= 4 and c not in vistos:
+            vistos.add(c)
+            out.append(c)
+    return out
+
+
+def _construir_alias_ambito(docs):
+    """{clave normalizada: {canonico: {"niveles": set, "documentos": set}}} desde
+    jurisdiccion/municipio reales de los doc.json; sin metadato, sin clave."""
+    tabla = {}
+    for doc, (dj, _base) in docs.items():
+        dj = dj or {}
+        for campo, nivel in (("jurisdiccion", "jurisdiccion"),
+                             ("municipio", "municipio")):
+            canon = str(dj.get(campo) or "").strip()
+            if not canon:
+                continue
+            for clave in _variantes_alias(canon):
+                ent = tabla.setdefault(clave, {})
+                e2 = ent.setdefault(canon, {"niveles": set(), "documentos": set()})
+                e2["niveles"].add(nivel)
+                e2["documentos"].add(doc)
+    return tabla
+
+
+def _posicion_tupla(palabras, tupla):
+    n = len(tupla)
+    for i in range(len(palabras) - n + 1):
+        if tuple(palabras[i:i + n]) == tupla:
+            return i
+    return None
+
+
+def _intencion_municipal_adyacente(palabras, i):
+    """Intención municipal explícita: cabeza municipal + «de/del» inmediatamente
+    antes del nombre mencionado («ayuntamiento de X», «ordenanza municipal de X»)."""
+    return i >= 2 and palabras[i - 1] in ("de", "del") and \
+        palabras[i - 2] in _CABEZAS_MUNICIPALES
+
+
+def _fragmento_literal(consulta, palabras, i, j):
+    """Fragmento original de la consulta para el tramo [i, j) de palabras."""
+    tokens = str(consulta).split()
+    return " ".join(tokens[i:j] if len(tokens) == len(palabras) else palabras[i:j])
+
+
+def _consulta_derivada(consulta, palabras, elegidos):
+    """Vista de búsqueda sin los tramos territoriales auto resueltos (y su
+    «en/para» adyacente), para no premiar portadas por identidad. Literal
+    trazado; vacía o incoherente -> None (se conserva la consulta original)."""
+    if not elegidos:
+        return None
+    borrar = set()
+    for a, b, _clave in elegidos:
+        ini = a
+        if ini > 1 and palabras[ini - 1] in _ARTICULOS and \
+                palabras[ini - 2] in ("en", "para"):
+            ini -= 2
+        elif ini > 0 and palabras[ini - 1] in ("en", "para"):
+            ini -= 1
+        borrar.update(range(ini, b))
+    tokens = str(consulta).split()
+    if len(tokens) != len(palabras):
+        return None
+    resto = re.sub(r"\s+", " ", " ".join(
+        t for i, t in enumerate(tokens) if i not in borrar)).strip()
+    return resto or None
+
+
+# --- aclaración territorial: sin documento explícito ni mención territorial
+# resuelta, si la consulta plantea materia que se decide con normas
+# autonómicas o municipales se pide la ubicación faltante en vez de dejar que
+# la búsqueda global adjudique una comunidad autónoma. Reglas por intención
+# jurídico-urbanística con vocabulario operativo (tallos normalizados mediante
+# _palabras_ambito), sin IDs, sin oro, sin ciudades y sin frases exactas.
+_MARCO_NORMATIVO = ("norma", "normativ", "legal", "legislac", "regulator",
+                     "reglam", "juridic", "ley")
+# Escala estatal explícita: tallo de escala («estatal», «nacional») o sintagma
+# «del Estado», junto a lexema normativo. Un «estado» aislado (estado de un
+# expediente, estado de conservación) NO designa la escala nacional y
+# «estatuto» no empieza por ninguno. Un «marco normativo» genérico sin escala
+# NO supone estatal: si la materia es local, se pide aclaración.
+_ESTATALES = ("estatal", "nacional")
+# Modificadores que, junto a «edificable», marcan umbral o uso residencial.
+_MOD_EDIFICAB = ("limit", "maxim", "residencial")
+# «Abrir/apertura» junto a «local/local/es» (nunca «local» aislado).
+_ABRE_LOCAL = ("abri", "apertur")
+# Núcleo unívoco del dominio urbano-constructivo: los tallos genéricos de
+# procedimiento y parámetro sólo cuentan junto a este núcleo («suelo»,
+# «terreno» o «parcela» a secas NO bastan: «suelo eléctrico»,
+# «impermeabilidad del suelo» o «parcela de cementerio» no son urbanismo).
+_TRAMA_URBANA = ("urbanist", "urbanismo", "urbanizac", "planeamiento", "edific",
+                 "construc", "obra", "vivienda", "terraza", "apertura",
+                 "catastro", "finca", "rustic")
+# Nivel CCAA: régimen del suelo y parámetros con umbral legal autonómico.
+_CA_SOLOS = ("edificabilidad", "aprovechamiento")
+# Nivel municipio: cabezas locales y tallos de procedimiento (no se vetan) y
+# parámetros físicos del planeamiento local (se vetan ante vocabulario
+# técnico: altura e instalaciones eléctricas no son planeamiento local).
+_MUN_SOLOS = ("ordenanza", "ayuntamiento", "ajuntament")
+_MUN_PROC = ("licencia", "tramite", "plazo", "documentac", "actividad",
+             "reforma", "proyecto")
+_PARAM_LOCAL = ("altura", "lindero", "parcela", "segrega")
+_TECNICA = ("instalac", "contador", "electric", "enlace", "enchuf",
+            "medidor", "acometida", "cablead", "fontaner", "saneam",
+            "ventilac", "accesib", "pasillo", "ascensor", "cimentac",
+            "estructur", "termic", "aislam")
+
+
+def _adyacentes(palabras, a, b):
+    """Par de tallos adyacentes o unidos por «de/del/no» («clasificación de
+    suelo», «suelo no urbanizable»)."""
+    n = len(palabras)
+    for i in range(n - 1):
+        if palabras[i].startswith(a):
+            if palabras[i + 1].startswith(b):
+                return True
+            if palabras[i + 1] in ("de", "del", "no") and i + 2 < n and \
+                    palabras[i + 2].startswith(b):
+                return True
+    return False
+
+
+def _explicito_estatal(palabras):
+    """True si la consulta pide expresamente el marco estatal/nacional: un
+    tallo de escala («estatal», «nacional») o el sintagma «del Estado»,
+    junto a un lexema normativo. Un «estado» aislado (estado de un
+    expediente) no es la escala nacional; la escala a secas o el «marco
+    normativo» genérico tampoco bastan: sin escala declarada no se supone
+    que la consulta busca el marco estatal."""
+    return (any(p.startswith(_ESTATALES) for p in palabras) or
+            _adyacentes(palabras, "del", "estado")) and \
+        any(p.startswith(_MARCO_NORMATIVO) for p in palabras)
+
+
+# Otra escala pedida junto a la estatal: la consulta mixta («estatal y
+# autonómica», «estatal o municipal») no es exclusiva del marco nacional.
+_OTRAS_ESCALAS = ("autonom", "municipal")
+# Verbos de relación/conexión cuya pregunta pide los elementos de una entidad.
+_VERBOS_RELACION = ("conect", "conex", "enlaza", "compone", "une", "unir")
+# Artículo indeterminado: marca de cola contextual, no de nombre técnico
+# («línea general de alimentación» va sin artículo; «de una instalación …»
+# enmarca el contexto).
+_ART_INDET = ("un", "una", "unos", "unas")
+
+
+def _escala_conjunta(palabras):
+    """True si además de la escala estatal la consulta pide autonómica o
+    municipal: la exclusividad nacional no procede y la consulta vuelve al
+    cauce general, sin veto por la palabra «estatal» a secas."""
+    return any(p.startswith(_OTRAS_ESCALAS) for p in palabras)
+
+
+def _vista_relacion(consulta, palabras):
+    """Vista derivada para consultas de relación/conexión: la entidad pedida es
+    el objeto del verbo y la cola final «de (un|una) …» solo enmarca el contexto
+    (una cola con «de» no es el objeto directo de la relación); la vista omite
+    esa cola para no premiar la mención genérica del marco. Exige verbo de
+    relación en la cabeza y contenido mínimo a ambos lados. Literal; el
+    llamador lo traza y conserva la consulta original. None si no procede."""
+    n = len(palabras)
+    cola = None
+    for i in range(1, n - 2):
+        if palabras[i] == "de" and palabras[i + 1] in _ART_INDET:
+            cola = i
+    if cola is None or cola < 3 or n - cola < 3:
+        return None
+    if not any(p.startswith(_VERBOS_RELACION) for p in palabras[:cola]):
+        return None
+    tokens = str(consulta).split()
+    if len(tokens) != len(palabras):
+        return None
+    vista = re.sub(r"\s+", " ", " ".join(tokens[:cola])).strip()
+    return vista or None
+
+
+# Consulta conceptual de definición/clasificación: cabeza «cuál/cuáles + ser»
+# y verbo definitorio tras «que». Léxico general de consulta, sin frases,
+# documentos ni casos concretos; la entidad es el sintagma entre la cabeza y
+# el «que», y el resto enmarca el marco legal.
+_CABEZAS_CONCEPTO = (("cuales", "son"), ("cual", "es"))
+_VERBOS_CONCEPTO = ("distingu", "defin", "establec", "regula")
+
+
+def _vista_conceptual(consulta, palabras):
+    """Vista para consultas conceptuales («cuáles son [entidad] que
+    distingue/define/establece/regula …»): la entidad es el sintagma entre la
+    cabeza interrogativa y el «que» seguido de verbo definitorio; el resto
+    enmarca el marco legal. Se omite el artículo inicial de la entidad y se
+    exige un sintagma de >=2 palabras. Literal; el llamador lo traza y
+    conserva la consulta original. None si no procede."""
+    tokens = str(consulta).split()
+    if len(tokens) != len(palabras):
+        return None
+    for h in range(len(palabras) - 5):
+        if tuple(palabras[h:h + 2]) not in _CABEZAS_CONCEPTO:
+            continue
+        for i in range(h + 3, len(palabras) - 1):
+            if palabras[i] != "que" or not any(
+                    palabras[i + 1].startswith(v) for v in _VERBOS_CONCEPTO):
+                continue
+            ini = h + 2
+            while ini < i and palabras[ini] in _ARTICULOS:
+                ini += 1
+            if i - ini >= 2:
+                return re.sub(r"\s+", " ", " ".join(tokens[ini:i])).strip() or None
+        return None
+    return None
+
+
+def _necesidad_ubicacion(consulta):
+    """Campos de ubicación que exige la consulta según su intención
+    jurídico-urbanística, o None si no hay evidencia de necesidad (la duda se
+    resuelve a favor de la búsqueda previa). Nivel CCAA: régimen y
+    clasificación del suelo, edificabilidad (tallo «edificabil-») y pares
+    operativos «edificable» + límite/máximo/residencial, aprovechamientos y
+    cesiones. Nivel CCAA + municipio: procedimientos locales (licencia de
+    actividad, apertura de local, trámites, declaración responsable, plazos,
+    documentación, actividad) y planeamiento local (altura, linderos,
+    parcela, segregación; reforma o proyecto). Los parámetros físicos
+    locales no disparan aclaración ante vocabulario técnico nacional
+    (instalaciones, contadores, accesibilidad): la duda se resuelve a favor
+    de la búsqueda. Un «marco normativo» genérico sin escala no suprime la
+    aclaración: acompaña a la materia local (p. ej. «marco normativo de la
+    licencia»), que sigue pidiendo lugar. Una cabeza municipal («ayuntamiento»)
+    sin operativa local no eleva a municipio cuando la materia ya es de régimen
+    autonómico (p. ej. el ayuntamiento como receptor de la cesión): se pide
+    solo la comunidad autónoma."""
+    palabras = _palabras_ambito(consulta)
+    if not palabras:
+        return None
+    if _explicito_estatal(palabras) and not _escala_conjunta(palabras):
+        return None  # marco estatal exclusivo: no pide lugar (mixta sí sigue)
+    marco_gen = any(p.startswith(("marco",) + _MARCO_NORMATIVO)
+                    for p in palabras)
+    nucleo = [p for p in palabras if p.startswith(_TRAMA_URBANA)]
+    impulso = bool(nucleo) or marco_gen
+    ca = (any(p.startswith(_CA_SOLOS) for p in palabras) or
+          (any(p.startswith("edificab") for p in palabras) and
+           any(m.startswith(_MOD_EDIFICAB) for m in palabras)) or
+          (impulso and any(p.startswith("cesion") for p in palabras)) or
+          _adyacentes(palabras, "clasific", "suelo") or
+          _adyacentes(palabras, "suelo", "urbano") or
+          _adyacentes(palabras, "suelo", "urbanizable") or
+          _adyacentes(palabras, "suelo", "rustic") or
+          _adyacentes(palabras, "suelo", "rural") or
+          _adyacentes(palabras, "suelo", "consolid"))
+    declara = (any(p.startswith("declaracion") for p in palabras) and
+               any(p.startswith("responsable") for p in palabras))
+    lic_act = (any(p.startswith("licencia") for p in palabras) and
+               any(p.startswith("actividad") for p in palabras))
+    abre_local = (any(p.startswith(_ABRE_LOCAL) for p in palabras) and
+                  any(p in ("local", "locales") for p in palabras))
+    tecnica = any(p.startswith(_TECNICA) for p in palabras)
+    # Operativa municipal declarada (norma o procedimiento local): con ella la
+    # cabeza municipal es intención local; sin ella y con materia ya de régimen
+    # autonómico, una cabeza municipal sola es solo el receptor o sujeto de la
+    # materia («cesión … al ayuntamiento») y no exige trámite local.
+    operativa_mun = (lic_act or abre_local or declara or
+                     any(p.startswith(_MUN_PROC) for p in palabras) or
+                     any(p.startswith(("ordenanza", "municipal"))
+                         for p in palabras))
+    mun = ((any(p.startswith(_MUN_SOLOS) for p in palabras) and
+            not (ca and not operativa_mun)) or
+           lic_act or abre_local or
+           (impulso and (declara or
+                         any(p.startswith(_MUN_PROC) for p in palabras))) or
+           (not tecnica and impulso and
+            any(p.startswith(_PARAM_LOCAL) for p in palabras)))
+    if mun:
+        return ["comunidad_autonoma", "municipio"]
+    if ca:
+        return ["comunidad_autonoma"]
+    return None
 
 
 class AdaptadorContexto:
@@ -98,6 +470,8 @@ class AdaptadorContexto:
         self.filas = [f for f in self.filas if f["documento"] in permitidos]
         self.docs = {d: v for d, v in docs_brutos.items() if d in permitidos}
         self.encs, self.modo_contadores = A.crear_contadores()
+        # Alias territoriales SOLO desde metadatos de los doc.json cargados.
+        self._alias_ambito = _construir_alias_ambito(self.docs)
 
     # ------------------------------------------------------------------ salida
 
@@ -165,6 +539,264 @@ class AdaptadorContexto:
             avisos.append(nota)
         return avisos
 
+    # ------------------------------------------------- ámbito de la consulta
+
+    def _resolver_ambito(self, consulta: str):
+        """Resuelve el ámbito SOLO con alias de metadatos cargados: coincidencia
+        por palabras normalizadas, la más larga primero y sin solapes; varios
+        territorios se unen explícitamente con traza. None si no hay mención
+        territorial detectable (búsqueda global intacta, salida sin claves
+        nuevas). JSON-serializable; el llamador no lo invoca con documento
+        explícito. Estados: resuelto | municipal_no_corporado | no_resuelto.
+        """
+        palabras = _palabras_ambito(consulta)
+        if not palabras:
+            return None
+        hallados = []
+        for clave in self._alias_ambito:
+            tupla = tuple(clave.split())
+            n = len(tupla)
+            if n > len(palabras):
+                continue
+            for i in range(len(palabras) - n + 1):
+                if tuple(palabras[i:i + n]) == tupla:
+                    hallados.append((i, i + n, clave))
+        elegidos = []
+        for i, j, clave in sorted(hallados, key=lambda h: (-(h[1] - h[0]), h[0])):
+            if any(not (j <= a or i >= b) for a, b, _c in elegidos):
+                continue
+            elegidos.append((i, j, clave))
+        # Clasificación por nivel desde los metadatos de cada fuente. Regla
+        # general: nacionales (fuente sin metadato territorial) siempre
+        # complementarios; autonómicas solo de la jurisdicción pedida; municipales
+        # solo del municipio pedido. La ubicación sola no decide el nivel: el
+        # nivel municipal exige intención municipal explícita en la consulta.
+        municipios, ccaas, padres = {}, set(), set()
+        territorios, municipios_sin = [], []
+        for i, j, clave in sorted(elegidos, key=lambda h: h[0]):
+            info = self._alias_ambito[clave]
+            mun_canon = next((c for c in sorted(info)
+                              if "municipio" in info[c]["niveles"]), None)
+            for canon in sorted(info):
+                niv = sorted(info[canon]["niveles"])
+                padre = None
+                if canon == mun_canon:
+                    municipios[canon] = {d for d, (_jur, _mun) in
+                                         self._clasif_docs().items()
+                                         if _mun == canon}
+                    pj = sorted(self._padres_municipio(canon))
+                    if pj:
+                        padre = ", ".join(pj)
+                        ccaas.update(pj)
+                        padres.update(pj)
+                elif "jurisdiccion" in info[canon]["niveles"]:
+                    ccaas.add(canon)
+                territorios.append({
+                    "alias": clave, "canonico": canon, "niveles": niv,
+                    "documentos": sorted(info[canon]["documentos"]),
+                    "via": "doc.json:" + "+".join(niv), "padre_derivado": padre})
+            if mun_canon is None and _intencion_municipal_adyacente(palabras, i):
+                municipios_sin.append(_fragmento_literal(consulta, palabras, i, j))
+        nombres_no = []
+        for m in _PATRON_EN_NOMBRE.finditer(str(consulta)):
+            pal_nombre = _palabras_ambito(m.group(1))
+            if not pal_nombre:
+                continue
+            pos = _posicion_tupla(palabras, tuple(pal_nombre))
+            if pos is not None and any(a <= pos and pos + len(pal_nombre) <= b
+                                       for a, b, _c in elegidos):
+                continue
+            if m.group(1) in nombres_no or m.group(1) in municipios_sin:
+                continue
+            if _LEXICO_MUNICIPAL.search(A.norm(consulta)) or \
+                    (pos is not None and _intencion_municipal_adyacente(palabras, pos)):
+                municipios_sin.append(m.group(1))
+            else:
+                nombres_no.append(m.group(1))
+        if municipios_sin:
+            notas = ["intención municipal explícita para %s sin fuentes municipales "
+                     "incorporadas: no se sustituye por otra ciudad, por fuentes "
+                     "autonómicas de nombre similar ni por otra jurisdicción"
+                     % ", ".join("'%s'" % n for n in municipios_sin)]
+            if territorios:
+                notas.append("la jurisdicción reconocida en la consulta no suple la "
+                             "fuente municipal pedida; la ubicación sola no decide "
+                             "el nivel normativo")
+            return {"estado": "municipal_no_corporado", "consulta_original": consulta,
+                    "consulta_derivada": None, "territorios": territorios,
+                    "nombres_no_resueltos": nombres_no,
+                    "municipios_sin_fuentes": municipios_sin,
+                    "documentos_permitidos": None, "notas": notas}
+        if not territorios and not nombres_no:
+            return None
+        notas = []
+        if territorios:
+            if len(territorios) > 1:
+                notas.append("unión explícita de %d territorios reconocidos; no se "
+                             "prioriza ninguno por orden de aparición"
+                             % len(territorios))
+            if municipios:
+                notas.append("nivel municipal pedido: se permiten las fuentes "
+                             "municipales del municipio pedido, las autonómicas de "
+                             "su comunidad (derivada del metadato de la propia "
+                             "fuente) y las nacionales complementarias")
+            else:
+                notas.append("nivel autonómico pedido: se permiten las autonómicas "
+                             "de la jurisdicción y las nacionales complementarias; "
+                             "las fuentes municipales quedan fuera salvo municipio "
+                             "pedido expresamente")
+            if padres:
+                notas.append("comunidad autónoma padre derivada del metadato de las "
+                             "fuentes municipales pedidas: %s"
+                             % ", ".join(sorted(padres)))
+            if len({n for t in territorios for n in t["niveles"]}) > 1:
+                notas.append("ámbito mixto (municipio+jurisdicción): citar el nivel "
+                             "solicitado, sin confundir fuentes")
+            if nombres_no:
+                notas.append("menciones territoriales sin correspondencia en el "
+                             "corpus: " + ", ".join("'%s'" % n for n in nombres_no))
+            notas.append("nunca se incluyen fuentes de otra jurisdicción ni de otro "
+                         "municipio distinto al solicitado")
+            notas.append("fuentes nacionales (sin metadato territorial en su fuente) "
+                         "permitidas como complementarias; no sustituyen la "
+                         "respuesta del ámbito solicitado")
+            notas.append("edición = la incorporada por la fuente; sin afirmación de "
+                         "vigencia ni régimen transitorio")
+            permitidos = {d for d, (jur, mun) in self._clasif_docs().items()
+                          if not jur and not mun}
+            for docs_mun in municipios.values():
+                permitidos |= docs_mun
+            for c in ccaas:
+                permitidos |= {d for d, (jur, mun) in self._clasif_docs().items()
+                               if jur == c and not mun}
+            derivada = _consulta_derivada(consulta, palabras, elegidos)
+            return {"estado": "resuelto", "consulta_original": consulta,
+                    "consulta_derivada": derivada if derivada and
+                    derivada != consulta else None,
+                    "territorios": territorios, "nombres_no_resueltos": nombres_no,
+                    "municipios_pedidos": sorted(municipios),
+                    "documentos_permitidos": sorted(permitidos), "notas": notas}
+        notas.append("mención territorial sin correspondencia en los metadatos del "
+                     "corpus: búsqueda global conservada, sin sustitución de ámbito "
+                     "ni afirmación de vigencia")
+        return {"estado": "no_resuelto", "consulta_original": consulta,
+                "consulta_derivada": None, "territorios": [],
+                "nombres_no_resueltos": nombres_no,
+                "documentos_permitidos": None, "notas": notas}
+
+    def _clasif_docs(self):
+        """{doc: (jurisdiccion, municipio)} desde los doc.json cargados; en caché."""
+        if getattr(self, "_clasif", None) is None:
+            self._clasif = {}
+            for d, (dj, _b) in self.docs.items():
+                dj = dj or {}
+                self._clasif[d] = (str(dj.get("jurisdiccion") or "").strip(),
+                                   str(dj.get("municipio") or "").strip())
+        return self._clasif
+
+    def _padres_municipio(self, canon):
+        """Jurisdicciones que declaran las propias fuentes municipales de `canon`."""
+        return {jur for d, (jur, mun) in self._clasif_docs().items()
+                if mun == canon and jur}
+
+    def _lineas_ambito(self, res_amb):
+        """Líneas de cabecera con la traza de ámbito; vacía si no hubo resolución."""
+        if not res_amb:
+            return []
+        estado = res_amb.get("estado")
+        nombres = ", ".join("'%s'" % n for n in
+                            res_amb.get("municipios_sin_fuentes")
+                            or res_amb.get("nombres_no_resueltos") or [])
+        if estado == "resuelto":
+            t = ["Ámbito reconocido desde metadatos (jurisdicción/municipio de las "
+                 "fuentes; no es vigencia): " + "; ".join(
+                     "%s [%s · docs: %s]" % (
+                         x.get("canonico"), "/".join(x.get("niveles") or []),
+                         ", ".join(x.get("documentos") or []))
+                     for x in res_amb.get("territorios") or [])
+                 + ". Se admiten además fuentes nacionales complementarias (sin "
+                   "metadato territorial en su fuente); nunca de otra jurisdicción "
+                   "ni de otro municipio."]
+            if res_amb.get("consulta_derivada"):
+                t.append("Vista de búsqueda derivada (literal trazado): «%s»; la "
+                         "consulta original se conserva íntegra."
+                         % res_amb["consulta_derivada"])
+            return t
+        if estado == "no_resuelto":
+            return ["AVISO ámbito no resuelto: mención territorial (%s) sin "
+                    "correspondencia en los metadatos del corpus; búsqueda global "
+                    "sin sustitución de ámbito; no se afirma vigencia." % nombres]
+        if estado == "municipal_no_corporado":
+            return ["Intención municipal explícita sin incorporar: %s sin fuentes "
+                    "municipales en el corpus; sin sustitución por otra ciudad ni "
+                    "por fuentes autonómicas de nombre similar." % nombres]
+        return []
+
+    def _salida_municipal_no_corporado(self, consulta, res_amb, limite, t0):
+        """sin_resultados explicado: municipio pedido sin incorporar; sin
+        búsqueda ni fallback a otra ciudad, a su CCAA homónima ni a otra jurisdicción."""
+        nombres = ", ".join("'%s'" % n for n in
+                            res_amb.get("municipios_sin_fuentes")
+                            or res_amb.get("nombres_no_resueltos") or [])
+        partes = self._cabecera(consulta, None, None,
+                                ["", *self._lineas_ambito(res_amb),
+                                 "", "-- Advertencias --"])
+        partes.extend("- %s" % a for a in res_amb.get("notas") or [])
+        partes.append("")
+        partes.append("ESTADO sin_resultados: la consulta pide fuente municipal de "
+                      "un municipio sin incorporar (%s); no se sustituye por otra "
+                      "ciudad, por fuentes autonómicas de nombre similar ni por "
+                      "fuentes de otra jurisdicción." % nombres)
+        texto = "\n".join(partes) + "\n"
+        rec = {"busqueda": {"metodo": "bm25", "terminos": [], "ambito_capa": None},
+               "resultados": [], "advertencias": list(res_amb.get("notas") or []),
+               "omitidos": [], "relacionados_no_incluidos": []}
+        return self._salida("sin_resultados", consulta, None, None, texto, [], rec,
+                            limite, t0, resolucion_ambito=res_amb)
+
+    def _salida_aclaracion(self, consulta, campos, limite, t0):
+        """aclaracion_necesaria: sin documento explícito ni ubicación resuelta,
+        la materia planteada exige división autonómica o municipal; se pide el
+        dato faltante ANTES de buscar. Sin BM25, sin resultados retenidos, sin
+        fuente/edición/jurisdicción inferidas y sin elegir región alguna."""
+        municipio = len(campos) > 1
+        aclaracion = {
+            "campos_requeridos": list(campos),
+            "pregunta": (
+                "¿Sobre qué comunidad autónoma y qué municipio se plantea esta "
+                "consulta? La materia planteada se decide con normas "
+                "autonómicas o municipales y, sin la ubicación, no corresponde "
+                "elegir una jurisdicción concreta por cuenta propia."
+                if municipio else
+                "¿Sobre qué comunidad autónoma se plantea esta consulta? La "
+                "materia planteada se decide con normas autonómicas y, sin la "
+                "ubicación, no corresponde elegir una jurisdicción concreta "
+                "por cuenta propia.")}
+        aviso = ("aclaracion_necesaria: la consulta plantea materia que se decide "
+                 "con %s; sin documento explícito ni ubicación resuelta no se "
+                 "ejecutó búsqueda" %
+                 ("normas autonómicas o municipales" if municipio
+                  else "normas autonómicas"))
+        partes = self._cabecera(consulta, None, None,
+                                ["", "-- Aclaración territorial necesaria --"])
+        partes.append("- %s" % aviso)
+        partes.append("Campos requeridos: %s." %
+                      ", ".join(aclaracion["campos_requeridos"]))
+        partes.append("Pregunta: %s" % aclaracion["pregunta"])
+        partes.append("Se pide la ubicación en lugar de ejecutar la búsqueda: "
+                      "sin ella, una búsqueda global invitaría a adjudicar una "
+                      "comunidad autónoma; no se retienen resultados parciales "
+                      "ni se entrega una región como elección automática.")
+        partes.append("La consulta se conserva literal; no se infiere fuente, "
+                      "edición ni jurisdicción.")
+        texto = "\n".join(partes) + "\n"
+        rec = {"busqueda": {"metodo": "no_ejecutada", "terminos": [],
+                            "ambito_capa": None},
+               "resultados": [], "advertencias": [aviso], "omitidos": [],
+               "relacionados_no_incluidos": []}
+        return self._salida("aclaracion_necesaria", consulta, None, None, texto,
+                            [], rec, limite, t0, aclaracion=aclaracion)
+
     def preparar(self, consulta: str, documento: str | None = None,
                  version: str | None = None, presupuesto_tokens: int = 12000,
                  max_resultados: int = 5) -> dict:
@@ -226,14 +858,119 @@ class AdaptadorContexto:
                         presupuesto_tokens, t0, versiones_disponibles=versiones_disp)
                 objetivo = str(version)
 
+        # ---------------------------------- resolución de ámbito (metadatos)
+        # Solo búsqueda automática: el filtro documento/versión explícito y su
+        # versión validada tienen precedencia y no se infiere territorio alguno.
+        res_amb = None
+        perm = None
+        marco_nac = False
+        motivo_vista = None
+        vista_busq = None
+        consulta_busq = consulta
+        avisos_conc: list = []
+        if doc_id is None:
+            res_amb = self._resolver_ambito(consulta)
+            if res_amb and res_amb.get("estado") == "resuelto":
+                perm_set = set(res_amb.get("documentos_permitidos") or [])
+                if perm_set:
+                    perm = perm_set
+                    consulta_busq = res_amb.get("consulta_derivada") or consulta
+            elif res_amb and res_amb.get("estado") == "municipal_no_corporado":
+                return self._salida_municipal_no_corporado(
+                    consulta, res_amb, presupuesto_tokens, t0)
+            if not res_amb:
+                pal_amb = _palabras_ambito(consulta)
+                if _explicito_estatal(pal_amb) and not _escala_conjunta(pal_amb):
+                    # Marco estatal/nacional pedido expresamente: los
+                    # candidatos se limitan a fuentes nacionales (sin metadato
+                    # territorial en su fuente) por la puerta existente
+                    # documentos_permitidos, conservando IDF global y
+                    # precedencias. No es aclaración de lugar y no se elige
+                    # ninguna fuente autonómica como respuesta estatal.
+                    nac = {d for d, (jur, mun) in self._clasif_docs().items()
+                           if not jur and not mun}
+                    perm = nac
+                    marco_nac = True
+                    # Consulta conceptual de definición: la entidad pedida se
+                    # contrasta como frase literal normalizada en el texto en
+                    # disco de las fuentes nacionales ya permitidas. Con
+                    # coincidencia dinámica, perm se acota a esas fuentes y la
+                    # BM25 usa la vista enfocada (mismas filas e IDF global);
+                    # sin coincidencias se conserva nac (incluido vacío) y la
+                    # consulta original, sin fallback autonómico.
+                    vista_c = _vista_conceptual(consulta, pal_amb)
+                    if vista_c:
+                        frase_c = A.norm(vista_c)
+                        docs_c = {f["documento"] for f in self.filas
+                                  if f["documento"] in nac and frase_c in
+                                  A.norm(A.texto_fichero(
+                                      self.contenido, f.get("archivo")))}
+                        if docs_c:
+                            perm = docs_c
+                            vista_busq = vista_c
+                            consulta_busq = vista_c
+                            motivo_vista = "conceptual"
+                            avisos_conc.append(
+                                "vista de búsqueda derivada (consulta conceptual, "
+                                "no relación/conexión): «%s» · frase normalizada "
+                                "«%s» · criterio: coincidencia literal del texto en "
+                                "disco · fuentes nacionales seleccionadas: %s; la "
+                                "consulta original se conserva íntegra." % (
+                                    vista_c, frase_c, ", ".join(sorted(docs_c))))
+                        else:
+                            avisos_conc.append(
+                                "consulta conceptual (no relación/conexión): la frase "
+                                "normalizada «%s» (vista candidata «%s») no aparece en "
+                                "el texto en disco de las fuentes nacionales; se "
+                                "conserva el conjunto nacional completo y la consulta "
+                                "original, sin sustitución por fuentes autonómicas." % (
+                                    frase_c, vista_c))
+                else:
+                    # Sin documento explícito ni territorio resuelto: si la
+                    # consulta plantea materia autonómica/municipal se pide la
+                    # ubicación en lugar de dejar que la búsqueda global
+                    # adjudique una CCAA. Consulta mixta («estatal y
+                    # autonómica») también entra aquí: la exclusividad
+                    # nacional no procede.
+                    campos = _necesidad_ubicacion(consulta)
+                    if campos:
+                        return self._salida_aclaracion(consulta, campos,
+                                                       presupuesto_tokens, t0)
+                    # Vista de relación/conexión: entidad pedida conservada,
+                    # cola contextual subordinada «de + artículo indeterminado»
+                    # omitida. Solo búsqueda automática sin documento y sin
+                    # ámbito resuelto; literal trazado, consulta original
+                    # conservada.
+                    vista = _vista_relacion(consulta, pal_amb)
+                    if vista and vista != consulta:
+                        vista_busq = vista
+                        consulta_busq = vista
+                        motivo_vista = "relacion"
+
         # ------------------------------------------------------------- búsqueda
-        terminos = [t for t in re.split(r"[\s,;]+", consulta) if len(t) > 1]
+        terminos = [t for t in re.split(r"[\s,;]+", consulta_busq) if len(t) > 1]
         op = SimpleNamespace(max=max_resultados, presupuesto=presupuesto_tokens,
-                             expandir=1, documento=doc_id, capa=None, materia=None)
+                             expandir=1, documento=doc_id, capa=None, materia=None,
+                             documentos_permitidos=perm)
         advertencias: list = []
         omitidos: list = []
+        if marco_nac:
+            advertencias.append(
+                "marco estatal/nacional pedido expresamente: candidatos "
+                "limitados a fuentes nacionales (sin metadato territorial en "
+                "su fuente) por la puerta documentos_permitidos; el IDF global "
+                "y el ranking se conservan y no es una aclaración de lugar")
+        advertencias.extend(avisos_conc)
+        if vista_busq and motivo_vista == "relacion":
+            advertencias.append(
+                "vista de búsqueda derivada (relación/conexión: entidad pedida "
+                "conservada, cola contextual subordinada con artículo "
+                "indeterminado omitida): «%s»; la consulta original se conserva "
+                "íntegra." % vista_busq)
+        if res_amb and res_amb.get("estado") == "no_resuelto":
+            advertencias.extend("ámbito: %s" % n for n in res_amb.get("notas") or [])
         try:
-            busq = A.buscar_bm25(self.contenido, self.filas, self.docs, consulta,
+            busq = A.buscar_bm25(self.contenido, self.filas, self.docs, consulta_busq,
                                  terminos, op, self.encs)
         except (SystemExit, Exception) as e:
             busq = {"resultados": [], "omitidos": [], "advertencias": [],
@@ -262,8 +999,10 @@ class AdaptadorContexto:
         paginas_out: list = []
 
         if not resultados:
-            partes = self._cabecera(consulta, doc_id, objetivo, [
-                "", "-- Advertencias --"])
+            extra_amb = self._lineas_ambito(res_amb)
+            partes = self._cabecera(consulta, doc_id, objetivo,
+                                    ["", *extra_amb, "-- Advertencias --"]
+                                    if extra_amb else ["", "-- Advertencias --"])
             partes.extend("- %s" % a for a in advertencias)
             if omitidos:
                 partes.append("")
@@ -275,6 +1014,9 @@ class AdaptadorContexto:
                           "para esta consulta en el corpus distribuible; nada se "
                           "sustituye ni se amplía por fuera del motor.")
             texto = "\n".join(partes) + "\n"
+            extra_sal = {"resolucion_ambito": res_amb} if res_amb else {}
+            if vista_busq:
+                extra_sal["vista_busqueda"] = vista_busq
             return self._salida(
                 "sin_resultados", consulta, doc_id,
                 objetivo or (str(version) if version is not None else None), texto, [],
@@ -282,7 +1024,7 @@ class AdaptadorContexto:
                               "ambito_capa": busq.get("ambito_capa")},
                  "resultados": [], "advertencias": advertencias, "omitidos": omitidos,
                  "relacionados_no_incluidos": []},
-                presupuesto_tokens, t0)
+                presupuesto_tokens, t0, **extra_sal)
 
         # ------------------------------------------------ ensamblaje del contexto
         entregadas: dict = {}   # clave de página -> Resultado que la entregó
@@ -302,7 +1044,10 @@ class AdaptadorContexto:
                 avisos_doc[d] = self._avisos_docjson(d)
         for d, avisos in avisos_doc.items():
             advertencias.extend("documento %s: %s" % (d, a) for a in avisos)
-        partes = self._cabecera(consulta, doc_id, objetivo, ["", "-- Advertencias --"])
+        extra_amb = self._lineas_ambito(res_amb)
+        partes = self._cabecera(consulta, doc_id, objetivo,
+                                ["", *extra_amb, "-- Advertencias --"] if extra_amb
+                                else ["", "-- Advertencias --"])
         partes.extend("- %s" % a for a in advertencias)
         if omitidos:
             partes.append("")
@@ -546,10 +1291,13 @@ class AdaptadorContexto:
                             "ambito_capa": busq.get("ambito_capa")},
                "resultados": resumen, "advertencias": advertencias + aviso_tarde,
                "omitidos": omitidos, "relacionados_no_incluidos": relacionados_no}
+        extra_sal = {"resolucion_ambito": res_amb} if res_amb else {}
+        if vista_busq:
+            extra_sal["vista_busqueda"] = vista_busq
         return self._salida("ok", consulta, doc_id,
                             objetivo or (str(version) if version is not None else None),
                             texto_final, paginas_out, rec, presupuesto_tokens, t0,
-                            versiones_disponibles=versiones_disp)
+                            versiones_disponibles=versiones_disp, **extra_sal)
 
 
 # ----------------------------------------------------------------------------- CLI

@@ -1,0 +1,27 @@
+{
+ "esquema": "alternativas-evidencia/1",
+ "fixture_sha256": "23a1f98d891c6d157e1f5f03e6b9eb462cf5fc16fb7cbe7733bc84aca7b695dc",
+ "revision": {
+  "fecha": "2026-11-16",
+  "motivo": "Cotejo de fuente: art31.1 p33 contiene la misma condicion de inicio y registro que art9.3 p16. El gold exclusivo daba un falso negativo; se conserva y se informa por separado.",
+  "posterior_a_resultados": true,
+  "aplicar_mismo_criterio_antes_y_despues": true
+ },
+ "casos": [
+  {
+   "id": "L-18",
+   "consulta": "En Málaga, ¿en qué momento se considera iniciado el procedimiento de solicitud de licencia urbanística?",
+   "documento": "MUN-MALAGA-OMLU-2025",
+   "version": "2025-12-29",
+   "paginas": [
+    {
+     "pagina": 33,
+     "archivo": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0033.md",
+     "texto_sha256": "a7a69523b6067ed54bc10182c5108a3105ea48a76bf6d4ecf7db821ce4cdcb3d"
+    }
+   ],
+   "adjudicacion": "adjudicacion-libres-2026-11-16.json",
+   "adjudicacion_sha256": "1d389f83e6e1a7649475a3dbfd348e6b88fa3d0623ba432bb4366c3dbd8bf0c4"
+  }
+ ]
+}

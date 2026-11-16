@@ -1,0 +1,190 @@
+{
+  "pruebas_automatizadas": 62,
+  "fallos": 0,
+  "consultas_anteriores": [
+    {
+      "documento": "DB-SUA-oficial",
+      "paginas_antes": [
+        [
+          13,
+          "auxiliar"
+        ],
+        [
+          15,
+          "auxiliar"
+        ],
+        [
+          35,
+          "continuada"
+        ],
+        [
+          36,
+          "primaria"
+        ],
+        [
+          37,
+          "continuada"
+        ],
+        [
+          33,
+          "continuada"
+        ],
+        [
+          34,
+          "primaria"
+        ]
+      ],
+      "paginas_ahora": [
+        [
+          13,
+          "auxiliar"
+        ],
+        [
+          15,
+          "auxiliar"
+        ],
+        [
+          35,
+          "continuada"
+        ],
+        [
+          36,
+          "primaria"
+        ],
+        [
+          37,
+          "continuada"
+        ],
+        [
+          33,
+          "continuada"
+        ],
+        [
+          34,
+          "primaria"
+        ]
+      ],
+      "identicas": true
+    },
+    {
+      "documento": "DB-SUA-oficial",
+      "paginas_antes": [
+        [
+          6,
+          "auxiliar"
+        ],
+        [
+          7,
+          "continuada"
+        ],
+        [
+          8,
+          "primaria"
+        ],
+        [
+          9,
+          "continuada"
+        ],
+        [
+          5,
+          "continuada"
+        ]
+      ],
+      "paginas_ahora": [
+        [
+          6,
+          "auxiliar"
+        ],
+        [
+          7,
+          "continuada"
+        ],
+        [
+          8,
+          "primaria"
+        ],
+        [
+          9,
+          "continuada"
+        ],
+        [
+          5,
+          "continuada"
+        ]
+      ],
+      "identicas": true
+    },
+    {
+      "documento": "BOE-A-2002-18099",
+      "paginas_antes": [
+        [
+          47,
+          "auxiliar"
+        ],
+        [
+          106,
+          "continuada"
+        ],
+        [
+          107,
+          "primaria"
+        ],
+        [
+          108,
+          "continuada"
+        ],
+        [
+          102,
+          "continuada"
+        ],
+        [
+          103,
+          "primaria"
+        ],
+        [
+          104,
+          "continuada"
+        ]
+      ],
+      "paginas_ahora": [
+        [
+          47,
+          "auxiliar"
+        ],
+        [
+          106,
+          "continuada"
+        ],
+        [
+          107,
+          "primaria"
+        ],
+        [
+          108,
+          "continuada"
+        ],
+        [
+          109,
+          "primaria"
+        ],
+        [
+          110,
+          "continuada"
+        ]
+      ],
+      "identicas": false
+    }
+  ],
+  "fuentes_nuevas": [
+    {
+      "documento": "BOA-d-2014-90410",
+      "estado": "ok"
+    },
+    {
+      "documento": "MUN-MALAGA-OMLU-2025",
+      "estado": "ok"
+    }
+  ],
+  "edicion_ausente": "version_no_disponible",
+  "limite": "Muestra pequeña de consultas; no prueba equivalencia global de precisión ni rendimiento."
+}

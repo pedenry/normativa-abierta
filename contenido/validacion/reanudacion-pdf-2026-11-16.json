@@ -1,0 +1,95 @@
+{
+  "fecha_utc": "2026-11-16T12:33:01.170652+00:00",
+  "encargo": "Reanudar rastreo y descarga tras limpieza del ordenador",
+  "tanda_original": {
+    "candidatos": 424,
+    "totales": {
+      "ok": 418,
+      "error": 6,
+      "pendiente_limite": 0,
+      "pendiente": 0,
+      "reuso": 345,
+      "dedupe": 3,
+      "bytes": 3119239102,
+      "archivos_unicos": 415
+    },
+    "recuperados": 73,
+    "antes_pendientes_por_2GiB": 62,
+    "antes_exceso_80MiB": 11,
+    "limite_fichero_MiB": 512,
+    "limite_tanda_MiB": 8192,
+    "fallos_restantes": [
+      {
+        "id": "PDF-ef8d4f10d5004635",
+        "url": "https://www.zaragoza.es/contenidos/urbanismo/planesespeciales/E19/2013_384050_PE_E-19_Normas.pdf",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "PDF-ec3e280121f63bee",
+        "url": "https://www.zaragoza.es/contenidos/urbanismo/planesespeciales/G-44-2/Plan_Especial_MOrdenanzas/2008_0341349_PE_G-44-2-MOrdenanzas_Acuerdo.pdf",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "PDF-77dba3bdac02ec89",
+        "url": "https://www.zaragoza.es/contenidos/urbanismo/planesespeciales/G-44-2/Plan_Especial_MOrdenanzas/2008_0341349_PE_G-44-2-MOrdenanzas_Normas.pdf",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "PDF-092f460ba6e2bff8",
+        "url": "https://www.zaragoza.es/contenidos/urbanismo/planesespeciales/E19/2013_384050_PE_E-19_Acuerdo.pdf",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "PDF-26bc00086417c288",
+        "url": "https://www.zaragoza.es/contenidos/urbanismo/planesespeciales/E19/2013_384050_PE_E-19_Planos.pdf",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "PDF-4f1ce3d70373398e",
+        "url": "https://www.zaragoza.es/contenidos/urbanismo/planesespeciales/PR_U-36-8/1990_3091981_PE_U-36-8/I1990_3091981_PE_U-36-8_Plano_Dominio.pdf",
+        "error": "HTTP 404"
+      }
+    ]
+  },
+  "municipales_adicionales": {
+    "candidatos": 10,
+    "totales": {
+      "ok": 10,
+      "error": 0,
+      "pendiente_limite": 0,
+      "pendiente": 0,
+      "reuso": 0,
+      "dedupe": 0,
+      "bytes": 4598706,
+      "archivos_unicos": 10
+    },
+    "catalogo": "ingesta/fuentes-pdf-municipales-extra.json",
+    "municipios": [
+      "Sevilla",
+      "Málaga"
+    ],
+    "paginas_fisicas": 273
+  },
+  "verificacion": {
+    "pdf_descargados_sha256_verificados": 425,
+    "sha256_distintos": 425,
+    "corpus_previo_pdf_verificados": 149,
+    "corpus_sin_ampliar_en_esta_tanda": true,
+    "rutas_manifest_legacy_resueltas_por_sha": [
+      "RSCIEI-asociada",
+      "RITE-asociada",
+      "DB-HS-oficial"
+    ],
+    "sin_cambios_codigo": true,
+    "pruebas_codigo": "No repetidas: sin cambios en scripts. Verificación de transferencias reales y SHA-256."
+  },
+  "revision_404": "ingesta/recuperacion-enlaces-pdf-2026-11-16.json",
+  "espacio_libre_bytes": 85013299200,
+  "limites": [
+    "Los PDF son candidatos descargados, no 425 normas aprobadas para el corpus.",
+    "Los nuevos documentos quedan privados hasta revisar derechos, naturaleza normativa, edición y fidelidad.",
+    "Los seis enlaces HTTP404 siguen publicados en el HTML oficial completo; no hay sustitución verificada.",
+    "El PDF ITE de Sevilla incluye anuncios ajenos al comienzo y requiere separar el texto pertinente.",
+    "No se modifica la integración previa de 149 PDF ni el visor público."
+  ]
+}

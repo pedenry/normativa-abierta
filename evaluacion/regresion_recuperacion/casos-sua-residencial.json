@@ -1,0 +1,18 @@
+{
+ "esquema": "regresion-recuperacion-fixture/1",
+ "referencia_conservada_durante_comparacion": true,
+ "nota_referencia": "Fixture adicional e independiente del ranking para comprobar la generalizacion del ajuste SUA fuera de casos.json. Gold de paginas fisicas fijado antes de ejecutar y no ajustado por resultados: SR-01..SR-04 en la pagina 36 y SR-05..SR-06 en la 14 del DB-SUA-oficial 2022-06-14, referencia establecida en la documentacion piloto y la pagina oficial. Cotejo previo contra el corpus de la misma edicion: la pagina 36 (Anejo A, Terminologia) contiene «Pasillos y pasos: anchura libre de paso >= 1,20 m; en zonas comunes de edificios de uso Residencial Vivienda se admite 1,10 m» y la pagina 14 la seccion 4.3.1 Pendiente (rampas de itinerario accesible: 10 % con longitud menor que 3 m, 8 % menor que 6 m, 6 % en el resto; transversal <= 2 %). SR-01..04 rozan el tema del fallo conocido SUA-02 de casos.json (misma pagina 36) y se entregan con fallo_conocido false por diseno del encargo: una falta aqui cuenta como perdida nueva de esta muestra exploratoria, no como regresion de la base. SR-05 y SR-06 repiten literalmente las consultas de SUA-05 y SUA-04 con el mismo gold, como control de consistencia entre fixtures. Muestra exploratoria de 6 casos: sin independencia estadistica; la cobertura por presencia de pagina no acredita calidad global ni fidelidad sustantiva.",
+ "config": {"presupuesto_tokens": 20000, "max_resultados": 2},
+ "documentos": {
+  "SUA": {"documento": "DB-SUA-oficial", "version": "2022-06-14"}
+ },
+ "esperado": {"referencias_totales": 6, "referencias_evaluables": 6},
+ "casos": [
+   {"id": "SR-01", "consulta": "Anchura libre mínima de paso en zonas comunes de edificios de uso Residencial Vivienda", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [36], "fallo_conocido": false},
+   {"id": "SR-02", "consulta": "Qué anchura debe tener un itinerario accesible en las zonas comunes de un edificio de viviendas", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [36], "fallo_conocido": false},
+   {"id": "SR-03", "consulta": "Pasillos y pasos de uso Residencial Vivienda anchura libre", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [36], "fallo_conocido": false},
+   {"id": "SR-04", "consulta": "Anchura mínima del pasillo accesible en zonas comunes residenciales", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [36], "fallo_conocido": false},
+   {"id": "SR-05", "consulta": "Pendiente transversal máxima de rampas en itinerario accesible", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [14], "fallo_conocido": false, "nota": "Consulta identica a SUA-05 de casos.json (gold p. 14): control de consistencia entre fixtures."},
+   {"id": "SR-06", "consulta": "Pendiente longitudinal máxima de rampa itinerario accesible longitud 3 metros", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [14], "fallo_conocido": false, "nota": "Consulta identica a SUA-04 de casos.json (gold p. 14): control de consistencia entre fixtures."}
+ ]
+}

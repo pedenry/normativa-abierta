@@ -5,14 +5,19 @@ Primera tanda: 15 documentos legales adicionales al CTE/RITE/RSCIEI definidos
 en ``fuentes-ampliacion.json``. Por cada fuente:
 
 1. Descarga la pagina oficial ``https://www.boe.es/buscar/act.php?id={ID}`` (siempre).
-2. Extrae metadatos con ``html.parser.HTMLParser``: ELI, titulo real,
-   fecha de publicacion, fecha del documento y fecha de version/actualizacion.
-3. Localiza el PDF consolidado (href con el ID y ``consolidado.pdf``) o, si no
-   existe, el PDF original (href con ``ID.pdf``). Nunca inventa consolidado.
+2. Extrae metadatos con ``html.parser.HTMLParser``: metas ELI
+   (``eli:fecha_publicacion``, ``eli:date_document``, validadas como ISO 8601),
+   titulo real y fechas de publicacion, documento y version/actualizacion
+   (con alternativa declarada en etiquetas de texto de la pagina).
+3. Localiza el PDF consolidado: primero href con ``{ID}-consolidado.pdf``
+   (patron verificado por Codex en act.php), despues href con el ID y
+   ``consolidado.pdf``; si no existe, el PDF original (href con ``ID.pdf``).
+   Nunca inventa consolidado.
 4. Valida la firma ``%PDF-`` y guarda HTML original, PDF sin modificar y
-   metadatos JSON (SHA-256 de los bytes, enlaces fuente, disposicion literal,
-   fecha de captura UTC, tipo original/consolidado, atribucion BOE, licencia,
-   aplicabilidad y transitorio PENDIENTES, fidelidad NO cotejada).
+   ``metadata.json`` (SHA-256 de los bytes, enlaces fuente, disposicion literal,
+   fecha de captura UTC, jurisdiccion Espana, materia, tipo original o
+   consolidado, atribucion BOE, licencia, aplicabilidad y transitorio
+   PENDIENTES, fidelidad NO cotejada).
 
 Por que scraping y no la API de datos abiertos: la API documentada en
 https://www.boe.es/datosabiertos/api/api.php
@@ -59,7 +64,7 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
-VERSION = "0.1"
+VERSION = "0.2"
 
 CHECKOUT_RAIZ = Path(__file__).resolve().parent.parent
 RUTA_FUENTES = Path(__file__).resolve().parent / "fuentes-ampliacion.json"
@@ -82,7 +87,7 @@ PAUSA_S = 1.0
 MAX_REINTENTOS = 2
 MAX_REDIRECCIONES = 5
 TAMANO_BLOQUE = 64 * 1024
-USER_AGENT = "normativa-abierta-ingesta/0.1 (+https://github.com/pedenry/normativa-abierta)"
+USER_AGENT = "normativa-abierta-ingesta/0.2 (+https://github.com/pedenry/normativa-abierta)"
 CODIGOS_TRANSITORIOS = {408, 429, 500, 502, 503, 504}
 RE_ID_BOE = re.compile(r"^BOE-[A-Z]-\d{4}-\d+$")
 
@@ -324,6 +329,16 @@ def parsear_fecha(texto: str | None) -> str | None:
     return None
 
 
+def fecha_iso_meta(valor: str | None) -> str | None:
+    """Valida un valor de meta ELI como fecha ISO 8601 (YYYY-MM-DD); None si no."""
+    if not valor:
+        return None
+    try:
+        return datetime.strptime(valor.strip(), "%Y-%m-%d").date().isoformat()
+    except ValueError:
+        return None
+
+
 def valor_label(lineas: list[str], patron_label: str) -> tuple[str | None, str | None]:
     """Valor de un campo etiquetado: en la misma linea o en la siguiente.
 
@@ -348,22 +363,27 @@ def elegir_pdf(
 ) -> tuple[str | None, str | None, str | None]:
     """Devuelve (url_absoluta, tipo, href_crudo) del PDF de la pagina.
 
-    Consolidado primero: href con el ID y ``consolidado.pdf``. Si no existe,
-    PDF original: href con ``ID.pdf``. Si no hay ninguno, (None, None, None):
-    nunca se inventa un consolidado.
+    Orden de preferencia: 1) href con ``{ID}-consolidado.pdf`` (patron
+    verificado por Codex en las paginas act.php); 2) href con el ID y
+    ``consolidado.pdf``; 3) PDF original: href con ``{ID}.pdf``. Si no hay
+    ninguno, (None, None, None): nunca se inventa un consolidado.
     """
-    consolidado = original = None
-    crudo_consolidado = crudo_original = None
+    exacto = consolidado = original = None
+    crudo_exacto = crudo_consolidado = crudo_original = None
+    objetivo = (id_norma + "-consolidado.pdf").lower()
     for href, _texto in enlaces:
         if not href:
             continue
         absoluto = urllib.parse.urljoin(url_base, href)
-        if consolidado is None and id_norma in absoluto and "consolidado.pdf" in absoluto.lower():
+        bajo = absoluto.lower()
+        if exacto is None and objetivo in bajo:
+            exacto, crudo_exacto = absoluto, href
+        elif consolidado is None and id_norma in absoluto and "consolidado.pdf" in bajo:
             consolidado, crudo_consolidado = absoluto, href
         elif original is None and (id_norma + ".pdf") in absoluto:
             original, crudo_original = absoluto, href
-    if consolidado:
-        return consolidado, "consolidado", crudo_consolidado
+    if exacto or consolidado:
+        return (exacto or consolidado), "consolidado", (crudo_exacto or crudo_consolidado)
     if original:
         return original, "original", crudo_original
     return None, None, None
@@ -451,8 +471,10 @@ def procesar_fuente(fuente: dict, salida_raiz: Path) -> dict:
         "id": id_norma,
         "version_script": VERSION,
         "tema": fuente.get("tema"),
+        "materia": fuente.get("materia") or fuente.get("tema"),
+        "jurisdiccion": "España",
         "url_act": url_act,
-        "captura_utc": captura_utc,
+        "capturado_en_utc": captura_utc,
         "estado": "ok",
         "errores": [],
         "carpeta": None,
@@ -526,18 +548,37 @@ def procesar_fuente(fuente: dict, salida_raiz: Path) -> dict:
             titulo = analisis.titulo_html
             titulo_fuente = "html_title"
         eli, eli_fuente = buscar_eli(analisis.enlaces, url_final_html or url_act, texto_plano)
+        metas_eli = {k: v for k, v in analisis.metas.items() if k.startswith("eli:")}
         publicacion, cruda_publicacion = valor_label(analisis.lineas, PATRON_PUBLICACION)
         version, cruda_version = valor_label(analisis.lineas, PATRON_VERSION)
         identificador, crudo_identificador = valor_label(analisis.lineas, PATRON_IDENTIFICADOR)
         diario, crudo_diario = valor_label(analisis.lineas, PATRON_DIARIO)
         date_document, fuente_dd, crudo_dd = buscar_date_document(analisis.lineas, titulo)
+        publicacion_iso = parsear_fecha(publicacion)
+        publicacion_meta = fecha_iso_meta(metas_eli.get("eli:fecha_publicacion"))
+        date_document_meta = fecha_iso_meta(metas_eli.get("eli:date_document"))
+        if publicacion_meta is not None:
+            fecha_publicacion = publicacion_meta
+            fuente_publicacion = "meta_eli:eli:fecha_publicacion"
+        elif publicacion_iso is not None:
+            fecha_publicacion = publicacion_iso
+            fuente_publicacion = "pagina"
+        else:
+            fecha_publicacion = None
+            fuente_publicacion = None
+        if date_document_meta is not None:
+            date_document = date_document_meta
+            fuente_dd = "meta_eli:eli:date_document"
+            crudo_dd = None
         resultado["metadatos_pagina"] = {
             "titulo": titulo,
             "titulo_fuente": titulo_fuente,
             "titulo_html_title": analisis.titulo_html,
             "eli": eli,
             "eli_fuente": eli_fuente,
-            "fecha_publicacion": parsear_fecha(publicacion),
+            "metas_eli": metas_eli,
+            "fecha_publicacion": fecha_publicacion,
+            "fecha_publicacion_fuente": fuente_publicacion,
             "fecha_publicacion_cruda": publicacion,
             "date_document": date_document,
             "date_document_fuente": fuente_dd,
@@ -550,9 +591,11 @@ def procesar_fuente(fuente: dict, salida_raiz: Path) -> dict:
             "identificador_pagina": identificador,
             "diario_crudo": diario,
             "aviso": (
-                "Campos extraidos automaticamente con HTMLParser. Un campo null puede "
-                "existir en la pagina y no haberse localizado: cotejar contra el "
-                "act.html conservado. Revision humana pendiente."
+                "Campos extraidos automaticamente con HTMLParser; cada fecha indica su "
+                "fuente (meta ELI o etiqueta de la pagina; nombre de meta pendiente de "
+                "cotejo). Un campo null puede existir en la pagina y no haberse "
+                "localizado: cotejar contra el act.html conservado. Revision humana "
+                "pendiente."
             ),
         }
 
@@ -604,7 +647,7 @@ def procesar_fuente(fuente: dict, salida_raiz: Path) -> dict:
             hash_pdf = sha256_hex(datos_pdf)
 
     # 4. Carpeta de snapshot: {ID}/{fecha UTC de captura}__{hash PDF | sin-pdf}
-    sufijo = hash_pdf[:8] if hash_pdf else "sin-pdf"
+    sufijo = hash_pdf[:12] if hash_pdf else "sin-pdf"
     carpeta = carpeta_libre(salida_raiz / id_norma / f"{ahora.strftime('%Y%m%dT%H%M%SZ')}__{sufijo}")
     carpeta.mkdir(parents=True, exist_ok=True)
     try:
@@ -646,7 +689,7 @@ def procesar_fuente(fuente: dict, salida_raiz: Path) -> dict:
     # 6. Metadatos JSON por fuente
     metadatos = dict(resultado)
     metadatos["eventos"] = eventos
-    escribir_json(carpeta / "metadatos.json", metadatos)
+    escribir_json(carpeta / "metadata.json", metadatos)
     return resultado
 
 
@@ -850,7 +893,7 @@ def main(argv=None) -> int:
                 "id": id_norma,
                 "tema": fuente.get("tema"),
                 "url_act": URL_PLANTILLA_ACT.format(id=id_norma),
-                "captura_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "capturado_en_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "estado": "error",
                 "errores": [
                     {

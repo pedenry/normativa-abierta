@@ -6,11 +6,17 @@ Normativa de edificación preparada para consultar textos y experimentar con rec
 
 ## Qué contiene
 
-El corpus distribuible tiene **46 PDF**, 4.324 páginas y 5.775 segmentos: 30 documentos legales y 16 guías con permiso editorial. La [ampliación BOE](ingesta/README.md) añade 15 disposiciones y 2.742 páginas al corpus inicial de 31 PDF. La evidencia de reutilización está en [licencias](licencias/). Las fuentes privadas del inventario de trabajo no forman parte de la entrega.
+El corpus distribuible alcanza **149 PDF**, 9.681 páginas y 11.132 segmentos: 133 documentos legales y 16 guías con permiso editorial, verificados localmente. La [ampliación BOE](ingesta/README.md) añadió 15 disposiciones y 2.742 páginas al corpus inicial de 31 PDF; la [tanda territorial](ingesta/TERRITORIAL.md) de 2026-11-16 añade 103 PDF y 5.357 páginas. La evidencia de reutilización está en [licencias](licencias/). Las fuentes privadas del inventario de trabajo no forman parte de la entrega.
 
-Las 15 fuentes nuevas están en `contenido/` y se consultan con el adaptador local por su identificador `BOE-A-…`. Están segmentadas por página física, sin atribuirles una jerarquía de artículos verificada. El visor estático se genera a partir del mismo corpus mediante el [generador público y su proceso de publicación](docs/generacion-visor.md).
+Las 15 fuentes de la ampliación BOE de 2026-11-15 están en `contenido/` y se consultan con el adaptador local por su identificador `BOE-A-…`; las 103 territoriales siguen el mismo esquema de página física. Están segmentadas por página física, sin atribuirles una jerarquía de artículos verificada. El visor estático se genera a partir del mismo corpus mediante el [generador público y su proceso de publicación](docs/generacion-visor.md).
 
 Las páginas y apartados de `contenido/` permiten localizar el texto; el PDF original sigue siendo la referencia para tablas, fórmulas y dibujos. La extracción automática no ha recibido una revisión técnica humana completa. Una edición disponible no determina por sí sola su aplicabilidad a un proyecto.
+
+## Tanda territorial 2026-11-16
+
+103 PDF nuevos: 102 disposiciones autonómicas alojadas en el BOE (17 CCAA) y la ordenanza OMLU de Málaga (publicación original 2025-12-29). Extracción por página física. Sin vigencia ni revisión humana completas: fidelidad, transitorios y aplicabilidad pendientes. Evidencia por SHA en `licencias/territorial-2026-11-16.json`.
+
+El adaptador local permite buscar sin indicar documento ni edición y pedir ubicación cuando la consulta territorial la necesita. La [guía de uso](docs/uso-local.md#consultas-autonómicas-y-municipales) explica el contrato de aclaración y el [handoff](changelog/2026-11-16-pedenry-evaluacion-cierre-territorial.changelog.md) reúne comprobaciones y pendientes. Este flujo está disponible en `preparar` y la CLI; el buscador HTTP básico no lo consume.
 
 ## Cómo utilizarlo
 

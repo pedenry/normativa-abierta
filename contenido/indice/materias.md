@@ -101,3 +101,7 @@ Nota: fragmentos por página física; jerarquía de artículos no verificada. 14
 | Ascensores | BOE-A-2024-7258 | 2025-09-03 | 49 |
 
 <!-- /ampliacion-boe-2026-11-15 -->
+
+## Normativa territorial: urbanismo, vivienda y accesibilidad
+
+La tanda de 2026-11-16 añade 103 PDF. El [índice territorial de documentos y ediciones](documentos.md#tanda-territorial-2026-11-16) detalla comunidad autónoma, municipio y materia por fuente. La única ordenanza municipal incorporada es la OMLU de Málaga. [Método de ingesta y límites](../../ingesta/TERRITORIAL.md).

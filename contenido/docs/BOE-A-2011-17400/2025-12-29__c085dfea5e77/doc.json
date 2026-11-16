@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2011-17400",
+  "code": "BOE-A-2011-17400",
+  "title": "Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+  "layer": "asociada",
+  "scope": "urbanismo",
+  "version": "2025-12-29",
+  "version_dir": "2025-12-29__c085dfea5e77",
+  "version_label_literal": "Última modificación: 29 de diciembre de 2025",
+  "sha256": "c085dfea5e77c60012dd3f47be97911076797ad104f26941ada0e7365e44f364",
+  "url": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-17400-consolidado.pdf",
+  "landing": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-17400",
+  "distribute": true,
+  "normativo": true,
+  "jurisdiccion": "País Vasco",
+  "municipio": null,
+  "disposicion": "Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+  "fecha_publicacion": "2006-07-20",
+  "license_status": "Condiciones de reutilización de la sede BOE para disposiciones legales individuales y artículo 13 TRLPI.",
+  "license_evidence": "licencias/territorial-2026-11-16.json",
+  "creditos": "Fuente de los datos: Agencia Estatal Boletín Oficial del Estado (PDF íntegro). Basado en datos de la Agencia Estatal Boletín Oficial del Estado (extracción por páginas). https://www.boe.es",
+  "ambito_literal": null,
+  "conteos": {
+    "paginas": 125,
+    "apartados": 125,
+    "caracteres": 476409
+  },
+  "tablas_por_pagina": {},
+  "figuras": [],
+  "formulas": {},
+  "metodo_segmentacion": "pagina_fisica",
+  "nota_capa": null,
+  "extraccion": null,
+  "advertencias": [
+    "Extraccion automatica (pypdf): tablas, formulas y notas sin cotejar.",
+    "Etiquetas impresas desconocidas; jerarquia y articulos no inventados; figuras no cotejadas.",
+    "Fidelidad del texto no cotejada visualmente con el PDF.",
+    "Vigencia, regimen transitorio y aplicabilidad pendientes de verificacion.",
+    "Atribucion: Fuente de los datos: Agencia Estatal Boletín Oficial del Estado (PDF íntegro). Basado en datos de la Agencia Estatal Boletín Oficial del Estado (extracción por páginas). https://www.boe.es",
+    "Consolidado informativo sin valor oficial; comprobar publicación oficial y ámbito aplicable.",
+    "Extracción automática; sin revisión técnica humana ni cotejo completo de tablas, fórmulas y notas."
+  ],
+  "evidencia_metadatos": {
+    "emisor_literal": "Comunidad Autónoma del País Vasco",
+    "version_origen": "PDF cotejado automáticamente; no fecha de captura",
+    "fecha_publicacion_literal": "«BOPV» núm. 138, de 20/07/2006, «BOE» núm. 266, de 04/11/2011.",
+    "fecha_publicacion_boe": "2011-11-04",
+    "tipo": "consolidado",
+    "procedencia_catalogo": [
+      "Código de Urbanismo del País Vasco (actualizado)"
+    ],
+    "cotejos_automaticos": {
+      "titulo_pdf_html": true,
+      "hash_pdf": true,
+      "jurisdiccion_eli": "https://www.boe.es/eli/es-pv/l/2006/06/30/2/con",
+      "edicion_pdf_corrob": true,
+      "disposicion_derogada_literal": false
+    }
+  }
+}

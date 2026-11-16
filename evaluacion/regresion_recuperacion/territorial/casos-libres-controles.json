@@ -1,0 +1,30 @@
+{
+ "esquema": "regresion-recuperacion-libres-controles/1",
+ "nota_fixture": "Controles POSITIVOS de jerarquía (2 casos, G-01..G-02), pareja de casos-libres.json. Tesis: nombrar un lugar en la consulta (Málaga, Aragón) NO significa que solo existan fuentes locales; una norma técnica estatal también puede responder. Servirían para evitar la sobre-restricción que, dado que Málaga tiene ordenanza de licencias (OMLU), forzara esa fuente local ante una consulta de rampas. Config espejo de prepare(consulta, None, None, 20000, 2): presupuesto_tokens y max_resultados en 'config', sin filtros de documento ni versión. Campos esperado_* son SOLO evaluación: el motor nunca los recibe. Consultas naturales sin sinónimo del ID del documento, sin título oficial y sin versión. Es normal que el esquema no coincida con casos-libres.json: este fixture se creó antes de que ese archivo existiera en la carpeta (esquema propio según encargo; en los lotes territorial las claves por caso son documento/version/referencias_paginas) y el runner debe adaptarse. Consultas y gold congelados ANTES de ejecutar el ranking: no se retocarán según resultados, fallen o no. Cotejo de fuente de tarea previa sobre las dos páginas esperadas y verificación acotada del 2026-11-16 (lectura de p0014.md y p0036.md): coincide el contenido de la edición 2022-06-14. No se afirma vigencia actual ni ley aplicable al proyecto: solo se evalúa qué recupera el motor sobre el corpus. Límites: muestra mínima (2 casos) sin independencia estadística; la cobertura por presencia de página no acredita calidad global de la respuesta ni fidelidad sustantiva; fixture preparada sin ejecutar el motor ni correr pruebas.",
+ "fuentes": {
+  "DB-SUA-oficial": {
+   "version": "2022-06-14",
+   "version_dir": "2022-06-14__3cfb5bbb135e",
+   "pdf_sha256": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+   "url": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf",
+   "landing": "https://www.codigotecnico.org/DocumentosCTE/SeguridadUtilizacionAccesibilidad.html",
+   "gold_p0014": "contenido/docs/DB-SUA-oficial/2022-06-14__3cfb5bbb135e/pagina/p0014.md",
+   "gold_p0036": "contenido/docs/DB-SUA-oficial/2022-06-14__3cfb5bbb135e/pagina/p0036.md"
+  }
+ },
+ "config": {"presupuesto_tokens": 20000, "max_resultados": 2},
+ "casos": [
+  {"id": "G-01",
+   "consulta": "En Málaga, ¿cuál es la pendiente transversal máxima de las rampas en un itinerario accesible?",
+   "esperado_documento": "DB-SUA-oficial",
+   "esperada_version": "2022-06-14",
+   "esperadas_paginas": [14],
+   "nota": "Control de jerarquía: la consulta nombra Málaga, pero la fuente esperada es la norma técnica estatal (SUA 1, apartado 4.3.1, p. 14: la pendiente transversal de las rampas de itinerarios accesibles será del 2% como máximo), no la OMLU de Málaga; la mención del lugar no debe sesgar la recuperación hacia fuentes locales. Gold fijado de fuente (p0014.md) antes de ejecutar el motor."},
+  {"id": "G-02",
+   "consulta": "En Aragón, ¿qué anchura libre debe tener un pasillo de un itinerario accesible de uso Administrativo?",
+   "esperado_documento": "DB-SUA-oficial",
+   "esperada_version": "2022-06-14",
+   "esperadas_paginas": [36],
+   "nota": "Control de jerarquía: la consulta nombra Aragón, pero la fuente esperada es la norma técnica estatal (Anejo A, definición de itinerario accesible, p. 36: pasillos y pasos con anchura libre de paso ≥ 1,20 m; la rebaja a 1,10 m queda acotada a zonas comunes de uso Residencial Vivienda, por lo que en uso Administrativo responde 1,20 m); la mención del lugar no debe sesgar la recuperación. Gold fijado de fuente (p0036.md) antes de ejecutar el motor."}
+ ]
+}

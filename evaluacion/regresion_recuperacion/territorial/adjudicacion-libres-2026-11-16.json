@@ -1,0 +1,418 @@
+{
+ "esquema": "adjudicacion-libres/1",
+ "fecha": "2026-11-16",
+ "tipo": "adjudicacion_independiente_post_resultado_recuperacion",
+ "agente": {
+  "perfil": "evaluacion-normativa",
+  "modelo": "glm5.3-flash",
+  "proveedor_declarado": "nan",
+  "nota_alcance": "adjudicacion desde fuente; sin re-ejecucion del motor"
+ },
+ "orden_ejecucion": [
+  "1. lectura completa de p0016.md (evidencia de fuente, antes de puntuar)",
+  "2. lectura completa de p0033.md (evidencia de fuente, antes de puntuar)",
+  "3. lectura de doc.json del mismo version_dir (metadatos de documento)",
+  "4. lectura de README.md, casos-libres.json y referencias-3.json (anclaje del caso congelado L-18/T-18 y su referencia original; archivos de evaluacion, no corpus)",
+  "5. cotejo por criterio y redaccion del veredicto",
+  "6. escritura de este archivo (unica entrega)"
+ ],
+ "reintentos_fallos": [],
+ "ejecucion_shell": "ninguna",
+ "prohibiciones_respetadas": [
+  "sin tocar motor, runner, tests ni fixtures congelados (casos-libres.json, casos-libres-controles.json, consultados: solo lectura)",
+  "sin leer el corpus entero: solo p0016.md y p0033.md completas, mas doc.json",
+  "sin inventar SHA: los hashes aqui citados provienen de referencias-3.json y doc.json; Codex añadira hashes medidos",
+  "resultado original estricto no reescrito ni encubierto"
+ ],
+ "consulta_congelada": {
+  "caso_id": "L-18",
+  "id_origen_lote": "T-18",
+  "fixture": "evaluacion/regresion_recuperacion/territorial/casos-libres.json",
+  "referencia_origen_antes_del_ranking": "evaluacion/regresion_recuperacion/territorial/referencias-3.json",
+  "pregunta_inmutable": "En Málaga, ¿en qué momento se considera iniciado el procedimiento de solicitud de licencia urbanística?",
+  "consulta_retocada_tras_resultados": false,
+  "config_ejecucion_fixture": {
+   "presupuesto_tokens": 20000,
+   "max_resultados": 2
+  },
+  "criterios_evidencia_fixture_verbatim": [
+   "fecha de inicio del procedimiento",
+   "Registro Electrónico General del Ayuntamiento de Málaga"
+  ]
+ },
+ "resultado_original_estricto": {
+  "resultado": "fallo",
+  "criterio": "presencia exacta de la pagina gold p16 (indice corpus 16)",
+  "detalle_declarado": "el motor entrego p33 (art. 31.1) y no entrego p16 (art. 9.3); la comprobacion estricta de presencia exacta de p16 fallo",
+  "origen_dato": "declarado en el encargo 2026-11-16",
+  "verificado_en_ejecucion_por_este_agente": false,
+  "se_mantiene": "el resultado original estricto sigue siendo fallo de presencia exacta p16; no se encubre ni se reescribe"
+ },
+ "materiales_leidos": [
+  {
+   "ruta": "contenido/docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0016.md",
+   "lineas": 51,
+   "tipo": "corpus (pagina completa)"
+  },
+  {
+   "ruta": "contenido/docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0033.md",
+   "lineas": 49,
+   "tipo": "corpus (pagina completa)"
+  },
+  {
+   "ruta": "contenido/docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/doc.json",
+   "lineas": 139,
+   "tipo": "corpus (metadatos)"
+  },
+  {
+   "ruta": "evaluacion/regresion_recuperacion/territorial/README.md",
+   "lineas": 75,
+   "tipo": "evaluacion"
+  },
+  {
+   "ruta": "evaluacion/regresion_recuperacion/territorial/casos-libres.json",
+   "lineas": 114,
+   "tipo": "evaluacion (fixture congelado, solo lectura)"
+  },
+  {
+   "ruta": "evaluacion/regresion_recuperacion/territorial/referencias-3.json",
+   "lineas": 140,
+   "tipo": "evaluacion (referencia original T-18/T-20, solo lectura)"
+  }
+ ],
+ "documento": {
+  "id": "MUN-MALAGA-OMLU-2025",
+  "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+  "version": "2025-12-29",
+  "version_dir": "2025-12-29__a69be972c4cb",
+  "ruta_corpus": "contenido/docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/",
+  "metodo_segmentacion": "pagina_fisica (indice de pagina del corpus; ojo: la pagina impresa BOP no coincide con el indice)",
+  "edicion_literal": "BOP Málaga número 247, 29 de diciembre de 2025, anuncio 5158/2025, páginas 70–148",
+  "cve": "20251229-05158-2025 (pie identico en p0016 y p0033)",
+  "url_oficial": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+  "url_landing": "https://urbanismo.malaga.eu/aprobacion-proyecto-nueva-omlu/index.html",
+  "verificacion_cve": "www.bopmalaga.es/cve.php con CVE 20251229-05158-2025 (pendiente de comprobacion remota en esta sesion)",
+  "mismo_doc_version_para_ambas_paginas": true,
+  "sha256_pdf_registrado": {
+   "valor": "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99",
+   "origen": "doc.json y referencias-3.json (T-18, T-19, T-20, T-21); registrado por el proceso de ingesta",
+   "medido_en_esta_sesion": false,
+   "nota": "Codex añadira hashes medidos; aqui solo se trasladan valores ya registrados en los archivos citados"
+  }
+ },
+ "hallazgo": "Para la consulta congelada L-18, el motor entrego (segun lo declarado en el encargo) la pagina indice 33 con el art. 31.1 y no la gold 16 con el art. 9.3. Ambos preceptos, leidos de fuente en la misma edicion, contienen la misma regla de hecho inicial. La pagina 33 basta por si sola para responder la pregunta con la misma condicion, ambito y fecha; no se identifica diferencia material que impida aceptarla. La desviacion es de presencia (no entrego p16), no de contenido.",
+ "texto_recuperado": [
+  {
+   "fuente": "p0016.md (indice corpus 16; pagina impresa BOP 85)",
+   "articulo": "Artículo 9. Formularios normalizados, lugar de presentación y documentación",
+   "apartado": "9.3",
+   "texto_verbatim_raw": "3. Se considerará como fecha de inicio del procedimiento la de la entrada de la documen -\ntación completa en el Registro Electrónico General del Ayuntamiento de Málaga.",
+   "texto_normalizado": "Se considerará como fecha de inicio del procedimiento la de la entrada de la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga.",
+   "nota_edicion": "palabras partidas del extractor (documen-tacion) resueltas al normalizar; partida registrada tal cual en el campo raw"
+  },
+  {
+   "fuente": "p0033.md (indice corpus 33; pagina impresa BOP 102)",
+   "encaje_evidenciado_en_la_misma_pagina": "CAPÍTULO II / licencias urbanísticas / Sección primera. Disposiciones generales / Artículos 29, 30 y 31 contiguos (el titulo del capitulo aparece con artefacto OCR de versalitas: 'licenciAs urbAnísticAs')",
+   "articulo": "Artículo 31. Cómputo de plazo de resolución",
+   "apartado": "31.1",
+   "texto_verbatim_raw": "1. Se considerará como fecha de inicio del procedimiento el día que tuvo entrada la docu-\nmentación completa en el Registro Electrónico General del Ayuntamiento de Málaga.",
+   "texto_normalizado": "Se considerará como fecha de inicio del procedimiento el día que tuvo entrada la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga.",
+   "nota_edicion": "palabras partidas del extractor (docu-mentacion) resueltas al normalizar; partida registrada tal cual en el campo raw"
+  }
+ ],
+ "respuesta": {
+  "a_la_consulta": "El procedimiento de solicitud de licencia urbanística en Málaga se considera iniciado el día de la entrada de la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga.",
+  "soportada_por": [
+   "p16 art. 9.3 (gold original)",
+   "p33 art. 31.1 (alternativa)"
+  ],
+  "ambas_fuentes_consistentes": true
+ },
+ "cotejo_condicion_ambito_fecha": {
+  "misma_condicion": {
+   "veredicto": true,
+   "detalle": "mismo hecho inicial: entrada de la documentacion completa en el REG; unica diferencia es redaccional ('la de la entrada' vs 'el dia que tuvo entrada'), sin cambio de sentido"
+  },
+  "mismo_ambito": {
+   "veredicto": true,
+   "detalle": "mismo municipio literal ('del Ayuntamiento de Málaga') y misma disposicion (OMLU). Matiz de encaje: p33 art. 31 esta evidenciado en el CAPITULO II 'Licencias urbanisticas' (p0033) y el precepto se titula 'Computo de plazo de resolucion'; p16 art. 9 (presentacion de formularios) habla de 'el procedimiento' sin cualificar; el capitulo del art. 9 no queda evidenciado en p0016 (pendiente). Ninguno contradice la consulta"
+  },
+  "misma_fecha_edicion": {
+   "veredicto": true,
+   "detalle": "cabecera identica en ambas paginas (BOP nº 247, 29-12-2025) y CVE identico en pie (20251229-05158-2025); misma version corpus 2025-12-29"
+  },
+  "diferencia_material_que_impida_aceptar_p33": "ninguna identificada en condicion, unidad, excepcion, edicion, disposicion o pagina fisica; la regla aparece declarada dos veces en la ordenanza (art. 9.3 y art. 31.1) sin contradiccion entre si"
+ },
+ "determinacion": {
+  "p33_basta_sola_para_la_misma_pregunta": true,
+  "alternativa33_valida": true,
+  "contradiccion_de_hipotesis": "parcial: la hipotesis implicita de exclusividad del gold (solo p16 responde la pregunta) queda matizada por la fuente; p33 no solo responde: en la lectura local de p0033 es la unidad con encaje mas proximo a 'licencia urbanistica' (capitulo II). Esto NO reasigna el gold ni toca el fixture",
+  "veredicto": "p33 (art. 31.1) ACEPTADA como alternativa valida para la misma pregunta; p16 (art. 9.3) se conserva como referencia original sin cambios"
+ },
+ "referencia_original16_sin_retocar": {
+  "preservada": true,
+  "retocada": false,
+  "ubicacion_registro_origen": "referencias-3.json#T-18 (texto_referencia y hashes intactos alli; se referencia por puntero, no se copia ni se altera)",
+  "id_origen": "T-18",
+  "caso_libre": "L-18",
+  "esperado_documento": "MUN-MALAGA-OMLU-2025",
+  "esperada_version": "2025-12-29",
+  "esperadas_paginas": [
+   16
+  ],
+  "pagina_fisica_campo_suite": 16,
+  "pagina_impresa_bop": 85,
+  "articulo": "Artículo 9",
+  "apartado": "9.3",
+  "titulo_articulo": "Formularios normalizados, lugar de presentación y documentación",
+  "frase_operativa_normalizada": "Se considerará como fecha de inicio del procedimiento la de la entrada de la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga.",
+  "sha256_pagina_registrado_origen": "eb24711bac8564b280faa228e1aa41054aea186b0e04010fb290463e9062aa95 (registrado en referencias-3.json T-18 como texto_pagina_sha256; no medido en esta sesion)",
+  "cotejo_pdf_declarado_alli": "texto extraido directamente con pypdf coincide al normalizar espacios; sin cotejo visual",
+  "rol": "gold previo exclusivo del caso; se mantiene sin cambios"
+ },
+ "referencias_relacionadas_mismo_doc": {
+  "T20_L20": "p0033 (indice 33, impresa 102) es gold del caso L-20 (titularidad de inmuebles, art. 29.4). La misma pagina fisica sirve a otra pregunta; esto no implica ni niega su validez para L-18: se coteja aqui por criterios, no por adyacencia de fixtures.",
+  "sha256_pagina33_registrado_origen": "a7a69523b6067ed54bc10182c5108a3105ea48a76bf6d4ecf7db821ce4cdcb3d (registrado en referencias-3.json T-20; no medido en esta sesion)"
+ },
+ "alternativa33": {
+  "valida": true,
+  "pagina_indice_corpus": 33,
+  "pagina_impresa_bop": 102,
+  "articulo": "Artículo 31",
+  "apartado": "31.1",
+  "titulo_articulo": "Cómputo de plazo de resolución",
+  "encaje_evidenciado": "CAPÍTULO II 'Licencias urbanísticas', Sección primera (evidenciado en la propia p0033: encabezados de capitulo y seccion preceden a los arts. 29-31 en la misma pagina impresa)",
+  "frase_operativa_normalizada": "Se considerará como fecha de inicio del procedimiento el día que tuvo entrada la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga.",
+  "criterios_evidencia_fixture_cubiertos": {
+   "fecha de inicio del procedimiento": "literal en art. 31.1",
+   "Registro Electrónico General del Ayuntamiento de Málaga": "literal en art. 31.1"
+  },
+  "archivo_pagina": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0033.md"
+ },
+ "rubrica": {
+  "nombre": "rubrica-adjudicacion-malaga-l18",
+  "version": 1,
+  "fecha": "2026-11-16",
+  "momento_de_fijacion": "criterios impuestos por el encargo antes de la lectura de paginas y de puntuar; sin conocimiento de la distribucion de resultados al fijarlos",
+  "revision_declarada_posterior_a_resultados": true,
+  "declaracion_revision": "la revision/adjudicacion del criterio se ejecuta y declara POSTERIOR a los resultados originales (entrega p33 / fallo de presencia p16 declarados). Fecha 2026-11-16. Razon: entrega del motor distinta del gold y necesidad de decidir desde fuente la suficiencia de p33. Efecto: alternativa33 registrada como valida; gold p16 intacto; resultado estricto original se mantiene como fallo",
+  "ajustes_de_criterio_durante_la_sesion": "ninguno (version 1 unica; sin cambios intermedios)",
+  "por_municipio": {
+   "Málaga": {
+    "jurisdiccion": "Andalucía",
+    "criterios": [
+     {
+      "id": "C1",
+      "nombre": "unidad_documento_version",
+      "verifica": "mismo doc y version corpus para la pagina entregada y para el gold",
+      "p16": {
+       "veredicto": "cumple",
+       "evidencia": "p0016 en version_dir 2025-12-29__a69be972c4cb, doc MUN-MALAGA-OMLU-2025"
+      },
+      "p33": {
+       "veredicto": "cumple",
+       "evidencia": "p0033 en el mismo version_dir y doc"
+      }
+     },
+     {
+      "id": "C2",
+      "nombre": "municipio_y_ambito_territorial",
+      "verifica": "literal municipal y jurisdiccion",
+      "p16": {
+       "veredicto": "cumple",
+       "evidencia": "'...Registro Electrónico General del Ayuntamiento de Málaga.' (art. 9.3)"
+      },
+      "p33": {
+       "veredicto": "cumple",
+       "evidencia": "'...Registro Electrónico General del Ayuntamiento de Málaga.' (art. 31.1)"
+      }
+     },
+     {
+      "id": "C3",
+      "nombre": "edicion_y_fecha_publicacion",
+      "verifica": "misma edicion BOP y CVE",
+      "p16": {
+       "veredicto": "cumple",
+       "evidencia": "cabecera 'Número 247 Lunes, 29 de diciembre de 2025 Página 85'; pie CVE 20251229-05158-2025"
+      },
+      "p33": {
+       "veredicto": "cumple",
+       "evidencia": "cabecera 'Número 247 Lunes, 29 de diciembre de 2025 Página 102'; pie CVE identico"
+      }
+     },
+     {
+      "id": "C4",
+      "nombre": "disposicion_y_unidad_normativa",
+      "verifica": "disposicion y precepto invocado",
+      "p16": {
+       "veredicto": "cumple",
+       "evidencia": "OMLU, art. 9.3 (en art. de formularios y presentacion)"
+      },
+      "p33": {
+       "veredicto": "cumple",
+       "evidencia": "OMLU, art. 31.1 (en art. de computo de plazo de resolucion); distinta ubicacion interna, mismo contenido de inicio"
+      }
+     },
+     {
+      "id": "C5",
+      "nombre": "procedimiento_materia_consultada",
+      "verifica": "que el precepto responda a la materia consultada (solicitud de licencia urbanistica)",
+      "p16": {
+       "veredicto": "cumple_con_pendiente",
+       "evidencia": "art. 9.3 habla de 'el procedimiento' en general; el capitulo del art. 9 no queda evidenciado en p0016 (pendiente)"
+      },
+      "p33": {
+       "veredicto": "cumple",
+       "evidencia": "art. 31.1 dentro del capitulo II 'Licencias urbanisticas' evidenciado en p0033; encaje mas proximo a la consulta"
+      }
+     },
+     {
+      "id": "C6",
+      "nombre": "hecho_inicial",
+      "verifica": "momento que la ordenanza declara inicio del procedimiento",
+      "p16": {
+       "veredicto": "cumple",
+       "evidencia": "'la de la entrada de la documentacion completa en el REG'"
+      },
+      "p33": {
+       "veredicto": "cumple",
+       "evidencia": "'el dia que tuvo entrada la documentacion completa en el REG'; equivalencia redaccional sin cambio de sentido"
+      }
+     },
+     {
+      "id": "C7",
+      "nombre": "completitud_documental",
+      "verifica": "la condicion 'documentacion completa' y su anclaje",
+      "p16": {
+       "veredicto": "cumple_con_matiz",
+       "evidencia": "9.3 exige 'documentacion completa'; la enumeracion no esta en el precepto: remision al anexo II (9.4, misma pagina)"
+      },
+      "p33": {
+       "veredicto": "cumple_con_matiz",
+       "evidencia": "31.1 exige 'documentacion completa'; el anclaje documental de fase de solicitud esta en el art. 30 (misma pagina): 'documentacion general obligatoria recogida en el anexo II.1 ... clasificada como previo a la concesion'"
+      }
+     },
+     {
+      "id": "C8",
+      "nombre": "registro_competente",
+      "verifica": "registro identificado",
+      "p16": {
+       "veredicto": "cumple",
+       "evidencia": "Registro Electronico General del Ayuntamiento de Malaga (literal)"
+      },
+      "p33": {
+       "veredicto": "cumple",
+       "evidencia": "Registro Electronico General del Ayuntamiento de Malaga (literal)"
+      }
+     },
+     {
+      "id": "C9",
+      "nombre": "excepciones_al_inicio",
+      "verifica": "excepciones o matices que alteren el hecho inicial",
+      "p16": {
+       "veredicto": "sin_excepcion_declarada",
+       "evidencia": "nada en p0016 excepciona el art. 9.3"
+      },
+      "p33": {
+       "veredicto": "sin_excepcion_declarada",
+       "evidencia": "art. 31.2 (misma pagina) regula la suspension del plazo maximo (subsanacion, requerimientos, informacion publica): afecta al computo posterior del plazo, no al momento de inicio; no lo altera"
+      }
+     },
+     {
+      "id": "C10",
+      "nombre": "pagina_fisica_y_rastreo_impreso",
+      "verifica": "conservacion de pagina fisica y pagina impresa, coherencia del offset",
+      "p16": {
+       "veredicto": "cumple",
+       "evidencia": "indice corpus 16 -> impresa 85"
+      },
+      "p33": {
+       "veredicto": "cumple",
+       "evidencia": "indice corpus 33 -> impresa 102; offset constante +69 verificado en ambas paginas leidas"
+      }
+     }
+    ]
+   }
+  },
+  "puntuacion_alternativa33": {
+   "veredictos": "10 criterios: 8 cumple + 2 cumple_con_matiz (C5 cumple sin matiz en p33; C7 con matiz igual a p16; C9 sin excepcion en ambas)",
+   "criterios_fallados": 0,
+   "resumen": "p33 supera la misma rubrica que p16, con encaje interno igual o mejor"
+  },
+  "puntuacion_referencia16": {
+   "resumen": "se mantiene como gold sin cambios; su puntuacion no se recalcula aqui"
+  }
+ },
+ "efecto_evaluacion": {
+  "cambia": "si, limitado y justificado por evidencia",
+  "justificacion": "la fuente muestra equivalencia material de p33 (art. 31.1) con el gold p16 (art. 9.3) para esta pregunta: misma condicion, ambito y fecha; no hay diferencia material",
+  "que_cambia_propuesto": "registrar p33 art. 31.1 como alternativa valida de L-18 para futuras politicas de alternativas del evaluador (aceptacion sustantiva con desviacion de presencia)",
+  "que_no_cambia": [
+   "gold de L-18 (p16 art. 9.3) intacto",
+   "fixtures congelados, runner, tests y evaluador: sin modificacion",
+   "resultado original estricto: sigue siendo fallo de presencia exacta p16, registrado tal cual"
+  ],
+  "decision_pendiente": "si el evaluador adopta el marcado de alternativas y como puntua la desviacion de presencia; fuera del alcance de este encargo"
+ },
+ "consumo": {
+  "contadores_observados_entrada_salida_total_cache": "no disponibles en esta sesion: no se ejecuto motor, adaptador ni API aqui",
+  "ejecucion_original_L18": {
+   "contadores": "no localizados en los archivos revisados de esta carpeta (no existe archivo de resultados libres en la carpeta territorial)",
+   "origen_datos": "encargo",
+   "no_verificado_aqui": true
+  },
+  "proxy_lectura_local": {
+   "que_mide": "lineas leidas por el agente con el lector de archivos; proxy de volumen, no tokens API ni facturacion",
+   "valores": {
+    "p0016.md": 51,
+    "p0033.md": 49,
+    "doc.json": 139,
+    "README.md": 75,
+    "casos-libres.json": 114,
+    "referencias-3.json": 140
+   },
+   "limites_del_proxy": "no distingue tokens reales, contiene metadatos y Json completo de fixtures; valor orientativo"
+  },
+  "consumo_por_criterio": "no cuantificable: la puntuacion se hizo por lectura directa de 2 paginas, sin pipeline del motor"
+ },
+ "comparacion_ejecuciones_ahorro": {
+  "aplicada": false,
+  "razon": "no hay par de ejecuciones con cobertura y trazabilidad comparables en este encargo (una sola entrega declarada, sin re-ejecucion); no se calcula ni se afirma ahorro"
+ },
+ "errores_omisiones_pendientes": {
+  "errores_de_contenido_en_p33": "ninguno identificado para esta pregunta",
+  "omision_procesal": "la entrega original no incluyo p16 (desviacion de presencia); sustantivamente la pregunta quedo cubierta por p33",
+  "datos_pendientes": [
+   "hashes medidos de PDF y paginas para este archivo (los citados provienen de referencias-3.json y doc.json; Codex los añadira/verificara)",
+   "cotejo visual con el PDF oficial (extraccion pypdf sin cotejo visual completo)",
+   "capitulo al que pertenece el art. 9 (no evidenciado en p0016; se evito leer paginas adicionales)",
+   "vigencia y regimen transitorio: sin verificar (advertencias de doc.json)",
+   "comprobacion remota del CVE en www.bopmalaga.es/cve.php",
+   "trazabilidad completa de la ejecucion original del motor (contadores no disponibles)"
+  ]
+ },
+ "limites_muestra": {
+  "n_casos_adjudicados": 1,
+  "paginas_leidas": 2,
+  "limites": [
+   "veredicto acotado a la consulta L-18 y a las dos paginas leidas; no excusa otras preguntas ni paginas del doc",
+   "suficiencia de p33 asentada en equivalencia material de dos preceptos; no acredita que el ranking sea correcto en general ni desvanece el fallo estricto original",
+   "redundancia 9.3/31.1 constatada desde texto extraido; sin cotejo visual del PDF",
+   "no es dictamen de vigencia ni de aplicabilidad juridica",
+   "sin independencia estadistica; muestra unica"
+  ]
+ },
+ "pendiente_codex": [
+  "añadir hashes medidos (PDF y p0016/p0033) para este registro y re-verificar los valores trabajados desde referencias-3.json/doc.json",
+  "comprobar diff y estado de Git de esta entrega"
+ ],
+ "comprobacion_codex": {
+  "fecha_utc": "2026-11-16T17:54:47.160618+00:00",
+  "pdf_sha256_medido": "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99",
+  "paginas_sha256_texto_utf8": {
+   "16": "eb24711bac8564b280faa228e1aa41054aea186b0e04010fb290463e9062aa95",
+   "33": "a7a69523b6067ed54bc10182c5108a3105ea48a76bf6d4ecf7db821ce4cdcb3d"
+  },
+  "sin_cotejo_web_nuevo": true
+ }
+}

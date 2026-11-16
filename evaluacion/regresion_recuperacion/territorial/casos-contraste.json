@@ -1,0 +1,79 @@
+{
+ "esquema": "regresion-recuperacion-fixture/1",
+ "referencia_conservada_durante_comparacion": true,
+ "nota_referencia": "Fixture de contraste para generalización previa al ajuste (6 casos, C-01..C-06) para ejecutar.py --fixture. Gold de páginas físicas fijado ANTES de ejecutar ranking, a partir de diagnostico-fallos.json de esta carpeta: las tres páginas esperadas del cotejo (p. 18, p. 21, p. 16) y las 19 devueltas se leyeron íntegras, y de ese cotejo salen también los contrastes p. 50 (art. 81.1, mínimo) y p. 53 (disposición transitoria única). SHAs del PDF conservados del diagnóstico (no re-verificados aquí, sin shell); el SHA del texto de cada página esperada figura en diagnostico-fallos.json. Una consulta natural por caso, sin números de artículo ni de página; respuesta explícita y completa dentro de la página del gold. criterios_evidencia: 1-2 citas cortas literales del texto de página según el diagnóstico, con ubicación y edición en la nota de cada caso; metadatos jurisdiccion/municipio/disposicion/criterios_evidencia inertes para ejecutar.py, que por caso solo consume id, consulta, documento, version, referencias_paginas, fallo_conocido y nota, y arriba config y esperado. Pares de contraste: C-03 (máximo, art. 17.1, p. 21) frente a C-04 (mínimo, art. 81.1, p. 50) y C-05 (inicio general, art. 9.3, p. 16) frente a C-06 (transitoria, p. 53), para que el ajuste no se afinque al máximo o al inicio general rompiendo consultas diferentes; C-01/C-02 comparten la p. 18 (definición de ambas categorías e inclusión de parcelas con solar por obras accesorias), con consultas distintas a las del diagnóstico para medir generalización. Consultas y gold congelados: no se ajustarán según resultados, sin fallos conocidos marcados. Límites: muestra pequeña (6 casos) sin independencia estadística; la cobertura por presencia de página no acredita calidad global de la respuesta ni fidelidad sustantiva; no es dictamen de aplicabilidad ni vigencia. Fixture preparada sin ejecutar el motor ni correr pruebas.",
+ "config": {"presupuesto_tokens": 20000, "max_resultados": 2},
+ "documentos": {
+  "MADRID": {"documento": "BOE-A-2001-18984", "version": "2026-06-15", "pdf_sha256": "28436cd2d66512528425e6737ae4dfba2a83c399be7dd9986ffea2b2eb83a981"},
+  "PAIS_VASCO": {"documento": "BOE-A-2011-17400", "version": "2025-12-29", "pdf_sha256": "c085dfea5e77c60012dd3f47be97911076797ad104f26941ada0e7365e44f364"},
+  "MALAGA": {"documento": "MUN-MALAGA-OMLU-2025", "version": "2025-12-29", "pdf_sha256": "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99"}
+ },
+ "esperado": {"referencias_totales": 6, "referencias_evaluables": 6},
+ "casos": [
+  {"id": "C-01",
+   "consulta": "Qué diferencia hay entre el suelo urbano consolidado y el no consolidado según la ley del suelo madrileña",
+   "documento": "BOE-A-2001-18984", "version": "2026-06-15",
+   "jurisdiccion": "Comunidad de Madrid", "municipio": null,
+   "disposicion": "Ley 9/2001, de 17 de julio, del Suelo, de la Comunidad de Madrid.",
+   "referencias_paginas": [18], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "Suelo urbano consolidado, integrado por los solares",
+    "b) Suelo urbano no consolidado, integrado por la restante superficie de suelo urbano"
+   ],
+   "nota": "Art. 14.2, p. 18, edición 2026-06-15: define ambas categorías pedidas; el no consolidado integra la restante superficie de suelo urbano y, en todo caso, los terrenos objeto de actuaciones de reforma o renovación de la urbanización. Consulta distinta a la del diagnóstico (T-09) sobre la misma página."},
+  {"id": "C-02",
+   "consulta": "A qué categoría pertenece una parcela que puede adquirir la condición de solar mediante obras accesorias y simultáneas a la edificación",
+   "documento": "BOE-A-2001-18984", "version": "2026-06-15",
+   "jurisdiccion": "Comunidad de Madrid", "municipio": null,
+   "disposicion": "Ley 9/2001, de 17 de julio, del Suelo, de la Comunidad de Madrid.",
+   "referencias_paginas": [18], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "puedan adquirir la condición de solar",
+    "mediante obras accesorias y simultáneas a las de edificación o construcción"
+   ],
+   "nota": "Art. 14.2.a, p. 18, edición 2026-06-15: la categoría es suelo urbano consolidado, que incluye las parcelas que puedan adquirir la condición de solar mediante obras accesorias y simultáneas a las de edificación; contrasta la inclusión por excepción frente a la definición general de C-01."},
+  {"id": "C-03",
+   "consulta": "Cuál es el límite superior de la reserva de suelo para alojamientos dotacionales por cada cien metros cuadrados de techo residencial",
+   "documento": "BOE-A-2011-17400", "version": "2025-12-29",
+   "jurisdiccion": "País Vasco", "municipio": null,
+   "disposicion": "Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+   "referencias_paginas": [21], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "El máximo para este destino será de 2,5 metros cuadrados de suelo por",
+    "cada incremento de 100 metros cuadrados de techo de uso residencial"
+   ],
+   "nota": "Art. 17.1, p. 21, edición 2025-12-29: máximo del destino de alojamientos dotacionales, 2,5 m² por cada incremento de 100 m² de techo residencial o, en defecto de su determinación, por cada nueva vivienda prevista en el planeamiento. Par de contraste con el mínimo de la p. 50 (C-04): misma unidad, sentido opuesto."},
+  {"id": "C-04",
+   "consulta": "Cuál es la superficie mínima de reserva para alojamientos dotacionales en municipios de veinte mil habitantes o más",
+   "documento": "BOE-A-2011-17400", "version": "2025-12-29",
+   "jurisdiccion": "País Vasco", "municipio": null,
+   "disposicion": "Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+   "referencias_paginas": [50], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "con destino a alojamientos dotacionales una superficie de suelo no inferior a 1,5 metros cuadrados por cada incremento de 100 metros cuadrados de techo de uso residencial"
+   ],
+   "nota": "Art. 81.1, p. 50, edición 2025-12-29: mínimo de reserva para municipios de 20.000 o más habitantes. Página que el run previo devolvió por similitud (bm25 40.13) ante la consulta de máximo; el ajuste no debe reparar C-03 rompiendo esta consulta."},
+  {"id": "C-05",
+   "consulta": "Qué fecha determina el inicio del procedimiento cuando se presenta la documentación completa en el registro electrónico municipal",
+   "documento": "MUN-MALAGA-OMLU-2025", "version": "2025-12-29",
+   "jurisdiccion": "Andalucía", "municipio": "Málaga",
+   "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+   "referencias_paginas": [16], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "fecha de inicio del procedimiento",
+    "la entrada de la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga"
+   ],
+   "nota": "Art. 9.3, p. 16 (página impresa 85 del BOP), edición 2025-12-29: la fecha de inicio del procedimiento es la de la entrada de la documentación completa en el Registro Electrónico General. Consulta distinta a la del diagnóstico (T-18) sobre la misma página."},
+  {"id": "C-06",
+   "consulta": "Qué régimen de tramitación siguen las solicitudes de licencia que estaban en trámite al entrar en vigor la nueva ordenanza",
+   "documento": "MUN-MALAGA-OMLU-2025", "version": "2025-12-29",
+   "jurisdiccion": "Andalucía", "municipio": "Málaga",
+   "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+   "referencias_paginas": [53], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "que se encuentren en trámite en el momento de entrada en vigor",
+    "mantendrán su tramitación por el procedimiento vigente en el momento de su iniciación"
+   ],
+   "nota": "Disposición transitoria única, p. 53, edición 2025-12-29: los expedientes en trámite mantienen su tramitación por el procedimiento vigente en el momento de su iniciación. Página que el run previo devolvió por léxico de iniciación sin definir el inicio; el ajuste no debe reparar C-05 rompiendo esta consulta."}
+ ]
+}

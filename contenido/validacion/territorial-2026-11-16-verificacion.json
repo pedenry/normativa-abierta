@@ -1,0 +1,116 @@
+{
+  "fecha_utc": "2026-11-16T11:04:28.427117+00:00",
+  "encargo": "ampliación territorial 2026-11-16",
+  "resultado": {
+    "nuevos_pdf": 103,
+    "nuevas_paginas": 5357,
+    "regiones": 17,
+    "pdf_distribuibles": 149,
+    "entradas_manifiesto": 206,
+    "segmentos": 11132,
+    "paginas_totales": 9681,
+    "verificacion_hashes_nuevos": 103,
+    "anteriores_conservados": true,
+    "cambios_ajenos_ingesta_conservados": true
+  },
+  "integracion": "local; visor no regenerado ni publicación remota",
+  "integridad": {
+    "pdf_sha256_verificados": 103,
+    "paginas_md_json_hash_verificados": 5357,
+    "paginas_texto_vacio": 0,
+    "paginas_totales_contadas": 9681,
+    "idempotencia_real": true
+  },
+  "pruebas": {
+    "territoriales": 19,
+    "piloto_existente": 19,
+    "fallos_pendientes": 0,
+    "red_en_tests": false,
+    "descubridor_sobre_capturas_reales": {
+      "codigos_autonomicos": 17,
+      "ids_individuales": 102,
+      "ids_autonomicos_sin_prefijo_BOE_A": 7,
+      "coincide_entrada_descargada": true
+    },
+    "guardia_disco_sin_red": true
+  },
+  "recuperacion": [
+    {
+      "documento": "BOA-d-2014-90410",
+      "version": "2024-12-31",
+      "estado": "ok",
+      "paginas_fisicas": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "documento": "BOE-A-2021-20916",
+      "version": "2026-04-07",
+      "estado": "ok",
+      "paginas_fisicas": [
+        1,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "documento": "MUN-MALAGA-OMLU-2025",
+      "version": "2025-12-29",
+      "estado": "ok",
+      "paginas_fisicas": [
+        20,
+        26,
+        27,
+        28
+      ]
+    }
+  ],
+  "muestra_visual_por_IA": [
+    {
+      "documento": "BOA-d-2014-90410",
+      "pagina_fisica": 18,
+      "alcance": "Cotejo parcial del artículo 31.4.b: umbral literal quince por ciento, excepciones del párrafo y orden de apartados en PDF y texto."
+    },
+    {
+      "documento": "MUN-MALAGA-OMLU-2025",
+      "pagina_fisica": 1,
+      "pagina_impresa": 70,
+      "alcance": "Cabecera BOP 247, fecha 2025-12-29, título de la ordenanza y CVE 20251229-05158-2025."
+    }
+  ],
+  "descarga_candidatos_originales": {
+    "urls_ok": 345,
+    "pdf_sha_unicos": 342,
+    "errores": 17,
+    "http404": 6,
+    "exceso_80_MiB": 11,
+    "pendientes_limite_tanda": 62,
+    "limite_tanda_MiB": 2048,
+    "nota": "Los 62 pendientes pertenecen a proyectos en información pública; no se han considerado reutilizables por defecto. Los 345 descargados no equivalen a 345 normas."
+  },
+  "reutilizacion": {
+    "registro": "licencias/territorial-2026-11-16.json",
+    "autonomicas_individuales_BOE": 102,
+    "municipales_art13_TRLPI": 1,
+    "revision": "automática y por IA, no revisión humana ni dictamen jurídico"
+  },
+  "limites": [
+    "No cobertura exhaustiva de normativa autonómica o municipal.",
+    "Sin comprobación integral de tablas, fórmulas, anexos o fidelidad de extracción.",
+    "Vigencia, ámbito aplicable y régimen transitorio pendientes por caso.",
+    "Málaga: publicación original de 2025-12-29, no consolidada.",
+    "Madrid: PDF localizado no descargado por robots; Zaragoza MIAU: boletín con anuncios ajenos, pendiente de separar; anexo gráfico sin texto extraíble, pendiente de OCR/cotejo.",
+    "No se ha medido ahorro de tokens de esta operación."
+  ],
+  "almacenamiento": {
+    "incidencia": "Disco C sin espacio al cerrar registros; no se perdieron documentos integrados.",
+    "accion": "106 copias PDF idénticas unificadas mediante enlaces físicos NTFS, conservando rutas y verificando SHA; no se eliminaron PDF únicos.",
+    "espacio_recuperado_MiB_aproximado": 107.0,
+    "nota": "Los originales válidos se tratan como inmutables; las rutas enlazadas comparten bytes.",
+    "libre_C_bytes_al_cierre": 266616832,
+    "reserva_descargador_MiB": 128
+  }
+}

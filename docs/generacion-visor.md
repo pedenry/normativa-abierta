@@ -18,7 +18,7 @@ La generación no depende de la hora del reloj: con las mismas entradas debe pro
 
 - El texto y los PDF se incluyen únicamente para documentos con `distribute=true`. Las fuentes restringidas conservan solo ficha y enlace externo, sin reproducir su contenido.
 - Cada documento y página conserva la edición, procedencia, referencia al PDF y advertencias de la fuente. La copia del PDF mantiene su SHA-256.
-- La ampliación BOE de 2026-11-15 añade 15 disposiciones y 2.742 páginas; el corpus contiene 46 documentos, 4.324 páginas y 5.775 segmentos. Sus segmentos nuevos son páginas físicas, no artículos o apartados oficiales validados.
+- La ampliación BOE de 2026-11-15 añadió 15 disposiciones y 2.742 páginas. La tanda territorial de 2026-11-16 añade otros 103 PDF y 5.357 páginas: el corpus alcanza 149 PDF, 9.681 páginas y 11.132 segmentos. Sus segmentos nuevos son páginas físicas, no artículos o apartados oficiales validados.
 - Los textos consolidados del BOE se identifican como informativos. El Código Estructural incorporado es la publicación original de 2021-08-10 y conserva el aviso sobre correcciones posteriores. Las atribuciones se describen en [LICENCIAS.md](../LICENCIAS.md).
 
 Estos controles de publicación no comprueban por sí solos la fidelidad completa de tablas, fórmulas o notas, ni la vigencia o aplicabilidad de una norma a un proyecto.
@@ -43,7 +43,7 @@ La tanda actual conserva los documentos anteriores. Si en otra actualización se
 
 ## Publicación y comprobación remota
 
-La publicación autorizada de esta tanda abarca los 15 PDF BOE y sus derivados públicos, junto con la actualización del visor y la documentación. El responsable ejecuta Git y la publicación después de las comprobaciones. El generador y los scripts de ingesta no realizan esas acciones.
+La autorización de cierre de 2026-11-16 abarca el commit y push de la tanda territorial y las mejoras de recuperación, con sus derivados públicos y documentación. Sigue excluido el material privado de `.local/`, `_trabajo/` y `repo-preparacion/`. El responsable ejecuta Git y la publicación después de las comprobaciones. El generador y los scripts de ingesta no realizan esas acciones.
 
 GitHub Pages sirve la rama `main`, desde la raíz del repositorio. Tras incorporar el cambio, comprobar que las comprobaciones de GitHub pasan y que Pages ha terminado de publicar el mismo SHA. Abrir la portada y páginas nuevas desde la URL pública, y verificar una descarga PDF contra su hash registrado.
 

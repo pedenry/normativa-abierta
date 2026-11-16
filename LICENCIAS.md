@@ -38,14 +38,14 @@ MIT solo para scripts originales; ver `LICENSE-CODE`. No se aplica a normativa, 
 
 | Capa | Entradas | PDF | Tratamiento |
 |---|---:|---:|---|
-| Documentos legales | 30 | 30 | Texto completo; `distribute=true` |
+| Documentos legales | 133 | 133 | Texto completo; `distribute=true` |
 | Complementos sin permiso | 23 | 23 | Local privado; no se distribuyen |
 | Guías con permiso editorial | 16 | 16 | Contexto publicable citando fuente y autores |
 | Guías/subdocs sin permiso | 27 | 27 | Local privado; no se distribuyen |
 | Páginas HTML de guía | 7 | 0 | Ficha; sin reproducción |
-| **Total** | **103** | **96** | |
+| **Total** | **206** | **199** | |
 
-**46 PDF redistribuibles**: 30 legales + 16 con permiso editorial expreso. Evidencia en `licencias/permisos-editoriales.json` y, para la ampliación BOE de 2026-11-15, en `licencias/ampliacion-boe-2026-11-15.json` (hashes por documento). El 2026-11-15, Pedro autorizó publicar las 15 fuentes BOE integradas y actualizar el visor. Los 50 PDF restantes siguen privados.
+**149 PDF redistribuibles**: 133 legales + 16 con permiso editorial expreso. Evidencia en `licencias/permisos-editoriales.json`, en `licencias/ampliacion-boe-2026-11-15.json` y, para la tanda territorial de 2026-11-16, en `licencias/territorial-2026-11-16.json` (hashes por documento). El 2026-11-15, Pedro autorizó publicar las 15 fuentes BOE integradas y actualizar el visor. Los 50 PDF privados siguen excluidos.
 
 El art. 13 TRLPI no es una licencia global. Una guía queda en **UNKNOWN** salvo permiso expreso; no se reescala por título, sección o parecido. Si cambia el SHA, se invalida la evidencia anterior y se revisa el nuevo documento.
 
@@ -64,3 +64,11 @@ Integración de **15 disposiciones BOE** adicionales (14 consolidados informativ
 - Los consolidados son **meramente informativos y sin valor oficial**. La publicación original no incorpora correcciones posteriores.
 - Pendiente: cotejo de fidelidad de tablas, fórmulas y notas; comprobación de ámbito aplicable y régimen transitorio. Cada salida debe conservar la atribución correspondiente al PDF íntegro o al texto extraído, según su registro de transformación.
 - Sin licencia MIT global ni textos UNE. Las comprobaciones de la entrega se registran en [el historial de publicación](changelog/2026-11-15-pedenry-evaluacion-publicacion-boe.changelog.md).
+
+## Tanda territorial 2026-11-16
+
+Se añaden 102 disposiciones autonómicas alojadas en el BOE (17 CCAA), amparadas por el aviso legal del BOE con atribución según el tratamiento, y la ordenanza OMLU de Málaga, texto reglamentario excluido de protección por el artículo 13 TRLPI, publicado íntegro en el anuncio 5158/2025 (BOP de Málaga núm. 247, pp. 70-148, 2025-12-29).
+
+- Evidencia por SHA-256 y registro de la transformación página a página: `licencias/territorial-2026-11-16.json`.
+- Los consolidados son informativos y sin valor oficial; la ordenanza de Málaga es publicación original, no consolidada.
+- Pendiente: cotejo de fidelidad de tablas y notas, ámbito aplicable y régimen transitorio; sin revisión humana completa.
