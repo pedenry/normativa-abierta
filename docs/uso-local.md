@@ -48,6 +48,14 @@ Consulta las ediciones disponibles en [el índice de documentos](../contenido/in
 
 Los fragmentos nuevos corresponden a páginas físicas completas. No son artículos ni apartados oficiales contrastados. Los avisos de la fuente acompañan al contexto y cuentan dentro de su presupuesto. Catorce PDF son textos consolidados meramente informativos; el Código Estructural es la publicación original de 10 de agosto de 2021, con correcciones posteriores pendientes de cotejo. Las tablas, fórmulas, dibujos, ámbito y régimen transitorio requieren revisión frente al PDF. La ampliación no extiende los resultados del piloto SUA a estas materias.
 
+## Consultas autonómicas y municipales
+
+La tanda territorial incorpora 102 disposiciones autonómicas de 17 CCAA y la OMLU de Málaga. Puedes omitir documento y edición y escribir el lugar en la consulta; el adaptador usa los metadatos del corpus para acotar las fuentes. Una selección automática no acredita vigencia ni aplicabilidad.
+
+Si la consulta necesita ubicación y no la incluye, `preparar` y la CLI devuelven `estado: aclaracion_necesaria`, una pregunta en `aclaracion.pregunta` y los campos que faltan en `aclaracion.campos_requeridos`, sin entregar páginas. Facilita esos datos y repite la consulta incluyendo el lugar. Las consultas técnicas nacionales y las de marco exclusivamente estatal pueden recuperar evidencia sin pedir ubicación. La detección es heurística y tiene una muestra de pruebas limitada.
+
+Si se solicita normativa municipal de una ciudad no incorporada, se devuelve `sin_resultados`: no se sustituye por Málaga. Los servidores HTTP de búsqueda básica no consumen este flujo del adaptador. Véanse [las pruebas y límites](../evaluacion/regresion_recuperacion/territorial/SIN-UBICACION.md) y [el handoff de cierre](../changelog/2026-11-16-pedenry-evaluacion-cierre-territorial.changelog.md).
+
 ## Trabajar con planos
 
 Guarda los planos fuera del repositorio o en `.local/`. No los añadas a Git. Confirma que puedes compartirlos con el proveedor del modelo antes de darle acceso.

@@ -634,9 +634,22 @@ def raiz(t):
     return t
 
 
+# Vista de tokenización de búsqueda: une palabras partidas por guion a fin
+# de línea (p. ej. «Vivien-\nda» -> «Vivienda»); no altera norm(), texto
+# almacenado, citas, notas, pesos, IDF ni presupuesto. Exige letras a ambos
+# lados del guion y salto LF/CRLF (espacios horizontales admitidos): no une
+# rangos numéricos (103-\n109), viñetas ni guiones en la misma línea.
+# Límite inherente documentado: un guion semántico de compuesto real
+# partido por el autor (p. ej. «teórico-\npráctico») también se une en esta
+# vista; el texto literal entregado conserva guion y salto.
+_PALABRA_PARTIDA = re.compile(
+    r"(?<=[a-zA-Z\u00c0-\u017f])-[ \t]*\r?\n[ \t]*(?=[a-zA-Z\u00c0-\u017f])")
+
+
 @lru_cache(maxsize=8192)
 def tokenizar(texto):
-    base = unicodedata.normalize("NFC", str(texto or "")).lower()
+    base = unicodedata.normalize(
+        "NFC", _PALABRA_PARTIDA.sub("", str(texto or ""))).lower()
     tok = re.findall(r"[0-9a-záéíóúüñ]+", base)
     return tuple(raiz(SINONIMOS.get(norm(t), norm(t))) for t in tok
                  if (len(t) > 1 or t.isdigit()) and norm(t) not in STOPWORDS)
@@ -741,6 +754,11 @@ def _titulo_sin_codigo(t):
 
 
 def _pasa_filtro(f, op):
+    # Gate opcional de ámbito (documentos_permitidos, de metadatos): no altera
+    # estadísticas (IDF global calculado antes); sin el atributo, sin cambio.
+    perm = getattr(op, "documentos_permitidos", None)
+    if perm is not None and f["documento"] not in perm:
+        return False
     if op.documento and norm(op.documento) not in (
             norm(f["documento"]), norm(f.get("codigo") or "")):
         return False
@@ -855,6 +873,186 @@ def cobertura_roots(roots, texto):
     return (len(roots & set(tokenizar(texto))) / float(len(roots))) if roots else 0.0
 
 
+# Selección de pasajes y operación de consulta para lecturas auxiliares.
+# Reglas generales de léxico operativo normativo (umbral máximo/mínimo,
+# dicotomía X frente a "no X", inicio de procedimiento); pesos fijos, sin
+# IDs, páginas, regiones ni vocabulario de casos concretos. La vista
+# puntuable solo afecta a la puntuación de pasajes: el texto literal
+# entregado, sus citas y hashes no cambian.
+
+_VENTANA = 480
+_SOLAPE = 240
+_PESO_PASAJE = 0.60
+_BONUS_OPER = 0.30
+_UMBRAL_PASAJE = 0.20
+
+_ED_LINEA = re.compile(
+    r"^\s*(?:bolet[ií]n oficial\b.*"
+    r"|legislaci[óo]n consolidada\s*$"
+    r"|texto consolidado\s*$"
+    r"|última modificaci[óo]n\b.*"
+    r"|número\s+\d+\b.*"
+    r"|página\s+\d+\s*$"
+    r"|\d+\s*$"
+    r"|cve:\s*.*)$", re.I)
+
+_NO_TERMINO = re.compile(r"\bno\s+([a-zñáéíóúü]{4,})\b")
+_MAX_EN_TEXTO = re.compile(r"\bmaxim[oa]s?\b")
+_MIN_EN_TEXTO = re.compile(r"\bminim[oa]s?\b")
+_INICIO_EN_TEXTO = re.compile(
+    r"fecha de inicio"
+    r"|se consider[aá]r?(?:\s+como)?\s+(?:fecha|momento)\s+de\s+inicio"
+    r"|se\s+entiende(?:\s+r[áa])?\s+por\s+iniciado")
+_TRANSITORIA_EN_TEXTO = re.compile(
+    r"entrada en vigor|en tr[áa]mite|iniciad[oa]s?\s+con\s+anterioridad")
+
+# Intención de definición/clasificación en la consulta (léxico general de
+# consulta, sin vocabulario de casos): «cuándo se considera X…», «qué
+# diferencia…», «a qué categoría…», «cómo se clasifica…», «qué se entiende…».
+_DEF_INTENCION = re.compile(
+    r"\b(?:cuando se considera|que diferencia|a que categor[ií]a|"
+    r"como se clasifica|que se entiende)\b")
+
+# Predicados definitorios generales del texto normativo: el término de la
+# dicotomía seguido inmediatamente del predicado que define su composición
+# («X, integrado por…»). Expresa «de qué clase» por vínculo explícito
+# término→definición, no por mera coocurrencia del par.
+_DEF_VINCULO = (r"\b%s\w*\s*,?\s*"
+                r"(?:integrado|formado|constituido|compuesto)[asoe]*s?\s+por\b")
+
+
+def _vista_puntuable(texto, titulo_doc=""):
+    """Vista de puntuación sin pie editorial ni talón que cita la fuente.
+
+    La consulta suele nombrar el documento («la ley del suelo de...») y las
+    cabeceras editoriales repiten jurisdicción y estado de consolidación: eso
+    aporta cobertura de términos de identidad que no existe en el pasaje útil
+    (portadas y cabeceras ganan sin contenido normativo). Para puntuar
+    pasajes se purgan líneas editoriales generales (pies de boletín, «texto
+    consolidado», «última modificación», «página N», números sueltos, códigos
+    CVE) y el tramo inicial donde el documento se nombra a sí mismo con su
+    título literal. No altera el texto entregado ni citas ni hashes ni notas.
+    """
+    lineas = [l for l in str(texto or "").split("\n")
+              if not _ED_LINEA.match(l or "")]
+    vista = "\n".join(lineas)
+    clave = _clave_texto(titulo_doc or "")
+    if len(clave) < 20:
+        return vista
+    nv, mapa = normalizar_mapa(vista)
+    pos = nv.find(clave)
+    if not (0 <= pos <= 600) or not mapa:
+        return vista
+    fin = mapa[min(len(mapa) - 1, pos + len(clave) - 1)]
+    return vista[:mapa[pos]] + " " + vista[min(len(vista), fin + 1):]
+
+
+def _operacion_consulta(consulta):
+    """Detecta la operación que pide la consulta (clases generales, sin casos).
+
+    tipo: dicotomia (pide un término y su negación con la misma raíz),
+    maximo (pide el tope superior y no el inferior), minimo (simétrico),
+    inicio (momento en que se entiende iniciado/iniciado el trámite) o None.
+    Sin IDs, páginas ni vocabulario de casos concretos.
+    """
+    t = norm(consulta)
+    op = {"tipo": None, "par": "", "definicion": False}
+    if _DEF_INTENCION.search(t):
+        op["definicion"] = True
+    for m in _NO_TERMINO.finditer(t):
+        r = raiz(m.group(1))
+        if not r or len(r) < 4:
+            continue
+        sin_negacion = t[:m.start()] + " " + t[m.end():]
+        if re.search(r"\b%s" % re.escape(r), sin_negacion):
+            op["tipo"], op["par"] = "dicotomia", r
+            break
+    if op["tipo"]:
+        return op
+    pide_max = bool(re.search(r"\bmaxim[oa]s?\b", t))
+    pide_min = bool(re.search(r"\bminim[oa]s?\b", t))
+    if pide_max and not pide_min:
+        op["tipo"] = "maximo"
+    elif pide_min and not pide_max:
+        op["tipo"] = "minimo"
+    elif re.search(r"\b(?:cuando|momento|fecha en que)\b.*"
+                   r"\b(?:inici|comienz|empiez|entrada en vigor)", t) or \
+            re.search(r"\b(?:iniciado|iniciaci[óo]n|inicio)\b.{0,40}"
+                      r"\b(?:procedimiento|tramitaci[óo]n|expediente|plazo)\b", t):
+        op["tipo"] = "inicio"
+    return op
+
+
+def _mejor_pasaje(nvista, roots, op):
+    """Mejor puntuación de pasaje de la vista puntuable (ventana con solape).
+
+    Cobertura de raíces de la consulta dentro del pasaje + ajuste de
+    polaridad/operación: premia el pasaje que contiene el término operativo
+    pedido literalmente (máximo/mínimo, fórmula de inicio, ambos polos de la
+    dicotomía X/"no X") y penaliza el pasaje de polaridad contraria o de
+    régimen transitorio cuando la consulta pide la regla general.
+    """
+    if not nvista or not roots or not op.get("tipo"):
+        return 0.0
+    texto = norm(nvista)
+    n = len(texto)
+    rangos = [(0, n)] if n <= _VENTANA else [
+        (i, min(n, i + _VENTANA)) for i in range(0, n, _SOLAPE)]
+    mejor = 0.0
+    rpar = op.get("par") or ""
+    # Vínculo definitorio término→predicado, solo si la consulta pide
+    # definición/clasificación: premia el pasaje que define de qué clase,
+    # no el que solo menciona el par (uso del término en exposición).
+    vinc = None
+    if op.get("definicion") and rpar:
+        vinc = re.compile(_DEF_VINCULO % re.escape(rpar))
+    for a, b in rangos:
+        v = texto[a:b]
+        extra = 0.0
+        if op["tipo"] == "maximo":
+            if _MAX_EN_TEXTO.search(v):
+                extra = _BONUS_OPER
+            elif _MIN_EN_TEXTO.search(v):
+                extra = -_BONUS_OPER
+        elif op["tipo"] == "minimo":
+            if _MIN_EN_TEXTO.search(v):
+                extra = _BONUS_OPER
+            elif _MAX_EN_TEXTO.search(v):
+                extra = -_BONUS_OPER
+        elif op["tipo"] == "inicio":
+            if _INICIO_EN_TEXTO.search(v):
+                extra = _BONUS_OPER
+            elif _TRANSITORIA_EN_TEXTO.search(v):
+                extra = -_BONUS_OPER
+        elif op["tipo"] == "dicotomia" and rpar:
+            # Ambos polos en la misma ventana (dicotomía «X / no X»): la
+            # ocurrencia positiva se busca fuera de las negaciones propias,
+            # no negando el booleano global. Los saltos de línea ya quedan
+            # colapsados por norm(); se colapsan también aquí expresamente
+            # para que «no\nactivo» no se lea como término positivo.
+            vn = " ".join(v.split())
+            neg_spans = [mn.span() for mn in
+                         re.finditer(r"\bno\s+%s\w*" % re.escape(rpar), vn)]
+            pos = False
+            for mp in re.finditer(r"\b%s\w*" % re.escape(rpar), vn):
+                if not any(a <= mp.start() < b for a, b in neg_spans):
+                    pos = True
+                    break
+            neg = bool(neg_spans)
+            if neg and pos:
+                extra = _BONUS_OPER
+            elif neg:
+                extra = -0.10
+            if vinc is not None and vinc.search(vn):
+                # Vínculo definitorio explícito en la misma ventana: se apila
+                # al ajuste de polos (sin quitar la negación correcta).
+                extra += _BONUS_OPER
+        cob = cobertura_roots(roots, v)
+        if cob + extra > mejor:
+            mejor = cob + extra
+    return mejor
+
+
 def _adjuntar_auxiliares(cont, filas, encs, resultados, consulta, terminos,
                          opciones, nav, advertencias):
     """Añade 1-2 lecturas auxiliares por documento primario, sin tocar el TOP3.
@@ -872,6 +1070,21 @@ def _adjuntar_auxiliares(cont, filas, encs, resultados, consulta, terminos,
     codigos = set(re.findall(r"\b[A-Z][A-Z0-9]{1,5}\b", consulta))
     numeros = re.findall(r"\b\d+\b", consulta)
     frases_codigo = [norm("%s %s" % (c, n)) for c in codigos for n in numeros]
+    # Operación pedida por la consulta y título de los documentos con
+    # resultados (para la vista puntuable de pasajes): se lee doc.json solo
+    # de los documentos realmente presentes en los resultados.
+    op = _operacion_consulta(consulta)
+    docs_necesarios = {r.get("documento") for r in resultados[:opciones.max]
+                       if r.get("documento")}
+    titulos_doc = {}
+    for f in filas:
+        if f["documento"] not in docs_necesarios or f["documento"] in titulos_doc:
+            continue
+        try:
+            titulos_doc[f["documento"]] = (leer_json(cont / f["doc_json"])
+                                           or {}).get("title") or ""
+        except Exception:
+            titulos_doc[f["documento"]] = ""
     vistos, total = set(), 0
     for r in resultados[:opciones.max]:
         doc = r["documento"]
@@ -879,6 +1092,26 @@ def _adjuntar_auxiliares(cont, filas, encs, resultados, consulta, terminos,
             continue
         vistos.add(doc)
         paginas = por_doc.get(doc, [])
+        # Páginas ya entregadas para este documento por los primarios:
+        # primarias de CUALQUIER resultado del mismo documento y sus págs
+        # contiguas (expandir) ya entregadas como continuadas. La 2ª lectura
+        # semántica no las elige (el adaptador entrega los auxiliares del 1er
+        # resultado antes del 2º, y una página primaria/continuada podría
+        # quedar registrada con motivo auxiliar o ser redundante). Solo se
+        # excluye del tramo nuevo; base, nota y encabezado no cambian.
+        ocupadas_doc = set()
+        for r2 in resultados[:opciones.max]:
+            if r2.get("documento") == doc:
+                ocupadas_doc.update(r2.get("paginas") or [])
+        continuas = set()
+        exp = getattr(opciones, "expandir", 1) or 0
+        for r2 in resultados[:opciones.max]:
+            if r2.get("documento") != doc:
+                continue
+            for p0 in (r2.get("paginas") or []):
+                for k in range(1, exp + 1):
+                    continuas.add(p0 - k)
+                    continuas.add(p0 + k)
         cand = []
         for p in paginas:
             if p["pagina"] in (r.get("paginas") or []):
@@ -886,8 +1119,17 @@ def _adjuntar_auxiliares(cont, filas, encs, resultados, consulta, terminos,
             texto = p.get("texto") or ""
             cob = (len(roots & set(tokenizar(texto))) / float(len(roots))) if roots else 0.0
             bonus = 0.25 if any(f and f in norm(texto) for f in frases_codigo) else 0.0
-            cand.append((cob + bonus, cob, p["pagina"], p))
-        cand.sort(key=lambda x: (-x[0], -x[1], x[2]))
+            sp = 0.0
+            if op["tipo"]:
+                # Con operación detectada, el score de pasaje puntúa la vista
+                # sin cabeceras editoriales ni talón que cita el documento:
+                # portadas y pies aportan identidad, no contenido operativo.
+                sp = _mejor_pasaje(_vista_puntuable(texto, titulos_doc.get(doc, "")),
+                                   roots, op)
+            # tramo: (compuesto, cobertura+bonus, cobertura, pasaje, página, pagina)
+            cand.append(((cob + bonus) + _PESO_PASAJE * sp, cob + bonus,
+                         cob, sp, p["pagina"], p))
+        cand.sort(key=lambda x: (-x[0], -x[2], -x[3], x[4]))
         notas_doc = [n for n in notas if n["documento"] == doc]
         rank_notas = _bm25(notas_doc, terminos, consulta) if notas_doc else []
         mejor_nota = None
@@ -901,14 +1143,32 @@ def _adjuntar_auxiliares(cont, filas, encs, resultados, consulta, terminos,
         propuestas = []
         if mejor_nota:
             propuestas.append((mejor_nota[0], "nota", mejor_nota[1],
-                               mejor_nota[2], mejor_nota[3]))
+                               mejor_nota[2], mejor_nota[3], 0.0))
         if nav and nav["documento"] == doc:
             propuestas.append((nav["pagina"], "encabezado", 0.0,
-                               cobertura_roots(roots, nav["titulo_literal"]), None))
+                               cobertura_roots(roots, nav["titulo_literal"]),
+                               None, 0.0))
+        elegidas = []
         if cand:
-            propuestas.append((cand[0][2], "pagina", cand[0][0], cand[0][1], None))
+            # Base conservada: la mejor por cobertura global con el orden previo
+            # (sin pesos de pasaje); idéntica al cand[0] del comportamiento
+            # anterior, para no perder ninguna página auxiliar previa.
+            orden_previo = sorted(cand, key=lambda x: (-x[1], -x[2], x[4]))
+            base = orden_previo[0]
+            elegidas.append(base)
+            if op["tipo"]:
+                # 2ª lectura semántica si hay hueco: el pasaje con mejor señal
+                # de operación (polaridad/definición/inicio) distinto de la base.
+                resto = [c for c in orden_previo
+                         if c is not base and c[3] > _UMBRAL_PASAJE
+                         and c[4] not in ocupadas_doc
+                         and c[4] not in continuas]
+                if resto:
+                    elegidas.append(max(resto, key=lambda x: x[3]))
+        for c in elegidas:
+            propuestas.append((c[4], "pagina", c[0], c[2], None, c[3]))
         auxs, por_pag = [], {}
-        for pag, tipo, score, cob, nota in propuestas:
+        for pag, tipo, score, cob, nota, sp in propuestas:
             if pag in por_pag:
                 ent = por_pag[pag]
                 if nota is not None and "nota" not in ent:
@@ -933,7 +1193,8 @@ def _adjuntar_auxiliares(cont, filas, encs, resultados, consulta, terminos,
             ent = {"documento": doc, "pagina": pag, "aux_tipo": tipo,
                    "motivo": ("nota_pertinente_por_rank" if tipo == "nota" else
                               ("heading_exacto" if tipo == "encabezado" else
-                               "pagina_cobertura")),
+                               ("pagina_pasaje" if sp > 0
+                                else "pagina_cobertura"))),
                    "score": round(float(score), 4), "cobertura": round(float(cob), 4),
                    "titulo_literal": p.get("titulos") or "",
                    "archivo": p["archivo"], "texto": p["texto"],
@@ -1052,7 +1313,13 @@ def buscar_bm25(cont, filas, docs, consulta, terminos, opciones, encs):
     capa = getattr(opciones, "capa", None)
     capa_norm = norm(capa) if capa else None
     todas_capas = capa_norm in ("todas", "todos", "all")
+    # Gate de ámbito DESPUÉS de las estadísticas: df/IDF global sobre TODAS las
+    # filas (arriba); aquí solo se restringen los candidatos puntuables. Sin el
+    # atributo, comportamiento idéntico.
+    permitidos = getattr(opciones, "documentos_permitidos", None)
     for f in filas:
+        if permitidos is not None and f["documento"] not in permitidos:
+            continue
         if opciones.documento and norm(opciones.documento) not in (
                 norm(f["documento"]), norm(f.get("codigo") or "")):
             continue

@@ -42,7 +42,7 @@ python ingesta/recopilar_boe.py --solo-id BOE-A-2021-13681
 python ingesta/recopilar_boe.py --salida .local/ampliacion-boe
 ```
 
-Códigos de salida: `0` todo ok · `1` alguna fuente con error · `2` error de configuración (JSON ausente, `--solo-id` desconocido, ID con formato inesperado). Los errores quedan registrados por fuente en sus `metadatos.json` y en `resumen.json`/`resumen.md`. Si se combinan `--solo-id` y `--limite`, prevalece `--solo-id`.
+Códigos de salida: `0` todo ok · `1` alguna fuente con error · `2` error de configuración (JSON ausente, `--solo-id` desconocido, ID con formato inesperado). Los errores quedan registrados por fuente en su `metadata.json` y en `resumen.json`/`resumen.md`. Si se combinan `--solo-id` y `--limite`, prevalece `--solo-id`.
 
 La ejecución de este script la hace **Codex** (red y shell); la elaboración del agente fue solo de archivos.
 
@@ -53,29 +53,30 @@ Por defecto `.local/ampliacion-boe` en la raíz del checkout (gitignored). Estru
 ```text
 .local/ampliacion-boe/
   BOE-A-2021-13681/
-    20261115T101500Z__ab12cd34/          # fecha UTC de captura + hash PDF (8 caracteres)
+    20261115T101500Z__ab12cd34ef56/      # fecha UTC de captura + hash PDF (12 caracteres)
       act.html                           # HTML original, bytes sin modificar
       BOE-A-2021-13681-original.pdf      # PDF sin modificar, firma %PDF- validada
-      metadatos.json                     # SHA-256, enlaces fuente, disposicion literal,
-                                         # titulo real, fechas, tipo, licencia, pendientes
+      metadata.json                      # SHA-256, enlaces fuente, disposicion literal,
+                                         # titulo real, fechas y su fuente (meta ELI o pagina),
+                                         # jurisdiccion Espana, materia, tipo, licencia, pendientes
   BOE-A-1999-21567/
-    20261115T101502Z__9f87e321/
+    20261115T101502Z__9f87e32145a6/
       act.html
       BOE-A-1999-21567-consolidado.pdf
-      metadatos.json
+      metadata.json
   resumen.json                           # reporte de la ultima ejecucion
   resumen.md                             # tabla IDs/titulos/tipos/fechas/errores + alcance
 ```
 
-Cada snapshot vive en una carpeta por fecha UTC de captura + hash del PDF: **nunca se sobrescribe** un snapshot previo distinto (si la carpeta exacta existiera, se añade sufijo `-2`, `-3`, …). Si la fuente falla, la carpeta usa el sufijo `__sin-pdf` y conserva el HTML y los errores; si no hay enlace PDF en la página, se registra el fallo y **no se inventa consolidado**.
+Cada snapshot vive en una carpeta por fecha UTC de captura + hash del PDF (12 primeros caracteres): **nunca se sobrescribe** un snapshot previo distinto (si la carpeta exacta existiera, se añade sufijo `-2`, `-3`, …). Si la fuente falla, la carpeta usa el sufijo `__sin-pdf` y conserva el HTML y los errores; si no hay enlace PDF en la página, se registra el fallo y **no se inventa consolidado**.
 
 ## Método de captura
 
-- Página oficial `https://www.boe.es/buscar/act.php?id={ID}` analizada con `html.parser.HTMLParser` (sin dependencias externas). Metadatos: ELI, título real (h1, con `<title>` como alternativa declarada), fecha de publicación, fecha del documento, fecha de versión/actualización; todo campo no localizado queda `null` con aviso de cotejo contra el HTML guardado.
-- PDF: primer enlace cuyo href contenga el ID y `consolidado.pdf` (tipo `consolidado`); si no existe, enlace con `ID.pdf` (tipo `original`). URL relativa resuelta con `urljoin`; si no hay enlace válido, error por fuente.
+- Página oficial `https://www.boe.es/buscar/act.php?id={ID}` analizada con `html.parser.HTMLParser` (sin dependencias externas). Metadatos: metas ELI (`eli:fecha_publicacion`, `eli:date_document`, validadas como ISO 8601) como fuente preferente de fechas, con alternativa declarada en las etiquetas de texto de la página («Publicación», «Fecha del documento», «Última actualización») y en el título; cada fecha registra su fuente. ELI (enlace), título real (h1, con `<title>` como alternativa declarada). Todo campo no localizado queda `null` con aviso de cotejo contra el HTML guardado.
+- PDF: primer enlace cuyo href contenga `{ID}-consolidado.pdf` (patrón verificado por Codex en las 15 páginas), después href con el ID y `consolidado.pdf`; si no existe, enlace con `ID.pdf` (tipo `original`). URL relativa resuelta con `urljoin`; si no hay enlace válido, error por fuente. Un PDF tipo `original` es el texto publicado en el BOE el día de la disposición: **no consolida modificaciones posteriores**.
 - Límites: solo HTTPS en `www.boe.es`/`boe.es` (validado también tras cada redirección), tamaño máximo 60 MB, pausa ≥ 1 s entre solicitudes, timeout de 30 s, hasta 2 reintentos para errores transitorios (HTTP 408/429/5xx, cortes de red) con espera creciente de 2 s y 4 s. Descarga secuencial.
   - Límite observado en la tanda: `BOE-A-2021-13681` (Código Estructural, original) pesa **67 353 218 bytes** y supera el máximo de 60 MB del recopilador. Su captura ya fue realizada por Codex con un límite de 80 MB, antes de la integración local. **No se afirma** que el recopilador actual descargue los 15 documentos correctamente sin ajustar ese límite.
-- La API de datos abiertos (`/legislacion-consolidada/id/{ID}/metadatos` y `/texto`, documentada en https://www.boe.es/datosabiertos/api/api.php) respondió **HTTP 400/404** en la verificación de Codex del 2026-11-15; por eso se usa scraping de `act.php`. El retest de la API queda pendiente y se registra en cada `metadatos.json`.
+- La API de datos abiertos (`/legislacion-consolidada/id/{ID}/metadatos` y `/texto`, documentada en https://www.boe.es/datosabiertos/api/api.php) respondió **HTTP 400/404** en la verificación de Codex del 2026-11-15; por eso se usa scraping de `act.php`. El retest de la API queda pendiente y se registra en cada `metadata.json`.
 
 ## Licencias y atribución
 
@@ -87,7 +88,7 @@ Cada snapshot vive en una carpeta por fecha UTC de captura + hash del PDF: **nun
 
 ## Límites declarados
 
-- **No se afirma vigencia** ni aplicabilidad: cada `metadatos.json` deja `aplicabilidad` y `transitorio` como PENDIENTES hasta verificar ámbito y régimen transitorio por fuente.
+- **No se afirma vigencia** ni aplicabilidad: cada `metadata.json` deja `aplicabilidad` y `transitorio` como PENDIENTES hasta verificar ámbito y régimen transitorio por fuente. La `jurisdiccion` registrada («España») es una inferencia por publicación en el BOE; emisor y ámbito concretos quedan pendientes.
 - **Fidelidad NO cotejada**: la extracción de metadatos es automática y sin revisión técnica humana. El HTML y el PDF originales se conservan byte a byte para permitir el cotejo de tablas, notas, umbrales y excepciones contra la fuente.
 - Los campos con `null` pueden existir en la página y no haberse localizado: cotejar contra el `act.html` guardado antes de dar por cierta una ausencia.
 - El script no ejecuta shell ni accede a la red más allá de las descargas descritas; es stdlib y determinista salvo las horas UTC de captura.

@@ -1,0 +1,119 @@
+{
+  "esquema": "regresion-recuperacion-fixture/1",
+  "referencia_conservada_durante_comparacion": true,
+  "nota_referencia": "Lote 1 de regresión territorial (6 casos, T-01..T-06): una página física por caso tomada de referencias-1.json de esta misma carpeta, donde la referencia se fijó antes de ejecutar cualquier ranking y no se ajusta por resultados; la referencia se mantiene sin retoques. Cotejo previo realizado fuera de este encargo: extracción de cada página directamente del PDF con pypdf, coincidencia al normalizar espacios y verificación de SHA-256 del PDF y del texto de página (hashes en referencias-1.json). Cada consulta es una pregunta natural sobre una condición, definición, umbral o excepción contenida íntegramente en la página fijada; no se usa número de artículo ni página como truco de búsqueda y no se copia el encabezado entero; no se pregunta nada cuya respuesta quede en página anterior o siguiente. Las citas de criterios_evidencia son texto normativo legal reutilizable, literales del texto_referencia del lote. Municipio nulo en los seis casos (normas autonómicas); el lote 3 (incluida Málaga, misma ordenanza) corresponde a otro encargo en paralelo y este archivo cubre solo el lote 1 (6 de las 21 páginas del extracto territorial de tres lotes). Límites: muestra exploratoria de 6 casos, sin independencia estadística; la cobertura por presencia de página no acredita calidad global ni fidelidad sustantiva; no es dictamen de aplicabilidad ni vigencia. Límite de lectura de este encargo: la lectura de referencias-1.json trunca las líneas largas, por lo que consultas y citas se anclan en el tramo inicial visible de cada texto_referencia; ese tramo forma parte íntegra de la página fijada y la porción no leída no se usó para redactar nada. El fallo de cualquier caso aquí cuenta como pérdida real de la muestra: fallo_conocido false en los seis por diseño del encargo, no por verificación previa. En la puntuación posterior, registrar resultado por criterio con la cita que lo apoya, separando hallazgo, texto recuperado y respuesta final.",
+  "config": {"presupuesto_tokens": 20000, "max_resultados": 2},
+  "documentos": {
+    "BOE-A-2021-20916": {"documento": "BOE-A-2021-20916", "version": "2026-04-07"},
+    "BOA-d-2014-90410": {"documento": "BOA-d-2014-90410", "version": "2024-12-31"},
+    "BOE-A-2017-10295": {"documento": "BOE-A-2017-10295", "version": "2026-01-27"},
+    "BOE-A-2022-13844": {"documento": "BOE-A-2022-13844", "version": "2026-10-16"},
+    "BOE-A-1999-12599": {"documento": "BOE-A-1999-12599", "version": "2025-12-05"},
+    "DOCM-q-2023-90063": {"documento": "DOCM-q-2023-90063", "version": "2026-05-18"}
+  },
+  "esperado": {"referencias_totales": 6, "referencias_evaluables": 6},
+  "casos": [
+    {
+      "id": "T-01",
+      "consulta": "La edificabilidad prevista por la ordenación territorial y urbanística, ¿forma parte por sí misma del contenido del derecho de propiedad del suelo, o se exige algo más para que se patrimonialice?",
+      "documento": "BOE-A-2021-20916",
+      "version": "2026-04-07",
+      "jurisdiccion": "Andalucía",
+      "municipio": null,
+      "disposicion": "Ley 7/2021, de 1 de diciembre, de impulso para la sostenibilidad del territorio de Andalucía.",
+      "referencias_paginas": [26],
+      "fallo_conocido": false,
+      "nota": "Condición de patrimonialización de la edificabilidad: solo con realización efectiva y cumplimiento de deberes y cargas del régimen.",
+      "criterios_evidencia": [
+        "no se integra en el contenido del derecho de propiedad del suelo",
+        "se produce únicamente con su realización efectiva",
+        "al cumplimiento de los deberes y el levantamiento de las cargas propias del régimen"
+      ]
+    },
+    {
+      "id": "T-02",
+      "consulta": "¿Qué debe ocurrir con las obras de urbanización para que un terreno en suelo urbano no consolidado o urbanizable alcance la condición de solar?",
+      "documento": "BOA-d-2014-90410",
+      "version": "2024-12-31",
+      "jurisdiccion": "Aragón",
+      "municipio": null,
+      "disposicion": "Decreto-Legislativo 1/2014, de 8 de julio, del Gobierno de Aragón, por el que se aprueba el texto refundido de la Ley de Urbanismo de Aragón.",
+      "referencias_paginas": [12],
+      "fallo_conocido": false,
+      "nota": "Condición de solar fuera del consolidado: obras ejecutadas y recibidas conforme al planeamiento, incluida la conexión a sistemas generales.",
+      "criterios_evidencia": [
+        "condición de solar cuando se hayan ejecutado y recibido",
+        "las obras de urbanización exigibles, incluidas las necesarias",
+        "la conexión con los sistemas generales existentes"
+      ]
+    },
+    {
+      "id": "T-03",
+      "consulta": "¿El hecho de que un terreno colinde con una carretera o con los márgenes exteriores de las vías perimetrales de un núcleo urbano comporta por sí mismo la condición de suelo urbano, o existe alguna salvedad para las travesías?",
+      "documento": "BOE-A-2017-10295",
+      "version": "2026-01-27",
+      "jurisdiccion": "Canarias",
+      "municipio": null,
+      "disposicion": "Ley 4/2017, de 13 de julio, del Suelo y de los Espacios Naturales Protegidos de Canarias.",
+      "referencias_paginas": [44],
+      "fallo_conocido": false,
+      "nota": "Excepción sobre colindancia: no comporta por sí misma condición de suelo urbano, salvo travesías a partir del primer cruce con calle urbana.",
+      "criterios_evidencia": [
+        "colindante con los márgenes exteriores de las vías perimetrales de los núcleos urbanos",
+        "la condición de suelo urbano, salvo que se trate de travesías a partir del primer cruce",
+        "con calle urbana"
+      ]
+    },
+    {
+      "id": "T-04",
+      "consulta": "Una construcción en lugar inmediato o que forme parte de un grupo de edificios de carácter histórico o cultural formalmente declarado, ¿con qué aspectos del entorno debe armonizar?",
+      "documento": "BOE-A-2022-13844",
+      "version": "2026-10-16",
+      "jurisdiccion": "Cantabria",
+      "municipio": null,
+      "disposicion": "Ley 5/2022, de 15 de julio, de Ordenación del Territorio y Urbanismo de Cantabria.",
+      "referencias_paginas": [54],
+      "fallo_conocido": false,
+      "nota": "Condición de armonización con el entorno en contextos declarados: alturas, volumen y materiales exteriores.",
+      "criterios_evidencia": [
+        "de carácter histórico o cultural formalmente declarados como tales",
+        "habrán de armonizar con el entorno, especialmente en cuanto a alturas, volumen",
+        "y materiales exteriores"
+      ]
+    },
+    {
+      "id": "T-05",
+      "consulta": "¿A partir de qué aumento del número de viviendas o de la superficie o volumen edificables con destino privado, respecto de la ordenación vigente, un terreno se incluye al menos en la categoría de suelo urbano no consolidado?",
+      "documento": "BOE-A-1999-12599",
+      "version": "2025-12-05",
+      "jurisdiccion": "Castilla y León",
+      "municipio": null,
+      "disposicion": "Ley 5/1999, de 8 de abril, de Urbanismo de Castilla y León.",
+      "referencias_paginas": [15],
+      "fallo_conocido": false,
+      "nota": "Umbral de inclusión al menos en suelo urbano no consolidado: aumento con destino privado superior al 30 por ciento respecto de la ordenación antes vigente.",
+      "criterios_evidencia": [
+        "al menos aquellos donde se prevea un aumento del número de viviendas",
+        "superficie o volumen edificables con destino privado, superior al 30 por ciento",
+        "ordenación antes vigente"
+      ]
+    },
+    {
+      "id": "T-06",
+      "consulta": "En los municipios exentos del deber de contar con plan general de ordenación, ¿cómo se clasifican los terrenos de los núcleos que están ya urbanizados y cuentan con los servicios legalmente precisos para la condición de solar?",
+      "documento": "DOCM-q-2023-90063",
+      "version": "2026-05-18",
+      "jurisdiccion": "Castilla-La Mancha",
+      "municipio": null,
+      "disposicion": "Decreto Legislativo 1/2023, de 28 de febrero, por el que se aprueba el texto refundido de la Ley de Ordenación del Territorio y de la Actividad Urbanística.",
+      "referencias_paginas": [44],
+      "fallo_conocido": false,
+      "nota": "Clasificación en municipios exentos: terrenos ya urbanizados con servicios para condición de solar se clasifican como suelo urbano consolidado.",
+      "criterios_evidencia": [
+        "adscripción de los terrenos a una clase de suelo",
+        "los servicios legalmente precisos para la condición de solar",
+        "clasificarán como suelo urbano consolidado"
+      ]
+    }
+  ]
+}

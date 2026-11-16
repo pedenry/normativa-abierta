@@ -1,0 +1,60 @@
+{
+  "id": "BOA-d-2014-90410",
+  "code": "BOA-d-2014-90410",
+  "title": "Decreto-Legislativo 1/2014, de 8 de julio, del Gobierno de Aragón, por el que se aprueba el texto refundido de la Ley de Urbanismo de Aragón.",
+  "layer": "asociada",
+  "scope": "urbanismo",
+  "version": "2024-12-31",
+  "version_dir": "2024-12-31__4c80f332f025",
+  "version_label_literal": "Última modificación: 31 de diciembre de 2024",
+  "sha256": "4c80f332f025cf3fa8c2c201c96cfef449094bb8af2e7971d0bc930c70c02e38",
+  "url": "https://www.boe.es/buscar/pdf/2014/BOA-d-2014-90410-consolidado.pdf",
+  "landing": "https://www.boe.es/buscar/act.php?id=BOA-d-2014-90410",
+  "distribute": true,
+  "normativo": true,
+  "jurisdiccion": "Aragón",
+  "municipio": null,
+  "disposicion": "Decreto-Legislativo 1/2014, de 8 de julio, del Gobierno de Aragón, por el que se aprueba el texto refundido de la Ley de Urbanismo de Aragón.",
+  "fecha_publicacion": "2014-07-18",
+  "license_status": "Condiciones de reutilización de la sede BOE para disposiciones legales individuales y artículo 13 TRLPI.",
+  "license_evidence": "licencias/territorial-2026-11-16.json",
+  "creditos": "Fuente de los datos: Agencia Estatal Boletín Oficial del Estado (PDF íntegro). Basado en datos de la Agencia Estatal Boletín Oficial del Estado (extracción por páginas). https://www.boe.es",
+  "ambito_literal": null,
+  "conteos": {
+    "paginas": 135,
+    "apartados": 135,
+    "caracteres": 520050
+  },
+  "tablas_por_pagina": {},
+  "figuras": [],
+  "formulas": {},
+  "metodo_segmentacion": "pagina_fisica",
+  "nota_capa": null,
+  "extraccion": null,
+  "advertencias": [
+    "Extraccion automatica (pypdf): tablas, formulas y notas sin cotejar.",
+    "Etiquetas impresas desconocidas; jerarquia y articulos no inventados; figuras no cotejadas.",
+    "Fidelidad del texto no cotejada visualmente con el PDF.",
+    "Vigencia, regimen transitorio y aplicabilidad pendientes de verificacion.",
+    "Atribucion: Fuente de los datos: Agencia Estatal Boletín Oficial del Estado (PDF íntegro). Basado en datos de la Agencia Estatal Boletín Oficial del Estado (extracción por páginas). https://www.boe.es",
+    "Consolidado informativo sin valor oficial; comprobar publicación oficial y ámbito aplicable.",
+    "Sin ELI en la página: jurisdicción corroborada por departamento literal en HTML y PDF.",
+    "Extracción automática; sin cotejo técnico humano completo de tablas, fórmulas y notas."
+  ],
+  "evidencia_metadatos": {
+    "emisor_literal": "Comunidad Autónoma de Aragón",
+    "version_origen": "PDF cotejado; fecha de primera publicación si indica sin modificaciones.",
+    "fecha_publicacion_literal": "«BOA» núm. 140, de 18 de julio de 2014",
+    "tipo": "consolidado",
+    "procedencia_catalogo": [
+      "Código de Urbanismo de Aragón (actualizado)"
+    ],
+    "cotejos_automaticos": {
+      "titulo_pdf_html": true,
+      "hash_pdf": true,
+      "jurisdiccion_depto_pdf_html": true,
+      "jurisdiccion_eli": null,
+      "edicion_pdf_corrob": true
+    }
+  }
+}

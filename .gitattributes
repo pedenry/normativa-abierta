@@ -5,7 +5,18 @@
 *.jsonl text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
 *.pdf binary
 *.png binary
 *.jpg binary
 *.jpeg binary
+
+# La extracción literal conserva espacios y saltos; no aplicar limpieza de estilo.
+contenido/docs/**/pagina/*.md -whitespace
+contenido/docs/**/apartado/*.md -whitespace
+site/pagina/*.html -whitespace
+site/apartado/*.html -whitespace
+# Evidencia medida: conservar bytes para no invalidar los SHA publicados.
+evaluacion/regresion_recuperacion/**/*.json -text whitespace=cr-at-eol
+contenido/validacion/*2026-11-16*.json -text whitespace=cr-at-eol

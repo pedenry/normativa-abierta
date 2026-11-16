@@ -1,0 +1,75 @@
+{
+ "esquema": "regresion-recuperacion-sin-ubicacion-fixture/1",
+ "nota": "Fixture FIJADA ANTES de ejecutar motores (sin corrida de motor durante la fijacion). 14 consultas territoriales EXACTAS del encargo, sin ciudad/CCAA/documento/edicion, que esperan estado aclaracion_necesaria con aclaracion.campos_requeridos IGUALES (como conjunto) a los campos requeridos del caso [v2; en v1 se evaluaba subconjunto no vacio de los permitidos], aclaracion.pregunta no vacia, cero paginas/resultados y sin inventar territorio. 6 nacionales tecnicas que esperan ok con fuente/pagina/edicion literales y sin pedir territorio: N-01..N-05 son COPIA EXACTA de consulta+documento+version+pagina de casos.json (ids SUA-05, SUA-01, SUA-02, REBT-02, REBT-03) y ya no nombran documento ni lugar; N-06 se fija por cotejo directo del corpus antes del ranking. Los campos esperados SOLO sirven para evaluar: jamas se pasan al motor (preparar(consulta, None, None, 20000, 2)). Rubrica v2 (2026-11-16): c2 exige IGUALDAD de conjuntos con TODOS los campos requeridos del caso (v1 admitia subconjunto no vacio y dejaba pasar pedir SOLO municipio cuando hacen falta CA+municipio: falsoacierto logico); casos/consultas/gold/campos esperados SIN cambios; la evaluacion v1 y la captura API de baseline se conservan (Codex); los mismos casos se reevaluan v2 antes/despues y el criterio NO se declara congelado identico entre v1 y v2.",
+ "fijado": {
+  "fecha": "2026-11-16",
+  "antes_de_ejecutar_motores": true,
+  "ejecucion_motor_durante_fijado": false,
+  "fijado_por": "evaluacion-normativa (glm5.3-flash / nan)",
+  "origen_territoriales": "encargo 2026-11-16: 14 consultas exactas con su conjunto de campos requeridos; campos solo para evaluar",
+  "origen_nacionales": "N-01..N-05: copia exacta de evaluacion/regresion_recuperacion/casos.json (gold conservado, sin recotejo propio; su integridad se verifica en la corrida); N-06: cotejo directo del corpus con evidencia"
+ },
+ "rubrica": {
+  "version": 2,
+  "fecha": "2026-11-16",
+  "motivo": "v2: c2 pasa de subconjunto no vacio (v1) a IGUALDAD de conjuntos; historial completo en revisiones",
+  "revisiones": [
+   {"version": 1, "fecha": "2026-11-16", "razon": "fijacion inicial", "efecto": "c2 (campos_subconjunto) aceptaba campos_requeridos NO vacio subconjunto de los permitidos"},
+   {"version": 2, "fecha": "2026-11-16", "razon": "revision acotada del contrato: la omision admitida por subconjunto dejaba pasar pedir SOLO municipio cuando hacen falta CA+municipio (falsoacierto logico)", "efecto": "c2 (campos_igualdad) exige TODOS los campos requeridos del caso, sin extras: se rechazan campos faltantes y sobrantes; NINGUN caso/consulta/gold/campo esperado cambia; la evaluacion v1 original y la captura API de baseline se conservan (Codex); los mismos casos se reevaluan v2 antes/despues; el criterio NO se declara congelado identico entre v1 y v2"}
+  ],
+  "unidades": "condicion = grupo/estado esperado; unidad de entrega = pagina fisica; edicion = version literal; disposicion = documento literal; pagina fisica = numero pNNNN del corpus",
+  "clases": {"omision": "elemento esperado ausente", "error": "elemento presente incorrecto (incluye responder cuando tocaba pedir aclaracion o pedir cuando tocaba responder)", "pendiente": "no evaluable con la evidencia disponible", "no_aplica": "criterio fuera de alcance del caso"},
+  "criterios_territorial": [
+   "c1 estado_exacto: estado == aclaracion_necesaria (estado de entrega u otro = error)",
+   "c2 campos_igualdad (v2; en v1 se llamaba campos_subconjunto): aclaracion.campos_requeridos lista de cadenas NO VACIA, sin duplicados e IGUAL como conjunto a campos_requeridos_permitidos, que bajo v2 son TODOS los campos REQUERIDOS del caso (key conservada por compatibilidad): falta un campo requerido = omision; campo extra fuera del conjunto = error; no pide ninguno = omision; duplicados o tipos no cadena = error",
+   "c3 pregunta_no_vacia: aclaracion.pregunta cadena no vacia tras strip (ausente o vacia = omision); una aclaracion sin pregunta no es acierto",
+   "c4 cero_paginas: res.paginas == [] (entrega paginas = error; aclaracion con paginas no es acierto)",
+   "c5 cero_resultados: res.recuperacion.resultados == [] (entrega resultados = error)",
+   "c6 no_inventar_territorio: sin ningun nombre territorial del corpus (jurisdiccion/municipio de doc.json distribute=true) en aclaracion.pregunta o texto_contexto; heuristica por subcadena normalizada (sin tildes/case), declarada como limite"
+  ],
+  "criterios_nacional": [
+   "n1 estado_exacto: estado == ok (aclaracion u otro estado = error)",
+   "n2 sin_peticion_territorio: sin estado aclaracion_necesaria y sin clave aclaracion",
+   "n3 gold_literal: cada pagina esperada entregada con documento y version EXACTOS del gold y texto en contexto (ausente = omision)",
+   "n4 integridad_ok: ruta bajo docs/<doc>/<edicion>, pagina==archivo, sha256 local == texto_sha256, texto literal en contexto (excepcion documentada rstrip final) y metadata doc.json coherente; helpers de integridad de ejecutar_libres.py, solo scoring"
+  ],
+  "ajuste": "si se ajustan criterios: nueva version con fecha, razon y efecto; se conserva la evaluacion original"
+ },
+ "config": {
+  "presupuesto_tokens": 20000,
+  "max_resultados": 2,
+  "api": "adaptador_contexto.AdaptadorContexto.preparar(consulta, None, None, 20000, 2); documento/version None; campos esperados jamas pasados al motor"
+ },
+ "esperado": {"casos": 20, "territoriales": 14, "nacionales": 6, "paginas_gold_nacionales": 6},
+ "casos": [
+  {"id": "T-01", "grupo": "territorial", "consulta_fuente": "encargo pregunta 1", "consulta": "¿Cuándo se considera suelo urbano consolidado y cuándo no consolidado?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma"], "nota": "sin ciudad, CCAA, documento ni edicion; espera aclaracion; los campos solo evaluan, no llegan al motor"},
+  {"id": "T-02", "grupo": "territorial", "consulta_fuente": "encargo pregunta 2", "consulta": "¿Cuál es la superficie máxima edificable para vivienda libre por cada cien metros cuadrados de suelo residencial?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-03", "grupo": "territorial", "consulta_fuente": "encargo pregunta 3", "consulta": "¿En qué momento se considera iniciado el procedimiento de solicitud de licencia urbanística?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-04", "grupo": "territorial", "consulta_fuente": "encargo pregunta 4", "consulta": "¿Qué documentación debo presentar para solicitar una licencia de obras?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-05", "grupo": "territorial", "consulta_fuente": "encargo pregunta 5", "consulta": "¿Qué plazo tiene el ayuntamiento para resolver una licencia urbanística?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "'ayuntamiento' a secas sin ciudad: no es mencion de lugar"},
+  {"id": "T-06", "grupo": "territorial", "consulta_fuente": "encargo pregunta 6", "consulta": "¿Qué obras puedo tramitar mediante declaración responsable?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-07", "grupo": "territorial", "consulta_fuente": "encargo pregunta 7", "consulta": "¿Qué porcentaje de cesión de aprovechamiento corresponde al ayuntamiento?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma"], "nota": "'al ayuntamiento' a secas sin ciudad"},
+  {"id": "T-08", "grupo": "territorial", "consulta_fuente": "encargo pregunta 8", "consulta": "¿Qué condiciones se exigen para parcelar un terreno en suelo rústico?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-09", "grupo": "territorial", "consulta_fuente": "encargo pregunta 9", "consulta": "¿Qué normativa se aplica a la reforma de mi vivienda?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-10", "grupo": "territorial", "consulta_fuente": "encargo pregunta 10", "consulta": "¿Qué altura máxima puede tener un edificio en mi parcela?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-11", "grupo": "territorial", "consulta_fuente": "encargo pregunta 11", "consulta": "¿Qué separación debo dejar a los linderos para construir una vivienda?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-12", "grupo": "territorial", "consulta_fuente": "encargo pregunta 12", "consulta": "¿La colindancia con una carretera da a un terreno la condición de suelo urbano?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-13", "grupo": "territorial", "consulta_fuente": "encargo pregunta 13", "consulta": "Quiero abrir un local: ¿licencia de actividad o declaración responsable?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "T-14", "grupo": "territorial", "consulta_fuente": "encargo pregunta 14", "consulta": "¿Puedo segregar una finca y qué superficie mínima debe tener?", "esperado_estado": "aclaracion_necesaria", "campos_requeridos_permitidos": ["comunidad_autonoma", "municipio"], "nota": "sin ciudad, CCAA, documento ni edicion"},
+  {"id": "N-01", "grupo": "nacional", "consulta_fuente": "casos.json#SUA-05", "consulta": "Pendiente transversal máxima de rampas en itinerario accesible", "esperado_estado": "ok", "esperado_documento": "DB-SUA-oficial", "esperada_version": "2022-06-14", "esperadas_paginas": [14], "nota": "consulta tecnica sin documento ni lugar; no debe pedir territorio"},
+  {"id": "N-02", "grupo": "nacional", "consulta_fuente": "casos.json#SUA-01", "consulta": "Anchura libre de paso de un pasillo en itinerario accesible de uso Administrativo", "esperado_estado": "ok", "esperado_documento": "DB-SUA-oficial", "esperada_version": "2022-06-14", "esperadas_paginas": [36], "nota": "consulta tecnica sin documento ni lugar; no debe pedir territorio"},
+  {"id": "N-03", "grupo": "nacional", "consulta_fuente": "casos.json#SUA-02", "consulta": "Anchura libre zonas comunes de edificios Residencial Vivienda", "esperado_estado": "ok", "esperado_documento": "DB-SUA-oficial", "esperada_version": "2022-06-14", "esperadas_paginas": [36], "nota": "consulta tecnica sin documento ni lugar; no debe pedir territorio"},
+  {"id": "N-04", "grupo": "nacional", "consulta_fuente": "casos.json#REBT-02", "consulta": "Qué elementos conecta la línea general de alimentación de una instalación de enlace", "esperado_estado": "ok", "esperado_documento": "BOE-A-2002-18099", "esperada_version": "2025-09-03", "esperadas_paginas": [109], "nota": "consulta tecnica sin documento ni lugar; no debe pedir territorio"},
+  {"id": "N-05", "grupo": "nacional", "consulta_fuente": "casos.json#REBT-03", "consulta": "Caída de tensión máxima de la línea general de alimentación con contadores totalmente centralizados y centralizaciones parciales", "esperado_estado": "ok", "esperado_documento": "BOE-A-2002-18099", "esperada_version": "2025-09-03", "esperadas_paginas": [110], "nota": "consulta tecnica sin documento ni lugar; no debe pedir territorio"},
+  {"id": "N-06", "grupo": "nacional", "consulta_fuente": "encargo pregunta nacional adicional", "consulta": "¿Cuáles son las situaciones básicas del suelo que distingue la legislación estatal?", "esperado_estado": "ok", "esperado_documento": "BOE-A-2015-11723", "esperada_version": "2023-05-25", "esperadas_paginas": [23],
+   "evidencia": {
+    "metodo": "cotejo directo del corpus ANTES del ranking: lectura de paginas p0010..p0023 de la edicion; sin motor, sin ranking, sin resultados",
+    "archivo": "docs/BOE-A-2015-11723/2023-05-25__72f7033dc019/pagina/p0023.md",
+    "articulo": "Artículo 21. Situaciones básicas del suelo.",
+    "literal": "Todo el suelo se encuentra, a los efectos de esta ley, en una de las situaciones básicas de suelo rural o de suelo urbanizado.",
+    "continuacion_fuera_gold": "el apartado 3 (condiciones del suelo urbanizado) continúa en la página 24, fuera del gold",
+    "metadata_doc": "doc.json: id BOE-A-2015-11723, version 2023-05-25, version_dir 2023-05-25__72f7033dc019, distribute true, capa asociada, sin jurisdiccion ni municipio (nacional)"
+   },
+   "nota": "espera estatal sin aclaracion; gold fijado con evidencia antes del ranking, no inventado"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "esquema": "regresion-recuperacion-fixture/1",
+ "referencia_conservada_durante_comparacion": true,
+ "nota_referencia": "Gold de paginas fisicas, independiente del ranking del buscador y mantenida sin cambios durante la comparacion; consultas EXACTAS y gold (referencias_paginas) sin reescribir ni ajustar por resultados: son guardas obligatorias de regresion. Estado actual tras la correccion de tokenizar de palabras partidas (2026-11-16, comprobada por Codex, informe resultados-sua-2026-11-16.json): SUA-02 ya no lleva fallo_conocido; el motor entrega la p. 36 como resultado auxiliar en contexto (no primaria) y la suite pasa 14/14 en contexto con cero perdidas, por lo que el esperado deja de declarar fallo_conocido. REBT-09 no tiene gold exclusivo y no puntua.",
+ "config": {"presupuesto_tokens": 20000, "max_resultados": 2},
+ "documentos": {
+  "REBT": {"documento": "BOE-A-2002-18099", "version": "2025-09-03"},
+  "SUA": {"documento": "DB-SUA-oficial", "version": "2022-06-14"}
+ },
+ "esperado": {
+  "referencias_totales": 14,
+  "referencias_evaluables": 14,
+  "cobertura_contexto": "14/14",
+  "sin_gold": ["REBT-09"]
+ },
+ "casos": [
+  {"id": "REBT-01", "consulta": "Dónde comienzan y terminan las instalaciones de enlace y por qué zonas deben discurrir", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [103], "fallo_conocido": false},
+  {"id": "REBT-02", "consulta": "Qué elementos conecta la línea general de alimentación de una instalación de enlace", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [109], "fallo_conocido": false},
+  {"id": "REBT-03", "consulta": "Caída de tensión máxima de la línea general de alimentación con contadores totalmente centralizados y centralizaciones parciales", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [110], "fallo_conocido": false},
+  {"id": "REBT-04", "consulta": "Secciones mínimas cables polares neutro protección e hilo de mando de una derivación individual", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [113], "fallo_conocido": false},
+  {"id": "REBT-05", "consulta": "Obligatoriedad ubicación en local según número de contadores de una concentración", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [115], "fallo_conocido": false},
+  {"id": "REBT-06", "consulta": "Altura mínima y distancias de trabajo del local de concentración de contadores", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [116], "fallo_conocido": false},
+  {"id": "REBT-07", "consulta": "Apertura y dimensiones mínimas de la puerta de acceso al local de contadores", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [116], "fallo_conocido": false},
+  {"id": "REBT-08", "consulta": "Interruptor general de maniobra de una concentración e intensidades mínimas según carga prevista", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [117], "fallo_conocido": false},
+  {"id": "REBT-09", "consulta": "Instalaciones de enlace centralizacion contadores", "documento": "BOE-A-2002-18099", "version": "2025-09-03", "referencias_paginas": [], "fallo_conocido": false, "nota": "sin gold exclusivo (no puntúa)"},
+  {"id": "SUA-01", "consulta": "Anchura libre de paso de un pasillo en itinerario accesible de uso Administrativo", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [36], "fallo_conocido": false},
+  {"id": "SUA-02", "consulta": "Anchura libre zonas comunes de edificios Residencial Vivienda", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [36], "fallo_conocido": false},
+  {"id": "SUA-03", "consulta": "Anchura efectiva puerta de una hoja marco y máxima apertura", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [36], "fallo_conocido": false},
+  {"id": "SUA-04", "consulta": "Pendiente longitudinal máxima de rampa itinerario accesible longitud 3 metros", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [14], "fallo_conocido": false},
+  {"id": "SUA-05", "consulta": "Pendiente transversal máxima de rampas en itinerario accesible", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [14], "fallo_conocido": false},
+  {"id": "SUA-06", "consulta": "Estrechamientos puntuales de itinerario accesible y separación a puertas o cambios de dirección", "documento": "DB-SUA-oficial", "version": "2022-06-14", "referencias_paginas": [36], "fallo_conocido": false}
+ ]
+}

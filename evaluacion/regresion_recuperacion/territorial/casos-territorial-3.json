@@ -1,0 +1,123 @@
+{
+ "esquema": "regresion-recuperacion-fixture/1",
+ "referencia_conservada_durante_comparacion": true,
+ "nota_referencia": "Fixture territorial lote 3 (9 casos, T-13..T-21) para ejecutar.py --fixture. Gold de paginas fisicas fijado ANTES de ejecutar ranking, a partir de referencias-3.json de esta carpeta: una pagina por caso, eleccion previa a la corrida; referencias-3.json declara extraccion directa con pypdf y verificacion de SHA-256 del PDF y del texto de pagina por Codex (no re-verificado en este paso). Una consulta natural por referencia, sin numeros de articulo ni de pagina; cada pregunta tiene respuesta explicita y completa dentro de la pagina del gold segun el texto_referencia del lote, y no se pregunta nada cuya respuesta quede en pagina anterior o siguiente. criterios_evidencia: 1-3 citas cortas literales de condicion, unidad, umbral, excepcion o plazo, tomadas exactamente del texto_referencia; son texto normativo legal reutilizable y no alteran el motor. Metadatos jurisdiccion/municipio/disposicion/criterios_evidencia son inertes para ejecutar.py, que por caso solo consume id, consulta, documento, version, referencias_paginas, fallo_conocido y nota, y arriba config y esperado. Malaga: 4 casos de la misma ordenanza (OMLU) con tramites distintos: inicio del procedimiento, deberes tras demolicion, titularidad en solicitud de licencia y silencio administrativo. Consultas y gold congelados: no se ajustaran segun resultados, sin fallos conocidos marcados. Limites: muestra pequena (9 casos) sin independencia estadistica; la cobertura por presencia de pagina no acredita calidad global de la respuesta ni fidelidad sustantiva del apartado; no es dictamen de aplicabilidad ni vigencia ni cobertura exhaustiva de cada disposicion. Citas y consultas se fijaron por lectura directa sobre el tramo inicial verificado de cada texto_referencia del lote (lectura sin shell); ningun dato se tomo de tramos no vistos. Fixture preparada sin ejecutar el motor ni correr pruebas.",
+ "config": {"presupuesto_tokens": 20000, "max_resultados": 2},
+ "documentos": {
+  "LA_RIOJA": {"documento": "BOE-A-2006-9008", "version": "2025-12-30"},
+  "NAVARRA": {"documento": "BOE-A-2017-12907", "version": "2025-12-31"},
+  "PAIS_VASCO": {"documento": "BOE-A-2011-17400", "version": "2025-12-29"},
+  "ASTURIAS": {"documento": "BOE-A-2004-10070", "version": "2024-12-27"},
+  "MURCIA": {"documento": "BOE-A-2015-4790", "version": "2026-07-07"},
+  "MALAGA": {"documento": "MUN-MALAGA-OMLU-2025", "version": "2025-12-29"}
+ },
+ "esperado": {"referencias_totales": 9, "referencias_evaluables": 9},
+ "casos": [
+  {"id": "T-13",
+   "consulta": "¿Qué requisitos debe reunir una superficie de suelo urbano consolidado para tener la condición de solar en La Rioja?",
+   "documento": "BOE-A-2006-9008", "version": "2025-12-30",
+   "jurisdiccion": "La Rioja", "municipio": null,
+   "disposicion": "Ley 5/2006, de 2 de mayo, de Ordenación del Territorio y Urbanismo de La Rioja.",
+   "referencias_paginas": [28], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "superficies de suelo urbano consolidado aptas para",
+    "que tengan señaladas alineaciones y rasantes",
+    "tenga pavimentada la calzada, alumbrado público y encintado de aceras"
+   ],
+   "nota": "Definición/condición de solar: urbanizada según normas mínimas del planeamiento con alineaciones y rasantes; sin planeamiento que concrete los mínimos, servicios urbanísticos exigidos y vía con calzada pavimentada, alumbrado público y encintado de aceras."},
+  {"id": "T-14",
+   "consulta": "En Navarra, ¿qué porcentaje del aprovechamiento urbanístico pueden materializar los propietarios en suelo urbano consolidado y cuál en suelo urbano no consolidado?",
+   "documento": "BOE-A-2017-12907", "version": "2025-12-31",
+   "jurisdiccion": "Navarra", "municipio": null,
+   "disposicion": "Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo.",
+   "referencias_paginas": [51], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "el 100 por 100 del aprovechamiento de la parcela o",
+    "el 90 por 100 del aprovechamiento correspondiente",
+    "salvo que se prevean actuaciones"
+   ],
+   "nota": "Umbral por clase de suelo: 100% del aprovechamiento en consolidado, salvo actuaciones de dotación (remite a otra regla de la misma ley), y 90% en no consolidado sobre unidad de ejecución o área de reparto."},
+  {"id": "T-15",
+   "consulta": "En la ley del suelo del País Vasco, ¿cuál es el máximo de suelo destinado a alojamientos dotacionales por cada incremento de techo de uso residencial?",
+   "documento": "BOE-A-2011-17400", "version": "2025-12-29",
+   "jurisdiccion": "País Vasco", "municipio": null,
+   "disposicion": "Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+   "referencias_paginas": [21], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "será de 2,5 metros cuadrados de suelo por",
+    "cada incremento de 100 metros cuadrados de techo de uso residencial",
+    "por cada nueva vivienda prevista en el planeamiento"
+   ],
+   "nota": "Umbral de destino dotacional: máximo 2,5 m² de suelo por cada incremento de 100 m² de techo residencial o, si este no está determinado, por cada nueva vivienda prevista en el planeamiento."},
+  {"id": "T-16",
+   "consulta": "En Asturias, ¿las vías de comunicación entre núcleos o las carreteras sirven para clasificar como suelo urbano los terrenos adyacentes a ellas?",
+   "documento": "BOE-A-2004-10070", "version": "2024-12-27",
+   "jurisdiccion": "Principado de Asturias", "municipio": null,
+   "disposicion": "Decreto Legislativo 1/2004, de 22 de abril, por el que se aprueba el texto refundido de las disposiciones legales vigentes en materia de ordenación del territorio y urbanismo.",
+   "referencias_paginas": [53], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "Los servicios construidos en ejecución de un sector o unidad de actuación",
+    "las vías de comunicación entre núcleos y las carreteras",
+    "no servirán de soporte para la clasificación como urbanos de los terrenos adyacentes"
+   ],
+   "nota": "Excepción a la clasificación de urbano por servicios: servicios de sector o unidad de actuación, vías perimetrales de núcleos, vías entre núcleos y carreteras no sirven de soporte para los terrenos adyacentes."},
+  {"id": "T-17",
+   "consulta": "En la Región de Murcia, ¿qué grado de consolidación por la edificación se exige para clasificar como suelo urbano un área ya transformada?",
+   "documento": "BOE-A-2015-4790", "version": "2026-07-07",
+   "jurisdiccion": "Región de Murcia", "municipio": null,
+   "disposicion": "Ley 13/2015, de 30 de marzo, de ordenación territorial y urbanística de la Región de Murcia.",
+   "referencias_paginas": [38], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "consolidadas por la edificación en cuantía superior a las dos terceras partes",
+    "la superficie apta para la misma, según la ordenación establecida por el plan"
+   ],
+   "nota": "Umbral de consolidación: edificación en cuantía superior a las dos terceras partes de la superficie apta, según la ordenación del plan; vía alternativa por acceso rodado y servicios con características adecuadas."},
+  {"id": "T-18",
+   "consulta": "Según la ordenanza de tramitación de licencias urbanísticas de Málaga, ¿en qué momento se considera iniciado el procedimiento?",
+   "documento": "MUN-MALAGA-OMLU-2025", "version": "2025-12-29",
+   "jurisdiccion": "Andalucía", "municipio": "Málaga",
+   "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+   "referencias_paginas": [16], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "fecha de inicio del procedimiento",
+    "Registro Electrónico General del Ayuntamiento de Málaga"
+   ],
+   "nota": "Procedimiento: la fecha de inicio es la de la entrada de la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga."},
+  {"id": "T-19",
+   "consulta": "Según la ordenanza de Málaga, tras finalizar una demolición y mientras no se edifique, ¿qué cerramiento debe realizarse en el solar, hasta cuándo debe mantenerse y en qué estado debe permanecer este?",
+   "documento": "MUN-MALAGA-OMLU-2025", "version": "2025-12-29",
+   "jurisdiccion": "Andalucía", "municipio": "Málaga",
+   "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+   "referencias_paginas": [28], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "cerramiento de 2 metros de altura",
+    "deberá mantenerse hasta la ejecución de la edificación",
+    "limpio de escombros y materias orgánicas"
+   ],
+   "nota": "Deberes tras demolición mientras no se edifique: muro de cerramiento de 2 metros mantenido hasta la ejecución de la edificación y solar limpio de escombros y materias orgánicas."},
+  {"id": "T-20",
+   "consulta": "Para solicitar una licencia urbanística en Málaga, ¿es necesario acreditar la titularidad de los inmuebles afectados?",
+   "documento": "MUN-MALAGA-OMLU-2025", "version": "2025-12-29",
+   "jurisdiccion": "Andalucía", "municipio": "Málaga",
+   "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+   "referencias_paginas": [33], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "no será necesario acreditar la titularidad de los inmuebles",
+    "salvo cuando su otorgamiento pueda afectar a los bienes y derechos integrantes del",
+    "patrimonio de las administraciones públicas"
+   ],
+   "nota": "Excepción en la solicitud de licencia: no se exige acreditar titularidad de los inmuebles, salvo cuando el otorgamiento pueda afectar a bienes y derechos del patrimonio de las administraciones públicas."},
+  {"id": "T-21",
+   "consulta": "En Málaga, ¿en qué plazo debe el órgano competente expedir el certificado acreditativo del silencio administrativo que inste el solicitante de una licencia?",
+   "documento": "MUN-MALAGA-OMLU-2025", "version": "2025-12-29",
+   "jurisdiccion": "Andalucía", "municipio": "Málaga",
+   "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+   "referencias_paginas": [34], "fallo_conocido": false,
+   "criterios_evidencia": [
+    "podrá instar, en cualquier momento",
+    "un plazo de quince días",
+    "para expedir dicho certificado"
+   ],
+   "nota": "Plazo: quince días para expedir el certificado acreditativo del silencio producido, que el solicitante puede instar en cualquier momento."}
+ ]
+}

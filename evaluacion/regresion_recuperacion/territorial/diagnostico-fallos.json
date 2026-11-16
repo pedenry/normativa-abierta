@@ -1,0 +1,119 @@
+{
+  "esquema": "diagnostico-fallos/1",
+  "estado_actual": "Historial anterior a la corrección de recuperación (2026-11-16): los 3 fallos aquí cotejados (T-09, T-15, T-18) quedaron resueltos ese día; informe de la corrección: resultados-correccion-2026-11-16.json en este directorio. Citas, casos y veredictos se conservan sin retocar como historial.",
+  "nota": "Cotejo final de los 3 fallos del run territorial estricto (18/21): T-09 Madrid p.18, T-15 País Vasco p.21, T-18 Málaga p.16. Textos leídos con el prefijo real del corpus (normativa-abierta/contenido/docs/...): las 3 páginas esperadas y las 19 páginas devueltas de los tres casos, íntegras. Gold, consultas, ranking y resultados intactos; sin exclusión de fallos conocidos; sin sugerencias de hardcodeo ni pesos por caso; sin repuntuación histórica. Mediciones y comprobaciones de integridad (ruta, SHA, literal en contexto, edición) corresponden al run de Codex; esta revisión no recomputó SHA (sin shell) y no ejecutó ranking, red ni benchmark. Preliminar de Codex conservado en .local/eval-territorial/diagnostico-preliminar.json (atribución: sus indicaciones sobre p. 50 mínimo 1,5 y p. 53 transitoria quedaron confirmadas aquí por cotejo propio). Sin afirmación de vigencia ni aplicabilidad.",
+  "medicion_run_codex": {
+    "recuperacion_estricta": "18/21",
+    "config": {"presupuesto_tokens": 20000, "max_resultados": 2},
+    "tokens_contexto_proxy": {"T-09": 7026, "T-15": 6842, "T-18": 7389},
+    "limite": "tokens_contexto es proxy del run, no facturación API; sin contadores entrada/salida/caché disponibles."
+  },
+  "casos": [
+    {
+      "id": "T-09",
+      "consulta": "Cuándo se considera suelo urbano consolidado y cuándo no consolidado en la Comunidad de Madrid",
+      "fuente": {
+        "documento": "BOE-A-2001-18984",
+        "version": "2026-06-15",
+        "disposicion": "Ley 9/2001, de 17 de julio, del Suelo, de la Comunidad de Madrid.",
+        "pdf_sha256": "28436cd2d66512528425e6737ae4dfba2a83c399be7dd9986ffea2b2eb83a981",
+        "texto_pagina_esperada_sha256": "9cabf698122e650d0ddeec315cb2ec84fe3aef3dafc4f63db8a57a313f3b2381"
+      },
+      "gold_contenido_que_apoya": "Página 18, art. 14.2: definición completa de ambas categorías pedidas.",
+      "evidencia_gold": [
+        {"cita": "a) Suelo urbano consolidado, integrado por los solares, así como las parcelas que... puedan adquirir la condición de solar, mediante obras accesorias y simultáneas a las de edificación o construcción.", "ubicacion": "art. 14.2.a, p. 18, edición 2026-06-15"},
+        {"cita": "Serán también suelo urbano consolidado aquellos solares o parcelas que sean objeto de actuaciones de dotación, aunque requieran de equidistribución de beneficios y cargas.", "ubicacion": "art. 14.2.a, excepción de actuaciones de dotación, p. 18"},
+        {"cita": "b) Suelo urbano no consolidado, integrado por la restante superficie de suelo urbano y, en todo caso, aquellos terrenos que sean objeto de actuaciones de reforma o renovación de la urbanización.", "ubicacion": "art. 14.2.b, p. 18"}
+      ],
+      "paginas_devueltas": [
+        {"pagina": 10, "motivo": "primaria, bm25 18.15"},
+        {"pagina": 5, "motivo": "auxiliar, bm25 18.04"},
+        {"pagina": 9, "motivo": "continuada"},
+        {"pagina": 11, "motivo": "continuada"},
+        {"pagina": 4, "motivo": "continuada"},
+        {"pagina": 6, "motivo": "continuada"}
+      ],
+      "evidencia_devueltas": [
+        {"pagina": 10, "cita": "Se universaliza como planeamiento de desarrollo el Plan Parcial, utilizándose tanto en suelo urbano no consolidado como en suelo urbanizable sectorizado.", "ubicacion": "preámbulo VIII, p. 10; usa el término, no define cuándo se es consolidado"},
+        {"pagina": 9, "cita": "La totalidad del suelo urbano consolidado deberá dividirse en áreas homogéneas atendiendo a criterios de homogeneidad tipológica y funcional.", "ubicacion": "preámbulo VII, p. 9; consecuencia de planeamiento, no la definición del art. 14.2"},
+        {"pagina": 5, "cita": "TEXTO CONSOLIDADO. Última modificación: 15 de junio de 2026", "ubicacion": "cabecera, p. 5; el vocablo «consolidado» de la consulta solo concuerda aquí con la cabecera editorial, sin contenido doctrinal"}
+      ],
+      "veredicto": {
+        "clase": "fallo_real_recuperacion",
+        "alcance": "Ninguna de las 6 páginas devueltas (pp. 4-11, preámbulo e índice) contiene la definición del art. 14.2 ni paráfrasis equivalente; la página 18 con la respuesta completa no fue alcanzada. No hay página normativa equivalente: p. 9 y p. 10 mencionan las categorías solo como uso del término en exposición de motivos."
+      },
+      "limite": "Ninguno: la consulta es doble (consolidado/no consolidado) y ambas definiciones están íntegras en la página 18."
+    },
+    {
+      "id": "T-15",
+      "consulta": "En la ley del suelo del País Vasco, ¿cuál es el máximo de suelo destinado a alojamientos dotacionales por cada incremento de techo de uso residencial?",
+      "fuente": {
+        "documento": "BOE-A-2011-17400",
+        "version": "2025-12-29",
+        "disposicion": "Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+        "pdf_sha256": "c085dfea5e77c60012dd3f47be97911076797ad104f26941ada0e7365e44f364",
+        "texto_pagina_esperada_sha256": "d899926eae7b6fc67285a9ac0a0f6ee21b0223dc99d9b73bce5bb985f0317977"
+      },
+      "gold_contenido_que_apoya": "Página 21, art. 17.1: el máximo del destino de alojamientos dotacionales.",
+      "evidencia_gold": [
+        {"cita": "El máximo para este destino será de 2,5 metros cuadrados de suelo por cada incremento de 100 metros cuadrados de techo de uso residencial o, en defecto de su determinación, por cada nueva vivienda prevista en el planeamiento.", "ubicacion": "art. 17.1, p. 21, edición 2025-12-29; responde íntegramente lo preguntado"}
+      ],
+      "paginas_devueltas": [
+        {"pagina": 50, "motivo": "primaria, bm25 40.13"},
+        {"pagina": 25, "motivo": "auxiliar, bm25 34.12"},
+        {"pagina": 49, "motivo": "continuada"},
+        {"pagina": 51, "motivo": "continuada"},
+        {"pagina": 24, "motivo": "continuada"},
+        {"pagina": 26, "motivo": "continuada"}
+      ],
+      "evidencia_devueltas": [
+        {"pagina": 50, "cita": "deberá calificar en ámbitos de uso predominantemente residencial con destino a alojamientos dotacionales una superficie de suelo no inferior a 1,5 metros cuadrados por cada incremento de 100 metros cuadrados de techo de uso residencial", "ubicacion": "art. 81.1, p. 50; mínimo de reserva para municipios de 20.000 o más habitantes, no el máximo preguntado"},
+        {"pagina": 25, "cita": "los propietarios o propietarias... tienen la obligación de ceder gratuitamente al ayuntamiento el suelo correspondiente al 15 % de la edificabilidad ponderada", "ubicacion": "art. 27.1, p. 25; régimen de cesión, sin alojamientos dotacionales"},
+        {"pagina": 49, "cita": "Para aparcamiento de vehículos: 0,35 plazas por cada 25 metros cuadrados de superficie de techo sobre rasante", "ubicacion": "art. 79.2.b, p. 49; estándar de otra dotación y otra unidad"}
+      ],
+      "veredicto": {
+        "clase": "fallo_real_recuperacion",
+        "alcance": "El motor recuperó una norma del mismo objeto y unidad (alojamientos dotacionales por cada 100 m² de techo residencial o por vivienda) pero de sentido opuesto: el mínimo de reserva del art. 81.1 (1,5 m², municipios ≥ 20.000 hab, p. 50), no el máximo del art. 17.1 (2,5 m², p. 21) que es lo preguntado. Página equivalente NO confirmada: la p. 50 no contesta «cuál es el máximo». Score alto (40,13) no equivale a equivalencia semántica."
+      },
+      "limite": "Ninguno de diseño: el máximo está íntegro en la página 21. Se registra la existencia de un párrafo con umbral análogo en la p. 50 para futuras rúbricas (riesgo de confusión mínimo/máximo), sin mover el gold ni repuntuar."
+    },
+    {
+      "id": "T-18",
+      "consulta": "Según la ordenanza de tramitación de licencias urbanísticas de Málaga, ¿en qué momento se considera iniciado el procedimiento?",
+      "fuente": {
+        "documento": "MUN-MALAGA-OMLU-2025",
+        "version": "2025-12-29",
+        "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU). BOP Málaga nº 247, 29-12-2025.",
+        "pdf_sha256": "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99",
+        "texto_pagina_esperada_sha256": "eb24711bac8564b280faa228e1aa41054aea186b0e04010fb290463e9062aa95"
+      },
+      "gold_contenido_que_apoya": "Página 16, art. 9.3: fecha de inicio del procedimiento.",
+      "evidencia_gold": [
+        {"cita": "Se considerará como fecha de inicio del procedimiento la de la entrada de la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga.", "ubicacion": "art. 9.3, p. 16 (página impresa 85 del BOP), edición 2025-12-29; responde íntegramente lo preguntado"}
+      ],
+      "paginas_devueltas": [
+        {"pagina": 53, "motivo": "primaria, bm25 43.21"},
+        {"pagina": 8, "motivo": "primaria, bm25 40.32"},
+        {"pagina": 2, "motivo": "continuada"},
+        {"pagina": 7, "motivo": "continuada"},
+        {"pagina": 9, "motivo": "continuada"},
+        {"pagina": 52, "motivo": "continuada"},
+        {"pagina": 54, "motivo": "continuada"}
+      ],
+      "evidencia_devueltas": [
+        {"pagina": 53, "cita": "Los expedientes de solicitud de licencia que se encuentren en trámite en el momento de entrada en vigor de la presente ordenanza mantendrán su tramitación por el procedimiento vigente en el momento de su iniciación.", "ubicacion": "disposición transitoria única, p. 53; habla de expedientes ya iniciados, no define cuándo se entiende iniciado el procedimiento"},
+        {"pagina": 8, "cita": "Artículo 1. Objeto. La presente ordenanza tiene por objeto regular... la tramitación de los procedimientos de otorgamiento de licencias urbanísticas", "ubicacion": "p. 8; objeto y ámbito, sin regla de inicio"},
+        {"pagina": 9, "cita": "Artículo 3. Definiciones", "ubicacion": "p. 9; definiciones (ATU, EUCA, CVD), ninguna sobre inicio de procedimiento"}
+      ],
+      "veredicto": {
+        "clase": "fallo_real_recuperacion",
+        "alcance": "Ninguna de las 7 páginas devueltas (pp. 2, 7-9, 52-54) define el momento de inicio del procedimiento; la regla del art. 9.3 (p. 16) no fue alcanzada. La transitoria de la p. 53 es página relacionada por vocabulario de iniciación, pero no equivalente: presupone expedientes ya iniciados y remite al régimen anterior."
+      },
+      "limite": "Ninguno de diseño en sentido estricto: la pregunta cabe responderse por completo con la p. 16 y no se encontró respuesta equivalente en otras partes de la ordenanza entre lo entregado. Observación para rúbrica: la consulta es genérica y la transitoria de p. 53 comparte léxico de iniciación, por lo que una evaluación manual podría confundirla con respuesta; el gold de página única no se mueve."
+    }
+  ],
+  "cierre": {
+    "estado": "Cotejo completado: 3 páginas esperadas + 19 devueltas leídas íntegras bajo normativa-abierta/contenido/. Veredictos finales: tres fallos reales de recuperación, sin página normativa equivalente ni defecto de gold; registrados párrafos análogos en p. 50 (T-15) y p. 53 (T-18) con su alcance exacto.",
+    "pendiente": "Sin pendientes de cotejo. Atribución de integridad: SHA y cotejos del run de Codex no recomputados aquí (sin shell). Cambios realizados: solo este archivo diagnostico-fallos.json; preliminar de Codex conservado en .local/."
+  }
+}

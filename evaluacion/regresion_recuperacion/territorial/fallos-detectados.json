@@ -1,0 +1,697 @@
+{
+  "nota": "Captura de3fallos estrictos sin alterar fixture. Diagnostico final en diagnostico-fallos.json; no pendientes de cotejo.",
+  "casos": [
+    {
+      "caso": {
+        "id": "T-09",
+        "consulta": "Cuándo se considera suelo urbano consolidado y cuándo no consolidado en la Comunidad de Madrid",
+        "documento": "BOE-A-2001-18984",
+        "version": "2026-06-15",
+        "referencias_paginas": [
+          18
+        ],
+        "fallo_conocido": false,
+        "jurisdiccion": "Comunidad de Madrid",
+        "municipio": null,
+        "disposicion": "Ley 9/2001, de 17 de julio, del Suelo, de la Comunidad de Madrid.",
+        "nota": "Categorias del suelo urbano con condiciones y excepcion de equidistribucion en la pagina fijada.",
+        "criterios_evidencia": [
+          "puedan adquirir la condición de solar, mediante obras accesorias y simultáneas a las de edificación o construcción",
+          "Serán también suelo urbano consolidado aquellos solares o parcelas que sean objeto de actuaciones de dotación, aunque requieran de equidistribución de beneficios y cargas",
+          "Suelo urbano no consolidado, integrado por la restante superficie de suelo urbano y, en todo caso, aquellos terrenos que sean objeto de actuaciones de reforma o renovación de la urbanización"
+        ]
+      },
+      "referencia": {
+        "id": "T-09",
+        "documento": "BOE-A-2001-18984",
+        "version": "2026-06-15",
+        "jurisdiccion": "Comunidad de Madrid",
+        "municipio": null,
+        "disposicion": "Ley 9/2001, de 17 de julio, del Suelo, de la Comunidad de Madrid.",
+        "pagina_fisica": 18,
+        "url_oficial": "https://www.boe.es/buscar/pdf/2001/BOE-A-2001-18984-consolidado.pdf",
+        "pdf_sha256": "28436cd2d66512528425e6737ae4dfba2a83c399be7dd9986ffea2b2eb83a981",
+        "archivo_pagina": "docs/BOE-A-2001-18984/2026-06-15__28436cd2d665/pagina/p0018.md",
+        "texto_pagina_sha256": "9cabf698122e650d0ddeec315cb2ec84fe3aef3dafc4f63db8a57a313f3b2381",
+        "cotejo_pdf": "texto extraido directamente con pypdf coincide al normalizar espacios; sin cotejo visual",
+        "texto_referencia": "c) Que estén ocupados por la edificación o construcción al menos en las dos terceras \npartes de los espacios aptos para la misma, conforme a la ordenación que establezca el \nplaneamiento urbanístico.\nd) Que estén urbanizados en ejecución del planeamiento urbanístico y de conformidad \ncon sus determinaciones.\n2. El planeamiento general diferenciará en el suelo urbano, cuando proceda, todas o \nalguna de las siguientes categorías primarias:\na) Suelo urbano consolidado, integrado por los solares, así como las parcelas que, por \nsu grado de urbanización efectiva y asumida por el planeamiento urbanístico, puedan \nadquirir la condición de solar, mediante obras accesorias y simultáneas a las de edificación o \nconstrucción.\nSerán también suelo urbano consolidado aquellos solares o parcelas que sean objeto de \nactuaciones de dotación, aunque requieran de equidistribución de beneficios y cargas.\nb) Suelo urbano no consolidado, integrado por la restante superficie de suelo urbano y, \nen todo caso, aquellos terrenos que sean objeto de actuaciones de reforma o renovación de \nla urbanización.\n3. Reglamentariamente se concretarán los criterios para valorar adecuadamente el grado \nde urbanización y de consolidación de los terrenos para la clasificación como suelo urbano, \nasí como los criterios que sean de aplicación, en su caso, para distinguir entre las dos \ncategorías establecidas.\nArtículo 15.  Suelo urbanizable.\n1. Tendrán la condición de suelo urbanizable los terrenos que el planeamiento general \nadscriba a esta clase de suelo, mediante su clasificación, por no proceder serlo a las clases \nde suelo urbano y no urbanizable de protección, y podrá ser objeto de transformación, \nmediante su urbanización o cualquiera de las otras formas previstas en la presente Ley, en \nlas condiciones y los términos que dicho planeamiento determine, de conformidad con las \nNormas que reglamentariamente se establezcan.\n2. El planeamiento general diferenciará en el suelo urbanizable, cuando proceda, todas o \nalguna de las siguientes categorías primarias:\na) Suelo urbanizable sectorizado, integrado por los terrenos que el planeamiento general \nprevea expresamente que deben transformarse en suelo urbano y que, a tales efectos, se \ndividen en recintos denominados sectores.\nb) Suelo urbanizable no sectorizado, integrado por los restantes terrenos adscritos a la \nclase de suelo urbanizable.\nArtículo 16.  Suelo no urbanizable de protección.\n1. Tendrán la condición de suelo no urbanizable de protección los terrenos en que \nconcurran alguna de las circunstancias siguientes:\na) Que deban incluirse en esta clase de suelo por estar sometidos a algún régimen \nespecial de protección incompatible con su transformación de acuerdo con el planeamiento \nregional territorial o la legislación sectorial, en razón de sus valores paisajísticos, históricos, \narqueológicos, científicos, ambientales o culturales, de riesgos naturales acreditados en el \nplaneamiento sectorial, o en función de su sujeción a limitaciones o servidumbres para la \nprotección del dominio público.\nb) Que el planeamiento regional territorial y el planeamiento urbanístico consideren \nnecesario preservar por los valores a que se ha hecho referencia en el punto anterior, por \nsus valores agrícolas, forestales, ganaderos o por sus riquezas naturales.\n2. El planeamiento regional territorial clasificará directamente los terrenos que, en todo \ncaso, deban pertenecer a esta clase de suelo, que será completado, en su caso, por la \nclasificación realizada por el planeamiento general.\n3. Si como consecuencia de incendio o agresión ambiental, sean cuales fueran sus \ncausas, quedasen dañados el suelo, la vegetación y la fauna o sus hábitats, y los terrenos \nperdieran el valor que dio lugar a su protección, quedarán sujetos desde el mismo momento \nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 18"
+      },
+      "resultado": {
+        "id": "T-09",
+        "consulta": "Cuándo se considera suelo urbano consolidado y cuándo no consolidado en la Comunidad de Madrid",
+        "documento": "BOE-A-2001-18984",
+        "version": "2026-06-15",
+        "gold": {
+          "referencias_paginas": [
+            18
+          ],
+          "fallo_conocido": false,
+          "puntua": true
+        },
+        "estado": "ok",
+        "excedido": false,
+        "tokens_contexto": 7026,
+        "limite_tokens": 20000,
+        "texto_contexto_sha256": "aff11033139fdbf8f704f1e45ea11abc3ac1796cc168a983a00e6dfc3b827bd7",
+        "texto_contexto_longitud": 28104,
+        "nota": "Categorias del suelo urbano con condiciones y excepcion de equidistribucion en la pagina fijada.",
+        "primarias": [
+          {
+            "documento": "BOE-A-2001-18984",
+            "id_tecnico": "p0010",
+            "ruta_oficial": null,
+            "titulo": "Pagina fisica 10 - urbanismo",
+            "puntuacion_bm25": 18.1541,
+            "paginas": [
+              10
+            ],
+            "paginas_entregadas": [
+              5,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "documento": "BOE-A-2001-18984",
+            "id_tecnico": "p0005",
+            "ruta_oficial": null,
+            "titulo": "Pagina fisica 5 - urbanismo",
+            "puntuacion_bm25": 18.0409,
+            "paginas": [
+              5
+            ],
+            "paginas_entregadas": [
+              4,
+              6
+            ]
+          }
+        ],
+        "paginas": [
+          {
+            "doc": "BOE-A-2001-18984",
+            "version": "2026-06-15",
+            "pagina": 5,
+            "motivo": "auxiliar",
+            "archivo": "docs/BOE-A-2001-18984/2026-06-15__28436cd2d665/pagina/p0005.md",
+            "texto_sha256": "ce500614f6ca319943c8383b9f769033cf5155593f4c1310861e19cb9c36eb51",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2001/BOE-A-2001-18984-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 5,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "ce500614f6ca319943c8383b9f769033cf5155593f4c1310861e19cb9c36eb51",
+            "sha_coincide": true,
+            "longitud_texto": 4194,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2001-18984",
+            "version": "2026-06-15",
+            "pagina": 9,
+            "motivo": "continuada",
+            "archivo": "docs/BOE-A-2001-18984/2026-06-15__28436cd2d665/pagina/p0009.md",
+            "texto_sha256": "d638ab16f9384daf3d13a59a7e07ae65c22f9bbc18696771045586c2a3230f7c",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2001/BOE-A-2001-18984-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 9,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "d638ab16f9384daf3d13a59a7e07ae65c22f9bbc18696771045586c2a3230f7c",
+            "sha_coincide": true,
+            "longitud_texto": 4827,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2001-18984",
+            "version": "2026-06-15",
+            "pagina": 10,
+            "motivo": "primaria",
+            "archivo": "docs/BOE-A-2001-18984/2026-06-15__28436cd2d665/pagina/p0010.md",
+            "texto_sha256": "1df73f25952aa90fa9b89d5784a8f48822a62be29cab4df3f6edb8b1493d33ac",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2001/BOE-A-2001-18984-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 10,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "1df73f25952aa90fa9b89d5784a8f48822a62be29cab4df3f6edb8b1493d33ac",
+            "sha_coincide": true,
+            "longitud_texto": 4522,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2001-18984",
+            "version": "2026-06-15",
+            "pagina": 11,
+            "motivo": "continuada",
+            "archivo": "docs/BOE-A-2001-18984/2026-06-15__28436cd2d665/pagina/p0011.md",
+            "texto_sha256": "b7cf823e0f38caa555bcd9077de5ffa9d852cf1cf3c52dbae9e1a7271d97221a",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2001/BOE-A-2001-18984-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 11,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "b7cf823e0f38caa555bcd9077de5ffa9d852cf1cf3c52dbae9e1a7271d97221a",
+            "sha_coincide": true,
+            "longitud_texto": 5019,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2001-18984",
+            "version": "2026-06-15",
+            "pagina": 4,
+            "motivo": "continuada",
+            "archivo": "docs/BOE-A-2001-18984/2026-06-15__28436cd2d665/pagina/p0004.md",
+            "texto_sha256": "ad1e330cc29f67e5bfd574a4a8d141f4cfc9d5ece0de8a8754dbe7c2858aa99d",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2001/BOE-A-2001-18984-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 4,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "ad1e330cc29f67e5bfd574a4a8d141f4cfc9d5ece0de8a8754dbe7c2858aa99d",
+            "sha_coincide": true,
+            "longitud_texto": 1499,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2001-18984",
+            "version": "2026-06-15",
+            "pagina": 6,
+            "motivo": "continuada",
+            "archivo": "docs/BOE-A-2001-18984/2026-06-15__28436cd2d665/pagina/p0006.md",
+            "texto_sha256": "08fba01f5af4b93d5cfa6987bb832583ddd804048c9176d3801af6d36568c7e2",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2001/BOE-A-2001-18984-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 6,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "08fba01f5af4b93d5cfa6987bb832583ddd804048c9176d3801af6d36568c7e2",
+            "sha_coincide": true,
+            "longitud_texto": 4858,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          }
+        ],
+        "cobertura": {
+          "referencias": [
+            18
+          ],
+          "contexto": [],
+          "primaria": [],
+          "faltantes": [
+            18
+          ],
+          "puntua": true
+        },
+        "integridad_ok": true,
+        "integridad_incidencias": [],
+        "error_preparar": null
+      }
+    },
+    {
+      "caso": {
+        "id": "T-15",
+        "consulta": "En la ley del suelo del País Vasco, ¿cuál es el máximo de suelo destinado a alojamientos dotacionales por cada incremento de techo de uso residencial?",
+        "documento": "BOE-A-2011-17400",
+        "version": "2025-12-29",
+        "jurisdiccion": "País Vasco",
+        "municipio": null,
+        "disposicion": "Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+        "referencias_paginas": [
+          21
+        ],
+        "fallo_conocido": false,
+        "criterios_evidencia": [
+          "será de 2,5 metros cuadrados de suelo por",
+          "cada incremento de 100 metros cuadrados de techo de uso residencial",
+          "por cada nueva vivienda prevista en el planeamiento"
+        ],
+        "nota": "Umbral de destino dotacional: máximo 2,5 m² de suelo por cada incremento de 100 m² de techo residencial o, si este no está determinado, por cada nueva vivienda prevista en el planeamiento."
+      },
+      "referencia": {
+        "id": "T-15",
+        "documento": "BOE-A-2011-17400",
+        "version": "2025-12-29",
+        "jurisdiccion": "País Vasco",
+        "municipio": null,
+        "disposicion": "Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+        "pagina_fisica": 21,
+        "url_oficial": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-17400-consolidado.pdf",
+        "pdf_sha256": "c085dfea5e77c60012dd3f47be97911076797ad104f26941ada0e7365e44f364",
+        "archivo_pagina": "docs/BOE-A-2011-17400/2025-12-29__c085dfea5e77/pagina/p0021.md",
+        "texto_pagina_sha256": "d899926eae7b6fc67285a9ac0a0f6ee21b0223dc99d9b73bce5bb985f0317977",
+        "cotejo_pdf": "texto extraido directamente con pypdf coincide al normalizar espacios; sin cotejo visual",
+        "texto_referencia": "2. El planeamiento urbanístico municipal podrá calificar también terrenos para la \nimplantación de actividades económicas de fomento o interés público.\n3. Cuando el planeamiento urbanístico municipal califique terrenos para la construcción \nde viviendas sujetas a algún régimen de protección pública o para la implantación de \nactividades económicas de fomento o interés público, estas calificaciones se tendrán en \ncuenta en la determinación ponderada de la edificabilidad urbanística a efectos de la \nvaloración del suelo.\nArtículo 17.  Calificación de suelos con destino a alojamientos rotacionales.\n1. El planeamiento urbanístico municipal podrá asimismo calificar específicamente \nterrenos como equipamiento comunitario en áreas de uso predominantemente residencial \ncon destino a alojamientos dotacionales, tanto para alojamiento transitorio como para \nalojamientos sociales de colectivos especialmente necesitados, que como mínimo atenderá \nla obligación de calificación de suelo para el cumplimiento de los estándares y las cuantías \nmínimas establecidas en el artículo 81 de esta ley. A tal efecto, la ordenación pormenorizada \nestablecerá la ubicación concreta y las características edificatorias de las citadas \nconstrucciones. El máximo para este destino será de 2,5 metros cuadrados de suelo por \ncada incremento de 100 metros cuadrados de techo de uso residencial o, en defecto de su \ndeterminación, por cada nueva vivienda prevista en el planeamiento.\n2. En suelo urbano consolidado el planeamiento podrá destinar también a este fin de \nalojamientos dotacionales parcelas de equipamiento comunitario ya existentes, siempre que \nse acredite la disponibilidad de parcelas de equipamiento suficientes para atender otras \nnecesidades sociales que lo requieran.\n3. Los terrenos calificados para alojamientos dotacionales tendrán carácter dotacional \npúblico, por lo que su obtención se realizará a favor de la administración responsable de su \nimplantación por cesión obligatoria y gratuita.\nCAPÍTULO III\nRégimen de la propiedad del suelo\nArtículo 18.  Integración del contenido urbanístico del derecho de propiedad del suelo.\n1. La ordenación urbanística determinada por esta ley y sus disposiciones de desarrollo, \ny, en virtud de la misma, el planeamiento territorial y urbanístico, definen y delimitan las \nfacultades y los deberes urbanísticos de la propiedad del suelo, vinculando éste y las \nconstrucciones, edificaciones e instalaciones, mediante la clasificación y calificación, a los \ncorrespondientes destinos, y mediante la programación a sus correspondientes plazos de \nejecución.\n2. En particular, la ordenación urbanística puede determinar, además de la edificabilidad \nurbanística y de los usos que atribuya al vuelo y al subsuelo ligados a la superficie, la \nutilización específica e independiente del suelo, subsuelo y vuelo para fines de uso o servicio \npúblico, así como de utilidad pública o interés social, con preservación de los restos \narqueológicos de interés histórico y cultural y prevención de los riesgos que puedan suponer \npara los recursos naturales, y en particular los hidrológicos.\n3. La ordenación urbanística no confiere a los propietarios de suelo derecho alguno a \nindemnización, salvo en los supuestos previstos en la ley y de conformidad, en todo caso, \ncon el régimen general de la responsabilidad patrimonial de las administraciones públicas.\n4. Tampoco otorga derecho de indemnización al propietario de la superficie la utilización \nque se disponga del subsuelo conforme al apartado segundo, siempre que la misma no \nafecte o perjudique la edificabilidad urbanística y el uso otorgados al subsuelo ligado a la \nsuperficie.\nArtículo 19.  Carácter estatutario de los derechos y los deberes de la propiedad del suelo.\nLa enajenación del suelo y las construcciones, edificaciones e instalaciones no modifica \nla situación de su titular definida por la ordenación urbanística y los actos dictados o \nproducidos en ejecución o aplicación de la misma, quedando el adquirente legalmente \nsubrogado en el lugar y puesto del transmitente, incluso por lo que respecta a los \nBOLETÍN OFICIAL DEL ESTADO\nLEGISLACIÓN CONSOLIDADA\nPágina 21"
+      },
+      "resultado": {
+        "id": "T-15",
+        "consulta": "En la ley del suelo del País Vasco, ¿cuál es el máximo de suelo destinado a alojamientos dotacionales por cada incremento de techo de uso residencial?",
+        "documento": "BOE-A-2011-17400",
+        "version": "2025-12-29",
+        "gold": {
+          "referencias_paginas": [
+            21
+          ],
+          "fallo_conocido": false,
+          "puntua": true
+        },
+        "estado": "ok",
+        "excedido": false,
+        "tokens_contexto": 6842,
+        "limite_tokens": 20000,
+        "texto_contexto_sha256": "3458b06fb9db30d20162b6bc0975d3ed40f569e57f735d6ded9819a7a72d7837",
+        "texto_contexto_longitud": 27368,
+        "nota": "Umbral de destino dotacional: máximo 2,5 m² de suelo por cada incremento de 100 m² de techo residencial o, si este no está determinado, por cada nueva vivienda prevista en el planeamiento.",
+        "primarias": [
+          {
+            "documento": "BOE-A-2011-17400",
+            "id_tecnico": "p0050",
+            "ruta_oficial": null,
+            "titulo": "Pagina fisica 50 - urbanismo",
+            "puntuacion_bm25": 40.1323,
+            "paginas": [
+              50
+            ],
+            "paginas_entregadas": [
+              25,
+              49,
+              50,
+              51
+            ]
+          },
+          {
+            "documento": "BOE-A-2011-17400",
+            "id_tecnico": "p0025",
+            "ruta_oficial": null,
+            "titulo": "Pagina fisica 25 - urbanismo",
+            "puntuacion_bm25": 34.1174,
+            "paginas": [
+              25
+            ],
+            "paginas_entregadas": [
+              24,
+              26
+            ]
+          }
+        ],
+        "paginas": [
+          {
+            "doc": "BOE-A-2011-17400",
+            "version": "2025-12-29",
+            "pagina": 25,
+            "motivo": "auxiliar",
+            "archivo": "docs/BOE-A-2011-17400/2025-12-29__c085dfea5e77/pagina/p0025.md",
+            "texto_sha256": "2704b7cbf7e95eb49d5a616b9642aa9c6a5b30b1dbd49b23e2d444e5be70981c",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-17400-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 25,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "2704b7cbf7e95eb49d5a616b9642aa9c6a5b30b1dbd49b23e2d444e5be70981c",
+            "sha_coincide": true,
+            "longitud_texto": 4299,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2011-17400",
+            "version": "2025-12-29",
+            "pagina": 49,
+            "motivo": "continuada",
+            "archivo": "docs/BOE-A-2011-17400/2025-12-29__c085dfea5e77/pagina/p0049.md",
+            "texto_sha256": "afaec7c522273fcac3c910794f874af38f8832fa6f31f5889ae13fc972e7d63b",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-17400-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 49,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "afaec7c522273fcac3c910794f874af38f8832fa6f31f5889ae13fc972e7d63b",
+            "sha_coincide": true,
+            "longitud_texto": 4460,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2011-17400",
+            "version": "2025-12-29",
+            "pagina": 50,
+            "motivo": "primaria",
+            "archivo": "docs/BOE-A-2011-17400/2025-12-29__c085dfea5e77/pagina/p0050.md",
+            "texto_sha256": "a6790942189a7d7bbc88af9c56e5dc2131f90b9985fc25dabff8ff9643c195bf",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-17400-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 50,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "a6790942189a7d7bbc88af9c56e5dc2131f90b9985fc25dabff8ff9643c195bf",
+            "sha_coincide": true,
+            "longitud_texto": 4474,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2011-17400",
+            "version": "2025-12-29",
+            "pagina": 51,
+            "motivo": "continuada",
+            "archivo": "docs/BOE-A-2011-17400/2025-12-29__c085dfea5e77/pagina/p0051.md",
+            "texto_sha256": "dcbd3c678e369f6a7bc88ca11d202dbb9cd2879556bb9c4a88f93da38bf35b1d",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-17400-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 51,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "dcbd3c678e369f6a7bc88ca11d202dbb9cd2879556bb9c4a88f93da38bf35b1d",
+            "sha_coincide": true,
+            "longitud_texto": 3566,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2011-17400",
+            "version": "2025-12-29",
+            "pagina": 24,
+            "motivo": "continuada",
+            "archivo": "docs/BOE-A-2011-17400/2025-12-29__c085dfea5e77/pagina/p0024.md",
+            "texto_sha256": "a0e062e84fc405f2974832dacbed746e7a4802611ff761fda11b2ece36e98d19",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-17400-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 24,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "a0e062e84fc405f2974832dacbed746e7a4802611ff761fda11b2ece36e98d19",
+            "sha_coincide": true,
+            "longitud_texto": 3545,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "BOE-A-2011-17400",
+            "version": "2025-12-29",
+            "pagina": 26,
+            "motivo": "continuada",
+            "archivo": "docs/BOE-A-2011-17400/2025-12-29__c085dfea5e77/pagina/p0026.md",
+            "texto_sha256": "6b72825c57d3e5067f489b7c70f89f0d445ddc399d2e51447194edd387faf143",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-17400-consolidado.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 26,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "6b72825c57d3e5067f489b7c70f89f0d445ddc399d2e51447194edd387faf143",
+            "sha_coincide": true,
+            "longitud_texto": 3776,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          }
+        ],
+        "cobertura": {
+          "referencias": [
+            21
+          ],
+          "contexto": [],
+          "primaria": [],
+          "faltantes": [
+            21
+          ],
+          "puntua": true
+        },
+        "integridad_ok": true,
+        "integridad_incidencias": [],
+        "error_preparar": null
+      }
+    },
+    {
+      "caso": {
+        "id": "T-18",
+        "consulta": "Según la ordenanza de tramitación de licencias urbanísticas de Málaga, ¿en qué momento se considera iniciado el procedimiento?",
+        "documento": "MUN-MALAGA-OMLU-2025",
+        "version": "2025-12-29",
+        "jurisdiccion": "Andalucía",
+        "municipio": "Málaga",
+        "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+        "referencias_paginas": [
+          16
+        ],
+        "fallo_conocido": false,
+        "criterios_evidencia": [
+          "fecha de inicio del procedimiento",
+          "Registro Electrónico General del Ayuntamiento de Málaga"
+        ],
+        "nota": "Procedimiento: la fecha de inicio es la de la entrada de la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga."
+      },
+      "referencia": {
+        "id": "T-18",
+        "documento": "MUN-MALAGA-OMLU-2025",
+        "version": "2025-12-29",
+        "jurisdiccion": "Andalucía",
+        "municipio": "Málaga",
+        "disposicion": "Ordenanza Municipal de Tramitación de Licencias Urbanísticas, Declaraciones Responsables y demás Medios de Intervención en el Uso del Suelo y la Edificación (OMLU)",
+        "pagina_fisica": 16,
+        "url_oficial": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+        "pdf_sha256": "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99",
+        "archivo_pagina": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0016.md",
+        "texto_pagina_sha256": "eb24711bac8564b280faa228e1aa41054aea186b0e04010fb290463e9062aa95",
+        "cotejo_pdf": "texto extraido directamente con pypdf coincide al normalizar espacios; sin cotejo visual",
+        "texto_referencia": "Boletín Oficial de la Provincia de Málaga\nNúmero 247 Lunes, 29 de diciembre de 2025 Página 85\n11. Facilitar la intervención de las entidades colaboradoras en orden a comprobar, con-\ntrolar e inspeccionar las obras o actuaciones objeto de la licencia, declaración respon-\nsable o comunicación, cuando el interesado haya contratado el servicio de la entidad \ncolaboradora .\nArtículo 9. Formularios normalizados, lugar de presentación y documentación\n1. La GMU elaborará formularios normalizados que pondrá a disposición de los interesa -\ndos en la sede electrónica del Ayuntamiento, manteniendo sus modelos permanentemente publi-\ncados y actualizados, siendo los mismos de uso obligatorio por los interesados. \n2. Los formularios regulados en la presente ordenanza se presentarán en los registros pre-\nvistos en la normativa vigente.\n3. Se considerará como fecha de inicio del procedimiento la de la entrada de la documen -\ntación completa en el Registro Electrónico General del Ayuntamiento de Málaga.\n4. La documentación necesaria para solicitar los distintos procedimientos regulados en la \npresente ordenanza, así como para presentar declaraciones responsables y/o comunicación se \ndetallan en el anexo II. \nArtículo 10. Proyectos y otros documentos técnicos\n1. A los efectos previstos en esta ordenanza, se entiende por proyecto y/o documentación \ntécnica el conjunto de documentos que definen las actuaciones urbanísticas a realizar, de mane -\nra que permita a la GMU conocer suficientemente el objeto de las mismas y determinar si se \najustan a la normativa urbanística objeto de control municipal. Los proyectos y documentación \ntécnica se clasifican en:\na. Proyectos técnicos de obras de edificación para las actuaciones urbanísticas incluidas \nen el ámbito de aplicación establecido en la legislación estatal en materia de ordenación \nde la edificación (obras y actuaciones LOE).\nb. Proyectos técnicos para las actuaciones urbanísticas no incluidas en el ámbito de aplica-\nción de la legislación estatal en materia de ordenación de la edificación (obras y actua -\nciones NO LOE)\nc. Memoria técnica descriptiva y gráfica para aquellas actuaciones urbanísticas que \nrequieran la intervención de un técnico competente pero que por su menor entidad \nconstructiva o sencillez técnica no requieran de proyecto técnico.\n2. Solo las obras de mantenimiento y conservación de escasa entidad y sencillez técnica \nque no necesiten de la intervención de un técnico, en edificaciones o construcciones terminadas, \nno requerirán para su definición de la presentación de proyecto o documentos técnicos, cuando \nasí se establezca en la presente ordenanza o en los formularios normalizados.\n3. Los proyectos y documentos técnicos deberán estructurarse y contener como mínimo:\na. Anexo de justificación urbanística.\nb. Memoria descriptiva.\nc. Planos.\nd. Presupuesto y medición.\ne. Fotografías de la zona sobre la que se realiza la actuación.\nf. Anexo independiente de datos sensibles de protección.\n4. Los proyectos y los documentos técnicos, con independencia del medio de intervención \nurbanística que proceda, deberán estar suscritos por técnico o técnicos competentes y reunir los \nrequisitos formales exigibles con arreglo a la legislación vigente, debiendo ser visados en los \nsupuestos contemplados en la normativa aplicable en materia de visado colegial obligatorio. En \nlos restantes casos, el visado colegial será potestativo para el interesado.\n5. Los proyectos deberán contener una representación georreferenciada según lo estableci-\ndo en la legislación urbanística vigente.\nCVE: 20251229-05158-2025 - verificable en www.bopmalaga.es/cve.php"
+      },
+      "resultado": {
+        "id": "T-18",
+        "consulta": "Según la ordenanza de tramitación de licencias urbanísticas de Málaga, ¿en qué momento se considera iniciado el procedimiento?",
+        "documento": "MUN-MALAGA-OMLU-2025",
+        "version": "2025-12-29",
+        "gold": {
+          "referencias_paginas": [
+            16
+          ],
+          "fallo_conocido": false,
+          "puntua": true
+        },
+        "estado": "ok",
+        "excedido": false,
+        "tokens_contexto": 7389,
+        "limite_tokens": 20000,
+        "texto_contexto_sha256": "f09f48b637c2279c49eba3c8210d34dee4322a35855efa8c0662d455f360982b",
+        "texto_contexto_longitud": 29556,
+        "nota": "Procedimiento: la fecha de inicio es la de la entrada de la documentación completa en el Registro Electrónico General del Ayuntamiento de Málaga.",
+        "primarias": [
+          {
+            "documento": "MUN-MALAGA-OMLU-2025",
+            "id_tecnico": "p0053",
+            "ruta_oficial": null,
+            "titulo": "Pagina fisica 53 - licencias urbanísticas",
+            "puntuacion_bm25": 43.2069,
+            "paginas": [
+              53
+            ],
+            "paginas_entregadas": [
+              2,
+              52,
+              53,
+              54
+            ]
+          },
+          {
+            "documento": "MUN-MALAGA-OMLU-2025",
+            "id_tecnico": "p0008",
+            "ruta_oficial": null,
+            "titulo": "Pagina fisica 8 - licencias urbanísticas",
+            "puntuacion_bm25": 40.3248,
+            "paginas": [
+              8
+            ],
+            "paginas_entregadas": [
+              7,
+              8,
+              9
+            ]
+          }
+        ],
+        "paginas": [
+          {
+            "doc": "MUN-MALAGA-OMLU-2025",
+            "version": "2025-12-29",
+            "pagina": 2,
+            "motivo": "auxiliar",
+            "archivo": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0002.md",
+            "texto_sha256": "70b848b5c50eba7ed741796c00cab6acbe7fb741eb00da2fb1937cc92bbb7b32",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 2,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "70b848b5c50eba7ed741796c00cab6acbe7fb741eb00da2fb1937cc92bbb7b32",
+            "sha_coincide": true,
+            "longitud_texto": 4720,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "MUN-MALAGA-OMLU-2025",
+            "version": "2025-12-29",
+            "pagina": 52,
+            "motivo": "continuada",
+            "archivo": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0052.md",
+            "texto_sha256": "adde03959e8ac738ba1120b1faef886e755dd889814a6711f4f7ef8ee27c5bcc",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 52,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "adde03959e8ac738ba1120b1faef886e755dd889814a6711f4f7ef8ee27c5bcc",
+            "sha_coincide": true,
+            "longitud_texto": 3226,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "MUN-MALAGA-OMLU-2025",
+            "version": "2025-12-29",
+            "pagina": 53,
+            "motivo": "primaria",
+            "archivo": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0053.md",
+            "texto_sha256": "d72a0c8e53ba0d36e9c1eda26c5de272f556b584a3b2d43c3b54cfa28a83cf60",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 53,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "d72a0c8e53ba0d36e9c1eda26c5de272f556b584a3b2d43c3b54cfa28a83cf60",
+            "sha_coincide": true,
+            "longitud_texto": 2841,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "MUN-MALAGA-OMLU-2025",
+            "version": "2025-12-29",
+            "pagina": 54,
+            "motivo": "continuada",
+            "archivo": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0054.md",
+            "texto_sha256": "02d028dd8501eca234178a25b6eda4dfdd812af52c5cf55f162baf59692b18a2",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 54,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "02d028dd8501eca234178a25b6eda4dfdd812af52c5cf55f162baf59692b18a2",
+            "sha_coincide": true,
+            "longitud_texto": 3085,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "MUN-MALAGA-OMLU-2025",
+            "version": "2025-12-29",
+            "pagina": 7,
+            "motivo": "continuada",
+            "archivo": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0007.md",
+            "texto_sha256": "a164754cad6a5f358fedb1dd04b5c87d8071fd2f4be8ec1dd95f4ebbb491f7b1",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 7,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "a164754cad6a5f358fedb1dd04b5c87d8071fd2f4be8ec1dd95f4ebbb491f7b1",
+            "sha_coincide": true,
+            "longitud_texto": 4335,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "MUN-MALAGA-OMLU-2025",
+            "version": "2025-12-29",
+            "pagina": 8,
+            "motivo": "primaria",
+            "archivo": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0008.md",
+            "texto_sha256": "546df31a62692facd0b97bc28ed838c0a8389fb1b811c61d95c9a6f712a0efc0",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 8,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "546df31a62692facd0b97bc28ed838c0a8389fb1b811c61d95c9a6f712a0efc0",
+            "sha_coincide": true,
+            "longitud_texto": 4146,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          },
+          {
+            "doc": "MUN-MALAGA-OMLU-2025",
+            "version": "2025-12-29",
+            "pagina": 9,
+            "motivo": "continuada",
+            "archivo": "docs/MUN-MALAGA-OMLU-2025/2025-12-29__a69be972c4cb/pagina/p0009.md",
+            "texto_sha256": "ee4e0a29efd51fef31bed6fe8fccd7585b937e7e1812689eaceeba6d1f5989d0",
+            "etiqueta_impresa": null,
+            "url_fuente": "https://urbanismo.malaga.eu/export/sites/urbanismo/.galleries/Documentos-General/AD-Ordenanza-tramitacion-de-licencias-MALAGA.pdf",
+            "ruta_ok": true,
+            "numero_archivo": 9,
+            "pagina_coincide_archivo": true,
+            "literal_en_contexto": true,
+            "ajuste_espacios_finales": false,
+            "sha256_local": "ee4e0a29efd51fef31bed6fe8fccd7585b937e7e1812689eaceeba6d1f5989d0",
+            "sha_coincide": true,
+            "longitud_texto": 3682,
+            "texto_en_contexto": true,
+            "edicion_ok": true
+          }
+        ],
+        "cobertura": {
+          "referencias": [
+            16
+          ],
+          "contexto": [],
+          "primaria": [],
+          "faltantes": [
+            16
+          ],
+          "puntua": true
+        },
+        "integridad_ok": true,
+        "integridad_incidencias": [],
+        "error_preparar": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,1581 @@
+{
+  "fecha": "2026-11-16",
+  "metodo": "AdaptadorContexto real; 15 consultas con referencia independiente del ranking y conservada durante la comparacion; 14 referencias de pagina fisica. max_resultados=2, presupuesto=20000. Sin API. No se exige igualdad entre colecciones con IDF global.",
+  "resumen": {
+    "original46": {
+      "casos": 15,
+      "con_referencia": 14,
+      "referencia_en_contexto": 13,
+      "referencia_primaria": 12,
+      "fallos": [
+        "SUA-02"
+      ]
+    },
+    "original149": {
+      "casos": 15,
+      "con_referencia": 14,
+      "referencia_en_contexto": 13,
+      "referencia_primaria": 12,
+      "fallos": [
+        "SUA-02"
+      ]
+    },
+    "propuesta46": {
+      "casos": 15,
+      "con_referencia": 14,
+      "referencia_en_contexto": 11,
+      "referencia_primaria": 10,
+      "fallos": [
+        "REBT-01",
+        "REBT-02",
+        "SUA-02"
+      ]
+    },
+    "propuesta149": {
+      "casos": 15,
+      "con_referencia": 14,
+      "referencia_en_contexto": 11,
+      "referencia_primaria": 10,
+      "fallos": [
+        "REBT-01",
+        "REBT-02",
+        "SUA-02"
+      ]
+    },
+    "final149": {
+      "casos": 15,
+      "con_referencia": 14,
+      "referencia_en_contexto": 13,
+      "referencia_primaria": 12,
+      "fallos": [
+        "SUA-02"
+      ]
+    }
+  },
+  "decision": "Conservar motor original. La propuesta de IDF sobre candidatos elegibles fue rechazada por perder REBT-01 y REBT-02. El salto103a109 por si solo no demuestra perdida: ambas paginas son pertinentes a la consulta amplia.",
+  "auditoria_paginas": {
+    "103": "ITC-BT12: definicion, limites y componentes de instalaciones de enlace",
+    "109": "Inicio ITC-BT14: LGA conecta caja general de proteccion con centralizacion de contadores",
+    "115-117": "Emplazamiento y condiciones de concentraciones de contadores"
+  },
+  "comprobacion_final": {
+    "igualdad_texto_y_paginas_original149": true,
+    "motor_restaurado_sha256": {
+      "acceso.py": "b7943f309999847ce1609c93b163248ef6ed2d1242f2f02078563ac662f21a39",
+      "adaptador_contexto.py": "0e524472471e9958c71423c059b0f0df2d3332b966d634dc99e45ee5f527cdff"
+    },
+    "ficheros_previos_conservados": {
+      "contenido/manifest_publico.json": true,
+      "contenido/indice/apartados.jsonl": true,
+      "ingesta/README.md": true,
+      "ingesta/recopilar_boe.py": true
+    },
+    "pruebas_automatizadas": {
+      "tests": 19,
+      "piloto_sua": 19,
+      "http_local": 29,
+      "herramientas": 10,
+      "total": 85,
+      "resultado": "OK",
+      "observacion": "Las seis pruebas con socket de localhost requieren ejecucion fuera del sandbox; el primer intento fue bloqueado por WinError10013 y la repeticion autorizada paso.",
+      "evaluador": 8,
+      "nuevas_en_esta_revision": 23
+    },
+    "motor_propuesta_sha256": {
+      "acceso.py": "ac60cdbdf5257c9a4cf4a7ba31ca3cf696c9f94c75770aaf9a85a7d993ea6886",
+      "adaptador_contexto.py": "1fad9bd0002b57df958dce518a69cd416d5939e56b7a302fb9a5b75da5b94b9c"
+    },
+    "controles_evaluador": {
+      "resultado": "OK",
+      "controles": [
+        "evidencia_valida_aceptada",
+        "texto_recortado_rechazado",
+        "sha_incorrecto_rechazado",
+        "doc_distinto_rechazado",
+        "edicion_distinta_rechazado",
+        "archivo_ilegible_rechazado",
+        "pagina_mal_etiquetada_rechazado",
+        "escape_ruta_rechazado",
+        "texto_vacio_o_blanco_rechazado",
+        "texto_vacio_o_blanco_rechazado",
+        "conocido_visible_y_estricto_falla",
+        "cardinalidad_vacia_rechazada",
+        "caso_ausente_rechazado",
+        "mejora_conocido_admitida"
+      ]
+    },
+    "ejecutor_final": {
+      "normal_salida": 0,
+      "estricto_salida": 1,
+      "motivo_estricto": "SUA-02 no recupera pagina36; fallo previo",
+      "casos_estado_ok": 15,
+      "cobertura_contexto_total": 13,
+      "cobertura_primaria_total": 12,
+      "integridad_ok_en_todos": true,
+      "mismo_texto_y_paginas_que_original149": true,
+      "ajustes_solo_espacios_finales": [
+        {
+          "id": "SUA-01",
+          "pagina": 42
+        },
+        {
+          "id": "SUA-02",
+          "pagina": 14
+        },
+        {
+          "id": "SUA-03",
+          "pagina": 37
+        },
+        {
+          "id": "SUA-04",
+          "pagina": 16
+        },
+        {
+          "id": "SUA-05",
+          "pagina": 16
+        },
+        {
+          "id": "SUA-06",
+          "pagina": 42
+        }
+      ],
+      "sha256_evaluador": "e0ac7ee01c710b6ae964ebf464cf2bb50e822e70b58fa7981a6c228ce3afb018",
+      "sha256_fixture": "e8221887bbd64725f0f1242fd08107c6ed37f05f05f2822b9bd508f5874e48de"
+    },
+    "reintento_evaluador": {
+      "primer_normal_salida": 1,
+      "causa": "Verificador inicial exigia conservar whitespace terminal literal aunque adaptador ya aplicaba rstrip global.6falsasincidenciasSUA, conservadas localmente.",
+      "correccion": "SHAfuente exacto mas pagina/ruta/edicion y texto completo; solo se permite normalizacion del whitespace al final global. Sin recortes de caracteres sustantivos ni espacios internos. Sin tocar motor ni gold."
+    },
+    "sha256_tests_nuevos": {
+      "experimentos/http-local/tests/test_estabilidad_recuperacion.py": "071e79da872f48e48a1fc93b7c8f13323e2d479202a577aef165d75a56d29faa",
+      "evaluacion/regresion_recuperacion/test_ejecutar.py": "48335d9d5bd1b668911dc09cfeb2546b0f1387ccdf13443841e626555655e49d"
+    }
+  },
+  "limites": [
+    "Presencia de pagina no certifica respuesta completa ni fidelidad de toda la extraccion.",
+    "SUA-02 sigue sin recuperar la pagina36: fallo preexistente en todos los brazos, visible y pendiente.",
+    "Sin medicion de tokens API ni ahorro economico. Sin dictamen de vigencia o cumplimiento.",
+    "La muestra de dos documentos no prueba calidad equivalente en todo el corpus ampliado."
+  ],
+  "casos": [
+    {
+      "id": "REBT-01",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Dónde comienzan y terminan las instalaciones de enlace y por qué zonas deben discurrir",
+      "referencias_paginas": [
+        103
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            3,
+            103
+          ],
+          "paginas": [
+            2,
+            3,
+            4,
+            13,
+            102,
+            103,
+            104
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            3,
+            103
+          ],
+          "paginas": [
+            2,
+            3,
+            4,
+            13,
+            102,
+            103,
+            104
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            112,
+            3
+          ],
+          "paginas": [
+            13,
+            111,
+            112,
+            113,
+            2,
+            3,
+            4
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            112,
+            3
+          ],
+          "paginas": [
+            13,
+            111,
+            112,
+            113,
+            2,
+            3,
+            4
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            3,
+            103
+          ],
+          "paginas": [
+            2,
+            3,
+            4,
+            13,
+            102,
+            103,
+            104
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "REBT-02",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Qué elementos conecta la línea general de alimentación de una instalación de enlace",
+      "referencias_paginas": [
+        109
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            103,
+            109
+          ],
+          "paginas": [
+            13,
+            102,
+            103,
+            104,
+            108,
+            109,
+            110
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            103,
+            109
+          ],
+          "paginas": [
+            13,
+            102,
+            103,
+            104,
+            108,
+            109,
+            110
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            103,
+            268
+          ],
+          "paginas": [
+            13,
+            102,
+            103,
+            104,
+            267,
+            268,
+            269
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            103,
+            268
+          ],
+          "paginas": [
+            13,
+            102,
+            103,
+            104,
+            267,
+            268,
+            269
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            103,
+            109
+          ],
+          "paginas": [
+            13,
+            102,
+            103,
+            104,
+            108,
+            109,
+            110
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "REBT-03",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Caída de tensión máxima de la línea general de alimentación con contadores totalmente centralizados y centralizaciones parciales",
+      "referencias_paginas": [
+        110
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            110
+          ],
+          "paginas": [
+            109,
+            110,
+            111,
+            113,
+            112,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            110
+          ],
+          "paginas": [
+            109,
+            110,
+            111,
+            113,
+            112,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            110
+          ],
+          "paginas": [
+            109,
+            110,
+            111,
+            113,
+            112,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            110
+          ],
+          "paginas": [
+            109,
+            110,
+            111,
+            113,
+            112,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            110
+          ],
+          "paginas": [
+            109,
+            110,
+            111,
+            113,
+            112,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "REBT-04",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Secciones mínimas cables polares neutro protección e hilo de mando de una derivación individual",
+      "referencias_paginas": [
+        113
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            113
+          ],
+          "paginas": [
+            112,
+            113,
+            114,
+            115
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            113
+          ],
+          "paginas": [
+            112,
+            113,
+            114,
+            115
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            113
+          ],
+          "paginas": [
+            112,
+            113,
+            114,
+            115
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            113
+          ],
+          "paginas": [
+            112,
+            113,
+            114,
+            115
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            113
+          ],
+          "paginas": [
+            112,
+            113,
+            114,
+            115
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "REBT-05",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Obligatoriedad ubicación en local según número de contadores de una concentración",
+      "referencias_paginas": [
+        115
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            115
+          ],
+          "paginas": [
+            112,
+            114,
+            115,
+            116,
+            117
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            115
+          ],
+          "paginas": [
+            112,
+            114,
+            115,
+            116,
+            117
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            115
+          ],
+          "paginas": [
+            112,
+            114,
+            115,
+            116,
+            117
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            115
+          ],
+          "paginas": [
+            112,
+            114,
+            115,
+            116,
+            117
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            115
+          ],
+          "paginas": [
+            112,
+            114,
+            115,
+            116,
+            117
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "REBT-06",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Altura mínima y distancias de trabajo del local de concentración de contadores",
+      "referencias_paginas": [
+        116
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            112,
+            115,
+            116,
+            117,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            112,
+            115,
+            116,
+            117,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            112,
+            115,
+            116,
+            117,
+            111,
+            113
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            112,
+            115,
+            116,
+            117,
+            111,
+            113
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            112,
+            115,
+            116,
+            117,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "REBT-07",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Apertura y dimensiones mínimas de la puerta de acceso al local de contadores",
+      "referencias_paginas": [
+        116
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            115,
+            116,
+            117,
+            118,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            115,
+            116,
+            117,
+            118,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            115,
+            116,
+            117,
+            118,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            115,
+            116,
+            117,
+            118,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            116
+          ],
+          "paginas": [
+            115,
+            116,
+            117,
+            118,
+            114
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "REBT-08",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Interruptor general de maniobra de una concentración e intensidades mínimas según carga prevista",
+      "referencias_paginas": [
+        117
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            287,
+            117
+          ],
+          "paginas": [
+            94,
+            286,
+            287,
+            288,
+            116,
+            117,
+            118
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            117,
+            287
+          ],
+          "paginas": [
+            94,
+            116,
+            117,
+            118,
+            286,
+            287,
+            288
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            117,
+            287
+          ],
+          "paginas": [
+            94,
+            116,
+            117,
+            118,
+            286,
+            287,
+            288
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            117,
+            287
+          ],
+          "paginas": [
+            94,
+            116,
+            117,
+            118,
+            286,
+            287,
+            288
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            117,
+            287
+          ],
+          "paginas": [
+            94,
+            116,
+            117,
+            118,
+            286,
+            287,
+            288
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "REBT-09",
+      "documento": "BOE-A-2002-18099",
+      "version": "2025-09-03",
+      "consulta": "Instalaciones de enlace centralizacion contadores",
+      "referencias_paginas": [],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            107,
+            103
+          ],
+          "paginas": [
+            47,
+            106,
+            107,
+            108,
+            102,
+            103,
+            104
+          ],
+          "referencia_en_contexto": null,
+          "referencia_primaria": null
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            107,
+            109
+          ],
+          "paginas": [
+            47,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "referencia_en_contexto": null,
+          "referencia_primaria": null
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            107,
+            109
+          ],
+          "paginas": [
+            47,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "referencia_en_contexto": null,
+          "referencia_primaria": null
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            107,
+            109
+          ],
+          "paginas": [
+            47,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "referencia_en_contexto": null,
+          "referencia_primaria": null
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            107,
+            109
+          ],
+          "paginas": [
+            47,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "referencia_en_contexto": null,
+          "referencia_primaria": null
+        }
+      }
+    },
+    {
+      "id": "SUA-01",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "Anchura libre de paso de un pasillo en itinerario accesible de uso Administrativo",
+      "referencias_paginas": [
+        36
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            36,
+            34
+          ],
+          "paginas": [
+            15,
+            35,
+            36,
+            37,
+            33,
+            34
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            36,
+            41
+          ],
+          "paginas": [
+            15,
+            35,
+            36,
+            37,
+            40,
+            41,
+            42
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            36,
+            34
+          ],
+          "paginas": [
+            15,
+            35,
+            36,
+            37,
+            33,
+            34
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            36,
+            34
+          ],
+          "paginas": [
+            15,
+            35,
+            36,
+            37,
+            33,
+            34
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            36,
+            41
+          ],
+          "paginas": [
+            15,
+            35,
+            36,
+            37,
+            40,
+            41,
+            42
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "SUA-02",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "Anchura libre zonas comunes de edificios Residencial Vivienda",
+      "referencias_paginas": [
+        36
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            40
+          ],
+          "paginas": [
+            9,
+            13,
+            39,
+            40,
+            41,
+            12,
+            14
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            40
+          ],
+          "paginas": [
+            9,
+            13,
+            39,
+            40,
+            41,
+            12,
+            14
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            40,
+            31
+          ],
+          "paginas": [
+            9,
+            13,
+            39,
+            40,
+            41,
+            30,
+            31,
+            32
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            40,
+            31
+          ],
+          "paginas": [
+            9,
+            13,
+            39,
+            40,
+            41,
+            30,
+            31,
+            32
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            40
+          ],
+          "paginas": [
+            9,
+            13,
+            39,
+            40,
+            41,
+            12,
+            14
+          ],
+          "referencia_en_contexto": false,
+          "referencia_primaria": false
+        }
+      }
+    },
+    {
+      "id": "SUA-03",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "Anchura efectiva puerta de una hoja marco y máxima apertura",
+      "referencias_paginas": [
+        36
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            41
+          ],
+          "paginas": [
+            36,
+            40,
+            41,
+            42,
+            35,
+            37
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": false
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            41
+          ],
+          "paginas": [
+            36,
+            40,
+            41,
+            42,
+            35,
+            37
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": false
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            41
+          ],
+          "paginas": [
+            36,
+            40,
+            41,
+            42,
+            35,
+            37
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": false
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            41
+          ],
+          "paginas": [
+            36,
+            40,
+            41,
+            42,
+            35,
+            37
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": false
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            41
+          ],
+          "paginas": [
+            36,
+            40,
+            41,
+            42,
+            35,
+            37
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": false
+        }
+      }
+    },
+    {
+      "id": "SUA-04",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "Pendiente longitudinal máxima de rampa itinerario accesible longitud 3 metros",
+      "referencias_paginas": [
+        14
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            14
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            16
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            14
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            16
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            14,
+            34
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            33,
+            34,
+            35
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            14,
+            34
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            33,
+            34,
+            35
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            14
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            16
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "SUA-05",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "Pendiente transversal máxima de rampas en itinerario accesible",
+      "referencias_paginas": [
+        14
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            14
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            16
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            14
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            16
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            14,
+            35
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            34,
+            35
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            14,
+            35
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            34,
+            35
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            14
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            36,
+            16
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    },
+    {
+      "id": "SUA-06",
+      "documento": "DB-SUA-oficial",
+      "version": "2022-06-14",
+      "consulta": "Estrechamientos puntuales de itinerario accesible y separación a puertas o cambios de dirección",
+      "referencias_paginas": [
+        36
+      ],
+      "ejecuciones": {
+        "original46": {
+          "estado": "ok",
+          "primarias": [
+            36
+          ],
+          "paginas": [
+            35,
+            36,
+            37,
+            41,
+            40,
+            42
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "original149": {
+          "estado": "ok",
+          "primarias": [
+            36
+          ],
+          "paginas": [
+            35,
+            36,
+            37,
+            41,
+            40,
+            42
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta46": {
+          "estado": "ok",
+          "primarias": [
+            36
+          ],
+          "paginas": [
+            35,
+            36,
+            37,
+            41,
+            34
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "propuesta149": {
+          "estado": "ok",
+          "primarias": [
+            36
+          ],
+          "paginas": [
+            35,
+            36,
+            37,
+            41,
+            34
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        },
+        "final149": {
+          "estado": "ok",
+          "primarias": [
+            36
+          ],
+          "paginas": [
+            35,
+            36,
+            37,
+            41,
+            40,
+            42
+          ],
+          "referencia_en_contexto": true,
+          "referencia_primaria": true
+        }
+      }
+    }
+  ],
+  "fuentes": {
+    "BOE-A-2002-18099": {
+      "version": "2025-09-03",
+      "sha256_pdf": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+      "url_oficial": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-18099-consolidado.pdf"
+    },
+    "DB-SUA-oficial": {
+      "version": "2022-06-14",
+      "sha256_pdf": "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+      "url_oficial": "https://www.codigotecnico.org/pdf/Documentos/SUA/DBSUA.pdf"
+    }
+  },
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "criterio_corregido": {
+    "inicial": "Se exigio por error igualdad de ranking/puntuaciones entre colecciones diferentes, incluso con IDF global declarado.",
+    "correccion": "La invariancia entre colecciones se sustituyo por aislamiento de candidatos y repetibilidad dentro de una misma coleccion. La referencia de paginas de los15casos no cambio para hacer pasar ningun brazo.",
+    "evidencia_conservada": "Se mantienen resultados de la propuesta rechazada y sus dos perdidas adicionales."
+  },
+  "cohortes": {
+    "original46": {
+      "manifest_sha256": "fc488d97dd9747e412d201f517488b180b18a0a9bb68bfbc0c1929f5c9c17245",
+      "indice_sha256": "04c78ff32517e08fd7899d6da920f6746c1c9cdf51592c43edd6cdf3baa29147"
+    },
+    "original149": {
+      "manifest_sha256": "6d5692a92d6541257b1cef5a770bbe0a2b8679f79ee11f381233d8811c1b765f",
+      "indice_sha256": "17dd525351bfc1e436decdb459aeed0bfdfa656ab74800b633ba57a6db4c9b48"
+    }
+  }
+}
