@@ -6,12 +6,12 @@
 | Autor | pedenry |
 | Tipo | handoff |
 | Ámbito | evaluación · regresión_recuperación · territorial · cierre de tanda |
-| Estado | entrega local validada; publicación de rama y CI remota por comprobar tras el commit |
+| Estado | rama publicada y PR abierta; CI remota en verificación |
 | Preparación | borrador nan/glm5.3-flash con lectura bloqueada; bloqueo documental resuelto con extracto autorizado cotejado por Codex |
 
 ## Estado de cierre
 
-- La tanda queda en **candidato validado**. El commit y el push quedan autorizados al responsable; esta preparación no ha observado ningún commit ni push y no registra SHA de commit alguno.
+- La tanda queda en **candidato validado**. Commit de contenido `6d8165184507391d93f116925796891057366ae3`, subido y cotejado con la referencia remota. [PR #3](https://github.com/pedenry/normativa-abierta/pull/3) abierta hacia `main`.
 - Revisión de fuentes hecha por Codex sobre el checkout; esta entrada solo recoge lo cotejado.
 - Rama de entrega: `codex/cierre-territorial-recuperacion`, desde `e96163ab`. El commit de entrega será el que incorpore esta entrada; se consulta con `git log -1`. Se conserva el flujo de revisión por PR de CONTRIBUTING; este cierre no implica merge a `main` ni despliegue en Pages.
 
@@ -99,6 +99,10 @@ Para el resto de fixtures (lotes territoriales, contraste y libres), remite a lo
 
 Antes de integrar en `main`: verificar la CI de la rama y revisar la PR. Pages seguirá sirviendo `main` hasta esa integración; no se declara publicación web completada.
 
+## Revisión de CI tras el primer push
+
+La primera CI remota pasa las pruebas unitarias y el recálculo histórico. El detector de secretos marca ocho falsos positivos: cuatro frases de presupuesto y número de resultados, tres etiquetas del contador aproximado y una enumeración de campos en un docstring. Codex cotejó las ocho líneas completas: ninguna contiene credenciales. `.gitleaksignore` registra exclusivamente sus huellas de commit, archivo, regla y línea; se conservan las reglas predeterminadas y el escaneo completo del historial. La repetición remota se comprueba en la PR, sin reescribir los informes históricos.
+
 ## Nota de herramientas
 
-El borrador inicial de esta entrada lo redactó NaN con lectura del checkout bloqueada; el bloqueo documental se resolvió mediante un extracto depurado y autorizado, cotejado por Codex. Las pendencias que el borrador marcó por falta de lectura quedan aquí resueltas y no se mantienen como pendientes ficticias. Sin commit ni push observados.
+El borrador inicial de esta entrada lo redactó NaN con lectura del checkout bloqueada; el bloqueo documental se resolvió mediante un extracto depurado y autorizado, cotejado por Codex. Codex completó la revisión de integración, el commit, el push y esta anotación posterior. Las pendencias que el borrador marcó por falta de lectura quedan resueltas.
