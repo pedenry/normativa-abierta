@@ -37,6 +37,22 @@ ul.apartados .n3{padding-left:2rem}ul.apartados .n4{padding-left:3rem}
 footer{margin-top:3rem;font-size:.8rem;color:#666;border-top:1px solid #ddd;padding-top:.6rem}
 img.figura{max-width:100%;height:auto;border:1px solid #ccc;margin:.4rem 0}
 .tabla-scroll{overflow-x:auto}code{overflow-wrap:anywhere}h1{overflow-wrap:anywhere}
+.territorio-indice ul{display:flex;flex-wrap:wrap;gap:.5rem 1rem;list-style:none;padding:0}
+.territorio-indice a{text-decoration:underline}
+details.territorio{border:1px solid #ccc;border-radius:.4rem;margin:.75rem 0}
+details.territorio>summary{cursor:pointer;padding:.75rem 1rem;line-height:1.4;
+font-family:system-ui,Segoe UI,Arial,sans-serif;font-weight:600;background:#eef4fa}
+details.territorio>summary:hover{background:#e2edf6}
+.territorio-contenido{padding:.5rem 1rem 1rem;min-width:0}
+.territorio-sub{margin:.5rem 0}
+.territorio-indice a:focus-visible,details.territorio>summary:focus-visible{
+outline:3px solid #0b4f8a;outline-offset:3px}
+@media(max-width:420px){.territorio-indice ul{display:grid;gap:.4rem}
+details.territorio>summary{padding:.65rem .75rem}.territorio-contenido{padding:.5rem .65rem}
+.territorio table{min-width:32rem;table-layout:fixed;width:100%}
+.territorio th:first-child{width:50%}.territorio th:nth-child(2){width:22%}
+.territorio th:nth-child(3){width:12%}.territorio th:nth-child(4){width:16%}
+.territorio td:nth-child(2){white-space:nowrap}}
 """
 GENERAL_WARNING = (
     "Extracción automática sin revisión técnica humana completa. Contraste tablas, "
@@ -307,6 +323,80 @@ def document_table(docs, route):
     return '\n'.join(rows) + '</table></div>'
 
 
+def document_groups(docs, route):
+    """Agrupa metadatos territoriales declarados, sin deducir ubicación ni vigencia.
+
+    Conserva la tabla anterior en materias sin territorio. Las provincias y los
+    municipios solo aparecen cuando constan en los metadatos de la fuente.
+    """
+    def value(doc, key):
+        raw = doc["meta"].get(key)
+        return raw.strip() if isinstance(raw, str) else ""
+
+    def order(name):
+        return (unicodedata.normalize("NFKD", name).casefold(), name)
+
+    def count(items):
+        return f'{len(items)} documento' + ('s' if len(items) != 1 else '')
+
+    def details(label, items, content, anchor=None):
+        attr = f' id="{esc(anchor)}"' if anchor else ''
+        return (f'<details class="territorio"{attr}><summary>{esc(label)} · {count(items)}</summary>'
+                f'<div class="territorio-contenido">{content}</div></details>')
+
+    def municipalities(items):
+        groups = {}
+        for doc in items:
+            groups.setdefault(value(doc, "municipio"), []).append(doc)
+        if not any(groups):
+            return document_table(items, route)
+        body = []
+        for name in sorted(groups, key=order):
+            selected = groups[name]
+            if name:
+                body.append(details('Municipio: ' + name, selected, document_table(selected, route)))
+            else:
+                body.append('<h3>Ámbito general</h3>' + document_table(selected, route))
+        return ''.join(body)
+
+    def subdivisions(items):
+        general, provinces = [], {}
+        for doc in items:
+            province, town = value(doc, "provincia"), value(doc, "municipio")
+            if not province and not town:
+                general.append(doc)
+            else:
+                provinces.setdefault(province, []).append(doc)
+        body = []
+        if general:
+            if provinces:
+                body.append('<h3>Ámbito general de la comunidad</h3>')
+            body.append(document_table(general, route))
+        for name in sorted(provinces, key=order):
+            selected = provinces[name]
+            content = municipalities(selected)
+            body.append(details('Provincia: ' + name, selected, content) if name else content)
+        return ''.join(body)
+
+    if not any(value(doc, key) for doc in docs for key in ('jurisdiccion', 'provincia', 'municipio')):
+        return document_table(docs, route)
+    groups = {}
+    for doc in docs:
+        name = value(doc, 'jurisdiccion')
+        if not name:
+            name = ('Territorio no indicado' if value(doc, 'provincia') or value(doc, 'municipio')
+                    else 'Sin territorio indicado')
+        groups.setdefault(name, []).append(doc)
+    ordered = sorted(groups, key=order)
+    anchors = {name: f'territorio-{i}' for i, name in enumerate(ordered, 1)}
+    links = ''.join('<li>' + link('#' + anchors[name], f'{name} ({len(groups[name])})') + '</li>'
+                    for name in ordered)
+    body = ['<p>Elige un territorio para desplegar sus documentos. Se conserva la edición de cada fuente.</p>',
+            '<nav class="territorio-indice" aria-label="Comunidades autónomas"><ul>' + links + '</ul></nav>']
+    body.extend(details(name, groups[name], subdivisions(groups[name]), anchors[name]) for name in ordered)
+    return '\n'.join(body)
+
+
 def render_indices(docs, fichas):
     outputs = {}
     scopes = sorted({str(d["meta"].get("scope") or "Otras disposiciones") for d in docs})
@@ -315,7 +405,7 @@ def render_indices(docs, fichas):
         raise ValueError("Colisión entre rutas de materias")
     for scope, route in routes.items():
         selected = [doc for doc in docs if (doc["meta"].get("scope") or "Otras disposiciones") == scope]
-        outputs[route] = page_html(scope, nav(route) + f'<h1>{esc(scope)}</h1>' + document_table(selected, route), route)
+        outputs[route] = page_html(scope, nav(route) + f'<h1>{esc(scope)}</h1>' + document_groups(selected, route), route)
     route = "site/index.html"
     body = ['<nav>Inicio</nav><h1>Normativa Abierta — acceso estático</h1>',
             '<p class="aviso">Vista pública: solo se reproduce contenido redistribuible. Las fuentes restringidas '
@@ -324,7 +414,8 @@ def render_indices(docs, fichas):
             f'{sum(len(d["parts"]) for d in docs)} segmentos. Acceso sin JavaScript, servicios ni cuentas.</p>',
             '<h2>Materias</h2><ul>']
     for scope, target in routes.items():
-        body.append('<li>' + link(relative(route, target), scope) + '</li>')
+        label = "Urbanismo por comunidad autónoma" if scope == "urbanismo" else scope
+        body.append('<li>' + link(relative(route, target), label) + '</li>')
     body.append('</ul><h2>Todos los documentos</h2>' + document_table(docs, route))
     body.append('<h2>Índices</h2><ul><li>' + link("apartados.html", "Índice de segmentos de texto") + '</li><li>'
                 + link("fichas.html", "Fichas de fuentes y complementos") + '</li></ul>')
