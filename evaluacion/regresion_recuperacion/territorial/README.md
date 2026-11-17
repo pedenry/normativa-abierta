@@ -1,6 +1,19 @@
 # Regresión de recuperación territorial (lotes 1–3)
 
-Suite de regresión territorial para el motor de recuperación: 21 consultas nuevas sobre 18 PDF (17 normas autonómicas, una por CCAA, más 4 trámites de la única municipal integrada, OMLU Málaga), con gold de páginas físicas fijado antes de ejecutar el ranking y referencias sin retocar después. Filtros por documento y versión, presupuesto 20000 tokens, `max_resultados=2`, sin API. Runner y contrato: [../ejecutar.py](../ejecutar.py) y [../README.md](../README.md).
+La integración HTTP posterior está verificada en [el informe del 17 de noviembre](resultados-http-2026-11-17.json): 91 consultas por `/contexto` en cada servidor, 48 respuestas anteriores de `/buscar` con documento y edición y 43 consultas automáticas de `/buscar`, sin diferencias. La [referencia congelada](referencia-http-2026-11-16.json) contiene una captura de la API anterior; sirve para detectar regresiones, no como gold independiente de corrección normativa. Contrato y aclaración: [HTTP local](../../../experimentos/http-local/README.md#contexto-y-aclaración-por-http).
+
+Para repetir la comprobación, desde la raíz del checkout:
+
+```sh
+python -B evaluacion/regresion_recuperacion/territorial/ejecutar_http.py --servidor publico
+python -B evaluacion/regresion_recuperacion/territorial/ejecutar_http.py --servidor local
+python -B evaluacion/regresion_recuperacion/territorial/ejecutar_http.py --compat --servidor local
+python -B evaluacion/regresion_recuperacion/territorial/ejecutar_http.py --buscar-auto --servidor publico
+```
+
+Se inicia un servidor real en loopback y se cierra al terminar, sin modelos ni red externa. Los informes se guardan en `.local/http-integracion/`. La comparación de `/contexto` cubre el JSON normalizado completo y el SHA del contexto literal; la de compatibilidad comprueba los bytes del cuerpo. Los modos son excluyentes. Los casos, la referencia y el corpus no se modifican al ejecutar.
+
+Suite de regresión territorial para el motor de recuperación: 21 consultas nuevas sobre 18 PDF (17 normas autonómicas, una por CCAA, más 4 trámites de la única municipal integrada, OMLU Málaga), con gold de páginas físicas fijado antes de ejecutar el ranking y referencias sin retocar después. Filtros por documento y versión, presupuesto 20000 tokens y máximo de dos resultados, sin API. Runner y contrato: [../ejecutar.py](../ejecutar.py) y [../README.md](../README.md).
 
 > **Estado actual (2026-11-16, tras la corrección de recuperación):** 21/21 referencias en contexto (17/17 autonómicas, 4/4 Málaga); los tres lotes en `--estricto` con exit 0. Las 3 correcciones (T-09, T-15, T-18) entran como auxiliares en contexto, sin perder ninguna referencia previa. Informe de la corrección por Codex: [resultados-correccion-2026-11-16.json](resultados-correccion-2026-11-16.json) · Fixture de contraste: [casos-contraste.json](casos-contraste.json) · Changelog: [../../../changelog/2026-11-16-pedenry-evaluacion-correccion-recuperacion-territorial.changelog.md](../../../changelog/2026-11-16-pedenry-evaluacion-correccion-recuperacion-territorial.changelog.md).
 
@@ -53,7 +66,7 @@ Los tres lotes y el fixture de contraste retornan exit 0 (estados comprobados po
 
 - 96 pruebas unittest en verde (19 tests + 19 piloto SUA + 40 HTTP + 10 herramientas + 8 evaluador), entre ellas 7 nuevas de pasajes en [test_pasajes.py](../../../experimentos/http-local/tests/test_pasajes.py).
 - Base REBT/SUA 14/14 y fixture SUA extra 6/6 preservadas, ambas con `--estricto` exit 0; contraste territorial 6/6 antes y después.
-- Integridad ok en todos los casos: gold literal, documento, versión y SHA por página; control de presupuesto sin ampliaciones (20000 tokens, `max_resultados=2`, auxiliares ≤2 por documento); corpus, índice, manifiestos, consultas y gold originales sin cambios de hash, con el ajuste previo de palabras partidas preservado.
+- Integridad ok en todos los casos: gold literal, documento, versión y SHA por página; control de presupuesto sin ampliaciones (20000 tokens y máximo de dos resultados, auxiliares ≤2 por documento); corpus, índice, manifiestos, consultas y gold originales sin cambios de hash, con el ajuste previo de palabras partidas preservado.
 
 ## Límites
 
