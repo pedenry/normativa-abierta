@@ -81,8 +81,12 @@ class PruebasSeguridadHttp(unittest.TestCase):
         self.addCleanup(shutil.rmtree, raiz, True)
         a = mock.Mock()
         a.construir_busqueda.return_value = {}
+        ad = mock.Mock()
+        ad.preparar.side_effect = lambda q, *args, **kwargs: {
+            "consulta": q, "estado": "sin_resultados", "paginas": [],
+            "recuperacion": {"resultados": [], "advertencias": []}}
         estado = {"A": a, "cont": raiz, "filas": [], "docs": {},
-                  "encs": {}, "P": raiz}
+                  "encs": {}, "P": raiz, "adaptador": ad}
         estado.update(extra)
         parche = mock.patch.dict(H.ESTADO, estado, clear=True)
         parche.start()
@@ -108,7 +112,8 @@ class PruebasSeguridadHttp(unittest.TestCase):
             a.construir_busqueda.assert_not_called()
             cod, _ = _get(s.puerto, "/buscar?q=" + "x" * 2000)
             self.assertEqual(cod, 200)
-            a.construir_busqueda.assert_called_once()
+            H.ESTADO["adaptador"].preparar.assert_called_once()
+            a.construir_busqueda.assert_not_called()
 
     def test_estatico_ocultos_traversal_y_publico(self):
         raiz, _ = self._estado()
@@ -146,6 +151,7 @@ class PruebasSeguridadHttp(unittest.TestCase):
         raiz, a = self._estado(docs={"doc-demo": ({}, None)})
         fuga = "fallo en %s/%s.txt" % (raiz, SECRETO)
         a.construir_busqueda.side_effect = Exception(fuga)
+        H.ESTADO["adaptador"].preparar.side_effect = Exception(fuga)
         a.construir_lectura.side_effect = Exception(fuga)
         with ServidorTemp(H.Handler) as s:
             cod, cuerpo_b = _get(s.puerto, "/buscar?q=prueba")

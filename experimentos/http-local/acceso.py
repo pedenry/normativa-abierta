@@ -301,22 +301,47 @@ def _tokens_pag(p):
     return _TOK_PAG[key]
 
 
-def _bm25(paginas, terminos, consulta):
+def _bm25(paginas, terminos, consulta, preparado=None):
     terminos = [raiz(SINONIMOS.get(norm(t), norm(t))) for t in terminos if norm(t)]
     frase = norm(consulta)
-    docs = [_tokens_pag(p) for p in paginas]
+    datos = None
+    if preparado is not None:
+        # Preparación explícita de arranque (preparar_bm25): métricas
+        # precalculadas de los MISMOS objetos, verificadas por identidad
+        # ("obj" is p; id único entre objetos vivos). Si falta el dato de
+        # algún objeto recibido, ValueError sin fallback global. df/N/avg
+        # se calculan aquí sobre EXACTAMENTE la lista recibida tras filtros:
+        # misma fórmula k1/b, términos duplicados, orden de sumas y sort.
+        tabla = preparado.get("paginas_notas") if isinstance(preparado, dict) else None
+        if not isinstance(tabla, dict):
+            raise ValueError("preparado BM25 de paginas/notas ausente o invalido")
+        datos = []
+        for p in paginas:
+            d = tabla.get(id(p))
+            if d is None or d.get("obj") is not p:
+                raise ValueError("pagina/nota sin datos en preparado BM25 explicito: "
+                                 "%s p.%s" % (p.get("documento"), p.get("pagina")))
+            datos.append(d)
+        docs = [d["tokens"] for d in datos]
+    else:
+        docs = [_tokens_pag(p) for p in paginas]
     if not docs:
         return []
     N = len(docs)
     avg = sum(len(d) for d in docs) / float(N)
-    df = {t: sum(1 for d in docs if t in d) for t in terminos}
+    df = ({t: sum(1 for d in datos if t in d["tf"]) for t in terminos}
+          if datos is not None else
+          {t: sum(1 for d in docs if t in d) for t in terminos})
     k1, b = 1.5, 0.75
     idf = {t: math.log(1 + (N - df[t] + 0.5) / (df[t] + 0.5)) for t in terminos}
     puntajes = []
     for i, d in enumerate(docs):
-        tf = {}
-        for w in d:
-            tf[w] = tf.get(w, 0) + 1
+        if datos is not None:
+            tf = datos[i]["tf"]
+        else:
+            tf = {}
+            for w in d:
+                tf[w] = tf.get(w, 0) + 1
         s = 0.0
         for t in terminos:
             if t not in tf:
@@ -324,10 +349,13 @@ def _bm25(paginas, terminos, consulta):
             f = tf[t]
             s += idf[t] * (f * (k1 + 1)) / (f + k1 * (1 - b + b * len(d) / avg))
         if frase:
-            s += 2.0 * norm(paginas[i]["texto"]).count(frase)
+            nt = datos[i]["norm_texto"] if datos is not None \
+                else norm(paginas[i]["texto"])
+            s += 2.0 * nt.count(frase)
         tit = paginas[i].get("titulos") or ""
         if tit:
-            s += 2.0 * sum(idf.get(t, 0) for t in set(terminos) if t in tokenizar(tit))
+            tt = datos[i]["tokens_titulo"] if datos is not None else tokenizar(tit)
+            s += 2.0 * sum(idf.get(t, 0) for t in set(terminos) if t in tt)
         if s > 0:
             puntajes.append((s, paginas[i]))
     puntajes.sort(key=lambda x: (-x[0], x[1]["documento"], x[1]["pagina"]))
@@ -349,7 +377,10 @@ def buscar_paginas(cont, filas, consulta, terminos, opciones, maximo=2):
         pags = [p for p in pags if norm(p["capa"]) in ("oficial", "asociada")]
     if getattr(opciones, "materia", None):
         pags = [p for p in pags if norm(p.get("materia") or "") == norm(opciones.materia)]
-    return _bm25(pags, terminos, consulta)[:maximo]
+    # Preparación opcional del arranque: mismas métricas de los mismos objetos
+    # (validada por buscar_bm25); sin el atributo, rama legacy de siempre.
+    return _bm25(pags, terminos, consulta,
+                 preparado=getattr(opciones, "preparado_bm25", None))[:maximo]
 
 
 _NOTAS_CACHE = {}
@@ -393,7 +424,10 @@ def buscar_notas(cont, filas, consulta, terminos, opciones, maximo=3):
             notas = [n for n in notas if norm(n["capa"]) == norm(capa)]
     else:
         notas = [n for n in notas if norm(n["capa"]) in ("oficial", "asociada")]
-    return _bm25(notas, terminos, consulta)[:maximo]
+    # Preparación opcional del arranque: mismas métricas de los mismos objetos
+    # (validada por buscar_bm25); sin el atributo, rama legacy de siempre.
+    return _bm25(notas, terminos, consulta,
+                 preparado=getattr(opciones, "preparado_bm25", None))[:maximo]
 
 
 def _item_pagina(par, terminos, encs):
@@ -1234,6 +1268,81 @@ def _adjuntar_auxiliares(cont, filas, encs, resultados, consulta, terminos,
     return total
 
 
+def preparar_bm25(cont, filas):
+    """Prepara UNA vez (arranque, antes de atender peticiones) el bloque global
+    de buscar_bm25 y su entrada por fila, con las mismas fórmulas del código
+    por petición.
+
+    Reproduce exactamente el bloque global de buscar_bm25 sobre TODAS las
+    filas que recibe (textos por `archivo`, tokens, _dl/_tt/_tok/_tokens_set,
+    df, N y avgdl) y añade por fila, en el mismo orden: TF del texto,
+    norm(texto) y cabecera normalizada con la fórmula actual de puntuar_fila.
+    Devuelve datos reutilizados sin escrituras por petición, acotados al corpus/instancia (dentro van
+    la identidad de las filas, la ruta de contenido y la clave de corpus);
+    no se guarda por consulta ni por IDs o páginas conocidos y no se muta
+    durante las peticiones: al cambiar de corpus se prepara de nuevo con
+    otra instancia y buscar_bm25 deja de usar la preparación vencida.
+
+    Además prepara las vistas auxiliares de páginas y notas (cargar_paginas/
+    cargar_notas, una vez) con las métricas por objeto que _bm25 usa:
+    tokens (_tokens_pag), TF, longitud, norm(texto) y tokenizar(títulos),
+    en "paginas_notas"; buscar_paginas/buscar_notas las consumen vía
+    _bm25(preparado=...) sin alterar filtros, scores ni orden.
+    """
+    cache_textos, todos_tokens = {}, []
+    tfs, textos_norm, cabs = [], [], []
+    for f in filas:
+        rel = f["archivo"]
+        if rel not in cache_textos:
+            cache_textos[rel] = texto_fichero(cont, rel)
+        texto = cache_textos[rel]
+        tokens = tokenizar(texto)
+        todas = set(tokens)
+        todos_tokens.append(todas)
+        f["_dl"] = max(1, len(tokens))
+        f["_tt"] = tokenizar(f.get("titulo") or "")
+        f["_tok"] = None
+        f["_tokens_set"] = todas
+        tf = {}
+        for t in tokens:
+            tf[t] = tf.get(t, 0) + 1
+        tfs.append(tf)
+        textos_norm.append(norm(texto))
+        cabs.append(norm("%s %s %s %s %s" % (
+            f.get("codigo") or "", f.get("titulo") or "", f.get("materia") or "",
+            f.get("scope") or "", f.get("ruta_semantica") or "")))
+    N = max(1, len(filas))
+    df = {}
+    for s in todos_tokens:
+        for t in s:
+            df[t] = df.get(t, 0) + 1
+    avgdl = sum(f["_dl"] for f in filas) / float(N)
+    # Vistas auxiliares de páginas y notas (índice de páginas/notas de tabla):
+    # las métricas que _bm25 recalcularía por consulta se precalculan UNA vez
+    # por objeto y no se mutan en peticiones. Tabla plana por id(objeto):
+    # páginas y notas están vivas en sus cachés y aquí (referencia "obj"), así
+    # que sus id son únicos entre sí; _bm25 con preparado explícito solo la usa
+    # si cada objeto recibido es exactamente el preparado ("obj" is p) y, si
+    # falta alguno, falla con ValueError sin fallback global. df/N/avg de
+    # _bm25 siguen calculándose por consulta sobre la lista recibida tras
+    # filtros (misma fórmula k1/b, términos duplicados, orden de sumas y sort).
+    tabla_pn = {}
+    for obj in cargar_paginas(cont, filas) + cargar_notas(cont, filas):
+        tokens = _tokens_pag(obj)
+        tf_pn = {}
+        for w in tokens:
+            tf_pn[w] = tf_pn.get(w, 0) + 1
+        tabla_pn[id(obj)] = {"obj": obj, "tokens": tokens, "tf": tf_pn,
+                             "dl": len(tokens),
+                             "norm_texto": norm(obj.get("texto") or ""),
+                             "tokens_titulo": tokenizar(obj.get("titulos") or "")}
+    return {"clave": _clave_cache(cont), "cont": str(cont),
+            "filas": filas, "cache_textos": cache_textos,
+            "tf": tfs, "norm_texto": textos_norm, "cab": cabs,
+            "df": df, "N": N, "avgdl": avgdl,
+            "paginas_notas": tabla_pn}
+
+
 def buscar_bm25(cont, filas, docs, consulta, terminos, opciones, encs):
     """BM25 con normalización por longitud, IDF global y stopwords ES.
 
@@ -1250,26 +1359,46 @@ def buscar_bm25(cont, filas, docs, consulta, terminos, opciones, encs):
                     if t and len(t) > 1]
     nav_heading = resolver_navegacion(cont, filas, docs, consulta_efectiva, opciones)
     presupuesto = opciones.presupuesto
-    cache_textos, filas_ok, todos_tokens = {}, [], []
-    for f in filas:
-        rel = f["archivo"]
-        if rel not in cache_textos:
-            cache_textos[rel] = texto_fichero(cont, rel)
-        texto = cache_textos[rel]
-        tokens = tokenizar(texto)
-        todas = set(tokens)
-        todos_tokens.append(todas)
-        f["_dl"] = max(1, len(tokens))
-        f["_tt"] = tokenizar(f.get("titulo") or "")
-        f["_tok"] = tags = None
-        cache_textos[rel] = texto
-        f["_tokens_set"] = todas
-    N = max(1, len(filas))
-    df = {}
-    for s in todos_tokens:
-        for t in s:
-            df[t] = df.get(t, 0) + 1
-    avgdl = sum(f["_dl"] for f in filas) / float(N)
+    # Caché opcional preparada en el arranque (preparado_bm25): se usa solo
+    # si conserva la identidad de las filas, la misma ruta de contenido y la
+    # clave de corpus con la que se preparó (mtime+tamaño del índice). Si
+    # falta, se ejecuta el bloque por petición de siempre, tal cual. Una
+    # preparación ajena o vencida se rechaza: hay que reiniciar el servidor.
+    # El IDF global sigue calculándose sobre TODAS las filas y los
+    # filtros de candidatos quedan DESPUÉS de las estadísticas: no cambia
+    # ninguna fórmula, peso, orden ni redondeo.
+    prep = getattr(opciones, "preparado_bm25", None)
+    prep_ok = (isinstance(prep, dict)
+               and prep.get("clave") == _clave_cache(cont)
+               and prep.get("cont") == str(cont)
+               and prep.get("filas") is filas
+               and prep.get("N") == max(1, len(filas)))
+    if prep is not None and not prep_ok:
+        raise ValueError("preparacion BM25 ajena o vencida; reinicie el proceso")
+    if prep_ok:
+        cache_textos = prep["cache_textos"]
+        df, N, avgdl = prep["df"], prep["N"], prep["avgdl"]
+    else:
+        cache_textos, filas_ok, todos_tokens = {}, [], []
+        for f in filas:
+            rel = f["archivo"]
+            if rel not in cache_textos:
+                cache_textos[rel] = texto_fichero(cont, rel)
+            texto = cache_textos[rel]
+            tokens = tokenizar(texto)
+            todas = set(tokens)
+            todos_tokens.append(todas)
+            f["_dl"] = max(1, len(tokens))
+            f["_tt"] = tokenizar(f.get("titulo") or "")
+            f["_tok"] = tags = None
+            cache_textos[rel] = texto
+            f["_tokens_set"] = todas
+        N = max(1, len(filas))
+        df = {}
+        for s in todos_tokens:
+            for t in s:
+                df[t] = df.get(t, 0) + 1
+        avgdl = sum(f["_dl"] for f in filas) / float(N)
     q = []
     for t in terminos:
         for x in tokenizar(t):
@@ -1283,14 +1412,23 @@ def buscar_bm25(cont, filas, docs, consulta, terminos, opciones, encs):
     idf = {t: math.log(1.0 + (N - df.get(t, 0) + 0.5) / (df.get(t, 0) + 0.5)) for t in q}
     frase = norm(consulta_efectiva) if consulta_efectiva else ""
 
-    def puntuar_fila(f):
-        texto_nt = norm(cache_textos[f["archivo"]])
-        toks = tokenizar(cache_textos[f["archivo"]])
-        if not toks:
-            return 0.0, 0
-        tf = {}
-        for t in toks:
-            tf[t] = tf.get(t, 0) + 1
+    def puntuar_fila(f, i_fila=None):
+        # Con preparado_bm25 válido: TF, norm(texto) y cab ya precalculados
+        # con esta misma fórmula en A.preparar_bm25. Sin preparación (o
+        # identidad no verificada): el cálculo por fila de siempre, tal cual.
+        if prep_ok and i_fila is not None:
+            texto_nt = prep["norm_texto"][i_fila]
+            tf = prep["tf"][i_fila]
+            if not tf:
+                return 0.0, 0
+        else:
+            texto_nt = norm(cache_textos[f["archivo"]])
+            toks = tokenizar(cache_textos[f["archivo"]])
+            if not toks:
+                return 0.0, 0
+            tf = {}
+            for t in toks:
+                tf[t] = tf.get(t, 0) + 1
         s = 0.0
         aciertos = 0
         for t in q:
@@ -1301,9 +1439,12 @@ def buscar_bm25(cont, filas, docs, consulta, terminos, opciones, encs):
                     n + k1 * (1 - b + b * f["_dl"] / avgdl))
         if f["_tt"]:
             s += 0.6 * sum(idf.get(t, 0) for t in set(q) if t in f["_tt"])
-        cab = norm("%s %s %s %s %s" % (f.get("codigo") or "", f.get("titulo") or "",
-                                       f.get("materia") or "", f.get("scope") or "",
-                                       f.get("ruta_semantica") or ""))
+        if prep_ok and i_fila is not None:
+            cab = prep["cab"][i_fila]
+        else:
+            cab = norm("%s %s %s %s %s" % (f.get("codigo") or "", f.get("titulo") or "",
+                                           f.get("materia") or "", f.get("scope") or "",
+                                           f.get("ruta_semantica") or ""))
         s += 0.8 * sum(idf.get(t, 0) for t in set(q) if t in cab)
         if frase and len(frase) > 6 and frase in texto_nt:
             s += 3.0
@@ -1317,7 +1458,7 @@ def buscar_bm25(cont, filas, docs, consulta, terminos, opciones, encs):
     # filas (arriba); aquí solo se restringen los candidatos puntuables. Sin el
     # atributo, comportamiento idéntico.
     permitidos = getattr(opciones, "documentos_permitidos", None)
-    for f in filas:
+    for i_f, f in enumerate(filas):
         if permitidos is not None and f["documento"] not in permitidos:
             continue
         if opciones.documento and norm(opciones.documento) not in (
@@ -1331,7 +1472,7 @@ def buscar_bm25(cont, filas, docs, consulta, terminos, opciones, encs):
                 continue
         if opciones.materia and norm(f.get("materia") or "") != norm(opciones.materia):
             continue
-        s, aciertos = puntuar_fila(f)
+        s, aciertos = puntuar_fila(f, i_f)
         if aciertos:
             candidatos.append((s, f))
     candidatos.sort(key=lambda x: (-x[0], x[1]["documento"], x[1]["id_tecnico"]))

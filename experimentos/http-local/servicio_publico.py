@@ -29,6 +29,7 @@ PERMITIDOS = {
     "/": set(),
     "/robots.txt": set(),
     "/buscar": {"q", "doc", "version", "version_antes_de", "prueba", "utm_source"},
+    "/contexto": {"q", "doc", "version", "version_antes_de", "prueba", "utm_source"},
     "/leer": {"doc", "page", "prueba", "utm_source"},
 }
 ERR = {400: "solicitud_invalida", 404: "no_encontrado", 405: "metodo_no_permitido",
@@ -111,7 +112,7 @@ class Handler(H.Handler):
                 self.send_error(400)
                 return False
             self._prueba = p
-        if u.path == "/buscar":
+        if u.path in ("/buscar", "/contexto"):
             q = (qs.get("q") or [""])[0]
             if len(q) > MAX_Q:
                 self.send_error(400)
@@ -156,7 +157,7 @@ class Handler(H.Handler):
         if self._ruta == "/robots.txt":
             self._text(ROBOTS)
             return
-        if self._ruta in ("/buscar", "/leer"):
+        if self._ruta in ("/buscar", "/contexto", "/leer"):
             H.Handler.do_GET(self)
             return
         self.send_error(404)
@@ -216,7 +217,7 @@ class Handler(H.Handler):
     def _json(self, obj, code=200):
         if code >= 500:
             obj = {"error": "error_interno"}
-        elif code == 200 and isinstance(obj, dict) and getattr(self, "_ruta", "") == "/buscar":
+        elif code == 200 and isinstance(obj, dict) and getattr(self, "_ruta", "") in ("/buscar", "/contexto"):
             self._propagar(obj)
         elif code == 200 and isinstance(obj, dict) and getattr(self, "_ruta", "") == "/leer":
             self._enlazar(obj)
@@ -341,8 +342,10 @@ class Servidor(ThreadingHTTPServer):
 
 
 def validar(filas, docs):
-    if len(docs) != 31:
-        raise SystemExit("corpus público inesperado: se esperaban 31 documentos")
+    if not docs:
+        raise SystemExit("corpus público inesperado: el corpus no contiene documentos")
+    if not filas:
+        raise SystemExit("corpus público inesperado: el índice no contiene filas")
     base = H.CONT.resolve()
     for did, (doc, _) in docs.items():
         if doc.get("id") != did or doc.get("distribute") is not True:
@@ -385,14 +388,14 @@ def main():
     args = ap.parse_args()
     cont = H.CONT
     H.A.cont_global = cont
-    H.ESTADO.update(P=H.P, A=H.A, cont=cont)
-    filas, docs = H.docs_publicos(cont)
-    encs, _ = H.A.crear_contadores()
-    H.ESTADO.update(filas=filas, docs=docs, encs=encs)
+    H.inicializar_estado(cont)
+    filas = H.ESTADO.get("filas") or []
+    docs = H.ESTADO.get("docs") or {}
+    encs = H.ESTADO.get("encs") or {}
     validar(filas, docs)
     sem = threading.BoundedSemaphore(MAX_CONCURRENT)
     srv = Servidor((args.host, args.port), Handler, sem)
-    print("http://%s:%d/ filas=%d docs=%d" % (args.host, args.port, len(filas), len(docs)), flush=True)
+    print("http://%s:%d/ filas=%d docs=%d" % (args.host, srv.server_port, len(filas), len(docs)), flush=True)
     srv.serve_forever()
     return 0
 

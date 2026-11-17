@@ -16,7 +16,7 @@ Las páginas y apartados de `contenido/` permiten localizar el texto; el PDF ori
 
 103 PDF nuevos: 102 disposiciones autonómicas alojadas en el BOE (17 CCAA) y la ordenanza OMLU de Málaga (publicación original 2025-12-29). Extracción por página física. Sin vigencia ni revisión humana completas: fidelidad, transitorios y aplicabilidad pendientes. Evidencia por SHA en `licencias/territorial-2026-11-16.json`.
 
-El adaptador local permite buscar sin indicar documento ni edición y pedir ubicación cuando la consulta territorial la necesita. La [guía de uso](docs/uso-local.md#consultas-autonómicas-y-municipales) explica el contrato de aclaración y el [handoff](changelog/2026-11-16-pedenry-evaluacion-cierre-territorial.changelog.md) reúne comprobaciones y pendientes. Este flujo está disponible en `preparar` y la CLI; el buscador HTTP básico no lo consume.
+El adaptador local permite buscar sin indicar documento ni edición y pedir ubicación cuando la consulta territorial la necesita. La [guía de uso](docs/uso-local.md#consultas-autonómicas-y-municipales) explica el contrato de aclaración y el [handoff](changelog/2026-11-16-pedenry-evaluacion-cierre-territorial.changelog.md) reúne las comprobaciones de la tanda inicial. El flujo está disponible en `preparar`, la CLI y el [servidor HTTP experimental](experimentos/http-local/README.md#contexto-y-aclaración-por-http), mediante `/contexto` y las consultas automáticas de `/buscar`. GitHub Pages sirve el visor estático; no ejecuta el servidor HTTP.
 
 ## Cómo utilizarlo
 

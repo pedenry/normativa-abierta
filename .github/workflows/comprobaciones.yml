@@ -55,6 +55,23 @@ jobs:
       - name: Aclaración y recuperación sin ubicación (20 consultas)
         run: python -B evaluacion/regresion_recuperacion/territorial/ejecutar_sin_ubicacion.py --salida .local/ci/sin-ubicacion.json
 
+  http:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Contexto y aclaración HTTP (91 consultas)
+        run: python -B evaluacion/regresion_recuperacion/territorial/ejecutar_http.py --servidor publico --salida .local/ci/http-contexto.json
+      - name: Compatibilidad HTTP explícita (48 consultas)
+        run: python -B evaluacion/regresion_recuperacion/territorial/ejecutar_http.py --servidor local --compat --salida .local/ci/http-compat.json
+      - name: Búsqueda HTTP sin documento (43 consultas)
+        run: python -B evaluacion/regresion_recuperacion/territorial/ejecutar_http.py --servidor publico --buscar-auto --salida .local/ci/http-auto.json
+
   secretos:
     runs-on: ubuntu-latest
     timeout-minutes: 10

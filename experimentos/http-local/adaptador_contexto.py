@@ -153,6 +153,19 @@ _CABEZAS_MUNICIPALES = ("ayuntamiento", "ajuntament", "municipio", "ciudad",
                         "ordenanza", "ordenanzas", "municipal", "municipales")
 _LEXICO_MUNICIPAL = re.compile(
     r"\b(?:ayuntamiento|ajuntament|ordenanzas?|municipales?|municipios?)\b")
+# Intención inequívoca de documento local: «ordenanza municipal» (singular o
+# plural), sobre texto normalizado (A.norm), como _LEXICO_MUNICIPAL. A
+# diferencia de _LEXICO_MUNICIPAL (deliberadamente amplio), NO cubre
+# «competencia municipal», «ayuntamiento» ni «municipio»: preguntar por una
+# competencia municipal sobre normativa autonómica no pide documento local.
+_ORDENANZA_LOCAL = re.compile(r"\bordenanzas?\s+municipal(?:es)?\b")
+# Nombre propio tras esa intención («ordenanza municipal de/del Nombre»):
+# parte nominal conservadora idéntica a _PATRON_EN_NOMBRE (nombres >= 4 letras,
+# sensible a mayúsculas), para capturar el municipio pedido sin inventarlo.
+_PATRON_ORDENANZA_NOMBRE = re.compile(
+    r"\b(?i:ordenanzas?)\s+(?i:municipal(?:es)?)\s+(?:de\s+|del\s+)"
+    r"([A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]{3,}(?:\s+(?:de\s+|del\s+|la\s+|el\s+)*"
+    r"[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]{3,})*)")
 
 
 def _palabras_ambito(t):
@@ -457,7 +470,8 @@ def _necesidad_ubicacion(consulta):
 class AdaptadorContexto:
     """Carga índice/docs/contadores una vez y prepara contexto JSON-serializable."""
 
-    def __init__(self, contenido: Path | str | None = None):
+    def __init__(self, contenido: Path | str | None = None,
+                 *, preparar_busqueda: bool = False):
         cont = Path(contenido).resolve() if contenido else CONTENIDO_DEFECTO
         self.contenido = cont
         A.cont_global = cont  # requerido por ficha_doc() dentro de construir_lectura
@@ -472,6 +486,15 @@ class AdaptadorContexto:
         self.encs, self.modo_contadores = A.crear_contadores()
         # Alias territoriales SOLO desde metadatos de los doc.json cargados.
         self._alias_ambito = _construir_alias_ambito(self.docs)
+        # Precálculo BM25 opcional, una sola vez aquí (arranque, antes de
+        # atender peticiones): mismas fórmulas y estadísticas globales del
+        # bloque de buscar_bm25 (ver A.preparar_bm25). Con preparar_busqueda
+        # False (defecto: API y CLI previas intactas) queda None y el motor
+        # recalcula por petición como siempre. La caché queda acotada a este
+        # corpus/instancia; no se muta durante peticiones y se renueva
+        # preparándola de nuevo si cambia el corpus.
+        self.preparado_bm25 = (A.preparar_bm25(self.contenido, self.filas)
+                               if preparar_busqueda else None)
 
     # ------------------------------------------------------------------ salida
 
@@ -597,6 +620,23 @@ class AdaptadorContexto:
                     "via": "doc.json:" + "+".join(niv), "padre_derivado": padre})
             if mun_canon is None and _intencion_municipal_adyacente(palabras, i):
                 municipios_sin.append(_fragmento_literal(consulta, palabras, i, j))
+        # Nombre propio tras «ordenanza municipal de/del» (captura conservadora,
+        # misma parte nominal que _PATRON_EN_NOMBRE). Si el tramo quedó cubierto
+        # por la resolución de metadatos es un municipio corporado y se ignora;
+        # sin correspondencia es un municipio sin fuentes, sin inventar su
+        # comunidad. Antes del patrón en/para: la intención municipal explícita
+        # del sintagma tiene precedencia sobre la clasificación libre.
+        for m in _PATRON_ORDENANZA_NOMBRE.finditer(str(consulta)):
+            pal_nombre = _palabras_ambito(m.group(1))
+            if not pal_nombre:
+                continue
+            pos = _posicion_tupla(palabras, tuple(pal_nombre))
+            if pos is not None and any(a <= pos and pos + len(pal_nombre) <= b
+                                       for a, b, _c in elegidos):
+                continue
+            if any(_palabras_ambito(x) == pal_nombre for x in municipios_sin):
+                continue
+            municipios_sin.append(m.group(1))
         nombres_no = []
         for m in _PATRON_EN_NOMBRE.finditer(str(consulta)):
             pal_nombre = _palabras_ambito(m.group(1))
@@ -613,6 +653,21 @@ class AdaptadorContexto:
                 municipios_sin.append(m.group(1))
             else:
                 nombres_no.append(m.group(1))
+        # «Ordenanza municipal» es intención inequívoca de documento local: si
+        # ningún municipio se ha resuelto con metadatos, la jurisdicción
+        # reconocida en la consulta no suple la fuente municipal pedida. Se
+        # declara el fragmento mencionado y se abstiene, sin sustituir por otra
+        # ciudad, por fuentes autonómicas de nombre similar ni por otra
+        # jurisdicción. Solo con municipio no resuelto: con municipio corporado
+        # («ordenanza municipal de Málaga» corporada) el cauce normal sigue.
+        if not municipios and territorios and \
+                _ORDENANZA_LOCAL.search(A.norm(consulta)):
+            for _i, _j, _clave in sorted(elegidos, key=lambda h: h[0]):
+                frag = _fragmento_literal(consulta, palabras, _i, _j)
+                if any(_palabras_ambito(x) == _palabras_ambito(frag)
+                       for x in municipios_sin):
+                    continue
+                municipios_sin.append(frag)
         if municipios_sin:
             notas = ["intención municipal explícita para %s sin fuentes municipales "
                      "incorporadas: no se sustituye por otra ciudad, por fuentes "
@@ -799,7 +854,7 @@ class AdaptadorContexto:
 
     def preparar(self, consulta: str, documento: str | None = None,
                  version: str | None = None, presupuesto_tokens: int = 12000,
-                 max_resultados: int = 5) -> dict:
+                 max_resultados: int = 5, *, propagar_errores: bool = False) -> dict:
         t0 = time.perf_counter()
         if not isinstance(consulta, str) or not consulta.strip():
             raise ValueError("consulta vacía: indique texto natural de búsqueda")
@@ -951,7 +1006,8 @@ class AdaptadorContexto:
         terminos = [t for t in re.split(r"[\s,;]+", consulta_busq) if len(t) > 1]
         op = SimpleNamespace(max=max_resultados, presupuesto=presupuesto_tokens,
                              expandir=1, documento=doc_id, capa=None, materia=None,
-                             documentos_permitidos=perm)
+                             documentos_permitidos=perm,
+                             preparado_bm25=getattr(self, "preparado_bm25", None))
         advertencias: list = []
         omitidos: list = []
         if marco_nac:
@@ -973,6 +1029,8 @@ class AdaptadorContexto:
             busq = A.buscar_bm25(self.contenido, self.filas, self.docs, consulta_busq,
                                  terminos, op, self.encs)
         except (SystemExit, Exception) as e:
+            if propagar_errores:
+                raise
             busq = {"resultados": [], "omitidos": [], "advertencias": [],
                     "terminos": terminos, "ambito_capa": "oficial+asociada"}
             advertencias.append("fallo del buscador (%s): %s" % (type(e).__name__, e))
@@ -1135,6 +1193,8 @@ class AdaptadorContexto:
                 lec = A.construir_lectura(self.contenido, self.filas, self.docs,
                                           opt, self.encs)
             except (SystemExit, Exception) as e:
+                if propagar_errores:
+                    raise
                 aviso_tarde.append("lectura_no_disponible %s/%s: %s" % (
                     d, r.get("apartado_id") or r.get("pagina"), e))
             plan: dict = {}
@@ -1199,6 +1259,8 @@ class AdaptadorContexto:
                     etiqueta = pg.get("etiqueta_impresa")
                     archivo_pg = pg.get("archivo")
                 except (SystemExit, Exception) as e:
+                    if propagar_errores:
+                        raise
                     aviso_tarde.append("página_no_abierta %s p.%d: %s" % (d, p, e))
                 if not texto_pg and info.get("texto"):
                     texto_pg = info["texto"]

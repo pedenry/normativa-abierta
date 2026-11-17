@@ -1,0 +1,4594 @@
+{
+  "esquema": "regresion-http/1",
+  "fecha": "2026-11-17",
+  "referencia": {
+    "archivo": "evaluacion/regresion_recuperacion/territorial/referencia-http-2026-11-16.json",
+    "sha256": "e2a44a51bc7a2971df5e6f7ec4d76891d127d58e5c0089ed6a39072dd3dd00f5",
+    "commit_origen": "b2b2d423af55a47c52ff5876b463f8e49ea72c8e",
+    "naturaleza": "Captura anterior de la API, no gold independiente de correccion normativa. Comparacion de JSON completo normalizado y SHA del contexto literal; /buscar explicito compara bytes del cuerpo."
+  },
+  "codigo_sha256": {
+    "acceso.py": "bd4808d44056c2a836710f280495b2caac502125355e9b6e20aa37264b97f78c",
+    "adaptador_contexto.py": "3eb6687bd1c4212a22bd24cb56a005f0f71348e6e6b93fd549803b3306cd29d7",
+    "http_consulta.py": "07a1d311f1a3286bc283017883dfc8e74b76bf07ddcd5508e2d074779647ca5c",
+    "servicio_publico.py": "c9ca893b7e705a2e6725f4881fb800df151504d77144e4a6000001fdb707ad90"
+  },
+  "corpus": {
+    "documentos": 149,
+    "paginas_fisicas": 9681,
+    "segmentos": 11132,
+    "protegidos_sha256": {
+      "evaluacion/regresion_recuperacion/casos-sua-residencial.json": "b7dae671cbaa8e5770f4e22f6f6cd3a5bfbc501a0d3acdad3cc119deee871a3c",
+      "evaluacion/regresion_recuperacion/casos.json": "797eb41356e4d607071161535bfeebf143c3c5fb7a658074f3f81072a633f2be",
+      "evaluacion/regresion_recuperacion/territorial/casos-contraste.json": "2de9122a762755f6a9148ff81a084d522bd27e7f45a06a8854289fbcf13ad0a7",
+      "evaluacion/regresion_recuperacion/territorial/casos-libres-controles.json": "792b65589e27f89ab0466d910069d826687fcce990d88906481a2db6f9614393",
+      "evaluacion/regresion_recuperacion/territorial/casos-libres.json": "23a1f98d891c6d157e1f5f03e6b9eb462cf5fc16fb7cbe7733bc84aca7b695dc",
+      "evaluacion/regresion_recuperacion/territorial/casos-sin-ubicacion.json": "c397efd85d7f29f59eb9a6f352a876f90312f639ef03ba38c39d5e41a144d95a",
+      "evaluacion/regresion_recuperacion/territorial/casos-territorial-1.json": "6441abcd3d9a982fd174d80c8d55b5825922b6c153af22ee1a64d3505b02c41a",
+      "evaluacion/regresion_recuperacion/territorial/casos-territorial-2.json": "fbcb5a5f373dadf3a3854d364ad3f03a09cf13914ae8075c5d804ff4e7769564",
+      "evaluacion/regresion_recuperacion/territorial/casos-territorial-3.json": "203325a2020a369a05c2993eed315c122d43d1c4810012ef5b99109c848850ba",
+      "evaluacion/regresion_recuperacion/territorial/alternativas-libres-2026-11-16.json": "815aae441d57381e0eb2ab0b24f05f03c9d1ca0cfc7a9f92e9e2e645fc077a00",
+      "contenido/manifest_publico.json": "6d5692a92d6541257b1cef5a770bbe0a2b8679f79ee11f381233d8811c1b765f",
+      "contenido/indice/apartados.jsonl": "17dd525351bfc1e436decdb459aeed0bfdfa656ab74800b633ba57a6db4c9b48",
+      "evaluacion/regresion_recuperacion/territorial/referencia-http-2026-11-16.json": "e2a44a51bc7a2971df5e6f7ec4d76891d127d58e5c0089ed6a39072dd3dd00f5"
+    }
+  },
+  "ejecuciones": [
+    {
+      "servidor": "publico",
+      "modo": "contexto",
+      "resumen": {
+        "casos": 91,
+        "coinciden": 91,
+        "diferencias": 0,
+        "errores": 0,
+        "esperado_casos": 91,
+        "exit": 0
+      },
+      "codigo_estable": true,
+      "informe_local_sha256": "4521a11884b3e7560bfa320383b18bf9cd90f1c74945e0e49dcc924de2e05854",
+      "runner_sha256": "2f306aba74f52b61b96f548300a41902526e82528c846a551098c879370b4eec",
+      "estados_respuesta": {
+        "ok": 77,
+        "aclaracion_necesaria": 14
+      },
+      "casos": [
+        {
+          "fixture": "casos.json",
+          "id": "REBT-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "06ee3ec47ddc1b62a846935bb72d0387352278dbe4d4de81331faed4aa4c83f9",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ce766dcb27b8634f68898b692053f6fd3dda9b7e48a0abdac2498d917192e010",
+            "texto_contexto_sha256_esperado": "ce766dcb27b8634f68898b692053f6fd3dda9b7e48a0abdac2498d917192e010"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "0a865c75c4b7ef3d9e4893481e85c310aa8d24737298284b55b1daff40cb4022",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "88f84c729b878be9cbb5ad702c27e7549f02e7285d8b213a386448b7a8899c45",
+            "texto_contexto_sha256_esperado": "88f84c729b878be9cbb5ad702c27e7549f02e7285d8b213a386448b7a8899c45"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "cfe3b4a2e287e2aaa8876699e8a8224e7c4757afbfccf794852f40f87173eba0",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d752373bccc5a04ceab83e26007e63504b3b482251ebe5bbb0d5b5b7b6accfa4",
+            "texto_contexto_sha256_esperado": "d752373bccc5a04ceab83e26007e63504b3b482251ebe5bbb0d5b5b7b6accfa4"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "facdf76565ab52429f59c9f6d398e4f5364acdd63b147e9422e9ad435af2b9db",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "b63735d35a36d6acf7015cd52c12073985d2a8a12ca5bf7f8eec27edae64e577",
+            "texto_contexto_sha256_esperado": "b63735d35a36d6acf7015cd52c12073985d2a8a12ca5bf7f8eec27edae64e577"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1d883e1800751916d2d9f62307cc4926baf2f44e16d08a9276d122227e89c368",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "43bc901f7d116e9e68e9f336a860607fa79e58b86fe5993adceee337fcd2f82c",
+            "texto_contexto_sha256_esperado": "43bc901f7d116e9e68e9f336a860607fa79e58b86fe5993adceee337fcd2f82c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f2bd20a6af92dd3470903fd94dea49dd2ac0746bcf5c9f73a079a0eb8872664b",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "e823066c5a07ce3f3322a879af71d9b88ef018fcb4a5ab809683f96231ac77c6",
+            "texto_contexto_sha256_esperado": "e823066c5a07ce3f3322a879af71d9b88ef018fcb4a5ab809683f96231ac77c6"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b4a3fda9f4c1fee2e63d400978d2c8ace989b82d414333de99eb1a841d25246e",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "c9d8904a9a77709ce82bb3cb8087f9ba850074f5129f60229eee1aa492773235",
+            "texto_contexto_sha256_esperado": "c9d8904a9a77709ce82bb3cb8087f9ba850074f5129f60229eee1aa492773235"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "dace5c2c42b1203b0a9364e5e9538a5cd38c7296a2fa0ea36c7f78e8abcb1acc",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "c35339449455a84b69219fb9054b12775d00a1320b4788d939b482dbba1e1ed4",
+            "texto_contexto_sha256_esperado": "c35339449455a84b69219fb9054b12775d00a1320b4788d939b482dbba1e1ed4"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "0ca20347a50242282f26741ec0b9ab041a46fd11359790329eb1b9e64b006735",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "78cf1bffa962e9b1b36c5fffcbf24dacc9289048e221c6edbd68d4c167164d8d",
+            "texto_contexto_sha256_esperado": "78cf1bffa962e9b1b36c5fffcbf24dacc9289048e221c6edbd68d4c167164d8d"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f11dd2449898d02b787c3c9818a92a6660bde7671ddc5519b297464b72f56c36",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "1c50d02821481ce47f46125400690b2d692dd3b63f3d415763775cf064975573",
+            "texto_contexto_sha256_esperado": "1c50d02821481ce47f46125400690b2d692dd3b63f3d415763775cf064975573"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "9ad529ef6f3a05d16d43e71c48d5222aded6ff13e30f11431c159b54acae8ec8",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "2f3e6fb176c112168ce8b993e5a1fd641a5d399d332d4e0b6562c133eac98fb6",
+            "texto_contexto_sha256_esperado": "2f3e6fb176c112168ce8b993e5a1fd641a5d399d332d4e0b6562c133eac98fb6"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "d14c3af3aa04ad66efa1f56c899c371413815d0dd1f4be8b935faec30ab89ee6",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ff28370379a2fe19cb28eb686c4572d8b65e9f7fcca157e28fe944bde01bae5a",
+            "texto_contexto_sha256_esperado": "ff28370379a2fe19cb28eb686c4572d8b65e9f7fcca157e28fe944bde01bae5a"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "910d2dc5a3dce4964c6d5221baf427d726b08b2dbd14a4a02c24888baaa50448",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "2e7a31c3fbf2681212514cf5d4ce4034ae1931e2bf5e5def2bbb2ce749bafb21",
+            "texto_contexto_sha256_esperado": "2e7a31c3fbf2681212514cf5d4ce4034ae1931e2bf5e5def2bbb2ce749bafb21"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bb4d3172cffc868e43d093ce7e4c3956fecb80a25664f49cfcf9d1c09a5719a2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "073437f9bb849afb2fcb53619b8e3636e8b3e8ea53163edb4fce0098a68837e0",
+            "texto_contexto_sha256_esperado": "073437f9bb849afb2fcb53619b8e3636e8b3e8ea53163edb4fce0098a68837e0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bf77ef30fdd6b5ea20afed8d432d97a7cb0e1b026bef9b1efb7f98202b5559c0",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "fb2a40ea75c9cea16a3f64ef7c59d8bea4350e595cb1227a1def77ef966419e0",
+            "texto_contexto_sha256_esperado": "fb2a40ea75c9cea16a3f64ef7c59d8bea4350e595cb1227a1def77ef966419e0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "dec96bfeb8ca7edd3a62fe410dd8bc7e89dbc4981c4932bf55da6b39f59b1bd0",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "70e128ad3bf348fed42dd7543661db6dc5fb981da995c917b529f884bbb07313",
+            "texto_contexto_sha256_esperado": "70e128ad3bf348fed42dd7543661db6dc5fb981da995c917b529f884bbb07313"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "a5513cd093ec10ea6a67293d58477f8d83f8de532169ef3b256c1336681c235f",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d88c1f2460c9df5e2d1643dd6938c7c0c1664a2193c990ecc11735a2cb639374",
+            "texto_contexto_sha256_esperado": "d88c1f2460c9df5e2d1643dd6938c7c0c1664a2193c990ecc11735a2cb639374"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "673e9a0761bc98f8418cbc5fc04183ff6eb4aec0adc71f85bd26087eec447a9f",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9dbacf3c397a91a02d386344c5d99650ae575554492bb85f12643c62bbc9b8b7",
+            "texto_contexto_sha256_esperado": "9dbacf3c397a91a02d386344c5d99650ae575554492bb85f12643c62bbc9b8b7"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "4b1ccf2ac9945ac35fda3c4c35343c37c386d2bf3169a0ccc7d67634d1339492",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "47c839fdf77d3dad148c3192707cfec198358347b3b9bda889cfed5544404ffc",
+            "texto_contexto_sha256_esperado": "47c839fdf77d3dad148c3192707cfec198358347b3b9bda889cfed5544404ffc"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bb4d3172cffc868e43d093ce7e4c3956fecb80a25664f49cfcf9d1c09a5719a2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "073437f9bb849afb2fcb53619b8e3636e8b3e8ea53163edb4fce0098a68837e0",
+            "texto_contexto_sha256_esperado": "073437f9bb849afb2fcb53619b8e3636e8b3e8ea53163edb4fce0098a68837e0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "910d2dc5a3dce4964c6d5221baf427d726b08b2dbd14a4a02c24888baaa50448",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "2e7a31c3fbf2681212514cf5d4ce4034ae1931e2bf5e5def2bbb2ce749bafb21",
+            "texto_contexto_sha256_esperado": "2e7a31c3fbf2681212514cf5d4ce4034ae1931e2bf5e5def2bbb2ce749bafb21"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c9f35a2456f849d507b081251a0146e0cf17110e6319230e9ef717c748523d89",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d10bca1b485e6c0d53445cba8c1e86029d74d6fefb5e070d32583ae6cb845210",
+            "texto_contexto_sha256_esperado": "d10bca1b485e6c0d53445cba8c1e86029d74d6fefb5e070d32583ae6cb845210"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "4e9c665a24040ef502a8fa138761220b99db576f102f190f33d2ff43ee75be49",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "6e6846a793e8c203e6ad2cc08c787cf996c93430df86b9ef97ee5e0795e96cb0",
+            "texto_contexto_sha256_esperado": "6e6846a793e8c203e6ad2cc08c787cf996c93430df86b9ef97ee5e0795e96cb0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "fcdad7d8188095ac7991deb1aab79f20e891e6142be6d4b91178d70c58d17f14",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "0ed383fe2f6e168d9afee7cb216c5a6a8e2984029119b5811174128b6691d897",
+            "texto_contexto_sha256_esperado": "0ed383fe2f6e168d9afee7cb216c5a6a8e2984029119b5811174128b6691d897"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1ccc1ce048d025d05d355ca8f7de35b98a24f34d0b76a559fc03aa175073ea1e",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "65efc7a17615c46d701f5a1a0d399718f7d9f7857f0bb93ae6b09c9afd0b40a0",
+            "texto_contexto_sha256_esperado": "65efc7a17615c46d701f5a1a0d399718f7d9f7857f0bb93ae6b09c9afd0b40a0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "e9b88aae39f3d59271990556229dc98957e8f86ed634fdfd273bc3e32285a3dd",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "e06ff3dcd1edcca4108114019a442ba07ef0a2d67c61e6ef04ef551e40913adf",
+            "texto_contexto_sha256_esperado": "e06ff3dcd1edcca4108114019a442ba07ef0a2d67c61e6ef04ef551e40913adf"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "55a8ccbffc2ad5bc3151b68b16c401f51c90d6b5373dbaaa25b490fcacfc87ef",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "33e7fe9eb1f11c02e73071a3a245f6dee24d9a0c178d9f06917b98751c9dea64",
+            "texto_contexto_sha256_esperado": "33e7fe9eb1f11c02e73071a3a245f6dee24d9a0c178d9f06917b98751c9dea64"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "abe64d93412cdfe473e9292eff890d4828ba8e277426740cfe4e467797dec760",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9cdd6d8f7505b09d8ac916b1e6840bae4a4cb1c60422aa9e45c0c8a839c23666",
+            "texto_contexto_sha256_esperado": "9cdd6d8f7505b09d8ac916b1e6840bae4a4cb1c60422aa9e45c0c8a839c23666"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "fd0fff75a634a1655af814b4d975444578fbc1b9e153ed293e04c66b09da46b9",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "5e7a034adf2f1ab11802909c8391f95277761bc5f0cd4bc3889d99c5eea4be1f",
+            "texto_contexto_sha256_esperado": "5e7a034adf2f1ab11802909c8391f95277761bc5f0cd4bc3889d99c5eea4be1f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "29ca9dbf752fb0f0819f3d21efcec01e1004c449ab201c3a9e4cbe56da29cf46",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "68e6ab91dac76f5f1177304030776fb5184249957f8e20200c001edfbc14b5c5",
+            "texto_contexto_sha256_esperado": "68e6ab91dac76f5f1177304030776fb5184249957f8e20200c001edfbc14b5c5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-10",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "36cee82a30a6f7b6244c7d691862f3191dcab840b3dce7258b11d874e2f4d263",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "c3e6327c7677a1ebf41f7e4b081ba5b71d45f53d74f1b0cfc6bfc80552eeac45",
+            "texto_contexto_sha256_esperado": "c3e6327c7677a1ebf41f7e4b081ba5b71d45f53d74f1b0cfc6bfc80552eeac45"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-11",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "e19973f7923cb8a19402b4d405b3624a7e49fbcb9cc63bc4ea23fb6fbe5c9957",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "da885c2be0d2392d7b47e5062bd7bb8c4285cbeed9503543f80913e63b1fb242",
+            "texto_contexto_sha256_esperado": "da885c2be0d2392d7b47e5062bd7bb8c4285cbeed9503543f80913e63b1fb242"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-12",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "65251fff61c486ee8b77d1805eb77cded223dfcd397db65c286d8bb073ff39e2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "199f9b77c640a4b298d0ac4f4d4596c3e3cce764e26b433b446e2d4b37832c29",
+            "texto_contexto_sha256_esperado": "199f9b77c640a4b298d0ac4f4d4596c3e3cce764e26b433b446e2d4b37832c29"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-13",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "56201a40fa7c7c49f566512447833a2e5e1c4dc94839218e20f94c5e81ae9c4e",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d1a397c603ad61166e439895a148ecca4e069496f44e96d7b4586d23901c50c0",
+            "texto_contexto_sha256_esperado": "d1a397c603ad61166e439895a148ecca4e069496f44e96d7b4586d23901c50c0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-14",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f4199963dd8371b56cd0a02bf1c0825f840d90b86b2a82ab3a7b3f85a7c18831",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "4f40d113899f79b28dae1fb7498c54737612b784a0189fcfba72d6969c27792f",
+            "texto_contexto_sha256_esperado": "4f40d113899f79b28dae1fb7498c54737612b784a0189fcfba72d6969c27792f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-15",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "4fa1831d71489f52152561e09ab41062d40c6f29ceb3543ecc14c855f2a3a630",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "1ac372be0b5779918fced0d3f84d1cc2261e749adaf2deb4e0b6a2ffdf442021",
+            "texto_contexto_sha256_esperado": "1ac372be0b5779918fced0d3f84d1cc2261e749adaf2deb4e0b6a2ffdf442021"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-16",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "fac67cb2fb190d4af305419a3f1f3a5e7f569a1df13e112c6d05d7b9448243e5",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "4b23a6d453d71f8cfc7842ab71a0300634a5254c25186ec74c05bb7f25c4a67d",
+            "texto_contexto_sha256_esperado": "4b23a6d453d71f8cfc7842ab71a0300634a5254c25186ec74c05bb7f25c4a67d"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-17",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1fe387ba4d7804dc6d820140631b037b1dd27d5262ec1ec50d56980f8890a2c6",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "de175b313af0875f0274f2501c900501e75b2b33ea57376fcc99388f01983a93",
+            "texto_contexto_sha256_esperado": "de175b313af0875f0274f2501c900501e75b2b33ea57376fcc99388f01983a93"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-18",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "8754bf303392d4ca929f7cafcd509e4ef9f0c8d7423a42f6a0b40d299829ed19",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "a7fc5db0b3c0407cbbb2903c8e7543f621eb057db29e241895413690c77072a1",
+            "texto_contexto_sha256_esperado": "a7fc5db0b3c0407cbbb2903c8e7543f621eb057db29e241895413690c77072a1"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-19",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1538e51278d3786c1ce0f12c62aecf2f04000973ffc0cc0ca5b79ff373b27a99",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "de2b8c29d758fcf9443dead555318834a02e43a79db44039c1b14775363475b0",
+            "texto_contexto_sha256_esperado": "de2b8c29d758fcf9443dead555318834a02e43a79db44039c1b14775363475b0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-20",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1b2a91da6cb510b0fd07f61a19e34faf912cc0ac15bfedc5560881d142e7f6a3",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "02c8577c89fd1746d8c0d2cb8e9bc0c862cab5a7ac4c662d2391ce6678bc0e61",
+            "texto_contexto_sha256_esperado": "02c8577c89fd1746d8c0d2cb8e9bc0c862cab5a7ac4c662d2391ce6678bc0e61"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-21",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bd90b51381be60dd0596251c34d3eb690f11426913c8475e21665ffc4b28a612",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "7a2e7ea1511ddd0b34e98bdddf2232a43251db08935c8b3786769cebb7403bae",
+            "texto_contexto_sha256_esperado": "7a2e7ea1511ddd0b34e98bdddf2232a43251db08935c8b3786769cebb7403bae"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "e6ffe55da8b3e191f23529de48e59382e117b7bb5b429c050d86f5dd57b763e1",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "2b00d47101d66529f10c3c18ba4135f66ef91e79ee7ee5a5614a75512059395e",
+            "texto_contexto_sha256_esperado": "2b00d47101d66529f10c3c18ba4135f66ef91e79ee7ee5a5614a75512059395e"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "57901ba8f89dc82826b0a021f4d4a49ba889e57028b9f4bdcfa7fc27773232cd",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "11f20482e6e1f147985e1213e8ade242ec5f11f436761f7c363eaca957494e23",
+            "texto_contexto_sha256_esperado": "11f20482e6e1f147985e1213e8ade242ec5f11f436761f7c363eaca957494e23"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "48ac3ed81c37aabd78ee8b682a6ef42d8d8f572b21134b2c0eb377d811827faa",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "bbeb5c1779f5ce34b0473e60f7b3e4215815d2f9266d87fac2e8415ecf17c2f2",
+            "texto_contexto_sha256_esperado": "bbeb5c1779f5ce34b0473e60f7b3e4215815d2f9266d87fac2e8415ecf17c2f2"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "add54ceee38c69d705cdb11e1ab0215502fd4a4b9b3dae80f761af56f925285b",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "abfab1e4176ec4b928cdaeb419922003b40697bac6f6f705bb192fd8b27eac0c",
+            "texto_contexto_sha256_esperado": "abfab1e4176ec4b928cdaeb419922003b40697bac6f6f705bb192fd8b27eac0c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "34496e912433ccf108f65a9de2342bf3f507a1f05eab232454a6db0f4a4b3fc4",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ac2ee50a580c4940b8c5507330fa761f29a832200519ce50ce1b4c355413755b",
+            "texto_contexto_sha256_esperado": "ac2ee50a580c4940b8c5507330fa761f29a832200519ce50ce1b4c355413755b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "5362378580ded85874102fb45588b75668a65c0845e9d2db65001655d32c4fc7",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "15eb835c9377b94baa1300d93414889305d7e533c8441a2ceada77878e3a4ede",
+            "texto_contexto_sha256_esperado": "15eb835c9377b94baa1300d93414889305d7e533c8441a2ceada77878e3a4ede"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "fe8505a2d284b724fdbd74f99ea0e865c27d4e44453eb801f536a381d3b363f8",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "36ea949cc221ffb52ea6ffdf6d58c0f5653dcc11035b155ac3da61862d75a37f",
+            "texto_contexto_sha256_esperado": "36ea949cc221ffb52ea6ffdf6d58c0f5653dcc11035b155ac3da61862d75a37f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b04889141e651a566dbcbe4ddccf3f8e357251560c7e2564ae9937ab266516d0",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "99a589de69ceb77523e35f210137974cf696b79cc28f095ebee33598d7402a54",
+            "texto_contexto_sha256_esperado": "99a589de69ceb77523e35f210137974cf696b79cc28f095ebee33598d7402a54"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "ff071530a7eadc2dfb8db8c7e2eb7cf173ff91f88b17b0e0ee4e14f868263c90",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "098c79faac85262ccf4fdfd1bdd72bca5212025eb90ac3b4de771dbac82f9732",
+            "texto_contexto_sha256_esperado": "098c79faac85262ccf4fdfd1bdd72bca5212025eb90ac3b4de771dbac82f9732"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1edaa58e91dd71790d998226e44fa726058f339ab388b0d294af99366eab3155",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "3251fca696aaa4089c341e5843db43342984a5cbb93c716c00c1c1e4dbb973dd",
+            "texto_contexto_sha256_esperado": "3251fca696aaa4089c341e5843db43342984a5cbb93c716c00c1c1e4dbb973dd"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "341bd4bd609d39be8cedc40b07707a940b8b1e8615112ed653f610287d31bb88",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "1c3d6a3d2b82f951441ecde9edcafa1c34aec434fcdfb413342e36026dd169b6",
+            "texto_contexto_sha256_esperado": "1c3d6a3d2b82f951441ecde9edcafa1c34aec434fcdfb413342e36026dd169b6"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "25788c5aa9a5ec5ac85e3ed4d14bf3842a7b4f271218212b2b9e5b30c736b8bd",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "afce3ff050edf353273e94de847dd0f79fa3ed7e56ad4d949e857eab41b1594b",
+            "texto_contexto_sha256_esperado": "afce3ff050edf353273e94de847dd0f79fa3ed7e56ad4d949e857eab41b1594b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "418cc3f99823ab9ed2bbc17508159817f9be39fd3dfe4ee078c708d6a45e69d2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9e072c1fac394517ec407e59c4084d5bc7a6c467f675c3ab38d9783f813f9d61",
+            "texto_contexto_sha256_esperado": "9e072c1fac394517ec407e59c4084d5bc7a6c467f675c3ab38d9783f813f9d61"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b0bd284a8a293afc2e5ea6d81a711f548a0c52f72d27c8ee3c192908196e36a1",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "5fd6fbdbc89b04a0a2cc69ef776a059ed2f9d7fcecb441f938fca5bd03028d67",
+            "texto_contexto_sha256_esperado": "5fd6fbdbc89b04a0a2cc69ef776a059ed2f9d7fcecb441f938fca5bd03028d67"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bd9faf0b9dc9a50b77afff48b691dfaa5d912bed887ee0d148ce965c09dfbc28",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d4b154c313be31dd6cba6398b00ceacab50f4696f88ee29611cd684b6daa6c02",
+            "texto_contexto_sha256_esperado": "d4b154c313be31dd6cba6398b00ceacab50f4696f88ee29611cd684b6daa6c02"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-10",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "366d2353f408f019698b670e94af508f1467331026f41efc26165962ebba4340",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "7c35f5157bf126f1ecded0d4ef76bd4fcca2b0bf19298e75ba15e35b82c8b947",
+            "texto_contexto_sha256_esperado": "7c35f5157bf126f1ecded0d4ef76bd4fcca2b0bf19298e75ba15e35b82c8b947"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-11",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "a8b97c2ed281fe67950293ac53835429007d166c862ab6bfcac947143cfe4e35",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "18a72977e9e12054eca4fc98c68f0ef578b4cbc92fb4c0f9e30fe92aa7cac8d8",
+            "texto_contexto_sha256_esperado": "18a72977e9e12054eca4fc98c68f0ef578b4cbc92fb4c0f9e30fe92aa7cac8d8"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-12",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f7c9ba34c1ec8d188d08cebf622e174ae7179de4f0f438e1a1f0432fea2bed92",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "0ec75b46ee94b18f48831ba2dae161f2ccdfc8a0f937e64d2f51c5b46149cae5",
+            "texto_contexto_sha256_esperado": "0ec75b46ee94b18f48831ba2dae161f2ccdfc8a0f937e64d2f51c5b46149cae5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-13",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "07c890f69c8688a72dd7df94836cd13f57621ddf27bb88f6020d038e0131deef",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "5efe157a293b9b86aa7b47fa8dba0545d803f2b362a1a7eef70d7df6ef04ccf3",
+            "texto_contexto_sha256_esperado": "5efe157a293b9b86aa7b47fa8dba0545d803f2b362a1a7eef70d7df6ef04ccf3"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-14",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "185b94ce0fc781f9b8ddbce806c7db54e4046658ea9c924e05000580ee474ef5",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9751b3367e5f7abe1dfa32dd7c818019dc492e623790065a5466631e2956f8a8",
+            "texto_contexto_sha256_esperado": "9751b3367e5f7abe1dfa32dd7c818019dc492e623790065a5466631e2956f8a8"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-15",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "49aa8a295d41c98922f48720b2ef723362ee809bdbecfd95a6d3214015624187",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "b9aee3dc58637f13f06ef1189a4387b203997f58620d27309a529ed3ff65381a",
+            "texto_contexto_sha256_esperado": "b9aee3dc58637f13f06ef1189a4387b203997f58620d27309a529ed3ff65381a"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-16",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "2037b3b7918369e0a97923ce7ebdcf1516b9509227a2a965a207f556421df725",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "92c23394f34a5460a00b1234c83ff3af4836fd5cc477697ec768c37aa23662e5",
+            "texto_contexto_sha256_esperado": "92c23394f34a5460a00b1234c83ff3af4836fd5cc477697ec768c37aa23662e5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-17",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "8902e770b358fd461217ed14ce2224e0f89539969cebdd1d5abe184fb73ded5a",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "18c46d8830cb5e88043dc8b544d2ba8635fc097a0180c09fa54553c2acda2f18",
+            "texto_contexto_sha256_esperado": "18c46d8830cb5e88043dc8b544d2ba8635fc097a0180c09fa54553c2acda2f18"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-18",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "88ff1e4860d780fff48c6cd495a008fb72d3f10f33d3a459d43e381cbb0c21c3",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "31f1203298c59f118748e72168129c357bb23f9fa173bf20ce79fd0ae89ac498",
+            "texto_contexto_sha256_esperado": "31f1203298c59f118748e72168129c357bb23f9fa173bf20ce79fd0ae89ac498"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-19",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "471926b2b6a391574d7f98367174efa6f3eac328d07985d6dc5113f4f6bb938a",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "c43cc39b7d28c38acba3867eb4ceafd9c8601b6e392cd178d20f7320e3531274",
+            "texto_contexto_sha256_esperado": "c43cc39b7d28c38acba3867eb4ceafd9c8601b6e392cd178d20f7320e3531274"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-20",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c5ab5799c0cd68061d5e1b7b67687880f9584978fda779ded496e6f38e125bb8",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ed5bb881dfe098ac8565a706454835d3a408744bd6aecaa2fe89b11433102d01",
+            "texto_contexto_sha256_esperado": "ed5bb881dfe098ac8565a706454835d3a408744bd6aecaa2fe89b11433102d01"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-21",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c019556e340b83ceceb53caf12b9206340bc6b5692b847975d9362504284cd48",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "0479dfd9b56aa128c9ea80491683b9f1f83b29d4347cc9985680ac0e2e0851b0",
+            "texto_contexto_sha256_esperado": "0479dfd9b56aa128c9ea80491683b9f1f83b29d4347cc9985680ac0e2e0851b0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres-controles.json",
+          "id": "G-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f5319fb9f2a69d90e22dabda9151116bd0afba86901ab7323b25e64a7023455b",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "7869d3297e774567cd015f1d25d222338157e162ee204af35a058686da15a008",
+            "texto_contexto_sha256_esperado": "7869d3297e774567cd015f1d25d222338157e162ee204af35a058686da15a008"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres-controles.json",
+          "id": "G-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "450f8816272aee866e9b7049baa7c6b577367316566a3397f6d6361ad7a7da49",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "b0d0887f6aa3484b87eff2e53d46d2ad6ba9da78647fe27b2ebb0323eb5e3af5",
+            "texto_contexto_sha256_esperado": "b0d0887f6aa3484b87eff2e53d46d2ad6ba9da78647fe27b2ebb0323eb5e3af5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "afb2bd168e33393c969067eb7c99bfb82a3673f2035b3390d94560f8ace476bb",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "8d2d17c33aab3dc6f161abb15d2ff895a90baf5ec8b92e4199a1acd80269e987",
+            "texto_contexto_sha256_esperado": "8d2d17c33aab3dc6f161abb15d2ff895a90baf5ec8b92e4199a1acd80269e987"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "a0b6684071db330dd400ef73a8db47fd754707fdda13e57b89116e930ea84865",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "552aac3a596094352125710f164b24b50c760fdb15d6fd6c72c8cd1415378627",
+            "texto_contexto_sha256_esperado": "552aac3a596094352125710f164b24b50c760fdb15d6fd6c72c8cd1415378627"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "cddde8369c03c2fd72accc4b2d9e9e5b980ceafcfc7420fcd00c306c6c2db6bd",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "eada93b85d6794f632769a8db697739d2aa9bd8b748960235d102b6ec24b65ee",
+            "texto_contexto_sha256_esperado": "eada93b85d6794f632769a8db697739d2aa9bd8b748960235d102b6ec24b65ee"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "feca550f3e99a36b593ed3067813659c99b36460768c8c629cb28a4da3952900",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9794fbdd26fa2d7c04833f741034b682b235df07b4cf84f319d9000318dde4bd",
+            "texto_contexto_sha256_esperado": "9794fbdd26fa2d7c04833f741034b682b235df07b4cf84f319d9000318dde4bd"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "d5eca32b71f35f5c58150ce6a26b3ac8f689ca09e9c455b91e625a45418e77c3",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "4af80eab00ffb09e2586aeeafe62d42857538e37ed2346f882dee0ad4679184d",
+            "texto_contexto_sha256_esperado": "4af80eab00ffb09e2586aeeafe62d42857538e37ed2346f882dee0ad4679184d"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c818acfde1df77aecfef369c9b07f2c0cb8d89b18874d5d6ffcb330a1fceb287",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "13c9f8bdf3596953352055cdd2e1c36fbf7cf24a60ce80eca74388b27c281eef",
+            "texto_contexto_sha256_esperado": "13c9f8bdf3596953352055cdd2e1c36fbf7cf24a60ce80eca74388b27c281eef"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "9d261f4db0acfc514ac64b2c724ccda96bf2d93d0238444cc1e9f37268745d94",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "76082e405c6d99771da4006091ecfac1a23e61e7129612824a05b10fa4b856d9",
+            "texto_contexto_sha256_esperado": "76082e405c6d99771da4006091ecfac1a23e61e7129612824a05b10fa4b856d9"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "5fa24dd9ccfbf170def6d15eb7ca5b9c9f68629c092e707251ea1698e4e817e7",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "6d54a5d1aa6e4f3c6af00846244463f82a751c9cf9406ccebc018284dd241576",
+            "texto_contexto_sha256_esperado": "6d54a5d1aa6e4f3c6af00846244463f82a751c9cf9406ccebc018284dd241576"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "095a663f4be81a0d4bb03d98243b01eaebc7926761c420c85b7cf9fe8ba75ff3",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "674c5e5db702743f6eabd3ff233af86e60fa47d33652a159b92b7e25ddd7fa29",
+            "texto_contexto_sha256_esperado": "674c5e5db702743f6eabd3ff233af86e60fa47d33652a159b92b7e25ddd7fa29"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-10",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "2d79bde2bb1af03f7a10ee3ebb97380d321c33d4a813a4b461314a6e2f3f32fc",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "7226ba87280e6377032f1766aed7a1b972c0053a058cdd0ca17d830dbacd1f94",
+            "texto_contexto_sha256_esperado": "7226ba87280e6377032f1766aed7a1b972c0053a058cdd0ca17d830dbacd1f94"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-11",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "418d254c52e8a3caa6eaa42a5fc41b819fdd4030d7f45534f19cebc2645e0218",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "683335cdd5c28512325786efd6d626881af62a6011a100ca891a9819dbd6f98c",
+            "texto_contexto_sha256_esperado": "683335cdd5c28512325786efd6d626881af62a6011a100ca891a9819dbd6f98c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-12",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bd841f87222d9772d00b5a16bf538bae03f1ff0b14c81c5194e4c7fe34ce3012",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "a28b11f128502c3103d98f183568c32d7db41033311e6a5f40289f22fa77fd0c",
+            "texto_contexto_sha256_esperado": "a28b11f128502c3103d98f183568c32d7db41033311e6a5f40289f22fa77fd0c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-13",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "24f5e953ee13b6b508854918f5fde9a2b54fb1f360fbcde5dc9de003e75d782b",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "0d808b6f3b5508096455130a9c0d0984c5efabbf20b5d5ea89ff1ad87b3f7c4f",
+            "texto_contexto_sha256_esperado": "0d808b6f3b5508096455130a9c0d0984c5efabbf20b5d5ea89ff1ad87b3f7c4f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-14",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "2d6214d9da266ed1e7251aad4a067a96f3b48e74ec46acd5f48375b35623cd8f",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "8dd60e37a87f94b85c811387795351304cbcac8288fd795ca598fbea039a4a59",
+            "texto_contexto_sha256_esperado": "8dd60e37a87f94b85c811387795351304cbcac8288fd795ca598fbea039a4a59"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b0f7225036bf3b1666e463752374e5b91fc88b5da6e28536e1db529e255f7cf7",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9877e1e47fa01a720c04b8045777606efd043cb1e27e04b320af16e3046036e5",
+            "texto_contexto_sha256_esperado": "9877e1e47fa01a720c04b8045777606efd043cb1e27e04b320af16e3046036e5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b4f7d6416fdcdb8037d8eefa63247c1341771ca0e45eb45ae7172ccdb83b9311",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ef833de716e73224c84e027cab5ef3af897b026eb9f045416381ab4f83c41566",
+            "texto_contexto_sha256_esperado": "ef833de716e73224c84e027cab5ef3af897b026eb9f045416381ab4f83c41566"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c7da5f27bbec1c3bf4df840c08b0ffc12573cbc88f96be0fcac5cf17962b0fe2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d4942d9504d7a7ef608d6f5d4da0c8fb09f1454fbd87d21ebfc3adb073415e3c",
+            "texto_contexto_sha256_esperado": "d4942d9504d7a7ef608d6f5d4da0c8fb09f1454fbd87d21ebfc3adb073415e3c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f05607c4ee68994d89cbb122992e5bda5b8752ba686d4c38e937cb5312908474",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "4e44b628f98f03641ae6ac6cb97dd3534687b76b07f9dcdd83b0343cf8863c53",
+            "texto_contexto_sha256_esperado": "4e44b628f98f03641ae6ac6cb97dd3534687b76b07f9dcdd83b0343cf8863c53"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "a6b798c9dd34a19010506b6791ee5f2a93ad1626e9edd480bc5dcb06f96ccb50",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "255dce492478d4edeb55d4426b86f6c2d27a1671c7559a3b18e64fdfa75bc847",
+            "texto_contexto_sha256_esperado": "255dce492478d4edeb55d4426b86f6c2d27a1671c7559a3b18e64fdfa75bc847"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f9891aaffd830e82019ef7743691936d3c771409c536e0a1c3199bc15700f8d7",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "545a85206f42e845190059378eb8d01c7d7de3ae60dea8d186057c523e600616",
+            "texto_contexto_sha256_esperado": "545a85206f42e845190059378eb8d01c7d7de3ae60dea8d186057c523e600616"
+          },
+          "diferencias_total": 0
+        }
+      ]
+    },
+    {
+      "servidor": "local",
+      "modo": "contexto",
+      "resumen": {
+        "casos": 91,
+        "coinciden": 91,
+        "diferencias": 0,
+        "errores": 0,
+        "esperado_casos": 91,
+        "exit": 0
+      },
+      "codigo_estable": true,
+      "informe_local_sha256": "28b23359ccf5db82cffbf51b7ae87931a260e26455a3c0baf70cf025a3e34b52",
+      "runner_sha256": "2f306aba74f52b61b96f548300a41902526e82528c846a551098c879370b4eec",
+      "estados_respuesta": {
+        "ok": 77,
+        "aclaracion_necesaria": 14
+      },
+      "casos": [
+        {
+          "fixture": "casos.json",
+          "id": "REBT-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "06ee3ec47ddc1b62a846935bb72d0387352278dbe4d4de81331faed4aa4c83f9",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ce766dcb27b8634f68898b692053f6fd3dda9b7e48a0abdac2498d917192e010",
+            "texto_contexto_sha256_esperado": "ce766dcb27b8634f68898b692053f6fd3dda9b7e48a0abdac2498d917192e010"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "0a865c75c4b7ef3d9e4893481e85c310aa8d24737298284b55b1daff40cb4022",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "88f84c729b878be9cbb5ad702c27e7549f02e7285d8b213a386448b7a8899c45",
+            "texto_contexto_sha256_esperado": "88f84c729b878be9cbb5ad702c27e7549f02e7285d8b213a386448b7a8899c45"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "cfe3b4a2e287e2aaa8876699e8a8224e7c4757afbfccf794852f40f87173eba0",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d752373bccc5a04ceab83e26007e63504b3b482251ebe5bbb0d5b5b7b6accfa4",
+            "texto_contexto_sha256_esperado": "d752373bccc5a04ceab83e26007e63504b3b482251ebe5bbb0d5b5b7b6accfa4"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "facdf76565ab52429f59c9f6d398e4f5364acdd63b147e9422e9ad435af2b9db",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "b63735d35a36d6acf7015cd52c12073985d2a8a12ca5bf7f8eec27edae64e577",
+            "texto_contexto_sha256_esperado": "b63735d35a36d6acf7015cd52c12073985d2a8a12ca5bf7f8eec27edae64e577"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1d883e1800751916d2d9f62307cc4926baf2f44e16d08a9276d122227e89c368",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "43bc901f7d116e9e68e9f336a860607fa79e58b86fe5993adceee337fcd2f82c",
+            "texto_contexto_sha256_esperado": "43bc901f7d116e9e68e9f336a860607fa79e58b86fe5993adceee337fcd2f82c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f2bd20a6af92dd3470903fd94dea49dd2ac0746bcf5c9f73a079a0eb8872664b",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "e823066c5a07ce3f3322a879af71d9b88ef018fcb4a5ab809683f96231ac77c6",
+            "texto_contexto_sha256_esperado": "e823066c5a07ce3f3322a879af71d9b88ef018fcb4a5ab809683f96231ac77c6"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b4a3fda9f4c1fee2e63d400978d2c8ace989b82d414333de99eb1a841d25246e",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "c9d8904a9a77709ce82bb3cb8087f9ba850074f5129f60229eee1aa492773235",
+            "texto_contexto_sha256_esperado": "c9d8904a9a77709ce82bb3cb8087f9ba850074f5129f60229eee1aa492773235"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "dace5c2c42b1203b0a9364e5e9538a5cd38c7296a2fa0ea36c7f78e8abcb1acc",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "c35339449455a84b69219fb9054b12775d00a1320b4788d939b482dbba1e1ed4",
+            "texto_contexto_sha256_esperado": "c35339449455a84b69219fb9054b12775d00a1320b4788d939b482dbba1e1ed4"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "0ca20347a50242282f26741ec0b9ab041a46fd11359790329eb1b9e64b006735",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "78cf1bffa962e9b1b36c5fffcbf24dacc9289048e221c6edbd68d4c167164d8d",
+            "texto_contexto_sha256_esperado": "78cf1bffa962e9b1b36c5fffcbf24dacc9289048e221c6edbd68d4c167164d8d"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f11dd2449898d02b787c3c9818a92a6660bde7671ddc5519b297464b72f56c36",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "1c50d02821481ce47f46125400690b2d692dd3b63f3d415763775cf064975573",
+            "texto_contexto_sha256_esperado": "1c50d02821481ce47f46125400690b2d692dd3b63f3d415763775cf064975573"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "9ad529ef6f3a05d16d43e71c48d5222aded6ff13e30f11431c159b54acae8ec8",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "2f3e6fb176c112168ce8b993e5a1fd641a5d399d332d4e0b6562c133eac98fb6",
+            "texto_contexto_sha256_esperado": "2f3e6fb176c112168ce8b993e5a1fd641a5d399d332d4e0b6562c133eac98fb6"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "d14c3af3aa04ad66efa1f56c899c371413815d0dd1f4be8b935faec30ab89ee6",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ff28370379a2fe19cb28eb686c4572d8b65e9f7fcca157e28fe944bde01bae5a",
+            "texto_contexto_sha256_esperado": "ff28370379a2fe19cb28eb686c4572d8b65e9f7fcca157e28fe944bde01bae5a"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "910d2dc5a3dce4964c6d5221baf427d726b08b2dbd14a4a02c24888baaa50448",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "2e7a31c3fbf2681212514cf5d4ce4034ae1931e2bf5e5def2bbb2ce749bafb21",
+            "texto_contexto_sha256_esperado": "2e7a31c3fbf2681212514cf5d4ce4034ae1931e2bf5e5def2bbb2ce749bafb21"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bb4d3172cffc868e43d093ce7e4c3956fecb80a25664f49cfcf9d1c09a5719a2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "073437f9bb849afb2fcb53619b8e3636e8b3e8ea53163edb4fce0098a68837e0",
+            "texto_contexto_sha256_esperado": "073437f9bb849afb2fcb53619b8e3636e8b3e8ea53163edb4fce0098a68837e0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bf77ef30fdd6b5ea20afed8d432d97a7cb0e1b026bef9b1efb7f98202b5559c0",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "fb2a40ea75c9cea16a3f64ef7c59d8bea4350e595cb1227a1def77ef966419e0",
+            "texto_contexto_sha256_esperado": "fb2a40ea75c9cea16a3f64ef7c59d8bea4350e595cb1227a1def77ef966419e0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "dec96bfeb8ca7edd3a62fe410dd8bc7e89dbc4981c4932bf55da6b39f59b1bd0",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "70e128ad3bf348fed42dd7543661db6dc5fb981da995c917b529f884bbb07313",
+            "texto_contexto_sha256_esperado": "70e128ad3bf348fed42dd7543661db6dc5fb981da995c917b529f884bbb07313"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "a5513cd093ec10ea6a67293d58477f8d83f8de532169ef3b256c1336681c235f",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d88c1f2460c9df5e2d1643dd6938c7c0c1664a2193c990ecc11735a2cb639374",
+            "texto_contexto_sha256_esperado": "d88c1f2460c9df5e2d1643dd6938c7c0c1664a2193c990ecc11735a2cb639374"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "673e9a0761bc98f8418cbc5fc04183ff6eb4aec0adc71f85bd26087eec447a9f",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9dbacf3c397a91a02d386344c5d99650ae575554492bb85f12643c62bbc9b8b7",
+            "texto_contexto_sha256_esperado": "9dbacf3c397a91a02d386344c5d99650ae575554492bb85f12643c62bbc9b8b7"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "4b1ccf2ac9945ac35fda3c4c35343c37c386d2bf3169a0ccc7d67634d1339492",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "47c839fdf77d3dad148c3192707cfec198358347b3b9bda889cfed5544404ffc",
+            "texto_contexto_sha256_esperado": "47c839fdf77d3dad148c3192707cfec198358347b3b9bda889cfed5544404ffc"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bb4d3172cffc868e43d093ce7e4c3956fecb80a25664f49cfcf9d1c09a5719a2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "073437f9bb849afb2fcb53619b8e3636e8b3e8ea53163edb4fce0098a68837e0",
+            "texto_contexto_sha256_esperado": "073437f9bb849afb2fcb53619b8e3636e8b3e8ea53163edb4fce0098a68837e0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "910d2dc5a3dce4964c6d5221baf427d726b08b2dbd14a4a02c24888baaa50448",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "2e7a31c3fbf2681212514cf5d4ce4034ae1931e2bf5e5def2bbb2ce749bafb21",
+            "texto_contexto_sha256_esperado": "2e7a31c3fbf2681212514cf5d4ce4034ae1931e2bf5e5def2bbb2ce749bafb21"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c9f35a2456f849d507b081251a0146e0cf17110e6319230e9ef717c748523d89",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d10bca1b485e6c0d53445cba8c1e86029d74d6fefb5e070d32583ae6cb845210",
+            "texto_contexto_sha256_esperado": "d10bca1b485e6c0d53445cba8c1e86029d74d6fefb5e070d32583ae6cb845210"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "4e9c665a24040ef502a8fa138761220b99db576f102f190f33d2ff43ee75be49",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "6e6846a793e8c203e6ad2cc08c787cf996c93430df86b9ef97ee5e0795e96cb0",
+            "texto_contexto_sha256_esperado": "6e6846a793e8c203e6ad2cc08c787cf996c93430df86b9ef97ee5e0795e96cb0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "fcdad7d8188095ac7991deb1aab79f20e891e6142be6d4b91178d70c58d17f14",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "0ed383fe2f6e168d9afee7cb216c5a6a8e2984029119b5811174128b6691d897",
+            "texto_contexto_sha256_esperado": "0ed383fe2f6e168d9afee7cb216c5a6a8e2984029119b5811174128b6691d897"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1ccc1ce048d025d05d355ca8f7de35b98a24f34d0b76a559fc03aa175073ea1e",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "65efc7a17615c46d701f5a1a0d399718f7d9f7857f0bb93ae6b09c9afd0b40a0",
+            "texto_contexto_sha256_esperado": "65efc7a17615c46d701f5a1a0d399718f7d9f7857f0bb93ae6b09c9afd0b40a0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "e9b88aae39f3d59271990556229dc98957e8f86ed634fdfd273bc3e32285a3dd",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "e06ff3dcd1edcca4108114019a442ba07ef0a2d67c61e6ef04ef551e40913adf",
+            "texto_contexto_sha256_esperado": "e06ff3dcd1edcca4108114019a442ba07ef0a2d67c61e6ef04ef551e40913adf"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "55a8ccbffc2ad5bc3151b68b16c401f51c90d6b5373dbaaa25b490fcacfc87ef",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "33e7fe9eb1f11c02e73071a3a245f6dee24d9a0c178d9f06917b98751c9dea64",
+            "texto_contexto_sha256_esperado": "33e7fe9eb1f11c02e73071a3a245f6dee24d9a0c178d9f06917b98751c9dea64"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "abe64d93412cdfe473e9292eff890d4828ba8e277426740cfe4e467797dec760",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9cdd6d8f7505b09d8ac916b1e6840bae4a4cb1c60422aa9e45c0c8a839c23666",
+            "texto_contexto_sha256_esperado": "9cdd6d8f7505b09d8ac916b1e6840bae4a4cb1c60422aa9e45c0c8a839c23666"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "fd0fff75a634a1655af814b4d975444578fbc1b9e153ed293e04c66b09da46b9",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "5e7a034adf2f1ab11802909c8391f95277761bc5f0cd4bc3889d99c5eea4be1f",
+            "texto_contexto_sha256_esperado": "5e7a034adf2f1ab11802909c8391f95277761bc5f0cd4bc3889d99c5eea4be1f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "29ca9dbf752fb0f0819f3d21efcec01e1004c449ab201c3a9e4cbe56da29cf46",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "68e6ab91dac76f5f1177304030776fb5184249957f8e20200c001edfbc14b5c5",
+            "texto_contexto_sha256_esperado": "68e6ab91dac76f5f1177304030776fb5184249957f8e20200c001edfbc14b5c5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-10",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "36cee82a30a6f7b6244c7d691862f3191dcab840b3dce7258b11d874e2f4d263",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "c3e6327c7677a1ebf41f7e4b081ba5b71d45f53d74f1b0cfc6bfc80552eeac45",
+            "texto_contexto_sha256_esperado": "c3e6327c7677a1ebf41f7e4b081ba5b71d45f53d74f1b0cfc6bfc80552eeac45"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-11",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "e19973f7923cb8a19402b4d405b3624a7e49fbcb9cc63bc4ea23fb6fbe5c9957",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "da885c2be0d2392d7b47e5062bd7bb8c4285cbeed9503543f80913e63b1fb242",
+            "texto_contexto_sha256_esperado": "da885c2be0d2392d7b47e5062bd7bb8c4285cbeed9503543f80913e63b1fb242"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-12",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "65251fff61c486ee8b77d1805eb77cded223dfcd397db65c286d8bb073ff39e2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "199f9b77c640a4b298d0ac4f4d4596c3e3cce764e26b433b446e2d4b37832c29",
+            "texto_contexto_sha256_esperado": "199f9b77c640a4b298d0ac4f4d4596c3e3cce764e26b433b446e2d4b37832c29"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-13",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "56201a40fa7c7c49f566512447833a2e5e1c4dc94839218e20f94c5e81ae9c4e",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d1a397c603ad61166e439895a148ecca4e069496f44e96d7b4586d23901c50c0",
+            "texto_contexto_sha256_esperado": "d1a397c603ad61166e439895a148ecca4e069496f44e96d7b4586d23901c50c0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-14",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f4199963dd8371b56cd0a02bf1c0825f840d90b86b2a82ab3a7b3f85a7c18831",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "4f40d113899f79b28dae1fb7498c54737612b784a0189fcfba72d6969c27792f",
+            "texto_contexto_sha256_esperado": "4f40d113899f79b28dae1fb7498c54737612b784a0189fcfba72d6969c27792f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-15",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "4fa1831d71489f52152561e09ab41062d40c6f29ceb3543ecc14c855f2a3a630",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "1ac372be0b5779918fced0d3f84d1cc2261e749adaf2deb4e0b6a2ffdf442021",
+            "texto_contexto_sha256_esperado": "1ac372be0b5779918fced0d3f84d1cc2261e749adaf2deb4e0b6a2ffdf442021"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-16",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "fac67cb2fb190d4af305419a3f1f3a5e7f569a1df13e112c6d05d7b9448243e5",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "4b23a6d453d71f8cfc7842ab71a0300634a5254c25186ec74c05bb7f25c4a67d",
+            "texto_contexto_sha256_esperado": "4b23a6d453d71f8cfc7842ab71a0300634a5254c25186ec74c05bb7f25c4a67d"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-17",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1fe387ba4d7804dc6d820140631b037b1dd27d5262ec1ec50d56980f8890a2c6",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "de175b313af0875f0274f2501c900501e75b2b33ea57376fcc99388f01983a93",
+            "texto_contexto_sha256_esperado": "de175b313af0875f0274f2501c900501e75b2b33ea57376fcc99388f01983a93"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-18",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "8754bf303392d4ca929f7cafcd509e4ef9f0c8d7423a42f6a0b40d299829ed19",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "a7fc5db0b3c0407cbbb2903c8e7543f621eb057db29e241895413690c77072a1",
+            "texto_contexto_sha256_esperado": "a7fc5db0b3c0407cbbb2903c8e7543f621eb057db29e241895413690c77072a1"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-19",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1538e51278d3786c1ce0f12c62aecf2f04000973ffc0cc0ca5b79ff373b27a99",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "de2b8c29d758fcf9443dead555318834a02e43a79db44039c1b14775363475b0",
+            "texto_contexto_sha256_esperado": "de2b8c29d758fcf9443dead555318834a02e43a79db44039c1b14775363475b0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-20",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1b2a91da6cb510b0fd07f61a19e34faf912cc0ac15bfedc5560881d142e7f6a3",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "02c8577c89fd1746d8c0d2cb8e9bc0c862cab5a7ac4c662d2391ce6678bc0e61",
+            "texto_contexto_sha256_esperado": "02c8577c89fd1746d8c0d2cb8e9bc0c862cab5a7ac4c662d2391ce6678bc0e61"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-21",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bd90b51381be60dd0596251c34d3eb690f11426913c8475e21665ffc4b28a612",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "7a2e7ea1511ddd0b34e98bdddf2232a43251db08935c8b3786769cebb7403bae",
+            "texto_contexto_sha256_esperado": "7a2e7ea1511ddd0b34e98bdddf2232a43251db08935c8b3786769cebb7403bae"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "e6ffe55da8b3e191f23529de48e59382e117b7bb5b429c050d86f5dd57b763e1",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "2b00d47101d66529f10c3c18ba4135f66ef91e79ee7ee5a5614a75512059395e",
+            "texto_contexto_sha256_esperado": "2b00d47101d66529f10c3c18ba4135f66ef91e79ee7ee5a5614a75512059395e"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "57901ba8f89dc82826b0a021f4d4a49ba889e57028b9f4bdcfa7fc27773232cd",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "11f20482e6e1f147985e1213e8ade242ec5f11f436761f7c363eaca957494e23",
+            "texto_contexto_sha256_esperado": "11f20482e6e1f147985e1213e8ade242ec5f11f436761f7c363eaca957494e23"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "48ac3ed81c37aabd78ee8b682a6ef42d8d8f572b21134b2c0eb377d811827faa",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "bbeb5c1779f5ce34b0473e60f7b3e4215815d2f9266d87fac2e8415ecf17c2f2",
+            "texto_contexto_sha256_esperado": "bbeb5c1779f5ce34b0473e60f7b3e4215815d2f9266d87fac2e8415ecf17c2f2"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "add54ceee38c69d705cdb11e1ab0215502fd4a4b9b3dae80f761af56f925285b",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "abfab1e4176ec4b928cdaeb419922003b40697bac6f6f705bb192fd8b27eac0c",
+            "texto_contexto_sha256_esperado": "abfab1e4176ec4b928cdaeb419922003b40697bac6f6f705bb192fd8b27eac0c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "34496e912433ccf108f65a9de2342bf3f507a1f05eab232454a6db0f4a4b3fc4",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ac2ee50a580c4940b8c5507330fa761f29a832200519ce50ce1b4c355413755b",
+            "texto_contexto_sha256_esperado": "ac2ee50a580c4940b8c5507330fa761f29a832200519ce50ce1b4c355413755b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "5362378580ded85874102fb45588b75668a65c0845e9d2db65001655d32c4fc7",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "15eb835c9377b94baa1300d93414889305d7e533c8441a2ceada77878e3a4ede",
+            "texto_contexto_sha256_esperado": "15eb835c9377b94baa1300d93414889305d7e533c8441a2ceada77878e3a4ede"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "fe8505a2d284b724fdbd74f99ea0e865c27d4e44453eb801f536a381d3b363f8",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "36ea949cc221ffb52ea6ffdf6d58c0f5653dcc11035b155ac3da61862d75a37f",
+            "texto_contexto_sha256_esperado": "36ea949cc221ffb52ea6ffdf6d58c0f5653dcc11035b155ac3da61862d75a37f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b04889141e651a566dbcbe4ddccf3f8e357251560c7e2564ae9937ab266516d0",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "99a589de69ceb77523e35f210137974cf696b79cc28f095ebee33598d7402a54",
+            "texto_contexto_sha256_esperado": "99a589de69ceb77523e35f210137974cf696b79cc28f095ebee33598d7402a54"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "ff071530a7eadc2dfb8db8c7e2eb7cf173ff91f88b17b0e0ee4e14f868263c90",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "098c79faac85262ccf4fdfd1bdd72bca5212025eb90ac3b4de771dbac82f9732",
+            "texto_contexto_sha256_esperado": "098c79faac85262ccf4fdfd1bdd72bca5212025eb90ac3b4de771dbac82f9732"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "1edaa58e91dd71790d998226e44fa726058f339ab388b0d294af99366eab3155",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "3251fca696aaa4089c341e5843db43342984a5cbb93c716c00c1c1e4dbb973dd",
+            "texto_contexto_sha256_esperado": "3251fca696aaa4089c341e5843db43342984a5cbb93c716c00c1c1e4dbb973dd"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "341bd4bd609d39be8cedc40b07707a940b8b1e8615112ed653f610287d31bb88",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "1c3d6a3d2b82f951441ecde9edcafa1c34aec434fcdfb413342e36026dd169b6",
+            "texto_contexto_sha256_esperado": "1c3d6a3d2b82f951441ecde9edcafa1c34aec434fcdfb413342e36026dd169b6"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "25788c5aa9a5ec5ac85e3ed4d14bf3842a7b4f271218212b2b9e5b30c736b8bd",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "afce3ff050edf353273e94de847dd0f79fa3ed7e56ad4d949e857eab41b1594b",
+            "texto_contexto_sha256_esperado": "afce3ff050edf353273e94de847dd0f79fa3ed7e56ad4d949e857eab41b1594b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "418cc3f99823ab9ed2bbc17508159817f9be39fd3dfe4ee078c708d6a45e69d2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9e072c1fac394517ec407e59c4084d5bc7a6c467f675c3ab38d9783f813f9d61",
+            "texto_contexto_sha256_esperado": "9e072c1fac394517ec407e59c4084d5bc7a6c467f675c3ab38d9783f813f9d61"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b0bd284a8a293afc2e5ea6d81a711f548a0c52f72d27c8ee3c192908196e36a1",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "5fd6fbdbc89b04a0a2cc69ef776a059ed2f9d7fcecb441f938fca5bd03028d67",
+            "texto_contexto_sha256_esperado": "5fd6fbdbc89b04a0a2cc69ef776a059ed2f9d7fcecb441f938fca5bd03028d67"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bd9faf0b9dc9a50b77afff48b691dfaa5d912bed887ee0d148ce965c09dfbc28",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d4b154c313be31dd6cba6398b00ceacab50f4696f88ee29611cd684b6daa6c02",
+            "texto_contexto_sha256_esperado": "d4b154c313be31dd6cba6398b00ceacab50f4696f88ee29611cd684b6daa6c02"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-10",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "366d2353f408f019698b670e94af508f1467331026f41efc26165962ebba4340",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "7c35f5157bf126f1ecded0d4ef76bd4fcca2b0bf19298e75ba15e35b82c8b947",
+            "texto_contexto_sha256_esperado": "7c35f5157bf126f1ecded0d4ef76bd4fcca2b0bf19298e75ba15e35b82c8b947"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-11",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "a8b97c2ed281fe67950293ac53835429007d166c862ab6bfcac947143cfe4e35",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "18a72977e9e12054eca4fc98c68f0ef578b4cbc92fb4c0f9e30fe92aa7cac8d8",
+            "texto_contexto_sha256_esperado": "18a72977e9e12054eca4fc98c68f0ef578b4cbc92fb4c0f9e30fe92aa7cac8d8"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-12",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f7c9ba34c1ec8d188d08cebf622e174ae7179de4f0f438e1a1f0432fea2bed92",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "0ec75b46ee94b18f48831ba2dae161f2ccdfc8a0f937e64d2f51c5b46149cae5",
+            "texto_contexto_sha256_esperado": "0ec75b46ee94b18f48831ba2dae161f2ccdfc8a0f937e64d2f51c5b46149cae5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-13",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "07c890f69c8688a72dd7df94836cd13f57621ddf27bb88f6020d038e0131deef",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "5efe157a293b9b86aa7b47fa8dba0545d803f2b362a1a7eef70d7df6ef04ccf3",
+            "texto_contexto_sha256_esperado": "5efe157a293b9b86aa7b47fa8dba0545d803f2b362a1a7eef70d7df6ef04ccf3"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-14",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "185b94ce0fc781f9b8ddbce806c7db54e4046658ea9c924e05000580ee474ef5",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9751b3367e5f7abe1dfa32dd7c818019dc492e623790065a5466631e2956f8a8",
+            "texto_contexto_sha256_esperado": "9751b3367e5f7abe1dfa32dd7c818019dc492e623790065a5466631e2956f8a8"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-15",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "49aa8a295d41c98922f48720b2ef723362ee809bdbecfd95a6d3214015624187",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "b9aee3dc58637f13f06ef1189a4387b203997f58620d27309a529ed3ff65381a",
+            "texto_contexto_sha256_esperado": "b9aee3dc58637f13f06ef1189a4387b203997f58620d27309a529ed3ff65381a"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-16",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "2037b3b7918369e0a97923ce7ebdcf1516b9509227a2a965a207f556421df725",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "92c23394f34a5460a00b1234c83ff3af4836fd5cc477697ec768c37aa23662e5",
+            "texto_contexto_sha256_esperado": "92c23394f34a5460a00b1234c83ff3af4836fd5cc477697ec768c37aa23662e5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-17",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "8902e770b358fd461217ed14ce2224e0f89539969cebdd1d5abe184fb73ded5a",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "18c46d8830cb5e88043dc8b544d2ba8635fc097a0180c09fa54553c2acda2f18",
+            "texto_contexto_sha256_esperado": "18c46d8830cb5e88043dc8b544d2ba8635fc097a0180c09fa54553c2acda2f18"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-18",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "88ff1e4860d780fff48c6cd495a008fb72d3f10f33d3a459d43e381cbb0c21c3",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "31f1203298c59f118748e72168129c357bb23f9fa173bf20ce79fd0ae89ac498",
+            "texto_contexto_sha256_esperado": "31f1203298c59f118748e72168129c357bb23f9fa173bf20ce79fd0ae89ac498"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-19",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "471926b2b6a391574d7f98367174efa6f3eac328d07985d6dc5113f4f6bb938a",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "c43cc39b7d28c38acba3867eb4ceafd9c8601b6e392cd178d20f7320e3531274",
+            "texto_contexto_sha256_esperado": "c43cc39b7d28c38acba3867eb4ceafd9c8601b6e392cd178d20f7320e3531274"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-20",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c5ab5799c0cd68061d5e1b7b67687880f9584978fda779ded496e6f38e125bb8",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ed5bb881dfe098ac8565a706454835d3a408744bd6aecaa2fe89b11433102d01",
+            "texto_contexto_sha256_esperado": "ed5bb881dfe098ac8565a706454835d3a408744bd6aecaa2fe89b11433102d01"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-21",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c019556e340b83ceceb53caf12b9206340bc6b5692b847975d9362504284cd48",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "0479dfd9b56aa128c9ea80491683b9f1f83b29d4347cc9985680ac0e2e0851b0",
+            "texto_contexto_sha256_esperado": "0479dfd9b56aa128c9ea80491683b9f1f83b29d4347cc9985680ac0e2e0851b0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres-controles.json",
+          "id": "G-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f5319fb9f2a69d90e22dabda9151116bd0afba86901ab7323b25e64a7023455b",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "7869d3297e774567cd015f1d25d222338157e162ee204af35a058686da15a008",
+            "texto_contexto_sha256_esperado": "7869d3297e774567cd015f1d25d222338157e162ee204af35a058686da15a008"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres-controles.json",
+          "id": "G-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "450f8816272aee866e9b7049baa7c6b577367316566a3397f6d6361ad7a7da49",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "b0d0887f6aa3484b87eff2e53d46d2ad6ba9da78647fe27b2ebb0323eb5e3af5",
+            "texto_contexto_sha256_esperado": "b0d0887f6aa3484b87eff2e53d46d2ad6ba9da78647fe27b2ebb0323eb5e3af5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "afb2bd168e33393c969067eb7c99bfb82a3673f2035b3390d94560f8ace476bb",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "8d2d17c33aab3dc6f161abb15d2ff895a90baf5ec8b92e4199a1acd80269e987",
+            "texto_contexto_sha256_esperado": "8d2d17c33aab3dc6f161abb15d2ff895a90baf5ec8b92e4199a1acd80269e987"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "a0b6684071db330dd400ef73a8db47fd754707fdda13e57b89116e930ea84865",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "552aac3a596094352125710f164b24b50c760fdb15d6fd6c72c8cd1415378627",
+            "texto_contexto_sha256_esperado": "552aac3a596094352125710f164b24b50c760fdb15d6fd6c72c8cd1415378627"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "cddde8369c03c2fd72accc4b2d9e9e5b980ceafcfc7420fcd00c306c6c2db6bd",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "eada93b85d6794f632769a8db697739d2aa9bd8b748960235d102b6ec24b65ee",
+            "texto_contexto_sha256_esperado": "eada93b85d6794f632769a8db697739d2aa9bd8b748960235d102b6ec24b65ee"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "feca550f3e99a36b593ed3067813659c99b36460768c8c629cb28a4da3952900",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9794fbdd26fa2d7c04833f741034b682b235df07b4cf84f319d9000318dde4bd",
+            "texto_contexto_sha256_esperado": "9794fbdd26fa2d7c04833f741034b682b235df07b4cf84f319d9000318dde4bd"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "d5eca32b71f35f5c58150ce6a26b3ac8f689ca09e9c455b91e625a45418e77c3",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "4af80eab00ffb09e2586aeeafe62d42857538e37ed2346f882dee0ad4679184d",
+            "texto_contexto_sha256_esperado": "4af80eab00ffb09e2586aeeafe62d42857538e37ed2346f882dee0ad4679184d"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c818acfde1df77aecfef369c9b07f2c0cb8d89b18874d5d6ffcb330a1fceb287",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "13c9f8bdf3596953352055cdd2e1c36fbf7cf24a60ce80eca74388b27c281eef",
+            "texto_contexto_sha256_esperado": "13c9f8bdf3596953352055cdd2e1c36fbf7cf24a60ce80eca74388b27c281eef"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "9d261f4db0acfc514ac64b2c724ccda96bf2d93d0238444cc1e9f37268745d94",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "76082e405c6d99771da4006091ecfac1a23e61e7129612824a05b10fa4b856d9",
+            "texto_contexto_sha256_esperado": "76082e405c6d99771da4006091ecfac1a23e61e7129612824a05b10fa4b856d9"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "5fa24dd9ccfbf170def6d15eb7ca5b9c9f68629c092e707251ea1698e4e817e7",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "6d54a5d1aa6e4f3c6af00846244463f82a751c9cf9406ccebc018284dd241576",
+            "texto_contexto_sha256_esperado": "6d54a5d1aa6e4f3c6af00846244463f82a751c9cf9406ccebc018284dd241576"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "095a663f4be81a0d4bb03d98243b01eaebc7926761c420c85b7cf9fe8ba75ff3",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "674c5e5db702743f6eabd3ff233af86e60fa47d33652a159b92b7e25ddd7fa29",
+            "texto_contexto_sha256_esperado": "674c5e5db702743f6eabd3ff233af86e60fa47d33652a159b92b7e25ddd7fa29"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-10",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "2d79bde2bb1af03f7a10ee3ebb97380d321c33d4a813a4b461314a6e2f3f32fc",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "7226ba87280e6377032f1766aed7a1b972c0053a058cdd0ca17d830dbacd1f94",
+            "texto_contexto_sha256_esperado": "7226ba87280e6377032f1766aed7a1b972c0053a058cdd0ca17d830dbacd1f94"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-11",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "418d254c52e8a3caa6eaa42a5fc41b819fdd4030d7f45534f19cebc2645e0218",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "683335cdd5c28512325786efd6d626881af62a6011a100ca891a9819dbd6f98c",
+            "texto_contexto_sha256_esperado": "683335cdd5c28512325786efd6d626881af62a6011a100ca891a9819dbd6f98c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-12",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "bd841f87222d9772d00b5a16bf538bae03f1ff0b14c81c5194e4c7fe34ce3012",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "a28b11f128502c3103d98f183568c32d7db41033311e6a5f40289f22fa77fd0c",
+            "texto_contexto_sha256_esperado": "a28b11f128502c3103d98f183568c32d7db41033311e6a5f40289f22fa77fd0c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-13",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "24f5e953ee13b6b508854918f5fde9a2b54fb1f360fbcde5dc9de003e75d782b",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "0d808b6f3b5508096455130a9c0d0984c5efabbf20b5d5ea89ff1ad87b3f7c4f",
+            "texto_contexto_sha256_esperado": "0d808b6f3b5508096455130a9c0d0984c5efabbf20b5d5ea89ff1ad87b3f7c4f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-14",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "2d6214d9da266ed1e7251aad4a067a96f3b48e74ec46acd5f48375b35623cd8f",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "8dd60e37a87f94b85c811387795351304cbcac8288fd795ca598fbea039a4a59",
+            "texto_contexto_sha256_esperado": "8dd60e37a87f94b85c811387795351304cbcac8288fd795ca598fbea039a4a59"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b0f7225036bf3b1666e463752374e5b91fc88b5da6e28536e1db529e255f7cf7",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "9877e1e47fa01a720c04b8045777606efd043cb1e27e04b320af16e3046036e5",
+            "texto_contexto_sha256_esperado": "9877e1e47fa01a720c04b8045777606efd043cb1e27e04b320af16e3046036e5"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "b4f7d6416fdcdb8037d8eefa63247c1341771ca0e45eb45ae7172ccdb83b9311",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "ef833de716e73224c84e027cab5ef3af897b026eb9f045416381ab4f83c41566",
+            "texto_contexto_sha256_esperado": "ef833de716e73224c84e027cab5ef3af897b026eb9f045416381ab4f83c41566"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "c7da5f27bbec1c3bf4df840c08b0ffc12573cbc88f96be0fcac5cf17962b0fe2",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "d4942d9504d7a7ef608d6f5d4da0c8fb09f1454fbd87d21ebfc3adb073415e3c",
+            "texto_contexto_sha256_esperado": "d4942d9504d7a7ef608d6f5d4da0c8fb09f1454fbd87d21ebfc3adb073415e3c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f05607c4ee68994d89cbb122992e5bda5b8752ba686d4c38e937cb5312908474",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "4e44b628f98f03641ae6ac6cb97dd3534687b76b07f9dcdd83b0343cf8863c53",
+            "texto_contexto_sha256_esperado": "4e44b628f98f03641ae6ac6cb97dd3534687b76b07f9dcdd83b0343cf8863c53"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "a6b798c9dd34a19010506b6791ee5f2a93ad1626e9edd480bc5dcb06f96ccb50",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "255dce492478d4edeb55d4426b86f6c2d27a1671c7559a3b18e64fdfa75bc847",
+            "texto_contexto_sha256_esperado": "255dce492478d4edeb55d4426b86f6c2d27a1671c7559a3b18e64fdfa75bc847"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "respuesta_normalizada_sha256": "f9891aaffd830e82019ef7743691936d3c771409c536e0a1c3199bc15700f8d7",
+            "texto_contexto_presente": true,
+            "texto_contexto_sha256": "545a85206f42e845190059378eb8d01c7d7de3ae60dea8d186057c523e600616",
+            "texto_contexto_sha256_esperado": "545a85206f42e845190059378eb8d01c7d7de3ae60dea8d186057c523e600616"
+          },
+          "diferencias_total": 0
+        }
+      ]
+    },
+    {
+      "servidor": "local",
+      "modo": "compat",
+      "resumen": {
+        "casos": 48,
+        "coinciden": 48,
+        "diferencias": 0,
+        "errores": 0,
+        "esperado_casos": 48,
+        "exit": 0
+      },
+      "codigo_estable": true,
+      "informe_local_sha256": "81e581eeaa615645ede65039d64603afa288bf0277155e4bec7e4f7dca475e63",
+      "runner_sha256": "2f306aba74f52b61b96f548300a41902526e82528c846a551098c879370b4eec",
+      "estados_respuesta": {
+        "contrato_previo": 48
+      },
+      "casos": [
+        {
+          "fixture": "casos.json",
+          "id": "REBT-01",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2879,
+            "sha256_cuerpo": "83dcb57e98eea0e8566ec49c88f24c7d2bb4e3cee5e3f8c4b2f7c6b5932869bb",
+            "sha256_cuerpo_esperado": "83dcb57e98eea0e8566ec49c88f24c7d2bb4e3cee5e3f8c4b2f7c6b5932869bb"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-02",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2902,
+            "sha256_cuerpo": "baa1b5e78cee0bd3b074168ed93aa623cac42524598ad510032458c60c017970",
+            "sha256_cuerpo_esperado": "baa1b5e78cee0bd3b074168ed93aa623cac42524598ad510032458c60c017970"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-03",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2939,
+            "sha256_cuerpo": "c698209990aa21cae098dbbdadbb3012b18e361c5f10a630c4497baded2e9b11",
+            "sha256_cuerpo_esperado": "c698209990aa21cae098dbbdadbb3012b18e361c5f10a630c4497baded2e9b11"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-04",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2279,
+            "sha256_cuerpo": "cb662bcd16a23cc08ac585cf876119cd44d81b2c6a6e508ef93325ce045f5e54",
+            "sha256_cuerpo_esperado": "cb662bcd16a23cc08ac585cf876119cd44d81b2c6a6e508ef93325ce045f5e54"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-05",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2271,
+            "sha256_cuerpo": "ba0cb4db801b10e59682f6ad8a9b3c58dbf52eb25801cdd0a0c57a1fd5746107",
+            "sha256_cuerpo_esperado": "ba0cb4db801b10e59682f6ad8a9b3c58dbf52eb25801cdd0a0c57a1fd5746107"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-06",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2577,
+            "sha256_cuerpo": "d92bc4bd5cdcbe02481fc6b3837be70be93b910bf760bc2bdcd1f1f81f1d7d2b",
+            "sha256_cuerpo_esperado": "d92bc4bd5cdcbe02481fc6b3837be70be93b910bf760bc2bdcd1f1f81f1d7d2b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-07",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2417,
+            "sha256_cuerpo": "63067e91974b4fb86ab6e78151f7ecaf85f1c6d7e779eac7c4798afc7c90b10c",
+            "sha256_cuerpo_esperado": "63067e91974b4fb86ab6e78151f7ecaf85f1c6d7e779eac7c4798afc7c90b10c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-08",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 3071,
+            "sha256_cuerpo": "7c87bd5c35ed41414d025d7faf2ca5d1dd7278017dc9c38ab71d47d755748350",
+            "sha256_cuerpo_esperado": "7c87bd5c35ed41414d025d7faf2ca5d1dd7278017dc9c38ab71d47d755748350"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "REBT-09",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2707,
+            "sha256_cuerpo": "397fd514e46eb6a144bd7518a9f3617761729312083b61beff47961027d1a7ae",
+            "sha256_cuerpo_esperado": "397fd514e46eb6a144bd7518a9f3617761729312083b61beff47961027d1a7ae"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-01",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2796,
+            "sha256_cuerpo": "0df84355642acaad2c7814ccdd6dd3590996959a4b8d8d3d6240a077d47e70c7",
+            "sha256_cuerpo_esperado": "0df84355642acaad2c7814ccdd6dd3590996959a4b8d8d3d6240a077d47e70c7"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-02",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2610,
+            "sha256_cuerpo": "8f46c8381f7e124024c52221ec4726b64bfa36cc2d7ce36e035dbd854766023f",
+            "sha256_cuerpo_esperado": "8f46c8381f7e124024c52221ec4726b64bfa36cc2d7ce36e035dbd854766023f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-03",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2917,
+            "sha256_cuerpo": "ef0801e9b5706758db0c91f9f5a5d2f4b9a4809e7e9f7f22c640884edb97b465",
+            "sha256_cuerpo_esperado": "ef0801e9b5706758db0c91f9f5a5d2f4b9a4809e7e9f7f22c640884edb97b465"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-04",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2437,
+            "sha256_cuerpo": "752c0a6c3c960f6e764487215475a3a53865c8927b3413522857a06c56bad486",
+            "sha256_cuerpo_esperado": "752c0a6c3c960f6e764487215475a3a53865c8927b3413522857a06c56bad486"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-05",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2422,
+            "sha256_cuerpo": "297d88f47155db08212a2e82aa417031bf0a7c072cdf66981a8ea639f157fdb9",
+            "sha256_cuerpo_esperado": "297d88f47155db08212a2e82aa417031bf0a7c072cdf66981a8ea639f157fdb9"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos.json",
+          "id": "SUA-06",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2322,
+            "sha256_cuerpo": "2ccf898800b2081ce0e850e6e92b79cb2e6894445334391a5830e80aac48d813",
+            "sha256_cuerpo_esperado": "2ccf898800b2081ce0e850e6e92b79cb2e6894445334391a5830e80aac48d813"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-01",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2913,
+            "sha256_cuerpo": "f03127cd1be6794ecf8606c2aab05d74b014d0430f5e60356888c76e69fa2bb1",
+            "sha256_cuerpo_esperado": "f03127cd1be6794ecf8606c2aab05d74b014d0430f5e60356888c76e69fa2bb1"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-02",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2814,
+            "sha256_cuerpo": "539ebe0a5a40204d5307967d405db0784a8784997381db7642f548424ec3d455",
+            "sha256_cuerpo_esperado": "539ebe0a5a40204d5307967d405db0784a8784997381db7642f548424ec3d455"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-03",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2735,
+            "sha256_cuerpo": "c41e3fc2a7c9ba4c03f61de7fc834069cbf0b7194b849c240e0eb690d4805b7b",
+            "sha256_cuerpo_esperado": "c41e3fc2a7c9ba4c03f61de7fc834069cbf0b7194b849c240e0eb690d4805b7b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-04",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2640,
+            "sha256_cuerpo": "c194ad67c98bb8f4b8313ab83f03c645606ab02168c4ccf22a0838bfb11b4c05",
+            "sha256_cuerpo_esperado": "c194ad67c98bb8f4b8313ab83f03c645606ab02168c4ccf22a0838bfb11b4c05"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-05",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2422,
+            "sha256_cuerpo": "297d88f47155db08212a2e82aa417031bf0a7c072cdf66981a8ea639f157fdb9",
+            "sha256_cuerpo_esperado": "297d88f47155db08212a2e82aa417031bf0a7c072cdf66981a8ea639f157fdb9"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "casos-sua-residencial.json",
+          "id": "SR-06",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2437,
+            "sha256_cuerpo": "752c0a6c3c960f6e764487215475a3a53865c8927b3413522857a06c56bad486",
+            "sha256_cuerpo_esperado": "752c0a6c3c960f6e764487215475a3a53865c8927b3413522857a06c56bad486"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-01",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2514,
+            "sha256_cuerpo": "8c32b5516160137e241cdc7f5c5e891c7fa99f07bcd7f861bab84c0dbcb9e9cd",
+            "sha256_cuerpo_esperado": "8c32b5516160137e241cdc7f5c5e891c7fa99f07bcd7f861bab84c0dbcb9e9cd"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-02",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2929,
+            "sha256_cuerpo": "8d0461c86ec083255191d617af05d2566990e06b5c70eca4266a4d0d1c0e3f81",
+            "sha256_cuerpo_esperado": "8d0461c86ec083255191d617af05d2566990e06b5c70eca4266a4d0d1c0e3f81"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-03",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2864,
+            "sha256_cuerpo": "8c9fcb62919c1973f236b4f8e14fb9790413421d490b9b30751d14a7a553cddd",
+            "sha256_cuerpo_esperado": "8c9fcb62919c1973f236b4f8e14fb9790413421d490b9b30751d14a7a553cddd"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-04",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2975,
+            "sha256_cuerpo": "ed9688b848bfb95003c1e8525489aa1df6b151636a6a5709b650ae5f4c71a3ce",
+            "sha256_cuerpo_esperado": "ed9688b848bfb95003c1e8525489aa1df6b151636a6a5709b650ae5f4c71a3ce"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-05",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 3011,
+            "sha256_cuerpo": "420d872022a050ff3a681ca5b89ede79874dba29b8c2b165de47a7cd7484eb5b",
+            "sha256_cuerpo_esperado": "420d872022a050ff3a681ca5b89ede79874dba29b8c2b165de47a7cd7484eb5b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-1.json",
+          "id": "T-06",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2727,
+            "sha256_cuerpo": "5ccb31c78df23251ca907d84b6651805aea75b47cb23f3121ea45b50c75efa1d",
+            "sha256_cuerpo_esperado": "5ccb31c78df23251ca907d84b6651805aea75b47cb23f3121ea45b50c75efa1d"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-07",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2739,
+            "sha256_cuerpo": "3445d383e3022ab612c158b9450c8d0533bc9a51a9d97a1899de737bab7af64a",
+            "sha256_cuerpo_esperado": "3445d383e3022ab612c158b9450c8d0533bc9a51a9d97a1899de737bab7af64a"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-08",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2285,
+            "sha256_cuerpo": "7e3fc56e02540810a607b90252db7fad637d2dc178e79f654a08ca5d259c51fd",
+            "sha256_cuerpo_esperado": "7e3fc56e02540810a607b90252db7fad637d2dc178e79f654a08ca5d259c51fd"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-09",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2865,
+            "sha256_cuerpo": "4aee891bb126e37cb8043504dc435ff89c266fc9fb7aae71508dfbbab8a9e982",
+            "sha256_cuerpo_esperado": "4aee891bb126e37cb8043504dc435ff89c266fc9fb7aae71508dfbbab8a9e982"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-10",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2575,
+            "sha256_cuerpo": "a554404a60f53eca62b793555cd470299c182e10e6785bfaf9041a2ecc359486",
+            "sha256_cuerpo_esperado": "a554404a60f53eca62b793555cd470299c182e10e6785bfaf9041a2ecc359486"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-11",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2860,
+            "sha256_cuerpo": "db584913d9c4f9eabb81b59c123ce1edeba5bc93ea0aab7096805ef2dcc5a5e0",
+            "sha256_cuerpo_esperado": "db584913d9c4f9eabb81b59c123ce1edeba5bc93ea0aab7096805ef2dcc5a5e0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-2.json",
+          "id": "T-12",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2685,
+            "sha256_cuerpo": "1119f047c15e0ed0184ee452c7950e57323fc5d0bce412634a0b721327d6666d",
+            "sha256_cuerpo_esperado": "1119f047c15e0ed0184ee452c7950e57323fc5d0bce412634a0b721327d6666d"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-13",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2707,
+            "sha256_cuerpo": "d3a9e86359414e7262ae7d92e12dfa4c2de0ae97051ba006ce2e03ec3ef5ef48",
+            "sha256_cuerpo_esperado": "d3a9e86359414e7262ae7d92e12dfa4c2de0ae97051ba006ce2e03ec3ef5ef48"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-14",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2791,
+            "sha256_cuerpo": "c9bb92f74f345463cb50ea3c8a76ffecc44592814a497751f166a37bc450281b",
+            "sha256_cuerpo_esperado": "c9bb92f74f345463cb50ea3c8a76ffecc44592814a497751f166a37bc450281b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-15",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2933,
+            "sha256_cuerpo": "be2b6352ab54163e0ac43ad689907fc89210814e539dbd69711db3a8f71be374",
+            "sha256_cuerpo_esperado": "be2b6352ab54163e0ac43ad689907fc89210814e539dbd69711db3a8f71be374"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-16",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2469,
+            "sha256_cuerpo": "b9158030e1b1c39ea30a9c7923d8b312d58f6ee4be5ad313535c2b7494e2bd9f",
+            "sha256_cuerpo_esperado": "b9158030e1b1c39ea30a9c7923d8b312d58f6ee4be5ad313535c2b7494e2bd9f"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-17",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2894,
+            "sha256_cuerpo": "81171e484c48085f1bd6e98c6cb952e805d836331399b9dfff2e5b03cd82b031",
+            "sha256_cuerpo_esperado": "81171e484c48085f1bd6e98c6cb952e805d836331399b9dfff2e5b03cd82b031"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-18",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2899,
+            "sha256_cuerpo": "25bca1890ebc88f194e98783cdd76eafb1145f7c560facb9423b3a64dbb9686c",
+            "sha256_cuerpo_esperado": "25bca1890ebc88f194e98783cdd76eafb1145f7c560facb9423b3a64dbb9686c"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-19",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2821,
+            "sha256_cuerpo": "716214d59db4629ed4b529b28e94e6497052fb24167e9f568776b65a2091acb8",
+            "sha256_cuerpo_esperado": "716214d59db4629ed4b529b28e94e6497052fb24167e9f568776b65a2091acb8"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-20",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2901,
+            "sha256_cuerpo": "ec8c9775d8f057e1b0d32968510f32f7dc7a1dd0bd4da1ab95ce7aeb8746e713",
+            "sha256_cuerpo_esperado": "ec8c9775d8f057e1b0d32968510f32f7dc7a1dd0bd4da1ab95ce7aeb8746e713"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-territorial-3.json",
+          "id": "T-21",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2938,
+            "sha256_cuerpo": "2305e0711d0be64f55487cd589a21882573570781795b42ce6cba77a3fe84c0a",
+            "sha256_cuerpo_esperado": "2305e0711d0be64f55487cd589a21882573570781795b42ce6cba77a3fe84c0a"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-01",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2879,
+            "sha256_cuerpo": "28f6de27935ecaa92f09e61d10588726bd3f06909cb78e8f8ffdd0adb3e1eb0b",
+            "sha256_cuerpo_esperado": "28f6de27935ecaa92f09e61d10588726bd3f06909cb78e8f8ffdd0adb3e1eb0b"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-02",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2609,
+            "sha256_cuerpo": "9e272debd8bdfa2ec46b339ee2939cadddfa0dc2694092e5ebdc3835d289f585",
+            "sha256_cuerpo_esperado": "9e272debd8bdfa2ec46b339ee2939cadddfa0dc2694092e5ebdc3835d289f585"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-03",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2290,
+            "sha256_cuerpo": "731de7aab719d4fb5977312ef9a776840a45d0fcfe7eeae8590fa9dc539d34b0",
+            "sha256_cuerpo_esperado": "731de7aab719d4fb5977312ef9a776840a45d0fcfe7eeae8590fa9dc539d34b0"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-04",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2740,
+            "sha256_cuerpo": "4797e1a8a82ba711e8fcedb8b11beb66b23955c3c0af573241de7d684c169d62",
+            "sha256_cuerpo_esperado": "4797e1a8a82ba711e8fcedb8b11beb66b23955c3c0af573241de7d684c169d62"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-05",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 3073,
+            "sha256_cuerpo": "f38333badd44145dfb4bd9e7461de405ff083de03464366398866edc00090c23",
+            "sha256_cuerpo_esperado": "f38333badd44145dfb4bd9e7461de405ff083de03464366398866edc00090c23"
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-contraste.json",
+          "id": "C-06",
+          "resultado": "coincide",
+          "estados": {
+            "esperado": 200,
+            "http": 200
+          },
+          "hashes": {
+            "longitud_cuerpo": 2888,
+            "sha256_cuerpo": "2356a724cc0f3f8ff5fc68647dcaa86ff660bf1a9c547213399955a818ef357a",
+            "sha256_cuerpo_esperado": "2356a724cc0f3f8ff5fc68647dcaa86ff660bf1a9c547213399955a818ef357a"
+          },
+          "diferencias_total": 0
+        }
+      ]
+    },
+    {
+      "servidor": "publico",
+      "modo": "buscar_auto",
+      "resumen": {
+        "casos": 43,
+        "coinciden": 43,
+        "diferencias": 0,
+        "errores": 0,
+        "esperado_casos": 43,
+        "exit": 0
+      },
+      "codigo_estable": true,
+      "informe_local_sha256": "5773b4cdbdcfa0b669557d701df9c3f2a8c2b633b9a01eaa670bdb14223e4f7a",
+      "runner_sha256": "2f306aba74f52b61b96f548300a41902526e82528c846a551098c879370b4eec",
+      "estados_respuesta": {
+        "ok": 29,
+        "aclaracion_necesaria": 14
+      },
+      "casos": [
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "72f7033dc019734370cd76ca19789da46df5414d5882ed0597a9a924bc29a159",
+              "c48cee8d853e33ee390eacd0a2eb493341132e3dc4813f81ddd5a28285517fc7"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "4c80f332f025cf3fa8c2c201c96cfef449094bb8af2e7971d0bc930c70c02e38"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "2bb9df9e8f413932fcf3d0209dafddcc136869383b0f94d694ca19799fc49e06",
+              "63454fb59316c2ae3499101d19a78d358f0997ce7e956ee38a255310b02e77bd"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "2d11c147c66c15d3f680e22d4764758baa5c9442299f00dd3e38beadc5e40787",
+              "7f890bd495552e979f83f72c5f5c7b642e745911a8e343a7b5b73023ce0e1f05"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "445663fb6376842e8e72cca8a6d1b9d48fbcb32b6ffe742cc7cdd4152be33f2e"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "94f226963a8c3f9d514474869f4d51f56e7a3915f02b3bc1591f20feda912697"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "1136eafa9a7a9eba7b132e0d4a3863a90acc62cf6d2f14d8e1e8b3d8b9c01776"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "4bad5c87d8113704a404671a30065e2aeb0d92ec18b25abe7b1634a14caa0575"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "28436cd2d66512528425e6737ae4dfba2a83c399be7dd9986ffea2b2eb83a981"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-10",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "5d7d6c978c90a34b557962a226a5bf444fa38896cb10f1bbac19289999a7f832"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-11",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "62c047907b1660d538b70bb4e30790ec495afcdabc5b6b872ba4c7400ad591cb",
+              "bad9e8d07be7ca46ae1549122438ef2ce704e8fc81cc926a9eb904b190b289ad"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-12",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "86bc4d3de9306e7a46d87b27dfc71396a3d2d843630b9ae5f3db094ce0ee1f19"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-13",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "7bad01b0e315af2516766207cfb8339f7ebc65f17558e0fe497e18953edc4bb7"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-14",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "195289aa44c8482e6e1e1bc4856b24271efc4841a7454fb83f30cb09fc272aed"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-15",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "c085dfea5e77c60012dd3f47be97911076797ad104f26941ada0e7365e44f364"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-16",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "36959893c3b33477602ca6b0ce5f91c5719d2da0b9618e93523053cbb41dd0d3",
+              "72f7033dc019734370cd76ca19789da46df5414d5882ed0597a9a924bc29a159"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-17",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+              "a332c2a92a209f75f440746af40b1c2facfed91b716b07ead6d8653492c60b49"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-18",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-19",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "589bf794e3098f75110bc9bd57fbece23a34bd7c16ad90811d81d07300c1e0f1",
+              "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-20",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres.json",
+          "id": "L-21",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "a69be972c4cb30c3189b734a390e26fc5db373c218bb99335367cdfd807c4a99"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres-controles.json",
+          "id": "G-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+              "6c3b1865d0b18bd128c261a81af2e428b4cf91c2e9cf9a231cb464f4e46fd815"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-libres-controles.json",
+          "id": "G-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-07",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-08",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-09",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-10",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-11",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-12",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-13",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "T-14",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "aclaracion_necesaria"
+          },
+          "hashes": {
+            "sha256_lecturas": []
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-01",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958",
+              "6c3b1865d0b18bd128c261a81af2e428b4cf91c2e9cf9a231cb464f4e46fd815"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-02",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-03",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "0a2e78cd62471d9cc5cfe2efbc6aa39fdbad73c124aea7b039f9de96c141e105",
+              "3cfb5bbb135e8f02faebd8b844e03e8947994c18d4c9e675a7d2aa37d1cd5958"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-04",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-05",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96"
+            ]
+          },
+          "diferencias_total": 0
+        },
+        {
+          "fixture": "territorial/casos-sin-ubicacion.json",
+          "id": "N-06",
+          "resultado": "coincide",
+          "estados": {
+            "http": 200,
+            "respuesta": "ok"
+          },
+          "hashes": {
+            "sha256_lecturas": [
+              "72f7033dc019734370cd76ca19789da46df5414d5882ed0597a9a924bc29a159"
+            ]
+          },
+          "diferencias_total": 0
+        }
+      ]
+    }
+  ],
+  "total_comparaciones_http": 273,
+  "sondeo_plazo": [
+    {
+      "caso": "N-06",
+      "modo": "sin-precalculo",
+      "plazo_servidor": 15,
+      "codigo_sha256": {
+        "acceso.py": "175ee3ebb480337b19713e7bc7b90ce6bde93fe801386eb3f4ca5321468848c1",
+        "adaptador_contexto.py": "652ca92cac21081a33bcf3fd7e5805716b49cb901faa9bc34afd3ed3346ff5a3",
+        "http_consulta.py": "bda5917e804c4add072585fe931ba0288d0129d1851b81ac5b611f6ef24dd270",
+        "servicio_publico.py": "c9ca893b7e705a2e6725f4881fb800df151504d77144e4a6000001fdb707ad90"
+      },
+      "nota": "Proceso nuevo; cache SO no controlada; instrumentacion de Timer solo observacional.",
+      "error": "RemoteDisconnected",
+      "duracion_ms": 15061.0,
+      "timer_disparado": true
+    },
+    {
+      "caso": "N-06",
+      "modo": "preparado",
+      "plazo_servidor": 15,
+      "codigo_sha256": {
+        "acceso.py": "bd4808d44056c2a836710f280495b2caac502125355e9b6e20aa37264b97f78c",
+        "adaptador_contexto.py": "3eb6687bd1c4212a22bd24cb56a005f0f71348e6e6b93fd549803b3306cd29d7",
+        "http_consulta.py": "07a1d311f1a3286bc283017883dfc8e74b76bf07ddcd5508e2d074779647ca5c",
+        "servicio_publico.py": "c9ca893b7e705a2e6725f4881fb800df151504d77144e4a6000001fdb707ad90"
+      },
+      "nota": "Proceso nuevo; cache SO no controlada; instrumentacion de Timer solo observacional.",
+      "status": 200,
+      "estado": "ok",
+      "contexto_identico": true,
+      "sin_contenido_privado": true,
+      "duracion_ms": 3094.4,
+      "timer_disparado": false
+    }
+  ],
+  "limites": [
+    "Solo loopback local, sin despliegue remoto ni TLS.",
+    "No acredita vigencia ni interpretacion normativa. Solo los casos anteriores y este corpus.",
+    "No mide RAM ni consumo de API ni ahorro de tokens. OpenCode NaN implemento la mayor parte; Codex reviso/corrigio y ejecuto las comprobaciones.",
+    "Sondeo del plazo: un proceso nuevo por variante; cache del sistema operativo no controlada; Timer instrumentado solo para observar el cierre. No es benchmark de latencia.",
+    "La cache se prepara al arrancar y exige reiniciar tras actualizar el corpus.",
+    "Cuatro formulaciones municipales adicionales (ocho peticiones) corrigen dos huecos previos; se mantienen intactas las 91 referencias de regresion anteriores."
+  ],
+  "lecturas_literal_HTTP": [
+    {
+      "documento": "BOE-A-2002-18099",
+      "pagina": 109,
+      "status": 200,
+      "coincide": true,
+      "texto_sha256": "5169805b8664c01b18c46b1f4fe964d223189ea3d3ae34c47b3385e059f4b9ff"
+    },
+    {
+      "documento": "DB-SUA-oficial",
+      "pagina": 36,
+      "status": 200,
+      "coincide": true,
+      "texto_sha256": "53fe54f5e0cddf54b845c68483f2174f7cfd20b004794f9f146f1858327fd166"
+    },
+    {
+      "documento": "BOE-A-2001-18984",
+      "pagina": 18,
+      "status": 200,
+      "coincide": true,
+      "texto_sha256": "9cabf698122e650d0ddeec315cb2ec84fe3aef3dafc4f63db8a57a313f3b2381"
+    },
+    {
+      "documento": "BOE-A-2011-17400",
+      "pagina": 21,
+      "status": 200,
+      "coincide": true,
+      "texto_sha256": "d899926eae7b6fc67285a9ac0a0f6ee21b0223dc99d9b73bce5bb985f0317977"
+    },
+    {
+      "documento": "MUN-MALAGA-OMLU-2025",
+      "pagina": 16,
+      "status": 200,
+      "coincide": true,
+      "texto_sha256": "eb24711bac8564b280faa228e1aa41054aea186b0e04010fb290463e9062aa95"
+    },
+    {
+      "documento": "MUN-MALAGA-OMLU-2025",
+      "pagina": 33,
+      "status": 200,
+      "coincide": true,
+      "texto_sha256": "a7a69523b6067ed54bc10182c5108a3105ea48a76bf6d4ecf7db821ce4cdcb3d"
+    }
+  ],
+  "pruebas_unitarias": {
+    "suites": [
+      {
+        "suite": "general",
+        "pruebas": 19,
+        "resultado": "OK",
+        "log_local_sha256": "d22ad22b4da6bb72d3ba50eed1d20b0e143ddb7db5b4d36681ae3dbf3a8cfb96"
+      },
+      {
+        "suite": "sua",
+        "pruebas": 19,
+        "resultado": "OK",
+        "log_local_sha256": "1bf5512cdb9a11105bbd480920e2a1471934eec212c46414105da4627b1b8a90"
+      },
+      {
+        "suite": "herramientas",
+        "pruebas": 10,
+        "resultado": "OK",
+        "log_local_sha256": "bb087ca4653560f08aee9adff33466f7decd2044264c828a1ede4f6ce3462489"
+      },
+      {
+        "suite": "evaluacion",
+        "pruebas": 41,
+        "resultado": "OK",
+        "log_local_sha256": "b4a3968fb3220443c59cd14ddcda1007813345e9b11287a1f23a1d8944831718"
+      },
+      {
+        "suite": "http",
+        "pruebas": 90,
+        "resultado": "OK",
+        "log_local_sha256": "89a851f8d4fa43275bb5003b5be7ef45e7b3d1fd2a2449948d90c9af55576241"
+      }
+    ],
+    "total": 179,
+    "omitidas": 0
+  },
+  "sondeos_municipales_adicionales": [
+    {
+      "consulta": "Segun la ordenanza municipal de Madrid, que documentacion necesito para solicitar una licencia de obras?",
+      "municipio": "Madrid",
+      "forma": "de",
+      "ruta": "contexto",
+      "status": 200,
+      "estado_antes": "sin_resultados",
+      "estado": "sin_resultados",
+      "sin_evidencia": true,
+      "coincide": true
+    },
+    {
+      "consulta": "Segun la ordenanza municipal de Madrid, que documentacion necesito para solicitar una licencia de obras?",
+      "municipio": "Madrid",
+      "forma": "de",
+      "ruta": "buscar",
+      "status": 200,
+      "estado_antes": "sin_resultados",
+      "estado": "sin_resultados",
+      "sin_evidencia": true,
+      "coincide": true
+    },
+    {
+      "consulta": "En Madrid, que documentacion exige la ordenanza municipal para solicitar una licencia de obras?",
+      "municipio": "Madrid",
+      "forma": "en",
+      "ruta": "contexto",
+      "status": 200,
+      "estado_antes": "ok",
+      "estado": "sin_resultados",
+      "sin_evidencia": true,
+      "coincide": true
+    },
+    {
+      "consulta": "En Madrid, que documentacion exige la ordenanza municipal para solicitar una licencia de obras?",
+      "municipio": "Madrid",
+      "forma": "en",
+      "ruta": "buscar",
+      "status": 200,
+      "estado_antes": "ok",
+      "estado": "sin_resultados",
+      "sin_evidencia": true,
+      "coincide": true
+    },
+    {
+      "consulta": "Segun la ordenanza municipal de Sevilla, que documentacion necesito para solicitar una licencia de obras?",
+      "municipio": "Sevilla",
+      "forma": "de",
+      "ruta": "contexto",
+      "status": 200,
+      "estado_antes": "aclaracion_necesaria",
+      "estado": "sin_resultados",
+      "sin_evidencia": true,
+      "coincide": true
+    },
+    {
+      "consulta": "Segun la ordenanza municipal de Sevilla, que documentacion necesito para solicitar una licencia de obras?",
+      "municipio": "Sevilla",
+      "forma": "de",
+      "ruta": "buscar",
+      "status": 200,
+      "estado_antes": "aclaracion_necesaria",
+      "estado": "sin_resultados",
+      "sin_evidencia": true,
+      "coincide": true
+    },
+    {
+      "consulta": "En Sevilla, que documentacion exige la ordenanza municipal para solicitar una licencia de obras?",
+      "municipio": "Sevilla",
+      "forma": "en",
+      "ruta": "contexto",
+      "status": 200,
+      "estado_antes": "sin_resultados",
+      "estado": "sin_resultados",
+      "sin_evidencia": true,
+      "coincide": true
+    },
+    {
+      "consulta": "En Sevilla, que documentacion exige la ordenanza municipal para solicitar una licencia de obras?",
+      "municipio": "Sevilla",
+      "forma": "en",
+      "ruta": "buscar",
+      "status": 200,
+      "estado_antes": "sin_resultados",
+      "estado": "sin_resultados",
+      "sin_evidencia": true,
+      "coincide": true
+    }
+  ]
+}
