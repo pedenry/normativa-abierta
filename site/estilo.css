@@ -15,3 +15,19 @@ ul.apartados .n3{padding-left:2rem}ul.apartados .n4{padding-left:3rem}
 footer{margin-top:3rem;font-size:.8rem;color:#666;border-top:1px solid #ddd;padding-top:.6rem}
 img.figura{max-width:100%;height:auto;border:1px solid #ccc;margin:.4rem 0}
 .tabla-scroll{overflow-x:auto}code{overflow-wrap:anywhere}h1{overflow-wrap:anywhere}
+.territorio-indice ul{display:flex;flex-wrap:wrap;gap:.5rem 1rem;list-style:none;padding:0}
+.territorio-indice a{text-decoration:underline}
+details.territorio{border:1px solid #ccc;border-radius:.4rem;margin:.75rem 0}
+details.territorio>summary{cursor:pointer;padding:.75rem 1rem;line-height:1.4;
+font-family:system-ui,Segoe UI,Arial,sans-serif;font-weight:600;background:#eef4fa}
+details.territorio>summary:hover{background:#e2edf6}
+.territorio-contenido{padding:.5rem 1rem 1rem;min-width:0}
+.territorio-sub{margin:.5rem 0}
+.territorio-indice a:focus-visible,details.territorio>summary:focus-visible{
+outline:3px solid #0b4f8a;outline-offset:3px}
+@media(max-width:420px){.territorio-indice ul{display:grid;gap:.4rem}
+details.territorio>summary{padding:.65rem .75rem}.territorio-contenido{padding:.5rem .65rem}
+.territorio table{min-width:32rem;table-layout:fixed;width:100%}
+.territorio th:first-child{width:50%}.territorio th:nth-child(2){width:22%}
+.territorio th:nth-child(3){width:12%}.territorio th:nth-child(4){width:16%}
+.territorio td:nth-child(2){white-space:nowrap}}
