@@ -24,6 +24,7 @@ El adaptador local permite buscar sin indicar documento ni edición y pedir ubic
 | --- | --- | --- |
 | Leer normativa | [Visor](https://pedenry.github.io/normativa-abierta/) | Navegar por materia, documento, apartado y página. |
 | Recuperar evidencia con un agente local | [Guía](docs/uso-local.md) y [adaptador](experimentos/http-local/adaptador_contexto.py) | Buscar y entregar páginas literales al asistente. No requiere clave API para recuperar texto. |
+| Dimensionar aguas residuales con un motor externo | [Tablas DB HS 5](contenido/reglas/README.md) | Celdas cuantitativas de la edición fijada, con esquema y páginas de origen. |
 | Repetir la comparación con un modelo | [Piloto SUA](evaluacion/piloto_sua/README.md) | Ensayo por API frente a PDF indexado, con gasto y permisos explícitos. |
 
 Pegar un enlace en un chat no ejecuta el adaptador. Para el uso local, el asistente debe poder ejecutar Python y acceder a la carpeta. Su interfaz puede bastar: no hace falta desplegar una web propia. Usar un modelo remoto puede enviarle planos y textos; recuperación local no significa modelo local.

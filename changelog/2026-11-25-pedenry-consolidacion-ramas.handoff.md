@@ -38,10 +38,10 @@ El merge `0b52fb1e` agrupa Urbanismo por comunidad autónoma y facilita navegar 
 
 ### `codex/reglas-hs5-residuales`
 
-La rama apuntaba a la misma base que `main`. El trabajo sin commit se conservó en el directorio de trabajo de `main`. Incluye una exportación del DB HS 5 edición 2022-06-14 para las tablas 4.1, 4.3, 4.4 y 4.5, y datos de acometidas del artículo 95 de la ordenanza municipal de Madrid. El registro `changelog/2026-11-25-pedenry-recuperacion-tablas-hs5.changelog.md` y la guía `contenido/reglas/README.md` están en ese lote local. La guía documenta cómo reproducir la exportación y la huella pendiente del PDF de Madrid. Revisar el lote antes de registrarlo o publicarlo.
+La rama apuntaba a la misma base que `main`. El trabajo sin commit se conservó en el directorio de trabajo de `main`. El lote se incorporó después a `main` mediante un commit propio. Incluye una exportación del DB HS 5 edición 2022-06-14 para las tablas 4.1, 4.3, 4.4 y 4.5, y datos de acometidas del artículo 95 de la ordenanza municipal de Madrid. El [registro HS5](2026-11-25-pedenry-recuperacion-tablas-hs5.changelog.md) y la [guía de reglas](../contenido/reglas/README.md) documentan la exportación y la huella pendiente del PDF de Madrid. Se verificó la reproducción con `python -B herramientas/exportar_hs5_residuales.py --comprobar`.
 
 ## Pendiente y límites
 
 - El responsable autorizado puede retirar las cinco referencias de GitHub tras volver a verificar que sus tips están incluidos en `origin/main`.
-- Los resultados funcionales enlazados corresponden a las validaciones históricas. En esta consolidación se comprobó el historial y el estado de Git.
+- Los resultados funcionales enlazados corresponden a las validaciones históricas. En esta consolidación se comprobó el historial y el estado de Git, y se verificó la reproducción de las tablas HS5.
 - La recuperación y el visor aportan evidencia documental. La cobertura municipal es parcial y la aplicabilidad a un expediente exige verificar ámbito y régimen transitorio.

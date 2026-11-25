@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "jurisdiction": "ES-MD-079",
+  "scope": "acometida a la red municipal de alcantarillado de la ciudad de Madrid",
+  "source": {
+    "authority": "Ayuntamiento de Madrid",
+    "title": "Ordenanza de Gestión y Uso Eficiente del Agua en la Ciudad de Madrid",
+    "edition": "2011-04-08",
+    "identifier": "ANM 2011/146",
+    "url": "https://sede.madrid.es/sites/v/index.jsp?target=texto&titulo1=0&titulo2=3&titulo3=2&version=true&vgnextchannel=6b3d814231ede410VgnVCM1000000b205a0aRCRD&vgnextfmt=default&vgnextoid=e1e0e4f813140810VgnVCM2000001f4a900aRCRD"
+  },
+  "diameter": { "normalMm": 300, "higherRequiresExpressAcceptance": true, "articles": ["95.5", "95.6"] },
+  "slope": { "minPercent": 2, "maxPercent": 4, "uniform": true, "article": "95.7" },
+  "receivingDrop": { "minM": 0.4, "maxM": 0.8, "article": "95.14" },
+  "pendingChecks": [
+    "Punto receptor designado y tipo de colector confirmado (art. 92 y 95.12–13)",
+    "Material homologado, dirección del entronque, pasos de muro y rasante (art. 95.5 y 95.8–11)",
+    "Comprobación de reflujo y elevación si procede (art. 95.3–4)"
+  ]
+}

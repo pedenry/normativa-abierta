@@ -1,0 +1,390 @@
+{
+  "schema": 1,
+  "norma": "CTE DB HS 5",
+  "seccion": "4.1",
+  "fuente": {
+    "documento": "DB-HS-oficial",
+    "edicion": "2022-06-14",
+    "sha256": "68df3caacc95f71aee2ec1ba7b2c65ae66155c21e3a8785521b8fdd4fd640d3b",
+    "url": "https://www.codigotecnico.org/pdf/Documentos/HS/DBHS.pdf",
+    "tablas": {
+      "4.1": {
+        "pagina_fisica": 117,
+        "texto_sha256": "d74bdafa5e50f154b1eb2865f8df1ad9b4ae48d9eedd3b553fc6f70a5ce0b9e2",
+        "csv": "p0117_t01.csv"
+      },
+      "4.3": {
+        "pagina_fisica": 117,
+        "texto_sha256": "d74bdafa5e50f154b1eb2865f8df1ad9b4ae48d9eedd3b553fc6f70a5ce0b9e2",
+        "csv": "p0117_t03.csv"
+      },
+      "4.4": {
+        "pagina_fisica": 118,
+        "texto_sha256": "5db08922e9514817144b303dbc9459e3a714cb20d6980bcec260c86a056b5e4e",
+        "csv": "p0118_t01.csv"
+      },
+      "4.5": {
+        "pagina_fisica": 118,
+        "texto_sha256": "5db08922e9514817144b303dbc9459e3a714cb20d6980bcec260c86a056b5e4e",
+        "csv": "p0118_t02.csv"
+      }
+    }
+  },
+  "columnas": {
+    "aparatos": [
+      "ud_privado",
+      "diametro_privado_mm",
+      "ud_publico",
+      "diametro_publico_mm"
+    ],
+    "ramales": [
+      "diametro_mm",
+      "ud_1_pct",
+      "ud_2_pct",
+      "ud_4_pct"
+    ],
+    "colectores": [
+      "diametro_mm",
+      "ud_1_pct",
+      "ud_2_pct",
+      "ud_4_pct"
+    ],
+    "bajantes": [
+      "diametro_mm",
+      "ud_total_hasta_3",
+      "ud_total_mas_de_3",
+      "ud_ramal_hasta_3",
+      "ud_ramal_mas_de_3"
+    ]
+  },
+  "aparatos": {
+    "lavabo": [
+      1,
+      32,
+      2,
+      40
+    ],
+    "bide": [
+      2,
+      32,
+      3,
+      40
+    ],
+    "ducha": [
+      2,
+      40,
+      3,
+      50
+    ],
+    "banera": [
+      3,
+      40,
+      4,
+      50
+    ],
+    "inodoro_cisterna": [
+      4,
+      100,
+      5,
+      100
+    ],
+    "inodoro_fluxometro": [
+      8,
+      100,
+      10,
+      100
+    ],
+    "urinario_pedestal": [
+      null,
+      null,
+      4,
+      50
+    ],
+    "urinario_suspendido": [
+      null,
+      null,
+      2,
+      40
+    ],
+    "urinario_bateria": [
+      null,
+      null,
+      3.5,
+      null
+    ],
+    "fregadero": [
+      3,
+      40,
+      6,
+      50
+    ],
+    "fregadero_profesional": [
+      null,
+      null,
+      2,
+      40
+    ],
+    "lavadero": [
+      3,
+      40,
+      null,
+      null
+    ],
+    "vertedero": [
+      null,
+      null,
+      8,
+      100
+    ],
+    "fuente": [
+      null,
+      null,
+      0.5,
+      25
+    ],
+    "sumidero_sifonico": [
+      1,
+      40,
+      3,
+      50
+    ],
+    "lavavajillas": [
+      3,
+      40,
+      6,
+      50
+    ],
+    "lavadora": [
+      3,
+      40,
+      6,
+      50
+    ],
+    "bano_cisterna": [
+      7,
+      100,
+      null,
+      null
+    ],
+    "bano_fluxometro": [
+      8,
+      100,
+      null,
+      null
+    ],
+    "aseo_cisterna": [
+      6,
+      100,
+      null,
+      null
+    ],
+    "aseo_fluxometro": [
+      8,
+      100,
+      null,
+      null
+    ]
+  },
+  "ramales": [
+    [
+      32,
+      null,
+      1,
+      1
+    ],
+    [
+      40,
+      null,
+      2,
+      3
+    ],
+    [
+      50,
+      null,
+      6,
+      8
+    ],
+    [
+      63,
+      null,
+      11,
+      14
+    ],
+    [
+      75,
+      null,
+      21,
+      28
+    ],
+    [
+      90,
+      47,
+      60,
+      75
+    ],
+    [
+      110,
+      123,
+      151,
+      181
+    ],
+    [
+      125,
+      180,
+      234,
+      280
+    ],
+    [
+      160,
+      438,
+      582,
+      800
+    ],
+    [
+      200,
+      870,
+      1150,
+      1680
+    ]
+  ],
+  "bajantes": [
+    [
+      50,
+      10,
+      25,
+      6,
+      6
+    ],
+    [
+      63,
+      19,
+      38,
+      11,
+      9
+    ],
+    [
+      75,
+      27,
+      53,
+      21,
+      13
+    ],
+    [
+      90,
+      135,
+      280,
+      70,
+      53
+    ],
+    [
+      110,
+      360,
+      740,
+      181,
+      134
+    ],
+    [
+      125,
+      540,
+      1100,
+      280,
+      200
+    ],
+    [
+      160,
+      1208,
+      2240,
+      1120,
+      400
+    ],
+    [
+      200,
+      2200,
+      3600,
+      1680,
+      600
+    ],
+    [
+      250,
+      3800,
+      5600,
+      2500,
+      1000
+    ],
+    [
+      315,
+      6000,
+      9240,
+      4320,
+      1650
+    ]
+  ],
+  "colectores": [
+    [
+      50,
+      null,
+      20,
+      25
+    ],
+    [
+      63,
+      null,
+      24,
+      29
+    ],
+    [
+      75,
+      null,
+      38,
+      57
+    ],
+    [
+      90,
+      96,
+      130,
+      160
+    ],
+    [
+      110,
+      264,
+      321,
+      382
+    ],
+    [
+      125,
+      390,
+      480,
+      580
+    ],
+    [
+      160,
+      880,
+      1056,
+      1300
+    ],
+    [
+      200,
+      1600,
+      1920,
+      2300
+    ],
+    [
+      250,
+      2900,
+      3500,
+      4200
+    ],
+    [
+      315,
+      5710,
+      6920,
+      8290
+    ],
+    [
+      350,
+      8300,
+      10000,
+      12000
+    ]
+  ]
+}
