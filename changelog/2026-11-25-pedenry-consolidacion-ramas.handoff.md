@@ -7,12 +7,12 @@ usuario_github_verificado: pedenry (id 35270581, metadatos del merge base)
 solicitante: Pedro
 ejecutor: Codex
 commits: base 0b52fb1e, merges de PR 1 a 5
-estado: limpieza local verificada, eliminación remota pendiente
+estado: main verificada como única rama local y en GitHub
 ---
 
 ## Estado de la integración
 
-Los cinco tips de los PR son ancestros de `main`. Antes de retirar las ramas se simularon las 21 fusiones por pares entre las siete referencias locales, todas sin conflictos. Se cambió a `main` y se retiraron las seis ramas locales con `git branch --delete`. GitHub conserva las cinco ramas de los PR. Los enlaces a los PR y los commits de merge permiten localizar los cambios aunque se retiren esas ramas.
+Los cinco tips de los PR son ancestros de `main`. Antes de retirar las ramas se simularon las 21 fusiones por pares entre las siete referencias locales, todas sin conflictos. Se cambió a `main` y se retiraron las seis ramas locales con `git branch --delete`. Tras publicar `main` en `2e29ce55`, se comprobó que incluía los cinco tips remotos y se eliminaron esas ramas en una sola operación. La consulta posterior a GitHub devolvió únicamente `main`. Los enlaces a los PR y los commits de merge permiten localizar los cambios aunque se retiren esas ramas.
 
 ## Qué reutilizar de cada rama
 
